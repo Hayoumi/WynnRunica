@@ -68,9 +68,7 @@ public class TitleTrackerMixin {
             String playerName = MinecraftClient.getInstance().getSession().getUsername();
             key = key.replace(playerName, "<playername>");
 
-            System.out.println("KEY=[" + key + "]");
             String translation = TranslationPrinter.getTranslation(key);
-            System.out.println("TRANSLATION=[" + translation + "]");
             if (translation.equals(key)) return;
 
             translation = translation.replace("<playername>", playerName);
