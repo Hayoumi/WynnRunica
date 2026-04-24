@@ -6,6 +6,9 @@ public class WynnRunicaClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+
+        TranslationUpdater.update();
         TranslationPrinter.loadTraslations();
+
     }
 }
