@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "wynn_runica",
+  "version": "${version}",
+  "name": "WynnRunica",
+  "description": "Клиентский мод для перевода диалогов на сервере Wynncraft",
+  "authors": ["shiiu"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/wynn_runica/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.WynnRunica.WynnRunicaClient"
+    ]
+  },
+  "mixins": [
+    "wynnrunica.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

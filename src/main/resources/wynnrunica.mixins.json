@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.WynnRunica.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "TitleTrackerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
