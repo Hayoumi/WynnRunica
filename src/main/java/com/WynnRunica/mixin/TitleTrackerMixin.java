@@ -7,6 +7,8 @@ import net.minecraft.text.MutableText;
 import net.minecraft.text.Style;
 import net.minecraft.text.StyleSpriteSource;
 import net.minecraft.text.Text;
+import net.minecraft.text.TextColor;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -48,12 +50,13 @@ public class TitleTrackerMixin {
                 Text sib = siblings.get(i);
                 if (sib.getStyle().getFont() != null &&
                         sib.getStyle().getFont().toString().contains("body_") &&
-                        sib.getString().length() > 2) {
+                        !extractCleanText(sib.getString()).trim().isEmpty()) {
                     textIndices.add(i);
                     textSibs.add(sib);
                 }
             }
             if (textSibs.isEmpty()) return;
+
 
             StringBuilder keyBuilder = new StringBuilder();
             for (Text sib : textSibs) {
@@ -77,40 +80,75 @@ public class TitleTrackerMixin {
 
             if (textSibs.size() == 1) {
                 // single-sibling mode (без Wynntils)
-                // getString() возвращает surrogates — первые 2 символа это cursor positioning pair
                 String rawText = textSibs.get(0).getString();
                 String startPos = rawText.length() >= 2 ? rawText.substring(0, 2) : "";
 
-                // Плоская структура: startPos + manageWidth(line[i]) для каждой строки
-                MutableText copy = Text.literal(startPos).setStyle(bodyStyles[0]);
+                int originalSibWidth = getRenderWidth(textSibs.get(0));
+
+                TextColor originalColor = textSibs.get(0).getStyle().getColor();
+
+                boolean isRealStartPos = !startPos.isEmpty() && Character.isHighSurrogate(startPos.charAt(0));
+                MutableText copy = Text.literal(isRealStartPos ? startPos : "").setStyle(bodyStyles[0]);
                 for (int i = 0; i < lines.size() && i < 5; i++) {
-                    MutableText line = Text.literal(lines.get(i)).setStyle(bodyStyles[i]);
+                    Style lineStyle = originalColor != null ? bodyStyles[i].withColor(originalColor) : bodyStyles[i];
+                    MutableText line = parseBrackets(lines.get(i), lineStyle);
                     line = manageWidth(line);
                     copy.append(line);
                 }
-                copy = manageWidth(copy);
+                int widthBeforeFinalManage = getRenderWidth(copy);
+
+                int adjust = originalSibWidth - widthBeforeFinalManage;
+                if (adjust > 0) {
+                    int spaces = (adjust + 3) / 4;
+                    int modulo = adjust % 4;
+                    StringBuilder sb = new StringBuilder(" ".repeat(spaces));
+                    if (modulo != 0) {
+                        sb.append(SPECIAL_CHAR).append((char)(ZERO_WIDTH_CHAR - (4 - modulo)));
+                    }
+                    copy.append(Text.literal(sb.toString()).setStyle(bodyStyles[0]));
+                } else if (adjust < 0) {
+                    int backUp = -adjust;
+                    copy.append(Text.literal("" + SPECIAL_CHAR + (char)(ZERO_WIDTH_CHAR - backUp)).setStyle(bodyStyles[0]));
+                }
 
                 siblings.set(textIndices.get(0), copy);
 
+
             } else {
                 // multi-sibling mode (с Wynntils)
-                MutableText copy = Text.literal(lines.get(0)).setStyle(bodyStyles[0]);
+                TextColor originalColor = textSibs.get(0).getStyle().getColor();
+                Style line0Style = originalColor != null ? bodyStyles[0].withColor(originalColor) : bodyStyles[0];
+                MutableText copy = parseBrackets(lines.get(0), line0Style);
                 for (int i = 1; i < lines.size() && i < 5; i++) {
                     copy = manageWidth(copy);
-                    copy.append(Text.literal(lines.get(i)).setStyle(bodyStyles[i]));
+                    Style lineStyle = originalColor != null ? bodyStyles[i].withColor(originalColor) : bodyStyles[i];
+                    copy.append(parseBrackets(lines.get(i), lineStyle));
                 }
 
                 int originalTotalWidth = getRenderWidth(message);
                 siblings.set(textIndices.get(0), copy);
-                for (int i = 1; i < textIndices.size(); i++) {
-                    if (textSibs.get(i).getStyle().getFont() == null) continue;
-                    String fontStr = textSibs.get(i).getStyle().getFont().toString();
-                    int n = 0;
-                    for (int j = 1; j < 5; j++) {
-                        if (fontStr.contains("body_" + j)) { n = j; break; }
+
+                int lastTextIdx = textIndices.get(textIndices.size() - 1);
+                int cursorResetIdx = -1;
+                for (int i = lastTextIdx + 1; i < siblings.size(); i++) {
+                    Text sib = siblings.get(i);
+                    if (sib.getStyle().getFont() != null &&
+                            sib.getStyle().getFont().toString().contains("body_") &&
+                            sib.getString().length() <= 2) {
+                        cursorResetIdx = i;
+                        break;
                     }
-                    siblings.set(textIndices.get(i), Text.literal("").setStyle(bodyStyles[n]));
                 }
+
+                int clearEnd = cursorResetIdx > 0 ? cursorResetIdx : lastTextIdx + 1;
+                for (int i = textIndices.get(0) + 1; i < clearEnd; i++) {
+                    Text sib = siblings.get(i);
+                    if (sib.getStyle().getFont() != null &&
+                            sib.getStyle().getFont().toString().contains("body_")) {
+                        siblings.set(i, Text.literal(""));
+                    }
+                }
+
                 int newTotalWidth = getRenderWidth(messageCopy);
                 int diff = originalTotalWidth - newTotalWidth;
                 if (diff > 0) {
@@ -149,6 +187,7 @@ public class TitleTrackerMixin {
             if (c == SPECIAL_CHAR) { out.append(" "); skipNext = true; continue; }
             if (c >= '\uD800' && c <= '\uDBFF') { skipNext = true; continue; }
             if (c >= '\uDC00' && c <= '\uDFFF') { continue; }
+            if (c >= '\uE000' && c <= '\uF8FF') { continue; }
             out.append(c);
         }
         return out.toString();
@@ -209,5 +248,29 @@ public class TitleTrackerMixin {
 
     private int getRenderWidth(Text component) {
         return MinecraftClient.getInstance().textRenderer.getWidth(component);
+    }
+
+    private MutableText parseBrackets(String text, Style baseStyle) {
+        MutableText result = Text.literal("").setStyle(baseStyle);
+        int lastPos = 0;
+        int startIdx = text.indexOf('[');
+        while (startIdx != -1) {
+            int endIdx = text.indexOf(']', startIdx);
+            if (endIdx != -1) {
+                if (startIdx > lastPos) {
+                    result.append(Text.literal(text.substring(lastPos, startIdx)).setStyle(baseStyle));
+                }
+                Style bracketStyle = baseStyle.withColor(Formatting.AQUA);
+                result.append(Text.literal(text.substring(startIdx, endIdx + 1)).setStyle(bracketStyle));
+                lastPos = endIdx + 1;
+                startIdx = text.indexOf('[', lastPos);
+            } else {
+                break;
+            }
+        }
+        if (lastPos < text.length()) {
+            result.append(Text.literal(text.substring(lastPos)).setStyle(baseStyle));
+        }
+        return result;
     }
 }

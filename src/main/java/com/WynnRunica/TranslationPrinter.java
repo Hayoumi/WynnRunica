@@ -36,7 +36,6 @@ public class TranslationPrinter {
         double bestScore = 0.0;
 
         if (currentQuest != null) {
-
             for (String key : translations.keySet()) {
                 if (TranslationLoader.keyToQuest.get(key).equals(currentQuest)) {
                     double score = Epstein.similarity(cleanText, key);
@@ -46,7 +45,6 @@ public class TranslationPrinter {
                     }
                 }
             }
-
             if (bestScore > 0.82) {
                 return translations.get(bestKey);
             } else {
