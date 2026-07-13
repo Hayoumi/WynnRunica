@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://discord.gg/UdSphBU7ye">
-    <img src="">
+    <img src="https://raw.githubusercontent.com/Hayoumi/WynnRunica/c3ff25ac8980a440208bf4350e6fba3e5b20f8ac/src/main/resources/assets/wynnrunica/wynnrunica-discord.svg">
   </a>
 </p>
 
