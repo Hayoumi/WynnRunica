@@ -1,7 +1,7 @@
 # WynnRunica
 
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/Hayoumi/WynnRunica/main/src/main/resources/javaw_y4p5tD9dQi.png](https://raw.githubusercontent.com/Hayoumi/Minecraft-View-Model-Customizer/refs/heads/main/src/main/resources/javaw_rs75vGoha5.png)" alt="View Model Customizer in game" width="600"/>
+  <img src="https://raw.githubusercontent.com/Hayoumi/WynnRunica/main/src/main/resources/javaw_y4p5tD9dQi.png" alt="WynnRunica в действии" width="600"/>
 </p>
 
 <p align="center">
