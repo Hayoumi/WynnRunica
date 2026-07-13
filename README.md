@@ -1,6 +1,12 @@
 <h1 align="center">WynnRunica</h1>
 
 <p align="center">
+  <a href="https://discord.gg/UdSphBU7ye">
+    <img src="https://raw.githubusercontent.com/Hayoumi/WynnRunica/c3ff25ac8980a440208bf4350e6fba3e5b20f8ac/src/main/resources/assets/wynnrunica/wynnrunica-discord.svg">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Minecraft-1.21.11-55D6FF?style=for-the-badge&labelColor=17151C" alt="Minecraft 1.21.11">
   <img src="https://img.shields.io/badge/Loader-Fabric-C9B8FF?style=for-the-badge&labelColor=17151C" alt="Fabric">
   <img src="https://img.shields.io/badge/Environment-Client--side-74F7A5?style=for-the-badge&labelColor=17151C" alt="Client-side">
@@ -10,12 +16,6 @@
 <p align="center">
   <strong>Русский перевод Wynncraft, который выглядит частью самой игры.</strong><br>
   Диалоги, интерфейс и предметы остаются в родных окнах Wynncraft: с пиксельным шрифтом, иконками, цветами и форматированием.
-</p>
-
-<p align="center">
-  <a href="https://discord.gg/UdSphBU7ye">
-    <img src="https://raw.githubusercontent.com/Hayoumi/WynnRunica/c3ff25ac8980a440208bf4350e6fba3e5b20f8ac/src/main/resources/assets/wynnrunica/wynnrunica-discord.svg">
-  </a>
 </p>
 
 <p align="center">
