@@ -18,24 +18,24 @@ public class GuiTranslationMixin {
     @Inject(method = "onInventory", at = @At("HEAD"))
     private void onInventory(InventoryS2CPacket packet, CallbackInfo ci) {
 
-        if (!WynnRunicaClient.enabled) return;
         GuiTranslationCache.resetIfSyncIdChanged(packet.syncId());
 
         for (ItemStack stack : packet.contents()) {
 
             if (stack.isEmpty()) continue;
-            GuiTranslator.translateStack(stack);
+            GuiTranslationCache.rememberOriginal(stack);
+            if (WynnRunicaClient.enabled) GuiTranslator.translateStack(stack);
         }
     }
 
     @Inject(method = "onScreenHandlerSlotUpdate", at = @At("HEAD"))
     private void onScreenHandlerSlotUpdate(ScreenHandlerSlotUpdateS2CPacket packet, CallbackInfo ci) {
 
-        if (!WynnRunicaClient.enabled) return;
         GuiTranslationCache.resetIfSyncIdChanged(packet.getSyncId());
         ItemStack stack = packet.getStack();
 
         if (stack.isEmpty()) return;
-        GuiTranslator.translateStack(stack);
+        GuiTranslationCache.rememberOriginal(stack);
+        if (WynnRunicaClient.enabled) GuiTranslator.translateStack(stack);
     }
 }

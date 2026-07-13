@@ -1,0 +1,22 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        " ": 4
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "wynnrunica:font/language/wynncraft_cyrillic.png",
+      "ascent": 10,
+      "height": 11,
+      "chars": [
+        "АБВГДЕЁЖЗИЙКЛМНОП",
+        "РСТУФХЦЧШЩЪЫЬЭЮЯ\u0000",
+        "абвгдеёжзийклмноп",
+        "рстуфхцчшщъыьэюя\u0001"
+      ]
+    }
+  ]
+}

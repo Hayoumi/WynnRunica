@@ -67,7 +67,6 @@ public class WynnRunicaClient implements ClientModInitializer {
                 }
             }
             toggleKeyWasDown = isDown;
-
             int reload = InputUtil.fromTranslationKey(reloadKey.getBoundKeyTranslationKey()).getCode();
             boolean reloadDown = GLFW.glfwGetKey(windowHandle, reload) == GLFW.GLFW_PRESS;
 

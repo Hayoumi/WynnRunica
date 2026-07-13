@@ -1,35 +1,61 @@
-# WynnRunica
+<h1 align="center">WynnRunica</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hayoumi/WynnRunica/main/src/main/resources/javaw_y4p5tD9dQi.png" alt="WynnRunica в действии" width="600"/>
+  <img src="https://img.shields.io/badge/Minecraft-1.21.11-55D6FF?style=for-the-badge&labelColor=17151C" alt="Minecraft 1.21.11">
+  <img src="https://img.shields.io/badge/Loader-Fabric-C9B8FF?style=for-the-badge&labelColor=17151C" alt="Fabric">
+  <img src="https://img.shields.io/badge/Environment-Client--side-74F7A5?style=for-the-badge&labelColor=17151C" alt="Client-side">
+  <img src="https://img.shields.io/badge/Language-Russian-FF77C8?style=for-the-badge&labelColor=17151C" alt="Russian localization">
 </p>
 
 <p align="center">
-  <b>Полноценный русский перевод Wynncraft в стиле оригинала.</b>
+  <strong>Русский перевод Wynncraft, который выглядит частью самой игры.</strong><br>
+  Диалоги, интерфейс и предметы остаются в родных окнах Wynncraft: с пиксельным шрифтом, иконками, цветами и форматированием.
 </p>
 
----
+<p align="center">
+  <a href="https://discord.gg/UdSphBU7ye">
+    <img src="">
+  </a>
+</p>
 
-Никакого мелкого текста поверх экрана, никаких субтитров. Русский текст отображается прямо в родном диалоговом окне Wynncraft, в той же рамке, тем же шрифтом, с той же атмосферой. Кириллица нарисована вручную в стиле оригинального bitmap-шрифта сервера, так что перевод выглядит как будто Wynncraft изначально был на русском.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Hayoumi/WynnRunica/main/src/main/resources/javaw_y4p5tD9dQi.png" alt="Русский диалог Wynncraft через WynnRunica" width="760">
+</p>
 
-## Что внутри
+## ✨ Что умеет
 
-- 🖋️ Живой перевод диалогов - не машинный, как от Google переводчика, с сохранением стиля и атмосферы оригинала
-- 🔤 Кастомный кириллический шрифт, нарисованный под оригинальный стиль Wynncraft
-- 🖼️ Текст отображается в родном диалоговом окне игры без лишних элементов интерфейса
-- 🔄 Автообновление переводов при каждом запуске, новые квесты подтянутся сами
+| | |
+| :-- | :-- |
+| 💬 **Диалоги** | Русский текст появляется прямо в диалоговом окне Wynncraft, без субтитров и лишних оверлеев. |
+| 🔤 **Свой шрифт** | Кириллица вручную нарисована под bitmap-шрифт Wynncraft, поэтому не выбивается из игры. |
+| 🎒 **Интерфейс и предметы** | Переводятся игровые меню и пиксельные тултипы с их цветами, иконками, числами и плейсхолдерами. |
+| 🔄 **Свежие переводы** | При запуске мод подтягивает обновлённые файлы перевода. |
 
-## Установка
+## 🎮 Управление
 
-1. Установи [Fabric Loader](https://fabricmc.net/use/installer/)
-2. Скачай [Fabric API](https://modrinth.com/mod/fabric-api) и положи в `mods/`
-3. Скачай WynnRunica и положи туда же
-4. Запусти игру
+| Клавиша | Что делает |
+| :-- | :-- |
+| `F8` | Включает или выключает перевод. |
+| `F9` | Перезагружает файлы перевода без перезапуска игры. |
 
-> **Требования:** Minecraft 1.21.11, Fabric
+## 🚀 Установка
 
-## Планы
+1. Установи [Fabric Loader](https://fabricmc.net/use/installer/) для Minecraft **1.21.11**.
+2. Скачай [Fabric API](https://modrinth.com/mod/fabric-api) и закинь jar в папку `mods`.
+3. Закинь туда же jar WynnRunica.
+4. Запусти игру и заходи на Wynncraft.
 
-- Горячая клавиша включения/выключения перевода - Сделано ✅
-- Показ оригинала по зажатию клавиши - Сделано ✅
-- Перевод дерева навыков и интерфейса - Сделано ✅
+> 🖥️ Мод работает только у тебя на клиенте. Серверу ничего ставить не нужно.
+
+## 🧩 English
+
+WynnRunica is a Russian localization for Wynncraft that stays inside the game's native UI.
+
+- Quest dialogue, interfaces and item tooltips are translated in place.
+- Custom Cyrillic bitmap glyphs match the Wynncraft look.
+- Colors, icons, values and game placeholders are kept intact.
+- `F8` toggles translation and `F9` reloads the translation files.
+
+## 📄 License
+
+All rights reserved. See [LICENSE.txt](LICENSE.txt).

@@ -3,6 +3,7 @@ package com.WynnRunica;
 import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class TranslationPrinter {
     public static HashMap<String, String> translations = new HashMap<>();
@@ -71,7 +72,7 @@ public class TranslationPrinter {
 
 
     public static String getTranslation(String text, boolean updateQuest) {
-        String cleanText = text.replace(" ", "").toLowerCase();
+        String cleanText = dialogueLookupKey(text);
 
         String exact = translations.get(cleanText);
         if (exact != null) {
@@ -111,8 +112,29 @@ public class TranslationPrinter {
         return result;
     }
 
+    public static boolean hasExactTranslation(String text) {
+        return text != null && translations.containsKey(dialogueLookupKey(text));
+    }
+
+    public static String getCurrentQuest() {
+        return currentQuest;
+    }
+
+    private static String dialogueLookupKey(String text) {
+        return text.replace(" ", "").toLowerCase(Locale.ROOT);
+    }
+
     public static String getGuiTranslation(String text) {
         if (text == null || text.isEmpty()) return text;
+
+        String translated = findGuiTranslation(text);
+        if (translated != null) return translated;
+
+        return text;
+    }
+
+    public static String findGuiTranslation(String text) {
+        if (text == null || text.isEmpty()) return null;
 
         String exact = guiTranslations.get(text);
         if (exact != null) return exact;
@@ -127,11 +149,8 @@ public class TranslationPrinter {
                 return result;
             }
         }
-
-        UntranslatedLogger.log(text);
-        return text;
+        return null;
     }
-
 
     /* public static int getTranslationsCount() {
         return translations.size();

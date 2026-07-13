@@ -37,6 +37,7 @@
 §7- Poison: +<num>/3s@- §7Яд: §a+<num>/3с
 §7- Mana Regen: +<num>/5s@- §7Реген маны: §a+<num>/5с
 Page <num>@§fСтраница <num>
+<em>Page <num> @ §fСтраница <num>
 
 # ============================================
 # Combat Info / Боевая инфа
@@ -133,3 +134,197 @@ Store & Wardrobe@Магазин и Гардероб
 §7before viewing this menu@§7чтобы открыть это меню
 §8Find the Guild Master in@§8Найди Мастера гильдий в
 §8Cinfras to create a guild@§8Cinfras чтобы создать гильдию
+§bCharacter Info @ §bИнфо персонажа
+§7View your current character @ §7Посмотри инфу о персонаже,
+§7information, assign skill points, @ §7распредели очки навыков,
+§7access your ability tree, and more @ §7открой дерево умений и многое другое
+§2Unassigned Skill Points: §f<num> @ §2Свободных очков навыков: §f<num>
+§3✦ Unused Ability Points: §f<num> @ §3✦ Неиспользованных очков навыков: §f<num>
+§7<em> Click to Open @ §7<em> §aНажми чтобы открыть
+<em> Click to Open @ <em> §aНажми чтобы открыть
+§7Total Lv: §f<num> @ §7Общий ур.: §f<num>
+§7Combat Lv: §f<num> @ §7Боевой ур.: §f<num>
+§7Class: §fArcher @ §7Класс: §fЛучник
+§7Class: §fMage @ §7Класс: §fМаг
+§7Class: §fWarrior @ §7Класс: §fВоин
+§7Class: §fAssassin @ §7Класс: §fУбийца
+§7Class: §fShaman @ §7Класс: §fШаман
+§7Quests: §f<num>/<num> @ §7Квесты: §f<num>/<num>
+§7XP: §f<num>% @ §7Опыт: §f<num>%
+§dIdentifications: @ §dХарактеристики:
+§dIdentifications: @ §dХарактеристики:
+§7- <em>Strength: +<num> @ - <em>§7Сила: §a+<num>
+§7- <em>Dexterity: +<num> @ - <em>§7Ловкость: §a+<num>
+§7- <em>Intelligence: +<num> @ - <em>§7Интеллект: §a+<num>
+§7- <em>Defence: +<num> @ - <em>§7Защита: §a+<num>
+§7- <em>Agility: +<num> @ - <em>§7Проворство: §a+<num>
+§7- Combat Experience: +<num>% @ - §7Боевой опыт: §a+<num>%
+§7- Loot: +<num>% @ - §7Лут: §a+<num>%
+§7- Stealing: +<num>% @ - §7Воровство: §a+<num>%
+§7- Poison: +<num>/3s @ - §7Яд: §a+<num>/3с
+§7- Mana Regen: +<num>/5s @ - §7Реген маны: §a+<num>/5с
+Page <num> @ §fСтраница <num>
+<em>Page <num> @ §fСтраница <num>
+§c§lCombat Information @ §c§lБоевая информация
+§7§c❤ Health: §f<num>/<num> @ §7§c❤ Здоровье: §f<num>/<num>
+§7§4❤ Effective Health: §f<num> @ §7§4❤ Эффективное здоровье: §f<num>
+§bElemental Defences: @ §bСтихийные защиты:
+§7§b- <em> Earth§7 Defence: §f<num> @ §7§b- <em>§2 Защита от Земли§7: §f<num>
+§7§b- <em> Thunder§7 Defence: §f<num> @ §7§b- <em>§e Защита от Молнии§7: §f<num>
+§7§b- <em> Water§7 Defence: §f<num> @ §7§b- <em>§b Защита от Воды§7: §f<num>
+§7§b- <em> Fire§7 Defence: §f<num> @ §7§b- <em>§c Защита от Огня§7: §f<num>
+§7§b- <em> Air§7 Defence: §f<num> @ §7§b- <em>§f Защита от Воздуха§7: §f<num>
+§7§cMain Attack Damage: @ §7§cУрон от автоатаки:
+§7§c- §7Average DPS: §f<num> @ §7§c- §7Средний ДПС: §f<num>
+§7§c- <em> Thunder Damage: <num>-<num> @ §7§c- <em>§e Урон Молнии§7: §f<num>-<num>
+§7§c- <em> Earth Damage: <num>-<num> @ §7§c- <em>§2 Урон Земли§7: §f<num>-<num>
+§7§c- <em> Water Damage: <num>-<num> @ §7§c- <em>§b Урон Воды§7: §f<num>-<num>
+§7§c- <em> Fire Damage: <num>-<num> @ §7§c- <em>§c Урон Огня§7: §f<num>-<num>
+§7§c- <em> Air Damage: <num>-<num> @ §7§c- <em>§f Урон Воздуха§7: §f<num>-<num>
+§7§5[<num>%] §dSpell Damage @ §7§5[<num>%] §dУрон от заклинаний
+§a§lProfession Info @ §a§lИнфо о профессиях
+§7General information about @ §7Общая информация
+§7your character's professions @ §7о профессиях персонажа
+§b✮ Silverbull Syndicates: @ §b✮ Синдикат Silverbull:
+§b- §7Raiding Rookie III§8 [<num>%] @ §b- §7Новичок-рейдер III§8 [<num>%]
+§6Gathering Skills: @ §6Навыки сбора:
+§6Crafting Skills: @ §6Навыки крафта:
+§6- §7Ⓚ Lv. <num> Fishing§8 [<num>%] @ §6- §7Ⓚ Ур. <num> Рыболовство§8 [<num>%]
+§6- §7Ⓒ Lv. <num> Woodcutting§8 [<num>%] @ §6- §7Ⓒ Ур. <num> Лесорубство§8 [<num>%]
+§6- §7Ⓑ Lv. <num> Mining§8 [<num>%] @ §6- §7Ⓑ Ур. <num> Шахтёрство§8 [<num>%]
+§6- §7Ⓙ Lv. <num> Farming§8 [<num>%] @ §6- §7Ⓙ Ур. <num> Фермерство§8 [<num>%]
+§6- §7Ⓔ Lv. <num> Scribing§8 [<num>%] @ §6- §7Ⓔ Ур. <num> Писарство§8 [<num>%]
+§6- §7Ⓓ Lv. <num> Jeweling§8 [<num>%] @ §6- §7Ⓓ Ур. <num> Ювелирство§8 [<num>%]
+§6- §7Ⓛ Lv. <num> Alchemism§8 [<num>%] @ §6- §7Ⓛ Ур. <num> Алхимия§8 [<num>%]
+§6- §7Ⓐ Lv. <num> Cooking§8 [<num>%] @ §6- §7Ⓐ Ур. <num> Готовка§8 [<num>%]
+§6- §7Ⓖ Lv. <num> Weaponsmithing§8 [<num>%] @ §6- §7Ⓖ Ур. <num> Оружейник§8 [<num>%]
+§6- §7Ⓕ Lv. <num> Tailoring§8 [<num>%] @ §6- §7Ⓕ Ур. <num> Портной§8 [<num>%]
+§6- §7Ⓘ Lv. <num> Woodworking§8 [<num>%] @ §6- §7Ⓘ Ур. <num> Столярство§8 [<num>%]
+§6- §7Ⓗ Lv. <num> Armouring§8 [<num>%] @ §6- §7Ⓗ Ур. <num> Бронник§8 [<num>%]
+§6§lDaily Reward @ §6§lЕжедневная награда
+§7Come back every day for @ §7Заходи каждый день за
+§7amazing daily rewards @ §7потрясающими наградами
+§7§e✦ Streak Multiplier: §f<num>x @ §7§e✦ Множитель серии: §f<num>x
+§cAvailable in <num> hours @ §cДоступно через <num> часов
+§cAvailable in <num> hour @ §cДоступно через <num> час
+§a§lRecruit a Friend @ §a§lПриведи друга
+§7Recruit friends and get @ §7Приведи друзей и получи
+§7exclusive rewards! @ §7эксклюзивные награды!
+§7§2✦ Recruited Friends: §f<num> @ §7§2✦ Приведено друзей: §f<num>
+§7Content Book @ Книга контента
+§7Hold and Right-Click to see content @ §7Нажми, чтобы увидеть содержимое
+§7Quests: <num>/<num> [<num>%] @ §5Квесты: §d<num>/<num> §5[<num>%]
+§7Discoveries: @ Открытия:
+§7- Territorial: <num>/<num> [<num>%] @ - §7Территории: §f<num>/<num> §5[<num>%]
+§7- World: <num>/<num> [<num>%] @ - §6Мир: §e<num>/<num> §5[<num>%]
+§7- Secret: <num>/<num> [<num>%] @ - §3Секреты: §b<num>/<num> §5[<num>%]
+§7Tomes are special rewards @ §7Томы - это особые награды,
+§7which can buff your character @ §7которые усиливают персонажа
+§a✔ Quest Req: The Worm Holes @ §a✔ Требуется квест: The Worm Holes
+Store & Wardrobe @ Магазин и Гардероб
+§7Browse the Wynncraft Store @ §7Посмотри магазин Wynncraft
+§7and equip owned cosmetics @ §7и надень купленные косметики
+§b§lView Your Guild @ §b§lТвоя гильдия
+§7You must join a guild @ §7Сначала нужно вступить в гильдию,
+§7before viewing this menu @ §7чтобы открыть это меню
+§8Find the Guild Master in @ §8Найди Мастера гильдий в
+§8Cinfras to create a guild @ §8Cinfras чтобы создать гильдию
+§bCharacter Info @ §bИнфо персонажа
+§7View your current character @ §7Посмотри инфу о персонаже,
+§7information, assign skill points, @ §7распредели очки навыков,
+§7access your ability tree, and more @ §7открой дерево умений и многое другое
+§2Unassigned Skill Points: §f<num> @ §2Свободных очков навыков: §f<num>
+§3✦ Unused Ability Points: §f<num> @ §3✦ Неиспользованных очков навыков: §f<num>
+§7<em> Click to Open @ §7<em> §aНажми чтобы открыть
+<em> Click to Open @ <em> §aНажми чтобы открыть
+§7Total Lv: §f<num> @ §7Общий ур.: §f<num>
+§7Combat Lv: §f<num> @ §7Боевой ур.: §f<num>
+§7Class: §fArcher @ §7Класс: §fЛучник
+§7Class: §fMage @ §7Класс: §fМаг
+§7Class: §fWarrior @ §7Класс: §fВоин
+§7Class: §fAssassin @ §7Класс: §fУбийца
+§7Class: §fShaman @ §7Класс: §fШаман
+§7Quests: §f<num>/<num> @ §7Квесты: §f<num>/<num>
+§7XP: §f<num>% @ §7Опыт: §f<num>%
+§dIdentifications: @ §dХарактеристики:
+§dIdentifications: @ §dХарактеристики:
+§7- <em>Strength: +<num> @ - <em>§7Сила: §a+<num>
+§7- <em>Dexterity: +<num> @ - <em>§7Ловкость: §a+<num>
+§7- <em>Intelligence: +<num> @ - <em>§7Интеллект: §a+<num>
+§7- <em>Defence: +<num> @ - <em>§7Защита: §a+<num>
+§7- <em>Agility: +<num> @ - <em>§7Проворство: §a+<num>
+§7- Combat Experience: +<num>% @ - §7Боевой опыт: §a+<num>%
+§7- Loot: +<num>% @ - §7Лут: §a+<num>%
+§7- Stealing: +<num>% @ - §7Воровство: §a+<num>%
+§7- Poison: +<num>/3s @ - §7Яд: §a+<num>/3с
+§7- Mana Regen: +<num>/5s @ - §7Реген маны: §a+<num>/5с
+Page <num> @ §fСтраница <num>
+<em>Page <num> @ §fСтраница <num>
+§c§lCombat Information @ §c§lБоевая информация
+§7§c❤ Health: §f<num>/<num> @ §7§c❤ Здоровье: §f<num>/<num>
+§7§4❤ Effective Health: §f<num> @ §7§4❤ Эффективное здоровье: §f<num>
+§bElemental Defences: @ §bСтихийные сопротивления:
+§7§b- <em> Earth§7 Defence: §f<num> @ §b- §7Сопротивление §2<em> Земле§7: §f<num>
+§7§b- <em> Thunder§7 Defence: §f<num> @ §b-§e §7Сопротивление §e<em> Молнии§7: §f<num>
+§7§b- <em> Water§7 Defence: §f<num> @ §b- §7Сопротивление §b<em> Воде§7: §f<num>
+§7§b- <em> Fire§7 Defence: §f<num> @ §b-§c §7Сопротивление §c<em> Огню§7: §f<num>
+§7§b- <em> Air§7 Defence: §f<num> @ §b-§f §7Сопротивление §f<em> Воздуху§7: §f<num>
+§7§cMain Attack Damage: @ §cУрон обычной атаки:
+§7§c- §7Average DPS: §f<num> @ §7§c- §7Средний ДПС: §f<num>
+§7§c- <em> Thunder Damage: <num>-<num> @ §7§c- <em>§e Урон Молнии§7: §f<num>-<num>
+§7§c- <em> Earth Damage: <num><num> @ §c- §7Урон §2<em> Землёй§7:§c §f<num><num>
+§7§c- <em> Water Damage: <num>-<num> @ §7§c- <em>§b Урон Воды§7: §f<num>-<num>
+§7§c- <em> Fire Damage: <num>-<num> @ §7§c- <em>§c Урон Огня§7: §f<num>-<num>
+§7§c- <em> Air Damage: <num>-<num> @ §7§c- <em>§f Урон Воздуха§7: §f<num>-<num>
+§7§5[<num>%] §dSpell Damage @ §7§5[<num>%] §dУрон от заклинаний
+§a§lProfession Info @ §a§lИнфо о профессиях
+§7General information about @ §7Общая информация
+§7your character's professions @ §7о профессиях персонажа
+§b✮ Silverbull Syndicates: @ §b✮ Синдикат Silverbull:
+§b- §7Raiding Rookie III§8 [<num>%] @ §b- §7Новичок-рейдер III§8 [<num>%]
+§6Gathering Skills: @ §6Навыки сбора:
+§6Crafting Skills: @ §6Навыки крафта:
+§6- §7Ⓚ Lv. <num> Fishing§8 [<num>%] @ §6- §7Ⓚ Ур. <num> Рыболовство§8 [<num>%]
+§6- §7Ⓒ Lv. <num> Woodcutting§8 [<num>%] @ §6- §7Ⓒ Ур. <num> Лесорубство§8 [<num>%]
+§6- §7Ⓑ Lv. <num> Mining§8 [<num>%] @ §6- §7Ⓑ Ур. <num> Шахтёрство§8 [<num>%]
+§6- §7Ⓙ Lv. <num> Farming§8 [<num>%] @ §6- §7Ⓙ Ур. <num> Фермерство§8 [<num>%]
+§6- §7Ⓔ Lv. <num> Scribing§8 [<num>%] @ §6- §7Ⓔ Ур. <num> Писарство§8 [<num>%]
+§6- §7Ⓓ Lv. <num> Jeweling§8 [<num>%] @ §6- §7Ⓓ Ур. <num> Ювелирство§8 [<num>%]
+§6- §7Ⓛ Lv. <num> Alchemism§8 [<num>%] @ §6- §7Ⓛ Ур. <num> Алхимия§8 [<num>%]
+§6- §7Ⓐ Lv. <num> Cooking§8 [<num>%] @ §6- §7Ⓐ Ур. <num> Готовка§8 [<num>%]
+§6- §7Ⓖ Lv. <num> Weaponsmithing§8 [<num>%] @ §6- §7Ⓖ Ур. <num> Оружейник§8 [<num>%]
+§6- §7Ⓕ Lv. <num> Tailoring§8 [<num>%] @ §6- §7Ⓕ Ур. <num> Портной§8 [<num>%]
+§6- §7Ⓘ Lv. <num> Woodworking§8 [<num>%] @ §6- §7Ⓘ Ур. <num> Столярство§8 [<num>%]
+§6- §7Ⓗ Lv. <num> Armouring§8 [<num>%] @ §6- §7Ⓗ Ур. <num> Бронник§8 [<num>%]
+§6§lDaily Reward @ §6§lЕжедневная награда
+§7Come back every day for @ §7Заходи каждый день за
+§7amazing daily rewards @ §7потрясающими наградами
+§7§e✦ Streak Multiplier: §f<num>x @ §7§e✦ Множитель серии: §f<num>x
+§cAvailable in <num> hours @ §cДоступно через <num> часов
+§cAvailable in <num> hour @ §cДоступно через <num> час
+§a§lRecruit a Friend @ §a§lПриведи друга
+§7Recruit friends and get @ §7Приведи друзей и получи
+§7exclusive rewards! @ §7эксклюзивные награды!
+§7§2✦ Recruited Friends: §f<num> @ §7§2✦ Приведено друзей: §f<num>
+§7Content Book @ Книга контента
+§7Hold and Right-Click to see content @ §7Нажми, чтобы увидеть содержимое
+§7Quests: <num>/<num> [<num>%] @ §5Квесты: §d<num>/<num> §5[<num>%]
+§7Discoveries: @ Открытия:
+§7- Territorial: <num>/<num> [<num>%] @ - §7Территории: §f<num>/<num> §5[<num>%]
+§7- World: <num>/<num> [<num>%] @ - §6Мир: §e<num>/<num> §5[<num>%]
+§7- Secret: <num>/<num> [<num>%] @ - §3Секреты: §b<num>/<num> §5[<num>%]
+§7Tomes are special rewards @ §7Томы - это особые награды,
+§7which can buff your character @ §7которые усиливают персонажа
+§a✔ Quest Req: The Worm Holes @ §a✔ Требуется квест: The Worm Holes
+Store & Wardrobe @ Магазин и Гардероб
+§7Browse the Wynncraft Store @ §7Посмотри магазин Wynncraft
+§7and equip owned cosmetics @ §7и надень купленные косметики
+§b§lView Your Guild @ §b§lТвоя гильдия
+§7You must join a guild @ §7Сначала нужно вступить в гильдию,
+§7before viewing this menu @ §7чтобы открыть это меню
+§8Find the Guild Master in @ §8Найди Мастера гильдий в
+§8Cinfras to create a guild @ §8Cinfras чтобы создать гильдию
+§7§c❤ Health: §f<num> @ §c❤ Здоровье: §f<num>
+§7§c- <em> Neutral Damage: <num><num> @ §c- <em> §6Нейтральный §7урон:§c §f<num><num>
+§7§c- <em> Earth Damage: <num><num> @ §c- §7Урон §2<em> Землёй§7:§c §f<num><num>
+<em>(<num>% overall buff from loadout) @ §8<em>(<num>% - общий бонус от снаряжения)

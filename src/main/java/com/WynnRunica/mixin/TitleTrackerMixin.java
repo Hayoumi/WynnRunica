@@ -1,6 +1,7 @@
 package com.WynnRunica.mixin;
 
 import com.WynnRunica.TranslationPrinter;
+import com.WynnRunica.UntranslatedLogger;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.gui.hud.InGameHud;
 import net.minecraft.text.MutableText;
@@ -26,12 +27,14 @@ public class TitleTrackerMixin {
 
     private static boolean isModifying = false;
     private static final int MAX_WIDTH = 234;
-    private static final int PORTRAIT_OFFSET = 34;
+    private static final int PORTRAIT_OFFSET = 28;
     private static final char SPECIAL_CHAR = '\uDAFF';
     private static final char ZERO_WIDTH_CHAR = '\uE000';
     private static final Style[] bodyStyles = new Style[5];
     private static String lastCleanKey = "";
     private static int consecutiveCount = 0;
+    private static String lastChoiceKey = "";
+    private static int choiceConsecutiveCount = 0;
 
     static {
         for (int i = 0; i < 5; i++) {
@@ -56,20 +59,25 @@ public class TitleTrackerMixin {
             ArrayList<Text> choiceSibs = new ArrayList<>();
 
             boolean hasPortrait = false;
+            String speaker = "";
             for (int i = 0; i < siblings.size(); i++) {
                 Text sib = siblings.get(i);
-                if (sib.getStyle().getFont() != null &&
-                        sib.getStyle().getFont().toString().contains("dialogue/portrait")) {
+                String font = sib.getStyle().getFont() == null ? "" : sib.getStyle().getFont().toString();
+                if (font.contains("dialogue/portrait")) {
                     hasPortrait = true;
                 }
-                if (sib.getStyle().getFont() != null &&
-                        sib.getStyle().getFont().toString().contains("body_") &&
+                if (font.contains("dialogue/text/nameplate")) {
+                    String candidate = extractCleanText(sib.getString()).trim();
+                    if (candidate.codePoints().anyMatch(Character::isLetter) && candidate.length() > speaker.length()) {
+                        speaker = candidate;
+                    }
+                }
+                if (font.contains("body_") &&
                         !extractCleanText(sib.getString()).trim().isEmpty()) {
                     textIndices.add(i);
                     textSibs.add(sib);
                 }
-                if (sib.getStyle().getFont() != null &&
-                        sib.getStyle().getFont().toString().contains("choice_") &&
+                if (font.contains("choice_") &&
                         !extractCleanText(sib.getString()).trim().isEmpty()) {
                     choiceIndices.add(i);
                     choiceSibs.add(sib);
@@ -77,7 +85,7 @@ public class TitleTrackerMixin {
             }
             if (textSibs.isEmpty()) return;
 
-            boolean originalBold = textSibs.get(0).getStyle().isBold();
+            boolean originalBold = textSibs.stream().allMatch(s -> s.getStyle().isBold());
 
             StringBuilder keyBuilder = new StringBuilder();
             for (Text sib : textSibs) {
@@ -98,10 +106,29 @@ public class TitleTrackerMixin {
 
             boolean isStabilized = consecutiveCount >= 5;
 
+            StringBuilder choiceKeyBuilder = new StringBuilder();
+            for (Text choice : choiceSibs) {
+                if (choiceKeyBuilder.length() > 0) choiceKeyBuilder.append('\n');
+                choiceKeyBuilder.append(extractCleanText(choice.getString()).trim());
+            }
+            String choiceKey = choiceKeyBuilder.toString();
+            if (!choiceKey.isEmpty() && choiceKey.equals(lastChoiceKey)) {
+                choiceConsecutiveCount++;
+            } else {
+                choiceConsecutiveCount = choiceKey.isEmpty() ? 0 : 1;
+                lastChoiceKey = choiceKey;
+            }
+            boolean choicesStabilized = choiceConsecutiveCount >= 5;
+
             String playerName = MinecraftClient.getInstance().getSession().getUsername();
             key = key.replace(playerName, "<playername>");
 
+            boolean hasExactTranslation = TranslationPrinter.hasExactTranslation(key);
             String translation = TranslationPrinter.getTranslation(key, isStabilized);
+
+            if (isStabilized && !hasExactTranslation) {
+                UntranslatedLogger.logDialogue(key, speaker, false, TranslationPrinter.getCurrentQuest());
+            }
 
             translation = translation.replace("<playername>", playerName);
 
@@ -127,8 +154,7 @@ public class TitleTrackerMixin {
                 MutableText copy = Text.literal(isRealStartPos ? startPos : "").setStyle(bodyStyles[0]);
                 for (int i = 0; i < lines.size() && i < 5; i++) {
                     Style lineStyle = originalColor != null ? bodyStyles[i].withColor(originalColor) : bodyStyles[i];
-                    if (originalBold) lineStyle = lineStyle.withBold(true);
-                    MutableText line = parseBrackets(lines.get(i), lineStyle);
+                    MutableText line = parseBrackets(lines.get(i), lineStyle, originalBold);
                     line = manageWidth(line);
                     copy.append(line);
                 }
@@ -158,14 +184,12 @@ public class TitleTrackerMixin {
 
                 TextColor originalColor = textSibs.get(0).getStyle().getColor();
                 Style line0Style = originalColor != null ? bodyStyles[0].withColor(originalColor) : bodyStyles[0];
-                if (originalBold) line0Style = line0Style.withBold(true);
-                MutableText copy = parseBrackets(lines.get(0), line0Style);
+                MutableText copy = parseBrackets(lines.get(0), line0Style, originalBold);
 
                 for (int i = 1; i < lines.size() && i < 5; i++) {
                     copy = manageWidth(copy);
                     Style lineStyle = originalColor != null ? bodyStyles[i].withColor(originalColor) : bodyStyles[i];
-                    if (originalBold) lineStyle = lineStyle.withBold(true);
-                    copy.append(parseBrackets(lines.get(i), lineStyle));
+                    copy.append(parseBrackets(lines.get(i), lineStyle, originalBold));
                 }
 
                 int originalTotalWidth = getRenderWidth(message);
@@ -223,6 +247,16 @@ public class TitleTrackerMixin {
                 String lookupKey = original.replace(playerName, "<playername>")
                         .replace(" ", "").toLowerCase();
 
+                if (isStabilized && choicesStabilized
+                        && !TranslationPrinter.hasExactTranslation(original.replace(playerName, "<playername>"))) {
+                    UntranslatedLogger.logDialogue(
+                            original.replace(playerName, "<playername>"),
+                            speaker,
+                            true,
+                            TranslationPrinter.getCurrentQuest()
+                    );
+                }
+
                 String ctr = TranslationPrinter.translations.get(lookupKey);
                 if (ctr == null) continue;
                 ctr = ctr.replace("<playername>", playerName);
@@ -240,11 +274,11 @@ public class TitleTrackerMixin {
                         sb.append(SPECIAL_CHAR).append((char)(ZERO_WIDTH_CHAR - (4 - modulo)));
                     }
 
-                    repl.append(Text.literal(sb.toString()).setStyle(sib.getStyle()));
+                    repl.append(Text.literal(sb.toString()).setStyle(sib.getStyle().withBold(false)));
 
                 } else if (adjust < 0) {
                     int backUp = -adjust;
-                    repl.append(Text.literal("" + SPECIAL_CHAR + (char)(ZERO_WIDTH_CHAR - backUp)).setStyle(sib.getStyle()));
+                    repl.append(Text.literal("" + SPECIAL_CHAR + (char)(ZERO_WIDTH_CHAR - backUp)).setStyle(sib.getStyle().withBold(false)));
                 }
 
                 siblings.set(choiceIndices.get(k), repl);
@@ -321,7 +355,7 @@ public class TitleTrackerMixin {
             }
             specialChars = sb.toString();
         }
-        MutableText appendment = Text.literal(specialChars).setStyle(component.getStyle());
+        MutableText appendment = Text.literal(specialChars).setStyle(component.getStyle().withBold(false));
         return component.append(appendment);
     }
 
@@ -329,8 +363,9 @@ public class TitleTrackerMixin {
         return MinecraftClient.getInstance().textRenderer.getWidth(component);
     }
 
-    private MutableText parseBrackets(String text, Style baseStyle) {
+    private MutableText parseBrackets(String text, Style baseStyle, boolean bold) {
         MutableText result = Text.literal("").setStyle(baseStyle);
+        String pre = bold ? "§l" : "";
         int lastPos = 0;
         int startIdx = text.indexOf('[');
 
@@ -339,10 +374,10 @@ public class TitleTrackerMixin {
 
             if (endIdx != -1) {
                 if (startIdx > lastPos) {
-                    result.append(Text.literal(text.substring(lastPos, startIdx)).setStyle(baseStyle));
+                    result.append(Text.literal(pre + text.substring(lastPos, startIdx)).setStyle(baseStyle));
                 }
                 Style bracketStyle = baseStyle.withColor(Formatting.LIGHT_PURPLE);
-                result.append(Text.literal(text.substring(startIdx, endIdx + 1)).setStyle(bracketStyle));
+                result.append(Text.literal(pre + text.substring(startIdx, endIdx + 1)).setStyle(bracketStyle));
                 lastPos = endIdx + 1;
                 startIdx = text.indexOf('[', lastPos);
             } else {
@@ -350,7 +385,7 @@ public class TitleTrackerMixin {
             }
         }
         if (lastPos < text.length()) {
-            result.append(Text.literal(text.substring(lastPos)).setStyle(baseStyle));
+            result.append(Text.literal(pre + text.substring(lastPos)).setStyle(baseStyle));
         }
         return result;
     }
