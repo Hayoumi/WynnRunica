@@ -35,6 +35,7 @@ Heart Shatter @ Разбитое Сердце
 §r§c- §cHeart Shatter @ §r§c- §cРазбитое Сердце
 §7§7Hitting a mob directly with §nArrow Bomb§7, @ §7Прямое попадание §nВзрывной Стрелой§r§7
 §7will shatter its heart and deal additional damage. @ §7разбивает сердце врага и наносит доп. урон.
+§7§7Hitting a mob directly with §nArrow Bomb§7 @ §7Прямое попадание §nВзрывной Стрелой§r§7 по мобу
 
 # ─── Double Shots ──────────────────────────────────────────────────────
 Double Shots @ Двойные Выстрелы
@@ -134,6 +135,9 @@ Nimble String @ Ловкая Тетива
 §8§8Doubles the speed of §nArrow Storm§8 and @ §8Удваивает скорость §nШторма Стрел§r§8 и
 §7§7shoots §f<num>§7 arrows per stream. @ §7выпускает §f<num>§7 стрел за поток.
 §8§8shoots §7<num>§8 arrows per stream. @ §8выпускает §7<num>§8 стрел за поток.
+§7<em> §7Total Damage: §c<num>% §8(of your DPS, per arrow/ray) @ <em> §7Общий урон: §c<num>% §8(от вашего DPS, за стрелу/луч)
+§7§7§nArrow Storm§7 fires twice as fast and @ §7§nШторм Стрел§r§7 стреляет вдвое быстрее и
+§7§7§nPhantom Ray§7 hits twice as fast but lasts half as long. @ §7§nФантомный Луч§r§7 бьёт вдвое быстрее, но длится вдвое меньше.
 
 # ─── Bryophyte Roots ───────────────────────────────────────────────────
 Bryophyte Roots @ Моховые Корни
@@ -193,6 +197,7 @@ Basaltic Trap @ Базальтовая Ловушка
 §r§c- §cBasaltic Trap @ §r§c- §cБазальтовая Ловушка
 §7§7When you hit the ground with §nArrow Bomb§7, leave @ §7При попадании по земле §nВзрывной Стрелой§r§7 остаётся
 §7§7a §bTrap§7 that damages enemies. §7(Max <num> Traps) @ §7§bЛовушка§r§7, наносящая урон врагам. §7(Максимум <num> ловушки)
+§7§7a §bTrap§7 that damages enemies. (Max <num> Traps) @ §7§bЛовушка§r§7, наносящая урон врагам. §7(Максимум <num> ловушки)
 
 # ─── Focus ─────────────────────────────────────────────────────────────
 Focus @ Фокус
@@ -203,6 +208,8 @@ Focus @ Фокус
 §7§7blocks away, gain §b<num> Focus <em>§7. (Max <num>) @ §7блоков вы получаете §b<num> Фокуса §e<em>§r§7. §8(Максимум <num>)
 §7§8(Lose <num>% Focus if you miss once) @ §8(Один промах теряет <num>% Фокуса)
 §7<em> §7Damage Bonus: §f<num>% §8(per focus) @ <em> §7Бонус к урону: §f<num>% §8(за фокус)
+§7<em> §7Damage Bonus: §f<num>% §8(per Focus) @ <em> §7Бонус урона: §f<num>% §8(за Фокус)
+§7§7blocks away, gain <num> Focus <em>§7. (Max <num>) @ §7блоков вы получаете §b<num> Фокуса §e<em>§r§7. §8(Максимум <num>)
 
 # ─── Windstorm ─────────────────────────────────────────────────────────
 Windstorm @ Ураган
@@ -298,6 +305,7 @@ Phantom Force @ Фантомная Сила
 §r§c- §cPhantom Force @ §r§c- §cФантомная Сила
 §7§7§nPhantom Ray§7 gains extra forward @ §7§nФантомный Луч§r§7 становится
 §7§7range, and becomes wider. @ §7длиннее и шире.
+§7§7range and becomes wider. @ §7дальнобойнее и шире.
 
 # ─── Leap ──────────────────────────────────────────────────────────────
 Leap @ Прыжок
@@ -330,6 +338,7 @@ Twain's Arc @ Дуга Твейна
 §7§7If you have §b<num>+ Focus <em>§7, holding shift will @ §7При §b<num>+ Фокуса §e<em>§r§7 зажмите Shift и
 §7§7summon Twain's Arc. Charge it up to @ §7призовётся Дуга Твейна. Зарядите её и
 §7shoot a destructive long-range beam. @ §7выпустите дальнобойный разрушительный луч.
+§7§7If you have <num>+ Focus <em>§7, holding shift will @ §7При §b<num>+ Фокуса §e<em>§r§7 зажмите Shift и
 
 # ─── Shrapnel Bomb ─────────────────────────────────────────────────────
 Shrapnel Bomb @ Осколочная Бомба
@@ -377,6 +386,7 @@ Divine Intervention @ Божественное Вмешательство
 §7shoot §f<num>x §7faster. @ §7стрелять в §f<num> §7раза быстрее.
 §7§7Casting §nArrow Bomb§7 will cause them to @ §7§nВзрывная Стрела§r§7 заставит их
 §7§7shoot explosive shots, dealing §f<num>%§7 damage. @ §7стрелять взрывными выстрелами с §f<num>%§7 урона.
+§7shoot §f<num>x §7faster while §nArrow Storm§7 is active @ §7стрелять в §f<num>x §7быстрее, пока он активен
 
 # ─── Cheaper Arrow Shield ──────────────────────────────────────────────
 Cheaper Arrow Shield @ Экономный Щит Стрел
@@ -448,6 +458,7 @@ Courier's Edict @ Эдикт Курьера
 §7Fierce Stomp sends out 3 waves of @ §7§nЛютый Топот§r§7 испускает 3 волны
 §7heavenly light in front of you. @ §7небесного света перед вами.
 §7Landing after Leap triggers Fierce Stomp. @ §7Приземление после §nПрыжка§r§7 запускает §nЛютый Топот§r§7.
+§7<em> §7Total Damage: §f<num>% §8(of your DPS, per wave) @ <em> §7Общий урон: §f<num>% §8(от вашего DPS, за волну)
 
 # ─── Vigilant Sentinels ────────────────────────────────────────────────
 Vigilant Sentinels @ Бдительные Стражи
@@ -457,6 +468,7 @@ Vigilant Sentinels @ Бдительные Стражи
 §7§7Casting §nArrow Shield§7 while §nGuardian Angels§7 are active @ §7Каст §nЩита Стрел§r§7 при активных §nАнгелах-Хранителях§r§7
 §7§7will also cast §nBuckshot§7. Increase §nBuckshot§7's damage. @ §7также вызывает §nКартечь§r§7. Усиливает урон §nКартечи§r§7.
 §7<em> §7Total Damage: §f<num>% §8(of your DPS, for §nBuckshot§8, per arrow) @ <em> §7Общий урон: §f<num>% §8(от вашего DPS, для §nКартечи§r§8, за стрелу)
+§7§7Increase §nGuardian Angels§7' range and damage. @ §7Увеличивает дальность и урон §nАнгелов-Хранителей§r§7.
 
 # ─── Call of the Hound ─────────────────────────────────────────────────
 Call of the Hound @ Зов Гончей
@@ -489,6 +501,7 @@ Spectral Hover @ Призрачное Скольжение
 §r§c- §cSpectral Hover @ §r§c- §cПризрачное Скольжение
 §7§fSlow Falling §7is applied upon using §nEscape§7. @ §7§nПобег§r§7 даёт §fПлавное Падение§r§7.
 §7§7Crouching at any point will cancel this effect. @ §7Приседание в любой момент отменяет эффект.
+§7§8(Effect cannot be refreshed mid-air) @ §8(Эффект нельзя обновить в воздухе)
 
 # ─── Parting Gift ──────────────────────────────────────────────────────
 Parting Gift @ Прощальный Подарок
@@ -506,6 +519,8 @@ Bouncing Bomb @ Прыгающая Бомба
 §r§c- §cBouncing Bomb @ §r§c- §cПрыгающая Бомба
 §7§7§nArrow Bomb§7 will bounce once @ §7§nВзрывная Стрела§r§7 отскакивает один раз
 §7§7when hitting a block or enemy. @ §7от блока или врага.
+§7bounce once when hitting a block or enemy. @ §7отскакивает один раз от блока или врага.
+§7§7§nArrow Bomb§7 will travel §f<num>%§7 slower and @ §7§nВзрывная Стрела§r§7 летит на §f<num>%§r§7 медленнее и
 
 # ─── Cheaper Arrow Storm II ────────────────────────────────────────────
 Cheaper Arrow Storm II @ Экономный Шторм Стрел II
@@ -592,6 +607,7 @@ Feedback Loop @ Петля Обратной Связи
 §r§c- §cFeedback Loop @ §r§c- §cПетля Обратной Связи
 §7§7Hitting §f<num>§7 flint arrow will make your next @ §7Попадание §f<num>§r§7 кремневой стрелой заставит ваш
 §7§7§nArrow Storm§7 shoot §f<num>§7 arrow per stream. @ §7следующий §nШторм Стрел§r§7 пустить §f<num>§7 стрелу за поток.
+§7§7§nArrow Storm§7 shoot §f<num>§7 arrow per stream. §8(Max <num>) @ §7§nШторм Стрел§r§7 выпустить §f<num>§r§7 стрелу за поток. §8(Максимум <num>)
 
 # ─── Swift Primer ──────────────────────────────────────────────────────
 Swift Primer @ Быстрый Запал
@@ -689,6 +705,7 @@ Sniffer Dog @ Гончая-Ищейка
 §r§c- §cSniffer Dog @ §r§c- §cГончая-Ищейка
 §7§7Your §bHound§7 has a §f<num>%§7 chance to @ §7§bГончая§r§7 с шансом §f<num>%§r§7
 §7§7dig up a §nTrap§7 when attacking enemies. @ §7выкапывает §nЛовушку§r§7 при атаке врагов.
+§7§7dig up a §bTrap§7 when attacking enemies. @ §7выкапывает §bЛовушку§r§7 при атаке врагов.
 
 # ─── Repel ─────────────────────────────────────────────────────────────
 Repel @ Отталкивание
@@ -720,6 +737,7 @@ Mael's Quiver @ Колчан Маэля
 §r§c- §7Mael's Quiver @ §r§c- §7Колчан Маэля
 §r§c- §cMael's Quiver @ §r§c- §cКолчан Маэля
 §7§7Increase the damage of §7§nCrepuscular Ray @ §7Увеличивает урон §nСумеречного Луча§r§7
+§7§7Increase the damage of §7§nCrepuscular Ray§7. @ §7Усиливает урон §nСумеречного Луча§r§7.
 
 # ─── Repositioning ─────────────────────────────────────────────────────
 Repositioning @ Смена Позиции
@@ -745,6 +763,11 @@ Angelic Ascension @ Ангельское Вознесение
 §7Guardian Angels will have unlimited ammunition, @ §7§nАнгелы-Хранители§r§7 получают бесконечные стрелы
 §7and trigger Buckshot after firing <num> volleys. @ §7и пускают §nКартечь§r§7 после §f<num> §7залпов.
 §7<em> §7Total Damage: §f<num>% §8(of your DPS, Arrow Bomb's smite) @ <em> §7Общий урон: §f<num>% §8(от вашего DPS, удара Взрывной Стрелы)
+§7<em> §7Total Damage: §f<num>% §8(of your DPS, Arrow Bomb§8's smite) @ <em> §7Общий урон: §f<num>% §8(от вашего DPS, удара Взрывной Стрелы)
+§7Arrow Storm last §f<num> §7times longer @ §7§nШторм Стрел§r§7 длится в §f<num>§r§7 раза дольше
+§7Guardian Angels will have unlimited ammunition @ §7§nАнгелы-Хранители§r§7 получают бесконечный боезапас
+§7Main Attack will instead shoot Light Arrows @ §7Осн. Атака вместо этого стреляет Стрелами Света,
+§7and releases in a tighter spread @ §7и бьёт более плотным разбросом
 
 # ─── The Twilight Zone ─────────────────────────────────────────────────
 The Twilight Zone @ Сумеречная Зона
@@ -753,11 +776,11 @@ The Twilight Zone @ Сумеречная Зона
 §7Enter a focused state for <num>s. @ §7Состояние концентрации на §f<num>с§r§7.
 §7While in this state, you jump higher, fall slower, @ §7В этом состоянии вы прыгаете выше, падаете медленнее,
 §7and all enemies within your line of sight are @ §7а все враги в поле зрения
-§7marked by Twilight <em> every <num>s. §8(Max <num>) @ §7помечаются §9Сумерками §9<em> §7каждые §f<num>с§r§7. §8(Максимум <num>)
+§7marked by Twilight <em> every <num>s. §8(Max <num>) @ §7помечаются §#5C8AFFСумерками <em> §7каждые §f<num>с§r§7. §8(Максимум <num>)
 §7At the end of its duration, or by casting F, fire a Spell @ §7По окончании или нажатию §dF§7: пускает Заклинание
 §7and a Main Attack arrow at every marked enemy. @ §7и стрелу Основной Атаки в каждого помеченного врага.
 §7Arrows will deal bonus damage for @ §7Стрелы наносят дополнительный урон за
-§7each Twilight <em> stack on a target. @ §7каждый заряд §9Сумерек §9<em> §r§7на цели.
+§7each Twilight <em> stack on a target. @ §7каждый заряд §9Сумерек <em> §r§7на цели.
 §7<em> §7Total Damage: §f<num>% §8(of your DPS, per Twilight) @ <em> §7Общий урон: §f<num>% §8(от вашего DPS, за Сумерки)
 §7<em> §7Total Damage: §f<num>% §8(Main Attack Damage, per Twilight) @ <em> §7Общий урон: §f<num>% §8(Урон Осн. Атаки, за Сумерки)
 
@@ -774,12 +797,12 @@ Extinction Event @ Великое Вымирание
 # ══════════════════════════════════════════════════════════════════════
 # ОБЩИЕ / СТАТЫ (встречаются у многих скиллов)
 # ══════════════════════════════════════════════════════════════════════
-§e§lBoltslinger Archetype @ §e§lАрхетип: Стрелок
-§d§lSharpshooter Archetype @ §d§lАрхетип: Снайпер
-§a§lTrapper Archetype @ §a§lАрхетип: Ловчий
-§7Boltslinger Archetype @ §e§lАрхетип: Стрелок
-§7Sharpshooter Archetype @ §d§lАрхетип: Снайпер
-§7Trapper Archetype @ §a§lАрхетип: Ловчий
+§e§lBoltslinger Archetype @ §#DAE069§lАрхетип: Стрелок
+§d§lSharpshooter Archetype @ §#EB3DFE§lАрхетип: Снайпер
+§a§lTrapper Archetype @ §#87DD47§lАрхетип: Ловчий
+§7Boltslinger Archetype @ §#DAE069§lАрхетип: Стрелок
+§7Sharpshooter Archetype @ §#EB3DFE§lАрхетип: Снайпер
+§7Trapper Archetype @ §#87DD47§lАрхетип: Ловчий
 §7§7Increase your maximum §bTraps§7 by §f<num>§7. @ §7Увеличивает максимум §bЛовушек§r§7 на §f<num>§7.
 §7<em> §7Range: §f±<num> Blocks @ <em> §7Дальность: §f±<num> блоков
 §7<em> §7Total Damage: §c<num>% §8(of your DPS, per arrow) @ <em> §7Общий урон: §c<num>% §8(от вашего DPS, за стрелу)
@@ -1138,7 +1161,7 @@ Extinction Event @ Великое Вымирание
 §7§a✔ §7Combat Lv. Min: §f<num> @ §7§a✔ §7Мин. Боевой Ур.: §f<num>
 §7§a✔ §7Combat Lv. Min: §f§f<num> @ §7§a✔ §7Мин. боевой ур.: §f§f<num>
 §7§c✖ §7Combat Lv. Min: §f§c<num> @ §7§c✖ §7Мин. боевой ур.: §f§c<num>
-§7At the end of its duration, or by casting А, fire a Spell @ §7По окончании или нажатию §dF§r: пускает Заклинание
+§7At the end of its duration, or by casting А, fire a Spell @ §7По окончании или нажатию §dА§r: пускает Заклинание
 §7§a✔ §7Unlocked Abilities: §f<num>§7/<num> @ §7§a✔ §7Открыто способностей: §f<num>§7/<num>
 
 # ═══════════════════════════════════════════════════════

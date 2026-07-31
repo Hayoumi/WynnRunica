@@ -12,7 +12,8 @@ import java.net.URL;
 public class VersionChecker {
 
     public static String latestVersion;
-    public static String latestUrl;
+    public static String latestGitUrl;
+    public static String latestModrinthUrl = "https://modrinth.com/mod/wynnrunica/versions";
     public static boolean hasUpdate = false;
     public static String сurrentVer = FabricLoader.getInstance().getModContainer("wynn_runica").get()
             .getMetadata().getVersion().getFriendlyString();
@@ -32,7 +33,7 @@ public class VersionChecker {
 
             JsonObject fullPage = JsonParser.parseString(sb.toString()).getAsJsonObject();
             String ver = fullPage.get("tag_name").getAsString();
-            latestUrl = fullPage.get("html_url").getAsString();
+            latestGitUrl = fullPage.get("html_url").getAsString();
             latestVersion = ver;
 
             if (!ver.equals(сurrentVer)) {

@@ -48,7 +48,9 @@ Vehement @ Неистовый
 §7Attack Damage you have from items, @ §7Урона Осн. Атаки от предметов
 §8Attack Damage you have from items, @ §8Урона Осн. Атаки от предметов
 §7gain §f<num>%§7 Walk Speed (Max <num>%) @ §7получаете §f<num>%§r§7 к Скорости Ходьбы §8(Максимум <num>%)
+§7gain §f<num>%§7 Walk Speed. (Max <num>%) @ §7получаете §f<num>%§r§7 к Скорости Ходьбы. §8(Максимум <num>%)
 §8gain §7<num>%§8 Walk Speed (Max <num>%) @ §8получаете §7<num>%§r§8 к Скорости Ходьбы §8(Максимум <num>%)
+§8gain §7<num>%§8 Walk Speed. (Max <num>%) @ §8получаете §7<num>%§r§8 к Скорости Ходьбы. §8(Максимум <num>%)
 §7<em> §7Damage Bonus: §f<num> §7(Raw) @ §c<em> §7Бонус к урону: §f<num> §7(Чистый)
 §8<em> §8Damage Bonus: §7<num> §8(Raw) @ <em> §8Бонус к урону: §7<num> §8(Чистый)
 
@@ -76,11 +78,14 @@ Tougher Skin @ Крепкая Кожа
 §8§8For every §7<num>%§8 or §7<num> Raw§8 Health Regen you have @ §8За каждый §7<num>%§r§8 или §7<num> в чистом виде§r§8 Регенерации Здоровья
 §8For every §7<num>%§8 or §7<num> Raw§8 Health Regen you have @ §8За каждый §7<num>%§r§8 или §7<num> в чистом виде§r§8 Регенерации Здоровья
 §7from items, gain §f<num>§7 Health (Max <num>) @ §7от предметов получаете §f<num>§r§7 Здоровья §8(Максимум <num>)
+§7from items, gain §f<num>§7 Health. (Max <num>) @ §7от предметов получаете §f<num>§r§7 Здоровья. §8(Максимум <num>)
 §8from items, gain §7<num>§8 Health (Max <num>) @ §8от предметов получаете §7<num>§r§8 Здоровья §8(Максимум <num>)
+§8from items, gain §7<num>§8 Health. (Max <num>) @ §8от предметов получаете §7<num>§r§8 Здоровья. §8(Максимум <num>)
 
 # ─── Uppercut ──────────────────────────────────────────────────────────
 Uppercut @ Апперкот
 §7Hurls enemies upwards and @ §7Подбрасывает врагов вверх и
+§7deals massive damage. @ §7наносит огромный урон.
 §7<em> §7Area of Effect: §f<num>-<num> Blocks §7(Cone-Shaped) @ §3<em> §7Зона поражения: §f<num>-<num> блоков §7(Конус)
 §7<em> §7Area of Effect: §f<num><num> Blocks §7(Cone-Shaped) @ §3<em> §7Зона поражения: §f<num><num> блоков §7(Конус)
 
@@ -253,6 +258,7 @@ Counter @ Контрудар
 §7§7attack back when hit by an enemy attack. @ §7контратакуете при ударе врага.
 §7attack back when hit by an enemy attack. @ §7контратакуете при ударе врага.
 §7<em> §7Cooldown: §f<num>s §7(per enemy) @ §e<em> §7Перезарядка: §f<num>с §7(за врага)
+§7<em> §7Cooldown: §f<num>s (per enemy) @ §e<em> §7Перезарядка: §f<num>с §7(за врага)
 
 # ─── Shield Strike ─────────────────────────────────────────────────────
 Shield Strike @ Удар Щитом
@@ -274,6 +280,8 @@ Blood Pact @ Кровавый Пакт
 §7(§f<num>% §7health per mana) @ §7(§f<num>%§r§7 здоровья за единицу маны)
 §7§7A spell cast using health instead of mana will @ §7Заклинание, оплаченное здоровьем,
 §7A spell cast using health instead of mana will @ §7Заклинание, оплаченное здоровьем,
+§7§7A spell cast using health will @ §7Заклинание, оплаченное здоровьем,
+§7A spell cast using health will @ §7Заклинание, оплаченное здоровьем,
 §7§7deal §f<num>%§7 to §f<num>%§7 bonus damage, depending @ §7наносит §f<num>%§r§7 - §f<num>%§r§7 бонусного урона
 §7deal §f<num>%§7 to §f<num>%§7 bonus damage, depending @ §7наносит §f<num>%§r§7 - §f<num>%§r§7 бонусного урона
 §7on how much of its cost is paid in blood. @ §7в зависимости от доли оплаты кровью.
@@ -477,6 +485,8 @@ Radiant Devotee @ Сияющий Послушник
 §7§7For every §f<num>%§7 Reflection you have from @ §7За каждые §f<num>%§r§7 Отражения от
 §7For every §f<num>%§7 Reflection you have from @ §7За каждые §f<num>%§r§7 Отражения от
 §7items, gain §f<num>/<num>s§7 Mana Regen (Max <num>/<num>s) @ §7от предметов получаете §f<num>/<num>с§r§7 Регенерации Маны §8(Максимум <num>/<num>с)
+§7items, gain §f<num>/<num>s§7 Mana Regen. (Max <num>/<num>s) @ §7от предметов получаете §f<num>/<num>с§r§7 Регенерации Маны. §8(Максимум <num>/<num>с)
+§7items, gain §f<num>s§7 Mana Regen. (Max <num>s) @ §7от предметов получаете §f<num>с§r§7 Регенерации Маны. §8(Максимум <num>с)
 
 # ─── Freestream Flow ───────────────────────────────────────────────────
 Freestream Flow @ Свободный Поток
@@ -487,6 +497,7 @@ Freestream Flow @ Свободный Поток
 Riposte @ Рипост
 §7Increase the damage reduction of §nCounter§7 by §f<num>%§7 @ §7Усиливает снижение урона §nКонтрудара§r§7 на §f<num>%§r§7
 §7Increase the damage reduction of §nCounter§r§7 by §f<num>% @ §7Усиливает снижение урона §nКонтрудара§r§7 на §f<num>%§r§7
+§7Increase the damage reduction of §nCounter§7 by §f<num>%§7. @ §7Усиливает снижение урона §nКонтрудара§r§7 на §f<num>%§r§7.
 §7Increase the damage of §nCounter§7 and reduce its @ §7Усиливает урон §nКонтрудара§r§7 и снижает его
 §7Increase the damage of §nCounter§r§7 and reduce its @ §7Усиливает урон §nКонтрудара§r§7 и снижает его
 §7cooldown by §f<num>s§7. @ §7перезарядку на §f<num>с§r§7.
@@ -523,9 +534,9 @@ Luster Purge @ Сияющая Чистка
 # ─── Hallowed Blaze ────────────────────────────────────────────────────
 Hallowed Blaze @ Священное Пламя
 §7§7§nFlaming Uppercut§7 will deal more damage, @ §7§nПылающий Апперкот§r§7 наносит больше урона
-§7§nFlaming Uppercut§r§7 will deal more damage, @ §7§nПылающий Апперкот§r§7 наносит больше урона
+§7§7§nFlaming Uppercut§7 will deal more damage @ §7§nПылающий Апперкот§r§7 наносит больше урона
 §7§7and grant §f<num> §bHoly Power §6§l✧§7, whenever @ §7и даёт §f<num>§r§7 §bСвященной Силы §6§l✧§r§7 каждый раз,
-§7and grant §f<num> §bHoly Power §6§l✧§r§7, whenever @ §7и даёт §f<num>§r§7 §bСвященной Силы §6§l✧§r§7 каждый раз,
+§7§7and grant §f<num> §bHoly Power §6§l✧§7 whenever @ §7и даёт §f<num>§r§7 §bСвященной Силы §6§l✧§r§7 каждый раз,
 §7§7it deals damage. @ §7когда наносит урон.
 §7it deals damage. @ §7когда наносит урон.
 
@@ -665,6 +676,7 @@ Bloodlust @ Жажда Крови
 §7you had, damage increases by §f<num>%§7. @ §7который у вас был, урон растёт на §f<num>%§r§7.
 §8§8you had, damage increases by §7<num>%§8. @ §8который у вас был, урон растёт на §7<num>%§r§8.
 §8you had, damage increases by §7<num>%§8. @ §8который у вас был, урон растёт на §7<num>%§r§8.
+§8  ÀÀÀÀ§8(<em> §8Fire: §8<num>%§8) @ §8  ÀÀÀÀ§8(<em> §8Огонь: §8<num>%§8)
 
 # ─── Discombobulate ────────────────────────────────────────────────────
 Discombobulate @ Ошеломление
@@ -694,6 +706,7 @@ Consecration @ Освящение
 §7§nSacred Surge§r§7 grants §f<num> §bHoly Power §6§l✧ @ §7§nСвященный Всплеск§r§7 даёт §f<num>§r§7 §bСвященной Силы §6§l✧§r§7
 §7§7for every spell or ability triggered @ §7за каждое сработавшее заклинание или способность
 §7for every spell or ability triggered @ §7за каждое сработавшее заклинание или способность
+§7§7for every spell or ability triggered. @ §7за каждое сработавшее заклинание или способность.
 §7§7and deals increased damage. @ §7и наносит увеличенный урон.
 §7and deals increased damage. @ §7и наносит увеличенный урон.
 
@@ -768,6 +781,8 @@ Acceleration @ Ускорение
 Shine @ Сверкание
 §7§7Increase §nRadiance§7's effectiveness @ §7Усиливает эффективность §nСияния§r§7
 §7Increase §nRadiance§r§7's effectiveness @ §7Усиливает эффективность §nСияния§r§7
+§7§7Increase §nRadiance§7's effectiveness. @ §7Усиливает эффективность §nСияния§r§7.
+§7Increase §nRadiance§r§7's effectiveness. @ §7Усиливает эффективность §nСияния§r§7.
 §7§7and §nBash§7's area of effect. @ §7и зону поражения §nБаша§r§7.
 §7and §nBash§r§7's area of effect. @ §7и зону поражения §nБаша§r§7.
 
@@ -851,9 +866,9 @@ Enlightenment @ Просветление
 §7to §nMantle of the Bovemists§r§7. @ §7§nМантии Бовемистов§r§7.
 §7§7§nShield Strike§7 will deal more damage and grant @ §7§nУдар Щитом§r§7 наносит больше урона и даёт
 §7§nShield Strike§r§7 will deal more damage and grant @ §7§nУдар Щитом§r§7 наносит больше урона и даёт
-§7§7§f<num>§7 charge of §nMantle of the Bovemist§7 to nearby @ §f<num>§r§7 заряд §nМантии Бовемистов§r§7 ближним
-§7<num>§8 charge of §nMantle of the Bovemist§r§8 to nearby @ §7<num>§r§8 заряд §nМантии Бовемистов§r§8 ближним
-§f<num>§7 charge of §nMantle of the Bovemist§r§7 to nearby @ §f<num>§r§7 заряд §nМантии Бовемистов§r§7 ближним
+§7§7§f<num>§7 charge of §nMantle of the Bovemists§7 to nearby @ §f<num>§r§7 заряд §nМантии Бовемистов§r§7 ближним
+§7<num>§8 charge of §nMantle of the Bovemists§r§8 to nearby @ §7<num>§r§8 заряд §nМантии Бовемистов§r§8 ближним
+§f<num>§7 charge of §nMantle of the Bovemists§r§7 to nearby @ §f<num>§r§7 заряд §nМантии Бовемистов§r§7 ближним
 §7§7allies for every §f<num>§7 broken mantles used. @ §7союзникам за каждые §f<num>§r§7 потраченных расколотых мантий.
 §7allies for every §f<num>§7 broken mantles used. @ §7союзникам за каждые §f<num>§r§7 потраченных расколотых мантий.
 
@@ -885,6 +900,10 @@ Judgement @ Суд
 §7          ÀÀ  §f<num>% §7Resistance Bonus (§a❁§7) to Allies @ §7          ÀÀ  §f<num>% §7Сопротивление (§a❁§7) к союзникам
 §7            §f<num>% §7ID Effectiveness (§6❈§7) to Allies @ §7            §f<num>%§r§7 Эффективность ID (§6❈§7) союзникам
 §7          ÀÀ  §f<num>% §7ID Effectiveness (§6❈§7) to Allies @ §7          ÀÀ  §f<num>% §7Эффективность ID (§6❈§7) союзникам
+§7<em> §7Effects: §f<num>% §7Damage Bonus (§a⚔§7) to Allies @ <em> §7Эффекты: §f<num>% §7Бонус урона (§a⚔§7) союзникам
+§7Call upon a blade from the heavens @ §7Призывает клинок с небес,
+§7and grants buffs to nearby allies. @ §7и дающий бонусы ближним союзникам.
+§7that deals damage upon impact @ §7наносящий урон при ударе
 
 # ─── Zenith Stance ─────────────────────────────────────────────────────
 Zenith Stance @ Стойка Зенита
@@ -893,16 +912,22 @@ Zenith Stance @ Стойка Зенита
 §7Casting Main Attack while active performs @ §7§nОсновная Атака §7во время эффекта выполняет
 §7between dealing Spell and Main Attack damage. @ §7между уроном Заклинания и Осн. Атаки.
 §7<em> §7Total Damage: §f<num>% §8(of your DPS, spell) @ §c<em> §7Общий урон: §f<num>% §8(от вашего DPS, заклинание)
+§7In Spell form, casting a spell performs @ §7В форме Заклинания каст заклинания выполняет
+§7Main Attacks perform an attack instead. @ §7атаку выполняют сами Осн. Атаки.
+§7Manifest your combat mastery as two floating @ §7Проявляет ваше боевое мастерство в виде двух летающих
+§7an attack. In Main Attack form, @ §7атаку. В форме Осн. Атаки
+§7between Spell and Main Attack form.  @ §7между формой Заклинания и Осн. Атаки. 
+§7Casting А switches them @ §7Нажатие §d§lА §7переключает их
 
 # ══════════════════════════════════════════════════════════════════════
 # ОБЩИЕ / СТАТЫ (встречаются у многих скиллов)
 # ══════════════════════════════════════════════════════════════════════
-§6§lFallen Archetype @ §6§lАрхетип: Падший
-§e§lBattle Monk Archetype @ §e§lАрхетип: Боевой Монах
-§3§lPaladin Archetype @ §3§lАрхетип: Паладин
-§7Fallen Archetype @ §6§lАрхетип: Падший
-§7Battle Monk Archetype @ §e§lАрхетип: Боевой Монах
-§7Paladin Archetype @ §3§lАрхетип: Паладин
+§6§lFallen Archetype @ §#FFA057§lАрхетип: Падший
+§e§lBattle Monk Archetype @ §#DAE069§lАрхетип: Боевой Монах
+§3§lPaladin Archetype @ §#60C5CD§lАрхетип: Паладин
+§7Fallen Archetype @ §#FFA057§lАрхетип: Падший
+§7Battle Monk Archetype @ §#DAE069§lАрхетип: Боевой Монах
+§7Paladin Archetype @ §#60C5CD§lАрхетип: Паладин
 §7<em> §7Area of Effect: §f<num> Blocks §7 @ §7<em> §7Зона поражения: §f<num> блоков §7
 §7<em> Duration: <num>s @ §7<em> Длительность: <num>с
 §7<em> §7Mana Cost: §c<num>% @ §7<em> §7Затраты маны: §c<num>%
@@ -1254,3 +1279,10 @@ Flyby Slam @ Налётный Удар
 # RELEASE FIX 3: стыки + Скверны + архетип-треб (единый стиль)
 # ═══════════════════════════════════════════════════════
 §7§7Gaining §f<num>%§7 §bCorrupted <em>§7 will make your @ §7§7Набрав §f<num>%§r§7 §bСкверны §4<em>§r§7, ты дашь
+
+Paladin Archetype @ Архетип Паладина
+
+Battle Monk Archetype @ Архетип Боевого Монаха
+
+Fallen Archetype @ Архетип Падшего
+

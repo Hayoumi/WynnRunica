@@ -1,5 +1,6 @@
 package com.WynnRunica;
 
+import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.component.ComponentType;
 import net.minecraft.component.DataComponentTypes;
@@ -37,7 +38,8 @@ public class GuiTranslator {
 
         if (name != null) {
             var ex = TextEmojiUtils.extract(name);
-            if (TextEmojiUtils.findWynncraftPixelStyle(name) == null) {
+            if (TextEmojiUtils.findWynncraftPixelStyle(name) == null
+                    && !keepEnglishForWynntils(ex.key)) {
                 String translated = TranslationPrinter.getGuiTranslation(ex.key);
                 if (!translated.equals(ex.key)) {
                     nameCentered = translated.startsWith(CENTER_MARKER);
@@ -49,7 +51,7 @@ public class GuiTranslator {
                     Style style = ex.contentStyle != null && ex.contentStyle != Style.EMPTY
                             ? ex.contentStyle
                             : Style.EMPTY;
-                    finalName = TextEmojiUtils.rebuild(translated, ex.icons, style);
+                    finalName = TextEmojiUtils.rebuild(translated, ex.icons, style, ex.key);
                     nameChanged = true;
                 }
             }
@@ -94,7 +96,7 @@ public class GuiTranslator {
                             : Style.EMPTY;
                     if (centered)
                         centeredLines.add(newLines.size());
-                    newLines.add(TextEmojiUtils.rebuild(translated, ex.icons, style));
+                    newLines.add(TextEmojiUtils.rebuild(translated, ex.icons, style, ex.key));
                     loreChanged = true;
 
                 } else {
@@ -332,27 +334,83 @@ public class GuiTranslator {
         return formatting.append(value.substring(offset)).toString();
     }
 
+    private static final java.util.regex.Pattern WYNNTILS_CONTAINER_BUTTONS =
+            java.util.regex.Pattern.compile(
+                    "§7(?:Next|Previous) Page"
+                            + "|§a§l(?:Next|Previous) Page"
+                            + "|§f§lPage \\d+§a [<>].*"
+                            + "|§7Click again to confirm"
+                            + "|§c§lClose Chest");
+
+    private static boolean keepEnglishForWynntils(String key) {
+        return key != null
+                && FabricLoader.getInstance().isModLoaded("wynntils")
+                && WYNNTILS_CONTAINER_BUTTONS.matcher(key).matches();
+    }
+
     public static List<Text> translatePixelTooltip(List<Text> tooltip) {
         if (!WynnRunicaClient.enabled || tooltip == null || tooltip.isEmpty())
             return tooltip;
 
+        if (FabricLoader.getInstance().isModLoaded("wynntils")) {
+            return translateWynntilsPixelTooltip(tooltip);
+        }
+
+        return translateVanillaPixelTooltip(tooltip);
+    }
+
+    // multi-sibling mode (с Wynntils)
+    private static List<Text> translateWynntilsPixelTooltip(List<Text> tooltip) {
+        return translatePixelTooltip(tooltip, true);
+    }
+
+    // single-sibling mode (без Wynntils)
+    private static List<Text> translateVanillaPixelTooltip(List<Text> tooltip) {
+        return translatePixelTooltip(tooltip, false);
+    }
+
+    private static List<Text> translatePixelTooltip(List<Text> tooltip,
+                                                    boolean preserveStatDecorations) {
         List<Text> translatedLines = null;
         for (int i = 0; i < tooltip.size(); i++) {
             Text line = tooltip.get(i);
             var extracted = TextEmojiUtils.extract(line);
-            Style style = TextEmojiUtils.findWynncraftPixelStyle(line);
-            if (style == null)
-                continue;
+            Style pixelStyle = TextEmojiUtils.findWynncraftPixelStyle(line);
+            Style style = pixelStyle;
+            if (style == null) {
+                style = extracted.contentStyle != null && extracted.contentStyle != Style.EMPTY
+                        ? extracted.contentStyle
+                        : Style.EMPTY;
+            }
 
             String translated = TranslationPrinter.findGuiTranslation(extracted.key);
-            if (translated == null)
+            var label = TranslationPrinter.findGuiLabelTranslation(extracted.key, translated);
+            if (label != null && (preserveStatDecorations || pixelStyle != null)) {
+                if (translatedLines == null)
+                    translatedLines = new ArrayList<>(tooltip);
+                translatedLines.set(i, TextEmojiUtils.replaceFirstPixelLabel(
+                        line, label.source(), label.translation()));
                 continue;
+            }
+
+            if (translated == null
+                    || preserveStatDecorations && isPixelStatLine(extracted.key)) {
+                continue;
+            }
 
             if (translatedLines == null)
                 translatedLines = new ArrayList<>(tooltip);
-            translatedLines.set(i, TextEmojiUtils.rebuild(translated, extracted.icons, style));
+            translatedLines.set(i, TextEmojiUtils.rebuild(translated, extracted.icons, style, extracted.key));
         }
         return translatedLines == null ? tooltip : translatedLines;
+    }
+
+    private static boolean isPixelStatLine(String value) {
+        if (value == null) return false;
+        boolean aligned = value.codePoints()
+                .anyMatch(codePoint -> codePoint >= 0xC0000 && codePoint <= 0xDFFFF);
+        return aligned && (value.contains("<num>")
+                || value.codePoints().anyMatch(Character::isDigit));
     }
 
     public static void refreshOpenScreen() {

@@ -11,6 +11,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Enumeration;
 import java.util.HashMap;
+import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
@@ -24,7 +25,7 @@ public class TranslationLoader {
         Path configPath = FabricLoader.getInstance().getConfigDir().resolve("WynnRunica");
         Path questsPath = configPath.resolve("quests");
 
-        if (!Files.exists(questsPath)) {
+        if (isEmptyOrMissing(questsPath)) {
             try {
                 Files.createDirectories(questsPath);
 
@@ -106,7 +107,7 @@ public class TranslationLoader {
         Path configPath = FabricLoader.getInstance().getConfigDir().resolve("WynnRunica");
         Path guiPath = configPath.resolve("gui");
 
-        if (!Files.exists(guiPath)) {
+        if (isEmptyOrMissing(guiPath)) {
             try {
                 Files.createDirectories(guiPath);
 
@@ -164,5 +165,15 @@ public class TranslationLoader {
         System.out.println("Zagruzheno GUI perevodov: " + result.size());
         return result;
     }
+
+    private static boolean isEmptyOrMissing(Path dir) {
+        if (!Files.exists(dir)) return true;
+        try (Stream<Path> s = Files.list(dir)) {
+            return s.findAny().isEmpty();
+        } catch (IOException e) {
+            return true;
+        }
+    }
+
 
 }

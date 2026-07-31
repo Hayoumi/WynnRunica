@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(ClientPlayNetworkHandler.class)
 public class GuiTranslationMixin {
 
-    @Inject(method = "onInventory", at = @At("HEAD"))
+    @Inject(method = "onInventory", at = @At("TAIL"))
     private void onInventory(InventoryS2CPacket packet, CallbackInfo ci) {
 
         GuiTranslationCache.resetIfSyncIdChanged(packet.syncId());
@@ -28,7 +28,7 @@ public class GuiTranslationMixin {
         }
     }
 
-    @Inject(method = "onScreenHandlerSlotUpdate", at = @At("HEAD"))
+    @Inject(method = "onScreenHandlerSlotUpdate", at = @At("TAIL"))
     private void onScreenHandlerSlotUpdate(ScreenHandlerSlotUpdateS2CPacket packet, CallbackInfo ci) {
 
         GuiTranslationCache.resetIfSyncIdChanged(packet.getSyncId());

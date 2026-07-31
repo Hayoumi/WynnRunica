@@ -1,6 +1,50 @@
 {
   "providers": [
     {
+      "type": "reference",
+      "id": "minecraft:space"
+    },
+    {
+      "type": "space",
+      "advances": {
+        " ": 4,
+        "‌": 0
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/hud/dialogue/text/wynncraft.png",
+      "ascent": 97,
+      "height": 128,
+      "chars": [
+        "—!\"#$%&'()*+,-./",
+        "0123456789:;<=>?",
+        "@ABCDEFGHIJKLMNO",
+        "PQRSTUVWXYZ[\\]^_",
+        "`abcdefghijklmno",
+        "pqrstuvwxyz{|}~\u0000"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:font/hud/dialogue/text/wynncraft_latin.png",
+      "ascent": 100,
+      "height": 128,
+      "chars": [
+        "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ",
+        "àáâãäåæçèéêëìíîï"
+      ]
+    },
+    {
+      "ascent": 97,
+      "chars": [
+        ""
+      ],
+      "file": "minecraft:font/hud/dialogue/text/currency.png",
+      "height": 128,
+      "type": "bitmap"
+    },
+    {
       "type": "bitmap",
       "file": "wynnrunica:font/hud/dialogue/text/cyrillic.png",
       "ascent": 100,

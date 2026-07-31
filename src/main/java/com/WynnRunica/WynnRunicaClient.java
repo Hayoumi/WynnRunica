@@ -80,16 +80,24 @@ public class WynnRunicaClient implements ClientModInitializer {
                 }
             }
             reloadKeyWasDown = reloadDown;
+            DialogueInstantReveal.tick(client);
         });
 
 
         new Thread(VersionChecker::versionCheck).start();
+        AthenaRelay.init();
+        HadesRelay.init();
         ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
+            DialogueInstantReveal.reset();
             if (VersionChecker.hasUpdate && client.player != null) {
-                Text msg = Text.literal("[§3Wynn§fRunica] §eДоступна новая версия §a" + VersionChecker.latestVersion + "§e! ")
-                        .append(Text.literal("§b[Скачать]")
+                Text msg = Text.literal("[§3Wynn§fRunica] §eДоступна новая версия §a" + VersionChecker.latestVersion + "§e! §bСкачать (кликабельно): ")
+                        .append(Text.literal("§8(GitHub) §e| ")
                                 .styled(style -> style.withClickEvent(
-                                        new ClickEvent.OpenUrl(URI.create(VersionChecker.latestUrl))
+                                        new ClickEvent.OpenUrl(URI.create(VersionChecker.latestGitUrl))
+                                )))
+                        .append(Text.literal("§a(Modrinth)")
+                                .styled(style -> style.withClickEvent(
+                                        new ClickEvent.OpenUrl(URI.create(VersionChecker.latestModrinthUrl))
                                 )));
 
                 client.inGameHud.getChatHud().addMessage(msg);
@@ -97,7 +105,7 @@ public class WynnRunicaClient implements ClientModInitializer {
 
             }
         });
-
+        ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> DialogueInstantReveal.reset());
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) ->
                 dispatcher.register(literal("runicauntranslated")
                         .then(literal("on").executes(ctx -> setUntranslated(ctx.getSource(), true)))

@@ -1,5 +1,7 @@
 package com.WynnRunica.mixin;
 
+import com.WynnRunica.DialogueInstantReveal;
+import com.WynnRunica.TextEmojiUtils;
 import com.WynnRunica.TranslationPrinter;
 import com.WynnRunica.UntranslatedLogger;
 import net.minecraft.client.MinecraftClient;
@@ -8,8 +10,6 @@ import net.minecraft.text.MutableText;
 import net.minecraft.text.Style;
 import net.minecraft.text.StyleSpriteSource;
 import net.minecraft.text.Text;
-import net.minecraft.text.TextColor;
-import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -17,7 +17,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 import static com.WynnRunica.TextUtils.extractCleanText;
 import static com.WynnRunica.WynnRunicaClient.enabled;
@@ -25,368 +27,306 @@ import static com.WynnRunica.WynnRunicaClient.enabled;
 @Mixin(InGameHud.class)
 public class TitleTrackerMixin {
 
-    private static boolean isModifying = false;
     private static final int MAX_WIDTH = 234;
-    private static final int PORTRAIT_OFFSET = 28;
+    private static final int PORTRAIT_OFFSET = 24;
     private static final char SPECIAL_CHAR = '\uDAFF';
     private static final char ZERO_WIDTH_CHAR = '\uE000';
-    private static final Style[] bodyStyles = new Style[5];
+    private static final Style[] BODY_STYLES = new Style[5];
+    private static boolean isModifying;
     private static String lastCleanKey = "";
-    private static int consecutiveCount = 0;
-    private static String lastChoiceKey = "";
-    private static int choiceConsecutiveCount = 0;
+    private static int consecutiveCount;
 
     static {
-        for (int i = 0; i < 5; i++) {
-            bodyStyles[i] = Style.EMPTY.withFont(new StyleSpriteSource.Font(Identifier.of("minecraft", "hud/dialogue/text/wynncraft/body_" + i)));
-
+        for (int i = 0; i < BODY_STYLES.length; i++) {
+            BODY_STYLES[i] = Style.EMPTY.withFont(new StyleSpriteSource.Font(
+                    Identifier.of("minecraft", "hud/dialogue/text/wynncraft/body_" + i)));
         }
     }
 
     @Inject(method = "setOverlayMessage", at = @At("HEAD"), cancellable = true)
     private void onSetOverlay(Text message, boolean tinted, CallbackInfo ci) {
-        if (!enabled) return;
-        if (isModifying) return;
+        if (!enabled || isModifying || message == null) return;
 
         try {
-            if (message == null) return;
+            DialogueInstantReveal.observe(message);
+            MutableText copy = message.copy();
+            DialogueParts parts = DialogueParts.read(copy);
+            String key = parts.key();
+            if (key.isEmpty()) return;
 
-            MutableText messageCopy = message.copy();
-            List<Text> siblings = messageCopy.getSiblings();
-            ArrayList<Integer> textIndices = new ArrayList<>();
-            ArrayList<Integer> choiceIndices = new ArrayList<>();
-            ArrayList<Text> textSibs = new ArrayList<>();
-            ArrayList<Text> choiceSibs = new ArrayList<>();
+            boolean stabilized = stabilize(key);
+            String playerName = MinecraftClient.getInstance().getSession().getUsername();
+            String lookupKey = key.replace(playerName, "<playername>");
+            String translation = TranslationPrinter.getTranslation(lookupKey, stabilized);
 
-            boolean hasPortrait = false;
-            String speaker = "";
-            for (int i = 0; i < siblings.size(); i++) {
-                Text sib = siblings.get(i);
-                String font = sib.getStyle().getFont() == null ? "" : sib.getStyle().getFont().toString();
-                if (font.contains("dialogue/portrait")) {
-                    hasPortrait = true;
+            if (stabilized) {
+                UntranslatedLogger.logDialogue(lookupKey, parts.speaker(), false,
+                        TranslationPrinter.getCurrentQuest(), message);
+            }
+
+            boolean modified = false;
+            if (!translation.equals(lookupKey)) {
+                modified = replaceBody(message, copy, parts,
+                        translation.replace("<playername>", playerName));
+            }
+            modified |= replaceChoices(message, parts, playerName, stabilized);
+            if (!modified) return;
+
+            isModifying = true;
+            try {
+                ((InGameHud) (Object) this).setOverlayMessage(copy, tinted);
+            } finally {
+                isModifying = false;
+            }
+            ci.cancel();
+        } catch (Exception error) {
+            isModifying = false;
+            error.printStackTrace();
+        }
+    }
+
+    private static boolean replaceBody(Text original, MutableText copy, DialogueParts parts,
+                                       String translation) {
+        if (parts.textIndices().isEmpty()) return false;
+
+        boolean bold = parts.text().stream().allMatch(text -> text.getStyle().isBold());
+        Style baseStyle = bold ? BODY_STYLES[0].withBold(true) : BODY_STYLES[0];
+        Text rebuilt = TextEmojiUtils.rebuildDialogue(
+                translation, parts.icons(), baseStyle);
+        List<MutableText> lines = TextEmojiUtils.wrap(rebuilt,
+                parts.hasPortrait() ? MAX_WIDTH - PORTRAIT_OFFSET : MAX_WIDTH);
+        if (lines.isEmpty()) return false;
+        lines = mergeOverflow(lines);
+
+        boolean singleSibling = parts.text().size() == 1;
+        boolean hasInlineIcon = translation.contains("<em>");
+        MutableText replacement = Text.literal("");
+        int firstText = parts.textIndices().getFirst();
+        for (int index : parts.bodyIndices()) {
+            if (index >= firstText) break;
+            Text component = parts.siblings().get(index);
+            if (isBodyTextFont(fontId(component))
+                    && extractCleanText(component.getString()).trim().isEmpty()) {
+                replacement.append(component.copy());
+            }
+        }
+
+        // single-sibling mode (без Wynntils)
+        if (singleSibling) {
+            if (!hasInlineIcon) {
+                String raw = parts.text().getFirst().getString();
+                if (raw.length() >= 2 && Character.isHighSurrogate(raw.charAt(0))) {
+                    replacement.append(Text.literal(raw.substring(0, 2))
+                            .setStyle(BODY_STYLES[0]));
                 }
+            }
+
+            for (int i = 0; i < lines.size(); i++) {
+                MutableText line = moveToLine(lines.get(i), i);
+                resetWidth(line);
+                replacement.append(line);
+            }
+            compensate(replacement,
+                    width(parts.text().getFirst()) - width(replacement), BODY_STYLES[0]);
+
+        // multi-sibling mode (с Wynntils)
+        } else {
+            for (int i = 0; i < lines.size(); i++) {
+                MutableText line = moveToLine(lines.get(i), i);
+                if (i + 1 < lines.size()) resetWidth(line);
+                replacement.append(line);
+            }
+        }
+
+        int first = parts.bodyIndices().getFirst();
+        int originalWidth = width(original);
+        copy.getSiblings().set(first, replacement);
+        for (int index : parts.bodyIndices()) {
+            if (index != first) copy.getSiblings().set(index, Text.literal(""));
+        }
+        compensate(replacement, originalWidth - width(copy), BODY_STYLES[0]);
+        copy.getSiblings().set(first, replacement);
+        return true;
+    }
+
+    private static boolean replaceChoices(Text originalMessage, DialogueParts parts,
+                                          String playerName, boolean stabilized) {
+        boolean modified = false;
+        List<Text> siblings = parts.siblings();
+        for (List<Integer> group : parts.choices().values()) {
+            StringBuilder source = new StringBuilder();
+            int sourceWidth = 0;
+            for (int index : group) {
+                source.append(extractCleanText(siblings.get(index).getString()));
+                sourceWidth += width(siblings.get(index));
+            }
+
+            String original = source.toString().trim();
+            if (original.isEmpty()) continue;
+            String originalKey = original.replace(playerName, "<playername>");
+            if (stabilized && !TranslationPrinter.hasExactTranslation(originalKey)) {
+                UntranslatedLogger.logDialogue(originalKey, parts.speaker(), true,
+                        TranslationPrinter.getCurrentQuest(), originalMessage);
+            }
+
+            String translation = TranslationPrinter.translations.get(
+                    originalKey.replace(" ", "").toLowerCase());
+            if (translation == null) continue;
+
+            int first = group.getFirst();
+            Style style = siblings.get(first).getStyle();
+            MutableText replacement = TextEmojiUtils.rebuildDialogue(
+                    translation.replace("<playername>", playerName), List.of(), style).copy();
+            compensate(replacement, sourceWidth - width(replacement), style.withBold(false));
+            siblings.set(first, replacement);
+            for (int i = 1; i < group.size(); i++) {
+                siblings.set(group.get(i), Text.literal(""));
+            }
+            modified = true;
+        }
+        return modified;
+    }
+
+    private static List<MutableText> mergeOverflow(List<MutableText> source) {
+        if (source.size() <= BODY_STYLES.length) return source;
+        ArrayList<MutableText> result = new ArrayList<>(source.subList(0, BODY_STYLES.length));
+        MutableText tail = result.getLast();
+        for (int i = BODY_STYLES.length; i < source.size(); i++) {
+            tail.append(Text.literal(" ").setStyle(BODY_STYLES[0])).append(source.get(i));
+        }
+        return result;
+    }
+
+    private static MutableText moveToLine(Text source, int line) {
+        MutableText result = Text.literal("").setStyle(BODY_STYLES[line]);
+        source.visit((style, value) -> {
+            result.append(Text.literal(value).setStyle(moveBodyFont(style, line)));
+            return java.util.Optional.empty();
+        }, Style.EMPTY);
+        return result;
+    }
+
+    private static Style moveBodyFont(Style style, int line) {
+        StyleSpriteSource source = style.getFont();
+        if (!(source instanceof StyleSpriteSource.Font font)) return style;
+        String id = font.id().toString();
+        if (!isBodyTextFont(id) && !isBodyIconFont(id)) return style;
+        String path = font.id().getPath();
+        return style.withFont(new StyleSpriteSource.Font(Identifier.of(
+                font.id().getNamespace(), path.substring(0, path.length() - 1) + line)));
+    }
+
+    private static void resetWidth(MutableText text) {
+        compensate(text, -width(text), text.getStyle().withBold(false));
+    }
+
+    private static void compensate(MutableText text, int pixels, Style style) {
+        if (pixels == 0) return;
+        if (pixels < 0) {
+            text.append(Text.literal("" + SPECIAL_CHAR
+                    + (char) (ZERO_WIDTH_CHAR + pixels)).setStyle(style));
+            return;
+        }
+        int spaces = (pixels + 3) / 4;
+        int modulo = pixels % 4;
+        StringBuilder value = new StringBuilder(" ".repeat(spaces));
+        if (modulo != 0) {
+            value.append(SPECIAL_CHAR).append((char) (ZERO_WIDTH_CHAR - (4 - modulo)));
+        }
+        text.append(Text.literal(value.toString()).setStyle(style));
+    }
+
+    private static int width(Text text) {
+        return MinecraftClient.getInstance().textRenderer.getWidth(text);
+    }
+
+    private static boolean stabilize(String key) {
+        String clean = key.replace(" ", "").toLowerCase();
+        if (clean.equals(lastCleanKey)) {
+            consecutiveCount++;
+        } else {
+            lastCleanKey = clean;
+            consecutiveCount = 1;
+        }
+        return consecutiveCount >= 5;
+    }
+
+    private static String fontId(Text text) {
+        StyleSpriteSource source = text.getStyle().getFont();
+        return source instanceof StyleSpriteSource.Font font ? font.id().toString() : "";
+    }
+
+    private static boolean isBodyTextFont(String font) {
+        return font.startsWith("minecraft:hud/dialogue/text/wynncraft/body_")
+                && hasLineSuffix(font, 5);
+    }
+
+    private static boolean isBodyIconFont(String font) {
+        return font.startsWith("minecraft:hud/dialogue/text/common/body_")
+                && hasLineSuffix(font, 5);
+    }
+
+    private static boolean isChoiceFont(String font) {
+        return font.startsWith("minecraft:hud/dialogue/text/wynncraft/choice_")
+                && hasLineSuffix(font, 4);
+    }
+
+    private static boolean hasLineSuffix(String font, int count) {
+        char line = font.charAt(font.length() - 1);
+        return line >= '0' && line < '0' + count;
+    }
+
+    private record DialogueParts(List<Text> siblings, List<Integer> bodyIndices,
+                                 List<Integer> textIndices, List<Text> text,
+                                 List<Text> icons, Map<String, List<Integer>> choices,
+                                 boolean hasPortrait, String speaker) {
+
+        private static DialogueParts read(MutableText message) {
+            List<Text> siblings = message.getSiblings();
+            List<Integer> body = new ArrayList<>();
+            List<Integer> textIndices = new ArrayList<>();
+            List<Text> text = new ArrayList<>();
+            List<Text> icons = new ArrayList<>();
+            Map<String, List<Integer>> choices = new LinkedHashMap<>();
+            boolean portrait = false;
+            String speaker = "";
+
+            for (int i = 0; i < siblings.size(); i++) {
+                Text sibling = siblings.get(i);
+                String font = fontId(sibling);
+                portrait |= font.contains("dialogue/portrait");
                 if (font.contains("dialogue/text/nameplate")) {
-                    String candidate = extractCleanText(sib.getString()).trim();
-                    if (candidate.codePoints().anyMatch(Character::isLetter) && candidate.length() > speaker.length()) {
+                    String candidate = extractCleanText(sibling.getString()).trim();
+                    if (candidate.codePoints().anyMatch(Character::isLetter)
+                            && candidate.length() > speaker.length()) {
                         speaker = candidate;
                     }
                 }
-                if (font.contains("body_") &&
-                        !extractCleanText(sib.getString()).trim().isEmpty()) {
-                    textIndices.add(i);
-                    textSibs.add(sib);
-                }
-                if (font.contains("choice_") &&
-                        !extractCleanText(sib.getString()).trim().isEmpty()) {
-                    choiceIndices.add(i);
-                    choiceSibs.add(sib);
-                }
-            }
-            if (textSibs.isEmpty()) return;
-
-            boolean originalBold = textSibs.stream().allMatch(s -> s.getStyle().isBold());
-
-            StringBuilder keyBuilder = new StringBuilder();
-            for (Text sib : textSibs) {
-                if (keyBuilder.length() > 0) keyBuilder.append(" ");
-                keyBuilder.append(extractCleanText(sib.getString()));
-            }
-
-            String key = keyBuilder.toString().trim().replaceAll(" +", " ");
-            if (key.isEmpty()) return;
-
-            String cleanKey = key.replace(" ", "").toLowerCase();
-            if (cleanKey.equals(lastCleanKey)) {
-                consecutiveCount++;
-            } else {
-                consecutiveCount = 1;
-                lastCleanKey = cleanKey;
-            }
-
-            boolean isStabilized = consecutiveCount >= 5;
-
-            StringBuilder choiceKeyBuilder = new StringBuilder();
-            for (Text choice : choiceSibs) {
-                if (choiceKeyBuilder.length() > 0) choiceKeyBuilder.append('\n');
-                choiceKeyBuilder.append(extractCleanText(choice.getString()).trim());
-            }
-            String choiceKey = choiceKeyBuilder.toString();
-            if (!choiceKey.isEmpty() && choiceKey.equals(lastChoiceKey)) {
-                choiceConsecutiveCount++;
-            } else {
-                choiceConsecutiveCount = choiceKey.isEmpty() ? 0 : 1;
-                lastChoiceKey = choiceKey;
-            }
-            boolean choicesStabilized = choiceConsecutiveCount >= 5;
-
-            String playerName = MinecraftClient.getInstance().getSession().getUsername();
-            key = key.replace(playerName, "<playername>");
-
-            boolean hasExactTranslation = TranslationPrinter.hasExactTranslation(key);
-            String translation = TranslationPrinter.getTranslation(key, isStabilized);
-
-            if (isStabilized && !hasExactTranslation) {
-                UntranslatedLogger.logDialogue(key, speaker, false, TranslationPrinter.getCurrentQuest());
-            }
-
-            translation = translation.replace("<playername>", playerName);
-
-            Style splitStyle = originalBold ? bodyStyles[0].withBold(true) : bodyStyles[0];
-
-            int effectiveMax = hasPortrait ? (MAX_WIDTH - PORTRAIT_OFFSET) : MAX_WIDTH;
-            int widthAdjust = MAX_WIDTH - effectiveMax;
-
-            ArrayList<String> lines = splitTextIntoLines(translation, splitStyle, widthAdjust);
-            if (lines.isEmpty()) return;
-
-            if (textSibs.size() == 1) {
-                // single-sibling mode (без Wynntils)
-
-                String rawText = textSibs.get(0).getString();
-                String startPos = rawText.length() >= 2 ? rawText.substring(0, 2) : "";
-
-                int originalSibWidth = getRenderWidth(textSibs.get(0));
-
-                TextColor originalColor = textSibs.get(0).getStyle().getColor();
-
-                boolean isRealStartPos = !startPos.isEmpty() && Character.isHighSurrogate(startPos.charAt(0));
-                MutableText copy = Text.literal(isRealStartPos ? startPos : "").setStyle(bodyStyles[0]);
-                for (int i = 0; i < lines.size() && i < 5; i++) {
-                    Style lineStyle = originalColor != null ? bodyStyles[i].withColor(originalColor) : bodyStyles[i];
-                    MutableText line = parseBrackets(lines.get(i), lineStyle, originalBold);
-                    line = manageWidth(line);
-                    copy.append(line);
-                }
-                int widthBeforeFinalManage = getRenderWidth(copy);
-
-                int adjust = originalSibWidth - widthBeforeFinalManage;
-                if (adjust > 0) {
-                    int spaces = (adjust + 3) / 4;
-                    int modulo = adjust % 4;
-                    StringBuilder sb = new StringBuilder(" ".repeat(spaces));
-
-                    if (modulo != 0) {
-                        sb.append(SPECIAL_CHAR).append((char)(ZERO_WIDTH_CHAR - (4 - modulo)));
+                if (isBodyTextFont(font)) {
+                    body.add(i);
+                    if (!extractCleanText(sibling.getString()).trim().isEmpty()) {
+                        textIndices.add(i);
+                        text.add(sibling);
                     }
-                    copy.append(Text.literal(sb.toString()).setStyle(bodyStyles[0]));
-
-                } else if (adjust < 0) {
-                    int backUp = -adjust;
-                    copy.append(Text.literal("" + SPECIAL_CHAR + (char)(ZERO_WIDTH_CHAR - backUp)).setStyle(bodyStyles[0]));
-                }
-
-                siblings.set(textIndices.get(0), copy);
-
-
-            } else {
-                // multi-sibling mode (с Wynntils)
-
-                TextColor originalColor = textSibs.get(0).getStyle().getColor();
-                Style line0Style = originalColor != null ? bodyStyles[0].withColor(originalColor) : bodyStyles[0];
-                MutableText copy = parseBrackets(lines.get(0), line0Style, originalBold);
-
-                for (int i = 1; i < lines.size() && i < 5; i++) {
-                    copy = manageWidth(copy);
-                    Style lineStyle = originalColor != null ? bodyStyles[i].withColor(originalColor) : bodyStyles[i];
-                    copy.append(parseBrackets(lines.get(i), lineStyle, originalBold));
-                }
-
-                int originalTotalWidth = getRenderWidth(message);
-                siblings.set(textIndices.get(0), copy);
-                int lastTextIdx = textIndices.get(textIndices.size() - 1);
-                int cursorResetIdx = -1;
-
-                for (int i = lastTextIdx + 1; i < siblings.size(); i++) {
-                    Text sib = siblings.get(i);
-                    String sibStr = sib.getString();
-                    boolean hasSurrogate = sibStr.chars().anyMatch(c -> c >= 0xD800 && c <= 0xDFFF);
-
-                    if (sib.getStyle().getFont() != null &&
-                            sib.getStyle().getFont().toString().contains("body_") &&
-                            sibStr.length() <= 2 && hasSurrogate) {
-                        cursorResetIdx = i;
-                        break;
-                    }
-                }
-
-                int clearEnd = cursorResetIdx > 0 ? cursorResetIdx : lastTextIdx + 1;
-                for (int i = textIndices.get(0) + 1; i < clearEnd; i++) {
-                    Text sib = siblings.get(i);
-                    if (sib.getStyle().getFont() != null &&
-                            sib.getStyle().getFont().toString().contains("body_")) {
-                        siblings.set(i, Text.literal(""));
-                    }
-                }
-
-                int newTotalWidth = getRenderWidth(messageCopy);
-                int diff = originalTotalWidth - newTotalWidth;
-
-                if (diff > 0) {
-                    int spaces = (diff + 3) / 4;
-                    int modulo = diff % 4;
-                    StringBuilder sb = new StringBuilder(" ".repeat(spaces));
-                    if (modulo != 0) {
-                        sb.append(SPECIAL_CHAR).append((char)(ZERO_WIDTH_CHAR - (4 - modulo)));
-                    }
-                    copy.append(Text.literal(sb.toString()).setStyle(bodyStyles[0]));
-                    siblings.set(textIndices.get(0), copy);
-
-                } else if (diff < 0) {
-                    int backUp = -diff;
-                    copy.append(Text.literal("" + SPECIAL_CHAR + (char)(ZERO_WIDTH_CHAR - backUp)).setStyle(bodyStyles[0]));
-                    siblings.set(textIndices.get(0), copy);
+                } else if (isBodyIconFont(font)) {
+                    body.add(i);
+                    icons.add(sibling);
+                } else if (isChoiceFont(font)
+                        && !extractCleanText(sibling.getString()).trim().isEmpty()) {
+                    choices.computeIfAbsent(font, ignored -> new ArrayList<>()).add(i);
                 }
             }
+            return new DialogueParts(siblings, body, textIndices, text, icons,
+                    choices, portrait, speaker);
+        }
 
-            // перевод вариантов выбора (без эпштейна)
-            for (int k = 0; k < choiceSibs.size(); k++) {
-                Text sib = choiceSibs.get(k);
-                String original = extractCleanText(sib.getString());
-
-                String lookupKey = original.replace(playerName, "<playername>")
-                        .replace(" ", "").toLowerCase();
-
-                if (isStabilized && choicesStabilized
-                        && !TranslationPrinter.hasExactTranslation(original.replace(playerName, "<playername>"))) {
-                    UntranslatedLogger.logDialogue(
-                            original.replace(playerName, "<playername>"),
-                            speaker,
-                            true,
-                            TranslationPrinter.getCurrentQuest()
-                    );
-                }
-
-                String ctr = TranslationPrinter.translations.get(lookupKey);
-                if (ctr == null) continue;
-                ctr = ctr.replace("<playername>", playerName);
-
-                int engWidth = getRenderWidth(sib);
-                MutableText repl = Text.literal(ctr).setStyle(sib.getStyle());
-
-                int adjust = engWidth - getRenderWidth(repl);
-                if (adjust > 0) {
-                    int spaces = (adjust + 3) / 4;
-                    int modulo = adjust % 4;
-                    StringBuilder sb = new StringBuilder(" ".repeat(spaces));
-
-                    if (modulo != 0) {
-                        sb.append(SPECIAL_CHAR).append((char)(ZERO_WIDTH_CHAR - (4 - modulo)));
-                    }
-
-                    repl.append(Text.literal(sb.toString()).setStyle(sib.getStyle().withBold(false)));
-
-                } else if (adjust < 0) {
-                    int backUp = -adjust;
-                    repl.append(Text.literal("" + SPECIAL_CHAR + (char)(ZERO_WIDTH_CHAR - backUp)).setStyle(sib.getStyle().withBold(false)));
-                }
-
-                siblings.set(choiceIndices.get(k), repl);
+        private String key() {
+            StringBuilder key = new StringBuilder();
+            for (Text component : text) {
+                if (!key.isEmpty()) key.append(' ');
+                key.append(extractCleanText(component.getString()));
             }
-
-
-            isModifying = true;
-            ((InGameHud)(Object)this).setOverlayMessage(messageCopy, tinted);
-            isModifying = false;
-            ci.cancel();
-
-        } catch (Exception e) {
-            isModifying = false;
-            e.printStackTrace();
+            return key.toString().trim().replaceAll(" +", " ");
         }
-    }
-
-
-    private ArrayList<String> splitTextIntoLines(String text, Style style, int adjustWidth) {
-
-        ArrayList<String> lines = new ArrayList<>();
-        String remaining = text;
-
-        while (!remaining.isEmpty()) {
-            if (lines.size() == 5) {
-                lines.set(4, lines.get(4) + " " + remaining);
-                break;
-            }
-
-            if (getRenderWidth(Text.literal(remaining).setStyle(style)) <= MAX_WIDTH - adjustWidth) {
-                lines.add(remaining);
-                break;
-            }
-
-            int splitIndex = findBestSplitIndex(remaining, style, MAX_WIDTH - adjustWidth);
-
-            if (splitIndex <= 0) splitIndex = 1;
-            lines.add(remaining.substring(0, splitIndex).stripTrailing());
-            remaining = remaining.substring(splitIndex).stripLeading();
-        }
-        return lines;
-    }
-
-    private int findBestSplitIndex(String text, Style style, int maxWidth) {
-        int low = 0, high = text.length();
-
-        while (low < high) {
-            int mid = (low + high + 1) >>> 1;
-
-            if (getRenderWidth(Text.literal(text.substring(0, mid)).setStyle(style)) <= maxWidth)
-                low = mid;
-            else
-                high = mid - 1;
-        }
-        int lastSpace = text.lastIndexOf(' ', low);
-        return lastSpace > 0 ? lastSpace : low;
-    }
-
-    private MutableText manageWidth(MutableText component) {
-        int width = getRenderWidth(component);
-
-        if (width == 0) return component;
-        String specialChars;
-
-        if (width > 0) {
-            specialChars = SPECIAL_CHAR + "" + (char)(ZERO_WIDTH_CHAR - width);
-        } else {
-            int needed = -width;
-            int spaces = (needed + 3) / 4;
-            int modulo = needed % 4;
-            StringBuilder sb = new StringBuilder(" ".repeat(spaces));
-            if (modulo != 0) {
-                sb.append(SPECIAL_CHAR).append((char)(ZERO_WIDTH_CHAR - (4 - modulo)));
-            }
-            specialChars = sb.toString();
-        }
-        MutableText appendment = Text.literal(specialChars).setStyle(component.getStyle().withBold(false));
-        return component.append(appendment);
-    }
-
-    private int getRenderWidth(Text component) {
-        return MinecraftClient.getInstance().textRenderer.getWidth(component);
-    }
-
-    private MutableText parseBrackets(String text, Style baseStyle, boolean bold) {
-        MutableText result = Text.literal("").setStyle(baseStyle);
-        String pre = bold ? "§l" : "";
-        int lastPos = 0;
-        int startIdx = text.indexOf('[');
-
-        while (startIdx != -1) {
-            int endIdx = text.indexOf(']', startIdx);
-
-            if (endIdx != -1) {
-                if (startIdx > lastPos) {
-                    result.append(Text.literal(pre + text.substring(lastPos, startIdx)).setStyle(baseStyle));
-                }
-                Style bracketStyle = baseStyle.withColor(Formatting.LIGHT_PURPLE);
-                result.append(Text.literal(pre + text.substring(startIdx, endIdx + 1)).setStyle(bracketStyle));
-                lastPos = endIdx + 1;
-                startIdx = text.indexOf('[', lastPos);
-            } else {
-                break;
-            }
-        }
-        if (lastPos < text.length()) {
-            result.append(Text.literal(pre + text.substring(lastPos)).setStyle(baseStyle));
-        }
-        return result;
     }
 }

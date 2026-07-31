@@ -6,7 +6,11 @@
   ],
   "client": [
     "TitleTrackerMixin",
-    "GuiTranslationMixin"
+    "GuiTranslationMixin",
+    "TooltipCaptureMixin",
+    "TooltipRenderMixin",
+    "WynntilsAthenaRelayMixin",
+    "WynntilsHadesRelayMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -26,6 +26,8 @@ public class TranslationPrinter {
     }
 
     public static final List<GuiPattern> guiPatterns = new ArrayList<>();
+    private static final HashMap<String, String> guiLabelTranslations = new HashMap<>();
+    private static final java.util.HashSet<String> ambiguousGuiLabels = new java.util.HashSet<>();
 
     public static void reload() {
         HashMap<String, String> rawTranslations = TranslationLoader.loadFromConfig();
@@ -52,13 +54,26 @@ public class TranslationPrinter {
         translations = cleanTranslations;
 
         guiPatterns.clear();
+        guiLabelTranslations.clear();
+        ambiguousGuiLabels.clear();
         for (String key : guiTranslations.keySet()) {
+            String label = structuralPixelLabel(key);
+            String translatedLabel = structuralPixelLabel(guiTranslations.get(key));
+            if (hasPixelAlignment(key)
+                    && label != null && translatedLabel != null && !label.equals(translatedLabel)
+                    && !ambiguousGuiLabels.contains(label)) {
+                String previous = guiLabelTranslations.putIfAbsent(label, translatedLabel);
+                if (previous != null && !previous.equals(translatedLabel)) {
+                    guiLabelTranslations.remove(label);
+                    ambiguousGuiLabels.add(label);
+                }
+            }
             if (!key.contains("<num>")) continue;
 
             String[] parts = key.split("<num>", -1);
             StringBuilder pb = new StringBuilder();
             for (int i = 0; i < parts.length; i++) {
-                if (i > 0) pb.append("([+\\-]?\\d+[.,/\\d]*)");
+                if (i > 0) pb.append("([+\\-]?\\d+(?:[.,/]\\d+)*)");
                 pb.append(java.util.regex.Pattern.quote(parts[i]));
             }
             try {
@@ -137,19 +152,97 @@ public class TranslationPrinter {
         if (text == null || text.isEmpty()) return null;
 
         String exact = guiTranslations.get(text);
-        if (exact != null) return exact;
+        if (exact != null) return fillTemplate(exact, null);
 
         for (GuiPattern gp : guiPatterns) {
             java.util.regex.Matcher m = gp.pattern.matcher(text);
             if (m.matches()) {
-                String result = gp.translationTemplate;
-                for (int g = 1; g <= m.groupCount(); g++) {
-                    result = result.replaceFirst("<num>", java.util.regex.Matcher.quoteReplacement(m.group(g)));
-                }
-                return result;
+                return fillTemplate(gp.translationTemplate, m);
             }
         }
         return null;
+    }
+
+    private static String fillTemplate(String template, java.util.regex.Matcher m) {
+        if (!template.contains("<num>") && !template.contains("<pl:")) return template;
+        StringBuilder out = new StringBuilder(template.length());
+        String current = null;
+        int group = 1, i = 0;
+        while (i < template.length()) {
+            if (template.startsWith("<num>", i)) {
+                current = m != null && group <= m.groupCount() ? m.group(group++) : null;
+                out.append(current != null ? current : "<num>");
+                i += "<num>".length();
+            } else if (template.startsWith("<pl:", i)) {
+                int end = template.indexOf('>', i);
+                String[] forms = end < 0 ? null : template.substring(i + 4, end).split("\\|", -1);
+                if (forms == null || forms.length != 3) {
+                    out.append(template.charAt(i++));
+                } else {
+                    out.append(pluralForm(current, forms));
+                    i = end + 1;
+                }
+            } else {
+                out.append(template.charAt(i++));
+            }
+        }
+        return out.toString();
+    }
+
+    private static String pluralForm(String number, String[] forms) {
+        if (number == null) return forms[2];
+        if (number.matches(".*[.,/].*")) return forms[1];
+        long n;
+        try {
+            n = Long.parseLong(number.replaceAll("[^0-9]", ""));
+        } catch (NumberFormatException e) {
+            return forms[2];
+        }
+        long hundreds = n % 100, units = n % 10;
+        if (units == 1 && hundreds != 11) return forms[0];
+        if (units >= 2 && units <= 4 && (hundreds < 12 || hundreds > 14)) return forms[1];
+        return forms[2];
+    }
+
+    public record GuiLabelMatch(String source, String translation) {}
+
+    public static GuiLabelMatch findGuiLabelTranslation(String text) {
+        return findGuiLabelTranslation(text, findGuiTranslation(text));
+    }
+
+    public static GuiLabelMatch findGuiLabelTranslation(String text, String fullTranslation) {
+        String source = structuralPixelLabel(text);
+        String exact = structuralPixelLabel(fullTranslation);
+        if (source != null && exact != null && !source.equals(exact))
+            return new GuiLabelMatch(source, exact);
+        String translation = guiLabelTranslations.get(source);
+        return translation == null ? null : new GuiLabelMatch(source, translation);
+    }
+
+    private static String structuralPixelLabel(String value) {
+        if (value == null) return null;
+        String clean = TextUtils.extractCleanText(value
+                .replaceAll("\u00A7(?:#[0-9a-fA-F]{6}|.)", "")
+                .replace("<em>", " "));
+        var number = java.util.regex.Pattern.compile("(?:<num>|[+\\-]?\\d+(?:[.,/]\\d+)*)")
+                .matcher(clean);
+        if (!number.find()) return null;
+        String before = clean.substring(0, number.start()).trim();
+        String after = clean.substring(number.end()).trim();
+        if (before.codePoints().anyMatch(Character::isLetter)) {
+            String words = after.replace("<num>", "")
+                    .replaceAll("(?i)\\b(?:to|s)\\b", "")
+                    .replaceAll("[^\\p{L}]", "");
+            return words.isEmpty() ? before.replaceFirst("^[^\\p{L}]*", "").trim() : null;
+        }
+        return !after.isEmpty() && after.split("\\s+").length <= 3
+                && after.replaceAll("[\\p{L}\\s'’\\-]", "").isEmpty()
+                ? after : null;
+    }
+
+    private static boolean hasPixelAlignment(String value) {
+        return value != null && value.codePoints()
+                .anyMatch(codePoint -> codePoint >= 0xC0000 && codePoint <= 0xDFFFF);
     }
 
     /* public static int getTranslationsCount() {

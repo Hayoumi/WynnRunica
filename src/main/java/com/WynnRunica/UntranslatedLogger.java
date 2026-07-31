@@ -2,6 +2,9 @@ package com.WynnRunica;
 
 import com.google.gson.Gson;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.text.Style;
+import net.minecraft.text.StyleSpriteSource;
+import net.minecraft.text.Text;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -10,6 +13,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
 import java.util.Locale;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
@@ -21,7 +26,8 @@ public final class UntranslatedLogger {
     public static volatile boolean ENABLED = false;
 
     private static final Pattern HAS_WORD = Pattern.compile("\\p{L}{2,}");
-    private static final Pattern GUI_NUMBER = Pattern.compile("(?<!§)\\d+[.,/\\d]*");
+    private static final Pattern GUI_NUMBER =
+            Pattern.compile("(?<!§)\\d+(?:[.,/]\\d+)*");
     private static final Pattern WHITESPACE = Pattern.compile("\\s+");
     private static final Gson GSON = new Gson();
 
@@ -40,8 +46,14 @@ public final class UntranslatedLogger {
             String speaker,
             boolean choice,
             String quest,
-            long capturedAt
+            long capturedAt,
+            boolean translated,
+            List<Segment> segments
     ) {}
+
+    private record Segment(String text, String color, String font, boolean bold,
+                           boolean italic, boolean underlined, boolean strikethrough,
+                           boolean obfuscated, boolean icon) {}
 
     static {
         try {
@@ -74,13 +86,17 @@ public final class UntranslatedLogger {
     }
 
     public static void logDialogue(String text, String speaker, boolean choice, String quest) {
+        logDialogue(text, speaker, choice, quest, null);
+    }
+
+    public static void logDialogue(String text, String speaker, boolean choice, String quest,
+                                   Text visual) {
         if (!ENABLED || dialogueLogFile == null || text == null) return;
 
         String clean = singleLine(text);
         if (!isUsefulEnglishText(clean) || clean.indexOf('@') >= 0) return;
 
         String lookupKey = dialogueLookupKey(clean);
-        if (TranslationPrinter.translations.containsKey(lookupKey)) return;
         if (!seenDialogues.add(lookupKey)) return;
 
         String cleanSpeaker = singleLine(speaker == null ? "" : speaker);
@@ -92,7 +108,9 @@ public final class UntranslatedLogger {
                 cleanSpeaker,
                 choice,
                 cleanQuest,
-                System.currentTimeMillis()
+                System.currentTimeMillis(),
+                TranslationPrinter.translations.containsKey(lookupKey),
+                visual == null ? List.of() : serialize(visual)
         ));
         ensureWriterStarted();
     }
@@ -116,7 +134,8 @@ public final class UntranslatedLogger {
             if (line.isBlank()) continue;
             try {
                 DialogueEntry entry = GSON.fromJson(line, DialogueEntry.class);
-                if (entry != null && entry.text() != null) {
+                if (entry != null && entry.text() != null
+                        && entry.segments() != null && !entry.segments().isEmpty()) {
                     seenDialogues.add(dialogueLookupKey(singleLine(entry.text())));
                 }
             } catch (Exception ignored) {}
@@ -185,6 +204,38 @@ public final class UntranslatedLogger {
 
     private static String dialogueLookupKey(String text) {
         return text.replace(" ", "").toLowerCase(Locale.ROOT);
+    }
+
+    private static List<Segment> serialize(Text source) {
+        List<Segment> result = new ArrayList<>();
+        walk(source, Style.EMPTY, result);
+        return result;
+    }
+
+    private static void walk(Text node, Style parent, List<Segment> out) {
+        Style style = node.getStyle().withParent(parent);
+        node.getContent().visit(value -> {
+            if (!value.isEmpty()) out.add(segment(value, style));
+            return java.util.Optional.empty();
+        });
+        for (Text sibling : node.getSiblings()) walk(sibling, style, out);
+    }
+
+    private static Segment segment(String value, Style style) {
+        String color = style.getColor() == null
+                ? null : String.format("#%06X", style.getColor().getRgb() & 0xFFFFFF);
+        String font = "minecraft:default";
+        boolean icon = false;
+        StyleSpriteSource source = style.getFont();
+        if (source instanceof StyleSpriteSource.Font fontSource) {
+            font = fontSource.id().toString();
+            icon = !font.equals("minecraft:default") && !font.equals("minecraft:uniform");
+        } else if (source instanceof StyleSpriteSource.Sprite spriteSource) {
+            font = "sprite:" + spriteSource.atlasId() + "/" + spriteSource.spriteId();
+            icon = true;
+        }
+        return new Segment(value, color, font, style.isBold(), style.isItalic(),
+                style.isUnderlined(), style.isStrikethrough(), style.isObfuscated(), icon);
     }
 
     private static String singleLine(String text) {

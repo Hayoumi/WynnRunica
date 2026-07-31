@@ -65,7 +65,9 @@ Wisdom @ Мудрость
 §7For every §f<num>%§7 or §f<num> Raw §7Spell Damage you have @ §7За каждые §f<num>%§7 или §f<num> Сырого §7Урона Заклинаниями с предметов,
 §8For every §7<num>%§8 or §7<num> Raw §8Spell Damage you have @ §8За каждые §7<num>%§8 или §7<num> Сырого §8Урона Заклинаниями с предметов,
 §7from items, gain §f+<num>s§7 Mana Regen (Max <num>s) @ §7получаете §f+<num>с§7 Восстановление Маны (Максимум <num>с)
+§7from items, gain §f+<num>s§7 Mana Regen. (Max <num>s) @ §7получаете §f+<num>с§7 Восстановление Маны. (Максимум <num>с)
 §8from items, gain §7+<num>s§8 Mana Regen (Max <num>s) @ §8получаете §7+<num>с§8 Восстановление Маны (Максимум <num>с)
+§8from items, gain §7+<num>s§8 Mana Regen. (Max <num>s) @ §8получаете §7+<num>с§8 Восстановление Маны. (Максимум <num>с)
 
 # ─── Heal ──────────────────────────────────────────────────────────────
 Heal @ Лечение
@@ -187,6 +189,7 @@ Arcane Transfer @ Арканная Передача
 §8§8§nHeal§8 will now transfer the contents of your @ §8§nЛечение§r§8 теперь передаёт содержимое вашего
 §7§bMana Bank ✺§7 into usable Mana instead of healing. @ §7§bБанка Маны ✺§r§7 в ману вместо лечения.
 §8§7Mana Bank ✺§8 into usable Mana instead of healing. @ §8§7Банка Маны ✺§r§8 в ману вместо лечения.
+§8§8§nMeteor§8, §nIce Snake§8, and §nEtheric Slash§8 will add §7<num>§8 Mana to @ §8§nМетеор§r§8, §nЛедяная Змея§r§8 и §nЭфирный Разрез§r§8 добавляют §7<num>§r§8 Маны в
 
 # ─── Astral Fragmentation ──────────────────────────────────────────────
 Astral Fragmentation @ Астральная Раздробленность
@@ -317,6 +320,7 @@ Seance @ Сеанс
 §r§c- §cSeance @ §r§c- §cСеанс
 §7For every §f<num>s§7 Lifesteal you have @ §7За каждые §f<num>с§r§7 Кражи Жизни с предметов
 §7from items, gain §f+<num>%§7 Spell Damage (Max <num>%) @ §7получаете §f+<num>%§r§7 Урона Заклинаний (Максимум <num>%)
+§7from items, gain §f+<num>%§7 Spell Damage. (Max <num>%) @ §7получаете §f+<num>%§r§7 Урона Заклинаний. (Максимум <num>%)
 
 # ─── Orphion's Pulse ───────────────────────────────────────────────────
 Orphion's Pulse @ Пульс Орфиона
@@ -471,6 +475,7 @@ Time Dilation @ Расширение Времени
 §7§8(You lose <num>% Speed Bonus every second @ §7§8(Теряете <num>% бонуса скорости каждую секунду
 §7§8once you stop running) @ §7§8после остановки)
 §7<em> §7Effect: §f+<num>% §7Walk Speed to Allies §8(per <num>s, +<num>% Max) @ <em> §7Эффект: §f+<num>% §7Скорости Ходьбы союзникам §8(за <num>с, макс. +<num>%)
+§7§8(You lose <num>% Walk Speed Bonus every second @ §8(Вы теряете <num>% бонуса скорости ходьбы каждую секунду
 
 # ─── Arctic Snake ──────────────────────────────────────────────────────
 Arctic Snake @ Арктическая Змея
@@ -500,6 +505,7 @@ Arcane Power @ Арканная Мощь
 §r§c- §cArcane Power @ §r§c- §cАрканная Мощь
 §7§7your §bMana Bank ✺§7 for each aggressive enemy you hit. @ §7ваш §bБанк Маны ✺§r§7 за каждого агрессивного врага.
 §7§7§nArcane Restoration§7 will restore mana §f<num>s §7faster.  @ §7§nАрканное Восстановление§r§7 восстанавливает ману на §f<num>с§r§7 быстрее.
+§7§7§nMeteor§7, §nIce Snake§7, and §nEtheric Slash§7 will add §f<num>§7 Mana to @ §7§nМетеор§r§7, §nЛедяная Змея§r§7 и §nЭфирный Разрез§r§7 добавляют §f<num>§r§7 Маны в
 
 # ─── Everlasting Light ─────────────────────────────────────────────────
 Everlasting Light @ Вечный Свет
@@ -514,6 +520,7 @@ Devitalize @ Ослабление
 §7§nHeal§7 and §nArcane Transfer§7 weaken nearby enemies. @ §7§nЛечение§r§7 и §nАрканная Передача§r§7 ослабляют ближайших врагов.
 §7§7You gain §f+<num>§7 Distortion <em>§7 for every enemy weakened. @ §7Получаете §f+<num>§r§7 §bИскажения§r§7 <em>§7 за каждого ослабленного врага.
 §7(Up to +<num>) @ §7(До §f+<num>§r§7)
+§7<em> §7Effect: §f<num>%§f §7Damage Bonus (<em>§7) to Enemies @ <em> §7Эффект: §f<num>%§f §7Бонус урона (<em>§7) к врагам
 
 # ─── Influx Shift ──────────────────────────────────────────────────────
 Influx Shift @ Усиление Потока
@@ -521,6 +528,7 @@ Influx Shift @ Усиление Потока
 §r§c- §cInflux Shift @ §r§c- §cУсиление Потока
 §7§7Increase the amount of Distortion <em>§7 generated @ §7Увеличивает количество генерируемого §bИскажения§r§7 <em>
 §7§7by §f+<num>%§7 and effects gained from it by §f+<num>%§7. @ §7на §f+<num>%§r§7 и эффекты от него на §f+<num>%§r§7.
+§7§7Increase the effects gained from Distortion <em>§7 by §f<num>%§7. @ §7Усиливает эффекты от §bИскажения§r§7 <em>§7 на §f<num>%§r§7.
 
 # ─── Larger Mana Bank III ──────────────────────────────────────────────
 Larger Mana Bank III @ Увеличенный Банк Маны III
@@ -561,6 +569,7 @@ Riftbound @ Привязка к Разлому
 §7While §nRiftbound§7, your §nDimensional Tear§7 follows you, @ §7В состоянии §nРазломосвязанного§r§7 ваш §nПространственный Разрыв§r§7 следует за вами,
 §7reaches further and your Distortion <em>§7 stops decaying. @ §7достигает дальше, а §bИскажение§r§7 <em>§7 перестаёт убывать.
 §7<em> §7Range: §f+<num>% Blocks §7(Circle-Shaped) @ <em> §7Дальность: §f+<num>% блоков §7(Круг)
+§7<em> §7Area of Effect: §f<num>% Blocks §7(Circle-Shaped) @ <em> §7Зона поражения: §f<num>% блоков §7(Круг)
 
 # ─── Sunflare ──────────────────────────────────────────────────────────
 Sunflare @ Солнечная Вспышка
@@ -734,6 +743,7 @@ Thunderstorm @ Гроза
 §8§8adds §7+<num>§8 Mana to your §7Mana Bank ✺§8 @ §8добавляющий §7+<num>§r§8 Маны в ваш §7Банк Маны ✺§r§8
 §7§7for each aggressive enemy you hit. @ §7за каждого агрессивного врага.
 §8§8for each aggressive enemy you hit. @ §8за каждого агрессивного врага.
+§8§8strike near the point of impact that @ §8рядом с точкой попадания,
 
 # ─── Dawn ──────────────────────────────────────────────────────────────
 Dawn @ Рассвет
@@ -763,6 +773,9 @@ Tangled Origin @ Переплетение Начал
 §7<em> Vision: <num> Blocks @ <em> §7Обзор: §f<num> блоков
 §7<em> Total Damage: <num>% (of your DPS, Thunder) @ <em> §7Общий урон: §f<num>% §8(от вашего DPS, Гром)
 §7<em> Total Damage: <num>% (of your DPS, Fire) @ <em> §7Общий урон: §f<num>% §8(от вашего DPS, Огонь)
+§7Summon a Thunder Serpent and a Fire @ §7Призывает §bЗмея Грома§r§7 и §bЗмея Огня§r§7,
+§7The Fire Serpent fires at Unstable <em> @ §7§bЗмей Огня§r§7 бьёт по §bНестабильным <em>§r§7
+§7targets every <num>s, gaining the damage bonus. @ §7целям каждые §f<num>с§r§7, получая бонус урона.
 
 # ─── Gravitational Collapse ────────────────────────────────────────────
 Gravitational Collapse @ Гравитационный Коллапс
@@ -785,15 +798,16 @@ Gravitational Collapse @ Гравитационный Коллапс
 # ОБЩИЕ / СТАТЫ (встречаются у многих скиллов)
 # ══════════════════════════════════════════════════════════════════════
 Ability Points @ Очки Способностей
-§7§lLight Bender Archetype @ §7§lАрхетип Светоносца
-§b§lRiftwalker Archetype @ §b§lАрхетип Странника Разлома
-§d§lArcanist Archetype @ §d§lАрхетип Арканиста
-§7Light Bender Archetype @ §7§lАрхетип Светоносца
-§7Riftwalker Archetype @ §b§lАрхетип Странника Разлома
-§7Arcanist Archetype @ §d§lАрхетип Арканиста
-Light Bender Archetype @ §7§lАрхетип Светоносца
-Riftwalker Archetype @ §b§lАрхетип Странника Разлома
-Arcanist Archetype @ §d§lАрхетип Арканиста
+§e§lAbility Points @ §e§lОчки Способностей
+§7§lLight Bender Archetype @ §#B8B0B0§lАрхетип Светоносца
+§b§lRiftwalker Archetype @ §#60C5CD§lАрхетип Странника Разлома
+§d§lArcanist Archetype @ §#EB3DFE§lАрхетип Арканиста
+§7Light Bender Archetype @ §#B8B0B0§lАрхетип Светоносца
+§7Riftwalker Archetype @ §#60C5CD§lАрхетип Странника Разлома
+§7Arcanist Archetype @ §#EB3DFE§lАрхетип Арканиста
+Light Bender Archetype @ §#B8B0B0§lАрхетип Светоносца
+Riftwalker Archetype @ §#60C5CD§lАрхетип Странника Разлома
+Arcanist Archetype @ §#EB3DFE§lАрхетип Арканиста
 §7§c✖ §7Min Arcanist Archetype: §f§c<num>§7/<num> @ §7§c✖ §7Мин. Арканист: §f§c<num>§7/<num>
 §7§a✔ §7Min Arcanist Archetype: §f§f<num>§7/<num> @ §7§a✔ §7Мин. Арканист: §f§f<num>§7/<num>
 §7§a✔ §7Min Light Bender Archetype: §f§f<num>§7/<num> @ §7§a✔ §7Мин. Светоносец: §f§f<num>§7/<num>

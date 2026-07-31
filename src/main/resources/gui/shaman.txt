@@ -60,6 +60,7 @@ Haul @ Рывок
 §r§c- §cHaul @ §r§c- §cРывок
 §7§6Click Combo: §d§lRIGHT-RIGHT-RIGHT @ §7§6Комбо: §d§lПКМ§7-§d§lПКМ§7-§d§lПКМ
 §7§7Leap towards your §bTotem§7. @ §7Прыгает к §bТотему§r§7.
+§7§7Leap towards your §nTotem§7. @ §7Прыгает к §nТотему§r§7.
 
 # ─── Hand of the Shaman ────────────────────────────────────────────────
 §r§c- §7Hand of the Shaman @ §r§c- §7Рука Шамана
@@ -169,6 +170,7 @@ Puppet Master @ Кукловод
 §7§7Your §nTotem§7 will summon §b<num> §bPuppet§7 @ §7§nТотем§r§7 призывает §b<num>§r§7 §bМарионетку§r§7
 §7every §f<num>s§7. (Max <num>) They throw knives @ §7каждые §f<num>с§r§7. (Максимум <num>) Бросают ножи
 §7at nearby enemies every §f<num>s§7. @ §7в ближайших врагов каждые §f<num>с§r§7.
+§7§7Your §nTotem§7 will summon §f<num> §bPuppet§7 @ §7§nТотем§r§7 призывает §f<num>§r§7 §bМарионетку§r§7
 
 # ─── Mystic Masks ──────────────────────────────────────────────────────
 Mystic Masks @ Мистические Маски
@@ -177,18 +179,19 @@ Mystic Masks @ Мистические Маски
 §7§7When casting §nUproot§7, instead @ §7При применении §nВырывания§r§7 надевает
 §7§7wear one of the Mystic Masks§7. @ §7одну из §bМистических Масок§r§7.
 §7§8(Shift + Uproot to remove it) @ §7§8(Shift+Вырывание - снять)
-§7<em> Lunatic§7: §f+<num>% §7Damage Bonus to Self @ §7<em> §dБезумец§r§7: §f+<num>%§r§7 урона для себя
+§7<em> Lunatic§7: §f+<num>% §7Damage Bonus to Self @ §7<em> §#F4557DЛунатик§r§7: §f+<num>%§r§7 урона для себя
 §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §c-<num>%§f §7Resistance Bonus to Self @ §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §c-<num>%§r§7 сопротивления для себя
-§7<em> Fanatic§7: §f+<num>% §7Resistance to Self @ §7<em> §6Фанатик§r§7: §f+<num>%§r§7 сопротивления для себя
+§7<em> Fanatic§7: §f+<num>% §7Resistance to Self @ §7<em> §#FFC251Фанатик§r§7: §f+<num>%§r§7 сопротивления для себя
 §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §c-<num>%§7 Walk Speed to Self @ §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §c-<num>%§r§7 скорости ходьбы для себя
-§7<em> Heretic§7: §f+<num>% §7Walk Speed to Self @ §7<em> §bЕретик§r§7: §f+<num>%§r§7 скорости ходьбы для себя
+§7<em> Heretic§7: §f+<num>% §7Walk Speed to Self @ §7<em> §#99E9FFЕретик§r§7: §f+<num>%§r§7 скорости ходьбы для себя
 §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §c-<num>%§f §7Damage Bonus to Self @ §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §c-<num>%§r§7 урона для себя
+§7<em> Fanatic§7: §f<num>% §7Resistance Bonus to Self @ §7<em> §#FFC251Фанатик§r§7: §f<num>%§r§7 сопротивления для себя
 
 # ─── Hymn of Hate ──────────────────────────────────────────────────────
 Hymn of Hate @ Гимн Ненависти
 §r§c- §7Hymn of Hate @ §r§c- §7Гимн Ненависти
 §r§c- §cHymn of Hate @ §r§c- §cГимн Ненависти
-§7§7When wearing the Mask of the Lunatic <em>§7, killing @ §7В §dМаске Безумца§r§7 <em>§r§7 убийство
+§7§7When wearing the Mask of the Lunatic <em>§7, killing @ §7В §#F4557DМаске Лунатика§r§7 <em>§r§7 убийство
 §7§7an enemy with §nAura§7 will cast a new §nAura§7 @ §7врага §nАурой§r§7 создаёт новую §nАуру§r§7
 §7§7at its location, dealing §f-<num>%§7 of its damage. @ §7на его месте, наносящую §f-<num>%§r§7 урона.
 
@@ -257,11 +260,11 @@ Haunting Memory @ Навязчивое Воспоминание
 §8§8the effects of your Mask§8 until it returns. @ §8§7Маски§r§8 не действуют, пока она не вернётся.
 §7<em> §7Effects: @ <em> §7Эффекты:
 §8<em> §8Effects: @ <em> §8Эффекты:
-§7  ÀÀÀÀ<em> Lunatic§7: §f-<num>%§f §7Damage Bonus (<em>§7) to Enemies @ §7  ÀÀÀÀ<em> §dБезумец§r§7: §f-<num>%§r§7 урона (<em>§7) врагам
-§8  ÀÀÀÀ<em> Lunatic§8: §7-<num>%§7 §8Damage Bonus (<em>§8) to Enemies @ §8  ÀÀÀÀ<em> §7Безумец§r§8: §7-<num>%§r§8 урона (<em>§8) врагам
-§7  ÀÀÀÀ<em> Fanatic§7: §f-<num>% §7Resistance Bonus (<em>§7) to Enemies @ §7  ÀÀÀÀ<em> §6Фанатик§r§7: §f-<num>%§r§7 сопротивления (<em>§7) врагам
+§7  ÀÀÀÀ<em> Lunatic§7: §f-<num>%§f §7Damage Bonus (<em>§7) to Enemies @ §7  ÀÀÀÀ<em> §#F4557DЛунатик§r§7: §f-<num>%§r§7 урона (<em>§7) врагам
+§8  ÀÀÀÀ<em> Lunatic§8: §7-<num>%§7 §8Damage Bonus (<em>§8) to Enemies @ §8  ÀÀÀÀ<em> §7Лунатик§r§8: §7-<num>%§r§8 урона (<em>§8) врагам
+§7  ÀÀÀÀ<em> Fanatic§7: §f-<num>% §7Resistance Bonus (<em>§7) to Enemies @ §7  ÀÀÀÀ<em> §#FFC251Фанатик§r§7: §f-<num>%§r§7 сопротивления (<em>§7) врагам
 §8  ÀÀÀÀ<em> Fanatic§8: §7-<num>% §8Resistance Bonus (<em>§8) to Enemies @ §8  ÀÀÀÀ<em> §7Фанатик§r§8: §7-<num>%§r§8 сопротивления (<em>§8) врагам
-§7  ÀÀÀÀ<em> Heretic§7: §f+<num>% §7Slowness (<em>§7) to Enemies @ §7  ÀÀÀÀ<em> §bЕретик§r§7: §f+<num>%§r§7 Замедление (<em>§7) врагам
+§7  ÀÀÀÀ<em> Heretic§7: §f+<num>% §7Slowness (<em>§7) to Enemies @ §7  ÀÀÀÀ<em> §#99E9FFЕретик§r§7: §f+<num>%§r§7 Замедление (<em>§7) врагам
 §8  ÀÀÀÀ<em> Heretic§8: §7+<num>% §8Slowness (<em>§8) to Enemies @ §8  ÀÀÀÀ<em> §7Еретик§r§8: §7+<num>%§r§8 Замедление (<em>§8) врагам
 
 # ─── Totemic Reach ─────────────────────────────────────────────────────
@@ -289,8 +292,8 @@ Exploding Puppets @ Взрывные Марионетки
 Frog Dance @ Танец Лягушки
 §r§c- §7Frog Dance @ §r§c- §7Танец Лягушки
 §r§c- §cFrog Dance @ §r§c- §cТанец Лягушки
-§7§7When wearing the Mask of the Heretic <em>§7, @ §7В §bМаске Еретика§r§7 <em>§r§7
-§7When wearing the Mask of the Heretic <em>, @ §7В §bМаске Еретика§r§7 <em>§r§7
+§7§7When wearing the Mask of the Heretic <em>§7, @ §7В §#99E9FFМаске Еретика§r§7 <em>§r§7
+§7When wearing the Mask of the Heretic <em>, @ §7В §#99E9FFМаске Еретика§r§7 <em>§r§7
 §7§7§nHaul§7 will instead bounce you off @ §7§nРывок§r§7 подбрасывает вас
 §7§7the ground §f<num>§7 times at an increasing @ §7от земли §f<num>§r§7 раза с нарастающей
 §7§7speed and damage nearby enemies. @ §7скоростью, нанося урон ближайшим врагам.
@@ -316,7 +319,7 @@ Bullwhip @ Кнут
 Totemic Shatter @ Тотемный Разлом
 §r§c- §7Totemic Shatter @ §r§c- §7Тотемный Разлом
 §r§c- §cTotemic Shatter @ §r§c- §cТотемный Разлом
-§7§7While wearing the Mask of the Fanatic <em>§7, @ §7В §6Маске Фанатика§r§7 <em>§r§7
+§7§7While wearing the Mask of the Fanatic <em>§7, @ §7В §#FFC251Маске Фанатика§r§7 <em>§r§7
 §7§7your §7§nTotem§7 will shatter upon impacting @ §7§nТотем§r§7 разлетается при ударе
 §7§7the ground, rapidly triggering §f<num>s @ §7о землю, быстро запуская §f<num>с§r§7
 §7§7worth of its effects. @ §7своих эффектов.
@@ -355,9 +358,10 @@ Artist's Immersion @ Погружение Артиста
 §r§c- §cArtist's Immersion @ §r§c- §cПогружение Артиста
 §7§7Your Masks reduce the cost of different @ §7§bМаски§r§7 снижают стоимость разных
 §7abilities based on the active mask. @ §7способностей в зависимости от активной маски.
-§7<em> Lunatic§7: -<num>% <em> Aura Cost @ §7<em> §dБезумец§r§7: §f-<num>%§r§7 <em> Стоимость Ауры
-§7<em> Fanatic§7: -<num>% <em> Totem Cost @ §7<em> §6Фанатик§r§7: §f-<num>%§r§7 <em> Стоимость Тотема
-§7<em> Heretic§7: -<num>% <em> Haul Cost @ §7<em> §bЕретик§r§7: §f-<num>%§r§7 <em> Стоимость Рывка
+§7<em> Lunatic§7: -<num>% <em> Aura Cost @ §7<em> §#F4557DЛунатик§r§7: §f-<num>%§r§7 <em> Стоимость Ауры
+§7<em> Fanatic§7: -<num>% <em> Totem Cost @ §7<em> §#FFC251Фанатик§r§7: §f-<num>%§r§7 <em> Стоимость Тотема
+§7<em> Heretic§7: -<num>% <em> Haul Cost @ §7<em> §#99E9FFЕретик§r§7: §f-<num>%§r§7 <em> Стоимость Рывка
+§7abilities based on the active Mask. @ §7способностей в зависимости от активной Маски.
 
 # ─── Vengeful Spirit ───────────────────────────────────────────────────
 Vengeful Spirit @ Дух Мести
@@ -429,12 +433,14 @@ Tribal Chants @ Племенные Гимны
 §r§c- §cTribal Chants @ §r§c- §cПлеменные Гимны
 §7When switching masks, cause an @ §7При смене масок создаёт эффект
 §7effect around yourself. @ §7вокруг себя.
-§7<em> Lunatic§7: §f+<num>% §7Damage Bonus (§a⚔§7) to Allies @ §7<em> §dБезумец§r§7: §f+<num>%§r§7 Бонус урона (§a⚔§7) союзникам
-§7<em> Fanatic§7: §f<num>% §7Resistance Bonus to Allies @ §7<em> §6Фанатик§r§7: §f<num>%§r§7 Бонус сопротивления союзникам
-§7<em> Fanatic§7: §f+<num>% §7Resistance Bonus to Allies @ §7<em> §6Фанатик§r§7: §f+<num>%§r§7 Бонус сопротивления союзникам
-§7<em> Heretic§7: §f+<num>%§7 Walk Speed to Allies @ §7<em> §bЕретик§r§7: §f+<num>%§r§7 Скорость ходьбы союзникам
+§7<em> Lunatic§7: §f+<num>% §7Damage Bonus (§a⚔§7) to Allies @ §7<em> §#F4557DЛунатик§r§7: §f+<num>%§r§7 Бонус урона (§a⚔§7) союзникам
+§7<em> Fanatic§7: §f<num>% §7Resistance Bonus to Allies @ §7<em> §#FFC251Фанатик§r§7: §f<num>%§r§7 Бонус сопротивления союзникам
+§7<em> Fanatic§7: §f+<num>% §7Resistance Bonus to Allies @ §7<em> §#FFC251Фанатик§r§7: §f+<num>%§r§7 Бонус сопротивления союзникам
+§7<em> Heretic§7: §f+<num>%§7 Walk Speed to Allies @ §7<em> §#99E9FFЕретик§r§7: §f+<num>%§r§7 Скорость ходьбы союзникам
 §7(-<num>% of the bonus decays every second) @ §8(-<num>% бонуса убывает каждую секунду)
 §7<em> §7Cooldown: §f<num>s (per Chant) @ <em> §7Перезарядка: §f<num>с §8(за Гимн)
+§7<em> Fanatic§7: §f<num>% §7Resistance Bonus (§a❁§7) to Allies @ §7<em> §#FFC251Фанатик§r§7: §f<num>%§r§7 Сопротивление (§a❁§7) союзникам
+§7Switching Masks buffs nearby allies. @ §7Смена §bМасок§r§7 усиливает ближайших союзников.
 
 # ─── Eldritch Call ─────────────────────────────────────────────────────
 Eldritch Call @ Потустороннее Призывание
@@ -456,12 +462,13 @@ Maddening Roots @ Корни Безумия
 §7§7§nUproot§7 will slow down enemies. Additionally, @ §7§nВырывание§r§7 замедляет врагов. Дополнительно
 §7§7increase the damage bonus granted by §nBullwhip§7. @ §7увеличивает бонус урона от §nКнута§r§7.
 §7<em> §7Effect: §f+<num>% §7Bullwhip Damage Bonus @ <em> §7Эффект: §f+<num>%§r§7 Бонус урона от Кнута
+§7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §f<num>% §7Bullwhip Damage Bonus @ §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §f<num>%§r§7 Бонус урона Кнута
 
 # ─── Seeking Totem ─────────────────────────────────────────────────────
 Seeking Totem @ Ищущий Тотем
 §r§c- §7Seeking Totem @ §r§c- §7Ищущий Тотем
 §r§c- §cSeeking Totem @ §r§c- §cИщущий Тотем
-§7§7While wearing the Mask of the Heretic <em>§7, @ §7В §bМаске Еретика§r§7 <em>§r§7
+§7§7While wearing the Mask of the Heretic <em>§7, @ §7В §#99E9FFМаске Еретика§r§7 <em>§r§7
 §7§7your §nTotem§7 will move towards you, @ §7§nТотем§r§7 движется к вам,
 §7§7unless you are within its range. @ §7пока вы не окажетесь в его зоне.
 
@@ -483,6 +490,7 @@ Rupture @ Разрыв
 §7§7§nSacrificial Shrine§7 boosts §nAura§7's damage by §f+<num>%§7 and consumes @ §7§nЖертвенный Алтарь§r§7 усиливает урон §nАуры§r§7 на §f+<num>%§r§7 и поглощает
 §7§7up to §f<num>s§7 of Bleeding <em> , granting §f+<num> §bBlood Pool <em> §7for each @ §7до §f<num>с§r§7 §bКровотечения <em>§r§7, давая §f+<num>§r§7 §bКровяного Резервуара <em>§r§7 за каждую
 §7§7second of Bleeding <em> consumed. @ §7секунду поглощённого §bКровотечения <em>§r§7.
+§7§7up to §f<num>s§7 of Bleeding <em>, granting §f<num> §bBlood Pool <em> §7for each @ §7до §f<num>с§r§7 §bКровотечения <em>§r§7, давая §f<num>§r§7 §bКровяного Резервуара <em> §7за каждую
 
 # ─── Bloody ────────────────────────────────────────────────────────────
 Bloody @ Кровавый
@@ -533,9 +541,10 @@ Meticulous Act @ Кропотливый Акт
 §r§c- §7Meticulous Act @ §r§c- §7Кропотливый Акт
 §r§c- §cMeticulous Act @ §r§c- §cКропотливый Акт
 §7Your Masks§7 will give higher bonuses. @ §7§bМаски§r§7 дают более высокие бонусы.
-§7<em> Lunatic: +<num>% §7Damage Bonus @ §7<em> §dБезумец§r§7: §f+<num>%§r§7 Бонус урона
-§7<em> Fanatic: +<num>% §7Resistance @ §7<em> §6Фанатик§r§7: §f+<num>%§r§7 Сопротивление
-§7<em> Heretic: §f+<num>% §7Walk Speed @ §7<em> §bЕретик§r§7: §f+<num>%§r§7 Скорость ходьбы
+§7<em> Lunatic: +<num>% §7Damage Bonus @ §7<em> §#F4557DЛунатик§r§7: §f+<num>%§r§7 Бонус урона
+§7<em> Fanatic: +<num>% §7Resistance @ §7<em> §#FFC251Фанатик§r§7: §f+<num>%§r§7 Сопротивление
+§7<em> Heretic: §f+<num>% §7Walk Speed @ §7<em> §#99E9FFЕретик§r§7: §f+<num>%§r§7 Скорость ходьбы
+§7<em> Fanatic: <num>% §7Resistance Bonus @ §7<em> §#FFC251Фанатик§r§7: §f<num>%§r§7 Сопротивление
 
 # ─── Bloodletting ──────────────────────────────────────────────────────
 Bloodletting @ Кровопускание
@@ -610,6 +619,7 @@ Soaring Wingbeats @ Парящие Взмахи
 §7§7effects are improved. @ §7
 §7<em> §7Effects: §f+<num>% §7Walk Speed to Self @ <em> §7Эффекты: §f+<num>%§r§7 Скорость ходьбы к себе
 §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §f+<num>§f §7Jump Height to Self @ §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §f+<num>§r§7 Высота прыжка к себе
+§7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §f<num>§f §7Jump Height to Self @ §7  ÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀÀ §f<num>§r§7 Высота прыжка к себе
 
 # ─── Cheaper Uproot II ─────────────────────────────────────────────────
 Cheaper Uproot II @ Экономное Вырывание II
@@ -628,6 +638,8 @@ Awakened @ Пробуждённый
 §7§7Switching to an attached Mask @ §7Переключение на прикреплённую §bМаску§r§7
 §7§7while Awakened ♚ §7will immediately @ §7в состоянии §fПробуждённого ♚§r§7 §7немедленно
 §7§7recall the Mask §7back to you. @ §7отзывает §bМаску§r§7 обратно.
+§7§7cause you to become Awakened ♚§7, @ §7§bПробуждённого ♚§r§7,
+§7§7giving you the upsides of all @ §7даруя вам плюсы всех
 
 # ─── Blood Sorrow ──────────────────────────────────────────────────────
 Blood Sorrow @ Кровавая Скорбь
@@ -654,6 +666,7 @@ Puppetry @ Кукловодство
 §r§c- §7Puppetry @ §r§c- §7Кукловодство
 §r§c- §cPuppetry @ §r§c- §cКукловодство
 §7§7§nTotem§7 summons Puppets §f<num>%§7 faster. @ §7§nТотем§r§7 призывает Марионеток на §f<num>%§r§7 быстрее.
+§7§7§nTotem§7 summons §bPuppets§7 §f<num>%§7 faster. @ §7§nТотем§r§7 призывает §bМарионеток§r§7 на §f<num>%§r§7 быстрее.
 
 # ─── Eldritch Transfusion ──────────────────────────────────────────────
 Eldritch Transfusion @ Потусторонняя Трансфузия
@@ -666,6 +679,11 @@ Eldritch Transfusion @ Потусторонняя Трансфузия
 §7its attacks deal more damage. All stacks are lost @ §7атаки наносят больше урона. Все заряды теряются,
 §7when §7§nEldritch Call§7 ends. @ §7когда §nПотустороннее Призывание§r§7 заканчивается.
 §7<em> §7Effect: §f+<num>% §7damage to Eldritch Call §8(Per stack)§7 @ <em> §7Эффект: §f+<num>%§r§7 урона Призывания §8(за заряд)
+§7For each §bTransfused <em>§7 §7§nEldritch Call§7 has, its @ §7За каждую §bТрансфузию <em>§r§7 §nПотустороннего Призывания§r§7 его
+§7attacks deal more damage. All §bTransfused <em> @ §7атаки наносят больше урона. Вся §bТрансфузия <em>
+§7is lost when §7§nEldritch Call§7 expires. @ §7теряется, когда §nПотустороннее Призывание§r§7 заканчивается.
+§7will imbue its attacks with blood, granting it §f<num>§7 @ §7ещё активно, напитывает его атаки кровью, давая §f<num>§r§7
+§7§bTransfused <em>. §8(Max <num>) @ §7§bТрансфузии <em>§r§7. §8(Максимум <num>)
 
 # ─── Crystal Knives ────────────────────────────────────────────────────
 Crystal Knives @ Кристальные Ножи
@@ -709,7 +727,7 @@ Slingshot @ Катапульта
 Egomania @ Эгомания
 §r§c- §7Egomania @ §r§c- §7Эгомания
 §r§c- §cEgomania @ §r§c- §cЭгомания
-§7When wearing the Mask of the Fanatic <em>, @ §7В §6Маске Фанатика§r§7 <em>§r§7
+§7When wearing the Mask of the Fanatic <em>, @ §7В §#FFC251Маске Фанатика§r§7 <em>§r§7
 §7Aura will radiate from yourself @ §7§nАура§r§7 исходит от вас самих,
 §7instead of your Totem. @ §7а не от §nТотема§r§7.
 §7§7Increase §nAura§7's damage. @ §7Увеличивает урон §nАуры§r§7.
@@ -718,7 +736,7 @@ Egomania @ Эгомания
 Totemic Hammer @ Тотемный Молот
 §r§c- §7Totemic Hammer @ §r§c- §7Тотемный Молот
 §r§c- §cTotemic Hammer @ §r§c- §cТотемный Молот
-§7When wearing the Mask of the Lunatic <em>, @ §7В §dМаске Безумца§r§7 <em>§r§7
+§7When wearing the Mask of the Lunatic <em>, @ §7В §#F4557DМаске Лунатика§r§7 <em>§r§7
 §7Totem will smash down onto the ground. @ §7§nТотем§r§7 обрушивается на землю.
 §7§7Increase §nTotemic Smash§7's damage. @ §7Увеличивает урон §nТотемного Удара§r§7.
 
@@ -739,10 +757,10 @@ Fortified Formation @ Защитное Построение
 §7§7back at attackers every §f<num>s§7. @ §7атакующим каждые §f<num>с§r§7.
 §7<em> §7Effects: §f<num>% §7Resistance Bonus (§a❁§7) to Self @ <em> §7Эффекты: §f<num>%§r§7 Бонус сопротивления (§a❁§7) к себе
 
-# ─── Pool of Rejuvination ──────────────────────────────────────────────
-Pool of Rejuvination @ Омолаживающий Бассейн
-§r§c- §7Pool of Rejuvination @ §r§c- §7Омолаживающий Бассейн
-§r§c- §cPool of Rejuvination @ §r§c- §cОмолаживающий Бассейн
+# ─── Pool of Rejuvenation ──────────────────────────────────────────────
+Pool of Rejuvenation @ Омолаживающий Бассейн
+§r§c- §7Pool of Rejuvenation @ §r§c- §7Омолаживающий Бассейн
+§r§c- §cPool of Rejuvenation @ §r§c- §cОмолаживающий Бассейн
 §7Frog Dance will create a small pool @ §7§nТанец Лягушки§r§7 создаёт небольшой бассейн
 §7when hitting the ground. (Max <num>) @ §7при касании земли. (Максимум <num>)
 §7Gain +<num> Mana every <num>s while @ §7Получаете §f+<num>§r§7 маны каждые §f<num>с§r§7,
@@ -780,7 +798,11 @@ Patchwork Abomination @ Сшитое Чудовище
 §7<em> §7Total Damage: §f<num>% §8(of your DPS, Attack) @ <em> §7Общий урон: §f<num>% §8(от DPS, Атака)
 §7<em> §7Total Damage: §f<num>% §8(of your DPS, Explosion) @ <em> §7Общий урон: §f<num>% §8(от DPS, Взрыв)
 §7<em> §7Area of Effect: §f<num> Blocks §7(Circle-Shaped, Explosion) @ <em> §7Зона поражения: §f<num> блоков §7(Круг, Взрыв)
-§7your Ultimate Meter <em> to <num>%. @ §7§bШкалу Ульты §e<em>§r§7 до <num>%.
+§7your Ultimate Meter <em> to <num>%. @ §7§#82EFF4Шкалу Ульты §e<em>§r§7 до <num>%.
+§7Hit the Abomination with Overseer whilst @ §7Ударьте Чудовище §nНадзирателем§r§7
+§7Summon the Patchwork Abomination, @ §7Призывает §bСшитое Чудовище§r§7,
+§7long ranged mode. @ §7дальний режим боя.
+§7sneaking to switch between close and @ §7в приседе, чтобы переключить ближний и
 
 # ─── Monument to Gloom ─────────────────────────────────────────────────
 Monument to Gloom @ Монумент Мрака
@@ -791,6 +813,8 @@ Monument to Gloom @ Монумент Мрака
 §7acolytes every <num>s @ §7адептам каждые §f<num>с§r§7.
 §7Others receive +<num>% Health <em> every <num>s @ §7Остальные получают §f+<num>%§r§7 §bЗдоровья <em>§r§7 каждые §f<num>с§r§7.
 §7Activate abilities or lose health to charge @ §7Используйте способности или теряйте здоровье для зарядки
+§7Others receive <num>% Health <em> every <num>s. @ §7Остальные получают §f<num>%§r§7 Здоровья <em> каждые §f<num>с§r§7.
+§7acolytes every <num>s. @ §7послушникам каждые §f<num>с§r§7.
 
 # ─── Sundered Skies ────────────────────────────────────────────────────
 Sundered Skies @ Расколотые Небеса
@@ -807,12 +831,12 @@ Sundered Skies @ Расколотые Небеса
 # ══════════════════════════════════════════════════════════════════════
 # ОБЩИЕ / СТАТЫ (встречаются у многих скиллов)
 # ══════════════════════════════════════════════════════════════════════
-Summoner Archetype @ §6§lАрхетип Призывателя
-Ritualist Archetype @ §a§lАрхетип Ритуалиста
-Acolyte Archetype @ §c§lАрхетип Адепта
-§7Summoner Archetype @ §6§lАрхетип Призывателя
-§7Ritualist Archetype @ §a§lАрхетип Ритуалиста
-§7Acolyte Archetype @ §c§lАрхетип Адепта
+Summoner Archetype @ §#F0C435§lАрхетип Призывателя
+Ritualist Archetype @ §#87DD47§lАрхетип Ритуалиста
+Acolyte Archetype @ §#FFA057§lАрхетип Адепта
+§7Summoner Archetype @ §#F0C435§lАрхетип Призывателя
+§7Ritualist Archetype @ §#87DD47§lАрхетип Ритуалиста
+§7Acolyte Archetype @ §#FFA057§lАрхетип Адепта
 §7<em> §7Range: §f~<num> Blocks @ <em> §7Дальность: §f~<num> блоков
 §7§a✔ §7Min Summoner Archetype: §f§f<num>§7/<num> @ §7§a✔ §7Мин. Архетип Призывателя: §f<num>§r§7/<num>
 §7§c✖ §7Min Summoner Archetype: §f§c<num>§7/<num> @ §7§c✖ §7Мин. Архетип Призывателя: §c<num>§r§7/<num>
@@ -885,7 +909,7 @@ Acolyte Archetype @ §c§lАрхетип Адепта
 §aUnlock Nature's Jolt§a ability @ §aРазблокировать способность §d§lУдар Природы
 §aUnlock Overseer§a ability @ §aРазблокировать способность §d§lНадзор
 §aUnlock Patchwork Abomination§a ability @ §aРазблокировать способность §5§lСшитое Чудовище
-§aUnlock Pool of Rejuvination§a ability @ §aРазблокировать способность §b§lОмолаживающий Бассейн
+§aUnlock Pool of Rejuvenation§a ability @ §aРазблокировать способность §b§lОмолаживающий Бассейн
 §aUnlock Puppet Master§a ability @ §aРазблокировать способность §c§lКукловод
 §aUnlock Puppetry§a ability @ §aРазблокировать способность §f§lКукловодство
 §aUnlock Rain Dance§a ability @ §aРазблокировать способность §d§lТанец Дождя
@@ -977,7 +1001,7 @@ Acolyte Archetype @ §c§lАрхетип Адепта
 §7§a✔ §7Required Ability: §fNature's Jolt @ §7§a✔ §7Требуется способность: §fУдар Природы
 §7§a✔ §7Required Ability: §fOverseer @ §7§a✔ §7Требуется способность: §fНадзор
 §7§a✔ §7Required Ability: §fPatchwork Abomination @ §7§a✔ §7Требуется способность: §fСшитое Чудовище
-§7§a✔ §7Required Ability: §fPool of Rejuvination @ §7§a✔ §7Требуется способность: §fОмолаживающий Бассейн
+§7§a✔ §7Required Ability: §fPool of Rejuvenation @ §7§a✔ §7Требуется способность: §fОмолаживающий Бассейн
 §7§a✔ §7Required Ability: §fPuppet Master @ §7§a✔ §7Требуется способность: §fКукловод
 §7§a✔ §7Required Ability: §fPuppetry @ §7§a✔ §7Требуется способность: §fКукловодство
 §7§a✔ §7Required Ability: §fRain Dance @ §7§a✔ §7Требуется способность: §fТанец Дождя
@@ -1065,7 +1089,7 @@ Acolyte Archetype @ §c§lАрхетип Адепта
 §7§c✖ §7Required Ability: §fNature's Jolt @ §7§c✖ §7Требуется способность: §fУдар Природы
 §7§c✖ §7Required Ability: §fOverseer @ §7§c✖ §7Требуется способность: §fНадзор
 §7§c✖ §7Required Ability: §fPatchwork Abomination @ §7§c✖ §7Требуется способность: §fСшитое Чудовище
-§7§c✖ §7Required Ability: §fPool of Rejuvination @ §7§c✖ §7Требуется способность: §fОмолаживающий Бассейн
+§7§c✖ §7Required Ability: §fPool of Rejuvenation @ §7§c✖ §7Требуется способность: §fОмолаживающий Бассейн
 §7§c✖ §7Required Ability: §fPuppet Master @ §7§c✖ §7Требуется способность: §fКукловод
 §7§c✖ §7Required Ability: §fPuppetry @ §7§c✖ §7Требуется способность: §fКукловодство
 §7§c✖ §7Required Ability: §fRain Dance @ §7§c✖ §7Требуется способность: §fТанец Дождя
