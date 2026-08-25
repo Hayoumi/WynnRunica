@@ -99,7 +99,7 @@ Wait- No! Get ba-@Стой- Нет! Верни-
 # Fichu
 OW! My leg!@ОЙ! Моя нога!
 # Fichu
-Player! You're here! I was wondering where you went!@<playername>! Ты здесь! А я-то гадал, куда ты подевался!
+<playername>! You're here! I was wondering where you went!@<playername>! Ты здесь! А я-то гадал, куда ты подевался!
 # Fichu
 I've been chasing that raccoon the whole time! What in the world have you been up to?@Я всё это время гонялся за тем енотом! А ты-то где пропадал?
 # Fichu
@@ -129,7 +129,7 @@ Fortunately, it still seems to be accepting power.@К счастью, она, п
 # Fichu
 Whew! I didn't mean to let go-@Уф! Я не нарочно отпустил-
 # Fichu
-Oh! Player, you're here!@О! <playername>, ты здесь!
+Oh! <playername>, you're here!@О! <playername>, ты здесь!
 # Fichu
 Perfect, I know where we are, and there isn't much further that foolish raccoon can run. We could corner it!@Отлично, я знаю, где мы, и этому глупому еноту уже недалеко бежать. Можем загнать его в угол!
 # Fichu
@@ -365,7 +365,7 @@ Hopefully this is still intact after all of that...@Надеюсь, после �
 # Fichu
 It survived! Thank the queen! I don't know what I would do otherwise...@Цел! Хвала королеве! Не знаю, что бы я делал иначе...
 # Fichu
-Player, from the very start, you were a massive help. I cannot thank you enough for your efforts!@<playername>, ты с самого начала здорово помог. Не знаю, как и благодарить тебя за старания!
+<playername>, from the very start, you were a massive help. I cannot thank you enough for your efforts!@<playername>, ты с самого начала здорово помог. Не знаю, как и благодарить тебя за старания!
 # Fichu
 Without your help, I don't even know if I could have caught that raccoon on my own!@Без тебя я и не знаю, поймал бы я того енота в одиночку!
 # Fichu
@@ -384,3 +384,81 @@ Don't worry, I can always make a second one. You deserve it the most!@Не пе�
 [+1 Decorated Rubber Duck]@[+1 Украшенная резиновая уточка]
 # Fichu
 Thank you again for the help! I couldn't have done it without you.@Ещё раз спасибо за помощь! Без тебя я бы не справился.
+
+
+# НАРРАТИВ (без говорящего)
+The shadowy figure leaves through the hole in the wall.@
+The raccoon and Fichu both fall down from above. The raccoon escapes further down the tunnel.@
+Fichu places down a broken grappling hook.@
+Fichu leaves through a door on the side of the room.@
+Fichu opens the door using the lever.@
+Fichu walks down the stairs into the tunnel.@
+Fichu and the player board the raft.@
+Around every 30 seconds, Fichu says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.@
+If the raft gets damaged from an obstacle, Fichu says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.@
+If the raft gets damaged multiple times within ~30 seconds, Fichu instead says the following dialogue lines in order, one at a time.@
+After the raft gets damaged multiple times within ~30 seconds enough, Fichu gets angry and instead says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.@
+If the raft has been damaged recently, Fichu instead says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.@
+If Fichu is angry from hitting obstacles too many times, then after spending ~30 seconds without hitting an obstacle, they instead say the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.@
+When the Seat or the Companion Seat breaks off from too much damage, Fichu randomly says one of the following dialogue lines.@
+After the raft hasn't moved for ~60 seconds, Fichu says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end. These continue every ~30 seconds until the raft is moved.@
+After the raft moves again after waiting for at least ~60 seconds without moving, Fichu says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.@
+When attempting to scuttle the raft, Fichu randomly says one of the following dialogue lines.@
+When the raft is sinking, Fichu randomly says one of the following dialogue lines.@
+When a train passes by in close proximity to the raft, Fichu randomly says one of the following dialogue lines.@
+When the raft is in the path of an incoming train, Fichu randomly says one of the following dialogue lines.@
+When the raft was in the path of an incoming train but was moved away at the last second, Fichu randomly says one of the following dialogue lines.@
+Fichu walks over to the lever.@
+The raccoon and Fichu both run through the opened door.@
+Fichu opens the package, revealing a pink rubber duck.@
+
+# ВЫБОРЫ И РЕПЛИКИ (добито по вики)
+That stupid raccoon!@
+Now I'll never deliver my gift in time...@
+I spent so much time on it...@
+What will I do?@
+If I see that raccoon...@
+I wonder what this does...@
+Looks broken.@
+Will this door open?@
+It's locked...@
+Nothing interesting to steal...@
+But I would never steal, right?@
+These pipes are so rusty.@
+No wonder the water tastes so weird...@
+Wonder what's this for...@
+Stupid lever!@
+This is fascinating.@
+I've never seen this before.@
+I should take these...@
+How interesting...@
+This workbench is quite convenient.@
+You are? Excellent! Let's see what you've created.@
+Huh, this isn't- really what I expected.@
+You know what, not a bad idea! Let's give it a try!@
+You know what, not a bad idea! However, I'm not quite- sure where I'm supposed to sit.@
+Do you think you could find an additional seat for me? There's no way I'm getting on that thing otherwise!@
+Huh? A bag?@
+WAIT! MY ART BAG IS MISSING! Did I accidentally drop it somewhere?@
+I'm so glad you found it! I don't know what I would do if I lost Soosu's gift and my bag!@
+You're a lifesaver, Player. I cannot thank you enough!@
+Oh, don't mind me. I'm just seeing if there's anything interesting here.@
+Usually there's cool things to, well- steal, but this place seems to be a bust.@
+There sure is a lot hidden underground, you wouldn't believe some of the things I've seen!@
+That's great to hear! I haven't found anything useful unfortunately.@
+I'm quite interested to see what you come up with, return to me when you're done!@
+No worries!@
+W-woah now! You want to fight the raccoon? Like- I hate raccoons, but maybe not to that extreme.@
+You know what, I've seen worse. That raccoon was asking for it anyways, do what you must!@
+A cage? Don't you think raccoons are too smart to fall for something like that?@
+I guess you can give it a try...@
+I take back what I said. Raccoons are complete idiots.@
+Anyways, that aside. Look, we've gotten the gift back! I knew we could do it!@
+Take that idiot!@
+Woah, that looks like an expensive ring! You really think the raccoon will take it?@
+Hold on, where did you even get that- nevermind, I won't ask any questions. Give it a try!@
+Oh! That was surprisingly easy.@
+I hope no one cared about that ring, because they sure aren't getting it back...@
+...A firecracker? What, are you celebrating something?@
+I'll hope you know what you're doing. Just- don't mess this up, alright?@
+Huh. I have to admit, that was surprisingly effective.@
