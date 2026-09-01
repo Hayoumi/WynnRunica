@@ -80,6 +80,7 @@ public class WynnRunicaClient implements ClientModInitializer {
                 }
             }
             reloadKeyWasDown = reloadDown;
+
             DialogueInstantReveal.tick(client);
         });
 

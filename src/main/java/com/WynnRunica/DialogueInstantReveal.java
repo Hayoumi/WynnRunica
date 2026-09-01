@@ -10,71 +10,84 @@ import net.minecraft.util.PlayerInput;
 import static com.WynnRunica.TextUtils.extractCleanText;
 
 public final class DialogueInstantReveal {
-    private static final int RELEASE_DELAY_TICKS = 6;
-
     private static String previousBody = "";
-    private static boolean typingObserved;
-    private static boolean pulsed;
+    private static boolean grewSinceTick;
     private static boolean pulseActive;
-    private static int releaseTicks;
 
     private DialogueInstantReveal() {}
 
     public static void observe(Text message) {
+        MinecraftClient client = MinecraftClient.getInstance();
         Snapshot snapshot = inspect(message);
         if (!snapshot.hasBody || snapshot.body.isEmpty()) {
+            release(client);
             resetPage();
             return;
         }
 
         String body = snapshot.body;
-        if (previousBody.isEmpty()) {
-            typingObserved = false;
-            pulsed = false;
-        } else if (!body.equals(previousBody)) {
-            if (body.startsWith(previousBody)) {
-                typingObserved = true;
-            } else {
-                typingObserved = false;
-                pulsed = false;
-            }
-        }
+        String previous = previousBody;
         previousBody = body;
 
-        if (typingObserved && !pulsed && snapshot.requiresShift && !snapshot.hasChoices) {
-            pulsed = startPulse(MinecraftClient.getInstance());
+        // Импульс шифта посылается ТОЛЬКО в момент, когда текст реально
+        // дорисовался на этом пакете. Пока строка печатается, шифт её
+        // раскрывает; как только печать кончилась, роста нет, импульса нет,
+        // и пролистнуть реплику мы уже не можем.
+        boolean growing = !previous.isEmpty()
+                && !body.equals(previous)
+                && body.startsWith(previous);
+        if (!growing || snapshot.hasChoices) {
+            release(client);
+            return;
+        }
+
+        if (pulseActive) {
+            grewSinceTick = true;
+        } else {
+            startPulse(client);
         }
     }
 
     public static void tick(MinecraftClient client) {
-        if (!WynnRunicaClient.enabled) {
+        if (!WynnRunicaClient.enabled
+                || client.player == null || client.getNetworkHandler() == null) {
             if (pulseActive && client.player != null && client.getNetworkHandler() != null) {
                 sendInput(client, client.player.input.playerInput.sneak());
             }
             pulseActive = false;
-            releaseTicks = 0;
+            grewSinceTick = false;
             resetPage();
             return;
         }
-        if (client.player == null || client.getNetworkHandler() == null) {
-            pulseActive = false;
-            releaseTicks = 0;
-            resetPage();
-            return;
+        if (!pulseActive) return;
+
+        // Держим шифт ровно столько, сколько текст продолжает расти. Первый же
+        // тик без роста отпускает его: раньше он висел шесть тиков вслепую и на
+        // короткой реплике успевал сработать как «дальше».
+        if (grewSinceTick) {
+            grewSinceTick = false;
+            sendInput(client, true);
+        } else {
+            release(client);
         }
-        if (pulseActive) {
-            if (--releaseTicks <= 0) {
-                sendInput(client, client.player.input.playerInput.sneak());
-                pulseActive = false;
-            } else {
-                sendInput(client, true);
-            }
+    }
+
+    // Отпустить шифт немедленно, не дожидаясь следующего тика. Пока печать шла,
+    // нажатие раскрывало строку; на допечатанной строке то же нажатие для
+    // сервера уже «дальше», поэтому каждый лишний тик удержания - это шанс
+    // проскочить короткую реплику.
+    private static void release(MinecraftClient client) {
+        if (!pulseActive) return;
+        pulseActive = false;
+        grewSinceTick = false;
+        if (client != null && client.player != null && client.getNetworkHandler() != null) {
+            sendInput(client, client.player.input.playerInput.sneak());
         }
     }
 
     public static void reset() {
         pulseActive = false;
-        releaseTicks = 0;
+        grewSinceTick = false;
         resetPage();
     }
 
@@ -84,7 +97,6 @@ public final class DialogueInstantReveal {
         if (input.sneak() || client.options.sneakKey.isPressed()) return false;
         sendInput(client, true);
         pulseActive = true;
-        releaseTicks = RELEASE_DELAY_TICKS;
         return true;
     }
 
@@ -98,8 +110,6 @@ public final class DialogueInstantReveal {
 
     private static void resetPage() {
         previousBody = "";
-        typingObserved = false;
-        pulsed = false;
     }
 
     private static Snapshot inspect(Text message) {

@@ -10,6 +10,7 @@ import net.minecraft.text.MutableText;
 import net.minecraft.text.Style;
 import net.minecraft.text.StyleSpriteSource;
 import net.minecraft.text.Text;
+import net.minecraft.text.TextColor;
 import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -91,6 +92,12 @@ public class TitleTrackerMixin {
 
         boolean bold = parts.text().stream().allMatch(text -> text.getStyle().isBold());
         Style baseStyle = bold ? BODY_STYLES[0].withBold(true) : BODY_STYLES[0];
+        TextColor color = parts.text().isEmpty() ? null
+                : parts.text().getFirst().getStyle().getColor();
+        if (color != null && parts.text().stream()
+                .allMatch(text -> color.equals(text.getStyle().getColor()))) {
+            baseStyle = baseStyle.withColor(color);
+        }
         Text rebuilt = TextEmojiUtils.rebuildDialogue(
                 translation, parts.icons(), baseStyle);
         List<MutableText> lines = TextEmojiUtils.wrap(rebuilt,
@@ -102,12 +109,17 @@ public class TitleTrackerMixin {
         boolean hasInlineIcon = translation.contains("<em>");
         MutableText replacement = Text.literal("");
         int firstText = parts.textIndices().getFirst();
+        int indent = 0;
         for (int index : parts.bodyIndices()) {
             if (index >= firstText) break;
             Text component = parts.siblings().get(index);
+            String raw = component.getString();
             if (isBodyTextFont(fontId(component))
-                    && extractCleanText(component.getString()).trim().isEmpty()) {
+                    && extractCleanText(raw).trim().isEmpty()) {
                 replacement.append(component.copy());
+                if (!raw.isEmpty() && raw.chars().allMatch(character -> character == ' ')) {
+                    indent += width(component);
+                }
             }
         }
 
@@ -123,7 +135,7 @@ public class TitleTrackerMixin {
 
             for (int i = 0; i < lines.size(); i++) {
                 MutableText line = moveToLine(lines.get(i), i);
-                resetWidth(line);
+                resetWidth(line, i == 0 ? indent : 0);
                 replacement.append(line);
             }
             compensate(replacement,
@@ -133,7 +145,7 @@ public class TitleTrackerMixin {
         } else {
             for (int i = 0; i < lines.size(); i++) {
                 MutableText line = moveToLine(lines.get(i), i);
-                if (i + 1 < lines.size()) resetWidth(line);
+                if (i + 1 < lines.size()) resetWidth(line, i == 0 ? indent : 0);
                 replacement.append(line);
             }
         }
@@ -216,8 +228,8 @@ public class TitleTrackerMixin {
                 font.id().getNamespace(), path.substring(0, path.length() - 1) + line)));
     }
 
-    private static void resetWidth(MutableText text) {
-        compensate(text, -width(text), text.getStyle().withBold(false));
+    private static void resetWidth(MutableText text, int extra) {
+        compensate(text, -width(text) - extra, text.getStyle().withBold(false));
     }
 
     private static void compensate(MutableText text, int pixels, Style style) {

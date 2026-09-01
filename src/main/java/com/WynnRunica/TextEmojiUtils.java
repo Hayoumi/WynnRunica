@@ -117,7 +117,12 @@ public class TextEmojiUtils {
                     String stripped = t.replaceAll("§.", "").trim();
 
                     if (!stripped.isEmpty()) {
-                        firstContentStyle[0] = finalMerged;
+                        if (stripped.codePoints().anyMatch(Character::isLetter)) {
+                            firstContentStyle[0] = finalMerged;
+                        } else if (!fontStr.contains("chat") && !fontStr.contains("banner")
+                                && !fontStr.contains("prefix")) {
+                            firstContentStyle[0] = finalMerged;
+                        }
                     }
                 }
             }
@@ -395,32 +400,57 @@ public class TextEmojiUtils {
     }
 
     private static void appendStyled(MutableText result, String value, Style style) {
+        if (value == null || value.isEmpty()) return;
+
         StyleSpriteSource font = style.getFont();
         String fontName = font == null ? "" : font.toString();
-        if (fontName.contains("hud/dialogue/text/")
-                || !fontName.contains("wynncraft")
-                || value.codePoints().noneMatch(TextEmojiUtils::isCyrillic)) {
-            result.append(Text.literal(value).setStyle(style));
-            return;
-        }
+        boolean isDialogue = fontName.contains("hud/dialogue/text/");
+        boolean canUseCyrillicPixel = !isDialogue
+                && (fontName.contains("wynncraft")
+                || fontName.contains("banner")
+                || fontName.contains("tooltip")
+                || fontName.contains("offset")
+                || fontName.contains("interface")
+                || fontName.contains("prefix")
+                || fontName.contains("chat")
+                || fontName.isEmpty()
+                || fontName.equals("minecraft:default"));
 
         StringBuilder run = new StringBuilder();
-        Boolean cyrillicRun = null;
+        Integer runType = null; // 0 = normal (style), 1 = space (SPACE_FONT), 2 = cyrillic (WYNNCRAFT_CYRILLIC_FONT)
+
         for (int offset = 0; offset < value.length();) {
             int codePoint = value.codePointAt(offset);
-            boolean cyrillic = useCyrillicFontFor(value, offset);
-            if (cyrillicRun != null && cyrillicRun != cyrillic) {
-                Style runStyle = cyrillicRun ? style.withFont(WYNNCRAFT_CYRILLIC_FONT) : style;
-                result.append(Text.literal(run.toString()).setStyle(runStyle));
+            int charCount = Character.charCount(codePoint);
+
+            int type = 0;
+            if (codePoint >= 0xC0000 && codePoint <= 0xDFFFF) {
+                type = 1;
+            } else if (canUseCyrillicPixel && useCyrillicFontFor(value, offset)) {
+                type = 2;
+            }
+
+            if (runType != null && runType != type) {
+                flushStyledRun(result, run.toString(), style, runType);
                 run.setLength(0);
             }
-            cyrillicRun = cyrillic;
+            runType = type;
             run.appendCodePoint(codePoint);
-            offset += Character.charCount(codePoint);
+            offset += charCount;
         }
-        if (run.length() > 0) {
-            Style runStyle = Boolean.TRUE.equals(cyrillicRun) ? style.withFont(WYNNCRAFT_CYRILLIC_FONT) : style;
-            result.append(Text.literal(run.toString()).setStyle(runStyle));
+
+        if (run.length() > 0 && runType != null) {
+            flushStyledRun(result, run.toString(), style, runType);
+        }
+    }
+
+    private static void flushStyledRun(MutableText result, String text, Style style, int runType) {
+        if (runType == 1) {
+            result.append(Text.literal(text).setStyle(Style.EMPTY.withFont(SPACE_FONT)));
+        } else if (runType == 2) {
+            result.append(Text.literal(text).setStyle(style.withFont(WYNNCRAFT_CYRILLIC_FONT)));
+        } else {
+            result.append(Text.literal(text).setStyle(style));
         }
     }
 
