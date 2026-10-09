@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 
 public final class UntranslatedLogger {
 
-    public static volatile boolean ENABLED = false;
+    private static final boolean DEBUG_CAPTURE_LOG = Boolean.getBoolean("wynnrunica.debug.captureLog");
 
     private static final Pattern HAS_WORD = Pattern.compile("\\p{L}{2,}");
     private static final Pattern GUI_NUMBER =
@@ -56,24 +56,25 @@ public final class UntranslatedLogger {
                            boolean obfuscated, boolean icon) {}
 
     static {
-        try {
+        if (!DEBUG_CAPTURE_LOG) {
+            guiLogFile = null;
+            dialogueLogFile = null;
+        } else try {
             Path configDir = FabricLoader.getInstance().getConfigDir().resolve("WynnRunica");
             Files.createDirectories(configDir);
-
-            guiLogFile = configDir.resolve("untranslated.txt");
-            dialogueLogFile = configDir.resolve("untranslated-dialogues.jsonl");
-
+            guiLogFile = configDir.resolve("untranslated-debug.txt");
+            dialogueLogFile = configDir.resolve("untranslated-dialogues-debug.jsonl");
             loadGuiEntries();
             loadDialogueEntries();
         } catch (IOException e) {
-            System.out.println("[WynnRunica] Failed to initialize untranslated logger: " + e.getMessage());
+            System.out.println("[WynnRunica] Failed to initialize debug capture log: " + e.getMessage());
         }
     }
 
     private UntranslatedLogger() {}
 
     public static void log(String text) {
-        if (!ENABLED || guiLogFile == null || text == null) return;
+        if (!DEBUG_CAPTURE_LOG || guiLogFile == null || text == null) return;
 
         String clean = singleLine(text);
         if (!isUsefulEnglishText(clean)) return;
@@ -91,7 +92,7 @@ public final class UntranslatedLogger {
 
     public static void logDialogue(String text, String speaker, boolean choice, String quest,
                                    Text visual) {
-        if (!ENABLED || dialogueLogFile == null || text == null) return;
+        if (!DEBUG_CAPTURE_LOG || dialogueLogFile == null || text == null) return;
 
         String clean = singleLine(text);
         if (!isUsefulEnglishText(clean) || clean.indexOf('@') >= 0) return;
@@ -109,15 +110,10 @@ public final class UntranslatedLogger {
                 choice,
                 cleanQuest,
                 System.currentTimeMillis(),
-                TranslationPrinter.translations.containsKey(lookupKey),
+                TranslationManager.translations.containsKey(lookupKey),
                 visual == null ? List.of() : serialize(visual)
         ));
         ensureWriterStarted();
-    }
-
-    public static void setEnabled(boolean on) {
-        ENABLED = on;
-        if (on) ensureWriterStarted();
     }
 
     private static void loadGuiEntries() throws IOException {

@@ -1,0 +1,365 @@
+{
+  "quest": "The Dark Descent",
+  "level": 21,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-dark-descent",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ah, hello there chap! I must say, I didn't expect to see a part of the old Ragni regiment over 'ere.",
+      "ru": "А, приветствую, дружище! Должен сказать, не ожидал увидеть здесь кого-то из старого полка Рагни.",
+      "speaker": "General Graken",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I am General Graken, leader of the Nemract militia. Charmed to meet you!",
+      "ru": "Я генерал Гракен, командир ополчения Немракта. Рад знакомству!",
+      "speaker": "General Graken",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You've seen all the bloody zombies faffing about everywhere, yes? They're all seeming to come from this massive skull.",
+      "ru": "Ты же видел всех этих чёртовых зомби, что шатаются тут повсюду, да? Похоже, все они прут из этого гигантского черепа.",
+      "speaker": "General Graken",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I'm putting together a crack team for an expedition inside, but we haven't got any bleedin' idea what's down there!",
+      "ru": "Я собираю отряд лучших бойцов для вылазки внутрь, но мы понятия не имеем, что там внизу!",
+      "speaker": "General Graken",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "If you're up for it, chap, we could absolutely do with some recon 'round the old town, look for clues and the like.",
+      "ru": "Если ты готов, дружище, нам бы очень пригодилась твоя помощь: разведай старый город, поищи улики и всё в таком духе.",
+      "speaker": "General Graken",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I took a gander earlier, and one of the ol' houses caught my eye - it had a bloomin' great skull right over the door!",
+      "ru": "Я тут раньше уже осматривался, и один из старых домов сразу бросился мне в глаза - над дверью у него красовался здоровенный череп!",
+      "speaker": "General Graken",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I didn't have time to look in proper, but I'd start the investigation there, chap.",
+      "ru": "Как следует всё проверить у меня времени не было, но начать расследование я бы советовал именно там.",
+      "speaker": "General Graken",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "It's just south of here. The house still had solid wood boarding in it, despite the age, so look lively, chum!",
+      "ru": "Это к югу отсюда. Несмотря на возраст, в доме ещё сохранились крепкие деревянные доски, так что будь начеку, дружище!",
+      "speaker": "General Graken",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Oh, sod it, I knew I was forgetting something! Steady there, chum! I'm on my way!",
+      "ru": "Ох, чёрт, я же знал, что что-то забыл! Держись там, дружище! Я уже иду!",
+      "speaker": "General Graken",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Drat! Too late, it seems. Yes, I forgot to mention the floor was in poor condition. Up here! You took quite the tumble, are you alright?",
+      "ru": "Проклятье! Похоже, я опоздал. Да, я забыл предупредить, что пол там в плохом состоянии. Я здесь, наверху! Ты здорово упал, не ушибся?",
+      "speaker": "General Graken",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Well, there's some good news, I suppose. Still though, seems I sent you a ticket to a bit of a sticky wicket! Do you see a way out anywhere down there?",
+      "ru": "Ну, хоть что-то хорошее, пожалуй. Но похоже, я загнал тебя в неприятную переделку! Видишь там внизу какой-нибудь выход?",
+      "speaker": "General Graken",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "There's a tunnel? Aha, spiffing! I suggest you take it immediately. I'll have to return to my post now, post-haste!",
+      "ru": "Там тоннель? Ага, отлично! Советую сразу идти туда. А мне надо срочно возвращаться на пост!",
+      "speaker": "General Graken",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Good luck, chum! Now, back, you cads! Back I say!",
+      "ru": "Удачи, дружище! А ну назад, негодяи! Назад, я сказал!",
+      "speaker": "General Graken",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Keheh... Come further, little human... Step into the shadows...",
+      "ru": "Кехех... Подходи ближе, человечек... Сделай шаг во тьму...",
+      "speaker": "???",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Welcome...",
+      "ru": "Добро пожаловать...",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Scout! Report your findings, immediately! How many corrupteds are coming?",
+      "ru": "Разведчик! Немедленно доложи, что увидел! Сколько заражённых приближается?",
+      "speaker": "Soldier",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I...there...too many...th-thousands, at...at least...",
+      "ru": "Их... там... слишком много... т-тысячи... не меньше...",
+      "speaker": "Scout",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Thousands...? This is far worse than I expected. Men! Prepare for-",
+      "ru": "Тысячи...? Всё куда хуже, чем я думал. Бойцы! Готовьтесь к-",
+      "speaker": "Soldier",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "No point...we're...doomed...",
+      "ru": "Без толку... мы... обречены...",
+      "speaker": "Scout",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Wait, w-what's going on? What's happening to you?!",
+      "ru": "Стой, ч-что происходит? Что с тобой творится?!",
+      "speaker": "Soldier",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Please, stop this! Whoever you are, leave me and my family in peace! What did we ever do to deserve this?!",
+      "ru": "Пожалуйста, прекрати это! Кто бы ты ни был, оставь меня и мою семью в покое! За что нам всё это?!",
+      "speaker": "Lost Soul",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Ah, but if you had only said so sooner! They have already left this mortal coil...oh, what a shame.",
+      "ru": "Ах, ну если бы ты сказала это пораньше! Они уже покинули этот бренный мир... какая жалость.",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Y-you...I thought they...oh, god, no...",
+      "ru": "Т-ты... я думала, они... о боже, нет...",
+      "speaker": "Lost Soul",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Hush now. I will ensure that you and your family are reunited. You will even be able to partake in...keheh...family outings, under my watchful eye...",
+      "ru": "Тише. Я позабочусь о том, чтобы ты снова была со своей семьёй. Ты даже сможешь устраивать... кехех... семейные прогулки, под моим чутким надзором...",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Wha...you mean... N-no, please! I don't want to hurt anyone! I don't want to die!!",
+      "ru": "Чт... ты хочешь сказать... Н-нет, прошу! Я не хочу никому вредить! Я не хочу умирать!!",
+      "speaker": "Lost Soul",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Aha, naive girl. How cute, you believe you have a choice in the matter. What you want, is not what I need.",
+      "ru": "Ах, наивная девчонка. Как мило: ты думаешь, что у тебя есть выбор. Мне нужно вовсе не то, чего хочешь ты.",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Heheh...do you see now?",
+      "ru": "Хехех... теперь видишь?",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Do you see how easily this place fell? How quickly I became its master? And how I could simply dispose of you without a second thought?",
+      "ru": "Видишь, как легко это место пало? Как быстро я стал здесь хозяином? И как просто я могу избавиться от тебя, не раздумывая ни мгновения?",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Hundreds slaughtered in mere moments... only to rise again as my soldiers in infinite amounts.",
+      "ru": "Сотни убиты за считанные мгновения... лишь затем, чтобы восстать вновь и пополнить бесконечные ряды моих солдат.",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "You can barely keep them at bay on the surface, and yet you think you can enter my own domain, to challenge me in the Underworld?",
+      "ru": "Ты едва сдерживаешь их на поверхности, и всё же думаешь, что можешь войти в мои владения и бросить мне вызов в Подземном мире?",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "You will fail, and I will be free to string your body up like a puppet and make you dance for me.",
+      "ru": "Ты проиграешь, а я подвешу твоё тело как куклу и заставлю плясать для меня.",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "So enter the mouth of the skull, soldier, make your way below the ground. I look forward to our next meeting, keheheh...",
+      "ru": "Так что иди в пасть черепа, солдат, и спускайся под землю. С нетерпением жду нашей следующей встречи, кехехех...",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Looks like the only way to go is into the skull...",
+      "ru": "Похоже, единственный путь - лезть прямо в череп...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Return to your world, now. And if you still want to challenge me... I'll be waiting.",
+      "ru": "Возвращайся в свой мир. А если всё ещё захочешь бросить мне вызов... я буду ждать.",
+      "speaker": "???",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Hey! Come on, come over here! Quit milling about with the zombies, chap!",
+      "ru": "Эй! Иди сюда, сюда! Хватит бродить среди зомби, дружище!",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Oi! Hallo?! Chum? Why're you wandering round all bog-eyed? Come back to me now!",
+      "ru": "Эй! Ты меня слышишь?! Дружище? Что ты бродишь с таким мутным взглядом? Ну же, приди в себя!",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Come on, pip pip! Let's see a bit more colour in your eyes- There we are! Back now, chap?",
+      "ru": "Ну же, давай-давай! Покажи, что в глазах ещё есть жизнь... Вот так! Пришёл в себя, дружище?",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Capital! You had me quite worried for a spot, there. Do bubble about just what went on down there, mm?",
+      "ru": "Отлично! Ты заставил меня поволноваться. Расскажи-ка, что произошло там внизу, а?",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "But, you were stumbling about like a senile biddy, eyes blank as cream, and you kept muttering something about a Charon.",
+      "ru": "Ты ведь шатался, словно дряхлая старушка, смотрел совершенно пустыми глазами и всё бормотал что-то про Харона.",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "I'm supposing he was the one who took you for a spin there? Well, you certainly haven't carked it, so I might call this operation a jolly good success!",
+      "ru": "Полагаю, это его проделки? Что ж, ты всё ещё жив, так что я бы назвал эту операцию весьма удачной!",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Your discoveries fit in jolly-well with what we already know - and I'm convinced. To stop all these bleedin' zombos, we're going to have to go down under.",
+      "ru": "Твой рассказ вполне сходится с тем, что мы уже знаем, и теперь я уверен: чтобы остановить всех этих проклятых зомби, нам придётся спуститься под землю.",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Preliminary expeditions have brought back some real nasty bits, brains and such - but also some fancy-as-you-like jewellery!",
+      "ru": "С первых вылазок мы принесли всякую мерзость, мозги и прочую пакость, но заодно и весьма изящные украшения!",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Take some with you, remind you what we're up against. But keep your eyes on the prize!",
+      "ru": "Возьми кое-что с собой, чтобы помнить, с чем мы имеем дело. Но про цель не забывай!",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "When you're ready, I'd be chuffed to have you along again in the expedition down into the depths, old bean!",
+      "ru": "Когда будешь готов, я с радостью возьму тебя снова с собой в вылазку вниз, в самую глубину!",
+      "speaker": "General Graken",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "New Quest Started: The Dark Descent",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Тёмный спуск",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to General Graken at [242, 50, -1931]",
+      "ru": "Поговорить с генералом Гракеном [242, 50, -1931].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Investigate the house in Ancient Nemract at [226, 49, -1910].",
+      "ru": "Осмотреть дом в Древнем Немракте [226, 49, -1910].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Explore the tunnel in the basement of the house.",
+      "ru": "Исследовать туннель в подвале дома.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Investigate the strange dark realm.",
+      "ru": "Исследовать странный тёмный мир.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Leave the strange dark realm.",
+      "ru": "Покинуть странный тёмный мир.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return the ruby to Graken at [242, 50, -1931]",
+      "ru": "Вернуть рубин Гракену [242, 50, -1931].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

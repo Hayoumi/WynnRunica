@@ -1,0 +1,3285 @@
+{
+  "quest": "All Roads to Peace",
+  "level": 64,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "all-roads-to-peace",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hm. It's been long enough, we should've heard back from the diplomacy squad by now...",
+      "ru": "Хм. Уже достаточно времени прошло, от отряда дипломатов давно должен был прийти ответ...",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Ah, hello there, Wynn soldier. You should stick around! We were just launching a counterattack against the orc citadel.",
+      "ru": "А, привет, солдат Винна. Останься-ка рядом! Мы как раз собирались идти в контратаку на орочью цитадель.",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Since you've helped with curbing the orcs elsewhere, you can join in the festivities- Oh, that's them coming over the hills!",
+      "ru": "Раз ты уже помогал нам с орками в других местах, можешь поучаствовать в веселье- О, вон они как раз через холмы идут!",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "...A CATAPULT! Since when did the orcs have knowhow to make a CATAPULT?!",
+      "ru": "...КАТАПУЛЬТА! С каких это пор орки вообще умеют делать КАТАПУЛЬТЫ?!",
+      "speaker": "Soldier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I don't know, but they just decimated our golems with it. How are we supposed to deal with that chieftain without our protection?",
+      "ru": "Без понятия, но они ей только что разнесли наших големов. И как нам теперь разбираться с вождём без защиты?",
+      "speaker": "Soldier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Let's just get to the medical tent and go from there. The captain will need to hear about this.",
+      "ru": "Пошли в лечебную палатку, а там разберёмся. Надо рассказать капитану.",
+      "speaker": "Soldier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Nonono, you don't understand- a CATAPULT?! Seriously, I cannot get over this! Orc catapult! What's the world coming to?!",
+      "ru": "Не-не-не, ты не понимаешь - КАТАПУЛЬТА?! Серьёзно, я теперь это из головы не выкину! Орочья катапульта! Куда мир катится?!",
+      "speaker": "Soldier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "...why do you always have to embarrass me in front of the humans, you idiots...",
+      "ru": "...ну почему вы вечно позорите меня перед людьми, идиоты...",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Obviously, it seems we need some backup, soldier. Would you mind coming along to the medical tent with me?",
+      "ru": "Похоже, без подмоги нам не обойтись, солдат. Не пройдёшь со мной до лечебной палатки?",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "You lot are useless, you are! We had you sent off with thirty golems! THIRTY! And you come back with nothing to show? Do you have any idea how much that cost us?!",
+      "ru": "Да вы вообще бесполезные! Мы отправили вас туда с тридцатью големами! ТРИДЦАТЬЮ! И вы возвращаетесь ни с чем? Вы хоть понимаете, сколько это стоило?!",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "ORC CATAPULT! I'm telling you, Captain! They crushed our golems with huge honking boulders! What are we supposed to do against that?!",
+      "ru": "ОРОЧЬЯ КАТАПУЛЬТА! Я же говорю, капитан! Они раздавили наших големов здоровенными булыжниками! И что нам против такого делать?!",
+      "speaker": "Soldier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "He's right, captain. After the golems were crushed, the orcs spilled out from the fortress. If we didn't retreat, we would've been killed, with just the four of us.",
+      "ru": "Он прав, капитан. Когда големов разбили, орки полезли из крепости толпой. Если бы мы не отступили, нас бы там и убили - нас всего четверо было.",
+      "speaker": "Soldier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "...fine. I suppose you have a point. And that means it's a good thing we have a human here to pick up all your slack.",
+      "ru": "...ладно. Допустим, ты прав. Хорошо, что у нас есть человек, который сделает за вас вашу работу.",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Human! Let me give you the lowdown. Since you've helped us reclaim the outpost up north, the orcs have gotten much more aggressive.",
+      "ru": "Человек! Слушай сюда. С тех пор как ты помог нам отбить аванпост на севере, орки стали куда агрессивнее.",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "There have been many attacks here at town, and we've been struggling to fend them off. Thanks to the incompetence of our troops, we haven't been able to-",
+      "ru": "На город уже было много набегов, и нам всё тяжелее их сдерживать. Из-за полной бездарности наших солдат мы так и не смогли-",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "ORC CATAPULT!! ORC CATAPULT!! Listen to the words I am telling you! ORC! CATAPULT!",
+      "ru": "ОРОЧЬЯ КАТАПУЛЬТА!! ОРОЧЬЯ КАТАПУЛЬТА!! Послушай, что я говорю! ОРКИ! КАТАПУЛЬТА!",
+      "speaker": "Soldier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "...we haven't been able to get the orc chieftain to listen to reason and sign a new ceasefire yet. If this keeps up, we'll be overwhelmed. The brutes only seem to listen to force...",
+      "ru": "...мы так и не смогли заставить орочьего вождя взяться за голову и подписать новое перемирие. Если так пойдёт и дальше, нас просто задавят. Эти дуболомы, похоже, понимают только силу...",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "And that's where you come in, soldier. We need you to go to the orc fortress and break through their line of defenses. Maybe, if we show them we can equal their force, they'll listen, right?",
+      "ru": "И здесь нам нужен ты, солдат. Иди к орочьей крепости и прорви их оборону. Может, если показать, что мы им не уступаем в силе, они всё-таки прислушаются, а?",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "The fortress is off to the northeast, it's visible from town. Don't come back without a ceasefire- Or the chieftain's head, if peace is out of the question!",
+      "ru": "Крепость к северо-востоку, её из города видно. И не возвращайся без перемирия - или без головы вождя, если с миром не выйдет!",
+      "speaker": "Captain Goruca",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Hmh! Human! Just like say, Serepe. Villager fail, then send human to kill.",
+      "ru": "Хмх! Человек! Всё как Серепе говорил. Селяне облажались, теперь шлют человека убивать.",
+      "speaker": "Guard Bitteliso",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Idiot big-noses! Human strong, but only one. Need more to break Centerworld!",
+      "ru": "Тупорылые длинноносые! Человек сильный, но один всего. Нужно больше, чтобы ломать Центрмир!",
+      "speaker": "Guard Serepe",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "One against four... Human not even beat one. Ismikku! Hulve!",
+      "ru": "Один против четырёх... Человек и одного не побьёт. Исмикку! Хульве!",
+      "speaker": "Guard Serepe",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "KNOCK HUMAN DOWN!!",
+      "ru": "СБЕЙТЕ ЧЕЛОВЕКА С НОГ!!",
+      "speaker": "Orc Guards",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Idiot. Idiot human. Will die in open. Come.",
+      "ru": "Идиот. Человек-идиот. На открытом месте убьют. Идём.",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "RRRGHH! Armor heavy! How human carry much weight, but so weak without?!",
+      "ru": "РРРГХ! Броня тяжёлая! Как человек таскает столько железа, а без него такой слабый?!",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Need medicine for...urgh. Blood... Where yarrow root...",
+      "ru": "Нужно лекарство для... ургх. Кровь... Где корень тысячелистника...",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Hmh. Get up. Human! Get up! See human breathing, you awake!",
+      "ru": "Хмх. Вставай. Человек! Вставай! Вижу, дышишь - значит, очнулся!",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Name Zuett. Your name, Idiot. But only because taught wrong. So will help idiot. Take medicine.",
+      "ru": "Имя Зуэтт. А тебя звать Идиот. Но только потому, что тебя учили неправильно. Так что Зуэтт поможет идиоту. Пей лекарство.",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Hmh! Better than silly magic potion. Earth heals best...",
+      "ru": "Хмх! Лучше, чем эти дурацкие магические зелья. Земля лечит лучше всего...",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Anyway. Why you here? Why now? Give me good reason. Because orcs kill for \"peace\"?",
+      "ru": "Ладно. Зачем ты тут? Почему именно сейчас? Назови причину получше. Потому что орки убивают ради \"мира\"?",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Hmh. Mhm, mhm. Yes, idiot villagers come by, lots of metal villager too. Say want peace- just want kill. Evil war machines.",
+      "ru": "Хмх. Мгм, мгм. Да, сюда уже приходили тупые селяне, и куча железных селян тоже. Говорят, что хотят мира - а сами только убивать хотят. Злые боевые машины.",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Human really want peace? Then listen to Zuett. Killing not the way. Orcs strong, but not killers. Villager say, but villager wrong.",
+      "ru": "Человек правда хочет мира? Тогда слушай Зуэтт. Убийство не поможет. Орки сильные, но не убийцы. Селяне говорят так, но селяне ошибаются.",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "We... Orcs... Not listen to just force. Orcs see strength, not idiot-killing. Human been idiot-killing. Time to stop.",
+      "ru": "Мы... орки... уважаем не только силу. Орки видят, кто сильный, а не кто глупо убивает. Человек глупо убивал. Хватит.",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Whole war stupid. War killing us. Not all Orcs meant to fight. Human need learn first.",
+      "ru": "Вся война тупая. Война нас убивает. Не все орки должны драться. Человек сначала это понять должен.",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Need talk with Arrai-Veretel. But first, need trust. To start trust, listen to Zuett.",
+      "ru": "Надо поговорить с Арраи-Веретель. Но сначала нужно доверие. Чтобы заслужить доверие, слушай Зуэтт.",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Will give guards peace offer. [Elite Boar Meat]. Go hunt. Look bushes up north.",
+      "ru": "Принесём стражам дар мира. [Мясо элитного кабана]. Иди охоться. Ищи в кустах на севере.",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "If want walk away like coward, do now. If human trust me...meet by fort after get meat.",
+      "ru": "Если хочешь уйти как трус - уходи сейчас. Если человек доверяет мне... встретимся у форта, когда добудешь мясо.",
+      "speaker": "Zuett",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Hmh. Hunt like child, but succeed anyway. Human should rely less on magic. Human serious, though.",
+      "ru": "Хмх. Охотишься как ребёнок, но всё равно справился. Человеку бы меньше на магию надеяться. Но настрой у тебя серьёзный.",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Good. Human really want peace. Help stop stupid war... Even though human and villager start anyway...",
+      "ru": "Хорошо. Человек правда хочет мира. Помочь остановить тупую войну... хоть её вообще человек и селяне начали...",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Follow. We go Centerworld. Guards still angry, but can say good for you. Stay quiet- Zuett do talk.",
+      "ru": "Иди за мной. Пойдём в Центрмир. Стражи ещё злятся, но я могу за тебя сказать. Молчи - Зуэтт будет говорить.",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Zuett! What you do? Thought drag away human to kill for good! Why bringing back now?",
+      "ru": "Зуэтт! Ты что творишь? Думали, ты утащил человека добить наконец! Чего обратно притащил?",
+      "speaker": "Guard Serepe",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Zuett bleeding heart. Strong in compassion. Saw hurt, thought help. Stupid, but can respect.",
+      "ru": "У Зуэтта мягкое сердце. Сильный в сострадании. Увидел раненого - решил помочь. Глупо, но уважать можно.",
+      "speaker": "Guard Bitteliso",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Listen to Zuett! Human want peace. Came for peace, but was taught peace come from idiot-killing by villager.",
+      "ru": "Слушайте Зуэтт! Человек хочет мира. Пришёл за миром, но селяне научили его, будто мир приходит через тупое убийство.",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Grrrh! All human say! What special about this human?",
+      "ru": "Грррх! Все люди так говорят! Чем этот человек особенный?",
+      "speaker": "Guard Bitteliso",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Human listen to Zuett. Hunt spineback boar, bring meat. See? If human not care, human not listen. Not hunt.",
+      "ru": "Человек слушал Зуэтт. Пошёл на шипоспинного кабана, принёс мясо. Видите? Если бы человеку было плевать, он бы не слушал. Не охотился бы.",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "...hm ... ... ...can respect human strength. Can hunt spineback, mean strong.",
+      "ru": "...хм... можно уважать силу человека. Раз смог добыть шипоспинного кабана - значит сильный.",
+      "speaker": "Guard Serepe",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "But strong not mean trust! Strength of body only one thing.",
+      "ru": "Но сила ещё не значит доверие! Сила тела - не всё.",
+      "speaker": "Guard Bitteliso",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "RESSINTER HURT! RESSINTER HURT BAD! NEED HELP!! HELP NOW!!",
+      "ru": "РЕССИНТЕР РАНЕН! РЕССИНТЕР СИЛЬНО РАНЕН! НУЖНА ПОМОЩЬ!! СЕЙЧАС!!",
+      "speaker": "???",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Onluk! Tell what happen! Ressinter...healer hurt?",
+      "ru": "Онлук! Говори, что случилось! Рессинтер... целитель ранен?",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "!! Ressinter only healer! Zuett want be healer, Creinu want be healer, but not!",
+      "ru": "!! Рессинтер единственный целитель! Зуэтт хочет быть целителем, Креину хочет быть целителем, но нет!",
+      "speaker": "Guard Serepe",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "KREIMU! Get Kreimu! Mudspring camp! She good healer!",
+      "ru": "КРЕЙМУ! Тащите Крейму! Лагерь Грязного Источника! Она хороший целитель!",
+      "speaker": "Onluk",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Will go! Fast runner! Ressinter no die today! Serepe, deal with human!",
+      "ru": "Побегу! Я быстрый бегун! Рессинтер сегодня не умрёт! Серепе, разбирайся с человеком!",
+      "speaker": "Guard Bitteliso",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Hm...HM!! Human, uh, human good healer! Heal own injury with medicine! Human will help!",
+      "ru": "Хм... ХМ!! Человек, э-э, человек хороший целитель! Сам свои раны вылечил лекарством! Человек поможет!",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Gwuh?! Zuett! Lying bad! Human idiot no hea-",
+      "ru": "Гвух?! Зуэтт! Врать плохо! Человек идиот, не ле-",
+      "speaker": "Guard Serepe",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "RESSINTER DYING! NO CARE IF LIE! ANY HEALER BETTER THAN NO HEALER!",
+      "ru": "РЕССИНТЕР УМИРАЕТ! ПЛЕВАТЬ, ЕСЛИ ВРЁТ! ЛЮБОЙ ЦЕЛИТЕЛЬ ЛУЧШЕ, ЧЕМ НИКАКОЙ!",
+      "speaker": "Onluk",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "HEY! ONLUK IDIOT! NO LET HUMAN IN!",
+      "ru": "ЭЙ! ОНЛУК ИДИОТ! НЕ ПУСКАЙ ЧЕЛОВЕКА ВНУТРЬ!",
+      "speaker": "Guard Serepe",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Onluk, tell! How Ressinter hurt?",
+      "ru": "Онлук, говори! Как Рессинтер получил раны?",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Cannon backfire! Caught in blast! Cut up all over, bleeding bad! Healer already brought medicine tent!",
+      "ru": "Пушка взорвалась! Его накрыло взрывом! Весь в порезах, сильно кровоточит! Целителя уже унесли в лечебную палатку!",
+      "speaker": "Onluk",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Hhhgh. Bad injury... Human. Heal Ressinter, fast!",
+      "ru": "Хххгх. Плохая рана... Человек. Лечи Рессинтера, быстро!",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Make balm to keep healer alive! Even if only keep alive for Kreimu to heal, keep Ressinter alive!",
+      "ru": "Сделай бальзам, чтобы целитель не умер! Пусть даже только дотянуть до прихода Крейму - но Рессинтер должен жить!",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Mix herbs. Use medicine book. And stay in tent!",
+      "ru": "Смешай травы. Пользуйся лечебной книгой. И из палатки не выходи!",
+      "speaker": "Zuett",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Look up Sweetgale.",
+      "ru": "Посмотреть про восковник.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Look up Yarrow.",
+      "ru": "Посмотреть про тысячелистник.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Look up Chamomile.",
+      "ru": "Посмотреть про ромашку.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Look up Feverfew.",
+      "ru": "Посмотреть про пиретрум.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Look up Gingko Leaf.",
+      "ru": "Посмотреть про лист гинкго.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Look up Pyrola.",
+      "ru": "Посмотреть про грушанку.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Look up Elderberry.",
+      "ru": "Посмотреть про бузину.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Close the book.",
+      "ru": "Закрыть книгу.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "KREIMU HERE! HEAL RESSINTER!! NOW!!!",
+      "ru": "КРЕЙМУ ЗДЕСЬ! ЛЕЧИ РЕССИНТЕРА!! ЖИВО!!!",
+      "speaker": "Bitteliso",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Gwuh, yes! Stop shouting! I- Urgh!",
+      "ru": "Гвух, да! Хватит орать! Я- Ургх!",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Here in time. Ressinter still alive...why other balm on cuts?",
+      "ru": "Успела. Рессинтер ещё жив... почему на ранах какой-то другой бальзам?",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Wait, why human here? Ressinter hurt because human?",
+      "ru": "Стоп, а человек тут зачем? Рессинтер ранен из-за человека?",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "No, human try heal Ressinter!",
+      "ru": "Нет, человек пытался лечить Рессинтера!",
+      "speaker": "Onluk",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Human try heal Ressinter. Thought better healer than Zuett. Try hard to keep Ressinter alive.",
+      "ru": "Человек пытался лечить Рессинтера. Зуэтт подумал, что человек лучше лечит, чем Зуэтт. Человек старался не дать Рессинтеру умереть.",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "... ... ...Nunexetor. You sensible. Is true? Human try heal Ressinter?",
+      "ru": "... ... ...Нунексетор. Ты рассудительный. Это правда? Человек пытался лечить Рессинтера?",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Yes. The human made herb balms and tried to heal Ressinter.",
+      "ru": "Да. Человек сделал травяные бальзамы и пытался вылечить Рессинтера.",
+      "speaker": "Nunexetor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "So Zuett not lie. Human care about orc?",
+      "ru": "Значит, Зуэтт не врал. Человеку не плевать на орка?",
+      "speaker": "Bitteliso",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "See? Human try. Maybe not heal Ressinter full, but try save life of someone call enemy by idiot Villager.",
+      "ru": "Видите? Человек старался. Может, не вылечил Рессинтера до конца, но пытался спасти жизнь тому, кого тупые Селяне зовут врагом.",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Human learn Villagers lie. Trying learn about us. War only because Villagers trick! Not because human bad!",
+      "ru": "Человек понял: селяне врут. Пытается узнать нас. Война из-за обмана селян! Не потому, что человек плохой!",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "...hmh! Can respect. Strong in mind if able to learn.",
+      "ru": "...хмх! Уважать можно. Силен умом, раз способен учиться.",
+      "speaker": "Bitteliso",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Agree with Bitteliso and Zuett!",
+      "ru": "Согласен с Биттелисо и Зуэттом!",
+      "speaker": "Onluk",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Agreed. We should get back to our tasks though.",
+      "ru": "Согласен. Но нам всё же стоит вернуться к своим делам.",
+      "speaker": "Nunexetor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Will stay for while in case Ressinter need medicine more.",
+      "ru": "Побуду тут немного, на случай если Рессинтеру опять понадобится лекарство.",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Sorry to put human up to task sudden, but now more orc trust you.",
+      "ru": "Извини. Пришлось вдруг просить человека о помощи. Но теперь больше орков тебе доверяет.",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Since orc trust...maybe can talk to Arrai-Veretel now. Follow.",
+      "ru": "Раз орки доверяют... может, теперь можно поговорить с Арраи-Веретель. Идём.",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Whuh! LOMOSTER! LOMOSTER HURT!",
+      "ru": "Вух! ЛОМОСТЕР! ЛОМОСТЕР РАНЕН!",
+      "speaker": "Ressinter",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "No! Lomoster okay! Ressinter not okay- Wait. Ressinter sort of okay! Need rest still!",
+      "ru": "Нет! Ломостер в порядке! Рессинтер был не в порядке - хотя погоди. Рессинтер вроде уже в порядке! Но ему всё равно нужен отдых!",
+      "speaker": "Onluk",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "But Lomoster at cannon when explode!",
+      "ru": "Но Ломостер был у пушки, когда она рванула!",
+      "speaker": "Ressinter",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Lomoster wear armor. Armor took hurt, Lomoster okay!",
+      "ru": "На Ломостере броня. Броня весь удар и приняла, Ломостер цел.",
+      "speaker": "Onluk",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "...mmmh, fine... Wait, why human here?",
+      "ru": "...мммх, ладно... Стоп, а человек тут что делает?",
+      "speaker": "Ressinter",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Human heal Ressinter. See? Human good healer!",
+      "ru": "Человек лечил Рессинтера. Видишь? Человек хороший целитель!",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "I don't believe it. How did-",
+      "ru": "Не верю. Да как-",
+      "speaker": "Nunexetor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Gwuh, yes! Stop shouting, I- Whuh...",
+      "ru": "Гвух, да! Хватит орать, я- Вух...",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Ressinter already okay! Bitteliso lying?!",
+      "ru": "Рессинтер уже в порядке! Биттелисо врал?!",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Wait, Ressinter okay? How did- HUMAN?! WHY HUMAN IN CAMP?!",
+      "ru": "Стоп, Рессинтер уже в порядке? Как- ЧЕЛОВЕК?! ПОЧЕМУ ЧЕЛОВЕК В ЛАГЕРЕ?!",
+      "speaker": "Bitteliso",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Human heal Ressinter! Not know how, but human save Ressinter life!",
+      "ru": "Человек лечил Рессинтера! Не знаю как, но человек спас Рессинтеру жизнь!",
+      "speaker": "Onluk",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Told Bitteliso. Human learning! Save life of orc, even though idiot Villager say kill.",
+      "ru": "Зуэтт же говорил Биттелисо. Человек учится! Спас жизнь орку, хотя тупые Селяне велят убивать.",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "...how. How. HOW! How human so good at healing?! Why human help?",
+      "ru": "...как. Как. КАК?! Почему человек так хорошо лечит?! И зачем человек помогал?",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Can trust human. Human try unlearn bad villager teach.",
+      "ru": "Можно доверять человеку. Человек старается забыть плохое, чему научили селяне.",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "...fine. Good human, not stupid human. Bitteliso sorry for beating. Here.",
+      "ru": "...ладно. Хороший человек, не тупой человек. Биттелисо извиняется за побои. На.",
+      "speaker": "Bitteliso",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Shouldn't we get back to what we were doing?",
+      "ru": "Может, мы уже вернёмся к своим делам?",
+      "speaker": "Nunexetor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "...will stay in case Ressinter need help.",
+      "ru": "...останусь, если Рессинтеру снова понадобится помощь.",
+      "speaker": "Kreimu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Ressinter not old man! No need sitter!",
+      "ru": "Рессинтер не старик! Нянька не нужна!",
+      "speaker": "Ressinter",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Not know that human actually good at heal! Very good! Healer, not hunter. More orc trust you now.",
+      "ru": "Не знал, что человек и правда так хорошо лечит! Очень хорошо! Целитель, не охотник. Теперь тебе ещё больше орков доверяет.",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Since orc trust...maybe can talk to Arrai-Veretel now. Follow!",
+      "ru": "Раз орки доверяют... может, теперь можно поговорить с Арраи-Веретель. Идём!",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "No enter! Much camp see human heal, but still no trust human!",
+      "ru": "Не входить! Многие в лагере видели, как человек лечил. Но всё равно человеку не верят!",
+      "speaker": "Ureietun",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Ureietun! Human help save Ressinter life! Why no trust?",
+      "ru": "Уреитун! Человек помог спасти Рессинтеру жизнь! Почему не доверяешь?",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Human being led by you. Human led by villager too! Teach good thing, yes, but what if human just copying?",
+      "ru": "Человеком командуешь ты. Раньше командовали селяне! Учишь хорошему, да. Но вдруг человек просто повторяет?",
+      "speaker": "Ureietun",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Human can earn trust alone! Zuett, stay in Arrai-room.",
+      "ru": "Человек может заслужить доверие сам! Зуэтт, стой в комнате Арраи.",
+      "speaker": "Ureietun",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "But-",
+      "ru": "Но-",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "RRRRRGH! STUPID ZUETT! WAR HAPPEN FOR REASON! GO AWAY!",
+      "ru": "РРРРГХ! ТУПОЙ ЗУЭТТ! ВОЙНА НЕ ПРОСТО ТАК СЛУЧИЛАСЬ! УЙДИ!",
+      "speaker": "Ureietun",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "...can trust human not kill. Human can walk around Centerworld. But human no see Arrai-Veretel!",
+      "ru": "...верю, что человек не станет убивать. Можно ходить по Центрмиру. Но к Арраи-Веретель человека не пустят!",
+      "speaker": "Zuett",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Hm! Human, hunter, healer, halfwit soldier. Many things! Human also runner?",
+      "ru": "Хм! Человек, охотник, целитель, полудурок-солдат. Много всего! Человек ещё и бегун?",
+      "speaker": "Peloros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Peloros from Holehold. Camp home to messengers and runners. Have thing to deliver to Fruludir in green tower.",
+      "ru": "Пелорос из Хоулхолда. Лагерь - дом посыльных и бегунов. Есть вещь, надо доставить Фрулудиру в зелёную башню.",
+      "speaker": "Peloros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Human do instead. Want see if human able. Supposed to be soldier- soldier must run to battlefield fast!",
+      "ru": "Пусть человек сделает. Хочу проверить, сможет ли. Раз вроде солдат - солдат должен быстро бегать до поля боя!",
+      "speaker": "Peloros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Sure, I can try.",
+      "ru": "Ладно, могу попробовать.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Then human run fast to green tower- deliver in 25 seconds! Or else come back. Not urgent delivery, so delay fine.",
+      "ru": "Тогда человек быстро бежит к зелёной башне - и доставляет за 25 секунд! Не успеешь - просто возвращайся. Доставка не срочная, так что и задержка не беда.",
+      "speaker": "Peloros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Will know human delivered in time. How? Human will see if run fast!",
+      "ru": "Пелорос узнает, успел ли человек. Как? Человек сам увидит, если быстро побежит!",
+      "speaker": "Peleros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Um, human no runner.",
+      "ru": "Эм, человек не бегун.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "RGH! Can understand just fine, just not speak as good! No mock us!",
+      "ru": "РГХ! Понимать я понимаю, просто говорю не так хорошо! Не насмехайся!",
+      "speaker": "Peleros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Hm! Human have Peloros box. Peloros give human run training. Give here.",
+      "ru": "Хм! У человека коробка Пелороса. Пелорос устроил человеку беговую тренировку. Давай сюда.",
+      "speaker": "Fruludir",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "More than Zuett with human? Good sign. Maybe fighting stop soon.",
+      "ru": "Уже не только Зуэтт с человеком? Хороший знак. Может, скоро перестанем воевать.",
+      "speaker": "Fruludir",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Patience, human. Box full of signal flare. Will light one to show Peloros human got here in time.",
+      "ru": "Терпение, человек. В коробке сигнальные ракеты. Зажгу одну. Пелорос увидит: человек успел.",
+      "speaker": "Fruludir",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Saw the firework. Human did well, finishing single morning exercise!",
+      "ru": "Видел фейерверк. Человек справился с одним утренним упражнением!",
+      "speaker": "Peloros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Orc do much training to stay strong. Orc runners must be fast and not tire to become Marathon!",
+      "ru": "Орки много тренируются, чтобы оставаться сильными. Орки-бегуны должны быть быстрыми и не уставать, чтобы стать Марафоном!",
+      "speaker": "Peloros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Here. Human take. Train harder. Maybe visit Holehold- also place for relax, not just run. Stamina good for all.",
+      "ru": "Держи. Человек бери. Тренируйся усерднее. Можешь и в Хоулхолд заглянуть - там не только бегают, но и отдыхают. Выносливость всем полезна.",
+      "speaker": "Peloros",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Oh. Human who help Ressinter. You are strange. Not like other human at all.",
+      "ru": "О. Человек, который помог Рессинтеру. Ты странный. Совсем не как другие люди.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "This? This food storage. Mostly for meats and roots. Though, large ritual happening soon.",
+      "ru": "Это? Это склад еды. В основном мясо и коренья. Хотя скоро будет большой ритуал.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Festival with Earthpit. Will be coming soon- so stocking up food for that.",
+      "ru": "Скоро будет праздник с Земляной Ямой. Так что еду запасаем к нему.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "...human look like want help. You...really are strange. I suppose...if you want help with food, could do some fishing.",
+      "ru": "...человек выглядит так, будто хочет помочь. Ты... правда странный. Ну, если хочешь помочь с едой, можешь порыбачить.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Won't ask human to do everything- just [5 Carp Meat] enough to help. Though, could bring more if wanted.",
+      "ru": "Не прошу человека делать всё. Хватит [5 Carp Meat]. Но можно принести больше, если хочешь.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "If want bring more than 5, will accept more than 5.",
+      "ru": "Если захочешь принести больше пяти - приму и больше пяти.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "Mhm, mhm. You are strange human, but not bad human. This enough meat.",
+      "ru": "Мгм, мгм. Ты странный человек, но не плохой человек. Этого мяса хватит.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "Festival will still be long time away, but here. Since human help, you get reward. Only fair.",
+      "ru": "До праздника ещё далеко, но держи. Раз человек помог, человек получает награду. Всё честно.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "Oh, you brought more fish than asked. Twice as much as asked!",
+      "ru": "О, ты принёс больше рыбы, чем просили. В два раза больше!",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "You are good human. Strange, but not bad. Willing to put in extra effort.",
+      "ru": "Ты хороший человек. Странный, но не плохой. Стараешься больше, чем просят.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Here- will also share some meat that won't be for festival. Other rewards too.",
+      "ru": "Вот - поделюсь ещё мясом, которое не пойдёт на праздник. И ещё кое-чем.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "...that is...much fish. You heard me when I said five, right?",
+      "ru": "...это... дофига рыбы. Ты ведь слышал, когда я сказал \"пять\", да?",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Four times as much as fair share. Why human like this?",
+      "ru": "В четыре раза больше, чем просили. Почему человек такой?",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Humans are supposed to be selfish. Listen to villager and kill orc. But you are not like that at all.",
+      "ru": "Люди вроде должны быть эгоистами. Слушать селян и убивать орков. Но ты вообще не такой.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Then here- Will share extra meat. Not for festival, but still good. Other thing too. Thank you very much, human.",
+      "ru": "Тогда держи. Поделюсь лишним мясом. Не праздничным, но всё равно хорошим. И ещё кое-чем. Спасибо тебе, человек.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "I. What. Human, you... That.",
+      "ru": "Я. Чего. Человек, ты... Это.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "Said five. You have thirty. I...how and why.",
+      "ru": "Я сказал пять. У тебя тридцать. Я... как и зачем.",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "You just did work of six orc. You are...overachieving human. But that is not bad thing!",
+      "ru": "Ты сделал работу шестерых орков. Ты... человек, который старается слишком сильно. Но это хорошо!",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "Here, then. This meat not for festival, but you deserve hearty meal for all effort!",
+      "ru": "Тогда держи. Это мясо не для праздника, но за такой труд тебе нужен сытный обед!",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "That much fish actually meet quota! Thank you so much, strange, kind human!",
+      "ru": "Теперь рыбы сколько нужно! Большое спасибо, странный, добрый человек!",
+      "speaker": "Durbeo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Hey! Human who hunt spineback boar and help heal healer!",
+      "ru": "Эй! Человек, который убил шипоспинного кабана и помог лечить целителя!",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "Not stupid human who go around and kill other orc! Good human! Can trust. So trust, will ask for small thing.",
+      "ru": "Не тупой человек, который шастает и режет других орков! Хороший человек! Можно доверять. Раз доверяю, попрошу одну мелочь.",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Human OFFERING help- Hmh! Very good human! Task simple. Southeast of fort, past ridge, Teiren old camp.",
+      "ru": "Человек САМ предлагает помощь - хмх! Очень хороший человек! Задача простая. К юго-востоку от форта, за гребнем, старый лагерь Тейрена.",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "Used to live, but left because Freelancer jump down from mountain. Forgot important thing there!",
+      "ru": "Раньше жил там, но ушёл, потому что Фрилансер спрыгнул с горы. Там осталась важная вещь!",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Need stay here, make sure stupid Peloros no run into firepit. Has done before. So, you go get!",
+      "ru": "Мне надо остаться тут, следить, чтобы тупой Пелорос не вбежал в огненную яму. Уже бывало. Так что иди сам и принеси!",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Oi, oi! Y'oughta gimme 'at back right now, li'l lady!",
+      "ru": "Эй, эй! А ну верни это сюда, мелкая леди!",
+      "speaker": "Freelancer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Absolutely NOT, you craven wind spirit! This belongs to me now!",
+      "ru": "Ещё чего, трусливый дух ветра! Теперь это моё!",
+      "speaker": "Alraune",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Lady, everything the wind touches is OURS! Not ta mention we're so close to the mountains we live on! This camp's our property, and that thing you got's part of our camp!",
+      "ru": "Леди, всё, чего касается ветер, НАШЕ! Да мы почти у самых гор, где живём! Этот лагерь наш, и твоя штуковина из лагеря тоже наша!",
+      "speaker": "Freelancer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "Nonsense! This camp was built by those who respected the earth and its bounties. Now that its inhabitants have left, nature is free to reclaim it, as is right!",
+      "ru": "Чепуха! Этот лагерь строили те, кто уважал землю и её дары. Теперь, когда они ушли, природа вправе забрать всё обратно, и это правильно!",
+      "speaker": "Alraune",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Aw yeah? Issat it? You're a peach, gal, but I'll clip those petals, you don't give it up right now!",
+      "ru": "Да ну? Вот как? Ты милашка, цветочек, но я тебе лепестки быстро пообрываю, если сейчас же не отдашь!",
+      "speaker": "Freelancer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "What a brutish lout you are, threatening an embodiment of nature! I won't give this up without a fight!",
+      "ru": "Ну ты и дубина, угрожать воплощению природы! Без драки я это не отдам!",
+      "speaker": "Alraune",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "One so brazen as yourself could never share in the bounties of nature! Now begone! And leave me be!",
+      "ru": "Такому наглому типу, как ты, дары природы не положены! Вали отсюда! И оставь меня в покое!",
+      "speaker": "Alraune",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "...hm? And who might you be? What brings a human to this disused place?",
+      "ru": "...хм? А ты ещё кто такой? Что человек забыл в этом заброшенном месте?",
+      "speaker": "Alraune",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Oh no, you want this too?! I have claimed it for my own! Leave me be, go! Get out of here!",
+      "ru": "О нет, тебе это тоже нужно?! Я уже забрала это себе! Оставь меня в покое, иди! Пошёл отсюда!",
+      "speaker": "Alraune",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Shouldn'ta crossed me, doll! Remember who spreads your pollen next time, huh?! Now to just take this back up the mountain...",
+      "ru": "Зря ты со мной связалась, куколка! В следующий раз помни, кто вам пыльцу разносит, ага?! А теперь бы утащить это обратно в горы...",
+      "speaker": "Freelancer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "OI! Who's THIS joker now? You lookin' ta empty your wallet for me or something?",
+      "ru": "ЭЙ! А это ещё что за клоун? Хочешь выложить мне всё из своего кошелька или что?",
+      "speaker": "Freelancer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "What, you want this thing too?! It's mine, y'hear? MINE! You can't have it!",
+      "ru": "Чего, тебе эта штука тоже нужна?! Она моя, слышал? МОЯ! Не получишь!",
+      "speaker": "Freelancer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "Human! Was right to send out. Peloros fall over chair and almost burn! Did find thing? Very distinctive, only thing left at camp.",
+      "ru": "Человек! Правильно, что тебя послал. Пелорос споткнулся о стул и чуть не сгорел! Нашёл вещь? Очень приметная. Только она в лагере осталась.",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Hmhm!! Yes! This what looking for! Very good human! Human deserve reward for be good human!",
+      "ru": "Хмхм!! Да! Это то, что искал! Очень хороший человек! Человек заслуживает награду за то, что хороший человек!",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Oh? Human not know what thing is? Want know?",
+      "ru": "О? Человек не знает, что это за штука? Хочет узнать?",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Silly! If human not know what thing is, no tell! Can learn for self.",
+      "ru": "Глупый! Если человек не знает, что это, не скажу! Сам узнавай.",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Still. Here, for good human!",
+      "ru": "Но всё равно. Держи, хороший человек!",
+      "speaker": "Teiren",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "Grrh...stupid Jixy. Dumb human language!",
+      "ru": "Гррх... тупой Джикси. Тупой человеческий язык!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "Hrrh! Human! You language dumb! Name smart, flow like water in Orc language, look like dungpile on paper in human language!",
+      "ru": "Хррх! Человек! Ваш язык тупой! Моё имя в орочьем языке умное, течёт как вода, а на человеческой бумаге выглядит как куча навоза!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "Say name! Look at spell, say name! Try!! TRY!!!",
+      "ru": "Скажи имя! Посмотри на написание и скажи имя! Давай!! ДАВАЙ!!!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "Xoeinbor.",
+      "ru": "Ксоейнбор.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "NO! Say wrong, all wrong! Sound even stupider than normal!",
+      "ru": "НЕТ! Неправильно сказал, вообще всё неправильно! Звучит ещё тупее обычного!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "GRRRH! Confusing name! Not confusing in orcish! Human say all wrong!",
+      "ru": "ГРРРХ! Запутанное имя! На орочьем не запутанное! Люди всё неправильно говорят!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Hmh. That right, human. Willing to try at least. See how bad name look?",
+      "ru": "Хмх. Вот так правильно, человек. Хотя бы попытался. Видишь, как тупо имя выглядит?",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Said \"shoon-bur.\" Not even LOOK like that in human letter!",
+      "ru": "Говорится \"Шун-бур\". Оно даже ВООБЩЕ не так пишется этими человеческими буквами!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "Here. Needed show anger at stupid language, not show anger at human.",
+      "ru": "На. Надо было выплеснуть злость на тупой язык, а не на человека.",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Stupid stupid STUPID! Not at all say like spell! See stupid language now?!",
+      "ru": "Тупой тупой ТУПОЙ! Вообще не читается так, как пишется! Видишь теперь, какой тупой язык?!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "GAAAH!! No, no, no, no!!! Why need learn human language?!",
+      "ru": "ГАААХ!! Нет, нет, нет, нет!!! И зачем вообще учить человеческий язык?!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "Joe?",
+      "ru": "Джо?",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "NAME NOT JOE! WHAT KIND NAME JOE?! JOE STUPID NAME!!! AAAAHH!!",
+      "ru": "ИМЯ НЕ ДЖО! ЧТО ЭТО ВООБЩЕ ЗА ИМЯ ТАКОЕ - ДЖО?! ДЖО - ТУПОЕ ИМЯ!!! АААХ!!",
+      "speaker": "Xoeinbor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "HRRRGH!",
+      "ru": "ХРРРГХ!",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "GRRGH! GRRGAAAH! MOOOOOOVE!",
+      "ru": "ГРРГХ! ГРРГААХ! ДВИГАЙСЯ!",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "YUNELSU NOT BEATEN...HRRRK...BY ROCK!!",
+      "ru": "ЮНЕЛСУ НЕ ПОБЕЖДЁН... ХРРРК... КАМНЕМ!!",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Hrrf...haaah...hhhuman! Weird...weird kind human!",
+      "ru": "Хррф... хаах... ччеловек! Странный... странный добрый человек!",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Rock stuck. Trying to lift- for train strength! No one able to lift rock.",
+      "ru": "Камень застрял. Пытаюсь поднять - тренирую силу! Никто не смог поднять этот камень.",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "Yunelsu try throw rock into river! Have thrown other rock, not this one.",
+      "ru": "Юнелсу хотел швырнуть камень в реку! Другие камни уже кидал, этот - нет.",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "Human! Try move rock!",
+      "ru": "Человек! Попробуй сдвинуть камень!",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Hmm...human magic strong, but rock still not moving.",
+      "ru": "Хмм... магия человека сильная, а камень всё равно не двигается.",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "Work together! Cast magic at rock, I try lift again! Ready!",
+      "ru": "Вместе! Колдуй на камень, я снова подниму! Готов!",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "HGGGGRRK! GO!",
+      "ru": "ХГГГГРК! ДАВАЙ!",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "Hrrgh... Hrrf. Must be...old earth rock.",
+      "ru": "Хрргх... Хрф. Должно быть... старый земной камень.",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "Been here very long time. Stuck here, rock where earth wants rock to be.",
+      "ru": "Лежит тут очень давно. Застрял тут, потому что земля хочет, чтобы камень лежал тут.",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "Yunelsu find other rock then. Sometimes rock break, though.",
+      "ru": "Тогда Юнелсу найдёт другой камень. Иногда камень ломается, правда.",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "See? Many broken rock. Hear can be good for armor though. You take.",
+      "ru": "Видишь? Вон много разбитых камней. Для брони такое бывает полезно. Забирай.",
+      "speaker": "Yunelsu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Oh! You! Saw Zuett dragging you to camp. And saw other thing.",
+      "ru": "О! Ты! Видел, как Зуэтт тебя тащил в лагерь. И ещё кое-что видел.",
+      "speaker": "Lomoster",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "And you helped Ressinter! Will apologize later. Was my fault. Human seen Freelancers?",
+      "ru": "И ты помог Рессинтеру! Извинюсь потом. Это моя вина. Человек видел Фрилансеров?",
+      "speaker": "Lomoster",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "Freelancers think everything belong to them. Loiter around fortress a lot, try to jump in sometimes.",
+      "ru": "Фрилансеры думают, что всё принадлежит им. Постоянно шляются у крепости, иногда даже пытаются влезть.",
+      "speaker": "Lomoster",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "Was trying to shoot flying one down, but cannon broke, and cannonball explode.",
+      "ru": "Я пытался сбить летающего, но пушка сломалась, и ядро рвануло.",
+      "speaker": "Lomoster",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Now Ressinter okay, but still need repair cannon. Human feel like helping, will need [5 Iron Ingots] to repair.",
+      "ru": "Теперь с Рессинтером всё нормально, но пушку всё равно надо чинить. Если человек хочет помочь, нужны [5 Iron Ingots] на ремонт.",
+      "speaker": "Lomoster",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "Long walk, but there iron in valley east of villager quarry. There also other villager there, with weapons. Not sure why.",
+      "ru": "Идти далеко. Железо в долине к востоку от карьера селян. Там ещё селяне с оружием. Не знаю зачем.",
+      "speaker": "Lomoster",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "Human being weirdly helpful. That good though! Make Lomoster job of shooting enemy easier.",
+      "ru": "Человек как-то подозрительно уж полезен. Но это хорошо! Ломостеру потом проще будет отстреливать врагов.",
+      "speaker": "Lomoster",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "Here. Freelancer like steal metal and other thing too, have found a lot from shooting. Human can have.",
+      "ru": "Держи. Фрилансеры любят воровать металл и всякое другое, я уже много такого насобирал после стрельбы. Человек может забрать.",
+      "speaker": "Lomoster",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "[!] An Elite Boar has been spotted. The hunt begins!",
+      "ru": "[!] Замечен элитный кабан. Охота начинается!",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "[!] The Elite Boar can be spotted by the particles above its head.",
+      "ru": "[!] Элитного кабана можно опознать по частицам над его головой.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "[!] The boars will try to hide in the bushes around the hunting grounds.",
+      "ru": "[!] Кабаны будут пытаться спрятаться в кустах по всей охотничьей территории.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "[!] Pay attention to what bush the Elite Boar is hiding in and give that bush a rustle with a right-click to get the boars out of their hiding spots.",
+      "ru": "[!] Следи, в каком кусте прячется элитный кабан, и потряси этот куст правым кликом, чтобы выгнать кабанов из укрытий.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "The book depicts a tall, vine-like plant with red buds.",
+      "ru": "В книге изображено высокое, похожее на лозу растение с красными бутонами.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "The illustration shows a body with splotchy red patches, and seems to depict pulped buds being applied to them.",
+      "ru": "На рисунке тело, покрытое красными пятнами. Похоже, к ним прикладывают растёртые бутоны.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "There's a picture of fire on the skin...? Is it trying to say that sweetgale helps heal inflammation?",
+      "ru": "Тут рисунок огня на коже...? Это намёк на то, что восковник помогает лечить воспаления?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "Another diagram shows grubs on the body, and seems to show that applying the pulped buds kills the bugs? That's what the big red X over the grub implies...",
+      "ru": "На другой схеме личинки ползают по телу. Кажется, растёртые бутоны убивают их? Большой красный крест над личинкой явно на это намекает...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "The book depicts large groups of flowers in various colors, but primarily yellow.",
+      "ru": "В книге изображены большие группы цветов разных расцветок, но преимущественно жёлтых.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "Seems like yarrow can do a lot- there's a lot of disparate illustrations. One points at a sneezing orc with two yarrow plants pointing at it, and the sneezing stopping.",
+      "ru": "Похоже, тысячелистник многое лечит: здесь немало разных рисунков. На одном орк чихает. К нему направлена стрелка от двух растений тысячелистника, а на следующем рисунке чихание прекращается.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "A similar illustration shows an orc that appears to be having stomach cramps, if its hands are crossed over its stomach is any indication, with two yarrow plants being pointing at it.",
+      "ru": "На похожем рисунке орк держится за живот. Должно быть, у него спазмы. К нему тоже направлена стрелка от двух растений тысячелистника.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "The third one seemingly shows an orc seemingly cut up, with red droplets coming off it. Again, two yarrow plants are pointed at it, and the next picture shows the cuts and droplets gone.",
+      "ru": "На третьем рисунке орк весь в порезах. Из них капает кровь. Опять стрелка от двух растений тысячелистника, а на следующем рисунке ни порезов, ни капель.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "The book depicts small, dainty flowers with white petals.",
+      "ru": "В книге изображены маленькие, изящные цветы с белыми лепестками.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "There's a detailed picture of the plant, and with arrows pointing to multiple different illustrated orcs each showing different things.",
+      "ru": "Здесь подробный рисунок растения. От него идут стрелки к нескольким рисункам орков, каждый с разными недугами.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "One orc is shown to be agitated, and then subsequently sleeping. Another is...shown with red patches on the skin, and fire next to it, which is depicted with water droplets in the next drawing. The red patches are gone.",
+      "ru": "Один орк встревожен, а на следующем рисунке уже спит. Другой... с красными пятнами на коже и огнём рядом. На следующем рисунке огонь сменяется каплями воды, а красные пятна исчезают.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "The last one shows various cuts and gashes on a third orc that's emitting red droplets, and then smaller cuts without any red drops on the next depiction...",
+      "ru": "На последнем рисунке третий орк весь в порезах и ранах, из которых капает кровь. На следующем порезы уже меньше, и крови нет...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "...but the next page is showing an orc with X's over its eyes, and arrows from multiple chamomile plants pointing to it. Does that mean too much chamomile is bad?",
+      "ru": "...но на следующей странице орк с крестиками вместо глаз, и на него указывают стрелки от нескольких растений ромашки. Это значит, что слишком много ромашки - плохо?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "The book depicts a shrub-like plant with white petals and buds.",
+      "ru": "В книге изображено кустарниковое растение с белыми лепестками и бутонами.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "It looks like it's good for healing a lot of things. The pictures show a sweating, feverish orc, one is clutching its stomach, a female one clutching her stomach, and what can be assumed to be an orc with...a toothache?",
+      "ru": "Похоже, это растение помогает от многих недугов. На рисунках орк в поту, с жаром; другой держится за живот; орчиха тоже держится за живот. А у последнего, видимо... зубная боль?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "Seems to imply that feverfew is good for dealing with all those kinds of maladies.",
+      "ru": "Кажется, пиретрум помогает от всех этих недугов.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "The book depicts broad, yellow-green leaves.",
+      "ru": "В книге изображены широкие, жёлто-зелёные листья.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "There's an image of an orc with red droplets coming off it, and an arrow with a picture of a gingko leaf pointing at it- the arrow is crossed out. That could mean multiple things.",
+      "ru": "Здесь орк, из которого капает кровь. К нему направлена стрелка от рисунка листа гинкго, но стрелка перечёркнута. Это можно понять по-разному.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "The next page shows a gingko leaf pointed at an illustration of a brain, and a similar arrow points from a frowning orc to a smiling one.",
+      "ru": "На следующей странице лист гинкго указывает на изображение мозга, а похожая стрелка ведёт от хмурого орка к улыбающемуся.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "So that means it's good for mood and mental health...and that it does something with bleeding, but you can't tell whether that would be good or bad for it.",
+      "ru": "Значит, лист помогает улучшить настроение и душевное состояние... А ещё как-то влияет на кровотечение. Но непонятно, помогает он или вредит.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "The book depicts red-orange flowering stalks, almost like cattails.",
+      "ru": "В книге изображены красно-оранжевые цветущие стебли, почти как рогоз.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "There's a large illustration of an orc with big purple blotches all over it, and next to it there's a similar illustration with orange splotches instead.",
+      "ru": "Тут большая иллюстрация орка с крупными фиолетовыми пятнами по всему телу, а рядом похожая иллюстрация, но с оранжевыми пятнами.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "That implies that ground-up pyrola goes on there...probably depicting bruises.",
+      "ru": "Похоже, оранжевое - это растёртая грушанка, нанесённая на кожу... А фиолетовое, видимо, синяки.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Similar orange splotches are applied to what is clearly a cut, and the next illustration over shows the same cut having become smaller.",
+      "ru": "Такая же оранжевая смесь нанесена на то, что явно выглядит как порез. На следующем рисунке этот порез уже меньше.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "Then there's illustrations of what look like...veins? There's a lot of orcish script next to it, so you can't make heads or tails of what that much could mean.",
+      "ru": "Затем идут изображения чего-то похожего на... вены? Рядом много орочьих письмён, так что не разобрать, что всё это может значить.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "The book depicts a short shrub covered in vibrant red berries on small stalks.",
+      "ru": "В книге изображён низкий кустарник, усыпанный яркими красными ягодами на маленьких стебельках.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "There are multiple illustrations of what look like sick orcs- sneezing and coughing shown in pictures.",
+      "ru": "Здесь несколько рисунков больных орков: они чихают и кашляют.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "One illustration shows what looks to be an orc in great pain, and arrows pointing from the elderberries to those figures.",
+      "ru": "На одном рисунке орку явно очень больно. От ягод бузины идут стрелки к этим оркам.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "Your best guess is that elderberries are good for healing mild illnesses, and maybe for dulling pain.",
+      "ru": "Наверное, ягоды бузины помогают от лёгких болезней и, возможно, притупляют боль.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "The bleeding seems to have slowed down a little bit, but the medicine orc is still badly injured. The balm must not have been effective. You'll have to make another one.",
+      "ru": "Кровотечение, похоже, немного замедлилось, но орк-лекарь всё ещё тяжело ранен. Бальзам, видимо, не подействовал. Придётся сделать другой.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "The balm doesn't seem to have worked this time either. He's still bleeding badly. Maybe you can just...cover up all the cuts and hope for the best? Or maybe that's not a good idea.",
+      "ru": "Похоже, бальзам и в этот раз не сработал. Он всё ещё сильно кровоточит. Может, просто... закрыть все порезы и надеяться на лучшее? Или это плохая идея.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "Still no significant effect. The orc's breathing is getting shallower...",
+      "ru": "По-прежнему никакого заметного эффекта. Дыхание орка становится всё более поверхностным...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "The cuts are closing underneath the balm, and his breathing is becoming more steady. Did you do it...?",
+      "ru": "Под бальзамом порезы затягиваются, а его дыхание становится ровнее. Получилось...?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "If she's worried about you just following orders, then if you go and help out some orcs on your own, Ureietun might change her mind.",
+      "ru": "Она боится, что ты просто выполняешь чужие приказы. Если помочь оркам по собственной воле, Уриетун, возможно, передумает.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "There are lots of Orcs around. Asking them if they need help should be simple enough.",
+      "ru": "Вокруг полно орков. Спросить их, нужна ли помощь, будет несложно.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "Suppose that's that, then- Fruludir has his package. Time to go back to Peloros.",
+      "ru": "Что ж, на этом, пожалуй, всё - Фрулудир получил свою посылку. Пора возвращаться к Пелоросу.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "She thrusts a piece of thick, leathery paper at you- the black ink reads 'Xoeinbor.' This could be said many different ways...",
+      "ru": "Она суёт тебе кусок плотной, кожистой бумаги - чёрными чернилами написано \"Xoeinbor\". Это можно прочесть по-разному...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "A full heal.",
+      "ru": "Полное исцеление.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "Well, it seems trying to lift it won't work. Maybe casting some spells at it could dislodge it? Try casting multiple spells in a row.",
+      "ru": "Похоже, камень не поднять. Может, несколько заклинаний сдвинут его с места? Попробуй применить их подряд.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "Not good for repair cannon, but probably good for make other thing.",
+      "ru": "Пушку не починить этим. Но можно сделать другую вещь.",
+      "speaker": "Ломостер",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "Grrmb. Dumb Kreimu. Stupid Wynn language...Gavel language, pfeh. Whatever language, not orc language.",
+      "ru": "Гррмб. Тупая Крейму. Дурацкий язык Винн... язык Гавел, тьфу. Какой угодно язык, не орочий язык.",
+      "speaker": "Креину",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "Her name, my name, sound same. Don't sound same in Orcish! But in YOUR language, sound same!",
+      "ru": "Её имя, моё имя, звучат одинаково. Не звучат одинаково на орочьем! Но на ТВОЙ язык - одинаково!",
+      "speaker": "Креину",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "Not just that-learning to be medicine orc. She medicine orc too! Healer, brewer, herbalist, whatever. Too much same!",
+      "ru": "И не только это. Учусь лечить орков. Она тоже лечит! Целитель, зельевар, травник... Всё одно и то же!",
+      "speaker": "Креину",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "Angry about it. Been distracting from training too. Human want help like help Ressinter? Get Creinu- Crei...nu...not Kreimu, ingredient for medicine.",
+      "ru": "Злюсь из-за это. Отвлекает от тренировка тоже. Человек хочет помогать, как помогал Рессинтер? Принеси Креину- Креи...ну... не Крейму, ингредиент для лекарство.",
+      "speaker": "Креину",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "[3 Leafy Stalks]. Need to learn how to make much medicine out of little herb. Easy?",
+      "ru": "[3 Leafy Stalks]. Надо учиться делать много лекарства из малого количества трав. Легко?",
+      "speaker": "Креину",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "Grrmbl... Dumb Kreimu... Human have stalks?",
+      "ru": "Гррмбл... Тупая Крейму... Человек принёс стебли?",
+      "speaker": "Креину",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "Good. Can take these, then- Alraune girl have sometimes. Tasty, but not good medicine.",
+      "ru": "Хорошо. Бери это. У девушки-Альрауне иногда бывает. Вкусно, но как лекарство не годится.",
+      "speaker": "Креину",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "Durbeo might like, actually. Durbeo orc in food storage tower behind me. Maybe he want help too?",
+      "ru": "Дурбео может понравиться. Дурбео - орк в башне с запасами еды за моей спиной. Может, ему тоже нужна помощь?",
+      "speaker": "Креину",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "Oh, that human who healed Ressinter. Yes, I've heard of you already. News travels fast here.",
+      "ru": "О, тот человек, что исцелил Рессинтера. Да, я о тебе уже наслышана. Новости тут расходятся быстро.",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "You have a weird face. Uh, a weird look on your face, I mean. What, not used to a more eloquent orc?",
+      "ru": "У тебя странное лицо. Э-э, странное выражение лица, я хотела сказать. Что, не привык к более красноречивому орку?",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "I'm studying languages, is why. I haven't got everything known yet, so if you feel like helping, I could use it.",
+      "ru": "Я изучаю языки. Ещё не всё знаю, так что, если захочешь помочь, буду рада.",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "I used to have a very smart hobbit friend who lived nearby. They've left, but I want you to check their hobbit hole to see if they've left behind any language books.",
+      "ru": "Неподалёку жил мой друг, очень умный хоббит. Он уехал. Загляни в его нору, посмотри, не оставил ли он книги по языкам.",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "It should be close to the blue tower on the hill. That should be easy, right?",
+      "ru": "Она должна быть рядом с синей башней на холме. Это ведь несложно, верно?",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "This is probably the book Jixy was talking about. You should get back to her... Wait, what's that noise?",
+      "ru": "Это, вероятно, та книга, о которой говорила Джикси. Стоит вернуться к ней... Стой, что это за шум?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "Oh, good, they did leave a book behind. This even completes the collection I have. I have the first, second, fourth, fifth, and sixth volumes of this.",
+      "ru": "О, прекрасно, книга всё-таки осталась! Теперь у меня вся серия. Первый, второй, четвёртый, пятый и шестой тома у меня уже были.",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "Hopefully I can learn something new here. I still don't understand what all these weird \"figures of speech\" are supposed to mean...",
+      "ru": "Надеюсь, я узнаю отсюда что-то новое. Я всё ещё не понимаю, что должны значить все эти странные \"обороты речи\"...",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "What does busting your hump mean? Or two shakes of a lamb tail? Well, anyway. You probably know, so me trying to guess is boring.",
+      "ru": "Что значит \"горбатиться\"? Или \"в два счёта\"? Ну да ладно. Ты наверняка знаешь ответы, так что тебе скучно слушать мои догадки.",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "Here, then. That friend of mine wrote everything he came across down in some diaries, and he gave me them to keep, but I can't read them.",
+      "ru": "Тогда вот. Тот мой друг записывал всё, что встречал, в дневники, и отдал их мне на хранение, но я не могу их прочесть.",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "The pages are too flimsy- I'll rip them if I turn them. It's a good thing the book you gave me is bound with strong leather, but I still need to be careful not to ruin it...",
+      "ru": "Страницы слишком тонкие. Порву, если начну листать. Хорошо, что принесённая тобой книга переплетена крепкой кожей, но всё равно придётся быть осторожной...",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "Well, maybe if you read what these have written in them you can learn some things for yourself.",
+      "ru": "Что ж, может, если ты прочтёшь, что в них написано, то и сам чему-нибудь научишься.",
+      "speaker": "Джикси",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "Huh. You again. That weird human who helped Ressinter. Something wrong?",
+      "ru": "Хм. Снова ты. Странный человек, который помог Рессинтеру. Что-то не так?",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "Hm. Looking to help out still? What is it with you looking to be helpful? Have to say I'm not used to this. But, I can think of something.",
+      "ru": "Хм. Всё ещё хочешь помочь? Почему тебе так хочется быть полезным? Признаюсь, я к этому не привык. Но могу кое-что придумать.",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "HEY! Any of you feel like playing a game?",
+      "ru": "ЭЙ! Кто-нибудь хочет поиграть в игру?",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "Ugh, yeah! We're so BORED in here!",
+      "ru": "Ух, да! Нам тут так СКУЧНО!",
+      "speaker": "?????",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "What in the... HEY! Why's one of the big, scary humans in here?! Nunny, I thought you said we were gonna play a game!",
+      "ru": "Что за... ЭЙ! Почему тут один из больших страшных людей?! Нанни, ты же сказал, мы будем играть в игру!",
+      "speaker": "?????????",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "We are. This human actually isn't so bad. Care to introduce yourselves?",
+      "ru": "Будем. Этот человек на самом деле не такой уж плохой. Не желаете представиться?",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "Well, sure, but...even if you say this one isn't so scary, I know I don't wanna tell them my real name!",
+      "ru": "Ну хорошо, но... Даже если ты говоришь, что этот не такой страшный, своё настоящее имя я ему не скажу!",
+      "speaker": "???????",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "Didn't we just eat a bunch of fruit though? We can use those as fake names!",
+      "ru": "Мы же только что ели фрукты! Давайте назовёмся их именами!",
+      "speaker": "??????",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "Okay then. Well, call me Mango then, weird human!",
+      "ru": "Ну тогда ладно. Зови меня Манго, странный человек!",
+      "speaker": "Манго",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "I just ate a bunch of blueberries, so I guess I'm Blueberry for now?",
+      "ru": "Я только что съел кучу черники, так что, наверное, я теперь Черника?",
+      "speaker": "Черника",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "Hey, I wouldn't mind being called Grapes by anyone, really!",
+      "ru": "Эй, да я совсем не против, чтобы меня кто угодно звал Виноградом!",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "Then I'm Peaches! So we're just doing a little hide and seek game?",
+      "ru": "Тогда я Персик! Ну что, просто поиграем в прятки?",
+      "speaker": "Персик",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "Yes. Just hide around the fort someplace. If the human doesn't find you, you win.",
+      "ru": "Да. Спрячьтесь где-нибудь в крепости. Если человек вас не найдёт, вы победили.",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "Well, that's kinda boring, so I'm gonna go find a really tough to reach spot!",
+      "ru": "Ну, это скучновато, так что я найду себе совсем труднодоступное местечко!",
+      "speaker": "Манго",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "NYAHAHA! Everyone scatter!!",
+      "ru": "НЯХАХА! Все врассыпную!!",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "Well, there you go. I'll tell you how many you have left to find if you talk with me.",
+      "ru": "Ну вот и всё. Если поговоришь со мной, я скажу, сколько тебе ещё осталось найти.",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "...wow. You're good. I thought you might be able to see me up here, but I didn't think you'd be able to reach me!",
+      "ru": "...ух ты. А ты хорош. Я думала, ты, может, и заметишь меня тут наверху, но не думала, что сможешь до меня добраться!",
+      "speaker": "Манго",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "I don't really care about the fact you're human. As long as I get my entertainment I'm happy. Which kinda isn't so great, cause there isn't a lot here to tinker with.",
+      "ru": "Мне всё равно, что ты человек. Главное, чтобы мне было весело. Но здесь скучновато: почти не с чем повозиться.",
+      "speaker": "Манго",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "Tinkernook is so much better about having machines and metals and things to experiment and build than here is.",
+      "ru": "Вот в Тинкернуке совсем другое дело! Куча машин, металла и всего, с чем можно ставить опыты и что-нибудь мастерить.",
+      "speaker": "Манго",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "Anyways, you win, I lose, so I better get back to stick-in-the-mud Nunexetor. See ya!",
+      "ru": "Ладно, ты выиграл, я проиграла, так что мне лучше вернуться к зануде Нунексетору. Пока!",
+      "speaker": "Манго",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "NYACK! For such a big human you really know how to sneak up on someone!!",
+      "ru": "НЯК! Для такого большого человека ты и правда умеешь подкрадываться!!",
+      "speaker": "Черника",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "Gah, I thought I was a goner for a second there... If Nunny says you're okay then I'll trust him, but that doesn't make you less intimidating!",
+      "ru": "Гах, на секунду я подумал, что мне конец... Если Нанни говорит, что ты нормальный, я ему поверю, но менее пугающим тебя это не делает!",
+      "speaker": "Черника",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "And, I guess out in the open like this, the other orcs wouldn't let you bully us, so...",
+      "ru": "И, наверное, тут, на виду, другие орки не дали бы тебе нас обижать, так что...",
+      "speaker": "Черника",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "Suppose you're alright, maybe. But even still, you found me, so I lose. Unless you can't find everyone else!",
+      "ru": "Может, ты и ничего. Но ты меня нашёл, так что я проиграл. Если только остальные от тебя не спрячутся!",
+      "speaker": "Черника",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "I bet you'll NEVER find Mango, hahaah! She always takes these games SUPER seriously!",
+      "ru": "Спорим, ты НИ ЗА ЧТО не найдёшь Манго, хахаа! Она всегда относится к таким играм ОЧЕНЬ серьёзно!",
+      "speaker": "Черника",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "Aw darn it. I guess it's pretty easy to see me up here.",
+      "ru": "Ай, чёрт. Видать, меня тут наверху довольно легко заметить.",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "I mean, I knew that, but I thought you wouldn't think to climb the tower!",
+      "ru": "В смысле, я-то знал, но думал, тебе не придёт в голову лезть на башню!",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "Well, anyway...you really went and tried to heal Ressinter? That's pretty admirable!",
+      "ru": "Ну да ладно... Ты и правда пытался вылечить Рессинтера? Это заслуживает уважения!",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0297",
+      "en": "I hear most humans are bullies. It's why Veltu back at the Trunkstump camp was training us to be tougher.",
+      "ru": "Я слыхал, большинство людей - задиры. Поэтому Велту в лагере Транкстамп учила нас быть покрепче.",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0298",
+      "en": "Aaaand then a human went and killed her, because I guess they got told to do so! At least you seem halfway decent.",
+      "ru": "Аааа потом человек взял и убил её. Видимо, ему так велели! Но ты вроде ничего.",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0299",
+      "en": "Anyway, back to the quiet ol' grouch with me!",
+      "ru": "Ладно, пойду к нашему молчаливому ворчуну!",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0300",
+      "en": "Ack! Thought you wouldn't notice me behind the stairs!",
+      "ru": "Ак! Думал, ты не заметишь меня за лестницей!",
+      "speaker": "Персик",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0301",
+      "en": "Ugh, you...you human types are scary up close. Is Nunexetor really sure you're not a bad guy?",
+      "ru": "Ух, ты... Вы, люди, вблизи такие страшные. Нунексетор точно уверен, что ты не злодей?",
+      "speaker": "Персик",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0302",
+      "en": "I mean, look at your armor! You, you look like you could splat me against the wall in a snap!",
+      "ru": "В смысле, ты глянь на свою броню! Ты, ты выглядишь так, будто можешь размазать меня по стене в один миг!",
+      "speaker": "Персик",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0303",
+      "en": "...I feel like I just gave you an idea and I'm not sticking around to find out! You win!",
+      "ru": "...кажется, я только что подал тебе идею! Не хочу проверять, воспользуешься ли ты ею! Ты выиграл!",
+      "speaker": "Персик",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0304",
+      "en": "That's all four goblins. Nunexetor is probably expecting you now that the game is finished.",
+      "ru": "Это все четыре гоблина. Нунексетор, наверное, уже ждёт тебя, раз игра окончена.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0305",
+      "en": "Looks like the human wins. Guess I know how you managed to find that spineback boar.",
+      "ru": "Похоже, человек выиграл. Теперь ясно, как тебе удалось найти того шипоспинного кабана.",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0306",
+      "en": "There's no way you REALLY hunted one of those things. Those even give the orc hunters trouble!",
+      "ru": "Да быть не может, чтобы ты ВПРАВДУ охотился на такую тварь. Они даже орочьим охотникам доставляют хлопот!",
+      "speaker": "Черника",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0307",
+      "en": "Are you kidding me? Humans are terrifying, Blueberry! They've hunted way stronger stuff than some stupid pig!",
+      "ru": "Ты шутишь? Люди ужасны, Черника! Они охотились на тварей куда сильнее какой-то глупой свиньи!",
+      "speaker": "Персик",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0308",
+      "en": "But, the game was fun, right?",
+      "ru": "Но игра была весёлой, правда?",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0309",
+      "en": "Yeah, I guess it wasn't as boring as I'd thought.",
+      "ru": "Ага, пожалуй, было не так скучно, как я думала.",
+      "speaker": "Манго",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0310",
+      "en": "That's all I wanted from you. Can go back to whatever it was you were doing now.",
+      "ru": "Это всё, что мне от тебя нужно. Можешь возвращаться к тому, чем там занимался.",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0311",
+      "en": "Yes, finally! I don't have to spend time wondering if the human's gonna try and poke my eyes out!",
+      "ru": "Да, наконец-то! Больше не надо гадать, не попытается ли человек выколоть мне глаза!",
+      "speaker": "Персик",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0312",
+      "en": "Oh, quit being such a scaredy-baby. This one's nice!",
+      "ru": "Да перестань трусить, как малявка. Этот хороший!",
+      "speaker": "Виноград",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0313",
+      "en": "Good game, I guess! Back to being bored again.",
+      "ru": "Ну, неплохо поиграли! А теперь опять скучать.",
+      "speaker": "Манго",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0314",
+      "en": "What, nothing to say?",
+      "ru": "Что, нечего сказать?",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0315",
+      "en": "... Your shoe's unlaced, human.",
+      "ru": "... У тебя шнурок развязался, человек.",
+      "speaker": "Черника",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0316",
+      "en": "What? You aren't even wearing those kinds of shoes.",
+      "ru": "Что? На тебе даже не такая обувь.",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0317",
+      "en": "Anyways, to the winner goes the spoils. Here, for entertaining them for a bit.",
+      "ru": "Ладно, победителю - трофеи. Вот, за то, что немного их развлёк.",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0318",
+      "en": "They have me watch the goblins but I'm no good at having fun with them, so thanks I suppose.",
+      "ru": "Мне поручили присматривать за гоблинами, а веселить их я не умею. Так что спасибо.",
+      "speaker": "Нунекзетор",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0319",
+      "en": "Ah, the weird human. Why you looking to be helpful?",
+      "ru": "А, странный человек. Почему ты хочешь быть полезен?",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0320",
+      "en": "Must be some reason. Not sure if tired for fighting or some other reason, but if human feel like helping, can use some help.",
+      "ru": "Должна быть причина. Не знаю, устал от драк или причина другая, но если человек хочет помогать, помощь пригодится.",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0321",
+      "en": "Running low on blue dyes. Have plenty of other colors, but need blue. Know where to get them, too.",
+      "ru": "Синяя краска кончается. Других цветов полно, но нужна синяя. Знаю, где взять.",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0322",
+      "en": "The cave outside the villager bridge, with the pond and arch by it. Go in, and there will be blue flowers.",
+      "ru": "Пещера за мостом селян. Рядом пруд и арка. Зайди - там синие цветы.",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0323",
+      "en": "Get [8 Terramarine Buds] so can make more dyes. Don't know why you helping, but won't turn down help either.",
+      "ru": "Принеси [8 Terramarine Buds], чтобы делать больше краски. Не знаю, зачем ты помогаешь, но и от помощи не откажусь.",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0324",
+      "en": "The weird human again? You all covered in blue powder. You found the flowers then!",
+      "ru": "Снова странный человек? Ты весь в синем порошке. Значит, нашёл цветы!",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0325",
+      "en": "Here. Will get that for you. The buds are enough for what need, but you can keep the dust.",
+      "ru": "Вот. Возьму это у тебя. Бутонов хватит на что нужно, а пыль можешь оставить себе.",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0326",
+      "en": "Little more, too. But, again- why you looking to be helpful? Don't understand. Humans kill orcs a lot.",
+      "ru": "И ещё немного. Но опять же - почему ты хочешь быть полезен? Не понимаю. Люди часто убивают орков.",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0327",
+      "en": "You unlearn villager stupidity maybe? In the middle of unlearning? Perhaps a sign from the earth things will heal. Perhaps not. We will see.",
+      "ru": "Может, стараешься забыть глупости селян? Ещё учишься? Может, земля даёт знак: всё наладится. А может, нет. Посмотрим.",
+      "speaker": "Милиюс",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0328",
+      "en": "You that weird human helping instead killing, right? Nunexetor and little goblins talking about you.",
+      "ru": "Ты странный человек, который помогает, а не убивает? Нунексетор и маленькие гоблины говорили о тебе.",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0329",
+      "en": "Trying to make weapons and tools better. Training, but running out of grindstones. Etemitoro- that is me, my name... That how say it?",
+      "ru": "Пытаюсь делать оружие и инструменты лучше. Тренируюсь, но кончаются точильные камни. Этемиторо - это я, моё имя... Так говорить?",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0330",
+      "en": "Weird human language. Anyway, know where good grindstone is- top of mountain east of fortress.",
+      "ru": "Странный человеческий язык. Ладно, знаю, где хороший точильный камень - на вершине горы к востоку от крепости.",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0331",
+      "en": "There shortcut running through top by Ledant cave. Maybe dangerous, but not too much. Follow dead bushes on road and can get to top quickly.",
+      "ru": "У пещеры Ледант есть короткий путь наверх. Может, опасный, но не очень. Иди вдоль сухих кустов у дороги, быстро доберёшься до вершины.",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0332",
+      "en": "May have something useful if bring me [Leaden Stone] for grind metal.",
+      "ru": "Может, дам полезную вещь, если принесёшь [Свинцовый камень]. Буду точить металл.",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0333",
+      "en": "Look- human want help? Then get Etemitoro- that is me, my name... Get-",
+      "ru": "Слушай - человек хочет помогать? Тогда принеси Этемиторо - это я, моё имя... Принеси-",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0334",
+      "en": "Oh! You have [Leaden Stone]! Was focusing on work, didn't notice.",
+      "ru": "О! У тебя есть [Свинцовый камень]! Был занят работой, не заметил.",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0335",
+      "en": "Here. Human like green gem for money, right? Not good for smithing though.",
+      "ru": "Вот. Человек любит зелёные камни, они у него деньги. Верно? Но для ковки не годятся.",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0336",
+      "en": "Broken weapon parts not good alone, but still sharp. Can be used to make other good weapons! Reuse good for earth- waste not!",
+      "ru": "Сломанные части оружия сами по себе не годятся. Но ещё острые. Можно сделать другое хорошее оружие! Использовать снова - хорошо для земли. Не пропадать добру!",
+      "speaker": "Этемиторо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0337",
+      "en": "Hm, healer human. Could swear, saw you walking around plains some time ago. What here for? Ressinter hurt again?",
+      "ru": "Хм, человек-целитель. Кажется, видела тебя на равнинах недавно. Зачем пришёл? Рессинтер снова ранен?",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0338",
+      "en": "No? Well, am curious now. You try heal Ressinter...luck, maybe? Or did human really know what herbs do?",
+      "ru": "Нет? Теперь интересно. Ты лечил Рессинтера... Может, повезло? Или человек правда знает, что делают травы?",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0339",
+      "en": "Want review. Want see human medicine knowledge. Will ask questions, human give answer. Simple. Ready?",
+      "ru": "Хочу проверить. Знает ли человек лекарства? Я задаю вопросы, человек отвечает. Просто. Готов?",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0340",
+      "en": "Good! So, first question. Ginkgo Leaf. What Gingko Leaf good for?",
+      "ru": "Хорошо! Итак, первый вопрос. Лист гинкго. Для чего хорош лист гинкго?",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0341",
+      "en": "Yes! Good. Gingko leaf help brain. Make feel better when stress, but make blood runny. Can be good for sometimes, but can be dangerous.",
+      "ru": "Да! Хорошо. Лист гинкго помогает мозгу. Успокаивает, но кровь от него жиже. Иногда полезно, иногда опасно.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0342",
+      "en": "So, second question. Sweetgale. What Sweetgale good for?",
+      "ru": "Итак, второй вопрос. Восковник. Для чего хорош восковник?",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0343",
+      "en": "Nope. Sweetgale not for helping with that. Hm, maybe human heal Ressinter through luck... Can try again if want.",
+      "ru": "Нет. Восковник тут не поможет. Хм, может, человек вылечил Рессинтера случайно... Можно попробовать снова.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0344",
+      "en": "Mhm. Good! Sweetgale pulp makes bugs avoid. Also make irritated skin soothe. Very good for bug bite.",
+      "ru": "Угу. Хорошо! Мякоть восковника отпугивает насекомых. А ещё успокаивает раздражённую кожу. Очень хорош от укусов насекомых.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0345",
+      "en": "Here third question. Elderberry. Elderberry good for two thing. What Elderberry good for?",
+      "ru": "Вот третий вопрос. Бузина. Бузина хороша для двух вещей. Для чего хороша бузина?",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0346",
+      "en": "No, Elderberry not good for those. Hm, maybe human heal Ressinter through luck... Can try again if want.",
+      "ru": "Нет. Бузина тут не поможет. Хм, может, человек вылечил Рессинтера случайно... Можно попробовать снова.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0347",
+      "en": "Yes! Though, Elderberry also good for third thing. Can make good drink! Get drunk if ferment Elderberry, but that not medicine.",
+      "ru": "Да! Но бузина хороша и для третьего. Можно сделать вкусный напиток! Забродит - можно опьянеть. Но это уже не лекарство.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0348",
+      "en": "Last question for human. Feverfew. What Feverfew NOT help with?",
+      "ru": "Последний вопрос для человека. Пиретрум. С чем пиретрум НЕ помогает?",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0349",
+      "en": "Feverfew very good for heal that. Hm, maybe human heal Ressinter through luck... Can try again if want.",
+      "ru": "Пиретрум как раз это хорошо лечит. Хм, может, человек вылечил Рессинтера случайно... Можно попробовать снова.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0350",
+      "en": "Pfff...hawhawhawhaw!!! H-Human, yahoo! I- Harhar!",
+      "ru": "Пфф... хавхавхавхав!!! Ч-человек, ну ты даёшь! Я- Хархар!",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0351",
+      "en": "That...correct! Not right, but correct! You...haha, you only help Ressinter through luck, right? Human not actually healer.",
+      "ru": "Это... верно! Ответ не тот, но верный! Ты... хаха, тебе просто повезло вылечить Рессинтера, да? Человек не настоящий целитель.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0352",
+      "en": "Human have humor though! And human try hard to help. More than can say for most humans. Here then- try more heal, instead of be soldier.",
+      "ru": "Зато человек умеет шутить! И старается помочь. Большинство людей так не делают. Держи. Больше лечи, меньше воюй.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0353",
+      "en": "World need more people to help other people. That human was willing to try mean many good thing.",
+      "ru": "Миру нужно больше тех, кто помогает другим. Человек хотя бы попытался. Это многое значит.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0354",
+      "en": "No. Gingko Leaf bad for that. Hm, maybe human heal Ressinter through luck... Can try again if want.",
+      "ru": "Нет. Лист гинкго тут навредит. Хм, может, человек вылечил Рессинтера случайно... Можно попробовать снова.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0355",
+      "en": "Fine. Take your time. Will be here for while to make sure other healer okay.",
+      "ru": "Ладно. Не торопись. Побуду здесь, проверю, как другой целитель.",
+      "speaker": "Креиму",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0356",
+      "en": "Human healer! Hello! This Onluk tower. Onluk tower two! Human help, so human welcome.",
+      "ru": "Человек-целитель! Привет! Это башня Онлука. Башня Онлука два! Человек помогал, человеку рады.",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0357",
+      "en": "Tower one call tower one cause Onluk build tower one! This not usual spot for Onluk.",
+      "ru": "Башня один зовётся башней один, потому что Онлук построил башню один! Обычно Онлук не здесь.",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0358",
+      "en": "Usually at tower on small hill, across bridge. But because build tower by self, tower rickety.",
+      "ru": "Обычно Онлук в башне на холмике, за мостом. Сам её строил. Поэтому башня шаткая.",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0359",
+      "en": "Human helpful. Human get sturdy wood for fix tower? Swamp has sturdy wood. Forest has wood too, but more magical than sturdy.",
+      "ru": "Человек помогает. Достанет крепкое дерево? Чинить башню. В болоте дерево крепкое. В лесу тоже есть, но больше волшебное, чем крепкое.",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0360",
+      "en": "[6 Willow Planks] enough to make tower better, maybe. Willow strong wood! Can get?",
+      "ru": "[6 Willow Planks], может, хватит укрепить башню. У ивы крепкое дерево! Добудешь?",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0361",
+      "en": "Aha! Human have willow wood! Onluk fix tower now!",
+      "ru": "Ага! Человек принёс иву! Онлук теперь починит башню!",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0362",
+      "en": "Will repair Onluk tower one! Come see after fix!",
+      "ru": "Починю башню Онлука один! Приходи посмотреть, когда починю!",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0363",
+      "en": "Looks like Onluk's repaired the watchtower on the hill. He wanted to you see it, better meet him there.",
+      "ru": "Похоже, Онлук починил сторожевую башню на холме. Он хотел, чтобы ты это увидел, лучше встреться с ним там.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0364",
+      "en": "TOWER ONE REPAIRED! Hrahaaah! Yes! Human very helpful!",
+      "ru": "БАШНЯ ОДИН ПОЧИНЕНА! Храхааа! Да! Человек очень полезный!",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0365",
+      "en": "Should go and see! Climb tower, shoot crossbow at Freelancer!",
+      "ru": "Иди, посмотри! Заберись на башню, стреляй из арбалета по Вольнонаёмнику!",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0366",
+      "en": "See? Onluk tower one much better than Onluk tower two! Cozy up here, and can see Fruludir tower too!",
+      "ru": "Видишь? Башня Онлука один намного лучше башни Онлука два! Уютно тут наверху, и видно башню Фрулудира тоже!",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0367",
+      "en": "Human very helpful. Healer and woodcutter! Repairer of tower- Well, human not repair tower. Helper of repairer of tower!",
+      "ru": "Человек очень помогает. Целитель и дровосек! Чинит башни... Хотя нет, не чинит. Помогает тому, кто чинит башни!",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0368",
+      "en": "Here, for help repair Onluk tower one!",
+      "ru": "Вот. За помощь с башней Онлука один!",
+      "speaker": "Онлук",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0369",
+      "en": "That should be enough helping to convince Ureietun to let you through.",
+      "ru": "Этой помощи должно хватить, чтобы убедить Уриетун пропустить тебя.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0370",
+      "en": "It looks like that's the last orc around here who needed help!",
+      "ru": "Похоже, это был последний орк в округе, которому нужна была помощь!",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0371",
+      "en": "...fine. Maybe human not so bad.",
+      "ru": "...ладно. Может, человек не так уж плох.",
+      "speaker": "Уриетун",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0372",
+      "en": "Human want talk Arrai-Veretel. In hut. Follow.",
+      "ru": "Человек хочет поговорить с Арраи-Веретель. Она в хижине. Идём.",
+      "speaker": "Уриетун",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0373",
+      "en": "Arrai-Veretel! Human try help orc around fortress. Want talk.",
+      "ru": "Арраи-Веретель! Человек пытался помогать оркам по крепости. Хочет говорить.",
+      "speaker": "Уриетун",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0374",
+      "en": "Up to human now. Will not help more- choice is up to Arrai-Veretel.",
+      "ru": "Теперь дело за человеком. Больше не помогу. Решать Арраи-Веретель.",
+      "speaker": "Уриетун",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0375",
+      "en": "Hmh. Zuett spoke about you. So you are human trying to end war?",
+      "ru": "Хм. Зуэтт говорил о тебе. Так это ты человек, что пытается закончить войну?",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0376",
+      "en": "YOU! You human who kill Rai-Poxper! You human who attack other fort!",
+      "ru": "ТЫ! Ты человек, что убил Рай-Покспера! Ты человек, что напал на другой форт!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0377",
+      "en": "Need talk with Zuett again. You follow. And you stay quiet. Understand?",
+      "ru": "Надо снова говорить с Зуэттом. Следуй. И молчи. Понял?",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0378",
+      "en": "ZUETT! You say human want peace. Do you know who human is?!",
+      "ru": "ЗУЭТТ! Ты говоришь, человек хочет мира. Ты знаешь, кто этот человек?!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0379",
+      "en": "Whuh- This good human! Heal Ressinter-",
+      "ru": "Чё- Это хороший человек! Вылечил Рессинтер-",
+      "speaker": "Зуэтт",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0380",
+      "en": "Human ALSO kill Rai-Poxper!",
+      "ru": "Человек ТАКЖЕ убил Рай-Покспера!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0381",
+      "en": "Wha- no-",
+      "ru": "Чё- нет-",
+      "speaker": "Зуэтт",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0382",
+      "en": "Human ALSO attack other fort! Many orcs dead because this human!",
+      "ru": "Человек ТАКЖЕ напал на другой форт! Много орков мертвы из-за этого человека!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0383",
+      "en": "How can Zuett say human trying to end war, when human START WAR AGAIN?!",
+      "ru": "Как может Зуэтт говорить, что человек пытается закончить войну, когда человек СНОВА НАЧАЛ ВОЙНУ?!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0384",
+      "en": "Only because villager-",
+      "ru": "Только потому, что селяне-",
+      "speaker": "Зуэтт",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0385",
+      "en": "THAT. IS. THE. POINT!! Villager get human to fight for them! Cease-fire say Villager not attack orc. Then human come over ocean. Try make peace- get attack!",
+      "ru": "В. ЭТОМ. ВСЁ. ДЕЛО!! Селяне посылают людей воевать! Перемирие запрещало селянам нападать на орков. Потом люди пришли из-за океана. Орки хотели мира - на орков напали!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0386",
+      "en": "See human attack. Villager get human to attack, say lies to trick humans. Orcs defend self. Then, three Rai-orc die at Earthpit, Cliffhearth, and Trunkstump goblin camp.",
+      "ru": "Видим: человек нападает. Селяне посылают людей нападать, обманывают их. Орки защищаются. Потом трое Рай-орков гибнут в Земляной Яме, Утёсном очаге и гоблинском лагере Транкстамп.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0387",
+      "en": "Human attack! Rai-Poxper take rightful toll for break cease-fire, but not war yet. Take magic axe from Villager city while magic power gone bad.",
+      "ru": "Человек напал! Рай-Покспер взял законную плату за нарушенное перемирие. Ещё не война. Забрал волшебный топор из города селян, когда волшебная сила вышла из-под контроля.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0388",
+      "en": "Villager and human attack first, but attack orc for take rightful toll like orc attack first! And human kill Rai-Poxper!",
+      "ru": "Селяне и люди напали первыми. Потом напали за то, что орк взял законную плату! Будто первыми напали орки! И человек убил Рай-Покспера!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0389",
+      "en": "Orc take human fort build in dying earth forest. Cannot know if human planning another attack! But not kill human. Hold human instead.",
+      "ru": "Орки взяли людской форт в умирающем лесу. Не знали, вдруг люди готовят новое нападение! Но людей не убили. Взяли в плен.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0390",
+      "en": "Then same human who kill Rai-Poxper come, kill bathing orc, break in fort, kill many Centerworld orc! Villager start, orc finish, villager no respect end!",
+      "ru": "Потом тот же человек, что убил Рай-Покспера, приходит. Убивает купающегося орка, врывается в форт. Убивает многих орков Центрмира! Селяне начали войну, орки закончили, а селяне перемирие не чтут!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0391",
+      "en": "Yes, human tricked by Villager, but human still attack orc. Human still kill many orc! Human say want peace now?",
+      "ru": "Да, селяне обманули человека. Но человек всё равно нападал. Убил много орков! И теперь хочет мира?",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0392",
+      "en": "What human done? Hunt boar? Help healer? Done busywork for other orc? That not make up for life lost.",
+      "ru": "Что человек сделал? Поохотился на кабана? Помог целителю? Поделал мелкую работу для других орков? Это не искупит отнятые жизни.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0393",
+      "en": "...Arrai-Veretel right. What human done good, not make up for that. But, human still trying. If one human try to stop, more human can try to stop.",
+      "ru": "...Арраи-Веретель права. Добрые дела человека это не искупят. Но он старается. Один человек хочет остановить войну. За ним и другие могут захотеть.",
+      "speaker": "Зуэтт",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0394",
+      "en": "War only killing us! If tried talk human instead of go sharpen spear and fight back, maybe human would learned faster than now.",
+      "ru": "Война нас убивает! Если бы говорили с людьми, а не точили копья и били в ответ, может, люди раньше бы поняли.",
+      "speaker": "Зуэтт",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0395",
+      "en": "Maybe. Maybe more orc be dead instead. Zuett, you cannot say what would happened. Wishful thinking, and I wish would happened too!",
+      "ru": "Может. А может, погибло бы ещё больше орков. Зуэтт, ты не знаешь, что было бы! Только надеешься. Я тоже хотела бы, чтобы так получилось!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0396",
+      "en": "But with unfinished Wynnic, orc cannot talk well. YOU try learn language when idiot killing you! All sound stupid, and no time to learn for most!",
+      "ru": "Но орки плохо знают винник, не могут говорить хорошо. ТЫ попробуй учить язык, когда тебя убивают! Говорим глупо, потому что у большинства нет времени учиться!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0397",
+      "en": "But human listen to Zuett, even if not sound smart. Arrai-Veretel not respect human. Justified, but still cause problem.",
+      "ru": "Но человек слушает Зуэтта. Даже если Зуэтт говорит глупо. Арраи-Веретель не уважает человека. Есть причина. Но это тоже мешает.",
+      "speaker": "Зуэтт",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0398",
+      "en": "Grrh. FINE! Zuett want peace so bad? Human want peace so bad? Human spilled much orc blood. Only way out of war, is through. We will battle.",
+      "ru": "Гррх. ЛАДНО! Зуэтт так сильно хочет мира? Человек так сильно хочет мира? Человек пролил много орочьей крови. Единственный выход из войны - через неё. Мы будем сражаться.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0399",
+      "en": "No tricks. No backup. Nothing but battle between human and myself. If human can fight in ritual arena and win, then will listen.",
+      "ru": "Без уловок. Без подмоги. Ничего, кроме битвы между человеком и мной. Если человек сможет сразиться на ритуальной арене и победить, тогда буду слушать.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0400",
+      "en": "Listen, Zuett. I want war stop too. But you must understand the risk here. Cannot make decision lightly. Villager go back on word- see writing, find way around writing.",
+      "ru": "Слушай, Зуэтт. Я тоже хочу конца войне. Но пойми, какой риск. Нельзя решать наспех. Селяне не держат слова. Читают договор и ищут лазейки.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0401",
+      "en": "Try threaten us with iron corpse machine! So, battle will happen. Will prepare ritual and gather crowd. Prepare, human.",
+      "ru": "Пугают нас железной мёртвой машиной! Поэтому будет бой. Подготовлю ритуал, созову народ. Готовься, человек.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0402",
+      "en": "...that right. Prepare, human. Arrai-Veretel strongest orc. Strong in everything. Mind, body, power, spirit.",
+      "ru": "...верно. Готовься, человек. Арраи-Веретель - сильнейшая из орков. Сильна во всём. Ум, тело, мощь, дух.",
+      "speaker": "Зуэтт",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0403",
+      "en": "Zuett still think human trying to be good. Still think can help stupid war end. Knock sense into Arrai-Veretel.",
+      "ru": "Зуэтт всё ещё думает: человек старается быть хорошим. Может помочь закончить глупую войну. Вбей это в голову Арраи-Веретель.",
+      "speaker": "Зуэтт",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0404",
+      "en": "Before fight... Must perform ritual. This challenge need respect. I do not repect you, human, but will show respect anyway.",
+      "ru": "Перед боем... Надо провести ритуал. Этот вызов требует уважения. Я не уважаю тебя, человек, но всё равно проявлю уважение.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0405",
+      "en": "May the earth herself hear us... Though we do not speak as we once have...",
+      "ru": "Да услышит нас сама земля... Хоть мы и не говорим, как говорили когда-то...",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0406",
+      "en": "We, as humble inhabitants of the land she has gifted us, pledge this show in honor of her.",
+      "ru": "Мы, смиренные обитатели земли, которую она нам даровала, посвящаем ей этот поединок.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0407",
+      "en": "May she be sated, grow healthy, and honor us in turn for this offering.",
+      "ru": "Да насытится она, исцелится и почтит нас в ответ на этот дар.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0408",
+      "en": "HMH! HAH!",
+      "ru": "ХМ! ХА!",
+      "speaker": "Наблюдающие орки",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0409",
+      "en": "Now...begin!",
+      "ru": "Теперь... начали!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0410",
+      "en": "HMH! Human tough. Fine- Will take battle seriously now!",
+      "ru": "ХМ! Человек крепкий. Ладно - теперь буду биться всерьёз!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0411",
+      "en": "For sake of those killed before me, I will not lose!",
+      "ru": "Ради тех, кто пал до меня, я не проиграю!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0412",
+      "en": "Ghh...hrrgh...",
+      "ru": "Гхх... хрргх...",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0413",
+      "en": "Arrai-Veretel...lose?!",
+      "ru": "Арраи-Веретель... проигрывает?!",
+      "speaker": "Орк из толпы",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0414",
+      "en": "No, no! Arrai-Veretel hurt bad! Human try kill Arrai-Veretel!!",
+      "ru": "Нет, нет! Арраи-Веретель сильно ранена! Человек пытается убить Арраи-Веретель!!",
+      "speaker": "Орк из толпы",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0415",
+      "en": "AM FINE! Stupid, idiot! No interrupting while ritual fight!",
+      "ru": "Я В ПОРЯДКЕ! Глупый! Идиот! Не вмешиваться в ритуальный бой!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0416",
+      "en": "Human win. Hate to say, but human win. Not even try kill me.",
+      "ru": "Человек победил. Не хочу говорить, но человек победил. Даже не пытался убить меня.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0417",
+      "en": "Give time. Battle hard-fought- Need to wind down. Wait in meeting room. Will...discuss terms.",
+      "ru": "Дай время. Битва была тяжёлой - надо отдышаться. Жди в комнате собраний. Будем... обсуждать условия.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0418",
+      "en": "Feel like insult to stop war we did not start. But, gave promise. Human strong. Still not make up for so much death...",
+      "ru": "Обидно останавливать войну, которую мы не начинали. Но я дала слово. Человек силён. Только это не вернёт погибших...",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0419",
+      "en": "But human trying. Really, really trying. Will admit, did not know about human killing all when saw... Still. If war ending, deaths also ending.",
+      "ru": "Но человек пытается. Очень, очень старается. Когда увидел его, не знал про всех убитых... Но если война закончится, никто больше не будет гибнуть на войне.",
+      "speaker": "Зуэтт",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0420",
+      "en": "Hmh. Human probably trying to end war to start with. Just on wrong side. Can agree, Zuett.",
+      "ru": "Хм. Человек, наверное, с самого начала пытался закончить войну. Просто был не на той стороне. Могу согласиться, Зуэтт.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0421",
+      "en": "Will stop attacking cities. Orcs still defend selves! Will not turn bellies for spears. Still not trust villagers- only give cease-fire.",
+      "ru": "Перестанем нападать на города. Орки всё равно защищаются! Не подставим брюхо под копья. Деревенским по-прежнему не доверяем - даём только перемирие.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0422",
+      "en": "Give opportunity for human to learn and villager to show respect. They did not attack, then will be open to more negotiation.",
+      "ru": "Дадим людям шанс понять нас, а селянам - проявить уважение. Не нападут - сможем говорить дальше.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0423",
+      "en": "Will say- many orc hold grudge, in plains. Many orc probably still attack. If so, human also can defend self. But, human should avoid fight there.",
+      "ru": "Скажу так - много орков затаили обиду, на равнинах. Много орков, наверное, всё равно будут нападать. Если так, человек тоже может защищаться. Но человеку лучше избегать драки там.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0424",
+      "en": "...if villager continue attack, will defend selves as before. Human, make sure villager know this.",
+      "ru": "...если селяне продолжат нападать, будем защищаться, как прежде. Человек, скажи им это.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0425",
+      "en": "Mhm. Villager more stupid than human. Villager do many terrible thing. But endless war not help fix.",
+      "ru": "Угу. Селяне глупее людей. Много ужасного делают. Но бесконечная война не поможет всё исправить.",
+      "speaker": "Зуэтт",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0426",
+      "en": "Peace first step to heal. ...unless villager to stupid thing. Then may need fight anyway.",
+      "ru": "Мир - первый шаг к исцелению. ...Если только селяне не натворят глупостей. Тогда, может, снова придётся драться.",
+      "speaker": "Зуэтт",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0427",
+      "en": "So Zuett not naive. Some things...cannot...be...forgiven. Villager treading line close.",
+      "ru": "Значит, Зуэтт не наивен. Некоторые вещи... нельзя... простить. Деревенские ходят по самому краю.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0428",
+      "en": "Human seen earth rotting in north. Have to have, since took fort in rotting place. Forest used to be living thing. Now dying. Dead in north-east.",
+      "ru": "Человек видел гниющую землю на севере. Должен был, раз взял форт в гниющем месте. Лес был живым. Теперь умирает. Мёртв на северо-востоке.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0429",
+      "en": "Start happening only few decades before Villager leave across ocean! Villager always run away from problem.",
+      "ru": "Началось всего за несколько десятилетий до того, как селяне ушли за океан! Всегда бегут от бед.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0430",
+      "en": "And villager create own problems. Can only mean villager hurt earth, and make her die, slow and sure. Many orc used to live there.",
+      "ru": "И сами же создают беды. Значит, селяне ранили землю. Она медленно умирает. Многие орки раньше жили там.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0431",
+      "en": "Even after villager move in, try kick orc out, many orc live there...then earth start to die. Has not come south- and we are south!",
+      "ru": "Даже когда селяне пришли и пытались выгнать орков, многие остались... Потом земля начала умирать. На юг беда не пришла. А мы на юге!",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0432",
+      "en": "But...that off-track. No more war. Give this to whatever villager need to see it.",
+      "ru": "Но... это другое. Войны больше нет. Отдай договор тому селянину, которому надо.",
+      "speaker": "Аррай-Веретел",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0433",
+      "en": "That's the cease-fire agreement! You need to hand this to Captain Goruca- He should be waiting in Bucie still.",
+      "ru": "Это соглашение о перемирии! Тебе нужно передать его капитану Горуке - он, должно быть, всё ещё ждёт в Бьюси.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0434",
+      "en": "Human! You're back! That certainly took you a while. I suppose all things considered I shouldn't be surprised. Those orcs are tough.",
+      "ru": "Человек! Ты вернулся! Долго же тебя не было. Хотя чему удивляться? Эти орки крепкие.",
+      "speaker": "Капитан Горука",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0435",
+      "en": "What's this? You actually managed to get the brutes to sign a ceasefire?! I was expecting you to come back with a bloody prize, not a signature!",
+      "ru": "Это что? Тебе и впрямь удалось заставить этих громил подписать перемирие?! Я ждал, что ты вернёшься с кровавым трофеем, а не с подписью!",
+      "speaker": "Капитан Горука",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0436",
+      "en": "After the way they so savagely attacked our outpost and the way they rebuffed our diplomacy squads, I wasn't expecting this.",
+      "ru": "Они так жестоко напали на наш аванпост, отвергли наших посланников... Не ожидал, что получится.",
+      "speaker": "Капитан Горука",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0437",
+      "en": "Still, this is good! The terms are a bit more airtight than I'd prefer, but I suppose as long as they're out of our hair anything will do.",
+      "ru": "И всё же отлично! В договоре меньше лазеек, чем мне хотелось бы. Но, пожалуй, лишь бы они от нас отстали - остальное неважно.",
+      "speaker": "Капитан Горука",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0438",
+      "en": "Hm? The orcs were talking about the decay up north? Not sure how that matters. It isn't like anyone knows what's causing it.",
+      "ru": "Хм? Орки говорили о Гнили на севере? Не уверен, что это важно. Никто ведь не знает, что её вызывает.",
+      "speaker": "Капитан Горука",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0439",
+      "en": "I mean, have you heard the rumors flying from Lexdale? Saying witches are cursing the land, hah! Well, that's besides the point.",
+      "ru": "Ты слышал слухи из Лексдейла? Будто ведьмы проклинают землю, ха! Впрочем, это сейчас неважно.",
+      "speaker": "Капитан Горука",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0440",
+      "en": "Here- your reward. I'd intended on giving you the mask so you could try and sneak in like one of them, but I...well, I forgot about it til you'd already left.",
+      "ru": "Держи награду. Я собирался дать тебе маску, чтобы ты пробрался к ним под видом орка. Но я... ну, вспомнил о ней, когда ты уже ушёл.",
+      "speaker": "Капитан Горука",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0441",
+      "en": "But I DID magically fortify it into a potent piece of gear for you instead! So it ought to serve you well. We thank you for your service, human!",
+      "ru": "Зато я усилил её магией и сделал для тебя отличную вещь! Так что пригодится. Благодарим за службу, человек!",
+      "speaker": "Капитан Горука",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0442",
+      "en": "New Quest Started: All Roads to Peace",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Все дороги к миру",
+      "speaker": "",
+      "stage": "Stage 11"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Captain Goruca at [-1392, -4699]",
+      "ru": "Поговорить с капитаном Горукой [-1392, -4699].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Follow the captain to the medical tent at [-1421, 43, -4688]",
+      "ru": "Следовать за капитаном к лечебной палатке [-1421, 43, -4688].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Enter the Orcish Fortress at [-1310, 59, -4866]",
+      "ru": "Войти в крепость орков [-1310, 59, -4866].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Travel to the hunting grounds at [-1348, 43, -4956]",
+      "ru": "Отправиться в охотничьи угодья [-1348, 43, -4956].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Speak to Zuett with the Elite Boar Meat at [-1310, 44, -4915]",
+      "ru": "Отнести мясо элитного кабана Зуэтту [-1310, 44, -4915].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Follow Onluk to the Medicine Tent through the fortress",
+      "ru": "Следовать за Онлуком через крепость к лечебной палатке.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Save the injured orc, or keep it alive until rescue arrives",
+      "ru": "Спасти раненого орка или не дать ему умереть до прибытия помощи.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Follow Zuett through the Orcish Fortress",
+      "ru": "Следовать за Зуэттом через крепость орков.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Ask various orcs if they need any help at the Orcish Fortress at [-1310, 61, -4816].",
+      "ru": "Расспросить орков в крепости, не нужна ли им помощь [-1310, 61, -4816].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Speak to Ureietun at [-1276, 62, -4832] to gain access to the Chieftess' hut",
+      "ru": "Поговорить с Урейетун, чтобы попасть в хижину предводительницы [-1276, 62, -4832].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Follow Arrai-Veretel into the meeting room at [-1260, 55, -4837]",
+      "ru": "Следовать за Арраи-Веретель в зал собраний [-1260, 55, -4837].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Defeat Arrai-Veretel in combat in the arena below the orcish meeting room.",
+      "ru": "Победить Арраи-Веретель на арене под залом собраний орков.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Show Captain Goruca the Cease-Fire Agreement.",
+      "ru": "Показать капитану Горуке соглашение о перемирии.",
+      "stage": "Stage 11"
+    }
+  ],
+  "choices": [
+    {
+      "en": "Yes, I'm ready.",
+      "ru": "Да, я готов.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0339",
+      "id": "choice-0001"
+    },
+    {
+      "en": "It improves mood and mental health.",
+      "ru": "Он улучшает настроение и душевное здоровье.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0340",
+      "id": "choice-0002"
+    },
+    {
+      "en": "It helps lessen bruises.",
+      "ru": "Он помогает уменьшить синяки.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0342",
+      "id": "choice-0003"
+    },
+    {
+      "en": "It sweetens mixtures.",
+      "ru": "Он подслащивает смеси.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0343",
+      "id": "choice-0004"
+    },
+    {
+      "en": "It repels bugs.",
+      "ru": "Он отпугивает насекомых.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0343",
+      "id": "choice-0005"
+    },
+    {
+      "en": "It helps lessen bruises and stops bleeding.",
+      "ru": "Она помогает уменьшить синяки и останавливает кровотечение.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0345",
+      "id": "choice-0006"
+    },
+    {
+      "en": "It soothes pain and treats cold-like illnesses.",
+      "ru": "Она снимает боль и лечит простудные недуги.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0346",
+      "id": "choice-0007"
+    },
+    {
+      "en": "Lessening fevers.",
+      "ru": "Снижение жара.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0348",
+      "id": "choice-0008"
+    },
+    {
+      "en": "Soothing stomach pains.",
+      "ru": "Облегчение боли в желудке.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0349",
+      "id": "choice-0009"
+    },
+    {
+      "en": "Getting a date with you.",
+      "ru": "Сходить с тобой на свидание.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0349",
+      "id": "choice-0010"
+    },
+    {
+      "en": "It aids in sleep and soothes inflammation.",
+      "ru": "Она помогает уснуть и снимает воспаление.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0353",
+      "id": "choice-0011"
+    },
+    {
+      "en": "It helps soothe physical pain.",
+      "ru": "Она помогает облегчить физическую боль.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0353",
+      "id": "choice-0012"
+    },
+    {
+      "en": "It lessens bleeding.",
+      "ru": "Она уменьшает кровотечение.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0354",
+      "id": "choice-0013"
+    },
+    {
+      "en": "Give me a moment, actually.",
+      "ru": "Вообще-то, дай мне минутку.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0354",
+      "id": "choice-0014"
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "quest": "The Realm of Light",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-realm-of-light",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "<playername>... Achara... I do not believe I can ever atone for what I have done to you. An apology simply isn't enough.",
+      "ru": "<playername>... Ачара... Не думаю, что я вообще когда-нибудь смогу искупить то, что сделала тебе. Одного \"прости\" тут слишком мало.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "As infuriating as what you did was, you were following orders... I had every right to be angry, but to try and take your life was ten steps too far.",
+      "ru": "Как бы меня ни злило то, что ты сделал, ты выполнял приказ... Я имела право сердиться, но пытаться тебя убить было непростительно.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Even though it is not enough, I will say I am sorry for the pain I caused you. The Guardian was right, in the end.",
+      "ru": "И хоть этого всё равно мало, я всё же скажу: мне жаль, что я причинила тебе боль. В конце концов Хранитель был прав.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Without you carrying out Orphion's will, we would not be here. You truly are necessary in this, and I believe I have finally made peace with that.",
+      "ru": "Если бы ты не исполнил волю Орфиона, нас бы сейчас тут не было. Ты правда нужен во всём этом, и, думаю, я наконец-то с этим смирилась.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "It has been a long time since I had a partner willing to help me in this way. I was unused to it, I suppose... Still.",
+      "ru": "Давно у меня не было напарника, готового помогать мне вот так. Наверное, я просто отвыкла от такого... Но всё же.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "If you'll be willing to aid me, it would be a great relief. It has been a thousand years since I entered the Realm of Light...",
+      "ru": "Если ты всё ещё готов мне помочь, для меня это будет огромным облегчением. Я не входила в Царство Света уже тысячу лет...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I can only hope things have not changed much. I remember how it was, right down to the last petal...",
+      "ru": "Остаётся только надеяться, что там мало что изменилось. Я помню это место до последнего лепестка...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Wait a moment, <playername>. I have one more thing I would like to say before we enter.",
+      "ru": "Подожди минуту, <playername>. Я хочу сказать ещё кое-что, прежде чем мы войдём.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I... I need to thank you. For helping, as you have. For staying by me as you have. There was one other before you like that...",
+      "ru": "Я... Я должна тебя поблагодарить. За то, что помогал. За то, что оставался рядом. До тебя был только один такой...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "I promise that you will not meet the same fate as him. I will fight with you to the bitter end, achara.",
+      "ru": "Обещаю, тебя не постигнет та же судьба, что и его. Я буду биться вместе с тобой до самого конца, ачара.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "It's time, then. To visit Orphion.",
+      "ru": "Значит, пора. Пора навестить Орфиона.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Welcome to the Realm of Light then, <playername>. Once you've re-oriented yourself, come over here.",
+      "ru": "Добро пожаловать в Царство Света, <playername>. Как только немного освоишься, подойди ко мне.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "It's so much smaller than it used to be! There used to be many more landmasses, all connected to each other...",
+      "ru": "Оно стало таким маленьким по сравнению с тем, что было раньше! Когда-то здесь было куда больше островов, и все они были связаны между собой...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I feel... I feel everything in here. With Orphion's light, I can tap into the very core of the realm.",
+      "ru": "Я чувствую... чувствую тут буквально всё. Через свет Орфиона я могу прикоснуться к самому ядру этого мира.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "And I can feel disturbances. There are dark creatures here, where there should be none!",
+      "ru": "И я чувствую искажения. Здесь есть тёмные существа, хотя их тут вообще не должно быть!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I mean, even look at this creature. The light emanating from it is-",
+      "ru": "Да ты только посмотри на это существо. Свет, который от него идёт-",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Wait. Wh... Why is it attacking you!?",
+      "ru": "Стой. П-почему... Почему оно на тебя нападает!?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Its mind was addled by darkness. Poor thing was terrified... Nothing for it though.",
+      "ru": "Его разум был замутнён тьмой. Бедняга был в ужасе... Но выбора всё равно не было.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I suppose your more ruthless nature is a good thing, in this case. We each will need to fight, if this is as widespread as it feels.",
+      "ru": "Пожалуй, здесь твоя суровость нам на руку. Если беда охватила столько мест, сколько я чувствую, сражаться придётся нам обоим.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "I'll have to prepare myself for that... Being willing to take action will not make it any easier on my conscience.",
+      "ru": "Надо к этому подготовиться... Пусть я и готова действовать, совести от этого легче не станет.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "But I will set that aside, until the day this all becomes a memory. We'll both need to seek the Nexus of Light, Orphion's home. Follow me!",
+      "ru": "Но пока я оставлю эти мысли. Вернусь к ним, когда всё это будет позади. Нам нужно найти Узел Света, дом Орфиона. За мной!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "I should have expected this. With the connections severed, of course the bridge to the Nexus would be gone.",
+      "ru": "Надо было этого ожидать. Раз связи оборваны, мост к Узлу, конечно, тоже исчез.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "This must be because of that horrid parasite... The Guardian of the Forest informed me of the situation afterwards.",
+      "ru": "Наверное, это из-за того ужасного паразита... Хранитель Леса потом рассказал мне, что произошло.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "The gap may be too far for me to carry you over... Is there a way I can bypass this, I wonder?",
+      "ru": "Разрыв, похоже, слишком большой, я не смогу просто так перенести тебя через него... Интересно, можно ли как-то это обойти?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Perhaps I can try to bridge the gap myself. Let's see if this will work.",
+      "ru": "Может, я смогу сама создать мост. Посмотрим, получится ли.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "[Gavellian Spell]!",
+      "ru": "[Гавелльское заклинание]!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "...hm. That ought to have worked! Is the Nexus too far to reach?",
+      "ru": "...хм. Это должно было сработать! Неужели Узел слишком далеко?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "There has to be some way over... Maybe the direct method is- Hm? Another creature?",
+      "ru": "Должен быть какой-то путь... Может, если попробовать напрямую- Хм? Ещё одно существо?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "This one doesn't seem hostile, <playername>... I'll try and talk with it.",
+      "ru": "Это вроде не враждебное, <playername>... Я попробую с ним поговорить.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Its mind is whole, but it's wary of your presence. You should stay back, just in case.",
+      "ru": "С его разумом всё в порядке, но твоё присутствие его настораживает. На всякий случай постой подальше.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "So tell me, achara. What is it you sought me for?",
+      "ru": "Так скажи мне, ачара. Зачем ты искал меня?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Ahh, I see. You wish to see your master once more as well...",
+      "ru": "А, понятно. Ты тоже хочешь ещё раз увидеть своего хозяина...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "The monoliths? Are they what's severed the connections?",
+      "ru": "Монолиты? Это они оборвали связи?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Ahh, I understand. I assure you, we will fix this!",
+      "ru": "А, теперь понимаю. Обещаю, мы это исправим!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "It said that the connections to the rest of the realm were severed intentionally by Orphion, in order to protect them.",
+      "ru": "Оно сказало, что Орфион сам намеренно оборвал связи с остальной частью мира, чтобы его защитить.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Two monoliths on this landmass controlled the connections, and they are being drained of their light- As such, they closed the bridges.",
+      "ru": "Два монолита на этом острове управляли связями с остальным миром. Сейчас из них вытягивают свет, поэтому мосты закрылись.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "The light is still there- But it must be drawn back out. We have our task ahead of us now, achara. We need to go to the first monolith. Follow me!",
+      "ru": "Свет в них ещё есть, просто его нужно вернуть наружу. Значит, задача у нас теперь ясная, ачара. Нам нужно добраться до первого монолита. Идём!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "I never knew the monoliths kept the realm together as they did. You can see that it is inactive, yes?",
+      "ru": "Я и не знала, что именно монолиты связывают части этого мира. Видишь, сейчас он не действует.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "There should be bright bands of color going along it, and light pouring from it. This is where we play our roles, <playername>!",
+      "ru": "По нему должны пробегать яркие полосы, а сам он должен излучать свет. Теперь наш черёд, <playername>!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "It may be getting drained, but there is certainly still light within it, and if that parasite is battling Orphion we should be able to recharge it.",
+      "ru": "Пусть из него и вытягивают силу, свет внутри ещё есть. Если паразит сейчас сражается с Орфионом, мы должны суметь снова наполнить монолит светом.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I'll tap into the monolith... You'll need to enter it, and find its core. I'll send a part of Orphion's light with you to activate it once you do.",
+      "ru": "Я свяжусь с монолитом... Войди внутрь и найди его ядро. Я дам тебе частицу света Орфиона, чтобы ты смог его пробудить.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "[Gavellian Spell].",
+      "ru": "[Гавелльское заклинание].",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "The damage here is minor- Nothing that can't be fixed, thankfully.",
+      "ru": "Повреждение тут небольшое. К счастью, это ещё можно исправить.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Its aura is lowered- Now your soul must enter. I will keep you safe, <playername>.",
+      "ru": "Его аура ослаблена. Теперь твоя душа должна войти внутрь. Я прикрою тебя, <playername>.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Allow my magic to open your senses... Good luck, achara.",
+      "ru": "Позволь моей магии пробудить твои чувства... Удачи, ачара.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Welcome back, <playername>. I had few troubles dealing with the creatures trying to get close. Did you have issues inside?",
+      "ru": "С возвращением, <playername>. Мне нетрудно было сдержать существ, которые пытались подойти. А у тебя внутри были трудности?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "The light is starting to pulse out from the monolith again, so I would say you've succeeded. I suppose we do make a decent team?",
+      "ru": "Монолит снова испускает вспышки света. Значит, ты справился. Похоже, мы всё-таки неплохая команда?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Look! The colours are returning to the monolith! It's definitely reactivated. I'll run ahead and get to the other monolith.",
+      "ru": "Смотри! Цвета возвращаются к монолиту! Он точно снова заработал. Я побегу вперёд, ко второму монолиту.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Follow the path! The way there is up the big cliff where we first entered the Realm.",
+      "ru": "Иди по тропе! Путь туда ведёт наверх, на ту большую скалу, откуда мы впервые вошли в этот мир.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "I'm unsure if you can feel the light returning from the monolith, but I can. I almost feel reborn, with all this energy!",
+      "ru": "Не знаю, чувствуешь ли ты, как свет возвращается из монолита, но я чувствую. От этой энергии я будто заново оживаю!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "The rift ahead ought to take us to the second monolith, but it doesn't seem to be working, and I'm unsure why.",
+      "ru": "Разлом впереди должен был перенести нас ко второму монолиту, но он почему-то не работает, и я не понимаю почему.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "See? It's inert, which is... Odd. These aren't connected to the energy of the monolith.",
+      "ru": "Видишь? Он не действует, и это... странно. Ведь эти разломы не связаны с энергией монолита.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "It shouldn't be inactive as it is. There's some dark influence around here, but I can't seem to place it.",
+      "ru": "Он должен работать. Здесь чувствуется влияние тьмы, но я не могу понять, откуда оно исходит.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "My only guess is that it's interfering with the rift's energy. I've already scoured the hill though- No dark patches to be seen.",
+      "ru": "Единственное, что приходит в голову - что-то мешает энергии разлома. Но я уже весь холм обошла, никаких тёмных пятен нигде нет.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Do you think you could take a second look-",
+      "ru": "Может, ты ещё раз всё осмотришь-",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "...maybe you won't need to, after all. That was...",
+      "ru": "...хотя, похоже, уже не придётся. Это было...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "The gliders!",
+      "ru": "Глайдеры!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Back up! I'll hold them.",
+      "ru": "Назад! Я их задержу.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "We've found the disturbance... Even beyond this, I'll need to charge the rift with energy to activate it.",
+      "ru": "Вот и нашли источник помех... Но мне всё равно придётся наполнить разлом энергией, чтобы он заработал.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Go in peace, tortured ones! Be at one with the light!",
+      "ru": "Уходите с миром, измученные создания! Станьте едины со светом!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Get the rest of them, <playername>! I'll charge the rift!",
+      "ru": "Добей остальных, <playername>! Я пока заряжу разлом!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Thank you, achara. The rift is charged again- Just walk into it!",
+      "ru": "Спасибо, ачара. Разлом снова заряжен, просто входи в него!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "The process here should be roughly the same. I bring down the barrier, you enter and charge it with the light I provide.",
+      "ru": "Здесь поступим примерно так же. Я сниму барьер, а ты войдёшь внутрь и наполнишь монолит светом, который я тебе дам.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "I'll need to focus the energies of the monoliths to reconnect the Nexus of Light to the mainland here, so you'll be alone.",
+      "ru": "Мне придётся сосредоточить энергию монолитов, чтобы снова связать Узел Света с этим островом, так что дальше ты будешь один.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "I'll leave a barrier around you. Few creatures live on these cliffs, but best to be certain, of course.",
+      "ru": "Я оставлю вокруг тебя защитный барьер. На этих скалах живёт мало существ, но лучше всё равно перестраховаться.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Once you're done, meet me at the cliff near the Nexus. If we're to free Orphion from the parasite, having you along would be a great help.",
+      "ru": "Когда закончишь, встретимся у скалы рядом с Узлом. Твоя помощь будет очень кстати, если мы хотим освободить Орфиона от паразита.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Good luck, achara. I will see you soon.",
+      "ru": "Удачи, ачара. Скоро увидимся.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Careful, <playername>! Step back a moment!",
+      "ru": "Осторожно, <playername>! Отойди на секунду!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "There. The connection to the Nexus is established, and so we'll cross.",
+      "ru": "Вот. Связь с Узлом восстановлена, значит, можем переходить.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Wait! Something... Something's not quite right...",
+      "ru": "Стой! Что-то... что-то не так...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Something's emerging from the gate!",
+      "ru": "Что-то вылезает из врат!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Interfere?! You're one of the dark!",
+      "ru": "Мешать?! Ты порождение тьмы!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "You're the one trespassing in realms not your own!",
+      "ru": "Это ты лезешь в миры, которые тебе не принадлежат!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "<playername>. I think. I found someone. Who deserves to be killed. Help me out?",
+      "ru": "<playername>. Кажется. Я нашла того. Кто заслуживает смерти. Поможешь?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "<playername>!! Stay back! I'm keeping up but he'll destroy you if you get close!!",
+      "ru": "<playername>!! Назад! Я ещё держусь, но если ты подойдёшь близко, он тебя просто размажет!!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "AGH, ENOUGH OF THIS! You aren't allowed here, foul thing!",
+      "ru": "АГХ, ХВАТИТ УЖЕ! Тебе здесь не место, мерзкая тварь!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "[Gavellian Spell]! [Gavellian Spell]!",
+      "ru": "[Гавелльское заклинание]! [Гавелльское заклинание]!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "No! You won't run- I'll kill you before that!",
+      "ru": "Нет! Ты не уйдёшь - я убью тебя раньше!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "'Lari: YOU DON'T GET TO TALK ABOUT ORPHION LIKE THAT! '",
+      "ru": "'Лари: ТЫ НЕ ИМЕЕШЬ ПРАВА ГОВОРИТЬ ОБ ОРФИОНЕ ТАК!'",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "'Lari: It's not over... IT CAN'T BE, DON'T YOU- TAKE THIS!",
+      "ru": "'Лари: Это ещё не конец... ЭТО НЕ МОЖЕТ БЫТЬ КОНЦОМ, НЕ СМЕЙ- ПОЛУЧАЙ!",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "New Quest Started: The Realm of Light",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Царство Света",
+      "speaker": "",
+      "stage": "Stage 1"
+    }
+  ],
+  "choices": [],
+  "objectives": []
+}

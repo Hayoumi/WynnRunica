@@ -1,0 +1,89 @@
+{
+  "quest": "Cluck Cluck",
+  "level": 23,
+  "difficulty": "Hard",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "cluck-cluck",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hey, you aren't a chicken! Wait, you're a human! You can help me! Maybe you are the guy who helped my brother Yahya, but who knows, you humans all look the same to me.",
+      "ru": "Эй, ты не курица! Погоди, да ты человек! Ты можешь мне помочь! Может, ты тот самый парень, что помог моему брату Яхье, но кто вас знает, вы, люди, для меня все на одно лицо.",
+      "speaker": "Nohno",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I really love my chickens, but there is one that I just cannot control...",
+      "ru": "Я очень люблю своих кур, но с одной я просто не могу совладать...",
+      "speaker": "Nohno",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "His name is Cluckles, he was given to me by a man named Bob before he went to war, but when Bob never came back, Cluckles got angry...",
+      "ru": "Его зовут Клаклз. Его мне дал человек по имени Боб перед тем, как уйти на войну, но когда Боб так и не вернулся, Клаклз озлобился...",
+      "speaker": "Nohno",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "He's really dangerous to keep on my lovely island, so I keep him in my basement...",
+      "ru": "Держать его на моём чудесном острове слишком опасно, поэтому я запер его в подвале...",
+      "speaker": "Nohno",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I want to take care of him, but my wife says it's too dangerous. Where's my wife you say? Oh, I think she's around here eating some grain.",
+      "ru": "Я хочу о нём заботиться, но жена говорит, что это слишком опасно. Спрашиваешь, где моя жена? О, наверное, где-то тут клюёт зерно.",
+      "speaker": "Nohno",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Anyway, I need you to go down there and... Take care of him for me. I would really appreciate it.",
+      "ru": "В общем, мне нужно, чтобы ты спустился туда и... позаботился о нём за меня. Я был бы очень признателен.",
+      "speaker": "Nohno",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "What is this?! His feather? What did you do to Cluckles?! I wanted you to take care of him, not kill him!",
+      "ru": "Что это такое?! Его перо? Что ты сделал с Клаклзом?! Я просил тебя позаботиться о нём, а не убивать его!",
+      "speaker": "Nohno",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "You monster! Leave this place now, and keep that feather to remind you of your hideous crime!",
+      "ru": "Чудовище! Убирайся отсюда немедленно и оставь себе это перо, чтобы оно напоминало тебе о твоём чудовищном преступлении!",
+      "speaker": "Nohno",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "New Quest Started: Cluck Cluck",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Куд-кудах",
+      "speaker": "",
+      "stage": "Stage 2"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Nohno on Rooster Island at [-83, 48, -2497]",
+      "ru": "Поговорить с Нохно на Петушином острове [-83, 48, -2497].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Bring back [1 Cluckles' Favourite Feather] to Nohno.",
+      "ru": "Принести Нохно [1 Cluckles' Favourite Feather].",
+      "stage": "Stage 2"
+    }
+  ],
+  "choices": []
+}

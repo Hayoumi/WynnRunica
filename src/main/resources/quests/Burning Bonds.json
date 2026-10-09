@@ -1,0 +1,785 @@
+{
+  "quest": "Burning Bonds",
+  "level": 114,
+  "difficulty": "Hard",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "burning-bonds",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Halt, stranger! If you value your life, do not take another step forward.",
+      "ru": "Стой, незнакомец! Если тебе дорога жизнь, не делай больше ни шагу.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I have nothing left to give you! Leave, you and your kindred!",
+      "ru": "Мне больше нечего вам дать! Уходи, ты и твои сородичи!",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You're completely unscathed? You must be powerful indeed, no changeling could defeat you.",
+      "ru": "Ты совершенно невредим? Должно быть, ты и вправду силён: ни одному подменышу тебя не одолеть.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Still though, I have nothing for you. I even lack a medallion to prove my own identity...",
+      "ru": "И всё же мне нечего тебе предложить. У меня даже нет медальона, чтобы подтвердить, кто я такой...",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Ah, you have lost yours too? Kindred spirits we are, dead to our worlds!",
+      "ru": "А, ты тоже потерял свой? Мы родственные души, мертвецы для своих миров!",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Lost to my clan, dead to my family, assumed to be a brute beast of the worst sort... I am sure you can understand, being in the same state as myself?",
+      "ru": "Потерян для своего клана, мёртв для своей семьи, в глазах других - жестокий зверь худшего сорта... Уверен, ты понимаешь меня, ведь ты в том же положении?",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "It is some small comfort to find one in the same situation as myself. I will not pry into you, I know the value of secrets as well as anyone. But please, will you allow me a measure of catharsis and lend me an empathetic ear so I may tell my tale?",
+      "ru": "Хотя бы немного утешает встреча с тем, кто оказался в таком же положении. Я не буду расспрашивать о тебе: я не хуже других знаю цену тайнам. Но прошу, позволишь мне излить душу? Выслушай мою историю с сочувствием.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Then, let me tell you a story about losing your identity in the Mistwoods. About burning your medallion.",
+      "ru": "Тогда позволь рассказать тебе историю о том, как потерять себя в Туманном лесу. О том, как сжечь свой медальон.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Ah, I understand. I need not burden you with the miseries of an old man",
+      "ru": "А, понимаю. Не буду обременять тебя горестями старика.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "You have returned! Now, are you willing to take a moment to listen to my tale?",
+      "ru": "Ты вернулся! Готов теперь уделить немного времени моей истории?",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Ah, I understand. I need not burden you with the miseries of an old man.",
+      "ru": "А, понимаю. Не буду обременять тебя горестями старика.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "The forest here is safe, I ought to return home.",
+      "ru": "Здесь в лесу безопасно. Пора возвращаться домой.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "...Brother?",
+      "ru": "...Брат?",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Abramod... I want to come home now.",
+      "ru": "Абрамод... Я хочу вернуться домой.",
+      "stage": "Stage 1",
+      "speaker": "Lishvil"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "If you give me your medallion, I can be with you again.",
+      "ru": "Отдай мне свой медальон, и я снова смогу быть с тобой.",
+      "stage": "Stage 1",
+      "speaker": "Lishvil"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "If you can't show me your medallion, how could I know you are really you?",
+      "ru": "Если ты не можешь показать свой медальон, откуда мне знать, что это действительно ты?",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "There are creatures that take the shape of any man, and they want to kill us! It would be ignorant to not take it with you!",
+      "ru": "Есть существа, которые принимают облик любого человека, и они хотят нас убить! Не взять его с собой было бы глупо!",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Give me your medallion. I can become one of you.",
+      "ru": "Отдай мне свой медальон. Я смогу стать одним из вас.",
+      "stage": "Stage 1",
+      "speaker": "Lishvil"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "You are not Lishvil. And judging by that, he disposed of his before you could get to it.",
+      "ru": "Ты не Лишвил. И, судя по всему, он избавился от своего медальона раньше, чем ты смог до него добраться.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "If it means you won't deceive my clan, I'll burn my medallion, like Lishvil did! You can kill me, but you will never be me!",
+      "ru": "Если так ты не сможешь обмануть мой клан, я §#AA0000сожгу§r свой медальон, как сделал Лишвил! Ты можешь убить меня, но никогда не станешь мной!",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Watch this, vile deceiver!",
+      "ru": "Смотри, мерзкий обманщик!",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Hyup! There, if you want it so bad, go get it!",
+      "ru": "Хоп! Вот, если он тебе так нужен, иди и забери!",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "NO!",
+      "ru": "§#AA0000§lНЕТ!§r",
+      "stage": "Stage 1",
+      "speaker": "Lishvil"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "That is my story. It is unfortunate it cannot have a happier ending, unless...",
+      "ru": "Вот моя история. Жаль, что у неё не может быть более счастливого конца, если только...",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I do know how to make a new medallion, but it is a difficult task. Collecting the materials required for it would be more dangerous for my frail body than fending for myself out here...",
+      "ru": "Я знаю, как сделать новый медальон, но это непросто. Собирать нужные материалы для моего немощного тела ещё опаснее, чем выживать здесь в одиночку...",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "With you however, we might be able to gather them. If you prove yourself trustworthy, I could even help you make one as well. How does that sound?",
+      "ru": "Но с тобой мы, возможно, сможем их собрать. Если докажешь, что тебе можно доверять, я даже помогу сделать медальон и для тебя. Как тебе такое?",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Thank you, truly!",
+      "ru": "Спасибо тебе, от всего сердца!",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "First, we will need a wooden base for the medallion.",
+      "ru": "Сначала нам понадобится деревянная основа для медальона.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "There's an old, lightning struck tree to the south that we traditionally go to.",
+      "ru": "К югу стоит старое дерево, в которое ударила молния. По традиции мы ходим к нему.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "I will write the directions to it for you and meet you by it.",
+      "ru": "Я запишу для тебя, как до него добраться, и встречу тебя там.",
+      "stage": "Stage 1",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "This tree was struck by lightning many generations ago. And yet it has remained standing, even after death.",
+      "ru": "Молния ударила в это дерево много поколений назад. И всё же оно стоит, даже после смерти.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "The bark from it has proven sturdy enough that it works well as a medallion's base.",
+      "ru": "Его кора достаточно прочная, чтобы служить основой для медальона.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "However it might be a bit, ah, difficult to reach. It is in part why I need your help.",
+      "ru": "Но добраться до неё может быть, гм, непросто. Отчасти поэтому мне и нужна твоя помощь.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "I will... assist you in climbing the tree. On your way down, you will need to hit 5 of the healthier branches so we have enough bark.",
+      "ru": "Я... помогу тебе забраться на дерево. Падая вниз, тебе нужно ударить §#55FFFF5 здоровых веток§r, чтобы нам хватило коры.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "I'll need to stay down here so I can collect the bark as it hits the ground.",
+      "ru": "Мне нужно остаться внизу, чтобы подбирать кору, когда она упадёт на землю.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Are you ready?",
+      "ru": "Ты готов?",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Alright, here you go!",
+      "ru": "Ладно, полетели!",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "If you need time to get your bearings, I understand. Come back when you're ready!",
+      "ru": "Если тебе нужно время, чтобы собраться, я понимаю. Возвращайся, когда будешь готов!",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Looks like you didn't quite hit enough branches...",
+      "ru": "Похоже, ты ударил недостаточно веток...",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Try again?",
+      "ru": "Попробуешь снова?",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Remember, you need to hit 5 healthy branches.",
+      "ru": "Помни, тебе нужно ударить §#55FFFF5 здоровых веток§r.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Here you go again!",
+      "ru": "И снова полетели!",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "I understand. Talk to me again when you've caught your breath.",
+      "ru": "Понимаю. Поговори со мной снова, когда переведёшь дух.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Good! This should be enough for the bases.",
+      "ru": "Хорошо! Этого должно хватить для основ.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Next we'll need to collect some resin to lacquer the medallion with.",
+      "ru": "Теперь нужно собрать смолу, чтобы покрыть медальон лаком.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "High in a mountain meadow to the east, a fern grows that excretes a resin that works well for the task.",
+      "ru": "Высоко на горном лугу к §#55FFFFвостоку§r растёт папоротник. Он выделяет смолу, которая отлично подходит для этого.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I'll write you some instructions on how to get there and see you once you arrive.",
+      "ru": "Я запишу для тебя, как туда добраться. Увидимся, когда придёшь.",
+      "stage": "Stage 2",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "This meadow is home to a rare fern that we collect resin from to make our medallions.",
+      "ru": "На этом лугу растёт редкий папоротник. Мы собираем его смолу для изготовления медальонов.",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Do not go searching for it just yet though! It is also home to a poisonous fern that appears very similar to the one we need.",
+      "ru": "Но пока не спеши его искать! Здесь также растёт ядовитый папоротник, очень похожий на нужный нам.",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "My eyes aren't so good anymore, so I'm going to need your help to tell them apart!",
+      "ru": "Глаза у меня уже не те, так что мне нужна твоя помощь, чтобы их различить!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "I'm going to toss the plants for you. You can pick them up by right-clicking them - even while they're still in the air!",
+      "ru": "Я буду подбрасывать тебе растения. Подбирай их нажатием ПКМ - даже пока они ещё в воздухе!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Place the greener, healthier looking plants to the side where I am now. And you'll need to burn the poisonous, more sickly looking plants on the other side.",
+      "ru": "Более зелёные и здоровые растения клади §#55FFFFна ту сторону, где я сейчас стою§r. А ядовитые, более чахлые растения нужно сжигать §#55FFFFна другой стороне§r.",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "We'll need 8 of the good ferns to extract enough resin. But make sure the poisonous ferns don't build up too much or it could be dangerous for you!",
+      "ru": "Нам нужно §#55FFFF8 хороших папоротников§r, чтобы добыть достаточно смолы. Но не давай ядовитым папоротникам скапливаться: это может быть опасно для тебя!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "You'll only be able to pick up one at a time, so good luck!",
+      "ru": "За раз ты сможешь поднять только одно растение. Удачи!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Ready?",
+      "ru": "Готов?",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Here you go!",
+      "ru": "Начинаем!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "I understand. I'll be here whenever you are.",
+      "ru": "Понимаю. Я буду здесь, когда ты будешь готов.",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Looks like you didn't get enough!",
+      "ru": "Похоже, ты собрал недостаточно!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Want to try again?",
+      "ru": "Хочешь попробовать снова?",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Here we go again!",
+      "ru": "И снова начинаем!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Alright, I understand.",
+      "ru": "Ладно, понимаю.",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "That should be enough resin!",
+      "ru": "Этой смолы должно хватить!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "There's only one final thing we need: knives to cut the bark with.",
+      "ru": "Нам осталось добыть только одно: ножи, чтобы вырезать основу из коры.",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Put that away, we don't need just any knife!",
+      "ru": "Убери это, нам подойдёт не любой нож!",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Tradition dictates we have to descend to a cave beneath this mountain where much of the fog of the Mistwoods settles. Deep inside are stones we've used for generations in carving our medallions.",
+      "ru": "По традиции мы должны спуститься в пещеру под этой горой, где скапливается большая часть тумана Туманного леса. В глубине лежат камни, которыми мы уже много поколений вырезаем свои медальоны.",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "I'll write down the directions for you again and meet you there.",
+      "ru": "Я снова запишу для тебя дорогу и встречу тебя там.",
+      "stage": "Stage 3",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "This cave here is where much of the mist pools. You can't tell from here, but it's very windy in there!",
+      "ru": "В этой пещере скапливается большая часть тумана. Отсюда не видно, но внутри очень ветрено!",
+      "stage": "Stage 4",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "At its end is an outcrop of rock with some of the sharpest stalagmites you've ever seen formed from those harsh winds.",
+      "ru": "В самом конце есть скальный выступ. Сильные ветры образовали там одни из самых острых сталагмитов, какие ты когда-либо видел.",
+      "stage": "Stage 4",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "You'll need to head in and reach that outcrop. I'll try and call out to you if I see any bursts of wind heading your way, but you'll have to dodge them on your own!",
+      "ru": "Тебе нужно войти и добраться до этого выступа. Я постараюсь предупредить криком, если замечу направленный на тебя порыв ветра, но уклоняться придётся самому!",
+      "stage": "Stage 4",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "If you get hit you'll be blown back, but try not to be blown back too far.",
+      "ru": "Если попадёшь под порыв, тебя отбросит назад. Постарайся, чтобы не слишком далеко.",
+      "stage": "Stage 4",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "You can walk in once you're ready to start.",
+      "ru": "Можешь заходить, когда будешь готов начать.",
+      "stage": "Stage 4",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "You snap off a piece of the rock and return to Abramod.",
+      "ru": "Вы отламываете кусок камня и возвращаетесь к Абрамоду.",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Excellent work!",
+      "ru": "Отличная работа!",
+      "stage": "Stage 4",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I'll meet you back at my campsite.",
+      "ru": "Встретимся у моего лагеря.",
+      "stage": "Stage 4",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Thank you so much again for all the help you've granted me!",
+      "ru": "Ещё раз огромное спасибо за всю твою помощь!",
+      "stage": "Stage 4",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Hello!",
+      "ru": "Привет!",
+      "stage": "Stage 5",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "We are going to make the medallion now, are we not?",
+      "ru": "Теперь будем делать медальон, верно?",
+      "stage": "Stage 5",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "It looks like I marked out for you the spots on the medallion that have to be cut out.",
+      "ru": "Кажется, я отметил для тебя места на медальоне, которые нужно вырезать.",
+      "stage": "Stage 5",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "All you have to do is cut them. Easy.",
+      "ru": "Тебе остаётся только вырезать их. Всё просто.",
+      "stage": "Stage 5",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Ready?",
+      "ru": "Готов?",
+      "stage": "Stage 5",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Good! I will drag the knife down. And you will push it in to cut!",
+      "ru": "Хорошо! Я буду вести нож вниз, а ты нажимай на него, чтобы сделать надрез!",
+      "stage": "Stage 5",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "You're not ready!? Then get ready, quickly! We do not have time to waste.",
+      "ru": "Ты не готов!? Тогда готовься, скорее! Нам нельзя терять время.",
+      "stage": "Stage 5",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Help Abramod make the medallion now?",
+      "ru": "Помочь Абрамоду изготовить медальон сейчас?",
+      "stage": "Stage 6",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Good! Good! Look at how beautiful it is!",
+      "ru": "Хорошо! Хорошо! Посмотри, какой красивый!",
+      "stage": "Stage 6",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "The intricacy! The style! With this, I will be able to get into any clan I want!",
+      "ru": "Какая тонкая работа! Какой стиль! С ним я смогу попасть в любой клан, куда захочу!",
+      "stage": "Stage 6",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "But... there is a loose end isn't there. Even if I can go anywhere I want... you will always know, won't you?",
+      "ru": "Но... осталось одно незавершённое дело. Даже если я смогу пойти куда захочу... ты ведь всегда будешь знать, правда?",
+      "stage": "Stage 6",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "You are a danger that cannot be allowed to persist!",
+      "ru": "Ты представляешь угрозу, и её нужно устранить!",
+      "stage": "Stage 6",
+      "speaker": "Abramod"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "You pick up the medallion off the changeling's corpse.",
+      "ru": "Вы подбираете медальон с тела подменыша.",
+      "stage": "Stage 7",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Left",
+      "ru": "Влево",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Right",
+      "ru": "Вправо",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Jump",
+      "ru": "Прыгнуть",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Sneak",
+      "ru": "Присесть",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "New Quest Started: Burning Bonds",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Burning Bonds",
+      "stage": "Stage 1",
+      "speaker": ""
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Abramod at [-1381, 51, -648].",
+      "ru": "Поговорить с Абрамодом [-1381, 51, -648].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Meet Abramod near the lightning struck tree at [-1434, 62, -532].",
+      "ru": "Встретиться с Абрамодом у дерева, поражённого молнией, [-1434, 62, -532].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Meet Abramod in the mountain grove at [-1164, 118, -578].",
+      "ru": "Встретиться с Абрамодом в горной роще [-1164, 118, -578].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Meet Abramod outside of the cave at [-1138, 45, -620].",
+      "ru": "Встретиться с Абрамодом у входа в пещеру [-1138, 45, -620].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Return to Abramod's camp at [-1379, 51, -654].",
+      "ru": "Вернуться в лагерь Абрамода [-1379, 51, -654].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Craft the medallion.",
+      "ru": "Изготовить медальон.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Defeat Abramod.",
+      "ru": "Победить Абрамода.",
+      "stage": "Stage 7"
+    }
+  ],
+  "choices": [
+    {
+      "id": "choice-0001",
+      "en": "Medallion?",
+      "ru": "Что за Medallion?",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0004"
+    },
+    {
+      "id": "choice-0002",
+      "en": "Yes",
+      "ru": "Да",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0007"
+    },
+    {
+      "id": "choice-0003",
+      "en": "No",
+      "ru": "Нет",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0008"
+    },
+    {
+      "id": "choice-0004",
+      "en": "Yes",
+      "ru": "Да",
+      "stage": "Stage 2",
+      "dialogueId": "dialogue-0036"
+    },
+    {
+      "id": "choice-0005",
+      "en": "No",
+      "ru": "Нет",
+      "stage": "Stage 2",
+      "dialogueId": "dialogue-0037"
+    },
+    {
+      "id": "choice-0006",
+      "en": "Yes",
+      "ru": "Да",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0055"
+    },
+    {
+      "id": "choice-0007",
+      "en": "No",
+      "ru": "Нет",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0056"
+    },
+    {
+      "id": "choice-0008",
+      "en": "Yes",
+      "ru": "Да",
+      "stage": "Stage 5",
+      "dialogueId": "dialogue-0080"
+    },
+    {
+      "id": "choice-0009",
+      "en": "No",
+      "ru": "Нет",
+      "stage": "Stage 5",
+      "dialogueId": "dialogue-0081"
+    },
+    {
+      "id": "choice-0010",
+      "en": "Yes",
+      "ru": "Да",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0083"
+    },
+    {
+      "id": "choice-0011",
+      "en": "No",
+      "ru": "Нет",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0083"
+    }
+  ]
+}

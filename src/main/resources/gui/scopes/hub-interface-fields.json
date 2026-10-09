@@ -1,0 +1,947 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-interface-fields",
+  "scopes": [
+    {
+      "id": "interface-fields-7af61709a327b71b",
+      "match": {
+        "title": "<em>Spooky Scribbles cXP [3/3]<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Spooky Scribbles cXP [3/3]<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-49cc0611f70cbea6",
+          "en": "<em>unleashes a spooky curse that",
+          "ru": "<em>§8§oвыпускает жуткое проклятие,"
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-649a11cd3b2b6d28",
+      "match": {
+        "title": "<em><em><em>Fatal<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Fatal<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<num> DPS",
+          "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "line-bd9f4406e73403f7",
+          "en": "<em>󐀂Unstable Reaction: Judrajim",
+          "ru": "<em>󐀂Нестабильная Реакция: §#AAAAAAДжудраджим"
+        },
+        {
+          "id": "line-1c95b4886181b5d4",
+          "en": "no longer ramps in damage",
+          "ru": "больше не наращивает урон"
+        },
+        {
+          "id": "interface-fields-b2bf244623e2c7cf",
+          "en": "after each hit. When it",
+          "ru": "§7после каждого удара. Когда его"
+        },
+        {
+          "id": "line-894a26b2e1c38aa5",
+          "en": "expires, it releases <num>% of",
+          "ru": "действие заканчивается, §#AAAAAA<num>§#AAAAAA%"
+        },
+        {
+          "id": "line-212d8eb6befa9225",
+          "en": "its potential in an explosion",
+          "ru": "его потенциала высвобождается"
+        },
+        {
+          "id": "interface-fields-5a320455b4260d3d",
+          "en": "of <num> blocks.",
+          "ru": "§7в радиусе§7 <num> §7блоков."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-558fbc8d028eff8a",
+      "match": {
+        "title": "<em><em><em>Platonic Ideal<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Platonic Ideal<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c3d03278d6649fa2",
+          "en": "<em>󐀂Heartbeat: Arrow Shield is",
+          "ru": "<em>󐀂Сердцебиение: §#AAAAAAЩит Стрел"
+        },
+        {
+          "id": "interface-fields-9e0d921fb83c411a",
+          "en": "set to <num> charges but deals",
+          "ru": "§7имеет§7 <num> §7заряда, но наносит"
+        },
+        {
+          "id": "line-8db1c9d7155bd7ba",
+          "en": "doubled damage. Arrow Wall",
+          "ru": "двойной урон. Стена Стрел"
+        },
+        {
+          "id": "line-b6c997075151e648",
+          "en": "instead triples Arrow Shield",
+          "ru": "теперь утраивает урон Щита Стрел"
+        },
+        {
+          "id": "interface-fields-7469e3acc74af4c4",
+          "en": "damage and doubles Guardian",
+          "ru": "§7и удваивает боезапас"
+        },
+        {
+          "id": "interface-fields-6a7d7c89be94e41b",
+          "en": "Angels ammo.",
+          "ru": "§7Ангелов-Хранителей."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-8eb67f777b1fcdce",
+      "match": {
+        "title": "<em><em><em>Gaia<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Gaia<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "inherited-a6c9d26047d58eeb",
+          "en": "<num> DPS",
+          "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "line-392a2dd60b47f2f6",
+          "en": "<em>󐀂Earthen Splinter: Quake",
+          "ru": "<em>󐀂Земляной Шип: §#AAAAAAЗемлетрясение"
+        },
+        {
+          "id": "line-72a7adab94a887aa",
+          "en": "channels nature energy into a",
+          "ru": "направляет силу природы в"
+        },
+        {
+          "id": "line-6d4a4a815fc2bc37",
+          "en": "powerful root, travelling",
+          "ru": "мощный корень, который движется"
+        },
+        {
+          "id": "interface-fields-7a1fb2fb188d0873",
+          "en": "underground and emerging",
+          "ru": "§7проходит под землёй и появляется"
+        },
+        {
+          "id": "interface-fields-a59d7bdd30ed63df",
+          "en": "under the nearest mob for",
+          "ru": "§7под ближайшим мобом, нанося"
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-f197e06e076ce5d9",
+      "match": {
+        "title": "<em><em><em>Bloodborne<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Bloodborne<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c9fb66853a04f864",
+          "en": "<em>󐀂Coagulate: Blood Connection",
+          "ru": "<em>󐀂Свёртывание: §#AAAAAAТелепортации Кровной Связи"
+        },
+        {
+          "id": "interface-fields-f9da89934e458b28",
+          "en": "and Eldritch Call's teleports",
+          "ru": "§7и телепортации Потустороннего Призывания"
+        },
+        {
+          "id": "interface-fields-ca65eb01b5d7e3c2",
+          "en": "launch you further and higher.",
+          "ru": "§7подбрасывают вас дальше и выше."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-723b4232d5be6069",
+      "match": {
+        "title": "<em><em><em>Roaring Thunder<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Roaring Thunder<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "inherited-a6c9d26047d58eeb",
+          "en": "<num> DPS",
+          "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "line-47d9877adcf4624d",
+          "en": "<em>󐀂Lightning Crash: Dash becomes",
+          "ru": "<em>󐀂Грозовой Обвал: §#AAAAAAРывок становится"
+        },
+        {
+          "id": "line-0785f0fb3dd01230",
+          "en": "a downward dive. Ripple has",
+          "ru": "пике вниз. Усиление Волны"
+        },
+        {
+          "id": "line-6ffd37d1b36cafb2",
+          "en": "doubled height amplification",
+          "ru": "от высоты удваивается,"
+        },
+        {
+          "id": "interface-fields-ecd4e913e656d381",
+          "en": "and deals <em><num>% and <em><num>%.",
+          "ru": "§7и наносит§7 <em><num>% §7и§7 <em><num>%."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-620d68a5009bd51c",
+      "match": {
+        "title": "§e§lTrading Route",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "§e§lTrading Route",
+        "ru": "§e§lМаршрут Перевозки"
+      },
+      "lines": [
+        {
+          "id": "line-620d68a5009bd51c",
+          "en": "§e§lTrading Route",
+          "ru": "§e§lМаршрут Перевозки"
+        },
+        {
+          "id": "line-2ca5a262fc3134bf",
+          "en": "§7All excess resources will be sent",
+          "ru": "§7Все излишки ресурсов отправляются"
+        },
+        {
+          "id": "line-71f47587e581fc4e",
+          "en": "§7to the guild headquarters using the",
+          "ru": "§7в штаб гильдии по маршруту,"
+        },
+        {
+          "id": "line-381e163540bd2612",
+          "en": "§7route shown below",
+          "ru": "§7указанному ниже"
+        },
+        {
+          "id": "line-7d3345845a88e350",
+          "en": "§7Route Tax: §a<num>% §8(compound)",
+          "ru": "§7Налог на пути: §a<num>%§7 §8(по всем участкам)"
+        },
+        {
+          "id": "hub-utility-5695b8818deee2c8",
+          "en": "§3Style: §bCheapest",
+          "ru": "§3Маршрут: §bСамый дешёвый"
+        },
+        {
+          "id": "hub-utility-74f97b2aa8b8e1f7",
+          "en": "§2Borders: §aOpen",
+          "ru": "§2Границы: §aОткрыты"
+        },
+        {
+          "id": "hub-utility-7770ac3b5cdfa334",
+          "en": "§7Left-Click to set style §8(shift for global)",
+          "ru": "§7ЛКМ - выбрать маршрут §8(Shift - для всех)"
+        },
+        {
+          "id": "hub-utility-c8fabf3cbca57116",
+          "en": "§7Right-Click to set border §8(shift for global)",
+          "ru": "§7ПКМ - настроить границы §8(Shift - для всех)"
+        },
+        {
+          "id": "hub-utility-7e44f70ab42ab34e",
+          "en": "§b§l✔ §fRagni (HQ)",
+          "ru": "§b§l✔ §fRagni (Штаб)"
+        },
+        {
+          "id": "hub-utility-d9ce3a37266b85e9",
+          "en": "§3Style: §bFastest",
+          "ru": "§3Маршрут: §bСамый быстрый"
+        },
+        {
+          "id": "hub-utility-6523a55cf1fcd5f6",
+          "en": "§4Borders: §cClosed",
+          "ru": "§4Границы: §cЗакрыты"
+        },
+        {
+          "id": "hub-utility-7b6bcdb80cdf43fe",
+          "en": "§b§l✔ §fCorrupted Warfront (HQ)",
+          "ru": "§b§l✔ §fCorrupted Warfront (Штаб)"
+        },
+        {
+          "id": "hub-utility-b250400a376cf690",
+          "en": "§b§l✔ §fDetlas Suburbs (HQ)",
+          "ru": "§b§l✔ §fDetlas Suburbs (Штаб)"
+        },
+        {
+          "id": "hub-utility-2533e28368b05220",
+          "en": "§b§l✔ §fCorrupted Orchard (HQ)",
+          "ru": "§b§l✔ §fCorrupted Orchard (Штаб)"
+        },
+        {
+          "id": "interface-fields-3ccc198fba05998b",
+          "en": "§b➜ §fEntrance to Nivla Woods",
+          "ru": "§b➜ §f§fВход в Лес Нивла"
+        },
+        {
+          "id": "interface-fields-f4df73e0447928a8",
+          "en": "§b➜ §fRoad to Elkurn",
+          "ru": "§b➜ §f§fДорога в Элкурн"
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-f4f81b3c4c38b42c",
+      "match": {
+        "title": "<em><em><em>Stalking Mist<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Stalking Mist<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1ebeaa6c185da781",
+          "en": "<em>󐀂Pounce: Escape becomes a",
+          "ru": "<em>󐀂Наскок: §#AAAAAAПобег становится"
+        },
+        {
+          "id": "interface-fields-a6b97b01ca139b5f",
+          "en": "forward lunge.",
+          "ru": "§7выпадом вперёд."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-8e9113a0e0a828ea",
+      "match": {
+        "title": "<em><em><em>Pain Cycle<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Pain Cycle<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6d4056938eae0832",
+          "en": "<em>󐀂Gruesome Knots: Bleeding and",
+          "ru": "<em>󐀂Жуткие Узлы: §#AAAAAAКровотечение и"
+        },
+        {
+          "id": "line-af92ba4497018fa3",
+          "en": "Twisted Tether deal double",
+          "ru": "Искажённая Привязь наносят вдвое"
+        },
+        {
+          "id": "line-346102d7b8f96fc1",
+          "en": "the damage, but Bleeding",
+          "ru": "больше урона, но Кровотечение"
+        },
+        {
+          "id": "interface-fields-269b04c48fb4ce52",
+          "en": "duration is reduced.",
+          "ru": "§7действует меньше времени."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-8e355533c37f2777",
+      "match": {
+        "title": "<em>Crate Offer",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Crate Offer",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-7b2cd855701285da",
+          "en": "<em><num>d <num>m <num>s left to claim",
+          "ru": "<em><num>§8д§8 <num>§8мин.§8 <num>§8с§8 §8до конца акции"
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-8aae63c1e2423c4b",
+      "match": {
+        "title": "§bGuild Badge",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "§bGuild Badge",
+        "ru": "§bЗнак Гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-8aae63c1e2423c4b",
+          "en": "§bGuild Badge",
+          "ru": "§bЗнак Гильдии"
+        },
+        {
+          "id": "line-980e69d166a5965c",
+          "en": "§7Unlocks the Guild Badge",
+          "ru": "§7Открывает Знак Гильдии"
+        },
+        {
+          "id": "line-b5328e36c553941b",
+          "en": "§7§bSeason <num> - <num>rd Place",
+          "ru": "§#55FFFFСезон <num> - <num>-е место"
+        },
+        {
+          "id": "line-2043d670a73bf605",
+          "en": "§7§a✔ §7Current Position: §f<num>",
+          "ru": "§7§a✔ §7Текущее Место: §f<num>§7"
+        },
+        {
+          "id": "line-f28d64133d56ce36",
+          "en": "§7§c✖ §7Finish on §fTop <num>",
+          "ru": "§7§c✖ §7Завершить Сезон в §fТоп-§f<num>§7"
+        },
+        {
+          "id": "interface-fields-f49f103dbdfcf3ac",
+          "en": "§7§bSeason <num> - Bronze",
+          "ru": "§7§b§bСезон§b <num> - §bБронза"
+        },
+        {
+          "id": "interface-fields-4436867396b3de77",
+          "en": "§7§bSeason <num> - Silver",
+          "ru": "§7§b§bСезон§b <num> - §bСеребро"
+        },
+        {
+          "id": "interface-fields-0402f95a115e392a",
+          "en": "§7§bSeason <num> - Contender",
+          "ru": "§7§b§bСезон§b <num> - §bПретендент"
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-fc4cb77062d8c01a",
+      "match": {
+        "title": "<em>Haunted Hooch cXP [3/3]<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Haunted Hooch cXP [3/3]<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-d0f9028892136ecb",
+          "en": "<em>Tastes like swamp water and poor",
+          "ru": "<em>§8§oНа вкус как болотная вода и плохие"
+        },
+        {
+          "id": "interface-fields-6c5a8a34ff17e349",
+          "en": "<em>into the brew, and honestly, it's",
+          "ru": "<em>§8§oв это варево. И, честно говоря,"
+        },
+        {
+          "id": "interface-fields-14b7f035f0e6e4f4",
+          "en": "<em>probably better that way.",
+          "ru": "<em>§8§oтак, наверное, даже лучше."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-850345baeacddbf3",
+      "match": {
+        "title": "§rTalking Mushroom",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "§rTalking Mushroom",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-32e782389b8a5a35",
+          "en": "§7HEY, QUIT HOLDING ME YOU §7NUMBSKULL!",
+          "ru": "§7§7ЭЙ, ПЕРЕСТАНЬ МЕНЯ ДЕРЖАТЬ,§7 §7§7ДУБИНА!"
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-c9a40e0d92f3bc95",
+      "match": {
+        "title": "Aspect of Motivation",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "Aspect of Motivation",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-ee6ce120cb5ed8ba",
+          "en": "§7§7§nBullwhip§7 gains §f<num>%§7 <em> §7Damage Bonus to Summons.",
+          "ru": "§7§7§n§7§nКнут§7§7 §7получает§7 §f<num>%§7 <em> §7§7Бонус к Урону Призывов."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-a4817d270a6ec559",
+      "match": {
+        "title": "Aspect of Runic Extravagance",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "Aspect of Runic Extravagance",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-86d98e257908529c",
+          "en": "§7§7§nBurning Sigil§7 and §7§nFreezing Sigil",
+          "ru": "§7§7§n§7§nОгненная Сигила§7§7 §7и§7 §7§n§7§nЛедяная Сигила"
+        },
+        {
+          "id": "interface-fields-78dea5b7c998a28a",
+          "en": "§7§7gain §f<num>§7 <em> §7Area of Effect.",
+          "ru": "§7§7§7получают§7 §f<num>§7 <em> §7§7к Области Действия."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-42ebc274dd433a3d",
+      "match": {
+        "title": "Riftwalker's Embodiment of Reality Alteration",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "Riftwalker's Embodiment of Reality Alteration",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-11d0e7cf2baffce2",
+          "en": "§7§7Distortion <em>§7 decays §f<num>%§7 slower.",
+          "ru": "§7§7§bИскажение§b <em>§7 §7спадает§7 §f<num>%§7 §7медленнее."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-e3b78b3d40be56df",
+      "match": {
+        "title": "<em>Koi Meat<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Koi Meat<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-ac50cd98371387e7",
+          "en": "<em>Housing, or to craft <em>󏿾 Food",
+          "ru": "<em>§fучастке Жилья§7§7 или для создания §f<em>󏿾 §fЕды"
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-91bbe008ed11470a",
+      "match": {
+        "title": "<em>Procrastination<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Procrastination<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-89e3f3f1d969a850",
+          "en": "<em>󐀂Peaceful Effigy: Your Totem",
+          "ru": "<em>󐀂§#C2F2F2Мирное Изваяние:§#C2F2F2 §7Ваш Тотем"
+        },
+        {
+          "id": "interface-fields-5187f9ac94ebef73",
+          "en": "will last twice as long.",
+          "ru": "§7будет действовать вдвое дольше."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-de978cd204d5a88e",
+      "match": {
+        "title": "Acolyte's Embodiment of Unwavering Adherence",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "Acolyte's Embodiment of Unwavering Adherence",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-e1bddc858fb8e61f",
+          "en": "§7§7§nBlood Sorrow§7 gains §f<num>s§7 <em> §7Duration.",
+          "ru": "§7§7§n§7§nКровавая Скорбь§7§7 §7получает§7 §f<num>§7с§7§7 <em> §7§7к Длительности."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-17d5c14d569f378c",
+      "match": {
+        "title": "Trickster's Embodiment of Malevolent Mischief",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "Trickster's Embodiment of Malevolent Mischief",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fields-b66c52374ac8cfa7",
+          "en": "§7§7§nNoxious Haze§7 can benefit from §f<num>§7 debuff.",
+          "ru": "§7§7§n§7§nЯдовитый Туман§7§7 §7может усилиться ещё от§7 §f<num>§7 §7негативного эффекта."
+        },
+        {
+          "id": "interface-fields-7e986c19f0497938",
+          "en": "§7§7Summon §f<num>§7 additional §bMirror Clone <em>§7 with §nMirror Image§7.",
+          "ru": "§7§7§7Призывайте§7 §f<num>§7 §7дополнительного§7 §b§bЗеркального Двойника§b <em>§7 §7с помощью§7 §n§7§nЗеркального Образа§7§7."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-e739bd8eaba16195",
+      "match": {
+        "title": "<em>Fatal<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Fatal<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<num> DPS",
+          "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "line-bd9f4406e73403f7",
+          "en": "<em>󐀂Unstable Reaction: Judrajim",
+          "ru": "<em>󐀂Нестабильная Реакция: §#AAAAAAДжудраджим"
+        },
+        {
+          "id": "line-1c95b4886181b5d4",
+          "en": "no longer ramps in damage",
+          "ru": "больше не наращивает урон"
+        },
+        {
+          "id": "interface-fields-b2bf244623e2c7cf",
+          "en": "after each hit. When it",
+          "ru": "§7после каждого удара. Когда его"
+        },
+        {
+          "id": "line-894a26b2e1c38aa5",
+          "en": "expires, it releases <num>% of",
+          "ru": "действие заканчивается, §#AAAAAA<num>§#AAAAAA%"
+        },
+        {
+          "id": "line-212d8eb6befa9225",
+          "en": "its potential in an explosion",
+          "ru": "его потенциала высвобождается"
+        },
+        {
+          "id": "interface-fields-5a320455b4260d3d",
+          "en": "of <num> blocks.",
+          "ru": "§7в радиусе§7 <num> §7блоков."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-d61e5cc5ea927beb",
+      "match": {
+        "title": "<em>Roaring Thunder<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Roaring Thunder<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "inherited-a6c9d26047d58eeb",
+          "en": "<num> DPS",
+          "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "line-47d9877adcf4624d",
+          "en": "<em>󐀂Lightning Crash: Dash becomes",
+          "ru": "<em>󐀂Грозовой Обвал: §#AAAAAAРывок становится"
+        },
+        {
+          "id": "line-0785f0fb3dd01230",
+          "en": "a downward dive. Ripple has",
+          "ru": "пике вниз. Усиление Волны"
+        },
+        {
+          "id": "line-6ffd37d1b36cafb2",
+          "en": "doubled height amplification",
+          "ru": "от высоты удваивается,"
+        },
+        {
+          "id": "interface-fields-ecd4e913e656d381",
+          "en": "and deals <em><num>% and <em><num>%.",
+          "ru": "§7и наносит§7 <em><num>% §7и§7 <em><num>%."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-2069faaf6395e390",
+      "match": {
+        "title": "<em>Gaia<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Gaia<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "inherited-a6c9d26047d58eeb",
+          "en": "<num> DPS",
+          "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "line-392a2dd60b47f2f6",
+          "en": "<em>󐀂Earthen Splinter: Quake",
+          "ru": "<em>󐀂Земляной Шип: §#AAAAAAЗемлетрясение"
+        },
+        {
+          "id": "line-72a7adab94a887aa",
+          "en": "channels nature energy into a",
+          "ru": "направляет силу природы в"
+        },
+        {
+          "id": "line-6d4a4a815fc2bc37",
+          "en": "powerful root, travelling",
+          "ru": "мощный корень, который движется"
+        },
+        {
+          "id": "interface-fields-7a1fb2fb188d0873",
+          "en": "underground and emerging",
+          "ru": "§7проходит под землёй и появляется"
+        },
+        {
+          "id": "interface-fields-a59d7bdd30ed63df",
+          "en": "under the nearest mob for",
+          "ru": "§7под ближайшим мобом, нанося"
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-ab3d0b3501a6e15c",
+      "match": {
+        "title": "<em>Platonic Ideal<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Platonic Ideal<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c3d03278d6649fa2",
+          "en": "<em>󐀂Heartbeat: Arrow Shield is",
+          "ru": "<em>󐀂Сердцебиение: §#AAAAAAЩит Стрел"
+        },
+        {
+          "id": "interface-fields-9e0d921fb83c411a",
+          "en": "set to <num> charges but deals",
+          "ru": "§7имеет§7 <num> §7заряда, но наносит"
+        },
+        {
+          "id": "line-8db1c9d7155bd7ba",
+          "en": "doubled damage. Arrow Wall",
+          "ru": "двойной урон. Стена Стрел"
+        },
+        {
+          "id": "line-b6c997075151e648",
+          "en": "instead triples Arrow Shield",
+          "ru": "теперь утраивает урон Щита Стрел"
+        },
+        {
+          "id": "interface-fields-7469e3acc74af4c4",
+          "en": "damage and doubles Guardian",
+          "ru": "§7и удваивает боезапас"
+        },
+        {
+          "id": "interface-fields-6a7d7c89be94e41b",
+          "en": "Angels ammo.",
+          "ru": "§7Ангелов-Хранителей."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-9bacb260277d59c0",
+      "match": {
+        "title": "<em>Pain Cycle<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Pain Cycle<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6d4056938eae0832",
+          "en": "<em>󐀂Gruesome Knots: Bleeding and",
+          "ru": "<em>󐀂Жуткие Узлы: §#AAAAAAКровотечение и"
+        },
+        {
+          "id": "line-af92ba4497018fa3",
+          "en": "Twisted Tether deal double",
+          "ru": "Искажённая Привязь наносят вдвое"
+        },
+        {
+          "id": "line-346102d7b8f96fc1",
+          "en": "the damage, but Bleeding",
+          "ru": "больше урона, но Кровотечение"
+        },
+        {
+          "id": "interface-fields-269b04c48fb4ce52",
+          "en": "duration is reduced.",
+          "ru": "§7действует меньше времени."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-35ebd0f6e53cc5cb",
+      "match": {
+        "title": "<em>Bloodborne<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Bloodborne<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c9fb66853a04f864",
+          "en": "<em>󐀂Coagulate: Blood Connection",
+          "ru": "<em>󐀂Свёртывание: §#AAAAAAТелепортации Кровной Связи"
+        },
+        {
+          "id": "interface-fields-f9da89934e458b28",
+          "en": "and Eldritch Call's teleports",
+          "ru": "§7и телепортации Потустороннего Призывания"
+        },
+        {
+          "id": "interface-fields-ca65eb01b5d7e3c2",
+          "en": "launch you further and higher.",
+          "ru": "§7подбрасывают вас дальше и выше."
+        }
+      ]
+    },
+    {
+      "id": "interface-fields-b03cfc8e52e3bed2",
+      "match": {
+        "title": "<em>Stalking Mist<em>",
+        "anchors": [],
+        "priority": 6500
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Stalking Mist<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1ebeaa6c185da781",
+          "en": "<em>󐀂Pounce: Escape becomes a",
+          "ru": "<em>󐀂Наскок: §#AAAAAAПобег становится"
+        },
+        {
+          "id": "interface-fields-a6b97b01ca139b5f",
+          "en": "forward lunge.",
+          "ru": "§7выпадом вперёд."
+        }
+      ]
+    }
+  ]
+}

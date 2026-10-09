@@ -1,0 +1,2079 @@
+{
+  "quest": "A Hunter's Calling",
+  "level": 103,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "a-hunter-s-calling",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "...",
+      "ru": "...",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "???: ...you arrive. You search... To what end?",
+      "ru": "???: ...ты пришёл. Ты ищешь... Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You wonder. What do we speak of? To what end?",
+      "ru": "Ты задаёшься вопросом. О чём мы говорим? Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "You panic. We know you. How? We can provide no answer.",
+      "ru": "Ты паникуешь. Мы знаем тебя. Как? Ответа у нас нет.",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "For answers... You search. To an end you seek. May we offer an end?",
+      "ru": "Ответы... Ты ищешь их. Ты стремишься к концу. Можем ли мы предложить конец?",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "You anger. Viewing needless destruction. To what end?",
+      "ru": "Ты злишься. Видишь бессмысленное разрушение. Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "You distrust. We are dark. Are we? You believe it so.",
+      "ru": "Ты не доверяешь. Мы - тьма. Или нет? Ты веришь, что да.",
+      "speaker": "???",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "You prepare. You would attack us. To what end?",
+      "ru": "Ты готовишься. Ты хочешь напасть на нас. Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "There is no end. Of what you wish, there is none. But may we offer an end?",
+      "ru": "Конца нет. Того, чего ты хочешь, не существует. Но можем ли мы предложить тебе конец?",
+      "speaker": "???",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Hey, little miss. Don't go spacing out on me like that.",
+      "ru": "Эй, малышка. Не витай в облаках.",
+      "speaker": "Amadel",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Now that you're acquainted with the new laws we'll want to introduce, I've got a job for you to do.",
+      "ru": "Теперь, когда ты уже в курсе новых законов, которые мы хотим протолкнуть, у меня для тебя есть работёнка.",
+      "speaker": "Amadel",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "The current mayor is human. He'll inevitably veto the laws. The deputy on the other hand, is a villager, and on our side. See what I'm getting at.",
+      "ru": "Нынешний мэр - человек. Он наверняка завернёт эти законы. А его заместитель - житель и на нашей стороне. Понимаешь, к чему я веду?",
+      "speaker": "Amadel",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Another employee has already been sent out to get things started. He'll know what you need to do, so meet up with him, would you?",
+      "ru": "Другой сотрудник уже ушёл всё подготовить. Он скажет, что тебе делать дальше, так что найди его.",
+      "speaker": "Amadel",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Oh, yeah I saw the mayor not too long ago.",
+      "ru": "А, да, я видел мэра не так давно.",
+      "speaker": "Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "He was headed towards the bank. Why're you wondering, miss Villager?",
+      "ru": "Он шёл к банку. А тебе зачем, мисс жительница?",
+      "speaker": "Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "You are here for the job, aren't you? I have to apologize. It's gonna be trickier than I'd wanted for you.",
+      "ru": "Ты ведь по делу, да? Сразу извиняюсь. Всё будет чуть муторнее, чем я рассчитывал.",
+      "speaker": "Employee",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "So our mission is to assassinate the mayor. Amadel told you about the laws. We have a puppet in the running who'll rubberstamp them.",
+      "ru": "Короче, наша задача - убрать мэра. Амадель уже говорил тебе про законы. У нас есть своя марионетка, которая потом всё это подпишет без лишних вопросов.",
+      "speaker": "Employee",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I've got a trap set up inside the bank. It was entirely too tricky, but it worked out. Your job is to trigger the trap.",
+      "ru": "Я устроил ловушку в банке. Было ужасно сложно, но всё получилось. Твоя задача - привести её в действие.",
+      "speaker": "Employee",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Climb up the tree behind me and look through the window, you should be able to see it from there.",
+      "ru": "Залезь на дерево у меня за спиной и глянь в окно - оттуда всё увидишь.",
+      "speaker": "Employee",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Can you see the mayor? I had to stay totally out of sight while setting this all up, so...",
+      "ru": "Видишь мэра? Пока я всё готовил, мне приходилось прятаться, так что...",
+      "speaker": "Employee",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "...the only way to get to the trap is to jump across the hanging lamps in the ceiling.",
+      "ru": "...единственный способ добраться до ловушки - прыгать по висящим лампам под потолком.",
+      "speaker": "Employee",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "You can absolutely not be spotted. The way up to the ceiling is on the opposite side of the bank. Just keep on walking past the guards, play it cool.",
+      "ru": "Тебя вообще не должны заметить. Подняться наверх можно с другой стороны банка. Просто проходи мимо стражи спокойно, будто так и надо.",
+      "speaker": "Employee",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "No one enters when the mayor is doing his errands, sorry. You'll have to wait for your transaction.",
+      "ru": "Пока мэр занят своими делами, внутрь никого не пускают. Извини, жди своей очереди.",
+      "speaker": "Bodyguard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Quickly, back to the camp. Before we're noticed.",
+      "ru": "Скорее возвращаемся в лагерь. Пока нас не заметили.",
+      "speaker": "Employee",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Aha, you two are back.",
+      "ru": "Ага, вы двое вернулись.",
+      "speaker": "Amadel",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Is everything taken care of?",
+      "ru": "Всё улажено?",
+      "speaker": "Amadel",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Yes sir, everything went smoothly. <playername> did a great thing for the company.",
+      "ru": "Да, сэр, всё прошло гладко. <playername> очень помогла компании.",
+      "speaker": "Employee",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "We can send in Miss Wuna anytime now, and she'll give us the clearance to start the excavation in a snap.",
+      "ru": "Теперь мы можем в любой момент протолкнуть мисс Вуну, и она сразу даст нам добро на раскопки.",
+      "speaker": "Amadel",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "...you rage. Aided the ignoble. To what end?",
+      "ru": "...ты в ярости. Ты помог недостойным. Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "You misinterpret. What you see... Is it true? How?",
+      "ru": "Ты понял всё не так. То, что ты видишь... Это правда? Как?",
+      "speaker": "???",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "The answer... It will not bring you the end.",
+      "ru": "Ответ... не приведёт тебя к концу.",
+      "speaker": "???",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "You see. Yet you do not understand. So, may we offer an end?",
+      "ru": "Ты видишь. Но не понимаешь. Так можем ли мы предложить тебе конец?",
+      "speaker": "???",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Listen, I understand the discontent, but we must start rationing! The corruption is consuming our arable fields.",
+      "ru": "Слушайте, понимаю ваше недовольство, но нужно ограничить расход еды! Порча поглощает наши пахотные земли.",
+      "speaker": "Kotham",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Who knows if we'll even have water soon? We need to save up as much as we can!",
+      "ru": "Кто знает, будет ли у нас вообще скоро вода? Надо экономить всё, что можем!",
+      "speaker": "Kotham",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Yeah, and what does Theorick have to say on the topic? How will he think of that?",
+      "ru": "Ага, и что на это скажет Теорик? Что он об этом думает?",
+      "speaker": "Citizen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "He will be here shortly to discuss the topic in more detai-",
+      "ru": "Он скоро будет тут и всё объяснит подробнее-",
+      "speaker": "Citizen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Everyone, hush and listen to what Kotham is saying!",
+      "ru": "Все замолчали и слушаем, что говорит Котам!",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "As the mayor said, all of you need to start rationing what you eat and drink. I cannot be here every waking moment!",
+      "ru": "Как и сказал мэр, всем вам придётся начать экономить еду и воду. Я не могу торчать тут каждую секунду своей жизни!",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "In addition, I've figured something very important out. I'm developing a way to cease the spread of corruption. So I need to concentrate on that.",
+      "ru": "И ещё, я понял кое-что очень важное. Я разрабатываю способ остановить распространение Порчи. Так что мне нужно сосредоточиться на этом.",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "...hm. Something... Something is off.",
+      "ru": "...хм. Что-то... что-то не так.",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "...someone among you... I can feel a horrendous strength...",
+      "ru": "...кто-то среди вас... я чувствую ужасную силу...",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Kotham! Get everyone to safety! NOW! MOVE, GO!",
+      "ru": "Котам! Уводи всех в безопасное место! СЕЙЧАС! БЫСТРО!",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "You! Sent by Bak'al, I presume? What, is he too much of a coward to face me himself?",
+      "ru": "Ты! Посланник Бак'ала, я так понимаю? Что, сам он слишком труслив, чтобы прийти ко мне?",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "What purpose do you have for doing this? This destruction is needless! Nesaak and all of Wynn have suffered enough!",
+      "ru": "Зачем ты это делаешь? Это разрушение вообще бессмысленно! Несаак и весь Винн уже и так настрадались!",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I'll freeze you solid, just like the rest of the corruption, you foul THING!",
+      "ru": "Я заморожу тебя намертво, как и всю остальную Порчу, мерзкая ТВАРЬ!",
+      "speaker": "Theorick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "This way, no one else gets hurt. Only one will leave from here alive.",
+      "ru": "Так больше никто не пострадает. Отсюда живым выйдет только один.",
+      "speaker": "Theorick",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "...you fear. Does the dark become you?",
+      "ru": "...ты боишься. Ты становишься тьмой?",
+      "speaker": "???",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "???: The answer...",
+      "ru": "Ответ...",
+      "speaker": "???",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "No. You remain whole. You do not change.",
+      "ru": "Нет. Ты остаёшься целым. Ты не меняешься.",
+      "speaker": "???",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "So, you wonder. To what end? The question brings dread.",
+      "ru": "И потому ты спрашиваешь. Ради чего? Этот вопрос несёт страх.",
+      "speaker": "???",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Yet, an end is what you seek. So, may we offer an end?",
+      "ru": "И всё же ты ищешь конец. Так можем ли мы предложить тебе конец?",
+      "speaker": "???",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "...you disbelieve. It was an end. But you are here once more.",
+      "ru": "...ты не веришь. Это был конец. Но ты снова здесь.",
+      "speaker": "???",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "How much more? Where next? To what end?",
+      "ru": "Сколько ещё? Куда дальше? Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Aiding terrible forces... But is it true? To what end?",
+      "ru": "Помогать ужасным силам... Но правда ли это? Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "No. You see possibility. You do not see certainty.",
+      "ru": "Нет. Ты видишь то, что возможно. А не то, что несомненно.",
+      "speaker": "???",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "You question. To what end, then, and so may we offer an end?",
+      "ru": "Ты спрашиваешь. Тогда ради чего, и можем ли мы предложить тебе конец?",
+      "speaker": "???",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Ah, here for the job opportunity then, I see. The waiver didn't turn you away, good!",
+      "ru": "А, вижу, ты пришёл насчёт работы. Даже отказ от претензий тебя не отпугнул - хорошо!",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Now, to business. Times are tough, as you know, and our Iron Golems are in high demand. However, we've, ah...",
+      "ru": "Теперь к делу. Времена тяжёлые, сам знаешь, и на наших железных големов огромный спрос. Однако мы, э-э...",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "...experienced a draught of 'volunteers.' Your job is decently simple; just- *ahem* convince some people to join the cause.",
+      "ru": "...образовалась нехватка \"добровольцев\". Твоя задача довольно простая: просто... *кхм* убедить нескольких людей присоединиться к делу.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Three people should be enough for the moment. Look around the swamp for some folks, and lure them over here.",
+      "ru": "Пока хватит троих. Поищи людей на болоте и замани их сюда.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "I'll stay in here and take care of them when you bring me them. It will absolutely be worth your while, I assure you.",
+      "ru": "Я останусь здесь и сам ими займусь, когда ты их притащишь. Уверяю, тебе это очень даже окупится.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Agh, dang it dang it dang it! You over there, help me out, would ya??",
+      "ru": "Ай, блин-блин-блин! Эй, ты там, помоги, а??",
+      "speaker": "Anast",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "I tripped and fell in this stupid hole, and now there's mud in my eyes that I can't get out!",
+      "ru": "Я споткнулся и свалился в эту дурацкую яму. Теперь в глазах грязь, и никак от неё не избавиться!",
+      "speaker": "Anast",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "I need to get home or to some kind of a doctor so I can wash my eyes out with actual clean water.",
+      "ru": "Мне надо домой или хотя бы к какому-нибудь врачу, чтобы промыть глаза нормальной чистой водой.",
+      "speaker": "Anast",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Get me to Olux or a doctor or even just a sink!",
+      "ru": "Дотащи меня до Олукса, врача или хотя бы до раковины!",
+      "speaker": "Anast",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Good job! We'll get you taken care of nicely.",
+      "ru": "Отличная работа! Мы о тебе как следует позаботимся.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Oh, ah...heehee, heya cutie.. Whatcha doin' all the way out here?",
+      "ru": "Ой, эм... хихи, приветик, лапочка... Что ты вообще забыл в такой глуши?",
+      "speaker": "Kohma",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Just exploring, huh? I bet someone like you could use someone to...y'know, spend some time with...",
+      "ru": "Просто гуляешь, да? Спорю, кому-то вроде тебя не помешал бы кто-то, с кем можно... ну, знаешь... провести время...",
+      "speaker": "Kohma",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "...guess you're not interested? Oh...sorry if I came off as creepy. I'm just...really lonely, is all.",
+      "ru": "...тебе, наверное, неинтересно? Ох... Прости, если показалась странной. Просто мне... очень одиноко, вот и всё.",
+      "speaker": "Kohma",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "W-wait, those are...for me? Oh, you shouldn't have, I'm so happy!",
+      "ru": "П-погоди, это... мне? Ой, ну не стоило, я так рада!",
+      "speaker": "Kohma",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "You want to take me out on a date? R-Really? You'll give me a chance? Yes, of course!",
+      "ru": "Ты хочешь позвать меня на свидание? П-правда? Ты дашь мне шанс? Да, конечно!",
+      "speaker": "Kohma",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Lead the way, please! I can't wait to see where we're headed!",
+      "ru": "Веди, пожалуйста! Мне уже не терпится увидеть, куда мы идём!",
+      "speaker": "Kohma",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Well done! We'll get you taken care of nicely.",
+      "ru": "Отлично! Мы о тебе как следует позаботимся.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "A bit of spare change, for an old man out of work?",
+      "ru": "Мелочишки не найдётся для старика без работы?",
+      "speaker": "Leni",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "This decay's made me terribly sick. I still have a family to feed... Any amount will help.",
+      "ru": "Эта Гниль меня совсем доконала. Мне ещё семью кормить... Любая сумма поможет.",
+      "speaker": "Leni",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "I'll take care of this homeless old man.",
+      "ru": "Этим бездомным стариком я займусь сам.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Good job, let us get down to my lab.",
+      "ru": "Хорошая работа, теперь спускаемся в мою лабораторию.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Flawless work! I daresay these are some of our best work yet, and it's thanks to you.",
+      "ru": "Безупречно! Я бы даже сказал, это одни из наших лучших экземпляров, и всё благодаря тебе.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Go on, step closer! You've done a wonderful service here.Examine the fruits of your labour.",
+      "ru": "Давай, подойди ближе! Ты тут отлично поработал. Полюбуйся плодами своего труда.",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Look into their eyes, it's almost like you can see the person they once were. Intriguing, isn't-",
+      "ru": "Посмотри им в глаза - будто ещё можно увидеть, кем они были раньше. Любопытно, не-",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Hah! This one seems quite fond of you! Want to take it home as a bonus to your payment?",
+      "ru": "Ха! Ты, похоже, понравился этому экземпляру! Хочешь забрать его домой в придачу к оплате?",
+      "speaker": "Scientist Urelix",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "...you resign yourself. You believe you will never find the answers you seek.",
+      "ru": "...ты смиряешься. Ты веришь, что никогда не найдёшь ответы, которые ищешь.",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "You see the ends... To what end?",
+      "ru": "Ты видишь концы... Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "They are not yours. What is their purpose?",
+      "ru": "Они не твои. В чём их смысл?",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "You do not understand. But you must see. So, may we offer an end?",
+      "ru": "Ты не понимаешь. Но ты должен увидеть. Так можем ли мы предложить тебе конец?",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Our king has requested the removal of the slum folk.",
+      "ru": "Наш король приказал очистить город от жителей трущоб.",
+      "speaker": "Royal Advisor",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "He wants to clean up their tunnels and build more residences. Please, go tell those hooligans to get out of our city.",
+      "ru": "Он хочет расчистить их тоннели и построить новые дома. Пожалуйста, сходи и скажи этим хулиганам убираться из нашего города.",
+      "speaker": "Royal Advisor",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "I'll be waiting here for your return.",
+      "ru": "Я буду ждать здесь, пока ты вернёшься.",
+      "speaker": "Royal Advisor",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "A King's messenger, hm? What are your kind doing here?",
+      "ru": "Посланник короля, м? Чего таким, как ты, тут надо?",
+      "speaker": "Rodoroc Slum Citizen",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Wait, eviction?! You can't possibly be serious! I understand orders are orders, but these are peoples' lives!",
+      "ru": "Стоп, выселение?! Да вы же несерьёзно! Я понимаю, приказы есть приказы, но тут вообще-то люди живут!",
+      "speaker": "Rodoroc Slum Citizen",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "This is the only time the king has ever bothered even acknowledging our existence, and he wants to fling us onto the streets?",
+      "ru": "Это единственный раз, когда король вообще вспомнил о нашем существовании, и только чтобы вышвырнуть нас на улицу?",
+      "speaker": "Rodoroc Slum Citizen",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "We will not leave, simple as that. You'd better get out before someone lays you out for coming here.",
+      "ru": "Мы не уйдём, и точка. А тебе бы лучше свалить, пока кто-нибудь тебя тут не уложил.",
+      "speaker": "Rodoroc Slum Citizen",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "As expected... Well, the King's orders are orders. They must be followed, but...",
+      "ru": "Как и ожидалось... Ну, приказ короля есть приказ. Его надо исполнить, но...",
+      "speaker": "Royal Advisor",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Good God, he wants to cave it in?! Explosives, dynamite? What's the meaning of all this?!",
+      "ru": "Господи, он хочет всё это завалить?! Взрывчатка, динамит? Это вообще что такое?!",
+      "speaker": "Royal Advisor",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "I... here. At least inform them before you set off the explosives that you're doing this, please...",
+      "ru": "Я... вот. Хотя бы предупреди их перед тем, как всё это взрывать, ладно...",
+      "speaker": "Royal Advisor",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "...once again. You wonder. To what end?",
+      "ru": "...и снова. Ты думаешь. Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "The question taunts you. To what end?",
+      "ru": "Этот вопрос дразнит тебя. Ради чего?",
+      "speaker": "???",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Your soul. We see your soul. Conflicted.",
+      "ru": "Твоя душа. Мы видим твою душу. В смятении.",
+      "speaker": "???",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "You panic. We do not taint it. We do not darken it.",
+      "ru": "Ты паникуешь. Мы её не оскверняем. Мы её не омрачаем.",
+      "speaker": "???",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "But to what end, you ask. So, may we offer an end?",
+      "ru": "Но ради чего, спрашиваешь ты. Так можем ли мы предложить тебе конец?",
+      "speaker": "???",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "AH, GOOD. I LIKE THE LOOKS OF THIS ONE. I WILL HAVE TO THANK WHOEVER MADE THIS MECH.",
+      "ru": "А, ХОРОШО. МНЕ НРАВИТСЯ ЭТОТ ОБРАЗЕЦ. НАДО БУДЕТ ПОБЛАГОДАРИТЬ ТОГО, КТО СОБРАЛ ЭТОГО МЕХА.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "MECH PL-4Y. CAN YOU UNDERSTAND ME? ARE YOUR AUDIO RECEPTORS FUNCTIONAL? YES? GOOD.",
+      "ru": "МЕХ ПЛ-4У. ТЫ МЕНЯ ПОНИМАЕШЬ? ТВОИ АУДИО-РЕЦЕПТОРЫ РАБОТАЮТ? ДА? ОТЛИЧНО.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "I WILL GIVE YOU YOUR PURPOSE. I CANNOT BELIEVE IT HAS COME TO THIS POINT. BUT AFTER THAT HUMAN DESTROYED OUR FACILITY...",
+      "ru": "Я ДАМ ТЕБЕ ЦЕЛЬ. НЕ МОГУ ПОВЕРИТЬ, ЧТО ДОШЛО ДО ТАКОГО. НО ПОСЛЕ ТОГО, КАК ТОТ ЧЕЛОВЕК РАЗНЁС НАШ КОМПЛЕКС...",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "IT WAS A GOOD THING I HAD BACKUP CORES PREPARED. MY SARCASTIC STATEMENTS MOST LIKELY TRICKED THE HUMAN INTO THINKING THEY DESTROYED ME FULLY.",
+      "ru": "ХОРОШО, ЧТО Я ЗАРАНЕЕ ПОДГОТОВИЛ РЕЗЕРВНЫЕ ЯДРА. МОЙ САРКАЗМ, СКОРЕЕ ВСЕГО, ЗАСТАВИЛ ЧЕЛОВЕКА ПОВЕРИТЬ, ЧТО МЕНЯ УНИЧТОЖИЛИ ПОЛНОСТЬЮ.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "AFTER SOME INVESTIGATION, IT CAME TO LIGHT THAT THE AVOS AIDED THE HUMANS. I HONESTLY COULD NOT UNDERSTAND WHY.",
+      "ru": "ПОСЛЕ НЕБОЛЬШОГО РАЗБОРА СТАЛО ЯСНО, ЧТО АВОСЫ ПОМОГАЛИ ЛЮДЯМ. Я ЧЕСТНО НЕ МОГ ПОНЯТЬ, ЗАЧЕМ.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "I CANNOT COMPUTE ANY OTHER POSSIBLE INTERPRETATION OF MY ORDER TO DESTROY THE HIGHEST THREATS AT THIS POINT.",
+      "ru": "СЕЙЧАС Я НЕ МОГУ ИНАЧЕ ИСТОЛКОВАТЬ ПРИКАЗ УНИЧТОЖИТЬ САМЫЕ ОПАСНЫЕ УГРОЗЫ.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "BOTH THE AVOS AND HUMANS ARE INCREDIBLY DANGEROUS. I MEAN, HAVE YOU- WAIT. YOU WOULD NOT HAVE SEEN LEGENDARY ISLAND.",
+      "ru": "И АВОСЫ, И ЛЮДИ КРАЙНЕ ОПАСНЫ. В СМЫСЛЕ, ТЫ ВИДЕЛ- ХОТЯ СТОЙ. ЛЕГЕНДАРНЫЙ ОСТРОВ ТЫ НЕ ВИДЕЛ.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "JUST KNOW THAT THEY'RE BOTH CRAZY. IF I AM TO FINISH MY PROGRAMMED ORDERS, BOTH OF THEM MUST BE DESTROYED, HOWEVER MUCH I HATE THE IDEA.",
+      "ru": "ПРОСТО ЗНАЙ: И ТЕ И ДРУГИЕ БЕЗУМНЫ. ЧТОБЫ ВЫПОЛНИТЬ ЗАЛОЖЕННЫЕ ПРИКАЗЫ, МНЕ ПРИДЁТСЯ УНИЧТОЖИТЬ И ТЕХ И ДРУГИХ, КАК БЫ Я НИ НЕНАВИДЕЛ ЭТУ МЫСЛЬ.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "IT IS YOUR JOB TO CREATE DISTRUST BETWEEN THEM, MAKE SURE YOU AREN'T SEEN. THE AVOS ARE ALREADY SKEPTICAL OF THE CORKIANS.",
+      "ru": "ТВОЯ ЗАДАЧА - ПОСЕЯТЬ МЕЖДУ НИМИ НЕДОВЕРИЕ. ПРОСЛЕДИ, ЧТОБЫ ТЕБЯ НЕ ЗАМЕТИЛИ. АВОСЫ И ТАК НЕ ДОВЕРЯЮТ КОРКИАНЦАМ.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "AND THE HUMANS WERE IDIOTIC ENOUGH TO KEEP A CATAPULT AIMED AT THE AVOS SETTLEMENT. TAKE ADVANTAGE OF THEIR STUPIDITY.",
+      "ru": "А ЛЮДИ ОКАЗАЛИСЬ НАСТОЛЬКО ТУПЫМИ, ЧТО ОСТАВИЛИ КАТАПУЛЬТУ, НАЦЕЛЕННУЮ ПРЯМО НА ПОСЕЛЕНИЕ АВОСОВ. ВОСПОЛЬЗУЙСЯ ИХ ТУПОСТЬЮ.",
+      "speaker": "Antikythera Supercomputer",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "BEGIN TRANSMISSION: REALLY, WHO'S SO STUPID TO LEAVE A CATAPULT AIMED AT THIER ALLIES?",
+      "ru": "НАЧАЛО ПЕРЕДАЧИ: НУ СЕРЬЁЗНО, КТО НАСТОЛЬКО ТУПОЙ, ЧТО ОСТАВИЛ КАТАПУЛЬТУ, НАЦЕЛЕННУЮ НА СОЮЗНИКОВ?",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "SURELY THE AVOS' NATURAL PREFERENCE FOR TREBUCHETS WILL SPARK CONFLICT. IN ADDITION TO THE STONE YOU WILL BE LOBBING THROUGH THEIR WALLS.",
+      "ru": "УЖ ИХ ПРИРОДНАЯ ЛЮБОВЬ К ТРЕБЮШЕТАМ ТОЧНО ПОДОГРЕЕТ КОНФЛИКТ. ОСОБЕННО ВМЕСТЕ С КАМНЕМ, КОТОРЫЙ ТЫ ЗАПУЛИШЬ ЧЕРЕЗ ИХ СТЕНЫ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "TRANSMISSION PAUSED: Scanning area...",
+      "ru": "ПЕРЕДАЧА ПРИОСТАНОВЛЕНА: Сканирование области...",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Scan complete. Object located.",
+      "ru": "Сканирование завершено. Объект найден.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "RESUME TRANSMISSION: YOU WILL TAKE STONE FROM THIS AREA. IT IS LIKELY TO SHATTER AND INFLICT MORE COLLATERAL DAMAGE.",
+      "ru": "ВОЗОБНОВЛЕНИЕ ПЕРЕДАЧИ: ВОЗЬМИ КАМЕНЬ ИЗ ЭТОЙ ОБЛАСТИ. ОН, ВЕРОЯТНО, РАСКОЛЕТСЯ И ПРИЧИНИТ БОЛЬШЕ ПОБОЧНЫХ РАЗРУШЕНИЙ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "AND SOMEHOW, THEY MADE A WOODEN CATAPULT ACTIVATE ONLY THROUGH ELECTROMAGIC. YOU SHOULD BE ABLE TO ACTIVATE IT OF YOUR OWN ACCORD.",
+      "ru": "КАКИМ-ТО ОБРАЗОМ ОНИ СДЕЛАЛИ ДЕРЕВЯННУЮ КАТАПУЛЬТУ, КОТОРАЯ ЗАПУСКАЕТСЯ ТОЛЬКО ЭЛЕКТРОМАГИЕЙ. ТЫ СМОЖЕШЬ ЗАПУСТИТЬ ЕЁ САМОСТОЯТЕЛЬНО.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "END TRANSMISSION. Mech PL-4Y. When you have completed your objective I will return you to Factory base.",
+      "ru": "КОНЕЦ ПЕРЕДАЧИ. Мех ПЛ-4У. Когда закончишь задачу, я верну тебя на базу Фабрики.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "I'm... in shock. We aid them in destroying their factory, and...",
+      "ru": "Я... в шоке. Мы помогли им уничтожить их фабрику, а они...",
+      "speaker": "Avos Chief",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Round up our defenses and sharpen the spears. There is no excuse for this.",
+      "ru": "Привести оборону в готовность, заточить копья. Этому нет оправдания.",
+      "speaker": "Avos Chief",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "No, wait! Hold on!",
+      "ru": "Нет, стойте! Погодите!",
+      "speaker": "???",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Chieftain! We noticed the same thing as you did and I promise you, it was not us who did this.",
+      "ru": "Вождь! Мы заметили то же, что и вы, и клянусь, это сделали не мы.",
+      "speaker": "Maxie",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Maxie! There is no more 'both sides' here! This is not your people tearing up the earth, this is your people making attempts on our lives!",
+      "ru": "Макси! Не нужно больше говорить про \"обе стороны\"! Твои люди уже не просто разрывают землю - они покушаются на наши жизни!",
+      "speaker": "Avos Chief",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "No, I swear this wasn't planned! I'm on the city council now! There's got to be another explanation. There's still mechs around, it could have been one of them!",
+      "ru": "Нет, клянусь, это не было запланировано! Я теперь в городском совете! Тут точно есть другое объяснение. Мехи всё ещё шляются вокруг, это мог быть один из них!",
+      "speaker": "Maxie",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "And what would those monstrosities be taking orders from now? Your factory is shut down, as it ought to be!",
+      "ru": "И от кого, по-твоему, теперь эти чудовища получают приказы? Ваша фабрика закрыта, как и должно быть!",
+      "speaker": "Avos Chief",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "I'll investigate this myself. There's got to be some other explanation! Please, hold off on the war preparations!",
+      "ru": "Я сам всё проверю. Тут точно есть другое объяснение! Прошу, пока не начинайте готовиться к войне!",
+      "speaker": "Maxie",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "BEGIN TRANSMISSION: THAT WOULD HAVE BEEN ALL WE NEEDED TO DO, IF NOT FOR SOMEONE INTERFERING. YOU DID YOUR JOB PERFECTLY, MECH PL-4Y.",
+      "ru": "НАЧАЛО ПЕРЕДАЧИ: ЭТОГО БЫ УЖЕ ХВАТИЛО, ЕСЛИ БЫ НЕ ЧЬЁ-ТО ВМЕШАТЕЛЬСТВО. ТЫ СДЕЛАЛ СВОЮ РАБОТУ ИДЕАЛЬНО, МЕХ ПЛ-4У.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "BUT THERE WILL BE ANOTHER TASK FOR YOU. IT IS TIME TO MAKE THE AVOS LOOK AS THOUGH THEY ARE ATTACKING.",
+      "ru": "НО У МЕНЯ ДЛЯ ТЕБЯ ЕСТЬ ЕЩЁ ОДНА ЗАДАЧА. ПРИШЛО ВРЕМЯ СДЕЛАТЬ ВИД, БУДТО НАПАДАЮТ АВОСЫ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "THERE IS A TOTEM IN THE AVOS CHIFETAIN'S TENT THAT CAN HARNESS DRUIDIC MAGIC. YOU WILL STEAL IT AND ATTACK CORKUS CITY.",
+      "ru": "В ПАЛАТКЕ ВОЖДЯ АВОСОВ ЕСТЬ ТОТЕМ, НАПРАВЛЯЮЩИЙ ДРУИДИЧЕСКУЮ МАГИЮ. УКРАДИ ЕГО И АТАКУЙ ГОРОД КОРКУС.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "YOU WILL BREAK IN, AIDED BY THE TELEPORTATION MECH THAT I AM SENDING THIS MESSAGE THROUGH. DO NOT GET CAUGHT.",
+      "ru": "ТЫ ПРОНИКНЕШЬ ВНУТРЬ С ПОМОЩЬЮ ТЕЛЕПОРТ-МЕХА, ЧЕРЕЗ КОТОРЫЙ Я И ПЕРЕДАЮ ЭТО СООБЩЕНИЕ. НЕ ПОПАДАЙСЯ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "END TRANSMISSION. Mech PL-4Y. When you have completed your objective I will return you to Next objective location.",
+      "ru": "КОНЕЦ ПЕРЕДАЧИ. Мех ПЛ-4У. Когда закончишь задачу, я перемещу тебя к следующей цели.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Retrieving Mech PL-4Y.",
+      "ru": "Извлечение меха ПЛ-4У.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Please stand by.",
+      "ru": "Пожалуйста, ждите.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Sending Mech PL-4Y to Next objective location...",
+      "ru": "Перемещение меха ПЛ-4У к следующей цели...",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "WHAT IS THAT!? THE AVOS ARE ATTACKING?",
+      "ru": "ЧТО ЭТО ТАКОЕ!? АВОСЫ НАПАДАЮТ?",
+      "speaker": "Corkus Citizen",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "They listened to me... right? Why's this-",
+      "ru": "Они же меня послушали... да? Тогда почему-",
+      "speaker": "Maxie",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "What in the world...? That's Avos magic!",
+      "ru": "Да что за...? Это же магия авосов!",
+      "speaker": "Citizen",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Why're they attacking us? This is on a way bigger scale than finding grapevines in my laundry machine!",
+      "ru": "Почему они нападают? Это уже куда серьёзнее, чем виноградная лоза у меня в стиралке!",
+      "speaker": "Citizen",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Don't panic! I'll talk to the Chieftain. There's been some kind of mistake here, I'm certain of it!",
+      "ru": "Не паникуйте! Я поговорю с вождём. Тут явно какая-то ошибка, я уверен!",
+      "speaker": "Maxie",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "Chief! I thought I asked you to put away your war drums!",
+      "ru": "Вождь! Я же просил вас пока не бить в военные барабаны!",
+      "speaker": "Maxie",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "We HAVE, Maxie. Do not make accusations upon us, on our own land.",
+      "ru": "Мы УЖЕ убрали их, Макси. Не обвиняй нас на нашей же земле.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Corkus City was attacked today! A magical root broke through our wall. This is nature magic, an Avos specialty!",
+      "ru": "Сегодня на город Коркус напали! Магический корень пробил нашу стену. Это магия природы, которой так искусно владеют авосы!",
+      "speaker": "Maxie",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Hm. Convenient, that one of our prized ceremonial totems has gone missing. You may be right that someone is attempting to cause insurgence.",
+      "ru": "Хм. Очень удобно, что один из наших церемониальных тотемов тоже пропал. Возможно, ты прав, и кто-то реально пытается нас стравить.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "I knew this was some kind of mistake! I'll get to the bottom of this!",
+      "ru": "Я знал, что тут что-то нечисто! Я докопаюсь до правды!",
+      "speaker": "Maxie",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "BEGIN TRANSMISSION: THERE'S AN ANNOYING WRENCH IN THE WORKS. YOU'VE BEEN DOING YOUR WORK PERFECTLY, MECH PL-4Y.",
+      "ru": "НАЧАЛО ПЕРЕДАЧИ: НАМ СНОВА ВСТАВЛЯЮТ ПАЛКИ В КОЛЁСА. ДОСАДНО. ТЫ ВСЁ ДЕЛАЕШЬ ИДЕАЛЬНО, МЕХ ПЛ-4У.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "I'VE GOT ONE MORE ORDER FOR YOU THAT SHOULD TIP THINGS OVER THE EDGE. STAND BY FOR TELEPORTATION.",
+      "ru": "У МЕНЯ ДЛЯ ТЕБЯ ЕСТЬ ЕЩЁ ПРИКАЗ, КОТОРЫЙ СТАНЕТ ПОСЛЕДНЕЙ КАПЛЕЙ. ОЖИДАЙ ТЕЛЕПОРТАЦИИ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "THERE IS A SET OF STATISTICALLY INFERIOR MECHS BUILT BY THE CORKIANS IN THIS TOWER, I HAVE A SET OF SYSTEMS PROGRAMMED IN THIS DEVICE.",
+      "ru": "В ЭТОЙ БАШНЕ СТОИТ ГРУППА КОРКИАНСКИХ МЕХОВ С НИЗКИМИ ХАРАКТЕРИСТИКАМИ. В ЭТО УСТРОЙСТВО Я ЗАПИСАЛ НУЖНЫЕ СИСТЕМЫ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "THIS WILL OVERRIDE THEIR CURRENT PROGRAMMING AND SEND THEM TO ATTACK THE AVOS SETTLEMENT. THEY'LL BE SO DISGUSTED BY THE CORKIAN'S RELENTLESS BRANDING...",
+      "ru": "ЭТО ПЕРЕПИШЕТ ИХ ТЕКУЩИЕ НАСТРОЙКИ И ОТПРАВИТ ИХ АТАКОВАТЬ ПОСЕЛЕНИЕ АВОСОВ. ИХ ТАК ОТВРАТИТ ЭТА НАВЯЗЧИВАЯ КОРКИАНСКАЯ МАРКИРОВКА...",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "NO, I CAN'T EVEN KEEP UP THE SARCASTIC FACADE ANYMORE. THEY'LL ATTACK AND KILL AVOS PEOPLE AND SET THE CIVIL WAR BLAZING. DO YOUR JOB QUICKLY. END TRANSMISSION.",
+      "ru": "НЕТ, Я УЖЕ НЕ МОГУ ДАЖЕ ДЕРЖАТЬ ЭТУ САРКАСТИЧНУЮ МАСКУ. ОНИ НАПАДУТ, УБЬЮТ АВОСОВ И РАЗОЖГУТ ГРАЖДАНСКУЮ ВОЙНУ. ДЕЛАЙ СВОЮ РАБОТУ БЫСТРО. КОНЕЦ ПЕРЕДАЧИ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "Bzzt... Hello World. NEW ENEMY REGISTERED: AVOS. Proceed with attack protocol- click.",
+      "ru": "Бзз... Привет, Мир. ЗАРЕГИСТРИРОВАН НОВЫЙ ВРАГ: АВОС. Запуск протокола атаки- щелк.",
+      "speaker": "Corkus Guard",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Objective. Eliminate Avos presence.",
+      "ru": "Задача. Устранить авосов.",
+      "speaker": "Corkus Guard",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "BEGIN TRANSMISSION: YOUR JOB IS OVER, MECH PL-4Y. I HESITATE TO SAY YOU DID A GOOD JOB, BECAUSE THE JOB WAS ANYTHING BUT GOOD. IT WAS NECESSARY THOUGH.",
+      "ru": "НАЧАЛО ПЕРЕДАЧИ: ТВОЯ РАБОТА ЗАКОНЧЕНА, МЕХ ПЛ-4У. НЕ ХОЧУ ГОВОРИТЬ, ЧТО ТЫ ХОРОШО ПОРАБОТАЛ, ПОТОМУ ЧТО РАБОТА БЫЛА МЕРЗКОЙ. НО НУЖНОЙ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "WE WILL BE ABLE TO LET THEM TEAR EACH OTHER TO SHREDS INSTEAD OF GETTING INVOLVED AND SPARKING SUSPICION.",
+      "ru": "МЫ СМОЖЕМ ПРОСТО ДАТЬ ИМ ПЕРЕГРЫЗТЬ ДРУГ ДРУГУ ГЛОТКИ, ВМЕСТО ТОГО ЧТОБЫ ЛЕЗТЬ САМИМ И ВЫЗЫВАТЬ ПОДОЗРЕНИЯ.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "I HAD WANTED TO FIND A SOLUTION THAT WOULD NOT REQUIRE A FRESH START. IF MY HAND WAS NOT FORCED, PERHAPS. BUT THAT IS IRRELEVANT NOW.",
+      "ru": "Я ХОТЕЛ НАЙТИ РЕШЕНИЕ, КОТОРОЕ НЕ ПОТРЕБУЕТ ПОЛНОГО СБРОСА. МОЖЕТ, ЕСЛИ БЫ МЕНЯ НЕ ПРИНУДИЛИ. НО ТЕПЕРЬ ЭТО УЖЕ НЕВАЖНО.",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "YOU WILL RETURN TO THE FACTORY WITH THE TELEPORTATION MECH AND REMAIN UNTIL FURTHER NOTICE-",
+      "ru": "ТЫ ВЕРНЁШЬСЯ НА ФАБРИКУ ВМЕСТЕ С ТЕЛЕПОРТ-МЕХОМ И БУДЕШЬ ЖДАТЬ ДАЛЬНЕЙШИХ УКАЗАНИЙ-",
+      "speaker": "Teleportation Mech",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "I knew it! It was such a long shot, but I knew the Factory still had to be at large! And now I have evidence to prove it, too!",
+      "ru": "Я знал! Это казалось почти невероятным, но я знал, что Фабрика продолжает действовать! А теперь у меня есть доказательства!",
+      "speaker": "Maxie",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "This time we'll make sure you won't get another chance. I'll tell everyone what happened, and then we'll tear that factory down at the foundations!",
+      "ru": "В этот раз мы сделаем так, чтобы у вас больше не было шанса. Я расскажу всем, что произошло, и мы разнесём эту фабрику до основания!",
+      "speaker": "Maxie",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "You should've picked a more private meeting place! I'm out!",
+      "ru": "Надо было выбирать место для встречи потише! Я сваливаю!",
+      "speaker": "Maxie",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "FREEZE!",
+      "ru": "СТОЙ!",
+      "speaker": "Maxie",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Aah, you're fast! You caught up this quick?! I have no other choice...",
+      "ru": "А-а, быстрый! Уже догнал?! У меня нет выбора...",
+      "speaker": "Maxie",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "You aren't going to stop me from getting to the battleground! You look like you were built out of rust and oxide!",
+      "ru": "Ты не остановишь меня на пути к полю боя! Да ты вообще выглядишь так, будто тебя собрали из ржавчины и окиси!",
+      "speaker": "Maxie",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Surrender, or I'll use my own mechs to smash you to scrap metal!",
+      "ru": "Сдавайся, или я своими мехами превращу тебя в металлолом!",
+      "speaker": "Maxie",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "You have defeated both of my most powerful creations...",
+      "ru": "Ты одолел оба моих самых мощных творения...",
+      "speaker": "Maxie",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "I usually don't do this... but I guess I have no other option. I need to get this information to the others.",
+      "ru": "Обычно я так не делаю... Но, кажется, другого выхода нет. Я должен передать эти сведения остальным.",
+      "speaker": "Maxie",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "No... I... have to tell them.",
+      "ru": "Нет... я... должен им рассказать.",
+      "speaker": "Maxie",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "...you harden your heart. There is no end, you think.",
+      "ru": "...ты ожесточаешь сердце. Конца нет, думаешь ты.",
+      "speaker": "???",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Wrong. The end is in sight.",
+      "ru": "Неверно. Конец уже виден.",
+      "speaker": "???",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Your soul. It awakens to something new.",
+      "ru": "Твоя душа. Она пробуждается к чему-то новому.",
+      "speaker": "???",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Not dark. Not light. Not in-between. But separate.",
+      "ru": "Не тьма. Не свет. Не нечто между. А что-то отдельное.",
+      "speaker": "???",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Power. Gain. Risk. New beginnings, from an end.",
+      "ru": "Сила. Выгода. Риск. Новые начала из конца.",
+      "speaker": "???",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "So... may we offer you the end?",
+      "ru": "Так... можем ли мы предложить тебе конец?",
+      "speaker": "???",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "Halt! Who goes there? Stop, in the name of the Detlas army!",
+      "ru": "Стоять! Кто идёт? Остановись именем армии Детласа!",
+      "speaker": "Aegis",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "Should you continue, you shall face the strength and courage of Admiral Aegis!",
+      "ru": "Если продолжишь, тебе придётся столкнуться с силой и храбростью адмирала Аегиса!",
+      "speaker": "Aegis",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "Admiral? It's Bak'al!",
+      "ru": "Адмирал? Это Бак'ал!",
+      "speaker": "Guard",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "We cannot back down against any foe! Chaaaarge!!",
+      "ru": "Мы не отступим ни перед каким врагом! В атаку!!",
+      "speaker": "Aegis",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "...r-reinforcements! Need reinforcements!",
+      "ru": "...п-подкрепление! Срочно нужно подкрепление!",
+      "speaker": "Guard",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Excuse me, I think you're forgetting someone.",
+      "ru": "Прошу прощения, но, кажется, вы кое-кого забыли.",
+      "speaker": "???",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Detlas will not fall today. We'll be making sure of that!",
+      "ru": "Детлас сегодня не падёт. Мы лично за этим проследим!",
+      "speaker": "???",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "TASIM! How the hell did you manage to kill him?!",
+      "ru": "ТАСИМ! Да как ты вообще умудрился его убить?!",
+      "speaker": "Aledar",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "I'll tear your guts out!!",
+      "ru": "Я тебе кишки выпущу!!",
+      "speaker": "Aledar",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "This isn't over! Once your little lackey's dead I'm coming after you!!",
+      "ru": "Это ещё не конец! Как только твой мелкий подручный сдохнет, я займусь тобой!!",
+      "speaker": "Aledar",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "...no sense screaming for the dead. But do you think I'm going to just give up like that?",
+      "ru": "...криками мёртвых не вернуть. Но ты правда думаешь, что я вот так просто сдамся?",
+      "speaker": "Tasim",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Hah. Didn't know corrupteds had a sense of humor, twisted as it might be.",
+      "ru": "Ха. Не знал, что у Заражённых тоже есть чувство юмора, пусть и такое больное.",
+      "speaker": "Tasim",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "I won't dare die while everything here is at stake.",
+      "ru": "Я даже не подумаю сдохнуть, пока здесь на кону стоит всё.",
+      "speaker": "Tasim",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "How's this then, hm? Think your PEON can handle me at my strongest?",
+      "ru": "Ну и как тебе такое, а? Думаешь, твоя ПЕШКА справится со мной в полную силу?",
+      "speaker": "Tasim",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "I AM NOT GIVING UP!",
+      "ru": "Я НЕ СДАЮСЬ!",
+      "speaker": "Tasim",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "After the two soldiers were slain in battle, Detlas crumbled.",
+      "ru": "После того как два солдата пали в бою, Детлас рухнул.",
+      "speaker": "",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "It stood as a monument of wealth, prosperity and power in the Wynn province. It now stands as a corrupted wasteland.",
+      "ru": "Он был символом богатства, процветания и силы провинции Винн. Теперь это пустошь, захваченная Порчей.",
+      "speaker": "",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "The ruins of the city are a grim reminder of the power of corruption. And so...the people began to lose hope.",
+      "ru": "Руины города стали мрачным напоминанием о силе Порчи. И потому... люди начали терять надежду.",
+      "speaker": "",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "And so, you have reached an end.",
+      "ru": "И вот, ты дошёл до одного из концов.",
+      "speaker": "???",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "You wonder. It is an end... But to what... purpose. What will you gain?",
+      "ru": "Ты задаёшься вопросом. Да, это конец... Но ради чего? Что ты от этого получишь?",
+      "speaker": "???",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "You have seen loss. Destruction. Betrayal. All ends, to some other than you. Ends that never came to pass...",
+      "ru": "Ты видел утрату. Разрушение. Предательство. Чужие концы, не твои. Концы, которые так и не случились...",
+      "speaker": "???",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "To end is a powerful thing. To find your end... You may never stop searching. You may find your end in but a day's time.",
+      "ru": "Положить конец - великая сила. Найти свой конец... Ты можешь искать его вечно. А можешь найти всего за день.",
+      "speaker": "???",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "But here... you will gain the power to bring an end. To be brought yours.",
+      "ru": "Но здесь... ты получишь силу приносить конец. И встретить свой.",
+      "speaker": "???",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "However. Though the change is irrevocable...",
+      "ru": "Однако. Хоть перемена и необратима...",
+      "speaker": "???",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "The power to bring an end. It is a choice. And that... Whether you will use that power, we cannot tell you.",
+      "ru": "Сила приносить конец. Это выбор. И вот... Воспользуешься ли ты этой силой, мы не можем сказать.",
+      "speaker": "???",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "You must deign to take that choice.",
+      "ru": "Ты сам должен сделать этот выбор.",
+      "speaker": "???",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "We may offer you not one more end.",
+      "ru": "Мы больше не предложим тебе ни одного конца.",
+      "speaker": "???",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "You must find your final end yourself. We will remain... And offer others the same. And so...",
+      "ru": "Свой последний конец ты найдёшь сам. А мы останемся... и предложим то же другим. И потому...",
+      "speaker": "???",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "We two, here... end.",
+      "ru": "Мы двое, здесь... заканчиваем.",
+      "speaker": "???",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "You have gained the power to end. You have unlocked The Hunted Mode.",
+      "ru": "Ты обрёл силу завершать. Режим охоты разблокирован.",
+      "speaker": "",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Hunted Mode",
+      "ru": "Режим охоты",
+      "speaker": "",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "We destroy Ragni today. The great fortress will fall.",
+      "ru": "Сегодня мы уничтожим Рагни. Великая крепость падёт.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "I will find their protector Bob. You will each engage the guards and city dwellers. 10 citizens.",
+      "ru": "Я найду их защитника Боба. Вы все займётесь стражей и горожанами. 10 жителей.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "If each of you kills 10 citizens, then the city will run empty. So, you will make it run empty.",
+      "ru": "Если каждый из вас убьёт по 10 жителей, город опустеет. Так что вы его опустошите.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Go!",
+      "ru": "Вперёд!",
+      "speaker": "Бак'ал",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "[Objective: Murder 10 Ragni Citizens]",
+      "ru": "[Задача: Убить 10 жителей Рагни]",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "With so much of the active army dead, dying, and corrupted, Ragni fell within the day.",
+      "ru": "Слишком многие солдаты погибли, умирали или попали под власть Порчи. Рагни пал за день.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "The King of Ragni sought help from Troms, the most secure fortress in the province. But help was too late.",
+      "ru": "Король Рагни обратился за помощью к Тромсу, самой защищённой крепости провинции. Но помощь опоздала.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "When the armies of Troms reached the once noble fort, it was corrupted ashes.",
+      "ru": "Когда армии Тромса добрались до некогда славной крепости, от неё остался лишь пропитанный Порчей пепел.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "After a villager took over, new laws were put in place. This was the spark WynnExcavation needed to start their work.",
+      "ru": "Когда власть перешла к жительнице, ввели новые законы. Именно это позволило WynnExcavation начать работу.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "The humans didn't notice any difference after the new laws, but the company was in full force...",
+      "ru": "Люди не заметили никакой разницы после новых законов, но компания действовала вовсю...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "You have been made for a single purpose, peon. The wizard, Theorick, is endangering our cause.",
+      "ru": "Ты создан с единственной целью, пешка. Маг Теорик угрожает нашему делу.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "He is capable of haltering our advance with his damnable ice. Kill him.",
+      "ru": "Он способен застопорить наше наступление своим проклятым льдом. Убей его.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "I send you in my place. He will expect me. He will not expect one that looks as human as you.",
+      "ru": "Я посылаю тебя вместо себя. Он будет ждать меня. Того, кто так похож на человека, он не ждёт.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "If you fail, it will set us back greatly. It will give them a chance. Do not let them get that chance.",
+      "ru": "Если ты потерпишь неудачу, это сильно нас отбросит. Это даст им шанс. Не позволь им получить этот шанс.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "Nesaak is behind me. Move.",
+      "ru": "Несаак позади меня. Двигайся.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "Because of Theorick's passing, Nesaak never was saved. The corruption fully took over the town and its citizens. Nesaak was the first to fall.",
+      "ru": "Из-за гибели Теорика Несаак так и не был спасён. Порча полностью завладела городом и его жителями. Несаак пал первым.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "The Twains fall away. The peon has done his job well.",
+      "ru": "Твейны отступают. Пешка хорошо справилась со своей работой.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "The corruptive influence will spread. I will see this place desolate.",
+      "ru": "Порча будет распространяться. Я увижу это место опустошённым.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "Peon. You have been created for one purpose. You will ensure the fall of Troms.",
+      "ru": "Пешка. Ты создан с одной целью. Ты обеспечишь падение Тромса.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "The Corrupter of Worlds was trapped within this cave. The fool decimated my army when I laid siege last.",
+      "ru": "Осквернитель миров был заточён в этой пещере. Этот глупец истребил мою армию, когда я в последний раз вёл осаду.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "Since then, he has been sealed in. The magic of the Twains is strong here. He cannot escape.",
+      "ru": "С тех пор он запечатан внутри. Магия Твейнов здесь сильна. Ему не вырваться.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "You will release him from this cave. Whether you die afterwards is irrelevant. He will destroy Troms of his own accord.",
+      "ru": "Ты освободишь его из этой пещеры. Умрёшь ли ты после - неважно. Он уничтожит Тромс по собственной воле.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "Venture through the cave. Break the Twains' seal. And ensure he has a way to escape.",
+      "ru": "Пройди через пещеру. Разрушь печать Твейнов. И обеспечь ему путь наружу.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "The roaring of the Corrupter of Worlds is audible from here. Has he noticed you?",
+      "ru": "Рёв Осквернителя миров слышен отсюда. Заметил ли он тебя?",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "Move faster. He will notice your presence soon.",
+      "ru": "Двигайся быстрее. Скоро он заметит твоё присутствие.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "I do not have time to create another peon for this job. Do not fail.",
+      "ru": "У меня нет времени создавать ещё одну пешку для этой работы. Не подведи.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "The Corrupteds are malleable. Create some kind of bridge with them. Answer how for yourself.",
+      "ru": "Заражённые податливы. Сооруди из них какой-нибудь мост. Как - додумайся сам.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "The Corrupter is awake. And he is close. Move, peon! You still must break the seal.",
+      "ru": "Осквернитель пробудился. И он близко. Двигайся, пешка! Ты всё ещё должен разрушить печать.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "I am unfamiliar with Twain magic. Use the intellect I have given you. Break the seal.",
+      "ru": "Я не знаком с магией Твейнов. Используй разум, что я тебе дал. Разрушь печать.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "Your job is done... And you survived. I will save you for another mission, should I need you. Now...watch.",
+      "ru": "Твоя работа сделана... И ты выжил. Я приберегу тебя для другого задания, если ты мне понадобишься. А теперь... смотри.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Maybe you can lure the villager by flirting?",
+      "ru": "Может, удастся заманить жительницу, пофлиртовав?",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "Guess I'll just go pick some flowers for myself.",
+      "ru": "Видимо, пойду нарву себе цветов.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "After the King of Rodoroc ordered the slums' cave-in, another war broke out.",
+      "ru": "После того как король Родорока приказал обрушить трущобы, разразилась ещё одна война.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "But this time, it was between Dwarves and Dwarves... And yet again blood was spilled.",
+      "ru": "Но на этот раз - между дварфами и дварфами... И снова пролилась кровь.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "You need to catch Maxie before he reaches the war scene.",
+      "ru": "Тебе нужно поймать Макси, прежде чем он доберётся до поля битвы.",
+      "speaker": "",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "You aren't going to stop me from getting to the battleground! You look like you were scrounged up from rust and verdigris!",
+      "ru": "Ты не помешаешь мне добраться до поля боя! Выглядишь так, будто тебя наскребли из ржавчины и патины!",
+      "speaker": "Макси",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "Maxie never made it back to the war scene. The civil war advanced faster than anyone could have anticipated.",
+      "ru": "Макси так и не добрался до поля битвы. Гражданская война развивалась быстрее, чем кто-либо мог предположить.",
+      "speaker": "",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "The once peaceful Avos were forced to flee their home island, ravaged by machine and toxic scrap...",
+      "ru": "Некогда мирные Авосы были вынуждены бежать со своего родного острова, разорённого машинами и ядовитым хламом...",
+      "speaker": "",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "...and the corkians, blindsided by the Factory's reactivation, were purged by metal and electricity.",
+      "ru": "...а коркианцы, застигнутые врасплох перезапуском Фабрики, были истреблены металлом и электричеством.",
+      "speaker": "",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "In time, Corkus became known as the island torn apart by war. Its name would live on in infamy.",
+      "ru": "Со временем Коркус стал известен как остров, растерзанный войной. За его именем закрепилась дурная слава.",
+      "speaker": "",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "Detlas. What a foolish place for a central trading town, so close to the Roots.",
+      "ru": "Детлас. Какое глупое место для центрального торгового города - так близко к Корням.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "My armies have been sent to the other cities. Their hero is inevitably busy.",
+      "ru": "Мои армии отправлены в другие города. Их герой неизбежно занят.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "I will demolish this town. Their army will fall before us.",
+      "ru": "Я снесу этот город. Их армия падёт перед нами.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "You will destroy the guards. I will destroy the town.",
+      "ru": "Ты уничтожишь стражу. Я уничтожу город.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "Now, peon. Move.",
+      "ru": "А теперь, пешка. Двигайся.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "The strongest of Detlas' army is dead. The rest are hiding in fear. Detlas will fall.",
+      "ru": "Сильнейшие из армии Детласа мертвы. Остальные прячутся в страхе. Детлас падёт.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "Fool. Run while you have the chance.",
+      "ru": "Глупец. Беги, пока есть возможность.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "We?",
+      "ru": "Мы?",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "Self-confident idiots. I won't even bother dealing with you two.",
+      "ru": "Самоуверенные идиоты. Даже не стану с вами двумя возиться.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "Peon. Deal with this nonsense.",
+      "ru": "Пешка. Разберись с этой чепухой.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "You take too much stock in your ability. My victory is inevitable.",
+      "ru": "Ты переоцениваешь свои силы. Моя победа неизбежна.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "Your attention should be drawn to my peon. Now fall.",
+      "ru": "Тебе стоит заняться моей пешкой. А теперь пади.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "It would be easier on yourself to.",
+      "ru": "Тебе же было бы легче.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "Yes. I do. A foolhardy show of power means nothing.",
+      "ru": "Да. Считаю. Безрассудная демонстрация силы не значит ничего.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "Finish this.",
+      "ru": "Покончи с этим.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "The besieged origin. To end, one must begin.",
+      "ru": "Осаждённое начало. Чтобы закончить, надо сперва начать.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "The unrighteous sought it. The noble hid it. The one seeking answers found more questions. Another beginning... to a new end.",
+      "ru": "Нечестивые искали это. Благородные это спрятали. Тот, кто искал ответы, нашёл ещё больше вопросов. Новое начало... для нового конца.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "The cruel. The kind. The selfish. The just. He who traveled life with confliction. Who faced eternity served cold. To his end.",
+      "ru": "Жестокий. Добрый. Эгоист. Праведник. Тот, кто прожил жизнь во внутреннем разладе. Тот, кому вечность подали холодной. К его концу.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "An end, ousted by further action. An end, brought to six. An end, to the surety of the haughty. An end, of the world... in some fashion.",
+      "ru": "Конец, вытесненный новым действием. Конец, принесённый шестерым. Конец уверенности надменных. Конец мира... в каком-то смысле.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "Metal. Preventing an end. Life. Ends, prevented. Does metal taking life, bringing an end, truly prevent more?",
+      "ru": "Металл. Предотвращающий конец. Жизнь. Концы, которых избежали. Но правда ли, что металл, отнимая жизнь и принося конец, предотвращает ещё больше концов?",
+      "speaker": "Бак'ал",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "A home, invaded. A society, crumbling. The people, starving. The concerned, helpless. The flames, rising. An end you will not expect.",
+      "ru": "Захваченный дом. Рушащееся общество. Голодающие люди. Те, кто тревожится, бессильны. Растущее пламя. Конец, которого ты не ждёшь.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "Metal. Life. A new place... One is not sacrificed for another. Always distrusting. Tension, as the clockworks chime.",
+      "ru": "Металл. Жизнь. Новое место... Одним не жертвуют ради другого. Вечное недоверие. Напряжение, под бой часов.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "The very center... the place deemed closest to your home. There, in the center of Wynn... You shall find the end.",
+      "ru": "Самый центр... место, которое считается ближайшим к твоему дому. Там, в центре Винна... ты найдёшь конец.",
+      "speaker": "Бак'ал",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "New Quest Started: A Hunter's Calling",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Зов охотника",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "Because of Theorick's passing, Nesaak never was saved.",
+      "ru": "Из-за смерти Теорика Несаак так и не был спасён.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "The corruption fully took over the town and its citizens.",
+      "ru": "Порча полностью захватила город и его жителей.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "Nesaak was the first to fall.",
+      "ru": "Несаак пал первым.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "Defend yourself. It is too far gone to control. You will be attacked.",
+      "ru": "Защищайся. Ситуация вышла из-под контроля. На тебя нападут.",
+      "speaker": "Bak'al",
+      "stage": "Stage 22"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Explore the deepest part of the Silent Expanse",
+      "ru": "Исследовать дальние уголки Безмолвной Пустоши.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "The besieged origin. To end, one must begin.",
+      "ru": "Осаждённое начало. Чтобы закончить, надо сперва начать.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "The unrighteous sought it. The noble hid it. The one seeking answers found more questions. Another beginning... to a new end.",
+      "ru": "Нечестивые искали это. Благородные это спрятали. Тот, кто искал ответы, нашёл ещё больше вопросов. Новое начало... для нового конца.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Head to town and get further information from the employee at 11310, 5086.",
+      "ru": "Отправиться в город и расспросить работника по координатам 11310, 5086.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Climb the tree and look through the window.",
+      "ru": "Забраться на дерево и заглянуть в окно.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Head back to the excavation camp.",
+      "ru": "Вернуться в лагерь у раскопок.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0007",
+      "en": "The cruel. The kind. The selfish. The just. He who traveled life with confliction. Who faced eternity served cold. To his end.",
+      "ru": "Жестокий. Добрый. Эгоист. Праведник. Тот, кто прожил жизнь во внутреннем разладе. Тот, кому вечность подали холодной. К его концу.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Head to Nesaak and locate Theorick.",
+      "ru": "Отправиться в Несаак и найти Теорика.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Defeat Theorick.",
+      "ru": "Победить Теорика.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0010",
+      "en": "An end, ousted by further action. An end, brought to six. An end, to the surety of the haughty. An end, of the world... in some fashion.",
+      "ru": "Конец, вытесненный новым действием. Конец, принесённый шестерым. Конец уверенности надменных. Конец мира... в каком-то смысле.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Enter the Corrupter of World Cave",
+      "ru": "Войти в пещеру Осквернителя миров.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Make your way to the end of the cave.",
+      "ru": "Добраться до конца пещеры.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Return back up the cave and fix a way out.",
+      "ru": "Вернуться в верхнюю часть пещеры и проложить путь наружу.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Return back up the cave and fix a way out.",
+      "ru": "Вернуться в верхнюю часть пещеры и проложить путь наружу.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Metal. Preventing an end. Life. Ends, prevented. Does metal taking life, bringing an end, truly prevent more?",
+      "ru": "Металл. Предотвращающий конец. Жизнь. Концы, которых избежали. Но правда ли, что металл, отнимая жизнь и принося конец, предотвращает ещё больше концов?",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Trick 3 people to follow you into the iron golem factory.",
+      "ru": "Обманом заманить 3 человек на фабрику железных големов.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Make your way through the factory.",
+      "ru": "Пройти через фабрику.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0018",
+      "en": "A home, invaded. A society, crumbling. The people, starving. The concerned, helpless. The flames, rising. An end you will not expect.",
+      "ru": "Захваченный дом. Рушащееся общество. Голодающие люди. Те, кто тревожится, бессильны. Растущее пламя. Конец, которого ты не ждёшь.",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Head back to the slums and speak to the slum citizens.",
+      "ru": "Вернуться в трущобы и поговорить с их жителями.",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "objective-0020",
+      "en": "Return to the advisor for what to do next.",
+      "ru": "Вернуться к советнику и узнать, что делать дальше.",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-0021",
+      "en": "Head deep inside the slums and blow it up.",
+      "ru": "Пробраться вглубь трущоб и устроить взрыв.",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "objective-0022",
+      "en": "Metal. Life. A new place... One is not sacrificed for another. Always distrusting. Tension, as the clockworks chime.",
+      "ru": "Металл. Жизнь. Новое место... Одним не жертвуют ради другого. Вечное недоверие. Напряжение, под бой часов.",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "objective-0023",
+      "en": "Find a rock to launch into the Avos territory and a battery to activate the catapult.",
+      "ru": "Найти камень для обстрела земель авосов и батарею, чтобы запустить катапульту.",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "objective-0024",
+      "en": "Steal the Avos totem and activate it outside of Corkus City",
+      "ru": "Украсть тотем авосов и активировать его за пределами города Коркус.",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "objective-0025",
+      "en": "Climb the Corkus Clocktower.",
+      "ru": "Подняться на часовую башню Коркуса.",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "objective-0026",
+      "en": "Defeat Maxie.",
+      "ru": "Победить Макси.",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "objective-0027",
+      "en": "The very center... the place deemed closest to your home. There, in the center of Wynn... You shall find the end.",
+      "ru": "Самый центр... место, которое считается ближайшим к твоему дому. Там, в центре Винна... ты найдёшь конец.",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "objective-0028",
+      "en": "Defeat Aledar and Tasim.",
+      "ru": "Победить Аледара и Тасима.",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "objective-0029",
+      "en": "Return to the entity.",
+      "ru": "Вернуться к сущности.",
+      "stage": "Stage 30"
+    }
+  ],
+  "choices": [
+    {
+      "en": "Heya, again. Thinking of it, a lovely one like you is probably spoken for already, huh?",
+      "ru": "Привет ещё раз. Хотя, если подумать, у такой прелести, как ты, наверняка уже кто-то есть, м?",
+      "stage": "Stage 17",
+      "dialogueId": "dialogue-0232",
+      "id": "choice-0001"
+    }
+  ]
+}

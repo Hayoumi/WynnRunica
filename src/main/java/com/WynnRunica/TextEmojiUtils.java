@@ -21,14 +21,21 @@ public class TextEmojiUtils {
     private static final StyleSpriteSource.Font SPACE_FONT =
             new StyleSpriteSource.Font(Identifier.of("minecraft", "space"));
 
+    // Ширина текста в пикселях игры. В игре её считает шрифт Minecraft, а проверка вёрстки
+    // без игры (TooltipLayoutCheck) подставляет сюда таблицу ширин из ресурспака.
+    static java.util.function.ToIntFunction<Text> width =
+            text -> MinecraftClient.getInstance().textRenderer.getWidth(text);
+
     public static class Extracted {
         public final String key;
         public final List<Text> icons;
         public final Style contentStyle;
-        Extracted(String key, List<Text> icons, Style contentStyle) {
+        public final List<Style> styles;
+        Extracted(String key, List<Text> icons, Style contentStyle, List<Style> styles) {
             this.key = key;
             this.icons = icons;
             this.contentStyle = contentStyle;
+            this.styles = styles;
         }
     }
 
@@ -36,41 +43,88 @@ public class TextEmojiUtils {
         StringBuilder sb = new StringBuilder();
         List<Text> icons = new ArrayList<>();
         Style[] contentStyle = new Style[]{Style.EMPTY};
-        walk(source, Style.EMPTY, sb, icons, contentStyle);
-        return new Extracted(sb.toString(), icons, contentStyle[0]);
+        List<Style> styles = new ArrayList<>();
+        walk(source, Style.EMPTY, sb, icons, contentStyle, styles);
+        return new Extracted(sb.toString(), icons, contentStyle[0], styles);
+    }
+
+    public static Extracted extractTooltip(Text source) {
+        Extracted extracted = extract(source);
+        Style contentStyle = source.visit((style, value) -> isIconFont(style)
+                ? java.util.Optional.<Style>empty()
+                : java.util.Optional.ofNullable(firstLetterStyle(value, style)), Style.EMPTY)
+                .orElse(extracted.contentStyle);
+        return new Extracted(extracted.key, extracted.icons, contentStyle, extracted.styles);
     }
 
     public static Style findWynncraftPixelStyle(Text source) {
-        return findWynncraftPixelStyle(source, Style.EMPTY);
+        Style content = findWynncraftPixelStyle(source, Style.EMPTY, true);
+        return content != null ? content : findWynncraftPixelStyle(source, Style.EMPTY, false);
     }
 
-    private static Style findWynncraftPixelStyle(Text node, Style parentStyle) {
+    private static Style findWynncraftPixelStyle(Text node, Style parentStyle, boolean lettersOnly) {
         Style merged = node.getStyle().withParent(parentStyle);
-        if (isWynncraftPixelFont(merged))
-            return merged;
+        if (isWynncraftPixelFont(merged)) {
+            Style content = node.getContent().visit(text ->
+                    java.util.Optional.ofNullable(firstLetterStyle(text, merged))).orElse(null);
+            if (content != null) return content;
+            if (!lettersOnly) return merged;
+        }
 
         for (Text child : node.getSiblings()) {
-            Style found = findWynncraftPixelStyle(child, merged);
+            Style found = findWynncraftPixelStyle(child, merged, lettersOnly);
             if (found != null)
                 return found;
         }
         return null;
     }
 
-    private static void walk(Text node, Style parentStyle, StringBuilder out,
-                              List<Text> icons, Style[] firstContentStyle) {
-        Style merged = node.getStyle().withParent(parentStyle);
+    private static Style firstLetterStyle(String value, Style base) {
+        Style current = base;
+        for (int i = 0; i < value.length(); i++) {
+            if (value.charAt(i) == '§' && i + 1 < value.length()) {
+                char code = value.charAt(++i);
+                if (code == '#' && i + 6 < value.length()) {
+                    try {
+                        current = current.withColor(Integer.parseInt(value.substring(i + 1, i + 7), 16));
+                        i += 6;
+                    } catch (NumberFormatException ignored) {}
+                } else {
+                    Formatting format = Formatting.byCode(code);
+                    if (format == Formatting.RESET) current = base;
+                    else if (format != null && format.getColorValue() != null)
+                        current = current.withColor(format.getColorValue());
+                    else if (format == Formatting.BOLD) current = current.withBold(true);
+                    else if (format == Formatting.ITALIC) current = current.withItalic(true);
+                    else if (format == Formatting.UNDERLINE) current = current.withUnderline(true);
+                    else if (format == Formatting.STRIKETHROUGH) current = current.withStrikethrough(true);
+                    else if (format == Formatting.OBFUSCATED) current = current.withObfuscated(true);
+                }
+            } else if (Character.isLetter(value.codePointAt(i))) {
+                return current;
+            }
+        }
+        return null;
+    }
 
-        StyleSpriteSource font = merged.getFont();
+    public static boolean isIconFont(Style style) {
+        StyleSpriteSource font = style.getFont();
         String fontStr = font == null ? "" : font.toString();
-        boolean isIcon = fontStr.contains("hud/dialogue/text/common/")
+        return fontStr.contains("hud/dialogue/text/common/")
                 || fontStr.contains("minecraft:common")
                 || fontStr.contains("minecraft:keybind")
                 || fontStr.contains("minecraft:interface")
                 || fontStr.contains("minecraft:tooltip")
                 || fontStr.contains("minecraft:space");
+    }
 
-        if (isIcon) {
+    private static void walk(Text node, Style parentStyle, StringBuilder out,
+                              List<Text> icons, Style[] firstContentStyle, List<Style> styles) {
+        Style merged = node.getStyle().withParent(parentStyle);
+        StyleSpriteSource font = merged.getFont();
+        String fontStr = font == null ? "" : font.toString();
+
+        if (isIconFont(merged)) {
             out.append("<em>");
             MutableText iconCopy = node.copyContentOnly();
             iconCopy.setStyle(merged);
@@ -130,8 +184,10 @@ public class TextEmojiUtils {
         });
         }
 
+        while (styles.size() < out.length()) styles.add(merged);
+
         for (Text child : node.getSiblings()) {
-            walk(child, merged, out, icons, firstContentStyle);
+            walk(child, merged, out, icons, firstContentStyle, styles);
         }
     }
 
@@ -157,21 +213,33 @@ public class TextEmojiUtils {
     }
 
     public static Text replaceFirstPixelLabel(Text source, String original, String translated) {
-        int start = source.getString().indexOf(original);
+        return replaceFirstPixelLabel(source, original, translated, false);
+    }
+
+    public static Text replaceFirstPixelLabel(Text source, String original, String translated,
+                                              boolean keepRightEdge) {
+        String plain = source.getString();
+        int start = plain.indexOf(original);
         if (start < 0)
             return source;
+
+        int next = start + original.length();
+        while (next < plain.length() && Character.isWhitespace(plain.charAt(next))) next++;
+        boolean aligned = keepRightEdge || next < plain.length()
+                && plain.codePointAt(next) >= 0xC0000 && plain.codePointAt(next) <= 0xDFFFF;
 
         int[] offset = {0};
         boolean[] inserted = {false};
         MutableText copy = copyReplacingLabel(
                 source, Style.EMPTY, start, start + original.length(),
-                original, translated, offset, inserted);
+                original, translated, keepRightEdge, aligned, offset, inserted);
         return inserted[0] ? copy : source;
     }
 
     private static MutableText copyReplacingLabel(Text node, Style parent,
                                                   int start, int end,
                                                   String original, String translated,
+                                                  boolean keepRightEdge, boolean aligned,
                                                   int[] offset, boolean[] inserted) {
         Style effectiveStyle = node.getStyle().withParent(parent);
         String value = node.getContent() instanceof PlainTextContent plain
@@ -192,28 +260,27 @@ public class TextEmojiUtils {
                 int localStart = overlapStart - nodeStart;
                 int localEnd = overlapEnd - nodeStart;
                 result = Text.literal(value.substring(0, localStart)).setStyle(node.getStyle());
+                // Код цвета вида §7 действует только внутри своего куска текста,
+                // поэтому вставленному переводу и хвосту строки его надо повторить.
+                String legacy = activeLegacyCodes(value.substring(0, localStart));
 
                 if (!inserted[0]) {
-                    Style translatedStyle = translated.codePoints()
-                            .anyMatch(TextEmojiUtils::isCyrillic)
-                            ? effectiveStyle.withFont(WYNNCRAFT_CYRILLIC_FONT)
-                            : effectiveStyle;
-                    Text translatedText = Text.literal(translated).setStyle(translatedStyle);
+                    int widthOrig = width.applyAsInt(Text.literal(original).setStyle(effectiveStyle));
+                    MutableText translatedText = Text.literal("");
+                    appendStyled(translatedText, legacy + translated, effectiveStyle);
+                    int widthDelta = widthOrig - width.applyAsInt(translatedText);
+                    Text spacer = widthDelta == 0 || !aligned ? Text.empty()
+                            : Text.literal(new String(Character.toChars(0xD0000 + widthDelta)))
+                                    .setStyle(Style.EMPTY.withFont(SPACE_FONT));
+                    if (keepRightEdge) result.append(spacer);
                     result.append(translatedText);
-
-                    int widthDelta = MinecraftClient.getInstance().textRenderer.getWidth(
-                            Text.literal(original).setStyle(effectiveStyle))
-                            - MinecraftClient.getInstance().textRenderer.getWidth(translatedText);
-                    if (widthDelta != 0) {
-                        result.append(Text.literal(new String(Character.toChars(
-                                        0xD0000 + widthDelta)))
-                                .setStyle(Style.EMPTY.withFont(SPACE_FONT)));
-                    }
+                    if (!keepRightEdge) result.append(spacer);
                     inserted[0] = true;
                 }
 
-                result.append(Text.literal(value.substring(localEnd))
-                        .setStyle(node.getStyle()));
+                if (localEnd < value.length()) {
+                    result.append(Text.literal(legacy + value.substring(localEnd)).setStyle(node.getStyle()));
+                }
             }
             offset[0] = nodeEnd;
         }
@@ -221,22 +288,74 @@ public class TextEmojiUtils {
         for (Text sibling : node.getSiblings()) {
             result.append(copyReplacingLabel(
                     sibling, effectiveStyle, start, end,
-                    original, translated, offset, inserted));
+                    original, translated, keepRightEdge, aligned, offset, inserted));
         }
         return result;
     }
 
+    // Код «§*» в переводе означает «цвет выделенного слова оригинала». Нужен там, где цвет
+    // зависит от предмета (например, от его редкости) и заранее в перевод не пишется.
+    static String accentCode(Text original) {
+        List<TextColor> colors = new ArrayList<>();
+        original.visit((style, value) -> {
+            if (!isIconFont(style) && style.getColor() != null && value.codePoints().anyMatch(Character::isLetter)) {
+                colors.add(style.getColor());
+            }
+            return java.util.Optional.empty();
+        }, Style.EMPTY);
+        if (colors.isEmpty()) return "";
+        TextColor accent = colors.getFirst();
+        for (TextColor color : colors) {
+            if (!color.equals(colors.getFirst())) {
+                accent = color;
+                break;
+            }
+        }
+        return String.format("§#%06X", accent.getRgb() & 0xFFFFFF);
+    }
+
+    static String activeLegacyCodes(String text) {
+        String active = "";
+        for (int i = 0; i + 1 < text.length(); i++) {
+            if (text.charAt(i) != '§') continue;
+            char code = Character.toLowerCase(text.charAt(i + 1));
+            boolean color = code == 'r' || Character.digit(code, 16) >= 0;
+            if (color) active = text.substring(i, i + 2);
+            if (!color) active += text.substring(i, i + 2);
+            i++;
+        }
+        return active;
+    }
+
     private static Text rebuild(String translated, List<Text> icons, Style rootStyle,
                                 boolean dialogue, String original) {
+        return rebuild(translated, icons, rootStyle, dialogue, original, true);
+    }
+
+    static Text rebuildChat(String translated, List<Text> icons, Style rootStyle, String original) {
+        return rebuild(translated, icons, rootStyle, false, original, false);
+    }
+
+    private static Text rebuild(String translated, List<Text> icons, Style rootStyle,
+                                boolean dialogue, String original, boolean align) {
         MutableText result = Text.literal("");
 
         Style baseStyle = rootStyle != null ? rootStyle : Style.EMPTY;
+        boolean keepBold = dialogue && baseStyle.isBold();
+        Style resetStyle = baseStyle.withBold(keepBold).withUnderline(false).withStrikethrough(false);
+        if (resetStyle.getColor() == null) {
+            resetStyle = resetStyle.withColor(Formatting.WHITE);
+        }
+        if (!baseStyle.isItalic()) {
+            resetStyle = resetStyle.withItalic(false);
+        }
         Style current = baseStyle;
+        boolean ownColor = false;
         StringBuilder buf = new StringBuilder();
         int iconIdx = 0;
         boolean[] usedIcons = dialogue ? new boolean[icons.size()] : null;
 
-        String[] originalRuns = alignmentRuns(translated, original, icons);
+        String[] originalRuns = align ? alignmentRuns(translated, original, icons) : null;
         MutableText run = Text.literal("");
         int runIdx = 0;
 
@@ -253,13 +372,7 @@ public class TextEmojiUtils {
                 if (selected >= 0 && selected < icons.size()) {
                     Text icon = icons.get(selected);
                     MutableText fixedIcon = icon.copy();
-                    Style iconStyle = icon.getStyle();
-
-                    if (iconStyle.getColor() == null) {
-                        iconStyle = iconStyle.withColor(current.getColor());
-                    }
-
-                    fixedIcon.setStyle(iconStyle);
+                    fixedIcon.setStyle(icon.getStyle());
                     result.append(fixedIcon);
                 }
 
@@ -268,9 +381,11 @@ public class TextEmojiUtils {
             }
 
             char c = translated.charAt(i);
-            if (dialogue && c == '[') {
+            // Текст в квадратных скобках в диалоге розовый, как в игре. Если переводчик сам задал
+            // цвет перед скобкой или внутри неё, остаётся его цвет.
+            if (dialogue && c == '[' && !ownColor) {
                 int end = translated.indexOf(']', i);
-                if (end >= 0) {
+                if (end >= 0 && translated.indexOf('§', i) > end || end >= 0 && translated.indexOf('§', i) < 0) {
                     if (buf.length() > 0) {
                         appendStyled(run, buf.toString(), current);
                         buf.setLength(0);
@@ -292,7 +407,8 @@ public class TextEmojiUtils {
                 if (code == '#' && i + 7 < translated.length()) {
                     String hex = translated.substring(i + 2, i + 8);
                     try {
-                        current = baseStyle.withColor(Integer.parseInt(hex, 16));
+                        current = resetStyle.withColor(Integer.parseInt(hex, 16));
+                        ownColor = true;
                         i += 7;
                         continue;
                     } catch (NumberFormatException ignored) {}
@@ -301,9 +417,11 @@ public class TextEmojiUtils {
 
                 if (fmt != null) {
                     if (fmt == net.minecraft.util.Formatting.RESET) {
-                        current = baseStyle;
+                        current = resetStyle;
+                        ownColor = false;
                     } else if (fmt.isColor()) {
-                        current = baseStyle.withColor(fmt);
+                        current = resetStyle.withColor(fmt);
+                        ownColor = true;
                     } else {
                         current = current.withFormatting(fmt);
                     }
@@ -324,7 +442,8 @@ public class TextEmojiUtils {
     }
 
     private static String[] alignmentRuns(String translated, String original, List<Text> icons) {
-        if (original == null || MinecraftClient.getInstance().textRenderer == null) return null;
+        MinecraftClient client = MinecraftClient.getInstance();
+        if (original == null || client != null && client.textRenderer == null) return null;
         int spacers = 0;
         for (Text icon : icons) {
             StyleSpriteSource font = icon.getStyle().getFont();
@@ -348,9 +467,12 @@ public class TextEmojiUtils {
             result.append(run);
             return;
         }
-        var renderer = MinecraftClient.getInstance().textRenderer;
-        int delta = renderer.getWidth(Text.literal(originalRuns[index]).setStyle(baseStyle))
-                - renderer.getWidth(run);
+        int delta = width.applyAsInt(Text.literal(originalRuns[index]).setStyle(baseStyle))
+                - width.applyAsInt(run);
+        if (delta <= 0) {
+            result.append(run);
+            return;
+        }
         int before = delta / 2;
         appendSpacer(result, before);
         result.append(run);
@@ -358,7 +480,7 @@ public class TextEmojiUtils {
     }
 
     private static void appendSpacer(MutableText result, int pixels) {
-        if (pixels == 0) return;
+        if (pixels <= 0) return;
         result.append(Text.literal(new String(Character.toChars(0xD0000 + pixels)))
                 .setStyle(Style.EMPTY.withFont(SPACE_FONT)));
     }
@@ -417,7 +539,7 @@ public class TextEmojiUtils {
                 || fontName.equals("minecraft:default"));
 
         StringBuilder run = new StringBuilder();
-        Integer runType = null; // 0 = normal (style), 1 = space (SPACE_FONT), 2 = cyrillic (WYNNCRAFT_CYRILLIC_FONT)
+        Integer runType = null;
 
         for (int offset = 0; offset < value.length();) {
             int codePoint = value.codePointAt(offset);

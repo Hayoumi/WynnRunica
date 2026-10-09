@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-raid-common",
+  "scopes": [
+    {
+      "id": "raid-common-a6497a645299642c",
+      "match": {
+        "title": "Aspect of the Bodyguard",
+        "anchors": [],
+        "priority": 6600
+      },
+      "title": {
+        "id": "title",
+        "en": "Aspect of the Bodyguard",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "raid-common-87ce072851ff96e0",
+          "en": "§7Fortified Formation grants <num>% ❁ Resistance.",
+          "ru": "§7§7§nЗащитное Построение§7 §7даёт§7 <num>% ❁ §7Сопротивления."
+        }
+      ]
+    }
+  ]
+}

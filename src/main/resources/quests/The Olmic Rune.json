@@ -1,0 +1,133 @@
+{
+  "quest": "The Olmic Rune",
+  "level": 100,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-olmic-rune",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "It looks like a mining machine that's hundreds of years old. What was it mining though?",
+      "ru": "Похоже на шахтёрскую машину, которой уже не одна сотня лет. Вот только что она добывала?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "It has no fuel left, maybe you can start it again?",
+      "ru": "Топливо в ней кончилось. Может, получится запустить её снова?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "The crystalized magic on the floor seems unstable. Maybe something can shatter it...",
+      "ru": "Кристаллизованная магия на полу выглядит нестабильной. Возможно, её чем-то можно расколоть...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "A pathway has been created.",
+      "ru": "Открылся проход.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "The strange shard is reacting to the floor...",
+      "ru": "Странный осколок откликается на пол...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "[32 Fuel] should be more than enough.",
+      "ru": "[32 Fuel] должно хватить с лихвой.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "[-32 Fuel Sprites]",
+      "ru": "[-32 Топливных духа]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "The machine started!",
+      "ru": "Машина заработала!",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "The loud machine is bound to attract the creatures of the expanse.",
+      "ru": "Такой грохот наверняка приманит тварей пустоши.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "It looks like the machine is about to break through!",
+      "ru": "Похоже, машина вот-вот пробьётся насквозь!",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "New Quest Started: The Olmic Rune",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Олмическая руна",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Explore the abandoned drill at [585,89,-457]",
+      "ru": "Исследовать заброшенный бур [585,89,-457].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find some sort of fuel in the Ruined City.",
+      "ru": "Найти топливо в Разрушенном городе.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Explore the cave for the fuel",
+      "ru": "Исследовать пещеру в поисках топлива.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Collect [32 Fuel Sprites] and bring it back to the machine.",
+      "ru": "Собрать [32 Топливных духа] и принести их к машине.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Head back to the machine at [585,89,-457]",
+      "ru": "Вернуться к машине [585,89,-457].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Defend the machine from the incoming attackers.",
+      "ru": "Защитить машину от нападающих.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Enter the opened crypt.",
+      "ru": "Войти в открывшийся склеп.",
+      "stage": "Stage 7"
+    }
+  ],
+  "choices": []
+}

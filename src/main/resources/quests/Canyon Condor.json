@@ -1,0 +1,316 @@
+{
+  "quest": "Canyon Condor",
+  "level": 34,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "canyon-condor",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "I am one of the Keepers in the great Temple of Legends. There we hoard secrets about the world.",
+      "ru": "Я один из Хранителей великого Храма Легенд. Там мы собираем и храним тайны этого мира.",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I am here to investigate an old tale of the canyon. Does that interest you? I'm sure it does!",
+      "ru": "Я здесь, чтобы изучить одну старую легенду каньона. Тебе ведь это интересно? Ещё бы не было!",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Legend has it that a ferocious beast lives among these cliffs. A dangerous bird that has survived for many years.",
+      "ru": "Легенда гласит, что среди этих скал живёт свирепый зверь. Опасная птица, которая живёт здесь уже много лет.",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I would love to seek the beast out, but it seems the natives here are too busy thieving each other to inform me of it.",
+      "ru": "Я бы и сам с радостью отправился искать эту тварь, но местные тут слишком заняты тем, что обкрадывают друг друга, чтобы что-то мне рассказывать.",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I have heard of an old prospector nearby who has ventured throughout this mesa. He may have some information.",
+      "ru": "Я слышал, неподалёку живёт старый старатель, который облазил всю эту месу. У него может быть нужная информация.",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "His name is Jankan and he lives east from Rymek. Could you perhaps seek him out and ask him about this foul beast?",
+      "ru": "Его зовут Джанкан, живёт к востоку от Римека. Не мог бы ты найти его и расспросить про эту мерзкую тварь?",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "If you help me, I'll let you use the elevators spread in the canyon. Well...",
+      "ru": "Если поможешь мне, я разрешу тебе пользоваться лифтами по всему каньону. Ну...",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "A strange hermit decided to take control of them, but I'm sure we can reason with him.",
+      "ru": "Какой-то странный отшельник решил прибрать их к рукам, но думаю, с ним можно договориться.",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I hope you are able to find the beast, and if you do, could you bring me back [1 Beast Egg] as evidence?",
+      "ru": "Надеюсь, у тебя получится найти эту тварь. А если найдёшь, не мог бы ты принести мне [1 Beast Egg] в качестве доказательства?",
+      "speaker": "Svin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Hello there, youngster! Ye must be the stranger folks 'been talkin' 'bout.",
+      "ru": "Здорово, малой! Ты, поди, тот самый чужак, про которого тут все трещат.",
+      "speaker": "Jankan",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "If yer lookin fer gold, I can promise ye that there ain' any for you in this here mineshaft!",
+      "ru": "Если ты за золотишком, то сразу говорю - в этой шахте тебе ловить нечего!",
+      "speaker": "Jankan",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Oh.. Yer lookin fer a winged wilder beast? Are ye out of yer mind?",
+      "ru": "Ох... Так ты ищешь какую-то крылатую дикую тварь? Ты вообще в своём уме?",
+      "speaker": "Jankan",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "The devil of a bird is complete chaos! It can move mountains with a single screech! Men twice yer size 'ave weeped from the sight of it!",
+      "ru": "Эта чёртова птица - настоящее бедствие! Одним криком горы сдвинуть может! Мужики вдвое крупнее тебя от одного её вида ревели!",
+      "speaker": "Jankan",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "As it turns out, I did me back in trying to transport me earnin's from that there cave, left them right at the back did' I.",
+      "ru": "Я, понимаешь, надорвал спину, когда тащил добычу из той пещеры. Вот и бросил всё в самом конце шахты.",
+      "speaker": "Jankan",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Go fetch me [5 Gold Chunks] from the end of the shaft and I'll tell ye where ye need to go next.",
+      "ru": "Сгоняй и принеси мне [5 Gold Chunks] из конца шахты, и тогда я скажу, куда тебе дальше идти.",
+      "speaker": "Jankan",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Finally! It took ye long enough, hand it over! Oh right.. yer want'n somethin'.",
+      "ru": "Наконец-то! Долго ж ты возился, давай сюда! А, точно... тебе ж от меня что-то надо.",
+      "speaker": "Jankan",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I ain' got any intention of help'n ye with yer demise, but I can send ye along to a young fellow who might help.",
+      "ru": "Я-то помогать тебе идти на верную смерть не собираюсь, но могу отправить к одному молодому чудаку. Может, он и поможет.",
+      "speaker": "Jankan",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "There's this Hermit feller ye wanna talk to, he is a right nutter, that one. Feeds the bird'n all.",
+      "ru": "Есть тут один Отшельник, тебе к нему надо. Полный псих, честно тебе говорю. Он ту птицу ещё и подкармливает.",
+      "speaker": "Jankan",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I think ye can find him up the mountain and across the canyon abyss, he ain' a friendly fella, I can tell yer that much.",
+      "ru": "Думаю, найдёшь его выше в горах, по ту сторону пропасти. Парень он совсем не дружелюбный, это я тебе точно скажу.",
+      "speaker": "Jankan",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Looks like that bridge to the South is the Hermit's. You should go see him.",
+      "ru": "Похоже, тот мост на юге принадлежит Отшельнику. Тебе стоит сходить к нему.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "What do you think you're doing here, kid? Think you can waltz in my humble abode and get across my bridge?",
+      "ru": "Ты что тут забыл, мелкий? Думаешь, можно просто так ввалиться ко мне и пройти по моему мосту?",
+      "speaker": "Hermit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Oh, you want to know about the bird of the mountain? Hah, a little weed like you wouldn't stand a chance against it.",
+      "ru": "О, значит, хочешь узнать про птицу гор? Ха, такой мелочи, как ты, с ней не справиться.",
+      "speaker": "Hermit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "It doesn't take kindly to strangers you know. I once saw it turn a group of poachers to ash!",
+      "ru": "Она, знаешь ли, чужаков не любит. Я однажды видел, как она обратила в пепел целую шайку браконьеров!",
+      "speaker": "Hermit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "If you want to go through here, you'll need to pay. Oh, I don't want your money, why would I need money, I have everything!",
+      "ru": "Если хочешь пройти здесь, придётся заплатить. Только деньги мне не нужны, зачем мне деньги? У меня и так всё есть!",
+      "speaker": "Hermit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "If you want access to these plateaus then you will have to find me a rare flower for my little cave here.",
+      "ru": "Если хочешь попасть на эти плато, добудь мне редкий цветок для моей славной пещерки.",
+      "speaker": "Hermit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "It is found on top of one of the stacks in the mesa, it shouldn't be too hard to find.",
+      "ru": "Растёт он на вершине одного из каменных столбов в месе, найти не должно быть слишком сложно.",
+      "speaker": "Hermit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Bring me [1 Rare Rose] and I shall let you pass on to the creature of the mesa.",
+      "ru": "Принеси мне [1 Rare Rose], и я пропущу тебя к твари месы.",
+      "speaker": "Hermit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "A ha! This will do perfectly. My chickling will love it! I suppose you can cross the bridge now.",
+      "ru": "Ага! Вот это подойдёт идеально. Моему птенчику понравится! Думаю, теперь можешь перейти мост.",
+      "speaker": "Hermit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "The beast dwells on top of one of these plateaus. With a little searching, you should be able to find it.",
+      "ru": "Тварь живёт на одном из этих плато. Если немного поищешь, найдёшь её.",
+      "speaker": "Hermit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "I'll let you use my elevators too. After all, it's not like you will last long...",
+      "ru": "И моими лифтами тоже можешь пользоваться. Всё равно ты там надолго не задержишься...",
+      "speaker": "Hermit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Only one traveler I have heard of could stand against the beast. I believe he took an egg from it for a pet, hah!",
+      "ru": "Только об одном путнике я слышал, что он смог выстоять против этой твари. Кажется, он даже забрал у неё яйцо, чтобы вырастить себе питомца, ха!",
+      "speaker": "Hermit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "He is long gone now, just like you will be in a few moments. It was nice not knowing you, kid.",
+      "ru": "Его уже давно нет, и тебя скоро тоже не будет. Приятно было с тобой не знакомиться, мелкий.",
+      "speaker": "Hermit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Traveler! You have returned! Tell me, what have you learned?",
+      "ru": "Путник! Ты вернулся! Ну, что удалось узнать?",
+      "speaker": "Svin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "You found it?! This is wonderful news! You collected an egg from it's nest as well? You are very brave indeed!",
+      "ru": "Ты нашёл её?! Это прекрасные новости! И даже яйцо из гнезда забрал? Да ты и правда очень смел.",
+      "speaker": "Svin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "So the legend of the Cockatrice is true! You've seen it and battled it with your own courage!",
+      "ru": "Значит, легенда о кокатрисе была правдой! Ты видел её своими глазами и сам сразился с ней!",
+      "speaker": "Svin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "If only you could enter the Temple of Legends, brave soul! But it would seem our paths are to part now.",
+      "ru": "Эх, если бы только тебе был открыт путь в Храм Легенд, храбрая душа! Но, похоже, на этом наши дороги расходятся.",
+      "speaker": "Svin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Do not worry, I shall keep the egg safe. One day your legend shall be as greatly told!",
+      "ru": "Не беспокойся, яйцо я сохраню в целости. Однажды и о твоих подвигах будут слагать такие же великие легенды!",
+      "speaker": "Svin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "New Quest Started: Canyon Condor",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Каньонский кондор",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Svin in Rymek at [1352, 33, -1301].",
+      "ru": "Поговорить со Свином в Римеке [1352, 33, -1301].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to Jankan east from Rymek at [1434, 31, -1360].",
+      "ru": "Поговорить с Джанканом к востоку от Римека [1434, 31, -1360].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Collect [5 Gold Chunks] for Jankan in the mineshaft at [1440, 32, -1369].",
+      "ru": "Собрать для Джанкана [5 Gold Chunks] в шахте [1440, 32, -1369].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Take the canyon elevator up to the Hermit at [1194, 32, -1618].",
+      "ru": "Подняться на подъёмнике из каньона к отшельнику [1194, 32, -1618].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find and collect [1 Rare Rose] at [1056, 113, -1683] for the Hermit",
+      "ru": "Найти для отшельника [1 Rare Rose] [1056, 113, -1683].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Defeat the Cockatrice at [1378, 111, -1351] and collect an egg for Svin",
+      "ru": "Победить кокатриса и добыть яйцо для Свина [1378, 111, -1351].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

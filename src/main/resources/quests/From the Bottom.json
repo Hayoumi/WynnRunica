@@ -1,0 +1,642 @@
+{
+  "quest": "From the Bottom",
+  "level": 81,
+  "difficulty": "Easy",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "from-the-bottom",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ah, hey there, human! I'm certain you've noticed the bazaar down here. It's a point of pride for the Dwarves- biggest marketplace of all the Dwarf cities!",
+      "ru": "А, привет, человек! Уверен, ты уже заметил этот базар внизу. Гордость дварфов, между прочим - самый большой рынок среди всех их городов!",
+      "speaker": "Nakoba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Specialty items you can't find anywhere else- All sorts of strange, wonderful, unique things. I've been looking for a few sundry items myself here.",
+      "ru": "Тут полно редкостей, которых больше нигде не найдёшь - всякая странная, чудесная, уникальная всячина. Я и сам тут как раз кое-что ищу.",
+      "speaker": "Nakoba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "It's almost all barter, unlike the merchants above that deal in that shiny stuff. Which is...a little unfortunate for me, in a way.",
+      "ru": "Здесь почти всё меняют на товары, в отличие от торговцев наверху, которые берут эти блестящие камушки. Для меня это... ну, не очень удобно.",
+      "speaker": "Nakoba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "You see, I'm a historian by trade, but what I'm really after now is some Troll Hair. See, I really like the sme- er. It's good and sturdy for binding books- wait a second!",
+      "ru": "Понимаешь, вообще я историк, но сейчас мне нужны тролльи волосы. Видишь ли, мне очень нравится их запа- эм. Из них получаются отличные крепкие книжные переплёты - погоди-ка!",
+      "speaker": "Nakoba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "YOU have some? Phenomenal! I can never get it myself- was never much of a fighter. Um, here! Let me trade you that, for...this!",
+      "ru": "У ТЕБЯ они есть? Потрясающе! Сам я их никогда добыть не мог - бойцом я всегда был так себе. Эм, вот! Давай обменяем их на... вот это!",
+      "speaker": "Nakoba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "A Decorative Bottlecap Set! These were hard to come by, but I've got two sets of them anyways. Check them out! You'll learn a lot. Thank you very much, by the way!",
+      "ru": "Набор декоративных крышек! Достать такие было нелегко, но у меня их целых два набора. Посмотри! Узнаешь много интересного. И большое тебе спасибо!",
+      "speaker": "Nakoba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Minerals for sale! Minerals for sale! Come get your rare metals! We've got Kanderstone, Wynnic Copper, genuine Almuj Sandstone, real Voidstone from the Sky Islands!",
+      "ru": "Минералы в продаже! Минералы в продаже! Подходите за редкими металлами! У нас есть кандерский камень, виннская медь, настоящий песчаник Алмуджа, подлинный камень Бездны с Небесных островов!",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Human, you there! If you're interested in smithing, you've found the right place! ...so long as you like drinking Dwarven drinks. I'm looking for bottlecap sets in exchange for these.",
+      "ru": "Эй, человек! Если тебя интересует кузнечное дело, ты пришёл куда надо! ...если, конечно, любишь дварфийские напитки. Эти минералы я меняю на наборы крышек.",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "What's that look for? Are you new here or something? Never seen a bottlecap collector before? Or is that just your face?",
+      "ru": "Ты чего так смотришь? Новенький тут, что ли? Никогда не видел коллекционера крышек? Или у тебя просто лицо такое?",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Wh- That! That's! I! How did you! It...It's in pristine condition! There's not a single cap missing! There's not even any dents from the bottle openers!!!",
+      "ru": "Ч- Это! Это же! Я! Да как ты! Он... он в идеальном состоянии! Ни одной крышки не недостаёт! Даже вмятин от открывашек нет!!!",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "There's no way you got those in person! You can't possibly understand the significance of what you're holding!! I! NEED! THEM!",
+      "ru": "Ни за что не поверю, что ты добыл это лично! Ты вообще не понимаешь, какая ценность у того, что ты держишь!! МНЕ! ЭТО! НУЖНО!",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Here! My rarest metal! Take them! Take them and give me those bottlecaps! I've got to complete my collection!! Give it! Give it! Give it give it give it give it NOW!",
+      "ru": "Вот! Мой самый редкий металл! Забирай! Забирай его и отдай мне эти крышки! Я должен собрать всю коллекцию!! Давай! Давай! Давай-давай-давай-давай НЕМЕДЛЕННО!",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "...er. Ahem. I got carried away there. But...those bottlecaps are from the very first Dogun Festival. It wasn't even held in Courag at the time these were made!",
+      "ru": "...эм. Кхм. Меня немного занесло. Но... эти крышки с самого первого догунского фестиваля. В те времена его даже ещё не проводили в Кураге!",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "I'd love to talk about them more, but I can't spend too long on the sale, or other customers might go away. But you got a good deal with that Jasplite I gave you!",
+      "ru": "Я бы ещё поболтал о них, но не могу уделять одной сделке столько времени, а то остальные покупатели уйдут. А с тем ясплитом, что я тебе дал, ты неплохо выторговал!",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Come to think of it, some guy wanted that stuff, but he didn't even have a plain ol' sodapop cap on him! I think he's right close by. Maybe you'd have some interest in what you're selling instead.",
+      "ru": "Кстати, какой-то тип тоже охотился за этой штукой, но у него при себе не было даже обычной крышки от газировки! Он вроде где-то рядом. Может, тебе будет интересно, что он предложит за это.",
+      "speaker": "Dobile",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Hm...a human trader? Well, I've heard of you, but I hope it isn't just the standard fare from you.",
+      "ru": "Хм... человек-торговец? Ну, я о вас слышал, но надеюсь, ты принёс что-нибудь получше обычного товара.",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Yes, I've seen quite a few of your type to this bazaar- Using the community forges and smithing tables in all. You seem to have metals in bulk...",
+      "ru": "Да, я уже видел немало ваших на этом базаре - вы пользуетесь общими кузнями и кузнечными столами. Металла у вас, похоже, всегда навалом...",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "...but probably ninety-eight out of a hundred of the metal ingots I've seen humans use have been trash quality! Worthless only for practice! I seek only the finest metals, you see.",
+      "ru": "...но девяносто восемь из сотни слитков, которые я видел у людей, были никуда не годными! Только на них и учиться! А мне нужен лишь лучший металл, понимаешь?",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "...so, of course, you have to prove me wrong by having MOLTEN JASPLITE?! Oh, you must have gotten that from Dobile. Wouldn't have taken you as a bottlecap collector!",
+      "ru": "...и, конечно же, ты тут же опровергаешь мои слова, принеся РАСПЛАВЛЕННЫЙ ЯСПЛИТ?! О, это ты наверняка получил у Добайла. Не думал, что ты коллекционер крышек!",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I've been pestering him for a while about his stock. The metal of the Unseen Blade is very valuable, you see. It's fragile, yes...",
+      "ru": "Я уже давно донимаю его из-за этого запаса. Металл Невидимого Клинка очень ценный, понимаешь. Да, он хрупкий, но...",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "...but to wield it is to channel the power of Ockar the Unseen Blade himself! The wartime taskmaster who cowed a hundred demons with a mere dagger!",
+      "ru": "...владеть им - значит направлять силу самого Оккара Невидимого Клинка! Того самого надсмотрщика военных лет, что держал в страхе сотню демонов одним лишь кинжалом!",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Sneaking behind the lines of the enemy, braving blistering heat! Remaining as a shadow, and cutting through sheer earth and magma without flinching!!",
+      "ru": "Пробираться за линии врага, идти сквозь адский жар! Быть тенью и резать землю и магму насквозь без единого колебания!!",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "...erm, yes. Anyways! For that, I can give you nothing less than my rarest stock. A Golemlus Power Core. If Qira found out I had this, I'd be worse off than a dead man.",
+      "ru": "...эм, да. В общем! За такое я могу дать тебе только свой самый редкий товар. Ядро големлуса. Если Кира узнает, что оно у меня, мне будет хуже, чем мертвецу.",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "She keeps the secrets of those creatures under lock and key- and it must be the ticket to unlocking that particular mystery. Treasure this, human! It is no mere Corkian battery.",
+      "ru": "Секреты этих существ она держит под замком - а эта штука, похоже, как раз ключ к разгадке. Береги её, человек! Это тебе не какая-то там коркианская батарейка.",
+      "speaker": "Dorroc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Right chief, what can I do ya for? I got all kinds'a machines here. One of 'em's gotta catch your eye, y'hear?",
+      "ru": "Ну что, приятель, чем помочь? У меня тут всяких машин навалом. Хоть одна да приглянётся, верно?",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "I jury-rigged this juicer! Put a lemon inside, give it some, heheh, juice, and you'll get yourself lemon juice in a jiff!",
+      "ru": "Я сам собрал эту соковыжималку! Кидаешь внутрь лимон, даёшь ей, хехех, немного \"сока\", и моментально получаешь лимонный сок!",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Or how 'bout this coin-shooter? Turn the crank and this'll spit out any coin-sized object like nobody's business. Just, uh, don't aim it at any windows, unless you really hate that window.",
+      "ru": "А как тебе вот этот монетомёт? Крутишь ручку - и он выплёвывает любые предметы размером с монету, только держись. Только, эм, не целься в окна, если уж совсем их не ненавидишь.",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "...what? Oh, I see. You think you got somethin' that'll interest ME instead of the other way round. I gotcha. Well, lemme see it a sec.",
+      "ru": "...чего? А, понял. Думаешь, у тебя есть что-то, что заинтересует МЕНЯ, а не наоборот. Уловил. Ну-ка, дай глянуть.",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "...okay. I can't make heads or tails a' this thing. What'd you say it was again? Don't tell me this is some Corkus gadget from that not-so-Legendary Island!",
+      "ru": "...так. Я вообще не пойму, что это за штука. Как, говоришь, она называется? Только не говори, что это какая-то машинка с Коркуса, с того не такого уж и легендарного острова!",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "...a... A Golemlus Power Core...? This... hot DOG! Yahaaah, I'd heard about these wacko golem thingies ages ago, I always wanted to take 'em apart! Aw hell, but this is an opportunity!",
+      "ru": "...Я... ядро големлуса...? Да это... мать моя! Яхаа! Я про этих чокнутых големов ещё давным-давно слышал, всегда мечтал одного разобрать! Чёрт, ну это же шанс всей жизни!",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Gotta say, for something that came from that Hive it's a lot less purple and black and spidery-all-over than I expected. The complexity...this has gotta be the real deal, but...",
+      "ru": "Должен сказать, для штуки из того Улья она куда менее фиолетовая, чёрная и паучья, чем я ожидал. А как хитро устроена... похоже, это настоящая вещь, только...",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Feels like someone else made this. That Qira lady doesn't seem like the handsy type, and this is something like 85% mechanics, 15% magic. Just seems out of character.",
+      "ru": "Похоже, это делала не сама Кира. Она не выглядит как любительница копаться руками в механике, а тут процентов 85 механики и только 15 магии. Как-то не в её стиле.",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Ah, but I'm gettin' away from myself. Tell ya what- prob'ly went through a lotta trouble ta get this, and that means you got guts. You got bravery. You got STONES, human!",
+      "ru": "А, меня понесло. Вот что скажу: наверное, немало пришлось повозиться, чтобы такое добыть. А значит, ты не робкого десятка. Смелый ты. КРЕМЕНЬ, человек!",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "So, how 'bout these Ice Drake Scales then? It fits a brave soul like you, it does! Take 'em with pride, there!",
+      "ru": "Так что держи-ка лучше вот эти чешуйки ледяного дрейка. Такой смелой душе, как у тебя, они подойдут идеально! Носи с гордостью!",
+      "speaker": "Lodog",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Ardent Magma Crystals for sale! Pure, 100%! Accept no substitutes, unless you're paying in emeralds, in which case kindly substitute...a lot of them!!",
+      "ru": "Пламенные магмовые кристаллы в продаже! Чистейшие, все 100%! Никаких заменителей! Разве что платишь изумрудами - тогда подойдут... изумруды, и ПОБОЛЬШЕ!!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Human! You have a keen eye for prices and values! I can tell by that glint in your eye- a real MAN's spirit! Even if you aren't a man, your spirit shines all the same as a man...!",
+      "ru": "Человек! Ты знаешь толк в ценах и дорогих вещах! Я вижу это по блеску в твоих глазах - дух настоящего МУЖИКА! Даже если ты не мужик, дух твой всё равно сияет ничуть не слабее...!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "A SALES MAN! YES! Macho and brave! Chiseled and strong! Strong enough to carry 200,000 Liquid Emeralds to trade for this brilliant Ardent Magma Crystal!",
+      "ru": "МУЖИКА-ТОРГОВЦА! ДА! Смелого мачо! Статного и сильного! Достаточно сильного, чтобы принести 200,000 жидких изумрудов за этот блистательный пламенный магмовый кристалл!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "...but hold on a moment. Hold on just one moment. Do I detect...a vein of ICE in that manly aura? A chill, pushing against that spirit of market machismo?",
+      "ru": "...но постой-ка. Погоди одну секунду. Чувствую ли я... ЛЕДЯНУЮ ЖИЛКУ в этой мужицкой ауре? Холодок, который противится твоему мужицкому торговому пылу?",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "YES, I DO! Human, you have Ice Drake Scales! I needn't see them to be sure! I was right about you from the start- Such burning passion!!",
+      "ru": "ДА, ТАК И ЕСТЬ! Человек, у тебя чешуйки ледяного дрейка! Мне даже смотреть не надо, чтобы знать точно! Я с самого начала в тебе не ошибся - в тебе ГОРИТ страсть!!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "AND SUCH NAIVETE! Let me strengthen your MIND! Ice Drake Scales are indicative of a great challenge having been overcome! A truly macho trophy of accomplishment!",
+      "ru": "И ТАКАЯ НАИВНОСТЬ! Дай мне ЗАКАЛИТЬ твой РАЗУМ! Чешуйки ледяного дрейка - знак того, что ты преодолел великое испытание! Трофей, достойный настоящего мужчины!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "To tame Ice Drakes required UNBREAKABLE will! To overcome the sheerest cold with MACHO HEAT! And to outshine demons of lava and flame with that same determination! Those scales represent such resilience!",
+      "ru": "Чтобы укротить ледяных дрейков, нужна НЕСГИБАЕМАЯ воля! Нужно победить лютый холод СИЛОЙ МУЖИЦКОГО ЖАРА! И тем же упорством затмить демонов лавы и огня! Эти чешуйки - символ такой стойкости!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "And yet...I must wonder. Such a fiery spirit you have- THOSE SCALES HOLD YOU BACK! Your spirit cannot be contained in such a manner!",
+      "ru": "И всё же... я не могу не задуматься. Дух у тебя такой пламенный - ЭТИ ЧЕШУЙКИ ТЕБЯ СДЕРЖИВАЮТ! Твой дух не должен знать таких оков!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "DISRESPECT YOURSELF NO LONGER! I DEMAND YOU HAND OVER THOSE SCALES! But you will not leave empty-handed, no no, friend!",
+      "ru": "НЕ УНИЖАЙ СЕБЯ БОЛЬШЕ! Я ТРЕБУЮ, ЧТОБЫ ТЫ ОТДАЛ МНЕ ЭТИ ЧЕШУЙКИ! Но не бойся, дружище, с пустыми руками ты не уйдёшь!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "You have ignited my passion as a salesman, so I shall present you with one of my own greatest accomplishments! For a spirit so WHITE HOT, only an ARDENT MAGMA CRYSTAL is fitting!",
+      "ru": "Ты разжёг во мне страсть торговца, и потому я вручу тебе одно из моих величайших достижений! Для духа, ПЫШУЩЕГО ТАКИМ ЖАРОМ, подходит только ПЛАМЕННЫЙ МАГМОВЫЙ КРИСТАЛЛ!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "YES! Your soul shines brighter than the shimmer of EIGHT-HUNDRED-MILLION EMERALDS! Forever may your spirit BURN, human!",
+      "ru": "ДА! Твоя душа сияет ярче блеска ВОСЬМИСОТ МИЛЛИОНОВ ИЗУМРУДОВ! Пусть твой дух ГОРИТ ВЕЧНО, человек!",
+      "speaker": "Mastro",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "...you have good money on you.",
+      "ru": "...деньги у тебя водятся.",
+      "speaker": "Dohstaj",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "...I heard Mastro shouting. He's...so passionate.",
+      "ru": "...я слышал, как орёт Мастро. Он... такой страстный.",
+      "speaker": "Dohstaj",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "...he's married to his work. Would I were his.",
+      "ru": "...он буквально женат на своей работе. Лучше бы на мне.",
+      "speaker": "Dohstaj",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "...but business first. Wartime artifacts for sale.",
+      "ru": "...но сначала работа. В продаже военные артефакты.",
+      "speaker": "Dohstaj",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "...priciest thing is a Dogun Flameshooter. Practically invaluable. You want it?",
+      "ru": "...самая дорогая штука тут - догунский огнемёт. Почти бесценная. Хочешь?",
+      "speaker": "Dohstaj",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...good doing business.",
+      "ru": "...приятно было иметь дело.",
+      "speaker": "Dohstaj",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "...sigh. What a man he is...",
+      "ru": "...эх. Вот это мужчина...",
+      "speaker": "Dohstaj",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "I can't stand this. I can't stand this! SHUT UP, MASTRO! NO ONE CARES ABOUT YOUR SWEATY SPIRIT OR WHATEVER!",
+      "ru": "Я больше не могу это терпеть. Не могу! ЗАТКНИСЬ, МАСТРО! НИКОМУ НЕ НУЖЕН ТВОЙ ПОТНЫЙ ДУХ ИЛИ ЧТО ТЫ ТАМ ОРЁШЬ!",
+      "speaker": "Syni",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "MY MACHISMO CANNOT BE CONTAINED! Your aversion only inspires my salesman's spirit! Ardent Magma Crystals! Pure, 100% gold! 200,000 Liquid Emeralds, 80% off! STRONG bargains!",
+      "ru": "МОЙ МУЖИЦКИЙ ПЫЛ НЕ УНЯТЬ! Твоё отвращение лишь сильнее разжигает дух торговца во мне! Пламенные магмовые кристаллы! Чистые, 100% золото! 200,000 жидких изумрудов, скидка 80%! МОЩНЫЕ сделки!",
+      "speaker": "Mastro",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "AAAGH! Stupid, stupid, stupid Dohstaj! I just need him to fork over that stupid Flameshooter and then I can get away from this tripe but he just! Won't! DO IT!",
+      "ru": "АААХ! Глупый, глупый, ГЛУПЫЙ Дохстадж! Мне нужно лишь, чтобы он отдал этот дурацкий огнемёт, и тогда я смогу уйти подальше от всей этой чепухи, но он просто! Не! ХОЧЕТ!",
+      "speaker": "Syni",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "No, look, human! Can't you see the kind of stress I'm under?! I don't care about your Flameshooter, I need to get my hands on Dohstaj's Flameshooter!",
+      "ru": "Нет, послушай, человек! Ты разве не видишь, до чего меня довели?! Мне нет дела до твоего огнемёта, мне нужен именно огнемёт Дохстаджа!",
+      "speaker": "Syni",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Syni",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "...wait. Wait wait wait that's Dohstaj's Flameshooter how in the world did you get it what what WHAT! How did you snap him out of his...emotions?!",
+      "ru": "...погоди. Погоди-погоди-погоди, это же огнемёт Дохстаджа! Как ты вообще его достал, что-что-ЧТО?! Как тебе удалось оторвать его от... переживаний?!",
+      "speaker": "Syni",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "I've been trying to get a hold of that for a week straight! I already have the perfect trade lined up! Please, hear me out!",
+      "ru": "Я уже целую неделю пытаюсь это заполучить! У меня уже и идеальный обмен подготовлен! Пожалуйста, просто выслушай!",
+      "speaker": "Syni",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "I have here the Scepter of Draani Thunderwill I! Dohstaj only WISHES he could salvage something this juicy! The real, honest-to-goodness staff of the Wartime King!",
+      "ru": "У меня есть скипетр Драани Громовольного I! Дохстадж может только МЕЧТАТЬ добыть такую ценность! Самый настоящий посох Военного Короля!",
+      "speaker": "Syni",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "A war relic for a war relic. It's only a fair trade! Just be real careful- a theif's been skulking in the yellow stall by the bank trying to steal it from me.",
+      "ru": "Военная реликвия за военную реликвию. Честный обмен! Только поосторожнее - в жёлтой лавке у банка прячется вор, который пытается у меня его украсть.",
+      "speaker": "Syni",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "...so. I saw you talking with Syni.",
+      "ru": "...ага. Я видел, как ты болтал с Сини.",
+      "speaker": "Yobon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Pfft. Thief? I'm an honest man. Just following the old footsteps.",
+      "ru": "Пфф. Вор? Я честный человек. Просто иду по стопам тех, кто был до меня.",
+      "speaker": "Yobon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "I know you have the Scepter. I'd have thumped you and taken you if you were a Dwarf.",
+      "ru": "Я знаю, что у тебя скипетр. Будь ты дварфом, я бы уже врезал тебе и забрал его.",
+      "speaker": "Yobon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "But how 'bout we work out a deal, instead? Take this tablet.",
+      "ru": "Но давай лучше договоримся по-хорошему? Держи эту табличку.",
+      "speaker": "Yobon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "It'll explain everything. Dwarven History...if you can read it. I can. Won't let loose my secrets for free though.",
+      "ru": "Она всё объяснит. История дварфов... если, конечно, ты умеешь такое читать. Я умею. Но свои секреты бесплатно не раздаю.",
+      "speaker": "Yobon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Hand over the Scepter, and I'll hand over the tablet.",
+      "ru": "Отдавай скипетр, а я отдам табличку.",
+      "speaker": "Yobon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "I won't translate it for you, but I'm sure there's some egghead who'll get back to you on what it means in...ten years or so.",
+      "ru": "Переводить тебе я её не стану, но наверняка найдётся какой-нибудь умник, который объяснит, что там написано... лет через десять.",
+      "speaker": "Yobon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Good things come to those who wait for others to do the work for 'em, as they say.",
+      "ru": "Как говорится, хорошее достаётся тем, кто ждёт, пока другие сделают за них всю работу.",
+      "speaker": "Yobon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Well, you've been busy, I see! You've been working this bazaar like a champion!",
+      "ru": "Ну, ты времени зря не терял, как я погляжу! На этом базаре ты торгуешь как настоящий мастер!",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "I ought to tell my friends up at the topside shops- they really respect traders who know their way around a deal. You should be able to buy and use more items from the armories!",
+      "ru": "Надо будет рассказать о тебе своим знакомым в лавках наверху - они уважают торговцев, которые умеют заключать сделки. Теперь ты сможешь покупать и использовать больше вещей из оружейных!",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "I... haven't had such luck unfortunately. I think you might've picked the place clean, eheh. Don't suppose you've got one last deal up your sleeve, huh?",
+      "ru": "А вот мне, увы, так не повезло. Кажется, ты тут уже всё выменял, эхех. Случайно не припас ещё одного предложения, а?",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Oh, really? Hah, I was just joking about that, but if you really do have an offer, go ahead and lay it on me!",
+      "ru": "О, правда? Ха, я вообще-то пошутил, но если у тебя и впрямь есть предложение, давай, выкладывай!",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Oh.",
+      "ru": "Ох.",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "My.",
+      "ru": "Ничего.",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "HELL.",
+      "ru": "СЕБЕ.",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "THAT'S ANCIENT HISTORY! FORMATIVE ANCIENT HISTORY!",
+      "ru": "ЭТО ЖЕ ДРЕВНЯЯ ИСТОРИЯ! САМЫЕ ИСТОКИ НАШЕЙ ИСТОРИИ!",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "I recognize those runes, they're ancient Dwarven glyphs! This is slab number three! We already have the first, second, and fourth tablets, my team and I- this would finish the collection!",
+      "ru": "Я узнаю эти руны, это древние дварфийские письмена! Это третья табличка! У нас с командой уже есть первая, вторая и четвёртая - с этой соберём все!",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "I! I! I! Take! TAKE EVERYTHING I HAVE! TAKE IT ALL, I NEED THAT! I NEED TO DISCOVER THOSE ANCIENT SECRETS!",
+      "ru": "Я! Я! Я! БЕРИ! БЕРИ ВСЁ, ЧТО У МЕНЯ ЕСТЬ! ЗАБИРАЙ ВСЁ, МНЕ ЭТО НУЖНО! МНЕ НУЖНО РАСКРЫТЬ ЭТИ ДРЕВНИЕ СЕКРЕТЫ!",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "AH! AHAHAHAHA! THE HISTORY! THE STORIES! THE EVERYTHING! IT'S BETTER THAN THE SMELL OF TROLL HAIR! AHAHAHAAAHAHHAHHAHAAAAAH!",
+      "ru": "АХ! АХАХАХАХА! ИСТОРИЯ! РАССКАЗЫ! ВСЁ ЭТО! ЭТО ЛУЧШЕ ДАЖЕ, ЧЕМ ЗАПАХ ТРОЛЛЬИХ ВОЛОС! АХАХАХАААХАХХАХАХАААА!",
+      "speaker": "Nakoba",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "...this is more useless to you than that troll hair. But, Nakoba did say the merchants barter. Maybe you can get something more useful for these.",
+      "ru": "...для тебя это ещё бесполезнее, чем тролльи волосы. Но Накоба говорил, что торговцы меняются товарами. Может, за эти крышки удастся получить что-нибудь полезнее.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "New Quest Started: From the Bottom",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Со дна",
+      "speaker": "",
+      "stage": "Stage 1"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find someone in Thanos who wants to buy [3 Troll Hair]. Nakoba is at 191, 6, -5236",
+      "ru": "Найти в Таносе покупателя на [3 Troll Hair]. Накоба находится в 191, 6, -5236.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find someone in Thanos who wants to buy a [Decorative Bottlecap Collection]. Dobile is at 192, 6, -5219",
+      "ru": "Найти в Таносе покупателя на [Коллекцию декоративных крышек]. Добайл находится в 192, 6, -5219.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Find someone in Thanos who wants to buy some [Molten Jasplite Ingots]. Dorroc is at 179, 6, -5228",
+      "ru": "Найти в Таносе покупателя на [Слитки расплавленного джасплита]. Доррок находится в 179, 6, -5228.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find someone in Thanos who wants to buy a [Golemlus Power Cell]. Lodog is at 159, 6, -5285",
+      "ru": "Найти в Таносе покупателя на [Энергетическую ячейку Големлуса]. Лодог находится в 159, 6, -5285.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find someone in Thanos who wants to buy the Ice Drake Scales. Mastro is at 157, 6, -5256",
+      "ru": "Найти в Таносе покупателя на чешую ледяного дракона. Мастро находится в 157, 6, -5256.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find someone in Thanos who wants to buy an [Ardent Magma Crystal]. Dohstaj is at 179, 6, -5253",
+      "ru": "Найти в Таносе покупателя на [Пламенный магмовый кристалл]. Дохстадж находится в 179, 6, -5253.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Find someone in Thanos who wants to buy the [Dogun Flameshooter]. Syni is at 158, 5, -5228",
+      "ru": "Найти в Таносе покупателя на [Огнемёт догунов]. Сини находится в 158, 5, -5228.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Find someone in Thanos who wants to buy [Draani Thunderwill's Scepter]. Yobon is behind the stone walls at 185, 6, -5290",
+      "ru": "Найти в Таносе покупателя на [Скипетр Драани Громоволи]. Йобон находится за каменными стенами в 185, 6, -5290.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find someone in Thanos who wants to buy your [Eons-Lost Dwarven History Tablet]. Nakoba is at 191, 6, -5236",
+      "ru": "Найти в Таносе покупателя на [Древнюю табличку с историей дварфов]. Накоба находится в 191, 6, -5236.",
+      "stage": "Stage 9"
+    }
+  ],
+  "choices": []
+}

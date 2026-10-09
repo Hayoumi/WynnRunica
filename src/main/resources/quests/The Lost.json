@@ -1,0 +1,389 @@
+{
+  "quest": "The Lost",
+  "level": 85,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-lost",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ho, traveller! I need the help of a true explorer. I can see it in your eyes, you are an adventurer like me!",
+      "ru": "Эй, путник! Мне нужна помощь настоящего исследователя. По глазам вижу: ты, как и я, ищешь приключений!",
+      "speaker": "Dejol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "While you are here, adventurer, I could use your help with something. I have gotten myself into a small predicament in my travels.",
+      "ru": "Раз уж ты здесь, искатель приключений, мне бы пригодилась твоя помощь. В странствиях я столкнулся с небольшой неприятностью.",
+      "speaker": "Dejol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You see, me and three others were on a grand expedition to explore the entire canyon! Unfortunately, we ran into a slight problem...",
+      "ru": "Понимаешь, мы с тремя товарищами отправились в большую экспедицию, чтобы исследовать весь каньон! К сожалению, возникла небольшая проблема...",
+      "speaker": "Dejol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "The Canyon of the Lost is clearly called that for a reason, within hours, we had lost each other!",
+      "ru": "Каньон Потерянных явно не зря так называется: через несколько часов мы потеряли друг друга!",
+      "speaker": "Dejol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Luckily, we were prepared for it. We each carried a flag so if we ever got lost, we can raise it to be found.",
+      "ru": "К счастью, мы были к этому готовы. Каждый взял с собой флаг, чтобы поднять его, если заблудится. Так нас можно найти.",
+      "speaker": "Dejol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "They were all meant to come to my blue flag, but they must all be trapped in some predicament! The canyon can be a dangerous place.",
+      "ru": "Все должны были собраться у моего синего флага, но, должно быть, попали в беду! Каньон - опасное место.",
+      "speaker": "Dejol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I can see all three red flags from here, but it would be terrible if I went looking and they came back to this flag to find me gone!",
+      "ru": "Я вижу отсюда все три красных флага, но что, если я уйду их искать, а они вернутся к моему флагу и не найдут меня?",
+      "speaker": "Dejol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Do you think you could go and check if they're all alright? I'm sure I can find some reward for you if you help!",
+      "ru": "Не мог бы ты сходить и проверить, всё ли у них в порядке? Если поможешь, я точно найду, чем тебя отблагодарить!",
+      "speaker": "Dejol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "...AAAAAAAAAAAAAAAAAAAAHHHHHHHH!!!!!!!!! HEEEEEEEEEEEEELLLLLLLLPPPPPP!!!!!! THERE ARE BIIIIIIIIIIIRDS!!!!!!",
+      "ru": "...ААААААААААААААА!!!!!!!!!! ПОМОГИТЕЕЕЕЕЕЕЕЕ!!!!!! ТУТ ПТИИИИИИИИИИЦЫ!!!!!!",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "HUMAN! YOU, DOWN THERE! HELP ME! I was just trying to find my way back to my friends...",
+      "ru": "ЧЕЛОВЕК! ТЫ, ВНИЗУ! ПОМОГИ! Я просто пытался вернуться к друзьям...",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "When this GIANT BIRD KIDNAPPED ME and threw me in her nest! I think she thinks I'm one of her chicks!",
+      "ru": "А ТУТ ЭТА ГИГАНТСКАЯ ПТИЦА СХВАТИЛА МЕНЯ и закинула в своё гнездо! Кажется, она решила, что я один из её птенцов!",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "The Canyon's movements must've dislodged her eggs from her nest-",
+      "ru": "Должно быть, из-за сдвигов скал в каньоне её яйца выпали из гнезда-",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "O-OH GROOK, SHE'S PECKING ME! FIND HER EGGS NEARBY AND THROW THEM UP HERE... QUICKLY!!",
+      "ru": "О-ОЙ, ГРУК, ОНА МЕНЯ КЛЮЁТ! НАЙДИ ЕЁ ЯЙЦА РЯДОМ И ЗАКИНЬ ИХ СЮДА... БЫСТРЕЕ!!",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "YOU HAVE THE EGGS?? GOOD! THROW THEM UP HERE, PLEASE!!!",
+      "ru": "ТЫ НАШЁЛ ЯЙЦА?? ОТЛИЧНО! КИДАЙ ИХ СЮДА, ПОЖАЛУЙСТА!!!",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "W-WOAH, STAY BACK, BIRD! I have a... uhh... I DON'T HAVE A WEAPON, HUMAN! PLEASE HURRY UP!",
+      "ru": "Э-ЭЙ, НАЗАД, ПТИЦА! У меня есть... э-э... У МЕНЯ НЕТ ОРУЖИЯ, ЧЕЛОВЕК! ПОТОРОПИСЬ!",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "YES YES YES!!! THANK YOU, HUMAN! Oh, thank grook, this bird's leaving me alone now... It worked!",
+      "ru": "ДА ДА ДА!!! СПАСИБО, ЧЕЛОВЕК! Ох, слава груку, эта птица теперь от меня отстала... Сработало!",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I'll head back to Dejol, now... And I'm never going to go near another bird again!",
+      "ru": "Я теперь вернусь к Деджолу... И больше в жизни не подойду ни к одной птице!",
+      "speaker": "Fetu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "A-ah, hello. I'm g-guessing Dejol sent you?",
+      "ru": "А-а, привет. П-полагаю, тебя Деджол прислал?",
+      "speaker": "Yuge",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "W-Well, I was just walking through the c-canyon, when... the ground suddenly rose up underneath me and launched me all the way up here!",
+      "ru": "Н-ну, я просто шла по к-каньону, и тут... земля подо мной вдруг поднялась и подбросила меня аж сюда!",
+      "speaker": "Yuge",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "N-Now, I'm... embarrassed to admit it, but I'm REALLY afraid of heights, s-so I don't know what to do... Do you have any ideas?",
+      "ru": "С-сейчас мне... неловко это признавать, но я УЖАСНО боюсь высоты, т-так что я вообще не знаю, что делать... Есть идеи?",
+      "speaker": "Yuge",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "AAAAAAAAHHHHH!!!",
+      "ru": "АААААААА!!!",
+      "speaker": "Yuge",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "You should probably get down to check to see if she's okay.",
+      "ru": "Наверное, стоит спуститься и проверить, цела ли она.",
+      "speaker": "Narrator",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Y-YOU JERK!! I COULD HAVE DIED!! WHAT THE HELL IS WRONG WITH YOU???",
+      "ru": "Т-ТЫ ПРИДУРОК!! Я МОГЛА ПОГИБНУТЬ!! ЧТО С ТОБОЙ НЕ ТАК???",
+      "speaker": "Yuge",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "P-Please NEVER do that again! That was the worst thing I have ever done in my entire life!!",
+      "ru": "П-Пожалуйста, НИКОГДА больше так не делай! Это было худшее, что со мной вообще случалось в жизни!!",
+      "speaker": "Yuge",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "...Ugh! I-I'm going to head back to Dejol now. I hope I NEVER have to see you again!",
+      "ru": "...Уф! Я-я теперь вернусь к Деджолу. Надеюсь, мне БОЛЬШЕ НИКОГДА не придётся тебя видеть!",
+      "speaker": "Yuge",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Hey there! I'm in a bit of a pickle right now, you see. This house I took refuge in, well... The original owner must have left for a reason!",
+      "ru": "Эй, привет! Я тут попал в передрягу. Укрылся в этом доме, а ведь... первый хозяин, похоже, не зря его покинул!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "It's so sad... So many people are constantly displaced by the canyon's movements destroying their homes every year. I remember hearing a story once, it was about-",
+      "ru": "Печально... Каждый год подвижные скалы каньона разрушают дома, и стольким людям приходится уезжать. Помню, я слышал одну историю, там говорилось о-",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Wait... Hey, do you hear that?",
+      "ru": "Погоди... Эй, ты это слышишь?",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Hey! You alright down there?! Oh, lord, how are we going to get out of this? I'm up here, come find me.",
+      "ru": "Эй! Ты там внизу цел?! О боже, как же нам выбраться? Я наверху, найди меня.",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Oh... Well, this isn't good! The house just went and collapsed on us!",
+      "ru": "Ох... Это плохо! Дом взял и обрушился на нас!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "See what I was talking about, human? The canyon isn't really a good place to be. Now we're stuck in this pit!",
+      "ru": "Теперь понял, о чём я говорил, человек? Каньон вообще не лучшее место для жизни. А теперь мы ещё и застряли в этой яме!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Although... there is a crafting table over there... Hey, maybe you could collect some supplies and make something to get us out of here?",
+      "ru": "Хотя... вон там стоит верстак... Слушай, может, ты соберёшь материалы и смастеришь что-нибудь, чтобы нас отсюда вытащить?",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Well, that's certainly one way out of here. You should talk to Gordon.",
+      "ru": "Ну, это определённо один из способов отсюда выбраться. Поговори с Гордоном.",
+      "speaker": "Narrator",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Heh, that's certainly one way to get out here! You made an entire catapult, huh?",
+      "ru": "Хех, вот так способ выбраться! Ты построил целую катапульту, да?",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "So we're just going to launch ourselves out of this pit? You got it!",
+      "ru": "Значит, просто выстрелим собой из этой ямы? Решено!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "You",
+      "ru": "Ты",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Alrighty, I'll be right behind you!",
+      "ru": "Ладно, я сразу за тобой!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Gordon",
+      "ru": "Гордон",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Me first? Okay, I'll do just that!",
+      "ru": "Мне первому? Ладно, так и сделаю!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Alright, here I... GOOO!!",
+      "ru": "Ну всё, я... ЛЕЧУУУ!!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Hey, I made it!! You should come up as well, now.",
+      "ru": "Эй, получилось!! Теперь давай и ты выбирайся.",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Woah... That's certainly a lot of fun! Anyways, come talk to me.",
+      "ru": "Ого... Вот это веселье! Ладно, подойди, поговорим.",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Thanks for the help, friend! I couldn't have done it without you!",
+      "ru": "Спасибо за помощь, друг! Без тебя я бы не выбрался!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "I'm gonna go find my friend Dejol now- wait, you know who he is??",
+      "ru": "Я теперь пойду искать своего друга Деджола - погоди, ты его знаешь??",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Oh... Wow, guess it's a small world, huh? That's funny! I'll see you down there later, then!",
+      "ru": "О... Ого, мир тесен, да? Забавно! Тогда увидимся внизу!",
+      "speaker": "Gordon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Looks like you've found all three of Dejol's crew members! You should head back to Dejol.",
+      "ru": "Похоже, ты нашёл всех троих из команды Деджола! Пора возвращаться к нему.",
+      "speaker": "Narrator",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Ho, adventurer! Looks like you had some adventures helping out my crew!",
+      "ru": "Эй, искатель приключений! Похоже, спасая мою команду, ты и сам пережил немало приключений!",
+      "speaker": "Dejol",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Thank goodness they all found their way back unharmed. Mostly. Yuge's pride seems to have taken a hit.",
+      "ru": "Слава богу, все вернулись целыми. Ну, почти. У Юдж, похоже, только самолюбие пострадало.",
+      "speaker": "Dejol",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Anyway, we ought to get back to our exploration - and we'll stick together closer this time!",
+      "ru": "Ладно, нам пора возвращаться к нашей экспедиции - только в этот раз будем держаться поближе друг к другу!",
+      "speaker": "Dejol",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "You were a huge help, though, so please take this as a reward!",
+      "ru": "Но ты нам очень сильно помог, так что держи награду!",
+      "speaker": "Dejol",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "New Quest Started: The Lost",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Потерянные",
+      "speaker": "",
+      "stage": "Stage 3"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find Dejol at [452, 28, 4456]",
+      "ru": "Найти Деджола [452, 28, 4456].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find the three lost crew members at the red flags around [452, 28, -4456]",
+      "ru": "Найти трёх пропавших членов команды возле красных флагов рядом с [452, 28, -4456].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Return to Dejol at [452, 28, -4456] to tell him of your success",
+      "ru": "Вернуться к Деджолу и сообщить об успехе [452, 28, -4456].",
+      "stage": "Stage 3"
+    }
+  ],
+  "choices": []
+}

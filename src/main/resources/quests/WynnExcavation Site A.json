@@ -1,0 +1,211 @@
+{
+  "quest": "WynnExcavation Site A",
+  "level": 35,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "wynnexcavation-site-a",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, hey kid. Wanna make some money?",
+      "ru": "О, эй, малой. Хочешь подзаработать?",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I need you to translate this ancient text.",
+      "ru": "Мне нужно, чтобы ты помог перевести этот древний текст.",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Just run it down to the lab assistant, Tesha.",
+      "ru": "Просто сгоняй с ним к помощнице в лаборатории, Теше.",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I'd take it myself, but I'm far too important for grunt work! The lab is up there in the tent, and don't you dare damage the translation!",
+      "ru": "Я бы и сам сходил, но я слишком важная шишка для такой работы! Лаборатория вон там наверху, в палатке, и только попробуй испортить перевод!",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Hello, welcome to WynnExcavation Labs!",
+      "ru": "Привет, добро пожаловать в лаборатории ВиннРаскопок!",
+      "speaker": "Tesha",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Oh Vade sent you?",
+      "ru": "А, тебя Вейд прислал?",
+      "speaker": "Tesha",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Oh yes, the tablet I was waiting for!",
+      "ru": "Ага, та самая табличка, которую я ждала!",
+      "speaker": "Tesha",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Tesha",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Oh my! This is quite interesting..",
+      "ru": "Ого! А это уже очень интересно...",
+      "speaker": "Tesha",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Here, let me finish this up...",
+      "ru": "Секунду, дай я закончу...",
+      "speaker": "Tesha",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "..and there you are!",
+      "ru": "...всё, готово!",
+      "speaker": "Tesha",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "One tablet complete! Return it to Vade. Oh and don't read it!",
+      "ru": "Перевод таблички готов! Неси её обратно Вейду. И да, не вздумай читать!",
+      "speaker": "Tesha",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Who are you?",
+      "ru": "Ты ещё кто?",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Oh right, you're that kid I sent out!",
+      "ru": "А, точно, ты тот самый малой, которого я отправил!",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Well do you have the translated text or not?",
+      "ru": "Ну так что, перевод принёс или нет?",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "You do! Brilliant! Let's take a look at that...",
+      "ru": "Принёс! Отлично! Сейчас глянем...",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "\"Throw tribute an item to the wood that stands out, the right angle will open the way\"",
+      "ru": "\"Брось предмет в дар дереву, что отличается от прочего, и верный угол откроет путь\"",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I wonder if it is talking about inside the temple... Oh, uh, I forgot you were here. Stay out of this kid, it's grown up business!",
+      "ru": "Интересно, это про что-то внутри храма?.. А, э, я и забыл, что ты тут. Не лезь, малой, это дела для взрослых!",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Hey kid, did you just come from the tomb?",
+      "ru": "Эй, малой, ты что, только что из гробницы?",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I knew I shouldn't have been so lazy and got someone else to do the leg work!",
+      "ru": "Знал же, что не надо было лениться и сваливать всю беготню на кого-то другого!",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Gosh, I can't tell my boss about this, he'll have my head! Literally! Wynn Excavation is not a group you want to betray, they are more powerful than you will ever know.",
+      "ru": "Чёрт, я не могу рассказать об этом начальнику, он мне голову оторвёт! Буквально! ВиннРаскопки - не та контора, которую стоит предавать. Они куда могущественнее, чем ты можешь представить.",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "YOU'D BETTER NOT HAVE TAKEN ANYTHING! THAT IS OFFICIAL WYNNEXCAVATION PROPERTY!",
+      "ru": "НАДЕЮСЬ, ТЫ НИЧЕГО НЕ СПЁР! ЭТО ОФИЦИАЛЬНАЯ СОБСТВЕННОСТЬ ВИННРАСКОПОК!",
+      "speaker": "Excavator Vade",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "New Quest Started: WynnExcavation Site A",
+      "ru": "§#FFAA00Новый квест: §#FFFF55ВиннРаскопки, участок A",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Excavator Vade at [1150, 54, -1770]",
+      "ru": "Поговорить с землекопом Вейдом [1150, 54, -1770].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Bring the Ancient Writing to Tesha in the tents at [1082, 69, -1799]",
+      "ru": "Принести древние письмена Теше в палатки [1082, 69, -1799].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Return to Excavator Vade with the translated writing",
+      "ru": "Вернуться к землекопу Вейду с переводом письмен.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Solve this riddle in the tomb: \"Throw tribute an item to the wood that stands out, the right angle will open the way\"",
+      "ru": "Разгадать загадку в гробнице: \"Брось предмет в дар дереву, что отличается от прочего, и верный угол откроет путь\".",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Search the tombs",
+      "ru": "Осмотреть гробницы.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return and talk to Excavator Vade",
+      "ru": "Вернуться к землекопу Вейду и поговорить с ним.",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

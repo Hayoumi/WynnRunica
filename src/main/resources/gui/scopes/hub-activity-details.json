@@ -1,0 +1,577 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-activity-details",
+  "scopes": [
+    {
+      "id": "consumable-258da532069d8a1f",
+      "match": {
+        "title": "6x Mob Totems",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "6x Mob Totems",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-2d0f4b4b9ae9ee25",
+          "en": "<em> Duration: <num>m",
+          "ru": "<em> §dДлительность:§d <num>§fмин."
+        }
+      ]
+    },
+    {
+      "id": "consumable-0c3d143529b063fa",
+      "match": {
+        "title": "Third Clarion",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Third Clarion",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-ab5c2548335fdf36",
+          "en": "§7Effect:",
+          "ru": "§7§4Эффект:"
+        },
+        {
+          "id": "consumable-96af86fd09b060f0",
+          "en": "§7- Effect: Fire Resistance",
+          "ru": "§7- §7Эффект:§5 §fОгнестойкость"
+        },
+        {
+          "id": "consumable-b8bea3c261e35fc9",
+          "en": "§7- Duration: <num> minute",
+          "ru": "§7- §7Длительность:§5 <num> §fмин."
+        },
+        {
+          "id": "consumable-71c5b3698960dfcd",
+          "en": "§7While active, gain immunity to",
+          "ru": "§7Во время действия даёт §fиммунитет §7к"
+        },
+        {
+          "id": "consumable-73a6175bc0b2380e",
+          "en": "§7environmental fire.",
+          "ru": "§fогню §7окружающей среды."
+        },
+        {
+          "id": "consumable-02d5b4519d6a9897",
+          "en": "§7Fabled Utility Trinket",
+          "ru": "§cСказочный Вспомогательный Аксессуар"
+        },
+        {
+          "id": "consumable-44c1d8d3a3017810",
+          "en": "§7This tremendous horn is made",
+          "ru": "§8Этот огромный рог состоит"
+        },
+        {
+          "id": "consumable-bd2472aedc29bd8e",
+          "en": "§7up of fifteen rings. Its call",
+          "ru": "§8из пятнадцати колец. Его звук"
+        },
+        {
+          "id": "consumable-004e3cd29749116b",
+          "en": "§7chills those who hear it to the",
+          "ru": "§8пробирает до костей каждого,"
+        },
+        {
+          "id": "consumable-f003b7cc565ad7ef",
+          "en": "§7bone: a prelude to Annihilation.",
+          "ru": "§8кто его слышит: предвестие полного уничтожения."
+        }
+      ]
+    },
+    {
+      "id": "consumable-794a597ede65e889",
+      "match": {
+        "title": "Hearthkeeper's Staff",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Hearthkeeper's Staff",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-e88df77f59795b87",
+          "en": "§7 <em> Right-Click to seek",
+          "ru": "§7 <em> §fПКМ - искать"
+        },
+        {
+          "id": "consumable-7026d8b2e76ac827",
+          "en": "§7 <em> Left-Click to return flames",
+          "ru": "§7 <em> §fЛКМ - вернуть пламя"
+        },
+        {
+          "id": "consumable-8a9b49fe1ee841c1",
+          "en": "§7§fFollow §7the flames, §flight §7the dormant",
+          "ru": "§fСледуйте §7за пламенем, §fзажигайте §7потухшие"
+        },
+        {
+          "id": "consumable-8de218fba1a65410",
+          "en": "§7§7bonfires. §fSpread §7their warmth across",
+          "ru": "§7костры. §fНесите §7их тепло по всему"
+        },
+        {
+          "id": "consumable-5948894b3e20da5a",
+          "en": "§7§7the lands, so all may be protected.",
+          "ru": "§7миру, чтобы защитить всех."
+        },
+        {
+          "id": "consumable-88b739edd26c81af",
+          "en": "§7§cInformation:",
+          "ru": "§7§c§cИнформация:"
+        },
+        {
+          "id": "consumable-3daa29f0812f18c4",
+          "en": "§7§c- §eBonfires Lit: §f<num>§7/<num>",
+          "ru": "§7§c- §e§eЗажжено Костров:§e §f<num>§7/<num>"
+        },
+        {
+          "id": "consumable-fe5d051b077483e1",
+          "en": "§7§c- §eFlames Carried: §f<num> 🔥",
+          "ru": "§7§c- §e§eЗапас Пламени:§e §f<num> 🔥"
+        },
+        {
+          "id": "consumable-4c109c06a26efa72",
+          "en": "§7§c- §eTeleportation Scrolls: §aENABLED",
+          "ru": "§7§c- §e§eСвитки Телепортации:§e §a§aВКЛЮЧЕНЫ"
+        }
+      ]
+    },
+    {
+      "id": "consumable-f1d44bc722689356",
+      "match": {
+        "title": "Rubber Duck",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Rubber Duck",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-ab5c2548335fdf36",
+          "en": "§7Effect:",
+          "ru": "§4Эффект:"
+        },
+        {
+          "id": "service-83da58f2826f5d72",
+          "en": "§7A plushie of a Rubber Duck.",
+          "ru": "§7Мягкая игрушка §fRubber Duck§7."
+        },
+        {
+          "id": "service-fd74f18d7b95a15a",
+          "en": "§7If used while active, resets the",
+          "ru": "§7Повторное использование обновляет"
+        },
+        {
+          "id": "service-abf215fb81ccc375",
+          "en": "§7duration, and moves the plushie.",
+          "ru": "§7длительность и перемещает игрушку."
+        },
+        {
+          "id": "service-1db6c894949b0cf2",
+          "en": "§7Legendary Vanity Trinket",
+          "ru": "§bЛегендарный Декоративный Аксессуар"
+        },
+        {
+          "id": "service-4f793ed5b2672757",
+          "en": "§7A squeaky rubber duck, colored with a",
+          "ru": "§8Пищащая резиновая уточка, окрашенная"
+        },
+        {
+          "id": "service-e5dce22a276b545b",
+          "en": "§7vibrant yellow paint. It's one of the few",
+          "ru": "§8в яркий жёлтый цвет. Один из немногих"
+        },
+        {
+          "id": "service-52a24f0b2e965f15",
+          "en": "§7bright objects in a place like Timasca.",
+          "ru": "§8ярких предметов в таком месте, как Тимаска."
+        },
+        {
+          "id": "consumable-abec8327dabf4f42",
+          "en": "§7 <em> Right-Click to place",
+          "ru": "§7 <em> §fПКМ - поставить"
+        }
+      ]
+    },
+    {
+      "id": "consumable-06cfd6fdcb21c2cb",
+      "match": {
+        "title": "Bonfire Lily",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Bonfire Lily",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-933108dbb4da4265",
+          "en": "§7§7Sets the user §fon fire §7for §f<num>s§7.",
+          "ru": "§fПоджигает §7пользователя на §f<num>с§7."
+        },
+        {
+          "id": "consumable-11e7949db73d577d",
+          "en": "§7§a<num>% §7Fire Damage",
+          "ru": "§7§a<num>% §7§7Урона Огнём"
+        },
+        {
+          "id": "consumable-34b3071f87ce45ad",
+          "en": "§7Rare Utility Trinket",
+          "ru": "§dРедкий Вспомогательный Аксессуар"
+        },
+        {
+          "id": "consumable-3cf21ff2c0f60b02",
+          "en": "§7Festival of the Bonfire",
+          "ru": "§#FE7A03Фестиваль Костра"
+        },
+        {
+          "id": "consumable-e783bc6542057f1f",
+          "en": "§7The flowers which bloom from",
+          "ru": "§8Цветы, что распускаются"
+        },
+        {
+          "id": "consumable-ef97ae0cc4b4d6cc",
+          "en": "§7the hearth tend to remember",
+          "ru": "§8у очага, хранят память"
+        },
+        {
+          "id": "consumable-b3ba7c5d1e4726fa",
+          "en": "§7its powerful warmth.",
+          "ru": "§8о его сильном тепле."
+        }
+      ]
+    },
+    {
+      "id": "consumable-086bbe18e7dcc38b",
+      "match": {
+        "title": "§fⒻ§l Craft §rⒻ",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "§fⒻ§l Craft §rⒻ",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-086bbe18e7dcc38b",
+          "en": "§fⒻ§l Craft §rⒻ",
+          "ru": "§fⒻ§l §f§lСоздать§f§l §rⒻ"
+        },
+        {
+          "id": "consumable-4590bee0062262ad",
+          "en": "§7 - §fPants §7[Lv. <num> to <num>]",
+          "ru": "§7 - §f§fПоножи§f §7[§7Ур.§7 <num> §7до§7 <num>]"
+        },
+        {
+          "id": "consumable-5dcbad6a4721757d",
+          "en": "§7Crafting Time: §f<num>s",
+          "ru": "§7§7Время Создания:§7 §f<num>§fс"
+        },
+        {
+          "id": "consumable-d717d0449019a5ec",
+          "en": "§fShift-Click§7 to craft non-stop",
+          "ru": "§f§fShift + ЛКМ§7§7 §7- создавать непрерывно"
+        }
+      ]
+    },
+    {
+      "id": "consumable-8fc5c4d5a4809691",
+      "match": {
+        "title": "Enemy Radiance Power Level",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Enemy Radiance Power Level",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-d171e605d503e120",
+          "en": "§7Current Effect: <num> Radiance Power",
+          "ru": "§7§7Текущий Эффект:§7 <num> §fRadiance Power"
+        }
+      ]
+    },
+    {
+      "id": "consumable-5ad4557959dd77d1",
+      "match": {
+        "title": "Enemy Radiance Chance",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Enemy Radiance Chance",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-29228dacb4fe2a28",
+          "en": "§7Current Effect: <num>% Radiance Chance",
+          "ru": "§7§7Текущий Эффект:§7 <num>% §fRadiance Chance"
+        }
+      ]
+    },
+    {
+      "id": "consumable-de3a4a849e75b643",
+      "match": {
+        "title": "Enemy Health",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Enemy Health",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-1ad4fba81b0c6dcf",
+          "en": "§7Current Effect: <num>% Enemy Health",
+          "ru": "§7§7Текущий Эффект:§7 <num>% §fЗдоровья Врагов"
+        }
+      ]
+    },
+    {
+      "id": "consumable-911f12ef07b3bb7b",
+      "match": {
+        "title": "Enemy Resistance",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Enemy Resistance",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-037820a166a1ef5b",
+          "en": "§7Current Effect: <num>% Enemy Resistance",
+          "ru": "§7§7Текущий Эффект:§7 <num>% §fСопротивления Врагов"
+        }
+      ]
+    },
+    {
+      "id": "consumable-e75d54b922b20362",
+      "match": {
+        "title": "Enemy Damage",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Enemy Damage",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-df12377d3564993e",
+          "en": "§7Current Effect: <num>% Enemy Damage",
+          "ru": "§7§7Текущий Эффект:§7 <num>% §fУрона Врагов"
+        }
+      ]
+    },
+    {
+      "id": "consumable-09fb0f060e82dc47",
+      "match": {
+        "title": "The Canyon Colossus",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "The Canyon Colossus",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-df7c9510b3fd54e9",
+          "en": "In its effort to protect",
+          "ru": "§8Созданный для защиты"
+        },
+        {
+          "id": "consumable-84a2b400b72f796c",
+          "en": "Gavel, the Canyon Colossus",
+          "ru": "§8Гавела, каньонный колосс"
+        },
+        {
+          "id": "consumable-050f46314ee5e22e",
+          "en": "instead only endangers the",
+          "ru": "§8теперь лишь угрожает"
+        },
+        {
+          "id": "consumable-fc121674b41b4ab9",
+          "en": "province. With nobody to",
+          "ru": "§8провинции. Столетиями"
+        },
+        {
+          "id": "consumable-6e7dd514ae896d5d",
+          "en": "maintain it for centuries, it",
+          "ru": "§8за ним никто не ухаживал,"
+        },
+        {
+          "id": "consumable-e1bf7b79d4a49fb3",
+          "en": "is on the verge of tearing",
+          "ru": "§8и теперь он вот-вот"
+        },
+        {
+          "id": "consumable-ebf217ea1f84df33",
+          "en": "the land asunder. It must be",
+          "ru": "§8разорвёт землю на части. Его нужно"
+        },
+        {
+          "id": "consumable-e252f686dac65482",
+          "en": "calmed, as soon as possible.",
+          "ru": "§8успокоить как можно скорее."
+        },
+        {
+          "id": "consumable-7a980ddf73f43c13",
+          "en": "§aClick to Open",
+          "ru": "§aНажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "consumable-5f4748bbe45d3e99",
+      "match": {
+        "title": "§7Looking for a party",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Looking for a party",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-5f4748bbe45d3e99",
+          "en": "§7Looking for a party",
+          "ru": "§7§e§lПоиск Группы"
+        },
+        {
+          "id": "consumable-192f89a20fa9f6fd",
+          "en": "§7§7For §6The Canyon Colossus",
+          "ru": "§7§7§7Для§7 §6The Canyon Colossus"
+        },
+        {
+          "id": "consumable-48ffadd73b4f5c29",
+          "en": "§dStatus:",
+          "ru": "§d§dСтатус:"
+        },
+        {
+          "id": "consumable-cf8a97135cfbbcd6",
+          "en": "§d- §7Region: EU, NA",
+          "ru": "§d- §7§7Регион:§7 EU, NA"
+        },
+        {
+          "id": "consumable-741c07075b83c223",
+          "en": "§d- §7Time estimate: §bVery Fast",
+          "ru": "§d- §7§7Время Ожидания:§7 §b§bОчень Быстро"
+        },
+        {
+          "id": "consumable-a83cf9ed67764052",
+          "en": "§d(keep §b<num> Tol Rune§d in your",
+          "ru": "§d(§dдержите§d §b<num> Tol Rune§d §dв своём"
+        },
+        {
+          "id": "consumable-0327906b66435a70",
+          "en": "§dinventory to find a party",
+          "ru": "§dинвентаре, чтобы найти группу"
+        },
+        {
+          "id": "consumable-262b07beafef2d2a",
+          "en": "§dfaster)",
+          "ru": "§dбыстрее)"
+        },
+        {
+          "id": "consumable-cadb9cb3cea0165f",
+          "en": "<em> Click to leave the queue",
+          "ru": "<em> §eНажмите, чтобы Покинуть Очередь"
+        }
+      ]
+    },
+    {
+      "id": "consumable-69bb6afc9efe3aa5",
+      "match": {
+        "title": "The Wartorn Palace",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "The Wartorn Palace",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-b8d2d106169cf6bc",
+          "en": "On the brink of war, Fruma",
+          "ru": "§8На пороге войны Фруме"
+        },
+        {
+          "id": "consumable-98c06e2b0ee40c30",
+          "en": "faces devastation from within",
+          "ru": "§8грозит разрушительная сила"
+        },
+        {
+          "id": "consumable-8d73d34cdad34c1f",
+          "en": "the palace walls. Its source",
+          "ru": "§8из стен дворца. Её источник"
+        },
+        {
+          "id": "consumable-5ccebcbdc0b36d43",
+          "en": "must be stopped, at all costs.",
+          "ru": "§8нужно остановить любой ценой."
+        },
+        {
+          "id": "consumable-7a980ddf73f43c13",
+          "en": "§aClick to Open",
+          "ru": "§aНажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "consumable-8f40376f90049e8f",
+      "match": {
+        "title": "Aspect of a Scorching Sun",
+        "anchors": [],
+        "priority": 4900
+      },
+      "title": {
+        "id": "title",
+        "en": "Aspect of a Scorching Sun",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-323bda61e6eeb765",
+          "en": "§7§7§nPyrokinesis§7 gains §f<num> <em> §7Area of Effect.",
+          "ru": "§7§7§n§7§nПирокинез§7§7 §7получает§7 §f<num> <em> §7§7к области действия."
+        }
+      ]
+    }
+  ]
+}

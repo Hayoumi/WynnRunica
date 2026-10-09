@@ -1,0 +1,308 @@
+{
+  "quest": "Blazing Retribution",
+  "level": 44,
+  "difficulty": "Hard",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "blazing-retribution",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh sweet baby bovine, my house, what am I going to do? Wait, who are you?",
+      "ru": "Ох, святые коровки, мой дом, да что же мне теперь делать? Погоди, ты кто такой?",
+      "speaker": "Piere",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Oh, a Human. Did the Llevigar authorities send you?",
+      "ru": "О, человек. Тебя власти Ллевигара прислали?",
+      "speaker": "Piere",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Detective Jackson has already been here. Not that he's doing anything useful.",
+      "ru": "Детектив Джексон тут уже был. Только толку от него пока вообще ноль.",
+      "speaker": "Piere",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "An Orc managed to find some fire-imbued magical axe and burned down my house! Jackson didn't even call a firefighter!!",
+      "ru": "Какой-то орк раздобыл магический топор, пропитанный огнём, и спалил мой дом! А Джексон даже пожарного не вызвал!!",
+      "speaker": "Piere",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I don't know what to do, but maybe if you find Detective Jackson, you can kick his sorry rear into gear...",
+      "ru": "Я сам не знаю, что делать, но, может, если найдёшь детектива Джексона, то хоть пнёшь его ленивую задницу, чтобы зашевелился...",
+      "speaker": "Piere",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "The Orcs are already savage brutes. If they really have their hands on magical weapons, we're all in trouble!",
+      "ru": "Орки и без того дикие зверюги. А если у них и правда в руках магическое оружие, то нам всем несдобровать!",
+      "speaker": "Piere",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I believe Detective Jackson is by his cart \"planning his next move.\" He's not far from here. Just continue past my farm!",
+      "ru": "По-моему, детектив Джексон сейчас стоит у своей телеги и \"планирует следующий ход\". Недалеко отсюда. Просто иди дальше мимо моей фермы!",
+      "speaker": "Piere",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "How can I go about this...? I can't get involved myself, and they won't let me near... Wait, a human?",
+      "ru": "И как мне это провернуть...? Сам я вмешаться не могу, а меня туда и близко не подпускают... Погоди, человек?",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "...what do you MEAN \"what am I doing?\" This is a delicate situation! I need to- wait...actually, you might just be the help I need.",
+      "ru": "...В смысле, \"что я делаю\"? Тут действовать нужно осторожно! Мне нужно- погоди... вообще-то ты, похоже, как раз тот, кто может мне помочь.",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I'll give you the lowdown- we believe the orcs stole magical weaponry from within Llevigar, particularly a flaming axe.",
+      "ru": "Сейчас всё быстро разложу - мы считаем, что орки стащили магическое оружие из Ллевигара, в частности пылающий топор.",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "However, that's a loophole in the ceasefire we had enacted with the Orcs. Theft isn't considered an act of aggression...",
+      "ru": "Но в условиях нашего перемирия с орками есть лазейка. Кража не считается актом агрессии...",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "And that means my hands are tied. Humans, however, were not mentioned in the notes, so you'll need to retrieve it.",
+      "ru": "И это значит, что у меня руки связаны. А вот люди в договоре вообще не упоминались, так что вернуть топор придётся тебе.",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Our only saving grace is that it'll be impossible for them to replicate its power- Orcs are hilariously inept at magic.",
+      "ru": "Единственный плюс в том, что повторить его силу у них не выйдет - орки в магии просто до смешного бездарны.",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "But, to the primary problem- You've probably seen how many orc camps are around here. Searching will take a long while...",
+      "ru": "Но вернёмся к главной проблеме - ты, наверное, уже видел, сколько тут орочьих лагерей. Искать придётся долго...",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "My only leads are that the \"Sablestone\" and \"Loamsprout\" camps seem to be celebrating recently. Best to start there, yes?",
+      "ru": "Пока у меня только две зацепки: лагеря \"Саблстоун\" и \"Лоамспраут\" в последнее время что-то празднуют. Значит, начинать лучше с них, да?",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Just to review- You need to search those two camps for the Axe of Llevigar, and then return it to me if you find it.",
+      "ru": "На всякий случай повторю - тебе нужно обыскать эти два лагеря в поисках Топора Ллевигара и, если найдёшь, принести его мне.",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Sablestone is to the north, and Loamsprout to the south. They will be guarded, so don't be afraid to knock some heads.",
+      "ru": "\"Саблстоун\" на севере, а \"Лоамспраут\" на юге. Их будут охранять, так что не бойся настучать кому надо по башке.",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I see no axe in your hands, so I should assume neither Sablestone or Loamsprout had it.",
+      "ru": "Топора у тебя в руках я не вижу, значит, ни в \"Саблстоуне\", ни в \"Лоамспрауте\" его не оказалось.",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Wait, really? A stick was the most powerful weapon they had? And Loamsprout...threw their dinner at you...?",
+      "ru": "Погоди, серьёзно? Палка была самым мощным оружием, которое у них нашлось? А в \"Лоамспрауте\"... в тебя ужином кидались...?",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I can't believe this! How are those...those THINGS outsmarting us?! Are they shuffling the axe between camps?",
+      "ru": "Не могу в это поверить! Как эти... эти ТВАРИ нас переигрывают?! Они что, гоняют топор между лагерями?",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "There are over a dozen camps between the Orcs and Goblins that they could be swapping it between!",
+      "ru": "У орков и гоблинов тут больше дюжины лагерей, между которыми они могут его тасовать!",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "What if the GOBLINS get a hold of it?! They're the cleverest by half of all of them, so that could actually be a threat!",
+      "ru": "А если топор попадёт к ГОБЛИНАМ?! Эти-то среди них самые башковитые, вот это уже реально опасно!",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Searching all the camps one by one will be far too slow, gah!! How am I going to fix this?!",
+      "ru": "Обыскивать все лагеря по одному слишком долго, да чтоб тебя!! Как мне вообще это разрулить?!",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "There's Earthpit, and Cliffhearth, Shineridge and Stonecave, Sunspark, Mudspring, Holehold, I-",
+      "ru": "Есть Земляная Яма, и Утёсный Очаг, Сияющий Хребет и Каменная Пещера, Солнечная Искра, Грязевой Родник, Дырявая Крепь, я-",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Fire! Stop!! I hold magic cutter! LISTEN TO POXPER!!",
+      "ru": "Огонь! Стой!! У Покспера магический рубак! СЛУШАЙ ПОКСПЕРА!!",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "I- I can't believe it, that has to be the one! AFTER THAT ORC, NOW!!",
+      "ru": "Я- я не могу поверить, это точно он! ЗА ЭТИМ ОРКОМ, ЖИВО!!",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "GRRRH!! What 'Uthniiazek' mean?!",
+      "ru": "ГРРРХ!! Что значит 'Утнииазек'?!",
+      "speaker": "???",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Uthniiazek! Uthniiazek!! WHY NO LISTEN TO Poxper?",
+      "ru": "Утнииазек! Утнииазек!! ПОЧЕМУ НЕ СЛУШАТЬ ПОКСПЕРА?",
+      "speaker": "Poxper",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Stupid Villager magic thing! Why fire no listen?",
+      "ru": "Тупая магическая штука жителей! Почему огонь не слушать?",
+      "speaker": "Poxper",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Poxper say thing and make fire...what else axe say? 'Azektoluth?'",
+      "ru": "Покспер сказать слово и делать огонь... что ещё топор сказать? 'Азектолут?'",
+      "speaker": "Poxper",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Hraahah! Poxper control fire! Fire- kill human with Poxper! Uthniiazek! Azektoluth!",
+      "ru": "Храаах! Покспер управлять огнём! Огонь - убить человека вместе с Покспером! Утнииазек! Азектолут!",
+      "speaker": "Poxper",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "That looks like the axe of Llevigar to me! Blue finish, hot to the touch- well done! What Orc boss had stolen it?",
+      "ru": "Похоже, это и есть топор Ллевигара! Синяя отделка, на ощупь горячий - отлично сработано! Какой орочий вождь его спёр?",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Poxper? That...hm. This could be bad. I've head that name, and he's a fairly prolific Orc chief. You killed him, right?",
+      "ru": "Покспер? Это... хм. Плохо дело. Я слышал это имя, он довольно известный орочий вождь. Ты же его убил, да?",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Mmm... Hopefully that Veretel won't catch wind of it. Regardless, you've done a great service for Villager-kind!",
+      "ru": "Ммм... Будем надеяться, что до Веретеля это не дойдёт. Как бы там ни было, ты здорово помог всему народу жителей!",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Here's your compensation for that. Thank you for the aid!",
+      "ru": "Вот твоя награда за это. Спасибо за помощь!",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "New Quest Started: Blazing Retribution",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Пылающее возмездие",
+      "speaker": "",
+      "stage": "Stage 7"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Piere in the Llevigar Plains at [-1851, 56, -4959]",
+      "ru": "Поговорить с Пьером на равнинах Ллевигара [-1851, 56, -4959].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Report the attack to Detective Jackson at [-1731, 53, -4836]",
+      "ru": "Сообщить детективу Джексону о нападении [-1731, 53, -4836].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Look for the stolen weapon at the Sablestone and Loamsprout Orc camps",
+      "ru": "Найти украденное оружие в лагерях орков Саблстоун и Лоамспраут.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Return to Detective Jackson with the news",
+      "ru": "Вернуться к детективу Джексону с новостями.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find the hidden camp in the water near Piere's house at [-1822, 49, -4903]",
+      "ru": "Найти скрытый лагерь на воде неподалёку от дома Пьера [-1822, 49, -4903].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Kill Orc Leader Poxper",
+      "ru": "Убить вождя орков Покспера.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Return the Magic Axe to the Detective",
+      "ru": "Вернуть волшебный топор детективу.",
+      "stage": "Stage 7"
+    }
+  ],
+  "choices": []
+}

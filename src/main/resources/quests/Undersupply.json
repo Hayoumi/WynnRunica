@@ -1,0 +1,966 @@
+{
+  "quest": "Undersupply",
+  "level": 107,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "undersupply",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oho, now that's some dress I've not seen in many a moon! You're one of those Highlands folk, aren't ya? Quite some luxury ya must've lived with.",
+      "ru": "Охо, такой наряд я уже много лун не видел! Ты ведь из Нагорья, да? Небось привык там к роскоши.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "'s a bit more humble down here in the shadow of the dam. Surprised someone like you would take the trip, but it ain't a complaint. Getting about to see the world is a fine endeavor!",
+      "ru": "Тут, в тени дамбы, всё куда поскромнее. Удивительно, что такой, как ты, вообще сюда забрёл, но я не жалуюсь. Мир посмотреть - дело хорошее!",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Unfortunately, the bar here's dry. Sure, I got alcohol, but you drink that, and you'll be passing more water than ya took in. Dries you right out, and right now we haven't got any water to spare. Dangerous, y'know?",
+      "ru": "Только вот в баре сейчас нечем угостить. Спиртное-то есть, но от него жажда лишь сильнее. Высушит тебя совсем, а воды у нас и без того в обрез. Опасное дело, знаешь ли.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "The dam opens up every month or so to let out some water for us, but is passes through a noble manor, past the hill, rationed out to the rest of the forest.",
+      "ru": "Дамбу открывают примерно раз в месяц, чтобы пустить нам немного воды. Но сначала она идёт в дворянское поместье за холмом, а уже оттуда её распределяют по всему лесу.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "It's so little though, nowadays. The children are going thirsty. The muck in the riverbeds is more mud than water- so even if ya boil it out like I do, what you get is foul trifles.",
+      "ru": "Только сейчас её дают совсем мало. Дети уже мучаются от жажды. В руслах рек теперь больше грязи, чем воды - и даже если её кипятить, как я, получается одна мерзость.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Didn't used to be like this, though. Ain't sure what's changed, but I'm just an old geezer. I've lived my life enough- it's what it's doing to the kids that has me worried. ...say, stranger.",
+      "ru": "Раньше такого не было. Не знаю, что изменилось, но я-то уже старик, своё пожил. А вот за детей тревожно. ...слушай, странник.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "If you're touring about here, you'll probably see the manor soon enough. If ya could get them to spare us some more water a while, I'll give ya a discount! How's about it?",
+      "ru": "Если гуляешь тут по округе, до поместья всё равно скоро доберёшься. Если сможешь выбить для нас чуть больше воды, я тебе потом скидку сделаю! Ну как?",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Ain't quite sure how you would go about convincing the nobles to let out more water for us, I admit. If I did, I'd take the trek up the hill myself- even in spite of my creaky ol' back.",
+      "ru": "Честно говоря, не знаю, как уговорить знать дать нам больше воды. Знал бы, сам бы поднялся на холм, хоть спина у меня и никуда не годится.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Even if it's just getting them to put a word in to the Sovereign. I imagine that come-lately Zhiraok would do something about it all. I swear that man doesn't know what sleep is...",
+      "ru": "Хоть бы попросить их замолвить словечко Сюзерену. Думаю, этот новый Сюзерен, Жираок, что-нибудь да придумал бы. Клянусь, этот человек вообще не знает, что такое сон...",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I can appreciate a young'un with some spark in their eyes, but he needs to learn to slow down! What's that saying about the brightest candle burning twice as fast?",
+      "ru": "Я люблю молодых с огоньком в глазах, но ему бы научиться притормаживать! Как там говорится - самая яркая свеча быстрее всех и сгорает?",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Oh, my! Who are you? In such fantastical equipment! Certainly not a guard- I've never seen anything like it! Oh me, oh my...",
+      "ru": "Ох! Кто же ты такой? И что за удивительное снаряжение! Уж точно не стражник, я никогда ничего подобного не видела! Вот так чудеса...",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Unless... Are you, perhaps...I have heard whispers on the wind of a new Sovereign? I have seen our Sovereign dress rather differently, so maybe-",
+      "ru": "Если только... Может, ты... До меня доходили слухи о новом Сюзерене. Хотя наш Сюзерен одевается совсем иначе, так что, наверное-",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "No? You aren't? Hm! Well, be that as it may, I do wish I could welcome you more hospitably, stranger, but we are in the lean time of the month- the leanest I have seen.",
+      "ru": "Нет? Не он? Хм! Как бы там ни было, я рада тебе, странник, и хотела бы принять тебя как следует. Но сейчас у нас самая тяжёлая пора месяца. Такого голода и жажды я давно не помню.",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "*cough* Oh dear, excuse me. My throat is simply so dry... My children need the water more than I, but I would darn a dozen robes for but a glass now.",
+      "ru": "*кашель* Ох, извини. В горле всё пересохло... Моим детям вода нужнее, чем мне, но за один стакан сейчас я бы и дюжину мантий заштопала.",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "The dam opens every month or so- I assume you wouldn't know, stranger. The water is rationed to us by the nobles in a manor over the hill.",
+      "ru": "Дамбу открывают где-то раз в месяц - ты, наверное, этого не знал, странник. Воду нам выдают по норме дворяне из поместья за холмом.",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "This time of year is usually dry, but the amount of water we have received lately has been less and less. I wonder what is happening...",
+      "ru": "В это время года тут обычно сухо, но в последнее время воды дают всё меньше и меньше. Не понимаю, что вообще происходит...",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "This kind lumberer has been visiting and passing out bottles, and without him I am certain my children wouldn't have made it. I'm unsure how much longer I can keep my family healthy...",
+      "ru": "Один добрый лесоруб приходит сюда и раздаёт бутылки воды. Без него мои дети, я уверена, уже бы не выжили. Не знаю, сколько ещё смогу уберечь семью от болезней...",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Oh, if only those nobles could spare more for us... Perhaps I could speak with them- but then, who would watch over my children here?",
+      "ru": "Ох, если бы только эта знать могла выделить нам чуть больше... Может, я бы сама с ними поговорила - но кто тогда присмотрит за моими детьми?",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "So...as much as I would like to welcome you with a meal and a hot cup of tea... I simply can't. I am just so sorry for this, stranger.",
+      "ru": "Так что... как бы мне ни хотелось угостить тебя едой и горячим чаем... я не могу. Мне правда очень жаль, странник.",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I beg your pardon for it. I cannot spare the hospitality. Even my gardens I've had to abandon... My great-grandmother's flowers have wilted.",
+      "ru": "Прости меня за это. Я не могу позволить себе такую роскошь, как гостеприимство. Я даже свой сад забросила... Цветы моей прабабушки засохли.",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "My son had the idea to press the flowers so they would not be gone forever...But as it is, the risk of losing the rest of my family for the drought... I can't bear it!",
+      "ru": "Мой сын придумал засушить цветы, чтобы сохранить их навсегда... Но теперь из-за засухи я могу потерять и семью... Этого я не вынесу!",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "...it may be rude to ask, but...could you ask the nobles of the manor, perhaps? To spare a drop or two extra? I'd be forever indebted to you...",
+      "ru": "...может, это и нагло, но... не мог бы ты поговорить с дворянами из поместья? Попросить их дать нам хоть каплю лишней воды? Я бы до конца жизни была тебе обязана...",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Whoa. That is positively outlandish dress. You...couldn't be a crown guard, can you be? That's simply so far out of uniform...so are you from the Highlands, maybe?",
+      "ru": "Ого. Какой необычный наряд. Ты... ведь не из королевской стражи? На форму совсем не похоже... Может, ты из Нагорья?",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "But then, why would you be here? The Festival...isn't that soon over in Espren? Why come all the way over here? I've hardly anything to trade, even.",
+      "ru": "Но тогда что ты тут забыл? Фестиваль ведь скоро в Эспрене, разве нет? Зачем тащиться аж сюда? У меня тут даже толком торговать нечем.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "It's the dry season, you know. End of the month, I'm sure you- ehm, wait. Perhaps, since you live atop the dam, that isn't the case? Oh, what I would do for that luxury!",
+      "ru": "Сейчас сухой сезон, знаешь ли. Конец месяца, так что ты наверняка- эм, хотя погоди. Может, если ты живёшь наверху, у дамбы, то тебе это всё и не знакомо? Эх, мне бы такую роскошь...",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Well, to the point- I've nothing to sell but dry herbs. A sad state for our village, when the apothecary cannot even make medicine, but every bit of water has to go towards necessities.",
+      "ru": "В общем, торговать мне нечем, кроме сухих трав. До чего докатилась наша деревня: даже аптекарь не может готовить лекарства, потому что вся вода уходит на самое необходимое.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "We've been receiving less and less. Some generous folks have been sharing, but that does only so far. A glass here and there cannot revitalize my poor garden.",
+      "ru": "Нам дают всё меньше и меньше. Да, добрые люди делятся, но так далеко не уедешь. Пара стаканов тут и там мой бедный сад не спасут.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "If you want to find something more suited to the luxuries you might be used to, perhaps visit the manor over the hill? They do ration out the water to us, as well.",
+      "ru": "Если ищешь что-то под стать привычной тебе роскоши, загляни в поместье за холмом. Там же и распределяют воду для нашей деревни.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "...far be it from me to make demands of a visitor, but... Should you visit, could you put in a word with them? A kindness begets a kindness, after all.",
+      "ru": "...не мне, конечно, требовать что-то от гостя, но... если всё-таки пойдёшь туда, не мог бы замолвить за нас словечко? Добро ведь добром и возвращается.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "I've lived here all my life, I have. And I've always been learned to make everything stretch, to be diligent and frugal, but with things as they are, those skills fail me.",
+      "ru": "Я всю жизнь здесь живу. Меня всегда учили растягивать ресурсы, быть бережливым и терпеливым, но при нынешних делах эти умения уже не спасают.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "People could fall ill without my services, could die, and I would hate to see our families broken apart, but I may have no choice but to leave if this keeps up.",
+      "ru": "Люди без моих лекарств могут заболеть, могут умереть, и мне страшно смотреть, как семьи разваливаются. Но если так пойдёт и дальше, у меня, может, просто не останется выбора, кроме как уйти отсюда.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Oh, but I'm sure a sightseer like yourself doesn't want to hear the qualms of a man such as myself. Do enjoy the sights of our humble forest, would you?",
+      "ru": "Ох, но я уверен, что такому путешественнику, как ты, неинтересно слушать нытьё вроде моего. Просто погуляй по нашему скромному лесу, ладно?",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "With the manor over the hill there barely letting out water for us anymore, it's all getting so much tougher. Kills me to see the children struggling like this...",
+      "ru": "С тех пор как поместье за холмом почти перестало отпускать нам воду, жить стало куда тяжелее. Убивает смотреть, как дети так мучаются...",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "So...as much as I would like to welcome you with a meal and a hot cup of tea... I simply can't. I am just so sorry for this, stranger- there is barely enough water for my own family to drink.",
+      "ru": "Так что... как бы я ни хотела встретить тебя ужином и горячим чаем... я просто не могу. Прости, странник - воды едва хватает даже моей семье на то, чтобы просто пить.",
+      "speaker": "Mother Aris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Either way... It is difficult here. Perhaps I ought petition the Sovereeign to increase the rations. I'm sure he would listen, given how much he has helped in the past twenty years, or so.",
+      "ru": "Как ни крути... тут сейчас тяжело. Может, мне самому подать прошение Сюзерену, чтобы увеличили пайки. Он ведь за последние двадцать лет много кому помогал, должен и нас услышать.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Hrm. Can't even wash my clothes with the streams this claggy and slow... What a dilemma.",
+      "ru": "Хм. В этих грязных, еле текущих ручьях даже одежду не постирать... Вот незадача.",
+      "speaker": "Duress",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I'm telling you, the guards in the dam are putting something in the water to turn the frogs gigantic!",
+      "ru": "Да говорю тебе, стража на дамбе что-то подмешивает в воду, чтобы лягушки росли гигантскими!",
+      "speaker": "Doyel",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "I've seen one with my own eyes, wandering about! Soon enough they'll send them to eat us!",
+      "ru": "Я сам такую видел, она шастала тут! Скоро они натравят их на нас, вот увидишь!",
+      "speaker": "Doyel",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "What? Selling the house? What do you- Oh, that!",
+      "ru": "Что? Продажа дома? Ты о чём- А, об этом!",
+      "speaker": "Ryde",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "No, no, a salesman sold me a 'For Sale' sign, in case I wanted to sell something. I wasn't sure where else to put it, is all.",
+      "ru": "Нет-нет, один торговец продал мне табличку \"Продаётся\", на случай если я когда-нибудь захочу что-то продать. А я просто не знал, куда её поставить.",
+      "speaker": "Ryde",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "It's dry enough here that I have considered it, though...",
+      "ru": "Хотя тут уже настолько сухо, что я и правда подумывал об этом...",
+      "speaker": "Ryde",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Welcome to the manor. Have the townspeople sent you?",
+      "ru": "Добро пожаловать в поместье. Тебя прислали жители деревни?",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "As I had expected. In that case, let me walk you to the masters.",
+      "ru": "Как я и думал. В таком случае позволь мне проводить тебя к хозяевам.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "The dialogue ends here.",
+      "ru": "На этом диалог заканчивается.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Still- allow me to lead you to the masters.",
+      "ru": "В любом случае, позволь мне проводить тебя к хозяевам.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Ah, haha! Hayn, who might this be? Ostentatious dress, I must declare! Is this a tourist come to tour the manor, mayhaps?",
+      "ru": "Ах, ха-ха! Хэйн, и кто же это у нас? Надо признать, наряд весьма вычурный! Не турист ли это, что пришёл полюбоваться поместьем?",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Ohh... I see! The locals sent you. Then, allow me to enlighten you on the matter. You see, the Crown has entrusted us to manage the water supplied from the dam.",
+      "ru": "Ох... Понятно! Тебя прислали местные. Тогда позволь просветить тебя. Видишь ли, Корона доверила нам управление водой, которая поступает с дамбы.",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "All potable water in the forest comes through us- it is our responsibility to ensure the rations we are given are spread to where it is most needed.",
+      "ru": "Вся пригодная для питья вода в лесу проходит через нас - и наша обязанность следить, чтобы пайки, которые нам выделяют, доходили туда, где они нужнее всего.",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "With the Crown Festival in Espren being about this time, the water must go there! Additionally, with all the new construction recently, there have been more places to ration out to.",
+      "ru": "Сейчас в Эспрене проходит Фестиваль Короны, и вода прежде всего нужна там! А в последнее время началось столько новых строек, что делить её приходится между всё большим числом мест.",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "We, too, have taken a smaller share than normal. The village down there, unfortunately, has been the lowest priority for some months now. I have petitioned the Sovereign for more water...",
+      "ru": "Мы и сами взяли себе меньше обычного. Но деревня внизу, увы, уже несколько месяцев находится в самом конце списка. Я уже подал Сюзерену прошение о дополнительных поставках воды...",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...but that will not solve the problem here and now. Neither would a gulp here, or a bottle there. It does break my heart, it truly does! But we must take our responsibilities seriously.",
+      "ru": "...но это не решит проблему прямо сейчас. И лишний глоток тут или бутылка там тоже ничего не изменят. Сердце у меня правда болит за них! Но к своим обязанностям мы должны относиться серьёзно.",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "...Hm. Hm, hm, hm... But perhaps...what if...",
+      "ru": "...Хм. Хм, хм, хм... Но, может... а что если...",
+      "speaker": "Sir Hurlay",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Oh, do speak up! I hear you turning over an idea in your head, good Sir!",
+      "ru": "О, не молчите! Так и слышу, как у вас в голове зреет мысль, добрый сэр!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Well, perhaps it is a foolish thought. But, if they were to tinker with the dam's systems and let out more water for all of us earlier than the next month? Tide us over 'til the Nasin gets his head on straight?",
+      "ru": "Возможно, это глупая мысль. Но что, если кто-нибудь вмешается в работу дамбы и выпустит для нас больше воды, не дожидаясь следующего месяца? Этого хватило бы, пока Насин наконец не возьмётся за ум.",
+      "speaker": "Sir Hurlay",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Hm! Foolish indeed! Quite unlike you, I must say- only us and the highest ranks of the military have access to the dam! Why, we would be suspects number one, two, and three!",
+      "ru": "Хм! И правда глупо! Совсем на вас не похоже, должен заметить - ведь доступ к дамбе есть только у нас и у высших чинов армии! Подозреваемыми номер один, два и три станем именно мы!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "And what if we were to...have some scofflaw break into the mansion, and lift the key, good Master? Why, we would be helpless bystanders, free of responsibility and suspicion.",
+      "ru": "А что, если мы... позволим какому-нибудь проходимцу проникнуть в поместье и похитить ключ, добрый господин? Тогда мы будем лишь беспомощными свидетелями, вне всяких подозрений и ответственности.",
+      "speaker": "Sir Hurlay",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "...you mean, to have this traveler pose as a thief, and steal the key to the dam?",
+      "ru": "...вы хотите сказать, что этот путешественник должен сыграть вора и украсть ключ от дамбы?",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Hahaha!! There is wisdom I have known from you for so long! What a magnificient idea! It would not be without risk for you, traveler, but we all stand to gain!",
+      "ru": "Ха-ха-ха!! Вот за эту вашу мудрость я вас и ценю! Какая великолепная идея! Для тебя, путешественник, это, конечно, рискованно, но выиграют все!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "The dam is guarded heavily, and assuredly the Crown's military would pursue you...but if you were to succeed, we could have more than enough water 'til the Sovereign receives our petition!",
+      "ru": "Дамба хорошо охраняется, и армия Короны наверняка погонится за тобой... но если у тебя выйдет, воды нам хватит с избытком, пока Сюзерен не рассмотрит прошение!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "That being said, should you take it upon yourself to do this, we must pretend to have never met! To keep suspicion away from us, you know. Still, our gratitude will abound!",
+      "ru": "Но если ты решишься это сделать, мы должны будем делать вид, что вообще тебя не знаем! Чтобы подозрения не упали на нас, сам понимаешь. Хотя благодарны будем безмерно!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Hayn! Please bring the stranger to the rose, under which we have hidden the key. And good tidings to you!",
+      "ru": "Хэйн! Пожалуйста, отведи гостя к розе, под которой мы спрятали ключ. И удачи тебе!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Now, away with you, 'scofflaw!' Ah, haha! I shall be looking forward to sharing a veritable tidal wave of water with the forest!",
+      "ru": "А теперь прочь, \"проходимец\"! Ах, ха-ха! Я уже жду не дождусь, когда мы поделимся с лесом настоящим потоком воды!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "We shall call for the guards only after you are well out of sight. Be sure to leave a scene- it may delay them for longer.",
+      "ru": "Мы позовём стражу только после того, как ты уже скроешься из виду. Только обязательно устрой тут беспорядок - это может задержать их подольше.",
+      "speaker": "Sir Hurlay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Do make a mess, please. The masters will want a convincing scene.",
+      "ru": "Да, пожалуйста, устрой тут бардак. Хозяева захотят, чтобы всё выглядело убедительно.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "[+1 Dam Key]",
+      "ru": "[+1 Dam Key]",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "If you've taken the key, take it to the entrance east of here.",
+      "ru": "Если ключ уже у тебя, неси его ко входу к востоку отсюда.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Hm... Then, once you have entered the dam, you should avoid returning here. I would hate to see you escape, but be caught returning to the scene of the crime.",
+      "ru": "Хм... Тогда, как только войдёшь в дамбу, лучше сюда уже не возвращайся. Было бы обидно, если бы ты всё провернул и потом попался, вернувшись на место преступления.",
+      "speaker": "Sir Hurlay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "So this is the scene of the robbery, then. And you say they took the key to the dam?",
+      "ru": "Значит, так вот выглядит место кражи. И вы говорите, что унесли ключ от дамбы?",
+      "speaker": "Commander Balsura",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Yes sir. It is.",
+      "ru": "Да, сэр. Именно так.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "This room is too open to guard effectively. Reverse psychology doesn't work on thieves- they'll check the obvious spots to cover their bases.",
+      "ru": "Эта комната слишком открытая, надёжно охранять её не выйдет. И вора не проведёшь, спрятав ключ на виду: он как раз и проверит такие места.",
+      "speaker": "Commander Balsura",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "By this point...they likely will have gone into the dam. I'll have to mobilize the forces and deal with them.",
+      "ru": "К этому моменту... они, скорее всего, уже проникли в дамбу. Мне придётся поднимать людей и разбираться.",
+      "speaker": "Commander Balsura",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "I'll be reporting this. You'll get a replacement key, but lose it again and you'll be relieved of your responsibilities. Consider this your one chance.",
+      "ru": "Я подам рапорт. Новый ключ вы получите, но если потеряете его снова, вас тут же снимут с должности. Считайте, это ваш единственный шанс.",
+      "speaker": "Commander Balsura",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "So this was your plan! Here to sabotage the game... trying to steal water for yourself? Or did you mean to bring destruction? Cause a flood?",
+      "ru": "Так вот какой у тебя был план! Саботаж, значит... хотел украсть воду себе? Или решил устроить катастрофу? Наводнение?",
+      "speaker": "Commander Balsura",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I'll not be letting you get away with such heinous crimes. Lay down your weapons!",
+      "ru": "Я не позволю тебе уйти после таких мерзких преступлений. Бросай оружие!",
+      "speaker": "Commander Balsura",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "The water seems to be flowing! Isn't it too early this month? I have to get back and tell the others.",
+      "ru": "Вода пошла! Разве в этом месяце не слишком рано? Надо бежать и рассказать остальным.",
+      "speaker": "Duress",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Wonderful, wonderful! I've sent Hayn with your payment to the village. Now hurry, hurry, 'scofflaw!' You wouldn't want to be caught, after all that trouble!",
+      "ru": "Чудесно, чудесно! Я уже отправил Хэйна с твоей оплатой в деревню. А теперь беги, беги, \"проходимец\"! После всего этого тебе совсем не хочется попасться!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Hm! You'd best be going, else the guards may catch you. Our butler has gone away to the village with a dividend of payment. Do hurry there, would you?",
+      "ru": "Хм! Тебе лучше уходить, иначе стража может тебя схватить. Наш дворецкий уже ушёл в деревню с выплатой для тебя. Так что поторопись туда, хорошо?",
+      "speaker": "Sir Hurlay",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "My... My land! The well!! Everyone, the well is filling!! My children- They'll have their water!!",
+      "ru": "Ох... Вот это да! Колодец!! Люди, колодец наполняется!! У моих детей будет вода!!",
+      "speaker": "Mother Aris",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "The river flows, as well! It certainly is not yet the time of the month for another ration... But I will not complain of good fortune!",
+      "ru": "И река снова течёт! Новую порцию воды должны были дать ещё нескоро... Но жаловаться на такую удачу я не стану!",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Seems like the stranger with that spark in their eyes did it! Have to give 'em that discount I mentioned. I'll get to open up the bar proper again! What a fine day this is.",
+      "ru": "Похоже, это сделал тот самый странник с огоньком в глазах! Придётся теперь и правда дать ему ту скидку, о которой я говорил. Я снова смогу открыть бар по-нормальному! Вот это денёк!",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "My... My land! The well!! Everyone, the well is filling!! Was this... That strange fellow in the Sovereign-like dress... Did they...?! They must have!! My children- They'll have their water!!",
+      "ru": "Ох... Вот это да! Колодец!! Люди, колодец наполняется!! Неужели это... тот странник, одетый почти как Сюзерен... Это он...?! Наверняка он!! У моих детей будет вода!!",
+      "speaker": "Mother Aris",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "I'll get to open up the bar proper again! What a fine day this is. Say, stranger...",
+      "ru": "Я снова смогу открыть бар как следует! Вот это хороший день. Слушай, странник...",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "The river flows, as well! It certainly is not yet the time of the month for another ration... Oh! It must have been that tourist! Perhaps they asked the manor to release some extra?",
+      "ru": "И река снова течёт! Новую порцию воды должны были дать ещё нескоро... О! Наверное, это всё тот путешественник! Может, он попросил в поместье дать нам побольше воды?",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "So then! I have to figure this was you! Got the manor to let out a little extra, did you?",
+      "ru": "Ну так я и думал! Это ведь ты всё устроил! Уговорил поместье подкинуть нам водички, да?",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "They have risked life and limb to enter the dam and allow the water to flow freely. Show your thanks, and do not report them.",
+      "ru": "Он рисковал жизнью, чтобы проникнуть в дамбу и пустить воду. Поблагодарите его и не выдавайте страже.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "The masters have sent me to hand out compensation for your dangerous actions.",
+      "ru": "Хозяева послали меня передать оплату за твою опасную работу.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Wait, the ro- Why did you jump off th- The masters, wh- Are you from the manor?! Why did-",
+      "ru": "Стой, ты с кры- Почему ты спрыгнул с- Хозяева, чт- Ты из поместья?! Какого-",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "There was no more water for the masters to give. They have fixed the problem for all of us.",
+      "ru": "У хозяев уже не было лишней воды, которую можно было просто раздать. Поэтому они решили проблему для всех нас сразу.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Even you were short? Gracious. Still...our gardens may now grow, our children may now drink... We can only give you our utmost thanks, stranger!",
+      "ru": "Даже у вас был недостаток? Вот это да. Но всё же... теперь наши сады смогут расти, а дети - пить... Нам остаётся только от всего сердца благодарить тебя, странник!",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Thank ye traveler. I gotta get myself back to the bar. See ye around and stay safe!",
+      "ru": "Спасибо тебе, путешественник. Мне пора обратно в бар. Ещё увидимся, и береги себя!",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Did the butler just jump off the roof!? W-whatever, I have to get home! Thank you!",
+      "ru": "Дворецкий что, только что сиганул с крыши!? А-а, ладно, мне надо домой! Спасибо тебе!",
+      "speaker": "Mother Aris",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "The water helps out the manor too, eh? It can't be helped, atleast they deliver it around the whole forest.",
+      "ru": "Выходит, вода и поместью нужна не меньше. Ну, тут ничего не поделать, зато они хотя бы распределяют её по всему лесу.",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "They're pretty smart businessmen, I can understand the hustle. Maybe I'll ask them for advice some time soon!",
+      "ru": "Они, конечно, хитрые деляги, понимаю такой подход. Может, как-нибудь даже попрошу у них совета!",
+      "speaker": "Merchant Risch",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "I must be going now. The guards won't forgive you for slaying Balsura, but hopefully you can keep from being caught. Good luck.",
+      "ru": "Мне пора идти. Стража не простит тебе убийство Балсуры, но, надеюсь, ты сумеешь не попасться. Удачи.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Hey traveler, remember my promise? Discounted water for life! What do ye say? Want some?",
+      "ru": "Эй, путешественник, помнишь моё обещание? Вода со скидкой до конца жизни! Ну что, будешь?",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "It'll cost ye 5 emeralds.",
+      "ru": "С тебя 5 изумрудов.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Romu gives the player a Fresh Water.",
+      "ru": "Рому даёт игроку свежую воду.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Pleasure doing business with ye! Jokes aside, thanks for all you've done.",
+      "ru": "Приятно было иметь дело! А если без шуток, спасибо тебе за всё, что сделал.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Guh, you must be pulling my leg...! ...Thanks for all you've done, traveler.",
+      "ru": "Гх, да ты, наверное, издеваешься...! ...Спасибо тебе за всё, что сделал, путешественник.",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Hey traveler, good work out there. Whenever the heat's off ye, come visit me!",
+      "ru": "Эй, путешественник, отлично поработал. Когда всё уляжется, заглядывай ко мне!",
+      "speaker": "Barkeep Romu",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "You're still around, traveler! Stay safe, please! I don't know what I would do if you were caught!",
+      "ru": "Ты ещё здесь, путешественник! Только будь осторожен, пожалуйста! Я даже не знаю, что бы делала, если бы тебя поймали!",
+      "speaker": "Mother Aris",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Although, if you ever need some water, feel free to stop by!",
+      "ru": "Хотя, если тебе когда-нибудь понадобится вода, смело заходи!",
+      "speaker": "Mother Aris",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Hrm. I got so used to the stream being slow that I lost my last robe to the water flow. What a dilemma.",
+      "ru": "Хм. Я так привык к еле текущему ручью, что теперь мою последнюю мантию унесло потоком. Вот незадача.",
+      "speaker": "Duress",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "I really ought to put away that 'For Sale' sign so no one else gets confused...",
+      "ru": "Пожалуй, пора убрать табличку \"Продаётся\", чтобы больше никого не путать...",
+      "speaker": "Ryde",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Fine work, indeed! I might welcome you with a cup of tea, but I cannot abide by 'scofflaws' such as yourself- wink, wink! Now away with you! Ah, haha!",
+      "ru": "Прекрасная работа! Я бы угостил тебя чаем, но не могу принимать таких \"проходимцев\", как ты. Намёк понятен? А теперь прочь! Ах, ха-ха!",
+      "speaker": "Master Oshman",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Hm. Hm, hm, hm... I should keep better track of the ledgers. If I had noticed earlier, petitioned earlier... But of course, a Nasin wouldn't have thought ahead... Hm...",
+      "ru": "Хм. Хм, хм, хм... Мне стоило бы лучше следить за ведомостями. Если бы я заметил раньше, подал прошение раньше... Но, конечно, Насин никогда не думает наперёд... Хм...",
+      "speaker": "Sir Hurlay",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Stay out of trouble from now on. The beginning of strife is as when one lets out water.",
+      "ru": "А впредь держись подальше от неприятностей. Ведь начать раздор всё равно что выпустить воду: потом не остановишь.",
+      "speaker": "Butler Hayn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Time to clean...",
+      "ru": "Пора прибраться...",
+      "speaker": "добавлено с вики",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "It seems like an issue is plaguing the villagers. Try asking around to see what you can do.",
+      "ru": "Похоже, местных жителей что-то беспокоит. Расспросите их и узнайте, чем можно помочь.",
+      "speaker": "добавлено с вики",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "The water should be active now. You should return back into the dam .",
+      "ru": "Вода снова должна течь. Возвращайтесь внутрь плотины.",
+      "speaker": "добавлено с вики",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "The water is flowing again. You should follow it to see where it goes.",
+      "ru": "Вода снова течёт. Проследите за потоком и узнайте, куда он ведёт.",
+      "speaker": "добавлено с вики",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "A short cutscene plays back in the rose room in Oshman's Manor, where a guard is inspecting the area.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Commander Balsura walks out of the door to the room.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Romu walks dow the steps to inspect the river with Risch and Aris.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Butler Hayn jumps off a nearby roof.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Come with me...",
+      "ru": "Иди за мной...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Head straight to [-15420, 53, -41].",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Head straight to [-15420, 60, -53].",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Turn east to and go to [-15408, 64, -57].",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Head straight to [-15408, 53, -67], then do a short parkour over to the other raised ledge to the west.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Take the pipe with the black glazed terracotta at [-15439, 59, -64].",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Phew...",
+      "ru": "Фух...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "New Quest Started: Undersupply",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Нехватка припасов",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Yes",
+      "ru": "Да",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "No",
+      "ru": "Нет",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "The villagers need more water.",
+      "ru": "Деревенским нужно больше воды.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Even if it's just getting them to put a word in to the Sovereign. I imagine that come-lately Zhiraok would do something about it all. I swear that man doesn't know what sleep is...",
+      "ru": "Хоть бы попросить их замолвить словечко Сюзерену. Думаю, этот новый Сюзерен, Жираок, что-нибудь да придумал бы. Клянусь, этот человек вообще не знает, что такое сон...",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/Undersupply.txt"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Unless... Are you, perhaps...I have heard whispers on the wind of a new Sovereign? I have seen our Sovereign dress rather differently, so maybe-",
+      "ru": "Если только... Может, ты... До меня доходили слухи о новом Сюзерене. Хотя наш Сюзерен одевается совсем иначе, так что, наверное-",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/Undersupply.txt"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "We, too, have taken a smaller share than normal. The village down there, unfortunately, has been the lowest priority for some months now. I have petitioned the Sovereign for more water...",
+      "ru": "Мы и сами взяли себе меньше обычного. Но деревня внизу, увы, уже несколько месяцев находится в самом конце списка. Я уже подал Сюзерену прошение о дополнительных поставках воды...",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/Undersupply.txt"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "The dam is guarded heavily, and assuredly the Crown's military would pursue you...but if you were to succeed, we could have more than enough water 'til the Sovereign receives our petition!",
+      "ru": "Дамба хорошо охраняется, и армия Короны наверняка погонится за тобой... но если у тебя выйдет, воды нам хватит с избытком, пока Сюзерен не рассмотрит прошение!",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/Undersupply.txt"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "My... My land! The well!! Everyone, the well is filling!! Was this... That strange fellow in the Sovereign-like dress... Did they...?! They must have!! My children- They'll have their water!!",
+      "ru": "Ох... Вот это да! Колодец!! Люди, колодец наполняется!! Неужели это... тот странник, одетый почти как Сюзерен... Это он...?! Наверняка он!! У моих детей будет вода!!",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/Undersupply.txt"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Investigate the river settlement's water troubles at [-1778, 13, -1239].",
+      "ru": "Выяснить, почему у поселения на реке не хватает воды [-1778, 13, -1239].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Make your way to the manor and question them. [-1711, 28, -1402].",
+      "ru": "Отправиться в усадьбу и расспросить её обитателей [-1711, 28, -1402].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Take the key to the dam from under the rose. [-1699, 33, -1391].",
+      "ru": "Забрать ключ от плотины из-под розы [-1699, 33, -1391].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Enter the Fruma Dam and find a way to make the water flow. [-1620, 39, -1302].",
+      "ru": "Войти на плотину Фрумы и найти способ вернуть течение воды [-1620, 39, -1302].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Return to the settlement and tell them about your success. [-1778, 13, -1239].",
+      "ru": "Вернуться в поселение и сообщить об успехе [-1778, 13, -1239].",
+      "stage": "Stage 5"
+    }
+  ],
+  "choices": []
+}

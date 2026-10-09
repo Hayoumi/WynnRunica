@@ -3,9 +3,11 @@ package com.WynnRunica;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
 import net.fabricmc.fabric.api.client.command.v2.FabricClientCommandSource;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
+import com.WynnRunica.gui.GuiScreen;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.ClickEvent;
@@ -14,26 +16,58 @@ import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
 
 import java.net.URI;
+import java.util.List;
 
+import com.mojang.brigadier.Command;
+import com.mojang.brigadier.arguments.StringArgumentType;
+import net.fabricmc.fabric.api.client.message.v1.ClientSendMessageEvents;
+import net.fabricmc.fabric.api.client.message.v1.ClientReceiveMessageEvents;
+import net.minecraft.client.MinecraftClient;
+
+import static net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.argument;
 import static net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.literal;
 
 public class WynnRunicaClient implements ClientModInitializer {
 
-    public static boolean enabled = true;
     private static KeyBinding toggleKey;
     private static KeyBinding reloadKey;
+    private static KeyBinding openGuiKey;
     private static boolean toggleKeyWasDown = false;
     private static boolean reloadKeyWasDown = false;
+    private static boolean openGuiKeyWasDown = false;
+    private static int pendingGuiRefreshTicks = 0;
 
     private static final KeyBinding.Category WR_CATEGORY =
             KeyBinding.Category.create(Identifier.of("wynnrunica"));
+
+    public static List<KeyBinding> keyBindings() {
+        return List.of(toggleKey, reloadKey, openGuiKey);
+    }
+
+    public static Text translationToggleKey() {
+        return toggleKey == null ? Text.literal("F8") : toggleKey.getBoundKeyLocalizedText();
+    }
 
 
     @Override
     public void onInitializeClient() {
 
-        TranslationUpdater.update();
-        TranslationPrinter.reload();
+        HadesRelay.removeOldFiles();
+        // Игра запускается на переводе с диска. Обновление идёт в фоне и не задерживает запуск;
+        // если что-то докачалось, перевод перечитывается.
+        TranslationManager.reload();
+        Thread updater = new Thread(() -> {
+            if (TranslationUpdater.update()) {
+                MinecraftClient.getInstance().execute(() -> {
+                    TranslationManager.reload();
+                    GuiTranslator.refreshOpenScreen();
+                });
+            }
+        }, "WynnRunica translations");
+        updater.setDaemon(true);
+        updater.start();
+        Config.loadConfig();
+        ClientReceiveMessageEvents.MODIFY_GAME.register(ServerNotificationTranslator::receive);
 
         toggleKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "Включить / выключить перевод",
@@ -49,7 +83,29 @@ public class WynnRunicaClient implements ClientModInitializer {
                 WR_CATEGORY
         ));
 
+        openGuiKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+                "Открыть меню",
+                InputUtil.Type.KEYSYM,
+                GLFW.GLFW_KEY_RIGHT_SHIFT,
+                WR_CATEGORY
+        ));
+
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
+
+            ChoiceTicker.clientTick(client);
+
+            if (pendingGuiRefreshTicks > 0) {
+                pendingGuiRefreshTicks--;
+                GuiTranslator.refreshOpenScreen();
+            }
+
+            if (client.player != null && Config.isEnabled("Отправка строк")) {
+                QuestTracker.QuestInfo trackedQuest = QuestTracker.detect();
+                if (!trackedQuest.objective().isBlank()) {
+                    TelemetrySender.recordObjective(trackedQuest.objective(), trackedQuest.name(),
+                            trackedQuest.stage(), null);
+                }
+            }
 
             long windowHandle = client.getWindow().getHandle();
 
@@ -57,39 +113,57 @@ public class WynnRunicaClient implements ClientModInitializer {
             boolean isDown = GLFW.glfwGetKey(windowHandle, toggle) == GLFW.GLFW_PRESS;
 
             if (isDown && !toggleKeyWasDown) {
-                enabled = !enabled;
+                boolean enabled = !Config.isTranslationOn();
+
+                Config.setTranslationEnabled(enabled);
+                Config.saveConfig();
+                TranslationManager.refreshNpcs();
+                com.WynnRunica.GuiTranslator.refreshOpenScreen();
+
                 String status = enabled ? "§aвключён" : "§cвыключен";
                 if (client.player != null) {
-                    com.WynnRunica.GuiTranslator.refreshOpenScreen();
                     client.inGameHud.getChatHud().addMessage(
                             Text.literal("[§3Wynn§fRunica] Перевод " + status)
                     );
                 }
             }
+
             toggleKeyWasDown = isDown;
             int reload = InputUtil.fromTranslationKey(reloadKey.getBoundKeyTranslationKey()).getCode();
             boolean reloadDown = GLFW.glfwGetKey(windowHandle, reload) == GLFW.GLFW_PRESS;
 
             if (reloadDown && !reloadKeyWasDown) {
                 if (client.player != null) {
-                    TranslationPrinter.reload();
+                    int brokenFiles = TranslationManager.reload();
                     com.WynnRunica.GuiTranslator.refreshOpenScreen();
-                    client.inGameHud.getChatHud().addMessage(
-                            Text.literal("[§3Wynn§fRunica] Перевод §lобновлён")
-                    );
+                    String message = "[§3Wynn§fRunica] Перевод §lобновлён";
+                    if (brokenFiles > 0) message += "§r§c, файлов с ошибками: " + brokenFiles + " (подробности в логе)";
+                    client.inGameHud.getChatHud().addMessage(Text.literal(message));
                 }
             }
             reloadKeyWasDown = reloadDown;
+
+            int openGui = InputUtil.fromTranslationKey(openGuiKey.getBoundKeyTranslationKey()).getCode();
+            boolean openGuiDown = GLFW.glfwGetKey(windowHandle, openGui) == GLFW.GLFW_PRESS;
+
+            if (openGuiDown && !openGuiKeyWasDown) {
+                if (client.currentScreen instanceof GuiScreen) {
+                    client.setScreen(null);
+                } else if (client.currentScreen == null) {
+                    client.setScreen(new GuiScreen(null));
+                }
+            }
+            openGuiKeyWasDown = openGuiDown;
 
             DialogueInstantReveal.tick(client);
         });
 
 
         new Thread(VersionChecker::versionCheck).start();
-        AthenaRelay.init();
-        HadesRelay.init();
         ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
             DialogueInstantReveal.reset();
+            pendingGuiRefreshTicks = 20;
+            ChatManager.join(client);
             if (VersionChecker.hasUpdate && client.player != null) {
                 Text msg = Text.literal("[§3Wynn§fRunica] §eДоступна новая версия §a" + VersionChecker.latestVersion + "§e! §bСкачать (кликабельно): ")
                         .append(Text.literal("§8(GitHub) §e| ")
@@ -106,26 +180,55 @@ public class WynnRunicaClient implements ClientModInitializer {
 
             }
         });
-        ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> DialogueInstantReveal.reset());
-        ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) ->
-                dispatcher.register(literal("runicauntranslated")
-                        .then(literal("on").executes(ctx -> setUntranslated(ctx.getSource(), true)))
-                        .then(literal("off").executes(ctx -> setUntranslated(ctx.getSource(), false)))
-                        .then(literal("toggle").executes(ctx -> setUntranslated(ctx.getSource(), !UntranslatedLogger.ENABLED)))
-                        .executes(ctx -> {
-                            String status = UntranslatedLogger.ENABLED ? "§aвключён" : "§cвыключен";
-                            ctx.getSource().sendFeedback(Text.literal(
-                                    "[§3Wynn§fRunica] Лог непереведённого " + status
-                                            + " §8/runicauntranslated on | off | toggle"));
-                            return 1;
-                        })));
-    }
 
-    private static int setUntranslated(FabricClientCommandSource source, boolean on) {
-        UntranslatedLogger.setEnabled(on);
-        String status = on ? "§aвключён" : "§cвыключен";
-        source.sendFeedback(Text.literal(
-                "[§3Wynn§fRunica] Лог непереведённого " + status));
-        return 1;
+        ClientPlayConnectionEvents.DISCONNECT.register((handler, client) -> {
+            DialogueInstantReveal.reset();
+            pendingGuiRefreshTicks = 0;
+            TelemetrySender.flush();
+            ChatManager.reset();
+        });
+        ClientLifecycleEvents.CLIENT_STOPPING.register(client -> TelemetrySender.shutdown());
+
+        ChatManager.init();
+
+        ClientSendMessageEvents.ALLOW_CHAT.register(message -> {
+            if (message.startsWith("!")) {
+                if (Config.isEnabled("Общий чат")) {
+                    String text = message.startsWith("! ") ? message.substring(2) : message.substring(1);
+                    ChatManager.sendMessage(text);
+                } else {
+                    MinecraftClient client = MinecraftClient.getInstance();
+                    if (client.player != null) {
+                        client.inGameHud.getChatHud().addMessage(
+                                Text.literal("[§3Wynn§fRunica] §cОбщий чат отключён в настройках.")
+                        );
+                    }
+                }
+                return false;
+            }
+            return true;
+        });
+
+        ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> {
+            Command<FabricClientCommandSource> chatCommand = ctx -> {
+                String message = StringArgumentType.getString(ctx, "message");
+                if (Config.isEnabled("Общий чат")) {
+                    ChatManager.sendMessage(message);
+                } else {
+                    ctx.getSource().sendFeedback(
+                            Text.literal("[§3Wynn§fRunica] §cОбщий чат отключён в настройках.")
+                    );
+                }
+                return 1;
+            };
+
+            dispatcher.register(literal("wr")
+                    .then(argument("message", StringArgumentType.greedyString())
+                            .executes(chatCommand)));
+
+            dispatcher.register(literal("цк")
+                    .then(argument("message", StringArgumentType.greedyString())
+                            .executes(chatCommand)));
+        });
     }
 }

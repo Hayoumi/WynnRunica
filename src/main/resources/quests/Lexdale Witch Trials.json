@@ -1,0 +1,244 @@
+{
+  "quest": "Lexdale Witch Trials",
+  "level": 72,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "lexdale-witch-trials",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "We have an enemy amongst our own in Lexdale! This witch's illegal practice of magic threatens us!",
+      "ru": "В самом Лексдейле среди нас завёлся враг! Эта ведьма со своей незаконной магией угрожает всем нам!",
+      "speaker": "The Mayor",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Ms. Amira's home was found to be plagued by spreading Decay! We must kill the witch to protect our sanctity!",
+      "ru": "В доме мисс Амиры обнаружили расползающуюся Гниль! Мы должны убить ведьму, чтобы сохранить чистоту наших душ!",
+      "speaker": "The Mayor",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "WAIT! Let me GO already! I told you what was happening!",
+      "ru": "ДА ХВАТИТ! Да отпустите вы меня уже! Я же объяснила, что происходит!",
+      "speaker": "Amira",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "The deceit of your dark magic won't work, Ms. Amira. Go quietly- leave us in peace!",
+      "ru": "Не обманешь нас своей тёмной магией, мисс Амира. Не сопротивляйся и оставь нас в покое!",
+      "speaker": "The Mayor",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "SHUT UP ALREADY! You can't just single people out like this!!",
+      "ru": "ДА ЗАТКНИСЬ ТЫ УЖЕ! Нельзя вот так просто делать из людей козлов отпущения!!",
+      "speaker": "Amira",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Just hear me out for a second! It's not me, something infected my home! That's the reason it was so dark!!",
+      "ru": "Да выслушай ты меня хоть секунду! Это не я, мой дом заразила какая-то дрянь! Поэтому там и было так темно!!",
+      "speaker": "Amira",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "My basement, some outlandish thing dug into it! Wherever it went, the area withered and decayed!",
+      "ru": "В мой подвал прорылось какое-то чужеродное существо! Куда бы оно ни ползло, всё вокруг увядало и гнило!",
+      "speaker": "Amira",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "There's proof in my house that it wasn't me! It's the one that's decayed and barren! You'll see if you LOOK, you gorehound!!",
+      "ru": "В моём доме есть доказательства, что я ни при чём! Там всё сгнило и высохло! Сам увидишь, если ПОСМОТРИШЬ, кровожадный изверг!!",
+      "speaker": "Amira",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Quit with the insults! We'll delay for now- If there's no proof of the witch's innocence she will be executed!",
+      "ru": "Хватит оскорблений! Пока отложим казнь - если доказательств невиновности ведьмы не будет, её казнят!",
+      "speaker": "The Mayor",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "...Further... intruders...? You are not of the worms... the parasites?",
+      "ru": "...Ещё... чужаки...? Вы не из тех червей... не паразиты?",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Another stranger... You must have witnessed the tunnels. They blight the stone, wither the roots, make lifeless the land...",
+      "ru": "Очередной чужак... Ты, должно быть, видел туннели. Они отравляют камень, сушат корни, убивают саму землю...",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "And here, we starve in isolation. My people are lost, as the very earth itself warps and shifts.",
+      "ru": "А мы здесь голодаем, отрезанные от мира. Мой народ гибнет, пока сама земля искажается и сдвигается.",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "The water, stagnant and gray. Nothing but those horrid magic scourges, and the worms themselves to sustain ourselves.",
+      "ru": "Вода стоит, серая и мёртвая. Нам нечем питаться, кроме этих мерзких магических тварей да самих червей.",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "We cannot escape, for the sun scourges us. There is no place to go, no place to burrow that they do not wait.",
+      "ru": "Мы не можем бежать: солнце нас обжигает. Нам некуда идти, некуда зарыться - они ждут повсюду.",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "You... You... You have life. You have a heart, and muscle, and meat... To survive till this torture ends...",
+      "ru": "Ты... Ты... В тебе есть жизнь. Сердце, мышцы, мясо... Чтобы продержаться, пока не кончится эта мука...",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Stranger, you must perish.",
+      "ru": "Чужак, тебе придётся умереть.",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Wait... These earthquakes! IT'S THEM! AGHHHHHHHHHHH!!",
+      "ru": "Постой... Эти землетрясения! ЭТО ОНИ! АААААААААХ!!",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "You're back. Did- Wait, what in the nine hells is THAT?!",
+      "ru": "Ты вернулся. Ты- Погоди, во имя девяти преисподних, что ЭТО такое?!",
+      "speaker": "The Mayor",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "That! That was the thing in my basement!! I knew that human could find it! Thank you!!",
+      "ru": "Вот! Вот эта штука и сидела у меня в подвале!! Я знала, что этот человек её найдёт! Спасибо!!",
+      "speaker": "Amira",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "That thing was spreading the decay through my house! It's NOT witches or magic like you suddenly DECIDED one day!!",
+      "ru": "Это она разносила Гниль по моему дому! А НЕ ведьмы и не магия, как вы однажды взяли и РЕШИЛИ!!",
+      "speaker": "Amira",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "...Fine then. This... creature... bug... leach? This whatever- it- is... I'll accept your explanation.",
+      "ru": "...Ладно. Это... существо... жук... пиявка? В общем, чем бы оно ни было... я приму твоё объяснение.",
+      "speaker": "The Mayor",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Step off the podium, Ms. Amira. You're innocent.",
+      "ru": "Сходите с помоста, мисс Амира. Вы невиновны.",
+      "speaker": "The Mayor",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Gah, finally! You're seeing sense! It's almost like something just... took you over one day and never left 'til now!",
+      "ru": "Ну наконец-то! До тебя хоть что-то дошло! Будто в тебя однажды что-то вселилось и только сейчас отпустило!",
+      "speaker": "Amira",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "...hm. That... Mmh. Regardless. Human, you've proven yourself to be trustworthy. We'll keep our doors open for you.",
+      "ru": "...хм. Это... Мм. Как бы там ни было. Человек, ты доказал, что тебе можно доверять. Наши двери будут для тебя открыты.",
+      "speaker": "The Mayor",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "As for the... THING... Well... I'll be sure to inform the Gavel government.",
+      "ru": "А насчёт этой... ШТУКИ... что ж... я обязательно сообщу правительству Гавеля.",
+      "speaker": "The Mayor",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "New Quest Started: Lexdale Witch Trials",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Лексдейлская охота на ведьм",
+      "speaker": "",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "See what's going on in the center of Lexdale at [-605, 45, -5444].",
+      "ru": "Выяснить, что происходит в центре Лексдейла [-605, 45, -5444].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Explore the basement of the decayed and barren house.[-588, 62, -5465]",
+      "ru": "Исследовать подвал иссохшего и сгнившего дома [-588, 62, -5465].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Follow the creature down the tunnels.",
+      "ru": "Следовать за существом по туннелям.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Continue to follow the creature from the tunnel at [-498, 49, -5405].",
+      "ru": "Продолжить погоню за существом от туннеля в [-498, 49, -5405].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Continue to follow the creature from the tunnel at [-505, 50, -5500].",
+      "ru": "Продолжить погоню за существом от туннеля в [-505, 50, -5500].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Defeat the Tunnel Dweller Chieftain.",
+      "ru": "Победить вождя туннельных жителей.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Dig yourself out of the dirt. Then go after the creature.",
+      "ru": "Откопаться и продолжить погоню за существом.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Return to Lexdale and try to show the mayor the creature at [-604, 45, -5444].",
+      "ru": "Вернуться в Лексдейл и попытаться показать существо мэру [-604, 45, -5444].",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": []
+}

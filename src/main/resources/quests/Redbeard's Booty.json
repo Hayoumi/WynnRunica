@@ -1,0 +1,351 @@
+{
+  "quest": "Redbeard's Booty",
+  "level": 61,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "redbeard-s-booty",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ah, ahoy matey! Are ye here to get a glimpse of ol' Redbeard's sunken galleon as well?",
+      "ru": "Эй, йо-хо, дружище! Тоже пришёл поглазеть на затонувший галеон старого Рыжеборода?",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "A fine ship it once was, aye? Accordin' to the stories, it sank in one o' the greatest sea battles in history! The cap'n sank beneath the waves, ne'er to be seen again!",
+      "ru": "Корабль-то был знатный, а? По легендам, он затонул в одной из величайших морских битв в истории! Капитан ушёл под волны, и больше его никто не видел!",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "...Say. Have ye ever wanted to go on a real treasure hunt? Ye look like someone with an eye for treasure, aye?",
+      "ru": "...Слушай. Хотел когда-нибудь отправиться на настоящую охоту за сокровищами? Вид у тебя такой, будто глаз на добычу намётан, а?",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Good for ye then! I bought meself a real treasure map on Pirate Cove, a fine deal if ye ask me. And, if the jack wasn't fibbing, it leads to the feared Redbeard's real treasure!",
+      "ru": "Ну тогда тебе повезло! Я купил себе настоящую карту сокровищ в Пиратской Бухте, и сделка, скажу я тебе, была шикарная. А если тот прохвост не наврал, она ведёт к настоящему кладу Рыжеборода!",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I ventured 'round, spied some fine jacks at the island, and I collected a crew to join me on me grand, fantastic voyage!",
+      "ru": "Я там пошатался, приметил на острове пару толковых ребят и собрал команду для моего великого, шикарного плавания!",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "O' course, there always be room for another! Ye joinin'?",
+      "ru": "А для ещё одного матроса место всегда найдётся! Идёшь?",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Aye! Let find the booty and bring back some doubloons! Here be that map I snagged. Swim or whatever you landlubbers do to get to Pirate Cove. It'll be the first house to the right when ye arrive.",
+      "ru": "Ага! Найдём клад и вернёмся с дублонами! Вот карта, что я урвал. Плыви - ну или как вы, сухопутники, до Пиратской Бухты добираетесь. Когда придёшь, тебе нужен первый дом справа.",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "And that be when ye will...",
+      "ru": "И вот тогда ты и...",
+      "speaker": "Martim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Cor lad...ye don' look like a pirate ta me, and I be but a young lass!",
+      "ru": "Ну и ну, парень... на пирата ты вообще не похож, а я ведь ещё совсем девчонка!",
+      "speaker": "Argus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "'s right, bucko. Who be ye, bargin' into our home in yer fancy armour 'n whatnot?",
+      "ru": "Во-во, дружок. Ты вообще кто такой, что вваливаешься в наш дом в этих своих нарядных доспехах и всём таком?",
+      "speaker": "Martim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Ah, ye be accompanyin' Marston, eh? Well if ye insist on that, where be the man 'himself?",
+      "ru": "А, так ты с Марстоном, да? Ну раз так, то где сам-то мужик?",
+      "speaker": "Argus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Comin' later? Hm. Well, more hands always be helpful. Let us go down to me ship, the Black Ring.",
+      "ru": "Позже подойдёт? Хм. Ну, лишние руки никогда не помешают. Спускайся к моему кораблю, \"Чёрному кольцу\".",
+      "speaker": "Karkun",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "So he told ye about the plan? We'll bathe in doubloons when we get back! Ah, me fair lass will be so happy.",
+      "ru": "Так он рассказал тебе про план? Когда вернёмся, будем в дублонах купаться! Эх, моя красавица будет так рада.",
+      "speaker": "Martim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Aha, quick on yer feet, lad! Ye got 'ere before us!",
+      "ru": "Ха, шустрый ты, парень! Добрался сюда раньше нас!",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "No trace o' Marston yet?",
+      "ru": "От Марстона всё ещё ни следа?",
+      "speaker": "Argus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "How's about we wait uo fer him? He's the one who's givin us the opportunity fer this hunt, anyways.",
+      "ru": "Может, всё-таки подождём его? Всё ж это он дал нам шанс поживиться кладом, как ни крути.",
+      "speaker": "Martim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I be getting impatient... The whole crew is 'ere, 'cept fer him!",
+      "ru": "Я уже начинаю беситься... Вся команда тут, кроме него!",
+      "speaker": "Argus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Argh! Where be our mate? It be getting dark out! We will have to leave Marston at land.",
+      "ru": "Арр! Где этого носит? Уже темнеет! Придётся оставить Марстона на берегу.",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Do ya have the map Marston bought?",
+      "ru": "Карта, которую купил Марстон, у тебя?",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Let us take a looksie at the map and see where to go.",
+      "ru": "Давай-ка глянем на карту и решим, куда плыть.",
+      "speaker": "Martim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "It seems like one of these islands have the treasure... A'ight, yer in charge, landlubber! Set us on a course fer an island!",
+      "ru": "Похоже, сокровище на одном из этих островов... Ладно, сухопутник, теперь ты главный! Выбирай остров и задавай курс!",
+      "speaker": "Argus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Ahoy, this must be the booty. Fret not, Argus is keepin' the ship prepared so we can leave.",
+      "ru": "Йо-хо, похоже, это и есть клад. Не переживай, Аргус держит корабль наготове, чтобы мы могли сразу свалить.",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "A'ight, let's us dig it up, jacks!",
+      "ru": "Ладно, копаем, братва!",
+      "speaker": "Martim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Aha, I see somethin' gleaming in there! Methinks we hit gold, lads.",
+      "ru": "Ага, вижу, там что-то блестит! Похоже, парни, мы докопались до золота.",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Now Martim, knock the lubber out.",
+      "ru": "А теперь, Мартим, выруби сухопутника.",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "What? Another clue! The be just a wild grook hunt, where be the real booty?! No one ever got rich off a heap o^ keys!!",
+      "ru": "Что? Ещё одна подсказка! Да это всё равно что за диким груком гоняться! Где настоящий клад?! Никто ещё не разбогател на куче ключей!!",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Wait, there be a clue on the key; When leaving the hidden island, the real treasure will be found if you can look closely enough.",
+      "ru": "Погодите, на ключе есть подсказка: покидая скрытый остров, смотри в оба - и найдёшь настоящий клад.",
+      "speaker": "Martim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Garh...I be losin' my patience. Argus arrived, let's ditch the lubber before they awake, hm? This island be hidden by magic, ain't no way they're gettin' found.",
+      "ru": "Гарх... у меня уже терпение кончается. Аргус приплыла, давайте бросим сухопутника тут, пока не очнулся, а? Этот остров скрыт магией, никто его потом не найдёт.",
+      "speaker": "Martim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Arright! We might be able to bring Redbeard 'imself back to life... He will strike terror in the seas again, and we will be his crew!",
+      "ru": "Ладно! Может, у нас даже получится вернуть самого Рыжеборода к жизни... Он снова наведёт ужас на моря, а мы будем его командой!",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "What in the... Cor? Ye jest fell outta the sky, bucko! What'n the name o' Davy Jones' Locker happened?!",
+      "ru": "Это что за... А?! Ты, дружище, только что с неба свалился! Чтоб меня Дэви Джонс забрал, что тут случилось?!",
+      "speaker": "Marston",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Fer a landlubber, ye sure are quick. When I got ta Pirate Cove, ye were already but a speck on the horizon.",
+      "ru": "Для сухопутника ты шустрый, ничего не скажешь. Когда я добрался до Пиратской Бухты, ты уже был где-то на горизонте крошечной точкой.",
+      "speaker": "Marston",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Those dogs weren't what I expected, either. Slugged me when they came over here, put me right to sleep they did.",
+      "ru": "Эти псы меня тоже удивили. Как только припёрлись сюда, сразу меня огрели - и вырубили напрочь.",
+      "speaker": "Marston",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "The last thing I remember be when they threw a key under the skeleton skull's head. I woke up from me sleep not long ago.",
+      "ru": "Последнее, что помню - они швырнули ключ под череп скелета. Очнулся я совсем недавно.",
+      "speaker": "Marston",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Hm...I see ye have the key as well, but ye look a bit bruised. Ran aground o' trouble with 'em too?",
+      "ru": "Хм... вижу, ключ у тебя тоже есть, но сам ты весь помятый. Тоже вляпался в неприятности с ними?",
+      "speaker": "Marston",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Then, lad! Methinks ye oughta go in after 'em! We may be a rowdy lot, but backstabbin's somethin' ye don't tolerate.",
+      "ru": "Тогда, парень, иди за ними! Мы, конечно, народ буйный, но предательство никому спускать нельзя.",
+      "speaker": "Marston",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "They don't deserve that treasure, lad! It ain't be mine either, since I missed ye. That gold be yours fer the takin...so take it!",
+      "ru": "Они не заслужили это сокровище, парень! Да и моим оно уже не будет, раз я тебя проморгал. Это золото по праву твоё... так забирай!",
+      "speaker": "Marston",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Speakin' of...I ain't got much a penny ta my name, but I found this fish while ye were gone. I hear it sells for a decent haul, so here.",
+      "ru": "Кстати... у меня за душой почти ни гроша, но пока тебя не было, я выловил эту рыбину. Слыхал, за неё неплохо платят, так что держи.",
+      "speaker": "Marston",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "All 3 map pieces seem to fit together...",
+      "ru": "Все 3 куска карты, похоже, складываются вместе...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "The 3 pieces form a map of an island...",
+      "ru": "Три куска образуют карту острова...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "You are not able to move but you still hear the ongoing conversation.",
+      "ru": "Ты не можешь двигаться, но всё ещё слышишь разговор.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "A key is laying on the ground, it seems there were more than one. Better take it and figure out a way off the island.",
+      "ru": "На земле лежит ключ, похоже, их было несколько. Лучше забрать его и придумать, как выбраться с острова.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Maybe you can fix this boat and get off the island?",
+      "ru": "Может, получится починить эту лодку и убраться с острова?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "New Quest Started: Redbeard's Booty",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Клад Рыжеборода",
+      "speaker": "",
+      "stage": "Stage 5"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk with Marston in the ocean at [-570 40 -3543]",
+      "ru": "Поговорить с Марстоном в океане [-570 40 -3543].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Marston's crew on Pirate Cove at [-659, 43, -3154]",
+      "ru": "Найти команду Марстона в Пиратской бухте [-659, 43, -3154].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Hop aboard the Black Ring down at the dock of Pirate Cove.",
+      "ru": "Подняться на борт \"Чёрного кольца\" у причала Пиратской бухты.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find the treasure.",
+      "ru": "Найти сокровище.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Leave the hidden island and stop the pirates from stealing Redbeard's Booty.",
+      "ru": "Покинуть тайный остров и не дать пиратам украсть клад Рыжеборода.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to Marston about his crew at [-570, 43, -3543].",
+      "ru": "Поговорить с Марстоном о его команде [-570, 43, -3543].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

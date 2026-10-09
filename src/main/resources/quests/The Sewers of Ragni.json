@@ -1,0 +1,260 @@
+{
+  "quest": "The Sewers of Ragni",
+  "level": 5,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-sewers-of-ragni",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Soldier! Good timing. We've been requesting help for ages.",
+      "ru": "Солдат! Ты как раз вовремя. Мы уже давно просим прислать помощь.",
+      "speaker": "Jenprest",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "With the corrupted hordes terrorising the Wynn Plains, more and more people are moving to Ragni.",
+      "ru": "Орды Порчи терзают равнины Винна, и всё больше людей перебирается в Рагни.",
+      "speaker": "Jenprest",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Issue is, a major sewage pipe's been blocked up. No wonder nobody wanted the job.",
+      "ru": "Проблема в том, что одна из главных канализационных труб намертво забилась. Неудивительно, что за эту работёнку никто не хотел браться.",
+      "speaker": "Jenprest",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I'm going to need you to get your hands dirty. I'll need some assistance with the blockage.",
+      "ru": "Так что тебе придётся запачкать руки. Мне нужна помощь с этим засором.",
+      "speaker": "Jenprest",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Here's the brief. We get in, deploy some small explosives to dislodge the blockage, and get out.",
+      "ru": "План такой: заходим, закладываем небольшие заряды, разбиваем засор и выбираемся обратно.",
+      "speaker": "Jenprest",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "We're using the side pipe. The larger one down the hill, well... you don't want to stray too far into that one.",
+      "ru": "Пойдём через боковую трубу. А в ту большую, что ниже по склону, лучше вообще далеко не соваться.",
+      "speaker": "Jenprest",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Keep your wits about you in there. All sorts of things could be lurking. Ready? Let's go!",
+      "ru": "Внутри не расслабляйся. Там может прятаться всякое. Готов? Тогда пошли!",
+      "speaker": "Jenprest",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Good, you caught up. Watch your step around this place, soldier.",
+      "ru": "Хорошо, догнал. Смотри под ноги, солдат.",
+      "speaker": "Jenprest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Our scouts have confirmed that this area is clear, but a wrong turn could lead you into the old prison complex.",
+      "ru": "Наши разведчики подтвердили, что здесь всё чисто, но один неверный поворот - и попадёшь в старый тюремный комплекс.",
+      "speaker": "Jenprest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I... we really don't want to end up there.",
+      "ru": "Я... мы правда не хотим туда попасть.",
+      "speaker": "Jenprest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Anyway, I've found the blockage. It's right up ahead.",
+      "ru": "Ладно, я нашёл засор. Он прямо впереди.",
+      "speaker": "Jenprest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Here's a small explosive. I placed this one at the blockage already, if that alone doesn't work, use this.",
+      "ru": "Вот небольшой заряд. Один я уже поставил у засора, если его не хватит - используешь этот.",
+      "speaker": "Jenprest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "The exit has opened...",
+      "ru": "Выход открылся...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "The pillar seems very unstable...",
+      "ru": "Колонна выглядит очень шаткой...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Ah, you're alive. Looks like we underestimated the amount of sewage.",
+      "ru": "А, ты жив. Похоже, мы не ожидали, что здесь столько нечистот.",
+      "speaker": "Jenprest",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I lost you for a bit back there. It's lucky we found each other, to be honest.",
+      "ru": "Я тебя там ненадолго потерял. Если честно, хорошо, что мы вообще снова друг друга нашли.",
+      "speaker": "Jenprest",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "There were all these... bodies.",
+      "ru": "Там были... тела.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "... ah. This sewer has some history, you know. Back during the Ragni Raids, they used to hide civilians here, in the old prison.",
+      "ru": "... ага. У этой канализации, знаешь ли, своя история. Во время налётов на Рагни тут, в старой тюрьме, прятали мирных жителей.",
+      "speaker": "Jenprest",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Sometimes... sometimes it wasn't enough. Some say there are still... things roaming there. Left over from the slaughters.",
+      "ru": "Иногда... иногда этого было недостаточно. Говорят, там до сих пор бродит кое-что... то, что осталось после резни.",
+      "speaker": "Jenprest",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Let's get out of here. Do you still have the explosive I gave you?",
+      "ru": "Давай выбираться отсюда. Заряд, который я тебе дал, ещё при тебе?",
+      "speaker": "Jenprest",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Good, let's use it on this wall, it looks like we can break right through...",
+      "ru": "Отлично, взорвём эту стену. Похоже, через неё можно пробиться...",
+      "speaker": "Jenprest",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Phew! Looks like that first explosion cleared the pipe, and the Ragni citizens are going to be happy.",
+      "ru": "Фух! Похоже, первый взрыв всё-таки прочистил трубу, и жители Рагни будут довольны.",
+      "speaker": "Jenprest",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "And count yourself lucky we didn't run into anything too nasty in there. Some of the stories...",
+      "ru": "И считай, нам ещё повезло, что мы не вляпались во что-то совсем мерзкое. Если хотя бы часть баек правдива...",
+      "speaker": "Jenprest",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Did you feel like there was something... watching you?",
+      "ru": "Тебе не казалось, что за нами... кто-то следил?",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "... I don't exactly know what's in there, soldier.",
+      "ru": "... Я не знаю наверняка, что там внутри, солдат.",
+      "speaker": "Jenprest",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "I can't stop you from exploring the dungeon, but I recommend you gear up first.",
+      "ru": "Я не могу запретить тебе исследовать подземелье, но советую сперва как следует снарядиться.",
+      "speaker": "Jenprest",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Legend has it that Bob, the legendary warrior, was born in them during a raid on Ragni.",
+      "ru": "Легенда гласит, что Боб, легендарный воин, родился именно там во время налёта на Рагни.",
+      "speaker": "Jenprest",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "His mother died in childbirth, but some people said she lay down there for years. Rotting. Waiting.",
+      "ru": "Его мать умерла при родах, но некоторые говорили, что она лежала там годами. Гнила. Ждала.",
+      "speaker": "Jenprest",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "But that's just a story! Thanks for your help, soldier, and good luck.",
+      "ru": "Но это всего лишь история! Спасибо за помощь, солдат, и удачи тебе.",
+      "speaker": "Jenprest",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "New Quest Started: The Sewers of Ragni",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Канализация Рагни",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "The Lieutenant at [-893, 70, -1910] needs help.",
+      "ru": "Помочь лейтенанту [-893, 70, -1910].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Enter the sewer at [-935, 80, -1918] and find the blockage.",
+      "ru": "Войти в канализацию и найти засор [-935, 80, -1918].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Explore the sewer and find the blockage.",
+      "ru": "Исследовать канализацию и найти засор.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find a way to fix the blockage.",
+      "ru": "Найти способ устранить засор.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find a way out of the spooky sewer.",
+      "ru": "Найти выход из зловещей канализации.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to Jenprest at [-920, 65, -1882]",
+      "ru": "Поговорить с Дженпрестом [-920, 65, -1882].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

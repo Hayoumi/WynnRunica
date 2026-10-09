@@ -1,0 +1,627 @@
+{
+  "quest": "The Hidden City",
+  "level": 88,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-hidden-city",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "A Human! Agh! Don't worry about getting me medical attention, I've got this under control...",
+      "ru": "Человек! Ай! Не надо звать врача, я справлюсь...",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "It's a broken leg. I'm already getting it treated, but I have a job to do elsewise- and a time sensitive one, too.",
+      "ru": "У меня сломана нога. Её уже лечат, но есть ещё одно дело - и весьма срочное.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I won't be able to do it like this, but it doesn't matter if I'm the one who carries it out. It just needs to be done.",
+      "ru": "В таком состоянии я сам этим не займусь, но неважно, кто именно это выполнит. Главное, чтобы дело было сделано.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I don't work for villagers, I was hired to come here by other humans... there's something you must keep secret.",
+      "ru": "Я работаю не на жителей. Меня наняли другие люди... Есть кое-что, о чём ты должен молчать.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Swear it! If you're going to take the job, and my payment for it, you must be silent about it!",
+      "ru": "Поклянись! Если берёшься за дело и получишь мою плату, то должен держать рот на замке!",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Do you agree?",
+      "ru": "Согласен?",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Good. To business then.",
+      "ru": "Хорошо. Тогда к делу.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "There is a hidden town in the canyon here. Up in the mountains- it was built and run by humans.",
+      "ru": "Здесь, в каньоне, есть тайный город. Высоко в горах- его построили люди, и они же им управляют.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Now, the villagers have very strict rules about humans living in their lands, and it's VERY illegal.",
+      "ru": "У жителей очень строгие правила насчёт людей на их землях. Селиться здесь людям СТРОГО запрещено.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I was contacted by the Mayor because he is aware that the town may have become... compromised.",
+      "ru": "Мэр связался со мной, потому что подозревает: тайну города, возможно... раскрыли.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "The job is to figure out who and why, of course. To let this slip could collapse the treatise between our races.",
+      "ru": "Нужно, конечно, выяснить, кто за этим стоит и почему. Если тайна раскроется, договор между нашими расами может рухнуть.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "I've never been to the city in the mountains, but I was given instructions. Here, I'll write down the location in your book.",
+      "ru": "Я никогда не бывал в этом горном городе, но мне объяснили, как его найти. Вот, запишу его местоположение в твой дневник.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Be aware though, they won't let you in unless the area is safe. They can't risk villagers wandering in.",
+      "ru": "Но учти: тебя не впустят, пока вокруг не будет безопасно. Им нельзя допустить, чтобы туда случайно забрели жители.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Good luck.",
+      "ru": "Удачи.",
+      "speaker": "Narder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Hm? Oh, a fellow adventurer, I see! I'm sorry, but this discovery is mine to make. There's something strange about that door...",
+      "ru": "Хм? О, ты тоже ищешь приключений! Извини, но это открытие сделаю я. В той двери есть что-то странное...",
+      "speaker": "Curious Villager",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Deadly gasses? Nonsense! As you can see the two of us are breathing just fine.",
+      "ru": "Смертельные газы? Бред! Как видишь, мы оба тут нормально дышим.",
+      "speaker": "Curious Villager",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "You want me to leave? Why, so that you can have all of the glory for yourself? Ha, not a chance!",
+      "ru": "Хочешь, чтобы я ушёл? Чтобы самому забрать всю славу? Ха, не дождёшься!",
+      "speaker": "Curious Villager",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "The only way I'm leaving is if I can get that door open or if the whole cave starts crashing down on us.",
+      "ru": "Я уйду, только если открою ту дверь или вся пещера начнёт рушиться нам на головы.",
+      "speaker": "Curious Villager",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Gweh! I just had to go running my mouth about the cave collapsing! I'm out- if you have any sense you'll leave too!",
+      "ru": "Гвэх! Зачем я только заговорил про обвал! Я ухожу- если голова на плечах есть, ты тоже уходи!",
+      "speaker": "Curious Villager",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "A loud mechanical noise can be heard coming from the door.",
+      "ru": "Из-за двери слышен громкий механический шум.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Thank you for getting rid of that curious villager! We thought he'd never leave.",
+      "ru": "Спасибо, что избавился от того любопытного жителя! Мы уже думали, он вообще никогда не уйдёт.",
+      "speaker": "Eltom Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I've never seen you before. Who gave you access to the town?",
+      "ru": "Раньше я тебя не видел. Кто разрешил тебе войти в город?",
+      "speaker": "Eltom Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "You're here in place of the detective the mayor hired?",
+      "ru": "Ты пришёл вместо детектива, которого нанял мэр?",
+      "speaker": "Eltom Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Normally, I wouldn't believe that, but come in. We're desperate.",
+      "ru": "Обычно я бы не поверил, но заходи. Мы в отчаянии.",
+      "speaker": "Eltom Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "If you ever need to leave and get back, I can simply open the way.",
+      "ru": "Если захочешь выйти и потом вернуться, я просто снова открою проход.",
+      "speaker": "Eltom Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "You probably should be going now. Our mayor can get impatient.",
+      "ru": "Тебе, наверное, уже стоит идти. Наш мэр не любит ждать.",
+      "speaker": "Eltom Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "What are you doing here? I'm writing an important letter, this better be worth my time.",
+      "ru": "Что ты здесь делаешь? Я пишу важное письмо. Надеюсь, ты пришёл по стоящему делу.",
+      "speaker": "Eoric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "What? Narder sent you? Why'd he send a Ragni soldier?",
+      "ru": "Что? Нардер послал тебя? И с чего это он отправил солдата Рагни?",
+      "speaker": "Eoric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I didn't think the army were authorized to know about Eltom, especially Fruma recruits.",
+      "ru": "Я думал, армии вообще не положено знать об Эльтоме, особенно новобранцам из Фрумы.",
+      "speaker": "Eoric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Anyway, Eltom's secrecy is in great danger. We have found evidence of the traitor.",
+      "ru": "Ладно, неважно. Тайна Эльтома сейчас под серьёзной угрозой. Мы нашли следы предателя.",
+      "speaker": "Eoric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "We have locked down all of the exits. No one leaves or enters without my permission.",
+      "ru": "Мы перекрыли все выходы. Без моего разрешения никто не входит и не выходит.",
+      "speaker": "Eoric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "We need a detective to sniff out the traitor and expose him.",
+      "ru": "Нам нужен сыщик, который найдёт и разоблачит предателя.",
+      "speaker": "Eoric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Start by asking the citizens around here about anything suspicious they've seen.",
+      "ru": "Для начала расспроси местных, не видели ли они чего-нибудь подозрительного.",
+      "speaker": "Eoric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "When you find the culprit, remember to leave him alive! The guards will take care of him.",
+      "ru": "Когда найдёшь виновника, смотри, оставь его в живых! Стража уже сама разберётся.",
+      "speaker": "Eoric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Sorry, detective, but I haven't seen anything suspicious. In fact, I haven't even left my house for the last week.",
+      "ru": "Извини, сыщик, но ничего подозрительного я не видел. Да я всю последнюю неделю даже из дома не выходил.",
+      "speaker": "Reder",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "The only suspicious thing I've seen is a hooded man walking around. There's not many people in Eltom so it's weird.",
+      "ru": "Единственное странное, что я видел, - это какого-то человека в капюшоне. В Эльтоме и так людей немного, так что это выглядит подозрительно.",
+      "speaker": "Nichye",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "If you want to find out anything, the best person to ask is Lumilda. She's in her bakery, next to the Scroll Shop.",
+      "ru": "Если хочешь что-то узнать, лучше всего спросить Лумильду. Она в своей пекарне рядом с лавкой свитков.",
+      "speaker": "Sybeth",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Ah, detective! What brings you to the sweet Lumilda's Bakery?",
+      "ru": "Ах, сыщик! Что привело тебя в пекарню милой Лумильды?",
+      "speaker": "Lumilda",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Hm, yes, there is a weird person coming through.",
+      "ru": "Хм, да, здесь бывает один странный человек.",
+      "speaker": "Lumilda",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "It's a hooded man. Never seen the face. A trouble maker, if you ask me!",
+      "ru": "Человек в капюшоне. Лица я ни разу не видела. Если хочешь знать моё мнение, от него одни проблемы.",
+      "speaker": "Lumilda",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "He's been here a few times, usually writing things on a piece of paper. That man's a real mystery. No one even knows where he lives.",
+      "ru": "Он заходил несколько раз, обычно что-то записывал на листке бумаги. Загадочный человек. Никто даже не знает, где он живёт.",
+      "speaker": "Lumilda",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "One time my grandson couldn't resist and followed the man. Last thing he saw was the man leaving through the Eastern Exit.",
+      "ru": "Однажды мой внук не удержался и пошёл за ним. Последнее, что он видел, - как тот вышел через Восточный выход.",
+      "speaker": "Lumilda",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Ain't that a place to start, sweetheart?",
+      "ru": "Чем не зацепка для начала, дорогой?",
+      "speaker": "Lumilda",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "There appears to be a cave up above.",
+      "ru": "Похоже, наверху есть пещера.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Ah. You must be the detective then. None of those half witted Eltomites would figure it out.",
+      "ru": "А. Ты, должно быть, сыщик. Никто из этих недалёких жителей Эльтома сам бы не догадался.",
+      "speaker": "???",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "I guess the Grook is out of the pen then.",
+      "ru": "Похоже, грук выбрался из загона.",
+      "speaker": "???",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "This town shouldn't even be here. Humans aren't allowed to settle in Gavel.",
+      "ru": "Этого города вообще не должно было существовать. Людям нельзя селиться в Гавеле.",
+      "speaker": "???",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "These Humans couldn't be bothered to fight their own war, so they hid an entire city here.",
+      "ru": "Эти люди не захотели сражаться на своей войне и спрятали здесь целый город.",
+      "speaker": "???",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Traitor? I'm no traitor. I'm just looking to carry out the law where it needs to be carried out. Nothing personal, yes?",
+      "ru": "Предатель? Я не предатель. Я просто хочу, чтобы закон работал там, где он должен работать. Ничего личного, да?",
+      "speaker": "???",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Maybe they'll actually use \"Ardulf\" instead of saying \"freak\" once they've seen the good I can do for them!",
+      "ru": "Может, когда они увидят, сколько пользы я могу принести, начнут наконец говорить \"Ардульф\", а не \"урод\"!",
+      "speaker": "Ardulf",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "- Airship leaves Eltom 6:15 to Thesead",
+      "ru": "- Дирижабль вылетает из Эльтома в 6:15 в Тесеад",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "- Mayor's office on the top layer of Thesead",
+      "ru": "- Кабинет мэра на верхнем уровне Тесеада",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "- Remember to set up Dwarven bank account",
+      "ru": "- Не забыть открыть счёт в банке дварфов",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "H-h-help!",
+      "ru": "П-п-помогите!",
+      "speaker": "Hilan",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Hooded man... Climbed tower...",
+      "ru": "Человек в капюшоне... забрался на башню...",
+      "speaker": "Hilan",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Requested to use a ship... I refused...",
+      "ru": "Просил дать ему корабль... я отказал...",
+      "speaker": "Hilan",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "He beat me up... And left...",
+      "ru": "Он меня избил... и ушёл...",
+      "speaker": "Hilan",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Hurry!",
+      "ru": "Быстрее!",
+      "speaker": "Hilan",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "You feel a very heavy blow to the back of your head. You wake up here.",
+      "ru": "Ты ощущаешь тяжёлый удар в затылок. Приходишь в себя уже здесь.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "What are you doing here? Why are you protecting this illegal town?",
+      "ru": "Что ты тут делаешь? Почему ты защищаешь этот незаконный город?",
+      "speaker": "Ardulf",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "The Villagers will not be happy about Eltom. This could seriously harm the Gavel-Wynn relationship.",
+      "ru": "Жители точно не будут рады Эльтому. Это может серьёзно навредить отношениям Гавеля и Винна.",
+      "speaker": "Ardulf",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You can't stop me. You wouldn't murder one of your own, would you?",
+      "ru": "Ты меня не остановишь. Ты же не станешь убивать одного из своих, да?",
+      "speaker": "Ardulf",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "I will tell the mayor of Thesead all about this place, and claim my reward for doing so. I will be rich and if you want to stop me you will have to do it yourself!",
+      "ru": "Я расскажу мэру Тесеада всё про это место и заберу свою награду. Я стану богатым, а если хочешь меня остановить - придётся делать это своими руками!",
+      "speaker": "Ardulf",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "...you got snuck up on and knocked out. Where are you now?",
+      "ru": "...к тебе подкрались сзади и оглушили. Где ты теперь?",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "To escape your cell, you must pick this weird lock. It seems that the spinning a ring inside will spin the rings next to it another way",
+      "ru": "Чтобы выбраться из камеры, нужно вскрыть этот странный замок. Похоже, когда вращаешь одно из колец, соседние поворачиваются в другую сторону.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "What brings a human to my office?",
+      "ru": "Что привело человека в мой кабинет?",
+      "speaker": "Thesead's Mayor",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "A letter? Oh, that. The one about Eltom? Don't look so worried. The secret is safe with me.",
+      "ru": "Письмо? А, то самое, про Эльтом? Не волнуйся так. Я сохраню эту тайну.",
+      "speaker": "Thesead's Mayor",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Yes, I know about Eltom. After all, its mayor is my ex-husband.",
+      "ru": "Да, я знаю про Эльтом. В конце концов, его мэр - мой бывший муж.",
+      "speaker": "Thesead's Mayor",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "It may seem weird, a love between a villager and a human. I know, but our race did not stop us from being in love.",
+      "ru": "Любовь между жительницей и человеком может показаться странной. Я знаю, но разница между нашими расами не помешала нам полюбить друг друга.",
+      "speaker": "Thesead's Mayor",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "The person who left the letter about Eltom is our son, Ardulf. As soon as Eoric found out about our child, he panicked and left me.",
+      "ru": "Письмо про Эльтом оставил наш сын, Ардульф. Как только Эорик узнал о ребёнке, он запаниковал и бросил меня.",
+      "speaker": "Thesead's Mayor",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Ardulf will never be accepted as a half breed... Still, I hope he's OK.",
+      "ru": "Ардульф - полукровка, его никогда не примут... И всё же надеюсь, что он в порядке.",
+      "speaker": "Thesead's Mayor",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Huh, oh yeah, one more thing. The switch under the table... go on, press it!",
+      "ru": "А, да, ещё кое-что. Переключатель под столом... давай, нажми на него!",
+      "speaker": "Thesead's Mayor",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "New Quest Started: The Hidden City",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Скрытый город",
+      "speaker": "",
+      "stage": "Stage 15"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Narder.",
+      "ru": "Поговорить с Нардером.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Head to [890, 47, -5388] to find the human town.",
+      "ru": "Отправиться в [890, 47, -5388] и найти город людей.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Cause the cave to collapse",
+      "ru": "Обрушить пещеру.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Go up to the door and inspect the noise.",
+      "ru": "Подойти к двери и выяснить, откуда доносится шум.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Talk to Eltom Guard.",
+      "ru": "Поговорить со стражником Эльтома.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to Mayor Eoric in the town hall.",
+      "ru": "Поговорить с мэром Эориком в ратуше.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Ask Eltom Citizens about the note.",
+      "ru": "Расспросить жителей Эльтома о записке.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Inspect anything beyond the Eastern Exit.",
+      "ru": "Осмотреть всё за восточным выходом.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Inspect the house.",
+      "ru": "Осмотреть дом.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Read the note on the table.",
+      "ru": "Прочитать записку на столе.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Head to Eltom's Airbase.",
+      "ru": "Отправиться на авиабазу Эльтома.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Talk to Hilan.",
+      "ru": "Поговорить с Хиланом.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Head up to the Airbase's Tower to confront the hooded man.",
+      "ru": "Подняться на башню авиабазы и встретиться с человеком в капюшоне.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Board the Eltom Cargo Ship.",
+      "ru": "Подняться на борт грузового корабля Эльтома.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Escape your cell and find a way to sabotage the ship.",
+      "ru": "Сбежать из камеры и найти способ вывести корабль из строя.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Go down the cargo hatch.",
+      "ru": "Спуститься через грузовой люк.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Talk to Thesead's Mayor at the top of Thesead.",
+      "ru": "Поговорить с мэром Тесеада в верхней части города.",
+      "stage": "Stage 16"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,982 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-release-utilities",
+  "scopes": [
+    {
+      "id": "hub-utility-04afa784b8979ae8",
+      "match": {
+        "title": "Buy Order Summary",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "Buy Order Summary",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-04afa784b8979ae8",
+          "en": "Buy Order Summary",
+          "ru": "Заказ на Покупку"
+        },
+        {
+          "id": "line-1e15d79d3c8278cb",
+          "en": "§aBuying:",
+          "ru": "§aПокупка:"
+        },
+        {
+          "id": "line-751175821b7dcfec",
+          "en": "§a- <num>x Corkian Amplifier III",
+          "ru": "- §7<num>§7x §bКоркианский Усилитель§7 III"
+        },
+        {
+          "id": "line-1f64dcc60e7576a4",
+          "en": "§a- <num>² (<num>¼² <num>²½) total",
+          "ru": "§a- §f<num>§7² §8(<num>¼² <num>²½) §fвсего"
+        },
+        {
+          "id": "hub-utility-391d9698355f8bd8",
+          "en": "§7<em> Click to place buy order",
+          "ru": "§7<em> §#55FF55Нажмите, чтобы разместить заказ"
+        },
+        {
+          "id": "line-001",
+          "en": "§8Here is your order summary",
+          "ru": "§8Сводка вашего заказа"
+        },
+        {
+          "id": "line-002",
+          "en": "§aPrice:",
+          "ru": "§aЦена:"
+        },
+        {
+          "id": "hub-utility-365121ef9086c018",
+          "en": "§a- <num>² (<num>²½ <num>²) each",
+          "ru": "§a- §f<num>§7² §8(<num>²½ <num>²) §fза штуку"
+        },
+        {
+          "id": "hub-utility-840ebca39d9d7eda",
+          "en": "§a- <num>,<num>² (<num>²½ <num>²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>²½ <num>²)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-316fb8a15d6bab37",
+          "en": "§a- <num>,<num>² (<num>¼² <num>²½) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#555555(<num>¼² <num>²½)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-cdf76fd84711b7a1",
+          "en": "§a- <num>,<num>² (<num>²½ <num>²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#555555(<num>²½ <num>²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-dfb11dfea9a3ea01",
+          "en": "§a- <num>,<num>² ✮ <num>,<num>² (<num>¼² <num>²½ <num>²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#55FFFF✮ <num>,<num>§#00AAAA²§#AAAAAA §#555555(<num>¼² <num>²½ <num>²)§#AAAAAA за шт."
+        },
+        {
+          "id": "hub-utility-587bc4d0f99084d6",
+          "en": "§a- <num>,<num>² (<num>¼² <num>²½ <num>²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#555555(<num>¼² <num>²½ <num>²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-a4c9bbfa6e639a18",
+          "en": "§a- <num>,<num>² ✮ <num>,<num>² (<num>²½ <num>²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#55FFFF✮ <num>,<num>§#00AAAA²§#AAAAAA §#555555(<num>²½ <num>²)§#AAAAAA за шт."
+        },
+        {
+          "id": "hub-utility-3a9a4fa61eee7c04",
+          "en": "§a- <num>,<num>² ✮ <num>,<num>² (<num>¼² <num>²½ <num>²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#55FFFF✮ <num>,<num>§#00AAAA²§#55FFFF §#555555(<num>¼² <num>²½ <num>²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-011cb49afcc98950",
+          "en": "§a- <num>,<num>,<num>² ✮ <num>,<num>,<num>² (<num>stx <num>.<num>¼²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>,<num>§#AAAAAA² §#55FFFF✮ <num>,<num>,<num>§#00AAAA²§#AAAAAA §#555555(<num>stx <num>.<num>¼²)§#AAAAAA за шт."
+        },
+        {
+          "id": "hub-utility-f147f0b81bdffe3c",
+          "en": "§a- <num>,<num>² (<num>¼² <num>²½ <num>²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>¼² <num>²½ <num>²)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-867f316a605b1732",
+          "en": "§a- <num>,<num>² (<num>stx <num>.<num>¼²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>stx <num>.<num>¼²)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-540a2c1d14f48238",
+          "en": "§a- <num>,<num>,<num>² ✮ <num>,<num>,<num>² (<num>stx <num>.<num>¼²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>,<num>§#AAAAAA² §#55FFFF✮ <num>,<num>,<num>§#00AAAA²§#55FFFF §#555555(<num>stx <num>.<num>¼²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-57425ded36e9e5ed",
+          "en": "§7Cannot afford",
+          "ru": "§7§#FF5555Недостаточно средств"
+        },
+        {
+          "id": "hub-utility-e8237f23869b3d63",
+          "en": "§a- <num>,<num>,<num>² (<num>stx <num>.<num>¼²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>,<num>§#AAAAAA² §#555555(<num>stx <num>.<num>¼²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-cfa63333b6abaf81",
+          "en": "§a- <num>,<num>² (<num>stx <num>.<num>¼²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#555555(<num>stx <num>.<num>¼²)§#FFFFFF всего"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-234f3d644fbf508c",
+      "match": {
+        "title": "Sell Order Summary",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "Sell Order Summary",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-234f3d644fbf508c",
+          "en": "Sell Order Summary",
+          "ru": "Заказ на Продажу"
+        },
+        {
+          "id": "line-54dae83d47370a1e",
+          "en": "§a- <num>² (<num>stx <num>¼²) each",
+          "ru": "§a- §f<num>§7² §8(<num>stx <num>¼²) §fза штуку"
+        },
+        {
+          "id": "line-0b92d050df69dfca",
+          "en": "§a- <num>² (<num>stx <num>¼²) each (taxed)",
+          "ru": "§a- §f<num>§7² §8(<num>stx <num>¼²) §fза штуку (с налогом)"
+        },
+        {
+          "id": "line-0051a3d420af0cb1",
+          "en": "§a- <num>² (<num>stx <num>¼²) total",
+          "ru": "§a- §f<num>§7² §8(<num>stx <num>¼²) §fвсего"
+        },
+        {
+          "id": "line-002",
+          "en": "§8Here is your order summary",
+          "ru": "§8Сводка вашего заказа"
+        },
+        {
+          "id": "line-003",
+          "en": "§aSelling:",
+          "ru": "§aПродаётся:"
+        },
+        {
+          "id": "line-004",
+          "en": "§aPrice:",
+          "ru": "§aЦена:"
+        },
+        {
+          "id": "hub-utility-bf4d1bf00cd5ba97",
+          "en": "§7<em> Click to place sell order",
+          "ru": "§7<em> §#55FF55Нажмите, чтобы выставить на продажу"
+        },
+        {
+          "id": "hub-utility-f147f0b81bdffe3c",
+          "en": "§a- <num>,<num>² (<num>¼² <num>²½ <num>²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>¼² <num>²½ <num>²)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-587bc4d0f99084d6",
+          "en": "§a- <num>,<num>² (<num>¼² <num>²½ <num>²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#555555(<num>¼² <num>²½ <num>²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-77652b67a0ef31be",
+          "en": "§a- <num>,<num>² (<num>¼² <num>²½) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>¼² <num>²½)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-92fa1cdd6136f10f",
+          "en": "§a- <num>,<num>,<num>² (<num>stx <num>.<num>¼²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>stx <num>.<num>¼²)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-e8237f23869b3d63",
+          "en": "§a- <num>,<num>,<num>² (<num>stx <num>.<num>¼²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>,<num>§#AAAAAA² §#555555(<num>stx <num>.<num>¼²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-e85c76d3b19025d7",
+          "en": "§a- <num>,<num>,<num>² (<num>stx) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>stx)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-867f316a605b1732",
+          "en": "§a- <num>,<num>² (<num>stx <num>.<num>¼²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>stx <num>.<num>¼²)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-cfa63333b6abaf81",
+          "en": "§a- <num>,<num>² (<num>stx <num>.<num>¼²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#555555(<num>stx <num>.<num>¼²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-ae441868f81b9d0c",
+          "en": "§a- <num>,<num>² (<num>stx <num>.<num>¼²) each (taxed)",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>stx <num>.<num>¼²)§#FFFFFF за шт. (taxed)"
+        },
+        {
+          "id": "hub-utility-60695432d2d04dad",
+          "en": "§a- <num>² (<num>²) each",
+          "ru": "§a- §f<num>§7² §8(<num>²) §fза штуку"
+        },
+        {
+          "id": "hub-utility-45dff093efe9c2fb",
+          "en": "§a- <num>² (<num>²) total",
+          "ru": "§a- §f<num>§7² §8(<num>²) §fвсего"
+        },
+        {
+          "id": "hub-utility-9c8616e6edebd371",
+          "en": "§a- <num>,<num>² (<num>¼²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>¼²)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-840ebca39d9d7eda",
+          "en": "§a- <num>,<num>² (<num>²½ <num>²) each",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA²§#FFFFFF §#555555(<num>²½ <num>²)§#FFFFFF за шт."
+        },
+        {
+          "id": "hub-utility-cdf76fd84711b7a1",
+          "en": "§a- <num>,<num>² (<num>²½ <num>²) total",
+          "ru": "§#55FF55-§#AAAAAA §#FFFFFF<num>,<num>§#AAAAAA² §#555555(<num>²½ <num>²)§#FFFFFF всего"
+        },
+        {
+          "id": "hub-utility-dce013ab4bfd4c5d",
+          "en": "§a- <num>² (<num>²½) each",
+          "ru": "§a- §f<num>§7² §8(<num>²½) §fза штуку"
+        },
+        {
+          "id": "hub-utility-cad15d730e9b1062",
+          "en": "§a- <num>² (<num>²½ <num>²) total",
+          "ru": "§a- §f<num>§7² §8(<num>²½ <num>²) §fвсего"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-7f57e9e049faf75b",
+      "match": {
+        "title": "§c§lIncomplete Recipe",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "§c§lIncomplete Recipe",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-7f57e9e049faf75b",
+          "en": "§c§lIncomplete Recipe",
+          "ru": "§c§lНеполный Рецепт"
+        },
+        {
+          "id": "hub-utility-39e9c01e7316d39f",
+          "en": "§6§lRing Recipes:",
+          "ru": "§6§l§lРецепты колец:"
+        },
+        {
+          "id": "line-0736641eaa61e95f",
+          "en": "§7<em>✔ Lv. <num>: <em><num> Copper Gem Ⓑ",
+          "ru": "<em>§a✔ Ур. <num>: §7<em>§f<num> §7Copper Gem §fⒷ"
+        },
+        {
+          "id": "line-f92304250cd36955",
+          "en": "§7<em> <em><num> Gudgeon Oil Ⓚ",
+          "ru": "<em> <em>§f<num>§7 Gudgeon Oil §fⓀ"
+        },
+        {
+          "id": "line-fdad29f4dec73f0b",
+          "en": "§7<em>✖ Lv. <num>: <em><num> Granite Gem Ⓑ",
+          "ru": "<em>§c✖ Ур. <num>: §7<em>§f<num> §7Granite Gem §fⒷ"
+        },
+        {
+          "id": "line-8f630203988e3e93",
+          "en": "§7<em> <em><num> Trout Oil Ⓚ",
+          "ru": "<em> <em>§f<num>§7 Trout Oil §fⓀ"
+        },
+        {
+          "id": "line-212c1f141a8be399",
+          "en": "§7<em>✖ Lv. <num>: <em><num> Gold Gem Ⓑ",
+          "ru": "<em>§c✖ Ур. <num>: §7<em>§f<num> §7Золотой Самоцвет §fⒷ"
+        },
+        {
+          "id": "line-946bd80dd08002ec",
+          "en": "§7<em> <em><num> Salmon Oil Ⓚ",
+          "ru": "<em> <em>§f<num>§7 Лососевый Жир §fⓀ"
+        },
+        {
+          "id": "hub-utility-938e8d79d273f083",
+          "en": "§6§lBracelet Recipes:",
+          "ru": "§6§l§lРецепты браслетов:"
+        },
+        {
+          "id": "hub-utility-11140b998934992a",
+          "en": "§6§lNecklace Recipes:",
+          "ru": "§6§l§lРецепты ожерелий:"
+        },
+        {
+          "id": "hub-utility-79f61c53ae89a0cd",
+          "en": "§6§lBow Recipes:",
+          "ru": "§6§l§lРецепты луков:"
+        },
+        {
+          "id": "hub-utility-df1fa436088271bf",
+          "en": "§6§lWand Recipes:",
+          "ru": "§6§l§lРецепты жезлов:"
+        },
+        {
+          "id": "hub-utility-5d2b13cb86f8ee60",
+          "en": "§6§lRelik Recipes:",
+          "ru": "§6§l§lРецепты реликвий:"
+        },
+        {
+          "id": "hub-utility-df14bf70fd2311db",
+          "en": "§6§lHelmet Recipes:",
+          "ru": "§6§l§lРецепты шлемов:"
+        },
+        {
+          "id": "hub-utility-aea94cf92f457312",
+          "en": "§6§lChestplate Recipes:",
+          "ru": "§6§l§lРецепты нагрудников:"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-9adb845903a50280",
+      "match": {
+        "title": "Confirm Surrender",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "Confirm Surrender",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-utility-b9350556295731a8",
+          "en": "§7Surrendering will end your",
+          "ru": "§7Сдача завершит ваш"
+        },
+        {
+          "id": "hub-utility-cf77143b096cc8f6",
+          "en": "§7currently active run",
+          "ru": "§7текущий лутран"
+        },
+        {
+          "id": "hub-utility-04f399776535b813",
+          "en": "Finishing at the current",
+          "ru": "§#55FFFFЗа завершение на этом"
+        },
+        {
+          "id": "hub-utility-3c5cc35c66cf05dd",
+          "en": "point will grant <num> Reward",
+          "ru": "§#55FFFFэтапе вы получите <num> наградных"
+        },
+        {
+          "id": "hub-utility-ff4e8cef9fa6a8c7",
+          "en": "Pulls",
+          "ru": "§#55FFFFПуллов"
+        },
+        {
+          "id": "line-006",
+          "en": "§aClick to confirm",
+          "ru": "§aНажмите для подтверждения"
+        },
+        {
+          "id": "hub-utility-5efa381c342af332",
+          "en": "§7Click again to confirm",
+          "ru": "§7Нажмите ещё раз, чтобы подтвердить"
+        },
+        {
+          "id": "hub-utility-e0ce0e7b2c21c2d2",
+          "en": "§7surrendering",
+          "ru": "§7сдачу"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-9c4abf5751562b84",
+      "match": {
+        "title": "§b§lTotal Cost (per hour)",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lTotal Cost (per hour)",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9c4abf5751562b84",
+          "en": "§b§lTotal Cost (per hour)",
+          "ru": "§b§lРасходы за час"
+        },
+        {
+          "id": "hub-utility-3440fd597664b2c6",
+          "en": "§7§7<num> Emeralds§8 (<num>%)",
+          "ru": "§7§7<num> Изумрудов§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-395ce201ab029573",
+          "en": "§7§7Ⓑ <num> Ore§4 (No output)",
+          "ru": "§7§7Ⓑ <num> Руды§4 (Нет производства)"
+        },
+        {
+          "id": "hub-utility-e42c6e3fab768f69",
+          "en": "§7§7Ⓒ <num> Wood§4 (No output)",
+          "ru": "§7§7Ⓒ <num> Древесины§4 (Нет производства)"
+        },
+        {
+          "id": "hub-utility-0fa3315ca1b2a276",
+          "en": "§7§7Ⓚ <num> Fish§4 (No output)",
+          "ru": "§7§7Ⓚ <num> Рыбы§4 (Нет производства)"
+        },
+        {
+          "id": "hub-utility-c72eb93a385d95f5",
+          "en": "§7§7Ⓙ <num> Crops§8 (<num>%)",
+          "ru": "§7§7Ⓙ <num> Урожая§8 (<num>%)"
+        },
+        {
+          "id": "line-b931d51ddecb6201",
+          "en": "§dGuild Output (per hour):",
+          "ru": "§dДобыча гильдии за час:"
+        },
+        {
+          "id": "hub-utility-3f8a4da1e2d92665",
+          "en": "§7§7<num> Emeralds",
+          "ru": "§7§7<num> Изумрудов"
+        },
+        {
+          "id": "hub-utility-943b0e9a77caeed5",
+          "en": "§7§7Ⓑ <num> Ore",
+          "ru": "§7§7Ⓑ <num> Руды"
+        },
+        {
+          "id": "hub-utility-fc3bf27fc0d5d6fd",
+          "en": "§7§7Ⓒ <num> Wood",
+          "ru": "§7§7Ⓒ <num> Древесины"
+        },
+        {
+          "id": "hub-utility-e7f870dd0ba89338",
+          "en": "§7§7Ⓚ <num> Fish",
+          "ru": "§7§7Ⓚ <num> Рыбы"
+        },
+        {
+          "id": "hub-utility-80a75e3162c196ac",
+          "en": "§7§7Ⓙ <num> Crops",
+          "ru": "§7§7Ⓙ <num> Урожая"
+        },
+        {
+          "id": "hub-utility-7bcb6e16a6ae6d65",
+          "en": "§7§7Ⓑ <num> Ore§8 (<num>%)",
+          "ru": "§7§7Ⓑ <num> Руды§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-3dbac14bad0d09b8",
+          "en": "§7§7Ⓒ <num> Wood§8 (<num>%)",
+          "ru": "§7§7Ⓒ <num> Древесины§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-fd52b2ed33c15927",
+          "en": "§7§7Ⓚ <num> Fish§8 (<num>%)",
+          "ru": "§7§7Ⓚ <num> Рыбы§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-4d8656018c09c33e",
+          "en": "§7§7Ⓑ <num> Ore§c (<num>%)",
+          "ru": "§7§7Ⓑ <num> Руды§c (<num>%)"
+        },
+        {
+          "id": "hub-utility-2ff5e0110c4c6e8b",
+          "en": "§7§7<num> Emeralds§4 (No output)",
+          "ru": "§7§7<num> Изумрудов§4 (Нет производства)"
+        },
+        {
+          "id": "hub-utility-7b42f55f72960669",
+          "en": "§7§7Ⓙ <num> Crops§4 (No output)",
+          "ru": "§7§7Ⓙ <num> Урожая§4 (Нет производства)"
+        },
+        {
+          "id": "hub-utility-971547d1e25d0315",
+          "en": "§7§7Ⓚ <num> Fish§c (<num>%)",
+          "ru": "§7§7Ⓚ <num> Рыбы§c (<num>%)"
+        },
+        {
+          "id": "hub-utility-8b2c09f657b925f0",
+          "en": "§7§7<num> Emeralds§c (<num>%)",
+          "ru": "§7§7<num> Изумрудов§c (<num>%)"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-620d68a5009bd51c",
+      "match": {
+        "title": "§e§lTrading Route",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "§e§lTrading Route",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-620d68a5009bd51c",
+          "en": "§e§lTrading Route",
+          "ru": "§e§lМаршрут Перевозки"
+        },
+        {
+          "id": "line-2ca5a262fc3134bf",
+          "en": "§7All excess resources will be sent",
+          "ru": "§7Все излишки ресурсов отправляются"
+        },
+        {
+          "id": "line-71f47587e581fc4e",
+          "en": "§7to the guild headquarters using the",
+          "ru": "§7в штаб гильдии по маршруту,"
+        },
+        {
+          "id": "line-381e163540bd2612",
+          "en": "§7route shown below",
+          "ru": "§7указанному ниже"
+        },
+        {
+          "id": "line-7d3345845a88e350",
+          "en": "§7Route Tax: §a<num>% §8(compound)",
+          "ru": "§7Налог на пути: §a<num>%§7 §8(по всем участкам)"
+        },
+        {
+          "id": "hub-utility-5695b8818deee2c8",
+          "en": "§3Style: §bCheapest",
+          "ru": "§3Маршрут: §bСамый дешёвый"
+        },
+        {
+          "id": "hub-utility-74f97b2aa8b8e1f7",
+          "en": "§2Borders: §aOpen",
+          "ru": "§2Границы: §aОткрыты"
+        },
+        {
+          "id": "hub-utility-7770ac3b5cdfa334",
+          "en": "§7Left-Click to set style §8(shift for global)",
+          "ru": "§7ЛКМ - выбрать маршрут §8(Shift - для всех)"
+        },
+        {
+          "id": "hub-utility-c8fabf3cbca57116",
+          "en": "§7Right-Click to set border §8(shift for global)",
+          "ru": "§7ПКМ - настроить границы §8(Shift - для всех)"
+        },
+        {
+          "id": "hub-utility-7e44f70ab42ab34e",
+          "en": "§b§l✔ §fRagni (HQ)",
+          "ru": "§b§l✔ §fRagni (Штаб)"
+        },
+        {
+          "id": "hub-utility-d9ce3a37266b85e9",
+          "en": "§3Style: §bFastest",
+          "ru": "§3Маршрут: §bСамый быстрый"
+        },
+        {
+          "id": "hub-utility-6523a55cf1fcd5f6",
+          "en": "§4Borders: §cClosed",
+          "ru": "§4Границы: §cЗакрыты"
+        },
+        {
+          "id": "hub-utility-7b6bcdb80cdf43fe",
+          "en": "§b§l✔ §fCorrupted Warfront (HQ)",
+          "ru": "§b§l✔ §fCorrupted Warfront (Штаб)"
+        },
+        {
+          "id": "hub-utility-b250400a376cf690",
+          "en": "§b§l✔ §fDetlas Suburbs (HQ)",
+          "ru": "§b§l✔ §fDetlas Suburbs (Штаб)"
+        },
+        {
+          "id": "hub-utility-2533e28368b05220",
+          "en": "§b§l✔ §fCorrupted Orchard (HQ)",
+          "ru": "§b§l✔ §fCorrupted Orchard (Штаб)"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-90b3e8c4215b9764",
+      "match": {
+        "title": "§f§lGuild Output",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "§f§lGuild Output",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-90b3e8c4215b9764",
+          "en": "§f§lGuild Output",
+          "ru": "§f§lДобыча Гильдии"
+        },
+        {
+          "id": "line-b9ca137f8d6a066e",
+          "en": "§7You do not own any",
+          "ru": "§7У вашей гильдии пока нет"
+        },
+        {
+          "id": "line-cba0f6a71245d911",
+          "en": "§7territories to view",
+          "ru": "§7подконтрольных территорий"
+        },
+        {
+          "id": "hub-social-9debe0cde4e89ecc",
+          "en": "§7Total resource output",
+          "ru": "§7§rОбщее производство ресурсов"
+        },
+        {
+          "id": "hub-social-b8ec7ea67e0c8a4a",
+          "en": "§7and overall costs",
+          "ru": "§7§rи суммарные затраты"
+        },
+        {
+          "id": "hub-utility-9245bc0b44bf6c1a",
+          "en": "§7§a<num> Emeralds per Hour",
+          "ru": "§7§a<num> Изумрудов в час"
+        },
+        {
+          "id": "hub-utility-b13bfdb6cd27cf90",
+          "en": "§7§a<num>/<num> in storage",
+          "ru": "§7§a<num>/<num> на складе"
+        },
+        {
+          "id": "hub-utility-eb9ecc7a7879437b",
+          "en": "§7§fⒷ <num> Ore per Hour",
+          "ru": "§7§fⒷ <num> Руды в час"
+        },
+        {
+          "id": "hub-utility-60bda1d3f8126c00",
+          "en": "§7§fⒷ <num>/<num> in storage",
+          "ru": "§7§fⒷ <num>/<num> на складе"
+        },
+        {
+          "id": "hub-utility-938efc16c5db69d4",
+          "en": "§7§7Ⓒ <num> Wood per Hour",
+          "ru": "§7§7Ⓒ <num> Древесины в час"
+        },
+        {
+          "id": "hub-utility-47513b793371fb06",
+          "en": "§7§6Ⓒ <num>/<num> in storage",
+          "ru": "§7§6Ⓒ <num>/<num> на складе"
+        },
+        {
+          "id": "hub-utility-f842db223e83aea1",
+          "en": "§7§7Ⓚ <num> Fish per Hour",
+          "ru": "§7§7Ⓚ <num> Рыбы в час"
+        },
+        {
+          "id": "hub-utility-d7a2859d6d1bf545",
+          "en": "§7§bⓀ <num>/<num> in storage",
+          "ru": "§7§bⓀ <num>/<num> на складе"
+        },
+        {
+          "id": "hub-utility-2bc9f0111400352d",
+          "en": "§7§eⒿ <num> Crops per Hour",
+          "ru": "§7§eⒿ <num> Урожая в час"
+        },
+        {
+          "id": "hub-utility-ed5dbc8ed9210817",
+          "en": "§7§eⒿ <num>/<num> in storage",
+          "ru": "§7§eⒿ <num>/<num> на складе"
+        },
+        {
+          "id": "hub-utility-b1b60db9c1d10b63",
+          "en": "§a- §7<num> Emeralds§8 (<num>%)",
+          "ru": "§a- §7<num> Изумрудов§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-7ef3004f5d3daae1",
+          "en": "§a- §7Ⓑ <num> Ore§8 (<num>%)",
+          "ru": "§a- §7Ⓑ <num> Руды§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-f4310f29b5d41a74",
+          "en": "§a- §7Ⓒ <num> Wood§4 (No output)",
+          "ru": "§a- §7Ⓒ <num> Древесины§4 (Нет производства)"
+        },
+        {
+          "id": "hub-utility-b45ef945dea6e9c0",
+          "en": "§a- §7Ⓚ <num> Fish§4 (No output)",
+          "ru": "§a- §7Ⓚ <num> Рыбы§4 (Нет производства)"
+        },
+        {
+          "id": "hub-utility-b66d0486a3809110",
+          "en": "§a- §7Ⓙ <num> Crops§c (<num>%)",
+          "ru": "§a- §7Ⓙ <num> Урожая§c (<num>%)"
+        },
+        {
+          "id": "hub-utility-5225d23974f16f18",
+          "en": "§7§6Ⓒ <num> Wood per Hour",
+          "ru": "§7§6Ⓒ <num> Древесины в час"
+        },
+        {
+          "id": "hub-utility-16ff71d735190498",
+          "en": "§7§bⓀ <num> Fish per Hour",
+          "ru": "§7§bⓀ <num> Рыбы в час"
+        },
+        {
+          "id": "hub-utility-e622dc7a0bcfff59",
+          "en": "§a- §7Ⓑ <num> Ore§c (<num>%)",
+          "ru": "§a- §7Ⓑ <num> Руды§c (<num>%)"
+        },
+        {
+          "id": "hub-utility-564d2debb95704d0",
+          "en": "§a- §7Ⓒ <num> Wood§8 (<num>%)",
+          "ru": "§a- §7Ⓒ <num> Древесины§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-bd4eed1c180e407e",
+          "en": "§a- §7Ⓚ <num> Fish§8 (<num>%)",
+          "ru": "§a- §7Ⓚ <num> Рыбы§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-257f61f099cd43b6",
+          "en": "§a- §7Ⓙ <num> Crops§8 (<num>%)",
+          "ru": "§a- §7Ⓙ <num> Урожая§8 (<num>%)"
+        },
+        {
+          "id": "hub-utility-2e2121c011dcf21b",
+          "en": "§7§7Ⓑ <num> Ore per Hour",
+          "ru": "§7§7Ⓑ <num> Руды в час"
+        },
+        {
+          "id": "hub-utility-1c92c2813a6d65ec",
+          "en": "§a- §7Ⓑ <num> Ore§4 (No output)",
+          "ru": "§a- §7Ⓑ <num> Руды§4 (Нет производства)"
+        },
+        {
+          "id": "hub-utility-5d810b8f345bc208",
+          "en": "§a- §7<num> Emeralds§c (<num>%)",
+          "ru": "§a- §7<num> Изумрудов§c (<num>%)"
+        },
+        {
+          "id": "hub-utility-939844ec57c045e5",
+          "en": "§a- §7Ⓒ <num> Wood§c (<num>%)",
+          "ru": "§a- §7Ⓒ <num> Древесины§c (<num>%)"
+        },
+        {
+          "id": "hub-utility-00b6e9db873a6bd5",
+          "en": "§a- §7Ⓚ <num> Fish§c (<num>%)",
+          "ru": "§a- §7Ⓚ <num> Рыбы§c (<num>%)"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-52eeb346e49bb4be",
+      "match": {
+        "title": "§8§lEmpty Item Slot",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "§8§lEmpty Item Slot",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-utility-36a446784eeffe09",
+          "en": "§8to sell it",
+          "ru": "§8для продажи"
+        },
+        {
+          "id": "hub-utility-f99570458a9c5090",
+          "en": "§8You don't have any other",
+          "ru": "§8У вас больше нет предметов"
+        },
+        {
+          "id": "hub-utility-0bc3e03d31d2ef23",
+          "en": "§8item to repair!",
+          "ru": "§8для ремонта!"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-7de430a6dd79bcf8",
+      "match": {
+        "title": "Dialogue History",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "Dialogue History",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-utility-b9197d91491e856f",
+          "en": "• Dialogue Start",
+          "ru": "• §#555555Начало диалога"
+        },
+        {
+          "id": "hub-utility-22987d63dcc5ce48",
+          "en": "• Dialogue End",
+          "ru": "• §#555555Конец диалога"
+        },
+        {
+          "id": "hub-utility-37f7f6c97840d5e5",
+          "en": "§8Page <num> of <num>",
+          "ru": "§8Страница <num> из <num>"
+        },
+        {
+          "id": "hub-utility-46443b931c6ca2a4",
+          "en": "§fLeft-Click §7for next",
+          "ru": "§fЛКМ §7- вперёд"
+        },
+        {
+          "id": "hub-utility-56e8fda76c49e653",
+          "en": "§fRight-Click §7for previous",
+          "ru": "§fПКМ §7- назад"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-95554602cb9cd6a3",
+      "match": {
+        "title": "§7Weapon Glint",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Weapon Glint",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-95554602cb9cd6a3",
+          "en": "§7Weapon Glint",
+          "ru": "Блеск Оружия"
+        },
+        {
+          "id": "line-1253247ebf582f69",
+          "en": "§7Glints alters the visual of the",
+          "ru": "§#AAAAAAБлеск меняет внешний вид"
+        },
+        {
+          "id": "line-fa06d254e3ecd184",
+          "en": "§7current equipped gear at this slot",
+          "ru": "§#AAAAAAснаряжения в этой ячейке."
+        },
+        {
+          "id": "line-79f311d908b69adf",
+          "en": "Active Glint: None",
+          "ru": "Активный Блеск: §fНет"
+        },
+        {
+          "id": "line-d96a73dfe9eb4eee",
+          "en": "§7<em> Click to Change",
+          "ru": "<em> Нажмите, чтобы Изменить"
+        },
+        {
+          "id": "hub-utility-5462468715d56129",
+          "en": "Active Glint: Orange",
+          "ru": "§#FFF192Активное свечение: §#FFFFFFОранжевое"
+        },
+        {
+          "id": "hub-utility-fad76432563ab539",
+          "en": "Active Glint: Blue",
+          "ru": "§#FFF192Активное свечение: §#FFFFFFСинее"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-080f7cec9086a251",
+      "match": {
+        "title": "Confirm Sacrifice",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "Confirm Sacrifice",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-utility-ab3b89ed25086f9b",
+          "en": "§7Confirming will sacrifice",
+          "ru": "§7Подтверждение потратит"
+        },
+        {
+          "id": "hub-utility-9c3b8ca3ee77bd8f",
+          "en": "§7<num> shards and bless you with",
+          "ru": "§7<num> §#55FFFFосколка §#AAAAAAи позволит менять"
+        },
+        {
+          "id": "hub-utility-50e16abfa7a8cf7c",
+          "en": "§7the power to manipulate your",
+          "ru": "§7ваше дерево способностей,"
+        },
+        {
+          "id": "hub-utility-91c8dd17e0460589",
+          "en": "§7tree until you leave a safe zone",
+          "ru": "§7пока вы в безопасной зоне"
+        },
+        {
+          "id": "hub-utility-992836581c0706d5",
+          "en": "§7§a✔ §7Required Shards: §f<num>§7/<num>",
+          "ru": "§7§a✔ §7Требуется осколков: §f<num>§7/<num>"
+        },
+        {
+          "id": "hub-utility-122cb5d72d86f258",
+          "en": "§7<em> Left-Click to reset the tree",
+          "ru": "§7<em> §#55FF55ЛКМ - сбросить дерево"
+        },
+        {
+          "id": "hub-utility-a687bbd5329d4a21",
+          "en": "§7<em> Right-Click to edit the tree",
+          "ru": "§7<em> §#55FF55ПКМ - изменить дерево"
+        }
+      ]
+    },
+    {
+      "id": "hub-utility-5b74cc8f087be853",
+      "match": {
+        "title": "Sell Items",
+        "anchors": [],
+        "priority": 3800
+      },
+      "title": {
+        "id": "title",
+        "en": "Sell Items",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-utility-3fddb65c805fc109",
+          "en": "§7Sell weapons, accessories,",
+          "ru": "§7Продавайте оружие, аксессуары,"
+        },
+        {
+          "id": "hub-utility-21adf2569816de36",
+          "en": "§7armours and more!",
+          "ru": "§7броню и другие предметы!"
+        }
+      ]
+    }
+  ]
+}

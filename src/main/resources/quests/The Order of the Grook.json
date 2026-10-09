@@ -1,0 +1,1549 @@
+{
+  "quest": "The Order of the Grook",
+  "level": 59,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-order-of-the-grook",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ugh... I really, really, reeeeally don't want to go...",
+      "ru": "Ух... Я правда, правда, прааавда не хочу туда идти...",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Hey, who are you?",
+      "ru": "Эй, ты кто вообще?",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Do you... not have manners at all?! Just running into my parents' house like that! Jeez!",
+      "ru": "У тебя... манер вообще нет?! Просто так врываться в дом моих родителей! Ну капец!",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I oughta... Hm. Well... maybe...",
+      "ru": "Я бы тебя... Хм. Хотя... может...",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Oh, I know! Here, go to my room real fast, and grab the letter in there",
+      "ru": "О, придумал! Быстро сходи в мою комнату и забери там письмо.",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Bring it back to me when you do, I wanna make sure it's the right one.",
+      "ru": "Принеси его мне, когда найдёшь. Хочу убедиться, что это то самое.",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Yep, that's the right letter. I hope you like school!",
+      "ru": "Ага, это нужное письмо. Надеюсь, тебе нравится школа!",
+      "speaker": "Seasum",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "My parents were super exited when that letter flew into my room, but magical school sounds so boring...",
+      "ru": "Мои родители жутко обрадовались, когда это письмо залетело ко мне в комнату, но учиться в школе магии - наверное, такая скукотища...",
+      "speaker": "Seasum",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I don't even want to learn magic! I just want to write my stories and play games. You can go instead.",
+      "ru": "Я даже не хочу учить магию! Я хочу писать свои истории и играть. Вместо меня пойдёшь ты.",
+      "speaker": "Seasum",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I know the picture on the letter is of me, but you can, um...",
+      "ru": "Я знаю, что на письме мой портрет, но ты можешь, эм...",
+      "speaker": "Seasum",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "You can say you had a growth spurt! Uh, that should work, i think!",
+      "ru": "Можешь сказать, что резко вырос! Эм, думаю, прокатит!",
+      "speaker": "Seasum",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Now go on, you should get out before my parents see you. I don't want them to find out I gave that letter away...",
+      "ru": "А теперь иди, тебе лучше свалить, пока родители тебя не увидели. Не хочу, чтобы они узнали, что я отдал письмо...",
+      "speaker": "Seasum",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Hey! What are you doing all the way over here? This dock's broken.",
+      "ru": "Эй! Ты что тут забыл? Этот причал сломан.",
+      "speaker": "Boat Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Oh, a student, you say. Aren't you a little old to be learning fundamental magical knowledge?",
+      "ru": "О, студент, говоришь. Ты не староват для изучения основ магии?",
+      "speaker": "Boat Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Well, if I could see your invitation letter, then?",
+      "ru": "Ну тогда покажи своё пригласительное письмо.",
+      "speaker": "Boat Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "...Hm. This...wow, you really look quite different than the picture. Did you get a new haircut?",
+      "ru": "...Хм. Тут... ничего себе, на этот портрет ты совсем не похож. Подстригся, что ли?",
+      "speaker": "Boat Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Well, no judging from me! Keep walking to the end of the dock. Have faith!",
+      "ru": "Ну, я не осуждаю! Иди до конца причала. Верь в чудо!",
+      "speaker": "Boat Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Alright everyone. Ready for a magical experience?",
+      "ru": "Так, народ. Готовы увидеть настоящую магию?",
+      "speaker": "Boat Captain",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "We're headed to the Nexus. You've been told where to go. If you've forgotten, ask your fellow students!",
+      "ru": "Мы направляемся в Нексус. Вам уже сказали, куда идти. Если забыли, спросите других студентов!",
+      "speaker": "Boat Captain",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "If you ever need to come back here, just walk out onto the dock again. Good luck, now!",
+      "ru": "Если когда-нибудь понадобится вернуться сюда, просто снова выйдите на причал. Ну, удачи!",
+      "speaker": "Boat Captain",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Through the wall, right? I hope my uniform doesn't get dirty.",
+      "ru": "Через стену, да? Надеюсь, форма не испачкается.",
+      "speaker": "Student",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Hello new students! Over here!",
+      "ru": "Привет, новые студенты! Сюда!",
+      "speaker": "Cidre",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Welcome to the island of Grookwarts! I will be guiding and helping all the new students.",
+      "ru": "Добро пожаловать на остров Груквартс! Я покажу новичкам, куда идти, и помогу освоиться.",
+      "speaker": "Cidre",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "So all of you will be getting two vouchers each, and with them you will need to buy one wand and a book or tome.",
+      "ru": "Каждый из вас получит по два ваучера. На них нужно купить одну палочку и одну книгу или том.",
+      "speaker": "Cidre",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "You can find everything here around the docks. Choosing your materials is very important, so buy the ones that speak to you!",
+      "ru": "Всё найдёте здесь, у причалов. Выбор материалов очень важен, так что берите те, к которым душа лежит!",
+      "speaker": "Cidre",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "When you're done, meet with Miss Una at the front gates!",
+      "ru": "Когда закончите, встретьтесь с мисс Уной у главных ворот!",
+      "speaker": "Cidre",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Alrighty, fledgeling Grooks!",
+      "ru": "Ну что, юные груки!",
+      "speaker": "Una",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Seems like you all have your materials in order. You are now free to enter Grookwarts and begin your lessons.",
+      "ru": "Похоже, с материалами у всех порядок. Теперь можете заходить в Груквартс и начинать занятия.",
+      "speaker": "Una",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "The door is just behind me. Walk on in!",
+      "ru": "Дверь прямо за мной. Заходите!",
+      "speaker": "Una",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Hush, hush! The speech will be soon!",
+      "ru": "Тише, тише! Скоро будет речь!",
+      "speaker": "Student",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Hurry, take a seat! The banquet will be starting any second now!",
+      "ru": "Быстрее, садись! Банкет вот-вот начнётся!",
+      "speaker": "Student",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Magical children of Wynn and Gavel alike... We welcome you here, to our fair academy.",
+      "ru": "Одарённые дети Винна и Гавела... Добро пожаловать в нашу славную академию.",
+      "speaker": "???",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Oh lordy, the headmaster! I didn't even see him come in!",
+      "ru": "О боже, директор! Я даже не видел, как он вошёл!",
+      "speaker": "Student",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Uhm... I don't see him at all, actually...",
+      "ru": "Эм... Если честно, я его вообще не вижу...",
+      "speaker": "Student",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Well, I should hope you can see me now, all of you. Oh, what a splendid turnout this year!",
+      "ru": "Ну что ж, надеюсь, теперь вы все меня видите. О, какой замечательный набор в этом году!",
+      "speaker": "Headmaster",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Apologies, I simply can't resist a bit of theatrics. But now, it is time to listen and learn, fledgeling Grooks.",
+      "ru": "Прошу прощения, просто не могу удержаться от маленького представления. А теперь пора слушать и учиться, юные груки.",
+      "speaker": "Headmaster",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "We knowledged mages and scholars, the Order of the Grook, are pleased to see each of you here. Whether you be a young mind aching with curiosity...",
+      "ru": "Мы, учёные маги и мудрецы Ордена Грука, рады видеть здесь каждого из вас. И юных учеников, которым не терпится узнать всё на свете...",
+      "speaker": "Headmaster",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "...or an old hat looking to refine their knowledge, all seeking to learn magic are welcomed here. We expect great things of you.",
+      "ru": "...и бывалых, которые решили углубить свои знания. Здесь рады всем, кто хочет изучать магию. Мы ждём от вас великих дел.",
+      "speaker": "Headmaster",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Now, to business. You will write your schedules for the semester. Look down on your paper and write in what classes you wish to participate in.",
+      "ru": "А теперь к делу. Вы составите расписание на семестр. Посмотрите на лист и впишите занятия, которые хотите посещать.",
+      "speaker": "Headmaster",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "You will need to choose four classes, one from each category. The categories are: Elemental Magic, Practical Magic, Magical Creatures, and Types of magic.",
+      "ru": "Нужно выбрать четыре занятия, по одному из каждой категории. Категории такие: стихийная магия, практическая магия, магические существа и типы магии.",
+      "speaker": "Headmaster",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "The schedule book is at the end of the table. Worry not, there is no limit on class size. If you wish to take it, you may take it.",
+      "ru": "Книга расписаний лежит в конце стола. Не волнуйтесь, мест хватит всем. Записывайтесь на любой понравившийся урок.",
+      "speaker": "Headmaster",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I'll be leading you to your classes, everyone! Talk to me when you're ready to go.",
+      "ru": "Я буду водить вас по занятиям! Поговорите со мной, когда будете готовы идти.",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Alright, fledgeling Grooks! Your first class is starting in just a minute. Follow me!",
+      "ru": "Так, юные груки! Ваш первый урок начнётся буквально через минуту. За мной!",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Here are the elemental classes. Step on in. Your magical journey truly begins here!",
+      "ru": "Вот классы стихийной магии. Заходите. Ваше магическое путешествие по-настоящему начинается здесь!",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Now, all of you. Sit. Listen.",
+      "ru": "Теперь все. Сели. Слушаем.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Earth is an element of great power. Versatile and everpresent, nearly as the air.",
+      "ru": "Земля - стихия огромной силы. Ей найдётся множество применений, и она повсюду... почти как воздух.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Thunder provides force... Earth provides sheer power. The difference... Force choose its own path. Power is force, directed.",
+      "ru": "Гром даёт напор... Земля - чистую мощь. В чём разница?.. Напор сам выбирает путь. Мощь - это напор, которому придали направление.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Earth is also the earth itself. Stone, metal, trees and soil. Trees sway in the wind, but do not break. And the mountains do not crumble.",
+      "ru": "Земля - это и сама земля. Камень, металл, деревья и почва. Деревья качаются на ветру, но не ломаются. А горы не рассыпаются.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "The Touroto, stepped in earthly magic, are nearly invincible to all but themselves. It is proof of the earth's strength.",
+      "ru": "Турото, пропитанные магией земли, почти неуязвимы для всех, кроме себе подобных. Это доказательство силы земли.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "The Doguns... They were masters of the earth, and fire alike, shaping caverns to their will... And now, nearly extinct. A terrible crime...",
+      "ru": "Догуны... Они были мастерами земли и огня, подчиняли пещеры своей воле... А теперь почти вымерли. Ужасное преступление...",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "But we shall honor them, and move forwards. We shall strike the earth and claim it to be our own.",
+      "ru": "Но мы почтим их память и пойдём дальше. Мы ударим по земле и объявим её своей.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "The tome directs the earth's force. Take it and utilize it to shatter the stones I summon.",
+      "ru": "Том направляет силу земли. Возьмите его и используйте, чтобы разбить камни, которые я призову.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "The darkest parts of the stones are weak points. Find them, and learn the power of the earth.",
+      "ru": "Самые тёмные части камней - слабые места. Найдите их и познайте силу земли.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "You know the earth's power, fledgeling. There is nothing more for you here. Go.",
+      "ru": "Ты познал силу земли, птенец. Здесь тебе больше нечего делать. Иди.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Hee hee, take your seats, take your seats, TAKE. YOUR. SEATS. A marvelous batch of eager students today!!",
+      "ru": "Хи-хи, садитесь, садитесь, СЯДЬТЕ. НА. МЕСТА. Какие любознательные студенты собрались сегодня!!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Almost as marvelous as the powers of Thunder! Energy! Pure, unfocused energy! Devastation, desolation, industrialization all alike!",
+      "ru": "Почти такие же чудесные, как сила Грома! Энергия! Чистая энергия, ещё ничем не направленная! Разрушать, опустошать, двигать промышленность - она может всё!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Yes, yes! Thunder is technical and versatile! Unreliable to all those who don't know how to rely on it, to those dexterous of hand and mind!",
+      "ru": "Да, да! Гром - стихия изобретательных, ему найдётся тысяча применений! Ненадёжен для тех, кто не умеет на него полагаться, но покорен ловким рукам и быстрым умам!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "But woe, woe, Thunder is reviled, reviled! Pure energy has no morality! If used for good, yes yes, ho hum, but if used for evil, oh, burn the witch! Burn, burn! Evil, they say! Pah!!",
+      "ru": "Но увы, увы, Гром ненавидят, ненавидят! У чистой энергии нет морали! Если во благо - да-да, скукотища, а если во зло - о, сжечь ведьму! Жечь, жечь! Зло, говорят! Пф!!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "All magicks are unaligned with silly concepts such as morality. They are pure chaos! But Thunder, the element of energy and force, it seems ever so EASY to use for evil...",
+      "ru": "Вся магия не связана с глупыми понятиями вроде морали. Она чистый хаос! Но Гром, стихию энергии и силы, почему-то так ЛЕГКО использовать во зло...",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "And evil has found it, found it! CORRUPTION!! DEMONS!! Forces anathema to us, but knowleged in the ways of force and thus, thunder! So terrible, terrible, and thunder mages feared, feared...",
+      "ru": "И зло нашло его, нашло! ПОРЧА!! ДЕМОНЫ!! Силы, чуждые нам, но умеющие обращаться с этой энергией, а значит, и с громом! Ужасно, ужасно, и магов грома боятся, боятся...",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "And then, then! Joyous day, the Corkians arrived with their marvelous machines, and their electromagic! Thunder controlled, thunder tamed! The wonder of it all!",
+      "ru": "А потом, потом! Радостный день, коркусиане прибыли со своими дивными машинами и электромагией! Гром под контролем, гром приручён! Какое чудо!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Electromagic makes handles crank, gears spin, metal move, gives sheer stones the power to THINK, and to PLAN! A Corkian original, and a splendid, splendid development reintroduced!",
+      "ru": "Электромагия заставляет рукояти крутиться, шестерни вращаться, металл двигаться, даёт простым камням силу ДУМАТЬ и ПЛАНИРОВАТЬ! Изобретение коркусиан, чудесное, чудесное открытие, вернувшееся к нам!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "And so, you shall see for yourselves! Electromagic at work! You will control thunder and electricity, and make the machines bend to your world today, today, this shocking day!",
+      "ru": "И сейчас вы увидите сами! Электромагия в деле! Вы будете управлять громом и электричеством и заставите машины подчиниться вашей воле, сегодня, сегодня, в этот искромётный день!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "The mechanism is behind me now! Come up, come up! See the power of thunder, shackled by our whims, won't you, <playername>?",
+      "ru": "Механизм прямо за мной! Подходи, подходи! Узри силу грома, скованную нашими прихотями, ну же, <playername>!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Whee hee hee! Thunder tamed, thunder shackled, and your magical wings unbound by such petty concepts, <playername>! What a show!",
+      "ru": "Ви-хи-хи! Гром приручён, гром скован, а твои магические крылья свободны от таких мелочных понятий, <playername>! Вот это шоу!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Expand your knowledge ever further, further! Your task is complete, complete, and your next awaits!",
+      "ru": "Расширяй знания всё дальше, дальше! Твоё задание выполнено, выполнено, и следующее уже ждёт!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Aah, wow! Everyone s-sure got here quick...",
+      "ru": "Аах, ничего себе! Вы в-все так быстро пришли...",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Welcome, w-welcome. The Water element class is...certainly an interesting one, I-I'd hope... Because water doesn't j-just pertain to, well, w-water...",
+      "ru": "Добро пожаловать, д-добро пожаловать. Урок стихии Воды... довольно интересный, я н-надеюсь... Потому что вода - это не т-только, ну, в-вода...",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "It also the element o-of knowledge, and pure magicality. Water i-is sort of magical default, If you w-will. If it isn't focused on on o-one element or another, magic ends up being water-based",
+      "ru": "Это ещё и стихия з-знаний и чистой магии. Вода - её естественное с-состояние, если хотите. Если магию не направить в к-какую-то определённую стихию, она становится водной.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Learning a-about the water element and e-expanding your horizons can allow you to cast spells easier... C-control the flow of magic better, you see.",
+      "ru": "Изучая водную магию и р-расширяя кругозор, вы сможете легче творить заклинания... Л-лучше направлять поток магии, понимаете.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Most aquatic creatures are t-tied to water, though creatures that live in icy or snowy environments are, t-too...often, they are also connected to air, but not always.",
+      "ru": "Большинство водных существ с-связаны с водой, хотя существа из ледяных или снежных мест тоже... часто они ещё связаны с воздухом, но не всегда.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "In a-addition, many holy artifacts are enchanted with water magic... S-something about how it's a pure type of energy, I believe.",
+      "ru": "К-кроме того, многие святые артефакты зачарованы магией воды... К-кажется, дело в том, что это чистый тип энергии.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Lastly, healing abilities are b-bolstered by water magic. Just knowing magic well d-doesn't help, but actually having artifacts charged w-with water magic can increase healing capabilities.",
+      "ru": "И наконец, исцеляющие способности у-усиливаются магией воды. Просто хорошо знать магию н-недостаточно, но артефакты, заряженные в-водной магией, могут усилить лечение.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "N-now, for your test, I have...um, a...a test. Anyone who wants to try it f-first, just go up and start.",
+      "ru": "Т-теперь для вашей проверки у меня есть... эм, п...проверка. Кто хочет попробовать п-первым, просто подойдите и начинайте.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Good w-work there! I h-hope it wasn't too boring with my talking... You can go now.",
+      "ru": "Х-хорошая работа! Н-надеюсь, я не слишком вас утомил своими разговорами... Можете идти.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "N-now, who's n-next? And... i-is it really cold in here for all of you, too? Or, is it j-just me?",
+      "ru": "Т-теперь кто с-следующий? И... в-вам всем тоже тут холодно? Или это т-только мне?",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Good to see a decent turnout this year for my class. Too dangerous, pah! You can take this just fine.",
+      "ru": "Рад видеть, что в этом году на мой урок собралось столько учеников. Слишком опасно, пф! Вы отлично справитесь.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Anyways. The fire element class. Many misunderstand just what fire stands for... but after today, you will leave with courage in your hearts.",
+      "ru": "Итак. Урок стихии Огня. Многие неправильно понимают, что значит огонь... но после сегодняшнего дня вы уйдёте с храбростью в сердцах.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Fire is, of course, related to physical fire, magma, etcetera. A burning torch is a source of fire magic, but that is not the only source of it.",
+      "ru": "Огонь, конечно, связан с обычным пламенем, магмой и так далее. Горящий факел - источник огненной магии, но далеко не единственный.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Courage, bravery, and defensiveness are also tied to the fire element. Those stalwart and selfless, willing to sacrifice themselves for others.",
+      "ru": "Мужество, храбрость и защита тоже связаны со стихией огня. Стойкость, самоотверженность, готовность пожертвовать собой ради других.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "In addition, water is tied to healing magic, fire is tied to self-healing. Regenerative capacity if you will. Many fire-based artifacts heal the user passively.",
+      "ru": "Кроме того, вода связана с исцеляющей магией, а огонь помогает исцелять себя самого. Восстанавливать тело, если хотите. Многие огненные артефакты сами по себе исцеляют владельца.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "And while they are on the verge of extinction after the war in the Molten Heights, the Dogun species used to embody fire and earth magic alike. It is a shame what happened to them.",
+      "ru": "И хотя после войны в Раскалённых высотах они на грани вымирания, народ догунов когда-то воплощал и огонь, и землю. Жаль, что с ними такое случилось.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Unfortunately, it is also notable that corrupted creatures are often connected to fire, by nature of the corruption seeming to bring heat wherever it goes...",
+      "ru": "К сожалению, заражённые существа тоже часто связаны с огнём: Порча, похоже, приносит жар всюду, куда приходит...",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "But aside from that, onto our practical test. You will all come up to me, starting with , and hone courage. I will be casting balls of fire at you.",
+      "ru": "Впрочем, перейдём к практике. Вы будете по очереди подходить ко мне, начиная с тебя, и учиться не терять мужества. Я буду кидать в вас огненные шары.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "You will need to dodge these fire charges. If you are hit, it counts as a failure. Now. Let's get started, .",
+      "ru": "Вам нужно уворачиваться от этих огненных зарядов. Если попадёт - провал. Ну что. Начнём.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Are you ready? Summon your bravery.",
+      "ru": "Готов? Соберись с духом.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Well done , fledgeling Grook! Continue to sharpen your instincts. You'll be a fine hero someday, I am sure of it.",
+      "ru": "Отлично, юный грук! Продолжай оттачивать инстинкты. Однажды из тебя выйдет отличный герой, я уверен.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Dismissed, . You may leave. Now do I have any volunteers for the next round...?",
+      "ru": "Свободен. Можешь идти. А теперь есть добровольцы на следующий раунд...?",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Arright class, the sooner we start, the sooner we finish, so everyone, take your seats! You'll be getting up soon enough anyways!",
+      "ru": "Так, класс, чем раньше начнём, тем раньше закончим, так что все по местам! Всё равно скоро вставать будете!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Movin' right along. Air! You're breathing it, we're surrounded by it, but ain'tcha know what it's all about yet, so pay attention.",
+      "ru": "Погнали дальше. Воздух! Вы им дышите, он вокруг нас, но вы ещё не шарите, в чём его суть, так что слушайте.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Air is an element of freedom! speed, wind and agility. if you're trained well with agility, attacks'll seem like they just phase through ya!",
+      "ru": "Воздух - стихия свободы! Скорости, ветра и ловкости. Если как следует развить ловкость, атаки будто будут проходить сквозь вас!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "But over and above that, 'cause of air's ever-presence, it's one of the most versatile kinda magic in existence. People use it in all sorts of ways.",
+      "ru": "А ещё, из-за того что воздух везде, это один из самых гибких видов магии вообще. Люди используют его как только можно.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Over in Gavel, the Bantisu Air Monks have managed to extend their sight by the wind! They use it to help guide folks who get lost in that canyon over there.",
+      "ru": "В Гавеле воздушные монахи Бантису научились видеть дальше с помощью ветра! Так они находят и выводят тех, кто заблудился в тамошнем каньоне.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Many winged sorts a'creatures are tied to air, but not all of them. Some magic users just straight-out float! Now wouldn't that be nice, eh?",
+      "ru": "Многие крылатые существа связаны с воздухом, но не все. А некоторые маги просто парят! Здорово было бы так уметь, а?",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Due to their tenuous physicality, souls and spirits are also often related to air magic. Make ya wonder if you could just blow ghost out of the window!",
+      "ru": "Души и духи почти бестелесны, поэтому их тоже часто связывают с магией воздуха. Так и хочется проверить, можно ли выдуть призрака в окно!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "And finally, some old, old tales tell of a woman who crossed the sea before it was calmed using air magic to fly. 's just an old legend, but an interesting one.",
+      "ru": "И наконец, старые-престарые сказания говорят о женщине, которая пересекла море ещё до его усмирения, летя с помощью магии воздуха. Просто старая легенда, но интересная.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Now onto the practical test! It's time to get those bones a-shakin'! You'll be running an obstacle course I have set up, but with a twist.",
+      "ru": "А теперь к практике! Пора размять косточки! Вы побежите полосу препятствий, которую я подготовил, но с фишкой.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Everyone up to the table! You'll need this feather with ya to get through.It'll help you jump higher!",
+      "ru": "Все к столу! Чтобы пройти, вам понадобится это перо. Оно поможет прыгать выше!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "The goal is to grab three crystal balls I put in the obstacle course. once you found 'em, bring 'em back to me.",
+      "ru": "Цель - забрать три хрустальных шара, которые я спрятал на полосе. Как найдёте, несите их мне.",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "The course is behind me. Shake a leg now!",
+      "ru": "Полоса за мной. Давайте, шевелитесь!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Lessee here, one, two, three, yes indeedy! You got through that pretty quick!",
+      "ru": "Так, глянем, один, два, три, ага, всё на месте! Быстро ты справился!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Now, if you'll just hand me back that feather ya got there...",
+      "ru": "А теперь будь добр, верни мне то перо...",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "...then you'll be all done! Congrats, little fledge, you've finished this class! Now get on along to your next one!",
+      "ru": "...и на этом всё! Поздравляю, маленький птенец, ты закончил этот урок! Теперь топай на следующий!",
+      "speaker": "Teacher",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Moving swiftly on, the next class is just across the way. Follow me!",
+      "ru": "Двигаемся дальше! Следующий класс прямо напротив. За мной!",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Alright everyone. Take a seat but don't get comfy. You'll be getting up soon. Hope you brought your reading glasses",
+      "ru": "Так, все садитесь, но не расслабляйтесь. Скоро снова вставать. Надеюсь, очки для чтения вы взяли.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "See, I'll just be giving you short primer, then sending you out for the practical exercise, Since I have all this written down already.",
+      "ru": "Смотрите, я просто дам вам короткое введение, а потом отправлю на практику, потому что всё это у меня уже записано.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "The basis of this class is that many materials, whether you know it or not, are inherently magical in some way or another. If you want to be artificer, you need to know how each one works.",
+      "ru": "Вот что вам нужно усвоить: многие материалы, знаете вы об этом или нет, обладают собственной магией. Если хотите стать артефактором, нужно понимать свойства каждого.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Thankfully, the field of artifice is very popular one, so there's a wealth of knowledge out there on magical materials and how to use them efficiently.",
+      "ru": "К счастью, артефакторика очень популярна, так что знаний о магических материалах и их грамотном использовании навалом.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Heck, Wynn soldiers are cobbling together rings out of copper and old spider silk, so you know this sort of thing is easy to get to. Tough to master, though!",
+      "ru": "Да что там, солдаты Винна клепают кольца из меди и старой паутины! Так что начать легко. А вот стать мастером - уже тяжко!",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "For those intimidated, you don't need much crafting knowledge for this class; you'll be reading up on everything you need to know in the back.",
+      "ru": "Если кто-то испугался, для этого урока не нужно хорошо разбираться в ремесле. Всё необходимое вы прочитаете в задней части класса.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "You all be crafting a magical amulet using different items. I've stockpiled in the back; everyone will be crafting a different kind of necklace.",
+      "ru": "Вы будете создавать магические амулеты из разных предметов. Материалы я сложил сзади. У каждого получится своё ожерелье.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Here's a note on what you should craft. Once you have the materials you think you need, come to the crafting table. It's enchanted, and will craft the item for you if you have what you need.",
+      "ru": "Вот записка с тем, что тебе нужно сделать. Когда соберёшь материалы, которые считаешь нужными, подходи к верстаку. Он зачарован и сам создаст предмет, если у тебя всё есть.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Mhm, that's the ticket, . If you're interested in learning more, you can probably find my books in most of the libraries.",
+      "ru": "Угу, именно так. Если хочешь узнать больше, мои книги, наверное, есть в большинстве библиотек.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Your feathers are coming out just nicely, fledgeling. You can scoot off to your next class now",
+      "ru": "Твои перья растут как надо, птенец. Можешь чесать на следующий урок.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Okay class, everyone take your seats, and listen up. This class is going to be interesting.",
+      "ru": "Так, класс, все садитесь и слушайте. Этот урок будет интересным.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "As you know, this class is all about magical effects, specifically those tied to various materials, and how they'll affect you!",
+      "ru": "Как вы знаете, этот урок посвящён магическим эффектам, особенно тем, что связаны с разными материалами, и тому, как они будут влиять на вас!",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "This is going to be a hands-on learning experience, so those of you with weak constitutions may request to skip the demonstration if you're concerned for your health.",
+      "ru": "Это будет обучение на практике, так что если у кого здоровье слабовато, можете попросить пропустить демонстрацию.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "If you've read my books, you know about Quartz, and how dangerous it can be if overcharged. So, of course, we have overcharged sample so you can feel the signs of it.",
+      "ru": "Если вы читали мои книги, то знаете о кварце и о том, насколько он опасен, когда переполнен магией. Поэтому, конечно же, у нас есть такой образец: вы сами почувствуете, что с ним происходит.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "It may be explosive, but it will be in a controlled manner. The worst that'll happen to you is your face will get a bit dusty, or your glasses will fall off.",
+      "ru": "Он может взрываться, но всё будет под контролем. Худшее, что случится - лицо немного запылится или очки слетят.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Magical crystals, as we have to my left here, can be charged with all kinds of different effects. This is an incredibly valuable aspect for artificers.",
+      "ru": "Магические кристаллы, вроде тех, что слева от меня, можно заряжать самыми разными эффектами. Для артефакторов это невероятно ценная штука.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Depending on the formation, they can have natural effects as well. These crystals were found in Gavel's flouting islands, and...well, let's say it's difficult to keep it in its case.",
+      "ru": "В зависимости от того, как они образовались, у них могут быть и природные свойства. Эти кристаллы нашли на парящих островах Гавела, и... скажем так, удержать их в футляре непросто.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Our last sample is of cosmic material, and if you're sickened easily, then don't examine it. Its effects are mostly unknown, but one thing's certain...",
+      "ru": "Последний образец - космический материал. Если вас легко мутит, лучше его не рассматривайте. О его свойствах почти ничего не известно, но одно ясно точно...",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "...it's dangerous to be exposed for long periods. Now, each of you will go back behind me, and examine and interact with each of the three samples provided.",
+      "ru": "...долго рядом с ним находиться опасно. Теперь каждый из вас пройдёт за меня, осмотрит и потрогает все три образца.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Once you've done so, then you can leave. Hands-on training is the best way to learn, after all.",
+      "ru": "Когда закончите, можете уходить. Практика - лучший способ учиться, как ни крути.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Well done. How did that feel?",
+      "ru": "Хорошо справился. Как ощущения?",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Personally, the void sample is the most interesting to me. You may now leave the classroom.",
+      "ru": "Лично мне образец пустоты кажется самым интересным. Можешь покинуть класс.",
+      "speaker": "Teacher",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "There's a bit of a walk to your next class. Follow me.",
+      "ru": "До следующего класса придётся немного пройтись. За мной.",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "These staircases were supposed to move, but... That was too much work to put together, apparently. They're a pain to navigate, aren't they?",
+      "ru": "Эти лестницы должны были двигаться, но... видимо, сделать это оказалось слишком муторно. Ходить по ним то ещё мучение, правда?",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Alright, fledgeling grooks. Time to hit you all with the info you're really here for!",
+      "ru": "Так, юные груки. Пора рассказать то, ради чего вы и пришли!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Wybels! Pronounced like nibble, they're a rather popular pet nowadays. But you all knew that, you want to know where they came from.",
+      "ru": "Вайбелы! Произносится почти как \"ниббл\", сейчас это довольно популярные питомцы. Но это вы и так знаете, вам интересно, откуда они взялись.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "The explanation we got was that they lived in the Ahms region, and when it split open, they eventually burrowed into the surface of the Sky Islands.",
+      "ru": "Официальная версия такая: они жили в регионе Амс, а когда его раскололо, со временем прорылись на поверхность Небесных островов.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "But no one actually KNOWS for sure. That means they. Could. Be. ANYTHING! What could lie beneath that veneer of fluff and playful demeanor?!",
+      "ru": "Но на самом деле никто ТОЧНО не знает. А значит, они. Могут. Быть. ЧЕМ УГОДНО! Что скрывается за пушистой шёрсткой и игривыми повадками?!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Oh, speaking of fluff. The wooly fur never actually stops growing, ever, and neither do their hooves, their horns, or their teeth. They shed often.",
+      "ru": "О, кстати о пушистости. Их шерсть вообще никогда не перестаёт расти. Как и копыта, рога и зубы. Линяют они часто.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "These materials have innate magical energy to them. Stable like lodestone and reliable like quartz, but not as powerful as either. Interesting, that a fluffball has that potential!!",
+      "ru": "Эти материалы от природы наделены магической энергией. Она стабильна, как у магнетита, и надёжна, как у кварца, но слабее и той, и другой. Подумать только, на что способен обычный комок шерсти!!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "Wybel fluff is also able to be boiled, and it turns into sticky molasses-like substance. It's used for candy, and its very popular...but it's all POISON!!",
+      "ru": "Пух вайбелов ещё можно варить, и он превращается в липкую штуку вроде патоки. Из неё делают конфеты, и они очень популярны... но это всё ЯД!!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "It's POISON, I tell you! Wyble meat is horrendously inedible! It'll give you the worst stomachache of your life! The candymakers are feeding us DEATH!",
+      "ru": "ЯД, говорю вам! Мясо вайбелов есть совершенно нельзя! Живот потом будет болеть так, как никогда в жизни! Кондитеры кормят нас СМЕРТЬЮ!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "And the worst part is, if too much fluff gathers up in one spot, ANOTHER WYBEL APPEARS! They reproduce by budding!! Growing out of lint and dust! It's a no-win game they're makin' us play!",
+      "ru": "И хуже всего то, что если в одном месте соберётся слишком много пуха, ПОЯВИТСЯ ЕЩЁ ОДИН ВАЙБЕЛ! Они размножаются почкованием!! Растут из ворса и пыли! Нас втянули в игру, в которой невозможно победить!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Wybels do have some good use though...they can sniff out sources of cosmic magic, like a pig sniffs out truffles. Sometimes they even try to take it home.",
+      "ru": "Хотя польза от вайбелов есть... они вынюхивают источники космической магии, как свиньи ищут трюфели. Иногда даже пытаются утащить их домой.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "It's almost like they miss it, somehow. It's almost like they might be FROM outer space! It's ALMOST like they bringing insanity-inducing things into our houses ON PURPOSE!",
+      "ru": "Будто они по этому скучают. Будто они могут быть ИЗ космоса! Будто они СПЕЦИАЛЬНО тащат в наши дома штуки, вызывающие безумие!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "They're here to kill us all, I swear it! How else would you explain a wybel VAPORIZING a group of poachers? Ten colors of wybel, every one of them rotten evil!",
+      "ru": "Они здесь, чтобы нас всех убить, клянусь! Как ещё объяснить, что вайбел ИСПАРИЛ группу браконьеров? Десять цветов вайбелов, и каждый насквозь злой!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Everyone says there's only nine, but WE know the truth! There's a tenth out there, an ultimately powerful one that want us all gone. Pray you never see it, kids.",
+      "ru": "Все говорят, что их только девять, но МЫ знаем правду! Где-то есть десятый, невероятно сильный, и он хочет, чтобы нас всех не стало. Молитесь, дети, чтобы никогда его не увидеть.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Anyways, my lesson's safe from all that. All you have to do is to re-order these plush Wybel toys on the stand. You'll figure out once you're up here.",
+      "ru": "Впрочем, на моём уроке всё безопасно. Вам нужно лишь расставить плюшевых вайбелов на стойке в правильном порядке. Разберётесь, когда подойдёте.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Alrighty, fledgeling, good job. You're armed with the REAL truth now! Go on to your next class.",
+      "ru": "Ну вот, птенец, хорошая работа. Теперь ты вооружён НАСТОЯЩЕЙ правдой! Иди на следующий урок.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "Hello, students. This is the magical creatures class, and I will be your instructor.",
+      "ru": "Здравствуйте, студенты. Это урок магических существ, и я буду вашим преподавателем.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "Different species have different levels of innate magicality. This is often an invisible aspect of the species. You must never assume.",
+      "ru": "Разные виды от природы по-разному наделены магией. По внешнему виду это часто не определить, поэтому не спешите с выводами.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "To begin with, Doguns. They are ancient creatures, artificial-seeming at first. Despite this, they are highly adept at earth and fire-based magic.",
+      "ru": "Начнём с догунов. Это древние существа, на первый взгляд будто искусственные. Но при этом они отлично владеют магией земли и огня.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Able to quite literally move mountains, it is theorized that they were the one who carve out the inside of the Molten Heights into the caves we know today.",
+      "ru": "Они способны буквально двигать горы. Считается, что именно они создали внутри Раскалённых высот те пещеры, которые мы знаем сейчас.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Tales also tell of their utilizing demonic energy for various purposes. However, we are only able to assume their magical energy from Dwarven tales, as they are nigh-extinct",
+      "ru": "Сказания также говорят, что они использовали демоническую энергию для разных целей. Но об их магической энергии мы можем судить только по дварфийским рассказам, ведь они почти вымерли.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "Moving on. The term \"Greenskins\" is a catch-all for Trolls, Goblins, Orcs, Ogres and Hobgoblins. Some include Gerts into this definition, though by technicality they are separate.",
+      "ru": "Двигаемся дальше. \"Зеленокожие\" - общее название для троллей, гоблинов, орков, огров и хобгоблинов. Иногда к ним относят и гертов, хотя те стоят особняком.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Though many Greenskins societies with mystical particles, the only known way for them to utilize magic is through magical artifacts. They've little magic potential.",
+      "ru": "Хотя многие общества зеленокожих знакомы с мистическими частицами, единственный известный способ для них пользоваться магией - магические артефакты. Магический потенциал у них небольшой.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "Meanwhile, Villagers are the opposite persuasion. High magical potential, often unrealized out of laziness.",
+      "ru": "А вот жители - полная противоположность. От природы они очень способны к магии, но часто не развивают этот дар просто из лени.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Humans are often thought of as magical then Villagers, due to Fruman soldiers seeming to know some magic innate, but this is untrue.",
+      "ru": "Людей часто считают более способными к магии, чем жителей: кажется, будто солдаты из Фрумы владеют ею от рождения. Но это не так.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Dwarves have a similar level of magicality to Humans, but like the Villagers, it often go unrealized. Their culture values physical strength more.",
+      "ru": "Дварфы способны к магии примерно так же, как люди. Но, подобно жителям, они часто не развивают свой дар. В их культуре больше ценится физическая сила.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "It is theorized that the reason for this is due to their distance for demonic energies of the Doguns. They reject their magic potential often, such that it is lessening over time.",
+      "ru": "Предполагается, что дело в том, как далеки они от демонической энергии догунов. Дворфы часто отказываются от собственного дара, и со временем он слабеет.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Inversely, Elves have a deep connection to their magicality. Despite their reclusiveness, they are known for their open share of magicality energy within their own society.",
+      "ru": "Эльфы, наоборот, тесно связаны со своей магией. Хотя они держатся обособленно, внутри своего народа они свободно делятся магической энергией.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "The outcast Elves of Efilim have shared their connection to what we refers to as \"The Light\". This connection is supposedly unfathomable, but guides them and protects them.",
+      "ru": "Изгнанные эльфы Эфилима рассказывали о своей связи с тем, что мы называем \"Светом\". Эта связь якобы непостижима, но направляет и защищает их.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Now, we see if you were paying attention. You will come here and order the societies I have referred to in the class from least magical, to the most.",
+      "ru": "А теперь проверим, слушали ли вы. Подойдите сюда и расставьте народы, о которых я говорил, по их способностям к магии: от самых слабых до самых сильных.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Well done, you got it right!",
+      "ru": "Отлично, всё правильно!",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Correct. , thank you for paying attention. No one ever seems to in this class. You may go.",
+      "ru": "Верно. Спасибо, что слушал. Обычно на этом уроке никто этого не делает. Можешь идти.",
+      "speaker": "Teacher",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "Next class is actually rather close!",
+      "ru": "Следующий класс вообще-то совсем близко!",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Just follow me.",
+      "ru": "Просто иди за мной.",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "...I was hoping for a smaller class size.",
+      "ru": "...Я надеялся, что класс будет поменьше.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "Corruption is incredibly dangerous...it'll be tough to keep so many students safe. If anyone wishes to leave, you may.",
+      "ru": "Порча невероятно опасна... будет тяжело уберечь столько учеников. Если кто-то хочет уйти, можете.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "Now... Corruption is a force of nature of...some description. Yes, you heard me right. We don't actually know much about it.",
+      "ru": "Итак... Порча - это сила природы... какого-то рода. Да, вы правильно услышали. На самом деле мы мало о ней знаем.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "Even though it's plagued the Wynn province for a thousand years, the way it behaves is so incredibly alien in nature that it's nigh-impossible to study.",
+      "ru": "Хотя она уже тысячу лет терзает провинцию Винн, её поведение настолько чужеродное, что изучать её почти невозможно.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "We know it raises undead bodies... The working theory is that the more heavily injured a target is, the more susceptible they are to being corrupted.",
+      "ru": "Мы знаем, что она поднимает мертвецов... По одной из теорий, чем сильнее кто-то ранен, тем легче ему поддаться Порче.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "And...well, you can't exactly get more injured than \"dead\". Hence, the growth of zombies and skeletons and all, over in Wynn.",
+      "ru": "И... ну, страшнее раны, чем смерть, уже не бывает. Вот почему в Винне столько зомби, скелетов и прочей нежити.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "It appears to spread by a complex \"root\" system. A scientist from Nesaak, Orikal, has studied this. The corruption spikes appear to spread it in greater concentration.",
+      "ru": "Похоже, она распространяется по сложной \"корневой\" системе. Это изучал Орикал, учёный из Несаака. Судя по всему, возле шипов Порчи заражение особенно сильно.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "As for the effects on your person, most often paranoia and anger are seen. And that's about the only consistent thing with it; it affect everyone slightly differently.",
+      "ru": "Что до её влияния на человека, чаще всего это паранойя и злость. Пожалуй, только это и повторяется: на каждого Порча действует немного по-разному.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "The worst part is that practically everything single thing we've touched on here is conjecture and theorycrafting! The force of corruption is terrifying.",
+      "ru": "Хуже всего то, что почти всё, о чём мы тут говорили, лишь догадки и теории! Сила Порчи пугает.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "The only thing we know for certain is that powerful ice-based magic can halt corruption, as seen in the Nesaak region.",
+      "ru": "Единственное, что мы знаем точно: мощная ледяная магия может остановить Порчу. Пример тому - земли Несаака.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "Now, the dangerous part. Everyone, come up past my desk here. We'll examine a corrupted creature in a controlled environment.",
+      "ru": "А теперь опасная часть. Все проходите за мой стол. Мы изучим заражённое существо, приняв все меры предосторожности.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "We have one in captivity, and its cage is reinforced with the strongest metals we have...so dear god let it be enough.",
+      "ru": "У нас есть один экземпляр в клетке, и клетка усилена самыми прочными металлами, что у нас есть... господи, пусть этого хватит.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Bringing it out now...be sure to back up. We don't want anyone caught in the crossfire here.",
+      "ru": "Вывожу его... обязательно отойдите назад. Не хотим, чтобы кого-то зацепило.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "One thing to note about undead corrupteds...they can't be cured. You can weaken them, but that's about it. ...wait...",
+      "ru": "О заражённой нежити нужно знать одну вещь: её нельзя вылечить. Можно ослабить, но и только. ...Стоп...",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Wait, why's it spreading here? It's never done this before! E-everyone, back up, now!",
+      "ru": "Стоп, почему она распространяется здесь? Такого раньше не было! В-все назад, быстро!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "A-as you can see, corruption is very powerful, eheheh, c-can someone go get another teacher or something?!",
+      "ru": "К-как видите, Порча очень сильна, эхехех... М-может кто-нибудь сходить за другим учителем или хоть за кем-нибудь?!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "Wait, no! It's corroding the bars! Everyone, RUN! NOW! GET OUT OF HERE, CLASS DISMISSED!!!",
+      "ru": "Стойте, нет! Она разъедает прутья! Все БЕГИТЕ! СЕЙЧАС ЖЕ! ВАЛИТЕ ОТСЮДА, УРОК ОКОНЧЕН!!!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "GAACK! No, <playername>, I said RUN! Don't fight that thing, get OUT!",
+      "ru": "ААХ! Нет, <playername>, я сказал БЕГИ! Не дерись с этой штукой, УХОДИ!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Dear lord...that was awful. <playername>, I can't believe you were able to kill that thing!",
+      "ru": "Господи... это было ужасно. <playername>, не верится, что ты смог убить эту тварь!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "Class absolutely dismissed. We've got to cancel this class...it's far too dangerous for the students...",
+      "ru": "Всё, урок окончен. Больше мы эти занятия проводить не будем... слишком опасно для учеников...",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Welcome in, guys and gals... we're learnin' about nature magic today!",
+      "ru": "Заходите, парни и девчонки... сегодня учим магию природы!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "There's two main ways of usin' nature magic... Shamanism and druidism. Two sides of the same coin, man.",
+      "ru": "Есть два главных способа обращаться с магией природы... шаманизм и друидизм. Две стороны одной монеты, чувак.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "Druidic Practices tend to deal with healing more, and nurturing. When life's created, it gives off energy... and Druids use that energy for their magic.",
+      "ru": "Друиды чаще занимаются исцелением и заботятся о живом. Когда рождается жизнь, она выделяет энергию... Её они и используют для своей магии.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Shamanic skills are a lot more direct, man. They take the life from other things and use that to do their stuffs. It's way more varied than Druidic magic.",
+      "ru": "Шаманы действуют куда прямее, чувак. Забирают жизненную силу у других и творят с её помощью свою магию. Применений у неё куда больше, чем у друидской.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Each has its ups and downs, man. Druidism is chill and helpful... but you can really expand your mind with Shamanism, buddies.",
+      "ru": "У каждого есть плюсы и минусы, чувак. Друидизм спокойный и полезный... но с шаманизмом можно реально расширить сознание, ребята.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Either way, it's all about equivalent exchange, y'see? You can't get somethin' from nothin', man. Either make life or take life.",
+      "ru": "В любом случае всё строится на равноценном обмене, понимаете? Нельзя получить что-то из ничего, чувак. Либо создаёшь жизнь, либо забираешь жизнь.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "But! It's not peaky about what life you take, man! A good shaman takes from plants and animals, not people!",
+      "ru": "Но! Магии всё равно, у кого ты забираешь жизнь, чувак! А вот хороший шаман берёт её у растений и животных, не у людей!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "Don't be a Slykaar, kiddos. He asked for human sacrifices, but he lived in a jungle, man! Like, what the hey! He coulda done anything alse!",
+      "ru": "Не будьте как Сликаар, детишки. Он требовал человеческих жертв, хотя жил в джунглях, чувак! Ну как так?! Вокруг полно жизни, мог ведь обойтись без этого!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Anyways, our test today, little buds, is to practice some shamanic skills. We got a sick cow in the back, and you're gonna nurse it back to health.",
+      "ru": "Короче, бутончики, сегодня попробуете себя в шаманизме. Сзади у нас больная корова, и вы должны её вылечить.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "You'll need to sacrifice some old grooks, but it has to be just the right amount, man! The practice is through the door behind me.",
+      "ru": "Придётся принести в жертву старых груков, но ровно столько, сколько нужно, чувак! Задание ждёт за дверью позади меня.",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "Groovy work, man! You're at one with nature!",
+      "ru": "Классная работа, чувак! Ты в гармонии с природой!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "Your feathers are all grown out, man! Time to head out!",
+      "ru": "Твои перья полностью выросли, чувак! Пора двигать дальше!",
+      "speaker": "Teacher",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "That's all four classes! I hope you found them magically enriching! Now, off to the graduation hall!",
+      "ru": "Вот и все четыре занятия! Надеюсь, вы узнали много нового о магии! А теперь в зал выпускной церемонии!",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "It's the room all the way at the bottom of the stairs. Hurry, don't hold up the ceremony! It won't start until everyone's there.",
+      "ru": "Это комната в самом низу лестницы. Поторопитесь, не задерживайте церемонию! Она не начнётся, пока все не соберутся.",
+      "speaker": "Ghost Guide",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "Take a seat. The ceremony is starting.",
+      "ru": "Садитесь. Церемония начинается.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "And so, your teachings, or at least their basics, have ended. Your magical feathers have started to grow!",
+      "ru": "Итак, ваше обучение, по крайней мере его начальная часть, завершено. Ваши магические перья начали расти!",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "You have all been performing very well during your classes today. I've heard quite a bit of praise from the teachers being passed around.",
+      "ru": "Сегодня вы все отлично показали себя на занятиях. Я слышал немало похвалы от преподавателей.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "But now, for your efforts, you shall not go unrewarded. You will leave here with more than simply knowledge.",
+      "ru": "И теперь ваши старания не останутся без награды. Вы уйдёте отсюда не только со знаниями.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "Your tools have shaped your minds, subtly but inexorably. And so with that, what you leave with today, both in mind and in treasure, shall be different for each of you.",
+      "ru": "Ваши инструменты незаметно, но верно повлияли на ваш образ мыслей. Поэтому и знания, и награды, с которыми вы сегодня уйдёте, у каждого будут свои.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Let us start with <playername>. Please come up to the stage!",
+      "ru": "Начнём с <playername>. Пожалуйста, поднимись на сцену!",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "There is a reason I've called you up first, you know. Recall what I said about old hats earlier? Don't think we didn't notice the armor, or the weapon, or the grim countenance.",
+      "ru": "Есть причина, почему я позвал тебя первым. Помнишь, что я говорил про бывалых? Не думай, что мы не заметили броню, оружие и этот мрачный вид.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "But no need to worry. Those who truly have the drive to become learned in the ways of magic, no matter who they are, will always find their way here, and be accepted.",
+      "ru": "Но волноваться не нужно. Каждый, кто по-настоящему стремится овладеть магией, найдёт сюда дорогу. И мы примем его, кем бы он ни был.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "A shame about Seasum, but not to worry. Now, hand over your materials, and you'll receive your rewards.",
+      "ru": "Жаль, конечно, что Сизум не пришёл, но ничего страшного. А теперь передай свои материалы и получишь награды.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "And there you have it. Your feathers are grown, and you can spread your magical wings! Good luck on your adventures, Wynn soldier.",
+      "ru": "Вот и всё. Твои перья выросли, и ты можешь расправить магические крылья! Удачи в приключениях, солдат Винна.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "This must be Grookwarts! Looks like that fellow up ahead can explain things from here.",
+      "ru": "Это же Грукворс! Похоже, тот парень впереди всё объяснит.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "You look at your papers...",
+      "ru": "Ты смотришь на свои бумаги...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "on the right side of the hall, there is a head that looks like a book. When right-clicked, bookshelves will arrange themselves to form a parkour with the candles above the dining room.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "New Quest Started: The Order of the Grook",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Орден Грука",
+      "speaker": "",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Seasum in a tower on Mage Island.",
+      "ru": "Поговорить с Сисумом в башне на Острове магов.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Get the school invitation from Seasum room and bring it to Seasum.",
+      "ru": "Забрать приглашение в школу из комнаты Сисума и принести ему.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Talk to the School Ship Captain on the pier next to the Seaskipper Captain.",
+      "ru": "Поговорить с капитаном школьного корабля на причале рядом с капитаном \"Морского прыгуна\".",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Climb aboard the ship.",
+      "ru": "Подняться на борт корабля.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Follow the children to the school.",
+      "ru": "Следовать за детьми в школу.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to Cidre on the school island.",
+      "ru": "Поговорить с Сидре на школьном острове.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Purchase a wand from the Wand Merchant and a book from the Magical Book Merchant, then talk to Una.",
+      "ru": "Купить палочку у торговца палочками и книгу у торговца волшебными книгами, затем поговорить с Уной.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Attend the welcoming dinner at Grookwarts.",
+      "ru": "Прийти на приветственный ужин в Груквартсе.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Choose your classes.",
+      "ru": "Выбрать занятия.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Talk to the Ghost Guide and attend your chosen classes (The Ghost Guide will lead you to each class):",
+      "ru": "Поговорить с призраком-проводником и посетить выбранные занятия. Он проводит тебя к каждому классу:",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Finish school for the day.",
+      "ru": "Завершить учебный день.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Go to the ceremony room for the Headmaster's closing speech.",
+      "ru": "Отправиться в зал церемоний и выслушать заключительную речь директора.",
+      "stage": "Stage 15"
+    }
+  ],
+  "choices": []
+}

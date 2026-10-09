@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "quest-items-the-strong-survive",
+  "scopes": [
+    {
+      "id": "heavy-shield",
+      "match": {
+        "title": "Heavy Shield",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Heavy Shield",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Right-Click to hold up the shield for <num>s. (<num>s Cooldown)",
+          "ru": "<em> ПКМ - поднять щит на <num>с. (Перезарядка: <num>с)"
+        },
+        {
+          "id": "line-002",
+          "en": "<em>Right-Click to hold up the shield for <num>s. (<num>s Cooldown)",
+          "ru": "<em> ПКМ - поднять щит на <num>с. (Перезарядка: <num>с)"
+        }
+      ]
+    },
+    {
+      "id": "wooden-estoc",
+      "match": {
+        "title": "Wooden Estoc",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Wooden Estoc",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Left-Click to preform a strike attack in front of you. (<num>s Cooldown)",
+          "ru": "<em> ЛКМ - нанести удар перед собой. (Перезарядка: <num>с)"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Left-Click to perform a strike attack in front of you. (<num>s Cooldown)",
+          "ru": "<em> ЛКМ - нанести удар перед собой. (Перезарядка: <num>с)"
+        },
+        {
+          "id": "line-003",
+          "en": "<em> Hold Right-Click to guard against incoming attacks. (<num>s Cooldown)",
+          "ru": "<em> Удерживайте ПКМ - защищаться от атак. (Перезарядка: <num>с)"
+        },
+        {
+          "id": "line-004",
+          "en": "<em>Left-Click to preform a strike attack in front of you. (<num>s Cooldown)",
+          "ru": "<em> ЛКМ - нанести удар перед собой. (Перезарядка: <num>с)"
+        },
+        {
+          "id": "line-005",
+          "en": "<em>Left-Click to perform a strike attack in front of you. (<num>s Cooldown)",
+          "ru": "<em> ЛКМ - нанести удар перед собой. (Перезарядка: <num>с)"
+        },
+        {
+          "id": "line-006",
+          "en": "<em>Hold Right-Click to guard against incoming attacks. (<num>s Cooldown)",
+          "ru": "<em> Удерживайте ПКМ - защищаться от атак. (Перезарядка: <num>с)"
+        }
+      ]
+    },
+    {
+      "id": "discarded-letter",
+      "match": {
+        "title": "Discarded Letter",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Discarded Letter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "An unfinished letter addressed to Sovereign Majin",
+          "ru": "Неоконченное письмо Сюзерену Маджину."
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to read the letter.",
+          "ru": "<em> ПКМ - прочитать письмо."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to read the letter.",
+          "ru": "<em> ПКМ - прочитать письмо."
+        }
+      ]
+    },
+    {
+      "id": "knife-handle",
+      "match": {
+        "title": "Knife Handle",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Knife Handle",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "A handle used to hold a knife.",
+          "ru": "Рукоять ножа."
+        }
+      ]
+    },
+    {
+      "id": "broken-screwdriver",
+      "match": {
+        "title": "Broken Screwdriver",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken Screwdriver",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "It's missing a handle.",
+          "ru": "У неё нет рукояти."
+        }
+      ]
+    },
+    {
+      "id": "repaired-screwdriver",
+      "match": {
+        "title": "Repaired Screwdriver",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Repaired Screwdriver",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Right-Click to remove screws.",
+          "ru": "<em> ПКМ - открутить винты."
+        },
+        {
+          "id": "line-002",
+          "en": "It looks like it only has a couple uses left.",
+          "ru": "Кажется, её хватит лишь на пару использований."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to remove screws.",
+          "ru": "<em> ПКМ - открутить винты."
+        }
+      ]
+    },
+    {
+      "id": "mysterious-note",
+      "match": {
+        "title": "Mysterious Note",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Mysterious Note",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "\"Meet me in the dueling room. —A\"",
+          "ru": "§o\"Встреться со мной в зале поединков. -А\"§r"
+        },
+        {
+          "id": "line-002",
+          "en": "\"Meet me in the dueling room. -A\"",
+          "ru": "§o\"Встреться со мной в зале поединков. -А\"§r"
+        }
+      ]
+    },
+    {
+      "id": "warped-emblem",
+      "match": {
+        "title": "Warped Emblem",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Warped Emblem",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "A titanium badge with a symbol on it, it's too distorted to make out.",
+          "ru": "§oТитановый значок с символом. Он слишком деформирован, чтобы разобрать изображение.§r"
+        }
+      ]
+    },
+    {
+      "id": "yak-loin",
+      "match": {
+        "title": "Yak Loin",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Yak Loin",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Right-Click to eat.",
+          "ru": "<em> ПКМ - съесть."
+        },
+        {
+          "id": "line-002",
+          "en": "<em>Right-Click to eat.",
+          "ru": "<em> ПКМ - съесть."
+        }
+      ]
+    },
+    {
+      "id": "grilled-mahseer",
+      "match": {
+        "title": "Grilled Mahseer",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Grilled Mahseer",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Right-Click to eat.",
+          "ru": "<em> ПКМ - съесть."
+        },
+        {
+          "id": "line-002",
+          "en": "<em>Right-Click to eat.",
+          "ru": "<em> ПКМ - съесть."
+        }
+      ]
+    },
+    {
+      "id": "juicy-apple",
+      "match": {
+        "title": "Juicy Apple",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Juicy Apple",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Right-Click to eat.",
+          "ru": "<em> ПКМ - съесть."
+        },
+        {
+          "id": "line-002",
+          "en": "<em>Right-Click to eat.",
+          "ru": "<em> ПКМ - съесть."
+        }
+      ]
+    },
+    {
+      "id": "diary-note-1",
+      "match": {
+        "title": "Diary Note 1",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Diary Note 1",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "The note is titled \"Day 0 at Tericen\"",
+          "ru": "Запись озаглавлена §o\"День 0 в Терисене\"§r"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        }
+      ]
+    },
+    {
+      "id": "diary-note-2",
+      "match": {
+        "title": "Diary Note 2",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Diary Note 2",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "The note is titled \"Day 1 at Tericen\"",
+          "ru": "Запись озаглавлена §o\"День 1 в Терисене\"§r"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        }
+      ]
+    },
+    {
+      "id": "diary-note-3",
+      "match": {
+        "title": "Diary Note 3",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Diary Note 3",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "The note is titled \"Day 5 at Tericen\"",
+          "ru": "Запись озаглавлена §o\"День 5 в Терисене\"§r"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        }
+      ]
+    },
+    {
+      "id": "diary-note-4",
+      "match": {
+        "title": "Diary Note 4",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Diary Note 4",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "The note is titled \"Day 16 at Tericen\"",
+          "ru": "Запись озаглавлена §o\"День 16 в Терисене\"§r"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        }
+      ]
+    },
+    {
+      "id": "diary-note-5",
+      "match": {
+        "title": "Diary Note 5",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Diary Note 5",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "The note is titled \"Day 17 at Tericen\"",
+          "ru": "Запись озаглавлена §o\"День 17 в Терисене\"§r"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        }
+      ]
+    },
+    {
+      "id": "diary-note-6",
+      "match": {
+        "title": "Diary Note 6",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Diary Note 6",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "The note is titled \"Day 30 at Tericen\"",
+          "ru": "Запись озаглавлена §o\"День 30 в Терисене\"§r"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to read the diary entry.",
+          "ru": "<em> ПКМ - прочитать дневниковую запись."
+        }
+      ]
+    },
+    {
+      "id": "recruit-diary-entries-6-6",
+      "match": {
+        "title": "Recruit Diary Entries [6/6]",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Recruit Diary Entries [6/6]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "All 6 diary entries from an unknown recruit.",
+          "ru": "Все 6 дневниковых записей неизвестного рекрута."
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to choose an entry to read.",
+          "ru": "<em> ПКМ - выбрать запись для чтения."
+        },
+        {
+          "id": "line-003",
+          "en": "<em>Right-Click to choose an entry to read.",
+          "ru": "<em> ПКМ - выбрать запись для чтения."
+        }
+      ]
+    }
+  ]
+}

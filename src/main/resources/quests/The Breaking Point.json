@@ -1,0 +1,2200 @@
+{
+  "quest": "The Breaking Point",
+  "level": 97,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-breaking-point",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "... Alright, let's see here... Private! Give me a report!",
+      "ru": "...Так, посмотрим... Рядовой! Доложить обстановку!",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Sir, our readings are postive! Stablility is at 96%, and shows no sign of dropping.",
+      "ru": "Сэр, показатели в норме! Стабильность на 96%, признаков падения нет.",
+      "speaker": "Private Walder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Readings are positive!",
+      "ru": "Показатели в норме!",
+      "speaker": "Private Walder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Excellent. Keep an eye on everything, and let me know if something comes up. Now, I need to go find...-",
+      "ru": "Отлично. Следи за всем и дай знать, если что-то случится. А теперь мне нужно найти...-",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Hmph. And who exactly are you? This site is off-limits to civilians.",
+      "ru": "Хмф. А ты ещё кто такой? Эта зона закрыта для гражданских.",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Just an adventurer passing through.",
+      "ru": "Просто приключенец, проходил мимо.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Adventurer. Of course. Well, as it stands, we're doing rather dangerous work here. I'll have to ask you to-",
+      "ru": "Приключенец. Ну конечно. Что ж, сейчас мы занимаемся довольно опасной работой. Мне придётся попросить тебя-",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "What's this device for?",
+      "ru": "Для чего это устройство?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "... The stabilizer? We're doing rather dangerous work here, keeping the thing beyond that cliff passive. So, I'll have to ask you to-",
+      "ru": "...Стабилизатор? Работа у нас довольно опасная: мы усмиряем существо за тем утёсом. Так что мне придётся попросить тебя-",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "General! Stability is dropping, and fast!",
+      "ru": "Генерал! Стабильность падает, и быстро!",
+      "speaker": "Private Walder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "General!",
+      "ru": "Генерал!",
+      "speaker": "Private Walder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "What?! Of all times for it to-",
+      "ru": "Что?! Именно сейчас оно-",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Urgh... Soldiers, follow protocol! Secure what you can, and leave what you can't! And- you! I haven't forgotten about you. As soon as this all cleans up, we'll-",
+      "ru": "Ух... Солдаты, по протоколу! Закрепить всё, что можете, остальное бросить! И- ты! Я про тебя не забыл. Как только всё уляжется, мы-",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Gah! This damned Colossus! What I wouldn't give to...",
+      "ru": "Аах! Проклятый Колосс! Что бы я только не отдал, чтобы...",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "... It's over. Walder! Survey the damages to our equipment! Morec! Take count of injuries around the base, make sure everyone's safe!",
+      "ru": "...Всё закончилось. Валдер! Оцени повреждения оборудования! Морек! Проверь раненых на базе, убедись, что все в безопасности!",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Yes sir!",
+      "ru": "Есть, сэр!",
+      "speaker": "Private Walder",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "General! We came as soon as we could- we were down in the library and the exit co- Oh. Wow.",
+      "ru": "Генерал! Мы пришли так быстро, как смогли, мы были внизу, в библиотеке, и выход обру- О. Ничего себе.",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Well, Rhay, you're here now, yes? What do you think, can you fix it? We'll need to get it working before-",
+      "ru": "Ну, Рэй, теперь ты здесь, да? Как думаешь, починишь? Нам нужно запустить это до того, как-",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Can I- No, of course I can't fix it! Not on my own, especially since we don't have the proper equipment around here! Ugh, how long has it even been since last time?",
+      "ru": "Смогу ли я- Нет, конечно, я не смогу это починить! Не в одиночку, особенно без нормального оборудования под рукой! Ух, сколько вообще прошло с прошлого раза?",
+      "speaker": "Rhay",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "It has been... three days... give or take. Rhay... you know we can't keep-",
+      "ru": "Прошло... три дня... плюс-минус. Рэй... ты знаешь, мы не можем продолжать-",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "The stabilizer has been working so far, Ineos! It's some of the finest technology our province has had to offer, and it has been working!",
+      "ru": "Но до сих пор стабилизатор работал, Инеос! Это одна из лучших машин, которые создала наша провинция, и она работала!",
+      "speaker": "Rhay",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Rhay, you know... as well as I do... that it is getting worse. The Protector is... growing resistant to... your machines. We need... a new plan.",
+      "ru": "Рэй, ты знаешь... не хуже меня... что всё становится хуже. Защитник... привыкает к... твоим машинам. Нам нужен... новый план.",
+      "speaker": "Ineos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Yes, well, as soon as you come up with one, I'll be glad to hear it! But so far, you've barely gotten anything-",
+      "ru": "Да, ну, как только ты его придумаешь, я с радостью послушаю! Но пока ты почти ничего не-",
+      "speaker": "Rhay",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Rhay",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "... Sorry. I'm sorry, I didn't mean that. General, to answer your question... The stabilizer itself is damaged, but you should have what's needed to repair it here.",
+      "ru": "...Прости. Прости, я не это имела в виду. Генерал, отвечая на ваш вопрос... сам стабилизатор повреждён, но всё нужное для ремонта у вас здесь должно быть.",
+      "speaker": "Rhay",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "The issue is that the controls look like they're fried! And we don't have any replacement parts stored here. We'll have to travel back to Corkus, and...",
+      "ru": "Проблема в том, что панель управления, похоже, сгорела! А запасных деталей у нас здесь нет. Придётся возвращаться в Коркус, и...",
+      "speaker": "Rhay",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Is there anything I can do to help?",
+      "ru": "Я могу чем-то помочь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "...Right. You. You're an adventurer, yes? And you appear to be well-equipped. Then you'll be traveling to Corkus with Rhay, and assist with whatever is needed there.",
+      "ru": "...Точно. Ты. Ты ведь приключенец, да? И, похоже, хорошо снаряжён. Тогда отправишься в Коркус с Рэй и поможешь там со всем, что понадобится.",
+      "speaker": "General Elix",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Huh?",
+      "ru": "А?",
+      "speaker": "Rhay",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Wait, General-... Right. Alright. In that case... I'll give you time to prepare. We'll take the Hot Air Balloon to travel to Corkus, so I'll meet you there. We don't have any time to waste.",
+      "ru": "Подождите, генерал-... Ладно. Хорошо. В таком случае... дам тебе время подготовиться. В Коркус полетим на воздушном шаре, встретимся там. Времени терять нельзя.",
+      "speaker": "Rhay",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "And I will... return to the library. I trust... you will succeed... But we must... prepare for the... worst.",
+      "ru": "А я... вернусь в библиотеку. Я верю... что вы справитесь... Но мы должны... готовиться к... худшему.",
+      "speaker": "Ineos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Alright...",
+      "ru": "Хорошо...",
+      "speaker": "Ineos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Ah, you're here! Well, if you're ready, then we'd best be off. Just hop aboard this balloon, and the captain will take us where we need to go.",
+      "ru": "А, ты здесь! Если готов, нам лучше отправляться. Просто залезай на этот шар, и капитан отвезёт нас куда нужно.",
+      "speaker": "Rhay",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "I can tell you more while we travel, but we need to get going quick. There's no telling how much time we have before-",
+      "ru": "По пути расскажу подробнее, но нам надо поспешить. Кто знает, сколько времени у нас осталось до-",
+      "speaker": "Rhay",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Right, right. Don't mind me, I'm just a little on edge, for... well, obvious reasons. Just hop aboard.",
+      "ru": "Да, да. Не обращай внимания, я просто немного на нервах, по... ну, очевидным причинам. Просто садись.",
+      "speaker": "Rhay",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Well, there it is! The Canyon Colossus itself. The source of all our problems here at Kandon-Beda.",
+      "ru": "Ну вот он! Сам Колосс Каньона. Источник всех наших проблем здесь, в Кандон-Беде.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "So! How much do you already know? I know we dragged you into this without telling you much, so... I can fill you in on the details.",
+      "ru": "Итак! Сколько ты уже знаешь? Понимаю, мы втянули тебя в это почти без объяснений, так что... могу ввести в курс дела.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "I heard the General mention it. So it's the source of those earthquakes?",
+      "ru": "Я слышал, как генерал упоминал его. Значит, это источник землетрясений?",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Oh, he did? Right, that makes sense. Well, you're right in that it's the source of the earthquakes, but there's more to it than that.",
+      "ru": "О, упоминал? Да, логично. Ну, ты прав, он источник землетрясений, но дело не только в этом.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "You've seen the Sky Islands, right? Heard of the Fracturing. From what I can tell, what happened to that region a thousand years ago is happening again, here and now.",
+      "ru": "Ты видел Небесные острова, да? Слышал о Расколе. Насколько я понимаю, то, что случилось с тем регионом тысячу лет назад, снова происходит здесь и сейчас.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "And the Colossus is what's causing it?",
+      "ru": "И это Колосс виноват?",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Yes, exactly. It's been malfunctioning for a long time now, and it's starting to tear the canyon apart. That's where we come in.",
+      "ru": "Да, именно. Он уже давно работает неправильно и начинает разрывать каньон на части. Вот тут и появляемся мы.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "I don't know much about it. Can you tell me about it?",
+      "ru": "Я мало о нём знаю. Расскажешь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Well... To start with, it's an ancient thing. It was built long before even the doguns can remember, and they've lived in this region for thousands of years.",
+      "ru": "Ну... Начнём с того, что он очень древний. Даже догуны не помнят, когда его построили, а ведь они живут в этом краю тысячи лет.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "According to Ineos, the doguns used to be responsible for keeping it calm, but ever since the dwarves came in and started their war, that knowledge has been lost to time.",
+      "ru": "По словам Инеоса, раньше догуны усмиряли его. Но когда пришли дварфы и начали войну, это знание было утрачено.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Which is... a problem! The Colossus has been malfunctioning for hundreds of years, and it's reaching its breaking point. If we don't stop it, it'll tear the canyon apart.",
+      "ru": "И это... проблема! Колосс неисправен уже сотни лет, и теперь он на пределе. Если мы его не остановим, он разорвёт каньон на части.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Alright. How do we stop it?",
+      "ru": "Ладно. Как его остановить?",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "I've seen the kinds of things it does to the canyon.",
+      "ru": "Я видел, что он делает с каньоном.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Oh? So you've traveled the canyon, then. Yeah, then you've seen how the canyon twists and changes.",
+      "ru": "О? Значит, ты путешествовал по каньону. Да, тогда ты видел, как он искривляется и меняется.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "It destroys peoples' homes, it traps them deep within the maze-like valleys... And, more recently, it has been tearing a hole into the void.",
+      "ru": "Он разрушает дома, запирает людей глубоко в лабиринте долин... А с недавних пор ещё и разрывает проход в Бездну.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "This thing is ancient, and we don't know how it works. The best we can do is try to keep it from reaching its breaking point, and prevent the canyon from meeting the same fate as the Sky Islands.",
+      "ru": "Он очень древний, и мы не знаем, как он устроен. Всё, что нам остаётся, - не дать ему окончательно сорваться и уберечь каньон от судьбы Небесных островов.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "So, Gavel's government contacted us in Corkus some time ago, requesting our help to deal with this threat.",
+      "ru": "Так что правительство Гавеля некоторое время назад связалось с нами в Коркусе и попросило помочь с этой угрозой.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Our council agreed, and we got to work designing a machine that could replicate the dogun magic that pacified that Colossus long ago.",
+      "ru": "Наш совет согласился, и мы начали проектировать машину, способную повторить догунскую магию, которая когда-то усмирила Колосса.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "We've had Ineos' help on that front. He and I have been working here in Kandon-Beda to ensure things are running smoothly. Which... evidently, they are not.",
+      "ru": "С этим нам помогал Инеос. Мы с ним работали здесь, в Кандон-Беде, чтобы всё шло гладко. Хотя... как видно, гладко не выходит.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "... We'll be fine! We're going to meet up with my husband at Corkus, and he'll know what to do. He always does.",
+      "ru": "...Всё будет хорошо! В Коркусе встретимся с моим мужем, и он будет знать, что делать. Он всегда знает.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "What are we going to do at Corkus?",
+      "ru": "Что мы будем делать в Коркусе?",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Our people there will be able to get us the parts we need to repair the device. This... this isn't the first it's exploded. I had hoped that this time we would have gotten it stable, but...",
+      "ru": "Наши люди там смогут достать детали, нужные для ремонта устройства. Это... это уже не первый раз, когда оно взрывается. Я надеялась, что в этот раз мы добились стабильности, но...",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "But, hey! We have it under control. We're always able to repair it quickly enough to keep it running while the Colossus is active.",
+      "ru": "Но, эй! Всё под контролем. Мы всегда успеваем быстро починить его, чтобы оно работало, пока Колосс активен.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Your husband?",
+      "ru": "Твой муж?",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Oh! Yeah. He's the one responsible for the design and production of this device. He's got a talent for designing these sorts of things, without him... well, we'd be in a much worse situation than we are now.",
+      "ru": "О! Да. Он отвечает за разработку и изготовление этого устройства. У него талант к таким машинам. Без него... ну, нам было бы гораздо хуже, чем сейчас.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "I'll be glad to see him again. It's been a while since I last had to travel to Corkus, and... Well, I'm confident he'll know what to do here. He always does.",
+      "ru": "Буду рада снова его увидеть. Давно мне не приходилось летать в Коркус, и... Ну, я уверена, он будет знать, что делать. Он всегда знает.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "... Right! Hey, it looks like we're almost there. We'll be able to get this all sorted out, and we'll be back to Kandon-Beda in no time.",
+      "ru": "...Точно! Эй, похоже, мы почти на месте. Сейчас всё решим и быстро вернёмся в Кандон-Беду.",
+      "speaker": "Rhay",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Alright, let's just head on in. My husband should be around here somewhere...",
+      "ru": "Ладно, давай зайдём. Мой муж должен быть где-то здесь...",
+      "speaker": "Rhay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Rhay, love! You're back already? Our next routine maitenance isn't for another- Wait, <playername>? What are you doing here?",
+      "ru": "Рэй, дорогая! Ты уже вернулась? Следующее плановое обслуживание только через- Стоп, <playername>? Что ты здесь делаешь?",
+      "speaker": "Maxie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "I... You two know each other?",
+      "ru": "Я... Вы двое знакомы?",
+      "speaker": "Rhay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Of course we do - they're the one who helped me with all the Factory stuff! How did you two meet?",
+      "ru": "Конечно знакомы - это он помог мне со всей той историей на Фабрике! А вы как встретились?",
+      "speaker": "Maxie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "They just showed up at Kandon-Beda and agreed to help us with... - Why didn't you bring this up earlier?",
+      "ru": "Он просто появился в Кандон-Беде и согласился помочь нам с... - Почему ты не сказал об этом раньше?",
+      "speaker": "Rhay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Must have slipped my mind.",
+      "ru": "Видимо, вылетело из головы.",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "It must have...- right. Well, if anything that makes you even more qualified to help us out, I guess! I can't believe I didn't recognize you...?",
+      "ru": "Наверное...- ладно. Ну, значит, для этой помощи ты подходишь ещё лучше! Как же я тебя не узнала...?",
+      "speaker": "Rhay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Okay, right, back to the question - what are you two doing here already? There's another few days or so until our next routine maitenance, isn't there?",
+      "ru": "Так, ладно, вернёмся к вопросу - почему вы двое уже здесь? До следующего планового обслуживания ещё несколько дней, разве нет?",
+      "speaker": "Maxie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Wait, Maxie, you got married? Why wasn't I invited?",
+      "ru": "Стоп, Макси, ты женился? Почему меня не позвали?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "I did send you an invite! I gave it to... you know, that that one captain who ferries people around! But then you didn't show up to the wedding, so I guess it didn't reach you...",
+      "ru": "Я отправлял тебе приглашение! Я отдал его... ну знаешь, тому капитану, который людей возит! Но ты на свадьбу не пришёл, так что, видимо, оно до тебя не дошло...",
+      "speaker": "Maxie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Look, you're a hard person to reach! You've been all over the world at this point, including Kandon-Beda of all places- speaking of, why are you two here?",
+      "ru": "Слушай, тебя ведь непросто найти! Ты уже весь мир объездил, даже в Кандон-Беду забрался - кстати, зачем вы двое сюда приехали?",
+      "speaker": "Maxie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "!!!",
+      "ru": "!!!",
+      "speaker": "Rhay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Right! Right. Got a little distracted there... Uh, we've run into a problem back at Kandon-Beda. We experienced an undetected seismic event, and the device was heavily damaged.",
+      "ru": "Точно! Точно. Немного отвлеклась... Эм, у нас беда в Кандон-Беде. Произошло неожиданное землетрясение, и устройство сильно пострадало.",
+      "speaker": "Rhay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "We should be able to finish most of the repairs with what materials we have there, but we're missing a Magmaflux Capacitor for the control panel.",
+      "ru": "Большую часть ремонта мы сможем закончить из материалов на месте, но для панели управления не хватает магмафлюкс-конденсатора.",
+      "speaker": "Rhay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "... Oh. That's going to be a problem. We haven't had an opportunity to make more parts yet - it hasn't been long enough since our last maitenance. So... I'm not sure what we-",
+      "ru": "...О. Это будет проблемой. Мы ещё не успели сделать новые детали - после прошлого обслуживания прошло слишком мало времени. Так что... не уверен, что мы-",
+      "speaker": "Maxie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "I overheard the conversation from over there- good to see you Rhay, by the way- But. We may not have any capacitors left up here, but I know where you can get one.",
+      "ru": "Я слышал ваш разговор отсюда - кстати, рад видеть тебя, Рэй. Так вот. Наверху конденсаторов у нас уже нет, но я знаю, где можно достать один.",
+      "speaker": "Nodise",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "We repurposed this factory for our needs, but it was built here to process resources from the mines below.",
+      "ru": "Мы переделали эту фабрику под наши нужды, но изначально её построили для обработки ресурсов из шахт внизу.",
+      "speaker": "Nodise",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Though it was discontinued, it's still very likely that there are still miner mechs down there- and some of the more powerful models made use of very similar circuits to the capacitors we use today.",
+      "ru": "Хотя работу там прекратили, внизу, скорее всего, ещё остались роботы-шахтёры. В некоторых мощных моделях использовали схемы, похожие на те, что стоят в наших нынешних конденсаторах.",
+      "speaker": "Nodise",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "... You're right! If they're still down there, we should be able to scrap one of the bots and reuse its circuits. <playername>, we can send you down into the mines to find what we need, while we prepare up here!",
+      "ru": "...Ты прав! Если они всё ещё там, можно разобрать одного робота и использовать его схемы. <playername>, отправим тебя в шахты за нужной деталью, а сами подготовимся здесь!",
+      "speaker": "Maxie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Alright, I can do that.",
+      "ru": "Ладно, сделаю.",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Alright... Good luck down there! Find the bot, destroy it, and bring the capacitor back up! Just step on the platform in the middle of the factory when you're ready.",
+      "ru": "Хорошо... Удачи там внизу! Найди робота, уничтожь его и принеси конденсатор наверх! Когда будешь готов, встань на платформу в центре фабрики.",
+      "speaker": "Rhay",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "I need to prepare first.",
+      "ru": "Мне сначала нужно подготовиться.",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Okay. That's fine, just make it quick! You know we can't waste any time here.",
+      "ru": "Ладно. Хорошо, только быстро! Ты знаешь, нам нельзя терять время.",
+      "speaker": "Maxie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Door opening in 3...",
+      "ru": "Дверь открывается через 3...",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "2...",
+      "ru": "2...",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "1...",
+      "ru": "1...",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "INTRUDER DETECTED. HOSTILE ENGAGEMENT AUTHORISED.",
+      "ru": "ОБНАРУЖЕН НАРУШИТЕЛЬ. АТАКА РАЗРЕШЕНА.",
+      "speaker": "Mining Robots",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "DEPLOYING SECONDARY ANTI-INTRUDER MEASURES.",
+      "ru": "ВКЛЮЧАЕМ ДОПОЛНИТЕЛЬНУЮ ЗАЩИТУ ОТ НАРУШИТЕЛЯ.",
+      "speaker": "Mining Robots",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "DIVERTING ALL AVAILABLE UNITS TO HALT INTRUDER.",
+      "ru": "НАПРАВЛЯЕМ ВСЕ ДОСТУПНЫЕ МАШИНЫ ДЛЯ ОСТАНОВКИ НАРУШИТЕЛЯ.",
+      "speaker": "Mining Robots",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "THIS IS A RESTRICTED AREA. REQUESTING AUTHORISATION FOR USE OF LETHAL FORCE AGAINST INTRUDER.",
+      "ru": "ЭТО ЗАКРЫТАЯ ЗОНА. ЗАПРАШИВАЮ РАЗРЕШЕНИЕ НА ПРИМЕНЕНИЕ СМЕРТЕЛЬНОЙ СИЛЫ ПРОТИВ НАРУШИТЕЛЯ.",
+      "speaker": "The Mother Drill",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "AUTHORISATION GRANTED.",
+      "ru": "РАЗРЕШЕНИЕ ПОЛУЧЕНО.",
+      "speaker": "The Mother Drill",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "DIVERTING MINER MECHS TO HALT INTRUDER.",
+      "ru": "НАПРАВЛЯЮ РОБОТОВ-ШАХТЁРОВ ДЛЯ ОСТАНОВКИ НАРУШИТЕЛЯ.",
+      "speaker": "The Mother Drill",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Amazing work! I'll get us back to Kandon-Beda with that capacitor as quick as possible.",
+      "ru": "Отличная работа! Я как можно быстрее доставлю нас с этим конденсатором обратно в Кандон-Беду.",
+      "speaker": "Rhay",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Good to see you again, <playername>. Good luck with the colossus. And Rhay... come home as soon as you can.",
+      "ru": "Рад был снова увидеться, <playername>. Удачи с Колоссом. И Рэй... возвращайся домой как можно скорее.",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Fly safe, both of you.",
+      "ru": "Долетите без приключений, вы оба.",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Well... that went better than expected, really. I still can't believe you didn't tell me you already knew Maxie.",
+      "ru": "Ну... всё прошло лучше, чем ожидалось, правда. Всё ещё не верится, что ты не сказал, что уже знаешь Макси.",
+      "speaker": "Rhay",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Oh, wow. It looks like they've managed to fix up the machine pretty well, all things considered. Just this part left to get it running again...",
+      "ru": "О, ничего себе. Похоже, они неплохо починили машину, учитывая обстоятельства. Осталось только поставить эту деталь, чтобы снова запустить её...",
+      "speaker": "Rhay",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Hmph. Rhay, there you are. Seeing as you've returned, I gather everything went smoothly at Corkus?",
+      "ru": "Хмф. Рэй, вот ты где. Раз ты вернулась, полагаю, в Коркусе всё прошло гладко?",
+      "speaker": "General Elix",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Smoothly enough, General! We have what we need to repair the control panel. We'll be able to get the stabilizer running again!",
+      "ru": "Достаточно гладко, генерал! У нас есть всё нужное для ремонта панели управления. Мы сможем снова запустить стабилизатор!",
+      "speaker": "Rhay",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Well?! What are you waiting for? Finish the repairs, we can't afford to lose any time with this damned Colossus looming over us.",
+      "ru": "Ну?! Чего ждёте? Заканчивайте ремонт, мы не можем терять время, пока этот проклятый Колосс нависает над нами.",
+      "speaker": "General Elix",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Yes, sir! Alright. <playername>, just slot the capacitor in right... there. I'll make sure it runs smoothly.",
+      "ru": "Есть, сэр! Ладно. <playername>, просто вставь конденсатор вот... сюда. Я прослежу, чтобы всё работало гладко.",
+      "speaker": "Rhay",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "There we are. Now, let's get this thing running again! Walder, keep an eye on stability! And... Rhay. You're confident this will work?",
+      "ru": "Вот так. А теперь запустим эту штуку снова! Валдер, следи за стабильностью! И... Рэй. Ты уверена, что это сработает?",
+      "speaker": "General Elix",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "I-I'm sure. This is our last chance. We have to hold out hope that the stabilizer will hold.",
+      "ru": "Я-я уверена. Это наш последний шанс. Мы должны надеяться, что стабилизатор выдержит.",
+      "speaker": "Rhay",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Alright, alright... It's now or never... Hold, stabilizer, hold!",
+      "ru": "Ладно, ладно... Сейчас или никогда... Держись, стабилизатор, держись!",
+      "speaker": "Rhay",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "... Oh. That's... that's it, then. It's over. We failed.",
+      "ru": "...О. Вот... вот и всё. Всё кончено. Мы провалились.",
+      "speaker": "Rhay",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "I... am sorry, Rhay. I had... hoped it would work. In truth... I do not have... a plan... either.",
+      "ru": "Мне... жаль, Рэй. Я... надеялся, что это сработает. Но если честно... у меня тоже... нет плана...",
+      "speaker": "Ineos",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "The Elders... would have known... what to do... But they are... long gone. Nothing but... ruins remain.",
+      "ru": "Старейшины... знали бы... что делать... Но их уже... давно нет. Остались только... руины.",
+      "speaker": "Ineos",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "The Elders?",
+      "ru": "Старейшины?",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "The Elders... They were... the greatest... of doguns. As old... as the oldest stones... and wise... as the earth itself...",
+      "ru": "Старейшины... Они были... величайшими... из догунов. Такими же древними... как самые старые камни... и такими же мудрыми... как сама земля...",
+      "speaker": "Ineos",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "They were capable... of magic... beyond what any... of us could achieve. They alone... could calm our... Protector.",
+      "ru": "Им была подвластна... магия... недостижимая... для любого из нас. Лишь они... могли успокоить... нашего Защитника.",
+      "speaker": "Ineos",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "What happened to the Elders?",
+      "ru": "Что случилось со Старейшинами?",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "They were... sealed away. Frozen in... the deepest... of ice. When the dwarves... slew Garaheth... the Elders... fell with him.",
+      "ru": "Их... запечатали. Заморозили в... глубочайшем... льду. Когда дварфы... сразили Гарахета... Старейшины... пали вместе с ним.",
+      "speaker": "Ineos",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Such atrocities... The war... My people... But it is not... to dwell on, now. There are... more important... things at hand.",
+      "ru": "Такие зверства... Война... Мой народ... Но сейчас... не время... зацикливаться на этом. Есть... дела поважнее.",
+      "speaker": "Ineos",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "But the war is over. The dwarves and doguns have made peace.",
+      "ru": "Но война окончена. Дварфы и догуны заключили мир.",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "I... I did not... know of this. My people... are free? How long... has it been... since I have seen... my home?",
+      "ru": "Я... я не... знал этого. Мой народ... свободен? Сколько же... прошло времени... с тех пор, как я видел... свой дом?",
+      "speaker": "Ineos",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "You... Adventurer. We must... speak to my people. Our chieftain... will know... how we may free... the Elders.",
+      "ru": "Ты... приключенец. Мы должны... поговорить с моим народом. Наш вождь... будет знать... как нам освободить... Старейшин.",
+      "speaker": "Ineos",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "If there is a chance... We have to take it. Ineos, <playername>, take the balloon. We'll do whatever we can here. Now, go! There's no time to waste!",
+      "ru": "Если есть хоть шанс... мы обязаны им воспользоваться. Инеос, <playername>, берите шар. Мы сделаем здесь всё, что сможем. А теперь идите! Времени нет!",
+      "speaker": "General Elix",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "I have never... seen the Heights... from above. I wonder... if their glow... holds the same strength... it does from below...",
+      "ru": "Я никогда... не видел Высоты... сверху. Интересно... их сияние... такое же сильное... как снизу...",
+      "speaker": "Ineos",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "I only hope... the Elders... are not gone... for good. We greatly need... their wisdom.",
+      "ru": "Я лишь надеюсь... что Старейшины... не ушли... навсегда. Нам очень нужна... их мудрость.",
+      "speaker": "Ineos",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Ah... I believe us... to be landing...",
+      "ru": "Ах... кажется... мы садимся...",
+      "speaker": "Ineos",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "<playername>... Hello. What a... strange sight... to see you landing... at our village... in such a contraption...",
+      "ru": "<playername>... Привет. Какое... странное зрелище... видеть, как ты приземляешься... у нашей деревни... на такой штуке...",
+      "speaker": "Korzim",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "And... is that... Ineos? We thought... the dwarves... had turned you into rubble...",
+      "ru": "И... это что... Инеос? Мы думали... дварфы... превратили тебя в щебень...",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "I escaped... It is a long... story, Korzim. We do not... have time. Where is... your father?",
+      "ru": "Я спасся... Это долгая... история, Корзим. У нас нет... времени. Где... твой отец?",
+      "speaker": "Ineos",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "He is... below. They are... freeing the frozen... in New Taloka. Why do you... wish to speak... with him?",
+      "ru": "Он... внизу. Они... освобождают замёрзших... в Новой Талоке. Зачем ты... хочешь поговорить... с ним?",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "The Protector... is angered. We must find... the Elders. They will know... how to calm it.",
+      "ru": "Защитник... разгневан. Мы должны найти... Старейшин. Они будут знать... как его успокоить.",
+      "speaker": "Ineos",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "The... Protector... I understand. I will... bring you two... to him. Sidio... Raetin... I leave you two... in charge.",
+      "ru": "...Защитник... Понимаю. Я... отведу вас двоих... к нему. Сидио... Раетин... оставляю вас двоих... за главных.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Now, let us... travel. Through flame... and through stone...",
+      "ru": "А теперь... в путь. Сквозь пламя... и сквозь камень...",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "We are... here. Taloka was... one of the first to fall... in the war. We have been... working with the dwarves... to restore it.",
+      "ru": "Мы... пришли. Талока была... одним из первых поселений, павших... в войне. Мы... работаем с дварфами... чтобы восстановить её.",
+      "speaker": "Korzim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Are we all ready?",
+      "ru": "Все готовы?",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Ready...",
+      "ru": "Готов...",
+      "speaker": "Edac",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Ready!",
+      "ru": "Готово!",
+      "speaker": "Dwarven Technician",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "Very well. Begin on three. One... Two... Three!",
+      "ru": "Отлично. Начинаем на счёт три. Раз... Два... Три!",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "Beginning reheating cycle! Stand back from the subject.",
+      "ru": "Начинаю разогрев! Отойдите от замороженного.",
+      "speaker": "Dwarven Technician",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "... Where... am... I? How long... has it... been...?",
+      "ru": "... Где... я...? Сколько... прошло... времени...?",
+      "speaker": "Unsealed Dogun",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "...Dwarf... You... you froze me... I will... I will...!",
+      "ru": "...Дварф... Ты... ты заморозил меня... Я... я...!",
+      "speaker": "Unsealed Dogun",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Calm yourself... Delg. Our war... has ended. We are... freed. You have been... freed.",
+      "ru": "Успокойся... Делг. Наша война... окончена. Мы... свободны. И ты... тоже свободен.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "... Freedom? Hundreds... of years... of war... And we are... free?",
+      "ru": "...Свобода? Сотни... лет... войны... И мы... свободны?",
+      "speaker": "Dogun Delg",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Yes. We are free... to roam our home... once more. Edac... Escort Delg... and help him re-adjust... to the heights.",
+      "ru": "Да. Мы снова свободны... ходить по нашему дому. Эдак... отведи Делга... и помоги ему... привыкнуть к Высотам.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Ah, <playername>! It's good to see you again. We haven't seen you around here since... since the end of it.",
+      "ru": "А, <playername>! Рад снова тебя видеть. Мы не видели тебя здесь с тех пор... с тех самых пор, как всё закончилось.",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Yes. We have been... hard at work... these past weeks. Taloka will soon... stand once more. And many... of our sealed bretheren... have been returned to life.",
+      "ru": "Да. Все эти недели... мы усердно трудились. Талока скоро... поднимется снова. И многие... из наших запечатанных братьев... вернулись к жизни.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Ah, but we can talk more about that later. Tell me, what brings you here today? Is there something you need from us?",
+      "ru": "Ах, но об этом можно поговорить позже. Скажи, что привело тебя сюда сегодня? Вам что-то нужно от нас?",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "The Canyon Colossus is tearing apart the canyon, and we need your help.",
+      "ru": "Колосс Каньона разрывает каньон на части, и нам нужна ваша помощь.",
+      "speaker": "CHOICE",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "The situtation... is dire. The Great Protector... has been left alone... for far too long. We need... the wisdom... of our Elders. Do you know... where they are sealed?",
+      "ru": "Ситуация... тяжёлая. Великий Защитник... слишком долго... оставался один. Нам нужна... мудрость... наших Старейшин. Ты знаешь... где они запечатаны?",
+      "speaker": "Ineos",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "The Elders?! Yes, we know where they are sealed. However, retrieving them is no simple task. It would take us years to break past the defenses, and we have countless other doguns to release first.",
+      "ru": "Старейшины?! Да, мы знаем, где они запечатаны. Но добраться до них не так просто. Нам потребовались бы годы, чтобы пробиться через защиту, а сначала нужно освободить бесчисленное множество других догунов.",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "The Protector?!",
+      "ru": "Защитник?!",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Ineos... I want our Elders free... as much as you do. But our Protector... has stood firm... for hundreds of years. It can stand... for another-",
+      "ru": "Инеос... Я хочу освободить наших Старейшин... не меньше тебя. Но наш Защитник... держался... сотни лет. Выдержит... ещё-",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "No... Has it truly... fallen this far..?",
+      "ru": "Нет... Неужели... всё зашло так далеко..?",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "... That was your Protector? How powerful is it, if it can reach this far?",
+      "ru": "...Это и был ваш Защитник? Насколько же он силён, если достаёт аж досюда?",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "If the Protector... could shake even the Heights... It could destroy... half of this province.",
+      "ru": "Если Защитник... смог встряхнуть даже Высоты... он может уничтожить... половину этой провинции.",
+      "speaker": "Korzim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Draani... the Elders must be freed. They alone... would know how to calm it.",
+      "ru": "Драани... Старейшин нужно освободить. Только они... будут знать, как его успокоить.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Yes... I understand. Very well. <playername>, I will take you to the Elders' vault. I hold the keys to open the way forward. Paku, gather your people. See if anyone has alternative solutions.",
+      "ru": "Да... я понимаю. Хорошо. <playername>, отведу тебя к хранилищу Старейшин. Ключи от дальнейших проходов у меня. Паку, собери свой народ. Может, кто-нибудь знает другой выход.",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "We will... search for one. I cannot... promise that one exists.",
+      "ru": "Мы... поищем. Но не могу... обещать, что оно есть.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "<playername>, let us go. It sounds as if we have very little time to waste.",
+      "ru": "<playername>, пойдём. Похоже, времени у нас почти не осталось.",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "I will make preparations, and meet you at the Vault of Ice.",
+      "ru": "Я всё подготовлю и встречу тебя у Ледяного Хранилища.",
+      "speaker": "King Draani",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "... Ahem. This is the entrance, then. One of our most closely guarded secrets... I was hoping not to have to confront this reminder for a while yet...",
+      "ru": "...Кхм. Значит, вот и вход. Один из наших самых строго хранимых секретов... Я надеялся ещё какое-то время не сталкиваться с этим напоминанием...",
+      "speaker": "King Draani",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "But it seems we don't have much choice now. I have the keys, let's go inside.",
+      "ru": "Но, похоже, выбора у нас теперь немного. Ключи у меня, пойдём внутрь.",
+      "speaker": "King Draani",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Rather cold in here, isn't it? A vault carved into a drake's True Ice... I suppose my ancestors hoped to seal these doguns in here forever. I'll be glad to disappoint them.",
+      "ru": "Холодновато здесь, да? Хранилище, вырубленное в Истинном льду дрейка... Полагаю, мои предки надеялись запечатать этих догунов здесь навечно. Буду рад их разочаровать.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "Quickly, then, let us proceed to the primary door. I pray the Elders will be responsive to our situation with the Colossus.",
+      "ru": "Тогда быстрее к главной двери. Надеюсь, Старейшины отнесутся к нашей беде с Колоссом с пониманием.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "In any case... Let me see if I can open this second gate. It should be as simple as...",
+      "ru": "В любом случае... Дай-ка я попробую открыть вторые ворота. Это должно быть так же просто, как...",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Hm. That... didn't work. This magic is old, and I have never took the time to learn it properly... Alright. We have alternatives.",
+      "ru": "Хм. Это... не сработало. Магия древняя, а я так и не нашёл времени толком её изучить... Ладно. Есть другие варианты.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "If my memory serves correctly, there should be a manual override on the other side of this chasm.",
+      "ru": "Если память мне не изменяет, на той стороне этой пропасти должен быть ручной переключатель.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "The issue is that treacherous pool of lava on the way... and I don't think my knees are up to the task of jumping over it all.",
+      "ru": "Проблема в опасном озере лавы по пути... и, боюсь, мои колени уже не выдержат таких прыжков.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "I would usually never do this, but these are desperate times. Here, take my Trusty Grappling Hook. It should help you get over to the switch.",
+      "ru": "Обычно я бы ни за что так не поступил, но сейчас отчаянные времена. Вот, возьми мой надёжный крюк-кошку. Он поможет добраться до переключателя.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "It has limitations, though. It will only be able to latch onto those blue rocks on the walls - and I'll be taking it back once you're finished, thank you very much!",
+      "ru": "Но он цепляется лишь за синие камни на стенах. И как закончишь, я его заберу обратно, уж будь добр!",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Hey, <playername>! Looks like you're doing good so far, but if you get stuck remember you can jump and then grapple mid-air, that might help on some of those trickier platforms!",
+      "ru": "Эй, <playername>! Пока ты отлично справляешься. Если застрянешь, помни: можно прыгнуть и зацепиться крюком прямо в воздухе. Это поможет добраться до труднодоступных платформ!",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Looks like that unlocked it, <playername>! Get yourself back over here and I'll open the door.",
+      "ru": "Похоже, это сработало, <playername>! Возвращайся сюда, и я открою дверь.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "There we are! Excellent work. You used that hook like a true expert! Ah, reminds me of the time-...",
+      "ru": "Вот и всё! Отличная работа. Ты орудовал этим крюком как настоящий мастер! Ах, напоминает мне времена, когда-",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "...Ahem. Excellent work, indeed. With the override activated, I should be able to do the rest of the work to open the gate.",
+      "ru": "...Кхм. Да, отличная работа. Теперь, когда ручное управление включено, я смогу довести дело до конца и открыть ворота.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "First, though, I'll be having that grappling hook back! Think of what could happen if you had free reign of that all over.",
+      "ru": "Но сначала верни мне мой крюк! Подумать страшно, что было бы, если бы ты разгуливал с ним где попало.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "And so... I believe we have gone as far as we can.",
+      "ru": "Итак... похоже, дальше мы пройти не сможем.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "What do you mean?",
+      "ru": "Что ты имеешь в виду?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "This is True Ice, <playername>. It has scarred this part of the Heights for centuries, ever since it was created by an ice dragon in my ancestors' conquest.",
+      "ru": "Это Истинный лёд, <playername>. Он уродует эту часть Высот уже веками, с тех самых пор, как его создал ледяной дракон во время завоеваний моих предков.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "It cannot be melted or burned through any means. It is why this location was chosen for their tomb. I'm afraid there is nothing more we can do.",
+      "ru": "Его невозможно растопить или прожечь никаким способом. Поэтому это место и выбрали для их гробницы. Боюсь, нам больше ничего не сделать.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "When were the elders first imprisoned here?",
+      "ru": "Когда Старейшин впервые заточили здесь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "At the end of the war, I imagine.",
+      "ru": "Полагаю, в конце войны.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "As the final dogun settlements fell, and as Garaheth was slain for the first time, my ancestors must have sealed them deep in this ice.",
+      "ru": "Когда пали последние поселения догунов и когда Гарахет был впервые убит, мои предки, должно быть, и запечатали их глубоко в этом льду.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "The... actions of the Dwarves after winning the war are well documented. I would not be surprised if our accounts describe this imprisonment as a great victory.",
+      "ru": "...О том, что дварфы творили после победы в войне, осталось немало записей. Не удивлюсь, если в них это заточение названо великой победой.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Who put them here?",
+      "ru": "Кто запер их здесь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "The Dwarves, of course. Who else?",
+      "ru": "Дварфы, конечно. А кто ещё?",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "I believe it was General Algard of the Dwarven army to order the Elders' imprisonments.",
+      "ru": "Насколько я знаю, приказ заточить Старейшин отдал генерал Альгард из армии дварфов.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "He was lauded as a hero, naturally. Now... we must reap the consequences of such a decision.",
+      "ru": "Его, разумеется, прославляли как героя. А теперь... нам приходится расхлёбывать последствия такого решения.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "Tell me more about True Ice.",
+      "ru": "Расскажи ещё про Истинный лёд.",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "True Ice is a material that cannot be melted or burned through by any means. Not even dogun magic has been able to make a dent.",
+      "ru": "Истинный лёд - это материал, который невозможно растопить или прожечь никаким способом. Даже магия догунов не смогла оставить на нём след.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "... I imagine why this location was chosen to hold the elders. A prison from which they would never be able to escape.",
+      "ru": "...Понимаю, почему это место выбрали для Старейшин. Тюрьма, из которой им никогда не выбраться.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "It is known for it to form naturally under extreme conditions... But the ice here is nowhere near natural.",
+      "ru": "Известно, что он может образовываться в природе при крайне суровых условиях... Но этот лёд возник совсем не естественным путём.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "It was formed by an Ice Drake's Breath partway through the war- and, well, as you can see, it has remained here ever since.",
+      "ru": "Он возник от дыхания ледяного дрейка в разгар войны - и, как видишь, с тех пор так здесь и остался.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "Just another remnant of our past mistakes, I suppose...",
+      "ru": "Полагаю, ещё один осколок наших старых ошибок...",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Ahem. In any case- as I said, True Ice is impossible to break through, even with the most scorching flames.",
+      "ru": "Кхм. В любом случае - как я уже сказал, Истинный лёд невозможно пробить даже самым палящим пламенем.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "If an Ice Drake formed this ice... perhaps a fire dragon could melt it?",
+      "ru": "Если этот лёд создал ледяной дрейк... может, огненный дракон смог бы его растопить?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "I... I suppose that a dragon's breath might be able to melt it. That logic does make sense.",
+      "ru": "Я... полагаю, драконье дыхание и правда могло бы его расплавить. В этом есть логика.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "We have little knowledge of what dragons were like, though. As they went extinct, that information became... useless. And so, it was lost.",
+      "ru": "Правда, о драконах мы знаем очень мало. Когда они вымерли, эти сведения стали... бесполезными. И со временем их забыли.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "If anyone would know more about dragons, it would be the doguns.",
+      "ru": "Если кто и знает больше о драконах, так это догуны.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "But none of that matters. All the dragons are gone, after all. We still have no options.",
+      "ru": "Но всё это неважно. Драконов ведь больше нет. Так что вариантов у нас всё равно нет.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "What happened to all the dragons?",
+      "ru": "Что случилось со всеми драконами?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Why, they died out. As Gavellian civilizations grew in size, the ferocity and size of a dragon was simply too much of a threat.",
+      "ru": "Они вымерли. По мере того как гавелльские цивилизации разрастались, ярость и размеры драконов становились слишком опасной угрозой.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "Some were hunted. Some died of starvation. Eggs were taken from nests and shattered over boulders for the birds to feed on.",
+      "ru": "На одних охотились. Другие умирали от голода. Яйца забирали из гнёзд и разбивали о камни, чтобы ими кормились птицы.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "Now all that are left are dragonlings - echoes of their once-great ancestors, with barely enough flames to singe your armor.",
+      "ru": "Теперь от них остались только дракончики - бледные тени своих великих предков, у которых пламени едва хватает, чтобы подпалить тебе броню.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "Not all of the dragons are gone. I helped relocate one near Thanos.",
+      "ru": "Не все драконы исчезли. Я помог переселить одного возле Таноса.",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "You- what? Near Thanos?",
+      "ru": "Ты- что? Возле Таноса?",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "A living dragon... You've done quite a lot, haven't you? Stopped a war, moved a dragon...",
+      "ru": "Живой дракон... Немало же ты успел, да? Остановил войну, переселил дракона...",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "Well... if there is a living dragon at Thanos... Then we still have hope! <playername>, we must ask for its help.",
+      "ru": "Что ж... если возле Таноса живёт дракон... тогда надежда ещё есть! <playername>, мы должны попросить его о помощи.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "Let us return to the others. I asked them to wait outside of Rodoroc... perhaps they'll be able to confirm that a dragon's breath would do the job.",
+      "ru": "Вернёмся к остальным. Я попросил их ждать снаружи Родорока... возможно, они смогут подтвердить, что драконье дыхание и правда поможет.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "The Doguns would know about dragons?",
+      "ru": "Догуны знают о драконах?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "Indeed. The fire dragons that sided with them during the war. I'm sure you've come across the skeleton just outside Freezing Heights?",
+      "ru": "Да. Огненные драконы, вставшие на их сторону во время войны. Уверен, ты видел скелет сразу за Морозными Высотами?",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "Yes, well... the Dwarves needed a counter to the sheer power of a fire dragon in battle, and so they resorted to enslaving dragons and drakes of other elements.",
+      "ru": "Да, так вот... дварфам нужен был ответ на чудовищную силу огненных драконов в бою, и они прибегли к порабощению драконов и дрейков других стихий.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "Like the Ice Drake that created this vault, and encased the Elders in the truest of ice.",
+      "ru": "Например, ледяного дрейка, который создал это хранилище и заковал Старейшин в самый настоящий Истинный лёд.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "Read any good books recently?",
+      "ru": "Читал что-нибудь хорошее в последнее время?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "... Well, there was this excellent novel of about one of those creatures from the Shiar, who had to travel to the Heights with this ring he had inherited-",
+      "ru": "... Ну, был один отличный роман про существо из Шиара, которому пришлось идти в Высоты с унаследованным кольцом-",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "But I confess, these questions seem almost irrelevant. We have a more pressing issue at hand, <playername>.",
+      "ru": "Но, признаюсь, эти вопросы сейчас почти неуместны. У нас есть проблема посерьёзнее, <playername>.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "Could we shatter it somehow, with a weapon or spell?",
+      "ru": "Может, его можно как-то расколоть оружием или заклинанием?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "This ice is harder than obsidian itself. The crystals which form the material are bonded by ancient magic.",
+      "ru": "Этот лёд твёрже самого обсидиана. Кристаллы, из которых он состоит, скреплены древней магией.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "Shattering it with such tools isn't an option. Perhaps there is a weapon that could break through, somewhere deep in our armory- after all, this vault had to be carved somehow...",
+      "ru": "Расколоть его такими средствами не выйдет. Возможно, где-то в глубинах нашей оружейной есть оружие, способное пробить его - всё-таки же это хранилище как-то вырубили...",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "However, given the circumstances, I don't think we have the time to search for it. Even if we started now, our armory is enormous. It would take weeks to find what we need.",
+      "ru": "Но, учитывая обстоятельства, времени на поиски у нас нет. Даже если начать прямо сейчас, оружейная огромна. На нужную вещь ушли бы недели.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "Would lava from the Heights work?",
+      "ru": "А лава из Высот подойдёт?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "The lava of the Heights is nothing more than molten rock. Just a remnant of the shaping of these caverns.",
+      "ru": "Лава Высот - это всего лишь расплавленный камень. Просто остаток тех времён, когда формировались эти пещеры.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "It's not nearly hot enough to melt True Ice. If it could, the Freezing Heights would have faded long ago.",
+      "ru": "Она и близко не такая горячая, чтобы плавить Истинный лёд. Если бы могла, Морозные Высоты давно бы исчезли.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "What's your favorite color?",
+      "ru": "Какой у тебя любимый цвет?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "My... uhm... green is nice, I suppose? Though perhaps not very Dwarven...",
+      "ru": "Мой... эм... зелёный, наверное, неплох? Хотя, возможно, не очень по-дварфийски...",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "Red, then. Or orange! ...Although my bedsheets are the most wonderful shade of navy blue...",
+      "ru": "Тогда красный. Или оранжевый! ...Хотя мои простыни просто великолепного тёмно-синего оттенка...",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "What did you have for breakfast today?",
+      "ru": "Что ты ел сегодня на завтрак?",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "Breakfast... I had some eggs, I suppose. Though, I had no idea that breakfast would be my last, did I..?",
+      "ru": "Завтрак... Кажется, я ел яйца. Только вот не думал же я, что тот завтрак может оказаться последним...?",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "Hm... Had I known, maybe I would have chosen differently. Maybe I would have-... nevermind.",
+      "ru": "Хм... Если бы я знал, может, выбрал бы что-то другое. Может, я бы-... неважно.",
+      "speaker": "King Draani",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "... so this is the situation we find ourselves in. Paku, what do you think? Would such a plan work?",
+      "ru": "...Вот в такой ситуации мы оказались. Паку, как думаешь, такой план сработает?",
+      "speaker": "King Draani",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "Hm... You may be correct... Draani. The magic in... a dragon's breath... was very potent. And to think... mighty Ozoth had survived... all these years...",
+      "ru": "Хм... Возможно, ты прав... Драани. Магия в... дыхании дракона... была очень сильной. И подумать только... могучая Озот пережила... все эти годы...",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "If Ozoth is alive... we must seek her help. If the doguns ask... for her aid, she will... give it.",
+      "ru": "Если Озот жива... мы должны просить её о помощи. Если догуны попросят... о её помощи, она... не откажет.",
+      "speaker": "Ineos",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "Well, that's as good a plan as any. <playername>, you'll travel to seek this dragon's counsel, along with... Ineos, was it? Good luck.",
+      "ru": "Что ж, план не хуже любого другого. <playername>, ты отправишься за советом к этому дракону вместе с... Инеосом, верно? Удачи.",
+      "speaker": "King Draani",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "You should... take the Trading Tunnel... <playername>. I will put the coordinates... in your Quest Book.",
+      "ru": "Тебе стоит... идти через Торговый туннель... <playername>. Я отмечу координаты... в твоей книге заданий.",
+      "speaker": "Ineos",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "Ah... it is... good to... see you. We must... proceed to Ozoth... with all haste.",
+      "ru": "Ах... рад... видеть тебя. Мы должны... идти к Озот... без промедления.",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "Ozoth the Dragon... Endless Kindler... we have come... to ask for your aid.",
+      "ru": "Озот Дракон... Вечная Разжигательница... мы пришли... просить твоей помощи.",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "We are searching... for a way... to melt the truest... of ice. The fate... of Gavel... hangs in the balance.",
+      "ru": "Мы ищем... способ... растопить истинный... лёд. Судьба... Гавеля... висит на волоске.",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "Doguns... and Dragons... our fates have been entwined... for centuries. We call on you now... Endless Kindler... to save this province.",
+      "ru": "Догуны... и драконы... наши судьбы переплетены... веками. Мы взываем к тебе... Вечная Разжигательница... спаси эту провинцию.",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "I... see. <playername>... Ozoth tells me... that an Everflame... will free the Elders.",
+      "ru": "Я... понял. <playername>... Озот говорит мне... что Вечное Пламя... освободит Старейшин.",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "Where can we find one?",
+      "ru": "Где нам его взять?",
+      "speaker": "CHOICE",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "... well...",
+      "ru": "...ну...",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "The Endless Kindler... is willing to part... with hers. You must... retrieve it... from her stomach.",
+      "ru": "Вечная Разжигательница... готова отдать... своё. Тебе нужно... достать его... из её желудка.",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "I would advise you... not to think... too much about this. When... you are ready... enter Ozoth's mouth and retrieve... the flame.",
+      "ru": "Я бы посоветовал... не думать... об этом слишком много. Когда... будешь готов... зайди в пасть Озот и достань... пламя.",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "<playername>! Have you retrieved... the Eternal Flame?",
+      "ru": "<playername>! Ты достал... Вечное Пламя?",
+      "speaker": "Ineos",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "Excellent. Endless Kindler... thank you... for your sacrifice. I will ensure... that your flame... is returned to you.",
+      "ru": "Отлично. Вечная Разжигательница... спасибо тебе... за эту жертву. Я прослежу... чтобы твоё пламя... к тебе вернулось.",
+      "speaker": "Ineos",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "Ozoth apologises... if it was a bit hot... in there.",
+      "ru": "Озот извиняется... если там... было немного жарковато.",
+      "speaker": "Ineos",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "Now, <playername>... I was never the best... at the ancient magic... but I hope I have enough skill... to take us the short route back...",
+      "ru": "А теперь, <playername>... я никогда не был... лучшим в древней магии... но надеюсь, у меня хватит мастерства... провести нас обратно коротким путём...",
+      "speaker": "Ineos",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "You have returned! Is there news from Thanos? Did the dragon offer aid?",
+      "ru": "Вы вернулись! Есть новости из Таноса? Дракон согласился помочь?",
+      "speaker": "King Draani",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "She did... Ozoth has made a great sacrifice... for this province... but we have an Eternal Flame... to melt the ice.",
+      "ru": "Да... Озот принесла великую жертву... ради этой провинции... но теперь у нас есть Вечное Пламя... чтобы растопить лёд.",
+      "speaker": "Ineos",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "Well done... both of you. I will ensure... that the doguns thank her... properly. The dwarves would do well... to do the same.",
+      "ru": "Хорошая работа... вы оба. Я прослежу... чтобы догуны отблагодарили её... как следует. Дварфам бы тоже... стоило сделать то же самое.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "Yes, yes, but there's no time to worry about that now. Quick, let's get back to the-",
+      "ru": "Да, да, но сейчас нет времени переживать об этом. Быстрее, нужно вернуться к-",
+      "speaker": "King Draani",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "Be wary... of the Elders... Draani. It is unlikely they will react well... after their imprisonment. It is vital... you explain the situation... to them.",
+      "ru": "Будь осторожен... со Старейшинами... Драани. После заточения... они вряд ли будут рады. Очень важно... всё им объяснить...",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "I would join you... both... but the ice is inhospitable... to my kind. I wish the both of you... the best of luck.",
+      "ru": "Я бы пошёл... с вами... но мой народ... плохо переносит лёд. Желаю вам обоим... удачи.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "...right. Yes. Well, there's no getting around it. Come, <playername>. We must unfreeze the elders and get them to listen to us. Bring the flame, I will meet you at the Vault.",
+      "ru": "...точно. Да. Что ж, иначе никак. Пойдём, <playername>. Мы должны разморозить Старейшин и заставить их выслушать нас. Неси пламя, я встречу тебя у Хранилища.",
+      "speaker": "King Draani",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "Well then, what are we waiting for! Let's free these elders, shall we?",
+      "ru": "Ну так чего мы ждём! Давай освободим этих Старейшин, а?",
+      "speaker": "King Draani",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "Just bring the Everflame to each of the cells, and melt through that True Ice.",
+      "ru": "Просто поднеси Вечное Пламя к каждой из камер и растопи Истинный лёд.",
+      "speaker": "King Draani",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "Excellent! We've done it! Now we just need to explain the situation-...",
+      "ru": "Отлично! Мы сделали это! Теперь нужно только объяснить ситуацию-",
+      "speaker": "King Draani",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "We are freed.",
+      "ru": "Мы свободны.",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "...Ah. I suppose I did not... think this through. Ehm. Elders, I must apo-",
+      "ru": "...А. Полагаю, я не... до конца это продумал. Кхм. Старейшины, я должен изви-",
+      "speaker": "King Draani",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "Dwarf... Hm. The crimes... of your ancestors... must be repaid.",
+      "ru": "Дварф... Хм. За преступления... твоих предков... придётся платить.",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "However. We have... heard you speak. We have... learned of... the Protector's state.",
+      "ru": "Однако. Мы... слышали вас. Мы... узнали... в каком состоянии Защитник.",
+      "speaker": "Elder Desint",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "We will... settle your debt... later. This situation... is a more pressing... concern. The Protector... must be calmed.",
+      "ru": "С вашим долгом... разберёмся позже. Сейчас... есть проблема... куда срочнее. Защитника... нужно успокоить.",
+      "speaker": "Elder Iscor",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "...Yes. You. Human. That was... dragonfire... was it not?",
+      "ru": "...Да. Ты. Человек. Это было... драконье пламя... верно?",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "It was.",
+      "ru": "Да.",
+      "speaker": "CHOICE",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "Then allow me... to borrow it. Its strength... will allow us... to restore ours. Now... Who now holds... the title... of Chieftain?",
+      "ru": "Тогда позволь... одолжить его. Его сила... позволит нам... вернуть нашу. А теперь... кто сейчас носит... титул... Вождя?",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "A-ah! Paku is now the Dogun Chieftain. He would be at... At Taloka.",
+      "ru": "А-а! Теперь Вождь догунов - Паку. Он должен быть... в Талоке.",
+      "speaker": "King Draani",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "Very well... We shall travel... through flame... and through stone...",
+      "ru": "Очень хорошо... Тогда мы пройдём... сквозь пламя... и сквозь камень...",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "...The Elders... after all this time... to see you, again... in the flesh...",
+      "ru": "...Старейшины... спустя столько времени... снова видеть вас... живыми...",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "Greetings, Paku. We have much... to discuss. But first... we must travel... to the Protector.",
+      "ru": "Приветствуем, Паку. Нам многое... нужно обсудить. Но сперва... мы должны идти... к Защитнику.",
+      "speaker": "Elder Desint",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "Join us... Ineos and Paku. There is... very little time... to waste.",
+      "ru": "Идите с нами... Инеос и Паку. Времени... почти не осталось.",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "Now, let us travel... (The following part of the line is High Gavellian) Through flame... and through stone...",
+      "ru": "А теперь отправимся... (Следующая часть фразы на высшем гавелльском) Сквозь пламя... и сквозь камень...",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "Korzim... my son... join us. The Elders must see... to the Protector.",
+      "ru": "Корзим... сын мой... иди с нами. Старейшины должны... позаботиться о Защитнике.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "Iscor... Astal... Desint... it has been... too long. I will come.",
+      "ru": "Искор... Астал... Десинт... прошло... слишком много времени. Я иду.",
+      "speaker": "Korzim",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "Earth and flame... fire and stone... transport us through your form! (In High Gavellian)",
+      "ru": "Земля и пламя... огонь и камень... перенесите нас сквозь себя! (На высшем гавелльском)",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "-have to trust that they'll return!",
+      "ru": "-придётся верить, что они вернутся!",
+      "speaker": "Rhay",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "There's no time! I can feel the damned ground cracking beneath my feet, we have to turn to the final option. We've had demoltion mages on standby the past few days, our only choice is to-",
+      "ru": "Времени нет! Я чувствую, как чёртова земля трещит под ногами, нам придётся перейти к последнему варианту. Мы держали магов-подрывников наготове все последние дни, наш единственный выход-",
+      "speaker": "General Elix",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "Rhay. Elix. My Elders... have been freed. They are here... to help... the Protector.",
+      "ru": "Рэй. Эликс. Мои Старейшины... свободны. Они здесь... чтобы помочь... Защитнику.",
+      "speaker": "Ineos",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "Join us... brave ones. You will see... that your efforts to save this Province... have not been in vain.",
+      "ru": "Идите с нами... храбрецы. Вы увидите... что ваши попытки спасти эту провинцию... были не напрасны.",
+      "speaker": "Elder Iscor",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "Flames of the earth... take us to the Great Protector... to make our plea! (In High Gavellian)",
+      "ru": "Пламя земли... перенеси нас к Великому Защитнику... чтобы он услышал нашу просьбу! (На высшем гавелльском)",
+      "speaker": "Elder Astal",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "Great Protector... It is furious.",
+      "ru": "Великий Защитник... Он в ярости.",
+      "speaker": "Elder Astal",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "Hmph. Foolish dwarves... This is what has come...of your needless war... You are fortunate...to have freed us now...",
+      "ru": "Хмф. Глупые дварфы... Вот к чему привела... ваша бессмысленная война... Вам повезло... что вы освободили нас сейчас...",
+      "speaker": "Elder Astal",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "Desint... Iscor... I will prepare... the ritual. Defend me... as I do so.",
+      "ru": "Десинт... Искор... Я подготовлю... ритуал. Пока я это делаю... прикрывайте меня.",
+      "speaker": "Elder Astal",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "Human. We will pull the Protector... away from the brink. That is all we can do now. All the power... we can muster.",
+      "ru": "Человек. Мы не дадим Защитнику... окончательно сорваться. Сейчас мы можем лишь это. Вложим... всю силу, какая у нас есть.",
+      "speaker": "Elder Desint",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "You must enter... these sacred grounds. Battle through it to the end... Knock some sense... into it.",
+      "ru": "Ты должен войти... в эти священные земли. Пробиться до самого конца... и привести его в чувство.",
+      "speaker": "Elder Iscor",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "Adventurer... We are counting...on you. We will try to...support you however we can.",
+      "ru": "Приключенец... мы рассчитываем... на тебя. Мы постараемся... помогать тебе чем сможем.",
+      "speaker": "Ineos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "We'll do the best we can out here! I have some ideas already...",
+      "ru": "Мы снаружи сделаем всё, что сможем! У меня уже есть пара идей...",
+      "speaker": "Rhay",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "Rhay, this isn't the time. Human. We have your back. You can do this.",
+      "ru": "Рэй, сейчас не время. Человек. Мы прикроем тебя. Ты справишься.",
+      "speaker": "General Elix",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "You have faced...worse odds before...have you not? You will face them...again.",
+      "ru": "Ты уже сталкивался... с худшим... верно? И ещё... столкнёшься.",
+      "speaker": "Korzim",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "It is done. Desint... Iscor... Take your postions. We must... hold it back.",
+      "ru": "Готово. Десинт... Искор... Займите позиции. Мы должны... сдержать его.",
+      "speaker": "Elder Astal",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "Great Protector, lord of stone, hear our burning call. Your fury clouds your vision, your anger burns and twists our home. (In High Gavellian)",
+      "ru": "Великий Защитник, владыка камня, услышь наш пылающий зов. Твоя ярость застилает тебе взор, твой гнев жжёт и корёжит наш дом. (На высшем гавелльском)",
+      "speaker": "Elder Astal",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "We, the doguns, who now hold the final flame of a fallen god... We will hold you back. We will keep this land intact! (In High Gavellian)",
+      "ru": "Мы, догуны, что теперь храним последнее пламя павшего бога... Мы удержим тебя. Мы сохраним эту землю целой! (На высшем гавелльском)",
+      "speaker": "Elder Astal",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "We will... hold it from here... human. Now... go! We will not... be able to hold it... for long...",
+      "ru": "Дальше мы... удержим его сами... человек. А теперь... иди! Долго... мы его не сдержим...",
+      "speaker": "Elder Astal",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "This crystal...will let you harness...our flame. Use it...to break through...its defenses.",
+      "ru": "Этот кристалл... позволит тебе использовать... наше пламя. Применяй его... чтобы пробиваться... через защиту Защитника.",
+      "speaker": "Elder Astal",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "<playername>... Before you go. I will offer you... these powerful relics. Our people... have held them for... longer than I have lived. They may... help you on your quest.",
+      "ru": "<playername>... Прежде чем ты пойдёшь. Я дам тебе... эти могучие реликвии. Наш народ... хранил их... дольше, чем я живу. Они могут... помочь тебе.",
+      "speaker": "Chieftain Paku",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "I cannot give you something as unique as what Paku has offered, but I can still lend you a sum from our treasury. Use it as you must, so long as you can calm that thing. Good luck.",
+      "ru": "Я не могу дать тебе что-то столь же уникальное, как Паку, но могу выделить сумму из нашей казны. Трать как нужно, лишь бы ты смог утихомирить эту штуку. Удачи.",
+      "speaker": "King Draani",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "An ingenious dwarven contraption designed for the quick traversal of caves and rock, this hook is very clearly labelled with the King's name.",
+      "ru": "Хитроумная дварфийская штуковина для быстрого перемещения по пещерам и скалам. На этом крюке очень чётко выбито имя короля.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "[!] Central bore tunnel opening! Exercise extreme caution around the deep drop.",
+      "ru": "[!] Открывается центральный буровой тоннель! Соблюдай предельную осторожность у глубокого обрыва.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "You use the grappling hook to swing back to the King in a dazzling feat of trapeze consisting of mid-air flips and acrobatic flourishes.",
+      "ru": "Ты используешь крюк-кошку, чтобы вернуться к Королю эффектным трюком на трапеции, состоящим из кувырков в воздухе и акробатических изысков.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "You need to get to the path up to Ozoth's Spire. There should be signposts outside of Thanos...",
+      "ru": "Тебе нужно добраться до тропы, ведущей к Шпилю Озот. Снаружи Таноса должны быть указатели...",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "It looks like Ozoth's body is trying to prevent you from getting the Everflame!",
+      "ru": "Похоже, тело Озот пытается помешать тебе заполучить Вечное пламя!",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "New Quest Started: The Breaking Point",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Точка излома",
+      "speaker": "",
+      "stage": "Stage 16"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to General Elix at [758, 164, -4463] in Kandon-Beda.",
+      "ru": "Поговорить с генералом Эликсом в Кандон-Беде [758, 164, -4463].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Meet Rhay at the Hot Air Balloon at [770, 162, -4385]",
+      "ru": "Встретиться с Рэй у воздушного шара [770, 162, -4385].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Travel to Corkus City via the Hot Air Balloon at [775, 165, -4382]",
+      "ru": "Отправиться в Коркус на воздушном шаре [775, 165, -4382].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find the contact in the factory at [-1529, 71, -3083]",
+      "ru": "Найти связного на фабрике [-1529, 71, -3083].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Retrieve the part from the cave at [-1529, 69, -3104]",
+      "ru": "Забрать деталь из пещеры [-1529, 69, -3104].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return to the hot air balloon at [-1526, 71, -3067] with the Magmaflux Capacitor.",
+      "ru": "Вернуться к воздушному шару с конденсатором магмафлюкса [-1526, 71, -3067].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Return to General Elix with the Corkian Stabiliser",
+      "ru": "Вернуться к генералу Эликсу с коркианским стабилизатором.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Meet Ineos and Rhay at the Hot Air Balloon at [770, 162, -4385].",
+      "ru": "Встретиться с Инеосом и Рэй у воздушного шара [770, 162, -4385].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Travel to Molten Heights with Ineos via the Hot Air Balloon at [770, 162, -4385]",
+      "ru": "Отправиться с Инеосом на Раскалённые высоты на воздушном шаре [770, 162, -4385].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Speak to Rodoroc's King and the Dogun Chieftain at New Taloka at [1456, 16, -5151]",
+      "ru": "Поговорить с королём Родорока и вождём догунов в Новой Талоке [1456, 16, -5151].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Enter the Dogun Vault within the lower Freezing Heights at [1512, 34, -5468]",
+      "ru": "Войти в хранилище догунов у подножия Морозных высот [1512, 34, -5468].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Unlock the Dogun Vault to find the Elders.",
+      "ru": "Открыть хранилище догунов и найти старейшин.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Regroup at outside Rodoroc at [1233, 9, -5200] to figure out how to free the Elders.",
+      "ru": "Встретиться с остальными за пределами Родорока и решить, как освободить старейшин [1233, 9, -5200].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Use the Rodoroc trading tunnel at [1015, 12, -5062] to travel to Thanos.",
+      "ru": "Пройти через торговый туннель Родорока в [1015, 12, -5062], чтобы попасть в Танос.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Travel to Ozoth's Spire at [206, 97, -5179] in an attempt to speak with her.",
+      "ru": "Отправиться к шпилю Озот и попытаться поговорить с ней [206, 97, -5179].",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Descend into Ozoth's belly to retrieve an Everflame.",
+      "ru": "Спуститься в живот Озот и добыть Вечное пламя.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Travel to Rodoroc at [1233, 9, -5200] with an Everflame.",
+      "ru": "Отправиться в Родорок с Вечным пламенем [1233, 9, -5200].",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Return to the Dogun Vault at [1512, 34, -5468] to free the Dogun Elders.",
+      "ru": "Вернуться в хранилище догунов и освободить старейшин [1512, 34, -5468].",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Travel to the Canyon Colossus at [611, 52, -4448] to attempt to calm it.",
+      "ru": "Отправиться к Колоссу Каньона и попытаться успокоить его [611, 52, -4448].",
+      "stage": "Stage 19"
+    }
+  ],
+  "choices": []
+}

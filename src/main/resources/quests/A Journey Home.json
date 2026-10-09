@@ -1,0 +1,1536 @@
+{
+  "quest": "A Journey Home",
+  "level": 104,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "a-journey-home",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "The <playername> knocks on the door.",
+      "ru": "<playername> стучит в дверь.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "First attempt:",
+      "ru": "Первая попытка:",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Second attempt:",
+      "ru": "Вторая попытка:",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Third attempt:",
+      "ru": "Третья попытка:",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Fourth attempt:",
+      "ru": "Четвёртая попытка:",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Fifth attempt:",
+      "ru": "Пятая попытка:",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Further attempts:",
+      "ru": "Дальнейшие попытки:",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "The <playername> uses a spell. Upon doing so, they are forced back.",
+      "ru": "<playername> использует заклинание. В тот же момент его отбрасывает назад.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": ". .",
+      "ru": ". .",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": ". . .",
+      "ru": ". . .",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "One of the following lines of dialogue appears:",
+      "ru": "Появляется одна из следующих строк:",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "No one seems to know you're here.",
+      "ru": "Похоже, никто не знает, что ты здесь.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Did you imagine the sound? Surely not.",
+      "ru": "Тебе послышалось? Да вроде нет.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "It was probably nothing.",
+      "ru": "Наверное, ничего особенного.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "When's the last time you had something to eat?",
+      "ru": "Когда ты вообще в последний раз ел?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "You absentmindedly watch an ant scurrying to and fro across the stone steps.",
+      "ru": "Ты рассеянно смотришь, как муравей бегает туда-сюда по каменным ступеням.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "You could probably be waiting here a while.",
+      "ru": "Похоже, ждать тут придётся долго.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "You don't hear anything moving on the other side of the door.",
+      "ru": "С другой стороны двери не слышно вообще никакого движения.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Your ears catch a small, muffled sound on the other side of the door.",
+      "ru": "До тебя доносится тихий, приглушённый звук по ту сторону двери.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "You've committed every pattern of the wood grains on the door to memory, and start counting the grooves in the floor tiles.",
+      "ru": "Ты уже выучил наизусть все узоры древесины на двери и начал считать бороздки на плитке пола.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "You've got Stormy Seas stuck in your head.",
+      "ru": "У тебя в голове застряли \"Штормовые моря\".",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "How long have you been waiting here? Days? Months? Years? ...A few minutes longer can't hurt.",
+      "ru": "Сколько ты уже здесь ждёшь? Дни? Месяцы? Годы? ...Ладно, ещё пару минут не убьют.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Leave",
+      "ru": "Уйти",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "This job is impossible!! Why am I even here?!",
+      "ru": "Да это невозможно!! Зачем я вообще за это взялся?!",
+      "speaker": "Paxon",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Ah! You're a soldier, right? Look, I It's, it's just a really difficult time right now.",
+      "ru": "А! Ты ведь солдат? Слушай, я... Сейчас тут всё очень непросто.",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "This, this whole situation is definitely above my paygrade! I don't know how I'm going to deal with this...",
+      "ru": "Тут нужен кто-то повыше меня! Я даже не знаю, как со всем этим справиться...",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Enough of that, I, ah, I suppose. What is it you need?",
+      "ru": "Впрочем, хватит об этом. Чего ты хотел?",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Oh. Oh no. Ah, I, you see, that'll be a problem, I think. What do you even need to do at the border anyway?",
+      "ru": "О. О нет. Видишь ли, с этим... с этим могут быть трудности. Зачем тебе вообще на границу?",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I can't really imagine what you could need there, but, whatever it is, it'll need to wait! This Corkian drill won't work, and Paxon's stuck, and",
+      "ru": "Не представляю, что тебе там понадобилось, но это подождёт! Коркусский бур не работает, Паксон застрял, и...",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Look, I'm...I'm sorry for snapping at you. I'm trained for military operation, not for cave-in clearance, but no one else was available!",
+      "ru": "Слушай, я... Прости, что сорвался. Меня учили воевать, а не расчищать обвалы, но больше послать было некого!",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Even the demolitions expert I hired is stuck, so it's all just, it's all going wrong and I don't know what to do.",
+      "ru": "Даже нанятый мной подрывник застрял. Всё идёт наперекосяк, а я совершенно не знаю, что делать.",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "You see that new entrance over there? The expert, Paxon, has been in there for almost as long as I was trying this dud machine.",
+      "ru": "Видишь новый вход вон там? Подрывник, Паксон, сидит внутри чуть ли не с тех пор, как я начал возиться с этим негодным буром.",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "If you think you can do a job better than an expert, go ahead and talk with them, but I'm pretty sure you'll have to cancel whatever plans you had.",
+      "ru": "Если думаешь, что справишься лучше мастера, можешь пойти и поговорить с ним. Но боюсь, от своих планов тебе всё же придётся отказаться.",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "If you really need to get to the border, your best bet is to talk to Paxon in the new cave entrance.",
+      "ru": "Если тебе непременно нужно на границу, попробуй поговорить с Паксоном у нового входа в пещеру.",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "But, they're an expert, so I think your business will have to wait. Really, really sorry about all this!",
+      "ru": "Но он знает своё дело, так что, боюсь, тебе придётся подождать. Ещё раз прости за всю эту неразбериху!",
+      "speaker": "Lieutenant Tolv",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Oh no, not another one I don't care what rank you are, what you're asking is impossible! Even for me, it",
+      "ru": "О нет, только не ещё один! Мне всё равно, какое у тебя звание. То, чего ты просишь, невозможно! Даже для меня, это-",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Wait, you aren't part of the... You're just a regular soldier. You're just trying to get through here, aren't you?",
+      "ru": "Стоп, ты не из... А, ты обычный солдат. Просто хочешь пройти дальше, да?",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "May as well give up now! Not happening. No way. You're wasting your time, and let me tell you exactly why.",
+      "ru": "Можешь сразу сдаться! Не выйдет. Никак. Только время зря потратишь. Сейчас объясню почему.",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "You see that blue rock over there? It's a break point. If I could set off explosives at it, it'd open a path.",
+      "ru": "Видишь тот синий камень? Он непрочный. Если заложить там взрывчатку, можно открыть проход.",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "But apparently all these structures set up are so important that any of it being damaged, or MOVED, is unacceptable!",
+      "ru": "Но все эти постройки, оказывается, настолько важны, что нельзя ничего повредить или даже СДВИНУТЬ!",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "And to make sure I'm 'supervised' while the lieutenant is working on the drill, the detonator HAS to be here.",
+      "ru": "А чтобы я оставался \"под присмотром\", пока лейтенант возится с буром, детонатор ДОЛЖЕН стоять здесь.",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "So I have to daisy-chain a limited amount of explosives all the way over to the stone, without blasting any structures!",
+      "ru": "Вот и приходится тянуть цепочку зарядов до самого камня, не задев ни одной постройки! А взрывчатки у меня немного!",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "I've been trying for hours and gotten absolutely nowhere! I'm one of the best in my field, even! It's ridiculous!!",
+      "ru": "Я уже несколько часов бьюсь и ни на шаг не продвинулся! И это я, один из лучших в своём деле! Просто нелепость!!",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "If you feel like wasting your time, here's my stock of explosives. Feel free to try your hand at it, but you really should just go.",
+      "ru": "Если не жаль времени, бери мою взрывчатку и пробуй. Но я бы на твоём месте просто ушёл.",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "[+1 TNT Placer]",
+      "ru": "[+1 TNT Placer]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Still at it? What, do you need a reminder? I've got nothing better to do.",
+      "ru": "Всё ещё возишься? Что, напомнить надо? Мне всё равно делать нечего.",
+      "speaker": "Paxon",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "So the blue rock is soft enough to crack with the explosives. But the detonator's stuck here.",
+      "ru": "Итак, синий камень достаточно мягкий, чтобы его разбило взрывом. Но детонатор должен остаться здесь.",
+      "speaker": "Paxon",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "So we need to use the TNT Placer to daisy-chain blasts from the detonator, without blasting any tents, crates, or walls.",
+      "ru": "Нужно поставить заряды установщиком ТНТ так, чтобы взрыв дошёл от детонатора до камня, не задев палатки, ящики и стены.",
+      "speaker": "Paxon",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "You can look at placed TNT to see its blast radius, as well.",
+      "ru": "Посмотри на установленный ТНТ, и увидишь радиус взрыва.",
+      "speaker": "Paxon",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "But given how tight the squeeze between some of those structures is, there's just no way it's happening.",
+      "ru": "Но между постройками так тесно, что, по-моему, ничего не выйдет.",
+      "speaker": "Paxon",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Like I said, you really should just mosey on back to the castle. If I can't get anywhere, I don't think you'll fare better.",
+      "ru": "Как я и сказал, лучше возвращайся в замок. Если уж я не справился, сомневаюсь, что у тебя получится.",
+      "speaker": "Paxon",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Halt! Where did you come from? There was a cave-in past here, wasn't there?",
+      "ru": "Стоять! Ты откуда вылез? Тут же дальше был завал, разве нет?",
+      "speaker": "Guard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "A new path, huh? I didn't think you'd have things to be doing back here, though I won't say I'm ungrateful.",
+      "ru": "Новый проход? Не думал, что кто-то станет сюда пробираться, но я тебе благодарен.",
+      "speaker": "Guard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "It even crushed the grook's nest there. I've been working off field rations for a few days. So where are you headed?",
+      "ru": "Он ещё и гнездо грука там придавил. Я уже несколько дней на сухпайках сижу. Так куда ты направляешься?",
+      "speaker": "Guard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "The border? I suppose if you're headed there, it must be important, official business. Although, it might have to wait.",
+      "ru": "На границу? Должно быть, по важному делу. Хотя... боюсь, и ему придётся подождать.",
+      "speaker": "Guard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "The bridge repair was something of a hackjob. It may not bear up your weight. Now that the cave-in's clear, we might be able to get it fixed proper...",
+      "ru": "Мост там починили кое-как. Твой вес он может не выдержать. Теперь, когда завал расчищен, мы, пожалуй, сумеем восстановить его как следует...",
+      "speaker": "Guard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "But that'll take time. I'd just as soon turn back whatever business you have isn't worth your life, after all.",
+      "ru": "Но на это нужно время. Я бы на твоём месте развернулся - никакие дела не стоят твоей жизни.",
+      "speaker": "Guard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Say, I think I recognize you, actually. That's a rarity for this line of work.",
+      "ru": "Слушай, а я тебя, кажется, узнаю. Для моей работы это вообще редкость.",
+      "speaker": "Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Are you sure that what you have to do is worth it? That bridge is awful rickety. Wouldn't want to lose you.",
+      "ru": "Ты уверен, что тебе правда туда надо? Мост там жутко хлипкий. Не хотелось бы тебя потерять.",
+      "speaker": "Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Hey, you there! Come talk to me before you pass through.",
+      "ru": "Эй, ты! Подойди ко мне, прежде чем проходить дальше.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Hey, you! Come talk to me first, recruit!",
+      "ru": "Эй, ты! Сначала ко мне, новобранец!",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Coming or going, I'm under strict orders to intercept soldiers and make sure they're equipped before heading on.",
+      "ru": "Неважно, куда ты идёшь. Мне строго приказано проверять снаряжение всех солдат, прежде чем пропускать их дальше.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "No exceptions, not for any reason. Especially not since the cave-in across the river!",
+      "ru": "Без исключений. Особенно после обвала на том берегу!",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Nothing's more important than your life, and moving on without being suited up could cost you it!",
+      "ru": "Нет ничего важнее твоей жизни, а если пойдёшь дальше без нормального снаряжения, можешь лишиться именно её!",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Well, let me take a look and see if this stuff is up to regulation.",
+      "ru": "Так, дай-ка посмотрю, всё ли у тебя в порядке со снаряжением.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Hmm... Ah, yep, signs of wear all over... Armor not polished... Weapon looks liable to fall apart any second...",
+      "ru": "Хм... Так и есть, всё изношено... Доспехи нечищеные... Оружие того гляди развалится...",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "I'm surprised you made it ten feet out here with those rusty trinkets! This is no way to protect yourself!",
+      "ru": "Удивительно, что ты вообще дошёл сюда с этим ржавым хламом! Разве это защита?",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Look, there's a loot chest in the cave just there, so you need to head in and get yourself some proper equipment.",
+      "ru": "В той пещере стоит сундук. Сходи туда и раздобудь приличное снаряжение.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "...that so, huh? Well, I think you should take a second look up ahead.",
+      "ru": "...вот как, да? Ну тогда я думаю, тебе стоит ещё раз посмотреть, что там дальше.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "See? Now no more guff about levels you either gear up properly, or you don't pass! I won't have you risking your life.",
+      "ru": "Видишь? Хватит спорить об уровнях. Либо надевай приличное снаряжение, либо оставайся здесь! Я не дам тебе рисковать жизнью.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "You can find good stuff in caves, like the one just next to me, so hop to it.",
+      "ru": "В пещерах попадаются хорошие вещи. Хотя бы в той, что рядом со мной. Так что поторопись.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Like I said, coming or going. No matter what, you should gear up by looting the cave here before heading onwards.",
+      "ru": "Как я и сказал, неважно, куда ты идёшь. Сначала загляни в пещеру и найди снаряжение, а потом уже продолжай путь.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Good stuff. There's a loot chest in that cave there, so you should find everything you need. Get to it!",
+      "ru": "Вот и ладно. В той пещере стоит сундук, там найдёшь всё, что нужно. Давай, вперёд!",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Enter the cave and open the loot chest.",
+      "ru": "Зайди в пещеру и открой сундук.",
+      "speaker": "Soldier",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "You can take that armor to an Item Identifier right there, and then you can wear it once identified.",
+      "ru": "Можешь отнести эту броню к опознавателю предметов вон там, а потом спокойно наденешь её после опознания.",
+      "speaker": "Soldier",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Though... since you seem to be heading back to the border... I have to ask why. It's pretty unusual. Probably best you head back to Ragni.",
+      "ru": "Хотя... раз ты, похоже, идёшь обратно к границе... надо спросить, зачем. Это довольно странно. Лучше бы тебе вернуться в Рагни.",
+      "speaker": "Soldier",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "If other recruits see you coming the other way, they might get confused, or discouraged. Wouldn't want to risk that, right?",
+      "ru": "Если другие новобранцы увидят, что ты идёшь в обратную сторону, они могут запутаться или вообще духом упасть. Зачем так рисковать, да?",
+      "speaker": "Soldier",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Are you sure whatever you're doing is worth it? Maybe you should just head back to town.",
+      "ru": "Ты точно уверен, что это того стоит? Может, лучше просто возвращайся в город.",
+      "speaker": "Soldier",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "...been recruiting Fruman soldiers for the war effort. Apparently things are really bad over there. Makes me nervous...",
+      "ru": "...набирают солдат из Фрумы на войну. Говорят, там всё совсем плохо. Честно, меня это напрягает...",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Walking corpses aren't anything I'm going to underestimate, but it can't be all doom and gloom, right?",
+      "ru": "Ходячих трупов я недооценивать не собираюсь, но ведь там, наверное, не всё настолько мрачно, да?",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "I suppose we'll see once we pass this gate. It marks the border... Deep breaths, deep breaths...",
+      "ru": "Ну, увидим, когда пройдём через ворота. Это и есть граница... Глубокий вдох, глубокий вдох...",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "...know anything about Wynn? I didn't get any debriefing.",
+      "ru": "...ты вообще что-нибудь знаешь о Винне? Мне даже толком ничего не объяснили.",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "I remember rumors... Something about a great hero. Name started with...and R?",
+      "ru": "Помню только слухи... Что-то про великого героя. Имя вроде начиналось на... Р?",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "We'll make it a point to ask as soon as we can. Information's key to fighting wars.",
+      "ru": "При первой возможности надо расспросить местных. На войне без сведений никуда.",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "...rotten driver. I feel for the man, but he said he always hits that boulder. Sounds like his own fault to me.",
+      "ru": "...скверный у нас возница. Мне его даже жаль, но он сам сказал, что каждый раз врезается в тот валун. По-моему, сам и виноват.",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "I'm thinking about meals more than wheels. I feel like I haven't eaten in days. Hope the walk's short...",
+      "ru": "Мне сейчас еда важнее колёс. Будто несколько дней не ела. Надеюсь, идти недалеко...",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Well, if he was a more competent driver you wouldn't have to walk so far on an empty stomach! Let's hurry so we can get you a feast, huh?",
+      "ru": "Будь он получше возницей, тебе бы не пришлось столько идти пешком на пустой желудок! Давай поспешим, глядишь, скоро поедим как следует.",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Wait, who's that? Why are they coming from the border??",
+      "ru": "Стоп, это кто? Почему он идёт СО СТОРОНЫ границы??",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "...and that's the last of them for today.",
+      "ru": "...и на сегодня это последний.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Lots of pairs today. Eight more in the wings... But that's for tomorrow.",
+      "ru": "Сегодня много пар. Ещё восемь на подходе... Но это уже завтра.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Same darn boulder... Same darn line, too. Wonder if they'll let me shake it up one day. This is always a pain...",
+      "ru": "Опять этот проклятый валун... И та же реплика. Может, когда-нибудь позволят сказать что-нибудь другое? Вечно одна и та же морока...",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "And that's that about that. And now, to be off...to the home I choose. And there's no troubles to follow me there.",
+      "ru": "Ну вот и всё на этом. А теперь пора ехать... домой, который я сам выбрал. И туда за мной никакие проблемы не увяжутся.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Just couldn't take the hint, huh?",
+      "ru": "Ну никак не мог понять намёк, да?",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Bet you think you're slick. Didn't even notice me hang back to watch, huh? I wasn't born yesterday.",
+      "ru": "Думаешь, всех перехитрил? Даже не заметил, что я задержался и наблюдал за тобой. Я не вчера родился.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Listen, this isn't the first time something like this has happened Y'know. Someone gets curious, retraces their steps.",
+      "ru": "Слушай, такое уже не в первый раз, знаешь ли. Кому-то становится интересно, и он идёт по своим следам назад.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "If you couldn't tell, this whole thing's meant to be a one way trip. The bridge, the cave-in, everyone trying to discourage you.",
+      "ru": "Если ты ещё не понял, эта дорога ведёт только в одну сторону. Мост, обвал, все, кто пытался тебя отговорить...",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "It's not wise to be here After all, you weren't the one out of your group of three that got permission to stay. Yeah, I heard about the tournament results.",
+      "ru": "Зря ты сюда пришёл. Из вашей троицы разрешение остаться получил не ты. Да, я слышал, чем закончился турнир.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "So...you got two choices, buddy. We can let this slide between us. We can. You can go marching back to Ragni and my lips will be sealed.",
+      "ru": "Так что... у тебя два пути, приятель. Можем забыть об этом. Возвращайся в Рагни, и я никому ничего не скажу.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Or, you can live life dangerously and follow me on the train to Fort Torann. Better make your choice quick, though it's leaving soon.",
+      "ru": "Или можешь рискнуть и сесть со мной на поезд до форта Торанн. Только решай скорее, он скоро отправляется.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "If I see you in the passenger cabin, well...that'll be that, and you'll just have to wait and see what comes of it.",
+      "ru": "Если увижу тебя в пассажирском вагоне, что ж... Значит, ты решил. Тогда сам узнаешь, чем всё обернётся.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Last chance to back out. This your choice?",
+      "ru": "Последний шанс передумать. Ты точно этого хочешь?",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "The screen fades to black as the train transports the <playername> and the Caravan Driver to Fort Torann.",
+      "ru": "Экран темнеет, пока поезд везёт <playername> и возницу в форт Торанн.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Well, you better get headed on the long walk back to Ragni then.",
+      "ru": "Тогда отправляйся в Рагни. Путь назад неблизкий.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Well. We've arrived.",
+      "ru": "Ну вот. Приехали.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "....",
+      "ru": "....",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "You know what they say about curiosity, and how it killed the cat. You the type to believe satisfaction'll bring it back?",
+      "ru": "Знаешь поговорку: любопытство сгубило кошку. Думаешь, разгадка сможет вернуть её к жизни?",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Well, 'kittycat,' you didn't find the cream just the hound dogs.",
+      "ru": "Ну что, \"котик\", сливок ты тут не нашёл - только цепных псов.",
+      "speaker": "Fruman Guard",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Intruder to Fruma, you are under arrest! Now march!",
+      "ru": "Нарушитель границы Фрумы, ты арестован! Шагай!",
+      "speaker": "Fruman Guard",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "You really thought the Driver was on your side, intruder? What a fool you are. We gave you every chance to quit this endeavor, but here you are. Let's go.",
+      "ru": "Ты и вправду думал, что возница на твоей стороне, чужак? Глупец. Тебе давали столько шансов отступить, а ты всё же пришёл. Идём.",
+      "speaker": "Commander Lilles",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Commander! We must speak immediately!",
+      "ru": "Командир! Нам нужно поговорить немедленно!",
+      "speaker": "Guard Captain",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "I have urgent news to report from the gate.",
+      "ru": "У меня срочные новости от ворот.",
+      "speaker": "Guard Captain",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "If it is truly so urgent, let's speak.",
+      "ru": "Если это и правда срочно, говори.",
+      "speaker": "Commander Lilles",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Soldiers! Keep the intruder still. I've every faith in you.",
+      "ru": "Солдаты! Держите нарушителя. Я в вас верю.",
+      "speaker": "Commander Lilles",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Again?",
+      "ru": "Опять?",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Again.",
+      "ru": "Опять.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "There's no response.",
+      "ru": "Ответа нет.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "There's still no response.",
+      "ru": "По-прежнему никакого ответа.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Still nothing. Surely this door is manned? Are they just ignoring you?",
+      "ru": "Опять тишина. Дверь же явно кто-то охраняет? Или тебя просто игнорируют?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "...knocking harder didn't help.",
+      "ru": "...стучать сильнее не помогло.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "You probably aren't going to get anywhere by continuing to knock.",
+      "ru": "Похоже, стуком ты тут ничего не добьёшься.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Knocking won't do anything, it looks like. Better figure something else out.",
+      "ru": "Стук явно бесполезен. Надо придумать что-то другое.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "A strong spell should get through this wood without a problem.",
+      "ru": "Сильное заклинание должно без труда пробить эту деревянную дверь.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "...ah. It's enchanted...that's odd, given what you've seen, but the guards are looking your way now. You probably shouldn't do that again.",
+      "ru": "...А. Она зачарована... Странно, если вспомнить всё, что ты видел. Но стражники уже смотрят в твою сторону. Лучше больше не пробовать.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "They've shut you out. There's no way in from here... But what if you went back the way you first arrived?",
+      "ru": "Тебя не впустили. Отсюда внутрь никак... Но что, если вернуться тем путём, которым ты попал сюда впервые?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Greetings, <playername>. It is always an honour to have you in our halls.",
+      "ru": "Приветствую, <playername>. Для нас всегда честь принимать тебя в этих залах.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Is there anything I can do for you today?",
+      "ru": "Могу ли я чем-то тебе сегодня помочь?",
+      "speaker": "Ragni's King",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "...Ah. I see. So I suppose...things must not have gone well. Have all the others returned?",
+      "ru": "...А. Понимаю. Значит... всё прошло не очень гладко. Остальные вернулись?",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "So, Tasim has stayed behind then. I'm to suppose you're worried for his safety, in amongst any other worries you might have.",
+      "ru": "Значит, Тасим остался там. Полагаю, среди прочего ты тревожишься и за него.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Alas, I'm afraid my hands are quite tied here. There is little I can do you recall what I said in the meeting.",
+      "ru": "Увы, боюсь, мои руки связаны. Я мало чем могу помочь. Ты ведь помнишь, что я говорил на собрании.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Ragni's relations with Fruma exclusively consist of the generous batches of recruits sent to fight the corruption here in Wynn.",
+      "ru": "Наши отношения с Фрумой сводятся к одному: она щедро снабжает Рагни новобранцами для борьбы со скверной здесь, в Винне.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Although you are not the first to wish to return to Fruma, I have not had any recruits who went to investigate come back satisfied. Or, in a scant few cases, at all.",
+      "ru": "Ты не первый, кто хочет вернуться во Фруму. Но никто из новобранцев, отправившихся туда на разведку, не вернулся довольным. А некоторые не вернулись вовсе.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "I may only grant you access to the pass you took to first come here. Simply take the door and do what you must. I know not what you will find...",
+      "ru": "Я могу лишь открыть тебе доступ к тому проходу, которым ты впервые сюда попал. Просто пройди в дверь и делай, что должен. Не знаю, что ты там найдёшь...",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "I advise you be cautious. The Queen's correspondence has been...not unkind, but forceful And considering the circumstances...",
+      "ru": "Советую быть осторожным. В письмах королевы не было... недоброжелательности, но она была весьма настойчива. А при нынешних обстоятельствах...",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "...I will make only one demand of you. Whatever happens...come back alive.",
+      "ru": "...Потребую от тебя лишь одного. Что бы ни случилось... вернись живым.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "The door to the pass between here and Fruma is down the hall, across from the fireplace. Come back alive that is an order as King.",
+      "ru": "Дверь к проходу во Фруму дальше по коридору, напротив камина. Вернись живым. Это приказ твоего короля.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "SLAY!",
+      "ru": "УБЕЙ!",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Kill mobs to continue",
+      "ru": "Победи врагов, чтобы продолжить.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "...you were scared of those, once upon a time. What a difference time makes.",
+      "ru": "...когда-то ты их боялся. Как же время всё меняет.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "This gate marks the Fruman Border you must make sure you aren't spotted from this point onwards.",
+      "ru": "За этими воротами начинается Фрума. Дальше нельзя попадаться никому на глаза.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Sounds like new recruits are walking down the path! You better find somewhere to hide before they spot you!",
+      "ru": "Похоже, по тропе идут новые рекруты! Лучше найди, где спрятаться, пока тебя не заметили!",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "They're gone. Hurry down the path!",
+      "ru": "Они ушли. Скорее вперёд по тропе!",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "This is your chance, the gate's open! Follow the Caravan Driver!",
+      "ru": "Твой шанс, ворота открыты! Следуй за возницей!",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "What is this place? Such technology, you can hardly imagine how it was made.",
+      "ru": "Что это за место? Столь сложные машины... Трудно даже представить, как их создали.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "The caravan driver seems to have disappeared... maybe you can find something if you look in some of the mechanized carriages?",
+      "ru": "Возница куда-то исчез... Может, стоит заглянуть в эти механические вагоны?",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "He's dead asleep. You could probably ring a church bell an inch above his head and he'd stay unconscious.",
+      "ru": "Спит мертвецким сном. Можно хоть в церковный колокол бить у него над ухом, он всё равно не проснётся.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "... ... ...",
+      "ru": "... ... ...",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "...something's prickling at the back of your mind. Weren't you asleep like this when you first arrived, too?",
+      "ru": "...Что-то не даёт тебе покоя. Ты ведь тоже так крепко спал, когда впервые сюда попал?",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "...you need to escape. Strike while the commander is busy, and find a way out!",
+      "ru": "...Нужно бежать. Атакуй, пока командир занят, и найди выход!",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "You have emptied Fort Torann of soldiers. You must escape before someone discovers what has happened here. The only way out is forward.",
+      "ru": "В форте Торанн не осталось солдат. Нужно бежать, пока кто-нибудь не узнал о случившемся. Единственный путь наружу - вперёд.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Maybe another spell?",
+      "ru": "Может, ещё одно заклинание?",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "Mmn. Hey there, stranger.",
+      "ru": "Мм. Привет, незнакомец.",
+      "speaker": "Kaio",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Anythin' I can help you with?",
+      "ru": "Могу чем-то помочь?",
+      "speaker": "Kaio",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Hm. Suppose there's no harm. But watch yourself, alright?",
+      "ru": "Хм. Ну, вреда вроде нет. Только смотри в оба, лады?",
+      "speaker": "Kaio",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "This here's our home. I wouldn't take too kindly to you messin' anything up, understand?",
+      "ru": "Это наш дом. Мне не понравится, если ты тут что-нибудь попортишь, ясно?",
+      "speaker": "Kaio",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "...doin' alright, all things considered. Weather's nice, I suppose. Festival comin' up.",
+      "ru": "...да нормально, в целом. Погода ничего, вроде. Скоро фестиваль.",
+      "speaker": "Kaio",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "But that ain't none of our business, really. If you didn't need anythin' else, I'll kindly ask you to take your leave.",
+      "ru": "Хотя нас это не особо касается. Если больше ничего не нужно, попрошу тебя уйти.",
+      "speaker": "Kaio",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Hm. Good. Have a nice day, now.",
+      "ru": "Хм. Хорошо. Доброго дня.",
+      "speaker": "Kaio",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Hmm? And who may you be?",
+      "ru": "Хмм? А ты ещё кто?",
+      "speaker": "Mora",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Hoh, oh well. Might I help you with something?",
+      "ru": "Хо, ну ладно. Могу чем-нибудь помочь?",
+      "speaker": "Mora",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "Ah, completing some assorted metalworking projects. There always seems to be something to replace or maintain around here...",
+      "ru": "А, заканчиваю кое-какую работу с металлом. Тут постоянно нужно что-нибудь заменить или починить...",
+      "speaker": "Mora",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Though, I certainly am no expert! But I can handle the tools well enough, and that is all that is needed for the task.",
+      "ru": "Хотя мастером меня точно не назовёшь! Но с инструментом управляюсь сносно, а для дела большего и не надо.",
+      "speaker": "Mora",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Farewell, stranger! I hope that you will return home safely.",
+      "ru": "Прощай, незнакомец! Надеюсь, ты благополучно вернёшься домой.",
+      "speaker": "Mora",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "That looks like the stuff. See? That wasn't so hard. Alright, now!",
+      "ru": "Вот, теперь годится. Видишь? Не так уж и сложно. Ладно, пора!",
+      "speaker": "Mora",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "The Caravan Driver walks to the wheel and looks at it.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "The Caravan Driver uses magic to attach the wheel back onto the caravan.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "The Caravan Driver opens the large door.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Commander Lilles and the Guard Captain will walk into a building.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Greetings, Player. It is always an honour to have you in our halls.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "-9916, -1239",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "-9911, -1239",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "-9906, -1241",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "-9903, -1245",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "-9902, -1250",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "-9904, -1255",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "-9907, -1257",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "-9909, -1259",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "-9912, -1260",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "-9913, -1263",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "-9913, -1266",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "-9911, -1268",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "-9908, -1271",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "-9904, -1270",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "-9900, -1269",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "-9896, -1265",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "-9895, -1262",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "-9893, -1260",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "-9890, -1259",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "-9886, -1259",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "-9883, -1262",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "-9881, -1264",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "New Quest Started: A Journey Home",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Путешествие домой",
+      "speaker": "",
+      "stage": "Stage 19"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Investigate the Fruma Gate at [-1915, 77, -1736].",
+      "ru": "Осмотреть ворота Фрумы [-1915, 77, -1736].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Explore near where you originally arrived in Wynn.",
+      "ru": "Исследовать место, где когда-то начался твой путь в Винне.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Leave Ragni through the door at [-953, 67, -1610].",
+      "ru": "Покинуть Рагни через дверь [-953, 67, -1610].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Continue back down the path to Fruma.",
+      "ru": "Продолжить путь во Фруму.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Talk to the Demolition Mage at [-9910, 54, -1231].",
+      "ru": "Поговорить с магом-подрывником [-9910, 54, -1231].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Use the TNT to open up a path through the cave.",
+      "ru": "Взорвать проход в пещере с помощью динамита.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Continue through the cave.",
+      "ru": "Продолжить путь через пещеру.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Talk to the Guard at [-9756, 56, -1219].",
+      "ru": "Поговорить со стражником [-9756, 56, -1219].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Cross the repaired bridge at [-9715, 56, -1263].",
+      "ru": "Перейти по восстановленному мосту [-9715, 56, -1263].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Continue back down the path to Fruma.",
+      "ru": "Продолжить путь во Фруму.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Explore the cave to find some loot.",
+      "ru": "Исследовать пещеру в поисках добычи.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Continue back down the path to Fruma.",
+      "ru": "Продолжить путь во Фруму.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Avoid the Fruman recruits on the path.",
+      "ru": "Не попадаться рекрутам Фрумы на дороге.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Hide from the Caravan Driver.",
+      "ru": "Спрятаться от возницы.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Explore past the Fruma Gate.",
+      "ru": "Исследовать земли за воротами Фрумы.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Join the Caravan Driver in the passenger car at [-9559, 64, -1061].",
+      "ru": "Присоединиться к вознице в пассажирском вагоне [-9559, 64, -1061].",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Arrive in Fruma.",
+      "ru": "Добраться до Фрумы.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Defeat the guards and escape.",
+      "ru": "Победить стражников и сбежать.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Leave Fort Torann.",
+      "ru": "Покинуть форт Торанн.",
+      "stage": "Stage 19"
+    }
+  ],
+  "choices": [
+    {
+      "en": "Knock",
+      "ru": "Постучаться",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0115",
+      "id": "choice-0001"
+    },
+    {
+      "en": "Attack",
+      "ru": "Ударить",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0115",
+      "id": "choice-0002"
+    },
+    {
+      "en": "Can I get past?",
+      "ru": "Могу я пройти?",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0135",
+      "id": "choice-0003"
+    },
+    {
+      "en": "I'm going the other way.",
+      "ru": "Я иду в другую сторону.",
+      "stage": "Stage 10",
+      "dialogueId": "dialogue-0138",
+      "id": "choice-0004"
+    },
+    {
+      "en": "Understood.",
+      "ru": "Понятно.",
+      "stage": "Stage 10",
+      "dialogueId": "dialogue-0138",
+      "id": "choice-0005"
+    },
+    {
+      "en": "Just looking around.",
+      "ru": "Просто осматриваюсь.",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0152",
+      "id": "choice-0006"
+    },
+    {
+      "en": "How are you doing?",
+      "ru": "Как дела?",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0154",
+      "id": "choice-0007"
+    },
+    {
+      "en": "I'll leave.",
+      "ru": "Я пойду.",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0156",
+      "id": "choice-0008"
+    },
+    {
+      "en": "What're you doing?",
+      "ru": "Чем занимаешься?",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0159",
+      "id": "choice-0009"
+    },
+    {
+      "en": "Bye, for now.",
+      "ru": "Пока, до встречи.",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0161",
+      "id": "choice-0010"
+    }
+  ]
+}

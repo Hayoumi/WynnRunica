@@ -1,0 +1,617 @@
+{
+  "quest": "Mushroom Man",
+  "level": 6,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "mushroom-man",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "<playername>, hello! This place really is nice, isn't it? I'd like to stay a while longer before moving on towards Detlas, but I'll be ready soon.",
+      "ru": "<playername>, привет! Славное здесь место, правда? Я бы задержался ещё немного, прежде чем идти дальше к Детласу, но скоро буду готов.",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "In the meantime, I've been thinking about what we could do to help this place... I've maybe got something.",
+      "ru": "Пока мы тут, я думал, чем бы мы могли помочь этому месту... Кажется, кое-что придумал.",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Take a look at that villager over there. He's acting a little off, like he's got something going on. I wonder...",
+      "ru": "Глянь на того жителя вон там. Он какой-то дёрганый, как будто у него что-то случилось. Хм...",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Alright, I've decided. I'm feeling a little restless, so let's go over there and see if there's anything we can help with!",
+      "ru": "Всё, решено. Мне всё равно на месте не сидится, так что давай подойдём и узнаем, не нужна ли ему помощь!",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Maybe we can leave this place better off than it was when we got here!",
+      "ru": "Может, благодаря нам жизнь здесь станет хоть немного лучше!",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "G-... Hi! H-how can I help you on this... this p-perfectly fine and n-n-normal day!",
+      "ru": "З-... Здрасте! К-как я могу вам помочь в этот... этот с-с-самый обычный и н-нормальный день!",
+      "speaker": "Yahya",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Sorry to interrupt- we're soldiers traveling through this town, and you looked like the sort of person who might need the kind of help soldiers can provide. Anything we can help with?",
+      "ru": "Извини, что отвлекаем. Мы солдаты, идём через этот городок. Ты выглядишь так, будто тебе нужна наша помощь. Что-нибудь случилось?",
+      "speaker": "Tasim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "O-oh! No, t-there's nothing going on. Not a th-thing. My m-m-mushroms are... they're fine. Why are you a-asking? Ev-... everything is g-great. W-Why wouldn't it b-be?",
+      "ru": "О-о! Нет, н-ничего не случилось. Вообще н-н-ничего. Мои г-г-грибы... с ними всё нормально. А вы ч-чего спрашиваете? Вс-... всё просто о-отлично. П-почему бы нет?",
+      "speaker": "Yahya",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "...O-okay, fine, y-you caught me! My mushrooms... my m-mushrooms aren't fine! T-they're bad, even! A-are you hap-... happy now?",
+      "ru": "...Л-ладно, х-хорошо, вы меня р-раскусили! Мои грибы... мои г-грибы не в порядке! Всё совсем п-плохо! Д-довольны т-теперь?",
+      "speaker": "Yahya",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Ehm- no, but that's why we're here! Is there anything we can do to help your... uh. Your mushrooms?",
+      "ru": "Эм... нет, но именно поэтому мы и здесь! Мы можем чем-то помочь твоим... э... грибам?",
+      "speaker": "Tasim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Hm. One soldier, two s-soldier... Y-you look weak. I've s-seen str-... stronger. B-But- eheh, the- the s-stronger soldiers are... not here. Y-you'll be good enough. Maybe.",
+      "ru": "Хм. Один солдат, второй с-солдат... Выглядите слабовато. Я в-в-видал и посильнее. Н-но - эхех - т-те, кто посильнее... их тут н-нет. В-вы, наверное, сойдёте. Может быть.",
+      "speaker": "Yahya",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "I- my favorite mushroom spot. I c-can't use it any-... anymore. Spiders. L-lots of spiders. They've t-t-taken over it... I can't get... mushrooms. Can y-you kill the s-s-spiders? Mushrooms.",
+      "ru": "Моё... м-моё любимое грибное место. Я б-больше не могу туда ходить. Пауки. М-много пауков. Они в-в-всё там захватили... Я не могу с-собирать... грибы. Можете у-убить п-п-пауков? Ради грибов.",
+      "speaker": "Yahya",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "We can kill spiders! Right, <playername>? Come on, this is what we're here to do! We became soldiers to help the people of Wynn, didn't we? We'll help you get your mushrooms back sir.",
+      "ru": "Пауков мы точно можем убить! Да, <playername>? Ну же, ради этого мы тут и есть! Мы же стали солдатами, чтобы помогать людям Винна, верно? Мы поможем вам вернуть ваши грибы, сэр.",
+      "speaker": "Tasim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "H-hm. Good. I can't m-make soup without... mushrooms. F-follow me, I'll take you to the-... the spiders. B-bad spiders.",
+      "ru": "Х-хм. Хорошо. Я не м-могу варить суп без... грибов. §bИ-идите за мной§r, я отведу вас к-... к паукам. П-плохим паукам.",
+      "speaker": "Yahya",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "H-here we are. I- I can f-feel the m-m-mushrooms... from here. And the s-spiders! No-... no good.",
+      "ru": "В-вот и пришли. Я... я ч-чую г-г-грибы... даже отсюда. И п-пауков тоже! Н-... ничего хорошего.",
+      "speaker": "Yahya",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "S-so! Mushrooms. Those-... those bad c-creepy c-crawly s-s-spiders... Kill them. P-please?",
+      "ru": "Т-так! Грибы. Эти... эти жуткие п-ползучие с-с-с-пауки... Убейте их. П-пожалуйста?",
+      "speaker": "Yahya",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "We wouldn't have come here if we weren't planning to. Alright, <playername>, let's clear out some spiders!",
+      "ru": "Мы бы сюда не пришли, если бы не собирались помочь. Ладно, <playername>, разберёмся с пауками!",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "You should report back to Yahya and tell him the spiders have been cleared out.",
+      "ru": "Надо бы вернуться к Яхье и сказать ему, что пауки уничтожены.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I-is it done? S-s-spiders... No m-more spiders? Is my m-m-mushroom patch cl-... cleared?",
+      "ru": "В-всё? П-п-пауков... больше нет? Моя г-г-грибная поляна ч-чистая?",
+      "speaker": "Yahya",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Let's take a look.",
+      "ru": "Давайте посмотрим.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Looks cleared to me. These are... uh... some fine mushrooms!",
+      "ru": "Вроде всё чисто. Грибы тут... э... ну, вполне нормальные!",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Th-thank you soldiers! Th-that was-... I mean. I-it was f-fine, I g-... guess.",
+      "ru": "С-спасибо, солдаты! Э-это было... то есть. В-всё было н-нормально, н-наверное.",
+      "speaker": "Yahya",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "...O-oh. Do I n-need to pay you... now? Heh. Is- is [2 Emeralds] fine with y-you..?",
+      "ru": "...О-ой. Мне т-теперь надо вам заплатить... да? Хех. §3§3§3§3§3[2 изумруда]§r§r§r§r§r в-вам хватит..?",
+      "speaker": "Yahya",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "...Come on.",
+      "ru": "...Серьёзно?",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Oho okay, ok-... okay! It was a joke, don't get all ex-... ex-... excited. Here, just take-",
+      "ru": "Охо, ладно, л-... ладно! Это была шутка, не н-... не заводитесь так. Вот, держите-",
+      "speaker": "Yahya",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "G-gah! C-creepy! C-c-crawly! S-s-s-spiders!!!",
+      "ru": "А-ай! Ж-жуткие! П-п-ползучие! П-п-пауки!!!",
+      "speaker": "Yahya",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Yahya! No!",
+      "ru": "Яхья! Нет!",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I-... this is bad. This is really bad. We need to tell the Mayor, now.",
+      "ru": "Я... Это плохо. Очень плохо. Нам надо срочно рассказать мэру.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Ah, hello travelers. You seem to be in a rush- has something happened?",
+      "ru": "А, здравствуйте, путники. Вы как будто торопитесь - что-то случилось?",
+      "speaker": "Mayor Alvin",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Yes! Yes, something- something has happened. We went with Yahya to help him with a problem he was having with spiders-",
+      "ru": "Да! Да, кое-что... кое-что случилось. Мы пошли с Яхьей, чтобы помочь ему избавиться от пауков-",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Yes, yes, I know of Yahya's antics... He doesn't seem to be with you. Has he ran off on you, just as Ope did?",
+      "ru": "Да-да, я знаю про выходки Яхьи... Но его с вами нет. Он что, снова сбежал, как и Опе?",
+      "speaker": "Mayor Alvin",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "No- no. When we finished clearing out the spiders, we were swarmed- and they took him!",
+      "ru": "Нет- нет. Когда мы закончили с пауками, нас окружили - и они утащили его!",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "...Oh. Oh, dear. That isn't good at all. If they're making moves such as this, unprovoked...",
+      "ru": "...Ох. Ох, беда. Это совсем нехорошо. Если они уже начали вот так действовать, ещё и без причины...",
+      "speaker": "Mayor Alvin",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "You two are soldiers, yes? I would ask you to continue your travels to Detlas. Find an Admiral Aegis- tell him our little village needs aid.",
+      "ru": "Вы двое ведь солдаты, верно? Тогда я попрошу вас продолжить путь в Детлас. Найдите адмирала Аегиса и скажите ему, что нашей маленькой деревне нужна помощь.",
+      "speaker": "Mayor Alvin",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "I-... of course. We'll set out immediately. Come on, <playername>.",
+      "ru": "Я... конечно. Мы выдвигаемся немедленно. Пошли, <playername>.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Wait. Did you hear that?",
+      "ru": "Погоди. Ты это слышал?",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Gah! <playername>, look out!",
+      "ru": "Ай! <playername>, берегись!",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Another one of these? We've fought one of them before, we can do it again!",
+      "ru": "Ещё одна такая тварь? Мы уже дрались с одной такой, справимся и сейчас!",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Phew. I think that went about as well as it could have!",
+      "ru": "Фух. Кажется, лучше мы бы и не справились!",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "We're both in one piece, the corrupted is dead... Good. That's good!",
+      "ru": "Мы оба целы, заражённый мёртв... Хорошо. Это хорошо!",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Let's keep moving towards Detlas. I don't think it's too much further, if we keep heading east from here.",
+      "ru": "Пошли дальше к Детласу. Думаю, уже недалеко, если отсюда держать курс на восток.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Wait up!",
+      "ru": "Эй, подожди!",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Why'd you just leave me there? If we couldn't fight that thing off together, what made you think I could do it alone?",
+      "ru": "Почему ты меня там бросил? Если мы вдвоём не могли отбиться от этой твари, с чего ты решил, что я справлюсь один?",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I managed to get away, but... still. What if I couldn't? Would you have just left me for dead?",
+      "ru": "Мне удалось вырваться, но... всё же. А если бы не удалось? Ты бы просто оставил меня умирать?",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "...Whatever. I'm alive, you're alive... that's probably good enough. Let's go find Admiral Aegis",
+      "ru": "...Ладно, неважно. Я жив, ты жив... наверное, и этого достаточно. Пошли искать адмирала Аегиса.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "...Oh, <playername>, you're awake! I was really worried there for a bit...",
+      "ru": "...О, <playername>, ты очнулся! Я уже начал всерьёз беспокоиться...",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "After you went down, I managed to hold my own long enough for some nearby soldiers to arrive and help. I can't thank Lieutenant Van enough.",
+      "ru": "Когда ты потерял сознание, я держался, пока не подоспели солдаты. Не знаю, как и отблагодарить лейтенанта Вана.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "We, uh... brought you back here to rest up. Aledar's around here somewhere, I think.",
+      "ru": "Мы, эм... притащили тебя сюда отлежаться. Аледар вроде тоже где-то рядом.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Oh, I spoke to Admiral Aegis about the spider problem already. He said he wants to speak to you about it, too. He should be downstairs",
+      "ru": "А, да, я уже поговорил с адмиралом Аегисом про проблему с пауками. Он сказал, что тоже хочет обсудить это с тобой. Он должен быть внизу.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...and that's how we managed to defeat that undead swarm, sir!",
+      "ru": "...вот так мы и одолели ту орду нежити, сэр!",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "That's good to hear. Thank you for your work, Aledar. I'll speak to Lieutenant Van and see if he'd be willing to take you into his squad.",
+      "ru": "Рад это слышать. Спасибо за службу, Аледар. Я поговорю с лейтенантом Ваном и узнаю, не захочет ли он взять тебя к себе в отряд.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Thank you for the opportunity, sir. I won't let you down-... Wait, is that- Tasim and <playername>?",
+      "ru": "Спасибо за шанс, сэр. Я вас не подведу-... Погодите, это что... Тасим и <playername>?",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Aledar! We've finally made it to Detlas. We've had... something of an adventure, getting here.",
+      "ru": "Аледар! Мы наконец-то добрались до Детласа. По пути сюда у нас... ну, было приключение, мягко говоря.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Ah, you two must be the recruits Aledar has been telling us all about. It's good to finally meet you, though I can't help but notice you seem to have arrived in a rush.",
+      "ru": "А, должно быть, вы те самые новобранцы, о которых рассказывал Аледар. Рад наконец с вами познакомиться. Но, судя по всему, вы очень торопились сюда.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Right! Right. We've arrived from Nivla Town, with bad news and a request for aid. The spiders of the forest have grown hostile, and threaten the town.",
+      "ru": "Точно! Да. Мы прибыли из города Нивла с плохими новостями и просьбой о помощи. Лесные пауки стали агрессивными и угрожают городу.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "One of their townsfolk was captured and taken away in front of our eyes. Mayor Alvin sent us here to request the aid of Detlas' army.",
+      "ru": "Одного из жителей у нас на глазах схватили и утащили. Мэр Элвин отправил нас сюда просить помощи у армии Детласа.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Bad news, indeed. Very well, we will make preparations. For the time being, the two of you should rest and hone your skills. Captain Ragon here in the barracks would gladly offer some training.",
+      "ru": "Да, новости и правда плохие. Хорошо, мы начнём подготовку. А пока вам двоим стоит отдохнуть и подтянуть навыки. §#55FFFFКапитан Рагон §rв казармах с радостью займётся вашей подготовкой.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Thank you, sir. But is there anything we could do to actually help?",
+      "ru": "Спасибо, сэр. Но мы можем чем-то помочь прямо сейчас?",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Enthusiastic, aren't you! Let me think... I believe Captain Fenor out by the west gate was looking for aid. If you're willing, I'd suggest you speak with him.",
+      "ru": "Похвальное рвение! Дайте подумать... Кажется, §#55FFFFкапитан Фенор у западных ворот §rискал помощников. Если готовы, советую поговорить с ним.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "And Lieutenant Van is planning a raid on a corrupt stronghold! I'm sure he'd be glad to have more forces with them.",
+      "ru": "А лейтенант Ван готовит штурм укрепления заражённых! Уверен, он будет рад подкреплению.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Yes, yes. Well, I must be off. If the threat of Nivla's spiders is growing... we must prepare accordingly. I hope to hear of your future endeavors, all three of you.",
+      "ru": "Да, да. Что ж, мне пора. Если лесные пауки становятся всё опаснее... нужно подготовиться. Надеюсь ещё услышать о подвигах всех вас троих.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "...so, Captain, what do you think? We'll need to start training soldiers more quickly, but I hope that won't be a problem.",
+      "ru": "...так что думаете, капитан? Нам придётся ускорить подготовку солдат, но надеюсь, это не станет проблемой.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Of course, Admiral, I'll see what I can do.",
+      "ru": "Конечно, адмирал, сделаю всё, что смогу.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Excellent. Now- ah, <playername>. Good to see you're up and about again. You gave us quite a shock!",
+      "ru": "Отлично. А теперь- а, <playername>. Рад видеть, что ты снова на ногах. Ты нас изрядно перепугал!",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Van tells me that goliath the two of you faced was a dangerous foe. He was impressed you managed to damage it as much as you did, even if you ended up needing rescue.",
+      "ru": "Ван рассказал мне, что тот голиаф, с которым вы столкнулись, был очень опасным врагом. Его впечатлило, что вы вообще смогли так сильно его потрепать, пусть вас потом и пришлось спасать.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Now, to business. We've already begun planning for our assault on the spiders, but we'll need more well-trained soldiers. Captain Ragon here should be able to help you hone your skills.",
+      "ru": "Теперь к делу. Мы уже начали планировать атаку на пауков, но нам понадобится больше хорошо обученных солдат. Капитан Рагон поможет вам подтянуть навыки.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "And if we wanted to help out, sir? I'm getting a little stir-crazy in here.",
+      "ru": "А если мы хотим помочь, сэр? Я уже места себе не нахожу от безделья.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Enthusiastic, aren't you! Let me think... I believe Captain Fenor out by the west gate was looking for aid. If you're willing, I suggest you speak with him.",
+      "ru": "Похвальное рвение! Дайте подумать... Кажется, капитан Фенор у западных ворот искал помощников. Если готовы, поговорите с ним.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "In addition, Lieutenant Van was highly impressed by your fight with the goliath! He told me to pass on that he'd appreciate your help in a raid he's planning on a nearby corrupted stronghold. I believe your friend Aledar was involved.",
+      "ru": "И ещё. Лейтенант Ван был впечатлён вашим боем с голиафом! Просил передать, что будет рад вашей помощи в штурме ближайшего укрепления заражённых. Кажется, ваш друг Аледар тоже участвует.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "With that, I must be off. We have many preparations to make, and the enemy never rests. I hope to hear of your future endeavors, both of you.",
+      "ru": "Что ж, мне пора. Нужно многое подготовить, а враг не дремлет. Надеюсь ещё услышать о подвигах вас обоих.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "New Quest Started: Mushroom Man",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Грибной человек",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "<playername>, hello! This place is really nice, isn't it? I'd like to stay a while longer before moving on towards Detlas, but I'll be ready soon.",
+      "ru": "<playername>, привет! Славное здесь место, правда? Я бы задержался ещё немного, прежде чем идти дальше к Детласу, но скоро буду готов.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I-... This is bad. This is really bad. We need to tell the Mayor, now.",
+      "ru": "Я-... Это плохо. Это очень плохо. Надо срочно сказать мэру.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "audit-04e14c2061bc6e3a",
+      "en": "H-hm. Good. I can't m-make my soup without... mushrooms. F-follow me, I'll take you to the-... the spiders. B-bad spiders.",
+      "ru": "Х-хм. Хорошо. Я не м-могу варить суп без... грибов. §bИ-идите за мной§r, я отведу вас к-... к паукам. П-плохим паукам.",
+      "speaker": "Yahya",
+      "stage": ""
+    },
+    {
+      "id": "audit-ce578987a3c05028",
+      "en": "Right! Right. We've arrived from Alekin Village, with bad news and a request for aid. The spiders of the forest have grown hostile, and threaten the town.",
+      "ru": "Точно! Да. Мы прибыли из деревни Алекин с плохими новостями и просьбой о помощи. Лесные пауки стали агрессивными и угрожают деревне.",
+      "speaker": "Tasim",
+      "stage": ""
+    },
+    {
+      "id": "audit-0631393c9f55bf40",
+      "en": "Soon... s-soon I will have my m-mushrooms again...",
+      "ru": "Скоро... с-скоро мои г-г-грибы снова будут у меня...",
+      "speaker": "Yahya",
+      "stage": ""
+    },
+    {
+      "id": "audit-16c9910a7b7a3cf6",
+      "en": "G-gah! D-don't you know it's rude to-... to e-eavesdrop?",
+      "ru": "А-ай! Т-ты разве не знаешь, что п-... подслушивать н-невежливо?",
+      "speaker": "Yahya",
+      "stage": ""
+    },
+    {
+      "id": "audit-053de3407de25d69",
+      "en": "You know... I'm starting to wonder what I've gotten us into.",
+      "ru": "Знаешь... Я уже начинаю задумываться, во что нас втянул.",
+      "speaker": "Tasim",
+      "stage": ""
+    },
+    {
+      "id": "audit-b10b8c0335d21ae0",
+      "en": "I'm just hoping this all works out in the end.",
+      "ru": "Надеюсь только, что в итоге всё закончится хорошо.",
+      "speaker": "Tasim",
+      "stage": ""
+    },
+    {
+      "id": "audit-cfe01b58d7ae695e",
+      "en": "Well, it looks cleared to me. These are... uh... some fine mushrooms!",
+      "ru": "Ну, по-моему, тут уже чисто. Грибы здесь... э... вполне неплохие!",
+      "speaker": "Tasim",
+      "stage": ""
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Tasim in Alekin Village at [-158, 73, -1621].",
+      "ru": "Поговорить с Тасимом в деревне Алекин [-158, 73, -1621].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Speak to the strange man at [-175, 74, -1633].",
+      "ru": "Поговорить со странным человеком [-175, 74, -1633].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Follow Yahya to his infested mushroom patch at [-214, 79, -1692].",
+      "ru": "Следовать за Яхьей к его заражённой грибной полянке [-214, 79, -1692].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Clear out the spiders from Yahya's favorite mushroom patch at [-200, 77, -1701], then return and talk to Yahya.",
+      "ru": "Избавить любимую грибную полянку Яхьи в [-200, 77, -1701] от пауков, затем вернуться к нему и поговорить.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Return to Mayor Alvin at [-181, 71, -1615] with news about the spiders.",
+      "ru": "Вернуться к мэру Элвину с новостями о пауках [-181, 71, -1615].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Travel to Detlas to request the help of their military at [513, 69, -1628].",
+      "ru": "Отправиться в Детлас и попросить помощи у военных [513, 69, -1628].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

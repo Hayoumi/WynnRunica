@@ -1,0 +1,239 @@
+{
+  "quest": "Jungle Fever",
+  "level": 52,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "jungle-fever",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, I am so happy to see you! *cough*, I caught a very bad fever, and I really need help! *cough*",
+      "ru": "Ох, как же я рад тебя видеть! *кхе* Я подхватил ужасную лихорадку, и мне срочно нужна помощь! *кхе*",
+      "speaker": "Worid",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "The only cure against this fever is to drink Liquid Emeralds! Yes, exactly! *cough*",
+      "ru": "Единственное лекарство от этой лихорадки - это пить жидкие изумруды! Да-да, именно! *кхе*",
+      "speaker": "Worid",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Do you think you could ask the Banker at Detlas if he could give me, oh I don't know, [64 Liquified Emeralds]?",
+      "ru": "Как думаешь, сможешь попросить банкира в Детласе выдать мне, ну я не знаю, [64 жидких изумруда]?",
+      "speaker": "Worid",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "If he has the audacity to *cough* say no... you will have to use brute force...",
+      "ru": "Если у него хватит наглости *кхе* сказать нет... придётся брать силой...",
+      "speaker": "Worid",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Break into *cough* to the emerald storage, but don't take anything... come back to me immediately after, if you make it out alive, heheh...",
+      "ru": "Вломись *кхе* в хранилище изумрудов, только ничего не бери... и сразу возвращайся ко мне, если вообще выберешься оттуда живым, хехех...",
+      "speaker": "Worid",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Oh, uh... I mean *cough* *cough*",
+      "ru": "Ой, э... я хотел сказать *кхе* *кхе*",
+      "speaker": "Worid",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "[64 Liquified Emeralds]? He is crazy! Liquified Emeralds cannot cure anyone from anything, except being poor!",
+      "ru": "[64 жидких изумруда]? Да он псих! Жидкие изумруды не лечат вообще ничего, кроме бедности!",
+      "speaker": "The Banker",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I will not participate in this pathetic fraud attempt!",
+      "ru": "Я не собираюсь участвовать в этой жалкой афере!",
+      "speaker": "The Banker",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Oh no! How will I ever cure my sickness without any Liquified Emeralds?... *cough*",
+      "ru": "О нет! Как же я теперь вылечу свою болезнь без жидких изумрудов?... *кхе*",
+      "speaker": "Worid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "We'll have to change our strategy, we won't ask for permission. It's to help me after all.",
+      "ru": "Придётся сменить тактику, разрешения мы спрашивать не будем. Всё-таки это ради моего спасения.",
+      "speaker": "Worid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "First, I need to make sure you can easily break into a bank. Try to enter Detlas' Secret Stash.",
+      "ru": "Для начала мне надо убедиться, что ты вообще умеешь вскрывать банки. Попробуй пробраться в тайник Детласа.",
+      "speaker": "Worid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "When you're done, talk to me again. Be careful too, they might have some Guards.",
+      "ru": "Как закончишь, снова поговори со мной. И осторожнее, там могут быть стражники.",
+      "speaker": "Worid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "What? You're here already. I thought you would take too long so I just went myself.",
+      "ru": "Что? Ты уже здесь? Я думал, ты будешь копаться слишком долго, так что я сходил сам.",
+      "speaker": "Worid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "My sickness? RIGHT. *cough* You should feel bad for forcing a sick man to do your job.",
+      "ru": "Моя болезнь? ТОЧНО. *кхе* Тебе должно быть стыдно, что ты заставил больного человека делать твою работу.",
+      "speaker": "Worid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Anyway I see you proved yourself, we can start the real thing now.",
+      "ru": "Ладно, вижу, ты себя показал, можно начинать настоящее дело.",
+      "speaker": "Worid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "You see, Almuj has a very well guarded emerald vault named \"The Emerald Labyrinth\".",
+      "ru": "Видишь ли, в Алмудже есть очень хорошо охраняемое хранилище изумрудов под названием \"Изумрудный лабиринт\".",
+      "speaker": "Worid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "It is guarded with tons of well trained Guard Golem, who can easily kill any adventurer.",
+      "ru": "Его стерегут толпы отлично обученных големов-стражей, которые без проблем прикончат любого приключенца.",
+      "speaker": "Worid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "The Banker in the secret vault must be completely bored out of his mind, and won't mind if you find him.",
+      "ru": "Банкир в секретном хранилище наверняка уже сдох со скуки и не особо расстроится, если ты его найдёшь.",
+      "speaker": "Worid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Good luck with that. Haha.. I mean, *cough*.",
+      "ru": "Ну, удачи тебе с этим. Хаха... то есть, *кхе*.",
+      "speaker": "Worid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Oh, uh! Somebody! It has been so long since I've seen someone!",
+      "ru": "О, э! Кто-то живой! Я уже так давно никого не видел!",
+      "speaker": "Almuj Banker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Liquified Emeralds? Of course, of course! I've got tons! Here, take them.",
+      "ru": "Жидкие изумруды? Конечно, конечно! У меня их полно! Вот, держи.",
+      "speaker": "Almuj Banker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "You are back! Wonderful!",
+      "ru": "Ты вернулся! Прекрасно!",
+      "speaker": "Worid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "That is a lot of money, thank you very much, I will finally be able to... *cough* to cure myself!",
+      "ru": "Вот это деньжищи, огромное спасибо, теперь я наконец смогу... *кхе* вылечиться!",
+      "speaker": "Worid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Here, take this part, you deserve it. I have to use most of the... *cough* money so I can heal, so I've instead paid you with a key.",
+      "ru": "Вот, держи свою долю, ты заслужил. Мне придётся потратить почти все... *кхе* деньги на лечение, так что вместо этого я расплачусь с тобой ключом.",
+      "speaker": "Worid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I stole- *cough* I mean, borrowed it, from our tribe's leader. Apparently it was used to lock up a great evil.",
+      "ru": "Я его сты- *кхе* то есть одолжил у вождя нашего племени. Говорят, им когда-то запечатали великое зло.",
+      "speaker": "Worid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Good ridda- *cough* Er... luck. Yes, good luck, adventurer!",
+      "ru": "Скатертью- *кхе* То есть... удачи. Да, удачи тебе, приключенец!",
+      "speaker": "Worid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "New Quest Started: Jungle Fever",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Тропическая лихорадка",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Worid in the jungle village at [-760, 79, -666]",
+      "ru": "Поговорить с Воридом в деревне в джунглях [-760, 79, -666].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to Detlas's Banker about the cure for Worid at [497, 67, -1559]",
+      "ru": "Поговорить с банкиром Детласа о лекарстве для Ворида [497, 67, -1559].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Enter Detlas' Emerald Stash at [494, 67, -1553]",
+      "ru": "Войти в изумрудное хранилище Детласа [494, 67, -1553].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Return to Worid",
+      "ru": "Вернуться к Вориду.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Infiltrate Almuj's Secret Emerald Labyrinth at [1019, 84, -1976] underground and find the Banker in the Emerald Room",
+      "ru": "Пробраться в тайный подземный изумрудный лабиринт Алмуджа и найти банкира в Изумрудной комнате [1019, 84, -1976].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to Worid at [956, 75, -1960].",
+      "ru": "Поговорить с Воридом [956, 75, -1960].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

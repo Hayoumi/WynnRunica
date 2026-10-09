@@ -1,0 +1,536 @@
+{
+  "quest": "Fallen Delivery",
+  "level": 79,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "fallen-delivery",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Aaah what am I gonna do what am I gonna do what am I gonna do what am I gonna doooo! There's no way I can solve this...",
+      "ru": "Ааах, что мне делать, что мне делать, что мне делать, что мне делать-тооо! Я с этим ни за что не справлюсь...",
+      "speaker": "Bricot",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Wh- HUMAN! No, no, no! I don't need a demolitions service! The airship downing over my house has done that enough- Hey, wait!",
+      "ru": "Ч- ЧЕЛОВЕК! Нет, нет, нет! Мне не нужна служба по сносу! Падение дирижабля на мой дом и так уже всё разнесло - Эй, стой!",
+      "speaker": "Bricot",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You all are a reckless lot, aren't you?! You can run through some burning wreckage, right? That isn't above your paygrade, right?! RIGHT?!",
+      "ru": "Вы же все безрассудные, да?! Через горящие обломки пробежать сможете, верно? Вам ведь это по силам, да?! ДА?!",
+      "speaker": "Bricot",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Go through my house to the wreckage! Find any survivors you can! They might...I don't know! I don't know if they'll help but it's all I can think of right now!",
+      "ru": "Проберись через мой дом к обломкам! Найди выживших, если там кто-то остался! Они могут... да я не знаю! Не знаю, помогут ли они, но это всё, что мне сейчас в голову приходит!",
+      "speaker": "Bricot",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Okay Bricot, your house is a loss, but...don't panic... Don't panic. Please tell me the crew is-",
+      "ru": "Так, Брикот, дом ты уже потерял, но... не паникуй... не паникуй. Только бы экипаж был-",
+      "speaker": "Bricot",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "...urgh. I didn't want that sentence to end with DEAD! Aaagh, this is a disaster!!",
+      "ru": "...ох. Я не хотел, чтобы эта фраза заканчивалась словом МЁРТВ! Ааа, это катастрофа!!",
+      "speaker": "Bricot",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "My farm's ruined, there's no good help- Hey, don't give me that look, I know what happened with Tolem!",
+      "ru": "Ферма разорена, помощи ждать неоткуда - эй, не смотри на меня так, я знаю, что случилось с Толемом!",
+      "speaker": "Bricot",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "...wait, that smell...that's sulphur. The airship engines don't use sulphur!",
+      "ru": "...погоди, этот запах... это сера. Двигатели дирижаблей на сере не работают!",
+      "speaker": "Bricot",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Gah, it didn't BREAK down, it got SHOT down!! Isn't the government going to DO something about all these mercenary groups?!",
+      "ru": "Аах, он не СЛОМАЛСЯ, его СБИЛИ!! Правительство вообще собирается ЧТО-ТО делать со всеми этими отрядами наёмников?!",
+      "speaker": "Bricot",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Wait, what am I saying, there's a human here. Okay, new favor- go to the mercenary camp to the south there and do us ALL a favor, huh? Do what you do best!",
+      "ru": "Стоп, что я вообще несу, тут же человек стоит. Ладно, новая просьба - сходи в лагерь наёмников к югу и сделай одолжение нам ВСЕМ, а? Займись тем, что у вас лучше всего получается!",
+      "speaker": "Bricot",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Round up, fellas! There's an uninvited guest barging in!",
+      "ru": "Собрались, парни! К нам тут непрошеный гость ломится!",
+      "speaker": "Marden",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "...figures that you lot would be able to crack our defenses, huh? Alright, out with it. What do you want?",
+      "ru": "...ну да, кто бы сомневался, что вы прорвёте нашу оборону, а? Ладно, выкладывай. Чего тебе надо?",
+      "speaker": "Marden",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "...Oh, is that all? Somehow, for someone who chopped through my men like a knife through paper I'd have expected more of a demand.",
+      "ru": "...А, всего-то? Честно, от того, кто прорезался через моих людей как нож через бумагу, я ждал требований посерьёзнее.",
+      "speaker": "Marden",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "We were hired by an anonymous benefactor to shoot down the airship. Frankly, it was a ridiculous job- could've been done far cleaner.",
+      "ru": "Нас нанял какой-то анонимный заказчик, чтобы сбить дирижабль. Если честно, задание было идиотское - можно было сделать всё куда чище.",
+      "speaker": "Marden",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "The fellow wanted the mail being transported. Said we could take anything else that was left in the ship. But shooting it down only put everything at risk!",
+      "ru": "Этому типу нужна была почта, которую перевозили на борту. Всё остальное, что осталось бы на корабле, он разрешил нам забрать. Но сбивать дирижабль - значит рисковать всем грузом!",
+      "speaker": "Marden",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "All the cargo, all the correspondence, it could've easily gone up in flames. I don't think the fellow was thinking straight- they just really wanted that airship downed.",
+      "ru": "Весь груз, вся переписка - всё могло запросто сгореть. По-моему, этот тип плохо соображал: ему просто очень хотелось сбить тот дирижабль.",
+      "speaker": "Marden",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Didn't even notice the great big hole in the sack they put the letters in. There's stray papers all over the ground. We have confidentiality with them, but...",
+      "ru": "Он даже не заметил огромную дыру в мешке, куда сложил письма. Теперь бумаги валяются по всей земле. Мы обещали не раскрывать имя заказчика, но...",
+      "speaker": "Marden",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "At the same time, I've got my money, and they're an utter fool. If you want to catch them, follow the papers on the ground. I certainly won't stop you.",
+      "ru": "Деньги я уже получил, а заказчик оказался полным дураком. Если хочешь его поймать - иди по бумагам, что валяются на земле. Я тебя точно не остановлю.",
+      "speaker": "Marden",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Oh, dang. Almost had it that time. Maybe the flux is out of sorts- Yes, of course! Need more Squirmle Residue to deal with that...",
+      "ru": "Эх, досада. В этот раз почти получилось. Наверное, поток опять шалит - точно! Нужно ещё сквирмлового осадка, чтобы это исправить...",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Quick, hand me the pliers! ...what? Yes, I know you aren't my assistant, but you've got two strong arms! Blessings of babylon! Pliers are easy to hand over, right?",
+      "ru": "Быстро, дай мне плоскогубцы! ...что? Да, я знаю, что ты не мой ассистент, но руки-то у тебя крепкие! Благословения Вавилона! Плоскогубцы же подать несложно, ну?",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Uh, buddy? This is a paper. Yes, there's writing on it, I see that, but what does that have to do with stabilizing the flux? Come on, think!",
+      "ru": "Эй, дружище? Это бумажка. Да, я вижу, что на ней текст, но при чём тут стабилизация потока? Думай давай!",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "...wait a second, this is my handwriting. Hey, this was supposed to be in Ahmsord two days ago! How in harbledee did you get this?",
+      "ru": "...погоди-ка, это же мой почерк. Эй, это письмо вообще-то должно было быть в Амсорде ещё два дня назад! Какого харблди оно у тебя оказалось?",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "The ship got shot down? That's no good. Could probably...wait, the Squirmle Residue would be perfect for this! A gel-based reinforcer, the cannonballs would bounce right off!",
+      "ru": "Корабль сбили? Вот это уже плохо. Хотя можно было бы... стой, сквирмловый осадок для этого идеально подойдёт! Гелевый усилитель, и ядра просто будут отскакивать!",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Wait, focus on what's in front of you, Gawrick... The spell scroll isn't there...so. Hmm... Well, not to sound like a conspiracy theorist, but this might be the work of the airliners.",
+      "ru": "Погоди, сосредоточься на том, что перед тобой, Говрик... Свитка заклинания тут нет... так. Хмм... Не хочу всюду видеть заговоры, но, возможно, тут замешаны владельцы дирижаблей.",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "It's a longshot, though. That scroll detailed a spell that allowed for unlimited teleportation. It could really compete with the airliner business for convenience alone!",
+      "ru": "Хотя версия маловероятная. В том свитке было заклинание для неограниченной телепортации. Одним своим удобством оно могло бы переманить клиентов у дирижаблей!",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "At the same time, though... The airship representatives control the ships. It's in the job description. Why would they shoot down the ship instead of just filching the mail?",
+      "ru": "Но с другой стороны... представители дирижаблей и так распоряжаются кораблями. Работа у них такая. Зачем им сбивать судно, если можно просто стащить почту?",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Well, it's a place to start! Why not talk with the airship representatives? They've got an office behind the customs desk in the airbase.",
+      "ru": "Ну, хоть какая-то зацепка! Почему бы не поговорить с представителями дирижаблей? У них контора за стойкой таможни на авиабазе.",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "It wouldn't make a whole lot of sense if they were behind it, so I'd just as soon scratch it off the list. Now, watch in amazement as I instantly teleport you to the office!",
+      "ru": "Не вижу смысла им так поступать, поэтому лучше сразу исключить их из подозреваемых. А теперь смотри и восхищайся: я мгновенно телепортирую тебя прямо к ним в контору!",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Juuuust as soon as I grab the pliers...er, oops! Hand slipped! Um, hands and feet INSIDE the dimensional bridge please!",
+      "ru": "Тоооолько сначала возьму плоскогубцы... эм, ой! Рука соскользнула! Так, руки и ноги, пожалуйста, держи ВНУТРИ пространственного моста!",
+      "speaker": "Gawrick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "...need something? The representative, huh?",
+      "ru": "...тебе чего? Представителя ищешь, да?",
+      "speaker": "Office Manager",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "No, it's been a while since Ernold's shown his face. He's in his office- said not to have anyone bother him.",
+      "ru": "Не-а, Эрнольд уже давно не показывался. Он у себя в кабинете - сказал никого к нему не пускать.",
+      "speaker": "Office Manager",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "So, you're out of luck. You'll probably not catch him today. Especially since he looked so frantic- when he gets like that...whoof.",
+      "ru": "Так что тебе не повезло. Сегодня ты его, скорее всего, не застанешь. Тем более он был такой взвинченный - когда он в таком состоянии... ух.",
+      "speaker": "Office Manager",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "And, please don't try to sneak in and bother him either. I got my ears boxed last time someone got by me.",
+      "ru": "И, пожалуйста, не пытайся тайком пробраться к нему. В прошлый раз, когда кто-то прошёл мимо меня, мне за это уши надрали.",
+      "speaker": "Office Manager",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "STUPID! SCROLL! LET GO OF MY HAND!",
+      "ru": "ТУПОЙ! СВИТОК! ОТЦЕПИСЬ ОТ МОЕЙ РУКИ!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Why is this activated just by shaking it?! And why is it covered in this sticky residue?!",
+      "ru": "Почему он вообще активируется просто от тряски?! И почему он весь в этой липкой жиже?!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Wait, it- it's you! Garni! Help me out! This maniac's spell scroll is forcing me to teleport!!",
+      "ru": "Стой, э- это ты! Гарни! Помоги мне! Свиток этого психа заставляет меня телепортироваться!!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I can't grab the scroll without it getting zipped away! You have to catch me and grab the scroll!!",
+      "ru": "Стоит мне схватиться за свиток, как он тут же переносит меня прочь! Тебе надо поймать меня и сорвать с меня свиток!!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "PLEASE! I've been stuck like this for five hours! Grab the scroll off me! I promise a pay raise if you do!!",
+      "ru": "ПОЖАЛУЙСТА! Я уже пять часов так мотаюсь! Сними с меня этот свиток! Обещаю прибавку к зарплате, если справишься!!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "GWEH! You almost got it! But it's even worse now! Once more! Grab the scroll off of me!!",
+      "ru": "ГВЕХ! Ты почти достал! Но теперь всё стало ещё хуже! Ещё раз! Сорви с меня этот свиток!!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Urp...hrk...guhh. Th-thank you, SO much, Garni-",
+      "ru": "Урп... хрк... гухх. С- спасибо тебе ОГРОМНОЕ, Гарни-",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Wait! You aren't the office manager! How did a human get in here?!",
+      "ru": "Стой! Ты не управляющий конторой! Как сюда вообще попал человек?!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "...oh, perfect. I've been rumbled, I see. Fine- at least let me say my piece here, alright? I had a good reason for this!",
+      "ru": "...ну отлично. Меня разоблачили, ясно. Ладно - дай хоть объясниться, а? У меня была веская причина!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "For one thing, Gawrick's a damned maniac! This is clearly a danger- he's too erratic to trust his inventions!",
+      "ru": "Во-первых, этот Говрик - чёртов безумец! Это же явно опасно - он слишком непредсказуем, чтобы доверять его изобретениям!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "For another, this was supposed to be a scroll of teleportation with no drawbacks whatsoever. Supposed to be, being the key words.",
+      "ru": "Во-вторых, это должен был быть свиток телепортации совсем без недостатков. Должен был - ключевые слова.",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Do you have any idea what that would do to the airship industry? It's a nice thought surely, but think about how many people work in this airbase alone!",
+      "ru": "Ты вообще представляешь, как это скажется на перевозках дирижаблями? Идея, конечно, хорошая, но подумай, сколько людей работает на одной только этой авиабазе!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "There'd be thousands jobless! I told him not to mail that scroll over, and I thought he listened! Then I heard him bragging in the street, and...well, I panicked.",
+      "ru": "Тысячи людей остались бы без работы! Я сказал ему не отправлять этот свиток, и думал, что он послушал! А потом услышал, как он хвастается этим на улице, и... ну, я запаниковал.",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I'll admit, hiring the mercenaries to shoot down the ship was hasty of me. But that scroll can NOT be made into a public commodity! Even if it's stable, which it ISN'T, it could ruin people's livelihoods!",
+      "ru": "Признаю, я поспешил, когда нанял наёмников сбить корабль. Но этот свиток НЕЛЬЗЯ пускать в свободную продажу! Даже если бы он работал без сбоев, а это НЕ так, он всё равно мог бы лишить людей заработка!",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "I'll relinquish it to you- I can tell you're expecting it. Maybe he'll listen to you...oh, what am I saying. Gawrick only ever listens to those voices in his head- or whatever drives his damned insanity.",
+      "ru": "Я отдам его тебе - вижу, что ты именно за этим и пришёл. Может, тебя он послушает... хотя о чём я говорю. Говрик слушает только голоса в своей голове - или что там ещё питает его проклятое безумие.",
+      "speaker": "Representative Ernold",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Oh, so it WAS the airship people? What in the hell possessed them to shoot down their own ship then?!",
+      "ru": "А, так это всё-таки были владельцы дирижаблей? Какого чёрта их дёрнуло сбивать собственный корабль?!",
+      "speaker": "Gawrick",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Pah. That Ernold doesn't know a good idea when he sees it. As though anyone REALLY enjoys the airline food!",
+      "ru": "Пф. Этот Эрнольд хорошую идею не узнает, даже если она у него перед носом. Будто кому-то И ПРАВДА нравится еда на борту дирижаблей!",
+      "speaker": "Gawrick",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...huh. It activated by shaking the paper? That wasn't supposed to happen. Did I put in too much Nimbuseeker rain...?",
+      "ru": "...хм. Он активировался от тряски бумаги? Так не должно было быть. Я что, перелил туда дождя Тучеискателя...?",
+      "speaker": "Gawrick",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Well, looks like the ink got shook right off the paper, so it's useless anyways- and the notes I'd sent with the letter are missing too. Guess it's a secret lost to the ages now, cause I can't remember how it worked now.",
+      "ru": "Ну, похоже, чернила от тряски просто слетели с бумаги, так что свиток теперь всё равно бесполезен - и записи, которые я отправлял вместе с письмом, тоже пропали. Видимо, секрет теперь потерян навеки, потому что я уже не помню, как оно вообще работало.",
+      "speaker": "Gawrick",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Ah well. I figured how to transmute wine into cheese while you were gone anyways, so I've got a good money-making racket going anyways!",
+      "ru": "Ну и ладно. Пока тебя не было, я понял, как превращать вино в сыр, так что у меня и без того есть отличный способ зарабатывать!",
+      "speaker": "Gawrick",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "...mneh. I don't really care about a small man like him. I won't bother with the police on this one. It technically isn't on his hands anyways, but we'll just try and let him sleep with that on his head.",
+      "ru": "...мнэ. Да мне и дела нет до такого мелочного человека. В полицию обращаться не стану. Формально кровь не на его руках, так что пусть попробует уснуть с этим на совести.",
+      "speaker": "Gawrick",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Hey, maybe you can help me out in another way! I had a DIFFERENT idea for teleportation scrolls anyways. Here- some free samples. Try 'em out for me, wouldja?",
+      "ru": "Эй, может, поможешь мне по-другому! У меня вообще-то была ЕЩЁ ОДНА идея для свитков телепортации. На, держи - бесплатные образцы. Испытаешь их для меня, а?",
+      "speaker": "Gawrick",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "It looks like Bricot was in the middle of making dinner.",
+      "ru": "Похоже, Брикот как раз готовил ужин.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "It's just a tiny bit overcooked.",
+      "ru": "Он лишь самую малость пережарен.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "The pages are scorched, but it looks like a farmer's almanac. I predicts extreme heat this season.",
+      "ru": "Страницы обуглены, но похоже на фермерский альманах. В нём предсказывают аномальную жару в этом сезоне.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "...yep. Checks out.",
+      "ru": "...ага. Сходится.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "At a time like this, inspecting someone's bed seems like a poor use of your time.",
+      "ru": "В такой момент вряд ли стоит тратить время на осмотр чужой кровати.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "They're dead. Looks like one of them got hit by a cannonball.",
+      "ru": "Они мертвы. Похоже, одного из них задело пушечным ядром.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You've broken through sturdier barricades before. A spell will knock it down easily.",
+      "ru": "Тебе доводилось пробивать баррикады и покрепче. Заклинание легко её снесёт.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "With most of the mercenaries gone, you should be able to enter the mercenary's hideout now.",
+      "ru": "Теперь, когда большинство наёмников полегло, ты сможешь войти в логово наёмников.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "[Objective: Catch Ernold]",
+      "ru": "[Задача: Поймать Эрнольда]",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "You've ripped the scroll out of Ernold's hands! He's stopped teleporting. Time to interrogate him.",
+      "ru": "Ты вырвал свиток из рук Эрнольда! Он перестал телепортироваться. Время его допросить.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "New Quest Started: Fallen Delivery",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Сорванная доставка",
+      "speaker": "",
+      "stage": "Stage 9"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Bricot.",
+      "ru": "Поговорить с Брикотом.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Scale the house and search the fallen airship for survivors",
+      "ru": "Забраться на дом и найти выживших в разбившемся дирижабле.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Investigate the bandit fort at [-20, 41, -4828]",
+      "ru": "Осмотреть крепость бандитов [-20, 41, -4828].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Follow the trail of papers to the bandit's house.",
+      "ru": "Идти по следам из бумаг к дому бандита.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find the envelope in the cellar and return it to the sender.",
+      "ru": "Найти конверт в погребе и вернуть отправителю.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find the representative's office in the airship base at [-258, 58, -4999]",
+      "ru": "Найти кабинет представителя на авиабазе [-258, 58, -4999].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Find a way to enter the representative's office.",
+      "ru": "Найти способ проникнуть в кабинет представителя.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Enter the representative's office.",
+      "ru": "Войти в кабинет представителя.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Catch Representative Ernold",
+      "ru": "Поймать представителя Эрнольда.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Bring the spell scroll back to Gawrick at [-486, 52, -4882]",
+      "ru": "Вернуть свиток заклинания Говрику [-486, 52, -4882].",
+      "stage": "Stage 10"
+    }
+  ],
+  "choices": []
+}

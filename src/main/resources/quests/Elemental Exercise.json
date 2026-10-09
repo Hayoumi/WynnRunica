@@ -1,0 +1,614 @@
+{
+  "quest": "Elemental Exercise",
+  "level": 11,
+  "difficulty": "Hard",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "elemental-exercise",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ah! You must be one of the new recruits the Admiral told me to look out for! What was it... <playername>, yes?",
+      "ru": "А! Должно быть, ты один из новобранцев, за которыми адмирал велел мне присматривать! Как там тебя... <playername>, верно?",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "But the fact still stands that you lack experience. You can certainly fight, yes, but can you fight well?",
+      "ru": "Но факт остаётся фактом - опыта тебе пока не хватает. Драться ты, конечно, умеешь, но умеешь ли драться как надо?",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Lucky for you, that's where I come in. You're just in time for today's training session! Come here, follow me.",
+      "ru": "К твоему счастью, я могу это исправить. Ты как раз успел на сегодняшнюю тренировку! Подойди, идём за мной.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "...Oh! <playername>, hello. Are you here for training as well?",
+      "ru": "...О! <playername>, привет. Ты тоже сюда на тренировку?",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Ahem. Now, in front of you, you'll see five special training dummies. Each one finely imbued with elemental magic. You are aware of the elements, yes? There's five of them in total.",
+      "ru": "Кхм. Перед вами пять особых тренировочных манекенов. Каждый наделён стихийной магией. Вы ведь знаете о стихиях? Всего их пять.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I am! The elements are... Fire , Air , Earth , Thunder , and... Water ?",
+      "ru": "Да! Стихии - это... <em> §#FF5555Огонь§r, <em> Воздух, <em> §#00AA00Земля§r, <em> §#FFFF55Молния §rи... <em> §#55FFFFВода§r?",
+      "speaker": "Tasim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "That's right. And generally speaking, they're strong against each other in that order- Fire beats Air , Air beats Earth , and so on.",
+      "ru": "Именно так. И, в общем-то, они превосходят друг друга именно в этом порядке: <em> §#FF5555Огонь §rпревосходит <em> Воздух, <em> Воздух превосходит <em> §#00AA00Землю §rи так далее.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Elemental weaknesses may vary based on the enemy, but that order holds true in most cases.",
+      "ru": "Слабости к стихиям могут меняться в зависимости от врага, но в большинстве случаев этот порядок работает.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Enemies will take more damage from elements they're weak to, and take less damage from elements they resist. This change to your damage is always a flat value, and it varies from enemy to enemy.",
+      "ru": "Враги получают больше урона от стихий, к которым уязвимы, и меньше от тех, которым сопротивляются. Урон увеличивается или уменьшается на §bопределённое число§r, своё для каждого врага.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Now. For training purposes, you'll be given an elemental weapon to try out on these training dummies. Take note of how each elemental defense and weakness affects your damage dealt. Speak to me once you feel you understand the concept.",
+      "ru": "А теперь для тренировки вам выдадут §bстихийное оружие§r, чтобы опробовать его на этих манекенах. Смотрите внимательно, как каждая стихийная защита и слабость влияет на ваш урон. Когда поймёте суть, подойдите ко мне.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "[+1 Elemental Training Spear]",
+      "ru": "[+1 Elemental Training Spear]",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Well? Have you noted the effect of elemental defenses and weaknesses on your damage?",
+      "ru": "Ну что? Заметили, как защита и уязвимость к стихиям влияют на ваш урон?",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I have.",
+      "ru": "Да.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Let's do it.",
+      "ru": "Погнали.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I need to get ready first.",
+      "ru": "Мне сначала надо подготовиться.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I'd like to try out this weapon some more.",
+      "ru": "Я хочу ещё немного опробовать это оружие.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "There you are! Are you ready for our duel?",
+      "ru": "Вот ты где! Ну что, готов к нашей дуэли?",
+      "speaker": "Tasim",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I'm ready. Let's do this.",
+      "ru": "Я готов. Погнали.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I still need more time.",
+      "ru": "Мне нужно ещё немного времени.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Yes, yes, fine work, the two of you. Now-",
+      "ru": "Да, да, вы оба неплохо справились. А теперь-",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Captain! Captain Ragon! There's- there's corrupted forces! Advancing from Ancient Nemract!",
+      "ru": "Капитан! Капитан Рагон! Там- там силы Порчи! Наступают со стороны Древнего Немракта!",
+      "speaker": "Scout Evelyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Hm. And the Admiral is away... Very well. Mobilize the troops! We meet the forces at the north gate!",
+      "ru": "Хм. И адмирала как раз нет... Ладно. Поднимать войска! Встречаем врага у северных ворот!",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Captain- we're capable fighters too. Let us come along and help fight off these undead!",
+      "ru": "Капитан, мы тоже умеем сражаться. Позвольте нам пойти с вами и помочь отбить нападение нежити!",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Hm... As I see it, this is a fine opportunity for you to gain some firsthand experience! Very well. Prepare yourselves, and come to Detlas' north gate when you're ready.",
+      "ru": "Хм... По-моему, это отличный шанс для вас набраться настоящего опыта! Хорошо. Подготовьтесь и §bприходите к северным воротам Детласа§r, когда будете готовы.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "This is exciting! But... I'm a little bit nervous, still.",
+      "ru": "Вот это да! Но... я всё равно немного нервничаю.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "... We'll be alright. Come on, let's go follow the captain.",
+      "ru": "... Всё будет нормально. Пошли, за капитаном.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "There you are! Ready for battle?",
+      "ru": "Вот и вы! К бою готовы?",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "I'm ready.",
+      "ru": "Готов.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I need to prepare.",
+      "ru": "Мне надо подготовиться.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Ah, there you two are. Come here.",
+      "ru": "А, вот и вы. Подойдите.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Oh, Admiral! You're back already?",
+      "ru": "О, адмирал! Вы уже вернулись?",
+      "speaker": "Tasim",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Yes, my absence was never meant to take long. I was paying a visit to the desert city of Almuj, for a meeting with an Admiral Amerigo...",
+      "ru": "Да, я и не собирался надолго исчезать. Я ездил в пустынный город Алмудж на встречу с адмиралом Америго...",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "But I digress. I've been told the two of you were essential in the defense of our city! Excellent work.",
+      "ru": "Но не будем отвлекаться. Мне сказали, что вы двое сыграли важную роль в обороне нашего города! Отличная работа.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Our preparations for the assault on Nivla Woods' spider den are nearing completion. I'd like the two of you to join that mission.",
+      "ru": "Подготовка к штурму паучьего логова в лесу Нивлы почти закончена. Я хочу, чтобы вы двое присоединились к этой вылазке.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Sir- are you certain? I mean, we'd be happy to join, but surely there are many others more worthy of such a task.",
+      "ru": "Сэр, вы уверены? Мы, конечно, рады помочь, но наверняка для такого задания найдутся бойцы опытнее нас.",
+      "speaker": "Tasim",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Nonsense! Captain Ragon has assessed your skills, and has deemed them sufficient. And I trust the Captain's judgement.",
+      "ru": "Чепуха! Капитан Рагон уже оценил ваши навыки и решил, что их достаточно. А я доверяю его мнению.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Now, I must be off. I'll see the two of you when it's time for the mission.",
+      "ru": "А теперь мне пора. Увидимся, когда придёт время миссии.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "A big mission to take out the spiders, huh... You know, even though I'm a little worried, I think I'm excited.",
+      "ru": "Большая вылазка против пауков, значит... Знаешь, я немного волнуюсь, но всё-таки жду её с нетерпением.",
+      "speaker": "Tasim",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Ahem. Before the two of you return on your business, I have something for the two of you. Payment for your work today, and a special piece of equipment. Make good use of it.",
+      "ru": "Кхм. Прежде чем вы двое вернётесь к своим делам, у меня кое-что для вас есть. Оплата за сегодняшнюю работу и особый предмет снаряжения. Пользуйтесь с умом.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "New Quest Started: Elemental Exercise",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Стихийные упражнения",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "You've done well to reach this city as quickly as you have, which must have required a great deal of fighting the undead.",
+      "ru": "Ты неплохо справился, добравшись до города так быстро: без изрядной драки с нежитью тут было не обойтись.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Now, I've heard from Sergeant Van of your aid in his assault on our overtaken fort- which, good work, very well done...",
+      "ru": "К слову, сержант Ван рассказал, как ты помог ему при штурме захваченного форта. Отличная работа, весьма достойно...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Excellent. I'll take those training weapons back from the two of you. Any questions?",
+      "ru": "Превосходно. Учебное оружие я у вас обоих заберу. Вопросы есть?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "I do have one. If our enemies are susceptible to elements in this way, would that also apply to us?",
+      "ru": "У меня есть вопрос. Если стихии так влияют на наших врагов, то и на нас тоже?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Ah, yes. A fine observation. Indeed, you are also bound by the rules of the elements. Elemental defenses and weaknesses from your equipment will affect you in the very same way.",
+      "ru": "Да. Верно подмечено. На вас тоже действуют законы стихий. Защита и уязвимость к стихиям, которые даёт снаряжение, влияют на вас точно так же.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "One final note before we move on from the elements- your weapon may not always be as effective against an enemy as you would like.",
+      "ru": "И последнее про стихии, прежде чем двинемся дальше: твоё оружие не всегда будет бить врага так, как тебе хочется.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "However, you have another tool at your disposal in the form of your spells! Different spells will deal different elemental damage, even if your weapon does use that element by default.",
+      "ru": "Но в вашем распоряжении есть и заклинания! Разные заклинания наносят урон разных стихий, даже если оружие само по себе не наносит урон этой стихии.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Correct! Now, let's see... We have the two of you here. Why don't we have a friendly duel? A chance to test your battle skills in a save environment.",
+      "ru": "Верно! Так, посмотрим... вас тут двое. Почему бы не устроить дружеский поединок? Проверите боевые навыки в безопасной обстановке.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "That sounds good to me! <playername>, we've been traveling together for some time now... I can't say I haven't been curious to see how you fight. Let's see who comes out on top, shall we?",
+      "ru": "Мне нравится! <playername>, мы уже какое-то время идём вместе... не скрою, мне было любопытно посмотреть, как ты дерёшься. Ну что, поглядим, кто кого?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Alright! Let's do this!",
+      "ru": "Отлично! Начнём!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Alright. I'll be waiting here when you're ready!",
+      "ru": "Хорошо. Когда будешь готов, я буду здесь!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Go on, then. Just speak to me when you're ready to move on.",
+      "ru": "Тогда ступай. Просто поговори со мной, когда будешь готов двигаться дальше.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Alright! Let's see which of us is the better fighter!",
+      "ru": "Отлично! Поглядим, кто из нас лучший боец!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Alright. I'll be waiting!",
+      "ru": "Хорошо. Буду ждать!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Phew! That was a good fight. You did well, <playername>. We'll have to do this again- and maybe we can get Aledar to join!",
+      "ru": "Фух! Хороший был бой. Ты молодец, <playername>. Надо будет повторить, а там, глядишь, и Аледар присоединится!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Woo! You fought well, <playername>, but it looks like I'm still better! Wait until Aledar hears about this...",
+      "ru": "Ух! Ты дрался хорошо, <playername>, но я, похоже, всё-таки лучше! Вот Аледар узнает...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Yes sir!",
+      "ru": "Есть, сэр!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "I'm prepared as well. These corrupted won't stand a chance against us!",
+      "ru": "Я тоже готов. У этих заражённых против нас нет ни шанса!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Yes, yes, very good. Now, it shouldn't be long until-",
+      "ru": "Да, да, прекрасно. Теперь уже недолго до...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Captain! They're here!",
+      "ru": "Капитан! Они здесь!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Hm... Take note of the leader. I expect if we can defeat it, the rest of the forces will disperse.",
+      "ru": "Хм... Обрати внимание на их предводителя. Полагаю, если мы его одолеем, остальные разбегутся.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Stronger foes such as this one will cast spells one after the other, in a specific order. These spell combos can be dangerous, so make sure to take note of them.",
+      "ru": "Противники посильнее, вроде этого, читают заклинания одно за другим, в определённом порядке. Такие связки бывают опасны, так что запоминай их.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "We'll be fighting all around you, so shout if you're in need of aid. Alright, soldiers, let's defend our city!",
+      "ru": "Мы будем биться вокруг тебя, так что кричи, если понадобится помощь. Итак, солдаты, защитим наш город!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Alright <playername>, let's do this!",
+      "ru": "Ну что, <playername>, начали!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "I understand. We have time until the corrupted forces arrive, so go prepare. Don't take too long, though.",
+      "ru": "Понимаю. До прихода сил Порчи время ещё есть, так что иди готовься. Только недолго.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0066",
+      "speaker": "",
+      "en": "[+1 Elemental Training Wand]",
+      "ru": "[+1 Elemental Training Wand]",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0067",
+      "speaker": "",
+      "en": "[+1 Elemental Training Bow]",
+      "ru": "[+1 Elemental Training Bow]",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0068",
+      "speaker": "",
+      "en": "[+1 Elemental Training Relik]",
+      "ru": "[+1 Elemental Training Relik]",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0069",
+      "speaker": "",
+      "en": "[+1 Elemental Training Sword]",
+      "ru": "[+1 Elemental Training Sword]",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0070",
+      "speaker": "Tasim",
+      "en": "...Oh! So my Bash spell will still deal Earth damage even if my weapon only uses Water , right?",
+      "ru": "...О! Значит, мой \"Баш\" всё равно будет наносить урон стихией <em> §#00AA00Земли§r, даже если моё оружие использует только <em> §#55FFFFВоду§r, верно?",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0071",
+      "speaker": "Captain Ragon",
+      "en": "The leader has been slain! Take out the stragglers, soldiers! The battle has been won!",
+      "ru": "Предводитель повержен! Добейте оставшихся, солдаты! Победа за нами!",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0072",
+      "speaker": "Captain Ragon",
+      "en": "We've been seeing more attacks from Ancient Nemract recently... good grief, when will that Graken do his job and sort it out?",
+      "ru": "В последнее время мы наблюдаем всё больше нападений со стороны Древнего Немракта... боже правый, когда уже этот Грейкен займётся своим делом и разберётся с этим?",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0073",
+      "speaker": "Captain Ragon",
+      "en": "Hmph. Well, regardless, the two of you fought well! The training seems to have paid off.",
+      "ru": "Хм. Что ж, в любом случае, вы двое отлично сражались! Похоже, тренировки не прошли даром.",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0074",
+      "speaker": "Tasim",
+      "en": "Thank you, sir! That summoner was a tough foe, but it was nothing we couldn't handle... right, <playername>?",
+      "ru": "Благодарю, сэр! Этот призыватель оказался крепким орешком, но нам такое вполне по зубам... верно, <playername>?",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0075",
+      "speaker": "Captain Ragon",
+      "en": "Hm... Let us return to the barracks. I'll have to speak to the Admiral when he returns, and I'd like for the two of you to be present.",
+      "ru": "Хм... Возвращаемся в казармы. Мне нужно будет доложить Адмиралу по его возвращении, и я хочу, чтобы вы двое присутствовали при этом.",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0076",
+      "speaker": "Tasim",
+      "en": "He wants us to be there for a meeting with the Admiral...? Huh. What do you think that could be about?",
+      "ru": "Он хочет, чтобы мы присутствовали при разговоре с Адмиралом?.. Хм. Как думаешь, по какому это поводу?",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0077",
+      "speaker": "Tasim",
+      "en": "... Hopefully it's not anything bad. He did seem to approve of our combat prowess, but-... Nevermind. We should get going.",
+      "ru": "...Надеюсь, ничего плохого. Вроде бы он оценил наше боевое мастерство, но... Впрочем, неважно. Нам пора идти.",
+      "stage": ""
+    },
+    {
+      "id": "audit-1583a99e12c7581c",
+      "en": "However, you have another tool at your disposal in the form of your spells! Different spells will deal different elemental damage, even if your weapon does not use that element by default.",
+      "ru": "Но в вашем распоряжении есть и заклинания! Разные заклинания наносят урон разных стихий, даже если оружие само по себе не наносит урон этой стихии.",
+      "speaker": "Captain Ragon",
+      "stage": ""
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Captain Ragon in the Detlas Barracks at [518, 67, -1631].",
+      "ru": "Поговорить с капитаном Рагоном в казармах Детласа [518, 67, -1631].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Follow Captain Ragon to the Training Room at [531, 52, -1671].",
+      "ru": "Следовать за капитаном Рагоном в тренировочный зал [531, 52, -1671].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Test out the elemental training weapons on the dummies, then speak to Captain Ragon at [531, 52, -1671].",
+      "ru": "Испытать стихийное тренировочное оружие на манекенах, затем поговорить с капитаном Рагоном [531, 52, -1671].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Return to Tasim at [528, 52, -1669] for a duel.",
+      "ru": "Вернуться к Тасиму для поединка [528, 52, -1669].",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Fight Tasim in a friendly duel.",
+      "ru": "Сразиться с Тасимом в дружеском поединке.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Speak to Captain Ragon at [531, 52, -1671].",
+      "ru": "Поговорить с капитаном Рагоном [531, 52, -1671].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Follow Captain Ragon to Detlas' north gate at [485, 67, -1658] to face the undead forces.",
+      "ru": "Следовать за капитаном Рагоном к северным воротам Детласа навстречу нежити [485, 67, -1658].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Defeat the Corrupted Captain and the force threatening Detlas.",
+      "ru": "Победить Осквернённого капитана и отряд, угрожающий Детласу.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Return to the Detlas Barracks and talk to Captain Ragon at [516, 67, -1629].",
+      "ru": "Вернуться в казармы Детласа и поговорить с капитаном Рагоном [516, 67, -1629].",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": []
+}

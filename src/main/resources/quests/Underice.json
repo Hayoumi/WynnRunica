@@ -1,0 +1,400 @@
+{
+  "quest": "Underice",
+  "level": 43,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "underice",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "I'm having trouble with the fish in our lake recently and I am sure the problem lies within the lake itself.",
+      "ru": "В последнее время у нас проблемы с рыбой в озере, и я уверен, что причина кроется прямо в самом озере.",
+      "speaker": "Fredris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I would like to commission you to investigate, but since it's freezing cold in our lake you need something to protect you. I heard the people in Maltic on the coast of Wynn have something that can help you.",
+      "ru": "Я бы хотел нанять тебя, чтобы ты во всём разобрался. Но в озере жуткий холод, так что тебе нужна защита. Я слышал, у людей в Малтике, на побережье Винна, есть штука, которая может помочь.",
+      "speaker": "Fredris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Would you mind coming back with a [Breathing Helmet I]? I think that should be everything you need.",
+      "ru": "Не мог бы ты вернуться с [Дыхательным шлемом I]? Думаю, этого должно хватить.",
+      "speaker": "Fredris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.",
+      "ru": "Это вообще что такое? Я, конечно, ценю твою помощь, но этот [Дыхательный шлем I] вообще не выглядит как вещь, которая тебя защитит.",
+      "speaker": "Fredris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Would you mind heading to our local armour merchant and buying one of our [Breathing Helmet II]? I don't want you to drown. Just come back with the helmet and I will tell you about my problem.",
+      "ru": "Не мог бы ты сходить к нашему торговцу бронёй и купить [Дыхательный шлем II]? Не хочу, чтобы ты утонул. Вернись со шлемом, и я расскажу, в чём проблема.",
+      "speaker": "Fredris",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Who are you? You don't look like one of those villagers we stole the fi... Wait, they didn't send you to retrieve \"their\" fish, did they?",
+      "ru": "Ты кто такой? Не похож на одного из тех деревенских, у которых мы украли ры... Погоди, они что, послали тебя вернуть \"их\" рыбу?",
+      "speaker": "Calamaro",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "For years we let them share the lake with us, the actual inhabitants of it, we were modest and took what we needed, we let them catch the rest. But then they went too far, they caught too much.",
+      "ru": "Годами мы позволяли им делить озеро с нами, его настоящими жителями. Сами довольствовались только тем, что нужно, а остальное оставляли им. Но потом они перегнули палку и начали вылавливать слишком много.",
+      "speaker": "Calamaro",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "We didn't have enough to eat, we were forced to steal their fish, we would have starved otherwise. And now they want their fish, our fish back? We can't do that, I hope you understand.",
+      "ru": "Нам самим стало нечего есть, пришлось красть их рыбу, иначе мы бы просто сдохли с голоду. И теперь они хотят назад свою рыбу, то есть нашу рыбу? Нет уж, так не пойдёт, надеюсь, ты понимаешь.",
+      "speaker": "Calamaro",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "However, we don't have to fight over the fish in the lake, we just need a [Mythic Everlasting Pufferfish], that would be enough, nothing else. We never wanted to steal the fish.",
+      "ru": "Но нам не обязательно драться за рыбу в озере. Нам нужен всего лишь [Мифический вечный иглобрюх], и этого будет достаточно, больше ничего. Мы вообще не хотели воровать рыбу.",
+      "speaker": "Calamaro",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "If you want to help us and the villagers, just follow the stream that flows into this lake to the south, you will find the best fishing ground there. The pufferfish should be around there too.",
+      "ru": "Если хочешь помочь и нам, и деревенским, просто иди по ручью, который течёт в это озеро с юга - там лучшее место для рыбалки. И этот иглобрюх тоже должен быть где-то там.",
+      "speaker": "Calamaro",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Oh you look a bit lost, let me help you, I've lived here for a long time, I know every corner and every snowflake.",
+      "ru": "О, кажется, ты заблудился. Давай помогу. Я тут живу уже очень давно, знаю каждый угол и каждую снежинку.",
+      "speaker": "Gernald",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "You're searching for a [Mythic Everlasting Pufferfish]? Hmm I heard that name before, my friend, Strato, told me about it years ago. If I remember correctly it is infinite, you can feed every single person in all the provinces from this single fish.",
+      "ru": "Ты ищешь [Мифического вечного иглобрюха]? Хмм, это название я уже слышал. Мой друг Страто рассказывал о нём много лет назад. Если память не врёт, он бесконечный - одной такой рыбой можно накормить вообще всех людей во всех провинциях.",
+      "speaker": "Gernald",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Sadly Strato is no longer alive. He used to work and live at the woodcutting camp northwest of Nesaak. We always met here, caught fish and told each other stories. I really miss those times...",
+      "ru": "Жаль, Страто уже нет в живых. Он жил и работал в лесорубском лагере к северо-западу от Несаака. Мы всегда встречались здесь, ловили рыбу и травили байки. Я правда скучаю по тем временам...",
+      "speaker": "Gernald",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Maybe you can find some sort of bait there, he had some of the best bait I have ever seen. You should be able to acquire some and throw it in water, maybe that will attract the pufferfish.",
+      "ru": "Может, ты найдёшь там какую-нибудь наживку. У него была одна из лучших наживок, что я вообще видел. Добудь её и брось в воду, может, это и приманит иглобрюха.",
+      "speaker": "Gernald",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Can I ask you something? As you might see I'm not the richest guy, or the youngest. If you manage to catch that fish, could you hand it over? I know we just met but you seem like somebody who would help an old man.",
+      "ru": "Можно тебя кое о чём попросить? Сам видишь, я уже не самый молодой и не самый богатый. Если тебе удастся поймать ту рыбу, можешь отдать её мне? Знаю, мы только встретились, но ты похож на человека, который не кинет старика.",
+      "speaker": "Gernald",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Just look at those fish, I told you they love this bait.",
+      "ru": "Ты только глянь на этих рыб, я же говорил, они обожают эту наживку.",
+      "speaker": "Gernald",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "There it comes, the [Mythic Everlasting Pufferfish], I can't believe it!",
+      "ru": "Вот он, [Мифический вечный иглобрюх], глазам не верю!",
+      "speaker": "Gernald",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "You decided to give me the fish? I wish Strato was still around, he would be so amazed. I can't show you how much this means to me, but take this little gift, please, promise me to never change.",
+      "ru": "Ты решил отдать рыбу мне? Эх, если бы Страто был жив, он бы глазам не поверил. Не передать, как много это для меня значит. Прошу, возьми этот маленький подарок и обещай мне: никогда не меняйся.",
+      "speaker": "Gernald",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "You found a pufferfish! Who would have thought such a small thing could solve our problem. I will start bringing back the fish immediately, but first we will have a nice hot soup. Please take this as payback for your services.",
+      "ru": "Ты нашёл иглобрюха! Кто бы мог подумать, что такая мелкая штука решит нашу проблему. Я сразу начну возвращать рыбу назад, но сначала мы сварим хороший горячий суп. А ты держи это в оплату за свою помощь.",
+      "speaker": "Calamaro",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "You can trade it at the shop right over there, it's hard to miss. I will give you a last advise, you don't want to eat that slimy fish.",
+      "ru": "Можешь обменять это в магазине прямо вон там, мимо не пройдёшь. И последний совет - не вздумай есть эту склизкую рыбу.",
+      "speaker": "Calamaro",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Oh you are done with whatever you were doing? I heard you ran around the whole place, I don't know if you were the right person to ask for help...",
+      "ru": "О, ты уже закончил свои дела? Я слышал, ты носился тут повсюду. Теперь даже не уверен, стоило ли просить тебя о помощи...",
+      "speaker": "Fredris",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I will just ask the next one who comes around, no need to have you run around all day. Take this, I appreciate your effort.",
+      "ru": "Я, пожалуй, попрошу следующего, кто сюда заглянет, не стоит тебе бегать тут весь день. Держи, всё равно спасибо за старания.",
+      "speaker": "Fredris",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "A real disaster! I can't believe this is happening to me!",
+      "ru": "Это же просто катастрофа! Не могу поверить, что это происходит именно со мной!",
+      "speaker": "Fredris",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "I've been fishing for the last few days and I caught nothing! Zilch! This isn't normal!",
+      "ru": "Я уже несколько дней рыбачу и не поймал вообще ничего! Ноль! Так не должно быть!",
+      "speaker": "Fredris",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I spent my entire life fishing in this area! I wish I could dive under this ice to fix the problem myself...",
+      "ru": "Я всю жизнь рыбачу в этих местах! Эх, если бы я сам мог нырнуть под этот лёд и всё исправить...",
+      "speaker": "Fredris",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Do you think you could help me? You might actually be exactly what I need!",
+      "ru": "Как думаешь, ты мог бы помочь? Возможно, ты как раз тот, кто мне нужен!",
+      "speaker": "Fredris",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Enter my shack, there you will find the entrance... Good luck!",
+      "ru": "Заходи в мою хижину, там найдёшь вход... Удачи!",
+      "speaker": "Fredris",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Have I seen any fish? No, of course not! I don't even know what a fish looks like!",
+      "ru": "Видел ли я рыбу? Нет, конечно! Я вообще не знаю, как выглядит рыба!",
+      "speaker": "Squidward",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Who could be stealing all those fish? I wonder! Actually...",
+      "ru": "И кто же может воровать всю эту рыбу? Даже не знаю! Хотя...",
+      "speaker": "Squidward",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "I'm sure Calamaro did it! He's just that kind of guy. He lives in that house down there.",
+      "ru": "Уверен, это Каламаро! Он как раз из таких. Живёт вон в том доме внизу.",
+      "speaker": "Squidward",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Me? Stealing fish? You are out of your mind! It's obviously Kroken who is stealing them!",
+      "ru": "Я? Краду рыбу? Ты вообще с ума сошёл! Это же явно Крокен её ворует!",
+      "speaker": "Calamaro",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "He lives right on top of that waterfall right there, if you want to go talk to him.",
+      "ru": "Он живёт прямо над тем водопадом, если хочешь - иди и поговори с ним.",
+      "speaker": "Calamaro",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Do I look like someone who steals fish?",
+      "ru": "Я похож на того, кто ворует рыбу?",
+      "speaker": "Kroken",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "It's obvious that Squidward did it, he has tons of crates full of fish!",
+      "ru": "Да это же очевидно, что всё сделал Сквидвард, у него там куча ящиков, забитых рыбой!",
+      "speaker": "Kroken",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Okay, okay, fine! It was me all along... I know, what a shock, right?",
+      "ru": "Ладно, ладно, хорошо! Это всё был я... Знаю-знаю, вот уж неожиданность, да?",
+      "speaker": "Squidward",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Okay, I got a proposition for you. Bring me [12 Raw Fish] and I will stop, deal?",
+      "ru": "Короче, у меня к тебе предложение. Принеси мне [12 Raw Fish], и я перестану, идёт?",
+      "speaker": "Squidward",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Deal.",
+      "ru": "По рукам.",
+      "speaker": "Squidward",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Good, you got the fish!",
+      "ru": "Отлично, рыбу ты принёс!",
+      "speaker": "Squidward",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "You can trust me, I won't touch the fish in the frozen lake anymore!",
+      "ru": "Можешь мне верить, я больше не трону рыбу в замёрзшем озере!",
+      "speaker": "Squidward",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Your story really doesn't make sense. Villagers living in a squid village under the lake? Pff!",
+      "ru": "Нет, не вяжется у меня твоя история. Жители в подводной деревне кальмаров? Пф!",
+      "speaker": "Fredris",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "However, if you can garantee me that my problem is gone, I'll trust you.",
+      "ru": "Но если ты можешь гарантировать, что моя проблема решена, тогда я тебе поверю.",
+      "speaker": "Fredris",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Thank you for your help. Here, take these...",
+      "ru": "Спасибо за помощь. Вот, держи...",
+      "speaker": "Fredris",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "There it comes, the Mythic Everlasting Pufferfish, I can't believe it!",
+      "ru": "Вот он, Мифический вечный иглобрюх, глазам не верю!",
+      "speaker": "Gernald",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "New Quest Started: Underice",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Подо льдом",
+      "speaker": "",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Fredris in Nesaak at [157, 73, -812]",
+      "ru": "Поговорить с Фредрисом в Несааке [157, 73, -812].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Return to Nesaak and bring Fredris a [Breathing Helmet I]",
+      "ru": "Вернуться в Несаак и принести Фредрису [Дыхательный шлем I].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Buy a [Breathing Helmet II] and find the underwater cave",
+      "ru": "Купить [Дыхательный шлем II] и найти подводную пещеру.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Explore the cave underneath the frozen lake in Nesaak",
+      "ru": "Исследовать пещеру под замёрзшим озером в Несааке.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Follow the river south to find the fishing dock",
+      "ru": "Идти вдоль реки на юг к рыбацкому причалу.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Obtain the bait at the woodcutting camp northwest of Nesaak, use it to catch the fish and then give it to Calamaro or Gernald",
+      "ru": "Добыть наживку в лагере лесорубов к северо-западу от Несаака, поймать рыбу и отдать её Каламаро или Гернальду.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Meet up with Fredris in Nesaak and claim your reward",
+      "ru": "Встретиться с Фредрисом в Несааке и забрать награду.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Find Calamaro in the Squid Village.",
+      "ru": "Найти Каламаро в деревне кальмаров.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find Kroken in the Squid Village.",
+      "ru": "Найти Крокена в деревне кальмаров.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Talk back to Squidward.",
+      "ru": "Снова поговорить со Сквидвардом.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Bring back 12 Raw Fish to Squidward.",
+      "ru": "Принести Сквидварду 12 сырой рыбы.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0012",
+      "en": ": See: Fish Merchant",
+      "ru": ": См.: Торговец рыбой",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Talk to Fredris to collect your reward.",
+      "ru": "Поговорить с Фредрисом и забрать награду.",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,300 @@
+{
+  "quest": "Lava Springs",
+  "level": 18,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "lava-springs",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, good, good! I bet'cha you're a Ragni soldier, aren't ya? Listen up, soldier! I've got a task here that 'ye can help out with.",
+      "ru": "О, отлично, отлично! Дай угадаю, ты солдат Рагни, да? Слушай сюда, солдат! У меня тут есть задачка, с которой ты можешь помочь.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Ya see that lava spring right there? It just went and popped up out of nowhere! The brass is real concerned about it, mhm?",
+      "ru": "Видишь вон тот лавовый источник? Он взял и появился из ниоткуда! Начальство из-за него всерьёз встревожено, угу.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "They've been yappin' about it bein' related to the Corruption, and 'ye can bet that that means trouble. BAD trouble.",
+      "ru": "Они всё твердят, что это связано с Порчей, а это, сам понимаешь, сулит неприятности. БОЛЬШИЕ неприятности.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Now, this here Savannah has always had some Corruption lurkin' about, but not to the point where it can do this! It won't be safe around here if we don't do somethin' about it!",
+      "ru": "В этой саванне Порча и раньше давала о себе знать, но чтобы творить такое! Если мы ничего не предпримем, здесь станет опасно!",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Anyways, high command ain't gonna provide support for this until they know there's actual Corruption, so we've gotta find some evidence around the springs, understand?",
+      "ru": "В общем, командование не пришлёт помощь, пока не убедится, что тут замешана Порча. Значит, надо найти доказательства возле источников, понял?",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Take a look around the springs, soldier! Find me some damn evidence around here! [3 Pieces of Evidence] should be enough! Now, get movin'!",
+      "ru": "Осмотрись у источников, солдат! Найди мне хоть какие-то чёртовы улики! [3 Pieces of Evidence] должно хватить! Всё, шевелись!",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Alright, good! Ya found some evidence, let me take a look at that!",
+      "ru": "Отлично! Нашёл улики, давай сюда, посмотрим!",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Oh... This is bad... very, VERY bad...",
+      "ru": "Ох... дело плохо... очень, ОЧЕНЬ плохо...",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "This here is some physical corruption. If it's gettin' onto the surface, then 'ye can bet one of those weeds is spreadin' underground, right beneath the springs...",
+      "ru": "Это сама Порча. Если она уже добралась до поверхности, значит, под землёй, прямо под источниками, разрастается один из её сорняков...",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "If ya could get underneath the spring, 'ye could probably sever whatever damn root is causing this, but... the heat would be sure to fry your skin off...",
+      "ru": "Если бы ты смог пробраться под источник, то, наверное, сумел бы перерубить тот чёртов корень, что всё это устроил, но... жар там спалит тебе всю кожу...",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Wait... I've got an idea... Alright, listen up soldier! There's a lil' town North of here named Bremminglar, yeah? There's a healer person there that can help us out.",
+      "ru": "Погоди... Кажется, есть идея... Так, слушай сюда, солдат! К северу отсюда есть маленький городок Бремминглар, да? Там живёт целительница, она может нам помочь.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "They're holed up inside of some important well in the center of town. There's a password ya need to hop into that place, though...",
+      "ru": "Она засела в каком-то особом колодце прямо в центре города. Правда, чтобы туда попасть, нужен пароль...",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Don't have much to go on, but I'm pretty damn sure the password is Bob, or something. After the hero himself.",
+      "ru": "Точно не скажу, но я почти уверен, что пароль - Боб или что-то вроде того. В честь самого героя.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Right, ye're headin' there to find a potion that can keep ya weak little hide safe from the heat, understand? Here, let me write down the location in that book of yours.",
+      "ru": "Так что отправляйся туда за зельем, которое защитит твою слабенькую шкурку от жара, понял? Вот, я сейчас запишу это место в твою книжку.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Hey, hey hey hey! Darling, what do you think you're doing? You can't just waltz in here without telling me the password!",
+      "ru": "Эй, эй-эй-эй! Дорогуша, ты куда это собрался? Нельзя просто так вломиться сюда, не назвав пароль!",
+      "speaker": "Gregor",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Hmm... Your face... confidence... it gleans with confidence... yet... you still haven't spoken to me since you arrived...",
+      "ru": "Хмм... Твоё лицо... уверенность... оно прямо сияет уверенностью... и всё же... с тех пор, как ты пришёл, ты мне ни слова не сказал...",
+      "speaker": "Gregor",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Could it be... you know that the password is penguin eggs, but you're just too shy to talk? Yeah... yeah, that's gotta be it!",
+      "ru": "Может быть... ты знаешь, что пароль - яйца пингвина, но просто слишком стесняешься сказать? Да... да, точно, так и есть!",
+      "speaker": "Gregor",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "You've convinced me, little mute darling... You can enter the well. Go on, now!",
+      "ru": "Ты меня убедил, мой маленький молчаливый дружок... Можешь заходить в колодец. Давай, проходи!",
+      "speaker": "Gregor",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "G'day to you, friend. How can I help you?",
+      "ru": "Доброго дня, друг. Чем помочь?",
+      "speaker": "Nami The Healer",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Hm? The Colonel sent you? what for?",
+      "ru": "Хм? Тебя полковник прислал? И зачем?",
+      "speaker": "Nami The Healer",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "...Corrupted... lava springs...? You realize how ridiculous that sounds, yeah? Well, I completely believe you.",
+      "ru": "...Заражённые... лавовые источники...? Ты понимаешь, как нелепо это звучит? И всё же я тебе полностью верю.",
+      "speaker": "Nami The Healer",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Right, you said lava, sooo... You need a heat resistance potion, yes?",
+      "ru": "Так, ты сказал \"лава\", тааак что... Тебе нужно зелье защиты от жара, верно?",
+      "speaker": "Nami The Healer",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Welp, you're in luck, kinda... I have a potion that can resist the heat of lava, but the brew will not let you swim in lava.",
+      "ru": "Ну, тебе повезло, отчасти... У меня есть зелье, которое защитит от жара лавы, но плавать в лаве оно тебе всё равно не позволит.",
+      "speaker": "Nami The Healer",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Oh that works, you just need to enter a borehole that goes through the lava? Perfect",
+      "ru": "А, тебе и не надо плавать, просто пролезть в скважину, которая проходит через лаву? Идеально.",
+      "speaker": "Nami The Healer",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Anyways, if you ever need any more special brews, my assistant will be happy to sell some at a very affordable price.",
+      "ru": "Если тебе ещё понадобятся особые зелья, мой помощник с радостью продаст их по вполне доступной цене.",
+      "speaker": "Nami The Healer",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Now, you have somewhere to be, right? Right. Go and report to the Colonel, soldier. Tell him I said hi, by the way.",
+      "ru": "А теперь у тебя есть куда идти, да? Вот и отлично. Возвращайся к полковнику, солдат. И передай ему от меня привет.",
+      "speaker": "Nami The Healer",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Report! Ya got the potion yet, soldier? Good, drink it if ya haven't already!",
+      "ru": "Доклад! Зелье добыл, солдат? Отлично, если ещё не выпил - выпей сейчас же!",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Right, that's what I like to hear! Now, LOOK TO THE LEFT SOLDIER! There is a borehole out there we dug to try and hit the source of this weed.",
+      "ru": "Вот это другое дело! А теперь, СМОТРИ НАЛЕВО, СОЛДАТ! Там есть скважина, которую мы пробурили, чтобы добраться до корней этого сорняка.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "We found a pretty damn hot cave lying underneath the surface! If ya jumped into the borehole, 'ye could probably find the source of the Corruption and stop it.",
+      "ru": "Мы нашли под землёй чертовски горячую пещеру! Если прыгнешь в скважину, то, скорее всего, доберёшься до источника Порчи и сможешь её остановить.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Now, the roots and spikes of Corruption are very sturdy, but we ain't never seen something like lava burstin' out of the ground.",
+      "ru": "Корни и шипы Порчи, конечно, штуки крепкие, но чтобы лава прямо из земли хлестала - такого мы ещё не видели.",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Had a small chat with the brass, earlier. They got a hunch that there's a heart to the Corruption that's pumpin' out all the lava!",
+      "ru": "Я тут недавно поговорил с командованием. Они подозревают, что у этой Порчи есть сердце, которое выкачивает наружу всю эту лаву!",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "That's gotta be our ticket, yeah? If 'ye destroy that, ya should be able to stop the spread of the lava! Now, get movin'! Head into the borehole, soldier!",
+      "ru": "Вот он наш шанс, да? Если разнесёшь это сердце, то, скорее всего, остановишь распространение лавы! Всё, шевелись! Полезай в скважину, солдат!",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Hah! I knew ya'd give me results! Ye're pretty damn reliable, soldier! Here, take this for your trouble!",
+      "ru": "Ха! Я знал, что от тебя будет толк! Ты чертовски надёжный солдат! Вот, держи за старания!",
+      "speaker": "Colonel Gailard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "New Quest Started: Lava Springs",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Лавовые источники",
+      "speaker": "",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Colonel Gailard at [670, 80, -1755]",
+      "ru": "Поговорить с полковником Гайлардом [670, 80, -1755].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Look for three pieces of corrupted evidence around the Lava Spring at [631, 83, -1736]",
+      "ru": "Найти три следа скверны вокруг лавового источника [631, 83, -1736].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Go back to Colonel Gailard at [670, 80, -1755]",
+      "ru": "Вернуться к полковнику Гайларду [670, 80, -1755].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Talk to Gregor outside the Bremminglar well at [720, 70, -2098]",
+      "ru": "Поговорить с Грегором у колодца Бремминглара [720, 70, -2098].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Enter the Bremminglar well and talk to the healer at [720, 70, -2098]",
+      "ru": "Спуститься в колодец Бремминглара и поговорить с целительницей [720, 70, -2098].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Report back to Colonel Gailard at [670, 80, -1755]",
+      "ru": "Доложить полковнику Гайларду [670, 80, -1755].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Drink the Potion of Obsidian Skin, then enter the lava spring through the borehole at [670, 79, -1747] and look for a corrupted heart",
+      "ru": "Выпить зелье обсидиановой кожи, войти в лавовый источник через скважину в [670, 79, -1747] и найти заражённое сердце.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Tell Colonel Gailard at [670, 80, -1755] that you destroyed the heart",
+      "ru": "Сообщить полковнику Гайларду, что сердце уничтожено [670, 80, -1755].",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": []
+}

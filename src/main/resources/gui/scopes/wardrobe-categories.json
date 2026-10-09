@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "wardrobe-categories",
+  "scopes": [
+    {
+      "id": "wardrobe-helmet-style",
+      "match": {
+        "title": "Helmet Style",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Helmet Style",
+        "ru": "Облик Шлема"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Helmet Style",
+          "ru": "Облик Шлема"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your helmet's",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "шлема."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your helmet's appearance",
+          "ru": "Изменить внешний вид шлема."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-helmet-style-badge",
+      "match": {
+        "title": "Helmet Style<em>",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Helmet Style<em>",
+        "ru": "Облик Шлема<em>"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Helmet Style<em>",
+          "ru": "Облик Шлема<em>"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your helmet's",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "шлема."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your helmet's appearance",
+          "ru": "Изменить внешний вид шлема."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-chestplate-style",
+      "match": {
+        "title": "Chestplate Style",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Chestplate Style",
+        "ru": "Облик Нагрудника"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Chestplate Style",
+          "ru": "Облик Нагрудника"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your chestplate's",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "нагрудника."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your chestplate's appearance",
+          "ru": "Изменить внешний вид нагрудника."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-chestplate-style-badge",
+      "match": {
+        "title": "Chestplate Style<em>",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Chestplate Style<em>",
+        "ru": "Облик Нагрудника<em>"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Chestplate Style<em>",
+          "ru": "Облик Нагрудника<em>"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your chestplate's",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "нагрудника."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your chestplate's appearance",
+          "ru": "Изменить внешний вид нагрудника."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-leggings-style",
+      "match": {
+        "title": "Leggings Style",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Leggings Style",
+        "ru": "Облик Поножей"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Leggings Style",
+          "ru": "Облик Поножей"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your leggings'",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "поножей."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your leggings' appearance",
+          "ru": "Изменить внешний вид поножей."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-leggings-style-badge",
+      "match": {
+        "title": "Leggings Style<em>",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Leggings Style<em>",
+        "ru": "Облик Поножей<em>"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Leggings Style<em>",
+          "ru": "Облик Поножей<em>"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your leggings'",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "поножей."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your leggings' appearance",
+          "ru": "Изменить внешний вид поножей."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-boots-style",
+      "match": {
+        "title": "Boots Style",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Boots Style",
+        "ru": "Облик Обуви"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Boots Style",
+          "ru": "Облик Обуви"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your boots'",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "обуви."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your boots' appearance",
+          "ru": "Изменить внешний вид обуви."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-boots-style-badge",
+      "match": {
+        "title": "Boots Style<em>",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Boots Style<em>",
+        "ru": "Облик Обуви<em>"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Boots Style<em>",
+          "ru": "Облик Обуви<em>"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your boots'",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "обуви."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your boots' appearance",
+          "ru": "Изменить внешний вид обуви."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-mount-skins",
+      "match": {
+        "title": "Mount Skins",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Mount Skins",
+        "ru": "Облики Скакунов"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Mount Skins",
+          "ru": "Облики Скакунов"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your Horse's",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "скакуна."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your Horse's appearance",
+          "ru": "Изменить внешний вид скакуна."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-mount-skins-badge",
+      "match": {
+        "title": "Mount Skins<em>",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Mount Skins<em>",
+        "ru": "Облики Скакунов<em>"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Mount Skins<em>",
+          "ru": "Облики Скакунов<em>"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your Horse's",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "скакуна."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your Horse's appearance",
+          "ru": "Изменить внешний вид скакуна."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-weapon-skins",
+      "match": {
+        "title": "Weapon Skins",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Weapon Skins",
+        "ru": "Облики Оружия"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Weapon Skins",
+          "ru": "Облики Оружия"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your weapon's",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "оружия."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your weapon's appearance",
+          "ru": "Изменить внешний вид оружия."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "wardrobe-weapon-skins-badge",
+      "match": {
+        "title": "Weapon Skins<em>",
+        "anchors": [],
+        "priority": 1100
+      },
+      "title": {
+        "id": "title",
+        "en": "Weapon Skins<em>",
+        "ru": "Облики Оружия<em>"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "Weapon Skins<em>",
+          "ru": "Облики Оружия<em>"
+        },
+        {
+          "id": "line-02",
+          "en": "Change your weapon's",
+          "ru": "Изменить внешний вид"
+        },
+        {
+          "id": "line-03",
+          "en": "appearance",
+          "ru": "оружия."
+        },
+        {
+          "id": "line-04",
+          "en": "Change your weapon's appearance",
+          "ru": "Изменить внешний вид оружия."
+        },
+        {
+          "id": "line-05",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-06",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,727 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-major-effects",
+  "scopes": [
+    {
+      "id": "major-release-282c2a863dbdbb3d",
+      "match": {
+        "title": "<em><em><em>Eschaton<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Eschaton<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Pending - Sold <num> items",
+          "ru": "§7§lВ процессе §r§8- Продано §f<num>§8 шт."
+        },
+        {
+          "id": "line-002",
+          "en": "󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-003",
+          "en": "󏿼<em>󐀆 <num>² (<num>¼² <num>²½ <num>²) each",
+          "ru": "󏿼<em>󐀆 §#FFFFFF<num>§#AAAAAA² §#555555(<num>¼² <num>²½ <num>²)§#FFFFFF за штуку"
+        },
+        {
+          "id": "line-004",
+          "en": "§7<em> Click to View",
+          "ru": "§7<em> §aНажмите для Просмотра"
+        },
+        {
+          "id": "line-005",
+          "en": "<num> DPS",
+          "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "line-006",
+          "en": "<em> Super Fast (<num> hits/s)",
+          "ru": "<em> Крайне быстрый (<num> уд./с)"
+        },
+        {
+          "id": "major-release-0bb5558e667de457",
+          "en": "<em>󐀂Death Sentence: Courage will",
+          "ru": "<em>󐀂§#E0B3E6Смертный Приговор:§#E0B3E6 §7Отвага"
+        },
+        {
+          "id": "major-release-a32b1a2ec9a96ec3",
+          "en": "immediately combust Guardian",
+          "ru": "§7мгновенно сжигает Ангелов-"
+        },
+        {
+          "id": "major-release-c77ca8f981c826f0",
+          "en": "Angels, dealing <em><num>% and",
+          "ru": "§7Хранителей, нанося§7 <em><num>% §7и"
+        },
+        {
+          "id": "major-release-59cf7c5f9daef698",
+          "en": "enkindling Buckshot's arrows",
+          "ru": "§7поджигая стрелы Картечи"
+        },
+        {
+          "id": "major-release-282abb642aac1858",
+          "en": "with <em><num>% Main Attack damage.",
+          "ru": "§7добавляя§7 <em><num>% §7урона Основной Атаки."
+        }
+      ]
+    },
+    {
+      "id": "major-release-0a5cf1bcab72a76d",
+      "match": {
+        "title": "<em><em><em>Tremorcaller<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Tremorcaller<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-0d8dcb0a12817152",
+          "en": "<em>󐀂Dead Weight: Totem's",
+          "ru": "<em>󐀂§#F2C2C2Мёртвый Груз:§#F2C2C2 §7Горизонтальная"
+        },
+        {
+          "id": "major-release-82d5561f7ad8263c",
+          "en": "horizontal velocity is",
+          "ru": "§7скорость Тотема"
+        },
+        {
+          "id": "major-release-2f1deb95d6a11c92",
+          "en": "greatly increased at the cost",
+          "ru": "§7сильно возрастает за счёт"
+        },
+        {
+          "id": "major-release-9d856aa62fd48d00",
+          "en": "of vertical movement.",
+          "ru": "§7вертикального движения."
+        }
+      ]
+    },
+    {
+      "id": "major-release-5ba0e053bd1243a6",
+      "match": {
+        "title": "<em>Astrolabe<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Astrolabe<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-807def4f8f2094b2",
+          "en": "<em>󐀂Orbwalk: Lightweaver Orbs",
+          "ru": "<em>󐀂§#F2C2C2Шествие Сфер:§#F2C2C2 §7Сферы Ткача Света"
+        },
+        {
+          "id": "major-release-7c9f119ae4099cb7",
+          "en": "gain <num> area of effect, <em><num>%,",
+          "ru": "§7получают§7 <num> §7к области действия§7, <em><num>%,"
+        },
+        {
+          "id": "major-release-001e179c1dbf207d",
+          "en": "and <em><num>%, but move slower.",
+          "ru": "§7и§7 <em><num>%, §7но движутся медленнее."
+        },
+        {
+          "id": "major-release-31b9a88b3c7570b8",
+          "en": "Increase your <em> Water Damage",
+          "ru": "§7Увеличивает ваш§7 <em> §bУрон Водой"
+        },
+        {
+          "id": "major-release-94ec88fffb55e521",
+          "en": "by <num>% for <num> second when using",
+          "ru": "§7на§7 <num>% §7на§7 <num> §fсекунду§7 §7при расходовании"
+        },
+        {
+          "id": "major-release-ee380dba14a0f660",
+          "en": "mana, scaling damage and duration",
+          "ru": "§7маны. Бонус к урону и длительность растут"
+        },
+        {
+          "id": "major-release-1e8b5ffcc14bc70b",
+          "en": "per mana spent, up to <num>%",
+          "ru": "§7за каждую единицу потраченной маны, до§7 <num>%"
+        }
+      ]
+    },
+    {
+      "id": "major-release-8524f34f636f06fe",
+      "match": {
+        "title": "<em>Hellbound<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Hellbound<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-70b988ec521d8f23",
+          "en": "<em>󐀂Dauntless Inferno: Courage",
+          "ru": "<em>󐀂§#F2C2C2Бесстрашное Пламя:§#F2C2C2 §7Отвага"
+        },
+        {
+          "id": "major-release-d47070698b965790",
+          "en": "casts a series of <num> infernos",
+          "ru": "§7создаёт серию из§7 <num> §7вспышек пламени"
+        },
+        {
+          "id": "major-release-2ec2f111056693da",
+          "en": "that expand after the last,",
+          "ru": "§7каждая шире предыдущей,"
+        },
+        {
+          "id": "major-release-29b585400af0eb94",
+          "en": "dealing <em><num>% each, and grants",
+          "ru": "§7нанося по§7 <em><num>% §7урона, и даёт"
+        },
+        {
+          "id": "major-release-271e17ee68fc8a33",
+          "en": "<num>% resistance instead of a",
+          "ru": "<num>% §7сопротивления вместо"
+        },
+        {
+          "id": "major-release-4ea76ca12ceda671",
+          "en": "damage boost.",
+          "ru": "§7бонуса к урону."
+        }
+      ]
+    },
+    {
+      "id": "major-release-cee20342cee12285",
+      "match": {
+        "title": "<em>Ornithopter<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Ornithopter<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-8c41a5bd2ef41f3b",
+          "en": "<em>󐀂Freerunner: When your sprint",
+          "ru": "<em>󐀂§#F2C2C2Свободный Бег:§#F2C2C2 §7Если запас спринта"
+        },
+        {
+          "id": "major-release-9f04b81eadb568e6",
+          "en": "bar is under <num>% full,",
+          "ru": "§7составляет менее§7 <num>%§7,"
+        },
+        {
+          "id": "major-release-f3e5b84d8b15dbf4",
+          "en": "increase your sprint speed by",
+          "ru": "§7скорость спринта повышается на"
+        }
+      ]
+    },
+    {
+      "id": "major-release-c53290e79ea42cec",
+      "match": {
+        "title": "<em>Crusade Sabatons<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Crusade Sabatons<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-ed51d37546fb4cc6",
+          "en": "Increase your <em> Fire Damage",
+          "ru": "§7Увеличивает ваш§7 <em> §cУрон Огнём"
+        },
+        {
+          "id": "major-release-f7f14147fdcf4cbf",
+          "en": "by <num>% for <num> seconds when you",
+          "ru": "§7на§7 <num>% §7на§7 <num> §fсекунд§7 §7при получении"
+        },
+        {
+          "id": "major-release-cbe6bea4bede3caa",
+          "en": "take damage, up to <num>%",
+          "ru": "§7урона, до§7 <num>%"
+        }
+      ]
+    },
+    {
+      "id": "major-release-8812621bd8a4bde3",
+      "match": {
+        "title": "<em>Second Wind<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Second Wind<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-31b9a88b3c7570b8",
+          "en": "Increase your <em> Water Damage",
+          "ru": "§7Увеличивает ваш§7 <em> §bУрон Водой"
+        },
+        {
+          "id": "major-release-94ec88fffb55e521",
+          "en": "by <num>% for <num> second when using",
+          "ru": "§7на§7 <num>% §7на§7 <num> §fсекунду§7 §7при расходовании"
+        },
+        {
+          "id": "major-release-ee380dba14a0f660",
+          "en": "mana, scaling damage and duration",
+          "ru": "§7маны. Бонус к урону и длительность растут"
+        },
+        {
+          "id": "major-release-1e8b5ffcc14bc70b",
+          "en": "per mana spent, up to <num>%",
+          "ru": "§7за каждую единицу потраченной маны, до§7 <num>%"
+        }
+      ]
+    },
+    {
+      "id": "major-release-cd43d49929583a26",
+      "match": {
+        "title": "<em>Philosopher<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Philosopher<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-89e3f3f1d969a850",
+          "en": "<em>󐀂Peaceful Effigy: Your Totem",
+          "ru": "<em>󐀂§#F2C2C2Мирное Чучело:§#F2C2C2 §7Ваш Тотем"
+        },
+        {
+          "id": "major-release-5187f9ac94ebef73",
+          "en": "will last twice as long.",
+          "ru": "§7действует вдвое дольше."
+        }
+      ]
+    },
+    {
+      "id": "major-release-ef2d4c6e0b6f6506",
+      "match": {
+        "title": "<em>Vindicator<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Vindicator<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-31bc37445799c63e",
+          "en": "<em>󐀂Magnet: Pulls items dropped",
+          "ru": "<em>󐀂§#F2C2C2Магнит:§#F2C2C2 §7Притягивает к вам предметы,"
+        },
+        {
+          "id": "major-release-e2fa3e095b67192b",
+          "en": "by mobs towards you.",
+          "ru": "§7выпавшие из мобов."
+        }
+      ]
+    },
+    {
+      "id": "major-release-e9f642552b97a8b1",
+      "match": {
+        "title": "<em>Vulcan<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Vulcan<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-f4326eb1f0fbe8f2",
+          "en": "<em>󐀂Altruism: Allies within <num>",
+          "ru": "<em>󐀂§#F2C2C2Альтруизм:§#F2C2C2 §7Союзники в радиусе§7 <num>"
+        },
+        {
+          "id": "major-release-428b4c9a9e2c850c",
+          "en": "blocks gain <num>% of the",
+          "ru": "§7блоков получают§7 <num>% §7от"
+        },
+        {
+          "id": "major-release-7cf07d56fcbbb436",
+          "en": "health you gain from Health",
+          "ru": "§7здоровья, получаемого вами от"
+        },
+        {
+          "id": "major-release-5de288c3f0ed12cb",
+          "en": "Regen and Life Steal.",
+          "ru": "§7Восстановления Здоровья и Вампиризма."
+        }
+      ]
+    },
+    {
+      "id": "major-release-d51cb78a4161045d",
+      "match": {
+        "title": "<em>Rhythm of the Seasons<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Rhythm of the Seasons<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-e62ddb63c4482def",
+          "en": "<em>󐀂Rally: Cleansing Breeze heals",
+          "ru": "<em>󐀂§#F2C2C2Боевой Клич:§#F2C2C2 §7Очищающий Бриз лечит"
+        },
+        {
+          "id": "major-release-e9bdcd2909537338",
+          "en": "you for <num>% and allies for",
+          "ru": "§7вас на§7 <num>% §7и союзников на"
+        },
+        {
+          "id": "major-release-56fb280564d46e3e",
+          "en": "<num>%, but Charge becomes",
+          "ru": "<num>%, §7но Рывок больше"
+        },
+        {
+          "id": "major-release-457561e706e916e4",
+          "en": "harmless.",
+          "ru": "§7не наносит урона."
+        }
+      ]
+    },
+    {
+      "id": "major-release-23718f7801f1adf4",
+      "match": {
+        "title": "<em>Overreach<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Overreach<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-277dd756763d72fe",
+          "en": "<em>󐀂Overwhelm: Bash will hit <num>",
+          "ru": "<em>󐀂§#F2C2C2Подавление:§#F2C2C2 §7Баш наносит ещё§7 <num>"
+        },
+        {
+          "id": "major-release-ad5f0c777a2b470f",
+          "en": "times.",
+          "ru": "§7удара."
+        }
+      ]
+    },
+    {
+      "id": "major-release-34db9d61258c66e8",
+      "match": {
+        "title": "<em><em><em>Insignia<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Insignia<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-c49ba9fabb2c6f17",
+          "en": "<em>󐀂Superconductor: Chain",
+          "ru": "<em>󐀂§#F2C2C2Сверхпроводник:§#F2C2C2 §7Цепная Молния"
+        },
+        {
+          "id": "major-release-ef70d7b69019bb1d",
+          "en": "Lightning channels three",
+          "ru": "§7проводит через вас три"
+        },
+        {
+          "id": "major-release-2ff94300886cd0cc",
+          "en": "massive lightning bolts",
+          "ru": "§7мощных разряда молнии,"
+        },
+        {
+          "id": "major-release-6c9a309144573df4",
+          "en": "through you, arcing to",
+          "ru": "§7которые поражают"
+        },
+        {
+          "id": "major-release-dee84d07fe5eebec",
+          "en": "enemies within <num> blocks for",
+          "ru": "§7врагов в радиусе§7 <num> §7блоков на"
+        },
+        {
+          "id": "major-release-d68f9cc29f43a74e",
+          "en": "<em><num>% and stunning them for",
+          "ru": "<em><num>% §7и оглушают их на"
+        },
+        {
+          "id": "major-release-f640ab8cb27fa46a",
+          "en": "<num>s. You take <num>% more damage",
+          "ru": "<num>§7с. Вы получаете на§7 <num>% §7больше урона"
+        },
+        {
+          "id": "major-release-ec900ab1ec0dc811",
+          "en": "for <num>s.",
+          "ru": "§7в течение§7 <num>§7с."
+        }
+      ]
+    },
+    {
+      "id": "major-release-ee75dc52362368d7",
+      "match": {
+        "title": "<em><em><em>Second Wind<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Second Wind<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-31b9a88b3c7570b8",
+          "en": "Increase your <em> Water Damage",
+          "ru": "§7Увеличивает ваш§7 <em> §bУрон Водой"
+        },
+        {
+          "id": "major-release-94ec88fffb55e521",
+          "en": "by <num>% for <num> second when using",
+          "ru": "§7на§7 <num>% §7на§7 <num> §fсекунду§7 §7при расходовании"
+        },
+        {
+          "id": "major-release-ee380dba14a0f660",
+          "en": "mana, scaling damage and duration",
+          "ru": "§7маны. Бонус к урону и длительность растут"
+        },
+        {
+          "id": "major-release-1e8b5ffcc14bc70b",
+          "en": "per mana spent, up to <num>%",
+          "ru": "§7за каждую единицу потраченной маны, до§7 <num>%"
+        }
+      ]
+    },
+    {
+      "id": "major-release-e13d9a0f90cb3fbf",
+      "match": {
+        "title": "<em><em><em>Crusade Sabatons<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Crusade Sabatons<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-ed51d37546fb4cc6",
+          "en": "Increase your <em> Fire Damage",
+          "ru": "§7Увеличивает ваш§7 <em> §cУрон Огнём"
+        },
+        {
+          "id": "major-release-f7f14147fdcf4cbf",
+          "en": "by <num>% for <num> seconds when you",
+          "ru": "§7на§7 <num>% §7на§7 <num> §fсекунд§7 §7при получении"
+        },
+        {
+          "id": "major-release-cbe6bea4bede3caa",
+          "en": "take damage, up to <num>%",
+          "ru": "§7урона, до§7 <num>%"
+        }
+      ]
+    },
+    {
+      "id": "major-release-c621f384da347382",
+      "match": {
+        "title": "<em>Tremorcaller<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Tremorcaller<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-0d8dcb0a12817152",
+          "en": "<em>󐀂Dead Weight: Totem's",
+          "ru": "<em>󐀂§#F2C2C2Мёртвый Груз:§#F2C2C2 §7Горизонтальная"
+        },
+        {
+          "id": "major-release-82d5561f7ad8263c",
+          "en": "horizontal velocity is",
+          "ru": "§7скорость Тотема"
+        },
+        {
+          "id": "major-release-2f1deb95d6a11c92",
+          "en": "greatly increased at the cost",
+          "ru": "§7сильно возрастает за счёт"
+        },
+        {
+          "id": "major-release-9d856aa62fd48d00",
+          "en": "of vertical movement.",
+          "ru": "§7вертикального движения."
+        }
+      ]
+    },
+    {
+      "id": "major-release-9bc8ef3e62102a76",
+      "match": {
+        "title": "<em>Eschaton<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Eschaton<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Pending - Sold <num> items",
+          "ru": "§7§lВ процессе §r§8- Продано §f<num>§8 шт."
+        },
+        {
+          "id": "line-002",
+          "en": "󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-003",
+          "en": "󏿼<em>󐀆 <num>² (<num>¼² <num>²½ <num>²) each",
+          "ru": "󏿼<em>󐀆 §#FFFFFF<num>§#AAAAAA² §#555555(<num>¼² <num>²½ <num>²)§#FFFFFF за штуку"
+        },
+        {
+          "id": "line-004",
+          "en": "§7<em> Click to View",
+          "ru": "§7<em> §aНажмите для Просмотра"
+        },
+        {
+          "id": "line-005",
+          "en": "<num> DPS",
+          "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "line-006",
+          "en": "<em> Super Fast (<num> hits/s)",
+          "ru": "<em> Крайне быстрый (<num> уд./с)"
+        },
+        {
+          "id": "major-release-0bb5558e667de457",
+          "en": "<em>󐀂Death Sentence: Courage will",
+          "ru": "<em>󐀂§#E0B3E6Смертный Приговор:§#E0B3E6 §7Отвага"
+        },
+        {
+          "id": "major-release-a32b1a2ec9a96ec3",
+          "en": "immediately combust Guardian",
+          "ru": "§7мгновенно сжигает Ангелов-"
+        },
+        {
+          "id": "major-release-c77ca8f981c826f0",
+          "en": "Angels, dealing <em><num>% and",
+          "ru": "§7Хранителей, нанося§7 <em><num>% §7и"
+        },
+        {
+          "id": "major-release-59cf7c5f9daef698",
+          "en": "enkindling Buckshot's arrows",
+          "ru": "§7поджигая стрелы Картечи"
+        },
+        {
+          "id": "major-release-282abb642aac1858",
+          "en": "with <em><num>% Main Attack damage.",
+          "ru": "§7добавляя§7 <em><num>% §7урона Основной Атаки."
+        }
+      ]
+    },
+    {
+      "id": "major-release-41c1d25f0c879bf1",
+      "match": {
+        "title": "<em>Insignia<em>",
+        "anchors": [],
+        "priority": 5100
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Insignia<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "major-release-c49ba9fabb2c6f17",
+          "en": "<em>󐀂Superconductor: Chain",
+          "ru": "<em>󐀂§#F2C2C2Сверхпроводник:§#F2C2C2 §7Цепная Молния"
+        },
+        {
+          "id": "major-release-ef70d7b69019bb1d",
+          "en": "Lightning channels three",
+          "ru": "§7проводит через вас три"
+        },
+        {
+          "id": "major-release-2ff94300886cd0cc",
+          "en": "massive lightning bolts",
+          "ru": "§7мощных разряда молнии,"
+        },
+        {
+          "id": "major-release-6c9a309144573df4",
+          "en": "through you, arcing to",
+          "ru": "§7которые поражают"
+        },
+        {
+          "id": "major-release-dee84d07fe5eebec",
+          "en": "enemies within <num> blocks for",
+          "ru": "§7врагов в радиусе§7 <num> §7блоков на"
+        },
+        {
+          "id": "major-release-d68f9cc29f43a74e",
+          "en": "<em><num>% and stunning them for",
+          "ru": "<em><num>% §7и оглушают их на"
+        },
+        {
+          "id": "major-release-f640ab8cb27fa46a",
+          "en": "<num>s. You take <num>% more damage",
+          "ru": "<num>§7с. Вы получаете на§7 <num>% §7больше урона"
+        },
+        {
+          "id": "major-release-ec900ab1ec0dc811",
+          "en": "for <num>s.",
+          "ru": "§7в течение§7 <num>§7с."
+        }
+      ]
+    }
+  ]
+}

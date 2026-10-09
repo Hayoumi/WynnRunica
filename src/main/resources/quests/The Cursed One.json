@@ -1,0 +1,3952 @@
+{
+  "quest": "The Cursed One",
+  "level": 106,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-cursed-one",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "<playername>, it's good to see you. Have you been well?",
+      "ru": "<playername>, рада тебя видеть. Всё было нормально?",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "...no one has recognized you in Espren, have they?",
+      "ru": "...в Эспрене тебя ведь никто не узнал, да?",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Good, good. Be sure to tell me if it does happen, and we'll figure out what to do from there.",
+      "ru": "Хорошо, хорошо. Если вдруг это всё же случится - сразу скажи мне, и там уже решим, что делать.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Anyway, since you're here, I'd like to follow up on our earlier discussion. About... magic.",
+      "ru": "В любом случае, раз уж ты здесь, я хотела бы вернуться к нашему прошлому разговору. О... магии.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I would like for you to describe what you know of it, how you use it, and how most people in your province can wield it.",
+      "ru": "Я хочу, чтобы ты рассказал всё, что о ней знаешь: как ты ею пользуешься и как вообще большинство людей в твоей провинции могут ей владеть.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I've informed the Leaves about our plans, and those interested will join us. Though, I will not force anyone to attend if they do not wish to. Are you ready?",
+      "ru": "Я уже сообщила Листьям о наших планах, и все, кому это интересно, присоединятся. Но силой я никого тащить не буду, если кто-то не хочет. Ты готов?",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Alright, everyone! It's meeting time!",
+      "ru": "Так, народ! Пора на собрание!",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Hello, everyone. Hm... has anyone seen Sui?",
+      "ru": "Всем привет. Хм... никто не видел Суи?",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "She told me she did not feel particularly comfortable listening in on this discussion, so I did not push her further.",
+      "ru": "Она сказала мне, что ей не слишком комфортно слушать этот разговор, так что я не стал давить.",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I see. I think it would be good for her to hear this, though. Could someone fetch her for me?",
+      "ru": "Понятно. И всё же, думаю, ей стоит это услышать. Кто-нибудь может привести её?",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "I can go find her, ma'am.",
+      "ru": "Я схожу за ней, мэм.",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Thank you, Rex.",
+      "ru": "Спасибо, Рекс.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "It... isn't something you need to worry about. Not yet, at least.",
+      "ru": "Тебе... пока не стоит об этом беспокоиться. По крайней мере, сейчас.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Magic... or, rather, curses have a tendency to be associated with bad memories.",
+      "ru": "Магия... или, точнее, проклятия часто связаны с плохими воспоминаниями.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "It's not my place to tell you why. Sui can share more if she wants to, later.",
+      "ru": "Не мне объяснять почему. Если Суи захочет, потом расскажет сама.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Sui is... the exception.",
+      "ru": "Суи... исключение.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I have my reasons for it. I believe it would be better for her to hear this now, rather than later.",
+      "ru": "У меня есть на это свои причины. Думаю, ей лучше услышать это сейчас, а не потом.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Here we are! So, could we get started already? Some of us actually have responsibilities.",
+      "ru": "Вот мы и пришли! Ну что, можно уже начинать? У некоторых из нас вообще-то есть дела.",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Seeing as everyone is here, yes, Rex, we may. <playername>, let us start with the basics.",
+      "ru": "Раз уж все в сборе - да, Рекс, можем. <playername>, давай начнём с основ.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Ah, yes, such as the cursed... the stories do tell of the original evil lurking within us. It would follow that it exists in all things.",
+      "ru": "Ах да, конечно, проклятые... в легендах ведь говорится о древнем зле, скрытом внутри нас. Логично было бы предположить, что оно есть во всём.",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Indeed. So <playername>, how do you wield your magic?",
+      "ru": "Именно. Так что, <playername>, как именно ты пользуешься своей магией?",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Similar to the blessed implements of the crown's commanders, yes? I remember hearing of this from the military recruiters.",
+      "ru": "Похоже на благословлённые орудия командиров Короны, да? Помню, я слышал об этом от военных вербовщиков.",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Don't those usually only have one specific blessing attached to them? I don't remember them being as... uh, flexible, I guess.",
+      "ru": "Разве у тех обычно не одно конкретное благословение? Не припомню, чтобы они были такими... эм, гибкими, что ли.",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You'd be correct, Rex, though the same principle applies. A blessed weapon is referred to as a \"focus\" by the crown. They allow the wielder to more easily access the blessing placed within.",
+      "ru": "Ты права, Рекс, но принцип там тот же. Благословлённое оружие Корона называет \"фокусом\". Оно позволяет владельцу проще дотянуться до благословения, заключённого внутри.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Ah, I do have experience with this. We call it mana. Once one receives a blessing, it takes time to learn how to draw from your own source of mana.",
+      "ru": "Да, с этим я знакома. Мы называем это маной. Получив благословение, человек не сразу учится черпать силу из собственного источника маны.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "This is where foci come into play they are crafted or forged from mana-dense materials, and so provide a more easily accessible source to power one's blessing.",
+      "ru": "Вот тут и вступают в дело фокусы: их делают или куют из материалов, насыщенных маной, и поэтому они дают более доступный источник силы для подпитки благословения.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "And, so... what? You think any of us could just... do it? That's hard to believe.",
+      "ru": "И, то есть... что? Ты думаешь, любой из нас может просто... взять и сделать это? Слабо верится.",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Ha! If it were truly the case, would there not be many, many more cursed ones running around? I concur with Rex, it seems outlandish.",
+      "ru": "Ха! Будь это так, разве вокруг не было бы куда больше проклятых? Согласен с Рекс, звучит невероятно.",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I d- d- don't know... <playername> doesn't seem like they're l- ly- like they're lying. What- wh- what if it is true?",
+      "ru": "Я н- н- не знаю... <playername> не п- по- похож на того, кто врёт. А- а что, если это правда?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "It would explain certain aspects of the crown's response to cursed ones...",
+      "ru": "Это бы многое объяснило в реакции Короны на проклятых...",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "But... if you didn't receive a blessing, doesn't it still make you cursed?",
+      "ru": "Но... если ты не получил благословение, разве это всё равно не делает тебя проклятым?",
+      "speaker": "Sui",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Yes, precisely! My sister is correct. Any... \"magic\" not sourced from the crown is innately tainted, from my understanding.",
+      "ru": "Да, именно! Моя сестра права. Насколько я понимаю, любая... \"магия\", которая не исходит от Короны, изначально считается осквернённой.",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Yeah, curses, blessings whatever. So, what, you think all of us could just... use \"magic\"? What would that even look like?",
+      "ru": "Ага, проклятия, благословения, как угодно называй. И что, ты думаешь, мы все просто можем взять и... пользоваться \"магией\"? И как это вообще должно выглядеть?",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Ha. Right, sure. \"Belief.\" So if I think hard enough, I can just start calling down lightning strikes?",
+      "ru": "Ха. Ну да, конечно. \"Вера\". То есть если я достаточно сильно захочу, то просто начну с неба молнии швырять?",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Ugh. This was a waste of time.",
+      "ru": "Ух. Пустая трата времени.",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Now, now, Rex. Don't be so hasty in writing it off entirely. You have seen with your own eyes what <playername> can do!",
+      "ru": "Ну-ну, Рекс. Не списывай всё так быстро. Ты же своими глазами видела, что умеет <playername>!",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Belief... I- I- I can do that.",
+      "ru": "Вера... Я- я- я смогу.",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Oh, come on Zeph, really? You can't seriously",
+      "ru": "Ой да ну, Зеф, серьёзно? Ты ведь не собираешься всерьёз",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "We're getting off track. <playername>, what else is there?",
+      "ru": "Мы уходим от темы. <playername>, что там ещё?",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "So... s- so you don't even know what your m- ma- magic will look like?",
+      "ru": "То есть... т- ты даже не знаешь, какой именно будет твоя м- ма- магия?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Correct. There are aptitude tests which the crown uses before giving out blessings, but those only provide an idea of the general typing.",
+      "ru": "Верно. Перед выдачей благословений Корона проводит тесты на предрасположенность, но они дают лишь общее представление о типе силы.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "As an example I learned that I have an affinity for the fire element, but I didn't know what form that would take until I actually received my blessing.",
+      "ru": "Например, я заранее знала, что у меня есть склонность к огню, но до получения благословения понятия не имела, как именно это проявится.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Oh! S- s- so, what type of magic do you think I w- would- I would have?",
+      "ru": "О! Т- т- тогда как ты думаешь, какая магия б- была бы... у меня?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Something with wind, probably. You have that sort of... feel to you. Hey we'll be the Leaves, and you can be the Wind!",
+      "ru": "Что-нибудь с ветром, наверное. В тебе это прямо... ощущается. Эй, мы будем Листьями, а ты будешь Ветром!",
+      "speaker": "Rex",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "He- hey! That... oh, that would be c- c- cool, actually...",
+      "ru": "Э- эй! Это... о, а это б- б- было бы даже круто...",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "If I may interrupt thus far, you have spoken at length on casting through the use of a focus.",
+      "ru": "Если позволите вмешаться, вы много говорили о колдовстве с помощью фокуса.",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "However, the traditional \"cursed one\" mythos has afflicted wielding such power without the use of any blessed artifacts.",
+      "ru": "Но в традиционных историях о \"проклятых\" речь идёт о тех, кто владеет такой силой вообще без каких-либо благословлённых артефактов.",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Aha. Of course, then those must be the dangerous ones.",
+      "ru": "Ага. Ну тогда, выходит, именно они и были опасными.",
+      "speaker": "Mora",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Sui",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Uncommon, but still common enough to maintain the reputation the cursed have... It would make sense.",
+      "ru": "Редко, но всё же достаточно часто, чтобы о проклятых ходила такая молва... Логично.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Well, thank you for your time, <playername>. I think we'll call it there. You're all dismissed.",
+      "ru": "Что ж, спасибо за разговор, <playername>. Думаю, на этом пока хватит. Все свободны.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "...So what, is- is that it? We talk about th- th- theory for a while, and th- a- and then do nothing?",
+      "ru": "...И что, э- это всё? Мы тут поболтали о т- т- теории, а п- п- потом просто ничего не будем делать?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Zeph, even if <playername>'s information is true, it doesn't mean it's immediately applicable.",
+      "ru": "Зеф, даже если всё, что сказал <playername>, правда, это ещё не значит, что всё можно сразу взять и применить.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "If I could be certain that experimenting with cur... magic... would be safe, maybe there could be an opportunity here. As it stands... it's too risky.",
+      "ru": "Если бы я была уверена, что эксперименты с про... магией... безопасны, тогда, возможно, это и правда открыло бы нам путь. Но сейчас... риск слишком велик.",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "R- ris- risky... maybe the reason we've been stuck is because we d- d- we don't take risks!",
+      "ru": "Р- ри- риск... может, мы и топчемся на месте именно потому, что н- н- не рискуем!",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "The per- perfect opportunity to be a- a- able to hold our own against the c- cr- crown, a- and- and we're gonna do n- no- nothing? Are you h- hear- hearing yourself?",
+      "ru": "Иде- идеальный шанс н- н- наконец-то смочь дать отпор К- Ко- Короне, а- а- а мы просто н- ни- ничего не будем делать? Ты с- с- сама себя вообще слышишь?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Zeph...",
+      "ru": "Зеф...",
+      "speaker": "Syndra",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "No, I- I'm gonna ta- take the chance. Even- e- even if no- nobody else will. Come- c- come on, <playername>, let's go.",
+      "ru": "Нет, я- я рискну. Даже е- е- если больше никто не хочет. П- п- пошли, <playername>, идём.",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Sigh. I suppose I should have expected something like this. Of all the children, he's the one with the most to prove...",
+      "ru": "Эх. Наверное, стоило ожидать чего-то такого. Из всех детей ему, похоже, больше всех хочется что-то доказать...",
+      "speaker": "Syndra",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "You may as well go with him, <playername>. Maybe you'll be able to prove my worries wrong.",
+      "ru": "Пожалуй, тебе лучше пойти с ним, <playername>. Может, тебе удастся доказать, что я зря беспокоюсь.",
+      "speaker": "Syndra",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Hum... I suppose the pieces fit together, yet...",
+      "ru": "Хм... В целом картина складывается, и всё же...",
+      "speaker": "Mora",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "I... I may have gotten a bit h- he- heated there...",
+      "ru": "Я... я, наверное, слегка в- вз- вспылил...",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "It's just... all so- s- so frustrating! So often, people are h- hur- hurt by the crown, and- and th- there's nothing we can do about it! If we had m- m- if we had m- magic, we'd be able to- to sta- stand up to them!",
+      "ru": "Просто... это всё т- т- так бесит! Корона постоянно д- д- делает людям больно, а мы... а мы ничего не можем с этим сделать! Если бы у нас была м- м- магия, мы бы смогли... смогли дать им отпор!",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "But they don't... eugh. What- wh- whatever. We can just",
+      "ru": "Но у нас её нет... эх. Ка- к- какая разница. Мы можем просто",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Hey, wait up!",
+      "ru": "Эй, притормози!",
+      "speaker": "Rex",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "R- Rex? What are you",
+      "ru": "Р- Рекс? Ты чего",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Well, I can't just let you go off and do this on your own. Even if I think it's stupid and reckless.",
+      "ru": "Ну не могу же я просто отпустить тебя заниматься этим в одиночку. Даже если считаю это тупой и безрассудной затеей.",
+      "speaker": "Rex",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "So, what's the plan? You didn't just run off without one, right?",
+      "ru": "Так какой план? Ты же не просто сорвался с места без него, да?",
+      "speaker": "Rex",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Um...",
+      "ru": "Эм...",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Zeph. Come on.",
+      "ru": "Зеф. Ну давай.",
+      "speaker": "Rex",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Hey! I know that I- I need a f- fo- focus, right? We just need to find some... s- some magical materials to ma- make it out of. Even if I- I- I don't know where to... look.",
+      "ru": "Эй! Я знаю, что мне н- н- нужен ф- фо- фокус, да? Нам просто надо найти какой-нибудь... к- какой-нибудь магический материал, из которого его можно будет с- с- сделать. Хотя я и п- п- понятия не имею, где его искать.",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Sigh. Okay. Well, luckily for you, I know a spot. Remember that cave to the west of the festival grounds? Soldiers were swarming the place a week or two ago. Blocked it off 'cause of... cursed activity, or something.",
+      "ru": "Эх. Ладно. Тебе повезло, я знаю одно место. Помнишь пещеру к западу от площадки фестиваля? Неделю или две назад там было полно солдат. Перекрыли всё из-за... проклятых, кажется.",
+      "speaker": "Rex",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "And... y- you- you think there might be s- some- something there?",
+      "ru": "И... т- ты- ты думаешь, там может быть ч- что-нибудь?",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Yep! Why else would they prevent people from going there for so long? There's gotta be something.",
+      "ru": "Ага! Иначе зачем бы им так долго никого туда не пускать? Там точно что-то есть.",
+      "speaker": "Rex",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Okay. It's w- worth a shot... Thanks for the help, Rex.",
+      "ru": "Ладно. П- попробовать стоит... Спасибо за помощь, Рекс.",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Don't mention it. We'll just have to follow those blue flowers, they'll lead us right to the cave. I'll stand guard outside while you two search it.",
+      "ru": "Не за что. Идите вдоль синих цветов, они выведут прямо к пещере. Я посторожу снаружи, пока вы двое её обыщете.",
+      "speaker": "Rex",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Sounds g- good. Let's go!",
+      "ru": "Звучи- звучит н- неплохо. Пошли!",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "...Hm? What? I'm not here for you, just to be clear.",
+      "ru": "...Хм? Что? Я вообще-то тут не ради тебя, если что.",
+      "speaker": "Rex",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "You should stop wasting time talking to me, and hurry up after Zeph already.",
+      "ru": "Хватит время на меня тратить, лучше уже догоняй Зефа.",
+      "speaker": "Rex",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "He's probably trying to compete with you to see who can get to the end fastest, and every second you spend here is not doing you any favors in beating him.",
+      "ru": "Он, скорее всего, уже устроил у себя в голове гонку с тобой - кто быстрее доберётся до конца. И каждая секунда, что ты торчишь тут, тебе в победе не помогает.",
+      "speaker": "Rex",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Heh. Not that you'd win anyway!",
+      "ru": "Хех. Хотя ты всё равно не выиграешь!",
+      "speaker": "Rex",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Hah! Too s- sl- slow! I guess I probably sh- should- should've warned you about the r- roly-bugs...",
+      "ru": "Ха! Сл- слишком медленно! Н- наверное, стоило предупредить тебя о ж- жуках-катышах...",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "If you're quiet en- enough, they usually don't bother you. I th- th- I think you even woke up the lea- leader of the colony!",
+      "ru": "Если вести себя д- достаточно тихо, они обычно не лезут. По- по- по-моему, ты даже главаря их колонии разбудил!",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Anyway... I think Rex was right. Lo- look at these crystals! If- if a- any- anything's magical, it's got to be them!",
+      "ru": "Но ладно... Думаю, Рекс была права. П- посмотри на эти кристаллы! Если тут вообще есть что-то магическое, так это они!",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Let's grab some and g- get- get out of here. We don't want to get c- cau- caught in a res- restricted area.",
+      "ru": "Наберём немного и в- выберемся отсюда. Не хватало ещё п- попасться в запретном месте.",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "I'll take one... M- may- maybe we should take some more? In ca- c- in case anyone else wants to- y- you know. Co- coming back here again later would be da- dangerous.",
+      "ru": "Я возьму один... М- может, стоит взять ещё? На сл- сл- случай, если кто-то ещё захочет... ну, ты понял. Потом сюда снова возвращаться будет о- опасно.",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "[+1 Crystal Focus]",
+      "ru": "[+1 Crystal Focus]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Took you long enough! So, who won the race?",
+      "ru": "Ну вы и копались! Так кто гонку выиграл?",
+      "speaker": "Rex",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "You say that like you don't a- al- already know, Rex!",
+      "ru": "Ты так говоришь, будто и т- так не знаешь, Рекс!",
+      "speaker": "Zeph",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Excuses, excuses. You should always have your guard up around Zeph. You never know when he'll strike with a surprise race.",
+      "ru": "Отговорки, отговорки. Рядом с Зефом всегда надо быть настороже. Никогда не знаешь, когда он внезапно устроит тебе очередную гонку.",
+      "speaker": "Rex",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Am I tha- that predictable?",
+      "ru": "Я что, н- настолько предсказуемый?",
+      "speaker": "Zeph",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Uh... yeah? Obviously?",
+      "ru": "Эм... да? А то.",
+      "speaker": "Rex",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Well... it- it's fun!",
+      "ru": "Ну... э- это весело!",
+      "speaker": "Zeph",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Sure, Zeph. Well, what'd you find? I haven't seen anybody out here, so I think we're in the clear to go if we're done here.",
+      "ru": "Конечно, Зеф. Ну так что нашли? Я тут никого не видела, так что, если вы закончили, можно сваливать.",
+      "speaker": "Rex",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "We fou- found some crystals growing at the end of the cave. They f- fe- feel magical to me, so... they should w- wor- work. Let's get going back.",
+      "ru": "Мы на- нашли кристаллы в глубине пещеры. Они мне к- ка- кажутся магическими, так что... д- должны сработать. Пошли обратно.",
+      "speaker": "Zeph",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Come on. Just because we're in the clear now doesn't mean we can dilly-dally. Let's go.",
+      "ru": "Давайте. То, что сейчас чисто, не значит, что можно торчать тут до ночи. Пошли.",
+      "speaker": "Rex",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Let's get going back. I r- really hope these crystals w- wor- work.",
+      "ru": "Пошли обратно. Я п- правда надеюсь, что эти кристаллы с- сработают.",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "...Ah! You return! I'd best inform miss Syndra of your arrival.",
+      "ru": "...А! Вы вернулись! Надо бы сразу сообщить мисс Синдре, что вы пришли.",
+      "speaker": "Mora",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "You were wai- waiting for us? Why?",
+      "ru": "Ты ж- ждал нас? Зачем?",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Hrm... I suppose your words resonated with me, in the end. Having taken some time to mull it over while you were gone... I must admit, you make a solid point.",
+      "ru": "Хм... Пожалуй, в конце концов твои слова всё же до меня дошли. Пока вас не было, я успел это обдумать... и должен признать, мысль у тебя здравая.",
+      "speaker": "Mora",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "As of late, I have felt a distinct lack of impact in our actions. Certainly we've done good for the downtrodden and overlooked! But we have failed to make any real change.",
+      "ru": "В последнее время мне всё сильнее кажется, что от наших действий слишком мало толку. Да, мы помогали тем, кого топтали и игнорировали! Но настоящих перемен так и не добились.",
+      "speaker": "Mora",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Well, you're not the only one feeling that way, if it makes you feel any better. I think Syndra's the same.",
+      "ru": "Ну, ты в этом не один, если тебе от этого легче. Думаю, Синдра чувствует то же самое.",
+      "speaker": "Rex",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Even more reason to try something new, then! This... magic, as you call it if indeed it is what you have described, though I still have my doubts",
+      "ru": "Тем больше причин попробовать что-то новое! Эта... магия, как вы её называете, если она и правда такова, как ты описал, хотя у меня всё ещё есть сомнения",
+      "speaker": "Mora",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "I do too.",
+      "ru": "У меня тоже.",
+      "speaker": "Rex",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Yes, Rex, I appreciate the encouragement as I was saying, it could be just what we need to truly make a difference.",
+      "ru": "Да, Рекс, спасибо за поддержку. Как я и говорил, возможно, это именно то, чего нам не хватало, чтобы действительно что-то изменить.",
+      "speaker": "Mora",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "...I h- ho- hope so. Um... you were g- go- going to tell Syndra we were back?",
+      "ru": "...Я н- на- надеюсь. Эм... ты ж- же шёл сказать Синдре, что мы вернулись?",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "So I was! Allow me one moment, please.",
+      "ru": "Точно! Дай мне минутку, пожалуйста.",
+      "speaker": "Mora",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "...You're really sure you want to go through with this, Zeph?",
+      "ru": "...Ты правда уверен, что хочешь идти до конца, Зеф?",
+      "speaker": "Rex",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "I- I am. I w- wa- I want to try it! Maybe then, I could...",
+      "ru": "Я- я уверен. Я х- хо- хочу попробовать! Может, тогда я смогу...",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Okay! Okay. It's your choice. I just worry sometimes!",
+      "ru": "Ладно! Ладно. Это твой выбор. Я просто иногда переживаю, вот и всё!",
+      "speaker": "Rex",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "I... I ne-need to get into the r- r- right mood for it, I thi- I- I think. I'm... kind of ner- nervous, actually.",
+      "ru": "Мне... мне н- надо как-то настроиться, я д- д- думаю. Я... если честно, слегка нервничаю.",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "...Hey, <playername>, could you... do- d- do some magic. As a- a d- dem- demonstration!",
+      "ru": "...Эй, <playername>, можешь... п- п- показать немного магии? Ну, д- для наглядности!",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Is that safe?",
+      "ru": "Это вообще безопасно?",
+      "speaker": "Rex",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "N- no, she- she's just paranoid. It'll be f- f- fine! You were casting sp- spells in the cave a- and- and nothing bad happened!",
+      "ru": "Н- нет, она просто слишком волнуется. Всё б- будет хорошо! Ты же к- колдовал в пещере, и н- ничего плохого не случилось!",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Sigh. If you insist, Zeph. Whatever you do had better be cool though, <playername>.",
+      "ru": "Эх. Если ты так настаиваешь, Зеф. Только уж пусть это будет что-то крутое, <playername>.",
+      "speaker": "Rex",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Hm, I don't quite like the sound of \"probably\".",
+      "ru": "Хм, слово \"наверное\" мне не очень нравится.",
+      "speaker": "Rex",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Good- g- good enough for me! Come on, <playername>, sh- show- show me a spell!",
+      "ru": "Для м- м- меня сойдёт! Давай, <playername>, п- покажи мне заклинание!",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Woah! That w- was cool! Can you d- do- do it again?",
+      "ru": "Воу! Это б- было круто! Можешь е- ещё раз?",
+      "speaker": "Zeph",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Oh! Syndra, do- d- do you think you could show us something t- t- too? You're b- bl- blessed, so maybe it'd be",
+      "ru": "О! Синдра, а ты не м- м- могла бы тоже нам что-нибудь показать? Ты ж б- б- благословлённая, так что, может, это было бы",
+      "speaker": "Zeph",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "No.",
+      "ru": "Нет.",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "... O- o- okay! If- if you s- say- say so...",
+      "ru": "...О- о- ладно! Е- если ты т- так говоришь...",
+      "speaker": "Zeph",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "If we're done with the demonstrations, we should discuss",
+      "ru": "Если с показами закончили, нам стоит обсудить",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "But- b- but I want to tr- try now! I have a- a fo- focus, so I sh- should- I should be able to do... something.",
+      "ru": "Но- н- но я хочу п- попробовать прямо сейчас! У меня есть ф- фо- фокус, так что я д- должен... должен суметь сделать хоть что-то.",
+      "speaker": "Zeph",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Sigh. Yes, alright, Zeph. But let me guide you through it, would you?",
+      "ru": "Эх. Хорошо, Зеф. Но позволь мне помочь тебе, ладно?",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Take your position, Zeph. Everyone else, let's move out of the way.",
+      "ru": "Займи место, Зеф. Остальные - отойдите.",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Yes, indeed, it would not do well for us to be injured, unintentionally or otherwise. Come on, Sui!",
+      "ru": "Да, точно, нам совсем ни к чему получать травмы - случайно или не очень. Идём, Суи!",
+      "speaker": "Mora",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "And we're sure this is safe?",
+      "ru": "И мы точно уверены, что это безопасно?",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "We have all seen <playername> in action, and they appear to be unharmed, no?",
+      "ru": "Мы все видели <playername> в деле, и, как видишь, он цел, нет?",
+      "speaker": "Mora",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Okay, sure, but what if someone sees? It's not like we're especially hidden here.",
+      "ru": "Ладно, допустим, но что, если кто-то увидит? Мы тут не то чтобы особо спрятались.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "You know as well as I that the only ones showing up in these parts are outcasts and drunks!",
+      "ru": "Ты и сама знаешь, что сюда обычно заглядывают только отщепенцы да пьяницы!",
+      "speaker": "Mora",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "In any case, we can make it quick. Zeph, are you ready?",
+      "ru": "В любом случае, всё можно сделать быстро. Зеф, ты готов?",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Yes! I- I- I'm ready.",
+      "ru": "Да! Я- я- я готов.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Close your eyes, and hold the crystal close to your chest. Concentrate on the points of contact. Your hands, your chest. Do you feel anything?",
+      "ru": "Закрой глаза и прижми кристалл к груди. Сконцентрируйся на точках соприкосновения. На руках, на груди. Что-нибудь чувствуешь?",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "...oh! I- I do! It's l- l- like... st- static electricity, li- little sparks bouncing around...",
+      "ru": "...О! Д- да! Это п- п- похоже на... с- статическое электричество, будто маленькие искры скачут туда-сюда...",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "Good. Now, you'll try to draw your focus inwards. Imagine the sparks being pulled towards the center of your body. Feel them gathering together.",
+      "ru": "Хорошо. А теперь попробуй потянуть фокус внутрь себя. Представь, что искры стягиваются к центру твоего тела. Почувствуй, как они собираются вместе.",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "I... okay.",
+      "ru": "Я... хорошо.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Now, finally, try releasing that energy. Concentrate on the crystal again, the points of contact. Imagine pushing the sparks back into it, and then further, sending them out through the crystal",
+      "ru": "А теперь, наконец, попробуй выпустить эту энергию. Снова сосредоточься на кристалле, на точках соприкосновения. Представь, как толкаешь искры обратно в него, а потом ещё дальше - наружу, через кристалл.",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "A-ah! That- th- that was...",
+      "ru": "А-ах! Это... э- это было...",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "Hey! Are you okay? Not hurt? I don't see anything visible, but",
+      "ru": "Эй! Ты как? Не ранен? Вроде снаружи ничего не видно, но",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "W- would you s- st- stop, already? I'm fine!",
+      "ru": "Д- да прекрати ты уже, а? Я в порядке!",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Ow! What- wh- what was that for?!",
+      "ru": "Ай! За- за- за что это?!",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "For being annoying, idiot.",
+      "ru": "За то, что бесишь, идиот.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Well done, Zeph. You've done just as well as any of the soldiers I've seen receive blessings. Just... as well...",
+      "ru": "Молодец, Зеф. Ты справился не хуже любого солдата, которого я видела в момент получения благословения. Не хуже... ни капли...",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "...was it really that easy all this time?",
+      "ru": "...неужели всё это время это было настолько просто?",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "...um, Syndra. Are you...",
+      "ru": "...эм, Синдра. Ты...",
+      "speaker": "Sui",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "Yes... yes, I'm alright. <playername>, I apologize for doubting you. It would seem... you were right all along.",
+      "ru": "Да... да, всё нормально. <playername>, прошу прощения, что сомневалась в тебе. Похоже... ты всё это время был прав.",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Or maybe Zeph's just cursed...",
+      "ru": "Или, может, Зеф просто и правда проклятый...",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Rex.",
+      "ru": "Рекс.",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "Sorry! Sorry. No, you're right. It was... cool, I guess. It's just... weird.",
+      "ru": "Прости! Прости. Ладно, да, ты права. Это было... ну, круто, наверное. Просто... странно.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "A- a little, I guess. But if f- f- felt right. Like- l- like I always co- could have done it. Even if it was just sp- spark- sparkles.",
+      "ru": "Н- ну да, немного. Но это ощ- ощ- ощущалось правильно. Б- будто я всегда мог это сделать. Даже если пока это были просто и- и- искорки.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "That's part of the process. You'll need a proper focus to do more... specially-forged weapons have always done the trick, in my experience.",
+      "ru": "Так и должно быть. Чтобы колдовать сильнее, понадобится подходящий фокус... По моему опыту, лучше всего служит специально выкованное оружие.",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Specially-forged weapons, you say? Miss, is there anything in particular one would need to create one? With the right materials, I'm certain I could forge Zeph what he needs.",
+      "ru": "Специально выкованное оружие, говорите? Мисс, а что именно нужно, чтобы его сделать? Если будут подходящие материалы, я уверен, что смогу выковать Зефу то, что ему надо.",
+      "speaker": "Mora",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "A- a new weapon? That I ca- can cast ma- magic with?",
+      "ru": "Н- новое оружие? Которым я см- смогу колдовать?",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "I could see it coming in use. We'll want more sturdy materials than usual preferably something magical in and of itself... Zeph, do you think you could",
+      "ru": "Думаю, толк в этом будет. Нам понадобятся материалы покрепче обычных, желательно сами по себе магические... Зеф, как думаешь, ты смог бы",
+      "speaker": "Syndra",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Yes!!! I- I mean, uh, y- yes, I can do that.",
+      "ru": "ДА!!! Я- я хотел сказать, э, д- да, я справлюсь.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "...Okay! <playername>, I kn- I- I know where to start! Me- meet me by the big tree to the n- nor- northeast! The one for the riddle!",
+      "ru": "...Ладно! <playername>, я з- з- знаю, с чего начать! В- встретимся у большого дерева на с- се- северо-востоке! Того самого, что из загадки!",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "[-1 Crystal Focus]",
+      "ru": "[-1 Crystal Focus]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "I suppose I should get around to firing up the forge... Sui, will you need me for anything?",
+      "ru": "Пожалуй, пора бы мне разжечь горн... Суи, тебе от меня что-нибудь нужно?",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Um... n-no, I don't think so.",
+      "ru": "Эм... н-нет, вроде нет.",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "He's taken to it remarkably well, hasn't he? Better than I could have hoped.",
+      "ru": "Он удивительно быстро это схватил, правда? Даже лучше, чем я надеялась.",
+      "speaker": "Syndra",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "<playername>... you have opened a path for me that I never could have imagined. Thank you.",
+      "ru": "<playername>... ты открыл для меня путь, о котором я даже не думала. Спасибо.",
+      "speaker": "Syndra",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Enthusiastic as always, isn't he?",
+      "ru": "Как всегда, переполнен энтузиазмом, ага?",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "...don't talk to me.",
+      "ru": "...не разговаривай со мной.",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "Magic... Hoh!",
+      "ru": "Магия... Хо!",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "Never in my life did I expect to have my whole world view challenged, hoh!",
+      "ru": "Никогда бы не подумал, что мой взгляд на мир так перевернётся, хо!",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Admittedly, this information will take some time to progress...",
+      "ru": "Если честно, всё это ещё надо будет как следует осмыслить...",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "I'll most likely seek you out later with some follow up questions.",
+      "ru": "Скорее всего, позже я сам тебя найду и задам ещё пару вопросов.",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "...well, Synny, don't suppose any of this changes your usual approach?",
+      "ru": "...ну что, Синни, неужели всё это как-то меняет твой обычный подход?",
+      "speaker": "Kaio",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Sigh... You know it does, Kaio. If there's a possibility more of our members could wield magic, then...",
+      "ru": "Эх... Ты и сам знаешь, что меняет, Кайо. Если есть шанс, что больше наших людей смогут пользоваться магией, тогда...",
+      "speaker": "Syndra",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "Then?",
+      "ru": "Тогда что?",
+      "speaker": "Kaio",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "... I don't know. I don't know if it'll work, yet.",
+      "ru": "...Не знаю. Пока не знаю, сработает ли это вообще.",
+      "speaker": "Syndra",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "Mmn. I don't like it.",
+      "ru": "Мм. Мне это не нравится.",
+      "speaker": "Kaio",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "You don't like anything, Kaio.",
+      "ru": "Тебе вообще ничего не нравится, Кайо.",
+      "speaker": "Syndra",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Yes, well, I especially don't like this. Don't like the ideas you're gettin' all up there in your head. It's a risk.",
+      "ru": "Да, но вот это мне особенно не нравится. Не нравятся мне те идеи, что у тебя там в голове уже крутятся. Это риск.",
+      "speaker": "Kaio",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "Everything is a risk. But it doesn't matter yet. It'll depend on what Quill has to tell me during the festival.",
+      "ru": "Всё - риск. Но пока это неважно. Всё будет зависеть от того, что Квилл скажет мне на фестивале.",
+      "speaker": "Syndra",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "So...",
+      "ru": "Ну так...",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "When I m- ma- when I make my weapon... do you think I'll be a- a- able to cast real spells? And not just... poofs of sp- s- sparkles?",
+      "ru": "Когда я с- сде- когда я сделаю своё оружие... как думаешь, я см- смогу колдовать по-настоящему? А не просто... пшикать и- и- искорками?",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "Oh...",
+      "ru": "О...",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Sigh... I was h- h- hoping that- that- that I could do... I- I don't know! Something! A- any- anything to help. But... you're right.",
+      "ru": "Эх... Я н- надеялся, что... что... что смогу сделать... я не знаю! Хоть что-то! Х- хоть что-нибудь, чтобы помочь. Но... ты прав.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Oh. O- okay! That means it- it m- might help me, too. Thank you.",
+      "ru": "О. Л- ладно! Значит, это и мне м- может помочь. Спасибо.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "Oh! R- ri- right! Well, Syndra said we sh- should find something magical, right? Well, I- I don't know for- f- for sure if it's magical or not, but...",
+      "ru": "О! Т- т- точно! Ну, Синдра же сказала, что надо найти что-то магическое, да? Я, конечно, н- не знаю наверняка, магическое оно или нет, но...",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "A long, long time ago, th- this- this tree was more than just a stump! It had long arms st- str- stretching out over the whole forest, watching over th- the people and w- wi- wildlife.",
+      "ru": "Давным-давно это... это дерево было не просто пнём! У него были длинные ветви, что т- тянулись над всем лесом и присматривали за людьми и ж- ж- живностью.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "When anyone was hurt, o- or- or unwell, the tree would reach out with its br- branches and grow fruit- fruit that was said to he- h- heal all injuries and illnesses.",
+      "ru": "Если кто-то был ранен или б- болен, дерево тянулось к нему своими в- ветвями и выращивало п- плоды, которые, как говорили, лечили любые раны и болезни.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "It took care of the people, and the p- people took care of the tree. But then- then the c- cur- curse took hold of the people.",
+      "ru": "Оно заботилось о людях, а л- люди заботились о нём. Но потом... потом л- люди попали под власть п- про- проклятия.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "In the chaos and d- des- destruction caused by the cursed ones, the tree was hurt. It stopped gr- grow- growing its gifts, and went to sleep... f- forever.",
+      "ru": "В хаосе и р- раз- разрушении, которое устроили проклятые, дереву тоже досталось. Оно перестало р- ра- растить свои дары и уснуло... н- навсегда.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Even after the Queen arrived a- and blessed the people, the tree di- didn't- didn't wake up. Its trust had been broken...",
+      "ru": "Даже когда пришла Королева и б- благословила людей, дерево т- так и не проснулось. Оно больше никому не доверяло...",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Ev- even though it's just a story... I hope s- some- someday the tree can trust us again. We could- c- could- we could really use its help, these days...",
+      "ru": "Даже если это всего лишь сказка... я н- надеюсь, что когда-нибудь дерево снова сможет нам доверять. Сейчас нам... нам правда очень не помешала бы его помощь...",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "... A- a- anyway! The cavern you met Syndra in is also said to be s- sa- sacred. And the feel of the crystals reminds me of h- how I feel there.",
+      "ru": "... Л- ладно! Та пещера, где ты встретил Синдру, тоже считается с- св- священной. И ощущения от тех кристаллов напоминают мне то, что я чувствую там.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "So- s- so if we can find our way into the tree... we co- could find some m- ma- s- some magical wood. Follow me!",
+      "ru": "Т- то есть если мы найдём, как попасть внутрь дерева... там, м- может быть, найдётся м- ма- магическая древесина. Идём за мной!",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Hey! F- faster than last time! Keep up the im- im- improvement, and maybe soon I'll have to put in mo- more than 10%!",
+      "ru": "Эй! Б- быстрее, чем в прошлый раз! Продолжай в т- том же духе, и, может, мне скоро придётся выкладываться не на 10 процентов!",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "Ha... yeah... Um, earlier you m- me- mentioned that magic can be found in- in everything.",
+      "ru": "Ха... ага... Эм, ты раньше г- го- говорил, что магию можно найти в- во всём.",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "So... so ma- maybe we didn't need to come to- to- to this old tree... But- b- but it feels right to me.",
+      "ru": "Т- то есть... может, нам и н- не обязательно было идти именно к этому старому дереву... Но- но мне кажется, что так правильно.",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "... Thank you for c- c- coming along.",
+      "ru": "...Спасибо, что п- пошёл со мной.",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "It's a breath of fresh air, having someone n- n- new around! I don't know, having you around just f- fe- feels... good! Like- like anything is possible!",
+      "ru": "Когда рядом есть кто-то н- новый - это как глоток свежего воздуха! Не знаю, просто когда ты рядом, о- о- ощущение... хорошее! Будто вообще всё возможно!",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "... Oh, I- I- I'm getting too sappy. Sorry, sorry!",
+      "ru": "... Ой, я- я- я что-то совсем размяк. Прости, прости!",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "Well... my h- h- my heart is telling me that this wood is what I w- w- what I want!",
+      "ru": "Ну... с- с- сердце мне подсказывает, что именно эта древесина - то, что мне н- нужно!",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "That old tale... it's one of the o- o- only things I still remember from my childhood.",
+      "ru": "Та старая сказка... это одно из н- не- немногого, что я вообще помню из детства.",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "So, s- so this is definitely what I want my w- we- weapon to be made out of.",
+      "ru": "Так что... да, я точно хочу, чтобы м- мо- моё оружие было сделано именно из этого.",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "Oh... y- y- yeah. Maybe you're right...",
+      "ru": "Ох... д- да. Может, ты и прав...",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "I just thought... choosing s- some- something special to me would- would be b- best.",
+      "ru": "Я просто подумал... если выбрать что-то о- осо- особенное для меня, будет... будет лучше.",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "B- but we're here now any- a- anyway, aren't we? So we can just use the- the- the wood here...",
+      "ru": "Н- но мы уже всё равно здесь, да? Значит, можем просто использовать д- д- древесину отсюда...",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "So, we've gotta find a way into the tr- the tree...",
+      "ru": "Ну, значит, надо найти способ попасть в- в дерево...",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "Ha, I- I'm not exactly a wood- woodcutting expert... maybe it'd have been smart to ask Mora t- to- to join us?",
+      "ru": "Ха, я н- не то чтобы большой мастер по рубке деревьев... может, стоило позвать с нами Мору?",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "... Do- do you have any ideas? May- maybe you could break through with a sp- spe- spell?",
+      "ru": "... У тебя е- есть идеи? М- может, получится пробиться §#55FFFFз- з- заклинанием§r?",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Maybe you could break through with a sp- spe- spell?",
+      "ru": "Может, ты сможешь пробиться з- з- заклинанием?",
+      "speaker": "Zeph",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "Woah! What just happened?!",
+      "ru": "Воу! Что это сейчас было?!",
+      "speaker": "Zeph",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "... Do- do you think the t- tr- the tree heard me earlier? Is it...",
+      "ru": "...Т- ты думаешь, д- де- дерево раньше меня услышало? Оно что...",
+      "speaker": "Zeph",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "This- th- this has to be a sign! Come on, let's go in!",
+      "ru": "Это... э- это же точно знак! Пошли, внутрь!",
+      "speaker": "Zeph",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "Th- th- there! That should- sh- should be a big enough chunk for Mora... right?",
+      "ru": "В- в- вот! Этого... этого куска Море ведь хватит... да?",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "A- and- you're still not fast enough to beat me to th- th- to the end!",
+      "ru": "И- и ты всё равно недостаточно быстрый, чтобы обогнать меня до конца!",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "Okay, next... We- weapons are usually made of m- me- metal, right? That's why Mora has a f- fo- a forge.",
+      "ru": "Ладно, дальше... Ор- оружие ведь обычно делают из м- ме- металла, да? Потому у Моры и есть к- ку- кузница.",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "...I have a- an- an idea! Let's meet up near Espren, wh- where we first met.",
+      "ru": "...У меня п- п- появилась идея! Давай встретимся §#55FFFFу Эспрена§r, т- там, где мы впервые встретились.",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "O- okay, so. The crown usually uses t- ti- titanium for their equipment. Th- that's what Mora says, at least.",
+      "ru": "Л- ладно, значит так. Корона обычно использует т- ти- титан для своего снаряжения. По крайней мере, так говорит Мора.",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "But- b- but, it can be hard to come by, b- be- because the crown keeps most of it for themselves.",
+      "ru": "Но- но достать его сложно, п- п- потому что Корона держит почти весь титан у себя.",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "Luckily, it's F- F- Festival time, so a bunch of m- merchants are in town! And they're fr- from all over the p- pr- province, not just here!",
+      "ru": "К счастью, сейчас Ф- Фестиваль, так что в городе полно т- торговцев! И они с- съехались со всей п- пр- провинции, а не только отсюда!",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "So someone m- must have titanium, somewhere... we'll j- just- just have to look around.",
+      "ru": "Значит, у кого-то т- точно есть титан... надо просто п- по- поискать.",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "Ah! Th- that- that's the Sovereign!",
+      "ru": "А! Э- эт- это Сюзерен!",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "...and alongside that, does she really think it's safe to hold the festival right now, sir? That opens up a really big risk!",
+      "ru": "...и кроме того, он правда считает, что сейчас безопасно проводить фестиваль, сэр? Это же огромный риск!",
+      "speaker": "Xao",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "What do you th- th- think they're t- talking about? Come on, let- l- let's shadow them.",
+      "ru": "Как д- ду- думаешь, о чём они г- говорят? Давай... давай §#55FFFFпроследим §rза ними.",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "If the cursed thinks they can get past both myself and Her Majesty, they're out of their vector. You don't need to worry about the people.",
+      "ru": "Если проклятые думают, что смогут пройти и мимо меня, и мимо Её Величества, то у них совсем вектор сбит. О людях можешь не беспокоиться.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "I was more worried about... ...um... W-well, never mind that! If you think we'll all be safe, sir, I'll take you at your word!",
+      "ru": "Я больше беспокоился о... ...эм... Л- ладно, неважно! Если вы считаете, что мы все будем в безопасности, сэр, я вам поверю!",
+      "speaker": "Xao",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "Let me rephrase you don't need to worry about anyone. ...heh. Any wait. What's that noise?",
+      "ru": "Скажу иначе: тебе вообще не о ком беспокоиться. ...хех. Погоди. Что за шум?",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "Just someone out on a random walk? Back to the point is everything for the festival shaping up according to schedule?",
+      "ru": "Просто кто-то мимо шатается? Ладно, вернёмся к делу: всё к фестивалю идёт по расписанию?",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "Oh yes! Yes it is, sir! The vendors have all been assigned, the game stands have all been constructed, we've commissioned a local band... The one you liked last year!",
+      "ru": "О да! Да, сэр! Торговцев уже распределили, игровые палатки все поставлены, местную группу мы тоже позвали... ту самую, что вам в прошлом году понравилась!",
+      "speaker": "Xao",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "Golden. That rendition of \"CHASE\" is what really sold me on them.",
+      "ru": "Вот это отлично. Их версия \"Погони\" меня окончательно тогда и купила.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "That just leaves your speech, sir! Have you Oh, who am I kidding, you already have it memorized.",
+      "ru": "Остаётся только ваша речь, сэр! Вы уже... хотя кого я обманываю, вы наверняка и так всё наизусть знаете.",
+      "speaker": "Xao",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "Naturally, Xao. We have the whole festival set down to the last point, it looks like. Any more business to factor out?",
+      "ru": "Разумеется, Сяо. Похоже, у нас весь фестиваль уже разложен до последней детали. Есть ещё что-то, что надо учесть?",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "Yes, sir! I've received word that Inquisitor Renn will be arriving tonight, as you sent me to request for!",
+      "ru": "Да, сэр! Мне сообщили, что Инквизитор Ренн прибудет сегодня ночью, как вы и велели запросить!",
+      "speaker": "Xao",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "Fantastic job. I have to remember that the Inquisitors aren't like me. When they're busy they can't just go triple-time... Still, good to have that problem solved.",
+      "ru": "Отличная работа. Надо не забывать, что Инквизиторы - не я. Когда они заняты, не могут просто взять и работать втрое быстрее... Но всё равно хорошо, что эта проблема решена.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "You know, they should check your work. This is proof positive they can keep pace with me like you can.",
+      "ru": "Знаешь, им бы стоило проверить, как ты работаешь. Это прямое доказательство того, что они за мной так же не поспевают, как и ты.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "Well! Sir! You know I've had to insist you stop and rest sometimes, and Inquisitors do serve the whole rest of the province, so...",
+      "ru": "Ну! Сэр! Вы же знаете, мне и так приходится заставлять вас хотя бы иногда отдыхать, а Инквизиторы ещё и на всю остальную провинцию пашут, так что...",
+      "speaker": "Xao",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Hmm... ev- even with us r- r- raiding Nixeph, he isn't concerned...",
+      "ru": "Хмм... д- даже после того, как мы н- на- налетели на Никсеф, он вообще не переживает...",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "A- and- an Inquisitor! Th- that- that's not good. We need to tell the others to be c- ca- careful...",
+      "ru": "И- и Инквизитор! Э- это... это плохо. Надо п- предупредить остальных, чтобы были о- ос- осторожнее...",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "Oh! R- r- right! You're not from here. They're, uh, b- b- bad news. They're sent to d- d- deal with... um, c- cursed ones, and other s- si- similar stuff.",
+      "ru": "О! Т- т- точно! Ты же не отсюда. Это, эм, п- плохая новость. Их отправляют р- р- разбираться с... эм... п- проклятыми и всяким т- та- таким.",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "If one's a- around... we have to b- be careful. But, since w- we- since we're here, we should still find the t- ti- titanium.",
+      "ru": "Если один из них р- рядом... нам надо быть о- осторожнее. Но раз уж мы уже здесь, т- т- титан всё равно надо найти.",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "There's a b- b- bazaar in the tunnel... if anyone wi- will have it, they'll be there.",
+      "ru": "В туннеле есть §#55FFFFб- ба- базар§r... если у кого и будет титан, то там.",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "Fine quality metals, fine quality metals for Ah, hello, hello! Might you be interested in my stock, friends?",
+      "ru": "Металлы отличного качества, металлы отличного качества для... А, здрасьте-здрасьте! Друзья, не желаете взглянуть на мой товар?",
+      "speaker": "Metal Merchant",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "I've got all sorts for sale. Ingots, pre-made bangles and bracelets and trinkets I've got hold of this lovely iron leaf, in fact. Quite fine decor, I might think!",
+      "ru": "У меня тут всё подряд. Слитки, готовые браслеты, побрякушки, а ещё вот этот милый железный листочек. Очень даже хорошая декорация, как по мне!",
+      "speaker": "Metal Merchant",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "Hello! We're a- ac- actually looking for titanium! Would you h- ha- happen to have any in stock?",
+      "ru": "Здравствуйте! Мы во- во- вообще-то ищем титан! У вас, сл- случайно, не найдётся?",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "Aha, you're in luck then! I've managed to obtain some from a passing Hyloch merchant! Straight from the Highlands and so I'm told, quite good quality!",
+      "ru": "Вам повезло! Я как раз купил немного у проезжего торговца из Хайлока. Прямо из Нагорья, как мне сказали, и отменного качества!",
+      "speaker": "Metal Merchant",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "I think the man was struck dumb by the offer of leaves I handed in return, he left with such a bewiledered face but I digress! Would you like ingots, or anything pre-hewn?",
+      "ru": "Когда я предложил ему листья в оплату, он будто лишился дара речи. Ушёл с таким растерянным видом... Но я отвлёкся! Вам слитки нужны или уже обработанный металл?",
+      "speaker": "Metal Merchant",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "Uh... just- j- just some ingots would be fine.",
+      "ru": "Эм... просто... просто слитки подойдут.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "Indeed, then! It is always fine to see those interested in the crafting trades. For this, I might say ten Liff Leaves would be an agreeable price, yes?",
+      "ru": "Вот и отлично! Всегда приятно видеть тех, кто интересуется ремеслом. Думаю, десять листьев Лиффа за это будет вполне честной ценой, да?",
+      "speaker": "Metal Merchant",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "Ten!? Oh, f- fine... you said it's h- high- high quality? It's pr- probably worth the price. Here.",
+      "ru": "Десять!? О, л- ладно... ты сказал, что оно в- вы- высокого качества? Н- наверное, цена того стоит. Вот.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "Indeed, friend, so I have been assured! May you have fine fortune in your endeavors!",
+      "ru": "Именно так, друг, меня в этом заверили! Удачи вам в ваших делах!",
+      "speaker": "Metal Merchant",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "<playername>, let's go.",
+      "ru": "<playername>, пошли.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "Hm... I d- don't- I don't think titanium is meant to have th- these purple streaks...",
+      "ru": "Хм... я н- не думаю... титан ведь не должен быть с т- такими фиолетовыми прожилками...",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "But I- I- I'm not the blacksmith, so... a- a- and it's not like anyone else is s- se- selling titanium, so.",
+      "ru": "Но я- я- я не кузнец, так что... д- да и не то чтобы тут кто-то ещё титаном торговал, так что...",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "Huh? Oh, r- r- right, I keep forgetting you don't know e- ev- everything around here.",
+      "ru": "А? О, т- т- точно, я всё время забываю, что ты не знаешь тут вообще всего.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "The Auburn F- Fo- Forest may be a poorer area, so we d- do- don't have many emeralds...",
+      "ru": "А-Аубёрнский л-л-лес - место небогатое, так что и изумрудов у нас немного...",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "But we make up for it by u- u- using all the varied m- materials from the forest! People here v- val- value things from the wild more than e- em- emeralds.",
+      "ru": "Но мы это компенсируем т- тем, что используем кучу разных м- материалов из леса! Люди здесь ц- це- ценят вещи из дикой природы сильнее, чем и- из- изумруды.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "Liff Leaves especially are in high d- d- demand due to their versatility.",
+      "ru": "Особенно высоко ценятся листья Лиффа - из-за того, что они много где годятся.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "You don't need a- an- anything else? Then I'm r- ready to go.",
+      "ru": "Тебе б- б- больше ничего не нужно? Тогда я г- готов идти.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "Want to tr- travel back with me?",
+      "ru": "Хочешь в- вернуться со мной?",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "Alrighty! Let's go.",
+      "ru": "Ладно! Пошли.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "Okay! I'll m- m- meet you later, then.",
+      "ru": "Хорошо! Тогда в- встретимся позже.",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "We're back!",
+      "ru": "Мы вернулись!",
+      "speaker": "Zeph",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "Ah! Good, you're just in time.",
+      "ru": "А! Хорошо, вы как раз вовремя.",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "Uh... in time for wh- what? A- and- and where is everybody?",
+      "ru": "Эм... вовремя д- для чего? И... и где все?",
+      "speaker": "Zeph",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "Have you forgotten? The Festival of the Queen is about to start!",
+      "ru": "Забыл, что ли? Сейчас начнётся Фестиваль Королевы!",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "Wh- th- that was today?! Oh, man, I g- g- got so excited about the m- m- the ma- magic... I forgot!",
+      "ru": "Ч-что, это с-сегодня?! Ох, я т-так увлёкся м-м-магией... что забыл!",
+      "speaker": "Zeph",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "Wait... w- wait, before I go Syndra, we o- ov- overheard something in town. The S- S- Sovereign said an In- Inquisitor would be arriving t- t- tonight!",
+      "ru": "Погоди... п- погоди, Синдра, перед тем как я уйду. Мы в городе п- под- подслушали кое-что. С- Сюзерен сказал, что И- Инквизитор прибудет с- сегодня ночью!",
+      "speaker": "Zeph",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "...ah. Well, that pushes ahead our timeline significantly...",
+      "ru": "...ах. Что ж, это заметно сдвигает наши сроки...",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "Hopefully, they're just here to clear out that cave you found the crystals in, but... better to be safe than sorry.",
+      "ru": "Будем надеяться, что они здесь лишь затем, чтобы зачистить ту пещеру, где вы нашли кристаллы, но... лучше перестраховаться.",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "That can wait until after the festival, though. You should go on ahead an enjoy yourself.",
+      "ru": "Но с этим можно разобраться и после фестиваля. Иди пока и попробуй хоть немного отдохнуть.",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "...if you s- s- say so, Syndra. <playername>, you should c- come to the festival too! See you there!",
+      "ru": "...Если т- ты так г- говоришь, Синдра. <playername>, тебе т- тоже стоит прийти на фестиваль! Увидимся там!",
+      "speaker": "Zeph",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "Ah... there he goes. Well, what do you say? Will you join us for the festival?",
+      "ru": "Ах... уже умчался. Ну так что скажешь? Присоединишься к нам на фестивале?",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "It is a celebration of the crown... but you have a limited time here, and it is still a part of our culture. You wouldn't want to miss it.",
+      "ru": "Это, конечно, праздник Короны... но времени у тебя тут мало, а это всё же часть нашей культуры. Не стоит такое пропускать.",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "It's a day for everyone to relax and enjoy themselves. The children certainly do... it's good for them, I think, to have some normalcy.",
+      "ru": "Это день, когда все могут расслабиться и немного порадоваться жизни. Дети уж точно... и, думаю, им полезно иметь хоть что-то нормальное.",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "I'll finish packing some things here, then I'll head on over. You should meet me there. If you head south, the river will lead you right to it.",
+      "ru": "Я тут ещё кое-что соберу и потом тоже подойду. §bВстретимся там§r. Иди на §bюг§r - река прямо к месту выведет.",
+      "speaker": "Syndra",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "I'll head on over soon. I just need to take care of some things before I leave.",
+      "ru": "Я скоро тоже подойду. Просто надо ещё закончить тут пару дел.",
+      "speaker": "Syndra",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "You're here! Allow me to welcome you to the annual Festival of the Crown.",
+      "ru": "А, ты здесь! Добро пожаловать на ежегодный Фестиваль Короны.",
+      "speaker": "Syndra",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "I have some business to attend to, so Zeph, would you be able to show <playername> around?",
+      "ru": "Мне нужно кое-чем заняться, так что, Зеф, не покажешь <playername> всё вокруг?",
+      "speaker": "Syndra",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "Sure! L- le- let's go!",
+      "ru": "Конечно! П- п- пошли!",
+      "speaker": "Zeph",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "So there's some g- games over there... and right here is the f- foo- food and beverages s- s- stand!",
+      "ru": "Вон там у нас и- игры... а прямо тут лавка с е- едой и н- напитками!",
+      "speaker": "Zeph",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "They sell re- r- regional food and drinks. And, a- ac- according to Rex... they've even im- im- imported some fancy alcohol from the h- high- highlands!",
+      "ru": "Там продают м- ме- местную еду и напитки. И, к- к- как говорит Рекс... они даже завезли какой-то модный алкоголь из Н- На- Нагорья!",
+      "speaker": "Zeph",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "Here are some at- attractions, and an animal exhibit! I, uh, d- d- don't- I don't like the Mudkins game very much...",
+      "ru": "А тут ат- аттракционы и звериная выставка! Я, эм... н- не очень люблю игру с Грязнеплодами...",
+      "speaker": "Zeph",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "I th- think I saw Sui back there, so... I'm gonna h- ha- hang out with her. You sh- should check out some of the stalls!",
+      "ru": "К- кажется, я видел Суи там, сзади. П- пойду побуду с ней. А ты пока осмотри лавки!",
+      "speaker": "Zeph",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "...thank you, Jiro. It's always good to hear from",
+      "ru": "...спасибо, Джиро. Всегда приятно получать вести от",
+      "speaker": "Syndra",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "Ahem! Hello, stranger.",
+      "ru": "Кхм! Здравствуй, чужак.",
+      "speaker": "Jiro",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "Hm? Oh, that's just <playername> they're who I was hoping to write to Quill about. <playername>, this is Jiro, my contact from the Roughworks.",
+      "ru": "Хм? А, это просто <playername> - как раз о нём я и хотела написать Квиллу. <playername>, это Джиро, мой связной из Роухворкса.",
+      "speaker": "Syndra",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "Ah. Well, it's good to meet you then.",
+      "ru": "А. Что ж, тогда приятно познакомиться.",
+      "speaker": "Jiro",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "Quill is... an old friend. It can be hard for us to stay in contact... discretely... so we often send messages this way.",
+      "ru": "Квилл... старый друг. Нам бывает непросто держать связь... незаметно... так что мы часто передаём сообщения вот так.",
+      "speaker": "Syndra",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "Wasn't going to use my yearly rail pass for anything anyway, so might as well.",
+      "ru": "Я и так не собирался тратить свой ежегодный железнодорожный пропуск ни на что полезное, так что почему бы и нет.",
+      "speaker": "Jiro",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "Well, it's more than I'm able to do, so I appreciate it. In any case, Quill runs his own... organization, shall we say.",
+      "ru": "Ну, это всё равно больше, чем могу сделать я, так что я благодарна. В любом случае, у Квилла есть своя... организация, скажем так.",
+      "speaker": "Syndra",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "...huh? You don't know the",
+      "ru": "...а? Вы что, не знаете",
+      "speaker": "Jiro",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "The Roughworks is the region directly to the south of here, just past the wall. Officially, it's known as the Industrial District.",
+      "ru": "Роухворкс - это регион сразу к югу отсюда, сразу за стеной. Официально он называется Индустриальный Округ.",
+      "speaker": "Syndra",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "I can fill you in on it later. This isn't the place for it.",
+      "ru": "Позже я тебе всё объясню. Сейчас не то место.",
+      "speaker": "Syndra",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "...ahem. Should we get back to it, then?",
+      "ru": "...кхм. Ну что, вернёмся к делу?",
+      "speaker": "Jiro",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "We should. <playername>, take a look around the stalls and come back later.",
+      "ru": "Да. <playername>, походи пока по лавкам и потом возвращайся.",
+      "speaker": "Syndra",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "<playername>, take a look around the stalls and come back later.",
+      "ru": "<playername>, походи пока по лавкам и потом возвращайся.",
+      "speaker": "Syndra",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "Heeey!",
+      "ru": "Ээээй!",
+      "speaker": "Highlands Tourist",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "You're here visiting too I see!",
+      "ru": "Вижу, ты тоже сюда отдохнуть приехал!",
+      "speaker": "Highlands Tourist",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "I plan on touring the whole festival this year around. Next up for me is the Industrial District!",
+      "ru": "В этом году я собираюсь обойти вообще весь фестивальный круг. Следом у меня Индустриальный Округ!",
+      "speaker": "Highlands Tourist",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "But the Auburn festival is known for the best food and beverages around the province. Trust me! Those rumours are true.",
+      "ru": "Но фестиваль в Аубёрне славится лучшей едой и выпивкой во всей провинции. Поверь мне! Эти слухи не врут.",
+      "speaker": "Highlands Tourist",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0297",
+      "en": "Will that be enough boar meat, ma'am?",
+      "ru": "Этого кабаньего мяса хватит, мэм?",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0298",
+      "en": "Yes, dear. Thank you for always being so kind-hearted, helping us out each and every year.",
+      "ru": "Да, дорогая. Спасибо тебе, что каждый год помогаешь нам, да ещё и с таким добрым сердцем.",
+      "speaker": "Food Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0299",
+      "en": "No worries, Oya! Hope you sell... oh. It's you.",
+      "ru": "Да не за что, Оя! Надеюсь, вы там всё продадите... о. Это ты.",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0300",
+      "en": "...what do you want?",
+      "ru": "...чего тебе?",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0301",
+      "en": "You what? Why?",
+      "ru": "Ты чего? Зачем?",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0302",
+      "en": "Huh? I'm just here with a delivery. Nothing much.",
+      "ru": "А? Я просто по доставке пришла. Ничего особенного.",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0303",
+      "en": "...ugh, why am I humoring you?!",
+      "ru": "...ух, и чего я вообще с тобой разговариваю?!",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0304",
+      "en": "Just cause you've got everyone else wrapped around your finger, doesn't mean I have to be fine with you!",
+      "ru": "То, что ты уже всех остальных вокруг пальца обвёл, не значит, что и я должна делать вид, будто всё нормально!",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0305",
+      "en": "Everything was fine until you showed up. I- I- I'd gotten over it! I made a home here, and now- and now, you",
+      "ru": "До твоего появления всё было нормально. Я... я уже это пережила! Я устроила себе здесь жизнь, и теперь... и теперь ты",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0306",
+      "en": "And- and sure, I'm happy for Zeph, but your- your- your everything, it's got Syndra plotting, and- and we were safe, and you've ruined that.",
+      "ru": "И- и да, я рада за Зефа, но из-за всего вот этого твоего... твоего... у Синдры уже в голове планы роятся, а у нас тут хотя бы было безопасно, и теперь это тоже под откос.",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0307",
+      "en": "So... so, no, I don't have to be okay with you. I don't trust you, I don't trust where you're from, and I definitely don't trust your... your c",
+      "ru": "Так что... нет, я не обязана мириться с твоим присутствием. Не доверяю тебе, не доверяю тому месту, откуда ты пришёл, и уж точно не доверяю твоему... твоему п-",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0308",
+      "en": "...don't talk to me. Okay?",
+      "ru": "...не разговаривай со мной. Ладно?",
+      "speaker": "Rex",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0309",
+      "en": "<playername>, hey!",
+      "ru": "<playername>, эй!",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0310",
+      "en": "Did not interact with Rex:",
+      "ru": "Не говорил с Рекс:",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0311",
+      "en": "Have you seen an- any- anyone else yet?",
+      "ru": "Ты уже в- в- видел кого-нибудь ещё?",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0312",
+      "en": "I was, um, looking for Mora... earlier. I, ah, didn't find him.",
+      "ru": "Я, эм, раньше искала Мору... но, э, так его и не нашла.",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0313",
+      "en": "Interacted with Rex:",
+      "ru": "Поговорил с Рекс:",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0314",
+      "en": "We, uh, s- saw Rex run past just a bit ago. Did s- so- something happen?",
+      "ru": "Мы, эм, только что видели, как Рекс мимо пробежала. Ч- что-то случилось?",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0315",
+      "en": "I can... um, take a guess.",
+      "ru": "Я могу... эм... догадаться.",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0316",
+      "en": "An- anyway, how are you liking the f- fes- festival?",
+      "ru": "В- в общем, ну как тебе ф- фе- фестиваль?",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0317",
+      "en": "Hey, th- that's good to hear!",
+      "ru": "Эй, ну это уже хорошо!",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0318",
+      "en": "Have you, um, had the chance to, to taste any of the food? From the... food stall?",
+      "ru": "Ты, эм, уже успел попробовать что-нибудь из еды? Из... палатки с едой?",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0319",
+      "en": "Hahaha, as if th- th- there's any left after y- you- you ate so much!",
+      "ru": "Хахаха, как будто там вообще что-то осталось после того, как т- ты столько съела!",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0320",
+      "en": "Okay... well, I, I was hungry! That's... not my fault.",
+      "ru": "Ну да... я просто... я была голодная! Это... не моя вина.",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0321",
+      "en": "The dialogue branches combine here.",
+      "ru": "Здесь ветки диалога сходятся.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0322",
+      "en": "Oh... finally, someone else who, um, who gets it.",
+      "ru": "О... наконец-то хоть кто-то ещё, кто, эм, это понимает.",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0323",
+      "en": "Wh- wh- what?! Sui, you don't like the f- fes- festival?",
+      "ru": "Ч- ч- что?! Суи, тебе не н- нра- нравится фестиваль?",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0324",
+      "en": "I- I didn't, say that. It's just... a little boring. There's, um, not much to do.",
+      "ru": "Я... я не говорила, что не нравится. Просто... немного скучновато. Тут, эм, не так уж много дел.",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0325",
+      "en": "There's good f- food, fun rides a- and- and games... okay, m- maybe except the Mudkin g- game...",
+      "ru": "Тут есть х- хорошая еда, весёлые аттракционы и и- и игры... ну ладно, м- может, кроме игры с Грязнеплодами...",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0326",
+      "en": "Why don't you, um, like the Mudkins? I... I think they're fun.",
+      "ru": "А почему тебе, эм, не нравится игра с Грязнеплодами? Я... я думаю, она весёлая.",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0327",
+      "en": "They're s- s- so- there's no strategy! You j- just pick a random one, and- a- and sometimes you win!",
+      "ru": "Да там ж- ж- же вообще никакой стратегии! Ты просто тыкаешь наугад, и... и иногда выигрываешь!",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0328",
+      "en": "Um... okay? And?",
+      "ru": "Эм... ладно? И что?",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0329",
+      "en": "Unbelievable. <playername>, a- a- are you hearing this?",
+      "ru": "Невероятно. <playername>, т- ты это слышишь вообще?",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0330",
+      "en": "Okay, wh- whatever... Sui, let's go t- try out the zipline. I wonder if th- th- they changed it this year.",
+      "ru": "Ладно, н- неважно... Суи, пойдём спустимся по т- тросу. Интересно, они что-нибудь поменяли в этом году?",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0331",
+      "en": "...could we, um, get food first? I'm hungry.",
+      "ru": "...может, мы сначала, эм, поедим? Я голодная.",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0332",
+      "en": "A- ag- again?! No, we should do the z- z- zipline first. I don't want you th- thr- throwing up all over me.",
+      "ru": "О- опять?! Нет, сначала спуск по т- тросу. Не хочу, чтобы тебя потом на меня вырвало.",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0333",
+      "en": "Oh, shut it. Dummy.",
+      "ru": "Ой, завались. Дурак.",
+      "speaker": "Sui",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0334",
+      "en": "You kn- know I'm right! Oh, uh, <playername>, you can j- j- join us if you want! It's fun, I pr- promise.",
+      "ru": "Ты же з- знаешь, что я прав! Ой, эм, <playername>, можешь п- п- пойти с нами, если хочешь! Там весело, о- обещаю.",
+      "speaker": "Zeph",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0335",
+      "en": "I absolutely love the music.",
+      "ru": "Мне безумно нравится музыка.",
+      "speaker": "Festival Goer",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0336",
+      "en": "The Espren orchestra is definitely the best in all of Fruma! Well, not that I've heard any other orchestras.",
+      "ru": "Оркестр Эспрена - точно лучший во всей Фруме! Хотя... если честно, других оркестров я и не слышал.",
+      "speaker": "Festival Goer",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0337",
+      "en": "Aha! Hello there, <playername>! Enjoying our festival, are you?",
+      "ru": "Ага! Здравствуй, <playername>! Ну как, нравится наш фестиваль?",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0338",
+      "en": "I trust you and Zeph have acquired all the necessary materials in the time since we last spoke?",
+      "ru": "Надеюсь, с тех пор как мы в последний раз говорили, вы с Зефом успели достать все нужные материалы?",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0339",
+      "en": "As soon as the festival concludes, I shall get right to smithing. I have a good feeling about this one!",
+      "ru": "Как только фестиваль закончится, сразу возьмусь за ковку. Есть у меня хорошее предчувствие!",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0340",
+      "en": "I, ah... am still learning. But I have greatly improved since I started, worry not!",
+      "ru": "Я, э... всё ещё учусь. Но с тех пор как начал, сильно вырос, не переживай!",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0341",
+      "en": "...ehm. I suppose I should return to my report...",
+      "ru": "...кхм. Пожалуй, мне стоит вернуться к своему отчёту...",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0342",
+      "en": "Hm? Ah, yes, I forget this is your first year. First week, even.",
+      "ru": "Хм? А, да, я забываю, что для тебя это первый год. Да что там, первая неделя даже.",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0343",
+      "en": "I am... gathering data. Recording the changes since last year's festival guard positioning and numbers, types of stands, amount of attendees and so on.",
+      "ru": "Я... собираю данные. Записываю изменения с прошлого фестиваля: расположение и численность стражи, виды палаток, количество посетителей и всё такое.",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0344",
+      "en": "It is... perhaps unnecessarily thorough. Much of this data has not proven to be useful thus far... but it is something for me to do, and I do it well.",
+      "ru": "Возможно... это даже чересчур подробно. Пока что большая часть этих данных мне толком не пригодилась... но это хоть какое-то дело. И делаю я его хорошо.",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0345",
+      "en": "These festivals... I suppose our discomfort is something Syndra and I share. It can be hard for us to enjoy ourselves, knowing what we do.",
+      "ru": "Эти фестивали... думаю, в этом мы с Синдрой похожи. Нам трудно веселиться, зная то, что знаем мы.",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0346",
+      "en": "I am grateful that the younger Leaves can still find joy here. Perhaps you might as well, given your... relative lack of history.",
+      "ru": "Я рад, что молодые Листья ещё умеют тут радоваться. Может, и ты тоже сможешь - учитывая, что за спиной у тебя... не так уж много местной истории.",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0347",
+      "en": "Ah, but I am rambling. If you will excuse me, I need to get back to... counting all the new food items... hm.",
+      "ru": "Ах, что-то я разговорился. Если позволишь, мне надо вернуться к... подсчёту всех новых видов еды... хм.",
+      "speaker": "Mora",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0348",
+      "en": "Welcome. Can I interest you in buying anything?",
+      "ru": "Добро пожаловать. Не хочешь что-нибудь купить?",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0349",
+      "en": "Perhaps you would like to hear what we have to offer?",
+      "ru": "Может, хочешь сначала послушать, что у нас вообще есть?",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0350",
+      "en": "What do you say?",
+      "ru": "Ну как?",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0351",
+      "en": "We are selling both the raw ingredients and some freshly brewed tea.",
+      "ru": "У нас есть и сами ингредиенты, и свежезаваренный чай.",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0352",
+      "en": "Let me bring you on a history lesson to learn about the finest ingredients the forest has to offer.",
+      "ru": "Давай расскажу немного о лучших дарах нашего леса и их истории.",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0353",
+      "en": "Tea is very popular in Auburn and the people have managed to make tea out of almost any plant you can find! Some are... more tasty than others.",
+      "ru": "Чай в Аубёрне очень популярен, и люди тут умудряются заваривать почти всё, что только растёт вокруг! Правда, кое-что выходит... вкуснее остального.",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0354",
+      "en": "The Reishi Mushroom for example! Brewing tea of the mushroom alone often turns... bitter. With the help of herbs and spices it goes from a bitter to a rich spicy flavour!",
+      "ru": "Например, гриб рейши! Если заваривать только его, чай часто получается... горьковатым. Но если добавить трав и специй, вкус становится глубоким, пряным и очень насыщенным!",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0355",
+      "en": "The mushroom itself is said to keep you healthy. It is also said to boost your resistances!",
+      "ru": "Говорят, сам по себе этот гриб помогает сохранять здоровье. Ещё говорят, что он повышает сопротивляемость!",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0356",
+      "en": "The Tea Tree Mushroom on the other hand is perfect for a good tea blend. The mushroom alone gives it a sweet and earthy flavour.",
+      "ru": "А вот гриб чайного дерева, наоборот, идеально подходит для хорошей чайной смеси. Даже сам по себе он даёт сладковатый, земляной вкус.",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0357",
+      "en": "The mushroom is also said to regenerate you back to health and alleviate the feeling of tiredness! How amazing.",
+      "ru": "Ещё говорят, что он помогает восстановиться и снимает усталость! Ну разве не чудо?",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0358",
+      "en": "If you feel like buying something, please talk to my assistant.",
+      "ru": "Если захочешь что-нибудь купить, поговори с моим помощником.",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0359",
+      "en": "Alright! Enjoy the festival.",
+      "ru": "Ладно! Наслаждайся фестивалем.",
+      "speaker": "Tea Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0360",
+      "en": "*Hic* Aheyo!",
+      "ru": "*Ик* Аэээй!",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0361",
+      "en": "It's festival time! *hic* that means... drinking time!!!",
+      "ru": "Фестиваль же! *ик* А значит... пора поднимать кружки!!!",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0362",
+      "en": "Inteeeerested in any of our mouth-watering beverages?",
+      "ru": "Не интересуют лииии тебя наши дивные напиточки?",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0363",
+      "en": "*Hic* Todaaaay, we have a couple of imported drinks as well as our classic Autumn Amaretto.",
+      "ru": "*Ик* Сегоооодня у нас есть пара привозных напитков, а ещё наш классический Осенний Амаретто.",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0364",
+      "en": "Seen them blue fruits in the trees around here? Most of 'em are inedible Liffberries, buuut, some of 'em are actually a more edible fruit called Autumn Fruit, which carry a high value!",
+      "ru": "Видал эти синие плоды на деревьях вокруг? Большинство - несъедобные ягоды Лиффа, нооо некоторые из них - вполне съедобные Осенние Фрукты, и ценятся они будь здоров!",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0365",
+      "en": "The Amaretto is made from Autumn Fruit kernels! We have aaaalso mixed in some Liff Leaves which *hic* gives it its warm colour and slightly bitter and metallic taste.",
+      "ru": "Амаретто делают из косточек Осеннего Фрукта! Мы ещщщё добавляем туда листья Лиффа, и это *ик* даёт напитку тёплый цвет и лёгкий горьковато-металлический привкус.",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0366",
+      "en": "Isn't alcohol making interesssting *hic*!",
+      "ru": "Правда же алкоголь делать интересненько *ик*!",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0367",
+      "en": "We have also imported the faaaamed Heather Beer from the rich highlands.",
+      "ru": "Ещё мы завезли знамениитое Вересковое Пиво из богатого Нагорья.",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0368",
+      "en": "A beer infused with the most beautiful heather grown across the highlands. *hic* You can almost taste the richness of the aristocrats.",
+      "ru": "Пиво, настоянное на лучшем вереске, что растёт по всем Нагорьям. *ик* Почти чувствуешь на языке всю эту роскошь аристократов.",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0369",
+      "en": "*hic* If I were you, I would deeefinitely try this drink. Stuff like this doesn't come to Auburn often.",
+      "ru": "*ик* На твоём месте я бы точно попробовал. Такое в Аубёрн часто не завозят.",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0370",
+      "en": "If you feel like blessing your taste buds, talk to my brother over there. *hic*",
+      "ru": "Если захочешь благословить свои вкусовые рецепторы - поговори вон с моим братом. *ик*",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0371",
+      "en": "*hic* Your loss!",
+      "ru": "*ик* Ну и зря!",
+      "speaker": "Alcohol Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0372",
+      "en": "Hi dear. Feeling peckish?",
+      "ru": "Привет, дорогой. Проголодался?",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0373",
+      "en": "We have freshly cooked and baked regional goods.",
+      "ru": "У нас свежеприготовленные и свежевыпеченные местные блюда.",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0374",
+      "en": "Would you like to hear about our menu, dear?",
+      "ru": "Хочешь послушать про наше меню, дорогой?",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0375",
+      "en": "Just perfect! Auburn is famous for their bold, earthy and cosy flavours!",
+      "ru": "Вот и славно! Аубёрн славится насыщенными, тёплыми вкусами лесных даров!",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0376",
+      "en": "We also love to cook using our wild animals and resources, but I'm sure you already know all of this, haha.",
+      "ru": "Мы ещё очень любим готовить из местной дичи и лесных даров, но, думаю, ты и сам это уже знаешь, ха-ха.",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0377",
+      "en": "Let me go over some of our special dishes for today, dear.",
+      "ru": "Давай я расскажу тебе про наши сегодняшние особые блюда, дорогой.",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0378",
+      "en": "The most important dish in Auburn, is of course the \"Gift of the Forest\". A wonderful meat and fruit mixture inside a steamed leaf wrap.",
+      "ru": "Главное блюдо Аубёрна - конечно же, \"Дар Леса\". Чудесная смесь мяса и фруктов, завернутая в пропаренный лист.",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0379",
+      "en": "We have hand wrapped all of our gifts this morning and they are steamed to go!",
+      "ru": "Сегодня утром мы вручную завернули все наши \"дары\", и они уже готовы к подаче!",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0380",
+      "en": "If that doesn't interest you, we also have the classic \"Forest Feast\". A grilled piece of boar meat with a mud-kin salad.",
+      "ru": "Если это тебе не по душе, у нас есть и классический \"Лесной Пир\" - жареный кусок кабаньего мяса с салатом из грязнеплодов.",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0381",
+      "en": "I'm afraid we have run out of ingredients at the moment. Please come back later!",
+      "ru": "Боюсь, у нас сейчас закончились ингредиенты. Загляни попозже!",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0382",
+      "en": "Have a lovely day.",
+      "ru": "Хорошего тебе дня.",
+      "speaker": "Food Stand Merchant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0383",
+      "en": "Hey! You look like a tourist to me!",
+      "ru": "Эй! На туриста похож!",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0384",
+      "en": "I'm glad you decided to check out my little exhibition here.",
+      "ru": "Рад, что ты решил заглянуть на мою маленькую выставку.",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0385",
+      "en": "Is it your first time in this part of the region? Would you perhaps like to hear some fun facts about our animals?",
+      "ru": "Ты впервые в этой части региона? Может, хочешь послушать пару занятных фактов о наших зверях?",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0386",
+      "en": "Marvelous!",
+      "ru": "Замечательно!",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0387",
+      "en": "First we have our Roly-bugs here! These little buggers are a pest to the people here.",
+      "ru": "Начнём с жуков-катышей! Эти маленькие вредители доставляют местным немало хлопот.",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0388",
+      "en": "They love gnawing on our houses. Luckily, we built most of our structures on stilts aaaand those bugs can't climb.",
+      "ru": "Они обожают грызть наши дома. К счастью, мы ставим большинство построек на сваи, аааа эти жуки карабкаться не умеют.",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0389",
+      "en": "Now! Frogs! The north-western bog is the best place for frog-watching. Just be careful of the bog monster.",
+      "ru": "А теперь! Лягушки! Северо-западное болото - лучшее место, если хочешь на них посмотреть. Только берегись болотного чудища.",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0390",
+      "en": "Frogs might be a good source of food but we like to see them more as... pets!",
+      "ru": "Лягушки, конечно, могли бы быть неплохой едой, но мы предпочитаем считать их... питомцами!",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0391",
+      "en": "Lastly, we have foxes! These little cuties are very shy in nature. But beware, there are bigger versions of them, known as Foxhounds.",
+      "ru": "И напоследок лисы! Эти милые крохи по натуре очень пугливы. Но берегись их крупных сородичей, лисогончих.",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0392",
+      "en": "Those are not as shy... or peaceful, as their smaller cousins. They are just as cute though!",
+      "ru": "Они уже не такие пугливые... и не такие мирные, как их мелкие родичи. Но милые всё равно!",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0393",
+      "en": "Please have a looksie around! You can also pet them.",
+      "ru": "Погляди тут как следует! Их даже можно гладить.",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0394",
+      "en": "Have a loooovely day!",
+      "ru": "Прекрааасного дня!",
+      "speaker": "Zoo Keeper",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0395",
+      "en": "Howdy and welcome to a mudkin farm!",
+      "ru": "Здаров и добро пожаловать на ферму грязнеплодов!",
+      "speaker": "Kabo",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0396",
+      "en": "Mudkins are popular vegetables in food around here. They grow underground and you have to yoikn em' out!",
+      "ru": "Грязнеплоды тут очень популярны в еде. Растут под землёй, и их надо просто дёргать оттуда!",
+      "speaker": "Kabo",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0397",
+      "en": "Are ya interested in a game of Mudkin Picking?",
+      "ru": "Хочешь сыграть в выдёргивание грязнеплодов?",
+      "speaker": "Kabo",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0398",
+      "en": "Basically, ye goal is to get as many points as possible before the time runs out.",
+      "ru": "Короче, цель - набрать как можно больше очков, пока время не вышло.",
+      "speaker": "Kabo",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0399",
+      "en": "There are three sizes of Mudkins, each size gives a set of points. However! There are two ginger roots that give negative points.",
+      "ru": "Есть три размера грязнеплодов, за каждый дают разное количество очков. Но! Есть ещё два корня имбиря, и за них очки снимают.",
+      "speaker": "Kabo",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0400",
+      "en": "Simply click on the dirt particles appearing in the field. There are five spots for ya to pick.",
+      "ru": "Просто жми на земляные всплески, которые будут появляться на поле. Всего там пять точек.",
+      "speaker": "Kabo",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0401",
+      "en": "So! Are ya ready?",
+      "ru": "Ну что! Готов?",
+      "speaker": "Kabo",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0402",
+      "en": "Yeah sure!",
+      "ru": "Ага, давай!",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0403",
+      "en": "The game will start.",
+      "ru": "Игра начнётся.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0404",
+      "en": "Maybe later.",
+      "ru": "Может, потом.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0405",
+      "en": "Enjoy the festival!",
+      "ru": "Веселись на фестивале!",
+      "speaker": "Kabo",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0406",
+      "en": "Ah. There you are. Have you been enjoying yourself?",
+      "ru": "А. Вот ты где. Ну как, отдыхается?",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0407",
+      "en": "That's good to hear.",
+      "ru": "Рада слышать.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0408",
+      "en": "For all that the festival revolves around the crown, I've always appreciated its representation of our culture.**",
+      "ru": "Хотя фестиваль посвящён Короне, я всегда ценила то, как он отражает наши традиции.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0409",
+      "en": "I hope your experience with the crown has not ruined your perception of our province... there are still many things to celebrate.",
+      "ru": "Надеюсь, твой опыт общения с Короной не убил в тебе всё хорошее мнение о нашей провинции... здесь всё ещё есть что ценить.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0410",
+      "en": "Sometimes, it can be nice to set aside your woes, and... take things as they are. Breathe, a little.",
+      "ru": "Иногда полезно хоть ненадолго отложить свои беды в сторону и... просто принять всё как есть. Просто выдохнуть.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0411",
+      "en": "Better than nothing, I suppose.",
+      "ru": "Уже лучше, чем ничего, наверное.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0412",
+      "en": "It's hard to enjoy yourself with your experiences with the crown weighing you down, isn't it? I know the feeling.",
+      "ru": "Тяжело веселиться, когда на тебе таким грузом висит всё, что связано с Короной, да? Я это понимаю.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0413",
+      "en": "Mmn. I'd suggest to take what you can get. Happy moments like this can be fleeting, in my experience.",
+      "ru": "Мм. Я бы посоветовала брать от таких моментов всё, что дают. По моему опыту, радость - штука мимолётная.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0414",
+      "en": "If there's even the smallest spark of joy... take hold of it before it's gone. Cherish it while you still can. Try not to grow old and jaded like I have, would you?",
+      "ru": "Если есть хоть искра радости, не дай ей погаснуть. Держись за неё, пока можешь. Постарайся не стать такой же усталой, разуверившейся во всём старухой, как я, ладно?",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0415",
+      "en": "Ha! It's alright. Neither have I.",
+      "ru": "Ха! Ничего страшного. Я тоже.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0416",
+      "en": "Every year... every single year, the crown hosts these festivals. Starting here, and moving around in a ring around the province.",
+      "ru": "Каждый год... Каждый год Корона устраивает эти празднества. Начинает здесь и идёт по кругу через всю провинцию.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0417",
+      "en": "The festival's a holiday, a day of rest, of celebration. What a gift it is, not needing to work for a time! How generous.",
+      "ru": "Фестиваль - это праздник, день отдыха, день веселья. Какая щедрость, правда? Целый день можно не работать!",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0418",
+      "en": "I can't stand it here... Every year, I convince myself I can bear it. The reminder it brings, of memories long passed. Every year, I'm proven wrong.",
+      "ru": "Не выношу это место... Каждый год убеждаю себя, что выдержу. Но всё, что оно мне напоминает... Всё, что давно прошло. И каждый год оказывается, что я опять ошиблась.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0419",
+      "en": "...Ah. It's time. The main event is about to begin.",
+      "ru": "...А. Пора. Сейчас начнётся главное.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0420",
+      "en": "Why, Her Majesty's annual speech, of course! It wouldn't be a Festival of the Crown if she didn't make an appearance, would it?",
+      "ru": "Ну конечно, ежегодная речь Её Величества! Какой же это Фестиваль Короны, если она сама не появится, верно?",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0421",
+      "en": "Ha! No, no. Of course not. It wouldn't be a Festival of the Crown without a speech from Her Majesty herself, would it?",
+      "ru": "Ха! Нет, конечно нет. Это был бы не Фестиваль Короны без речи самой Её Величества, так ведь?",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0422",
+      "en": "Now... observe. Behold our enemy, take note of how she presents herself, what she says, what she doesn't say.",
+      "ru": "А теперь... смотри. Перед тобой наш враг. Следи за тем, как она себя подаёт, что говорит... и о чём молчит.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0423",
+      "en": "Ah... beloved people of the Auburn Forest! What a joy, what an honor it is to stand amongst you once again.",
+      "ru": "Ах... любимый народ Аубёрнского Леса! Какая радость, какая честь - снова стоять перед вами!",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0424",
+      "en": "Some will claim the stunning Highlands to be our most beautiful region, with its vibrant blossoming trees and grand historic castles...",
+      "ru": "Кто-то скажет, что прекраснейший край нашей страны - это Нагорья, с их пышно цветущими деревьями и величественными древними замками...",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0425",
+      "en": "But I've always held a special regard for this place. The leaves and their warm shades, blowing in the soft breeze... all the woes of the world would be worth this sight.",
+      "ru": "Но у меня всегда было особое отношение к этому месту. Листья всех этих тёплых оттенков, колышущиеся на мягком ветру... ради такого вида можно было бы и все беды мира вытерпеть.",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0426",
+      "en": "If I were able, perhaps I could stay here year-round! Ah, but alas... work in the Citadel keeps us all occupied!",
+      "ru": "Будь моя воля, я, быть может, и вовсе жила бы здесь круглый год! Но, увы... дела в Цитадели не дают нам передышки!",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0427",
+      "en": "We have many plans for the coming year. Increased imports from the other regions, easier access to travel for all, and additional openings in military positions!",
+      "ru": "На следующий год у нас много планов. Больше поставок из других регионов, проще доступ к путешествиям для всех и новые места в военной службе!",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0428",
+      "en": "More will be revealed soon. Now, some words from your beloved Sovereign.",
+      "ru": "Скоро мы раскроем больше. А теперь - несколько слов от вашего любимого Сюзерена.",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0429",
+      "en": "...ah. The one thing I miscalculated. The mic height. Oh well Testing, testing, one two three...",
+      "ru": "...ах. Единственное, что я не рассчитал. Высоту микрофона. Ладно. Проверка, проверка, раз-два-три...",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0430",
+      "en": "Welcome one and all! I'm your Sovereign, Zhiraok. It's an honor to be here before you all again today.",
+      "ru": "Добро пожаловать, все до единого! Я ваш Сюзерен, Жираок. Для меня честь снова стоять перед вами сегодня.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0431",
+      "en": "Two decades of work in the Auburn Forest. Twenty years. It feels like I've been here for so much longer this place, these people, really have become my home.",
+      "ru": "Два десятка лет работы в лесу Аубёрна. Двадцать лет. А кажется, я здесь куда дольше - это место, эти люди и правда стали моим домом.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0432",
+      "en": "My duty is not just to serve the Crown, but also to serve you. To make your lives better, to raise this region we live in to new heights.",
+      "ru": "Мой долг - не только служить Короне, но и служить вам. Делать вашу жизнь лучше. Поднимать наш регион на новые высоты.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0433",
+      "en": "Whether that's by increasing production of Liff Leaves to share our resources and knowledge the province over, which we owe to your hard work...",
+      "ru": "Будь то рост производства листьев Лиффа, чтобы делиться нашими ресурсами и знаниями со всей провинцией, и за это мы обязаны вашему труду...",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0434",
+      "en": "...or through sharpening our infrastructure to exponentiate your quality of life, in thanks for what you do!",
+      "ru": "...Или обустраиваем наши земли, чтобы ваша жизнь становилась лучше в геометрической прогрессии. В благодарность за ваш труд!",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0435",
+      "en": "I'd be here all day listing the improvements over the last year, but I'll summarize Multiple major road improvements, countless new job opportunities, multiplying guard patrols to keep you safe...",
+      "ru": "Я мог бы весь день перечислять улучшения за последний год, но скажу кратко: большие обновления дорог, бесчисленные новые рабочие места, всё больше патрулей стражи ради вашей безопасности...",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0436",
+      "en": "The place we came from twenty years ago is unrecognizable now. My vow is that twenty years ahead, I can say the same thing for how much more we, together, improve our home.",
+      "ru": "То место, каким регион был двадцать лет назад, сейчас уже не узнать. И я клянусь, что ещё через двадцать лет смогу сказать то же самое о том, как сильно мы вместе изменим наш дом к лучшему.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0437",
+      "en": "'til the day we sum up to the grandeur of Aelumia Citadel Thank you all! Enjoy the festivities!",
+      "ru": "Пока однажды мы не дотянемся до величия самой Цитадели Аэлумии! Спасибо всем! Наслаждайтесь праздником!",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0438",
+      "en": "What fine work Sovereign Zhiraok has done for our province! Truly, there could have been no better choice to fill that role!",
+      "ru": "Какую прекрасную работу проделал Сюзерен Жираок для нашей провинции! Поистине, лучшего выбора на эту роль и быть не могло!",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0439",
+      "en": "The Auburn Forest flourishes under his governance, and I could not be more pleased by the progress he has made.",
+      "ru": "Аубёрнский Лес процветает под его управлением, и я не могу не радоваться тому прогрессу, которого он добился.",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0440",
+      "en": "One final message before we conclude. These past few years, we have seen fewer and fewer reports of the cursed a sign of our strength as a people.",
+      "ru": "И напоследок ещё одно важное замечание. В последние годы сообщений о проклятых становится всё меньше и меньше - и это знак нашей силы как народа.",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0441",
+      "en": "And it is all thanks to you! Your diligent reporting of suspicious activity makes all the difference in keeping our province safe.",
+      "ru": "И всё это - благодаря вам! Благодаря вашей бдительности и вашим сообщениям о подозрительной активности наша провинция остаётся в безопасности.",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0442",
+      "en": "We must stand strong, together! We will not allow this evil its victory, we will not let our province fall like so many others have beyond our walls!",
+      "ru": "Мы должны держаться вместе и быть сильными! Мы не позволим этому злу победить, не дадим нашей провинции пасть, как пали многие другие по ту сторону стен!",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0443",
+      "en": "With that, let the celebrations begin!",
+      "ru": "А теперь - пусть праздник начнётся!",
+      "speaker": "Her Majesty",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0444",
+      "en": "Hm... The standard, then.",
+      "ru": "Хм... Всё по стандарту, значит.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0445",
+      "en": "Did anything stand out to you?",
+      "ru": "Тебе что-нибудь бросилось в глаза?",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0446",
+      "en": "Indeed, it is. It's quite puzzling, isn't it? It's a sort of reverence she never displays elsewhere.",
+      "ru": "И правда. Странно, да? В её голосе появляется какое-то почти благоговение, которого я больше нигде за ней не замечала.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0447",
+      "en": "And if there's one thing I'm certain she's being truthful about, it's this. Which only makes it all the stranger.",
+      "ru": "И если уж в чём-то я уверена, так это в том, что здесь она не врёт. От этого всё только ещё страннее.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0448",
+      "en": "Yes, yes... improvements. Life has improved since he ascended to that position. I'll give him that. He's invested in Auburn.",
+      "ru": "Да-да... улучшения. Жизнь тут и правда стала лучше с тех пор, как он занял этот пост. Этого у него не отнять. Он вложился в Аубёрн.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0449",
+      "en": "But he is still working under the crown. Don't forget that. For every improvement he has made, there's another he has left ignored.",
+      "ru": "Но он всё ещё служит Короне. Не забывай. На каждую решённую им беду найдётся другая, на которую он предпочёл закрыть глаза.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0450",
+      "en": "No, I suppose they wouldn't. Better to leave the public unaware of such failures.",
+      "ru": "Нет, конечно, они бы о таком не сказали. Лучше держать народ в неведении о подобных провалах.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0451",
+      "en": "But rest assured that internally, they have not forgotten. They will keep searching for you.",
+      "ru": "Но можешь не сомневаться: внутри системы об этом не забыли. Они продолжат тебя искать.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0452",
+      "en": "Yes... the cursed. The crown needs to keep the people afraid. If there's another enemy out there that the crown supposedly protects them from...",
+      "ru": "Да... проклятые. Короне нужно держать людей в страхе. Если снаружи есть враг, от которого якобы только она и может защитить...",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0453",
+      "en": "There's a reason they want people to believe the outside world is destroyed. Any contact could break the illusion.",
+      "ru": "Не просто так им нужно, чтобы люди верили, будто внешний мир мёртв. Любой настоящий контакт может эту иллюзию разрушить.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0454",
+      "en": "They'll be closing out the festival soon... so, our work here is done. We should be leaving before the crowd thins enough for us to be spotted.",
+      "ru": "Скоро фестиваль будут сворачивать... значит, нам тут делать больше нечего. Уходить надо до того, как толпа поредеет настолько, что нас начнут замечать.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0455",
+      "en": "I've scheduled a meeting for tomorrow I'd like for you to attend. It'll be about our next steps, now that the crown has moved on. I'll see you there.",
+      "ru": "Я назначила на завтра собрание, и хочу, чтобы ты на нём был. Будем решать, что делать дальше, теперь, когда Корона временно отстала. Увидимся там.",
+      "speaker": "Syndra",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0456",
+      "en": "Sovereign, a word?",
+      "ru": "Сюзерен, можно слово?",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0457",
+      "en": "I think I've had just about enough of people sneaking into my office. Care to knock next time?",
+      "ru": "Кажется, мне уже окончательно надоело, что люди шастают в мой кабинет без спроса. В следующий раз не хочешь сначала постучать?",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0458",
+      "en": "Mmn. It's more interesting this way. I have news from the capital your request for additional troops has been granted. Reassignments should come through by the end of the week.",
+      "ru": "Мм. Так интереснее. У меня новости из столицы: ваш запрос на дополнительный отряд одобрен. Переназначения должны пройти к концу недели.",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0459",
+      "en": "Well, that'll solve some problems. But that's not the whole message, is it? What obtuse remark has he got for me this time?",
+      "ru": "Ну, это снимет часть проблем. Но это ведь не всё сообщение, да? Какую ещё мутную шпильку он в этот раз мне передал?",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0460",
+      "en": "Merely a reminder to... \"get your act together,\" as it were.",
+      "ru": "Лишь напоминание о том, что вам бы стоило... \"взять себя в руки\", если дословно.",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0461",
+      "en": "Get my act toge That floundering fractal's developed less in his quadrant in a hundred-fifty years than I've done in two, in the last ten!",
+      "ru": "Взять себя в ру- Да эта барахтающаяся фигня за сто пятьдесят лет в своём секторе сделала меньше, чем я за последние десять - да хотя бы за два!",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0462",
+      "en": "I Ugh, focus, Z... He's not even here, don't let him get under your skin...",
+      "ru": "Я... Ух, соберись, Ж... Его здесь даже нет. Не позволяй ему выводить тебя из себя...",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0463",
+      "en": "I'll get off that tangent. If that was all you had to say, it'd be a waste of your time. What do you need to say that a courier can't send in a letter?",
+      "ru": "Ладно, не буду в это опять уходить. Если это всё, что ты хотела сказать, то ты зря сюда пришла. Что у тебя такого, чего нельзя было передать обычным письмом?",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0464",
+      "en": "The intruder. Does your administration believe it can get the situation under control?",
+      "ru": "Речь о нарушителе. Ваша администрация вообще верит, что может взять ситуацию под контроль?",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0465",
+      "en": "There it is. Listen, I've got their number, alright? There's no way in or out of the district where they won't be detected. We'll track them down.",
+      "ru": "Ну вот, дошли до главного. Слушай, я уже всё про них понял, ясно? Нет ни одного входа или выхода из округа, где их бы не засекли. Мы их вычислим.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0466",
+      "en": "Though unlike some people, my ego isn't so massive I can't recognize when an ally can be of use. Your types have an expertise here, so if you could spare a set or two of eyes it'd be much appreciated.",
+      "ru": "Но, в отличие от некоторых, моё эго не настолько раздуто, чтобы не признать, когда союзник может пригодиться. У вас в таких делах своя специализация, так что если вы сможете выделить пару глаз, я только за.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0467",
+      "en": "I'll see what I can do. There happens to be an ongoing operation in the area already, we can discuss redirecting the agent once it's concluded.",
+      "ru": "Посмотрю, что можно сделать. В этом районе как раз уже идёт одна операция, так что, когда она закончится, можно будет обсудить перенаправление агента.",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0468",
+      "en": "One last thing the identity of the intruder has been made clear to you already, yes?",
+      "ru": "И ещё кое-что напоследок: личность нарушителя вам уже раскрыли, верно?",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0469",
+      "en": "Mhm. Like I said, I've got their number.",
+      "ru": "Мгм. Я же сказал: я уже понял, кто это.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0470",
+      "en": "Then you will understand Her Majesty's order not to speak of this ordeal to our newest. Ascension is a difficult process, and it would be... unwise to add additional distractions to it.",
+      "ru": "Тогда вам будет понятен приказ Её Величества ничего не говорить об этом происшествии нашему новому Сюзерену. Вознесение даётся нелегко. Было бы... неразумно отвлекать его лишними заботами.",
+      "speaker": "???",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0471",
+      "en": "Wouldn't want to distract a hard worker like him, right. But if that's everything, Spymaster? My to-do list is getting more added by the minute.",
+      "ru": "Ну да, не хотелось бы отвлекать такого трудягу, как он. Но если это всё, Шпиономастер, то у меня список дел уже раздувается с каждой минутой.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0472",
+      "en": "What's up with Sui?",
+      "ru": "Что не так с Суи?",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0473",
+      "en": "Magic is... in everything.",
+      "ru": "Магия... во всём.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0474",
+      "en": "Probably! It should be fine.",
+      "ru": "Наверное! Всё должно быть хорошо.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0475",
+      "en": "...Hm. I guess it was alright.",
+      "ru": "...Хм. Ну, было ничего.",
+      "speaker": "Rex",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0476",
+      "en": "What's going on out here? I heard",
+      "ru": "Что тут происходит? Я слышала",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0477",
+      "en": "<playername> is show- sh- showing me some magic!",
+      "ru": "<playername> пока- по- показывает мне магию!",
+      "speaker": "Zeph",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0478",
+      "en": "... I take it you found what you were looking for then?",
+      "ru": "... Я так понимаю, вы нашли, что искали?",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0479",
+      "en": "Yup. Cursed crystals from the roly-nest.",
+      "ru": "Ага. Проклятые кристаллы из гнезда жуков-катышей.",
+      "speaker": "Rex",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0480",
+      "en": "The... of all places, you went to the roly-nest?! Did you even consider the risk?!",
+      "ru": "Из... из всех мест вы выбрали гнездо жуков-катышей?! Вы хоть подумали об опасности?!",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0481",
+      "en": "What if you were caught? We are only able to operate here because we avoid drawing attention to ourselves. If you had been seen",
+      "ru": "А если бы вас поймали? Мы можем действовать здесь только потому, что не привлекаем к себе внимания. Если бы вас заметили",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0482",
+      "en": "But we weren't. I know the shift schedule of the guards, nobody was going to stop by while we were there.",
+      "ru": "Но не поймали. Я знаю график смен стражи, никто бы там не появился, пока мы внутри.",
+      "speaker": "Rex",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0483",
+      "en": "...sigh. You children, you'll be the death of me. Fine. You found the crystals, and you weren't spotted good.",
+      "ru": "...Эх. Ох уж эти дети, в могилу меня сведёте. Ладно. Нашли кристаллы, не попались... Хорошо.",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0484",
+      "en": "Um... not to interrupt, or, anything, but... I missed the c magic. Could you... show us some more?",
+      "ru": "Эм... не хочу мешать... но... я пропустила показ магии. Можешь... §bпоказать ещё немного§r?",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0485",
+      "en": "Hmph. Impressive!",
+      "ru": "Хм. Впечатляет!",
+      "speaker": "Mora",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0486",
+      "en": "Indeed. Thank you for the demonstration, <playername>. Now, we should",
+      "ru": "Именно. Спасибо за демонстрацию, <playername>. Так, теперь нам стоит",
+      "speaker": "Syndra",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0487",
+      "en": "It would be best not to disturb right now",
+      "ru": "Сейчас лучше не беспокоить",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0488",
+      "en": "Having a weapon helps me cast spells, though.",
+      "ru": "Хотя с оружием колдовать мне проще.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0493",
+      "en": "Quill?",
+      "ru": "Квилл?",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0494",
+      "en": "The Roughworks?",
+      "ru": "Роухворкс?",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0495",
+      "en": "Saying hi!",
+      "ru": "Просто поздороваться!",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0498",
+      "en": "We did.",
+      "ru": "Уже.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0499",
+      "en": "What's the report?",
+      "ru": "Что по докладу?",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0500",
+      "en": "No, bye.",
+      "ru": "Нет, пока.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0501",
+      "en": "Yes, please!",
+      "ru": "Да, пожалуйста!",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0502",
+      "en": "The Fox seems to be fast asleep...",
+      "ru": "Лис, похоже, крепко спит...",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0503",
+      "en": "Maybe it's time to find Syndra near the stage. But there is still time to check out the festival more too...",
+      "ru": "Может, пора найти Синдру у сцены. Хотя ещё есть время побродить по фестивалю...",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0504",
+      "en": "I have!",
+      "ru": "Я уже!",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0505",
+      "en": "A little.",
+      "ru": "Немного.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0506",
+      "en": "Not really.",
+      "ru": "Не особо.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0507",
+      "en": "What's the main event?",
+      "ru": "Что за главное событие?",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0508",
+      "en": "It's not the orchestra?",
+      "ru": "Разве не оркестр?",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0509",
+      "en": "Zhiraok's speech.",
+      "ru": "Речь Жираока.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0510",
+      "en": "They didn't mention Torann.",
+      "ru": "Они не упомянули Торанн.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0511",
+      "en": "The cursed.",
+      "ru": "Проклятые.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0512",
+      "en": "New Quest Started: The Cursed One",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Проклятый",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0513",
+      "en": "Rex is right, I'm not sure this is a good idea.",
+      "ru": "Рекс права, я не уверен, что это хорошая идея.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0514",
+      "en": "Yes!",
+      "ru": "Да!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0515",
+      "en": "Yes.",
+      "ru": "Да.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Return to the resistance camp at [-2234, 24, -1191].",
+      "ru": "Вернуться в лагерь сопротивления [-2234, 24, -1191].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Teach the Leaves in the Wind magic.",
+      "ru": "Научить \"Листья на ветру\" владеть магией.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Talk to Zeph at [-2207, 26, -1181].",
+      "ru": "Поговорить с Зефом [-2207, 26, -1181].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Head to the blocked off cave at [-2310, 33, -1133].",
+      "ru": "Добраться до заваленной пещеры [-2310, 33, -1133].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Grab a crystal before you leave.",
+      "ru": "Забрать кристалл перед уходом.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return to the resistance camp at [-2234, 24, -1191].",
+      "ru": "Вернуться в лагерь сопротивления [-2234, 24, -1191].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Showcase magic by casting spells in the resistance camp.",
+      "ru": "Показать свою магию, сотворив заклинания в лагере сопротивления.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Watch Zeph attempt magic.",
+      "ru": "Понаблюдать за попытками Зефа освоить магию.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Head to the big tree and find Zeph at [<num>, <num>, <num>].",
+      "ru": "Встретиться с Зефом у большого дерева [<num>, <num>, <num>].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Head to the top of the giant tree at [<num>, <num>, <num>].",
+      "ru": "Подняться на вершину огромного дерева [<num>, <num>, <num>].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Cast a spell ontop of the tree at [-2150, 52, -1262].",
+      "ru": "Сотворить заклинание на вершине дерева [-2150, 52, -1262].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Find the wood Zeph wants at the end of the root system.",
+      "ru": "Найти нужную Зефу древесину в конце сплетения корней.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Find Zeph at [-2091, 27, -1090] near Espren.",
+      "ru": "Встретиться с Зефом неподалёку от Эспрена [-2091, 27, -1090].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Find the metal merchant at [-2006, 19, -1013].",
+      "ru": "Найти торговца металлом [-2006, 19, -1013].",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Return to the resistance camp at [-2234, 24, -1191].",
+      "ru": "Вернуться в лагерь сопротивления [-2234, 24, -1191].",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Join Syndra at the festival at [-2209, 11, -1072].",
+      "ru": "Присоединиться к Синдре на празднестве [-2209, 11, -1072].",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Complete 3 festival activities.",
+      "ru": "Поучаствовать в 3 праздничных развлечениях.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Return to Syndra at [-2150, 23, -1000] or keep exploring the festival.",
+      "ru": "Вернуться к Синдре в [-2150, 23, -1000] или продолжить гулять по празднеству.",
+      "stage": "Stage 18"
+    }
+  ],
+  "choices": [
+    {
+      "en": "I'm not sure.",
+      "ru": "Я не уверен.",
+      "stage": "Stage 9",
+      "dialogueId": "dialogue-0487",
+      "id": "choice-0001"
+    },
+    {
+      "en": "I thought you wouldn't force anyone?",
+      "ru": "Я думал, ты никого не станешь заставлять.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0002"
+    },
+    {
+      "en": "I've always needed a weapon to channel my spells.",
+      "ru": "Мне всегда нужно было оружие, чтобы направлять заклинания.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0003"
+    },
+    {
+      "en": "Magic usually drains energy when I cast spells.",
+      "ru": "Магия отнимает энергию, когда я использую заклинания.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0004"
+    },
+    {
+      "en": "Most people in Wynn could use magic.",
+      "ru": "Большинство жителей Винна могут использовать магию.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0005"
+    },
+    {
+      "en": "If given the right tools and training.",
+      "ru": "Если есть нужное снаряжение и подготовка.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0006"
+    },
+    {
+      "en": "Casting magic requires belief, concentration and skill.",
+      "ru": "Для колдовства нужны вера, сосредоточенность и мастерство.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0007"
+    },
+    {
+      "en": "Magic comes in different forms for different people.",
+      "ru": "У разных людей магия проявляется по-разному.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0008"
+    },
+    {
+      "en": "There are people like that in Wynn. They're just... uncommon.",
+      "ru": "В Винне есть такие люди. Просто... встречаются они нечасто.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0009"
+    },
+    {
+      "en": "I didn't know we were racing.",
+      "ru": "Я не знал, что у нас гонка.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0010"
+    },
+    {
+      "en": "You'll still need to practice.",
+      "ru": "Тебе всё равно придётся практиковаться.",
+      "stage": "Stage 5",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0011"
+    },
+    {
+      "en": "It's your weapon, you choose the materials.",
+      "ru": "Это твоё оружие, тебе и выбирать материалы.",
+      "stage": "Stage 5",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0012"
+    },
+    {
+      "en": "You should follow your heart.",
+      "ru": "Тебе стоит следовать зову сердца.",
+      "stage": "Stage 10",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0013"
+    },
+    {
+      "en": "We might as well just have grabbed any wood.",
+      "ru": "Можно было взять вообще любую деревяшку.",
+      "stage": "Stage 10",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0014"
+    },
+    {
+      "en": "Let's get back to the others.",
+      "ru": "Давай вернёмся к остальным.",
+      "stage": "Stage 14",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0015"
+    },
+    {
+      "en": "What're you up to?",
+      "ru": "Чем занимаешься?",
+      "stage": "Stage 17",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0016"
+    },
+    {
+      "en": "How she talks about Auburn. It's... different.",
+      "ru": "Она так... по-другому говорит об Аубёрне.",
+      "stage": "Stage 17",
+      "dialogueId": "dialogue-0511",
+      "id": "choice-0017"
+    },
+    {
+      "id": "choice-0018",
+      "dialogueId": "dialogue-0488",
+      "en": "So, what are we doing here?",
+      "ru": "Так, и что мы тут делаем?",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "choice-0019",
+      "en": "An Inquisitor?",
+      "ru": "Инквизитор?",
+      "stage": "Stage 13",
+      "dialogueId": "dialogue-0488"
+    },
+    {
+      "id": "dialogue-0491",
+      "en": "What'd you pay with?",
+      "ru": "Чем ты расплатилась?",
+      "stage": "Stage 14",
+      "dialogueId": "dialogue-0248"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "Let's return together.",
+      "ru": "Давай вернёмся вместе.",
+      "stage": "Stage 14",
+      "dialogueId": "dialogue-0254"
+    },
+    {
+      "id": "dialogue-0492",
+      "en": "I'll walk.",
+      "ru": "Я пройдусь.",
+      "stage": "Stage 14",
+      "dialogueId": "dialogue-0254"
+    },
+    {
+      "id": "dialogue-0496",
+      "en": "It's nice.",
+      "ru": "Здорово.",
+      "stage": "Stage 17",
+      "dialogueId": "dialogue-0316"
+    },
+    {
+      "id": "dialogue-0497",
+      "en": "It's kind of boring.",
+      "ru": "Скучновато.",
+      "stage": "Stage 17",
+      "dialogueId": "dialogue-0316"
+    },
+    {
+      "id": "audit-446a7b646ee46dc2",
+      "en": "Yes, please!",
+      "ru": "Да, пожалуйста!",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "audit-38178a20b470cfd1",
+      "en": "No.",
+      "ru": "Нет.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "audit-5f9a2b795615ba6a",
+      "en": "Yes.",
+      "ru": "Да.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "audit-fc64d3d523facf80",
+      "en": "No, bye.",
+      "ru": "Нет, пока.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "audit-b543779c85e16a32",
+      "en": "Probably! It should be fine.",
+      "ru": "Наверняка! Всё должно быть хорошо.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "audit-7ba27a40a302a066",
+      "en": "Rex is right, I'm not sure this is a good idea.",
+      "ru": "Рекс прав, я не уверен, что это хорошая идея.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "en": "I have!",
+      "ru": "Я уже!",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0406",
+      "id": "choice-hub-0031"
+    },
+    {
+      "en": "A little.",
+      "ru": "Немного.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0406",
+      "id": "choice-hub-0032"
+    },
+    {
+      "en": "Not really.",
+      "ru": "Не особо.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0406",
+      "id": "choice-hub-0033"
+    },
+    {
+      "en": "What's the main event?",
+      "ru": "Что за главное событие?",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0419",
+      "id": "choice-hub-0034"
+    },
+    {
+      "en": "It's not the orchestra?",
+      "ru": "Разве не оркестр?",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0419",
+      "id": "choice-hub-0035"
+    },
+    {
+      "en": "Zhiraok's speech.",
+      "ru": "Речь Жираока.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0445",
+      "id": "choice-hub-0036"
+    },
+    {
+      "en": "They didn't mention Torann.",
+      "ru": "Они не упомянули Торанн.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0445",
+      "id": "choice-hub-0037"
+    },
+    {
+      "en": "The cursed.",
+      "ru": "Проклятые.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0445",
+      "id": "choice-hub-0038"
+    },
+    {
+      "en": "Yes!",
+      "ru": "Да!",
+      "stage": "Stage 17",
+      "dialogueId": "dialogue-0350",
+      "id": "choice-hub-0039"
+    }
+  ]
+}

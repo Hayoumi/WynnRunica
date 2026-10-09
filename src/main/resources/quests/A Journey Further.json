@@ -1,0 +1,625 @@
+{
+  "quest": "A Journey Further",
+  "level": 101,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "a-journey-further",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Alright, let's go. I'll tell you more about our journey on the way.",
+      "ru": "Ладно, идём. По дороге расскажу подробнее про наше путешествие.",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "We should try to follow the path as closely as we can. You lead, I'll follow.",
+      "ru": "Нам лучше держаться маршрута как можно точнее. Ты веди, я за тобой.",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Stop! Did you hear that?",
+      "ru": "Стой! Слышал это?",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "It's an ambush! Stay sharp, <playername>!",
+      "ru": "Это засада! Не расслабляйся, <playername>!",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Good work. Seems that killing the king made the other creatures run off. We're lucky about that-",
+      "ru": "Хорошая работа. Похоже, после смерти их главаря остальные твари разбежались. Нам в этом повезло-",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Wait, <playername>, what's going on? Are you alright?",
+      "ru": "Погоди, <playername>, что с тобой? Ты в порядке?",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Oh, no no no! I have a potion for this, where is it, where is it, aha! Here, drink!",
+      "ru": "Ой, нет-нет-нет! У меня есть зелье на такой случай, где оно, где оно... ага! Вот, пей!",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "One of those things must have infected your wounds... Everything in this area looks completely hazardous and sickening.",
+      "ru": "Наверное, одна из этих тварей заразила твои раны... Тут вообще всё вокруг выглядит больным и ядовитым.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I expected the worst, so I tried to bring anything and everything that might help. Let's keep moving.",
+      "ru": "Я ждал худшего, поэтому притащил всё, что могло бы хоть как-то помочь. Пошли дальше.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "LOOK OUT!",
+      "ru": "БЕРЕГИСЬ!",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "<playername>, a-agh...you're okay, right?",
+      "ru": "<playername>, а-ай... ты цел, да?",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "I'm... I'm going to lead us for now. At least for a little...while... I can't have you g-getting-",
+      "ru": "Я... Я пока поведу нас сам. Хотя бы какое-то... время... Я не могу позволить, чтобы ты п-получил-",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "GAH!! AAAGH!",
+      "ru": "ААХ!! АААЙ!",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "...urgh... I...sorry. I just... I need a moment.",
+      "ru": "...ух... Я... прости. Мне просто... нужна минута.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "<playername>, you just... you have to realize, I can't have you getting hurt.",
+      "ru": "<playername>, ты просто... должен понять, я не могу позволить, чтобы с тобой что-то случилось.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I want to stress this... We NEED to get to the end of this path, together.",
+      "ru": "Я хочу, чтобы ты это понял... Мы ОБЯЗАНЫ дойти до конца этого пути вместе.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Hrk... Ugh, dizzy...",
+      "ru": "Кх... Ух, голова кружится...",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Okay. I'm as good as I can get right now. Let's move.",
+      "ru": "Ладно. Лучше мне сейчас уже не станет. Идём.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Ah? What... What just... Why do I...",
+      "ru": "А? Что... Что сейчас... Почему я...",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I'll be fine, I just...why did I feel so empty all of the sudden... ?",
+      "ru": "Я в порядке, просто... почему мне вдруг стало так пусто внутри...?",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Oh no, I think something is coming... <playername>! Fight it off, I don't think I can defend myself right now!",
+      "ru": "О нет, кажется, что-то приближается... <playername>! Отбейся от него, я сейчас вряд ли смогу защититься!",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Huff... Not feeling totally better, but... At least I can still defend myself.",
+      "ru": "Фух... Всё ещё неважно себя чувствую, но... по крайней мере, уже могу отбиваться.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "My stomach is empty, I can't even vomit... Why do I still feel so dizzy? Maybe a potion will help...",
+      "ru": "Желудок пустой, меня даже вырвать не может... Почему всё ещё так кружится голова? Может, зелье поможет...",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Hm. No, not that one...",
+      "ru": "Хм. Нет, не это...",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Urgh, pfft! My vomit tasted better than that coming up...",
+      "ru": "Тьфу, пф! Да у меня рвота и то вкуснее была...",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Hah...that's the ticket. Which potion was this anyways... ... hair loss treatment? Why did THAT work?",
+      "ru": "Ха... вот это помогло. Что это вообще было за зелье... ...средство от облысения? Почему СРАБОТАЛО ИМЕННО ОНО?",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Though, you saw what happened to that beast I attacked? Follow me.",
+      "ru": "Но ты видел, что стало с той тварью, по которой я ударил? Иди за мной.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "This, from what I recall of the mission statements, is referred to as a \"Void Hole.\" It's a sort of portal.",
+      "ru": "Насколько я помню из описания задания, это называется \"провал Бездны\". Что-то вроде портала.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "They connect to each other in odd ways, but we saw the beast come out of that one when I knocked it in, so...",
+      "ru": "Они соединяются друг с другом очень странно, но мы видели, как тварь вылетела из того, в который я её закинул, так что...",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Watch. I'll come out the other side.",
+      "ru": "Смотри. Я выйду с другой стороны.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Alright, good! It does connect up consistently, at least. You try now.",
+      "ru": "Ладно, отлично! По крайней мере, связь у них стабильная. Теперь ты попробуй.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "I bring this up because if we're seeing one, we'll be seeing more soon. You'll need to adjust yourself to the sight of them.",
+      "ru": "Я к чему это - если мы уже наткнулись на один, то скоро будет ещё. Тебе нужно привыкнуть к тому, как они выглядят.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "You lead again, please.",
+      "ru": "Теперь опять веди ты, пожалуйста.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "We grossly underestimated the difficulties we would have here. And, by that, I mean myself, Elphie, and Lucio did...",
+      "ru": "Мы сильно недооценили трудности, которые нас здесь ждут. И под \"мы\" я имею в виду себя, Эльфи и Люцио...",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "We were each unprepared and cocky. If it weren't for you, I'd be dead now, for what it's worth.",
+      "ru": "Никто из нас не был готов, и все были слишком самоуверенны. Знай: если бы не ты, я бы уже погиб.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "I wasn't certain at first about you coming along, but you've more than shown you were the right one for the job.",
+      "ru": "Сначала я сомневался, стоит ли брать тебя с собой, но ты с лихвой доказал, что именно ты и нужен для этого дела.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "...I had to figure this map was outdated. This wall of spikes isn't listed on it, and the path goes through here!",
+      "ru": "...Я так и знал, что карта устарела. Этой стены из шипов на ней нет, а путь должен идти прямо через это место!",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "I'll have to assume they're new...and if they're new, I might be able to bash through them.",
+      "ru": "Придётся считать, что они новые... а если новые, может, я смогу их пробить.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "<playername>, try throwing a spell at the same time! Let's crack through these things!",
+      "ru": "<playername>, ударь заклинанием одновременно со мной! Попробуем проломить эту дрянь!",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Ok, 3... 2... 1...!",
+      "ru": "Так, 3... 2... 1...!",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "...aagh... I... H-how are these so resilient...?",
+      "ru": "...а-ай... Я... К-как они вообще могут быть такими прочными...?",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I'm an idiot... I nearly killed myself trying that. I nearly ruined the mission...",
+      "ru": "Я идиот... Я чуть себя не угробил этой попыткой. Чуть не запорол всю миссию...",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "I'm sorry, but you'll have to go without me. I can't move another step for now.",
+      "ru": "Прости, но дальше тебе придётся идти без меня. Я сейчас не смогу сделать больше ни шага.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "There's a lot of void holes around here, remember my warning... You can probably get past these spikes with one.",
+      "ru": "Тут вокруг полно провалов Бездны, помни, что я говорил... Скорее всего, через один из них ты и сможешь обойти эти шипы.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "If I'd been thinking I would have suggested it earlier... Once you're past, we'll... uh. We'll do something.",
+      "ru": "Если бы я нормально соображал, предложил бы это раньше... Когда окажешься на той стороне, мы... эм. Что-нибудь придумаем.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Just...be careful where you go. The void holes could lead anywhere. They might lead you someplace very, very dangerous, too dangerous even for you. I pray they won't...",
+      "ru": "Только... смотри, куда полезешь. Провалы Бездны могут вести вообще куда угодно. И могут закинуть в очень, очень опасное место, даже слишком опасное для тебя. Надеюсь, этого не случится...",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "There's a void hole right there to try out first. Get going, now. You have to do this.",
+      "ru": "Вон там есть первый провал Бездны, с которого можно начать. Давай, иди. Ты должен это сделать.",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "An explosion has occurred somewhere in the arena...",
+      "ru": "Где-то на арене прогремел взрыв...",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "It appears the boulder that was once blocking the way is gone...",
+      "ru": "Похоже, что валун, который когда-то преграждал путь, исчез...",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "...wait, <playername>? You got to the other side then...? Good...",
+      "ru": "...погоди, <playername>? Ты всё-таки добрался на ту сторону...? Хорошо...",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "I don't know what you did, but whatever it was, it's made cracks in the spikes that I can see from this side.",
+      "ru": "Не знаю, что именно ты сделал, но от этого в шипах пошли трещины, я их даже отсюда вижу.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "I've got some of my energy back...let's try spellcasting again. If we do it at the same time, we might make some headway.",
+      "ru": "Я немного восстановил силы... Давай ещё раз попробуем использовать заклинания. Если ударим вместе, может, получится прорваться.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "I won't crack my skull open on the spikes again though. Promise.",
+      "ru": "Только я больше не собираюсь раскалывать себе башку об эти шипы. Обещаю.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "You lead. I'll cast my spell as soon as I hear yours.",
+      "ru": "Начинай ты. Я использую своё заклинание сразу, как услышу твоё.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Thank god it worked... That's our destination there, the Eldritch Outlook.",
+      "ru": "Слава богу, сработало... Вон там наша цель, Жуткий Дозор.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Now comes the hardest part... Come along. I'll need you there for it.",
+      "ru": "А теперь начинается самое тяжёлое... Идём. Ты мне там понадобишься.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "That blade there...it's made for sacrifice. See how that gate is shut?",
+      "ru": "Вон тот клинок... он создан для жертвоприношения. Видишь, как заперты те ворота?",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "In order to open the doors to the Outlook, we need to sacrifice a powerful soul.",
+      "ru": "Чтобы открыть двери Дозора, нужно принести в жертву сильную душу.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "We... we should have told you from the start. You and Lucio. Elphie and I, we knew. We knew this would be here.",
+      "ru": "Мы... мы должны были сказать тебе с самого начала. И тебе, и Люцио. Мы с Эльфи знали. Мы знали, что это будет здесь.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "We didn't have... we didn't have a sacrifice in mind. We decided that it would be best decided once we reached that point. And I think- we both knew it would have to be one of us.",
+      "ru": "У нас не было... не было заранее выбранной жертвы. Мы решили, что это лучше решать уже на месте. И, думаю, мы оба понимали, что это должен будет быть кто-то из нас.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "...I think she would have insisted it be her. Even though both of us had something we would be le...",
+      "ru": "...Думаю, она бы настояла, чтобы это была она. Хотя у нас обоих было кое-что, что мы бы...",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "It doesn't matter now. It's just us left. And I've been mulling it over since we got to the town... you'll sacrifice me. I won't take no for an answer.",
+      "ru": "Теперь это уже неважно. Остались только мы. И я думал об этом с тех пор, как мы добрались до города... ты принесёшь в жертву меня. И отказ не приму.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "I mean... look at the state I'm in, <playername>! I'm on death's door already, and you've proven yourself far stronger than I am even at my best.",
+      "ru": "Ну серьёзно... посмотри на меня, <playername>! Я и так уже почти на пороге смерти, а ты доказал, что сильнее меня даже в мои лучшие дни.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Here. You can take everything I had on me. My emeralds, and the key to the dungeon. I certainly won't be able to use them anymore.",
+      "ru": "Вот. Забирай всё, что у меня было. Изумруды и ключ от подземелья. Мне это уже точно больше не понадобится.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Upon the top of the tower is... Well, something. We don't know for certain what it is, but it will prevent you from passing through.",
+      "ru": "Наверху башни находится... нечто. Мы точно не знаем, что именно, но оно не даст тебе пройти дальше.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "You'll have to kill it to break the barrier. But... find other soldiers who can help you. It will be impossible to defeat alone.",
+      "ru": "Тебе придётся убить его, чтобы разрушить барьер. Но... найди других солдат, которые помогут. В одиночку его не одолеть.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "...no more putting it off, then. I'm bleeding out.",
+      "ru": "...ну всё, тянуть больше нельзя. Я истекаю кровью.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Grab the blade, <playername>.",
+      "ru": "Возьми клинок, <playername>.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Now...strike me down. My soul will unlock the gate...",
+      "ru": "А теперь... срази меня. Моя душа откроет врата...",
+      "speaker": "Aledar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Agh... Don't worry...a-about me...",
+      "ru": "Ах... Не переживай... з-за меня...",
+      "speaker": "Aledar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "You...can do this. I know y-you can.",
+      "ru": "Ты... сможешь. Я з-знаю, что сможешь.",
+      "speaker": "Aledar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Gah... D-Destroy it...",
+      "ru": "Кх... У-уничтожь это...",
+      "speaker": "Aledar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "The monster w-watching us...",
+      "ru": "Монстра, к-который наблюдает за нами...",
+      "speaker": "Aledar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "AAAAGH!!",
+      "ru": "ААААХ!!",
+      "speaker": "Aledar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "650px",
+      "ru": "650 пикс.",
+      "speaker": "???",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "It appears that green substance on the walls has bouncing properties.",
+      "ru": "Похоже, зелёное вещество на стенах пружинит.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "New Quest Started: A Journey Further",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Путешествие дальше",
+      "speaker": "",
+      "stage": "Stage 9"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Aledar in Lutho at [977, 75, -732].",
+      "ru": "Поговорить с Аледаром в Лутхо [977, 75, -732].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Continue your journey with Aledar.",
+      "ru": "Продолжить путешествие с Аледаром.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Follow the Path.",
+      "ru": "Идти по тропе.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Defeat the Parasitic Slimers.",
+      "ru": "Победить паразитических слизней.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Continue on the main path with Aledar.",
+      "ru": "Продолжить путь по главной тропе вместе с Аледаром.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Defend Aledar from the Radiated Spiders.",
+      "ru": "Защитить Аледара от облучённых пауков.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Jump into the void hole.",
+      "ru": "Прыгнуть в провал Бездны.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Continue on the trail with Aledar.",
+      "ru": "Продолжить путь по тропе вместе с Аледаром.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Use Void Holes to try and get behind the spike barrier",
+      "ru": "Воспользоваться провалами Бездны, чтобы попасть за преграду из шипов.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Find a way to help Aledar get to the other side of the spike barrier.",
+      "ru": "Найти способ помочь Аледару перебраться через преграду из шипов.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Right click to grab the blade in the altar.",
+      "ru": "Нажать правой кнопкой мыши, чтобы забрать клинок из алтаря.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Sacrifice Aledar.",
+      "ru": "Принести Аледара в жертву.",
+      "stage": "Stage 12"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,302 @@
+{
+  "quest": "Creeper Infiltration",
+  "level": 25,
+  "difficulty": "Hard",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "creeper-infiltration",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Anyone! Can anyone- oh, hello. You look strong enough to help me.",
+      "ru": "Эй! Кто-нибудь может- о, привет. Выглядишь достаточно крепким, чтобы помочь мне.",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I am Thomas, and I help manage the supplies for a village in the Pigman Ravine. Though, I have a bit of a problem...",
+      "ru": "Я Томас, помогаю следить за припасами деревни в Ущелье Свинолюдов. Только вот у нас возникла небольшая проблема...",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "We're running low on ravine grains, which is our main staple we use for our food.",
+      "ru": "У нас заканчивается овражное зерно, а это наша основная еда.",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "We usually get it ourselves but recently an angry group of pigmen took over the tunnel to the top of the ravine, where the grain grows.",
+      "ru": "Обычно мы добываем его сами, но недавно разъярённая шайка свинолюдов захватила тоннель, ведущий на вершину ущелья, где растёт это зерно.",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "The last time we entered, I heard an explosion from the top. I fear the pigmen are blowing up our grain supply with TNT...",
+      "ru": "Когда мы в последний раз туда заходили, я услышал сверху взрыв. Боюсь, свинолюды взрывают наши посевы динамитом...",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I came here to Tempo Town to see if I could find help here, but I've had no luck. Until now, that is. Would you be willing to help?",
+      "ru": "Я пришёл сюда, в Темпо-Таун, в надежде найти помощь, но до этого момента мне не везло. Поможешь нам?",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "You would? You're a life saver. I'll meet you at the village, just follow the path out of town and take the northern-most entrance to the ravines.",
+      "ru": "Правда? Да ты нас просто спас. Я буду ждать тебя в деревне, просто иди по дороге из города и сворачивай к самому северному входу в ущелья.",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Once you get there, keep to the right wall of the ravine and climb up the stairs to reach the entrance. Also, be careful in the tunnel, as the pigmen throw rocks as a weapon.",
+      "ru": "Когда доберёшься, держись правой стены ущелья и поднимайся по лестнице к входу. И в тоннеле будь осторожен - свинолюды швыряются камнями.",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Oh, finally, someone has come to this hidden village!",
+      "ru": "О, наконец-то хоть кто-то добрался до нашей скрытой деревни!",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I am Thomas, and I help manage the supplies for this ravine village. Though, I have a bit of a problem...",
+      "ru": "Я Томас, помогаю следить за припасами этой деревни в ущелье. Только вот у нас тут проблемка...",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "You appear to be much stronger than I am, so maybe you could get past the tunnel pigmen and eliminate the explosions at the top.",
+      "ru": "Ты выглядишь куда сильнее меня, так что, может, сможешь пройти мимо свинолюдов в тоннеле и разобраться со взрывами наверху.",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Just keep to the right wall of the ravine and climb up the stairs to reach the entrance. Also, be careful in the tunnel, as the pigmen throw rocks as a weapon.",
+      "ru": "Просто держись правой стены ущелья и поднимайся по лестнице к входу. И в тоннеле будь осторожен - свинолюды используют камни как оружие.",
+      "speaker": "Thomas",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I didn't expect you to fall out of the sky like that. Are you okay, or should I go get the potion merchant to heal you?",
+      "ru": "Не ожидал, что ты буквально с неба свалишься. Ты в порядке, или мне сбегать за торговцем зельями?",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "You're fine? Oh, good to hear. Did you manage to get rid of the pigmen and their explosives?",
+      "ru": "Всё нормально? Ох, ну и хорошо. Удалось разобраться со свинолюдами и их взрывчаткой?",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "A green creature? A \"creeper\"? No such thing exists in this world, especially with the pigmen all around!",
+      "ru": "Зелёная тварь? \"Крипер\"? Да не бывает в этом мире таких штук, тем более тут, среди свинолюдов!",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Oh, you brought a piece of skin back. How odd, I've seen this skin before...",
+      "ru": "О, ты даже кусок кожи принёс. Странно... я уже видел такую кожу раньше...",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "There's a large cave over to the south. I tried to enter it, but I got ambushed by green creatures...",
+      "ru": "К югу отсюда есть большая пещера. Я как-то пытался в неё зайти, но на меня там напали зелёные твари...",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I thought I was just dreaming, but these \"creepers\" you talk about...they might live in that cave.",
+      "ru": "Я думал, мне это просто привиделось, но эти твои \"криперы\"... похоже, они и правда живут в той пещере.",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I have an idea. I need to know for sure that they live there. A merchant can make you a mask with the skin and another material.",
+      "ru": "У меня есть идея. Нужно точно убедиться, что они там живут. Один торговец может сделать тебе маску из этой кожи и ещё одного материала.",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "There's a Pigman Overlord that sometimes hangs in a cave nearby. If you can kill it, you can get a pigman hide strong enough to make the mask.",
+      "ru": "Неподалёку в пещере иногда появляется повелитель свинолюдов. Если убьёшь его, добудешь шкуру свинолюда, достаточно прочную для этой маски.",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "If you continue on the western path past the tunnel entrance, you should find a camp where the Overlord is located.",
+      "ru": "Если пойдёшь дальше по западной тропе мимо входа в тоннель, найдёшь лагерь, где сидит этот повелитель.",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Go get the pigman hide, and then come back to me so I can tell you what to do next.",
+      "ru": "Добудь шкуру свинолюда, а потом возвращайся ко мне, и я скажу, что делать дальше.",
+      "speaker": "Thomas",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "I see you have the hide. This skin will work perfectly for my plan.",
+      "ru": "Вижу, шкура у тебя. Для моего плана она подойдёт идеально.",
+      "speaker": "Thomas",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "There is a Mask Merchant in this village. He can make you a mask with the two materials I have.",
+      "ru": "В этой деревне есть торговец масками. Он сможет сделать тебе маску из двух материалов, которые я собрал.",
+      "speaker": "Thomas",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "With the mask, you can put it on and go undetected into the cave with these \"creepers\". Only then will we know the truth.",
+      "ru": "Надень маску, и сможешь незаметно пробраться в пещеру к этим \"криперам\". Только тогда мы узнаем правду.",
+      "speaker": "Thomas",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "To get to the creeper cave, follow the western path and turn left at the pigman camps.",
+      "ru": "Чтобы добраться до пещеры криперов, иди по западной тропе и у лагерей свинолюдов сверни налево.",
+      "speaker": "Thomas",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Also, if you somehow lose the mask, the merchant can make you another one if you bring him another piece of skin and hide.",
+      "ru": "И да, если ты вдруг умудришься потерять маску, торговец сможет сделать новую, если снова принесёшь ему кусок кожи и шкуру.",
+      "speaker": "Thomas",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Here are the materials. Be careful out there. Who knows what those green monsters could do to you...",
+      "ru": "Вот материалы. Будь осторожен. Кто знает, что эти зелёные монстры могут с тобой сделать...",
+      "speaker": "Thomas",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "So, what was in the cave? Were there really creepers in there?",
+      "ru": "Ну что, что там было в пещере? Криперы там и правда были?",
+      "speaker": "Thomas",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "What's this? It smells like gunpowder...but more earthy. And this came from the cave?",
+      "ru": "Это ещё что? Пахнет порохом... только ещё и землёй. И ты это из пещеры принёс?",
+      "speaker": "Thomas",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "This powder is definitely not native to this area. It has to have come from those creepers.",
+      "ru": "Этот порошок точно не отсюда. Должно быть, он от тех самых криперов.",
+      "speaker": "Thomas",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "I guess for now we'll leave them at peace. If they do exist, they don't need to be hunted down to extinction.",
+      "ru": "Думаю, пока оставим их в покое. Если они и правда существуют, это не повод истреблять их.",
+      "speaker": "Thomas",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Besides, if they are composed of gunpowder, they could easily blow this ravine to pieces.",
+      "ru": "Да и вообще, если они состоят из пороха, то могут без труда разнести всё ущелье на куски.",
+      "speaker": "Thomas",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Thank you for your help. I guess you deserve some sort of reward, considering you helped solve the ravine's big mystery.",
+      "ru": "Спасибо за помощь. Думаю, ты заслужил награду, всё-таки именно ты помог раскрыть главную тайну ущелья.",
+      "speaker": "Thomas",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Feel free to come back to our village any time. By then our food supply should be stable.",
+      "ru": "Заходи в нашу деревню, когда захочешь. К тому времени с припасами у нас уже всё должно наладиться.",
+      "speaker": "Thomas",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "New Quest Started: Creeper Infiltration",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Проникновение криперов",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Thomas in Tempo Town at [-307, 53, -1174].",
+      "ru": "Поговорить с Томасом в Темпо-Тауне [-307, 53, -1174].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Enter the tunnel at [-823, 96, -1339] and reach the top of the ravine",
+      "ru": "Войти в туннель и добраться до вершины ущелья [-823, 96, -1339].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Bring back the [Creeper Skin] to Thomas at [-608, 89, -1431]",
+      "ru": "Принести Томасу [Шкуру крипера] [-608, 89, -1431].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Retrieve [1 Pigman Hide] from the Pigman Overlord near [-826, 91, -1259] and return to Thomas",
+      "ru": "Добыть [1 Pigman Hide] у повелителя свинолюдов возле [-826, 91, -1259] и вернуться к Томасу.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Buy the creeper mask from the merchant and enter the creeper hideout at [-850, 96, -1212]",
+      "ru": "Купить у торговца маску крипера и войти в убежище криперов [-850, 96, -1212].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Bring Thomas [1 Creeper Powder] to prove him creepers exist in Wynn at [-608, 89, -1431]",
+      "ru": "Принести Томасу [1 Creeper Powder] и доказать, что в Винне есть криперы [-608, 89, -1431].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

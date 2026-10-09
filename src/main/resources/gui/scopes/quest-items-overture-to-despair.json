@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "quest-items-overture-to-despair",
+  "scopes": [
+    {
+      "id": "untold",
+      "match": {
+        "title": "Letter",
+        "anchors": [
+          "I see you've come to the Highlands."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Letter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-00",
+          "en": "I see you've come to the Highlands.",
+          "ru": "Вижу, ты прибыл в Нагорье."
+        },
+        {
+          "id": "line-01",
+          "en": "I know where you're staying.",
+          "ru": "Знаю, где ты остановился."
+        },
+        {
+          "id": "line-02",
+          "en": "I have not told the others. Yet.",
+          "ru": "Я не рассказал остальным. Пока."
+        },
+        {
+          "id": "line-03",
+          "en": "Find me at the Highlands Dam.",
+          "ru": "Найди меня у §bдамбы Нагорья§r."
+        },
+        {
+          "id": "line-04",
+          "en": "We need to have some words.",
+          "ru": "Нам нужно поговорить."
+        },
+        {
+          "id": "line-05",
+          "en": "— Tasim",
+          "ru": "- Тасим"
+        },
+        {
+          "id": "signature-ascii",
+          "en": "- Tasim",
+          "ru": "- Тасим"
+        }
+      ]
+    },
+    {
+      "id": "untold-badge",
+      "match": {
+        "title": "Letter<em>",
+        "anchors": [
+          "I see you've come to the Highlands."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Letter<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-00",
+          "en": "I see you've come to the Highlands.",
+          "ru": "Вижу, ты прибыл в Нагорье."
+        },
+        {
+          "id": "line-01",
+          "en": "I know where you're staying.",
+          "ru": "Знаю, где ты остановился."
+        },
+        {
+          "id": "line-02",
+          "en": "I have not told the others. Yet.",
+          "ru": "Я не рассказал остальным. Пока."
+        },
+        {
+          "id": "line-03",
+          "en": "Find me at the Highlands Dam.",
+          "ru": "Найди меня у §bдамбы Нагорья§r."
+        },
+        {
+          "id": "line-04",
+          "en": "We need to have some words.",
+          "ru": "Нам нужно поговорить."
+        },
+        {
+          "id": "line-05",
+          "en": "— Tasim",
+          "ru": "- Тасим"
+        },
+        {
+          "id": "signature-ascii",
+          "en": "- Tasim",
+          "ru": "- Тасим"
+        }
+      ]
+    },
+    {
+      "id": "told",
+      "match": {
+        "title": "Letter",
+        "anchors": [
+          "I see you've reached the Highlands."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Letter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-00",
+          "en": "I see you've reached the Highlands.",
+          "ru": "Вижу, ты добрался до Нагорья."
+        },
+        {
+          "id": "line-01",
+          "en": "Things are... heating up, aren't they?",
+          "ru": "Обстановка... накаляется, да?"
+        },
+        {
+          "id": "line-02",
+          "en": "We might not have the chance to talk again.",
+          "ru": "Возможно, нам больше не удастся поговорить."
+        },
+        {
+          "id": "line-03",
+          "en": "Come meet me at the Highlands Dam.",
+          "ru": "Приходи ко мне на §bдамбу Нагорья§r."
+        },
+        {
+          "id": "line-04",
+          "en": "— T",
+          "ru": "- Т"
+        },
+        {
+          "id": "signature-ascii",
+          "en": "- T",
+          "ru": "- Т"
+        }
+      ]
+    },
+    {
+      "id": "told-badge",
+      "match": {
+        "title": "Letter<em>",
+        "anchors": [
+          "I see you've reached the Highlands."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Letter<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-00",
+          "en": "I see you've reached the Highlands.",
+          "ru": "Вижу, ты добрался до Нагорья."
+        },
+        {
+          "id": "line-01",
+          "en": "Things are... heating up, aren't they?",
+          "ru": "Обстановка... накаляется, да?"
+        },
+        {
+          "id": "line-02",
+          "en": "We might not have the chance to talk again.",
+          "ru": "Возможно, нам больше не удастся поговорить."
+        },
+        {
+          "id": "line-03",
+          "en": "Come meet me at the Highlands Dam.",
+          "ru": "Приходи ко мне на §bдамбу Нагорья§r."
+        },
+        {
+          "id": "line-04",
+          "en": "— T",
+          "ru": "- Т"
+        },
+        {
+          "id": "signature-ascii",
+          "en": "- T",
+          "ru": "- Т"
+        }
+      ]
+    }
+  ]
+}

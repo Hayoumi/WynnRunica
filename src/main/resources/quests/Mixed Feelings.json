@@ -1,0 +1,544 @@
+{
+  "quest": "Mixed Feelings",
+  "level": 87,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "mixed-feelings",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Mo'in lad! We don't get many Wynn folks round 'ere.",
+      "ru": "Доброе утро, парень! Виннцев у нас нечасто встретишь.",
+      "speaker": "Javen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Welcome to old Javen's tavern, what can I do yer for?",
+      "ru": "Добро пожаловать в таверну старого Джейвена, чего желаешь?",
+      "speaker": "Javen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Let's see... I can give ya some of the islands \"Old Cork\" Brew..",
+      "ru": "Посмотрим... Могу налить тебе местного пива \"Старый Корк\"...",
+      "speaker": "Javen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Seems like you are in luck today, adventurer.",
+      "ru": "Похоже, сегодня тебе повезло, искатель приключений.",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "My day's been long, and you also look like you could do with a drink or two.",
+      "ru": "День у меня был долгий, да и тебе, судя по виду, не помешает пара кружек.",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "There's no need to pay by yourself. Javen, we'll have two cups of the seasonal brew.",
+      "ru": "Не нужно платить самому. Джейвен, нам две кружки сезонного пива.",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Cheers!",
+      "ru": "Ну, за тебя!",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Everything alright, lad? Looking a bit pale...",
+      "ru": "Всё в порядке, парень? Что-то ты бледноват...",
+      "speaker": "Javen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Oh by the mighty founders, everything is ruined!",
+      "ru": "О великие основатели, всё разгромлено!",
+      "speaker": "Javen",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "YOU!",
+      "ru": "ТЫ!",
+      "speaker": "Javen",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "You did this! Yer mad in the head! Possessed or summet!",
+      "ru": "Это ты устроил! Совсем рехнулся! Одержимый, что ли!",
+      "speaker": "Javen",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Yer seem fine now though. What got inter ye lad? You went berserk like!",
+      "ru": "Сейчас-то ты вроде в норме. Что в тебя тогда вселилось, парень? Ты как с цепи сорвался!",
+      "speaker": "Javen",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "It weren't just here neither. You ran outta here and wrecked all sorts! You better go find the people you affected and apologise",
+      "ru": "И не только тут, кстати. Ты отсюда вылетел и по дороге ещё кучу всего разнёс! Иди теперь найди всех, кому навредил, и извинись.",
+      "speaker": "Javen",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "The whole aqueduct is ruined! The cities fresh water is just draining into the ocean...",
+      "ru": "Весь акведук разрушен! Городская питьевая вода теперь просто утекает в океан...",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Ah! It's you! Back to wreck the rest of the city's infrastructure?! You're meant to be a tourist!",
+      "ru": "А! Это ты! Вернулся разрушить всё, что ещё осталось в городе?! Ты ведь сюда отдыхать приехал!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Wait... Weren't your eyes red before? Were you ill? It was a bit scary.",
+      "ru": "Погоди... У тебя же раньше глаза красные были? Ты болел, что ли? Если честно, выглядело жутковато.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Oh.. You don't even remember? Well.. If you want to help, I need it right now.",
+      "ru": "О... Ты даже не помнишь? Ну... если хочешь помочь, помощь нужна прямо сейчас.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "The system needs to be rebooted, which can only be done down in the sewers.",
+      "ru": "Систему надо перезапустить, а сделать это можно только внизу, в канализации.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Kind of a design flaw if you ask me.. But if you go down that trap door, you will find it in the sewers!",
+      "ru": "По-моему, кто-то не всё продумал... Но если спустишься в тот люк, найдёшь нужное в канализации!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "You fixed it? Everything you broke? That's one hell of a twisted personality.",
+      "ru": "Ты всё починил? Всё, что сам же сломал? Ну и странный же ты человек.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Corkus has been urging tourists and envoys from the other provinces to gain recognition.",
+      "ru": "Коркус давно зовёт туристов и послов из других провинций, чтобы о нас больше знали.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "There are others that blame any outsiders for the problems of the islands.. They say they are patriots.. but honestly...",
+      "ru": "Но есть и другие, которые во всех бедах островов винят любых чужаков... называют себя патриотами... хотя, если честно...",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "They are just awful people. They want to do anything to make non Corkians look bad.",
+      "ru": "Они просто ужасные люди. Готовы на всё, лишь бы очернить тех, кто родом не из Коркуса.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "If I were you, I'd better start asking around to find out more about that!",
+      "ru": "На твоём месте я бы расспросил местных и постарался узнать об этом побольше!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "It's THEM! Someone call the authorities! It's the one who set my house on fire.",
+      "ru": "ЭТО ОН! Кто-нибудь, зовите власти! Это тот самый, кто подпалил мой дом!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "How could you do this and just come back all calm like? You were screaming your head off!",
+      "ru": "Как ты мог это сделать, а потом вернуться как ни в чём не бывало? Ты же кричал во всё горло!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "My house is still burning! Wait... You say you don't have any memory of any of this?",
+      "ru": "Мой дом до сих пор горит! Стоп... Ты хочешь сказать, что вообще этого не помнишь?",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Look, if you're serious, you have a chance to help make it better.",
+      "ru": "Слушай, если ты серьёзно, то у тебя ещё есть шанс хоть как-то это исправить.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "There are valuables in a chest in there you must save before the whole place burns to the ground, get going!",
+      "ru": "Внутри в сундуке лежат ценные вещи. Их нужно спасти, пока дом не сгорел дотла. Скорее!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "You did it! So you weren't lying? Ugh, I guess you might just be trustworthy.",
+      "ru": "Ты сделал это! Значит, не врал? Эх... ладно, может, тебе и правда можно немного доверять.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "You know about the 'patriots' of Corkus?",
+      "ru": "Ты вообще слышал про коркусских \"патриотов\"?",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Well this kind of maneuver is right up their alley.. It certainly made you look bad!",
+      "ru": "Ну, такие проделки как раз в их духе... Тебя-то уж точно выставили в дурном свете!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Now that you bring it up, I did hear a group of Corkians quietly discussing something about framing tourists.",
+      "ru": "Кстати, раз уж ты об этом заговорил... Я слышал, как группа коркианцев тихо обсуждала, как выставить туристов виновниками бед.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "I have no idea how they would make you do something against your will though...",
+      "ru": "Правда, без понятия, как они вообще заставили тебя делать всё это против своей воли...",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Came back to wreck the rest of my work have you? Why aren't you all insane looking?",
+      "ru": "Вернулся разрушить всё, что осталось от моего труда? Почему ты больше не выглядишь безумцем?",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "So now your story is you were not in control? It's easy to believe. You were mad!",
+      "ru": "Теперь ты говоришь, что не владел собой? Охотно верю. Ты был совсем не в себе!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I don't know if you have some kind of condition.. but if you want to help, I need it to clean up the mess you made.",
+      "ru": "Не знаю, может, ты чем-то болен... Но если хочешь помочь, помоги навести порядок после всего, что ты устроил.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "I need to replace all the cargo you destroyed.",
+      "ru": "Мне надо заменить весь груз, который ты разнёс.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "All you gotta do is get those crates here and put them back on the boats. The limit is 100 for each boat, not more not less!",
+      "ru": "Нужно только принести сюда ящики и погрузить их обратно в лодки. На каждую лодку должно приходиться ровно 100, ни больше ни меньше!",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Some weights might not be needed, but be careful, I don't wanna go diving after you.",
+      "ru": "Не все грузы могут понадобиться, но будь осторожен: нырять за тобой я не собираюсь.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "You did it? ... -I mean, at last. Eh... I guess I was too fast with my judgement for once.",
+      "ru": "Сделал? ... То есть, наконец-то. Эх... похоже, в этот раз я и правда слишком быстро тебя осудил.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Hmm... As it happens I have seen some strange things around here.",
+      "ru": "Хмм... Вообще, я тут видел кое-что странное.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "During the night I saw something moving across the cliffs.. Looked like a personal balloon.",
+      "ru": "Ночью я видел, как что-то двигалось вдоль утёсов... Похоже, небольшой воздушный шар.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "It wouldn't have been out of the ordinary except there are occasional blood trails leading from the balloon...",
+      "ru": "Ничего особо странного в этом бы не было, если бы от того шара время от времени не тянулись кровавые следы...",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "If you really want to approach these people... I guess all you would need to do is follow the trail of blood.",
+      "ru": "Если ты и правда хочешь найти этих людей... думаю, достаточно пойти по кровавому следу.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Can't say I recommend it but the trail starts near the aqueduct.",
+      "ru": "Не скажу, что советую, но след начинается возле акведука.",
+      "speaker": "Corkus City Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Why are you here? I don't mean here and now, I mean why are you on our island?",
+      "ru": "Зачем ты здесь? Я не про это место и не про эту минуту. Зачем ты на нашем острове?",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "You have of course found yourself in front of me because you were a pawn in our attempts to save this nation.",
+      "ru": "Ты, само собой, оказался передо мной потому, что был пешкой в нашей попытке спасти эту нацию.",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "I suppose I should apologize, but truth is you are the reason for this movement. Not you personally... but your people.",
+      "ru": "Наверное, мне стоило бы извиниться, но наше движение появилось именно из-за тебя. Не лично из-за тебя... из-за твоего народа.",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "You... Look at yourself. You fight in a war you did not cause. You come from a land you don't even remember.",
+      "ru": "Ты... посмотри на себя. Ты сражаешься на войне, которую не развязал. Ты пришёл из земли, которую даже не помнишь.",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "We ask ourselves why would we invite people from two lands of sin. Invite a nation of warring travellers and a nation of greedy merchants to our doors?",
+      "ru": "Мы спрашиваем себя: зачем приглашать к нам людей из двух греховных земель? Открывать двери народу воинственных странников и народу алчных торговцев?",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "The Corkian people are above such mundane capitalism and brutality. We work as a nation to better all.",
+      "ru": "Коркианцы выше такого мелочного капитализма и жестокости. Мы трудимся как единый народ ради блага всех.",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "You have been a pawn your entire existence on this world. The worst part is you don't even know it.",
+      "ru": "Всю свою жизнь в этом мире ты был пешкой. И самое жалкое - ты даже не понимаешь этого.",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Do you, for example - Know the name of your ultimate enemy? The reason for the war on your land?",
+      "ru": "Вот скажи, к примеру - ты вообще знаешь имя своего главного врага? Знаешь, из-за чего началась война на твоей земле?",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "No? Didn't think so. I have no time for this. You served your purpose, even if you did try and redeem your barbaric behaviour... Kill them!",
+      "ru": "Нет? Я так и думала. У меня нет времени на это. Свою роль ты сыграл, пусть и пытался искупить своё варварство... Убить его!",
+      "speaker": "Rensa",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Tougher than I expected. You don't mind if I interfere a bit, do you?",
+      "ru": "Ты крепче, чем я ожидала. Надеюсь, ты не против, если я сама немного вмешаюсь?",
+      "speaker": "Rensa",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Hmph.",
+      "ru": "Хмф.",
+      "speaker": "Rensa",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "You may have won this fight, but you are still the loser in this situation.",
+      "ru": "Может, этот бой ты и выиграл, но в этой истории проигравший всё равно ты.",
+      "speaker": "Rensa",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Your eyes are still closed to the greater picture of it all. Corkus is the only place safe from it. I will make sure of it!",
+      "ru": "Ты по-прежнему не видишь всей картины. Коркус - единственное место, которому всё это не угрожает. Я об этом позабочусь!",
+      "speaker": "Rensa",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "There are still greater things in motion as we speak. Plans that will secure this island's safety.",
+      "ru": "Пока мы говорим, уже осуществляются куда более масштабные замыслы. Они обеспечат безопасность нашего острова.",
+      "speaker": "Rensa",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Fruma.. Gavel.. Wynn... It's all a joke. We all sit on the cusp of this reality, fighting only the prelude to the real war.",
+      "ru": "Фрума... Гавель... Винн... Всё это насмешка. Мы все стоим на краю этой реальности, а наши сражения - лишь предвестие настоящей войны.",
+      "speaker": "Rensa",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "This is our farewell. I must depart before the short sighted government arrive. Good Luck with your struggle.",
+      "ru": "На этом прощаемся. Мне пора уйти, пока сюда не явилось это недалёкое правительство. Удачи тебе в твоей борьбе.",
+      "speaker": "Rensa",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Now look who we got over 'ere! We were all wondering if you'd ever wake up.",
+      "ru": "Ну гляньте-ка, кто очнулся! Мы уж думали, ты вообще когда-нибудь проснёшься или нет.",
+      "speaker": "Javen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Sorry we ever doubted ye. Weren't fair of us. What you drank was a rare brew designed to enrage and berserk someone.",
+      "ru": "Прости, что мы в тебе усомнились. Это было несправедливо. Ты выпил редкий напиток, который специально готовят, чтобы привести человека в бешенство.",
+      "speaker": "Javen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Basically, it weren't yer fault lad. We never knew some Corkians were so closed minded.",
+      "ru": "В общем, ты не виноват, парень. Мы и не знали, что некоторые коркианцы настолько узколобы.",
+      "speaker": "Javen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Anyways! Look at what we got, thanks to you I acquired this little place!",
+      "ru": "Ну да ладно! Глянь, что у нас теперь есть: благодаря тебе я приобрёл это местечко!",
+      "speaker": "Javen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "By means of reparations have this on me. Yer always welcome round here.",
+      "ru": "В счёт возмещения - угощаю. Тут тебе всегда рады.",
+      "speaker": "Javen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "New Quest Started: Mixed Feelings",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Смешанные чувства",
+      "speaker": "",
+      "stage": "Stage 9"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Javen at the Corkus Docks.",
+      "ru": "Поговорить с Джейвеном в порту Коркуса.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to Javen.",
+      "ru": "Поговорить с Джейвеном.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Talk to the citizens around the docks.",
+      "ru": "Расспросить жителей у причалов.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Speak to the other citizens around the docks.",
+      "ru": "Поговорить с остальными жителями у причалов.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Talk to the final victim of your rampage.",
+      "ru": "Поговорить с последней жертвой твоего буйства.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Follow the trail of blood and board the airship.",
+      "ru": "Идти по кровавому следу и подняться на дирижабль.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Explore the cliff base.",
+      "ru": "Исследовать базу на утёсе.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Fight and evade the waves of mobs until the timer runs out.",
+      "ru": "Сражаться и уклоняться от волн врагов, пока не закончится время.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Speak to Javen.",
+      "ru": "Поговорить с Джейвеном.",
+      "stage": "Stage 9"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "captured-quest-journal",
+  "scopes": [
+    {
+      "id": "b12-b5e7c78370112606",
+      "match": {
+        "title": "<em> Idol",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Idol",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5b2735584b93b64e",
+          "en": "§7✮ Raiding Master",
+          "ru": "§7✮ §#00AAAAМастер Рейдов"
+        },
+        {
+          "id": "line-fc31ffd990d820da",
+          "en": "<em>Cannot use more than <num>",
+          "ru": "<em>Не больше §#FFFFFF<num>§#555555 расходников"
+        },
+        {
+          "id": "line-de0dd1fd39d79077",
+          "en": "<em>consumables throughout the",
+          "ru": "<em>можно использовать до конца"
+        },
+        {
+          "id": "line-66f0123fcfc41d7e",
+          "en": "<em>raid",
+          "ru": "<em>рейда"
+        },
+        {
+          "id": "line-c4f8efe009765e6b",
+          "en": "<em>Each time you die, deal <num>%",
+          "ru": "<em>С каждой смертью: §#FFFFFF<num>§#FFFFFF%"
+        },
+        {
+          "id": "line-306308458a6f4a9f",
+          "en": "<em>damage for the rest of the",
+          "ru": "<em>§#FFFFFFурона§#555555 до конца"
+        },
+        {
+          "id": "line-312507786c87babd",
+          "en": "<em>You have <num> less Raid Buff",
+          "ru": "<em>Выбор усилений рейда изменён на §#FFFFFF<num>§#555555"
+        },
+        {
+          "id": "line-2b3304a74eb392a6",
+          "en": "<em>choice.",
+          "ru": "<em>вариант."
+        },
+        {
+          "id": "line-e8c722d1f7d07e6a",
+          "en": "§7§a✔ §7Class Type: §fKnight",
+          "ru": "§#55FF55✔§#AAAAAA §#AAAAAA§#AAAAAAКласс: §#FFFFFFРыцарь"
+        },
+        {
+          "id": "inherited-619162eb0bb9764b",
+          "en": "§7§4❤ Effective Health: §f<num>",
+          "ru": "§7§4❤ Эффективное Здоровье: §f<num>"
+        },
+        {
+          "id": "inherited-348ffe55557e96f3",
+          "en": "§aEnabled Gambits:",
+          "ru": "§aВключённые Гамбиты:"
+        }
+      ]
+    },
+    {
+      "id": "b12-19b6b63ff26a3fe6",
+      "match": {
+        "title": "§7§lMissing Requirements",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "§7§lMissing Requirements",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-16f90f46f6ae7ee6",
+          "en": "§a✔§7 Quest: True Colours",
+          "ru": "§#55FF55✔§#AAAAAA §#AAAAAAКвест: §f§#FFFFFFИстинное Лицо"
+        },
+        {
+          "id": "line-18fababcd894aeb1",
+          "en": "§c✖§7 Cave: Nesting Place",
+          "ru": "§#FF5555✖§#AAAAAA §#AAAAAAПещера: §f§#FFFFFFГнездовье"
+        },
+        {
+          "id": "line-7997d6f8aef5d353",
+          "en": "§c✖§7 Cave: Citadel Catacombs",
+          "ru": "§#FF5555✖§#AAAAAA §#AAAAAAПещера: §f§#FFFFFFКатакомбы Цитадели"
+        },
+        {
+          "id": "line-c33bba2d191f6cc8",
+          "en": "§c✖§7 Cave: Saltpetre Mine",
+          "ru": "§#FF5555✖§#AAAAAA §#AAAAAAПещера: §f§#FFFFFFСелитряная Шахта"
+        },
+        {
+          "id": "line-9459b9520e3ea295",
+          "en": "§c✖§7 Cave: Northern Outpost",
+          "ru": "§#FF5555✖§#AAAAAA §#AAAAAAПещера: §f§#FFFFFFСеверный Форпост"
+        },
+        {
+          "id": "line-183269b7c7ceee72",
+          "en": "§c✖§7 Cave: Glacier Tunnels",
+          "ru": "§#FF5555✖§#AAAAAA §#AAAAAAПещера: §f§#FFFFFFЛедниковые Тоннели"
+        },
+        {
+          "id": "line-e9195043e526cf2b",
+          "en": "§c✖§7 Cave: Krisa Manor",
+          "ru": "§#FF5555✖§#AAAAAA §#AAAAAAПещера: §f§#FFFFFFПоместье Криса"
+        },
+        {
+          "id": "line-9fa4605e09ae94be",
+          "en": "§c✖§7 Cave: Liftal Castle",
+          "ru": "§#FF5555✖§#AAAAAA §#AAAAAAПещера: §f§#FFFFFFЗамок Лифтал"
+        },
+        {
+          "id": "inherited-19b6b63ff26a3fe6",
+          "en": "§7§lMissing Requirements",
+          "ru": "§7§lТребования не Выполнены"
+        },
+        {
+          "id": "inherited-d944f204054898e7",
+          "en": "§7In order to start a",
+          "ru": "§7Чтобы начать забег,"
+        },
+        {
+          "id": "inherited-096ab863a9a11705",
+          "en": "§7Lootrun you need to",
+          "ru": "§7вам нужно"
+        },
+        {
+          "id": "inherited-f989265252fdb7ea",
+          "en": "§7complete the following",
+          "ru": "§7следующие"
+        },
+        {
+          "id": "inherited-e5c1c92210cf25ee",
+          "en": "§7requirements",
+          "ru": "§7требования"
+        },
+        {
+          "id": "inherited-48bc895562fb245d",
+          "en": "§cComplete all requirements",
+          "ru": "§cВыполните все требования"
+        }
+      ]
+    },
+    {
+      "id": "b12-f59ecc7ac4a411a5",
+      "match": {
+        "title": "§7The Envoy Part I [Quest]",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Envoy Part I [Quest]",
+        "ru": "§7§#33B33BПосланник, Часть I §#AAAAAA[Квест]"
+      },
+      "lines": [
+        {
+          "id": "line-f59ecc7ac4a411a5",
+          "en": "§7The Envoy Part I [Quest]",
+          "ru": "§7§#33B33BПосланник, Часть I §#AAAAAA[Квест]"
+        },
+        {
+          "id": "line-24c23e169b2e640a",
+          "en": "§7§aUnlocks Corkus - Currently in progress",
+          "ru": "§7§aОткрывает Коркус - В процессе"
+        },
+        {
+          "id": "line-f6a35a73f9daabd1",
+          "en": "§7Find the Five Gears Diner at",
+          "ru": "§7Найдите закусочную \"Пять шестерёнок\" у"
+        }
+      ]
+    },
+    {
+      "id": "b12-5cf238aab31d2847",
+      "match": {
+        "title": "§7Elemental Exercise [Quest]",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Elemental Exercise [Quest]",
+        "ru": "§7§#33B33BСтихийные Упражнения §#AAAAAA[Квест]"
+      },
+      "lines": [
+        {
+          "id": "line-5cf238aab31d2847",
+          "en": "§7Elemental Exercise [Quest]",
+          "ru": "§7§#33B33BСтихийные Упражнения §#AAAAAA[Квест]"
+        },
+        {
+          "id": "line-82382cb652bf766a",
+          "en": "§7§aStoryline - Currently in progress",
+          "ru": "§7§aСюжетный Квест - В процессе"
+        },
+        {
+          "id": "line-92e2ea05044b193c",
+          "en": "§7Follow Captain Ragon to the",
+          "ru": "§7Следуйте за капитаном Рагоном"
+        },
+        {
+          "id": "line-bc0694684b066924",
+          "en": "§7Training Room at §f[<num>, <num>,",
+          "ru": "§#AAAAAAв тренировочный зал у §#FFFFFF[§#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF,"
+        },
+        {
+          "id": "line-4064c7daa5d2f556",
+          "en": "§a✔À§7 Quest: Mushroom Man",
+          "ru": "§#55FF55✔§#55FF55À §#AAAAAAКвест: §#FFFFFFГрибной Человек"
+        }
+      ]
+    },
+    {
+      "id": "b12-a487297edcd3134f",
+      "match": {
+        "title": "§7Theatre Royal [Cave]",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Theatre Royal [Cave]",
+        "ru": "§7§#FF8C19Королевский Театр §#AAAAAA[Пещера]"
+      },
+      "lines": [
+        {
+          "id": "line-a487297edcd3134f",
+          "en": "§7Theatre Royal [Cave]",
+          "ru": "§7§#FF8C19Королевский Театр §#AAAAAA[Пещера]"
+        },
+        {
+          "id": "line-14a129b44c02f009",
+          "en": "§7§7The dazzling Showman captivates",
+          "ru": "§7§7Блистательный артист покоряет"
+        },
+        {
+          "id": "line-f0eb6e5394970b1f",
+          "en": "§7crowds and influences opinions",
+          "ru": "§7публику и влияет на её взгляды"
+        },
+        {
+          "id": "line-f7dca5578bf0467f",
+          "en": "§7in the theatre at §f[<num>, <num>,",
+          "ru": "§#AAAAAAв театре у §#FFFFFF[§#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF,"
+        }
+      ]
+    },
+    {
+      "id": "b12-1e01623fcf32a9eb",
+      "match": {
+        "title": "§7The Missing Piece [Quest]",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Missing Piece [Quest]",
+        "ru": "§7§#29CC96Недостающая Часть §#AAAAAA[Квест]"
+      },
+      "lines": [
+        {
+          "id": "line-1e01623fcf32a9eb",
+          "en": "§7The Missing Piece [Quest]",
+          "ru": "§7§#29CC96Недостающая Часть §#AAAAAA[Квест]"
+        },
+        {
+          "id": "line-ef7197aa9d0810a6",
+          "en": "§7Pick up your post in the Post",
+          "ru": "§7Заберите свою почту в почтовом"
+        },
+        {
+          "id": "line-f2d16489980f7181",
+          "en": "§7Office at §f[<num>, <num>, <num>]§7",
+          "ru": "§#AAAAAAотделении у §#FFFFFF[§#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF]§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "b12-2fe15f1b901f2869",
+      "match": {
+        "title": "§7The Cursed One [Quest]",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Cursed One [Quest]",
+        "ru": "§7§#33B33BПроклятый §#AAAAAA[Квест]"
+      },
+      "lines": [
+        {
+          "id": "line-2fe15f1b901f2869",
+          "en": "§7The Cursed One [Quest]",
+          "ru": "§7§#33B33BПроклятый §#AAAAAA[Квест]"
+        },
+        {
+          "id": "line-e2463434557b324c",
+          "en": "§7§eLeaves in the Wind Part II - Can be started",
+          "ru": "§7§eЛистья на Ветру, Часть II - Можно начать"
+        },
+        {
+          "id": "line-597471faa7d11c7f",
+          "en": "§7Return to the resistance camp",
+          "ru": "§7Вернитесь в лагерь сопротивления"
+        },
+        {
+          "id": "line-3cf81647839a5cd6",
+          "en": "§7at §f[<num>, <num>, <num>]§7.",
+          "ru": "§#AAAAAAу §#FFFFFF[§#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF]§#AAAAAA."
+        },
+        {
+          "id": "line-a85c163ac63c3e15",
+          "en": "§a✔À§7 Quest: A New Beginning",
+          "ru": "§#55FF55✔§#55FF55À §#AAAAAAКвест: §#FFFFFFНовое Начало"
+        },
+        {
+          "id": "inherited-0856665c2e61852b",
+          "en": "<em>- <num> XP",
+          "ru": "<em>- §7<num>§7 Опыта"
+        }
+      ]
+    },
+    {
+      "id": "b12-78920a449ee1256f",
+      "match": {
+        "title": "§7The Barracks [Cave]",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Barracks [Cave]",
+        "ru": "§7§#FF8C19Казармы §#AAAAAA[Пещера]"
+      },
+      "lines": [
+        {
+          "id": "line-78920a449ee1256f",
+          "en": "§7The Barracks [Cave]",
+          "ru": "§7§#FF8C19Казармы §#AAAAAA[Пещера]"
+        },
+        {
+          "id": "line-ed0863515e8c570a",
+          "en": "§7§7Walk across the tall bridges",
+          "ru": "§7§7Пройдите по высоким мостам"
+        },
+        {
+          "id": "line-2d021730bed87ea7",
+          "en": "§7and find the knights within the",
+          "ru": "§7и найдите рыцарей в"
+        },
+        {
+          "id": "line-eb5788c78a2bb15e",
+          "en": "§7Barracks at §f[<num>, <num>, <num>]§7",
+          "ru": "§#AAAAAAКазармах у §#FFFFFF[§#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF]§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "b12-49f3d065f48f6282",
+      "match": {
+        "title": "§7Liftal Castle [Cave]",
+        "anchors": [],
+        "priority": 260
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Liftal Castle [Cave]",
+        "ru": "§7§#FF8C19Замок Лифтал §#AAAAAA[Пещера]"
+      },
+      "lines": [
+        {
+          "id": "line-49f3d065f48f6282",
+          "en": "§7Liftal Castle [Cave]",
+          "ru": "§7§#FF8C19Замок Лифтал §#AAAAAA[Пещера]"
+        },
+        {
+          "id": "line-76bf88bc2befd1e6",
+          "en": "§7§7The members of House Liftal",
+          "ru": "§7§7Члены дома Лифтал"
+        },
+        {
+          "id": "line-07fa64922b859bcf",
+          "en": "§7train fiercely to qualify for",
+          "ru": "§7упорно тренируются, чтобы попасть"
+        },
+        {
+          "id": "line-26eb52a82e3cfe57",
+          "en": "§7the Wings military division.",
+          "ru": "§7в военный дивизион \"Крылья\"."
+        },
+        {
+          "id": "line-5a18531a06baf593",
+          "en": "§7Challenge this brutish family",
+          "ru": "§7Бросьте вызов этому жестокому роду"
+        },
+        {
+          "id": "line-3cf81647839a5cd6",
+          "en": "§7at §f[<num>, <num>, <num>]§7.",
+          "ru": "§#AAAAAAу §#FFFFFF[§#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF]§#AAAAAA."
+        }
+      ]
+    }
+  ]
+}

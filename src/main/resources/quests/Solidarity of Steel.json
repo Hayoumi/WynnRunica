@@ -1,0 +1,4215 @@
+{
+  "quest": "Solidarity of Steel",
+  "level": 109,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "solidarity-of-steel",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "...that's everyone, then. Good. Good, you're all safe. I wasn't certain, after...",
+      "ru": "...значит, все на месте. Хорошо. Хорошо, вы целы. Я после того... уже не была уверена...",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Are you just going to ignore what happened back there?",
+      "ru": "Ты просто сделаешь вид, что там ничего не было?",
+      "speaker": "Rex",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Zhiraok's blessing... it gives him the power to revive himself. It takes some time, though.",
+      "ru": "Благословение Жираока... даёт ему силу возвращать себя к жизни. Правда, на это нужно время.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "If we wanted any chance to get away, I had to- I had to kill him.",
+      "ru": "Если мы хотели хоть как-то уйти, мне пришлось... пришлось его убить.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Well, in any case, we're all here! We'll be meeting with my contact soon, after which we'll certainly be safe, but...",
+      "ru": "Ну, как бы там ни было, мы все здесь! Скоро встретимся с моим связным, и тогда уже будем в безопасности, но...",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "We have some time to spare. You've had a few days to acclimate to the Roughworks - any thoughts?",
+      "ru": "У нас есть немного времени. Вы уже несколько дней привыкаете к Роухворксу - ну как вам тут?",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "It is, isn't it? It's much busier, less open, and yet... it carries a certain nostalgia for me.",
+      "ru": "Да, правда? Тут и люднее, и теснее, и всё же... для меня в этом месте есть что-то родное.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Nostalgic? This place, really? What's so nostalgic about loud factories and urban sprawl?",
+      "ru": "Родное? Серьёзно, вот это место? Что тут вообще может навевать ностальгию - грохочущие фабрики и сплошная застройка?",
+      "speaker": "Rex",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "...ah. Nothing much, I suppose.",
+      "ru": "...ах. Да ничего, наверное.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Well, I'm with Rex on th- this- this one! I wouldn't want to s- st- stay here for long, it's s- so... smoggy.",
+      "ru": "Ну, тут я с Ре- Рекс с- согласен! Я бы не х- хотел тут надолго застревать, здесь так... дымно.",
+      "speaker": "Zeph",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Certainly, it is not as... clean, I suppose, as the Auburn Forest. The smell of the morning dew shall be sorely missed!",
+      "ru": "Да уж, до... чистого воздуха леса Аубёрна этому месту далеко. Буду скучать по запаху утренней росы!",
+      "speaker": "Mora",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Alright, children, get it out of your system. Please refrain from speaking poorly of the Roughworks once we meet with my contact... I'd like to make a good first impression.",
+      "ru": "Ладно, дети, выговорились и хватит. Когда встретимся с моим связным, постарайтесь не поливать Роухворкс грязью... хотелось бы всё-таки произвести нормальное первое впечатление.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "The dialogue branches combine here.",
+      "ru": "Тут ветки диалога сходятся.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Oh, you wouldn't think so if you actually had to live here.",
+      "ru": "Ты бы так не говорила, если бы сама здесь жила.",
+      "speaker": "Rex",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Rex, please. Be polite.",
+      "ru": "Рекс, пожалуйста. Веди себя прилично.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "What?! Most of them would agree with me!",
+      "ru": "Да что?! Большинство местных со мной бы согласились!",
+      "speaker": "Rex",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I think I'm with Rex on this- this one! I can't im-imagine- imagine living here, it's s- so... smoggy.",
+      "ru": "Кажется, тут я тоже с Ре- Рекс. Я да- даже представить не могу, как тут жить, здесь та- так... задымлено.",
+      "speaker": "Zeph",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Alright, children, get it out of your system. Please refrain from speaking poorly of the Roughworks once we meet with my contact... no matter how much they may or may not agree.",
+      "ru": "Ладно, дети, выпустили пар и хватит. Когда увидимся с моим связным, не надо отзываться о Роухворксе плохо... даже если местные с вами и правда могли бы согласиться.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "In any case, I was told to meet them in the city at noon - Timasca is usually empty during the daytime.",
+      "ru": "В любом случае, мне сказали встретиться с ними в городе в полдень - днём Тимаска обычно пустеет.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "What? It's empty during the day? Th- that doesn't make a lot of sense.",
+      "ru": "Что? Днём пустая? Э- это как-то не особо вяжется.",
+      "speaker": "Zeph",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I'm afraid the lives of the citizens of the Roughworks revolve entirely around their work. The work day starts at sunrise, and ends with sunset. So, let's just wait...",
+      "ru": "Боюсь, жизнь жителей Роухворкса целиком крутится вокруг работы. Рабочий день начинается с рассветом и кончается с закатом. Так что... просто подождём.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "...oh, where are they?",
+      "ru": "...ну и где они?",
+      "speaker": "Rex",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Maybe they, um, just read time differently, here...? Or maybe we-",
+      "ru": "Может, у них тут, эм... время как-то по-другому считают...? Или мы-",
+      "speaker": "Sui",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Oho, Syndra!",
+      "ru": "Ого, Синдра!",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Hello, Quill. It's been a while since we've met face to face, hasn't it?",
+      "ru": "Здравствуй, Квилл. Давно мы вот так лицом к лицу не виделись, да?",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Indeed, indeed... I hope your journey to cross to the Roughworks wasn't too difficult.",
+      "ru": "Да-да... Надеюсь, путь до Роухворкса выдался не слишком тяжёлым.",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Could have been better, could have been worse. We expected difficulties going in.",
+      "ru": "Могло быть и лучше, могло и хуже. Мы заранее знали, что без проблем не обойдётся.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I see... You'll have to tell me more later. Now, which of you is the cursed one? I'd like a look at you.",
+      "ru": "Понимаю... Потом расскажешь подробнее. А сейчас кто из вас проклятый? Хочу на тебя взглянуть.",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Mmhm! So you're the one, eh? What I'd heard in correspondence had me thinking you'd be different than us. Seems like I was right!",
+      "ru": "Угу! Значит, это ты? По нашим письмам я представлял тебя немного не таким, как мы. Похоже, не ошибся!",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "There's a look in your eyes, something to your gait. In all my years I've seen quite a lot, and everything that shouts \"promise\" is there in you.",
+      "ru": "У тебя и взгляд особый, и походка. За свою жизнь я повидал немало, и всё, что прямо кричит о большом будущем, в тебе есть.",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Ha! Yes, yes, I suppose that would be the correct response to that question. You'd do well to stick to that script.",
+      "ru": "Ха! Ну да, да, пожалуй, именно так на такой вопрос и стоит отвечать. И дальше лучше держись этой линии.",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "But Syndra has already written much about you in our correspondence. No need to be shy.",
+      "ru": "Но Синдра уже много о тебе писала в наших письмах. Так что стесняться не надо.",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Blessed, cursed... They're two sides of the same coin, in my eyes. I've seen my fair share of both in my time leading this group, heh heh...",
+      "ru": "Благословенные, проклятые... Для меня это две стороны одной монеты. Пока я вёл эту группу, и тех, и других повидал с лихвой, хе-хе...",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "I see no reason not to celebrate differences, and what better difference could there be?",
+      "ru": "Не вижу ни одной причины не ценить чужие отличия. А что может быть отличием интереснее этого?",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "... Ah, we'll have more time to speak later. We'd best make our way down to the station, we can sort out arrangements there-",
+      "ru": "... Ах, потом ещё успеем поговорить. Лучше нам уже спуститься на станцию, там и решим все вопросы-",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Hey, hey! We're leaving before we even get our introductions in? Why'd we even come here then, man?",
+      "ru": "Эй-эй! Мы что, уходим, даже не представившись? Тогда зачем вообще сюда пришли, дружище?",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Yes, Yuman, why did we come here? You're the one who dragged us all along.",
+      "ru": "Да, Юман, и правда - зачем мы сюда пришли? Это же ты нас всех притащил.",
+      "speaker": "Yulie",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Well, hey, I just thought that this old man could use some help, that's all! Six people's a lot for one guy to greet, you know?",
+      "ru": "Да я просто подумал, что этому деду не помешает помощь, вот и всё! Шестерых встречать одному - это, знаешь, многовато.",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Yes, yes... Well, alright, since you all are here, we may as well handle introductions now.",
+      "ru": "Да-да... Ладно, раз уж вы все здесь, давайте и правда познакомимся прямо сейчас.",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "I'm Yuman! I'm the greatest musician of our age, man! And I'm super muscular and cool, and-",
+      "ru": "Я Юман! Величайший музыкант нашей эпохи, дружище! А ещё накачанный, крутой и-",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Alright, Yuman, that's enough. I'm Yulie, oldest of three. I work as a detective in Timasca.",
+      "ru": "Всё, Юман, хватит. Я Юли, старший из трёх братьев. Работаю детективом в Тимаске.",
+      "speaker": "Yulie",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Booooring! Come on, bro, have some-",
+      "ru": "Скууучно! Ну же, брат, хоть немного-",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "And I'm Yusanu! I'm a mechanic. Quill's told us a lot about you, it's a pleasure to finally meet you.",
+      "ru": "А я Юсану! Я механик. Квилл много нам о вас рассказывал, рад наконец познакомиться лично.",
+      "speaker": "Yusanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Yuman: Come onnn! At least try a little, man!",
+      "ru": "Юман: Ну давааай! Хоть немного постарайся, дружище!",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Uh... S- same, I guess. This is all s- st- still a bit new.",
+      "ru": "Эм... в- взаимно, наверное. Для меня это всё е- ещё немного в новинку.",
+      "speaker": "Zeph",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Eh, you'll get used to it. This place has a way of growing on you.",
+      "ru": "Да привыкнешь. Это место постепенно становится тебе дорогим.",
+      "speaker": "Rex",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Ah, if I may - I don't suppose you'd have anything prepared for us to be able to blend in better? I'd imagine we stick out a fair bit right now.",
+      "ru": "Ах, если позволите - у вас случайно не найдётся чего-нибудь, чтобы мы лучше сливались с местными? А то сейчас мы, боюсь, слишком уж бросаемся в глаза.",
+      "speaker": "Mora",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Hm... I hadn't quite considered that. Boys, why don't you handle that while Syndra and I go ahead to sort out living arrangements?",
+      "ru": "Хм... А вот об этом я как-то не подумал. Парни, займитесь этим, пока мы с Синдрой пойдём вперёд и разберёмся с размещением.",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Sir, yes sir!",
+      "ru": "Есть, сэр!",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Leaves, why don't you join them? It'll be a good opportunity to get to know each other.",
+      "ru": "Лесные, идите с ними. Хороший шанс узнать друг друга получше.",
+      "speaker": "Syndra",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Um... I think I'd rather go with you. I'd like to rest a bit.",
+      "ru": "Эм... я, наверное, лучше пойду с вами. Хочу немного передохнуть.",
+      "speaker": "Sui",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "... Then I'll tag along as well. Perhaps I could be of use at the station!",
+      "ru": "... Тогда я тоже с вами. Вдруг на станции смогу чем-нибудь пригодиться!",
+      "speaker": "Mora",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Very well. Follow me, we have an access point this way.",
+      "ru": "Хорошо. Идёмте за мной, вход у нас вон там.",
+      "speaker": "Quill",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Syndra, Quill, Mora, and Sui exit.",
+      "ru": "Синдра, Квилл, Мора и Суи уходят.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Quill: Are either of you good with cooking?",
+      "ru": "Квилл: Кто-нибудь из вас умеет готовить?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Well. I'm afraid I can't stay either... the station doesn't exactly run by itself. We'll have to catch up later!",
+      "ru": "Ну... Я тоже не смогу остаться... станция сама себя не обслужит. Поболтаем позже!",
+      "speaker": "Yusanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Yusanu exits.",
+      "ru": "Юсану уходит.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Ugh, boring as usual... Oh well! Yulie and I can show you around just fine by ourselves.",
+      "ru": "Ух, всё как обычно скучно... Ну и ладно! Мы с Юли и сами прекрасно можем вам всё показать.",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "We should start with getting you all some new clothes.",
+      "ru": "Для начала надо раздобыть вам новую одежду.",
+      "speaker": "Yulie",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Hey! Wh- what's wrong with our cur- current ones!",
+      "ru": "Эй! А ч- что не так с на- нашей нынешней?!",
+      "speaker": "Zeph",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "They make you look like poor forest people, man!",
+      "ru": "В ней вы выглядите как бедняки из леса, дружище!",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Yuman! Don't be rude to our guests.",
+      "ru": "Юман! Не груби гостям.",
+      "speaker": "Yulie",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "What, I'm just saying! Am I wrong?",
+      "ru": "Да я просто говорю как есть! Я что, не прав?",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Well! At l- lea- at least we don't smell bad!",
+      "ru": "Ну! За- зат- зато от нас не воняет!",
+      "speaker": "Zeph",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Alright, boys, settle down, play nice. You're both pretty. So, Yulie, what's the plan?",
+      "ru": "Так, мальчики, тихо, не ссорьтесь. Вы оба красавчики. Юли, какой план?",
+      "speaker": "Rex",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "I'll have to swing by some shops... Yuman, in the meantime, why don't you see if you can find any clothes around here?",
+      "ru": "Мне надо пробежаться по магазинам... Юман, а ты пока посмотри, сможешь ли найти одежду где-нибудь здесь.",
+      "speaker": "Yulie",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Great, I'll join you. I need to get re-acquainted with things around here.",
+      "ru": "Отлично, я с тобой. Мне и самой не помешает снова освоиться тут.",
+      "speaker": "Rex",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Sure, that works. Any complaints, Yuman?",
+      "ru": "Да, пойдёт. Юман, возражения есть?",
+      "speaker": "Yulie",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "If I had 'em, you'd hear it loud and clear. The plan's good, bro.",
+      "ru": "Если бы были, ты бы сразу услышал. Хороший план, брат.",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Okay, we'll meet back at the Steel Feather once we're done. See you then!",
+      "ru": "Ладно, как закончим - встретимся обратно в Стальном Пере. До встречи!",
+      "speaker": "Yulie",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Yulie and Rex exit.",
+      "ru": "Юли и Рекс уходят.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "...Well! I've got a plan of my own in mind. Not exactly what Yulie had in mind, but... heh, what he doesn't know won't hurt him. Follow me, leaf people!",
+      "ru": "...Ну! А у меня на уме свой план. Не совсем тот, что имел в виду Юли, но... хех, чего он не знает, то ему не навредит. За мной, лесные!",
+      "speaker": "Yuman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Hey! Hold- h- hold up! What's your p- p- plan?",
+      "ru": "Эй! П- подо- подожди! Ка- какой у тебя план?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Oh! Right. We're going to steal from the clotheslines, of course.",
+      "ru": "О! Точно. Будем воровать с бельевых верёвок, само собой.",
+      "speaker": "Yuman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "... I'm no stranger to st- stealing, but... isn't it a bit r- r-... a bit risky to do that in the m- middle of the city?",
+      "ru": "...Я не чужд во- воровству, но... не сле- слег- слишком ли это рискованно - делать такое прямо по- посреди города?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Man, haven't you noticed how empty Timasca is?",
+      "ru": "Дружище, разве ты не заметил, что Тимаска пустая?",
+      "speaker": "Yuman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Figures you wouldn't know, since you're not from around here! It's pretty simple.",
+      "ru": "Хотя откуда тебе знать, ты ж не местный! Тут всё просто.",
+      "speaker": "Yuman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "It's the middle of the workday! People are out at their jobs, they don't have time to stroll around the city! Got to make a living somehow, yeah?",
+      "ru": "Сейчас середина рабочего дня! Народ на работе, им некогда шататься по городу! Надо же как-то на жизнь зарабатывать, ага?",
+      "speaker": "Yuman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "A- and since they're out at their jobs, they're n- n- not home... you want us to just walk th- through someone's apartment, then?",
+      "ru": "И- и раз они на работе, их н- нет дома... ты хочешь, чтобы мы просто прошлись че- через чью-то квартиру?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Yep, yep, exaaaactly! You get it. I think you and I are gonna get along great.",
+      "ru": "Ага-ага, и-имеенно! Схватываешь. Чую, мы с тобой отлично поладим.",
+      "speaker": "Yuman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Yeah... sure. L- let- let's get going! I think we can rea- reach the from this house. We'll find some clothes up there.",
+      "ru": "Ага... ну да. Д- давай пойдём! Кажется, туда можно добраться через этот дом. Наверху и поищем одежду.",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "The dialogue ends here.",
+      "ru": "На этом диалог заканчивается.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Ha! Really? You should... you should pay more attention, man. The moment you stop keeping an eye on things is the moment things go wrong, y'know? Jeez.",
+      "ru": "Ха! Серьёзно? Тебе бы... повнимательнее быть, приятель. Стоит перестать следить за обстановкой, и всё идёт наперекосяк. Понимаешь? Вот ведь.",
+      "speaker": "Yuman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "What I was gonna say is that it's the middle of the workday. People are out at their jobs! No time to stroll around the city, or anything.",
+      "ru": "Я хотел сказать, что сейчас середина рабочего дня. Народ на работе! Не до прогулок по городу и всего такого.",
+      "speaker": "Yuman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "A- and since they're out at their jobs, they're n- not home... you want us to just walk th- through someone's apartment, then?",
+      "ru": "И- и раз они на работе, их н- нет дома... ты хочешь, чтобы мы просто прошли че- через чью-то квартиру?",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Mhm, yep, you get it. They won't mind! Cause they won' know we were there, yeah?",
+      "ru": "Угу, ага, вот именно. Им и не будет дела! Потому что они даже не узнают, что мы там были, ага?",
+      "speaker": "Yuman",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "I- I- I guess. Okay, let's get going! I think we can rea- reach the from this house. We'll find some clothes up there.",
+      "ru": "Я- я- я понял, наверное. Ладно, пошли! Кажется, туда можно добраться через этот дом. Наверху найдём одежду.",
+      "speaker": "Zeph",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Try n-not to fall off the roof...",
+      "ru": "Только с крыши не свались...",
+      "speaker": "Zeph",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "I'll be right be- behind you! Let's get up to the rooftops. I think we can rea- reach them through this building.",
+      "ru": "Я ср- сразу за тобой! Давай вылезем на крыши. Кажется, туда можно попасть через это здание.",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "...what the hell are you doin' jumpin' around?",
+      "ru": "...какого чёрта вы тут скачете?",
+      "speaker": "Timaca Mason",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Buzz off, some've us got jobs.",
+      "ru": "Отвалите, вообще-то люди работают.",
+      "speaker": "Timaca Mason",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Here we are! Best clothes in the entire province, man! Take your pick!",
+      "ru": "Вот мы и пришли! Лучшая одежда во всей провинции, дружище! Выбирай!",
+      "speaker": "Yuman",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "... Wait a mi- min- minute. There are only dr- dresses here?",
+      "ru": "...Погоди-ка. Тут что, одни пл- платья?",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Oh, yeah. My bad, man! Bet you could pull it off though, eh?",
+      "ru": "Ой, да. Мой промах, дружище! Но тебе бы пошло, а?",
+      "speaker": "Yuman",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "I- y- you- wh- wh- what- h- huh? Ev- even- even if I could, Rex and Mora would- w- would never wear- wear these. A- and- and they're n- n- not-",
+      "ru": "Я- т- ты- ч- ч- чего- а? Да- даже если бы и да, Ре- Рекс и Мора то- точно бы такое не надели. И- и- и это вооб- вообще не-",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Relax, I'm just messing with you, man! We'll find some more. But, hey, grab one if you want, yeah?",
+      "ru": "Расслабься, я просто шучу, дружище! Найдём ещё одежду. Но если хочешь, прихвати одно платье, а?",
+      "speaker": "Yuman",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "I'll take one for Sui, just in c- cas- just in case. And let's hurry after him. I'm getting sick a- and-... s- sick and tired of this place already.",
+      "ru": "Возьму одно для Суи, на в-всякий случай. А теперь пойдём за ним. Мне это место уже до-до... надоело.",
+      "speaker": "Zeph",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "It's g-going to be a long c- couple of days, huh?",
+      "ru": "Эти па- пару дней будут до- долгими, да?",
+      "speaker": "Zeph",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Careful there, princess! Wouldn't want to fall, eh?",
+      "ru": "Осторожнее, принцесса! А то ещё грохнешься, а?",
+      "speaker": "Yuman",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Huh? I- I- I'm not-",
+      "ru": "А? Я- я- я не-",
+      "speaker": "Zeph",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Anyway, these clothes should work, yeah? Looks like enough for all of you!",
+      "ru": "Короче, эта одежда должна подойти, ага? Вроде хватает на всех вас!",
+      "speaker": "Yuman",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "...yes, this sh- sh- should be fine. Thank you f- for showing us. Let's just grab them a- and go.",
+      "ru": "...да, этого до- должно хватить. Спасибо, что показал. Давай просто заберём их и пойдём.",
+      "speaker": "Zeph",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Sounds good! You saw the big statue in the river when you were entering the city, yeah?",
+      "ru": "Отлично! Вы же видели большую статую в реке, когда входили в город, ага?",
+      "speaker": "Yuman",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "The one to the s- south- southwest , yes.",
+      "ru": "Ту, что к юго- §#55FFFFюго-западу§r, да.",
+      "speaker": "Zeph",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "That's the one! I'll wait for you there, then we can head to the station. And hurry up, would ya?",
+      "ru": "Вот именно её! Буду ждать вас там, а потом двинем на станцию. И давайте шевелитесь, а?",
+      "speaker": "Yuman",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Ugh... How can one guy be s- s- so annoying?",
+      "ru": "Ух... Как один человек может так на-на-надоедать?",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Whatever... Let's just go to that s- st- statue. It's in the river t- to the southwest.",
+      "ru": "Да ну его... Пошли просто к той ста- статуе. Она в реке, на ю- юго-западе.",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Ey, there you are! What's with the holdup?",
+      "ru": "Эй, вот вы где! Чего так долго?",
+      "speaker": "Yuman",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "I was just telling Zeph all about our base of operations! Here, I can start over if you-",
+      "ru": "Я как раз рассказывал Зефу про нашу базу! Могу и сначала повторить, если вы-",
+      "speaker": "Yuman",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "Let's just h- head in! Even if the city's empty, the longer we stay out here, the more we ri- risk getting seen.",
+      "ru": "Давайте уже за- зайдём! Пусть город и пустой, но чем дольше мы тут торчим, тем выше шанс, что нас за- заметят.",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Yeah, yeah, you're right. Okay, follow me! It's just down here.",
+      "ru": "Да-да, ты прав. Ладно, за мной! Нам сюда, вниз.",
+      "speaker": "Yuman",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "... Into the s- s- sewers?",
+      "ru": "...В ка- канализацию?",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Sorry if our secret base isn't up to your high standards, princess! We've got to stay hidden somehow, eh?",
+      "ru": "Извини, если наша тайная база не дотягивает до твоих высоких стандартов, принцесса! Нам же как-то надо прятаться, ага?",
+      "speaker": "Yuman",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Ugh... fine.",
+      "ru": "Ух... ладно.",
+      "speaker": "Zeph",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "A-after you...",
+      "ru": "П- после тебя...",
+      "speaker": "Zeph",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "So... where are we?",
+      "ru": "Так... и где мы?",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Welcome to the station, man! There's a bunch of abandoned train lines down here. Dunno how we first found it, but it's where the Steel Feather operates.",
+      "ru": "Добро пожаловать на станцию, дружище! Тут внизу полно заброшенных железнодорожных веток. Даже не знаю, как мы нашли это место, но теперь здесь наш дом, \"Стальное Перо\".",
+      "speaker": "Yuman",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Hey! Zeph, <playername>, wait up!",
+      "ru": "Эй! Зеф, <playername>, подождите!",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Good to see you've made it down here too. Yuman, you weren't rude to our guests, were you?",
+      "ru": "Рад видеть, что вы тоже добрались. Юман, ты же не успел нахамить нашим гостям, да?",
+      "speaker": "Yulie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "What? Screw you, man, of course I was nice! When have I ever not been nice and kind and awesome?",
+      "ru": "Что? Ну тебя, дружище! Конечно, я был добрым! Когда это я не был милым, приветливым и замечательным?",
+      "speaker": "Yuman",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Well, either way, I'm sure you've tired them out by now. Let's go on ahead and give them time to catch up, alright?",
+      "ru": "Ну как бы там ни было, ты наверняка уже успел их утомить. Давай пойдём вперёд и дадим им немного выдохнуть, ладно?",
+      "speaker": "Yulie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Ugh, fiiiiiine. Later, you all!",
+      "ru": "Ух, лаааадно. Ещё увидимся!",
+      "speaker": "Yuman",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "So... how've you been finding Yuman so far?",
+      "ru": "Ну... и как тебе пока Юман?",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Ugh. He's f- fi- fine. We got the clothes, at least.",
+      "ru": "Ух. Он н- но- нормальный. Одежду-то мы хотя бы достали.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Hm. You don't sound fine. Spill.",
+      "ru": "Хм. По голосу не скажешь. Ну давай, выкладывай.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Oh, that's it? He's just like that.",
+      "ru": "А, всего-то? Он всегда такой.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "He's just... very p- per- persistent.",
+      "ru": "Он просто... очень на- на- настырный.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Well, that says more about you than it does about him. Have you tried making it less easy for him?",
+      "ru": "Ну, это больше говорит о тебе, чем о нём. Не пробовал давать ему отпор?",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Ha ha. Very hel- hel- helpful, Rex.",
+      "ru": "Ха-ха. Оче- очень полезно, Рекс.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Makes sense, I guess. It's been a few days since we've been able to relax, hasn't it?",
+      "ru": "Ну, логично, наверное. Мы ведь уже несколько дней толком не отдыхали, да?",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Yeah... it'll be n- n- nice to slow down, for a while.",
+      "ru": "Да... будет н- неплохо немного сбавить темп.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Not sure how long we'll be slowed down... but sure. I think Syndra's got some plans in the works, but she hasn't shared them yet.",
+      "ru": "Не уверена, правда, надолго ли мы затормозим... но да. Кажется, у Синдры уже есть какие-то планы, просто она пока ими не делится.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "She's been getting... more ambitious lately. <playername>, I think having you around has had something to do with that.",
+      "ru": "В последнее время она... строит всё более смелые планы. Думаю, ты в этом сыграл не последнюю роль.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "We- we- well, how about you? Is the Roughworks just how you r- remember it?",
+      "ru": "Ну- ну а ты? Роухворкс т- такой, каким ты его по- помнишь?",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "Yeah... pretty much. Things don't tend to change a lot around here, so... it's just like slotting back into place.",
+      "ru": "Ага... почти один в один. Тут вообще мало что меняется, так что... будто просто вернулась обратно на старое место.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "That must be nice.",
+      "ru": "Это, наверное, приятно.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Ha. No, it really isn't. The few months I spent here before Quill sent me off to Syndra were... rough.",
+      "ru": "Ха. Да нет, вообще не приятно. Те несколько месяцев, что я провела тут до того, как Квилл отправил меня к Синдре, были... тяжёлыми.",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "Oh... h- how come? You've never really talked about the R- R- Rough-... about the R- Roughworks.",
+      "ru": "О... А-а почему? Ты почти никогда не рассказывала про Ро-Ро-Роух... Про Роухворкс.",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Uh... Hey, so about those clothes- let's take a look at what you got!",
+      "ru": "Эм... Слушай, а давай лучше посмотрим, что вы там за одежду нашли!",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "R- right... right! Well, here are th- the- the, uh, workers' clothes we got f- for me, Mora, and <playername>... And this is a dr- dress for Sui...",
+      "ru": "Д- да... точно! В общем, вот ра- ра- рабочая одежда для меня, Моры и тебя... А это пл- платье для Суи...",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "And, of- of- of course, a simple dress for you!",
+      "ru": "И, ко- конечно же, простое платье для тебя!",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Oh... that's funny, I don't think I've ever worn one of those! Hey, maybe I'll just take your set and you can wear the dress?",
+      "ru": "О... забавно, кажется, я ни разу в жизни такое не носила! Слушай, может, я тогда просто возьму твой комплект, а ты наденешь платье?",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "Woah, ha, we- well, let's not g- g- get too hasty, haha- oh, l- look here, an extra set of re- reg- regular workers' clothes! What a c- co- coincidence!",
+      "ru": "Ого, ха, ну- ну давай не будем то- торопиться, ха-ха - о, смотри-ка, тут ещё один обычный рабочий комплект! Ка- какое совпадение!",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "...don't, uh, m- m- make me wear the dress, please?",
+      "ru": "...только, эм, не заставляй меня надевать платье, ладно?",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "Yeah, yeah. Well, that's enough fooling around - we should find Mora and Sui, see what they've figured out. I'll race you there!",
+      "ru": "Да-да. Ладно, хорош дурью маяться - надо найти Мору и Суи, посмотреть, что они там успели узнать. Кто последний - тот проиграл!",
+      "speaker": "Rex",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Hey! Oh, you're going d- down!",
+      "ru": "Эй! О, ну всё, тебе ко- конец!",
+      "speaker": "Zeph",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Give me a moment, <playername>.",
+      "ru": "Дай мне минутку.",
+      "speaker": "Syndra",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "...Oh! You're back.",
+      "ru": "...О! Вы вернулись.",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Indeed! Tell us, friends, how go the escapades? Has anything of interest transpired up in the city?",
+      "ru": "И правда! Ну что, друзья, как ваши приключения? В городе случилось что-нибудь интересное?",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "No, Mora, nothing very exciting. Yulie and I did a quick supply run in Timasca while we were there.",
+      "ru": "Нет, Мора, ничего особо интересного. Мы с Юли быстро сходили за припасами в Тимаске.",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "And <playername> and I found some cl- cl- clothes! They might not fit perfectly, but...",
+      "ru": "А мы с ним нашли о- одежду! Может, сядет не идеально, но...",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Ah, well, we'll take what we can get. Besides, I have to imagine they have someone around here who knows their way around modifying clothes!",
+      "ru": "Ах, ну что есть, то есть. К тому же, здесь наверняка найдётся кто-то, кто умеет подгонять одежду как надо!",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Speaking of, have you had time to explore this place yet? It's far larger than I could have anticipated! So many people with so many skillsets; Syndra wasn't lying when she said they had resources here, hoho!",
+      "ru": "Кстати, вы уже успели осмотреться? Это место куда больше, чем я ожидал! Тут столько людей, и каждый что-то умеет; Синдра не врала, когда говорила, что у них тут есть ресурсы, хохо!",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Yes... everyone chips in, too. I got put to work quite fast. Had an opportunity to chat with some of the people here.",
+      "ru": "Да... и все тоже помогают. Меня довольно быстро пристроили к делу. Заодно я успела немного поболтать с местными.",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "They, um... a lot of them don't have anywhere else to go... so they work hard to keep this place running.",
+      "ru": "Им, эм... многим просто больше некуда идти... поэтому они изо всех сил стараются, чтобы это место жило.",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "... Yeah.",
+      "ru": "...Ага.",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Hey, do you know where Yusanu is? I haven't had the chance to catch up with him yet.",
+      "ru": "Слушайте, не знаете, где Юсану? Я ещё не успела с ним нормально поговорить.",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Oh, he seemed to have disappeared into his study some time ago, though not before I could have a chat with him! Did you know he singlehandedly repaired much of the abandoned infrastructure here?",
+      "ru": "О, кажется, он ушёл в мастерскую, но перед этим я успел с ним поговорить! Знаете, он почти в одиночку восстановил здешние заброшенные сооружения?",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "Really? That's... im- im-pressive.",
+      "ru": "Правда? Это... впе- впечатляет.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Apparently, um, the crown was working on building this, central station, but they... abandoned the project, for, some reason. Nobody... really knows why.",
+      "ru": "Похоже, эм... корона строила эту центральную станцию, но потом... по какой-то причине бросила проект. Никто... толком не знает почему.",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Hm... so what are Syndra and Quill ta- talk- talking about over there?",
+      "ru": "Хм... а о чём это Синдра с Квиллом там ра- разговаривают?",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "An excellent question! Nobody knows! Attempting to interject has only resulted in failure thus far.",
+      "ru": "Отличный вопрос! Никто не знает! Все попытки вклиниться в их разговор пока что заканчивались провалом.",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "I mean... should we even interrupt? I haven't seen her this... happy... in a long time.",
+      "ru": "Ну... а стоит ли вообще мешать? Я давно не видела её настолько... счастливой...",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "It is a sweet moment, isn't it?",
+      "ru": "Милый момент, не правда ли?",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Well, I nominate <playername> to go interrupt them. It needs to be done eventually.",
+      "ru": "Ну, предлагаю послать тебя прервать их. Всё равно это когда-нибудь надо сделать.",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Oh, yes, I second that notion. If it must be anyone, <playername> is the one to sacrifice for the cause.",
+      "ru": "О да, поддерживаю. Если уж кому и жертвовать собой ради общего дела, то пускай это будешь ты, <playername>.",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Oh! Uh... sure, I'll... th- third it? That sounds right.",
+      "ru": "О! Эм... да, я... получается, поддерживаю третьим? Наверное, так.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Um... I'll abstain.",
+      "ru": "Эм... я воздержусь.",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "Well! Three for, one against. It seems the decision has been made!",
+      "ru": "Ну вот! Трое за, один воздержался. Похоже, решение принято!",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "Yeah, yeah! Come on, what are you waiting for? Go interrupt Syndra and Quill , and find out what they're talking about.",
+      "ru": "Ага-ага! Ну чего стоишь? Иди уже §#55FFFFпрерви Синдру и Квилла§r, и узнай, о чём они там болтают.",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "Good luck, my friend! You'll certainly need it.",
+      "ru": "Удачи, мой друг! Она тебе точно пригодится.",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "Your sacrifice will not be in vain.",
+      "ru": "Твоя жертва не будет напрасной.",
+      "speaker": "Rex",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "I had no p- pa- part in this!",
+      "ru": "Я в этом н- не уча- участвовал!",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "Don't try to get out of this, Zeph. You're just as complicit in this as the rest of us.",
+      "ru": "Даже не пытайся отвертеться, Зеф. Ты в этом замешан ничуть не меньше остальных.",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Wh- I- fine... <playername>, just get it o- over with. Go , and find out what th- they- wh- what they're talking about.",
+      "ru": "Ч- что? Я- ладно... просто покончи с этим уже. Иди и узнай, о чём о- они- о чём они там говорят.",
+      "speaker": "Zeph",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "I will remember you fondly, my friend.",
+      "ru": "Я буду вспоминать тебя с теплом, мой друг.",
+      "speaker": "Mora",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "Good luck on this mission, <playername>.",
+      "ru": "Удачи в этой миссии.",
+      "speaker": "Rex",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Yuman... huh?",
+      "ru": "Юман... а?",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "H-hey! Don't you have a m-mission to do?",
+      "ru": "Э-эй! У тебя разве не е- есть задание?",
+      "speaker": "Zeph",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "Ah, <playername>! I see you have all returned. Welcome to our home.",
+      "ru": "А, <playername>! Вижу, все уже вернулись. Добро пожаловать в наш дом.",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "I hope the brothers weren't too much of a nuisance. Yuman, especially... he's a good lad, but his enthusiasm gets the best of him sometimes.",
+      "ru": "Надеюсь, братья не слишком вас донимали. Особенно Юман... парень-то он хороший, но его иногда заносит в-",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Rex (From far away): Hii!",
+      "ru": "Рекс (издалека): Привееет!",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "Speaking of nuisances... I can't help but notice the rest of our group looking onwards at our conversation with excitement.",
+      "ru": "Кстати о надоедах... не могу не заметить, что остальная часть нашей группы с огромным интересом пялится на наш разговор.",
+      "speaker": "Syndra",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Ah! Understood. A noble one, at that.",
+      "ru": "Ах! Понятно. И даже весьма благородная цель.",
+      "speaker": "Syndra",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "In any case, Quill and I have been trying to plan out our next moves... but, if I'm being honest, most of that time has been spent catching up.",
+      "ru": "Как бы то ни было, мы с Квиллом пытались обсудить дальнейшие шаги... Но, честно говоря, почти всё время вспоминали старое и делились новостями.",
+      "speaker": "Syndra",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Don't be fooled. All of these people here are resisting to some extent, but very few are ready to go up against a God.",
+      "ru": "Но не обманывайся. Все здесь по-своему сопротивляются, а вот выступить против бога готовы немногие.",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "Hah! Goodness, how long has it been since we met face to face? It must have been... 25 years? Not since before you-",
+      "ru": "Ха! Боги, сколько же прошло с нашей последней встречи лицом к лицу? Лет... двадцать пять? С тех самых пор, ещё до того, как ты-",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "Long enough, Quill.",
+      "ru": "Достаточно давно, Квилл.",
+      "speaker": "Syndra",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "...Ahem. Yes, of course. As Syndra said, we haven't truly started planning yet... You must be surprised by our numbers, yes? More members in the Steel Feather than you'd have expected.",
+      "ru": "...Кхм. Да, конечно. Как и сказала Синдра, мы ещё толком не начали строить планы... Ты, наверное, удивлён нашему числу, да? В Стальном Пере куда больше людей, чем можно было ожидать.",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "In truth, looks may be deceiving. Everyone here is resisting in whatever ways they can manage, but few are willing to put as much of themselves into it as your group.",
+      "ru": "Если честно, внешность обманчива. Все тут сопротивляются как могут, но немногие готовы вкладываться в это так же сильно, как ваша группа.",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "Most of them are simply trying to live without the watchful eye of the monarchy. Our safe haven takes in people who are at risk. People who can't work, who have been thrown out of their homes...",
+      "ru": "Большинство просто пытается жить без постоянного надзора монархии. Наше убежище принимает тех, кто под угрозой. Тех, кто не может работать, кого выгнали из дома...",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "But we are not helpless. The brothers and I are all ready to help, however we can. And the rest of the Steel Feather will still offer support from the sidelines. We have infrastructure, and we have resources.",
+      "ru": "Но мы не беспомощны. Мы с братьями готовы помочь всем, чем сможем. Остальные из \"Стального пера\" тоже поддержат нас. У нас есть нужные сооружения и припасы.",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "I've also suggested that you might offer to teach the basics of magic to those who are interested-",
+      "ru": "Я ещё предложила, чтобы вы могли обучить желающих хотя бы основам магии-",
+      "speaker": "Syndra",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "Yes, yes, but I do not believe we need curses or blessings to resist. As I've told you several times before in our correspondences, Syndra!",
+      "ru": "Да-да, но я не считаю, что для сопротивления нам нужны проклятия или благословения. Я уже не раз писал тебе об этом в письмах, Синдра!",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "And as I've told you in response, I see no reason not to make use of all the tools available!",
+      "ru": "А я тебе в ответ уже говорила: не вижу причин не использовать все доступные нам инструменты!",
+      "speaker": "Syndra",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Syndra, I have been firm on this point for a reason. We have done well for ourselves thus far.",
+      "ru": "Синдра, я упираюсь в этом не просто так. До сих пор мы и без этого неплохо справлялись.",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "As an example- Yusanu has grown quite proficient with machinery. He has constructed weaponry, tools- even my leg is his creation!",
+      "ru": "Вот тебе пример - Юсану отлично освоился с техникой. Он делал оружие, инструменты... да даже моя нога - его работа!",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "... I simply think that-... Sigh. Fine. Quill, we should get to discussing the reason we came here.",
+      "ru": "... Я просто считаю, что-... Эх. Ладно. Квилл, нам стоит уже обсудить, зачем мы сюда пришли.",
+      "speaker": "Syndra",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "Yes, I rather think we should. <playername>, in the meantime, why don't you take a look around the station? Familiarize yourself with the area and the people.",
+      "ru": "Да, пожалуй, пора. <playername>, ты пока осмотрись на станции. Освойся тут, познакомься с местом и людьми.",
+      "speaker": "Quill",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Take a look around the station! Familiarize yourself with the area and the people.",
+      "ru": "Осмотрись на станции! Освойся тут и познакомься с местными.",
+      "speaker": "Quill",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "Hoho! So they return! Tell us, how did it go?",
+      "ru": "Хохо! Вот и вернулся! Ну что, как всё прошло?",
+      "speaker": "Mora",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "Oh, no... what a tragedy.",
+      "ru": "О нет... какая трагедия.",
+      "speaker": "Rex",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "Ah, we all knew the stakes going in! Worry not, friend, your sacrifice will not be forgotten any time soon!",
+      "ru": "Ах, мы все знали, на что идём! Не тревожься, друг мой, твою жертву ещё долго не забудут!",
+      "speaker": "Mora",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Hey! E- e- enough with the theatrics!",
+      "ru": "Эй! Х- х- хватит уже этого театра!",
+      "speaker": "Zeph",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "Excellent! You have successfully defied the odds, friend!",
+      "ru": "Прекрасно! Ты успешно пережил всё и всем назло!",
+      "speaker": "Mora",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "Zeph didn't believe you'd make it, you know.",
+      "ru": "Зеф, между прочим, не верил, что ты вернёшься.",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "Wh- what, n- no I- I didn't- Sui!! D- don't- don't believe a word- a word she says, o- okay?",
+      "ru": "Ч- чего, н- нет, я- я не- Суи!! Н- не- не верь ни сло- ни слову из того, что она говорит, ла- ладно?",
+      "speaker": "Zeph",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "Wh- what were they talking about, anyway?",
+      "ru": "А о ч- чём они вообще говорили?",
+      "speaker": "Zeph",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "Oh, so it was as boring as I predicted.",
+      "ru": "А, ну значит, всё было так же скучно, как я и думала.",
+      "speaker": "Rex",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "Don't call that boring, Rex! It's... nice for her to relax for a little, isn't it?",
+      "ru": "Не называй это скучным, Рекс! Ей... полезно хоть немного расслабиться, разве нет?",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "It can be both boring and a nice thing, can it not? The nice things often tend towards the boring end of the spectrum, in any case.",
+      "ru": "Почему же, это может быть и скучно, и приятно одновременно. Всё приятное, если подумать, довольно часто тяготеет к скучному.",
+      "speaker": "Mora",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "So, still n- nothing about the plans... when is she go- go- going to tell us anything?",
+      "ru": "То есть, всё е- ещё ничего по планам... и когда она со- собирается нам хоть что-то рассказать?",
+      "speaker": "Zeph",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "Have patience, young Leaf. She will tell us when it is time! Now, Sui and I have had the opportunity to explore, but you three have not! So, go on! Look around, talk to people.",
+      "ru": "Терпение, юный лесной. Она расскажет, когда придёт время! А мы с Суи уже успели всё осмотреть, а вы трое - нет! Так что вперёд! Осмотритесь, поговорите с людьми.",
+      "speaker": "Mora",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "Go have a look around!",
+      "ru": "Идите, осмотритесь!",
+      "speaker": "Mora",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "Ah. You're all back already? Man, I totally lost track of time there... there's so much to do.",
+      "ru": "А. Вы уже вернулись? Вот ведь, совсем потерял счёт времени... Столько дел.",
+      "speaker": "Yusanu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "So, what's up? Sorry I couldn't talk to you more earlier- I'm the one who makes sure everything runs smoothly here.",
+      "ru": "Ну, что такое? Извините, что раньше не смог нормально поболтать - тут всё держится на мне.",
+      "speaker": "Yusanu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "Most of the infrastructure was here already, but I basically fixed it all up myself... with some help, of course. But now I'm in charge of maintaining all of it!",
+      "ru": "Большинство сооружений здесь уже было, но я почти всё восстановил сам... Не без помощи, конечно. А теперь отвечаю за то, чтобы всё работало!",
+      "speaker": "Yusanu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "It's not usually this... hectic. We had some stuff break down recently, and I'm the oooonly one who can deal with it!",
+      "ru": "Обычно тут не так... суматошно. У нас недавно кое-что поломалось, и я еееединственный, кто может с этим разобраться!",
+      "speaker": "Yusanu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "Ugh...",
+      "ru": "Ух...",
+      "speaker": "Yusanu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "... Still don't have time to chat, sorry! I'm nearly done, though, I'll be out in a bit.",
+      "ru": "... Всё ещё нет времени болтать, извини! Я уже почти закончил, скоро выйду.",
+      "speaker": "Yusanu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "Ayo! Where're your friends at?",
+      "ru": "Йо! А где твои друзья?",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "I already miss 'em.",
+      "ru": "Я уже по ним скучаю.",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "Hah! Yeah, yeah, maybe. I was hoping to tease him some more.",
+      "ru": "Ха! Ну да, да, может быть. Я просто надеялся ещё немного его поподкалывать.",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "He's a fun guy! But the boy's gotta learn how to tease back... it's no fun if it's one-side, y'know?",
+      "ru": "Он забавный парень! Только пусть научится и сам подшучивать в ответ. А то какая радость, когда все шутки с одной стороны?",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "...what? Ey, don't look at me like that! It's all for fun at the end of the day. If he tells me to quit it, I'll quit it.",
+      "ru": "...Что? Эй, не смотри на меня так! Я просто шучу. Если он скажет, что ему не нравится, отстану.",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "...Yep! So they are!",
+      "ru": "...Ага! Вон они!",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "I'll... go over there later. Eventually! ... Maybe.",
+      "ru": "Я... подойду к ним позже. Когда-нибудь! ... Наверное.",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "Eheh. Wouldn't want to overstay my welcome, y'know? I've got things to do, anyway...",
+      "ru": "Эхех. Не хочу уж слишком навязываться, понимаешь? У меня и так дел хватает...",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "...so, you exploring? That's good! I'd show you around, but... eheh, I'm uh, working on a little something right now.",
+      "ru": "...ну что, осматриваешься? Это хорошо! Я бы и сам тебе всё показал, но... эхех, я тут, эм, кое над чем сейчас работаю.",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "Yo, quit trying to sneak a peak at it! No spoilers! You'll see it tonight, if I get it done.",
+      "ru": "Эй, не подглядывай! Не порти сюрприз! Услышишь вечером, если я успею закончить.",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Hey! I said no peaking!",
+      "ru": "Эй! Я же сказал - не подглядывать!",
+      "speaker": "Yuman",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "Hm. I suppose you're used to invading personal space?",
+      "ru": "Хм. Похоже, ты привык залезать в чужое личное пространство?",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "Don't worry, I'm not upset. I appreciate the effort in familiarizing yourself with this place.",
+      "ru": "Не переживай, я не злюсь. Наоборот, ценю, что ты стараешься получше узнать это место.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "Did you have a question, or are you just looking around?",
+      "ru": "У тебя был какой-то вопрос или ты просто осматриваешься?",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "Oh, has he done something again? Of course he has... I apologize for my brother's actions.",
+      "ru": "О, он опять что-то выкинул? Ну конечно выкинул... Прошу прощения за поведение моего брата.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "He's... hard to keep a handle on. Energetic, impulsive... I do love him, but do I ever wish he would cause less trouble.",
+      "ru": "За ним... сложно уследить. Энергичный, импульсивный... я его люблю, конечно, но как же мне иногда хочется, чтобы он создавал поменьше проблем.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "Ah. Then I apologize for my assumption.",
+      "ru": "А. Тогда прошу прощения за поспешный вывод.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "He's... I might be too hard on him sometimes. He does help out a lot around here, he does- just... like I said. Energetic and impulsive.",
+      "ru": "Он... может, я иногда и правда к нему слишком строг. Он тут очень много помогает, правда помогает - просто... как я и сказал. Слишком уж энергичный и импульсивный.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "You'll get used to his personality, with time. Everyone does.",
+      "ru": "Со временем привыкнешь к его характеру. Все привыкают.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "But in any case, I'll speak with him about it. He should know better than to bother our guests.",
+      "ru": "Но в любом случае я с ним поговорю. Он уже должен понимать, что гостей донимать не стоит.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "I have to get back to work. I'll see you around.",
+      "ru": "Мне пора возвращаться к работе. Ещё увидимся.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "Hm? My role? That's a bit of a complex question, actually. In the Steel Feather... I don't do much.",
+      "ru": "Хм? Моя роль? Вообще, вопрос не такой простой. В Стальном Пере... я не так уж много делаю.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "But I work as a consulting detective for the crown, in the city. I perform investigations for them, but I also gather information for us - keeping tabs on the military, and such.",
+      "ru": "Но в городе я работаю детективом-консультантом на корону. Веду для них расследования, а заодно собираю сведения и для нас - слежу за военными и всем таким.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "Besides, the pay's... decent enough. A few emeralds in my pocket helps all of us down here. Unfortunately, we can't produce everything ourselves.",
+      "ru": "И платят там... вполне терпимо. Пара лишних изумрудов у меня в кармане помогает всем нам внизу. К сожалению, сами мы производить всё не можем.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "But speaking of my work, I... am actually busy preparing for a meeting right now. Timasca's Commander wants us on the lookout for... something, he hasn't told us yet.",
+      "ru": "Но раз уж речь о работе, я... вообще-то сейчас готовлюсь к одной встрече. Командующий Тимаски хочет, чтобы мы искали... что-то, но что именно - ещё не сказал.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "But it's my duty to find out, so into the city I will go. If you'll excuse me, I'll get back to preparing now.",
+      "ru": "Но выяснить это - моя обязанность, так что мне придётся снова идти в город. Если не возражаешь, я вернусь к подготовке.",
+      "speaker": "Yulie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "...and she's well? No changes?",
+      "ru": "...и с ней всё в порядке? Без изменений?",
+      "speaker": "Syndra",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "Nothing beyond what I'd written in our letters.",
+      "ru": "Ничего сверх того, о чём я уже писал в письмах.",
+      "speaker": "Quill",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "Alright... thank you, Quill. Just a little longer, then I-",
+      "ru": "Хорошо... спасибо, Квилл. Ещё немного, и я-",
+      "speaker": "Syndra",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "Ah, <playername>! What do you think of our home? It took a great deal of planning to get the station up and running, but I feel we've done a good-",
+      "ru": "А, <playername>! Ну как тебе наш дом? Чтобы запустить станцию, ушло море подготовки, но, по-моему, мы справились впол-",
+      "speaker": "Quill",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "Quill!",
+      "ru": "Квилл!",
+      "speaker": "Jiro",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "Jiro? What's the matter?",
+      "ru": "Джиро? Что случилось?",
+      "speaker": "Quill",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "I overheard... an altercation... between a woma-... and a- ...dier...",
+      "ru": "Я услышал... стычку... между женщи-... и сол-... солдатом...",
+      "speaker": "Jiro",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "Calm yourself, Jiro. Take a breath, and repeat",
+      "ru": "Спокойно, Джиро. Вдохни и повтори.",
+      "speaker": "Quill",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "A woman is being kicked out... again! I don't know the details, but I think she didn't reach her quota for the month.",
+      "ru": "Женщину опять выкидывают из дома! Подробностей не знаю, но, похоже, она не выполнила месячную норму.",
+      "speaker": "Jiro",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "Urgh... Where?!",
+      "ru": "Тьфу... Где?!",
+      "speaker": "Quill",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "Living Block 72 - through the southwestern tunnel.",
+      "ru": "Жилой блок 72 - через юго-западный туннель.",
+      "speaker": "Jiro",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "Yusa-",
+      "ru": "Юса-",
+      "speaker": "Quill",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "Got it. YUMAN! YULIE!",
+      "ru": "Понял. ЮМАН! ЮЛИ!",
+      "speaker": "Yusanu",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "Wh- what- what's going on?",
+      "ru": "Ч- что- что происходит?",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "We're heading out. Rescue mission. Yuman, where's Yulie?",
+      "ru": "Мы выдвигаемся. Спасательная вылазка. Юман, где Юли?",
+      "speaker": "Yusanu",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "He has a meeting in the city today, remember? He told all of us this morning.",
+      "ru": "У него сегодня встреча в городе, помнишь? Он же всем нам утром сказал.",
+      "speaker": "Yuman",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "...Right. Right, he did say- alright. We'll have to go in blind, then. Not ideal, but it can't be helped-",
+      "ru": "...Точно. Точно, он говорил... ладно. Значит, пойдём вслепую. Не лучший вариант, но выбора нет-",
+      "speaker": "Yusanu",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "Damn it! Not now, of all times to-",
+      "ru": "Да чтоб тебя! Только не сейчас, ну почему именно-",
+      "speaker": "Yusanu",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "What's going on? Is something wrong?",
+      "ru": "Что происходит? Что-то не так?",
+      "speaker": "Syndra",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "No, no, nothing's- it's nothing bad... I hope. I just need to... check what triggered the alarm. Ugh, can anything go right today...",
+      "ru": "Нет-нет, ничего- это не что-то плохое... надеюсь. Мне просто нужно... проверить, что подняло тревогу. Ух, ну может у нас сегодня хоть что-то пойдёт нормально...",
+      "speaker": "Yusanu",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "Hey, bro, don't worry about it. I'll handle it! You take care of whatever you need to, 'kay?",
+      "ru": "Эй, брат, не переживай. Я разберусь! А ты займись своими делами, ладно?",
+      "speaker": "Yuman",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "...Okay. Okay, thanks, Yuman. I owe you one.",
+      "ru": "...Ладно. Ладно, спасибо, Юман. Буду должен.",
+      "speaker": "Yusanu",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "Hey, one of these days I'll collect on all those ones you owe me! Don't think you can dodge that just cause you're my bro!",
+      "ru": "Эй, когда-нибудь я потребую вернуть все эти долги! Не думай, что раз ты мой брат, тебе всё сойдёт с рук!",
+      "speaker": "Yuman",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "Will you n- ne- need help? <playername> and I can join if y- if you need us.",
+      "ru": "Те- тебе нужна по- помощь? Мы с ним можем пойти с вами, если на- надо.",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "Was just about to ask the same thing! Jiro, Zeph, <playername>, you all listen to my orders 'till this is sorted! Got it?",
+      "ru": "Я как раз хотел об этом спросить! Джиро, Зеф, <playername> - пока с этим не разберёмся, слушаете мои приказы! Ясно?",
+      "speaker": "Yuman",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "Understood.",
+      "ru": "Понял.",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "You forgot the \"sir\" at the end, there! Anyway, let me grab my guitar, and let's head out!",
+      "ru": "Ты забыл добавить \"сэр\" в конце! Ладно, возьму гитару, и в путь!",
+      "speaker": "Yuman",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "G- g- guitar? What...",
+      "ru": "Г- ги- гитару? Что...",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "Don't ask, you'll find out later. We need to get moving now.",
+      "ru": "Не спрашивай, потом поймёшь. Сейчас надо двигаться.",
+      "speaker": "Jiro",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "Right! <playername>, let's g- g- go!",
+      "ru": "Точно! Пошли!",
+      "speaker": "Zeph",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "I hope they'll be fine.",
+      "ru": "Надеюсь, с ними всё будет в порядке.",
+      "speaker": "Syndra",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "I hope Yuman doesn't annoy them to death...",
+      "ru": "Надеюсь, Юман не доконает их раньше времени...",
+      "speaker": "Quill",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "Th- through here! Yuman and Jiro are s- sc- scouting up ahead.",
+      "ru": "С- сюда! Юман и Джиро разведывают вперёд по пути.",
+      "speaker": "Zeph",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "I see them up a- a- ahead... Let's join up with them. Fo- follow me!",
+      "ru": "Я ви- вижу их впе- впереди... давай догоним. За- за мной!",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "Hush! Keep it down, man!",
+      "ru": "Тихо! Не шуми, дружище!",
+      "speaker": "Yuman",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "Alright, lady! Time's up! It's time to get going.",
+      "ru": "Так, дамочка! Время вышло! Пора выметаться.",
+      "speaker": "Timasca Soldier",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "We need to clean up this filthy apartment of yours for whoever's next in line. We've got a tight schedule, so don't make this harder than it needs to be, alright?",
+      "ru": "Нам надо освободить твою грязную квартирку для следующего по списку. График плотный, так что не усложняй нам работу, договорились?",
+      "speaker": "Timasca Soldier",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "W-w-wait! I still need to pack! You haven't given me enough time!",
+      "ru": "П-п-подождите! Мне ещё надо собраться! Вы мне совсем не дали времени!",
+      "speaker": "Aihan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "You received an eviction notice last night, detailing the protocol, didn't you? You've had plenty of time already, lady.",
+      "ru": "Ты же вчера получила уведомление о выселении, там всё по порядку расписано, так? Времени у тебя уже было предостаточно, дамочка.",
+      "speaker": "Timasca Soldier",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "Unless what you mean to say is you take issue with the system? We've got a formal complaints department, lady, but I don't think you'd enjoy paying them a visit.",
+      "ru": "Или ты хочешь сказать, что недовольна самой системой? У нас, конечно, есть отдел жалоб, дамочка, но тебе туда лучше не попадать.",
+      "speaker": "Timasca Soldier",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "N-n-no! No, it- it's fine! I-I-I just- I'm just saying th-that- I just need a couple of minutes... Please!",
+      "ru": "Н-нет! Нет, всё- всё нормально! Я-я-я просто... я просто говорю, что мне нужна пара минут... пожалуйста!",
+      "speaker": "Aihan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "Sigh. I did warn you, lady. Guess we're doing things the hard way, then.",
+      "ru": "Эх. Я тебя предупреждал, дамочка. Ну значит, сделаем всё по-плохому.",
+      "speaker": "Timasca Soldier",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "N-no... I- I'm sorry!",
+      "ru": "Н-нет... П-простите!",
+      "speaker": "Aihan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "I'm sorry! I'm sorry, I'm sorry, I'm-",
+      "ru": "Простите! Простите, простите, я-",
+      "speaker": "Aihan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "Disrespecting the crown is a serious crime, y'know. Alright, boys, you know what to do.",
+      "ru": "Неуважение к короне - серьёзное преступление, если что. Ладно, парни, вы знаете, что делать.",
+      "speaker": "Timasca Soldier",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "Hey! We n- ne- need to hel- help her!",
+      "ru": "Эй! Мы до- до- должны ей по- помочь!",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "Quiet! It's not protocol, we need to wait until the coast's clear, or else-",
+      "ru": "Тихо! Сейчас не по плану, надо ждать, пока всё не будет чисто, иначе-",
+      "speaker": "Yuman",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "But th- they're going to beat her! We c- can- we c- can't just let that-",
+      "ru": "Но они же её из- избивать будут! Мы не мо- мы не можем просто это-",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "You're new here, so you get a pass for not knowing, but we cannot draw attention towards us.",
+      "ru": "Ты здесь новенький, так что простим незнание. Но нам нельзя привлекать внимание.",
+      "speaker": "Jiro",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0297",
+      "en": "Yeah, man! If the guards get a whiff of what we're doing, we're toast! The only reason we have the station is 'cause they don't know about it!",
+      "ru": "Вот именно, дружище! Если стража что-то пронюхает, нам конец! Станция у нас есть только потому, что о ней никто не знает!",
+      "speaker": "Yuman",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0298",
+      "en": "M- m- maybe hiding is enough f- f- for you, but I c- ca- can't just let someone get h- hur- hurt!",
+      "ru": "М- может, вам и х- хватает прятаться, но я не мо- могу просто смотреть, как ко- кого-то калечат!",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0299",
+      "en": "S- so-... so sc- screw your cover! She n- n- needs help, so I- I'm going to h- he- help!",
+      "ru": "Т- тогда... к чёрту вашу конспирацию! Ей ну- нужна помощь, и я по- пойду помогать!",
+      "speaker": "Zeph",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0300",
+      "en": "Hey, don't!-... Damn it. Man, how am I gonna explain this to...",
+      "ru": "Эй, не!.. Чёрт. Дружище, как я это потом объясню...",
+      "speaker": "Yuman",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0301",
+      "en": "Fine, man! Can't just let you fight alone, can we? Let's just get this over with...",
+      "ru": "Ладно, дружище! Не дам же я тебе драться одному, а? Давайте покончим с этим...",
+      "speaker": "Yuman",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0302",
+      "en": "..Okay. I th- th- I think the coast is clear. She sh- sh- should be-",
+      "ru": "..Ладно. Я ду- ду- думаю, чисто. Она до- должна быть-",
+      "speaker": "Zeph",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0303",
+      "en": "What the hell was that? What were you thinking?!",
+      "ru": "Да что это было? О чём вы вообще думали?!",
+      "speaker": "Jiro",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0304",
+      "en": "Jiro, man, not now.",
+      "ru": "Джиро, дружище, не сейчас.",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0305",
+      "en": "No, I really think I should-",
+      "ru": "Нет, я всё-таки считаю, что должен-",
+      "speaker": "Jiro",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0306",
+      "en": "Jiro. We've got other things to worry about, man. Cool it till we're back at the station, 'kay?",
+      "ru": "Джиро. Сейчас есть проблемы поважнее, дружище. Остынь до возвращения на станцию, ладно?",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0307",
+      "en": "...Aihan? Are you there?",
+      "ru": "...Айхан? Ты здесь?",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0308",
+      "en": "Wh- who are you people? What are- what are you doing here?",
+      "ru": "К-кто вы такие? Что вы- что вы здесь делаете?",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0309",
+      "en": "You don't know us, and we don't know you. But we're here to help. I'm Yuman, and these are-",
+      "ru": "Ты нас не знаешь, и мы тебя не знаем. Но мы пришли помочь. Я Юман, а это-",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0310",
+      "en": "Why... why would you... help me...?",
+      "ru": "За... зачем вам... мне помогать...?",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0311",
+      "en": "'Cause... that's what people like us should do.",
+      "ru": "Потому что... такие, как мы, должны так делать.",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0312",
+      "en": "No! N-n-no... people like us should just do as we're told and not get involved in things that aren't ours!",
+      "ru": "Нет! Н-н-нет... такие, как мы, должны просто слушаться и не лезть не в своё дело!",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0313",
+      "en": "Aihan... we can-",
+      "ru": "Айхан... мы мо-",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0314",
+      "en": "If I just follow orders, at least I'll survive! I might lose my apartment, and maybe everything I've built for myself, and all the things I've managed to keep for myself, but- but- but at least I'll be alive!",
+      "ru": "Если я просто буду подчиняться, то хотя бы выживу! Я могу потерять квартиру, может, всё, что успела для себя построить, всё, что смогла удержать, но- но- но хотя бы останусь жива!",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0315",
+      "en": "...I hear you. Trust me, Aihan, I really do.",
+      "ru": "...Я тебя понимаю. Поверь, Айхан, правда понимаю.",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0316",
+      "en": "Can I tell you a story?",
+      "ru": "Можно, я кое-что расскажу?",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0317",
+      "en": "...okay",
+      "ru": "...ладно.",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0318",
+      "en": "Long, long ago, when I was just a little kid, I lost my ma. Dad's out of the picture, so... my bros had to put in the work to take care of me, even though they were just kids too.",
+      "ru": "Когда я был совсем маленьким, потерял маму. Отца рядом не было, так что... Заботиться обо мне пришлось братьям, хотя они и сами были детьми.",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0319",
+      "en": "But, y'know, being kids... they couldn't do enough. Failed to meet their quotas, just like you. Got kicked out, had to live on the streets.",
+      "ru": "Но они ведь были детьми... Не справлялись с работой, не выполняли норму, как и ты. Нас выгнали, пришлось жить на улице.",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0320",
+      "en": "You want to know the reason we made it through that? It was 'cause someone reached out a helping hand. Gave us a place to stay, to work without the threat of not meeting expectations. To live, man.",
+      "ru": "Знаешь, почему мы выжили? Потому что кто-то протянул нам руку. Дал место, где можно жить и работать без страха, что тебя вышвырнут за невыполненную норму. Просто жить, дружище.",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0321",
+      "en": "So... please. Accept the hand that's offered to you, 'kay? You can come with us and talk to the boss, and if what we have isn't enough for you... no one will force you to stay. But give it a try, please?",
+      "ru": "Так что... Пожалуйста, прими помощь, ладно? Пойдём с нами, поговоришь с нашим главой. Если у нас тебе не понравится, никто не будет удерживать. Но хотя бы попробуй, хорошо?",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0322",
+      "en": "I... I...",
+      "ru": "Я... я...",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0323",
+      "en": "Not to ruin the moment, Yuman, but we've got more soldiers coming our way! We've got to get moving soon!",
+      "ru": "Не хочу прерывать, Юман, но сюда идут ещё солдаты! Нужно уходить, быстро!",
+      "speaker": "Jiro",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0324",
+      "en": "Damn... alright. Aihan, will you trust me?",
+      "ru": "Чёрт... ладно. Айхан, ты мне доверишься?",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0325",
+      "en": "I... okay. I'll... I'll try.",
+      "ru": "Я... ладно. Я... я попробую.",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0326",
+      "en": "Okay... okay. Thank you. <playername>, could you help her pack her stuff? Zeph, Jiro, help me prepare an escape route.",
+      "ru": "Хорошо... хорошо. Спасибо. Поможешь ей собрать вещи? Зеф, Джиро, помогите мне подготовить путь отхода.",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0327",
+      "en": "W-wait! I... I don't know what I'm packing!",
+      "ru": "П-подождите! Я... я не знаю, что мне брать!",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0328",
+      "en": "Right. Uh... don't bring anything heavy. We have food and cookware where we're going...",
+      "ru": "Точно. Эм... не бери ничего тяжёлого. Еда и посуда там, куда мы идём, уже есть...",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0329",
+      "en": "Bring something to sleep with, something that reminds you of home ... and maybe some form of entertainment , if you've got any.",
+      "ru": "Возьми с собой что-нибудь для §#55FFFFсна§r, что-нибудь, §#55FFFFнапоминающее о доме§r... и, может, какую-нибудь §#55FFFFзабаву§r, если есть что взять.",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0330",
+      "en": "<playername>, I'm counting on you, alright?",
+      "ru": "<playername>, я на тебя рассчитываю, ладно?",
+      "speaker": "Yuman",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0331",
+      "en": "I... I can't think straight... this is all moving so fast... please- please, can you help me?",
+      "ru": "Я... я не могу нормально думать... всё происходит слишком быстро... пожалуйста, можешь помочь?",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0332",
+      "en": "Grab that backpack and... pick whatever you think works...",
+      "ru": "Возьми вон тот §#55FFFFрюкзак §rи... выбери ещё что-нибудь на своё усмотрение...",
+      "speaker": "Aihan",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0333",
+      "en": "We have to hurry but I just can't think!",
+      "ru": "Надо торопиться, а я вообще ничего сообразить не могу!",
+      "speaker": "Aihan",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0334",
+      "en": "<playername>, h- h- hurry! We don't have m- mu- much time!",
+      "ru": "Давай бы- бы- быстрее! У нас ма- мало времени!",
+      "speaker": "Zeph",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0335",
+      "en": "Halt! You're all under arrest!",
+      "ru": "Стоять! Вы все арестованы!",
+      "speaker": "Timasca Soldier",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0336",
+      "en": "Where- where are you going? D-d-don't leave me here!",
+      "ru": "К-куда вы?! Не-не-не оставляйте меня здесь!",
+      "speaker": "Aihan",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0337",
+      "en": "Did you get everything? Can we go?",
+      "ru": "Ты всё собрал? Можем идти?",
+      "speaker": "Aihan",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0338",
+      "en": "Okay... No one's here yet. Let's go!",
+      "ru": "Ладно... Тут пока никого нет. Пошли!",
+      "speaker": "Aihan",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0339",
+      "en": "Hey! You guys done?!",
+      "ru": "Эй! Вы там закончили?!",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0340",
+      "en": "We're out of time, we have to get moving! Come on, come on!",
+      "ru": "Времени нет, пора уходить! Давайте, давайте!",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0341",
+      "en": "Up the ladder, into the tunnel! Go, go, go!",
+      "ru": "По лестнице вверх, в туннель! Быстро-быстро-быстро!",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0342",
+      "en": "Yuman... c- co- come on. Let's go.",
+      "ru": "Юман... д- давай. Пошли.",
+      "speaker": "Zeph",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0343",
+      "en": "Mind giving me a hand?",
+      "ru": "Поможешь?",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0344",
+      "en": "Get to c- cl- climbing.",
+      "ru": "Лезь уже.",
+      "speaker": "Zeph",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0345",
+      "en": "Man... that was a really stupid thing for you to do. Like, astronomically stupid, yeah?",
+      "ru": "Дружище... Ты поступил очень глупо. Просто немыслимо глупо, понимаешь?",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0346",
+      "en": "...I'm-",
+      "ru": "...Я-",
+      "speaker": "Zeph",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0347",
+      "en": "But I get it. I get it, y'know? If I didn't have to be a leader there, I'd've probably done the same thing!",
+      "ru": "Но я понимаю. Правда понимаю. Если бы я там не был главным, наверное, сделал бы то же самое!",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0348",
+      "en": "Difference is, my bros can hold me back from that impulse. Guess I wasn't able to do that, here...",
+      "ru": "Разница в том, что мои братья могут вовремя меня тормознуть. А тут, видимо, не смог...",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0349",
+      "en": "Hate to disappoint 'em, y'know? Bit late now, though. What's done is done, can't take it back.",
+      "ru": "Не люблю их подводить, понимаешь? Хотя уже поздно. Что сделано, то сделано, назад не отмотаешь.",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0350",
+      "en": "It'll be alright. Worse things've happened. Aihan's safe, that's all that matters! We'll deal with the rest as it comes.",
+      "ru": "Всё будет нормально. Бывало и хуже. Айхан в безопасности - это главное! С остальным разберёмся по ходу.",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0351",
+      "en": "I- I should've... I should've l-lis- listened to you. But, s- s- seeing the way they- they were treating her... I was j- j- just so... angry. How dare th- they look down on p- p- people like that?!",
+      "ru": "Я- я должен был... должен был тебя по- послушать. Но, ко- когда я увидел, как они с ней обращаются... я про- просто так... разозлился. Как они вообще смеют так смотреть на лю- людей?!",
+      "speaker": "Zeph",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0352",
+      "en": "Yeah... I hear you. Hear you loud and clear. It's not right, is it? But that's what we're working to fix down here, man. Gotta do what little you can, yeah?",
+      "ru": "Да... Понимаю. Ещё как понимаю. Это несправедливо, да? Но именно это мы здесь и пытаемся изменить, дружище. Нужно делать хотя бы то, что в наших силах.",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0353",
+      "en": "Let's get going. They'll be expecting us. Wouldn't want to keep 'em waiting.",
+      "ru": "Пошли. Нас уже ждут. Не хочется заставлять их ждать ещё дольше.",
+      "speaker": "Yuman",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0354",
+      "en": "...We should f- f- follow them in.",
+      "ru": "...Нам на- надо идти за ними.",
+      "speaker": "Zeph",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0355",
+      "en": "Sigh...",
+      "ru": "Эх...",
+      "speaker": "Zeph",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0356",
+      "en": "Would- w- would it be weird to say it's a r- r- relief to find out he has a ser- a- a serious side to him?",
+      "ru": "Это бу- будет странно, если я скажу, что мне даже как-то спокойно от того, что у него, оказывается, есть и серьёзная сторона?",
+      "speaker": "Zeph",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0357",
+      "en": "Not- n- not that this is how I'd have w- w- wanted to find out...",
+      "ru": "Не- не то чтобы я хо- хотел узнать это именно так...",
+      "speaker": "Zeph",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0358",
+      "en": "Hey... wh- where- where's Aihan?",
+      "ru": "Эй... а где Айхан?",
+      "speaker": "Zeph",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0359",
+      "en": "Jiro and I got her settled. Quill's giving her the rundown as we speak.",
+      "ru": "Мы с Джиро её устроили. Квилл сейчас как раз объясняет ей, что тут и как.",
+      "speaker": "Yuman",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0360",
+      "en": "You should... probably avoid Jiro for now, yeah? He's not exactly... happy.",
+      "ru": "Тебе бы... наверное, лучше пока избегать Джиро, ага? Он сейчас не то чтобы... доволен.",
+      "speaker": "Yuman",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0361",
+      "en": "Right... Got it. So- s- so... how does it wor- work now? Should we re- record this mission s- somewhere?",
+      "ru": "Понял... Ясно. Та- так... а что теперь? Нам где-то ну- нужно записать эту вылазку?",
+      "speaker": "Zeph",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0362",
+      "en": "Yep, yep! Normally I'd go to Quill, but he's busy. Let's see if we can find Yusanu first- he'll... understand. Probably. More than Yulie, at least. I trust him to keep it quiet for now, at least... y'know?",
+      "ru": "Ага-ага! Обычно я бы пошёл к Квиллу, но он занят. Давай сперва попробуем найти Юсану - он... поймёт. Наверное. В любом случае лучше, чем Юли. Ему я хотя бы могу доверить это пока по-тихому... понимаешь?",
+      "speaker": "Yuman",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0363",
+      "en": "Sure. Le- lead the way.",
+      "ru": "Ладно. Ве- веди.",
+      "speaker": "Zeph",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0364",
+      "en": "Yuman, I swear. Yusanu should know better than to let you take the lead on these sorts of things! What were you thinking?",
+      "ru": "Юман, ну честное слово. Юсану уже должен был понять, что тебе нельзя давать вести такие дела! О чём ты вообще думал?",
+      "speaker": "Yulie",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0365",
+      "en": "Woah, woah, woah! That's a lot of accusations out of nowhere, bro! What gives?",
+      "ru": "Тише, тише, брат! Что за обвинения с порога? Что случилось?",
+      "speaker": "Yuman",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0366",
+      "en": "What gives? You know what gives- a whole squadron of housing enforcers turns up dead on the job, and you expect that to go over quietly?",
+      "ru": "Что случилось? А ты сам не понимаешь? Целый отряд жилищных карателей погиб при исполнении, и ты думал, что это пройдёт тихо?",
+      "speaker": "Yulie",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0367",
+      "en": "Ahhh. That. Well, you know how it is. Things happen, right?",
+      "ru": "Ааа. Это. Ну, сам понимаешь. Всякое бывает, да?",
+      "speaker": "Yuman",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0368",
+      "en": "You-... at least pretend to take this seriously, would you? Of all people, you should know what this is going to lead to.",
+      "ru": "Ты-... ну хоть сделай вид, что воспринимаешь это всерьёз, а? Уж ты-то должен понимать, к чему это приведёт.",
+      "speaker": "Yulie",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0369",
+      "en": "It- it was- was- it wasn't his f- f- fault, I-",
+      "ru": "Э- это бы- было не- не его ви- виной, я-",
+      "speaker": "Zeph",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0370",
+      "en": "Hey, princess, it's alright. Don't need you to cover for me, 'kay?",
+      "ru": "Эй, принцесса, всё нормально. Не нужно меня выгораживать, ладно?",
+      "speaker": "Yuman",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0371",
+      "en": "So what's the plan then, Yulie? Meeting to talk about it, as always?",
+      "ru": "Ну и какой план тогда, Юли? Собрание и очередной разговор, как всегда?",
+      "speaker": "Yuman",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0372",
+      "en": "Sigh... as soon as Quill gets Aihan sorted, yes. It shouldn't take long, so everyone's gathered in advance.",
+      "ru": "Эх... да, как только Квилл закончит с Айхан. Это не займёт много времени, так что все уже собираются заранее.",
+      "speaker": "Yulie",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0373",
+      "en": "Hey! What happened out there? Everyone's acting weird about it.",
+      "ru": "Эй! Что там вообще случилось? Все какие-то дёрганые.",
+      "speaker": "Rex",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0374",
+      "en": "We ended up f- fight- fighting some soldiers to save the w- w- the woman we went there for...",
+      "ru": "Нам при- пришлось подраться с солдатами, чтобы спасти ту же- женщину, за которой мы пошли...",
+      "speaker": "Zeph",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0375",
+      "en": "Huh. Is that all? I thought it'd be way worse.",
+      "ru": "Хм. И это всё? Я думала, будет куда хуже.",
+      "speaker": "Rex",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0376",
+      "en": "Yeah... they- th- they're worried about it dr- draw- drawing attention...",
+      "ru": "Да... они бо- боятся, что это привле- привлечёт внимание...",
+      "speaker": "Zeph",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0377",
+      "en": "Uh... wh- where's Sui?",
+      "ru": "Эм... а где Суи?",
+      "speaker": "Zeph",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0378",
+      "en": "Still helping out in the kitchen, preparing for dinner! Worry not, I will catch her up once the meeting concludes.",
+      "ru": "Всё ещё помогает на кухне, готовит ужин! Не переживай, я потом всё ей перескажу, как только собрание закончится.",
+      "speaker": "Mora",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0379",
+      "en": "Ah, hello everybody. Apologies for the delay.",
+      "ru": "А, вот вы все. Прошу прощения за задержку.",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0380",
+      "en": "Will... will Aihan be staying?",
+      "ru": "Айхан... останется?",
+      "speaker": "Yuman",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0381",
+      "en": "She hasn't quite decided yet, but she has agreed to stay the night. She's in a bad state of mind, the poor woman. Some rest will do her good.",
+      "ru": "Она ещё не решила окончательно, но согласилась остаться на ночь. Бедняжка сейчас совсем не в себе. Ей не помешает отдых.",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0382",
+      "en": "But that leads us well to the reason this meeting was called. The retrieval process went... poorly, I take it?",
+      "ru": "Но это и есть причина нашего собрания. Спасательная вылазка прошла... Не лучшим образом, я так понимаю?",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0383",
+      "en": "Poorly is an understatement. The military is on high alert now! Everyone entering or leaving Timasca this evening was questioned- if I hadn't used our tunnel, I'd still be stuck in line there!",
+      "ru": "\"Не лучшим образом\" - это ещё мягко сказано. Военные сейчас на ушах! Этим вечером допрашивали всех, кто входил или выходил в Тимаску - если бы я не пошёл через туннель, до сих пор торчал бы в очереди!",
+      "speaker": "Yulie",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0384",
+      "en": "This is an unmitigated disaster. Yuman, what do you have to say for yourself? You should know better by now, we need to-",
+      "ru": "Это полнейшая катастрофа. Юман, ну и что ты скажешь в своё оправдание? Ты уже должен понимать, что нам надо-",
+      "speaker": "Yulie",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0385",
+      "en": "H- hey! It- it- it's not- it's n- not his f- f- fault! I'm the- the one who-",
+      "ru": "Э- эй! Это- это не- не его ви- вина! Это я- я был тем, кто-",
+      "speaker": "Zeph",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0386",
+      "en": "Nah, the blame falls on me. I was the leader, so anything that happened is my responsibility. I should've... been more firm about it.",
+      "ru": "Не, вина на мне. Я был главным, значит, всё, что случилось, - моя ответственность. Я должен был... жёстче это пресечь.",
+      "speaker": "Yuman",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0387",
+      "en": "None of this would have happened if I'd been there... damn it. The timing couldn't have been worse. This is all my-",
+      "ru": "Этого бы не случилось, будь я там... чёрт. Время выбралось хуже некуда. Это всё из-за-",
+      "speaker": "Yusanu",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0388",
+      "en": "Okay, that's enough. You're all acting stupid! Who cares whose fault it was? Either way, it already happened, so let's figure out what we're going to do about it.",
+      "ru": "Так, хватит. Вы все ведёте себя как идиоты! Какая вообще разница, кто виноват? Это уже случилось, так что давайте лучше решим, что теперь делать.",
+      "speaker": "Rex",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0389",
+      "en": "But-",
+      "ru": "Но-",
+      "speaker": "Yulie",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0390",
+      "en": "And I'm not done! You're all acting like it's the end of the world that some soldiers are dead. So what? Soldiers die all the time.",
+      "ru": "И я ещё не закончила! Вы все ведёте себя так, будто конец света из-за того, что сдохла кучка солдат. И что? Солдаты постоянно умирают.",
+      "speaker": "Rex",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0391",
+      "en": "They don't die like this, though. We don't have the luxury of being able to wave off the crown's attention! If they find out what we're doing down here, we're done for.",
+      "ru": "Но не так. У нас нет роскоши просто отмахнуться от внимания короны! Если они узнают, чем мы тут занимаемся, нам конец.",
+      "speaker": "Yulie",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0392",
+      "en": "But they haven't found out yet, have they? You have options still. For example- you're on the detective force! If suspicions arise, couldn't you just lead them elsewhere?",
+      "ru": "Но ведь ещё не узнали, так? Значит, варианты у вас ещё есть. Например - ты же в детективной службе! Если появятся подозрения, разве ты не можешь увести их в другую сторону?",
+      "speaker": "Rex",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0393",
+      "en": "Besides. If staying hidden means having to look away as innocent people get harmed- what kind of a resistance does that make you? What's the point of any of it?",
+      "ru": "И вообще. Если ради скрытности приходится отворачиваться, когда страдают невинные, - что это тогда за сопротивление? Какой в этом вообще смысл?",
+      "speaker": "Rex",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0394",
+      "en": "Rex... take care with your words. Don't say anything you'll-",
+      "ru": "Рекс... следи за словами. Не говори того, о чём потом-",
+      "speaker": "Syndra",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0395",
+      "en": "What's the POINT?! The POINT is all the people we ALREADY have down here who we need to protect! Quill, please, back me up here.",
+      "ru": "Какой смысл?! Смысл в том, что у нас УЖЕ полно людей внизу, которых надо защищать! Квилл, ну скажи хоть ты.",
+      "speaker": "Yulie",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0396",
+      "en": "... No, Yulie, Rex has a point. Even if it was phrased harshly... we have been rather passive in our battle thus far. We've let people get hurt, even if only for the sake of our safety.",
+      "ru": "...Нет, Юли, в словах Рекс есть смысл. Пусть она и сказала это жёстко... до сих пор мы действовали слишком пассивно. Мы позволяли людям страдать, лишь бы сохранить свою безопасность.",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0397",
+      "en": "We have had our reasons... and we have done good work, to the best of our ability. But if we are afraid to act, how will anything ever change for the better?",
+      "ru": "У нас были на то причины... и мы делали всё, что могли. Но если мы боимся действовать, то как вообще что-то изменится к лучшему?",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0398",
+      "en": "You are not wrong to feel frustration, Yulie. I, too, wish this had been handled with more care... but something like this was bound to happen eventually. We will survive this, as we have survived other hardships before.",
+      "ru": "Твоё возмущение понятно, Юли. Я тоже хотел бы, чтобы всё прошло осторожнее... Но рано или поздно нечто подобное случилось бы. Мы справимся, как справлялись и с другими трудностями.",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0399",
+      "en": "I... suppose.",
+      "ru": "Я... наверное.",
+      "speaker": "Yulie",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0400",
+      "en": "...But let's lighten the mood a little! Dinner should almost be ready. Yuman, you told me earlier today you were working on a new song. Would you still like to perform it tonight?",
+      "ru": "...Но давайте немного разрядим обстановку! Ужин уже почти готов. Юман, ты сегодня говорил, что работаешь над новой песней. Хочешь всё ещё исполнить её вечером?",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0401",
+      "en": "Huh? Oh, yeah, yeah man! I can do that, for sure.",
+      "ru": "А? О, да-да, дружище! Без проблем, сыграю.",
+      "speaker": "Yuman",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0402",
+      "en": "Ahem. Before we depart, if I may- while we are all gathered here, I believe it could be beneficial to lay out some relevant information.",
+      "ru": "Кхм. Прежде чем мы разойдёмся, если позволите - раз уж мы все тут собрались, думаю, было бы полезно обсудить кое-что важное.",
+      "speaker": "Mora",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0403",
+      "en": "Most of us are new to the Roughworks, so getting to know the lay of the land could help.",
+      "ru": "Большинство из нас впервые в Роухворксе. Полезно будет узнать, как здесь всё устроено.",
+      "speaker": "Mora",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0404",
+      "en": "Right, of course. I'd been meaning to suggest something similar earlier, before... this situation came up.",
+      "ru": "Точно, конечно. Я и сама хотела предложить что-то подобное раньше, до того как... возникла эта ситуация.",
+      "speaker": "Syndra",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0405",
+      "en": "Certainly, we could do that! What would you like to know?",
+      "ru": "Разумеется, можно и так! Что именно вы хотите узнать?",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0406",
+      "en": "Ah, yes. Her name is Soosu. It's hard to say much about her... she's rather reclusive, staying cooped up in her mansion, working away.",
+      "ru": "Ах да. Её зовут Соосу. О ней трудно много рассказать... она довольно замкнутая, сидит безвылазно в своём особняке и всё время работает.",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0407",
+      "en": "She's the opposite of Zhiraok, in that way. Ideally, we'll avoid drawing her attention. We'll have plenty to worry about already without adding her to the list.",
+      "ru": "В этом она полная противоположность Жираоку. В идеале нам вообще не стоит привлекать её внимание. У нас и без того хватит забот, чтобы ещё и её в список добавлять.",
+      "speaker": "Syndra",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0408",
+      "en": "That'd be for the best, yeah. She's... kind of a genius. She singlehandedly brought forth the Industrial Age, over a century ago! Most of the machinery you see in Fruma probably traces its origin back to her in some way.",
+      "ru": "Это было бы лучше всего, ага. Она... ну, гений. В одиночку запустила Индустриальную эпоху больше века назад! Почти любая техника, что ты видишь во Фруме, так или иначе берёт начало от её идей.",
+      "speaker": "Yusanu",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0409",
+      "en": "Ha! Yeah, yeah, figures you'd know all that, bro. Nerd.",
+      "ru": "Ха! Ну конечно, ты всё это знаешь, брат. Умник.",
+      "speaker": "Yuman",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0410",
+      "en": "Wh- that's just written history, Yuman. If you're going to make fun of me, at least do it right.",
+      "ru": "Ч- это вообще-то просто история, Юман. Если уж собираешься меня подкалывать, делай это хотя бы нормально.",
+      "speaker": "Yusanu",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0411",
+      "en": "How about her blessing? If we do run into her, we'll want to know what to watch out for.",
+      "ru": "А что насчёт её благословения? Если мы всё-таки с ней столкнёмся, лучше бы знать, чего ждать.",
+      "speaker": "Rex",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0412",
+      "en": "I don't know the specifics... but what I do know is that it allows her to mold matter at will. To what extent, or with what limits... hard to say. Still, that uncertainty is dangerous. Be careful.",
+      "ru": "Подробностей я не знаю... но знаю, что она может по своей воле менять материю. В каких пределах и с какими ограничениями... сказать трудно. Но сама неопределённость уже опасна. Будьте осторожны.",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0413",
+      "en": "The dialogue options reappear.",
+      "ru": "Варианты диалога снова появляются.",
+      "speaker": "",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0414",
+      "en": "I'm done.",
+      "ru": "Я закончил.",
+      "speaker": "",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0415",
+      "en": "Very well! Then let us adjourn for dinner.",
+      "ru": "Хорошо! Тогда давайте перейдём к ужину.",
+      "speaker": "Quill",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0416",
+      "en": "Yuman's performance is about to start. You should grab a bite from Sui!",
+      "ru": "Скоро начнётся выступление Юмана. Сходи возьми что-нибудь поесть у Суи!",
+      "speaker": "Syndra",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0417",
+      "en": "Oh, <playername>! I feel like I've barely seen you around here...",
+      "ru": "О, <playername>! А то мне кажется, я тебя тут почти и не видела...",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0418",
+      "en": "I, um... Mora told me about what happened. On your mission. I'm... glad you were able to help that woman.",
+      "ru": "Я, эм... Мора рассказал, что у вас случилось. На вылазке. Я... Рада, что вы смогли помочь той женщине.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0419",
+      "en": "I, ha, kind of wish I could've been there, to help. Though, I don't... really know what I could have done, there.",
+      "ru": "Я, ха, даже немного жалею, что меня там не было. Хотелось помочь. Хотя я и не... очень понимаю, что именно смогла бы сделать.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0420",
+      "en": "S-so maybe it's a good thing! That I've been, um, busy, cooking. For the Steel Feather. There's, ha, a lot of people here!",
+      "ru": "Т- так что, может, оно и к лучшему! Что я была, эм, занята готовкой. Для Стального Пера. Тут, ха, очень много людей!",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0421",
+      "en": "But I've been learning new recipes, and getting to know new people! Oh, right, you're probably here for, um, the food. Here! Please have some.",
+      "ru": "Но я учусь новым рецептам и знакомлюсь с новыми людьми! Ой, точно, ты, наверное, пришёл, эм, за едой. Вот! Угощайся.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0422",
+      "en": "...oh, hi! Are you here for some food?",
+      "ru": "...о, привет! Ты за едой?",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0423",
+      "en": "Ah, n-no, I- well, yes, I'd love some food, but I'm here to- to thank <playername>.",
+      "ru": "А, н-нет, я- ну, вообще да, я бы не отказалась от еды, но я пришла по- поблагодарить <playername>.",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0424",
+      "en": "Don't- don't sell youself short! I don't... f-fully understand yet, but, fighting the guards like... like that is dangerous, and- and I know why some people wouldn't want to...",
+      "ru": "Не- не принижай себя! Я пока не... до конца всё понимаю, но драться со стражей вот так... это опасно, и- и я понимаю, почему кто-то не захотел бы...",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0425",
+      "en": "It, um, sounds like it was a really bad situation. So I'm glad you got out alright.",
+      "ru": "Звучит, эм, так, будто там всё было очень плохо. Поэтому я рада, что ты выбралась целой.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0426",
+      "en": "H-ha... yes. They've been... p-pushy before, but they've never been this- this- this, ah, violent.",
+      "ru": "Х-ха... да. Они и раньше... давили, но ещё никогда не были на- настолько, э-э, жестокими.",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0427",
+      "en": "Y-yes, I am. It's... new, and- and different, but everyone here has been so kind, and...",
+      "ru": "Д-да, остаюсь. Тут... всё новое, и- и непривычное, но все здесь такие добрые, и...",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0428",
+      "en": "It's a little- a little strange... It almost feels like- like- like I don't deserve it! Because, I- I- I haven't... w-worked for it.",
+      "ru": "Это немного... немного странно... Будто я... будто я этого не заслужила! Потому что я- я- я ведь... не зарабатывала это трудом.",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0429",
+      "en": "Um... I don't really, know, what it's like to live here... but where I'm from, people help each other. You shouldn't have to earn the right to live.",
+      "ru": "Эм... я не очень знаю, каково тут жить... но там, откуда я родом, люди помогают друг другу. Право жить не надо заслуживать.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0430",
+      "en": "Y-you must be from a much n-nice place than- than here.",
+      "ru": "Т-ты, наверное, из куда более хорошего места, чем это...",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0431",
+      "en": "Ha... it's kind of ridiculous, looking back. Stupid- s-stupid quotas... ouch...",
+      "ru": "Ха... если оглянуться, это даже как-то смешно. Тупые- т-тупые нормы... ай...",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0432",
+      "en": "Aihan! Are you okay?",
+      "ru": "Айхан! Ты в порядке?",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0433",
+      "en": "Oh, it- it's nothing. Just, heavy m-machinery. Hurt my shoulder when- when I went in. It- it's r-really my fault, I, I, I sh-should have been m-more careful...",
+      "ru": "Ох, это- это пустяки. Просто тяжёлая т-техника. Я повредила плечо, когда работала. Это... правда моя вина, я-я-я должна была быть осторожнее...",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0434",
+      "en": "Um... I- I can, ha, I can help you.",
+      "ru": "Эм... я- я могу, ха, я могу тебе помочь.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0435",
+      "en": "You... you can? H-how?",
+      "ru": "Т-ты... можешь? К-как?",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0436",
+      "en": "Just... sigh. Follow me, and- and trust me.",
+      "ru": "Просто... эх. Иди за мной и- и доверься мне.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0437",
+      "en": "Sui and Aihan walk over to the fountain.",
+      "ru": "Суи и Айхан подходят к фонтану.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0438",
+      "en": "Uh...",
+      "ru": "Эм...",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0439",
+      "en": "Sui uses water magic on Aihan.",
+      "ru": "Суи использует водную магию на Айхан.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0440",
+      "en": "H-hey...",
+      "ru": "Э-эй...",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0441",
+      "en": "H-hey! I- I only have this shirt, I c- I can't- I-",
+      "ru": "Э-эй! У- у меня только эта рубашка, я не мо- я не могу- я-",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0442",
+      "en": "...huh? My- my shoulder?",
+      "ru": "...а? Моё... моё плечо?",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0443",
+      "en": "Are you... feeling better?",
+      "ru": "Тебе... лучше?",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0444",
+      "en": "How did- how did you do that?",
+      "ru": "Как ты... как ты это сделала?",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0445",
+      "en": "I'm... I'm cursed. That's how.",
+      "ru": "Я... я проклятая. Вот так.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0446",
+      "en": "...oh.",
+      "ru": "...о.",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0447",
+      "en": "I-... th-thank you. I didn't... I didn't know cursed ones could be- could be nice.",
+      "ru": "Я-... с-спасибо. Я не... я не знала, что проклятые могут быть... могут быть добрыми.",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0448",
+      "en": "Um... I sh-should go. Thank you for- for the food, and- and- and for... healing my shoulder. I- I really appreciate it.",
+      "ru": "Эм... мне, на- наверное, пора. Спасибо за еду и- и- и за то, что... вылечила мне плечо. Я- я правда очень благодарна.",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0449",
+      "en": "Yeah...",
+      "ru": "Да...",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0450",
+      "en": "It's fine. It's what I expected. I'm... glad I could help.",
+      "ru": "Всё нормально. Я этого и ожидала. Я... рада, что смогла помочь.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0451",
+      "en": "I- I guess so! Ha... at least she, um, wasn't scared. Just... nervous.",
+      "ru": "Н- наверное, да! Ха... по крайней мере, она, эм, не испугалась. Просто... нервничала.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0452",
+      "en": "I'll, um, catch up with the rest of you, later.",
+      "ru": "Я, эм, догоню вас позже.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0453",
+      "en": "Go join the others. Uh, I'll join you in a bit.",
+      "ru": "Иди к остальным. Эм, я скоро подойду.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0454",
+      "en": "<playername>, it's nice of you to join us. Have you had dinner yet?",
+      "ru": "<playername>, рада, что ты к нам присоединился. Уже поужинал?",
+      "speaker": "Syndra",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0455",
+      "en": "It's good, isn't it? Quill tells me she's managed to fit right in with the other cooks here.",
+      "ru": "Вкусно, правда? Квилл сказал, что она отлично вписалась в здешнюю кухонную команду.",
+      "speaker": "Syndra",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0456",
+      "en": "So, <playername>, are you also w- wait- waiting for Yuman's performance?",
+      "ru": "Ну что <playername>, ты тоже ж- ждёшь выступления Юмана?",
+      "speaker": "Zeph",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0457",
+      "en": "I have heard great things about his musical talents! Though, ah, I have also heard this his variety, ah, leaves something to be desired.",
+      "ru": "О его музыкальном таланте я слышал только хорошее! Хотя, ах, также я слышал, что с разнообразием у него, эм, не всё так славно.",
+      "speaker": "Mora",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0458",
+      "en": "Then worry not, for you have been reminded just now, hoho!",
+      "ru": "Тогда не тревожься, ведь я только что тебе об этом напомнил, хохо!",
+      "speaker": "Mora",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0459",
+      "en": "Hey, maybe he's written a song about you, Zeph!",
+      "ru": "Эй, может, он вообще песню про тебя написал, Зеф!",
+      "speaker": "Rex",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0460",
+      "en": "Wh- wh- what?! R- Rex, no h- he-... that's n- not-... wh- why would he ev- even-",
+      "ru": "Ч- чего?! Р- Рекс, нет, он же... это не... да с чего бы ему вообще-",
+      "speaker": "Zeph",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0461",
+      "en": "Ha! Relax, relax, I'm just teasing ya.",
+      "ru": "Ха! Да расслабься, я тебя просто подкалываю.",
+      "speaker": "Rex",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0462",
+      "en": "A cutscene of Yuman's performance begins.",
+      "ru": "Начинается кат-сцена с выступлением Юмана.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0463",
+      "en": "Ahem... Attention, attention! Everyone, gather around!",
+      "ru": "Кхм... Внимание, внимание! Все сюда!",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0464",
+      "en": "I am heartened to see so many of you joining us for dinner today. It feels as though it has been a while since we've had such a large attendance!",
+      "ru": "Мне приятно видеть, что сегодня на ужин собралось так много народу. Кажется, у нас давно не было такого аншлага!",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0465",
+      "en": "There is of course news to deliver... but first! We begin by thanking our cooks for the meal.",
+      "ru": "Конечно, у нас есть новости... но сперва! Давайте поблагодарим наших поваров за ужин.",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0466",
+      "en": "We're all familiar with Fletch's talents, but dinner wouldn't have been possible without the help of one of our new arrivals: Sui!",
+      "ru": "С талантами Флетча мы все давно знакомы, но этот ужин не состоялся бы без помощи одной из наших новеньких: Суи!",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0467",
+      "en": "Oh...! It, ha, it- um. It was nothing. T'was my pleasure! To- to help.",
+      "ru": "О...! Это, ха, это... эм. Пустяки. Я была рада! По- помочь.",
+      "speaker": "Sui",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0468",
+      "en": "No need to be shy, my dear!",
+      "ru": "Ну что ты, не смущайся, дорогая!",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0469",
+      "en": "Dinner aside, let's get to the announcements!",
+      "ru": "Ладно, с ужином разобрались, переходим к объявлениям!",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0470",
+      "en": "Today, we have had not one, but seven new arrivals! In addition to Sui, please welcome Aihan, Mora, Rex, Zeph, <playername>, and Syndra!",
+      "ru": "Сегодня к нам прибыл не один и даже не два, а целых семь новых людей! Помимо Суи, поприветствуйте Айхан, Мору, Рекс, Зефа, тебя и Синдру!",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0471",
+      "en": "Now, I'm certain news has spread of our... altercation, shall we say, with the crown's military. I assure you, all is under control! The Steel Feather remains secure and hidden.",
+      "ru": "Я уверен, новости о нашей... стычке, скажем так, с войсками короны уже разошлись. Но заверяю вас: всё под контролем! Стальное Перо по-прежнему в безопасности и остаётся скрытым.",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0472",
+      "en": "It does mean expeditions out of the station will be at higher risk for a time. We will have updated guidelines available in the morning for those of you who volunteer.",
+      "ru": "Правда, какое-то время вылазки со станции будут куда опаснее. К утру мы подготовим обновлённые инструкции для всех добровольцев.",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0473",
+      "en": "But in lighter news, we have restocked candy bars and sodas at the ticket shops! Make sure to trade for some before they run out - remember the rules, one of each per person.",
+      "ru": "Но есть и хорошие новости: в билетных киосках снова завезли шоколадки и газировку! Успейте обменять себе что-нибудь, пока не разобрали - правила помните, по одной штуке каждого на человека.",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0474",
+      "en": "Well then! Barring any surprises at this very moment, that is all for today's report. As he has volunteered himself today, I will hand over the stage to Yuman.",
+      "ru": "Ну что ж! Если прямо сейчас не случится ничего неожиданного, то на этом сегодняшний отчёт окончен. А теперь, раз он сам вызвался, передаю сцену Юману.",
+      "speaker": "Quill",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0475",
+      "en": "Heeeeeelllllooooo people of the Steel Feather!",
+      "ru": "Привееееет, народ Стального Пера!",
+      "speaker": "Yuman",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0476",
+      "en": "Good to see you all as always- ey, Taio, lookin' good! Mei, love what you've done with the hair! Jin, my man!",
+      "ru": "Рад вас всех видеть, как всегда - эй, Тайо, отлично выглядишь! Мэй, причёска просто огонь! Джин, братан!",
+      "speaker": "Yuman",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0477",
+      "en": "Ah... I guess I can introduce my song. It's a new one! You guys won't be able to tease me for being an artist with only one song anymore, haha!",
+      "ru": "А... ну, пожалуй, надо представить песню. Она новая! Теперь вы уже не сможете подкалывать меня за то, что я музыкант с одной-единственной песней, ха-ха!",
+      "speaker": "Yuman",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0478",
+      "en": "I've been working on this one for a while. Never could find a way to end it, though... 'till now, that is. Finally managed to find some inspiration.",
+      "ru": "Я над ней давно работал. Только никак не мог придумать концовку... до этого момента. Наконец-то нашлось вдохновение.",
+      "speaker": "Yuman",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0479",
+      "en": "Well, enough talking from me. Here it goes!",
+      "ru": "Ладно, хватит болтовни. Погнали!",
+      "speaker": "Yuman",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0480",
+      "en": "???",
+      "ru": "???",
+      "speaker": "Flowers",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0481",
+      "en": "Long time no see, Soosu.",
+      "ru": "Давно не виделись, Соосу.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0482",
+      "en": "Happy to see you again, Flowers.",
+      "ru": "Рад снова тебя видеть, Цветочек.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0483",
+      "en": "!!!",
+      "ru": "!!!",
+      "speaker": "Flowers",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0484",
+      "en": "You need to subtract some of this security. It shouldn't need to take twenty minutes to get through just the gate. We need to talk, an hour ago.",
+      "ru": "Тебе бы поубавить эту охрану. Не должно уходить двадцать минут только на то, чтобы пройти ворота. Нам надо было поговорить ещё час назад.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0485",
+      "en": "Your sche- Are you taking lessons from Oru? This provincial emergency has a much greater value than your charter, Sovereign, so I'm summing to the equatio- nnh.",
+      "ru": "Твоё рас- Ты у Ору учишься? Эта беда касается всей провинции и весит больше твоей хартии, Сюзерен. Так что я добавлю в уравне- нгх.",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0486",
+      "en": "I've changed my schedule to come here early and track down a defector- Syndra, and her set of insurgents. You've heard the name, right?",
+      "ru": "Я перекроил своё расписание, чтобы прийти сюда пораньше и выследить дезертиршу - Синдру, и её шайку мятежников. Имя-то тебе знакомо, да?",
+      "speaker": "Sovereign Zhiraok",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0487",
+      "en": "I like it.",
+      "ru": "Мне нравится.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0488",
+      "en": "That'd be me.",
+      "ru": "Это про меня.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0489",
+      "en": "None of us are cursed, sir.",
+      "ru": "Никто из нас не проклят, сэр.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0490",
+      "en": "Why is that?",
+      "ru": "А почему?",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0491",
+      "en": "Oh... I hadn't noticed.",
+      "ru": "О... а я и не заметил.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0492",
+      "en": "Yuman's been teasing him.",
+      "ru": "Юман его подкалывал.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0493",
+      "en": "I guess we're just tired.",
+      "ru": "Видимо, мы просто устали.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0494",
+      "en": "Traitors, all of you.",
+      "ru": "Предатели, все вы.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0495",
+      "en": "Fine...",
+      "ru": "Ладно...",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0496",
+      "en": "I died. She killed me.",
+      "ru": "Меня убили. Она меня прикончила.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0497",
+      "en": "No casualties to report!",
+      "ru": "Потерь нет!",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0498",
+      "en": "They were just catching up, apparently.",
+      "ru": "Они, похоже, просто болтали по душам.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0499",
+      "en": "They're... right over there. You can see them.",
+      "ru": "Они... вон там. Их видно.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0500",
+      "en": "What's with Yuman?",
+      "ru": "Что с Юманом?",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0501",
+      "en": "He... didn't do anything.",
+      "ru": "Он... ничего не сделал.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0502",
+      "en": "What's your role here?",
+      "ru": "А ты тут за что отвечаешь?",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0503",
+      "en": "Would this have been the main entrance to the station? If so, it looks to be blocked off.",
+      "ru": "Это что, был главный вход на станцию? Если так, то он, похоже, завален.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0504",
+      "en": "You've probably seen most of the station by now. Time to .",
+      "ru": "Ты уже, наверное, осмотрел почти всю станцию. Пора .",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0505",
+      "en": "There might be guards around...",
+      "ru": "Тут может быть стража...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0506",
+      "en": "You're not sure if Zeph could take on three soldiers by himself. You should help him.",
+      "ru": "Вряд ли Зеф в одиночку справится с тремя солдатами. Стоит ему помочь.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0507",
+      "en": "Clothing: Old Vest, Woolen Shirt",
+      "ru": "Одежда: Старый жилет, Шерстяная рубашка",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0508",
+      "en": "Sleeping: Hard Pillow, Torn Blanket, Aged Matress",
+      "ru": "Спальное: Жёсткая подушка, Рваное одеяло, Старый матрас",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0509",
+      "en": "Memory: Faded Photo, Small Ring",
+      "ru": "Память: Выцветшее фото, Колечко",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0510",
+      "en": "Entertainment: Worn-out Novel, Deck Of Cards",
+      "ru": "Развлечения: Затёртый роман, Колода карт",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0511",
+      "en": "Yes. let's go!",
+      "ru": "Да. Пошли!",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0512",
+      "en": "But you did anyway, and- and- and it means a lot.",
+      "ru": "Но ты всё равно это сделал, и- и- и это очень много значит.",
+      "speaker": "Aihan",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0513",
+      "en": "Are you settling in okay?",
+      "ru": "Осваиваешься нормально?",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0514",
+      "en": "That was kind of you.",
+      "ru": "Это было мило с твоей стороны.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0515",
+      "en": "It could have gone worse!",
+      "ru": "Могло быть и хуже!",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0516",
+      "en": "Yuman's performance should start soon.",
+      "ru": "Выступление Юмана скоро начнётся.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0517",
+      "en": "I haven't.",
+      "ru": "А я нет.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0518",
+      "en": "Oh, I forgot about that.",
+      "ru": "О, я и забыл про это.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0519",
+      "en": "Hm hm hm! Look who it is!",
+      "ru": "Хм-хм-хм! Кто это к нам пожаловал!",
+      "speaker": "Sovereign Soosu",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0520",
+      "en": "Wow, mister loudmouth, big words for someone who wasn't supposed to be here for a few more weeks! What gives?! You're interrupting my flow!",
+      "ru": "Ого, господин болтун, громкие слова для того, кого тут не должно было быть ещё пару недель! В чём дело?! Ты сбиваешь мне весь настрой!",
+      "speaker": "Sovereign Soosu",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0521",
+      "en": "It seems everyone is captivated by Yuman's song.",
+      "ru": "Похоже, все заворожены песней Юмана.",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0522",
+      "en": "The cutscene moves into Timasca.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0523",
+      "en": "Quill, Yuman, Yusanu, and Yulie enter.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0524",
+      "en": "Zeph and Yuman arrive.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0525",
+      "en": "Yuman exits.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0526",
+      "en": "Yuman and Zeph enter the sewer.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0527",
+      "en": "Rex and Yulie enter.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0528",
+      "en": "Yuman and Yulie exit.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0529",
+      "en": "Zeph walks nearby.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0530",
+      "en": "Jiro enters.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0531",
+      "en": "Yusanu enters.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0532",
+      "en": "Yuman enters.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0533",
+      "en": "An alarm starts to ring in Yusanu's forge.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0534",
+      "en": "Yuman returns and leaves through the station with Jiro. Yusanu's alarm stops ringing.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0535",
+      "en": "Zeph goes down across the platforms acrobatically.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0536",
+      "en": "A cutscene begins with the woman and the guards.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0537",
+      "en": "Zeph jumps off the roof.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0538",
+      "en": "The scene changes and the soldiers become hostile enemies. Yuman, Zeph, and Jiro all attack.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0539",
+      "en": "Jiro runs over and pushes Zeph.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0540",
+      "en": "Jiro stands off to the side, away from Yuman.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0541",
+      "en": "Aihan exits her house.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0542",
+      "en": "Yuman, Zeph, and Jiro exit.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0543",
+      "en": "After completing the backpack section.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0544",
+      "en": "Yuman and Aihan run over to the ladder.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0545",
+      "en": "Yuman and Aihan climb up the ladders. A large squad of soldiers run to Aihan's house. Jiro and Aihan continue into the tunnel.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0546",
+      "en": "The following dialogue starts automatically when approaching the destination.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0547",
+      "en": "Yulie enters.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0548",
+      "en": "The following dialogue starts playing when approaching the destination.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0549",
+      "en": "Rex and Zeph each take a seat at the meeting table.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0550",
+      "en": "Quill arrives and takes a seat at the meeting table.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0551",
+      "en": "Aihan walks over.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0552",
+      "en": "Yuman's concert.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0553",
+      "en": "The camera focuses on an embarassed Sui.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0554",
+      "en": "Quill exits the stage, and Yuman enters.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0555",
+      "en": "Yuman starts playing music on his guitar. Shortly after, the camera fades to black.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0556",
+      "en": "Flowers the golem walks up to Zhiraok.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0557",
+      "en": "Flowers leaves and sits in the back.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0558",
+      "en": "The camera fades to black, and the perspective returns to the Steel Feather hideout after the concert.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0559",
+      "en": "Trying to interact with Syndra, Zeph, or Rex at the concert.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0560",
+      "en": "You- you didn't find any clothing? I can't leave with- with only one set of clothes! I know I have a shirt somewhere...",
+      "ru": "Ты... Ты не нашёл одежду? Я не могу уйти с... С единственным комплектом! Знаю, у меня где-то есть рубашка...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0561",
+      "en": "There's... nothing to sleep with in- in here. You couldn't f-find a pillow or blanket? I'd e-even take a mattress...",
+      "ru": "Здесь... Здесь ничего нет для сна. Не нашёл п-подушку или одеяло? Я бы даже м-матрас взяла...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0562",
+      "en": "I'm going to be away for so long, I need something to entertain myself. Perhaps a Book or a Deck of Cards?",
+      "ru": "Меня долго не будет дома. Нужно чем-нибудь занять себя в дороге. Может, книгой или колодой карт?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0563",
+      "en": "...As much as this little place is- is run down, it's... it's home. I can't just leave- I can't. I can't go without... without something to remember it by. Please, please, find my ring or my photograph. Please.",
+      "ru": "...Пусть здесь всё п-пришло в упадок, это... это мой дом. Я не могу просто уйти. Не могу... без чего-нибудь на память. Прошу, прошу, найди моё кольцо или фотографию. Пожалуйста.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0564",
+      "en": "Woah... wh-what did you pick into this? This- this is too heavy, I- I- I can't carry all of it!",
+      "ru": "Ого... ч-что ты туда положил? Это... это слишком тяжело, я... я... я не смогу все это унести!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0565",
+      "en": "Why... did you take these? He- the young man said you had f-food, water, and cooking equipment, r-right?",
+      "ru": "Зачем... ты это взял? Он- молодой человек - сказал, что у вас есть е-еда, вода и кухонные принадлежности, п-правда?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0566",
+      "en": "Wh-what?! H-how did you fit my whole m-mattress in here? Was... was there not anything smaller?",
+      "ru": "Ч-что?! К-как ты умудрился запихнуть сюда весь мой м-матрас? Неужели... неужели не нашлось чего-нибудь поменьше?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0567",
+      "en": "This... okay. Okay. This is enough. I can-... this will work. It has the- the important things. We can go, now.",
+      "ru": "Это... Хорошо. Хорошо. Этого хватит. Я смогу... Так сойдёт. Всё самое важное здесь. Теперь можно идти.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0568",
+      "en": "I- y-you know what, it doesn't... it doesn't matter. I can... I can live with this. I can. We... we can go now.",
+      "ru": "Я... з-знаешь, это... уже неважно. Я... я обойдусь тем, что есть. Обойдусь. Теперь... теперь можно идти.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0569",
+      "en": "We- no, no, no, this- this won't work, I can't- you need to pack different things, I can't go with- with this, plea",
+      "ru": "Мы... нет, нет, нет, так... так не пойдёт! Я не могу... Нужно взять другие вещи. С этим я не могу уйти... п-прошу...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0570",
+      "en": "Alright, but hurry! Please! I can hear soldiers.",
+      "ru": "Хорошо, но поспеши! Пожалуйста! Я слышу солдат.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0571",
+      "en": "New Quest Started: Solidarity of Steel",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Солидарность стали",
+      "speaker": "",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0572",
+      "en": "Huh?",
+      "ru": "А?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0573",
+      "en": "Zeph?",
+      "ru": "Зеф?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0574",
+      "en": "I am.",
+      "ru": "Жду.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0575",
+      "en": "Your sche- Are you taking lessons from Oru? This provincial emergency has a much greater value than your charter, Sovereign, so I'm summing to the equatio- nnh.",
+      "ru": "Твоё рас- Ты у Ору учишься? Эта беда касается всей провинции и весит больше твоей хартии, Сюзерен. Так что я добавлю в уравне- нгх.",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/Solidarity of Steel.txt"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Regroup with your friends outside Timasca at [-1886, 46, -526].",
+      "ru": "Встретиться с друзьями за пределами Тимаски [-1886, 46, -526].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find clothes in the city by following Yuman at [-1744, 30, -512].",
+      "ru": "Следовать за Юманом и найти одежду в городе [-1744, 30, -512].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Climb up the apartment at [-1744, 30, -512] and jump across the roofs.",
+      "ru": "Забраться на жилой дом и перепрыгнуть на соседние крыши [-1744, 30, -512].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Jump across the roofs to the first spot at [-1716, 40, -579]",
+      "ru": "Добраться по крышам до первого места [-1716, 40, -579].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Continue looking for clothes on the rooftops at [-1729, 51, -608].",
+      "ru": "Продолжить поиски одежды на крышах [-1729, 51, -608].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find the statue in the water at [-1801, 29, -520].",
+      "ru": "Найти статую в воде [-1801, 29, -520].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Follow Yuman and Zeph into the sewer at [-1795, 14, -518].",
+      "ru": "Следовать за Юманом и Зефом в канализацию [-1795, 14, -518].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Catch up with Zeph and Rex.",
+      "ru": "Догнать Зефа и Рекс.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find Sui and Mora at [-2087, 6, -705].",
+      "ru": "Найти Суи и Мору [-2087, 6, -705].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Find Syndra at [-2098, 6, -717].",
+      "ru": "Найти Синдру [-2098, 6, -717].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Explore the Steel Feather train station at [-2100, 6, -622].",
+      "ru": "Осмотреть железнодорожную станцию \"Стального пера\" [-2100, 6, -622].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Return to the main room at [-2100, 6, -693].",
+      "ru": "Вернуться в главный зал [-2100, 6, -693].",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Follow Yuman to the tunnel at [-2150, 4, -633].",
+      "ru": "Следовать за Юманом к туннелю [-2150, 4, -633].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Find the woman in trouble at [-2164, 39, -623].",
+      "ru": "Найти женщину, попавшую в беду [-2164, 39, -623].",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Defeat the soldiers attacking the woman at [-2172, 32, -619].",
+      "ru": "Победить солдат, напавших на женщину [-2172, 32, -619].",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Talk with the group at [-2171, 32, -614].",
+      "ru": "Поговорить с отрядом [-2171, 32, -614].",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Help Aihan pack up at [-2171, 32, -614].",
+      "ru": "Помочь Айхан собрать вещи [-2171, 32, -614].",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Pack something to help Aihan sleep, some form of entertainment, a piece of clothing, and something to remember.",
+      "ru": "Собрать для Айхан что-нибудь для сна, для развлечения, из одежды и на память.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Head back to the Steel Feather through the tunnel at [-2125, 50, -625].",
+      "ru": "Вернуться в \"Стальное перо\" через туннель [-2125, 50, -625].",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "objective-0020",
+      "en": "Report what happened to The Steel Feather at [-2101, 8, -678].",
+      "ru": "Рассказать \"Стальному перу\" о случившемся [-2101, 8, -678].",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "objective-0021",
+      "en": "Attend the meeting at [-2088, 8, -696].",
+      "ru": "Прийти на собрание [-2088, 8, -696].",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-0022",
+      "en": "Speak to Sui at [-2086, 6, -702] and watch Yuman's performance.",
+      "ru": "Поговорить с Суи в [-2086, 6, -702] и посмотреть выступление Юмана.",
+      "stage": "Stage 22"
+    }
+  ],
+  "choices": [
+    {
+      "en": "It's very different to Auburn.",
+      "ru": "Тут всё совсем не как в Аубёрне.",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0574",
+      "id": "choice-0001"
+    },
+    {
+      "en": "They sent me as a sacrifice to break up your chat.",
+      "ru": "Меня прислали как жертву, чтобы прервать вашу болтовню.",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0574",
+      "id": "choice-0002"
+    },
+    {
+      "en": "Yes, let's go!",
+      "ru": "Да, пошли!",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0574",
+      "id": "choice-0003"
+    },
+    {
+      "en": "Wait, I forgot something.",
+      "ru": "Подожди, я кое-что забыл.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0574",
+      "id": "choice-0004"
+    },
+    {
+      "en": "Who's this region's Sovereign?",
+      "ru": "Кто здесь сюзерен?",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0574",
+      "id": "choice-0005"
+    },
+    {
+      "en": "It was the least we could do.",
+      "ru": "Это меньшее, что мы могли сделать.",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0574",
+      "id": "choice-0006"
+    }
+  ]
+}

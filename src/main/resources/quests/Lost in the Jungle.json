@@ -1,0 +1,247 @@
+{
+  "quest": "Lost in the Jungle",
+  "level": 62,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "lost-in-the-jungle",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Excuse me, traveller... I am dreadfully sorry to ask this of you, but I need your help.",
+      "ru": "Извини, путник... ужасно неловко просить тебя об этом, но мне нужна твоя помощь.",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "You see, my son, Aryn. Very recently, he underwent a traditional coming-of-age ceremony from our tribe.",
+      "ru": "Понимаешь, мой сын Арин совсем недавно прошёл традиционный обряд взросления нашего племени.",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "He was tasked to enter the dangerous Dernel Jungle, just south of here, and brave the wilderness for three days. He returned a true man, successful.",
+      "ru": "Ему нужно было войти в опасные джунгли Дернела, к югу отсюда, и три дня продержаться в дикой глуши. Он справился и вернулся настоящим мужчиной.",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "However, he also brought with him an odd purple gemstone. Our shaman saw it as a bad omen, but I was so caught up in the celebrations, I brushed it off.",
+      "ru": "Но ещё он принёс с собой какой-то странный фиолетовый камень. Наш шаман сразу сказал, что это дурной знак, но я тогда был слишком занят праздником и просто отмахнулся.",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Strange happenings began around the village. Aryn walked about at night, talking to someone, but no one else was there with him.",
+      "ru": "В деревне началась какая-то чертовщина. Арин ходил по ночам и с кем-то разговаривал, хотя рядом с ним никого не было.",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Just last sunrise, he vanished entirely. We sent out a search for him, but even our hardiest warriors could not venture deep into the jungle.",
+      "ru": "Буквально на рассвете он совсем исчез. Мы отправили людей на поиски, но даже самые крепкие воины не смогли зайти далеко в джунгли.",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "We returned empty-handed, having lost our newest tribesman. The village is in terrible spirits, and I feel as though I am responsible.",
+      "ru": "Мы вернулись ни с чем. Наш юный соплеменник пропал, вся деревня в горе, а я чувствую себя виноватым.",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "You Wynn warriors, however... great stories are told of your exploits. Surely, you will be able to brave the jungle, yes?",
+      "ru": "Но о вас, воинах Винна... о ваших подвигах ходят легенды. Ты ведь сможешь преодолеть эти джунгли, правда?",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I beg of you, please, find my son. I do not know quite where he is, but undoubtedly he has been taken quite a ways in...",
+      "ru": "Прошу тебя, найди моего сына. Я не знаю, где именно он, но его явно утащили далеко вглубь...",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Hm... I just now am seeing a strange trail on the ground... it matches the color of the gemstone! It may take you to him, please, follow it!",
+      "ru": "Хм... только сейчас заметил на земле странный след... цвет прямо как у того камня! Может, он и выведет тебя к нему, прошу, иди по нему!",
+      "speaker": "Gracen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "P-please, I beg of you spirit, let me go free! The tribesmen must be so worried-",
+      "ru": "П-пожалуйста, умоляю, дух, отпусти меня! Племя наверняка уже места себе не находит-",
+      "speaker": "Aryn",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "DO NOT RESIST, BOY! YOUR BODY IS MINE. I WAS TRAPPED IN THAT STONE FOR MILLENIA, AND NOW I AM FREE.",
+      "ru": "НЕ СОПРОТИВЛЯЙСЯ, МАЛЬЧИШКА! ТВОЁ ТЕЛО ТЕПЕРЬ МОЁ. Я БЫЛ ЗАПЕРТ В ЭТОМ КАМНЕ ТЫСЯЧЕЛЕТИЯ, И ТЕПЕРЬ Я СВОБОДЕН.",
+      "speaker": "Aryn?",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Aha, I hear someone coming! Surely a tribesman here to rescue me!",
+      "ru": "Ага, я слышу, кто-то идёт! Наверняка кто-то из племени пришёл меня спасти!",
+      "speaker": "Aryn",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Oh! If so, the body of this warrior will be far better suited to my needs! Grant me your power, boy! I need to thrash them first to possess them!",
+      "ru": "О! Тогда тело этого воина подойдёт мне куда лучше! Дай мне свою силу, мальчишка! Сначала надо его одолеть, чтобы потом вселиться в него!",
+      "speaker": "Aryn?",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "You should talk to Aryn now...",
+      "ru": "Тебе стоит теперь поговорить с Арином...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Hahah, take that, evil wraith! You'll never match the power of our tribe-",
+      "ru": "Ха-ха, получай, злобный призрак! Тебе никогда не сравниться с силой нашего племени-",
+      "speaker": "Aryn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "W-wait, you aren't part of our tribe! Who are you, why did you come here?",
+      "ru": "П-погоди, ты же не из нашего племени! Ты кто вообще и зачем сюда пришёл?",
+      "speaker": "Aryn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Oh... my father sent you? Well, I am very impressed, Wynn warrior. You fight with ferocity of our own!",
+      "ru": "О... так тебя мой отец прислал? Что ж, я впечатлён, воин Винна. Дерёшься ты не хуже наших!",
+      "speaker": "Aryn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I...can't say the same for myself. That spirit completely overtook me, I still can't move right now...",
+      "ru": "Я... о себе такого сказать не могу. Этот дух меня полностью подмял, я сейчас даже нормально двигаться не могу...",
+      "speaker": "Aryn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "For now, please. Take away this gemstone. It caused all this, I don't want to be near such a bad luck charm.",
+      "ru": "Пока что, прошу, забери этот камень. Из-за него всё и случилось, я не хочу больше быть рядом с такой проклятой штукой.",
+      "speaker": "Aryn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Tell the tribe that I will return on my own. I made it back once, I can do it again once I am prepared.",
+      "ru": "Скажи племени, что я вернусь сам. Один раз я уже выбрался обратно, выберусь и ещё раз, когда приду в себя.",
+      "speaker": "Aryn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Oh my... Aryn was possessed by a spirit residing within the gemstone?",
+      "ru": "О боги... Арином завладел дух, который сидел внутри этого камня?",
+      "speaker": "Gracen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "How shameful... Our shaman has never been wrong before, why did I disregard his warning...",
+      "ru": "Какой позор... Наш шаман ещё ни разу не ошибался, зачем же я не послушал его предупреждение...",
+      "speaker": "Gracen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "But that is beside the point. You say you have destroyed the spirit and it does not feel tainted any longer, so I will trust you.",
+      "ru": "Но сейчас не это главное. Ты говоришь, что дух уничтожен и камень больше не осквернён его силой. Я тебе поверю.",
+      "speaker": "Gracen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Looking at it now, this is actually quite a valuable stone. If crushed to dust, it can be used in special charms we make.",
+      "ru": "Теперь вижу, что камень-то очень ценный. Если растереть его в пыль, она пригодится для особых талисманов нашего племени.",
+      "speaker": "Gracen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Here, allow me to grind this down for you. You can keep the shards for whatever purposes you may find for them in the future.",
+      "ru": "Вот, позволь мне измельчить его для тебя. Осколки можешь оставить себе, вдруг потом пригодятся.",
+      "speaker": "Gracen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Our tribe, and especially myself... We thank you for your service. We shall consider you one of our own, from this day forward.",
+      "ru": "Наше племя, и особенно я сам... благодарим тебя за помощь. С этого дня мы будем считать тебя одним из своих.",
+      "speaker": "Gracen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "In fact, if you'd like, you may even enter my house here whenever you'd like.",
+      "ru": "Да и вообще, если захочешь, можешь заходить ко мне домой в любое время.",
+      "speaker": "Gracen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "New Quest Started: Lost in the Jungle",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Потерянный в джунглях",
+      "speaker": "",
+      "stage": "Stage 5"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Gracen at [-753, 82, -663]",
+      "ru": "Поговорить с Грасеном [-753, 82, -663].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Search the Dernel Jungle for Aryn",
+      "ru": "Найти Арина в джунглях Дернела.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Defeat the spirit possessing Aryn",
+      "ru": "Победить духа, вселившегося в Арина.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Make sure Aryn is safe at [-699, 6, -354]",
+      "ru": "Убедиться, что Арин в безопасности [-699, 6, -354].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Bring the Mysterious Gemstone to Gracen at [-753, 82, -663]",
+      "ru": "Принести Грасену загадочный драгоценный камень [-753, 82, -663].",
+      "stage": "Stage 5"
+    }
+  ],
+  "choices": []
+}

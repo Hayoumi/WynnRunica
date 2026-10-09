@@ -1,0 +1,886 @@
+{
+  "quest": "Bonfire Festival",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "bonfire-festival",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hail, traveler! A lovely day to sit and relax by the bonfire, is it not?",
+      "ru": "Приветствую, путник! Чудесный денёк, чтобы посидеть и отдохнуть у костра, не так ли?",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Another year has passed... and the fires still burn on in this province's heart, despite its endless struggle.",
+      "ru": "Ещё один год миновал... а огни всё так же пылают в сердце этой провинции, несмотря на её нескончаемую борьбу.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "And that's something to celebrate, wouldn't you agree? A festival for those who live on! And a festival to remember those lost.",
+      "ru": "И это достойно праздника, согласен? Праздника для живых... и дня памяти о тех, кого мы потеряли.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "...Ah, but I'm rambling. I won't keep you from your own business... But if you'd like someone to celebrate with, you know where to find me.",
+      "ru": "...А, что-то я разговорился. Не буду отвлекать тебя от твоих дел... Но если захочешь отпраздновать с кем-нибудь, ты знаешь, где меня найти.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "As it so happens, there is something I could use your help with... But, I will not force your hand. Speak to me again if you wish to know more.",
+      "ru": "Так уж вышло, что мне и правда не помешала бы твоя помощь... Но заставлять тебя я не стану. Поговори со мной ещё раз, если захочешь узнать подробности.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I'll keep this bonfire burning for as long as it needs to. That's my role to play in this story of ours, traveler. I trust you will be able to find your own.",
+      "ru": "Я буду поддерживать этот костёр столько, сколько потребуется. Такова моя роль в нашей истории, путник. Верю, что и ты сумеешь найти свою.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Ah, hello again! How can I help you, friend?",
+      "ru": "А, снова здравствуй! Чем могу помочь, друг?",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "You needed help?",
+      "ru": "Тебе была нужна помощь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Just wanted to chat.",
+      "ru": "Просто хотел поболтать.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "found something interesting.",
+      "ru": "Я нашёл кое-что интересное.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "found something interesting",
+      "ru": "Я нашёл кое-что интересное.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "I found something interestin",
+      "ru": "Я нашёл кое-что интересное.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "is there to do around here?",
+      "ru": "Чем здесь можно заняться?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "t is there to do around here",
+      "ru": "Чем здесь можно заняться?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "at is there to do around her",
+      "ru": "Чем здесь можно заняться?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "hat is there to do around he",
+      "ru": "Чем здесь можно заняться?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "What is there to do around h",
+      "ru": "Чем здесь можно заняться?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I suppose I did say that, yes. It is, as always, a task I would have liked to perform myself... but the threads of our tale are everpresent.",
+      "ru": "Полагаю, я и правда это говорил. Как всегда, я бы предпочёл выполнить это задание сам... но от нитей нашей истории не уйти.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "This festival... it is one of remembrance. The bonfires must be lit across the cities of the land for the lost to reach their rest, come autumn.",
+      "ru": "Этот праздник... посвящён памяти ушедших. С приходом осени во всех городах этой земли должны зажечься костры, чтобы души погибших смогли обрести покой.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "And, so, it would be your task to hold the hearthflames , and bring them to their rightful place .",
+      "ru": "А потому твоя задача - §#FE7A03сохранить пламя очагов§r и §#FE7A03доставить его туда, где ему надлежит гореть§r.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "I will grant you an artifact to carry their protection... and to seek their rightful place in this world.",
+      "ru": "Я дарую тебе артефакт, который сохранит их оберегающую силу... и поможет отыскать место, где им надлежит быть.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "[+1 Hearthkeeper's Staff]",
+      "ru": "[+1 Hearthkeeper's Staff]",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "However- there is a catch. The magic of transportation, that which is used by Teleportation Scrolls - it cannot handle the hearthflame's light.",
+      "ru": "Однако есть одна загвоздка. Магия перемещения, заключённая в Свитках Телепортации, не способна выдержать свет пламени очага.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "While you are carrying a hearthflame, you will not be able to use Teleportation Scolls . Any other means of transport will still be available.",
+      "ru": "Пока ты несёшь пламя очага, использовать Свитки Телепортации не получится. Все остальные способы передвижения останутся доступны.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "You will be rewarded, of course, for what other incentive would suffice? Other magical items may become available, should you light enough of the bonfires.",
+      "ru": "Разумеется, ты получишь награду - чем ещё тебя заинтересовать? Если зажжёшь достаточно костров, тебе могут достаться и другие магические предметы.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Shall we begin?",
+      "ru": "Ну что, начнём?",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Give me some time.",
+      "ru": "Дай мне немного времени.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Yes. I'll take a flame.",
+      "ru": "Да. Я возьму пламя.",
+      "speaker": "COICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I understand. Take your time. I will be here when you have prepared.",
+      "ru": "Понимаю. Не спеши. Я буду здесь, когда ты подготовишься.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "I'll take a hearthflame.",
+      "ru": "Я возьму пламя очага.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Hm... What to do, what to do indeed... You're always welcome to speak to the other visitors in town. Some may be quite... familiar, yes.",
+      "ru": "Хм... Чем же заняться, чем же... Ты всегда можешь поговорить с другими гостями в городе. Некоторые из них могут показаться тебе весьма... знакомыми.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Someone I would suggest you seek out is my brother- he has found himself a spot in the northwest corner of this city. He may have something of interest for you.",
+      "ru": "Я бы посоветовал тебе разыскать моего брата - он обосновался в северо-западной части города. Возможно, у него найдётся для тебя кое-что интересное.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Ah- but there is, of course, a task at hand. The hearthflame is weak, here. It must be spread across the land for it to thrive.",
+      "ru": "А, но нас, конечно, ждёт дело. Здесь пламя очага слишком слабо. Чтобы оно разгорелось в полную силу, его нужно разнести по всей земле.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "There's a reward in it for you, if you choose to help. Tell me when you'd like to work towards this goal.",
+      "ru": "Если решишь помочь, без награды не останешься. Скажи, когда будешь готов взяться за это дело.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Otherwise... Yes, there is one more adventure you could pursue. The Event Airship Pilot- he has somewhere he could take you, at my request.",
+      "ru": "А впрочем... Да, для тебя есть ещё одно приключение. Пилот Праздничного дирижабля сможет доставить тебя кое-куда по моей просьбе.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "On the shores of Ember Isle , the Kindling begins anew. Bring some friends, and meet me there, and I could tell you more of the game we could play.",
+      "ru": "На берегах Острова Углей вновь начинается Разжигание. Собери друзей и встреть меня там - я расскажу вам больше об игре, в которую мы можем сыграть.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Oh? Well, if you think it's interesting, I'm sure it's interesting too.",
+      "ru": "О? Что ж, раз тебе это кажется интересным, уверен, и мне понравится.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "What did you find?",
+      "ru": "Что ты нашёл?",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "mind, I don't have anything.",
+      "ru": "Неважно, я ничего не нашёл.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "rmind, I don't have anything",
+      "ru": "Неважно, я ничего не нашёл.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "ermind, I don't have anythin",
+      "ru": "Неважно, я ничего не нашёл.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "vermind, I don't have anythi",
+      "ru": "Неважно, я ничего не нашёл.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "evermind, I don't have anyth",
+      "ru": "Неважно, я ничего не нашёл.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Nevermind, I don't have anyt",
+      "ru": "Неважно, я ничего не нашёл.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Ah, no worries. It's still always nice to have a conversation with a friend.",
+      "ru": "А, ничего страшного. Всё равно всегда приятно поболтать с другом.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Well, it's always nice to talk to someone. Sit by the bonfire as long as you'd like, friend. You're always welcome here.",
+      "ru": "Что ж, всегда приятно с кем-нибудь поговорить. Сиди у костра столько, сколько захочешь, друг. Тебе здесь всегда рады.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "You are? You are. Very well. Let us begin.",
+      "ru": "Готов? Вижу, готов. Что ж, начнём.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "...It is done. You now hold a hearthflame. Use the staff to find its resting place . Remember, you cannot use Teleportation Scrolls .",
+      "ru": "...Готово. Теперь ты несёшь пламя очага. Используй посох, чтобы найти место, где ему надлежит обрести покой. Помни: Свитками Телепортации пользоваться нельзя.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "The bonfires you seek will only be located in cities and towns , as to better serve their purpose.",
+      "ru": "Костры, которые ты ищешь, находятся только в городах и поселениях. Именно там они смогут исполнить своё предназначение.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Should you need guidance, return and speak to me once more. Good luck.",
+      "ru": "Если тебе понадобится совет, возвращайся и поговори со мной снова. Удачи.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "o I do with the hearthflame?",
+      "ru": "Что делать с пламенем очага?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "do I do with the hearthflame",
+      "ru": "Что делать с пламенем очага?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "do I do with the hearthflam",
+      "ru": "Что делать с пламенем очага?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "t do I do with the hearthfla",
+      "ru": "Что делать с пламенем очага?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "at do I do with the hearthfl",
+      "ru": "Что делать с пламенем очага?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "hat do I do with the hearthf",
+      "ru": "Что делать с пламенем очага?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "What do I do with the hearth",
+      "ru": "Что делать с пламенем очага?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Oh- of course. You now hold a hearthflame . It must be brought to its resting place, somewhere in this land.",
+      "ru": "Ох, конечно. Теперь ты несёшь пламя очага. Его нужно доставить туда, где ему надлежит обрести покой, где-то в этих землях.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "The bonfires will only ever be within cities or towns , for that is where they must be to serve their purpose.",
+      "ru": "Костры можно найти только в городах и поселениях, ведь лишь там они смогут исполнить своё предназначение.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Use the Hearthkeeper's Staff to guide the way. You will be unable to use Teleportation Scrolls , so you may need to find alternative paths.",
+      "ru": "Пусть Посох Хранителя Очага укажет тебе путь. Свитками Телепортации воспользоваться не получится, так что, возможно, придётся искать другие дороги.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Once you place the hearthflame and light the bonfire, return to me. I will offer further guidance then.",
+      "ru": "Когда поместишь пламя очага и зажжёшь костёр, возвращайся ко мне. Тогда я расскажу, что делать дальше.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "War's grasp over the citadel has weakened over the years... Ragni finds itself more defended than it ever has been.",
+      "ru": "С годами тиски войны вокруг цитадели ослабли... Теперь Рагни защищён лучше, чем когда-либо.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "...Accidents still happen, of course. A corrupted slips through... a loss which can never be forgotten.",
+      "ru": "...Но несчастья всё же случаются. Порой Заражённый прорывается внутрь... и уносит чью-то жизнь. Такую утрату уже не забыть.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "I've lit the first bonfire.",
+      "ru": "Я зажёг первый костёр.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "You have! This is a good first step. One bonfire closer to our goal. And, perhaps, one closer to his...?",
+      "ru": "Зажёг! Отличное начало. Ещё один костёр приближает нас к нашей цели. А возможно, и его - к своей...?",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "In any case, you understand the basics. You'll be able to pick up more than one hearthflame at once, if you'd like.",
+      "ru": "В любом случае, с основами ты разобрался. Если захочешь, сможешь брать с собой сразу несколько пламён очага.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "One new flame will be created every day , and with it, another bonfire to be lit. Light them all, and I will reward you.",
+      "ru": "Каждый день будет появляться новое пламя, а вместе с ним - ещё один костёр, который нужно зажечь. Зажги их все, и я тебя вознагражу.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Each bonfire lit will reward you a sum of emeralds, and more may reward you with various magical trinkets. For your first- here, take these.",
+      "ru": "За каждый зажжённый костёр ты получишь горсть изумрудов, а за большее их число - разные магические безделушки. А за твой первый... вот, возьми.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "And, for now- a gift. An emblem to mark the occasion. The start of this tale of ours. Just click the button next to the reward.",
+      "ru": "А пока - подарок. Эмблема в честь этого события. Начало нашей общей истории. Просто нажми кнопку рядом с наградой.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Then that will be all for now. If you'd like me to show your progress again, feel free to ask. Happy hunting, friend!",
+      "ru": "На этом пока всё. Если захочешь снова взглянуть на свой прогресс, просто спроси. Удачной охоты, друг!",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "The Hearthflame Hunt.",
+      "ru": "Охота за пламенем очага.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Alright, we can do that. What would you like to speak about?",
+      "ru": "Хорошо, давай. О чём ты хотел поговорить?",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "u tell me what I need to do?",
+      "ru": "Можешь объяснить, что делать?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "ou tell me what I need to do",
+      "ru": "Можешь объяснить, что делать?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "you tell me what I need to d",
+      "ru": "Можешь объяснить, что делать?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "you tell me what I need to",
+      "ru": "Можешь объяснить, что делать?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "n you tell me what I need to",
+      "ru": "Можешь объяснить, что делать?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "an you tell me what I need t",
+      "ru": "Можешь объяснить, что делать?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Can you tell me what I need",
+      "ru": "Можешь объяснить, что делать?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "ese bonfires need to be lit?",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "hese bonfires need to be lit",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "these bonfires need to be li",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "these bonfires need to be l",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "o these bonfires need to be",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "do these bonfires need to be",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "do these bonfires need to b",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "y do these bonfires need to",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "hy do these bonfires need to",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Why do these bonfires need t",
+      "ru": "Почему нужно зажигать костры?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "I need a hearthflame.",
+      "ru": "Мне нужно пламя очага.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "me my progress and rewards.",
+      "ru": "Покажи мой прогресс и награды.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "w me my progress and rewards",
+      "ru": "Покажи мой прогресс и награды.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "ow me my progress and reward",
+      "ru": "Покажи мой прогресс и награды.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "how me my progress and rewar",
+      "ru": "Покажи мой прогресс и награды.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Show me my progress and rewa",
+      "ru": "Покажи мой прогресс и награды.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Of course. Here, take a look.",
+      "ru": "Конечно. Вот, взгляни.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "...In a sense, it's a way for me to offer aid to my brother- the Envoy. Once summer turns to autumn, it will become his responsibility to oversee the Spirit's Tide.",
+      "ru": "...В некотором смысле так я помогаю своему брату - Посланнику. Когда лето сменится осенью, именно ему предстоит следить за Приливом Духов.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "They've been experiencing some... complications with their work. And it doesn't seem like these complications will stop anytime soon.",
+      "ru": "В его работе возникли некоторые... трудности. И похоже, в ближайшее время они никуда не исчезнут.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "You'll see for yourself soon. Or, perhaps, you already have? I don't know for sure.",
+      "ru": "Скоро сам всё увидишь. А может, уже увидел? Точно не знаю.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Either way- the bonfires are an attempt to make their job easier. They'll hopefully gather a majority of the loose roaming spirits...",
+      "ru": "Как бы то ни было, костры должны облегчить ему работу. Будем надеяться, что они соберут большинство неприкаянных духов, скитающихся по этим землям...",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "...and, at the same time, offer protection for the living under their magic. It won't be much, but it's something.",
+      "ru": "...и в то же время своей магией защитят живых. Защита будет слабой, но всё же лучше, чем ничего.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Perhaps there's another reason. There are stories that must be told out there... and if I can help with that, then I'll certainly do my best.",
+      "ru": "Возможно, есть и другая причина. В мире ещё остались истории, которые должны быть рассказаны... и если я могу этому помочь, то непременно сделаю всё, что в моих силах.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Oh- of course. You must take the hearthflames from this bonfire, and return them to their resting places, somewhere in this land.",
+      "ru": "О, конечно. Тебе нужно брать пламя очага из этого костра и относить его туда, где ему надлежит обрести покой, где-то в этих землях.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Place the hearthflames, and light the bonfires. You will be rewarded.",
+      "ru": "Помести пламя очага в костры и зажги их. За это ты получишь награду.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "...There are no hearthflames waiting here. Another will form in 2 hours .",
+      "ru": "...Здесь пока нет пламени очага. Новое появится через 2 часа.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Very well. Would you like a single hearthflame, or would you like as many as you can carry?",
+      "ru": "Хорошо. Тебе нужно одно пламя очага или столько, сколько сможешь унести?",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "...It is done. Bring it to its proper resting place.",
+      "ru": "...Готово. Отнеси пламя туда, где ему надлежит обрести покой.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "...Oh. That won't be a problem- the staff has returned itself to me.",
+      "ru": "...О. Это не проблема - посох сам вернулся ко мне.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "I would ask- please take better care of it.",
+      "ru": "Я лишь попрошу тебя впредь беречь его получше.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Bandits lie in wait along the twisting roads of the savannah. Encounters are rarely deadly...",
+      "ru": "Бандиты подстерегают путников на извилистых дорогах саванны. Такие встречи редко заканчиваются смертью...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "But rarely is not never. For the victims... or the bandits.",
+      "ru": "Но редко - не значит никогда. Это касается и жертв... и самих бандитов.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Rewards... right. You've lit 1 bonfires since you last asked.",
+      "ru": "Награды... точно. С тех пор, как ты спрашивал в последний раз, ты зажёг §#FE7A031 костёр§r.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "As thanks for your work, I offer you this sum of emeralds.",
+      "ru": "В благодарность за твои труды прими эти изумруды.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "As for progress- here, take a look.",
+      "ru": "А что до прогресса - вот, взгляни.",
+      "speaker": "Bonfire Keeper",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Living in a hotspot of magical activity has its benefits. Easy access for the sake of research.",
+      "ru": "Жизнь в самом центре магической активности имеет свои преимущества. Для исследований всё необходимое всегда под рукой.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "...It holds its own dangers, too, of course. Those who remain remember the lost, then press onward.",
+      "ru": "...Но, конечно, здесь хватает и своих опасностей. Оставшиеся в живых помнят погибших и продолжают путь.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "\"IDOL\" in Ancient Wynnic.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "\"ETHE\" in Ancient Wynnic, referring to his mentor of magic.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "\"ALLY\" in High Gavellian.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "\"WYNN\" in Ancient Wynnic.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "New Quest Started: Bonfire Festival",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Праздник костра",
+      "speaker": "",
+      "stage": "Stage 1"
+    }
+  ],
+  "choices": [
+    {
+      "en": "I lost the Hearthkeeper's St",
+      "ru": "Я потерял Посох Хранителя Очага.",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0105",
+      "id": "choice-0001"
+    },
+    {
+      "en": "Nevermind, I don't need a fl",
+      "ru": "Неважно, пламя мне не нужно.",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0106",
+      "id": "choice-0002"
+    },
+    {
+      "en": "I'll take as many as I can.",
+      "ru": "Возьму, сколько смогу унести.",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0106",
+      "id": "choice-0003"
+    },
+    {
+      "en": "Just one.",
+      "ru": "Только одно.",
+      "stage": "Stage 1",
+      "dialogueId": "dialogue-0106",
+      "id": "choice-0004"
+    }
+  ],
+  "objectives": []
+}

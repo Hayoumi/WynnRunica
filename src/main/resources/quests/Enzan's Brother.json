@@ -1,0 +1,193 @@
+{
+  "quest": "Enzan's Brother",
+  "level": 1,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "enzan-s-brother",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "I see you want to venture into the wilderness!",
+      "ru": "Вижу, тебе не сидится и тянет в дикие земли!",
+      "speaker": "Enzan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "My name is Enzan, and I am now a retired knight. I've spent most of my life fighting for Ragni's army, just like you.",
+      "ru": "Меня зовут Энзан. Я рыцарь в отставке. Большую часть жизни сражался в армии Рагни, как теперь и ты.",
+      "speaker": "Enzan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I know how hard it must be to be a recruit at this time, so I've got something that could help you! Well, I don't have it, but my brother does!",
+      "ru": "Знаю, как непросто сейчас приходится новобранцам. У меня есть кое-что, что могло бы тебе помочь! Ну, не у меня, а у моего брата!",
+      "speaker": "Enzan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Follow this road, he's just past the item identifier, you can't miss him. Just head to the big set of stairs, past the item identifier.",
+      "ru": "Иди по этой дороге к большой лестнице. §#55FFFFОн сразу за опознавателем предметов, не пропустишь§r.",
+      "speaker": "Enzan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Tell him I sent you! He can be such a jerk to strangers sometimes, especially when he's focused on his stairs...",
+      "ru": "Скажи ему, что ты от меня! С незнакомцами он порой бывает груб, особенно когда занят своей лестницей...",
+      "speaker": "Enzan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Excuse me? Can't you see I'm busy?",
+      "ru": "Чего тебе? Не видишь, я занят?",
+      "speaker": "Therck",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Oh, my brother? Sorry, I didn't know.",
+      "ru": "А, от моего брата? Ладно, извини, не знал.",
+      "speaker": "Therck",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Why yes, I actually have something that could help you...",
+      "ru": "Вообще да, у меня и правда есть кое-что, что может тебе пригодиться...",
+      "speaker": "Therck",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "But before I give it to you, why don't you help me with something first?",
+      "ru": "Но прежде чем я это отдам, не поможешь мне с одним делом?",
+      "speaker": "Therck",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "You see, there's a special kind of mushroom that grows in this cave. I hear it has certain... energizing properties.",
+      "ru": "Понимаешь, в этой пещере растёт особый гриб. Говорят, у него есть весьма... бодрящие свойства.",
+      "speaker": "Therck",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "If you can bring me [1 Energy Mushroom], I'll help you out. Enter the cave down the stairs, and bring me that mushroom!",
+      "ru": "Принеси мне §#00AAAA[1 Energy Mushroom]§r, и я тебе помогу. §#55FFFFСпускайся по лестнице в пещеру и найди его§r!",
+      "speaker": "Therck",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Ah, you're back! Do you have the mushroom?",
+      "ru": "О, вернулся! Гриб принёс?",
+      "speaker": "Therck",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Excellent... Now I might finally be able to climb these stairs!",
+      "ru": "Отлично... Теперь, может, я наконец смогу осилить эти ступеньки!",
+      "speaker": "Therck",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Who knows, maybe there's a treasure or something up there?",
+      "ru": "Кто знает, может, §#55FFFFнаверху §rвообще клад?",
+      "speaker": "Therck",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Take this ring. It's an accessory item! You can identify it at the nearby Item Identifier.",
+      "ru": "Держи это кольцо. Это аксессуар. Можешь §bопознать его у ближайшего Опознавателя Предметов§r.",
+      "speaker": "Therck",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "It's a very good ring for someone starting out like you. There's just one small issue...",
+      "ru": "Для новичка вроде тебя это очень хорошее кольцо. Только есть одна небольшая загвоздка...",
+      "speaker": "Therck",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "To wear it, you must help my friend back in Ragni. He's been pestering me for days about needing help.",
+      "ru": "Чтобы его надеть, тебе нужно помочь моему другу в Рагни. Он уже несколько дней просит меня о помощи.",
+      "speaker": "Therck",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Well? Have you brought me [1 Energy Mushroom] ?",
+      "ru": "Ну что? Ты принёс мне [1 Energy Mushroom]?",
+      "speaker": "Therck",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "No? Then what are you waiting for, go back into that cave !",
+      "ru": "Нет? Тогда чего ты ждёшь? Возвращайся в ту пещеру!",
+      "speaker": "Therck",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "New Quest Started: Enzan's Brother",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Брат Энзана",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Excellent... Now I might be able to finally climb these stairs!",
+      "ru": "Отлично... Теперь, может, я наконец смогу осилить эти ступеньки!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Who knows, maybe there's a treasure up there?",
+      "ru": "Кто знает, может, наверху и сокровище какое найдётся?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "audit-e0389877b2400e84",
+      "en": "Take this ring. It's an accessory item. You can identify it at the nearby Item Identifier.",
+      "ru": "Держи это кольцо. Это аксессуар. Можешь §bопознать его у ближайшего Опознавателя Предметов§r.",
+      "speaker": "Therck",
+      "stage": ""
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Enzan close to the exit of Ragni at [-772, 70, -1574].",
+      "ru": "Поговорить с Энзаном у выхода из Рагни [-772, 70, -1574].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Enzan's brother near the Item Identifier on the Emerald Trail at [-536, 72, -1589].",
+      "ru": "Найти брата Энзана возле опознавателя предметов на Изумрудной тропе [-536, 72, -1589].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Descend into the cave at [-538, 67, -1586] and bring [1 Energy Mushroom] to Therck",
+      "ru": "Спуститься в пещеру в [-538, 67, -1586] и принести Терку [1 Energy Mushroom].",
+      "stage": "Stage 3"
+    }
+  ],
+  "choices": []
+}

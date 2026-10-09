@@ -1,0 +1,1815 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "character-selection",
+  "scopes": [
+    {
+      "id": "character-card-warrior",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Warrior",
+        "anchors": [
+          "§7- Class: Warrior",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Warrior",
+        "ru": "<center>Воин"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Warrior",
+          "ru": "§6- §7Класс: §fВоин"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-knight",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Knight",
+        "anchors": [
+          "§7- Class: Knight",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Knight",
+        "ru": "<center>Рыцарь"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Knight",
+          "ru": "§6- §7Класс: §fРыцарь"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-mage",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Mage",
+        "anchors": [
+          "§7- Class: Mage",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Mage",
+        "ru": "<center>Маг"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Mage",
+          "ru": "§6- §7Класс: §fМаг"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-dark-wizard",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Dark Wizard",
+        "anchors": [
+          "§7- Class: Dark Wizard",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Dark Wizard",
+        "ru": "<center>Тёмный Маг"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Dark Wizard",
+          "ru": "§6- §7Класс: §fТёмный Маг"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-archer",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Archer",
+        "anchors": [
+          "§7- Class: Archer",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Archer",
+        "ru": "<center>Лучник"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Archer",
+          "ru": "§6- §7Класс: §fЛучник"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-hunter",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Hunter",
+        "anchors": [
+          "§7- Class: Hunter",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Hunter",
+        "ru": "<center>Охотник"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Hunter",
+          "ru": "§6- §7Класс: §fОхотник"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-assassin",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Assassin",
+        "anchors": [
+          "§7- Class: Assassin",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Assassin",
+        "ru": "<center>Ассасин"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Assassin",
+          "ru": "§6- §7Класс: §fАссасин"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-ninja",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Ninja",
+        "anchors": [
+          "§7- Class: Ninja",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Ninja",
+        "ru": "<center>Ниндзя"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Ninja",
+          "ru": "§6- §7Класс: §fНиндзя"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-shaman",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Shaman",
+        "anchors": [
+          "§7- Class: Shaman",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Shaman",
+        "ru": "<center>Шаман"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Shaman",
+          "ru": "§6- §7Класс: §fШаман"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-card-skyseer",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Skyseer",
+        "anchors": [
+          "§7- Class: Skyseer",
+          "<em>Content Progress"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Skyseer",
+        "ru": "<center>Провидец"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7- Class: Skyseer",
+          "ru": "§6- §7Класс: §fПровидец"
+        },
+        {
+          "id": "line-02",
+          "en": "§7- Time Played: <num> hours",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-03",
+          "en": "§7- Time Played: <num> hour",
+          "ru": "§6- §7Время игры: §f<num> ч."
+        },
+        {
+          "id": "line-04",
+          "en": "§7- Level: <num> (<num>%)",
+          "ru": "§6- §7Уровень: §f<num> §8(<num>%)"
+        },
+        {
+          "id": "line-05",
+          "en": "<em>Content Progress",
+          "ru": "<center>§7Прогресс"
+        },
+        {
+          "id": "line-06",
+          "en": "<em><num> of <num>",
+          "ru": "<center>§7<num> из <num>"
+        },
+        {
+          "id": "line-07",
+          "en": "§7<em> Left-Click to Select",
+          "ru": "<em> §aЛКМ - Выбрать"
+        },
+        {
+          "id": "line-08",
+          "en": "§7<em> Right-Click to Edit",
+          "ru": "<em> §aПКМ - Изменить"
+        },
+        {
+          "id": "line-09",
+          "en": "§7- Location: Detlas",
+          "ru": "§6- §7Место: §fДетлас"
+        },
+        {
+          "id": "line-10",
+          "en": "§7- Location: Espren",
+          "ru": "§6- §7Место: §fЭспрен"
+        },
+        {
+          "id": "line-11",
+          "en": "§7- Location: Hyloch",
+          "ru": "§6- §7Место: §fХайлок"
+        },
+        {
+          "id": "line-12",
+          "en": "§7- Location: Nemract",
+          "ru": "§6- §7Место: §fНемракт"
+        },
+        {
+          "id": "line-13",
+          "en": "§7- Location: Crater Descent",
+          "ru": "§6- §7Место: §fСпуск в кратер"
+        },
+        {
+          "id": "line-14",
+          "en": "§7- Location: Corkus Sea Cove",
+          "ru": "§6- §7Место: §fБухта моря Коркуса"
+        },
+        {
+          "id": "line-15",
+          "en": "§7- Location: Ragni",
+          "ru": "§6- §7Место: §fРагни"
+        },
+        {
+          "id": "line-16",
+          "en": "§7- Location: Troms",
+          "ru": "§6- §7Место: §fТромс"
+        },
+        {
+          "id": "line-17",
+          "en": "§7- Location: Almuj",
+          "ru": "§6- §7Место: §fАльмудж"
+        },
+        {
+          "id": "line-18",
+          "en": "§7- Location: Nesaak",
+          "ru": "§6- §7Место: §fНесак"
+        },
+        {
+          "id": "line-19",
+          "en": "§7- Location: Llevigar",
+          "ru": "§6- §7Место: §fЛлевигар"
+        },
+        {
+          "id": "line-20",
+          "en": "§7- Location: Olux",
+          "ru": "§6- §7Место: §fОлюкс"
+        },
+        {
+          "id": "line-21",
+          "en": "§7- Location: Gelibord",
+          "ru": "§6- §7Место: §fГелиборд"
+        },
+        {
+          "id": "line-22",
+          "en": "§7- Location: Cinfras",
+          "ru": "§6- §7Место: §fСинфрас"
+        },
+        {
+          "id": "line-23",
+          "en": "§7- Location: Thesead",
+          "ru": "§6- §7Место: §fТезеад"
+        },
+        {
+          "id": "line-24",
+          "en": "§7- Location: Eltom",
+          "ru": "§6- §7Место: §fЭльтом"
+        },
+        {
+          "id": "line-25",
+          "en": "§7- Location: Rodoroc",
+          "ru": "§6- §7Место: §fРодорок"
+        },
+        {
+          "id": "line-26",
+          "en": "§7- Location: Ahmsord",
+          "ru": "§6- §7Место: §fАмсорд"
+        },
+        {
+          "id": "line-27",
+          "en": "§7- Location: Corkus City",
+          "ru": "§6- §7Место: §fКоркус-Сити"
+        },
+        {
+          "id": "line-28",
+          "en": "§7- Location: Selchar",
+          "ru": "§6- §7Место: §fСельчар"
+        },
+        {
+          "id": "line-29",
+          "en": "§7- Location: Lutho",
+          "ru": "§6- §7Место: §fЛюто"
+        }
+      ]
+    },
+    {
+      "id": "character-create",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Create a Character",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Create a Character",
+        "ru": "Создать Персонажа"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7This character slot is available",
+          "ru": "§7В этой ячейке можно"
+        },
+        {
+          "id": "line-02",
+          "en": "§7for a character to be created",
+          "ru": "§7создать нового персонажа."
+        },
+        {
+          "id": "line-03",
+          "en": "§7<em> Click to create a Character",
+          "ru": "<em> §aНажмите, чтобы создать персонажа"
+        }
+      ]
+    },
+    {
+      "id": "character-cancel-deletion",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Cancel Deletion",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Cancel Deletion",
+        "ru": "Отменить Удаление"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7Restore characters currently in",
+          "ru": "§7Восстановить персонажей,"
+        },
+        {
+          "id": "line-02",
+          "en": "§7the waiting period prior to deletion",
+          "ru": "§7ожидающих удаления."
+        },
+        {
+          "id": "line-03",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        }
+      ]
+    },
+    {
+      "id": "character-locked-slot",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Locked Character Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Locked Character Slot",
+        "ru": "Недоступная Ячейка"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§8This character slot is only",
+          "ru": "§8Эта ячейка доступна только"
+        },
+        {
+          "id": "line-02",
+          "en": "§8available to §aVIP§8 or higher",
+          "ru": "§8с рангом §aVIP§8 или выше"
+        },
+        {
+          "id": "line-03",
+          "en": "§8available to §bVIP+§8 or higher",
+          "ru": "§8с рангом §bVIP+§8 или выше"
+        },
+        {
+          "id": "line-04",
+          "en": "§8available to §dHERO§8 or higher",
+          "ru": "§8с рангом §dHERO§8 или выше"
+        },
+        {
+          "id": "line-05",
+          "en": "§8available to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-06",
+          "en": "§8available to §6CHAMPION§8 or higher",
+          "ru": "§8с рангом §6CHAMPION§8 или выше"
+        },
+        {
+          "id": "line-07",
+          "en": "§8available to §6§b§k|§6CHAMPION§b§k|§r§8 or higher",
+          "ru": "§8с рангом §6§b§k|§6CHAMPION§b§k|§r§8 или выше"
+        }
+      ]
+    },
+    {
+      "id": "character-backups",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Character Backups",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Character Backups",
+        "ru": "Копии Персонажей"
+      },
+      "lines": [
+        {
+          "id": "line-01",
+          "en": "§7Restore up to <num> recently",
+          "ru": "§7Можно восстановить до <num>"
+        },
+        {
+          "id": "line-02",
+          "en": "§7deleted characters",
+          "ru": "§7недавно удалённых персонажей."
+        },
+        {
+          "id": "line-03",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-04",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-05",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,784 @@
+{
+  "quest": "Brothers Return",
+  "level": 20,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "brothers-return",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Were it not for our teachings, I would not let you set even one singular toe upon this holy ground after what you did.",
+      "ru": "Если бы не наше учение, после твоей выходки я бы и на шаг не подпустил тебя к этой святой земле.",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Hey! Don't put that down there—",
+      "ru": "Эй! Не ставь это туда-",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "If you could go to Nemract and see if Drucksh has the will, I would be forever in your debt, pal.",
+      "ru": "Если сходишь в Немракт и узнаешь, не у Друкша ли завещание, я буду вечно тебе обязан, приятель.",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Mmmmmgghh... aaauuughh... need... mmgh... more...",
+      "ru": "Мммммгхх... аааууугхх... надо... ммгх... ещё...",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "There must be something around here that could make him talk...",
+      "ru": "Здесь наверняка найдётся что-нибудь, что развяжет ему язык...",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "You may have forgotten already, but I unfortunately must inform you that your brother is indeed dead.",
+      "ru": "Может, ты уже забыл, но, к сожалению, вынужден напомнить: твой брат мёртв.",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "As I already told you, your brother is dead and buried. It's not like—",
+      "ru": "Как я уже сказал, твой брат умер и похоронен. Не то чтобы-",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "They've what!? Holy Bovine! It's even worse than I feared!",
+      "ru": "Они что?! Святая Корова! Всё ещё хуже, чем я боялся!",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "[-1 Second Floor Key]",
+      "ru": "[-1 Second Floor Key]",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "[-1 Sealed Room Key]",
+      "ru": "[-1 Sealed Room Key]",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "You find the will tucked into an inner pocket of Sayleros' brother's crumbling tunic.",
+      "ru": "Вы находите завещание во внутреннем кармане истлевшей туники брата Сайлероса.",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "[+1 Dusty Will]",
+      "ru": "[+1 Dusty Will]",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "The exit seems to be opening...",
+      "ru": "Кажется, выход открывается...",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "[-1 Dusty Will]",
+      "ru": "[-1 Dusty Will]",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Please, take these as proof of my gratitude, pal. You really helped us out, in more ways than one.",
+      "ru": "Возьми это в знак моей благодарности, приятель. Ты очень нам помог, и дело не только в завещании.",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "The obelisk does not react to your touch. [Req: Tunnel Trouble]",
+      "ru": "Обелиск не реагирует на ваше прикосновение. [Требуется: \"Неприятности в Туннеле\"]",
+      "stage": "",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Hey! Don't put that down there",
+      "ru": "Эй! Не ставь это туда",
+      "stage": "Stage 1",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Oh, hello there, adventurer! I was just looking for someone like you! My name is Sayleros. I lived in Nemract my whole life, but recently decided to move to Detlas.",
+      "ru": "О, привет, искатель приключений! Как раз искал кого-нибудь вроде тебя! Меня зовут Сайлерос. Всю жизнь прожил в Немракте, но недавно решил переехать в Детлас.",
+      "stage": "Stage 1",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "You see, my older brother just passed. I would have taken care of it, if only I weren't so busy with the move!",
+      "ru": "Понимаешь, мой старший брат недавно умер. Я бы сам всем занялся, если бы не был так занят переездом!",
+      "stage": "Stage 1",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I had to leave it all to my younger brother, Drucksh. He's still in Nemract, but well, he's not the most reliable...",
+      "ru": "Пришлось поручить всё младшему брату, Друкшу. Он всё ещё в Немракте, но, скажем так, положиться на него трудно...",
+      "stage": "Stage 1",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "My older brother had amassed quite some wealth before he passed. He should have left us part of it in his will, only I don't exactly trust Drucksh to handle it...",
+      "ru": "Старший брат при жизни сколотил немалое состояние. По завещанию нам должна достаться его часть, только я не очень доверяю Друкшу такие дела...",
+      "stage": "Stage 1",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "If you could go to Nemract and see if Drucksh has the will, I would forever be in your debt, pal.",
+      "ru": "Если сходишь в Немракт и узнаешь, не у Друкша ли завещание, я буду вечно тебе обязан, приятель.",
+      "stage": "Stage 1",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Drucksh shouldn't be hard to find, he usually spends his time in the bar in Nemract. Just follow this road out of Detlas to get there.",
+      "ru": "Найти Друкша нетрудно: обычно он сидит в баре Немракта. Просто иди по этой дороге из Детласа.",
+      "stage": "Stage 1",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Thanks again for doing this, pal. Just follow this road out of Detlas to get to Nemract, Drucksh's usually at the bar there.",
+      "ru": "Ещё раз спасибо, приятель. Эта дорога ведёт из Детласа в Немракт. Друкш обычно сидит там в баре.",
+      "stage": "Stage 2",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Anythin' to drink?",
+      "ru": "Налить чего?",
+      "stage": "Stage 2",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Mmmmmgghh... aaauuugh... need... mmgh... more...",
+      "ru": "Мммммгхх... аааууугх... надо... ммгх... ещё...",
+      "stage": "Stage 2",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Aauuughh... s-something... mmmmgh... to... drink... aaaughh...",
+      "ru": "Аааууугх... ч-что-нибудь... ммммгх... вы... пить... аааугх...",
+      "stage": "Stage 2",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Anythin' is possible. If ya have [16 Emeralds] to spare, that is.",
+      "ru": "Всё возможно. Если найдётся [16 Изумрудов], конечно.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "One Nemract Whiskey, shipwrecked against the rocks, comin' right up.",
+      "ru": "Один Nemract Whiskey, разбитый о скалы, сейчас будет.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Hey, Drucksh. Hey, can you hear me? Hey!",
+      "ru": "Эй, Друкш. Эй, ты меня слышишь? Эй!",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Ughhhhhh... W-what is it now?",
+      "ru": "Уууугххх... Ч-что ещё?",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "This nice fella got ya a drink. A Nemract Whiskey, yer favourite.",
+      "ru": "Вот, тебе выпивку купили. Nemract Whiskey, твой любимый.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Aauuughh... W-what d'you want?",
+      "ru": "Аааууугх... Ч-чего тебе?",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Hey! They paid for yer drink, ya know. Ya could at least try to be courteous.",
+      "ru": "Эй! За твою выпивку заплатили, между прочим. Мог бы хоть спасибо сказать.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Oh, s-shut up. I c-can pay for my own drinks!",
+      "ru": "Да з-заткнись. Я и с-сам могу за себя заплатить!",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Well, call me if ya need anythin' else.",
+      "ru": "Ладно, позови, если ещё что понадобится.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "So... W-what did you want?",
+      "ru": "Так... Ч-чего ты хотел?",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "W-will? W-what will?",
+      "ru": "З-завещание? К-какое завещание?",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Oh! Right, the will!",
+      "ru": "А! Точно, завещание!",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Yeah, there ain't no will, pal. After brother died, those Bovemists came and picked 'im up.",
+      "ru": "Да нет никакого завещания, приятель. Когда брат умер, пришли бовемисты и забрали его.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Gave 'im a proper funeral and everything. Shame my dear, oh so dear brother couldn't attend. What kind of person can't be there for their own brother's funeral, y'know?",
+      "ru": "Похоронили как положено, со всеми почестями. Жаль, мой дорогой, о-очень дорогой братец не пришёл. Ну что за человек пропускает похороны родного брата, а?",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Well, I couldn't be there either, bein' here and all, but that's besides the point...",
+      "ru": "Я-то тоже не пришёл, сидел тут и всё такое, но речь сейчас не обо мне...",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Anyway, the Bishop gave me a bit of money for my troubles and sent me on my merry way. Then, I ended up here, and haven't left since!",
+      "ru": "В общем, епископ дал мне немного денег за хлопоты и отпустил с миром. Вот я и оказался здесь. С тех пор никуда и не уходил!",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "So, as I already told you... There ain't no will, pal! Forget it.",
+      "ru": "Так что, как я уже сказал... Нет никакого завещания, приятель! Забудь.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "W-what? Sayleros told you about a will, a-and about money too, t-that brother left us?",
+      "ru": "Ч-что? Сайлерос говорил тебе про завещание и п-про деньги, к-которые брат нам оставил?",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "So then why did the Bishop...",
+      "ru": "Тогда почему епископ...",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "S-stop! Hold your horses... That would mean...",
+      "ru": "С-стой! Не гони... Это же значит...",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Hey, soldier! We're leaving, right now! W-we're gonna find that will!",
+      "ru": "Эй, солдат! Уходим, прямо сейчас! М-мы найдём это завещание!",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Yes, yes. A little more to the right! Hurry!",
+      "ru": "Да, да. Чуть правее! Быстрее!",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Hey! Priest man, guy, whatever! Where's my brother!",
+      "ru": "Эй! Священник, как там тебя! Где мой брат?!",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Oh, it's you. For your information, the proper term of address is your excellency.",
+      "ru": "А, это ты. К твоему сведению, правильное обращение - \"ваше превосходительство\".",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "You may have forgotten already, but I must inform you that your brother is indeed dead.",
+      "ru": "Может, ты уже забыл, но вынужден напомнить: твой брат мёртв.",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Y-yes, I know all that, y-your priestliness. But where's my brother? I want to see 'im.",
+      "ru": "Д-да, я всё знаю, в-ваше священство. Но где мой брат? Хочу его увидеть.",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "You! Talk some sense into your, um, friend here. We buried his brother in the crypt here some time ago.",
+      "ru": "Ты! Объясни своему, э-э, приятелю, что к чему. Мы уже давно похоронили его брата в здешнем склепе.",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Now, please leave this peaceful house of worship, you're causing a ruckus. I have some quite important business to attend to, you see.",
+      "ru": "А теперь покиньте этот мирный храм, пожалуйста. Вы тут устроили шум. У меня, знаете ли, есть весьма важные дела.",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Hey! I'm not leaving without my brother! No way, pal!",
+      "ru": "Эй! Без брата я не уйду! Даже не надейся, приятель!",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "As I already told you, your brother is dead and buried. It's not like",
+      "ru": "Как я уже сказал, твой брат умер и похоронен. Не то чтобы",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Your excellency! Th-th-they've risen!",
+      "ru": "Ваше превосходительство! О-о-они восстали!",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Holy Bovine! It's even worse than I feared!",
+      "ru": "Святая Корова! Всё ещё хуже, чем я боялся!",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "You, soldier! You better not stick your nose in this! It's not for the likes of you to mess with the affairs of the church!",
+      "ru": "Ты, солдат! Не вздумай совать сюда нос! Не тебе вмешиваться в дела церкви!",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Now's our chance, pal! Go find my brother in the crypts! I-I'll stay behind, guarding the rear!",
+      "ru": "Вот наш шанс, приятель! Иди ищи моего брата в склепах! Я-я останусь, прикрою тыл!",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "You better not stick your nose in this, soldier! It's not for the likes of you to mess with the affairs of the church!",
+      "ru": "Не вздумай совать сюда нос, солдат! Не тебе вмешиваться в дела церкви!",
+      "stage": "Stage 5",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Don't ask me about anything! I just work here!",
+      "ru": "Ни о чём меня не спрашивай! Я просто здесь работаю!",
+      "stage": "Stage 5",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "As I've already told you a thousand times, I don't know what will you're talking about! Besides, I don't have the time for this!",
+      "ru": "Я уже тысячу раз сказал: не знаю, о каком завещании ты говоришь! И вообще, мне некогда!",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Y-you're back! Did you find 'im?",
+      "ru": "Т-ты вернулся! Нашёл его?",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "I certainly hope you didn't use the usual methods of your sort...",
+      "ru": "Очень надеюсь, ты обошёлся без обычных методов таких, как ты...",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "... B-brother! What are y-you doing here?",
+      "ru": "... Б-брат! Что т-ты здесь делаешь?",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Drucksh! Likewise, what are you doing here?",
+      "ru": "Друкш! А ты сам что здесь делаешь?",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "W-well... I-I thought I'd take responsibility for our family for once...",
+      "ru": "Н-ну... Я-я решил хоть раз взять на себя ответственность за нашу семью...",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "I thought I wouldn't live to see the day! Here I was, worried Drucksh wouldn't cooperate, but it seems like the two of you've got it all under control after all.",
+      "ru": "Не думал, что доживу до этого дня! А я-то боялся, что Друкш не захочет помогать. Но, похоже, вы вдвоём прекрасно со всем справились.",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Under control!? This... This... renegade stormed into the crypts and k-k-killed your brother!",
+      "ru": "Справились?! Этот... Этот... отступник ворвался в склепы и у-у-убил вашего брата!",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "He's our brother, your priestliness! Let us w-worry about 'im and you can worry about your great cow in the sky, or whatever it is.",
+      "ru": "Он наш брат, ваше священство! Мы с-сами за него побеспокоимся, а вы заботьтесь о своей великой небесной корове, или кто там у вас.",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "That's right, your priestliness! Here, I'll take the will.",
+      "ru": "Вот именно, ваше священство! Давай сюда завещание.",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Hey, brother, why don't we head to the ol' watering hole. For old brother's sake.",
+      "ru": "Эй, брат, может, заглянем в наш старый бар? Помянем старшего.",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Well, i-if it's for his sake, then I c-can hardly refuse, can I?",
+      "ru": "Ну, е-если ради него, то я н-никак не могу отказаться, правда?",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Please, take this as proof of my gratitude, pal. You really helped us out, in more ways than one.",
+      "ru": "Возьми это в знак моей благодарности, приятель. Ты очень нам помог, и дело не только в завещании.",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Hey soldier! That's quite the gear you're lugging around. Anything I can do for you?",
+      "ru": "Эй, солдат! Ничего себе у тебя снаряжение. Могу чем-нибудь помочь?",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Oh, really? I don't think I've seen you before, but I'm not so good with faces, especially armoured ones! I'm new to Wynn, just came through on the caravan. The name's Alfe, and yours?",
+      "ru": "Правда? Не припомню тебя, но я плохо запоминаю лица, особенно под шлемами! Я в Винне недавно, только приехал с караваном. Меня зовут Алфе, а тебя?",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "<playername>, huh? I think I've heard of you somewhere... Laen was regaling stories at the Nemract bar, you helped them find some old book, yeah? And I think the Bishop mentioned...",
+      "ru": "<playername>, значит? Кажется, я где-то о тебе слышал... Лаен рассказывала в баре Немракта: ты помог найти ей какую-то старую книгу, верно? И епископ вроде упоминал...",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "You! Back again to cause more mayhem, are we?",
+      "ru": "Ты! Опять пришёл устроить переполох?",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "No need to be so hostile, your excellency! We were just discussing our time here in Wynn. <playername> here even helped Laen find an old book of theirs, did you know that?",
+      "ru": "Не надо так сердиться, ваше превосходительство! Мы просто говорили о нашей жизни в Винне. Знаете, <playername> даже помог найти Лаен её старую книгу!",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Hm... Well, you certainly are not, my young apprentice. That much is true...",
+      "ru": "Хм... Ну, ты уж точно не из таких, мой юный ученик. Это верно...",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Right, <playername>! We could really use your help here, isn't that right Kaideus?",
+      "ru": "Точно, <playername>! Нам бы очень пригодилась твоя помощь. Правда, Кайдей?",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Another pair of hands on the task wouldn't hurt, you are right about that...",
+      "ru": "Ещё одна пара рук не помешает. Тут ты прав...",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Fine! You may inspect the texts, but only if you are very, very careful.",
+      "ru": "Ладно! Можешь изучить тексты, только будь очень, очень осторожен.",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Well, you see <playername>! I've been in Detlas for the past little while helping to protect the city. But after Kaideus here stumbled across a shelf of old records I came here to help sort and clean them.",
+      "ru": "Понимаешь, <playername>, последнее время я помогал защищать Детлас. Но когда Кайдей нашёл полку со старыми записями, я пришёл сюда помочь их разобрать и почистить.",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "They're positively ancient! It's all nonsense to me, but Laen says they must be over a thousand years old!",
+      "ru": "Они невероятно древние! Мне в них ничего не понятно, но Лаен говорит, что им больше тысячи лет!",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "You recruits are much to excitable, but she is right. Having dedicated my life to this cathedral, I have not been afforded the opportunity to see much of the world beyond these plains.",
+      "ru": "Вы, новобранцы, слишком легко приходите в восторг, но она права. Всю жизнь я посвятил этому собору и почти не видел мира за пределами этих равнин.",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "So, <playername>, why don't you take a look? You've traveled quite a bit, perhaps even to the lands described within. I may not like your methods, but perhaps, just this once, they may prove useful.",
+      "ru": "Так что, <playername>, почему бы тебе не взглянуть? Ты немало путешествовал, может, даже бывал в описанных здесь землях. Мне не нравятся твои методы, но, возможно, хоть на этот раз от них будет польза.",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Well then, what would you like to read?",
+      "ru": "Ну что, о чём хочешь прочитать?",
+      "stage": "Post-Quest",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "New Quest Started: Brothers Return",
+      "ru": "§#FFAA00Новый Квест: §#FFFF55Возвращение Братьев",
+      "stage": "",
+      "speaker": ""
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Sayleros at [<num>, <num>, <num>].",
+      "ru": "Поговорить с Сайлеросом [<num>, <num>, <num>].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Drucksh at the bar in Nemract at [<num>, <num>, <num>].",
+      "ru": "Найти Друкша в баре Немракта [<num>, <num>, <num>].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Find a way to make Drucksh tell you about the will.",
+      "ru": "Найти способ разговорить Друкша и узнать о завещании.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Speak to the Bishop Kaideus in Saint's Row at [<num>, <num>, <num>].",
+      "ru": "Поговорить с епископом Кайдеем в Сэйнтс-Роу [<num>, <num>, <num>].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Enter the crypt at [<num>, <num>, <num>] and find Sayleros' Brother.",
+      "ru": "Войти в склеп [<num>, <num>, <num>] и найти брата Сайлероса.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return to the crypt at [<num>, <num>, <num>].",
+      "ru": "Вернуться к склепу [<num>, <num>, <num>].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Find the first crypt key.",
+      "ru": "Найти первый ключ от склепа.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Open the door at [<num>, <num>, <num>] using the Crypt Basement Key.",
+      "ru": "Открыть дверь [<num>, <num>, <num>] с помощью Crypt Basement Key.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find the second crypt key.",
+      "ru": "Найти второй ключ от склепа.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Open the door at [<num>, <num>, <num>] using the Sealed Crypt Key.",
+      "ru": "Открыть дверь [<num>, <num>, <num>] с помощью Sealed Crypt Key.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Enter the sealed crypt at [<num>, <num>, <num>].",
+      "ru": "Войти в запечатанный склеп [<num>, <num>, <num>].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Defeat Sayleros' Brother!",
+      "ru": "Победить брата Сайлероса!",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Exit the sealed crypt at [<num>, <num>, <num>].",
+      "ru": "Выйти из запечатанного склепа [<num>, <num>, <num>].",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Bring back Sayleros' brother's will to [<num>, <num>, <num>].",
+      "ru": "Принести завещание брата Сайлероса [<num>, <num>, <num>].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Speak to Sayleros at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Сайлеросом [<num>, <num>, <num>].",
+      "stage": "Stage 1"
+    }
+  ],
+  "choices": [
+    {
+      "id": "choice-0001",
+      "en": "Goodbye.",
+      "ru": "До свидания.",
+      "stage": "Stage 3",
+      "dialogueId": ""
+    },
+    {
+      "id": "choice-0002",
+      "en": "A drink for Drucksh?",
+      "ru": "Выпивку для Друкша?",
+      "stage": "Stage 3",
+      "dialogueId": ""
+    },
+    {
+      "id": "choice-0003",
+      "en": "Pay.",
+      "ru": "Заплатить.",
+      "stage": "Stage 3",
+      "dialogueId": ""
+    },
+    {
+      "id": "choice-0004",
+      "en": "About the will.",
+      "ru": "О завещании.",
+      "stage": "Stage 3",
+      "dialogueId": ""
+    },
+    {
+      "id": "choice-0005",
+      "en": "Sayleros told me there was.",
+      "ru": "Сайлерос сказал, что оно есть.",
+      "stage": "Stage 3",
+      "dialogueId": ""
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "quest": "The Passage",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-passage",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Not so fast, you!",
+      "ru": "Э, не так быстро!",
+      "speaker": "Wirt",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "My dad said I can't let any strangers through this passage!",
+      "ru": "Папа сказал, что я не должен пускать через этот проход всяких чужаков!",
+      "speaker": "Wirt",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "If you want access, talk to him, he's the recruiter of the town! His name is Ildan. He's just southwest of here.",
+      "ru": "Если хочешь пройти, поговори с ним. Он набирает людей в наш город! Зовут его Ильдан, найдёшь его чуть юго-западнее отсюда.",
+      "speaker": "Wirt",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Oh! So you want to become a member of this town?",
+      "ru": "О! Так ты хочешь стать жителем нашего города?",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "You will have to help us first, of course!",
+      "ru": "Тогда для начала тебе придётся нам помочь, само собой!",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I'm sure you've noticed, but there is a tribe camp not too far from here.",
+      "ru": "Наверняка ты уже заметил, тут неподалёку стоит лагерь племени.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "They used to have a powerful chief, but he eventually died in battle.",
+      "ru": "Когда-то у них был могучий вождь, но он погиб в бою.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "The tribe couldn't bear the fact that he was dead. They performed some unethical necromancy spell on him.",
+      "ru": "Племя не смогло смириться с его смертью. Они прибегли к запретному заклинанию некромантии.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "They quickly realized that is was a bad idea, so they locked him in a tomb.",
+      "ru": "Вскоре они поняли, что зря это сделали, и заперли его в гробнице.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "He keeps reviving his minions and it's causing quite some problems to our army.",
+      "ru": "Он снова и снова оживляет своих прислужников, и они доставляют нашей армии немало хлопот.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "You can access the tomb from a sacrificial shrine, I've heard, but I'm not sure how. There are probably hints nearby the shrine.",
+      "ru": "Слышал, попасть в гробницу можно через жертвенное святилище, но как именно - не знаю. Наверное, рядом со святилищем есть подсказки.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Bring me back [1 Antic Bead] as a proof of its death, and I will let you become a citizen.",
+      "ru": "Принеси мне [1 Antic Bead] как доказательство его смерти, и я сделаю тебя гражданином.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I've marked the direction to the shrine in your book. Remember, there should be hints right nearby the shrine. Good luck.",
+      "ru": "Я отметил направление к святилищу у тебя в книге. Не забудь, подсказки должны быть прямо рядом с ним. Удачи.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Impressive! You got the bead!",
+      "ru": "Впечатляет! Ты добыл бусину!",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Well, welcome to this town, adventurer! You are now officially a citizen.",
+      "ru": "Что ж, добро пожаловать в наш город, путник! Теперь ты официально стал его жителем.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Oh, but before you go! I do have a few things to say. First, about the beads here.",
+      "ru": "О, но погоди, пока не ушёл! Мне ещё есть что сказать. Для начала про местные бусины.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "The tribesmen accept these as currency, so if you collect enough, I've heard they can offer you powerful masks.",
+      "ru": "Люди племени используют их как деньги. Говорят, если собрать достаточно, у них можно выменять могущественные маски.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Second, about the shrine. Now, this is just a rumor, but apparently that tomb is not unique.",
+      "ru": "И ещё насчёт святилища. Это, конечно, только слух, но, похоже, та гробница не одна такая.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "There are supposed to be a bunch of these altars scattered around the province, even in Gavel too!",
+      "ru": "Говорят, по всей провинции разбросана куча таких алтарей, даже в Гавеле тоже!",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "If true, you should look for them. While the fights will be tough, I would imagine great rewards could be gotten from them!",
+      "ru": "Если это правда, тебе стоит их поискать. Бои там наверняка будут жёсткие, но и награда, думаю, тоже стоящая!",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Anyway, I've talked enough. I'm proud to have such a powerful fighter join our town! I wish you luck, friend!",
+      "ru": "Ладно, заболтался я. Я рад, что к нашему городу присоединился такой сильный боец! Удачи тебе, друг!",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "New Quest Started: The Passage",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Проход",
+      "speaker": "",
+      "stage": "Stage 1"
+    }
+  ],
+  "choices": [],
+  "objectives": []
+}

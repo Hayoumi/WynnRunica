@@ -1,0 +1,225 @@
+{
+  "quest": "Lost Royalty",
+  "level": 65,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "lost-royalty",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, hello there! I had hoped not to bother you, adventurer, but this is urgent.",
+      "ru": "О, здравствуй! Я надеялся тебя не дёргать, приключенец, но дело срочное.",
+      "speaker": "Yavlis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "You see, the king is very... erm, distracted, and you are just the kind of willing, able-bodied person I need.",
+      "ru": "Понимаешь, король сейчас... э-э, занят совсем другими заботами. А мне как раз нужен кто-то готовый помочь и не робкого десятка.",
+      "speaker": "Yavlis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You see, the king's son has gone missing, and with him worrying so much, the problems of the city have festered unsolved.",
+      "ru": "Сын короля пропал. Король так переживает за него, что ему не до городских дел, и наши беды только множатся.",
+      "speaker": "Yavlis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "We believe he was kidnapped by the splinter cell mercenaries in the jungle... Unfortunate, too. They used to be quite honourable.",
+      "ru": "Мы считаем, что его похитила отколовшаяся от гильдии группа наёмников из джунглей... Печально. Когда-то они были благородными людьми.",
+      "speaker": "Yavlis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Well, anyway, they're usually spotted outside the run-down farm outside of town. Go there and see what they want in return for the young prince.",
+      "ru": "В общем, их обычно видят у заброшенной фермы за городом. Сходи туда и узнай, что они хотят за молодого принца.",
+      "speaker": "Yavlis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Excuse me?! What are you doing here, how did you find our secret hideout?",
+      "ru": "Прошу прощения?! Ты что тут забыл и как вообще нашёл наше тайное логово?",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Oh, you're here for the boy? A mighty fine steal, that one! The boy won't be leaving this establishment for free. I'll need some nice loot for him.",
+      "ru": "А, ты за мальчишкой? Отличная добыча, скажу я тебе! Просто так он отсюда не уйдёт. За него мне нужна хорошая оплата.",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Ah, but what to have you fetch...oh, haha! This would be a perfect opportunity to obtain that... Alright, ears open!",
+      "ru": "Так, и за чем бы тебя послать... о, ха! Вот это был бы идеальный шанс добыть ту штуку... Так, слушай внимательно!",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "There's a certain talisman that we aren't able to get to in the temple not far from here. It has special abilities that allow my men to be strengthened, see.",
+      "ru": "Недалеко отсюда, в храме, лежит один талисман, до которого мы не можем добраться. У него особые свойства - он усиливает моих людей, понимаешь?",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "The guardians there pack quite the punch, and there's some nasty mechanism in the way that we just can't crack.",
+      "ru": "Тамошние хранители бьют будь здоров, а ещё путь преграждает какой-то хитрый механизм, с которым мы никак не разберёмся.",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "The temple is found just across the waterway, in a crevice in the mountain. It used to be blocked until those WynnExcavation fellows tried digging there.",
+      "ru": "Храм находится сразу за водным каналом, в расщелине горы. Раньше вход был завален, пока ребята из ВиннРаскопок не начали там копать.",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "You get that talisman in my hands, and the king's boy is yours. Now off you pip! I'm a very busy man.",
+      "ru": "Доставишь мне этот талисман - и королевский сынишка твой. А теперь кыш отсюда! Я очень занятой человек.",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "You've gotten the talisman! I can't believe you actually got through that puzzle!",
+      "ru": "Ты добыл талисман! Не могу поверить, что ты разгадал ту головоломку!",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "At this point I would usually keep the kid and throw you out of here, but since you've done what I've asked in such a timely fashion, he's all yours.",
+      "ru": "Обычно я бы оставил пацана себе, а тебя вышвырнул отсюда. Но ты так быстро выполнил мою просьбу... Ладно, забирай его.",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "When you get back to whoever asked you to do this, tell him to leave my men and I alone! We guildsmen lay down our lives every day, we don't need any more hostile onlookers!",
+      "ru": "Когда вернёшься к тому, кто тебя послал, передай ему, чтобы оставил меня и моих людей в покое! Мы, гильдейцы, каждый день рискуем жизнью, нам лишние враждебные морды ни к чему!",
+      "speaker": "Mercenary Leader",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Ah, finally! You're back. Did they let you bring him back? Those mercenaries have an awful habit of failing to honour their deals.",
+      "ru": "А, наконец-то! Ты вернулся. Они позволили тебе привести его обратно? У этих наёмников отвратительная привычка не держать слово.",
+      "speaker": "Yavlis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Wait, the prince said what? He truly wants to be a mercenary? Oh my... then he must have escaped on his own.",
+      "ru": "Погоди, что сказал принц? Он правда хочет стать наёмником? О боги... Значит, он сбежал из дома сам.",
+      "speaker": "Yavlis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Alright then, if that's the path the king's son chooses to walk, then there's nothing we can do.",
+      "ru": "Ну что ж, если сын короля сам выбрал такой путь, нам тут уже нечего поделать.",
+      "speaker": "Yavlis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I can only hope that he chose to join them out of a will to protect the people, rather than simply brutishness or money.",
+      "ru": "Остаётся надеяться, что он присоединился к ним ради защиты людей, а не из любви к дракам или деньгам.",
+      "speaker": "Yavlis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Such a shame that old guild has stooped to such a level. Well, we must thank you for your help. You can have the emerald ransom we had intended to pay.",
+      "ru": "Очень жаль, что старая гильдия так низко пала. Но что есть, то есть. Спасибо тебе за помощь. Можешь забрать изумруды, которые мы собирались отдать как выкуп.",
+      "speaker": "Yavlis",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Uh... Hi? Err, why did you free me? I'm trying to run away, I hate being the son of the King.",
+      "ru": "Э-э... Привет? Слушай, а зачем ты меня освободил? Я хочу сбежать, мне надоело быть сыном короля.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "He expects too much of me! I hate politics, and I want to be a great mercenary like Tisaun, to help protect people that can't protect themselves!",
+      "ru": "Он слишком многого от меня ждёт! Терпеть не могу политику. Я хочу стать великим наёмником, как Тисаун, и защищать тех, кто не может постоять за себя!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "It's not like my father ever listened to me when I told him. He wouldn't even let me out of the castle.",
+      "ru": "Отец меня даже слушать не хотел, когда я ему об этом говорил. Он и из замка-то меня не выпускал.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Could you please tell Yavlis that I want to be free? I would be grateful if you could.",
+      "ru": "Можешь передать Явлису, что я хочу быть свободным? Я буду тебе очень благодарен.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "New Quest Started: Lost Royalty",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Утраченная корона",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Yavlis in Troms at [-848, 85, -875]",
+      "ru": "Поговорить с Явлисом в Тромсе [-848, 85, -875].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to the Mercenary Leader in their hideout outside Troms",
+      "ru": "Поговорить с предводителем наёмников в их убежище за пределами Тромса.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Go to the jungle temple and retrieve the talisman at [-489, 78, -889]",
+      "ru": "Отправиться в храм в джунглях и забрать талисман [-489, 78, -889].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Bring the talisman back to the Mercenary Leader.",
+      "ru": "Принести талисман предводителю наёмников.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Talk to the Prince of Troms in the jail cell",
+      "ru": "Поговорить с принцем Тромса в тюремной камере.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Report back to Yavlis with the news",
+      "ru": "Передать новости Явлису.",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,2279 @@
+{
+  "quest": "Through the Pipes",
+  "level": 110,
+  "difficulty": "Hard",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "through-the-pipes",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "H-Hey, you! Have you seen a raccoon anywhere?",
+      "ru": "Э-эй, ты! Енота тут нигде не видел?",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I spent all my free time making a gift for Soosu, and that devil snatched it from me! It would be a shame if I never got the chance to give it to her...",
+      "ru": "Я потратил всё свободное время на подарок для Соосу, а этот негодник его утащил! Очень жаль будет, если я так и не смогу ей его подарить...",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "This might be a big ask, but- do you think you could help me?",
+      "ru": "Может, я слишком многого прошу, но... ты не мог бы помочь?",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Sure!",
+      "ru": "Конечно!",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Y-You will? I knew there was still some good left in this world!",
+      "ru": "П-правда? Я знал, что в этом мире ещё осталось хоть что-то хорошее!",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Right! Last time I saw that raccoon, it was running into an alleyway south of the town center. It can't have gone too far!",
+      "ru": "Точно! Последний раз я видел того енота, когда он юркнул в переулок к югу от центра города. Далеко уйти не мог!",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I will resume searching for that fool as well. Best of luck to you!",
+      "ru": "Я тоже продолжу искать этого негодника. Удачи тебе!",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "The dialogue ends and the quest progresses to the next stage. Fichu leaves through the nearby alleyway.",
+      "ru": "Диалог заканчивается, квест переходит на следующую стадию. Фичу уходит через ближайший переулок.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "...I get it. If you change your mind, come and talk with me again.",
+      "ru": "...Понял. Если передумаешь, снова со мной поговори.",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "The dialogue ends without progressing the quest.",
+      "ru": "Диалог заканчивается без продвижения квеста.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Yes! A raccoon! You've seen them before- surely? They're rampant around here!",
+      "ru": "Да! Енот! Ты же их видел раньше - ну наверняка? Их тут полно шастает!",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "You know, those furry gray creatures with the weird striped tails?",
+      "ru": "Ну знаешь, серые пушистые зверьки с полосатыми хвостами?",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "...I hope you know what a raccoon is.",
+      "ru": "...Надеюсь, ты вообще знаешь, кто такой енот.",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Will you help me?",
+      "ru": "Так поможешь мне?",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "The dialogue options reappear.",
+      "ru": "Варианты диалога появляются снова.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Oh- you're back! Are you able to help me now?",
+      "ru": "О - ты вернулся! Теперь-то сможешь помочь?",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I really think it would be better if we split up to search, don't you agree?",
+      "ru": "Мне правда кажется, что будет лучше, если мы разделимся и будем искать по отдельности. Согласен?",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "If you forgot, you should try searching south of the town center. But you do you, I suppose...",
+      "ru": "Если забыл, ищи к югу от центра города. Но делай как знаешь...",
+      "speaker": "Fichu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "[+1 Valve Handle]",
+      "ru": "[+1 Valve Handle]",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "[+1 Rusted Rake]",
+      "ru": "[+1 Rusted Rake]",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "[+1 Leaf Litter]",
+      "ru": "[+1 Leaf Litter]",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "[+1 Empty Cage]",
+      "ru": "[+1 Empty Cage]",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Huh, is there someone down there?",
+      "ru": "Хм, там внизу кто-то есть?",
+      "speaker": "???",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Wait- what's that? HEY!",
+      "ru": "Погоди - это ещё что? ЭЙ!",
+      "speaker": "???",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Collect the Empty Cage",
+      "ru": "Забрать пустую клетку",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Collect the Shiny Jewelry",
+      "ru": "Забрать блестящую побрякушку",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Collect the Firecracker",
+      "ru": "Забрать петарду",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Sorry, I'm busy.",
+      "ru": "Извини, я занят.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "A raccoon?",
+      "ru": "Енот?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "That looks like enough leaf litter. You should return to the generator to fuel it now.",
+      "ru": "Похоже, листвы хватит. Возвращайся к генератору и заправь его.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "The generator hums to life.",
+      "ru": "Генератор с гудением оживает.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "It looks like a valve handle could fit into this slot.",
+      "ru": "Похоже, в этот паз подойдёт ручка вентиля.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "The lever appears to be jammed. Maybe it needs power?",
+      "ru": "Рычаг, похоже, заклинило. Может, нужна энергия?",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "The generator needs more fuel before it can be activated.",
+      "ru": "Генератору нужно больше топлива, чтобы запуститься.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "You hear someone in the distance.",
+      "ru": "Где-то вдалеке слышен чей-то голос.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Maybe it's best to continue forward...",
+      "ru": "Может, лучше идти дальше...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "This water looks too dangerous to swim in.",
+      "ru": "Эта вода выглядит слишком опасной, чтобы в неё лезть.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Maybe there's something you could build to get across...",
+      "ru": "Может, можно что-нибудь смастерить, чтобы переправиться...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Different materials around the room can be used as raft parts.",
+      "ru": "Разные материалы в комнате можно пустить на части плота.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Some raft parts may have unqiue functions.",
+      "ru": "У некоторых частей плота могут быть особые функции.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Place the raft parts on the building mat to construct your raft.",
+      "ru": "Размещай части плота на сборочном коврике, чтобы собрать плот.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "That hurt.",
+      "ru": "Больно.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "You aren't getting away from me now!",
+      "ru": "Теперь ты от меня не уйдёшь!",
+      "speaker": "???",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Ah ha! I've got you now, thief!",
+      "ru": "Ага! Попался, воришка!",
+      "speaker": "???",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Wait- No! Get ba-",
+      "ru": "Стой- Нет! Верни-",
+      "speaker": "???",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "OW! My leg!",
+      "ru": "ОЙ! Моя нога!",
+      "speaker": "Fichu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "<playername>! You're here! I was wondering where you went!",
+      "ru": "<playername>! Ты здесь! А я-то гадал, куда ты подевался!",
+      "speaker": "Fichu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "I've been chasing that raccoon the whole time! What in the world have you been up to?",
+      "ru": "Я всё это время гонялся за тем енотом! А ты-то где пропадал?",
+      "speaker": "Fichu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Whatever. I'm struggling to keep up the chase at this rate. But fortunately, I have just the thing that'll help you!",
+      "ru": "Да неважно. Я уже еле поспеваю за ним. К счастью, у меня есть кое-что, что тебе поможет!",
+      "speaker": "Fichu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "MY GRAPPLING HOOK!",
+      "ru": "МОЙ КРЮК-КОШКА!",
+      "speaker": "Fichu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "It's broken! How will I ever catch up with that crook at this rate?",
+      "ru": "Он сломан! Как мне теперь догнать этого пройдоху?",
+      "speaker": "Fichu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "...Maybe this is all a lost cause. You can try fixing it, I guess, but it's not worth it.",
+      "ru": "...Может, всё это безнадёжно. Можешь попробовать починить, наверное, но оно того не стоит.",
+      "speaker": "Fichu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "I'm going that direction to see if I can catch that pest. You go the other way, we'll meet again soon.",
+      "ru": "Я пойду туда, попробую поймать этого вредителя. Ты иди в другую сторону, скоро встретимся.",
+      "speaker": "Fichu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "You pull the hook off of the grapple. It might be useful later.",
+      "ru": "Ты отсоединяешь крюк от сломанного устройства. Он ещё может пригодиться.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "[+1 Broken Grapple Hook]",
+      "ru": "[+1 Broken Grapple Hook]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "There's... no propellers here?",
+      "ru": "Тут... нет винтов?",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Maybe you need to find a different method of propulsion.",
+      "ru": "Видимо, нужен другой способ передвижения.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "It looks like this station hasn't been powered in a very long time.",
+      "ru": "Похоже, эту станцию очень давно не подключали к источнику энергии.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Fortunately, it still seems to be accepting power.",
+      "ru": "К счастью, подать сюда энергию всё ещё можно.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "[+1 Shiny Jewelry]",
+      "ru": "[+1 Shiny Jewelry]",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Whew! I didn't mean to let go-",
+      "ru": "Уф! Я не нарочно отпустил-",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Oh! <playername>, you're here!",
+      "ru": "О! <playername>, ты здесь!",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Perfect, I know where we are, and there isn't much further that foolish raccoon can run. We could corner it!",
+      "ru": "Отлично, я знаю, где мы, и этому глупому еноту уже недалеко бежать. Можем загнать его в угол!",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Now, the problem is, I have no idea how to traverse this next area. It's heavily flooded if I can recall.",
+      "ru": "Вот только я понятия не имею, как пройти дальше. Насколько помню, там всё затоплено.",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "You'll need to find some way for us to cross. Too many people have gotten the worst of diseases by wading through that water- eugh.",
+      "ru": "Придётся придумать, как нам переправиться. Многие тяжело заболели, пытаясь пройти через эту воду вброд... Фу.",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Right! Let me know when you figure something out. I'll scout around, never had an excuse to explore this area before!",
+      "ru": "Ага! Дай знать, когда что-нибудь придумаешь. Я осмотрюсь, раньше повода исследовать это место не было!",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Huh? What's all this stuff? Did someone forget their construction equipment?",
+      "ru": "А? Что это за барахло? Кто-то забыл своё строительное снаряжение?",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "I guess the maintenance crews never bother to pack up their equipment. Maybe you can use this stuff for something.",
+      "ru": "Видимо, ремонтные бригады не утруждаются убирать за собой. Может, тебе это на что-нибудь сгодится.",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Check back in with me when you're done!",
+      "ru": "Возвращайся ко мне, когда закончишь!",
+      "speaker": "Fichu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "The level appears to be jammed. Maybe it needs power?",
+      "ru": "Рычаг, похоже, заклинило. Может, нужна энергия?",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "You could fit this with a grappling hook.",
+      "ru": "Сюда подойдёт крюк-кошка.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "You shouldn't open this just yet.",
+      "ru": "Пока не стоит это открывать.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Heya! Figured something out?",
+      "ru": "Эй! Придумал что-нибудь?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "They seem to be busy with something. You should check in later.",
+      "ru": "Похоже, он чем-то занят. Загляни попозже.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Ready when you are!",
+      "ru": "Я готов! Давай, как будешь готов.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "I'd appreciate it if you added a seat for me.",
+      "ru": "Буду благодарен, если добавишь сиденье для меня.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Here we go!",
+      "ru": "Поехали!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Woo! It floats!",
+      "ru": "Ву! Плывёт!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "I wonder where this goes...",
+      "ru": "Интересно, куда это ведёт...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Bet no one's been here for a while.",
+      "ru": "Спорю, тут давно никого не было.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Wonder where that raccoon is now...",
+      "ru": "Интересно, где сейчас тот енот...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Soosu needs to see that state of this place...",
+      "ru": "Соосу надо бы увидеть, в каком тут всё состоянии...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "I think we're making progress.",
+      "ru": "По-моему, мы продвигаемся.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "What else do you think we'll find?",
+      "ru": "Как думаешь, что ещё мы найдём?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "I've heard a few stories about this place. Mostly bad ones...",
+      "ru": "Я слыхал пару историй про это место. В основном плохие...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "I hope that raccoon hasn't gone too far...",
+      "ru": "Надеюсь, тот енот не убежал слишком далеко...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Huh, how interesting.",
+      "ru": "Хм, любопытно.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Watch out!",
+      "ru": "Осторожно!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "This raft looks fragile, be careful!",
+      "ru": "Плот хлипкий на вид, будь осторожнее!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Ah!",
+      "ru": "Ай!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "I think you hit something.",
+      "ru": "По-моему, ты во что-то врезался.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Try not to do that!",
+      "ru": "Постарайся так не делать!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Oops!",
+      "ru": "Упс!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "You know what you're doing, right?",
+      "ru": "Ты ведь знаешь, что делаешь, да?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Hey! Watch it.",
+      "ru": "Эй! Поаккуратнее.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Ah! I almost fell out of my seat.",
+      "ru": "Ай! Я чуть не вывалился с сиденья.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Watch where you're going!",
+      "ru": "Смотри, куда плывёшь!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Are you even capable of not hitting something?",
+      "ru": "Ты вообще способен ни во что не врезаться?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "One more hit and I'm taking over!",
+      "ru": "Ещё один удар, и я сам возьмусь за управление!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "I don't trust you sailing this thing!",
+      "ru": "Не доверяю я тебе вести эту штуку!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Stop it!",
+      "ru": "Прекрати!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "It can't possibly be that hard!",
+      "ru": "Не может быть, чтобы это было так сложно!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Make sure to be careful, okay?",
+      "ru": "Будь поосторожнее, ладно?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "No wonder everyone avoids this place...",
+      "ru": "Неудивительно, что все обходят это место стороной...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Keep it steady!",
+      "ru": "Держи ровно!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "You know where you're going, right?",
+      "ru": "Ты ведь знаешь, куда плывёшь, да?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "When I get that raccoon, oh man...",
+      "ru": "Вот доберусь я до того енота, ох...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "How long have I even spent chasing that fool...",
+      "ru": "Сколько я уже гоняюсь за этим дураком...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "This water is disgusting...",
+      "ru": "Эта вода отвратительна...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "Keep an eye out for dangers!",
+      "ru": "Поглядывай по сторонам, нет ли опасностей!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Make sure we're staying on track.",
+      "ru": "Следи, чтобы мы не сбились с пути.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Maybe rats are better than raccoons after all.",
+      "ru": "Может, крысы всё-таки лучше енотов.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "I regret getting on this raft.",
+      "ru": "Жалею, что залез на этот плот.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Please don't do anything dumb...",
+      "ru": "Пожалуйста, не делай глупостей...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "This thing is getting shaky.",
+      "ru": "Эту штуку начинает шатать.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "You're paying attention, right?",
+      "ru": "Ты ведь внимателен, да?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "I cannot wait to get off...",
+      "ru": "Скорей бы слезть отсюда...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Ugh...",
+      "ru": "Фу...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "I really don't want to insult you, but-",
+      "ru": "Я правда не хочу тебя оскорбить, но-",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Eugh- this water.",
+      "ru": "Фу- эта вода.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "I'm scared.",
+      "ru": "Мне страшно.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Worst decision ever...",
+      "ru": "Худшее решение в жизни...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "I hate this place.",
+      "ru": "Ненавижу это место.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "This isn't good!",
+      "ru": "Это плохо!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Ah! What will we do now?!",
+      "ru": "Ай! Что нам теперь делать?!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Oh no! Help!",
+      "ru": "О нет! Помогите!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Hmm, is the raft broken? We haven't moved for a while.",
+      "ru": "Хмм, плот сломался? Мы уже давно не двигаемся.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Are you... going to have us move?",
+      "ru": "Ты... собираешься нас вести дальше?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "I'm starting to yawn...",
+      "ru": "Я уже начинаю зевать...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Can we please get going?",
+      "ru": "Может, поплывём уже?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "I'm not sure why you think this place is interesting enough to stop at.",
+      "ru": "Не пойму, чем это место настолько интересно, чтобы тут останавливаться.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "When are we getting there?",
+      "ru": "Когда мы уже доберёмся?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "You're awake, right?",
+      "ru": "Ты ведь не уснул, да?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "...Finally",
+      "ru": "...Наконец-то",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "The raccoon is probably long gone at this point, thanks to your delay.",
+      "ru": "Енот, наверное, уже давно сбежал из-за твоей задержки.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Great, we're moving again.",
+      "ru": "Отлично, снова поплыли.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "At long last...",
+      "ru": "Наконец-то...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "How long were we waiting for?",
+      "ru": "Сколько мы вообще прождали?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Huh? What are you doing with that?!",
+      "ru": "А? Что ты с этим делаешь?!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "You're going to sink us with that!",
+      "ru": "Ты нас этим потопишь!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "PUT THAT OUT NOW!",
+      "ru": "ПОТУШИ СЕЙЧАС ЖЕ!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "IS THAT AN EXPLOSIVE?! ARE YOU MAD!",
+      "ru": "ЭТО ВЗРЫВЧАТКА?! ТЫ СПЯТИЛ!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "HELP US! WE'RE GOING TO DROWN!",
+      "ru": "ПОМОГИТЕ! МЫ УТОНЕМ!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "OH NO! GET ME OFF OF HERE!",
+      "ru": "О НЕТ! ВЫТАЩИ МЕНЯ ОТСЮДА!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "This was a terrible idea!",
+      "ru": "Это была ужасная идея!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "WE'RE SINKING! WE'RE SINKING!",
+      "ru": "МЫ ТОНЕМ! МЫ ТОНЕМ!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Why did you think this was a good idea?!",
+      "ru": "С чего ты решил, что это хорошая идея?!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "I gotta get off this thing!",
+      "ru": "Мне надо слезть с этой штуки!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Hey- maybe we should've been a bit further away from that train?",
+      "ru": "Эй- может, нам стоило держаться подальше от того поезда?",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "Too close for comfort...",
+      "ru": "Слишком близко... Мне не по себе.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Woah there! Way too close!",
+      "ru": "Эй-эй! Чересчур близко!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Agh! Sorry, just got scared by that.",
+      "ru": "Ай! Прости, просто перепугался.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "AHHHHH! THIS WAS A HORRIBLE IDEA!",
+      "ru": "АААААА! ЭТО БЫЛА КОШМАРНАЯ ИДЕЯ!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "OUT OF ALL ROUTES YOU TOOK, ONE OF THEM INCLUDED A TRAIN!",
+      "ru": "ИЗ ВСЕХ МАРШРУТОВ ТЫ ВЫБРАЛ ТОТ, ГДЕ ПОЕЗД!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "WATCH OUT! TRAIN!",
+      "ru": "БЕРЕГИСЬ! ПОЕЗД!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Huh? AH! THERE'S A TRAIN! GET OUT OF HERE!",
+      "ru": "А? АЙ! ТАМ ПОЕЗД! ВАЛИМ ОТСЮДА!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "AH! LOOK! WE'RE DOOMED!",
+      "ru": "АЙ! СМОТРИ! НАМ КОНЕЦ!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "NEVER DO THAT AGAIN!",
+      "ru": "НИКОГДА ТАК БОЛЬШЕ НЕ ДЕЛАЙ!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "YOU REALLY THINK THIS FLIMSY RAFT IS GOING TO SURVIVE A TRAIN?!",
+      "ru": "ТЫ ПРАВДА ДУМАЕШЬ, ЧТО ЭТОТ ХЛИПКИЙ ПЛОТ ПЕРЕЖИВЁТ ПОЕЗД?!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "YOU FOOL! We barely missed being hit!",
+      "ru": "ДУРЕНЬ! Нас чуть не снесло!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Oh my- we survived! YOU ARE AN IDIOT! DON'T DO THAT AGAIN!",
+      "ru": "О боже- мы выжили! ТЫ ИДИОТ! Больше так не делай!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "This looks like the halfway point!",
+      "ru": "Похоже, это середина пути!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "You'll need to find a way to open that gate, since I don't see any other way past.",
+      "ru": "Тебе надо придумать, как открыть те ворота, другого пути я не вижу.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "[+1 Firecracker]",
+      "ru": "[+1 Firecracker]",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "If I'm remembering correctly, just past this gate should be our destination!",
+      "ru": "Если память не врёт, сразу за этими воротами и есть наша цель!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Phew, we survived. That was a bit rough, but at least we made it.",
+      "ru": "Фух, выжили. Потрепало нас, но зато добрались.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "However, I think I'll definitely be avoiding boats for now...",
+      "ru": "Хотя лодки я теперь точно буду обходить стороной...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "We made it! You did a pretty good job navigating, I knew I could trust you!",
+      "ru": "Мы добрались! Ты неплохо порулил, я знал, что тебе можно доверять!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "Alright, let's chase down that raccoon once and for all!",
+      "ru": "Давай поймаем этого енота раз и навсегда!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "I hope my prediction is right, and there really is no further it can run from here.",
+      "ru": "Надеюсь, я угадал, и дальше ему отсюда бежать действительно некуда.",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "We'll just have to see...",
+      "ru": "Что ж, сейчас увидим...",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "Huh?! LOOK! It's the raccoon, that's it!",
+      "ru": "А?! СМОТРИ! Это он, тот самый енот!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Quick! Run after it!",
+      "ru": "Скорее! За ним!",
+      "speaker": "Fichu",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "Ah ha! Now you're cornered, you little imp!",
+      "ru": "Ага! Попался, чертёнок!",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Before you do anything, we need a way to take the gift back!",
+      "ru": "Прежде чем что-то делать, нам нужно как-то забрать подарок обратно!",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Do you have any ideas?",
+      "ru": "Есть идеи?",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "Great work! After all of that, we've finally gotten the gift back! I knew we could do it.",
+      "ru": "Отличная работа! После всего этого мы наконец вернули подарок! Я знал, что у нас получится.",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Hopefully this is still intact after all of that...",
+      "ru": "Надеюсь, после всего этого он ещё цел...",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "It survived! Thank the queen! I don't know what I would do otherwise...",
+      "ru": "Цел! Хвала королеве! Не знаю, что бы я делал иначе...",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "<playername>, from the very start, you were a massive help. I cannot thank you enough for your efforts!",
+      "ru": "<playername>, ты с самого начала здорово помог. Не знаю, как и благодарить тебя за старания!",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Without your help, I don't even know if I could have caught that raccoon on my own!",
+      "ru": "Без тебя я и не знаю, поймал бы я того енота в одиночку!",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "As a reward, I have an extra gift just for you! Thank you again for your incredible help!",
+      "ru": "В награду у меня есть особый подарок специально для тебя! Ещё раз спасибо за невероятную помощь!",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "[+1 Rubber Duck]",
+      "ru": "[+1 Rubber Duck]",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Not only did you masterfully navigate that creation of yours, but you came more prepared than I could have expected!",
+      "ru": "Ты не только мастерски управлял своим творением, но и подготовился лучше, чем я ожидал!",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "A cage... a ring to use as a distraction... and even a firecracker. Where did you even find all this stuff?",
+      "ru": "Клетка... кольцо для отвлечения... и даже петарда. Где ты вообще всё это раздобыл?",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "As a token of my appreciation, I would like to give you the gift that was meant to be for Soosu herself.",
+      "ru": "В знак благодарности я хочу отдать тебе подарок, который предназначался самой Соосу.",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "Don't worry, I can always make a second one. You deserve it the most!",
+      "ru": "Не переживай, я всегда сделаю второй. Ты заслужил его больше всех!",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "[+1 Decorated Rubber Duck]",
+      "ru": "[+1 Decorated Rubber Duck]",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Thank you again for the help! I couldn't have done it without you.",
+      "ru": "Ещё раз спасибо за помощь! Без тебя я бы не справился.",
+      "speaker": "Fichu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "The shadowy figure leaves through the hole in the wall.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "The raccoon and Fichu both fall down from above. The raccoon escapes further down the tunnel.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "Fichu places down a broken grappling hook.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "Fichu leaves through a door on the side of the room.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "Fichu opens the door using the lever.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "Fichu walks down the stairs into the tunnel.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Fichu and the player board the raft.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "Around every 30 seconds, Fichu says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "If the raft gets damaged from an obstacle, Fichu says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "If the raft gets damaged multiple times within ~30 seconds, Fichu instead says the following dialogue lines in order, one at a time.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "After the raft gets damaged multiple times within ~30 seconds enough, Fichu gets angry and instead says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "If the raft has been damaged recently, Fichu instead says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "If Fichu is angry from hitting obstacles too many times, then after spending ~30 seconds without hitting an obstacle, they instead say the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "When the Seat or the Companion Seat breaks off from too much damage, Fichu randomly says one of the following dialogue lines.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "After the raft hasn't moved for ~60 seconds, Fichu says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end. These continue every ~30 seconds until the raft is moved.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "After the raft moves again after waiting for at least ~60 seconds without moving, Fichu says the following dialogue lines in order, one at a time, looping the dialogue upon reaching the end.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "When attempting to scuttle the raft, Fichu randomly says one of the following dialogue lines.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "When the raft is sinking, Fichu randomly says one of the following dialogue lines.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "When a train passes by in close proximity to the raft, Fichu randomly says one of the following dialogue lines.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "When the raft is in the path of an incoming train, Fichu randomly says one of the following dialogue lines.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "When the raft was in the path of an incoming train but was moved away at the last second, Fichu randomly says one of the following dialogue lines.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "Fichu walks over to the lever.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "The raccoon and Fichu both run through the opened door.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "Fichu opens the package, revealing a pink rubber duck.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "That stupid raccoon!",
+      "ru": "Этот глупый енот!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "Now I'll never deliver my gift in time...",
+      "ru": "Теперь я не успею вручить подарок...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "I spent so much time on it...",
+      "ru": "Столько времени я на него потратил...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "What will I do?",
+      "ru": "Что же мне делать?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "If I see that raccoon...",
+      "ru": "Вот только попадись мне этот енот...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "I wonder what this does...",
+      "ru": "Интересно, для чего это...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "Looks broken.",
+      "ru": "Похоже, сломано.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "Will this door open?",
+      "ru": "Эта дверь откроется?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "It's locked...",
+      "ru": "Заперто...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "Nothing interesting to steal...",
+      "ru": "Ничего интересного, что можно было бы стащить...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "But I would never steal, right?",
+      "ru": "Но я ведь никогда ничего не краду, правда?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "These pipes are so rusty.",
+      "ru": "До чего ржавые трубы.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "No wonder the water tastes so weird...",
+      "ru": "Неудивительно, что у воды такой странный вкус...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "Wonder what's this for...",
+      "ru": "Интересно, для чего это нужно...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "Stupid lever!",
+      "ru": "Проклятый рычаг!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "This is fascinating.",
+      "ru": "Как любопытно.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "I've never seen this before.",
+      "ru": "Никогда такого не видел.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "I should take these...",
+      "ru": "Стоит это забрать...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "How interesting...",
+      "ru": "Как интересно...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "This workbench is quite convenient.",
+      "ru": "Какой удобный верстак.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "You are? Excellent! Let's see what you've created.",
+      "ru": "Готов? Отлично! Посмотрим, что ты соорудил.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "Huh, this isn't- really what I expected.",
+      "ru": "Хм, это... не совсем то, что я ожидал.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "You know what, not a bad idea! Let's give it a try!",
+      "ru": "Знаешь, неплохая мысль! Давай попробуем!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "You know what, not a bad idea! However, I'm not quite- sure where I'm supposed to sit.",
+      "ru": "Знаешь, неплохая мысль! Только я... не совсем понимаю, где мне сидеть.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "Do you think you could find an additional seat for me? There's no way I'm getting on that thing otherwise!",
+      "ru": "Можешь найти для меня ещё одно сиденье? Иначе я ни за что на эту штуку не полезу!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "Huh? A bag?",
+      "ru": "А? Сумка?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "WAIT! MY ART BAG IS MISSING! Did I accidentally drop it somewhere?",
+      "ru": "ПОГОДИ! ПРОПАЛА МОЯ СУМКА С ПРИНАДЛЕЖНОСТЯМИ ДЛЯ РИСОВАНИЯ! Неужели я где-то её выронил?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "I'm so glad you found it! I don't know what I would do if I lost Soosu's gift and my bag!",
+      "ru": "Как же хорошо, что ты её нашёл! Не знаю, что бы я делал, если бы потерял и подарок Соосу, и сумку!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "You're a lifesaver, Player. I cannot thank you enough!",
+      "ru": "Ты меня спас! Не знаю, как тебя благодарить!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "Oh, don't mind me. I'm just seeing if there's anything interesting here.",
+      "ru": "Не обращай внимания. Я просто ищу здесь что-нибудь интересное.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "Usually there's cool things to, well- steal, but this place seems to be a bust.",
+      "ru": "Обычно можно найти что-нибудь занятное, чтобы... ну... стащить. Но здесь, похоже, поживиться нечем.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "There sure is a lot hidden underground, you wouldn't believe some of the things I've seen!",
+      "ru": "Сколько всего скрыто под землёй! Ты бы не поверил, какие вещи мне попадались!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "That's great to hear! I haven't found anything useful unfortunately.",
+      "ru": "Рад слышать! А я, к сожалению, ничего полезного не нашёл.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "I'm quite interested to see what you come up with, return to me when you're done!",
+      "ru": "Любопытно, что ты придумаешь. Возвращайся ко мне, когда закончишь!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "No worries!",
+      "ru": "Ничего страшного!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "W-woah now! You want to fight the raccoon? Like- I hate raccoons, but maybe not to that extreme.",
+      "ru": "П-погоди! Хочешь сразиться с енотом? Я, конечно, терпеть их не могу, но не до такой же степени.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "You know what, I've seen worse. That raccoon was asking for it anyways, do what you must!",
+      "ru": "Знаешь, бывало и хуже. Этот енот сам напросился. Делай что считаешь нужным!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "A cage? Don't you think raccoons are too smart to fall for something like that?",
+      "ru": "Клетка? Не думаешь, что еноты слишком умны, чтобы попасться на такую уловку?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "I guess you can give it a try...",
+      "ru": "Ну, можешь попробовать...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "I take back what I said. Raccoons are complete idiots.",
+      "ru": "Беру свои слова обратно. Еноты совершенно глупые.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "Anyways, that aside. Look, we've gotten the gift back! I knew we could do it!",
+      "ru": "Впрочем, неважно. Смотри, подарок снова у нас! Я знал, что мы справимся!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "Take that idiot!",
+      "ru": "Получай, дуралей!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "Woah, that looks like an expensive ring! You really think the raccoon will take it?",
+      "ru": "Ого, дорогое, должно быть, кольцо! Думаешь, енот на него польстится?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "Hold on, where did you even get that- nevermind, I won't ask any questions. Give it a try!",
+      "ru": "Погоди, где ты вообще его... Ладно, не буду спрашивать. Попробуй!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "Oh! That was surprisingly easy.",
+      "ru": "О! Даже не думал, что всё будет так просто.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "I hope no one cared about that ring, because they sure aren't getting it back...",
+      "ru": "Надеюсь, никто не дорожил этим кольцом, потому что обратно его уж точно не получат...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "...A firecracker? What, are you celebrating something?",
+      "ru": "...Петарда? Ты что, что-то празднуешь?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "I'll hope you know what you're doing. Just- don't mess this up, alright?",
+      "ru": "Надеюсь, ты знаешь, что делаешь. Только... не испорть всё, ладно?",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "Huh. I have to admit, that was surprisingly effective.",
+      "ru": "Хм. Признаю, сработало на удивление хорошо.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "New Quest Started: Through the Pipes",
+      "ru": "§#FFAA00Новый квест: §#FFFF55По трубам",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0002",
+      "en": "I can't believe this!",
+      "ru": "§oНе могу в это поверить!§r",
+      "stage": "Stage 1",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0009",
+      "en": "Some raft parts may have unique functions.",
+      "ru": "У некоторых частей плота могут быть §bособые функции§r.",
+      "stage": "Stage 5",
+      "speaker": ""
+    },
+    {
+      "id": "wiki-20261008-dialogues-0010",
+      "en": "Looks like someone dropped this in a rush.",
+      "ru": "Похоже, кто-то обронил это в спешке.",
+      "stage": "Stage 6",
+      "speaker": ""
+    },
+    {
+      "id": "wiki-20261008-dialogues-0011",
+      "en": "Huh?",
+      "ru": "А?",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0012",
+      "en": "Who are you? What are you doing here?",
+      "ru": "Ты кто? Что ты здесь делаешь?",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0015",
+      "en": "Ah, exploring the sewers? That's fun! I've basically been to every corner of Timasca's sewers.",
+      "ru": "А, исследуешь канализацию? Здорово! Я уже почти в каждом уголке канализации Тимаски побывал.",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0016",
+      "en": "Say, is there any chance you stumbled upon that raccoon earlier? That pest snatched something of value from me!",
+      "ru": "Слушай, ты случайно не видел тут енота? Этот вредитель утащил у меня кое-что ценное!",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0017",
+      "en": "I was making a gift for Sovereign Soosu, but then that fiend just ran off with it! Horrible, isn't it?",
+      "ru": "Я делал подарок для Сюзерена Соосу, а этот негодник его утащил! Ужасно, правда?",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0018",
+      "en": "Especially with how soon the festival is... I wouldn't want to miss my only opportunity this year!",
+      "ru": "Особенно учитывая, как скоро праздник... Не хочется упустить единственный шанс в этом году!",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0019",
+      "en": "I could really use your help, and hey— I have just the tool you'll want for exploring the sewers!",
+      "ru": "Мне очень нужна твоя помощь. И знаешь, у меня как раз есть инструмент, который пригодится тебе в канализации!",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0020",
+      "en": "I could really use your help, and hey- I have just the tool you'll want for exploring the sewers!",
+      "ru": "Мне очень нужна твоя помощь. И знаешь, у меня как раз есть инструмент, который пригодится тебе в канализации!",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0022",
+      "en": "I'm going that direction to see if I can catch that pest. What's your name... <playername>? You go the other way, we'll meet again soon.",
+      "ru": "Я пойду туда, попробую поймать этого вредителя. Как тебя зовут... §o<playername>§r? А ты иди в другую сторону, скоро снова встретимся.",
+      "stage": "Stage 8",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0023",
+      "en": "<playername>! OH NO! I didn't mean to drop that on you—",
+      "ru": "§o<playername>§r! О НЕТ! Я не хотел уронить это на тебя-",
+      "stage": "Stage 9",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0024",
+      "en": "<playername>! OH NO! I didn't mean to drop that on you-",
+      "ru": "§o<playername>§r! О НЕТ! Я не хотел уронить это на тебя-",
+      "stage": "Stage 9",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0025",
+      "en": "W-why were you standing there? Out of all places?",
+      "ru": "З-зачем ты там стоял? Почему именно там?",
+      "stage": "Stage 9",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0026",
+      "en": "...Okay. You seem to be alright. Sorry, I didn't realize you were standing right there!",
+      "ru": "...Ладно. Кажется, ты в порядке. Прости, я не заметил, что ты стоишь прямо там!",
+      "stage": "Stage 9",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0027",
+      "en": "Alright, at least we're regrouped now. Try not to stand under any more heavy objects, alright?",
+      "ru": "Ладно, хотя бы мы снова вместе. Постарайся больше не стоять под тяжёлыми предметами, хорошо?",
+      "stage": "Stage 9",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0028",
+      "en": "Moving forward, the problem is, I have no idea how to traverse this next area. It's heavily flooded if I can recall.",
+      "ru": "Но дальше вот в чём проблема: я понятия не имею, как пройти следующий участок. Если память не подводит, он сильно затоплен.",
+      "stage": "Stage 9",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0029",
+      "en": "Hmm...",
+      "ru": "§oХм...§r",
+      "stage": "Stage 10",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0030",
+      "en": "ACK!",
+      "ru": "§oАХ!§r",
+      "stage": "Stage 10",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0033",
+      "en": "You're a lifesaver, <playername>. I cannot thank you enough!",
+      "ru": "Ты меня спас, §o<playername>§r. Не знаю, как тебя отблагодарить!",
+      "stage": "Stage 10",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0037",
+      "en": "...Finally.",
+      "ru": "...Наконец-то.",
+      "stage": "Stage 10",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0039",
+      "en": "W-woah now! You want to fight the raccoon? Like— I hate raccoons, but maybe not to that extreme.",
+      "ru": "П-погоди! Хочешь сразиться с енотом? Я, конечно, терпеть их не могу, но не до такой же степени.",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0040",
+      "en": "The raccoon is looking visibly agitated at this point. Looks like its picking a fight as well.",
+      "ru": "Енот заметно раздражён. Похоже, он тоже готов подраться.",
+      "stage": "Stage 11",
+      "speaker": ""
+    },
+    {
+      "id": "wiki-20261008-dialogues-0044",
+      "en": "I'll hope you know what you're doing. Just— don't mess this up, alright?",
+      "ru": "Надеюсь, ты знаешь, что делаешь. Только... не испорть всё, ладно?",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0045",
+      "en": "And look! We finally got the gift back! I knew we could do it.",
+      "ru": "И смотри! Мы наконец вернули подарок! Я знал, что у нас получится.",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0046",
+      "en": "Not only did you safely get us through a flooded tunnel with— that creation of yours, but you came more prepared than I could have expected!",
+      "ru": "Ты не только благополучно провёл нас через затопленный туннель на... этом своём творении, но и оказался подготовлен куда лучше, чем я ожидал!",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0047",
+      "en": "Not only did you safely get us through a flooded tunnel with- that creation of yours, but you came more prepared than I could have expected!",
+      "ru": "Ты не только благополучно провёл нас через затопленный туннель на... этом своём творении, но и оказался подготовлен куда лучше, чем я ожидал!",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0048",
+      "en": "And on top of all of that, you found my art supplies bag! That bag itself is more important to me than the gift we were chasing after!",
+      "ru": "И в довершение всего нашёл мою сумку с принадлежностями для рисования! Сама сумка для меня важнее подарка, за которым мы гонялись!",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0049",
+      "en": "Speaking of that, I would like to give you Soosu's gift as a token of appreciation. I believe you're more deserving of it.",
+      "ru": "Кстати, в знак благодарности я хочу отдать тебе подарок для Соосу. По-моему, ты больше его заслуживаешь.",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0050",
+      "en": "Don't worry, I've already brainstormed a better design. I think Soosu will like this next one even more!",
+      "ru": "Не волнуйся, я уже придумал вариант получше. Думаю, следующий Соосу понравится ещё больше!",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0051",
+      "en": "Don't go so close! You might scare it off again!",
+      "ru": "Не подходи так близко! Ты опять его спугнёшь!",
+      "stage": "Stage 11",
+      "speaker": "Fichu"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk with the citizen in despair at [-1777, 26, -570].",
+      "ru": "Поговорить с отчаявшимся горожанином [-1777, 26, -570].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Confront the raccoon at [-1725, 29, -537].",
+      "ru": "Найти енота [-1725, 29, -537].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Enter the drainage hole at [-1699, 33, -516].",
+      "ru": "Спуститься в сливное отверстие [-1699, 33, -516].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Enter the drainage hole at [-1699, 33, -516] to continue the search.",
+      "ru": "Спуститься в сливное отверстие и продолжить поиски [-1699, 33, -516].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Dive deeper into the sewer network.",
+      "ru": "Углубиться в канализацию.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Explore past the flood gate.",
+      "ru": "Исследовать путь за шлюзом.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Find a way to get across the flooded section of the sewer.",
+      "ru": "Найти способ перебраться через затопленную часть канализации.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Continue chasing the raccoon through the sewers.",
+      "ru": "Продолжить погоню за енотом по канализации.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Encounter a familiar face in the sewers.",
+      "ru": "Встретить знакомого в канализации.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Encounter the stranger in the sewers.",
+      "ru": "Встретить незнакомца в канализации.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Find a safe way past the flooded rail tunnels.",
+      "ru": "Найти безопасный путь через затопленные железнодорожные туннели.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Navigate through the end of the sewer network with Fichu.",
+      "ru": "Пройти последнюю часть канализации вместе с Фичу.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Confront the raccoon.",
+      "ru": "Настигнуть енота.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "wiki-20261008-objectives-0001",
+      "en": "Talk with the citizen in despair at [<num>, <num>, <num>].",
+      "ru": "Поговорить с отчаявшимся горожанином [<num>, <num>, <num>].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-objectives-0006",
+      "en": "Confront the raccoon at [<num>, <num>, <num>].",
+      "ru": "Найти енота [<num>, <num>, <num>].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "wiki-20261008-objectives-0007",
+      "en": "Enter the drainage hole at [<num>, <num>, <num>].",
+      "ru": "Спуститься в сливное отверстие [<num>, <num>, <num>].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "wiki-20261008-objectives-0008",
+      "en": "Enter the drainage hole at [<num>, <num>, <num>] to continue the search.",
+      "ru": "Спуститься в сливное отверстие и продолжить поиски [<num>, <num>, <num>].",
+      "stage": "Stage 3"
+    }
+  ],
+  "choices": [
+    {
+      "id": "wiki-20261008-choices-0003",
+      "en": "Sure!",
+      "ru": "Конечно!",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-choices-0004",
+      "en": "Sorry, I'm busy.",
+      "ru": "Извини, я занят.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-choices-0005",
+      "en": "A raccoon?",
+      "ru": "Енот?",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-choices-0013",
+      "en": "Chasing a raccoon.",
+      "ru": "Гонюсь за енотом.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "wiki-20261008-choices-0014",
+      "en": "Exploring.",
+      "ru": "Исследую.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "wiki-20261008-choices-0021",
+      "en": "What about you?",
+      "ru": "А ты?",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "wiki-20261008-choices-0031",
+      "en": "I'm done.",
+      "ru": "Я закончил.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "wiki-20261008-choices-0032",
+      "en": "I found this bag.",
+      "ru": "Я нашёл эту сумку.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "wiki-20261008-choices-0034",
+      "en": "What are you doing?",
+      "ru": "Что ты делаешь?",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "wiki-20261008-choices-0035",
+      "en": "I'm almost done.",
+      "ru": "Я почти закончил.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "wiki-20261008-choices-0036",
+      "en": "Nevermind.",
+      "ru": "Неважно.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "wiki-20261008-choices-0038",
+      "en": "Fight",
+      "ru": "Сразиться",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "wiki-20261008-choices-0041",
+      "en": "Trap in cage",
+      "ru": "Поймать в клетку",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "wiki-20261008-choices-0042",
+      "en": "Show shiny object",
+      "ru": "Показать блестящий предмет",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "wiki-20261008-choices-0043",
+      "en": "Use firecracker",
+      "ru": "Использовать петарду",
+      "stage": "Stage 11"
+    }
+  ]
+}

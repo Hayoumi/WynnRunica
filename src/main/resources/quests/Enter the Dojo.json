@@ -1,0 +1,741 @@
+{
+  "quest": "Enter the Dojo",
+  "level": 89,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "enter-the-dojo",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh hohoho! So a human has found their way to my humble dojo? Intriguing! I am called Sensei Miyagi. I welcome you.",
+      "ru": "О-хо-хо-хо! Значит, человек всё-таки нашёл дорогу в мой скромный додзё? Любопытно! Меня зовут сэнсэй Мияги. Добро пожаловать.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "This dojo- I have dedicated to honing skills in all of the arts- from mental prowess and mental acuity, to craftsmanship and artistry.",
+      "ru": "Этот додзё я посвятил совершенствованию во всех искусствах: от силы и остроты ума до ремесла и творчества.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Many have come- traveled from all corners of the earth to this humble one's dojo to train themselves and grow stronger. I am to presume you are the same?",
+      "ru": "Многие приходили сюда - со всех уголков мира, чтобы тренироваться и становиться сильнее. Полагаю, ты пришёл за тем же?",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Although, while I have enjoyed my life's work here, I cannot deny I am getting on in years. I seek a successor, a master of many skills to take my place.",
+      "ru": "Хотя, как бы я ни любил дело всей своей жизни, нельзя отрицать - годы уже берут своё. Я ищу преемника, мастера многих умений, который займёт моё место.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "To the one who should master the arts, I would bequeath the Master's Gi, a symbol of resolute skill. Of course, do not feel pressured to take over for me, hoho!",
+      "ru": "Тому, кто овладеет всеми искусствами, я передам ги мастера - символ непревзойдённого мастерства. Но занимать моё место ты вовсе не обязан, хо-хо!",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "As long as I may teach others and bring them to new heights, I am satisfied. Whether your aim be merely to sharpen your skills or to allow me to retire, you are welcomed.",
+      "ru": "Пока я могу учить других и помогать им расти, я доволен. Пришёл ли ты просто подтянуть навыки или всё же дать мне спокойно уйти на покой - ты всё равно желанный гость.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "When you are ready to begin, purify yourself in the waters of the spring behind the dojo, and I will guide you to your first challenge.",
+      "ru": "Когда будешь готов начать, очистись в водах источника за додзё, и я проведу тебя к первому испытанию.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Here we are then- The Lufar Room. Here tests your agility! Even these old bones can scale this room in short order- how shall you fare?",
+      "ru": "Вот мы и пришли в комнату Луфар. Здесь мы проверим твою ловкость! Даже я на старости лет могу быстро взобраться наверх. Посмотрим, как справишься ты!",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I recognize your skill, and you have passed the challenge of the Lufar Room! Hoho, but the next challenge has defeated many an apprentice.",
+      "ru": "Твоё мастерство заслуживает признания: испытание комнаты Луфар пройдено! Хо-хо, но следующее оказалось не по силам многим ученикам.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Now, comes the Fiata Room! Here, your combat prowess shall be put to the test. Martial skill comes easily to me...but what of your own?",
+      "ru": "А теперь - комната Фиата! Здесь будет проверяться твоя боевая сноровка. Боевые искусства даются мне легко... а как насчёт тебя?",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "I hear many things about human combat skill, so I believe I shall watch this challenger myself. Enter now, challenger!",
+      "ru": "Я много слышал о боевом искусстве людей и хочу лично посмотреть, как ты справишься с испытанием. Входи!",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "And I am to recognize your combat skill, and to proclaim your passage of the Fiata Room. Well done!",
+      "ru": "Я признаю твоё боевое мастерство и объявляю, что комната Фиата пройдена. Хорошая работа!",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Next, however, is not a challenge of physical skill, but of observation and logical reasoning, in this- the Cliste Room. Here, a puzzle awaits.",
+      "ru": "Следующее испытание, однако, проверит не тело, а наблюдательность и логику. Это - комната Клисте. И здесь тебя ждёт загадка.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "You must discern the path in order to bring the red block to the gold block. Simple in theory...complex in practice, as there are many things.",
+      "ru": "Тебе нужно найти путь, по которому красный блок можно довести до золотого. Просто в теории... непросто на деле. Тут есть над чем подумать.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Remember this as you work- Change your perspective, and the reality changes.",
+      "ru": "И помни: стоит взглянуть иначе, и сама реальность меняется.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "And there, I recognize your mental acuity! You have passed the Cliste Room. You are doing quite well, but many have gotten to this point and had a single point stymie them.",
+      "ru": "И вот, я признаю остроту твоего ума! Ты прошёл комнату Клисте. У тебя всё идёт очень хорошо, но многие доходили до этого места и спотыкались на самом последнем шаге.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Welcome then, to the last challenge I offer you, held within the Sitheach Room and cavern.",
+      "ru": "Добро пожаловать на последнее испытание, которое я тебе предложу. Оно ждёт в комнате Ситеах и прилегающей пещере.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Your task here, is to become tranquil, and at peace with nature. What that entails... I leave up to you.",
+      "ru": "Твоя задача здесь - обрести покой и согласие с природой. Как именно... реши сам.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "There are many paths to tranquility. Whatever you choose, you will know when you have reached the point of success.",
+      "ru": "Путей к покою много. Какой бы ты ни выбрал, ты сам поймёшь, когда достигнешь цели.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I see it now. The troubled heart you came here with is troubled no longer. I recognize your mastery of the Sitheach Room.",
+      "ru": "Теперь я вижу: тревога покинула твоё сердце. Ты прошёл испытание комнаты Ситеах.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Oh hoho... It is just like a human to do what cannot be done. That is each challenge of my humble dojo, completed!",
+      "ru": "О-хо-хо... очень по-человечески - взять и сделать то, что казалось невозможным. Все испытания моего скромного додзё пройдены!",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "So! While I did advise you not to feel pressured of it, I am curious, young master. Do you wish to take my place here, so I may sit these old bones down?",
+      "ru": "Итак! Хоть я и говорил, что ты ничем не обязан, всё же мне любопытно, юный мастер. Хочешь занять моё место и дать мне наконец отдохнуть на старости лет?",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Ah, of course not. Despite your mastery, this is merely a single step on your journey. Needn't worry, I understand completely.",
+      "ru": "А, конечно же нет. При всём твоём мастерстве это лишь один шаг на твоём пути. Не переживай, я всё прекрасно понимаю.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "I am certain that I will find a suitable successor before my time comes- and equally as certain that I've many a year to go, hoho!",
+      "ru": "Я уверен, что найду подходящего преемника до того, как придёт мой час - и так же уверен, что до него у меня ещё немало лет, хо-хо!",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Nevertheless, you have completed the challenges of this humble Sensei, as such, I will provide you what was promised.",
+      "ru": "Но как бы там ни было, ты прошёл испытания этого скромного сэнсэя, а значит, я дам тебе то, что обещал.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Wear this [Master's Gi] with pride, and remember this final lesson- There is never a point in life that you will stop learning. See the world and its lessons every day of your life, young master.",
+      "ru": "Носи это [ги мастера] с гордостью и запомни последний урок - в жизни не бывает момента, когда ты перестаёшь учиться. Смотри на мир и учись у него каждый день своей жизни, юный мастер.",
+      "speaker": "Sensei Miyagi",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "In founding this dojo, I was inspired by many a tale. I was many a time scoffed at by others, for taking stock in the legends of old...",
+      "ru": "Основывая это додзё, я черпал вдохновение во множестве преданий. Не раз другие насмехались надо мной за то, что я доверяю легендам старины...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "And yet the results speak for themselves. As of the time writing this, being 997 AP, I am 76 years old.",
+      "ru": "И всё же результаты говорят сами за себя. На момент написания этих строк, в 997 ПП, мне 76 лет.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Despite this, I am still in great health! Surely the years are catching up to me, but many I know are far less able by the same age.",
+      "ru": "Несмотря на это, я по-прежнему в прекрасном здравии! Годы, конечно, берут своё, но многие из тех, кого я знаю, в этом же возрасте куда немощнее.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "By following the old ways, I have prospered and allow others to prosper in kind. By looking to the past, I am preparing myself for the future.",
+      "ru": "Следуя древним учениям, я преуспел и помогаю другим достичь того же. Обращаясь к прошлому, я готовлюсь к будущему.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Many forget the power one's body can rise to, thanks to the prevalence of magical practices. Although magical knowledge is itself important, and I am guilty of neglecting it myself.",
+      "ru": "Магия распространилась повсюду, и многие забывают, какую силу способно обрести тело. Впрочем, магические знания тоже важны. Я и сам грешен тем, что пренебрегаю ими.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "But the tales and practices of ancient warriors and kings, such as Remikas, or even modern soldiers such as Tisaun Sodeta, have great value.",
+      "ru": "Но предания и приёмы древних воинов и королей, таких как Ремикас, или даже современных солдат, таких как Тисаун Содета, имеют большую ценность.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Here, I will tell of what tales have brought me my wisdom, my power, and my health, and pass that knowledge onto you, dear reader.",
+      "ru": "Здесь я расскажу, какие предания принесли мне мудрость, силу и здоровье, и передам это знание тебе, дорогой читатель.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "To meditate is to remove all distractions, and to peacefully introspect- to be at one with yourself and anchor yourself to the moment, or merely to relax.",
+      "ru": "Медитация помогает отрешиться от всего, что отвлекает, и спокойно заглянуть в себя: обрести внутреннюю гармонию, сосредоточиться на настоящем или просто отдохнуть.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "It is highly recommended for anyone experiencing stress or a clouded mind. Here will be detailed the basic steps for practicing meditation.",
+      "ru": "Она особенно полезна тем, кого одолевают тревоги и спутанные мысли. Здесь описано, как начать медитировать.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "First, find a quiet, comfortable place. Someplace that you feel safe in, and where you will not be interrupted by outside influences.",
+      "ru": "Сначала найди тихое, удобное место. Такое, где ты чувствуешь себя в безопасности и где тебя не потревожат внешние помехи.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "If you are first beginning, set an hourglass or a clock alarm for a short time. Ten or fifteen minutes will do. Even short sessions can help.",
+      "ru": "Если ты только начинаешь, возьми песочные часы или заведи будильник на короткое время. Десяти или пятнадцати минут достаточно. Даже короткая медитация может помочь.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Next, sit down. The traditional position is to sit cross-legged with hands in the lap, but so long as you are comfortable, any position works.",
+      "ru": "Затем сядь. Обычно для медитации скрещивают ноги и кладут руки на колени, но подойдёт любая удобная тебе поза.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Once you have found a comfortable spot, close your eyes and breathe deeply. Breathe in deeply, hold for a few seconds, breathe out, and hold for the same amount.",
+      "ru": "Устроившись поудобнее, закрой глаза и дыши глубоко. Сделай глубокий вдох, задержи дыхание на несколько секунд, выдохни и выдержи такую же паузу.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Focus on the sensation of your breathing, and on only the sensation of your breathing. If your mind wanders, do not fret- simply return your attention to your breath.",
+      "ru": "Сосредоточься на дыхании и только на нём. Если мысли унесут тебя в сторону, не тревожься - просто снова обрати внимание на дыхание.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "When you feel ready to rise, or when your time ends, slowly open your eyes and notice your environment- the sights and sounds, and the feeling of your body.",
+      "ru": "Когда захочешь встать или выйдет отведённое время, медленно открой глаза. Заметь, что ты видишь и слышишь вокруг, прислушайся к ощущениям в теле.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Although there are more complex and involved methods of meditation, they are not necessary- Now that you have read this, try it yourself when you have a spare moment.",
+      "ru": "Есть и более сложные способы медитации, но они необязательны. Прочитав эти строки, попробуй сам, когда выдастся свободная минута.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "...this seems promising. Carefully, you settle down, and close your eyes.",
+      "ru": "...пожалуй, стоит попробовать. Ты осторожно усаживаешься и закрываешь глаза.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "...breathe in...",
+      "ru": "...вдох...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "...breathe out...",
+      "ru": "...выдох...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "...you can't focus. Your mind is wandering too many directions at once. Unfortunate, but it's worth remembering anyways.",
+      "ru": "...сосредоточиться не удаётся. Мысли разбегаются в разные стороны. Досадно, но этот способ всё же стоит запомнить.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "When fighting unarmed or with weapons such as knuckles, katars, or gauntlets, one's stance is paramount in fighting an opponent.",
+      "ru": "В бою без оружия или с оружием вроде кастетов, катаров или латных перчаток стойка играет первостепенную роль в схватке с противником.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "The way one is positioned can ground the body, allowing for blows to be taken with less consequence, or allow one to be light enough to evade attack.",
+      "ru": "Правильная стойка делает тело устойчивым и помогает выдерживать удары. Или, напротив, позволяет легко уклоняться от атак.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "All combat of course must be learned through rigorous training- One cannot expect to become an expert simply by reading. Here are a handful of basic stances to practice.",
+      "ru": "Конечно, боевому искусству нужно учиться упорными тренировками. Одно лишь чтение не сделает тебя мастером. Вот несколько основных стоек для отработки.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "The Back Stance has one foot in front of the other, with the back foot facing to the side and one's weight on the back leg. For evading attacks to the top of the body.",
+      "ru": "В задней стойке одна нога стоит впереди другой. Задняя ступня развёрнута вбок, вес перенесён на заднюю ногу. Эта стойка помогает уклоняться от ударов в верхнюю часть тела.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "The Cat Stance has weight on the back foot, with legs bent and held close together and front foot resting on the heel. This allows easy preparation for strong front kicks.",
+      "ru": "В кошачьей стойке вес перенесён на заднюю ступню. Ноги согнуты и сведены вместе, передняя ступня опирается на пятку. Из этой стойки удобно наносить сильные удары ногой вперёд.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "The Crane Stance has one leg raised, the foot level with the other knee. Also used in preparation for kicking, as well as dodging a sweeping attack by the enemy.",
+      "ru": "В стойке журавля одна нога поднята, а её ступня находится на уровне колена другой ноги. Эта стойка помогает подготовить удар ногой и уклониться от подсечки.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "...while this is fascinating to read about, learning about combat stances seems too active to bring you tranquility.",
+      "ru": "...читать об этом интересно, но изучение боевых стоек вряд ли принесёт тебе покой: уж слишком это связано с движением.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "This, unfortunately, applies for both positive and negative reasons. For instance, a lesson that has become law involves the use of soul-binding magic.",
+      "ru": "Это, к сожалению, справедливо как по хорошим, так и по дурным причинам. Например, урок, ставший законом, касается использования магии привязки душ.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "The upturn of necromantic practices ended in 294 AP, with the outlawing of the technique. Defiling the dead and preventing their spirits from moving on...",
+      "ru": "Расцвет некромантии закончился в 294 ПП, когда эти приёмы объявили вне закона. Осквернять мёртвых и не давать их духам обрести покой...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "...was considered a monstrous and unmoral practice. Keeping the spirit trapped, forced to obey orders, in a decaying body wracked with pain, is something that could not be abided by.",
+      "ru": "...считалось чудовищным и безнравственным. Нельзя было мириться с тем, что дух держали в плену, заставляя исполнять приказы в разлагающемся теле, терзаемом болью.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Fresh, clean water is required. Bring it to a soft boil in a pot or cauldron, and then mix in herbs and ingredients to taste.",
+      "ru": "Требуется свежая, чистая вода. Доведи её до лёгкого кипения в горшке или котле, а затем добавь травы и ингредиенты по вкусу.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Harvesting ingredients freshly can add extra depth to the tea, although you can make fine tea from any ingredients, so long as they are not rotten.",
+      "ru": "Свежесобранные ингредиенты придают чаю более богатый вкус. Впрочем, хороший чай можно приготовить из любых ингредиентов, лишь бы они не были гнилыми.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Common ingredients include sugar, lemongrass, ginger root, chamomile, and lavender. Each has their own purpose for tea.",
+      "ru": "Часто в чай добавляют сахар, лемонграсс, корень имбиря, ромашку и лаванду. Каждый из этих ингредиентов придаёт ему свои свойства.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Sugar helps sweeten the bitterness of some brews, and balances the flavors to be mild. However, too much will leave the brew sickly and tacky.",
+      "ru": "Сахар помогает подсластить горечь некоторых отваров и смягчить вкусы. Однако его избыток сделает отвар приторным и липким.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Although Ginger Root is bitingly bitter and inevitably overpowers other ingredients, it has potent medical effects which may help invigorate the sick.",
+      "ru": "Корень имбиря очень горек и неизбежно перебивает вкус других ингредиентов, зато обладает сильными лечебными свойствами и может вернуть больному силы.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Chamomile adds a pleasantly sweet, floral taste to a brew. The delicate flavor helps the body and mind relax- it is oft used as a sleep aid.",
+      "ru": "Ромашка придаёт чаю приятный сладковатый, цветочный вкус. Этот нежный вкус помогает расслабить тело и ум. Ромашку часто используют, чтобы легче заснуть.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Lavender is similarly relaxing, but must be the focus of the brew. It must be steeped for a long while and is severely bitter, which causes it to drown out the other ingredients.",
+      "ru": "Лаванда так же расслабляет, но должна быть основой отвара. Её нужно настаивать долго, и она очень горькая, из-за чего заглушает прочие ингредиенты.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "...come to think of it, a cup of tea sounds like it would be quite nice, after all the hard training. Perhaps you should make a cup.",
+      "ru": "...а ведь после всех этих тяжёлых тренировок чашка чая была бы очень кстати. Пожалуй, стоит заварить чай.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "While many people think that relaxation is out of reach with their busy schedules, the truth is there are many things you can do daily to wind down and take that little time.",
+      "ru": "Многим кажется, что за повседневными заботами некогда отдохнуть. На самом деле есть немало простых занятий, которым можно каждый день уделять немного времени, чтобы расслабиться.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "You can turn any room into a garden simply by getting planter pots, but for those who can't devote enough time to that, you could try caring for a bonsai tree instead.",
+      "ru": "Любую комнату можно превратить в сад, расставив горшки с растениями. А если времени на сад не хватает, попробуй ухаживать за бонсай.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "They just need water, sunlight, and care by using garden shears to carefully cut the limbs of the tree. Shaping it like this is artful in itself, and has spiritual significance as well.",
+      "ru": "Ему нужны лишь вода, солнечный свет и уход: осторожно подрезай ветви садовыми ножницами. Придавать деревцу форму - особое искусство, в котором есть и духовный смысл.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "It requires focus in the moment, but not much time at all, meaning you can still simply set aside short time and be done. It also helps clean the air in the house as well!",
+      "ru": "Такой уход требует внимания, но занимает совсем немного времени. Можно выделить несколько свободных минут - и дело сделано. А ещё деревце очищает воздух в доме!",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Another easy way to relax is to set up a stone garden. You don't need a large amount of space to have one- even a small box will do. Fill it with gravel and smooth stones.",
+      "ru": "Ещё один простой способ отдохнуть - устроить сад камней. Много места не нужно: хватит даже небольшого ящика. Наполни его гравием и гладкими камнями.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Use a small handheld rake to draw lines in the gravel in different patterns, each day. It's as simple as that- don't focus on making specific ones though, just draw whatever your hand draws.",
+      "ru": "Небольшими граблями каждый день черти на гравии разные узоры. Всё просто. Не старайся вывести определённый рисунок - пусть рука движется свободно.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Doing this can help draw focus away from stressful thoughts, and bring you back to the moment, while also being a fun conversation piece that's easy and cheap to set up.",
+      "ru": "Это помогает отвлечься от тревожных мыслей и вернуться к настоящему. К тому же сад камней легко и недорого устроить, а гостям будет о чём поговорить.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "...those are nice thoughts, but unfortunately, there isn't a zen garden set up here, and you don't have a bonsai tree or garden shears handy.",
+      "ru": "...звучит приятно, но сада камней здесь нет, а ни бонсай, ни садовых ножниц у тебя под рукой не оказалось.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "...hm? This isn't actually a book, it's a dossier. Did Miyagi leave this out by accident?",
+      "ru": "...хм? Это вовсе не книга, это досье. Неужели Мияги оставил его здесь по случайности?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Seems to contain a number of trade agreements, between the Sakura Dojo and the Qira Hive.",
+      "ru": "Похоже, тут несколько торговых соглашений между додзё Сакура и Ульем Киры.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "A shipment of cherries and rice has been sent out at the same time- they must trade products directly.",
+      "ru": "Партия вишни и риса была отправлена в то же время - должно быть, они торгуют продуктами напрямую.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Previous records show trades of metal salvage for cherry wood, and gifted shipments of tea leaves and ingredients.",
+      "ru": "В прежних записях упоминаются обмен металлолома на вишнёвую древесину и дары в виде чайных листьев и ингредиентов.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "...there's a letter here, too. The script is very ornate...this is addressed from the Mistress of the Hive herself, only a few months ago.",
+      "ru": "...здесь ещё и письмо. Почерк очень витиеватый... Всего несколько месяцев назад его написала сама Владычица Улья.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "\"I hope this letter finds you well. I once again thank you for the trade. The caravans from Lake Gylia have been scarce recently, and your donations have kept the servants from going hungry.\"",
+      "ru": "\"Надеюсь, это письмо застанет тебя в добром здравии. Я вновь благодарю тебя за торговлю. Караваны от озера Гилия в последнее время редки, и твои дары уберегли слуг от голода.\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "\"Equally I am willing to offer extra salvage metal of top quality, or perhaps further silk or animant stones for your training dummies. Please write back quickly with your request.\"",
+      "ru": "\"Взамен я готова предложить ещё высококачественного металлолома, шёлка или аниментовых камней для твоих тренировочных манекенов. Прошу, поскорее напиши, что тебе нужно.\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "\"I plan to accompany the next caravan which will bring our recompensation, and I look forward to the visit. We may finally finish our set of Go yet.\"",
+      "ru": "\"Я собираюсь сопровождать следующий караван, который привезёт нашу плату, и с нетерпением жду встречи. Быть может, мы наконец доиграем партию в го.\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "\"Regards, Mistress Qira\"",
+      "ru": "\"С уважением, Владычица Кира\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "With the tea brewed and the scent filling the room, you gently take a few sips.",
+      "ru": "Чай заварен, аромат наполняет комнату, и ты неспешно делаешь несколько глотков.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "The heat of the tea and the gently sweet, floral taste warms your throat and body. You feel more relaxed, but...not at peace with nature yet.",
+      "ru": "Горячий чай с нежным сладковатым, цветочным вкусом согревает тебя. Напряжение уходит, но... единения с природой ты пока не чувствуешь.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "...there were some animals wandering the cave. Making a small offering seems like the right way to go, and there's plenty of tea left...",
+      "ru": "...в пещере бродили животные. Возможно, стоит сделать им небольшое подношение - ведь чая осталось ещё много...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "The cow raises its head to look at you. Its eyes flare at the sight of the green tea.",
+      "ru": "Корова поднимает голову и смотрит на тебя. При виде зелёного чая её глаза загораются.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "The sheep raises its head to look at you. Its eyes flare at the sight of the green tea.",
+      "ru": "Овца поднимает голову и смотрит на тебя. При виде зелёного чая её глаза загораются.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "The pig raises its head to look at you. Its eyes flare at the sight of the green tea.",
+      "ru": "Свинья поднимает голову и смотрит на тебя. При виде зелёного чая её глаза загораются.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "You gesture the tea generously towards the cow, and place it on the ground for it to drink. The cow nods respectfully towards you.",
+      "ru": "Ты протягиваешь корове чай, предлагая угоститься, и ставишь чашку на землю, чтобы она могла попить. Корова почтительно кивает тебе.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "You gesture the tea generously towards the sheep, and place it on the ground for it to drink. The sheep nods respectfully towards you.",
+      "ru": "Ты протягиваешь овце чай, предлагая угоститься, и ставишь чашку на землю, чтобы она могла попить. Овца почтительно кивает тебе.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "You gesture the tea generously towards the pig, and place it on the ground for it to drink. The pig nods respectfully towards you.",
+      "ru": "Ты протягиваешь свинье чай, предлагая угоститься, и ставишь чашку на землю, чтобы она могла попить. Свинья почтительно кивает тебе.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "...watching it drink from the cup as you did, there's a certain kinship you feel, and with that realization comes a feeling of peace.",
+      "ru": "...животное пьёт из чашки, как недавно пил ты. Глядя на него, ты чувствуешь родство, а вместе с этим чувством приходит покой.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "You can't recall the last time you've felt this relaxed. You know for certain that you have mastered the challenge of tranquility. Time to leave.",
+      "ru": "Ты уже не помнишь, когда в последний раз было так спокойно. Теперь ты уверен: испытание умиротворения пройдено. Пора уходить.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "That should be the challenge successfully cleared now. Time to tell Sensei Miyagi of your success.",
+      "ru": "Похоже, испытание теперь успешно пройдено. Пора рассказать сэнсэю Мияги о своём успехе.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "RIGHT - UP - BACKWARDS - RIGHT - UP - FORWARD - DOWN - RIGHT",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "RIGHT - UP - BACKWARD - RIGHT - DOWN - RIGHT",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "UP - RIGHT - UP - LEFT - BACKWARD - DOWN - BACKWARD - UP - FORWARD - RIGHT - DOWN - FORWARD - RIGHT",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "New Quest Started: Enter the Dojo",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Войти в додзё",
+      "speaker": "",
+      "stage": "Stage 7"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Sensei Miyagi at [495, 109, -5571].",
+      "ru": "Поговорить с сэнсэем Мияги [495, 109, -5571].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Jump down the water pit to begin the challenges.",
+      "ru": "Прыгнуть в колодец с водой и приступить к испытаниям.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Ascend the Lufar Room in the physical strength challenge.",
+      "ru": "Подняться через зал Луфар в испытании силы.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Fight your way through the Fiata Room in the combat challenge.",
+      "ru": "Пробиться через зал Фиата в боевом испытании.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Solve the puzzle of sight in the Cliste Room in the sight challenge.",
+      "ru": "Разгадать загадку в зале Клисте в испытании зоркости.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Become at one with nature in the Sitheach Room and Cavern.",
+      "ru": "Обрести единство с природой в зале и пещере Ситеах.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Exit the Sitheach cave through the tunnel near the temple.",
+      "ru": "Покинуть пещеру Ситеах через туннель возле храма.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Speak to Sensei Miyagi.",
+      "ru": "Поговорить с сэнсэем Мияги.",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": []
+}

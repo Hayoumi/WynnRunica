@@ -1,0 +1,550 @@
+{
+  "quest": "The Corrupted Village",
+  "level": 28,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-corrupted-village",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Go away! I know you're angry but there's nothing to gain her-",
+      "ru": "Да уйдите вы! Я знаю, вы злитесь, но тут нечего-",
+      "speaker": "Orikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Oh, you seem calm. What are you doing here? Bit close to the portal for a soldier isn't it?",
+      "ru": "О, а ты вроде спокойный. Что тебя сюда привело? Для солдата ты как-то слишком близко к порталу, тебе не кажется?",
+      "speaker": "Orikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I see, you were sent to aid the public. Perfect.",
+      "ru": "Ясно, тебя послали помогать местным. Отлично.",
+      "speaker": "Orikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I am Orikal, I'm trying to stop everyone here from killing each other.",
+      "ru": "Я Орикал, пытаюсь не дать всем тут поубивать друг друга.",
+      "speaker": "Orikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Do you see all these spikes? I believe they are the thing spreading corruption.",
+      "ru": "Видишь все эти шипы? Думаю, именно они и разносят Порчу.",
+      "speaker": "Orikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Corruption does not affect humans like other beings. It's much much slower, more like an infection of the mind to us.",
+      "ru": "На людей Порча действует не так, как на остальных существ. Гораздо, гораздо медленнее, словно заражает наш разум.",
+      "speaker": "Orikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Could you inspect the peak of the spike in the village for me? It might give me valuable insight. Thanks!",
+      "ru": "Можешь осмотреть для меня верхушку шипа в деревне? Это может помочь мне разобраться. Спасибо!",
+      "speaker": "Orikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "That was quick... did you find anything?",
+      "ru": "Быстро ты... Ну что, нашёл что-нибудь?",
+      "speaker": "Orikal",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Really, nothing? You didn't even feel anything?",
+      "ru": "Серьёзно, вообще ничего? Ты даже ничего не почувствовал?",
+      "speaker": "Orikal",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "How can it be just a spike? It must be spreading corruption somehow.",
+      "ru": "Да как это может быть просто шип? Он же должен как-то разносить Порчу.",
+      "speaker": "Orikal",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Then perhaps my second theory was correct. I will have to send you underground.",
+      "ru": "Тогда, может, моя вторая теория была верной. Придётся отправить тебя под землю.",
+      "speaker": "Orikal",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "There are old cave systems around here from the mining days. I sent two men down to excavate the spike, can you go down and help?",
+      "ru": "Тут остались старые пещеры, где когда-то добывали руду. Я послал туда двоих раскопать шип, можешь спуститься и помочь?",
+      "speaker": "Orikal",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "The entrance is a little to the northeast. In fact, you should have passed it on your way to the spike.",
+      "ru": "Вход немного северо-восточнее. Вообще-то ты должен был проходить мимо него по дороге к шипу.",
+      "speaker": "Orikal",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "This is insane, why are we here?! We're looking for corruption you know that right?",
+      "ru": "Это безумие, зачем мы вообще здесь?! Мы ведь Порчу ищем, ты понимаешь?",
+      "speaker": "Alfonse",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Calm down. All we have to do is keep digging. Besides, he did say he'd pay us a lot, so stop being mad.",
+      "ru": "Да успокойся. Нам всего-то надо копать дальше. Он ведь обещал щедро заплатить, так что остынь.",
+      "speaker": "Roy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Forget it, I don't care anymore, just prime the explosive and get clear of the blast!",
+      "ru": "Ладно, мне уже всё равно. Просто подготовь взрывчатку и отойди подальше от взрыва!",
+      "speaker": "Alfonse",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Well, that did the trick. Let's take a look.",
+      "ru": "Ну, сработало. Пошли глянем.",
+      "speaker": "Roy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Oh my... What... is this?",
+      "ru": "Ох... Это... что такое?",
+      "speaker": "Alfonse",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "It almost looks like a giant spike... Woah. How deep does this thing go?",
+      "ru": "Похоже на гигантский шип... Ого. Как глубоко он уходит?",
+      "speaker": "Roy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Well, you know what? We did our job, so honestly I don't care. Let's get out of he-",
+      "ru": "Знаешь что? Мы свою работу сделали, так что мне вообще плевать. Погнали отсю-",
+      "speaker": "Alfonse",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Orikal? We're done! Pay up! I want out. This place is getting to me.",
+      "ru": "Орикал? Мы закончили! Плати! Я хочу отсюда выбраться. От этого места мне уже не по себе.",
+      "speaker": "Alfonse",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I came when I heard the explosion. I thought you'd hurt yourselves.",
+      "ru": "Я прибежал, когда услышал взрыв. Думал, вы там сами себя покалечили.",
+      "speaker": "Orikal",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Well, I'll be darned. The spike goes this far down? And it looks like it goes even deeper than this!",
+      "ru": "Вот это да. Шип уходит так глубоко? И, похоже, он тянется ещё ниже!",
+      "speaker": "Orikal",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Well, I don't know about you, but I say we blow it to shreds! That oughta get rid of this spike!",
+      "ru": "Не знаю как вы, а я говорю - надо разнести его к чёрту! Тогда и от шипа избавимся!",
+      "speaker": "Roy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "For once, I agree. I'll do it, you guys just get clear.",
+      "ru": "На этот раз я согласен. Я сам это сделаю, а вы лучше отойдите.",
+      "speaker": "Orikal",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "...Wow, that did nothing. We're going to need something MUCH more powerful than TNT...",
+      "ru": "...Ого, совсем не помогло. Нам понадобится что-то НАМНОГО мощнее динамита...",
+      "speaker": "Orikal",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Oh yeah? And just what would you have in mind?",
+      "ru": "Да ну? И что именно ты предлагаешь?",
+      "speaker": "Alfonse",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Well, it's sorta complicated. That's why I've decided to give our new friend here the job of acquiring this explosive.",
+      "ru": "Ну, тут всё слегка сложнее. Поэтому я и решил поручить нашему новому другу добыть эту взрывчатку.",
+      "speaker": "Orikal",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Oh yeah, we were so busy with this spike, we forgot to address you! Sorry about that.",
+      "ru": "О, точно, мы так возились с этим шипом, что даже с тобой не поговорили! Прости.",
+      "speaker": "Roy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Well if you don't need us anymore then we'll just be on our way... WITH our money! So hand it over please.",
+      "ru": "Ну раз мы тебе больше не нужны, тогда мы пойдём... ВМЕСТЕ С НАШИМИ ДЕНЬГАМИ! Так что давай сюда.",
+      "speaker": "Alfonse",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Alright, fine. Here's your pay. Thank you for your help.",
+      "ru": "Ладно, держите свою оплату. Спасибо за помощь.",
+      "speaker": "Orikal",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Gah! That's hardly anything! I'm not even surprised. Let's just go.",
+      "ru": "Тьфу! Да это же почти ничего! Хотя я даже не удивлён. Пошли уже.",
+      "speaker": "Roy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Anyway, come meet me back at my tent, friend. We will discuss what to do then.",
+      "ru": "Ладно, возвращайся ко мне в палатку, друг. Там уже решим, что делать дальше.",
+      "speaker": "Orikal",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Okay. I happen to know a recipe for creating an extremely lethal magical explosive.",
+      "ru": "Так. Я как раз знаю рецепт одной очень убойной магической взрывчатки.",
+      "speaker": "Orikal",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "There are 3 main ingredients you will need to get me: [Stabilized Corrupted Ore], [Incendiary Fluid], and a [Switch Fuse] to activate it.",
+      "ru": "Нужно добыть мне 3 главных ингредиента: [Стабилизированная заражённая руда], [Зажигательная жидкость] и [Запальный фитиль], чтобы всё это запустить.",
+      "speaker": "Orikal",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "There used to be a small mining camp a little east of this town. It's abandoned now, but you should still be able to find what you need there.",
+      "ru": "Чуть восточнее этого города раньше был маленький шахтёрский лагерь. Сейчас он заброшен, но всё нужное там ещё должно быть.",
+      "speaker": "Orikal",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "It's not the big ol' abandoned mines, mind you. It's a smaller camp, in fact you should be able to see it from this village.",
+      "ru": "Только не путай с той большой заброшенной шахтой. Это лагерь поменьше, его вообще должно быть видно прямо из деревни.",
+      "speaker": "Orikal",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Best of luck! Oh, and also, try not to die please. These ingredients do indeed promote environmental hazards.",
+      "ru": "Удачи! И ещё, постарайся не погибнуть, пожалуйста. Эти ингредиенты и правда опасны для всего вокруг.",
+      "speaker": "Orikal",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "You got 'em all! Excellent, this is exactly what we need.",
+      "ru": "Всё добыл! Отлично, именно то, что нам и нужно.",
+      "speaker": "Orikal",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Alright, stand back. I have actually never made this before, so let's hope I don't cause a disaster.",
+      "ru": "Так, отойди назад. Если честно, я никогда раньше такое не делал, так что будем надеяться, что я не устрою катастрофу.",
+      "speaker": "Orikal",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Phew, glad nothing tragic happened there. This should be it, now go take it back down to the spike and destroy it once and for all!",
+      "ru": "Фух, хорошо, что обошлось без беды. Вроде бы готово. Теперь отнеси это обратно к шипу и уничтожь его раз и навсегда!",
+      "speaker": "Orikal",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Oh, do you feel that? It's like a buzzing in my ears I never knew about has just vanished.",
+      "ru": "О, чувствуешь? Будто какой-то гул в ушах, которого я раньше даже не замечал, только что исчез.",
+      "speaker": "Orikal",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "I think that worked you know. It seems the power of the spike comes from the root...",
+      "ru": "Похоже, сработало. Видимо, сила этого шипа идёт от корня...",
+      "speaker": "Orikal",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "But what is it connected to? That's for another day. The main thing is the village is safe.",
+      "ru": "Но с чем он соединён? Это выясним в другой раз. Главное, что деревня теперь в безопасности.",
+      "speaker": "Orikal",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Here, take this for your help. I found this potato in one of the houses around here, and I sure as heck don't want it!",
+      "ru": "Вот, держи за помощь. Я нашёл эту картофелину в одном из домов тут неподалёку, и уж мне-то она точно не нужна!",
+      "speaker": "Orikal",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "This spike appears to be much larger than the others around the village, but nothing unusual. You should take a closer look at the top.",
+      "ru": "Этот шип, похоже, гораздо больше прочих вокруг деревни, но ничего необычного. Тебе стоит присмотреться к его вершине.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "When observing the spike from on top, you notice absolutely nothing. You should report back to Orikal.",
+      "ru": "Осматривая шип с вершины, ты не замечаешь ровным счётом ничего. Тебе стоит вернуться к Орикалу с докладом.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "That explosion sounded like it uncovered something big. You should take a look.",
+      "ru": "Судя по звуку, тот взрыв вскрыл что-то крупное. Тебе стоит взглянуть.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Orikal pays the excavators.",
+      "ru": "Орикал расплачивается с землекопами.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "How to Use the Explosive-Cloaker Machine:",
+      "ru": "Как пользоваться машиной для обезвреживания взрывчатки:",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "- Acquire an explosive item.",
+      "ru": "- Раздобудь взрывоопасный предмет.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "- Insert explosive item into the hole of the INPUT slot of the machine.",
+      "ru": "- Вставь взрывоопасный предмет в отверстие ВХОД машины.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "- Wait while the machine temporarily disables the item's explosive property.",
+      "ru": "- Подожди, пока машина временно сделает предмет безопасным.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "- Take item out of OUTPUT slot.",
+      "ru": "- Забери предмет из отверстия ВЫХОД.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "- Can be very useful for disabling explosive properties of unstable ores found in caves.",
+      "ru": "- Особенно полезна для временного обезвреживания нестабильной руды из пещер.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "The ore begins to glow and vibrate in your hand when you take it... it's about to explode!",
+      "ru": "Когда ты берёшь руду, она начинает светиться и вибрировать в руке... она вот-вот взорвётся!",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "The ore exploded! Looks like you have to get more from the cave and try again!",
+      "ru": "Руда взорвалась! Похоже, придётся добыть ещё в пещере и попробовать снова!",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "The machine begins making strange sounds, but after a little while the ore falls out the other side of the machine.",
+      "ru": "Машина начинает издавать странные звуки, но вскоре руда выпадает с другой стороны.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "The ore appears to have temporarily lost its explosive attribute. It is safe to carry.",
+      "ru": "Похоже, руда временно перестала быть взрывоопасной. Теперь её можно безопасно переносить.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "You filled the container with a glowing liquid. You can use the well to bring it up to the surface.",
+      "ru": "Ты наполнил ёмкость светящейся жидкостью. Можешь воспользоваться колодцем, чтобы поднять её на поверхность.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "To the Mining Operations Manager:",
+      "ru": "Управляющему горными работами:",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "We were performing our usual routines when suddenly an unknown explosion caused a massive cave-in at the entrance to our main mining supply area.",
+      "ru": "Во время обычных работ внезапный взрыв неизвестного происхождения вызвал крупный обвал у входа в наш главный склад шахтёрских припасов.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Something must be done to remove the debris, we cannot easily continue our mining operations without our supplies.",
+      "ru": "Нужно что-то сделать, чтобы убрать завал, без припасов нам не так-то просто продолжать горные работы.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "There also may be people trapped on the other side, and I would hate to lose even more miners to these catastrophes.",
+      "ru": "К тому же по ту сторону могли остаться люди. Мне не хотелось бы потерять ещё больше шахтёров из-за подобных катастроф.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Maybe we could use the Wrecking Ball to demolish the debris, but if we don't act soon...",
+      "ru": "Возможно, мы могли бы снести завал чугунной бабой, но если мы не примем меры в ближайшее время...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Orikal takes the materials you retrieved and puts them in a container. He mutters some words in an unknown language, and suddenly the container turns into some sort of Magical TNT.",
+      "ru": "Орикал берёт добытые тобой материалы и кладёт их в ёмкость. Он бормочет несколько слов на незнакомом языке, и внезапно ёмкость превращается в некое подобие Волшебного динамита.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "It appears this magical TNT worked. Now that the spike's roots have been demolished, you should talk to Orikal about your success.",
+      "ru": "Похоже, волшебный динамит сработал. Теперь, когда корни шипа разрушены, тебе стоит поговорить с Орикалом об успехе.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "New Quest Started: The Corrupted Village",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Заражённая деревня",
+      "speaker": "",
+      "stage": "Stage 9"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Orikal outside the Corrupted Village at [318, 78, -1097].",
+      "ru": "Поговорить с Орикалом у Заражённой деревни [318, 78, -1097].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Examine the nearby corrupted spike to the northeast at [352, 69, -1124].",
+      "ru": "Осмотреть шип Порчи неподалёку к северо-востоку [352, 69, -1124].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Climb the spike to see if you can find anything useful about it's existance.",
+      "ru": "Забраться на шип и поискать зацепки о его появлении.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Report back to Orikal about your observations.",
+      "ru": "Рассказать Орикалу о наблюдениях.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find the excavators inside the nearby cave to the northeast at [338, 70, -1113].",
+      "ru": "Найти землекопов в пещере неподалёку к северо-востоку [338, 70, -1113].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find the excavators inside the cave.",
+      "ru": "Найти землекопов в пещере.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Exit the cave and speak to Orikal in his tent about his plan for destroying the spike.",
+      "ru": "Выйти из пещеры и обсудить с Орикалом в его палатке план уничтожения шипа.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Find [Stabilized Corrupted Ore], [Incendiary Fluid], and [Switch Fuse] for the TNT at the mining camp at [435, 81, -1106].",
+      "ru": "Найти в шахтёрском лагере [435, 81, -1106] [Стабилизированную заражённую руду], [Зажигательную жидкость] и [Запальный фитиль] для динамита.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Bring the explosive to the spike in the cave and use it to destroy the spike.",
+      "ru": "Принести взрывчатку к шипу в пещере и уничтожить его.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Report to Orikal about your success.",
+      "ru": "Доложить Орикалу об успехе.",
+      "stage": "Stage 10"
+    }
+  ],
+  "choices": []
+}

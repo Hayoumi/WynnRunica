@@ -1,0 +1,1001 @@
+{
+  "quest": "Hunger of the Gerts Part I",
+  "level": 77,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "hunger-of-the-gerts-part-i",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, ho ho. What is this? A Human? What brings you to Gylia Watch - want to let your hair down a bit, I bet!",
+      "ru": "О, хо-хо. Это ещё кто? Человек? Что привело тебя в Дозор Гилии? Небось решил немного развеяться!",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Of course you know who we are! The Gylia Watch was founded over 200 years ago in wake of the Villager victory in the war.",
+      "ru": "Ну конечно ты знаешь, кто мы такие! Дозор Гилии основали больше 200 лет назад, после победы жителей в войне.",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "The Gerten war! Only the most famous war in all of modern Gavel! The might of the Villagers crushed those blasted Gerts - not that they were particularly hard to beat, heh.",
+      "ru": "Гертская война! Самая известная война во всём современном Гавеле! Мощь жителей раздавила этих проклятых гертов - впрочем, они и не были таким уж сложным противником, хех.",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Gerts are stupid brutes, you see. The only thing they ever think about is food.",
+      "ru": "Герты - тупые зверюги, понимаешь. Только о еде и думают.",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Get too close to one and it'll chomp your fingers off, quick as you like. And then the rest of you as well!",
+      "ru": "Подойдёшь слишком близко - и он тебе пальцы откусит быстрее, чем ты моргнёшь. А потом и всё остальное доест!",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "The peace treaty keeps them inside their borders, and we get a delivery of supplies every month from Cinfras to send over to them.",
+      "ru": "По мирному договору они должны оставаться на своих землях. А мы каждый месяц получаем из Синфраса припасы, чтобы передавать их гертам.",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Of course, we have to keep some of the supplies for ourselves - you've seen how hard these men are working, they deserve a bit of a party!",
+      "ru": "Ну и, само собой, часть поставок мы оставляем себе - ты же видел, как тяжело тут ребята пашут, им положено хоть немного праздника!",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "The Watch keeps a lookout over the Gerten borders day and night... well, maybe not on poker nights!",
+      "ru": "Дозор следит за гертской границей и днём, и ночью... ну, разве что по вечерам за покером отвлекаемся!",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Although... we have heard a couple of nasty rumors floating about - farmers disappearing from their houses and the such.",
+      "ru": "Хотя... до нас тут дошло несколько неприятных слухов - будто фермеры начали пропадать прямо из домов и всё такое.",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "If I really can't tempt you with a glass of wine and a round of poker, maybe you could go and check them out for us?",
+      "ru": "Если уж не выходит соблазнить тебя бокалом вина и партией в покер, может, сходишь и проверишь это всё за нас?",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "I'd send the men, but... well, I'd feel bad if one of them went and missed all the partying!",
+      "ru": "Я бы послал своих ребят, но... ну, мне будет жалко, если кто-то из них пропустит всё веселье!",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Here, you should head over and talk to Jitak, they're one of the farmers that lodged a complaint. Their house is west of here, I'll write down the co-ordinates.",
+      "ru": "Вот, тебе стоит поговорить с Джитаком, это один из фермеров, кто жаловался. Его дом к западу отсюда, я запишу координаты.",
+      "speaker": "Cikal",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "If you are looking for a suit or something, I can't help you. Now is a very bad time.",
+      "ru": "Если ты за костюмом или чем-то таким, помочь не смогу. Сейчас очень неудачное время.",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Oh, you're here on behalf of the Watch? Ha, even sending Humans to do their work is not beneath them.",
+      "ru": "А, ты от Дозора? Ха, им даже людей на побегушки посылать не стыдно.",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "All they do is sit up in that tower playing drinking games and act like they own this region!",
+      "ru": "Всё, что они делают, - сидят в башне, играют на выпивку и ведут себя так, будто весь этот край принадлежит им!",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I reported the fact there is clearly a Gert camp right in front of my house and they just ignored me! Now look, my pigs are all gone!",
+      "ru": "Я сообщил, что прямо перед моим домом стоит лагерь гертов, а они меня и слушать не стали! Теперь вот все мои свиньи пропали!",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I knew it was a mistake getting this property so close to gerten borders. See, gerts aren't the 'brutes' people insist, but...",
+      "ru": "Я с самого начала знал, что было ошибкой селиться так близко к гертской границе. Понимаешь, герты не совсем те \"тупые звери\", как все болтают, но...",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Well, they'll eat anything! Animals, fish, monsters, villagers, even humans! Biologically, they're just constantly hungry.",
+      "ru": "Они едят всё подряд! Животных, рыбу, монстров, жителей, даже людей! Они от природы вечно голодны.",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "The watch is meant to keep them behind their borders...",
+      "ru": "Дозор вообще-то должен держать их за пределами нашей территории...",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I even bought a golem to watch over them - Got it for a good price because of some incident down at the Olux factory.",
+      "ru": "Я даже голема купил, чтобы он за этим всем следил - взял по хорошей цене после какого-то инцидента на фабрике в Олуксе.",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "But somehow the gerts are managing to avoid it! Look, if you're here from the watch, could you help me out?",
+      "ru": "Но герты каким-то образом всё равно его обходят! Слушай, раз уж ты от Дозора, может, всё-таки поможешь мне?",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Go to the gert camp west of here and find out how they are doing all of this!",
+      "ru": "Сходи в лагерь гертов к западу отсюда и выясни, как именно они всё это проворачивают!",
+      "speaker": "Jitak",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "-Good job to all of you! I am proud to say we made the cave road very well.",
+      "ru": "-Молодцы, все до одного! Рад сказать: мы отлично прорыли подземный ход.",
+      "speaker": "Gerten Chief Snaga",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "The town folk at Gylia steal the stuff meant for us for their party, and leave us high and dry!",
+      "ru": "Жители Гилии воруют то, что предназначено нам, ради своих пьянок, а нас оставляют ни с чем!",
+      "speaker": "Gerten Chief Snaga",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "But those dumb over fed town folk did not catch us when we dug our cave road right under their watch house.",
+      "ru": "Но эти тупые, сытые городские даже не заметили, как мы прорыли ход прямо под их сторожкой.",
+      "speaker": "Gerten Chief Snaga",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "With our new way to get to Gylia land we have more stuff than ever!",
+      "ru": "С новым путём в земли Гилии у нас теперь добычи больше, чем когда-либо!",
+      "speaker": "Gerten Chief Snaga",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Human! You're back... and haven't been eaten by a Gert!",
+      "ru": "Человек! Ты вернулся... и тебя даже не сожрал ни один герт!",
+      "speaker": "Jitak",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "What did you discover in the camp?",
+      "ru": "Что ты узнал в лагере?",
+      "speaker": "Jitak",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "A tunnel?! Past Gerten borders? That must be how they're managing to get in and steal my livestock.",
+      "ru": "Туннель?! За гертской границей? Так вот как они пробираются сюда и воруют мой скот.",
+      "speaker": "Jitak",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Look, human. The Watch aren't gonna do anything about this. Please... maybe you can help me.",
+      "ru": "Слушай, человек. Дозор ничего не станет делать. Пожалуйста... может, ты мне поможешь?",
+      "speaker": "Jitak",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "If you can disguise yourself as a Gert maybe you could sneak into their main camp and check out this tunnel?",
+      "ru": "Если сможешь замаскироваться под герта, может, проберёшься в их главный лагерь и проверишь этот туннель?",
+      "speaker": "Jitak",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Okay! As you can see, all Gerts wear a carved pumpkin on their head - something to do with their culture.",
+      "ru": "Так! Как видишь, все герты носят на голове вырезанную тыкву - что-то у них там с культурой связано.",
+      "speaker": "Jitak",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "There's a pumpkin farm near here at [-248, 37, -5425]... maybe you could get one from there?",
+      "ru": "Рядом есть тыквенная ферма, координаты [-248, 37, -5425]... Может, возьмёшь одну оттуда?",
+      "speaker": "Jitak",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "... hello.",
+      "ru": "... привет.",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Hello",
+      "ru": "Привет",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Oh good, were you sent here to be my lunch?",
+      "ru": "О, хорошо! Тебя прислали мне на обед?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Are you here to be my lunch?",
+      "ru": "Ты пришёл ко мне на обед?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Yes",
+      "ru": "Да",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Oh, goodie!",
+      "ru": "О, здорово!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "No",
+      "ru": "Нет",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Oh. What are you then, some kind of snack?",
+      "ru": "А. Тогда ты что, закуска?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I'm a human.",
+      "ru": "Я человек.",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Goodbye",
+      "ru": "Пока",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Are you hungry?",
+      "ru": "Ты голодный?",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I'm a human",
+      "ru": "Я человек",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "A who.. man? Oh, you mean new folk! All the way here in gerten lands? I have not seen one of you here.",
+      "ru": "Че... ловек? А, ты про новый народ! Здесь, на гертских землях? Таких я тут ещё не видел.",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I do want to know how you taste...",
+      "ru": "Мне, конечно, интересно, какой ты на вкус...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "What're you doing here?",
+      "ru": "Что ты тут делаешь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Doing? I am here to guard the orange gourd farm, of course!",
+      "ru": "Делаю? Я охраняю ферму оранжевых тыкв, конечно же!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "This farm right here is where all the gerts get their day mask from!",
+      "ru": "Именно на этой ферме все герты берут свои дневные маски!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Why do gerts wear pumpkins?",
+      "ru": "Почему герты носят тыквы?",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Can I take a pumpkin?",
+      "ru": "Можно взять тыкву?",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "No, new folk. Gerts only in this farm.",
+      "ru": "Нет, новый народ. На ферму можно только гертам.",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "That is why I am put here. To make sure no one gets in.",
+      "ru": "Вот зачем меня сюда и поставили. Чтобы никто лишний не пролез.",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "But but I get so bored... and I really want to eat...",
+      "ru": "Но... но мне так скучно... и есть так хочется...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "I'll pay you to let me take a pumpkin.",
+      "ru": "Я заплачу тебе, если дашь взять тыкву.",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Like, with the clear green rocks?",
+      "ru": "Этими прозрачными зелёными камнями?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "No new folk, gerts do not have any need for green rocks. But...",
+      "ru": "Нет, новый народ, гертам не нужны зелёные камни. Но...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "How about this - I will just eat you!",
+      "ru": "Как тебе такое - я просто тебя съем!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Sure!",
+      "ru": "Конечно!",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Amazing! Here I go!",
+      "ru": "Прекрасно! Тогда я начинаю!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "What? No way.",
+      "ru": "Что? Нет уж.",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Oh...",
+      "ru": "О...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Well, I think I will still eat you. Just how it is!",
+      "ru": "Ну, думаю, я тебя всё равно съем. Такая уж жизнь!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Oh, it is a thing gerts have been doing for as long as we know.",
+      "ru": "О, герты делают так с тех пор, как себя помнят.",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "At wake time each day a gert takes an orange gourd and eats into it a shape that shows their mood!",
+      "ru": "Каждое утро герт берёт оранжевую тыкву и выедает на ней рожицу, которая показывает его настроение!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "It is really nice, is it not?",
+      "ru": "Круто же, правда?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "So why do all the Gerts have the same expression on their pumpkin?",
+      "ru": "Тогда почему у всех гертов одинаковое выражение на тыкве?",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "We all want to eat all the time!",
+      "ru": "Потому что мы все всё время хотим жрать!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "On that note...",
+      "ru": "Кстати об этом...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Oh... goodbye. Come back soon? With some food?",
+      "ru": "О... пока. Возвращайся скоро? С едой?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Oh man, a red tree fruit! I should not leave my post... but I want to eat...",
+      "ru": "Ох, красный фрукт с дерева! Мне нельзя покидать пост... но я так хочу есть...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "It is only a few steps that way...",
+      "ru": "Да там всего пару шагов...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "That tastes so good! What a good red tree fruit.",
+      "ru": "Как вкусно! Хороший красный фрукт с дерева.",
+      "speaker": "Gert Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "... If I wait here, more might fall from the sky!",
+      "ru": "... Если подожду здесь, может, с неба упадут ещё!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Hey! What're you doing in the pumpkin farm at this hour?",
+      "ru": "Эй! Ты что делаешь на тыквенной ферме в такое время?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Wait a minute... why does your pumpkin look like that?!",
+      "ru": "Погоди-ка... а чего у тебя тыква вот так выглядит?!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Why isn't your pumpkin like all the others?",
+      "ru": "Почему твоя тыква не такая, как у всех?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "I'm... not hungry?",
+      "ru": "Я... не голодный?",
+      "speaker": "CHOICE",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "You're not a gert at all! You're a human! Gerts are never not hungry!",
+      "ru": "Ты не герт! Ты человек! Герты всегда голодны!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Sorry, human, but this is private gerten land. And, well... a gert's gotta eat!",
+      "ru": "Извини, человек, но это частные земли гертов. И... гертам надо есть!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Hey! Why are you at the orange gourd farm so late?",
+      "ru": "Эй! Ты чего на ферме оранжевых тыкв так поздно?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Look, we need some gerts for a trip to hunt in the new cave road.",
+      "ru": "Слушай, нам нужны герты, чтобы пойти на охоту через новый подземный ход.",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "You know, the one in the camp just north of the Gylia Watch?",
+      "ru": "Ну, той самой, что в лагере прямо к северу от Дозора Гилии.",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Come over here to help us!",
+      "ru": "Иди сюда, поможешь нам!",
+      "speaker": "Gert Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Ah, a Gert!",
+      "ru": "А, герт!",
+      "speaker": "Jitak",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Oh wait...human, it's you! Wow, you look exactly like a Gert. You're definitely going to blend in at the main camp.",
+      "ru": "Ой, погоди... человек, это ты! Ничего себе, совсем как настоящий герт. В главном лагере точно сойдёшь за своего.",
+      "speaker": "Jitak",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Okay, head over to the main camp at [-4, 33, -5516] and see if you can find the tunnel!",
+      "ru": "Ладно, отправляйся в главный лагерь [-4, 33, -5516] и попробуй найти туннель!",
+      "speaker": "Jitak",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Why aren't you eating?",
+      "ru": "А ты чего не жрёшь?",
+      "speaker": "Gert",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "You're not a gert... you're a human! Get them!",
+      "ru": "Ты не герт... ты человек! Хватайте его!",
+      "speaker": "Gert",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Quiet! We need to try to hear what the bad town folk at the watch house talk about!",
+      "ru": "Тихо! Нам надо подслушать, о чём плохие городские говорят в сторожке!",
+      "speaker": "Gert",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Watch!",
+      "ru": "Смотри!",
+      "speaker": "Gert",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "-silly gerts don't even know we're taking their supplies!",
+      "ru": "-глупые герты даже не знают, что мы крадём их припасы!",
+      "speaker": "Gylia Captain",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Besides, we need those supplies more than they do... especially the alcohol, eh boys?!",
+      "ru": "Да и нам эти припасы нужнее... особенно выпивка, а, парни?!",
+      "speaker": "Gylia Watchman",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "I don't even know why Cinfras keeps on sending all this stuff for the Gerts - can't we just starve 'em out? Screw the lot of 'em, I say!",
+      "ru": "Я вообще не понимаю, зачем Синфрас продолжает слать всё это гертам - нельзя их просто голодом задавить? Да пошли они все, вот что я скажу!",
+      "speaker": "Gylia Watchman",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Damned right, boys! Now look, another shipment just came in - let's skim a little more of the top this time, eh?",
+      "ru": "Чертовски верно, парни! Смотрите, новая поставка пришла. Давайте в этот раз побольше себе приберём, а?",
+      "speaker": "Gylia Captain",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Our kegs have been running a bit low again.",
+      "ru": "Наши бочки опять начали пустеть.",
+      "speaker": "Gylia Captain",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Agh! That stuff is meant to be ours... the peace deal said we have to get some stuff each month!",
+      "ru": "Ай! Это вообще-то наше... По мирному договору нам каждый месяц должны что-то выдавать!",
+      "speaker": "Gert",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Those bad town folk... -you! go tell the chief!",
+      "ru": "Вот же плохие городские... -эй, ты! Беги к вождю!",
+      "speaker": "Gert",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "tell the chief what we heard! It might be time to fight back at the watch house!",
+      "ru": "Расскажи вождю, что мы слышали! Может, пора ударить в ответ по сторожке!",
+      "speaker": "Gert",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Inform the Gerten Chief about the Gylia Watch stealing their supplies.",
+      "ru": "Рассказать гертскому вождю, что Дозор Гилии крадёт их припасы.",
+      "speaker": "CHOICE",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "What? The town folk talk out loud that they take our stuff!",
+      "ru": "Что? Эти городские вслух болтают, что воруют наши вещи!",
+      "speaker": "Gert Battle Chief",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "That is it! We will go to war with them!",
+      "ru": "Всё! Мы идём на войну с ними!",
+      "speaker": "Gert Battle Chief",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Thank you, small gert, that you told me this! We will crush the lazy town folk and eat what is left of them!",
+      "ru": "Спасибо тебе, маленький герт, что рассказал мне это! Мы раздавим ленивых городских, а потом доедим то, что останется!",
+      "speaker": "Gert Battle Chief",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Confront Cikal about Watch's actions.",
+      "ru": "Потребовать у Сикала объяснений за действия Дозора.",
+      "speaker": "CHOICE",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Hey there! How's the - burp - investigation going, heh?",
+      "ru": "Эй, ну как там - отрыжка - расследование, хех?",
+      "speaker": "Cikal",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Eh? Oh, you're back.",
+      "ru": "А? О, ты вернулся.",
+      "speaker": "Cikal",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "What's that?! You're accusing the Watch of stealing supplies from the Gerts? Well I don't even know what to say, I've never even HEARD of such-",
+      "ru": "Что это ещё значит?! Ты обвиняешь Дозор в краже припасов у гертов? Да я вообще не знаю, что на это сказать, я даже НИКОГДА НЕ СЛЫШАЛ о таком-",
+      "speaker": "Cikal",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Actually, you know what? I was going to make up a lie, but why bother? We have been stealing those supplies!",
+      "ru": "Хотя знаешь что? Я уже хотел соврать, но зачем? Да, мы крали эти припасы!",
+      "speaker": "Cikal",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "It's not like the Gerts deserve them - all they do is sit in their little camps talk about how tasty the Watch members must be.",
+      "ru": "Да и не заслуживают герты этих припасов - они только и делают, что сидят в своих лагерях и рассуждают, какие вкусные должны быть бойцы Дозора.",
+      "speaker": "Cikal",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "So if they think they can attack us, the might Gylia Watch, let them try! And you, human, would do well to stay out of the way!",
+      "ru": "Так что если они думают, что смогут напасть на нас, могучий Дозор Гилии, пусть попробуют! А ты, человек, лучше не путайся под ногами!",
+      "speaker": "Cikal",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Looks like the Gerten chiefs are having a meeting, you shouldn't get too close... maybe there's somewhere nearby you can eavesdrop from?",
+      "ru": "Похоже, вожди гертов проводят собрание, тебе не стоит подходить слишком близко... может, поблизости есть место, откуда можно подслушать?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Well, that explains how the Gerts were able to get to the pigs. You should head back to Jitak.",
+      "ru": "Что ж, это объясняет, как герты смогли добраться до свиней. Тебе стоит вернуться к Джитаку.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "The gert is looking at you hungrily... it might be best to leave the conversation?",
+      "ru": "Герт смотрит на тебя голодным взглядом... может, лучше прекратить разговор?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "... Is that a joke? What are you, some kind of snack?",
+      "ru": "... Это что, шутка? Ты что, какая-то закуска?",
+      "speaker": "Стражник-герт",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "The gert has a strange look in his eyes and is inching towards you suspiciously...",
+      "ru": "У герта странный взгляд, и он подозрительно подбирается к тебе...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "The gert is very close to you now and you can see saliva dripping from its teeth...",
+      "ru": "Теперь герт совсем близко к тебе, и видно, как с его зубов капает слюна...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "That was... enlightening, but it didn't get you into the farm. You should look around for a way to distract the gert... maybe get some food?",
+      "ru": "Это было... познавательно, но на ферму ты так и не попал. Нужно отвлечь герта... может, раздобыть еды?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Maybe you can cast a spell to shake an apple down?",
+      "ru": "Может, удастся применить заклинание, чтобы стряхнуть яблоко?",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Looks like the guard is pretty distracted waiting for apples to fall out of the sky... you should be able to sneak into the farm now.",
+      "ru": "Похоже, стражник изрядно отвлёкся, ожидая, когда с неба посыплются яблоки... теперь ты сможешь прокрасться на ферму.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "This pumpkin looks perfect to carve a face into...",
+      "ru": "Эта тыква идеально подходит, чтобы вырезать на ней лицо...",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Carve a facial expression into the pumpkin! Be careful, as the wrong one might expose you as a human!",
+      "ru": "Вырежи на тыкве выражение лица! Будь осторожен - неподходящее может выдать в тебе человека!",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "You should put the mask on before you leave.",
+      "ru": "Тебе стоит надеть маску, прежде чем уходить.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "... That didn't go too well. You should carve another mask.",
+      "ru": "... Не слишком удачно. Нужно вырезать другую маску.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "You should report back to Jitak with your new mask and information about the tunnel.",
+      "ru": "Тебе стоит вернуться к Джитаку с новой маской и сведениями о тоннеле.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Kill Animals every 10 seconds or the gerts will become suspicious!",
+      "ru": "Убивай животных каждые 10 секунд, иначе герты что-то заподозрят!",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "What would you like to do?",
+      "ru": "Что хочешь сделать?",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "New Quest Started: Hunger of the Gerts Part I",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Голод гертов, часть I",
+      "speaker": "",
+      "stage": "Stage 14"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Cikal at [-27, 73, -5413].",
+      "ru": "Поговорить с Сикалом [-27, 73, -5413].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to Jitak at [-174, 32, -5469].",
+      "ru": "Поговорить с Джитаком [-174, 32, -5469].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Inspect the Gerten Forwarding Camp at [-238, 35, -5479].",
+      "ru": "Осмотреть передовой лагерь гертов [-238, 35, -5479].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Investigate the cave in the back of the camp at [-238, 35, -5479].",
+      "ru": "Исследовать пещеру в глубине лагеря [-238, 35, -5479].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Explore the Gerten cave.",
+      "ru": "Исследовать пещеру гертов.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Exit the gerten cave.",
+      "ru": "Покинуть пещеру гертов.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Return to Jitak at [-174, 32, -5469].",
+      "ru": "Вернуться к Джитаку [-174, 32, -5469].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Go to the gerten pumpkin farm at [-248, 37, -5425].",
+      "ru": "Отправиться на тыквенную ферму гертов [-248, 37, -5425].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find a way to distract the Gert Guard with some food nearby.",
+      "ru": "Найти поблизости еду, чтобы отвлечь стражника гертов.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Enter the pumpkin farm at [-248, 37, -5425].",
+      "ru": "Войти на тыквенную ферму [-248, 37, -5425].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Find a pumpkin to use as a gert mask.",
+      "ru": "Найти тыкву, из которой можно сделать маску герта.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Return to Jitak with the gert mask at [-174, 32, -5469].",
+      "ru": "Вернуться к Джитаку с маской герта [-174, 32, -5469].",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Enter the secret gert tunnel at [-4, 33, -5516].",
+      "ru": "Войти в тайный туннель гертов [-4, 33, -5516].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Leave the tunnel and inform someone about the information you overheard.",
+      "ru": "Покинуть туннель и рассказать кому-нибудь о подслушанном.",
+      "stage": "Stage 14"
+    }
+  ],
+  "choices": []
+}

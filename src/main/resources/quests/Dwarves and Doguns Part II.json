@@ -1,0 +1,583 @@
+{
+  "quest": "Dwarves and Doguns Part II",
+  "level": 92,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "dwarves-and-doguns-part-ii",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "You are so young...to be fighting...a war so old. Still...it is appreciated.",
+      "ru": "Ты так молод... а сражаешься... на такой давней войне. И всё же... мы благодарны.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "The war... to you, it would be... ages ago. But... when one has lived for... 5000 years...",
+      "ru": "Эта война... для тебя она была бы... чем-то из глубокой древности. Но... когда живёшь уже... 5000 лет...",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "We have... few options. We need to discuss... the few we have... available.",
+      "ru": "У нас... мало вариантов. Нужно обсудить... те немногие... что ещё остались.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I am sorry... to welcome you all... in such troubled times.",
+      "ru": "Мне жаль... встречать вас... в такое тяжёлое время.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "We thought... we could hide in safety... But there is... no place left to hide.",
+      "ru": "Мы думали... что сможем укрыться в безопасности... Но... прятаться больше негде.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Aval...would have us...leave the Heights... But we...would not survive...in large numbers.",
+      "ru": "Авал... хочет, чтобы мы... покинули Высоты... Но многие из нас... не переживут этого.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "We must... evacuate the settlement... immediately. They... are coming... again.",
+      "ru": "Мы должны... срочно эвакуировать поселение. Они... снова идут...",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Ouch, I'm sorry... Excuse us.",
+      "ru": "Ой, извините... Простите нас.",
+      "speaker": "???",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "We heard what happened <playername>.",
+      "ru": "Мы слышали, что случилось, <playername>.",
+      "speaker": "???",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Please! You all know me, I'm not with the side of the government. Hear me out, we can fix this!",
+      "ru": "Прошу! Вы же меня знаете, я не на стороне правительства. Выслушайте меня, это ещё можно исправить!",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Guards...",
+      "ru": "Стража...",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Stop! I have been hiding from the Dwarves just as much as anyone here, they've been after me too!",
+      "ru": "Стойте! Я прятался от дварфов не меньше, чем любой из вас, они и за мной охотились!",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Why...would we trust... Why...would we trust... you...of all Dwarves?",
+      "ru": "Почему... мы должны... Почему... из всех дварфов... доверять именно тебе?",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "How...could you even help? They...won't listen to you.",
+      "ru": "И чем... ты вообще поможешь? Они... тебя не послушают.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I know all the war strategies and weapon cache locations.",
+      "ru": "Я знаю все военные планы и места, где у них лежат запасы оружия.",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Treason... against your own kind...? How will you... manage this?",
+      "ru": "Предательство... своего народа...? И как ты... собираешься это сделать?",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "The human and I will sneak into the armoury and sabotage their equipment, Korzim will help you Doguns evacuate someplace safer.",
+      "ru": "Мы с человеком проберёмся в оружейную и выведем из строя их снаряжение, а Корзим поможет вам, Догунам, уйти в более безопасное место.",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I am... yet wary of you... but we will... follow your plan... Dwarf. Korzim... lead us... to safety.",
+      "ru": "Я всё ещё... не доверяю тебе... но мы... примем твой план... Дварф. Корзим... веди нас... в безопасное место.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "<playername>, follow the southern road from Rodoroc, towards the Sky Islands entrance. I'll be waiting there for you near the armoury.",
+      "ru": "<playername>, иди по южной дороге из Родорока, в сторону входа на Небесные острова. Я буду ждать тебя там у оружейной.",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Shh! Get behind here, and look towards the armoury doors.",
+      "ru": "Тсс! Спрячься здесь и смотри на двери оружейной.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "We need to sneak in when they aren't looking, got it? But we need to be fast.",
+      "ru": "Нам надо проскочить внутрь, когда они отвернутся, понял? Только быстро.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "If they close that door, we'll only have one option left, and it's a huge risk. Those Dwarven gates are almost unbreakable.",
+      "ru": "Если они закроют ту дверь, останется лишь один способ попасть внутрь, и риск огромен. Эти дварфийские ворота почти невозможно сломать.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Alright boys, let's close this up and head to base B.",
+      "ru": "Так, парни, закрываем всё и двигаем на базу B.",
+      "speaker": "Rodoroc Commander",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Aaah! Charge them! HEY, STOP RIGHT THERE, SOLDIERS!",
+      "ru": "Ааах! В атаку! ЭЙ, СТОЯТЬ, СОЛДАТЫ!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "It's the traitor! Capture them, now! There's only one reason they would be near the armoury!",
+      "ru": "Это предатель! Схватить их, живо! У оружейной их может интересовать только одно!",
+      "speaker": "Commander",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Is that all of them? We're out of danger, at least, but they still shut the door, damn it!",
+      "ru": "Это все? Ну, опасность пока миновала, но дверь они всё равно закрыли, чёрт!",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Gah, all that for nothing! You're not too banged up, are you?",
+      "ru": "Эх, и всё зря! Тебя там не слишком потрепало?",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Well, I said there's another way, but it's not a guarantee. Hurry, follow me.",
+      "ru": "Я говорил, что есть другой путь, но не уверен, что получится. Скорее, за мной.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Urgh, damn it. They almost never bother to close this door, and now of all times...",
+      "ru": "Тьфу, чёрт. Эту дверь они почти никогда не закрывают, и надо же было именно сейчас...",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "There's nothing for it. They'll be sending reinforcements soon, we need a way through here.",
+      "ru": "Ничего не поделаешь. Скоро сюда подтянут подкрепление, нам нужен проход прямо здесь.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Those black bricks look breakable...but that won't solve the door, will it?",
+      "ru": "Эти чёрные кирпичи вроде можно разбить... но дверь-то это не откроет, да?",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Alright, let's destroy these machines! You see the two cannons?",
+      "ru": "Ладно, тогда ломаем эти машины! Видишь две пушки?",
+      "speaker": "Axelus",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "If you use rocks as ammo, you'll destroy the machine it's aiming at, but if you use tnt, it'll selfdestruct. Good luck",
+      "ru": "Если зарядить пушку камнями, она уничтожит машину, в которую нацелена. А если зарядить динамитом, пушка взорвётся сама. Удачи.",
+      "speaker": "Axelus",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Nice work! That will slow them down. We're not done yet, we need to pay the king a visit. Let's head further into Rodoroc.",
+      "ru": "Отличная работа! Это их притормозит. Но мы ещё не закончили, нам нужно навестить короля. Идём дальше в Родорок.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Hurry! Through here, to the power core!",
+      "ru": "Быстро! Сюда, к энергетическому ядру!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "This is a geothermal power core. If we can disrupt it, it should slow them down.",
+      "ru": "Это геотермальное ядро. Если мы его выведем из строя, это должно их замедлить.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "The hypocrites used Dogun magic to make this... It's lucky, honestly. I know how to work it.",
+      "ru": "Эти лицемеры использовали магию Догунов, чтобы собрать это... И нам это только на руку. Я знаю, как оно работает.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "...hell, they already rallied?! That's the army!",
+      "ru": "...чёрт, они уже собрались?! Это армия!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "That sounds like an entire battalion!! How did they know I was going after this?",
+      "ru": "Звучит как целый батальон!! Откуда они узнали, что я иду именно сюда?",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Dogun magic is slow! Keep me defended, this'll take awhile!",
+      "ru": "Магия догунов действует медленно! Прикрывай меня, мне нужно время!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Grr, this is harder than I thought!",
+      "ru": "Грр, это сложнее, чем я думал!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Ah! Don't let them get too close!",
+      "ru": "Ах! Не подпускай их слишком близко!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Look, look! It's working!",
+      "ru": "Смотри, смотри! Работает!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "The Rodoroc Power Core has been disrupted!",
+      "ru": "Энергетическое ядро Родорока выведено из строя!",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I hate that you're having to fight my people, but I wouldn't be asking for help if it weren't needed.",
+      "ru": "Мне тяжело видеть, как ты сражаешься с моим народом. Но я бы не просил помощи, если бы она не была нужна.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Hm...the slums should be behind this wall here. We'll lose them there.",
+      "ru": "Хм... Трущобы должны быть за этой стеной. Там оторвёмся от погони.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "The power's down, but...that cannon should do to get us through. You know how to operate it, right?",
+      "ru": "Питание отключено, но... та пушка должна пробить нам путь. Ты умеешь ей пользоваться, да?",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Dwarvern society isn't as great as they make it out to be. The poorest are hidden away.",
+      "ru": "Дварфийское общество вообще не такое уж прекрасное, как они рассказывают. Бедняков тут просто прячут подальше.",
+      "speaker": "Axelus",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "The coalition has helped these people through some hard times, we can trust them.",
+      "ru": "Коалиция уже помогала этим людям пережить плохие времена, им можно доверять.",
+      "speaker": "Axelus",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "There's a reason I brought us here. The sewer system is connected to the royal palace. All the way to the kings bathroom.",
+      "ru": "Я не просто так привёл нас сюда. Канализация соединена с королевским дворцом. Прямо до ванной самого короля.",
+      "speaker": "Axelus",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "We need to find a way to ignite this explosive. Can you take a look around?",
+      "ru": "Нам нужно как-то поджечь эту взрывчатку. Можешь оглядеться?",
+      "speaker": "Axelus",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "If we can convince the king that it's not worth the fight, he may back down.",
+      "ru": "Если нам удастся убедить короля, что война того не стоит, он может отступить.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "I'm a little ashamed to admit I know my way round the sewers by now.",
+      "ru": "Немного стыдно признавать, но я уже отлично ориентируюсь в местной канализации.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "You have to understand.. The people truly think the Doguns are evil incarnate. But the king knows better.",
+      "ru": "Пойми... Народ действительно считает догунов воплощением зла. Но король знает правду.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Don't let the guards catch you. Stay out of sight, got it?",
+      "ru": "Не дай стражникам тебя поймать. Не попадайся на глаза, понял?",
+      "speaker": "Axelus",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "I can't say I'm surprised, Axelus. Guards, let them be.",
+      "ru": "Не могу сказать, что удивлён, Акселус. Стража, не трогайте их.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "You know why I'm here, father. We haven't got any more chances to stop this.",
+      "ru": "Ты знаешь, зачем я пришёл, отец. Другого шанса остановить это у нас уже не будет.",
+      "speaker": "Axelus",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Axelus, you know why we have to maintain the lie. Think about the people, how they would react.",
+      "ru": "Акселус, ты знаешь, почему мы обязаны поддерживать эту ложь. Подумай о народе, о том, как они отреагируют.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "We can not be responsible for the lies of our ancestors! This is ridiculous and you know it!",
+      "ru": "Мы не можем отвечать за ложь предков! Это нелепо, и ты сам это знаешь!",
+      "speaker": "Axelus",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Axelus, if the people found out, everything would descend to chaos. There would be riots, revolutions!",
+      "ru": "Акселус, если люди узнают правду, всё скатится в хаос. Будут бунты, революции!",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "If you hadn't turned traitor and gone gallivanting off with the Doguns, you would be in a better position to convince me.",
+      "ru": "Если бы ты не стал предателем и не умотал шататься с Догунами, у тебя было бы куда больше шансов меня убедить.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "As it is now, you are too little and too late. The war has already begun.",
+      "ru": "Теперь твои попытки уже ничего не изменят. Слишком поздно. Война началась.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "The armoury that a certain someone decided to sabotage won't make any difference.",
+      "ru": "И диверсия, которую кое-кто устроил в оружейной, уже ничего не изменит.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "You will commit genocide so you don't have to face the consequences of your lies?",
+      "ru": "То есть ты устроишь геноцид только ради того, чтобы не отвечать за собственную ложь?",
+      "speaker": "Axelus",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "I will be the hero of our nation, and my name will forever be remembered as the King who brought peace.",
+      "ru": "Я стану героем нашего народа. Моё имя навсегда запомнят как имя короля, который принёс мир.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "I have nothing left to say to you. See yourselves out behind the throne. I'll let you use the trading tunnel to Thanos in the southern caves, if you just step back and let me handle things.",
+      "ru": "Мне больше нечего тебе сказать. Уходите через проход за троном. Я разрешу вам воспользоваться торговым туннелем до Таноса в южных пещерах, если просто отступите и дадите мне сделать всё самому.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "I'm not giving up on this. I'm going back in, I know he can be reasoned with!",
+      "ru": "Я не сдамся. Я вернусь туда, я знаю, его ещё можно убедить!",
+      "speaker": "Axelus",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Give this letter to Korzim in the Dogun village when you reach level 93.",
+      "ru": "Передай это письмо Корзиму в деревне Догунов, когда будешь 93 уровня.",
+      "speaker": "Axelus",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "I'm going to have one last talk with my father.",
+      "ru": "Я ещё раз поговорю с отцом. В последний раз.",
+      "speaker": "Axelus",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "The Royal Guards escort you and Axelus out of the palace.",
+      "ru": "Королевская стража провожает тебя и Акселуса из дворца.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "New Quest Started: Dwarves and Doguns Part II",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Дварфы и догуны, часть II",
+      "speaker": "",
+      "stage": "Stage 12"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Return to the Dogun village with a Dogun Badge of Trust and talk to the leader of the town",
+      "ru": "Вернуться в деревню догунов со знаком их доверия и поговорить с вождём.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Enter the meeting.",
+      "ru": "Присоединиться к собранию.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Meet up with Axelus at [1383, 13, -5088].",
+      "ru": "Встретиться с Акселусом [1383, 13, -5088].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Defeat the Rodoroc Guards outside the armory.",
+      "ru": "Победить стражников Родорока возле оружейной.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find a way to break through the black bricks outside the wooden door.",
+      "ru": "Найти способ пробить чёрную кладку у деревянной двери.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Sabotage the Dwarven Armoury.",
+      "ru": "Устроить диверсию в оружейной дварфов.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Follow Axelus deeper into Rodoroc and destroy the power source of the city, the Rodoroc Power Core.",
+      "ru": "Следовать за Акселусом вглубь Родорока и уничтожить источник энергии города, энергетическое ядро Родорока.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Explore the Slum of Rodoroc.",
+      "ru": "Исследовать трущобы Родорока.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find a way to enter the sewer system.",
+      "ru": "Найти вход в канализацию.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Enter the Royal Palace through the sewer pipe and find the king.",
+      "ru": "Проникнуть в королевский дворец через канализацию и найти короля.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Sneak past the guards and talk to the Dwarven King.",
+      "ru": "Прокрасться мимо стражников и поговорить с королём дварфов.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Exit the palace",
+      "ru": "Покинуть дворец.",
+      "stage": "Stage 12"
+    }
+  ],
+  "choices": []
+}

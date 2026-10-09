@@ -1,0 +1,187 @@
+{
+  "quest": "Maltic's Well",
+  "level": 10,
+  "difficulty": "Hard",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "maltic-s-well",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Please help us! We called for a Ragni guard days ago, but Humans tend to forget this little village.",
+      "ru": "Пожалуйста, помоги нам! Мы звали стражу из Рагни ещё несколько дней назад, но люди вечно забывают про нашу маленькую деревню.",
+      "speaker": "Rynend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Last week, an evil witch found refuge in our old well. Normally this wouldn't be a problem...",
+      "ru": "На прошлой неделе в нашем старом колодце поселилась злая ведьма. Обычно это ещё полбеды...",
+      "speaker": "Rynend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "But she's lured my child into the well! My only child! He was born in Wynn, that makes him a Wynn citizen!",
+      "ru": "Но она заманила в колодец моего ребёнка! Моего единственного ребёнка! Он родился в Винне, а значит он гражданин Винна!",
+      "speaker": "Rynend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Please do something! I know Maltic isn't of importance to you humans, being a Villager settlement, but...my son!",
+      "ru": "Сделай хоть что-нибудь! Я знаю, что Малтик для вас, людей, не особо важен, раз это поселение вилладжеров, но... мой сын!",
+      "speaker": "Rynend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "One of these tunnels must be the correct one...",
+      "ru": "Один из этих туннелей точно правильный...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Help me! Someone! The witch is being mean!!",
+      "ru": "Помогите! Кто-нибудь! Ведьма обижает меня!!",
+      "speaker": "Child",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I wondered when they'd send the famous Ragni guards. You'll never get me!",
+      "ru": "А я всё думала, когда же пришлют знаменитую стражу Рагни. Вам меня не достать!",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I don't know why they call me a witch. Magic is everywhere, you know. This one's father made fun of my looks, so I'll turn his son into a Grook!",
+      "ru": "Я вообще не знаю, почему меня зовут ведьмой. Магия, вообще-то, повсюду. Папаша этого мальчишки насмехался над моей внешностью, так что я превращу его сына в Грука!",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Treat me like a witch, I'll act like one, darn it! You'll have to pass through my dastardly magical defenses to find me!",
+      "ru": "Раз уж ко мне относятся как к ведьме, то я и буду ведьмой, чёрт возьми! Чтобы меня найти, тебе придётся пройти через мои коварные магические ловушки!",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Oh...drat. I never could get that spell right. Well, now you'll have to guess the way, um, you fool! Turn back now, for, uh...",
+      "ru": "Ох... блин. Это заклинание у меня никогда толком не выходило. Ну ладно, теперь тебе придётся самому угадывать дорогу, э-э, дурень! Поворачивай назад, а не то...",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "...for if you choose the wrong door, you'll be sent to a beast, a beast most foul! The, um...the Beast-What-Eats-Ragni-Guards-For-Brunch!! Totally!",
+      "ru": "...если выберешь не ту дверь, попадёшь к чудовищу, самому мерзкому из чудовищ! К, эм... Зверю-Который-Жрёт-Стражу-Рагни-На-Завтрак!! Вот так вот!",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Oh...didn't think that'd fool you. You know, I'm really not all that good at magic. I just like wearing pointy hats, and have warts.",
+      "ru": "Ох... не думала, что ты попадёшься на эту уловку. Знаешь, я не слишком-то хорошо владею магией. Просто люблю остроконечные шляпы, да ещё у меня бородавки.",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Maybe if the people of this village weren't so mean to me, I wouldn't have been forced to live here.",
+      "ru": "Может, если бы жители деревни не обращались со мной так жестоко, мне бы не пришлось жить здесь.",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "I know it's a crime, but his father and the rest of the villagers here hunt me like I'm a rabid dog!",
+      "ru": "Я знаю, это преступление, но его отец и остальные местные гоняют меня так, будто я бешеная собака!",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I wasn't really going to turn this boy into a Grook. I doubt I could even make him grow one feather. I mean, watch...",
+      "ru": "Я вообще не собиралась по-настоящему превращать этого мальчишку в Грука. Сомневаюсь, что я даже одно перо ему смогла бы вырастить. Ну вот, смотри...",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Aiyeeee! What's happening to meeee?!",
+      "ru": "АААА! Что со мной происходит?!",
+      "speaker": "Child",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "...oh my gosh it worked???? It worked, I did a spell for once in my miserable life!!",
+      "ru": "...о боже, получилось???? Получилось, хоть раз в своей жалкой жизни я сумела сотворить заклинание!!",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "W-Wait, that's not good at all, you're gonna... No! You won't take me out of here alive!",
+      "ru": "П-постой, это совсем нехорошо, ты сейчас... Нет! Живой я вам не дамся!",
+      "speaker": "Witch",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Thank you for saving me from the witch... She was nice at first and made me cookies, but I want to go home now.",
+      "ru": "Спасибо, что спас меня от ведьмы... Сначала она была доброй и даже печеньки мне делала, но теперь я хочу домой.",
+      "speaker": "Child",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Oh my son! What happened down there? Erh, not a witch, you say?",
+      "ru": "Ох, мой сын! Что там внизу случилось? Эм, хочешь сказать, это была не ведьма?",
+      "speaker": "Rynend",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Preposterous! She wore a hat and had warts! I guess it's too late now... Thank you so much for your help.",
+      "ru": "Да быть такого не может! На ней была шляпа и у неё были бородавки! Хотя теперь уже поздно... Огромное спасибо тебе за помощь.",
+      "speaker": "Rynend",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I have very little to offer you as reward... I hope my appreciation will be more than enough!",
+      "ru": "Мне почти нечем тебя наградить... Надеюсь, моей благодарности тебе хватит!",
+      "speaker": "Rynend",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "New Quest Started: Maltic's Well",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Колодец Малтика",
+      "speaker": "",
+      "stage": "Stage 2"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Rynend located in Maltic at [-568, 48, -1922]",
+      "ru": "Поговорить с Ринендом в Малтике [-568, 48, -1922].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Investigate the old Maltic well at [-564, 48, -1927] and bring [1 Witch's Empty Bottle] to Rynend",
+      "ru": "Осмотреть старый колодец Малтика и принести Риненду [1 Пустую бутылку ведьмы] [1 Witch's Empty Bottle].",
+      "stage": "Stage 2"
+    }
+  ],
+  "choices": []
+}

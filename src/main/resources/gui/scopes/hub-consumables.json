@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-consumables",
+  "scopes": [
+    {
+      "id": "consumable-db8cbf9ffeb5e4e6",
+      "match": {
+        "title": "Rune of Stamina",
+        "anchors": [],
+        "priority": 4800
+      },
+      "title": {
+        "id": "title",
+        "en": "Rune of Stamina",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "consumable-c163d4035fb757ab",
+          "en": "§7§7Grants §fSpeed I §7for §f<num> minutes§7.",
+          "ru": "§7Даёт §fСкорость I §7на §f<num> мин.§7."
+        },
+        {
+          "id": "consumable-b03349b87a1d8edf",
+          "en": "§7§7The §fsprint §7bonus will start at its",
+          "ru": "§7Бонус §fзапаса спринта §7начинается с"
+        },
+        {
+          "id": "consumable-f5c380b3d568bad0",
+          "en": "§7§7lowest value, and will increase",
+          "ru": "§7минимального значения и растёт"
+        },
+        {
+          "id": "consumable-af1a0b8738ea4827",
+          "en": "§7§7over the effect's duration.",
+          "ru": "§7в течение действия эффекта."
+        },
+        {
+          "id": "consumable-6f633edf23d6a96b",
+          "en": "§7§7This item's effects will be §fhalved",
+          "ru": "§7Эффекты этого предмета §fвдвое слабее"
+        },
+        {
+          "id": "consumable-0f248f8f64e343a5",
+          "en": "§7§7outside of Festival of the Bonfire§7.",
+          "ru": "§7вне §#FE7A03Фестиваля Костра§7."
+        },
+        {
+          "id": "consumable-7555af5cfde9e1ae",
+          "en": "§7§c<num>% §7to §a<num>% §7Sprint",
+          "ru": "§c<num>% §7до §a<num>% §7Запаса Спринта"
+        },
+        {
+          "id": "consumable-d398720ab076f5c0",
+          "en": "§7§c<num>% §7to §a<num>% §7Sprint Regen",
+          "ru": "§c<num>% §7до §a<num>% §7Восстановления Спринта"
+        },
+        {
+          "id": "consumable-79004606fac4be68",
+          "en": "§7Rare Mobility Trinket",
+          "ru": "§dРедкий Аксессуар Подвижности"
+        },
+        {
+          "id": "consumable-3cf21ff2c0f60b02",
+          "en": "§7Festival of the Bonfire",
+          "ru": "§#FE7A03Фестиваль Костра"
+        },
+        {
+          "id": "consumable-973932f11465dba4",
+          "en": "§7§8Ignite your veins with warm endurance,",
+          "ru": "§8Наполните свои вены согревающей стойкостью,"
+        },
+        {
+          "id": "consumable-b243adc1ccafeaaf",
+          "en": "§7§8keep on moving step by step.",
+          "ru": "§8продолжайте идти, шаг за шагом."
+        }
+      ]
+    }
+  ]
+}

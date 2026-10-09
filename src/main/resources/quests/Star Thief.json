@@ -1,0 +1,231 @@
+{
+  "quest": "Star Thief",
+  "level": 42,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "star-thief",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "What's that noise...?",
+      "ru": "Что это за шум...?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "It's coming from the west.",
+      "ru": "Он доносится с запада.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "What was that? It seems to have landed nearby, maybe you should go investigate.",
+      "ru": "Что это было? Похоже, оно упало где-то рядом, может, стоит проверить.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Hey you! Human. What are you doing here?",
+      "ru": "Эй, ты! Человек. Ты что тут делаешь?",
+      "speaker": "Agent",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Under Villager law any extra terrestrial or extra voidal entities are prohibited and owned by the state.",
+      "ru": "По законам вилладжеров любые внеземные и внепустотные сущности запрещены и считаются собственностью государства.",
+      "speaker": "Agent",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Seeing as you are new to the land, I can't see you being prosecuted, especially a Ragni Guard.",
+      "ru": "Раз уж ты здесь новенький, вряд ли тебя за это будут судить. Тем более ты страж из Рагни.",
+      "speaker": "Agent",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "This meteor is different to what we've seen before. We suspect that direct contact with the meteor is dangerous.",
+      "ru": "Этот метеор отличается от всего, что мы видели раньше. Мы подозреваем, что прямой контакт с ним опасен.",
+      "speaker": "Agent",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "The magical radiation doesn't seem to be affecting you at all though. Do you not feel anything? Perhaps you could help me locate it.",
+      "ru": "Но магическое излучение, похоже, на тебя вообще не действует. Ты совсем ничего не чувствуешь? Может, поможешь мне его найти.",
+      "speaker": "Agent",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "It seems like the meteor crashed into a cave.",
+      "ru": "Похоже, метеор рухнул в пещеру.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "The meteor shard is radiating an odd and unfamiliar magical energy",
+      "ru": "Осколок метеора излучает странную и незнакомую магическую энергию",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "It's... mine.",
+      "ru": "Это... моё.",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "The cave is collapsing! Find a way out, quickly.",
+      "ru": "Пещера рушится! Быстро ищи выход.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Someone stole a piece of meteorite. It's unstable and dangerous...",
+      "ru": "Кто-то утащил кусок метеорита. Он нестабильный и опасный...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "A weird trail leads off to the east, maybe you can retrieve the meteor if you follow it?",
+      "ru": "Странный след уходит на восток. Может, если пойдёшь по нему, получится вернуть метеорит?",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": ".̸.̴.̵.̴ I can't control myself...f̸j̷f̴j̵f̵j̴ This rock...",
+      "ru": ".̸.̴.̵.̴ Я не могу себя контролировать...ж̸ж̷ж̴ж̵ж̵ж̴ Этот камень...",
+      "speaker": "Thief",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "What is... this feeling... No I won't listen..",
+      "ru": "Что это... за чувство... Нет, я не буду слушать...",
+      "speaker": "Thief",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I can't... control... my mind... e̴n̴d̴ ̷m̶e̷.̷",
+      "ru": "Я не могу... контролировать... свой разум... п̴о̴к̴о̷н̶ч̷и̷ со мной.",
+      "speaker": "Thief",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Hello again. Did you find the meteor down there? Why on earth are you holding some?!",
+      "ru": "Снова привет. Ты нашёл там внизу метеорит? И какого чёрта ты держишь кусок в руках?!",
+      "speaker": "Agent",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I see. This material is incredibly rare and magically powerful. Meteors fall all over Gavel and come in a variety of colours and potency.",
+      "ru": "Понятно. Этот материал невероятно редкий и обладает огромной магической силой. Метеоры падают по всему Гавелу и различаются цветом и мощью.",
+      "speaker": "Agent",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "We don't fully understand them, but we know they are dangerous. Every scientist who has studied them has lost their minds.",
+      "ru": "Мы ещё не до конца их понимаем, но знаем одно - они опасны. Каждый учёный, который их изучал, в итоге терял рассудок.",
+      "speaker": "Agent",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "The meteors hold many secrets and powers, maybe the ones we need to end your war. Thank you, here's a small reward for helping us.",
+      "ru": "В метеорах скрыто немало тайн и могущественных сил. Возможно, с их помощью удастся положить конец вашей войне. Спасибо, вот небольшая награда за помощь.",
+      "speaker": "Agent",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Hello again. Did you find the meteor down there? No? Maybe go back and try to find it?",
+      "ru": "Снова привет. Ну что, нашёл там внизу метеорит? Нет? Тогда вернись и попробуй ещё раз.",
+      "speaker": "Agent",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Remember... Just follow the white trail leading to the cave!",
+      "ru": "Помни... просто иди по белому следу, который ведёт к пещере!",
+      "speaker": "Agent",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "New Quest Started: Star Thief",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Похититель звёзд",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "What is... this feeling… No I won't listen..",
+      "ru": "Что это... за чувство... Нет, я не стану слушать...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Look into the rumors of strange weather near the Imal Inn at [-2018, 43, -4822].",
+      "ru": "Проверить слухи о странной погоде возле гостиницы \"Имал\" [-2018, 43, -4822].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find the meteor's crash site at [-2122, 53, -4880].",
+      "ru": "Найти место падения метеора [-2122, 53, -4880].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Explore the cave that the meteor crashed into.",
+      "ru": "Исследовать пещеру, в которую упал метеор.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Escape the collapsing cave.",
+      "ru": "Сбежать из обрушивающейся пещеры.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Follow the trail leading off to the east from the cave.",
+      "ru": "Идти по следу, ведущему от пещеры на восток.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Explore the cave at [-1876, 42, -4834] and defeat the insane thief.",
+      "ru": "Исследовать пещеру и победить обезумевшего вора [-1876, 42, -4834].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Bring back the piece of meteor to the secret agent at [-2120, 54, -4887].",
+      "ru": "Принести осколок метеора тайному агенту [-2120, 54, -4887].",
+      "stage": "Stage 7"
+    }
+  ],
+  "choices": []
+}

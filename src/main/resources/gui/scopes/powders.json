@@ -1,0 +1,1417 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "powders",
+  "scopes": [
+    {
+      "id": "air-powder-i",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Air Powder I",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Air Powder I",
+        "ru": "<em> Порошок Воздуха I"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AAAAAA■§8■■■■■■§7]"
+        },
+        {
+          "id": "powder-9d753e617661",
+          "en": "- <num><num> <em> Air Damage",
+          "ru": "§#AAAAAA- §7<num><num> §f<em> Воздушного §7Урона"
+        },
+        {
+          "id": "powder-15ef3202c0f3",
+          "en": "- <num>% <em> Neutral to <em> Air",
+          "ru": "§#AAAAAA- §7<num>% §6<em> Нейтрального §7в §f<em> Воздушный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AAAAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#AAAAAA- §7<num> §f<em> Воздушной §7Защиты"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AAAAAA- §7<num> §c<em> Огненной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "air-powder-ii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Air Powder II",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Air Powder II",
+        "ru": "<em> Порошок Воздуха II"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AAAAAA■■§8■■■■■§7]"
+        },
+        {
+          "id": "powder-9d753e617661",
+          "en": "- <num><num> <em> Air Damage",
+          "ru": "§#AAAAAA- §7<num><num> §f<em> Воздушного §7Урона"
+        },
+        {
+          "id": "powder-15ef3202c0f3",
+          "en": "- <num>% <em> Neutral to <em> Air",
+          "ru": "§#AAAAAA- §7<num>% §6<em> Нейтрального §7в §f<em> Воздушный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AAAAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#AAAAAA- §7<num> §f<em> Воздушной §7Защиты"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AAAAAA- §7<num> §c<em> Огненной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "air-powder-iii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Air Powder III",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Air Powder III",
+        "ru": "<em> Порошок Воздуха III"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AAAAAA■■■§8■■■■§7]"
+        },
+        {
+          "id": "powder-9d753e617661",
+          "en": "- <num><num> <em> Air Damage",
+          "ru": "§#AAAAAA- §7<num><num> §f<em> Воздушного §7Урона"
+        },
+        {
+          "id": "powder-15ef3202c0f3",
+          "en": "- <num>% <em> Neutral to <em> Air",
+          "ru": "§#AAAAAA- §7<num>% §6<em> Нейтрального §7в §f<em> Воздушный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AAAAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#AAAAAA- §7<num> §f<em> Воздушной §7Защиты"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AAAAAA- §7<num> §c<em> Огненной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "air-powder-iv",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Air Powder IV",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Air Powder IV",
+        "ru": "<em> Порошок Воздуха IV"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AAAAAA■■■■§8■■■§7]"
+        },
+        {
+          "id": "powder-9d753e617661",
+          "en": "- <num><num> <em> Air Damage",
+          "ru": "§#AAAAAA- §7<num><num> §f<em> Воздушного §7Урона"
+        },
+        {
+          "id": "powder-15ef3202c0f3",
+          "en": "- <num>% <em> Neutral to <em> Air",
+          "ru": "§#AAAAAA- §7<num>% §6<em> Нейтрального §7в §f<em> Воздушный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AAAAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#AAAAAA- §7<num> §f<em> Воздушной §7Защиты"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AAAAAA- §7<num> §c<em> Огненной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "air-powder-v",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Air Powder V",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Air Powder V",
+        "ru": "<em> Порошок Воздуха V"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AAAAAA■■■■■§8■■§7]"
+        },
+        {
+          "id": "powder-9d753e617661",
+          "en": "- <num><num> <em> Air Damage",
+          "ru": "§#AAAAAA- §7<num><num> §f<em> Воздушного §7Урона"
+        },
+        {
+          "id": "powder-15ef3202c0f3",
+          "en": "- <num>% <em> Neutral to <em> Air",
+          "ru": "§#AAAAAA- §7<num>% §6<em> Нейтрального §7в §f<em> Воздушный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AAAAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#AAAAAA- §7<num> §f<em> Воздушной §7Защиты"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AAAAAA- §7<num> §c<em> Огненной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "air-powder-vi",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Air Powder VI",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Air Powder VI",
+        "ru": "<em> Порошок Воздуха VI"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AAAAAA■■■■■■§8■§7]"
+        },
+        {
+          "id": "powder-9d753e617661",
+          "en": "- <num><num> <em> Air Damage",
+          "ru": "§#AAAAAA- §7<num><num> §f<em> Воздушного §7Урона"
+        },
+        {
+          "id": "powder-15ef3202c0f3",
+          "en": "- <num>% <em> Neutral to <em> Air",
+          "ru": "§#AAAAAA- §7<num>% §6<em> Нейтрального §7в §f<em> Воздушный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AAAAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#AAAAAA- §7<num> §f<em> Воздушной §7Защиты"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AAAAAA- §7<num> §c<em> Огненной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "earth-powder-i",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Earth Powder I",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Earth Powder I",
+        "ru": "<em> Порошок Земли I"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#55FF55■§8■■■■■■§7]"
+        },
+        {
+          "id": "powder-9648ac9d2891",
+          "en": "- <num><num> <em> Earth Damage",
+          "ru": "§#55FF55- §7<num><num> §2<em> Земляного §7Урона"
+        },
+        {
+          "id": "powder-48c874cf0e47",
+          "en": "- <num>% <em> Neutral to <em> Earth",
+          "ru": "§#55FF55- §7<num>% §6<em> Нейтрального §7в §2<em> Земляной"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#55FF55- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#55FF55- §7<num> §2<em> Земляной §7Защиты"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#55FF55- §7<num> §f<em> Воздушной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "earth-powder-ii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Earth Powder II",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Earth Powder II",
+        "ru": "<em> Порошок Земли II"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#55FF55■■§8■■■■■§7]"
+        },
+        {
+          "id": "powder-9648ac9d2891",
+          "en": "- <num><num> <em> Earth Damage",
+          "ru": "§#55FF55- §7<num><num> §2<em> Земляного §7Урона"
+        },
+        {
+          "id": "powder-48c874cf0e47",
+          "en": "- <num>% <em> Neutral to <em> Earth",
+          "ru": "§#55FF55- §7<num>% §6<em> Нейтрального §7в §2<em> Земляной"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#55FF55- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#55FF55- §7<num> §2<em> Земляной §7Защиты"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#55FF55- §7<num> §f<em> Воздушной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "earth-powder-iii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Earth Powder III",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Earth Powder III",
+        "ru": "<em> Порошок Земли III"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#55FF55■■■§8■■■■§7]"
+        },
+        {
+          "id": "powder-9648ac9d2891",
+          "en": "- <num><num> <em> Earth Damage",
+          "ru": "§#55FF55- §7<num><num> §2<em> Земляного §7Урона"
+        },
+        {
+          "id": "powder-48c874cf0e47",
+          "en": "- <num>% <em> Neutral to <em> Earth",
+          "ru": "§#55FF55- §7<num>% §6<em> Нейтрального §7в §2<em> Земляной"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#55FF55- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#55FF55- §7<num> §2<em> Земляной §7Защиты"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#55FF55- §7<num> §f<em> Воздушной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "earth-powder-iv",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Earth Powder IV",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Earth Powder IV",
+        "ru": "<em> Порошок Земли IV"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#55FF55■■■■§8■■■§7]"
+        },
+        {
+          "id": "powder-9648ac9d2891",
+          "en": "- <num><num> <em> Earth Damage",
+          "ru": "§#55FF55- §7<num><num> §2<em> Земляного §7Урона"
+        },
+        {
+          "id": "powder-48c874cf0e47",
+          "en": "- <num>% <em> Neutral to <em> Earth",
+          "ru": "§#55FF55- §7<num>% §6<em> Нейтрального §7в §2<em> Земляной"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#55FF55- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#55FF55- §7<num> §2<em> Земляной §7Защиты"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#55FF55- §7<num> §f<em> Воздушной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "earth-powder-v",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Earth Powder V",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Earth Powder V",
+        "ru": "<em> Порошок Земли V"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#55FF55■■■■■§8■■§7]"
+        },
+        {
+          "id": "powder-9648ac9d2891",
+          "en": "- <num><num> <em> Earth Damage",
+          "ru": "§#55FF55- §7<num><num> §2<em> Земляного §7Урона"
+        },
+        {
+          "id": "powder-48c874cf0e47",
+          "en": "- <num>% <em> Neutral to <em> Earth",
+          "ru": "§#55FF55- §7<num>% §6<em> Нейтрального §7в §2<em> Земляной"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#55FF55- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#55FF55- §7<num> §2<em> Земляной §7Защиты"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#55FF55- §7<num> §f<em> Воздушной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "earth-powder-vi",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Earth Powder VI",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Earth Powder VI",
+        "ru": "<em> Порошок Земли VI"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#55FF55■■■■■■§8■§7]"
+        },
+        {
+          "id": "powder-9648ac9d2891",
+          "en": "- <num><num> <em> Earth Damage",
+          "ru": "§#55FF55- §7<num><num> §2<em> Земляного §7Урона"
+        },
+        {
+          "id": "powder-48c874cf0e47",
+          "en": "- <num>% <em> Neutral to <em> Earth",
+          "ru": "§#55FF55- §7<num>% §6<em> Нейтрального §7в §2<em> Земляной"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#55FF55- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#55FF55- §7<num> §2<em> Земляной §7Защиты"
+        },
+        {
+          "id": "powder-4b3bcd6a78a2",
+          "en": "- <num> <em> Air Defence",
+          "ru": "§#55FF55- §7<num> §f<em> Воздушной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "fire-powder-i",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Fire Powder I",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Fire Powder I",
+        "ru": "<em> Порошок Огня I"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AA0000■§8■■■■■■§7]"
+        },
+        {
+          "id": "powder-384b31fbb35e",
+          "en": "- <num><num> <em> Fire Damage",
+          "ru": "§#AA0000- §7<num><num> §c<em> Огненного §7Урона"
+        },
+        {
+          "id": "powder-15d1b4c5e69d",
+          "en": "- <num>% <em> Neutral to <em> Fire",
+          "ru": "§#AA0000- §7<num>% §6<em> Нейтрального §7в §c<em> Огненный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AA0000- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AA0000- §7<num> §c<em> Огненной §7Защиты"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#AA0000- §7<num> §b<em> Водной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "fire-powder-ii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Fire Powder II",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Fire Powder II",
+        "ru": "<em> Порошок Огня II"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AA0000■■§8■■■■■§7]"
+        },
+        {
+          "id": "powder-384b31fbb35e",
+          "en": "- <num><num> <em> Fire Damage",
+          "ru": "§#AA0000- §7<num><num> §c<em> Огненного §7Урона"
+        },
+        {
+          "id": "powder-15d1b4c5e69d",
+          "en": "- <num>% <em> Neutral to <em> Fire",
+          "ru": "§#AA0000- §7<num>% §6<em> Нейтрального §7в §c<em> Огненный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AA0000- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AA0000- §7<num> §c<em> Огненной §7Защиты"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#AA0000- §7<num> §b<em> Водной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "fire-powder-iii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Fire Powder III",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Fire Powder III",
+        "ru": "<em> Порошок Огня III"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AA0000■■■§8■■■■§7]"
+        },
+        {
+          "id": "powder-384b31fbb35e",
+          "en": "- <num><num> <em> Fire Damage",
+          "ru": "§#AA0000- §7<num><num> §c<em> Огненного §7Урона"
+        },
+        {
+          "id": "powder-15d1b4c5e69d",
+          "en": "- <num>% <em> Neutral to <em> Fire",
+          "ru": "§#AA0000- §7<num>% §6<em> Нейтрального §7в §c<em> Огненный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AA0000- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AA0000- §7<num> §c<em> Огненной §7Защиты"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#AA0000- §7<num> §b<em> Водной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "fire-powder-iv",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Fire Powder IV",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Fire Powder IV",
+        "ru": "<em> Порошок Огня IV"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AA0000■■■■§8■■■§7]"
+        },
+        {
+          "id": "powder-384b31fbb35e",
+          "en": "- <num><num> <em> Fire Damage",
+          "ru": "§#AA0000- §7<num><num> §c<em> Огненного §7Урона"
+        },
+        {
+          "id": "powder-15d1b4c5e69d",
+          "en": "- <num>% <em> Neutral to <em> Fire",
+          "ru": "§#AA0000- §7<num>% §6<em> Нейтрального §7в §c<em> Огненный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AA0000- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AA0000- §7<num> §c<em> Огненной §7Защиты"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#AA0000- §7<num> §b<em> Водной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "fire-powder-v",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Fire Powder V",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Fire Powder V",
+        "ru": "<em> Порошок Огня V"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AA0000■■■■■§8■■§7]"
+        },
+        {
+          "id": "powder-384b31fbb35e",
+          "en": "- <num><num> <em> Fire Damage",
+          "ru": "§#AA0000- §7<num><num> §c<em> Огненного §7Урона"
+        },
+        {
+          "id": "powder-15d1b4c5e69d",
+          "en": "- <num>% <em> Neutral to <em> Fire",
+          "ru": "§#AA0000- §7<num>% §6<em> Нейтрального §7в §c<em> Огненный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AA0000- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AA0000- §7<num> §c<em> Огненной §7Защиты"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#AA0000- §7<num> §b<em> Водной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "fire-powder-vi",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Fire Powder VI",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Fire Powder VI",
+        "ru": "<em> Порошок Огня VI"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#AA0000■■■■■■§8■§7]"
+        },
+        {
+          "id": "powder-384b31fbb35e",
+          "en": "- <num><num> <em> Fire Damage",
+          "ru": "§#AA0000- §7<num><num> §c<em> Огненного §7Урона"
+        },
+        {
+          "id": "powder-15d1b4c5e69d",
+          "en": "- <num>% <em> Neutral to <em> Fire",
+          "ru": "§#AA0000- §7<num>% §6<em> Нейтрального §7в §c<em> Огненный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#AA0000- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-0498c8e1bdd7",
+          "en": "- <num> <em> Fire Defence",
+          "ru": "§#AA0000- §7<num> §c<em> Огненной §7Защиты"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#AA0000- §7<num> §b<em> Водной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "thunder-powder-i",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Thunder Powder I",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Thunder Powder I",
+        "ru": "<em> Порошок Молнии I"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#FFAA00■§8■■■■■■§7]"
+        },
+        {
+          "id": "powder-dafc8e25694c",
+          "en": "- <num><num> <em> Thunder Damage",
+          "ru": "§#FFAA00- §7<num><num> §7Урона §e<em> Молнией"
+        },
+        {
+          "id": "powder-bf45c89734e8",
+          "en": "- <num>% <em> Neutral to <em> Thunder",
+          "ru": "§#FFAA00- §7<num>% §6<em> Нейтрального §7в §e<em> Молнию"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#FFAA00- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#FFAA00- §7<num> §7Защиты от §e<em> Молнии"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#FFAA00- §7<num> §2<em> Земляной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "thunder-powder-ii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Thunder Powder II",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Thunder Powder II",
+        "ru": "<em> Порошок Молнии II"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#FFAA00■■§8■■■■■§7]"
+        },
+        {
+          "id": "powder-dafc8e25694c",
+          "en": "- <num><num> <em> Thunder Damage",
+          "ru": "§#FFAA00- §7<num><num> §7Урона §e<em> Молнией"
+        },
+        {
+          "id": "powder-bf45c89734e8",
+          "en": "- <num>% <em> Neutral to <em> Thunder",
+          "ru": "§#FFAA00- §7<num>% §6<em> Нейтрального §7в §e<em> Молнию"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#FFAA00- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#FFAA00- §7<num> §7Защиты от §e<em> Молнии"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#FFAA00- §7<num> §2<em> Земляной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "thunder-powder-iii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Thunder Powder III",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Thunder Powder III",
+        "ru": "<em> Порошок Молнии III"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#FFAA00■■■§8■■■■§7]"
+        },
+        {
+          "id": "powder-dafc8e25694c",
+          "en": "- <num><num> <em> Thunder Damage",
+          "ru": "§#FFAA00- §7<num><num> §7Урона §e<em> Молнией"
+        },
+        {
+          "id": "powder-bf45c89734e8",
+          "en": "- <num>% <em> Neutral to <em> Thunder",
+          "ru": "§#FFAA00- §7<num>% §6<em> Нейтрального §7в §e<em> Молнию"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#FFAA00- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#FFAA00- §7<num> §7Защиты от §e<em> Молнии"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#FFAA00- §7<num> §2<em> Земляной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "thunder-powder-iv",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Thunder Powder IV",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Thunder Powder IV",
+        "ru": "<em> Порошок Молнии IV"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#FFAA00■■■■§8■■■§7]"
+        },
+        {
+          "id": "powder-dafc8e25694c",
+          "en": "- <num><num> <em> Thunder Damage",
+          "ru": "§#FFAA00- §7<num><num> §7Урона §e<em> Молнией"
+        },
+        {
+          "id": "powder-bf45c89734e8",
+          "en": "- <num>% <em> Neutral to <em> Thunder",
+          "ru": "§#FFAA00- §7<num>% §6<em> Нейтрального §7в §e<em> Молнию"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#FFAA00- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#FFAA00- §7<num> §7Защиты от §e<em> Молнии"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#FFAA00- §7<num> §2<em> Земляной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "thunder-powder-v",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Thunder Powder V",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Thunder Powder V",
+        "ru": "<em> Порошок Молнии V"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#FFAA00■■■■■§8■■§7]"
+        },
+        {
+          "id": "powder-dafc8e25694c",
+          "en": "- <num><num> <em> Thunder Damage",
+          "ru": "§#FFAA00- §7<num><num> §7Урона §e<em> Молнией"
+        },
+        {
+          "id": "powder-bf45c89734e8",
+          "en": "- <num>% <em> Neutral to <em> Thunder",
+          "ru": "§#FFAA00- §7<num>% §6<em> Нейтрального §7в §e<em> Молнию"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#FFAA00- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#FFAA00- §7<num> §7Защиты от §e<em> Молнии"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#FFAA00- §7<num> §2<em> Земляной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "thunder-powder-vi",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Thunder Powder VI",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Thunder Powder VI",
+        "ru": "<em> Порошок Молнии VI"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#FFAA00■■■■■■§8■§7]"
+        },
+        {
+          "id": "powder-dafc8e25694c",
+          "en": "- <num><num> <em> Thunder Damage",
+          "ru": "§#FFAA00- §7<num><num> §7Урона §e<em> Молнией"
+        },
+        {
+          "id": "powder-bf45c89734e8",
+          "en": "- <num>% <em> Neutral to <em> Thunder",
+          "ru": "§#FFAA00- §7<num>% §6<em> Нейтрального §7в §e<em> Молнию"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#FFAA00- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#FFAA00- §7<num> §7Защиты от §e<em> Молнии"
+        },
+        {
+          "id": "powder-a7fea402110b",
+          "en": "- <num> <em> Earth Defence",
+          "ru": "§#FFAA00- §7<num> §2<em> Земляной §7Защиты"
+        }
+      ]
+    },
+    {
+      "id": "water-powder-i",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Water Powder I",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Water Powder I",
+        "ru": "<em> Порошок Воды I"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#00AAAA■§8■■■■■■§7]"
+        },
+        {
+          "id": "powder-a993d46b0324",
+          "en": "- <num><num> <em> Water Damage",
+          "ru": "§#00AAAA- §7<num><num> §b<em> Водного §7Урона"
+        },
+        {
+          "id": "powder-3ddd36f73b32",
+          "en": "- <num>% <em> Neutral to <em> Water",
+          "ru": "§#00AAAA- §7<num>% §6<em> Нейтрального §7в §b<em> Водный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#00AAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#00AAAA- §7<num> §b<em> Водной §7Защиты"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#00AAAA- §7<num> §7Защиты от §e<em> Молнии"
+        }
+      ]
+    },
+    {
+      "id": "water-powder-ii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Water Powder II",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Water Powder II",
+        "ru": "<em> Порошок Воды II"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#00AAAA■■§8■■■■■§7]"
+        },
+        {
+          "id": "powder-a993d46b0324",
+          "en": "- <num><num> <em> Water Damage",
+          "ru": "§#00AAAA- §7<num><num> §b<em> Водного §7Урона"
+        },
+        {
+          "id": "powder-3ddd36f73b32",
+          "en": "- <num>% <em> Neutral to <em> Water",
+          "ru": "§#00AAAA- §7<num>% §6<em> Нейтрального §7в §b<em> Водный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#00AAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#00AAAA- §7<num> §b<em> Водной §7Защиты"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#00AAAA- §7<num> §7Защиты от §e<em> Молнии"
+        }
+      ]
+    },
+    {
+      "id": "water-powder-iii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Water Powder III",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Water Powder III",
+        "ru": "<em> Порошок Воды III"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#00AAAA■■■§8■■■■§7]"
+        },
+        {
+          "id": "powder-a993d46b0324",
+          "en": "- <num><num> <em> Water Damage",
+          "ru": "§#00AAAA- §7<num><num> §b<em> Водного §7Урона"
+        },
+        {
+          "id": "powder-3ddd36f73b32",
+          "en": "- <num>% <em> Neutral to <em> Water",
+          "ru": "§#00AAAA- §7<num>% §6<em> Нейтрального §7в §b<em> Водный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#00AAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#00AAAA- §7<num> §b<em> Водной §7Защиты"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#00AAAA- §7<num> §7Защиты от §e<em> Молнии"
+        }
+      ]
+    },
+    {
+      "id": "water-powder-iv",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Water Powder IV",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Water Powder IV",
+        "ru": "<em> Порошок Воды IV"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#00AAAA■■■■§8■■■§7]"
+        },
+        {
+          "id": "powder-a993d46b0324",
+          "en": "- <num><num> <em> Water Damage",
+          "ru": "§#00AAAA- §7<num><num> §b<em> Водного §7Урона"
+        },
+        {
+          "id": "powder-3ddd36f73b32",
+          "en": "- <num>% <em> Neutral to <em> Water",
+          "ru": "§#00AAAA- §7<num>% §6<em> Нейтрального §7в §b<em> Водный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#00AAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#00AAAA- §7<num> §b<em> Водной §7Защиты"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#00AAAA- §7<num> §7Защиты от §e<em> Молнии"
+        }
+      ]
+    },
+    {
+      "id": "water-powder-v",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Water Powder V",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Water Powder V",
+        "ru": "<em> Порошок Воды V"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#00AAAA■■■■■§8■■§7]"
+        },
+        {
+          "id": "powder-a993d46b0324",
+          "en": "- <num><num> <em> Water Damage",
+          "ru": "§#00AAAA- §7<num><num> §b<em> Водного §7Урона"
+        },
+        {
+          "id": "powder-3ddd36f73b32",
+          "en": "- <num>% <em> Neutral to <em> Water",
+          "ru": "§#00AAAA- §7<num>% §6<em> Нейтрального §7в §b<em> Водный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#00AAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#00AAAA- §7<num> §b<em> Водной §7Защиты"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#00AAAA- §7<num> §7Защиты от §e<em> Молнии"
+        }
+      ]
+    },
+    {
+      "id": "water-powder-vii",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em> Water Powder VII",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Water Powder VII",
+        "ru": "<em> Порошок Воды VII"
+      },
+      "lines": [
+        {
+          "id": "tier",
+          "en": "Tier <num> [■■■■■■■]",
+          "ru": "§7Уровень <num> [§#00AAAA■■■■■■■§8§7]"
+        },
+        {
+          "id": "powder-a993d46b0324",
+          "en": "- <num><num> <em> Water Damage",
+          "ru": "§#00AAAA- §7<num><num> §b<em> Водного §7Урона"
+        },
+        {
+          "id": "powder-3ddd36f73b32",
+          "en": "- <num>% <em> Neutral to <em> Water",
+          "ru": "§#00AAAA- §7<num>% §6<em> Нейтрального §7в §b<em> Водный"
+        },
+        {
+          "id": "powder-003e49754f6e",
+          "en": "- <num> Health",
+          "ru": "§#00AAAA- §7<num> Здоровья"
+        },
+        {
+          "id": "powder-52934f1ed28a",
+          "en": "- <num> <em> Water Defence",
+          "ru": "§#00AAAA- §7<num> §b<em> Водной §7Защиты"
+        },
+        {
+          "id": "powder-f953b2574283",
+          "en": "- <num> <em> Thunder Defence",
+          "ru": "§#00AAAA- §7<num> §7Защиты от §e<em> Молнии"
+        }
+      ]
+    }
+  ]
+}

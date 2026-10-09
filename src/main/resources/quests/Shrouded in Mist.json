@@ -1,0 +1,2556 @@
+{
+  "quest": "Shrouded in Mist",
+  "level": 113,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "shrouded-in-mist",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Yusanu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "What are you doing?",
+      "ru": "Что ты делаешь?",
+      "speaker": "Yusanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I'm... thinking.",
+      "ru": "Я... думаю.",
+      "speaker": "Sui",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "About what? What could you possibly be thinking about right-",
+      "ru": "О чём? О чём ты вообще можешь сейчас думать-",
+      "speaker": "Yusanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I don't know, Yusanu! Maybe about what to do next? How we can- h-how we-",
+      "ru": "Не знаю, Юсану! Может, о том, что делать дальше? Как мы можем- к-как мы-",
+      "speaker": "Sui",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "There's nothing we can do! We're stuck in unfamiliar territory, all lone, our family and friends all captured, or- or worse-",
+      "ru": "Мы ничего не можем сделать! Мы застряли в незнакомом месте, совсем одни, наши родные и друзья схвачены или- или хуже-",
+      "speaker": "Yusanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Don't. Don't say that.",
+      "ru": "Не надо. Не говори так.",
+      "speaker": "Sui",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Urgh! I can't believe I let her convince me stealing this... this thing was worth it! If I hadn't, then... then our agreement wouldn't have fallen through, and none of this would have-",
+      "ru": "Аргх! Не могу поверить, что я позволил ей убедить меня, будто украсть эту... эту штуку стоило того! Если бы я не согласился, то... тогда наша сделка не сорвалась бы, и ничего этого бы не-",
+      "speaker": "Yusanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Don't you dare pin this on Rex. You heard what that Sovereign said, they- th-they knew what we were planning for ages!",
+      "ru": "Даже не смей валить это на Рекс. Ты слышал, что сказал тот Сюзерен, они- о-они давно знали, что мы планируем!",
+      "speaker": "Sui",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "...then maybe it'd have been best if you left us out of it.",
+      "ru": "...тогда, может, лучше было бы вообще нас в это не втягивать.",
+      "speaker": "Yusanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "You-",
+      "ru": "Ты-",
+      "speaker": "Sui",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Intruders! Owls, to arms!",
+      "ru": "Вторженцы! Совы, к оружию!",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Woah woah woah woah woah! Alright, let's all take a step back, shall we?",
+      "ru": "Ого-ого-ого-ого! Так, давайте все сделаем шаг назад, хорошо?",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Owls! Step down! Bit of a leap, jumping straight to violence- we reserve that for the obviously crown-aligned, eheheh.",
+      "ru": "Совы! Отставить! Не стоит сразу хвататься за оружие. Это мы оставим для явных приспешников Короны, эхехех.",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Allow me to introduce myself! The name's Rurie, member of the Canopy, captain of the Owls division! Apologies for the roughhousing, seems everyone's a little enthusiastic today, eh?",
+      "ru": "Позвольте представиться! Меня зовут Рури, член Полога, капитан отряда Сов! Прошу прощения за грубый приём, похоже, все сегодня немного воодушевлены, да?",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "The... Canopy...?",
+      "ru": "Полог...?",
+      "speaker": "Sui",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Questions, questions! I'm afraid it's our turn first- I've called the owls off for a time, but don't think you're off the hook just yet, young lady!",
+      "ru": "Вопросы, вопросы! Боюсь, сначала наша очередь. Я пока отозвал сов, но не думай, что ты уже выкрутилась, юная леди!",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "...captain, are you certain about this? For all we know, they could be spies-",
+      "ru": "...капитан, вы уверены? Насколько мы знаем, они могут быть шпионами-",
+      "speaker": "Owl Fighter",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Ah ah ah! Trust in the process, my friend. Spies or not, information is valuable.",
+      "ru": "А-а-а! Предоставь это мне, друг мой. Шпионы или нет, сведения всегда пригодятся.",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Besides! We know how to... ah, deal with spies, as it were. Risk factor is minimal!",
+      "ru": "К тому же! Со шпионами мы... умеем разбираться. Так что почти ничем не рискуем!",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "So... what, are you also resisting-",
+      "ru": "Так... что, вы тоже сопротивляетесь-",
+      "speaker": "Yusanu",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Hold it there, mister! Didn't you hear me? We'll be asking the questions here first.",
+      "ru": "Стоп, мистер! Ты меня не слышал? Сначала вопросы задаём мы.",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Seems you're the only one who hasn't spoken yet! Well now, don't be shy. Tell me - where are you lot from?",
+      "ru": "Похоже, ты единственный, кто ещё не говорил! Ну же, не стесняйся. Скажи мне - откуда вы такие?",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Really? Quite far afield, aren't you? Finding your way from there to here is quite an endeavor.",
+      "ru": "Правда? Далековато забрались, да? Добраться оттуда сюда - это ещё тот подвиг.",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "The dialogue branches combine here.",
+      "ru": "Ветки диалога сходятся здесь.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Ahhh! Now the pieces are clicking together! I think I get it now.",
+      "ru": "А-а-а! Теперь всё сходится! Кажется, я понял.",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Ohoho? Really now? How very, very curious. You're either a verrrry clever spy, or...",
+      "ru": "О-хо-хо? Правда? Как очень, очень любопытно. Ты либо о-о-очень хитрый шпион, либо...",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "H... hey! Listen! I don't know who, or, or what you guys are, but--",
+      "ru": "Э... эй! Слушай! Я не знаю, кто вы или, или что вы вообще такое, но-",
+      "speaker": "Sui",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "How many times must I repeat myself? I said no que-",
+      "ru": "Сколько раз мне повторять? Я сказал, никаких вопро-",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Shut UP! We just BARELY escaped Timasca after we- after we tried to KILL the Queen! The rest of our friends are... captured, or d- dead!",
+      "ru": "§lЗАТКНИСЬ!§r Мы еле-еле сбежали из Тимаски после того, как мы- после того, как попытались УБИТЬ Королеву! Остальные наши друзья... схвачены или м- мертвы!",
+      "speaker": "Sui",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "So- so either leave us alone, or I'll- I'll make sure you never see your loved ones a- again!",
+      "ru": "Так- так что либо оставьте нас в покое, либо я- я сделаю так, что вы никогда больше не увидите своих близких!",
+      "speaker": "Sui",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Uh huh!",
+      "ru": "Угу!",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "I- I will!! Don't... don't-",
+      "ru": "Я- я сделаю!! Не... не-",
+      "speaker": "Sui",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Ohoho, she's sure got some temper, huh?",
+      "ru": "О-хо-хо, характер у неё что надо, да?",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Rurie... her story could explain what-",
+      "ru": "Рури... её рассказ может объяснить, что-",
+      "speaker": "Owl Fighter",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Yes, my friend, I was just thinking the very same thing. Well well, new folk, if what you're saying is true, the Canopy might just be able to assist!",
+      "ru": "Да, мой друг, я как раз думал о том же. Ну что ж, новенькие, если вы говорите правду, Полог, возможно, сможет помочь!",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I may have information regarding your allies.",
+      "ru": "У меня может быть информация о ваших союзниках.",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "You- you do? Really...?",
+      "ru": "У- у тебя есть? Правда...?",
+      "speaker": "Sui",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Ah- but! But but but, see- trust is a currency here in the Mistwoods. I can't just spill all my secrets at once, can I?",
+      "ru": "Ах, но! Но-но-но, понимаешь, доверие здесь, в Туманном лесу, это валюта. Не могу же я сразу выложить все свои секреты, верно?",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "And if you'd like to earn our trust... I'll need you to, ah, deal with some things for me.",
+      "ru": "И если хотите заслужить наше доверие... мне нужно, чтобы вы, эм, кое с чем для меня разобрались.",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "What kinds of things?",
+      "ru": "С чем именно?",
+      "speaker": "Yusanu",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Oh, nothing too difficult... I'll tell you on one condition! I'll be taking one of you with me as leverage! Eenie, meenie, money... you, little man!",
+      "ru": "Ничего сложного... Но расскажу при одном условии: один из вас останется со мной в заложниках! Эники-беники... ты, малыш!",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "M- me?!",
+      "ru": "М- меня?!",
+      "speaker": "Yusanu",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "You, indeed! Worry not, for I'll be sure to keep you safe, but... well, you understand the need, yes?",
+      "ru": "Именно тебя! Не волнуйся, я прослежу, чтобы ты был в безопасности, но... ну, ты ведь понимаешь необходимость, да?",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "We can't! We can't lose... we can't lose anyone else. Please, there has to be something-",
+      "ru": "Мы не можем! Мы не можем потерять... мы не можем потерять ещё кого-то. Пожалуйста, должен быть другой способ-",
+      "speaker": "Sui",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Sui... it's... fine. I don't think we have a choice. Just... do what they ask of you.",
+      "ru": "Суи... всё... нормально. Не думаю, что у нас есть выбор. Просто... сделайте то, что они просят.",
+      "speaker": "Yusanu",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Goodness, so melodramatic! Come on, I'm a trustworthy fella! You've got nothing to worry about from me.",
+      "ru": "Боже, сколько драмы! Да ладно, я надёжный парень! Со мной вам переживать не о чем.",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "...okay. We accept your terms, Rurie.",
+      "ru": "...хорошо. Мы принимаем твои условия, Рури.",
+      "speaker": "Yusanu",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Ah-mazing! I'm glad you chose to be reasonable. In that case - I'll need the remaining two of you to go and sabotage three military structures.",
+      "ru": "Вос-хи-ти-тельно! Рад, что вы решили быть благоразумными. Значит, вам двоим нужно вывести из строя три военных сооружения.",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Now, go and say your goodbyes, then come grab the list from me!",
+      "ru": "А теперь идите попрощайтесь, потом заберите у меня список!",
+      "speaker": "Rurie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Hey. You'll be fine. I'll be fine.",
+      "ru": "Эй. Ты справишься. И я справлюсь.",
+      "speaker": "Yusanu",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "I think we can trust them for now, at least. Not like we have an alternative...",
+      "ru": "Пока, думаю, им можно доверять. Всё равно другого выхода у нас нет...",
+      "speaker": "Yusanu",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "We really... don't have a choice, do we? We, we need their support.",
+      "ru": "У нас правда... нет выбора, да? Нам, нам нужна их поддержка.",
+      "speaker": "Sui",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "I just... hope Yusanu will be safe.",
+      "ru": "Я просто... надеюсь, Юсану будет в безопасности.",
+      "speaker": "Sui",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Ugh... Captain's being reckless as usual...",
+      "ru": "Ух... Капитан как обычно безрассуден...",
+      "speaker": "Owl Fighter",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Have we finished with the heartfelt goodbyes? Excellent. Truly, I am glad you took me up on this generous offer.",
+      "ru": "С трогательными прощаниями закончили? Отлично. Честно, я рад, что вы приняли моё щедрое предложение.",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Don't worry about your little friend over there! He'll be safe and sound amongst our Canopy.",
+      "ru": "Не переживайте за своего маленького друга! В Пологе он будет цел и невредим.",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "...and how can we trust you? To not... hurt him?",
+      "ru": "...а как нам тебе доверять? Что ты не... навредишь ему?",
+      "speaker": "Sui",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Ah, isn't that the issue at the heart of it all? You can't. But as I said, trust is valuable in these woods. That must go both ways!",
+      "ru": "Ах, разве не в этом вся суть? Никак. Но, как я сказал, доверие в этих лесах ценно. И оно должно работать в обе стороны!",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Well, newbies! You've a list of the structures I need you to sabotage, so it really should be a simple task.",
+      "ru": "Ну что, новенькие! У вас есть список объектов, которые мне нужно саботировать, так что задача должна быть простой.",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Just find a way to... disable them! However you manage it, I can't say I really care - so long as it gets done!",
+      "ru": "Просто найдите способ... вывести их из строя! Как именно - мне, если честно, всё равно. Главное, чтобы было сделано!",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Well?",
+      "ru": "Ну?",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Why, because it's a golden opportunity! The work needs doing, and you need a way to prove yourselves...",
+      "ru": "Потому что это отличная возможность! Нам нужно сделать работу, а вам нужно заслужить доверие...",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "So why not? It's less work for me to do, so I'm not complaining!",
+      "ru": "Так почему бы и нет? Мне меньше работы, я не жалуюсь!",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "The dialogue options return here.",
+      "ru": "Варианты диалога возвращаются сюда.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Newbies! That's what you are, isn't it? New to the woods, new to the world...",
+      "ru": "Новенькие! Вы ведь такие и есть, да? Новые для лесов, новые для мира...",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "...maybe new to Fruma, even? Ah ah, wipe that expression of shock off your face! I won't tell if you don't either.",
+      "ru": "...Может, и во Фруме вы новички? А-а, не смотрите так изумлённо! Не выдавайте меня, а я не выдам вас.",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Fine... get us that list.",
+      "ru": "Ладно... давай список.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Inspired as ever! Good!",
+      "ru": "Как всегда вдохновляюще! Отлично!",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Once you're done, find me back here! Just don't take too long, eh? Wouldn't want to get bored!",
+      "ru": "Когда закончите, найдите меня здесь! Только не тяните, ладно? Не хочу заскучать!",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Ta ta, newbies! Good luck out there! And just a word of advice - stay on your guard. You never know what the mists may be hiding.",
+      "ru": "Пока-пока, новенькие! Удачи там! И маленький совет - будьте настороже. Никогда не знаешь, что может скрывать туман.",
+      "speaker": "Rurie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "[+1 The Canopy's Checklist]",
+      "ru": "[+1 The Canopy's Checklist]",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "The dialogue ends here.",
+      "ru": "Диалог заканчивается здесь.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Still a bit lost? Just use your taskbook to find the things I need broken!",
+      "ru": "Всё ещё не знаете, куда идти? В книге квестов отмечены сооружения, которые нужно вывести из строя!",
+      "speaker": "Rurie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "So is this... the place? \"Military... Watchtower...\" I guess so.",
+      "ru": "Так это... то место? \"Военная... сторожевая башня...\" Наверное, да.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Those supports look rather unstable, don't they? I wonder...",
+      "ru": "Эти опоры выглядят довольно шаткими, да? Интересно...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "C-can you deal with them, please?",
+      "ru": "М-можешь разобраться с ними, пожалуйста?",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Huh?! We're under attack - it must be the Canopy!",
+      "ru": "А?! На нас напали - это точно Полог!",
+      "speaker": "Watchtower Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "That's one down... ugh.",
+      "ru": "Одна готова... ух.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Let's just get this over with.",
+      "ru": "Давай просто покончим с этим.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Check the book, where should we go next?",
+      "ru": "Проверь §bкнигу§r, куда дальше?",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Alright, water pump it is...",
+      "ru": "Ладно, значит, водяной насос...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "I think we can work together for this one. Go, um, blast some weak spots on the structure, and I'll... see if I can reverse the water flow.",
+      "ru": "Думаю, тут мы можем сработать вместе. Иди, эм, пробей слабые места в конструкции, а я... попробую развернуть поток воды.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Let's just... get rid of this hunk of junk.",
+      "ru": "Давай просто... избавимся от этой груды хлама.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "You, um, should try to blast some of the weak points with your magic.",
+      "ru": "Тебе, эм, стоит попробовать разбить слабые точки своей магией.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Did you manage to apply some pressure on the pipes?",
+      "ru": "Удалось создать давление в трубах?",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Good, then it's... time for my part, I guess. Um, come talk to me when you're ready.",
+      "ru": "Хорошо, тогда... моя очередь, наверное. Эм, поговори со мной, когда будешь готов.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Okay... okay. Breathe. I need to... focus.",
+      "ru": "Ладно... ладно. Дыши. Мне нужно... сосредоточиться.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "After... after, um, everything that- that's happened, I've been... struggling with my cur-... ugh. You get what I mean.",
+      "ru": "После... после, эм, всего, что- что случилось, мне стало... тяжело справляться с моим про-... ух. Ты понимаешь, о чём я.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "It all feels so... so... hopeless! We've lost everyone, and now- now we've lost Yusanu too, and I... I couldn't do anything!",
+      "ru": "Всё кажется таким... таким... безнадёжным! Мы потеряли всех, а теперь- теперь потеряли и Юсану, и я... я ничего не смогла сделать!",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "And the last thing we did before was... argue! And now, he's... he's safe, probably, but... I don't know. I wish we hadn't.",
+      "ru": "И последнее, что мы сделали перед этим, это... поссорились! И теперь он... он, наверное, в безопасности, но... не знаю. Лучше бы мы не ругались.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Every time I think about- about any of it, I get so... angry! And the swirling ocean around me starts raging more and more and more, and... and...",
+      "ru": "Каждый раз, когда я думаю об- обо всём этом, я так... злюсь! И бурлящий океан вокруг меня начинает бушевать всё сильнее, сильнее и сильнее, и... и...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "I'm scared, <playername>. I'm scared for Mora... Syndra... Rex, Zeph, the whole Steel Feather- for all of them! And I... there's nothing I can do...",
+      "ru": "Мне страшно, <playername>. Я боюсь за Мору... Синдру... Рекс, Зефа, всё Стальное Перо - за всех! И я... ничего не могу сделать...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "What if... what if they're all gone? And, and, and it's just us, forever...?",
+      "ru": "А что если... что если их всех больше нет? И, и, и остались только мы, навсегда...?",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "I... I know, <playername>, I know! I'm... I'm trying, okay?!",
+      "ru": "Я... я знаю, <playername>, знаю! Я... я стараюсь, ладно?!",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "It's just... too much.",
+      "ru": "Просто... этого слишком много.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "I don't know if I, ha, have any left. Everything's... moving so fast...",
+      "ru": "Я не знаю, остались ли у меня, ха, силы. Всё... происходит так быстро...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "I... I never wanted any of this. I just... I just wanted to live...",
+      "ru": "Я... я никогда не хотела ничего из этого. Я просто... я просто хотела жить...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Sigh... okay. Sui, focus. You can do this.",
+      "ru": "Эх... Ладно. Суи, сосредоточься. Ты справишься.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Aaah! Wh- what was that?!",
+      "ru": "Ааах! Ч- что это было?!",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "That's... I don't... how did I...",
+      "ru": "Это... я не... как я...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "It... the ocean, it... stopped. I pulled at it, and it... it stopped moving, and...",
+      "ru": "Он... океан, он... остановился. Я потянула его, и он... он перестал двигаться, и...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "There's... there's no time to, to think about it. It worked, so... so that's good.",
+      "ru": "Нет... нет времени об этом думать. Сработало, так что... это хорошо.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "I... I think that was the last one. Let's go tell Rurie that it's, um, done.",
+      "ru": "Я... думаю, это был последний. Пойдём скажем Рури, что всё, эм, готово.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "That's... definitely the drill.",
+      "ru": "Это... точно бур.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "It looks... durable. Like, um, it'll be hard to just... break. We need to find another way...",
+      "ru": "Он выглядит... прочным. То есть, эм, его будет трудно просто... сломать. Нужно найти другой способ...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "There- there isn't any water nearby. So, so if any soldiers show up... please, can you deal with them?",
+      "ru": "Тут- тут рядом нет воды. Так что, если появятся солдаты... пожалуйста, сможешь с ними разобраться?",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "[+1 Frail Sweeper]",
+      "ru": "[+1 Frail Sweeper]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "[+1 Dirt Covered Rake]",
+      "ru": "[+1 Dirt Covered Rake]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "[-1 Sweeper]",
+      "ru": "[-1 Sweeper]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "[-1 Rake]",
+      "ru": "[-1 Rake]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Aha, saboteurs! You won't get away with damaging the crown's property, not on my watch!",
+      "ru": "Ага, саботажники! Вам не сойдёт с рук порча имущества короны, только не при мне!",
+      "speaker": "Mistwoods Captain",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Um... good job, <playername>. I didn't think about breaking the controls...",
+      "ru": "Эм... хорошая работа, <playername>. Я не подумала сломать управление...",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "We should check the book, and find our next stop.",
+      "ru": "Нужно проверить книгу и найти следующую точку.",
+      "speaker": "Sui",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Well well! So the newbies return! Tell me, how did you find your trial?",
+      "ru": "Ну-ну! Новенькие вернулись! Скажите, как вам испытание?",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "We did what you asked, so... so tell us about our friends, already!",
+      "ru": "Мы сделали то, что ты просил, так что... рассказывай уже о наших друзьях!",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Ah ah ah! Not so fast! I'm afraid you're not done quite yet!",
+      "ru": "А-а-а! Не так быстро! Боюсь, вы ещё не закончили!",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Are you kidding me?!",
+      "ru": "Ты издеваешься?!",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Deadly serious, I fear! That, dear friends, was but the first part of your task.",
+      "ru": "Боюсь, я смертельно серьёзен! Это, дорогие друзья, была лишь первая часть вашего задания.",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Oh, but on the contrary! I received word immediately once you had done the deed.",
+      "ru": "О, как раз наоборот! Я получил сообщение сразу, как только вы всё сделали.",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Ugh... we had an agreement! You can't just-",
+      "ru": "Ух... у нас была договорённость! Ты не можешь просто-",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "But I can. If you want our support, you'll do what we ask. If it is any consolation, this is the last I will ask of you before our deal is concluded.",
+      "ru": "А вот могу. Если хотите нашей поддержки, будете делать то, что мы просим. Если это утешит, это последнее, о чём я попрошу до завершения сделки.",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "... Fine. What do you want?",
+      "ru": "...Ладно. Чего ты хочешь?",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "I would ask of you to kindly... ehm, transport an Aldwell citizen here. Do make sure you aren't spotted by anyone else! That could cause... issues.",
+      "ru": "Я бы попросил вас любезно... эм, доставить сюда одного жителя Алдвелла. И проследите, чтобы вас больше никто не заметил! Это может вызвать... проблемы.",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Are... are they expecting us?",
+      "ru": "Он... он нас ждёт?",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Ah! Allow me to rephrase. You need to kidnap them.",
+      "ru": "Ах! Позволь перефразировать. Вам нужно его похитить.",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Wh- what?!",
+      "ru": "Ч- что?!",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Yes, indeed! Kidnap them, bring them here, and we will deal with the rest.",
+      "ru": "Да, именно! Похитите его, приведите сюда, а с остальным мы разберёмся.",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "You want us to just... just snatch a random citizen from their home? And, and what do you mean \"deal with the rest?\"",
+      "ru": "Ты хочешь, чтобы мы просто... просто вытащили случайного жителя из дома? И, и что значит \"разберёмся с остальным\"?",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "No questions, young lady! Not if you'd like to ensure the safety of your friend, that is.",
+      "ru": "Никаких вопросов, юная леди! Если, конечно, хочешь обеспечить безопасность своего друга.",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "You-... how-... what-...",
+      "ru": "Ты-... как-... что-...",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "You didn't even tell us who we're looking for!",
+      "ru": "Ты даже не сказал, кого нам искать!",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Ahaha, apologies, my mistake! You'll be looking for the man named Nisen. Bring him here, but don't take too long!",
+      "ru": "Ахаха, прошу прощения, моя ошибка! Ищите мужчину по имени Нисен. Приведите его сюда, но не тяните!",
+      "speaker": "Rurie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "Nisen. Fine. <playername>, let's... talk about this outside the cave.",
+      "ru": "Нисен. Ладно. <playername>, давай... поговорим об этом снаружи пещеры.",
+      "speaker": "Sui",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "Chop chop! I'll be waiting.",
+      "ru": "Шевелитесь! Я буду ждать.",
+      "speaker": "Rurie",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "This... this is just getting ridiculous.",
+      "ru": "Это... это уже становится абсурдом.",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "We, we need to find a way to get Yusanu back, and... and get out of here.",
+      "ru": "Нам, нам нужно найти способ вернуть Юсану и... и выбраться отсюда.",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "I know, I know, I know! And if we start looking, they'll, they'll notice.",
+      "ru": "Я знаю, знаю, знаю! И если мы начнём искать, они, они заметят.",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "I'm... sick and tired of following that clown's orders. But you're right...",
+      "ru": "Меня... уже тошнит от приказов этого клоуна. Но ты прав...",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "It's just... weird. This last task. I don't get it.",
+      "ru": "Просто... странное это последнее задание. Я не понимаю.",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Even if Rurie's out of his mind... I don't see him just- just killing an innocent person. Especially if they're, um, a resistance group.",
+      "ru": "Даже если Рури не в себе... не думаю, что он просто- просто убьёт невинного человека. Особенно если они, эм, группа сопротивления.",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Ugh. I don't know. Maybe if we investigate this Nisen person, we'll... figure out Rurie's reasoning.",
+      "ru": "Ух. Не знаю. Может, если разузнаем об этом Нисене, то... поймём, зачем он Рури.",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Let's head to Aldwell.",
+      "ru": "Пойдём в Алдвелл.",
+      "speaker": "Sui",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "I'll meet you in Aldwell then.",
+      "ru": "Тогда встретимся в Алдвелле.",
+      "speaker": "Sui",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "Phew. Getting up here really wasn't the easiest... the Red Fox back in Auburn really, ha, pales in comparison.",
+      "ru": "Фух. Нелегко было сюда забраться... Даже \"Красная Лиса\" в Аубёрне, ха, не сравнится.",
+      "speaker": "Sui",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "I've been trying to get information on Nisen, but... people don't seem to like me much.",
+      "ru": "Я пыталась узнать что-нибудь о Нисене, но... похоже, люди меня не особо любят.",
+      "speaker": "Sui",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Maybe you'll have some better luck?",
+      "ru": "Может, тебе повезёт больше?",
+      "speaker": "Sui",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "...nope, sorry.",
+      "ru": "...нет, извини.",
+      "speaker": "Shu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "I'm a bit busy, so...",
+      "ru": "Я немного занят, так что...",
+      "speaker": "Shu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "...it's okay.",
+      "ru": "...всё нормально.",
+      "speaker": "Shu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "Mist is a bit thick.",
+      "ru": "Туман густоват.",
+      "speaker": "Shu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Hm. Bye...",
+      "ru": "Хм. Пока...",
+      "speaker": "Shu",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "...no.",
+      "ru": "...нет.",
+      "speaker": "Masah",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Why're you asking, stranger?",
+      "ru": "А тебе зачем, чужак?",
+      "speaker": "Masah",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "...I'm fine.",
+      "ru": "...я в порядке.",
+      "speaker": "Masah",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "Is that all?",
+      "ru": "Это всё?",
+      "speaker": "Masah",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Hm...",
+      "ru": "Хм...",
+      "speaker": "Masah",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Um, let's hope he's not home...",
+      "ru": "Эм, будем надеяться, что его нет дома...",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "That's odd... the latest entry's dated from weeks ago.",
+      "ru": "Странно... последняя запись датирована несколькими неделями назад.",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "It's like they stopped writing them abruptly...",
+      "ru": "Будто их резко перестали писать...",
+      "speaker": "Sui",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Is someone in there?",
+      "ru": "Там кто-то есть?",
+      "speaker": "Nisen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Eep! That must be Nisen! We need to think of an excuse...",
+      "ru": "Ой! Наверное, это Нисен! Нужно придумать оправдание...",
+      "speaker": "Sui",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "Excuse me? What are you doing in my abode?",
+      "ru": "Прошу прощения? Что вы делаете в моём жилище?",
+      "speaker": "Nisen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "If I am not mistaken, stumbling into other people's abodes is not a custom.",
+      "ru": "Если я не ошибаюсь, вламываться в чужие жилища не является местным обычаем.",
+      "speaker": "Nisen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "Oh... I- I'm so sorry! I- I- we- we thought this was the... bakery.",
+      "ru": "О... Я- мне так жаль! Я- я- мы- мы думали, что это... пекарня.",
+      "speaker": "Sui",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "The... bakery...?",
+      "ru": "...Пекарня...?",
+      "speaker": "Nisen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Oh. Yes, wrong building. The bakery is down at ground level.",
+      "ru": "О. Да, вы ошиблись зданием. Пекарня внизу, на уровне земли.",
+      "speaker": "Nisen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Oh! Thank you for the directions. We are... so sorry for the misunderstanding.",
+      "ru": "О! Спасибо, что подсказали. Мы... очень извиняемся за недоразумение.",
+      "speaker": "Sui",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Please, leave now.",
+      "ru": "Пожалуйста, уходите.",
+      "speaker": "Nisen",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "That was close... I'm, um, surprised he believed us.",
+      "ru": "Это было близко... Я, эм, удивлена, что он нам поверил.",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "I- I panicked, okay! But it worked, didn't it?",
+      "ru": "Я- я запаниковала, ладно! Но ведь сработало?",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "He was... surprisingly chatty. That's a nice change compared to everyone else.",
+      "ru": "Он был... неожиданно разговорчивым. Приятное отличие от всех остальных.",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "Though, um, he was a bit... odd. He didn't seem too certain about his answers...",
+      "ru": "Хотя, эм, он был немного... странным. Он будто не был уверен в своих ответах...",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "I don't know. What are you thinking? Any theories?",
+      "ru": "Не знаю. А ты как думаешь? Есть предположения?",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "I... was thinking the same thing. It'd explain the diary entries stopping abruptly...",
+      "ru": "Я... думала о том же. Это объяснило бы, почему записи в дневнике резко оборвались...",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Maybe... I guess he could be. I might just be jumping to conclusions.",
+      "ru": "Может... наверное, он мог бы им быть. Может, я просто делаю поспешные выводы.",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Uh... let's workshop that one a little.",
+      "ru": "Эм... давай ещё подумаем над этим объяснением.",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "Look, I managed to snag a schedule off his bedside table.",
+      "ru": "Смотри, я успела стащить расписание с его прикроватного столика.",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Listen to this. \"Deliver hunting tools from weaponsmith through southern exit at noon.\"",
+      "ru": "Слушай. \"Доставить охотничьи инструменты от оружейника через южный выход в полдень.\"",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "It's weird, right? Something's definitely off with him... but still, kidnapping him and handing him off to some... some random bird-man! I don't like it.",
+      "ru": "Странно же, да? С ним точно что-то не так... но всё равно, похищать его и отдавать какому-то... какому-то случайному человеку-птице! Мне это не нравится.",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "But... we don't have much of a choice. Let's camp outside the southern gate and wait...",
+      "ru": "Но... выбора у нас почти нет. Давай спрячемся у южных ворот и подождём...",
+      "speaker": "Sui",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Hey! Up here!",
+      "ru": "Эй! Я здесь, наверху!",
+      "speaker": "Sui",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Guess we'll just have to wait...",
+      "ru": "Похоже, нам остаётся только ждать...",
+      "speaker": "Sui",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "I... ha, I've been feeling really out of my depth, here. I've never had to do this much without... um, without their support.",
+      "ru": "Я... ха, я здесь вообще не в своей тарелке. Мне никогда не приходилось делать столько всего без... эм, без их поддержки.",
+      "speaker": "Sui",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "But... you're here to help, so. Um. Thanks for- for sticking with me. I... I don't think I'd have made it this far without you.",
+      "ru": "Но... ты здесь и помогаешь, так что. Эм. Спасибо, что- что остаёшься со мной. Я... не думаю, что дошла бы так далеко без тебя.",
+      "speaker": "Sui",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Oh! There he is!",
+      "ru": "О! Вот он!",
+      "speaker": "Sui",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Ouch... dumb move...",
+      "ru": "Ай... тупой ход...",
+      "speaker": "Sui",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "Um... I think it worked, though. Can you help me?",
+      "ru": "Эм... но, кажется, сработало. Поможешь мне?",
+      "speaker": "Sui",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "That was... easier than I expected it to be.",
+      "ru": "Это было... проще, чем я ожидала.",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "I kind of just, um, landed on top of him? And... and here we are.",
+      "ru": "Я просто как-то, эм, приземлилась на него сверху? И... вот мы здесь.",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "We should... probably get moving. I don't want anyone to- to see us!",
+      "ru": "Нам... наверное, пора двигаться. Не хочу, чтобы кто-то нас увидел!",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "Um! Control is... maybe not the right word. I... ha, I tried to freeze him. So... still working on it. I guess.",
+      "ru": "Эм! Контроль - это... наверное, не совсем то слово. Я... ха, пыталась его заморозить. Так что... ещё работаю над этим, наверное.",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "......how are we going to move him?",
+      "ru": "......а как мы его потащим?",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "Um! I... didn't think about that.",
+      "ru": "Эм! Я... не подумала об этом.",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "Well well, newbies! Looks like you could use a hand!",
+      "ru": "Ну-ну, новенькие! Похоже, вам не помешала бы помощь!",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "Aah! Wh- where did you come from?!",
+      "ru": "Ааах! О- откуда ты взялся?!",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Why, from the trees, of course! I see you've managed to subdue the good mister Nisen over here, well done, well done.",
+      "ru": "Ну как откуда, с деревьев, конечно! Вижу, вам удалось обезвредить доброго мистера Нисена, отлично, отлично.",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "...we've done everything you've asked for. Now- now tell us what you know!!",
+      "ru": "...мы сделали всё, что ты просил. Теперь- теперь расскажи, что знаешь!!",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "Oh, dear, you thought you two were done? Ha! Ahahaha!",
+      "ru": "Ох, милая, вы правда думали, что закончили? Ха! Ахахаха!",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "...what?!",
+      "ru": "...что?!",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Kidding! Kidding, kidding- goodness, the looks on your faces! What's a little practical joke between friends, eh?",
+      "ru": "Шучу! Шучу, шучу - боже, видели бы вы свои лица! Ну что такое маленькая шутка между друзьями, а?",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "Fine! Fine, fine, I get it! Jeez, lady...",
+      "ru": "Ладно! Ладно, ладно, понял я! Боже, леди...",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "I'll cut it with the jokes... for now. Good news! You've passed the test!",
+      "ru": "С шутками завязываю... пока. Хорошие новости! Вы прошли проверку!",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "So, will you-",
+      "ru": "Так ты-",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Yes, yes, settle down, I will tell you. Give me a moment! Goodness. You're an impatient one, aren't you?",
+      "ru": "Да, да, успокойся, я расскажу. Дай мне секунду! Боже. Какая же ты нетерпеливая, да?",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "I'll be bringing you two to the Canopy! But, ah, one little precaution- I'll have to blindfold you till we arrive, Just a security measure!",
+      "ru": "Я отведу вас двоих в Полог! Но, ах, одна маленькая мера предосторожности - придётся завязать вам глаза до прибытия. Просто вопрос безопасности!",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "Ugh... you know what, I don't even care anymore. Just... bring us to Yusanu.",
+      "ru": "Ух... знаешь что, мне уже всё равно. Просто... отведи нас к Юсану.",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "Perfecto! Let's head off then!",
+      "ru": "Превосходно! Тогда выдвигаемся!",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "Ugh! Fine fine fine! But hurry up.",
+      "ru": "Ух! Ладно-ладно-ладно! Но быстрее.",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "The dialogue ends here without progressing the quest.",
+      "ru": "Диалог заканчивается здесь без продвижения квеста.",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "Rurie, care to explain yourself? Why did you bring these outsiders here?",
+      "ru": "Рури, объяснишься? Зачем ты привёл сюда этих чужаков?",
+      "speaker": "Fuhue",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "One was enough...",
+      "ru": "Одного было достаточно...",
+      "speaker": "Cileon",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "Ah, you know how it is, Fuhue! I was oh so bored on patrol this morning! You lot aren't exactly the life of the party..",
+      "ru": "Ах, ты же знаешь, как оно бывает, Фухуе! Мне так скучно было сегодня утром на патруле! Вы тут не особо душа компании..",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "You know Azael has clear rules on recruiting. Did you file the necessary paperwork? Because I didn't see anything on my desk regarding this.",
+      "ru": "Ты знаешь, у Азаэля есть чёткие правила по набору. Ты подал нужные бумаги? Потому что на моём столе я ничего по этому поводу не видела.",
+      "speaker": "Fuhue",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "The... ah, the paperwork was real? I always thought it was something you were making up for the fun of it.",
+      "ru": "Эти... ах, бумаги и правда существуют? Я думал, ты всё это придумала ради шутки.",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "No. We have the protocols in place for a reason, Captain Rurie. Will you find the time to review them yourself, or must I have Captain Cileon run you through them?",
+      "ru": "Нет. Протоколы существуют не просто так, капитан Рури. Ты найдёшь время сам их изучить, или мне попросить капитана Силеона провести тебе инструктаж?",
+      "speaker": "Fuhue",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "Yes, yes, I understand the importance- though, I believe Cileon shares my views on the protocols. Isn't that right, Cileon?",
+      "ru": "Да, да, я понимаю важность, хотя, думаю, Силеон разделяет мой взгляд на протоколы. Верно, Силеон?",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "Dumb. Throw 'em off platform.",
+      "ru": "Глупо. Скинуть их с площадки.",
+      "speaker": "Cileon",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "H- hey! Don't just act like, like we aren't right here!",
+      "ru": "Э- эй! Не делайте вид, будто нас тут нет!",
+      "speaker": "Sui",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "Cileon! That is also against our protocols. We wouldn't want to leave a body for the crown to find, we have far simpler forms of disposal.",
+      "ru": "Силеон! Это тоже против наших протоколов. Мы же не хотим оставлять тело, которое найдёт корона. У нас есть куда более простые способы утилизации.",
+      "speaker": "Fuhue",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "And of course, we need to torture any necessary information out of them first - I have heard this a dozen times over.",
+      "ru": "И конечно, сначала нужно пытками выбить из них всю нужную информацию - я слышал это уже десятки раз.",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "Sui: I got ignored...",
+      "ru": "Суи: Меня проигнорировали...",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "Ah! You were listening! Good, Captain Rurie. We'll knock some sense into you yet.",
+      "ru": "А! Ты слушал! Хорошо, капитан Рури. Мы ещё вобьём в тебя немного разума.",
+      "speaker": "Fuhue",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "I did have some deerlings bring Nisen into our processing room earlier. Thank you for your service, Captain.",
+      "ru": "Несколько оленят уже отвели Нисена в комнату для допросов. Благодарю за службу, капитан.",
+      "speaker": "Fuhue",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "Ah, no problem! Hardly even broke a sweat!",
+      "ru": "Ах, не проблема! Даже не вспотел!",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "Well, I'll be catching up with you later! I suppose if we're following protocols, I'll need to hand these kids off to Azael.",
+      "ru": "Ну, тогда увидимся позже! Полагаю, если уж мы следуем протоколам, мне нужно передать этих ребят Азаэлю.",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "Hey hey, friends! I'm a bit thirsty, so I'll be leaving you now! Think you'll manage to find Azael yourselves?",
+      "ru": "Эй-эй, друзья! Я немного хочу пить, так что оставлю вас. Думаете, сами найдёте Азаэля?",
+      "speaker": "Rurie",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "Hm. Rurie told you to find Azael.",
+      "ru": "Хм. Рури сказал вам найти Азаэля.",
+      "speaker": "Cileon",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "What is it?",
+      "ru": "Что?",
+      "speaker": "Cileon",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "Cileon. Fox Captain.",
+      "ru": "Силеон. Капитан Лис.",
+      "speaker": "Cileon",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "Swordsman, too.",
+      "ru": "И мечник тоже.",
+      "speaker": "Cileon",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Azael...?",
+      "ru": "Азаэль...?",
+      "speaker": "Cileon",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "South-west.",
+      "ru": "На юго-запад.",
+      "speaker": "Cileon",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "Like what?",
+      "ru": "О чём?",
+      "speaker": "Cileon",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "Rurie is... Rurie.",
+      "ru": "Рури это... Рури.",
+      "speaker": "Cileon",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "The schedule's always so busy... and now I have even more to deal with.",
+      "ru": "Расписание и так вечно забито... а теперь у меня ещё больше дел.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "But I suppose I can squeeze you in for questions.",
+      "ru": "Но, думаю, на ваши вопросы я смогу выкроить время.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "I am Fuhue, Team Captain of the Deer clan.",
+      "ru": "Я Фухуе, капитан отряда Оленей.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "I also function as the overall manager of the Canopy, not just the Deer operations.",
+      "ru": "Я также руковожу делами всего Полога, не только операциями Оленей.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "Master Azael can be found in his hut... it's just to the south-west of here.",
+      "ru": "Мастера Азаэля можно найти в его хижине... она прямо к юго-западу отсюда.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "From what I've heard, your friend is over there as well.",
+      "ru": "Насколько я слышала, ваш друг тоже там.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "I'm afraid so. Insufferable as always...",
+      "ru": "Боюсь, да. Невыносимый, как всегда...",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "But he's incredibly talented at what he does. No one else could run the Owls like he does.",
+      "ru": "Но он невероятно хорош в своём деле. Никто другой не смог бы управлять Совами так, как он.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "I will see you later.",
+      "ru": "Увидимся позже.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "Or not! It's Master Azael's decision as to whether you stay or not. Just hope you manage to impress him.",
+      "ru": "Или нет! Останетесь вы или нет, решать мастеру Азаэлю. Надейтесь, что сможете его впечатлить.",
+      "speaker": "Fuhue",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "I have heard about your adventures in the Mistwoods thus far. Very impressive work.",
+      "ru": "Я уже слышал о ваших приключениях в Туманном лесу. Весьма впечатляющая работа.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "Not to interrupt you, but we've been running around all day, and I'm tired. Where's Yusanu?",
+      "ru": "Не хочу перебивать, но мы весь день бегали, и я устала. Где Юсану?",
+      "speaker": "Sui",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "I'm here! Safe and sound!",
+      "ru": "Я здесь! Цел и невредим!",
+      "speaker": "Yusanu",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "Yusanu!",
+      "ru": "Юсану!",
+      "speaker": "Sui",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "Oh, you're okay... I'm so glad.",
+      "ru": "О, ты в порядке... Я так рада.",
+      "speaker": "Sui",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "Yes, reunited at last. But now that you are here, it is time for business.",
+      "ru": "Да, наконец воссоединились. Но раз вы здесь, пора перейти к делу.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "I had Yusanu inform me of your adventures in the Industrial District.",
+      "ru": "Юсану рассказал мне о ваших приключениях в Промышленном районе.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "And it would appear our causes are in alignment... to dismantle the crown. We here in the Canopy have taken a very active approach to this end.",
+      "ru": "И, похоже, наши цели совпадают... свергнуть корону. Здесь, в Пологе, мы действуем в этом направлении весьма активно.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "We had established three teams, each with their own responsibility. Each team attacks the crown on different fronts.",
+      "ru": "У нас три отряда, и у каждого свои задачи. Каждый ведёт борьбу с Короной по-своему.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "The Owls are our eyes and ears. They are also our most efficient assassins. Captain Rurie, who you have already had the pleasure of meeting, is one of our most lethal members.",
+      "ru": "Совы служат нам глазами и ушами. А ещё среди них лучшие убийцы. Капитан Рури, с которым вы уже познакомились, один из самых опасных наших бойцов.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "The Foxes are our assault team. They are skilled swordsmen utilizing techniques native to the Mistwoods. They are trained to never lose a duel.",
+      "ru": "Лисы составляют штурмовой отряд. Это искусные мечники, владеющие приёмами Туманного леса. Их учат побеждать в любом поединке.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "The Deers are our command team, the brains behind the operation. They are also responsible for... taking care of spies within Aldwell.",
+      "ru": "Олени разрабатывают планы и руководят операциями. Они же отвечают за... работу со шпионами в Алдвелле.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "Spies...?",
+      "ru": "Шпионами...?",
+      "speaker": "Sui",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "Spies. That man you brought in, Nisen... I fear that is no longer Nisen. Weeks ago, he had been replaced by one of the crown's elite spies. We know them as Changelings.",
+      "ru": "Шпионами. Тот человек, которого вы привели, Нисен... Боюсь, это уже не Нисен. Несколько недель назад его заменил один из элитных шпионов короны. Мы называем их Подменышами.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "The Mistwoods have been plagued for years by these masterful creatures of disguise. Whenever one is recognized, we capture them and hold them for questioning.",
+      "ru": "Туманный лес годами страдает от этих мастеров маскировки. Как только мы узнаём одного из них, берём под стражу и допрашиваем.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "The people of our region have developed a form of identification, the medallions. If you do not possess one, many will refuse to speak with you.",
+      "ru": "Чтобы отличать своих, жители наших краёв придумали медальоны. Если у вас нет такого, многие даже не станут с вами разговаривать.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "Um... Azael, sir, I don't mean to come off as rude, but... Rurie told us there were news on our friends from the Roughworks.",
+      "ru": "Эм... мастер Азаэль, простите, но... Рури сказал, что есть новости о наших друзьях из Роухворкса.",
+      "speaker": "Sui",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "In a sense, there are. However, we still are processing the information the Owls have returned with from the festival. I cannot offer anything just yet.",
+      "ru": "В некотором смысле, есть. Но мы всё ещё обрабатываем информацию, которую Совы принесли с фестиваля. Пока я не могу ничего предложить.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "Rest assured, we will not withhold anything once we have gone through everything.",
+      "ru": "Будьте уверены, когда мы всё разберём, мы ничего не станем скрывать.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "I give you my word that we will continue searching for any word of your friends.",
+      "ru": "Даю слово, мы продолжим искать любые сведения о ваших друзьях.",
+      "speaker": "Azael",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "It... it finally feels like we have a second to breath.",
+      "ru": "Кажется... кажется, у нас наконец появилась секунда, чтобы выдохнуть.",
+      "speaker": "Sui",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "I'll stay with Yusanu and wait for them to sort through the information.",
+      "ru": "Я останусь с Юсану и подожду, пока они разберут информацию.",
+      "speaker": "Sui",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "I'm going to focus on figuring out what this device is used for.",
+      "ru": "А я сосредоточусь на том, чтобы понять, для чего нужно это устройство.",
+      "speaker": "Yusanu",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "It must have be worth stealing it... somehow.",
+      "ru": "Оно должно было стоить того, чтобы его украсть... хоть как-то.",
+      "speaker": "Sui",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "The Auburn Forest.",
+      "ru": "Аубёрнский лес.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "Timasca.",
+      "ru": "Тимаска.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "Newbies?",
+      "ru": "Новички?",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "§ Water Pump",
+      "ru": "§ Водяной насос",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "§ Mining Drill",
+      "ru": "§ Буровая установка",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "\"Just a nice old watchtower they like to use to spot members of the Canopy! Not some of the crown's finest work, admittedly - they're quite a ways off from actually finding any of us, but being cautious has never hurt before! - Love Rurie\"",
+      "ru": "\"Просто старая добрая сторожевая вышка, с которой они любят высматривать членов Полога! Не лучшая работа короны, признаю - до того, чтобы реально кого-то из нас найти, им ещё далеко, но осторожность ещё никому не вредила! - С любовью, Рури\"",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "\"A water pump used to provide the Citadel with high-quality water. Supposedly, the mist adds a unique flavor... personally, I'd blame the algae, but whatever they say goes! - Kisses Rurie\"",
+      "ru": "\"Водяной насос, снабжающий Цитадель качественной водой. Якобы туман придаёт особый вкус... лично я бы винил водоросли, но как скажут, так и будет! - Целую, Рури\"",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "Just... check the book, what's our next stop?",
+      "ru": "Просто... глянь в книгу, какая у нас следующая остановка?",
+      "speaker": "Sui",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "\"They ruined the southern lands just to start messing with ours. I don't even know what they are mining for. They don't seem very productive! - Hugs Rurie\"",
+      "ru": "\"Они изгадили южные земли, а теперь взялись за наши. Я даже не знаю, что они там добывают. Толку от них немного! - Обнимаю, Рури\"",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "The monitor is keeping the machine running.",
+      "ru": "Монитор поддерживает работу машины.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "Maybe something sharp can break it...",
+      "ru": "Может, что-нибудь острое его разобьёт...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "Day 8 - Materials:",
+      "ru": "День 8 - Материалы:",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "- Dirt",
+      "ru": "- Земля",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "- Rocks",
+      "ru": "- Камни",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "- Traces of more rock",
+      "ru": "- Следы ещё камней",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "The sweeper did no damage to the monitor...",
+      "ru": "Метла не повредила монитор...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "Was that the last one? Let's head back to Rurie and... and tell him it's done.",
+      "ru": "Это был последний? Давай вернёмся к Рури и... и скажем ему, что готово.",
+      "speaker": "Sui",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "We don't know where he is.",
+      "ru": "Мы не знаем, где он.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "Fine day today, right?",
+      "ru": "Хороший денёк, да?",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "Goodbye.",
+      "ru": "Пока.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "How are you doing?",
+      "ru": "Как дела?",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "...uh. ...hello...stranger.",
+      "ru": "...э. ...привет...незнакомец.",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "...I don't...see it. You haven't got one Er. I. I mean. Nothing. No. Definitely, uh...definitely not.",
+      "ru": "...Я не...вижу. У тебя нет ни Э. Я. В смысле. Ничего. Нет. Точно, э...точно нет.",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "Haven't got one...what?",
+      "ru": "Нет чего?",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "I can't look, I'm really not supposed to be talking to you at all, and Wait, that counts as urgh!",
+      "ru": "Я не могу смотреть, мне вообще нельзя с тобой разговаривать, и Стоп, это же тоже считается ургх!",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "You definitely know him.",
+      "ru": "Ты точно его знаешь.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "...I'm. I. You. ...ugh, I'm no good at this.",
+      "ru": "...Я. Я. Ты. ...ух, не умею я это.",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0297",
+      "en": "...well. ...sorry. Nisen... I. I do know. I shouldn't be telling you, but I do know. Please don't hurt me.",
+      "ru": "...ну. ...прости. Нисен... Я. Я знаю. Мне не стоит тебе говорить, но я знаю. Только не делай мне больно.",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0298",
+      "en": "You need to take the zipline north-west. Not the one that goes upwards, though.",
+      "ru": "Тебе нужно спуститься по тросу на северо-запад. Только не по тому, что ведёт вверх.",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0299",
+      "en": "You seem tense.",
+      "ru": "Ты какой-то напряжённый.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0300",
+      "en": "...stop...stop looking at me that closely.",
+      "ru": "...перестань...перестань так пристально на меня смотреть.",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0301",
+      "en": "...am...am I about to die?",
+      "ru": "...я...я сейчас умру?",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0302",
+      "en": "...rrrright.",
+      "ru": "...п-понятно.",
+      "speaker": "Jamie",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0303",
+      "en": "This must be where Nisen lives...",
+      "ru": "Должно быть, здесь и живёт Нисен...",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0304",
+      "en": "It looks like someone's diary. The latest entries are dated 118 IA.",
+      "ru": "Похоже на чей-то дневник. Последние записи датированы 118 IA.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0305",
+      "en": "- Entry 1: Mother came by today. She is taking their separation quite poorly.",
+      "ru": "- Запись 1: Сегодня заходила мать. Она тяжело переживает их расставание.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0306",
+      "en": "- Entry 2: Father tried to bring me fresh produce today. I asked him about mother, and he left.",
+      "ru": "- Запись 2: Сегодня отец пытался принести мне свежих продуктов. Я спросил его про мать, и он ушёл.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0307",
+      "en": "- Entry 5: I stopped talking to Father. Mother came by my work at the market. We went for food after.",
+      "ru": "- Запись 5: Я перестал говорить с отцом. Мать зашла ко мне на работу на рынке. Потом мы сходили поесть.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0308",
+      "en": "There's a note with information slipped between the pages: Parents divorced. Working at market.",
+      "ru": "Между страниц вложена записка с пометками: Родители развелись. Работает на рынке.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0309",
+      "en": "There's a thin layer of dust on top of the bed.",
+      "ru": "На кровати тонкий слой пыли.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0310",
+      "en": "Seems like no one has slept here in a while.",
+      "ru": "Похоже, тут давно никто не спал.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0311",
+      "en": "It looks like someone's diary. The latest entries are dated 120 IA.",
+      "ru": "Похоже на чей-то дневник. Последние записи датированы 120 IA.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0312",
+      "en": "- Entry 131: I had a normal day today. Helped my friend carry some food to their house.",
+      "ru": "- Запись 131: Сегодня обычный день. Помог другу донести еду до дома.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0313",
+      "en": "- Entry 132: Stayed in and slept all day. Was very tired.",
+      "ru": "- Запись 132: Сидел дома и спал весь день. Очень устал.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0314",
+      "en": "- Entry 133: Slept in. Boss wasn't happy with me, has me working extra shifts next week.",
+      "ru": "- Запись 133: Проспал. Босс был недоволен, теперь на следующей неделе у меня лишние смены.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0315",
+      "en": "The entries stop after this point...",
+      "ru": "На этом записи обрываются...",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0316",
+      "en": "Bakery? Really?",
+      "ru": "Пекарня? Серьёзно?",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0317",
+      "en": "He's been brainwashed.",
+      "ru": "Ему промыли мозги.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0318",
+      "en": "Maybe he's just like that.",
+      "ru": "Может, он просто такой.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0319",
+      "en": "So, how do we carry him?",
+      "ru": "И как мы его потащим?",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0320",
+      "en": "Let's go.",
+      "ru": "Пошли.",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0321",
+      "en": "Give me a minute.",
+      "ru": "Дай мне минутку.",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0322",
+      "en": "Who are you?",
+      "ru": "Ты кто?",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0323",
+      "en": "Where's Azael?",
+      "ru": "Где Азаэль?",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0324",
+      "en": "Is Rurie always like this?",
+      "ru": "Рури всегда такой?",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0325",
+      "en": "Where is Azael?",
+      "ru": "Где Азаэль?",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0326",
+      "en": "A group of masked people run towards the tent.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0327",
+      "en": "Another masked individual appears in a cloud of smoke.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0328",
+      "en": "The dialogue options here do not have any differences.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0329",
+      "en": "Sui walks over to the edge of the pond.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0330",
+      "en": "Sui freezes the entire pond and nearby piping.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0331",
+      "en": "The mining drill explodes.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0332",
+      "en": "Upon approaching the destination, Sui calls out to the player from atop a wooden platform on a tree.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0333",
+      "en": "Time passes until noon. Nisen walks down the path from Aldwell, and Sui jumps down on top of him.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0334",
+      "en": "Rurie lands next to Sui and startles her.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0335",
+      "en": "Sui runs up and hits Rurie.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0336",
+      "en": "The Captains turn to look at Sui before continuing to talk amongst themselves.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0337",
+      "en": "Rurie walks over to talk to the player and Sui.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0338",
+      "en": "Rurie departs up the tree.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0339",
+      "en": "Yusanu climbs down a nearby ladder.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0340",
+      "en": "New Quest Started: Shrouded in Mist",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Окутанные туманом",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0341",
+      "en": "Wynn.",
+      "ru": "Винн.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0342",
+      "en": "We have to keep moving.",
+      "ru": "Нам надо идти дальше.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0343",
+      "en": "We can't give up hope.",
+      "ru": "Нельзя терять надежду.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0344",
+      "en": "Goodbye!",
+      "ru": "До встречи!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Group up with the remaining members at [-1468, 32, -585].",
+      "ru": "Собраться с оставшимися участниками [-1468, 32, -585].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Fight the ambushers at [-1473, 33, -591].",
+      "ru": "Отбиться от нападающих [-1473, 33, -591].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Talk to the stranger at [-1473, 33, -591].",
+      "ru": "Поговорить с незнакомцем [-1473, 33, -591].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Talk to Rurie before heading out at [-1484, 34, -598].",
+      "ru": "Поговорить с Рури перед выходом [-1484, 34, -598].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Select the structure to sabotage using the checklist.",
+      "ru": "Выбрать в списке сооружение для диверсии.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return to Rurie at [-1484, 34, -598] and discuss the next step.",
+      "ru": "Вернуться к Рури и обсудить следующий шаг [-1484, 34, -598].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Leave the cave and discuss the plan with Sui at [-1522, 42, -650].",
+      "ru": "Выйти из пещеры и обсудить план с Суи [-1522, 42, -650].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Head to Aldwell at [-1276, 77, -701] and locate Nisen.",
+      "ru": "Отправиться в Олдвелл и найти Нисена [-1276, 77, -701].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Search Nisen's house for any [-1321, 77, -679] clues regarding him.",
+      "ru": "Осмотреть дом Нисена в поисках зацепок о нём [-1321, 77, -679].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Leave Nisen's house quickly at [-1319, 77, -679].",
+      "ru": "Быстро покинуть дом Нисена [-1319, 77, -679].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Regroup with Sui at the main square at [-1283, 77, -706].",
+      "ru": "Встретиться с Суи на главной площади [-1283, 77, -706].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Prepare to kidnap Nisen at [-1295, 65, -629].",
+      "ru": "Подготовиться к похищению Нисена [-1295, 65, -629].",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Talk to Sui at [-1292, 50, -624].",
+      "ru": "Поговорить с Суи [-1292, 50, -624].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Find the leader inside the Canopy at [-1392, 154, -537].",
+      "ru": "Найти предводителя в убежище Полога [-1392, 154, -537].",
+      "stage": "Stage 14"
+    }
+  ],
+  "choices": [
+    {
+      "en": "Got your magic under control?",
+      "ru": "Удалось справиться со своей магией?",
+      "stage": "Stage 13",
+      "dialogueId": "",
+      "id": "choice-0001"
+    },
+    {
+      "en": "We've entered a parallel universe!",
+      "ru": "Мы попали в параллельную вселенную!",
+      "stage": "Stage 13",
+      "dialogueId": "",
+      "id": "choice-0002"
+    },
+    {
+      "en": "Do you know of anyone named Nisen?",
+      "ru": "Знаешь кого-нибудь по имени Нисен?",
+      "stage": "Stage 13",
+      "dialogueId": "",
+      "id": "choice-0003"
+    },
+    {
+      "en": "We just... need to do what he says.",
+      "ru": "Нам просто... надо делать, что он говорит.",
+      "stage": "Stage 13",
+      "dialogueId": "",
+      "id": "choice-0004"
+    },
+    {
+      "en": "Do you not believe we did it?",
+      "ru": "Ты не веришь, что мы это сделали?",
+      "stage": "Stage 6",
+      "dialogueId": "",
+      "id": "choice-0005"
+    },
+    {
+      "en": "Why are you getting us to do it?",
+      "ru": "Почему ты заставляешь делать это нас?",
+      "stage": "Stage 6",
+      "dialogueId": "",
+      "id": "choice-0006"
+    },
+    {
+      "en": "We'll be back for you, Yusanu.",
+      "ru": "Мы вернёмся за тобой, Юсану.",
+      "stage": "Stage 6",
+      "dialogueId": "",
+      "id": "choice-0007"
+    }
+  ]
+}

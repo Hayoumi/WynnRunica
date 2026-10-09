@@ -1,0 +1,557 @@
+{
+  "quest": "Dwarves and Doguns Part III",
+  "level": 93,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "dwarves-and-doguns-part-iii",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "We...have an issue. A dire one... Where is...Axelus at a time...like this?",
+      "ru": "У нас... проблема. Тяжёлая... Где...Акселус в такой...момент?",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "...human... This is a brick.",
+      "ru": "...человек... Это кирпич.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Oh... From Axelus, then...? He could not find...a stone? That...does not bode well.",
+      "ru": "О... Значит, от Акселуса...? Он не смог найти...камень? Это... плохо.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "He is trying to...reason with the Dwarven King? There is...no one else...then. You... You will have to...help.",
+      "ru": "Он пытается...договориться с Дварфийским Королём? Тогда... больше никого... нет. Ты... Тебе придётся... помочь.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "The chieftain is...desperate. He has enacted a...terrible plan. They are planning on summoning Garaheth.",
+      "ru": "Вождь... в отчаянии. Он решился на... страшный план. Они собираются призвать Гарахета.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "If they succeed...we all die. Dwarves... Doguns... Possibly even Villagers...and then... Humans as well.",
+      "ru": "Если у них выйдет... умрут все. Дварфы... Догуны... Возможно, и Жители... а потом... и Люди тоже.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Garaheth is a...horrible demon. We used to worship him...thousands of years ago.",
+      "ru": "Гарахет - это... жуткий демон. Мы поклонялись ему... тысячи лет назад.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I only overheard parts... But enough to be certain. They are preparing...to the south. At a disused...ritual site.",
+      "ru": "Я слышал лишь обрывки... Но достаточно, чтобы понять. Они готовятся... на юге. У старого... ритуального места.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Meet me there... Do not just attack. We may be able to...resolve it peacefully. I will wait...by the staircase.",
+      "ru": "Встреть меня там... Только не кидайся сразу в бой. Может, мы ещё сможем... решить всё мирно. Я буду ждать... у лестницы.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "We shall take the east tower... Hide there...and watch.",
+      "ru": "Мы займём восточную башню... Спрячемся там... и будем смотреть.",
+      "speaker": "Korzim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Interrupting...at this point will have...disastrous consequences. We must let them continue...and pray they fail.",
+      "ru": "Если сорвать всё... прямо сейчас, это приведёт к... катастрофе. Нам придётся дать им продолжить... и молиться, чтобы у них не вышло.",
+      "speaker": "Korzim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Reach into the darkness...and grasp the hand of Garaheth to purge the intruders...",
+      "ru": "Протяни руку во тьму... и схвати ладонь Гарахета, чтобы очистить мир от чужаков...",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "This is a worst-case scenario... Meet me in Maex. We will talk more there...",
+      "ru": "Это худший исход... Встретимся в Маэксе. Там поговорим...",
+      "speaker": "Korzim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Hoho...! Over here...fine traveler! Join me at the gates!",
+      "ru": "Хохо...! Сюда... добрый путник! Подходи к воротам!",
+      "speaker": "Korzim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "This dwarf voice is...horrible on my throat...but it is an effective disguise...is it not?",
+      "ru": "Говорить голосом дварфа... мучительно для горла... но маскировка надёжная... правда?",
+      "speaker": "Korzim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "We are headed to...a blacksmith in town. Follow me...",
+      "ru": "Мы идём к... кузнецу в городе. За мной...",
+      "speaker": "Korzim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "...Korzim...what in the name of all that is holy is that disguise?",
+      "ru": "...Корзим... во имя всего святого, что это за маскировка?",
+      "speaker": "Edula",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I'm flabbergasted you fooled anyone with that thing! How did you stop the beard from burning?",
+      "ru": "Не верится, что кто-то на это купился! И как ты уберёг бороду от огня?",
+      "speaker": "Edula",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "But, erm...more importantly, who's the buck in the fancy armour there?",
+      "ru": "Но, эм... важнее другое: кто этот парень в нарядных доспехах?",
+      "speaker": "Edula",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "An ally...of the coalition. No time...Edula. Doguns... summoning... Garaheth.",
+      "ru": "Союзник... коалиции. Нет времени... Эдула. Догуны... призывают... Гарахета.",
+      "speaker": "Korzim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "So...so it's really down to that low, then. Burning your own house down to kill the rats.",
+      "ru": "То есть... всё правда дошло до этого. Сжечь свой дом, чтобы убить крыс.",
+      "speaker": "Edula",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Good thing we've got this prepared. One fallout will prevent the next. Soldier, I've got a list of materials we need!",
+      "ru": "Хорошо, что мы приготовились. Последствия одной беды помогут предотвратить другую. Солдат, у меня есть список нужных материалов!",
+      "speaker": "Edula",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "You will need [10 Fire Webs]. The Heatscar Spiders under the town make them, there's a cave right by the entrance arch.",
+      "ru": "Тебе нужно [10 Fire Webs]. Их делают жарошрамные пауки под городом, там пещера прямо у входной арки.",
+      "speaker": "Edula",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Then, [3 Magmatic Crystals] from the Maex mines. I'd get them myself, but...I'm banned from there since the rubber mallet incident.",
+      "ru": "Потом [3 Magmatic Crystals] из шахт Маэкса. За ними можно было бы сходить и без твоей помощи, но... мне туда нельзя после того случая с резиновой киянкой.",
+      "speaker": "Edula",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Lastly, [1 Crystallized Lava]. The closest source is in the lava lake just outside Maex. There's a protruding crater in the lake.",
+      "ru": "И наконец, [1 Crystallized Lava]. Ближайший источник - лавовое озеро сразу за Маэксом. Там над лавой выступает кратер.",
+      "speaker": "Edula",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "The crystal formation... It is definitely here.",
+      "ru": "Кристаллическая жила... Она точно здесь.",
+      "speaker": "Korzim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "I will clear the lava... On my signal, move. And do not stop.",
+      "ru": "Я уберу лаву... По моему сигналу беги. И не останавливайся.",
+      "speaker": "Korzim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Move! Move! MOVE!",
+      "ru": "Беги! Беги! БЕГИ!",
+      "speaker": "Korzim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Mhm, looks like everything's in order. Now, for a short explanation.",
+      "ru": "Мгм, похоже, всё на месте. Теперь коротко объясню.",
+      "speaker": "Edula",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "These materials go into crafting a special charm. It will allow you to resist demon fire.",
+      "ru": "Из этих материалов делается особый амулет. Он позволит тебе выдерживать демонический огонь.",
+      "speaker": "Edula",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "We need to account for if they finish the summoning, so this'll help keep you safe if you end up having to square off with Garaheth.",
+      "ru": "Нам надо быть готовыми к тому, что они всё-таки завершат призыв, так что эта штука поможет тебе не сгореть, если придётся схлестнуться с Гарахетом.",
+      "speaker": "Edula",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "You will need to craft it yourself, so its magic will bond to you. I've got a station just for it.",
+      "ru": "Сделать амулет ты должен сам, чтобы его магия связалась с тобой. У меня для этого отдельный верстак.",
+      "speaker": "Edula",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Right-click the crafting table in the back and put it together.",
+      "ru": "Нажми правой кнопкой мыши на верстак позади меня и собери амулет.",
+      "speaker": "Edula",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "We must... visit... Sanba... the enchanter.",
+      "ru": "Нам нужно... к Санбе... зачарователю.",
+      "speaker": "Korzim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Erm...Korzim, what on earth are you doing here? It's not safe for you!",
+      "ru": "Эм... Корзим, ты что тут делаешь? Тебе здесь небезопасно!",
+      "speaker": "Sanba",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Wait, that amulet...oh no, really? Okay, I know what^s going on.",
+      "ru": "Погоди, этот амулет... о нет, серьёзно? Ладно, теперь понятно, что происходит.",
+      "speaker": "Sanba",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "We're going to need to give this a little extra kick if you're going to use this for what I think you are.",
+      "ru": "Нам придётся добавить этой штуке ещё немного мощи, если ты собираешься использовать её именно для того, о чём я думаю.",
+      "speaker": "Sanba",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "A pinch of fire scarab tail, splash of sulphur, exactly three ounces of old brimstone...!",
+      "ru": "Щепотка хвоста огненного скарабея, плеск серы, ровно три унции старой серы...!",
+      "speaker": "Sanba",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Infunde hoc monile, alta intra monte. Magia!",
+      "ru": "Инфунде хок мониле, альта интра монте. Магия!",
+      "speaker": "Sanba",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Meet me in the back, we can't talk out here. You never know who's listening...",
+      "ru": "Встретимся сзади, тут нам болтать нельзя. Никогда не знаешь, кто подслушивает...",
+      "speaker": "Sanba",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Supposing you're here to help, Soldier. Garaheth's being summoned if you're getting this...",
+      "ru": "Раз тебе выдали это, значит, ты пришёл помочь, солдат. Гарахета вызывают...",
+      "speaker": "Sanba",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Axelus prepped a contingency plan for this, but having to put it in action is surreal. Let me fill you in.",
+      "ru": "Акселус подготовил запасной план на этот случай. Трудно поверить, что его придётся воплотить. Сейчас всё объясню.",
+      "speaker": "Sanba",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "That dragon skeleton lying in the Heights belonged to an Ice Drake. Centuries ago, it was used in the Dogun wars.",
+      "ru": "Скелет дракона, который лежит в Высотах, принадлежал Ледяному Дрейку. Много веков назад его использовали в войнах с Догунами.",
+      "speaker": "Sanba",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "It had incredibly potent magic, particularly in its icy breath. The area it hit is still frozen to this day, and shows no signs of thaw.",
+      "ru": "У него была невероятно мощная магия, особенно в ледяном дыхании. Всё, куда он попал, до сих пор заморожено и даже не думает таять.",
+      "speaker": "Sanba",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "According to Axelus' stories, its breath travelled through the tunnels and coalesced someplace deep within...",
+      "ru": "Если верить рассказам Акселуса, его дыхание прошло по туннелям и сгустилось где-то глубоко внутри...",
+      "speaker": "Sanba",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "...becoming True Ice, a potent mixture of sheer cold and magic energy. That's what we will need to combat Garaheth.'",
+      "ru": "...став Истинным Льдом - мощной смесью чистого холода и магической энергии. Именно это нам и понадобится против Гарахета.",
+      "speaker": "Sanba",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "If you bring me [4 True Ice] I can make a staff capable of harnessing it...and we can freeze Garahath in its tracks.",
+      "ru": "Если принесёшь [4 True Ice], я сделаю посох, способный направлять его силу... и мы заморозим Гарахета на месте.",
+      "speaker": "Sanba",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Head north to the Freezing Heights and make your way to the top, now! We've got no time at all!",
+      "ru": "Беги на север, в Морозные высоты, и поднимайся наверх, живо! У нас вообще нет времени!",
+      "speaker": "Sanba",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "... This... This used to be...a Dogun town. The Dwarves rendered it barren.",
+      "ru": "... Это... Это когда-то был... город Догунов. Дварфы превратили его в мёртвое место.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "They used the Drake... They chained it up and...forced it to attack. We had to kill it...",
+      "ru": "Они использовали Дрейка... Приковали его и... заставили атаковать. Нам пришлось убить его...",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "It... froze my town... as it died. I was there... 900 years ago.",
+      "ru": "Он... заморозил мой город... когда умирал. Я был там... 900 лет назад.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "I know the way... into the caves.",
+      "ru": "Я знаю путь... в пещеры.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "The True Ice...is deep inside. I will struggle to...stay warm here.",
+      "ru": "Истинный лёд... глубоко внутри. Мне будет трудно... не замёрзнуть здесь.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "I will try to run through...as quickly as possible. The ice is...painful.",
+      "ru": "Я постараюсь пробежать... как можно быстрее. Этот лёд... причиняет боль.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "We must... move fast... or... we will both.... freeze.",
+      "ru": "Нужно... двигаться быстро... или... мы оба.... замёрзнем.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Maybe... I am... hotter than... I thought... do you.. Hear that?",
+      "ru": "Может... я... горячее... чем думал... ты... слышишь это?",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Oh no... I think... It's... COLLAPSING.",
+      "ru": "О нет... Кажется... Всё... ОБРУШИВАЕТСЯ.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "My... feet are... solid... Keep... running.",
+      "ru": "Мои... ноги... встали... колом... Продолжай... бежать.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "This is it... The thing that... Killed my families... [4 True Ice].",
+      "ru": "Вот оно... То, что... убило моих родных... [4 True Ice].",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Impressive, you two. Must've been tough to get that...doubly so for Korzim.",
+      "ru": "Впечатляет, вы двое. Наверняка добыть это было нелегко... а Корзиму особенно.",
+      "speaker": "Sanba",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Here is the staff, . Keep it safe, and don't you go dying on us.",
+      "ru": "Вот посох. Береги его. И не вздумай погибнуть!",
+      "speaker": "Sanba",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "My husband and I will round up the coalition and get them to act now. We need to get going before-",
+      "ru": "Мы с мужем соберём коалицию, чтобы она немедленно начала действовать. Нужно успеть до того, как-",
+      "speaker": "Sanba",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "...that's the barracks door. That's the barracks door!!",
+      "ru": "...это дверь казарм. Это дверь казарм!!",
+      "speaker": "Sanba",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Men! We have to meet for briefing on the surface, the war is due any hour now! Move faster!",
+      "ru": "Солдаты! Собираемся на поверхности, чтобы получить приказы. Война начнётся в любой момент! Шевелитесь!",
+      "speaker": "Maex Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "They're already going?! We're out of time! Korzim is waiting for you just upstairs when you reach level 94. Go train! NOW!",
+      "ru": "Они уже выступают?! Времени не осталось! Корзим будет ждать тебя наверху, когда достигнешь 94 уровня. Иди тренируйся! СЕЙЧАС!",
+      "speaker": "Sanba",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "The ice still scalding your hands with cold, you make your way back to Maex.",
+      "ru": "Лёд всё ещё обжигает руки холодом, и ты возвращаешься в Маэкс.",
+      "speaker": "добито по вики (нарратив/записки)",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Korzim reads the message on the tablet silently. His expression is inscrutable.",
+      "ru": "Корзим молча читает послание на табличке. Его лицо непроницаемо.",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "A door slamming open is heard in the distance...",
+      "ru": "Где-то вдали с грохотом распахнулась дверь...",
+      "speaker": "Sanba",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "New Quest Started: Dwarves and Doguns Part III",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Дварфы и догуны, часть III",
+      "speaker": "",
+      "stage": "Stage 10"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Return to the Dogun Village with the letter and speak to Korzim.",
+      "ru": "Вернуться с письмом в деревню догунов и поговорить с Корзимом.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Investigate the structure to the south.",
+      "ru": "Осмотреть сооружение к югу.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Travel to Maex and meet Korzim at the entrance. [1446,35,-5280]",
+      "ru": "Отправиться в Маэкс и встретиться с Корзимом у входа [1446,35,-5280].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Talk to the blacksmith in Maex at 1508 45 -5298",
+      "ru": "Поговорить с кузнецом в Маэксе по координатам 1508 45 -5298.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Bring back [10 Fire Webs], [3 Magmatic Crystals], and [1 Crystallized lava].",
+      "ru": "Принести [10 Fire Webs], [3 Magmatic Crystals] и [1 Crystallized lava].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Craft the amulet in the crafting table.",
+      "ru": "Создать амулет на верстаке.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Go to the enchanter and enchant the amulet.",
+      "ru": "Отнести амулет зачарователю и наложить чары.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Enter the storage room in the enchanter's house.",
+      "ru": "Войти в кладовую в доме зачарователя.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Travel to the frozen heights and find 4 True Ice.",
+      "ru": "Отправиться на Морозные высоты и найти 4 куска Истинного льда.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Return to the enchanter with the True Ice.",
+      "ru": "Вернуться к зачарователю с Истинным льдом.",
+      "stage": "Stage 10"
+    }
+  ],
+  "choices": []
+}

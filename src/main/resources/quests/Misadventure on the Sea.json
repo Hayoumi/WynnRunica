@@ -1,0 +1,1049 @@
+{
+  "quest": "Misadventure on the Sea",
+  "level": 28,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "misadventure-on-the-sea",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hello there soldier! What can I get you?",
+      "ru": "Привет, солдат! Чего налить?",
+      "speaker": "Barman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I'll take 2 Nemract Whiskeys. One for me, one for this chap.",
+      "ru": "Мне 2 виски Немракта. Один мне, второй вот этому типу.",
+      "speaker": "Honip",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You got it.",
+      "ru": "Сейчас будет.",
+      "speaker": "Barman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "So... I've seen ya around town. I saw how happy that guy was when you brought him some journal.",
+      "ru": "Ну... я тебя по городу видел. И видел, как тот тип радовался, когда ты принёс ему какой-то дневник.",
+      "speaker": "Honip",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "2 Nemract Whiskeys, coming up!",
+      "ru": "2 виски Немракта, уже несу!",
+      "speaker": "Barman",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "So... Soldier. Are ya up for sailin' the ocean with me? I got a fancier boat than that seaskipper!",
+      "ru": "Ну что, солдат. Хочешь со мной выйти в океан? У меня лодка покруче, чем у того морского извозчика!",
+      "speaker": "Honip",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I figured you'd be interested in explorin' the waters!",
+      "ru": "Думаю, тебе бы понравилось побороздить моря!",
+      "speaker": "Honip",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I'll wait for ya on the docks. Don't worry, ya can't miss the boat!",
+      "ru": "Я буду ждать тебя на причале. Не волнуйся, мою лодку ты сразу заметишь!",
+      "speaker": "Honip",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "There you are! Ready? Follow me, the boat's over here!",
+      "ru": "А вот и ты! Готов? Иди за мной, лодка тут!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Look at this.. Magnificent! Much better than whatever the Seaskipper is using!",
+      "ru": "Только глянь.. Красота! Намного лучше, чем то корыто, на котором ходит морской извозчик!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Well, what are you waiting for? Hop aboard!",
+      "ru": "Ну и чего ты ждёшь? Запрыгивай!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Then it's settled, we're goin' on an adventure!",
+      "ru": "Тогда решено, плывём навстречу приключениям!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Buckle up, we got waves to catch.",
+      "ru": "Держись крепче, будем ловить волну.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "So... I should warn ya', this is actually my first time sailing...",
+      "ru": "Ну... должен предупредить, вообще-то я впервые в жизни сам веду корабль...",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "It doesn't seem too difficult though, a little to the left...",
+      "ru": "Но вроде тут ничего сложного, чуть-чуть влево...",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Hmm, looks like we're not the only ones out on the water today.",
+      "ru": "Хмм, похоже, сегодня мы тут не одни в море.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "They are a bit too head on, don't you think?",
+      "ru": "Они как-то уж слишком прямо на нас идут, не находишь?",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I'm trying to steer the ship but it's not budging...",
+      "ru": "Я пытаюсь увести корабль, но он вообще не слушается...",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "That's unfortunate...",
+      "ru": "Вот не повезло...",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Unfortunate... For YOU!",
+      "ru": "Не повезло... ТЕБЕ!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Hey, you're finally awake.",
+      "ru": "О, очнулся наконец.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I honestly, truly can't believe you fell for that. Let me sum it up for you...",
+      "ru": "Честно, я до сих пор поверить не могу, что ты на это повёлся. Давай коротко объясню...",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Some extremely suspicious pirate comes up, offers you a drink, and leads you to his suspicious boat.",
+      "ru": "К тебе подходит какой-то мутный пират, угощает выпивкой и ведёт на такую же мутную лодку.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Any normal person would've turned back by then. But what do you do? You hop on! Well, now you're stuck with us.",
+      "ru": "Любой нормальный человек уже бы тогда развернулся. Но что делаешь ты? Садишься! Ну, теперь ты у нас.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Let me make this quick. This boat needs renovation, and we want you to do it.",
+      "ru": "Скажу коротко. Этому кораблю нужен ремонт, и делать его будешь ты.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Why? You're a soldier! All you do is take orders! Anyway, we'll need you to clean our stuff. Here, get out.",
+      "ru": "Почему? Ты же солдат! А значит, только и умеешь, что выполнять приказы! Короче, нам надо, чтобы ты тут всё почистил. Давай, вылезай.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Stay back!",
+      "ru": "Назад!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "I told you to stay back!",
+      "ru": "Я же сказал, назад!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Alright, that's enough!",
+      "ru": "Так, хватит уже!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "So, there's quite a few skeletons in there, and we never bothered throwin' them out!",
+      "ru": "Короче, там внутри полно скелетов, а нам всё было лень их выкинуть!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Go ahead, here's a sponge for the dried blood as well. Just wack the skeletons with it!",
+      "ru": "На, держи ещё губку для засохшей крови. Просто лупи ею скелетов!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "If you need me, I'll be on the deck. And, uh, don't go in the hold. We've got a BIG rat problem.",
+      "ru": "Если понадоблюсь, я буду на палубе. И, эм, не лезь в трюм. У нас там БОЛЬШАЯ проблема с крысами.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Also, for the sake of my crew, could you be more cooperative? I don't have an unlimited amount of these potions.",
+      "ru": "И ещё, ради моей команды, будь посговорчивее, а? У меня не бесконечный запас этих зелий.",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Hey, so you're our personal guard, huh?",
+      "ru": "Эй, так ты теперь наш личный охранник, да?",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Nice to meet ya!",
+      "ru": "Приятно познакомиться!",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "That ladder leads to the hold, but right now it's locked... We've got a severe case of rats.",
+      "ru": "Та лестница ведёт в трюм, но сейчас он заперт... У нас там настоящее нашествие крыс.",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Pep is just a treasure, ain't I right? I'm glad you're taking care of him too!",
+      "ru": "Пеп просто сокровище, ну ведь так? Рад, что ты за ним тоже присматриваешь!",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Honip has a pet chicken, weird right?",
+      "ru": "У Хонипа есть домашняя курица, странно, да?",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "I bet he got inspiration from that weird guy on his island...",
+      "ru": "Готов поспорить, он вдохновился тем чудаком, который живёт на острове...",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "What? You murdered that guy's most prized chicken? You're an odd one, soldier.",
+      "ru": "Чего? Ты убил самую любимую курицу того типа? Ну ты и кадр, солдат.",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Oh, uh... Don't worry about that, 'ay?",
+      "ru": "О, эм... Да ты не парься об этом, ага?",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "That's our... fuel source.",
+      "ru": "Это наш... источник топлива.",
+      "speaker": "Pirate",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Oh, that's my cannon! Pretty cool, right? I made it using a bunch of arm- Nevermind...",
+      "ru": "О, это моя пушка! Крутая ведь, да? Я её собрал из кучи ору- А, неважно...",
+      "speaker": "Seth",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Oh, Snoo likes you!",
+      "ru": "О, Сну ты понравился!",
+      "speaker": "Honip",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "He's a strong chicken alright, trust me on that one.",
+      "ru": "Это мощная курица, поверь мне.",
+      "speaker": "Honip",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Anyway, get back to work!",
+      "ru": "Ладно, возвращайся к работе!",
+      "speaker": "Honip",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I'm just goin' to... Wait here... With my cannons...",
+      "ru": "А я, пожалуй... постою тут... со своими пушками...",
+      "speaker": "Seth",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Hey! The boat's lookin' real nice now!",
+      "ru": "Эй! Теперь корабль просто загляденье!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "I'll probably let you rest so- hold on.",
+      "ru": "Я, наверное, даже дам тебе передохнуть, так- стоп.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Ho-Honip! One of the guys said he saw something really weird coming right for us!",
+      "ru": "Х-Хонип! Один из ребят сказал, что прямо на нас идёт что-то очень странное!",
+      "speaker": "Pirate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Wait... What? Soldier, come!",
+      "ru": "Погоди... Что? Солдат, сюда!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "What's happening?!",
+      "ru": "Что вообще творится?!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "We-we don't know! We can't exactly see it, but it seems huge!",
+      "ru": "М-мы не знаем! Мы толком не видим, что это, но оно здоровенное!",
+      "speaker": "Pirate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "I- Let me see.",
+      "ru": "Я- Дай глянуть.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Uh... Where am I supposed to be looking at, exactly?",
+      "ru": "Эм... А куда именно я должен смотреть?",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "I swear, it felt like the whole ocean was getting crazy a second ago!",
+      "ru": "Клянусь, секунду назад казалось, будто весь океан сошёл с ума!",
+      "speaker": "Pirate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "If this is another one of your jokes...",
+      "ru": "Если это опять одна из ваших тупых шуток...",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "LOOK OUT!",
+      "ru": "БЕРЕГИСЬ!",
+      "speaker": "Seth",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "What the hell is that??",
+      "ru": "Да что это такое, чёрт возьми??",
+      "speaker": "Seth",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "I don't know, this wasn't planned!",
+      "ru": "Я не знаю, это не по плану!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Soldier, now's your time to shine! Scare it off with one of your spells or something!",
+      "ru": "Солдат, вот и твой звёздный час! Отгони эту тварь каким-нибудь своим заклинанием или чем там!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "It's working! Do that again!",
+      "ru": "Работает! Ещё раз!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "One more...",
+      "ru": "Ещё раз...",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "It's starting to panic!",
+      "ru": "Оно начинает паниковать!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "That's right, get back!",
+      "ru": "Во-во, вали назад!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "I knew you had it in ya, haha!",
+      "ru": "Я знал, что ты сможешь, ха-ха!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "What a show! Come, I've got some things to tell ya!",
+      "ru": "Вот это шоу! Иди сюда, мне надо кое-что тебе сказать!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "I don't know where that creature came from, but thanks to you it's gone.",
+      "ru": "Не знаю, откуда взялась эта тварь, но благодаря тебе она свалила.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "I've got something else for you to tackle. It's about... the rats.",
+      "ru": "У меня для тебя ещё одно дельце. Оно касается... крыс.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Come to the hold, I'll explain on the way.",
+      "ru": "Идём к трюму, по дороге объясню.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "I think we have quite a hellish problem on our hands.",
+      "ru": "Кажется, у нас тут адская беда.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "I'm not sure what y'all find there, but these are NOT normal rats.",
+      "ru": "Не знаю, что тебя там ждёт, но это НЕ обычные крысы.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "So please, get in there... and kill everything, alright?",
+      "ru": "Так что давай, лезь туда... и убей там всё, ладно?",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I've got faith in ya. Here goes nothin'!",
+      "ru": "Я в тебя верю. Ну, была не была!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Just cast one of your fancy spells!",
+      "ru": "Просто шарахни каким-нибудь своим заковыристым заклинанием!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "That was... Phew... That was something.",
+      "ru": "Это было... Фух... Вот это да.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Now, for an even bigger surprise...",
+      "ru": "А теперь - сюрприз ещё побольше...",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "What the hell soldier?? What don't you get in the \"soldier\" part of your job?",
+      "ru": "Ты что творишь, солдат?? Что тебе непонятно в слове \"солдат\" вообще?",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Come, let's figure some things out.",
+      "ru": "Иди сюда, будем разбираться.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "You've been a massive disappointment, y'know?",
+      "ru": "Ну и разочаровал ты меня, знаешь?",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "But you can still redeem yourself.",
+      "ru": "Но ещё можешь исправиться.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Follow me, I'll explain on the way.",
+      "ru": "Иди за мной, по дороге объясню.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "I mentioned a rat problem earlier... It's, uh, not a small one.",
+      "ru": "Я уже говорил про проблему с крысами... Она, эм, совсем не маленькая.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "We've got gunpowder to retrieve, so you're the one who's gonna clear the hold.",
+      "ru": "Нам надо вернуть порох, так что именно ты и будешь чистить трюм.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "So get in there... and try to kill everything, alright?",
+      "ru": "Так что лезь туда... и постарайся убить там всё, ладно?",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Don't be as bad as earlier. You're a soldier.",
+      "ru": "Только в этот раз не облажайся, как раньше. Ты же солдат.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "What.",
+      "ru": "Что.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Well... That's a twist.",
+      "ru": "Ну... вот это поворот.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "I expected you to do somethin', soldier, not him!",
+      "ru": "Я ожидал, что хоть что-то сделаешь ты, солдат, а не он!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Anyway, come talk to me.",
+      "ru": "Короче, подойди ко мне.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "I have another task for you. It's about... the rats.",
+      "ru": "У меня для тебя ещё одна задачка. Она про... крыс.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "See, I really don't think we have your usual type of problem.",
+      "ru": "Понимаешь, по-моему, у нас тут не совсем обычный случай.",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "We sometimes hear unusually load footsteps, along with some really eerie squeaking...",
+      "ru": "Иногда мы слышим необычайно громкие шаги и по-настоящему жуткий писк...",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "That's why we're not too fond of goin' in... But our gunpowder there! We need it, as pirates!",
+      "ru": "Вот поэтому мы не горим желанием туда лезть... Но там же наш порох! А он нам нужен, мы же пираты!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "So, I need you to get in... and kill everything, alright?",
+      "ru": "Так что мне надо, чтобы ты вошёл туда... и убил там всё, ладно?",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Here goes nothing. Snoo, ya stay there!",
+      "ru": "Ну, была не была. Сну, ты сиди тут!",
+      "speaker": "Honip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Hey there! Ya bringin' me good news?",
+      "ru": "Ну что! Есть для меня хорошие новости?",
+      "speaker": "Honip",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "You took care of these damn thieving rodents? A... colossal rat you say?",
+      "ru": "Ты разобрался с этими проклятыми вороватыми грызунами? Говоришь... гигантская крыса?",
+      "speaker": "Honip",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Nicely done, I knew I could count on ya! C'mere, take these!",
+      "ru": "Красавчик, я знал, что на тебя можно положиться! На, держи!",
+      "speaker": "Honip",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Anyway, for now, you can go rest and do whatever you want!",
+      "ru": "Короче, теперь можешь отдохнуть и делать что хочешь!",
+      "speaker": "Honip",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Well, shiver me timbers! You did redeem yourself soldier!",
+      "ru": "Разрази меня гром! А ты всё-таки исправился, солдат!",
+      "speaker": "Honip",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "That sounds absolutely terrifying! And ya did that alone! You know what, her', take these.",
+      "ru": "Звучит просто жутко! И ты справился в одиночку! Знаешь что, держи вот это.",
+      "speaker": "Honip",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Hey! What do you think you're doin'?!",
+      "ru": "Эй! Ты что это вздумал делать?!",
+      "speaker": "Pirate Guard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "...Seth? Have ya seen the soldier?",
+      "ru": "...Сет? Ты солдата не видел?",
+      "speaker": "Honip",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "No, but they did a great job in the hold! Some gunpowder went missing though.",
+      "ru": "Нет, но в трюме он поработал отлично! Только вот немного пороха пропало.",
+      "speaker": "Seth",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Seth",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Wait a minute.",
+      "ru": "Погоди-ка.",
+      "speaker": "Seth",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "'ey there soldier! Looks like ya're in a bit of a pickle! How 'bout ya hop on?'",
+      "ru": "Эй, солдат! Похоже, ты тут слегка влип! Ну что, запрыгнешь?",
+      "speaker": "Seaskipper Captain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Well... We're headed for Selchar, the heart of the ocean! Which is safer than wherever you were, heh!",
+      "ru": "Ну... Мы идём в Селчар, сердце океана! И уж там точно безопаснее, чем там, откуда ты сейчас вылез, хех!",
+      "speaker": "Seaskipper Captain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "I was casually takin' a scenic detour when I saw you and your shiny equipment on that island.",
+      "ru": "Я тут решил полюбоваться видами, сделал крюк и увидел тебя с твоей блестящей снарягой на том острове.",
+      "speaker": "Seaskipper Captain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "So, ya gotta tell me what happened!",
+      "ru": "Так что давай, выкладывай, что случилось!",
+      "speaker": "Seaskipper Captain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Oh, kidnapped by pirates I see! How unfortunate...",
+      "ru": "О, значит, пираты похитили? Вот ведь не повезло...",
+      "speaker": "Seaskipper Captain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "I guess that'll show ya, tryin' to avoid using good ol' seaskipper! I'm the only trustworthy one 'round here.",
+      "ru": "Ну, будет тебе урок, нечего было обходить старого доброго морского извозчика! Тут только мне можно доверять.",
+      "speaker": "Seaskipper Captain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Well, I hope they weren't too bad with ya! Here, I'll make you travel to Selchar for free as compensation.",
+      "ru": "Надеюсь, они там тебя не слишком мучили! Ладно, до Селчара довезу тебя бесплатно, считай это компенсацией.",
+      "speaker": "Seaskipper Captain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Anyway, I can see the shore off in the distance! Hang tight, we're almost there!",
+      "ru": "Короче, уже вижу берег вдали! Держись, почти прибыли!",
+      "speaker": "Seaskipper Captain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "You've been knocked out...",
+      "ru": "Тебя вырубили...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Sounds like you are being dragged around...",
+      "ru": "Похоже, тебя куда-то волокут...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "You pick up a small sign...",
+      "ru": "Ты поднимаешь небольшую табличку...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "It reads: 'Behind you, idiot.'",
+      "ru": "На ней написано: \"Позади тебя, идиот.\"",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "[0/7] Bodies Cleaned",
+      "ru": "[0/7] Тел убрано",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "You take a look inside the furnaces...",
+      "ru": "Ты заглядываешь внутрь печей...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "There's nothing, except for...",
+      "ru": "Там ничего нет, кроме...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "An absurd amount of wood shavings, for some reason.",
+      "ru": "Горы древесной стружки, которая непонятно зачем тут лежит.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "You find some notes on the table.",
+      "ru": "Ты находишь какие-то записи на столе.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "There's mentions of... A human cannon? How does that make sense?",
+      "ru": "Тут упоминается... Пушка для запуска людей? Как это понимать?",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Apparently, only gunpowder is needed, as well as a fuse.",
+      "ru": "Судя по всему, нужен лишь порох да фитиль.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "This cannon is aiming slightly upwards, and it seems less powerful than the others.",
+      "ru": "Эта пушка нацелена слегка вверх и кажется менее мощной, чем остальные.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "According to the notes you saw, it's probably the \"human\" cannon. This must be your escape route!",
+      "ru": "Судя по найденным запискам, это, вероятно, та самая \"пушка для запуска людей\". С её помощью ты сможешь сбежать!",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "You pick up some notes.",
+      "ru": "Ты поднимаешь какие-то записи.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "There are mentions of a hidden key in the hold...",
+      "ru": "Тут упоминается спрятанный ключ в трюме...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "You cleaned the bodies! You should talk to Honip on the deck.",
+      "ru": "Ты убрал тела! Тебе стоит поговорить с Хонипом на палубе.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "You put the gunpowder in the cannon and attach the fuse...",
+      "ru": "Ты засыпаешь порох в пушку и прикрепляешь фитиль...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Looks like it's fully functional. Make sure the pirates don't see you! Once you leave, you won't be able to come back.",
+      "ru": "Похоже, она полностью исправна. Смотри, чтобы пираты тебя не заметили! Как только уйдёшь, вернуться уже не сможешь.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "You crawl into the cannon...",
+      "ru": "Ты заползаешь в пушку...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "It's a coconut.",
+      "ru": "Это кокос.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "It's a palm tree.",
+      "ru": "Это пальма.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "You dig up some sand...",
+      "ru": "Ты раскапываешь песок...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "There's more sand.",
+      "ru": "Там ещё песок.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "Huh? Something's approaching off in the distance...",
+      "ru": "А? Вдалеке что-то приближается...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Looks like they're headed toward the island! Is that..?",
+      "ru": "Похоже, они направляются к острову! Это что...?",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "New Quest Started: Misadventure on the Sea",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Злоключение в море",
+      "speaker": "",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Visit the Nemract bar at [114, 40, -2176]",
+      "ru": "Посетить бар Немракта [114, 40, -2176].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Meet Honip at [103, 37, -2254]",
+      "ru": "Встретиться с Хонипом [103, 37, -2254].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Clean the bodies in the boat. Look for clues on how to escape at the same time. -Bodies cleaned: #/7",
+      "ru": "Убрать тела на корабле и заодно поискать способ сбежать. -Убрано тел: #/7",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Talk to Honip on the deck to get your next task",
+      "ru": "Поговорить с Хонипом на палубе и получить следующее поручение.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Explore the hold and kill the rats",
+      "ru": "Исследовать трюм и убить крыс.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Defeat the Colossal Rat in the hold",
+      "ru": "Победить Исполинскую крысу в трюме.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Use the gunpowder and the fuse to activate the cannon and escape",
+      "ru": "Использовать порох и фитиль, чтобы выстрелить из пушки и сбежать.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Find out where you are and a way to flee the island",
+      "ru": "Выяснить, куда удалось попасть, и найти способ покинуть остров.",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,688 @@
+{
+  "quest": "A Sandy Scandal",
+  "level": 32,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "a-sandy-scandal",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "You look like a hardy one! Ragni army is it? Would you be willing to help Almuj a bit?",
+      "ru": "Выглядишь крепким! Из армии Рагни, да? Не поможешь чутка Алмуджу?",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Almuj bank tends to be a prime target for bandits, and there's been a string of incidents that have made us suspicious.",
+      "ru": "Банк Алмуджа - лакомая цель для бандитов. В последнее время здесь всё чаще происходят подозрительные вещи.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "We're looking into some witness reports to try and gain information on the bandits' plan.",
+      "ru": "Мы сейчас копаемся в показаниях свидетелей, чтобы понять, что бандиты задумали.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "If I give you some of the reports, will you help check them out for clues?",
+      "ru": "Если я дам тебе эти отчёты, поможешь их проверить и поискать зацепки?",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Great! The store from the first witness report is straight down the stairs, just past this building right behind me.",
+      "ru": "Отлично! Лавка из первого отчёта находится внизу: спустись по лестнице и пройди за здание у меня за спиной.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "It's called \"Gibbs' Mining Supply Store\", and the owner reported a robbery a few days ago.",
+      "ru": "Называется \"Шахтёрский магазин Гиббса\", и его владелец пару дней назад сообщил об ограблении.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Good luck! Report back to me if you find any information.",
+      "ru": "Удачи! Если что-то найдёшь - сразу ко мне.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "You read the report and visualize its words.",
+      "ru": "Ты читаешь отчёт и представляешь всё, что в нём описано.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Business was slow that day, until two rugged, oddly-dressed men stormed into my shop, with a lot of nerve.",
+      "ru": "Торговля в тот день шла вяло, пока в мою лавку не вломились двое потрёпанных типов в странной одежде. Наглости им было не занимать.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Hello gentlemen! What can I interest you in today? Some industrial torches? Pickaxes?",
+      "ru": "Здравствуйте, господа! Чем могу заинтересовать? Промышленными факелами? Кирками?",
+      "speaker": "Shopkeeper Gibbs",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Before I could close any deal with them, the man with a dagger started threatening me!",
+      "ru": "Не успел я договориться с ними о покупке, как человек с кинжалом начал мне угрожать!",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Shut yer' trap, old man. We came for a different kind of business.",
+      "ru": "Заткнись, старик. Мы тут по другому делу.",
+      "speaker": "Bandit",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I tried to make peace with the crooks.",
+      "ru": "Я попытался договориться с этими бандитами по-хорошему.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Wha-? Look, fellows. Just step out of my store, and nobody gets hurt. I don't want any trouble.",
+      "ru": "Чт-? Слушайте, парни. Просто выйдите из моей лавки, и никто не пострадает. Мне проблемы не нужны.",
+      "speaker": "Shopkeeper Gibbs",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "The bandit put the knife closer to me and started demanding the code to the TNT vault downstairs!",
+      "ru": "Бандит поднёс нож ещё ближе и начал требовать код от ТНТ-хранилища в подвале!",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Listen up old man, tell us the code to the TNT vault in the basement, or I decorate my necklace with your fingers!",
+      "ru": "Слушай сюда, дед. Говори код от ТНТ-хранилища в подвале, или я себе твои пальцы на ожерелье повешу!",
+      "speaker": "Bandit",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Certainly not! That TNT is for licensed mining companies only, not your average amateur miner.",
+      "ru": "Ни в коем случае! Этот ТНТ только для шахтёрских компаний с лицензией, а не для обычных шахтёров-любителей.",
+      "speaker": "Shopkeeper Gibbs",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "The bandits grew agitated and resorted to violence to obtain the combination.",
+      "ru": "Бандиты взбесились и решили выбить комбинацию силой.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Well then! I guess you'll still be able to grasp a pick with four fingers, eh?",
+      "ru": "Ну тогда! Спорю, кирку и четырьмя пальцами держать сможешь, а?",
+      "speaker": "Bandit",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "They swiped their knife at me, leaving a sizeable wound on my arm.",
+      "ru": "Они полоснули меня ножом, оставив здоровенную рану на руке.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Gaaah! Alright, alright! No more violence, please!",
+      "ru": "Ааа! Ладно, ладно! Только хватит уже, прошу!",
+      "speaker": "Shopkeeper Gibbs",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I had no choice but to give up the combination, which was 7812.",
+      "ru": "У меня не было выбора, пришлось назвать комбинацию - 7812.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "The code is 7-8-1-2... please don't hurt me!",
+      "ru": "Код 7-8-1-2... только не трогайте меня!",
+      "speaker": "Shopkeeper Gibbs",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "After I gave up the combination, they knocked me out!",
+      "ru": "После того как я сказал код, они меня вырубили!",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "7-8-1-2... thanks! We won't be needing you anymore... now go to sleep!",
+      "ru": "7-8-1-2... спасибо! Ты нам больше не нужен... а теперь баиньки!",
+      "speaker": "Bandit",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "I had no idea what the criminals did after that, I haven't been back to my shop after the incident.",
+      "ru": "Что эти преступники делали потом, я без понятия. После этого случая я в лавку больше не заходил.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "The bandits must've taken the explosives! You should investigate.",
+      "ru": "Похоже, бандиты стырили взрывчатку! Надо проверить.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Looks like the bandit's took almost all of the TNT from the shopkeeper's vault.",
+      "ru": "Похоже, бандиты вынесли почти весь ТНТ из хранилища лавочника.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "They seem to have dropped their knife during all the looting...",
+      "ru": "Похоже, в процессе грабежа они уронили свой нож...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "You should return to the Almuj Bank Guard with your information.",
+      "ru": "Надо вернуться к стражнику банка Алмуджа и рассказать ему, что ты узнал.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Ah, you're back! Did you find anything interesting in the report?",
+      "ru": "А, ты вернулся! Нашёл что-нибудь интересное в отчёте?",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Missing TNT in the shop's vault? Looks like the shopkeeper was telling the truth.",
+      "ru": "Не хватает ТНТ в хранилище лавки? Значит, владелец не врал.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "We need to catch these criminals quickly if they have access to that amount of TNT - they could blow a hole right into the bank's vault!",
+      "ru": "Надо срочно поймать этих бандитов. С таким количеством ТНТ они могут взрывом пробить дыру прямо в хранилище банка!",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "You should check out another witness report, from after the attack on the shopkeeper.",
+      "ru": "Проверь ещё один отчёт свидетеля - уже после нападения на лавочника.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "It was taken from the rooftop garden of the Scroll Merchant's residence, you should take a look.",
+      "ru": "Этот свидетель находился в саду на крыше дома торговца свитками. Тебе стоит туда заглянуть.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Be quick! We don't have much time if we want to stop these bandits.",
+      "ru": "Давай быстрее! Если хотим остановить этих бандитов, времени у нас мало.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I was having a fine time tending to my rooftop garden after a lengthy day of selling scrolls.",
+      "ru": "После долгого дня торговли свитками я спокойно возился в своём садике на крыше.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "While looking down on the street, I saw two unsavory men, one with TNT in hand, marching down the path.",
+      "ru": "Глянул вниз на улицу и увидел двух мутных типов. Они шли по дороге, один тащил ТНТ.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "I was suspicious, so I tried to get their attention, but they ignored me.",
+      "ru": "Мне это показалось подозрительным, я попытался их окликнуть, но они не обращали на меня внимания.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Ey', what do you two blighters think you're doing with those dangerous explosives in the city?",
+      "ru": "Эй, паршивцы! Зачем вы тащите по городу такую опасную взрывчатку?",
+      "speaker": "Scroll Merchant",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "I then realized that had no innocent itinerary, they were heading straight for my wealthy neighbor's house!",
+      "ru": "Тут я понял, что ничего доброго у них на уме нет: они шли прямо к дому моего богатого соседа!",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I tried to yell for the attention of a guard or official, but nobody could hear me.",
+      "ru": "Я попытался докричаться до стражи или кого-нибудь из властей, но меня никто не услышал.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Guards! Guards! Robber! Come quick! Urgently!",
+      "ru": "Стража! Стража! Грабители! Быстро сюда! Срочно!",
+      "speaker": "Scroll Merchant",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Before anybody could hear me, a large explosion occurred inside of the house the bandits intruded.",
+      "ru": "Но прежде чем меня кто-то услышал, внутри дома, куда вломились бандиты, прогремел мощный взрыв.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Gaaah!",
+      "ru": "Ааа!",
+      "speaker": "Scroll Merchant",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "The bandits came sprinting out of my wealthy neighbor's house with some of his most prized possessions: two weapons from his collection.",
+      "ru": "Бандиты вылетели из дома моего богатого соседа с двумя особенно ценными вещами из его коллекции оружия.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I wasn't sure what to do at this point... I didn't try to confront them, that'd have been way too risky!",
+      "ru": "Я уже не знал, что делать... Лезть к ним я не стал, это было бы слишком рискованно!",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "I have no idea where they went off to afterwards.",
+      "ru": "Куда они потом делись, я без понятия.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "You should check out the house that the explosion came from!",
+      "ru": "Надо проверить дом, где был взрыв!",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "This must be where the robbery took place!",
+      "ru": "Похоже, грабёж был именно тут!",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Two weapons are missing from the wealthy estate owner's weapon rack!",
+      "ru": "С оружейной стойки хозяина особняка пропало два предмета!",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "With such powerful weapons the bandits could easily break through the bank's defenses.",
+      "ru": "С таким мощным оружием бандиты легко продавят оборону банка.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Were you able to uncover any new information regarding the status of the criminals?",
+      "ru": "Удалось найти что-нибудь новое по этим преступникам?",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Ah... that's troubling. The criminals plundered two very powerful weapons.",
+      "ru": "А... дело плохо. Бандиты утащили два образца очень мощного оружия.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "It won't be easy facing those criminals if they decide to raid the bank with those weapons.",
+      "ru": "Если они попрут на банк с таким оружием, нам будет очень несладко.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "I'm not certain how to proceed from here, we didn't receive any more witness reports, and-",
+      "ru": "Я уже не очень понимаю, как дальше действовать. Больше показаний свидетелей нет, и-",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Boss, I just received urgent reports of a robbery underway in the left residential area of Almuj!",
+      "ru": "Босс, только что пришло срочное сообщение - в левом жилом районе Алмуджа прямо сейчас идёт ограбление!",
+      "speaker": "Almuj Sentry",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Oh my... you! Soldier! Quick! The robbery is taking place across the bridge, next to the first house you visited today! It may be the bandits we're looking for.",
+      "ru": "Ох чёрт... ты! Солдат! Быстро! Ограбление прямо за мостом, рядом с первым домом, который ты сегодня проверял! Это могут быть те самые бандиты.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "There will be somebody waiting for you outside of the house once you get to the residential area!",
+      "ru": "Когда доберёшься до жилого района, снаружи дома тебя будет ждать человек.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "If you still can't find it, I've written the coordinates in your content book. Now quickly, get to the house!",
+      "ru": "Если всё равно не найдёшь, я записал координаты в твою книгу. А теперь быстро туда!",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Hello? Are you with the guards? Good! Hurry! Some bandits just ransacked my house, and left with lots of emeralds!",
+      "ru": "Эй? Ты со стражей? Отлично! Быстрее! Какие-то бандиты только что вынесли мой дом и утащили кучу изумрудов!",
+      "speaker": "Almuj Citizen",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Follow me to my house, hopefully you can find the bandits! They stole lots of my precious gems!",
+      "ru": "Иди за мной к дому, может, ты ещё сможешь найти этих уродов! Они стырили кучу моих драгоценных камней!",
+      "speaker": "Almuj Citizen",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "There's a trail of gold lying on the ground...",
+      "ru": "По земле тянется дорожка из золота...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Ready, boys? We've got the TNT, weapons, and the fastest horses those emeralds could buy. Now we just-",
+      "ru": "Ну что, парни, готовы? ТНТ есть, оружие есть, самых быстрых лошадей на эти изумруды мы тоже взяли. Осталось только-",
+      "speaker": "Bandit Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Ahah. I had a feeling we had a guard on our tail.",
+      "ru": "Аха. Я так и чуял, что у нас страж на хвосте.",
+      "speaker": "Bandit Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "No point wasting these brand-new weapons on you... since we're blowing up this hideout anyway!",
+      "ru": "Нет смысла тратить на тебя это новенькое оружие... мы же всё равно сейчас взорвём это логово!",
+      "speaker": "Bandit Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "This whole thing'll go up in a few seconds, and any evidence will be buried in the sand. Good luck getting out of here!",
+      "ru": "Через пару секунд тут всё взлетит на воздух, а песок скроет все улики. Удачи выбраться отсюда!",
+      "speaker": "Bandit Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Looks like the bandits have started their heist! You should follow them into the bank to stop them.",
+      "ru": "Похоже, бандиты начали ограбление! Надо последовать за ними в банк и остановить их.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "It's too late to stop us now! We're already about to bust out of here with the grand prize - the contents of the emerald vault!",
+      "ru": "Теперь нас уже поздно останавливать! Мы вот-вот свалим отсюда с главным кушем - всем содержимым изумрудного хранилища!",
+      "speaker": "Bandit Leader",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Look here, the soldier decided they wanted to follow us. Dumb move.",
+      "ru": "Гляньте-ка, солдат решил за нами увязаться. Тупое решение.",
+      "speaker": "Bandit Leader",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "I guess we can kill two birds with one stone: escaping the bank, and killing this pest.",
+      "ru": "Похоже, можно убить двух зайцев сразу: и из банка свалить, и этого надоеду прикончить.",
+      "speaker": "Bandit Leader",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Block the entrance, bandits!",
+      "ru": "Перекрыть вход, живо!",
+      "speaker": "Bandit Leader",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Soldier! Where did you disappear to? Did you hear those explosions, below the bank?",
+      "ru": "Солдат! Ты куда пропал? Слышал эти взрывы под банком?",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "We think those bandits might have made their first move in the heist, we're mobilising a troop to-",
+      "ru": "Похоже, эти бандиты уже начали ограбление, мы собираем отряд, чтобы-",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "You've already stopped them? And reclaimed the stolen weapons and explosives..?",
+      "ru": "Ты уже их остановил? И вернул украденное оружие и взрывчатку...?",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Wow. Excellent work, soldier. Almuj is in your debt. Please accept these from our vault, as a token of our thanks.",
+      "ru": "Ого. Отличная работа, солдат. Алмудж у тебя в долгу. Прими это из нашего хранилища в знак благодарности.",
+      "speaker": "Almuj Bank Guard",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "New Quest Started: A Sandy Scandal",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Песчаный скандал",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Shut yer’ trap, old man. We came for a different kind of business.",
+      "ru": "Заткнись, старик. Мы сюда по другому делу.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Oh my… you! Soldier! Quick! The robbery is taking place across the bridge, next to the first house you visited today! It may be the bandits we're looking for.",
+      "ru": "О боже... ты! Солдат! Скорее! Ограбление идёт за мостом, рядом с первым домом, куда ты сегодня заходил! Возможно, это те самые бандиты, которых мы ищем.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "It’s too late to stop us now! We’re already about to bust out of here with the grand prize - the contents of the emerald vault!",
+      "ru": "Останавливать нас уже поздно! Мы вот-вот свалим отсюда с главным кушем - содержимым изумрудного хранилища!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 16"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to the Almuj Bank Guard at [976, 83, -1963]",
+      "ru": "Поговорить со стражником банка Алмуджа [976, 83, -1963].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Go to the witness report location at [954, 76, -1985].",
+      "ru": "Отправиться к месту, указанному в показаниях свидетеля [954, 76, -1985].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Open the vault in the basement [Code: 7812].",
+      "ru": "Открыть хранилище в подвале [Код: 7812].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Inspect the vault.",
+      "ru": "Осмотреть хранилище.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Exit the vault.",
+      "ru": "Выйти из хранилища.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to the Almuj Bank Guard at [976, 86, -1963]",
+      "ru": "Поговорить со стражником банка Алмуджа [976, 86, -1963].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Go to the witness report location at [922, 82, -1925].",
+      "ru": "Отправиться к месту, указанному в показаниях свидетеля [922, 82, -1925].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Read the witness report.",
+      "ru": "Прочитать показания свидетеля.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find the source of the detonation at [13902, 32, 21022].",
+      "ru": "Найти место взрыва [13902, 32, 21022].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Inspect the safe.",
+      "ru": "Осмотреть сейф.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Talk to the Almuj Bank Guard at [976, 86, -1963].",
+      "ru": "Поговорить со стражником банка Алмуджа [976, 86, -1963].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Quickly! Go to the house at [930, 76, -2034].",
+      "ru": "Скорее добраться до дома [930, 76, -2034]!",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Look for signs of the bandits' whereabouts.",
+      "ru": "Найти следы бандитов.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Listen to the bandits.",
+      "ru": "Подслушать бандитов.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Escape the hideout!",
+      "ru": "Сбежать из убежища!",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Find where the bandits blasted a hole to get into the bank at [1029, 83, -1983].",
+      "ru": "Найти пролом, через который бандиты попали в банк [1029, 83, -1983].",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Follow the criminals into the other room.",
+      "ru": "Следовать за преступниками в другую комнату.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Don't let the bandits escape!",
+      "ru": "Не дать бандитам сбежать!",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Report back to the Almuj Bank Guard at [976, 86, -1963].",
+      "ru": "Доложить стражнику банка Алмуджа [976, 86, -1963].",
+      "stage": "Stage 19"
+    }
+  ],
+  "choices": []
+}

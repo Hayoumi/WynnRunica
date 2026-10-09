@@ -1,0 +1,689 @@
+{
+  "quest": "The Envoy Part I",
+  "level": 83,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-envoy-part-i",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Mo'in! My name is Olivin.",
+      "ru": "Моин! Меня зовут Оливин.",
+      "speaker": "Olivin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Does my appearance intrigue you?",
+      "ru": "Тебя удивляет мой вид?",
+      "speaker": "Olivin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I'm not from around here. In fact I am from Corkus.",
+      "ru": "Я не отсюда. Вообще-то я с Коркуса.",
+      "speaker": "Olivin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "It's an independent island to the west. In fact.. If you want to go...",
+      "ru": "Это независимый остров на западе. Вообще... если хочешь туда попасть...",
+      "speaker": "Olivin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "We're looking for Wynn representatives. Head to the C.S.S Wavebreaker down at the dock if you want to experience Corkus. Enjoy Corkus if you go!",
+      "ru": "Мы как раз ищем представителей Винна. Если хочешь побывать на Коркусе, ступай к судну Ц.С.С. \"Волнолом\" у доков внизу. Приятного путешествия!",
+      "speaker": "Olivin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Welcome welcome to C.S.S Wavebreaker!",
+      "ru": "Добро пожаловать, добро пожаловать на Ц.С.С. \"Волнолом\"!",
+      "speaker": "C.S.S Wavebreaker Captain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "The only boat that'll take ye directly to Corkus City.",
+      "ru": "Это единственный корабль, который довезёт тебя прямо до города Коркус.",
+      "speaker": "C.S.S Wavebreaker Captain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Just hop aboard and make yerself comfy.",
+      "ru": "Просто поднимайся на борт и устраивайся поудобнее.",
+      "speaker": "C.S.S Wavebreaker Captain",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Welcam aboard me ship, I'll bring ye directly to Corkus.",
+      "ru": "Добро пожаловать на мой корабль, я доставлю тебя прямиком на Коркус.",
+      "speaker": "C.S.S Wavebreaker Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Trust me, it is fa' more amazin than Gavel and Wynn. We even 'ave machines!",
+      "ru": "Поверь, там куда удивительнее, чем в Гавеле и Винне. У нас даже машины есть!",
+      "speaker": "C.S.S Wavebreaker Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "And don't get me started on our architectur'!",
+      "ru": "И ты ещё нашу архитектуру не видел!",
+      "speaker": "C.S.S Wavebreaker Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Trust me, you will enjoy yer stay.",
+      "ru": "Поверь, тебе там понравится.",
+      "speaker": "C.S.S Wavebreaker Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Seems like we're 'ere!",
+      "ru": "Похоже, приплыли!",
+      "speaker": "C.S.S Wavebreaker Captain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "It's such an honour to have a Wynn soldier visit our island.",
+      "ru": "Для нас большая честь, что солдат Винна посетил наш остров.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "We were hoping for a true envoy, but you will do.",
+      "ru": "Мы, конечно, надеялись на настоящего посла, но ты тоже сойдёшь.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "If you follow me, I'll give you a tour of the city.",
+      "ru": "Если пойдёшь за мной, я устрою тебе экскурсию по городу.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "We first arrived on Corkus 150 years ago.",
+      "ru": "Мы впервые прибыли на Коркус 150 лет назад.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "The Corkians, like you, are from Fruma originally...",
+      "ru": "Коркианцы, как и ты, родом из Фрумы...",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "...But let's not talk about that.",
+      "ru": "...Но давай не будем об этом.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Coming from Fruma, we of course knew no magic at all.",
+      "ru": "Когда мы покинули Фруму, то, конечно, совсем не знали магии.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "We soon developed our own. The rare power of Electromagic.",
+      "ru": "Вскоре мы создали свою - редкую силу электромагии.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "It's a difficult modern branch of magic that allows us to create machines.",
+      "ru": "Это сложная современная ветвь магии, которая позволяет нам создавать машины.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Ah, here already. Welcome to Corkus City, Capital of our island.",
+      "ru": "А, вот мы и пришли. Добро пожаловать в город Коркус, столицу нашего острова.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "We've come a long way in a short time.",
+      "ru": "За короткое время мы прошли большой путь.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Let me point out where the shops are.",
+      "ru": "Сейчас покажу, где у нас магазины.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "North, you can buy weapons and potions. If you will continue through the gate you will find the native Avos.",
+      "ru": "На севере можно купить оружие и зелья. Если пойдёшь дальше через ворота, попадёшь к местным Авосам.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "West, you can buy armor, and another entrance to the potion shop.",
+      "ru": "На западе продают броню, и там же ещё один вход в магазин зелий.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "To the south is our bank, powder shop, scrolls, and our exclusive powder exchange!",
+      "ru": "На юге у нас банк, лавки порошков и свитков, а ещё особый обмен порошков!",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Oh! And speaking of the powder exchange, I'll start you off with some of these.",
+      "ru": "О! Кстати об обмене порошков - вот тебе немного на первое время.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Moving on... The south gate leads to Relos. On your way there, you might pass by the-",
+      "ru": "Идём дальше... Южные ворота ведут в Релос. По дороге туда ты можешь пройти мимо-",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Uhm, nevermind. In fact, we have a gift for you.",
+      "ru": "Кхм, неважно. Вообще, у нас для тебя подарок.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "The Five Gears Diner is hosting any guests of the island.",
+      "ru": "Закусочная \"Пять шестерёнок\" угощает всех гостей острова.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Go through the western gate and head to the diner for your free feast. Enjoy!",
+      "ru": "Пройди через западные ворота и загляни в закусочную: тебя ждёт бесплатное угощение. Приятного аппетита!",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "RUN!",
+      "ru": "БЕГИ!",
+      "speaker": "Corkus Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Mechs at the Diner! Run!",
+      "ru": "Мехи в закусочной! Беги!",
+      "speaker": "Corkus Citizen",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Psst! You! Over here, behind the logs!",
+      "ru": "Псс! Ты! Сюда, §bза брёвна!",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Mo'in, Wynnian. Thank goodness I stopped you.",
+      "ru": "Моин, виннианец. Слава богу, я успел тебя остановить.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "The diner is being raided by mechs..",
+      "ru": "На закусочную напали мехи...",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Before we do anything, I have to explain what's happening here...",
+      "ru": "Прежде чем что-то делать, мне надо объяснить, что тут вообще творится...",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "My name is Maxie by the way. Nice to meet you.",
+      "ru": "Кстати, меня зовут Макси. Приятно познакомиться.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "This town is usually full of life.",
+      "ru": "Обычно в этом городе кипит жизнь.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "But Corkus has a secret...",
+      "ru": "Но у Коркуса есть секрет...",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Our creations have rebelled against us.",
+      "ru": "Наши творения восстали против нас.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "They now raid towns for parts.",
+      "ru": "Теперь они грабят города ради деталей.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Mechs are getting increasingly more desperate.",
+      "ru": "Мехи становятся всё более отчаянными.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Even in rust, they are still powerful.",
+      "ru": "Даже ржавые, они всё ещё опасны.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "We have tried to remove them but the factory always makes more.",
+      "ru": "Мы пытались от них избавиться, но фабрика всё равно клепает новых.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "It is Corkus' greatest failure. It must be stopped.",
+      "ru": "Это самый большой провал Коркуса. Всё это надо остановить.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "We need to act now.",
+      "ru": "Действовать надо прямо сейчас.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "I can try to open the vent to sneak in.",
+      "ru": "Я попробую открыть вентиляционный люк, чтобы мы пробрались внутрь.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Look... I know you're a stranger, but... If you want to help, talk to me .",
+      "ru": "Слушай... Я знаю, что ты здесь чужой, но... Если хочешь помочь, §#55FFFFпоговори со мной§r.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Follow me, <playername>.",
+      "ru": "Иди за мной, <playername>.",
+      "speaker": "Maxie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Alright, I'll open the door with electromagic.",
+      "ru": "Ладно, я открою дверь электромагией.",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Gah! I can't even do the most basic spell!",
+      "ru": "Ах! Да я даже простейшее заклинание сотворить не могу!",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "No... Let me try again...",
+      "ru": "Нет... Дай ещё раз попробую...",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Yes! It worked!",
+      "ru": "Да! Получилось!",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "I'm sorry for being useless in front of you...",
+      "ru": "Прости, что от меня так мало толку...",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Electromagic is different from your magic.. I'm not very good at it...",
+      "ru": "Электромагия отличается от вашей магии... Я плохо ею владею...",
+      "speaker": "Maxie",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "RETRIEVE SCRAP...",
+      "ru": "СОБРАТЬ ЛОМ...",
+      "speaker": "Collector Mech",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "RETURN WITH HAUL FOR CONSTRUCTION.",
+      "ru": "ВЕРНУТЬСЯ С СОБРАННЫМ ЛОМОМ ДЛЯ СТРОИТЕЛЬСТВА.",
+      "speaker": "Collector Mech",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Ouch.",
+      "ru": "Ай.",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Mo'in. Sorry had a problem with the-",
+      "ru": "Моин. Прости, возникла проблема с-",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "What in the world is that mech on top of the pile of scrap over there?",
+      "ru": "Что это вообще за мех сидит вон там на куче лома?",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "That is definitely not a regular despermech... It looks brand new!",
+      "ru": "Это точно не обычный деспермех... Он выглядит совсем новым!",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "One of those hasn't been seen since the factory was running...",
+      "ru": "Таких не видели с тех времён, когда фабрика ещё работала...",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "We need to do something! I'll clear the path for you. That's the only thing I can do, I... hurt my... leg.",
+      "ru": "Надо что-то делать! Я расчищу тебе путь. Это всё, чем я сейчас могу помочь, я... ногу... повредил.",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Come on...",
+      "ru": "Давай же...",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "There! Go, defeat it!",
+      "ru": "Вот! Иди, одолей его!",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "PARTS ACQUIRED... RETURN TO FACTORY.",
+      "ru": "ДЕТАЛИ ПОЛУЧЕНЫ... ВОЗВРАТ НА ФАБРИКУ.",
+      "speaker": "Mech X",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Are you okay? Good. Meet me at the entrance where we met. We need to report to Corkus City!",
+      "ru": "Ты в порядке? Хорошо. Встретимся у входа, где мы виделись. Надо срочно доложить в город Коркус!",
+      "speaker": "Maxie",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Don't worry about the guards, they are disabled for now. Follow me.",
+      "ru": "Не беспокойся об охране: сейчас она отключена. Иди за мной.",
+      "speaker": "Maxie",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "I know a shortcut, we'll be in Corkus City in no time.",
+      "ru": "Я знаю короткий путь, мы быстро доберёмся до города Коркус.",
+      "speaker": "Maxie",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Mo'in! Welcome back to Corkus City.",
+      "ru": "Моин! С возвращением в город Коркус.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Beltrude, we have a problem! The factory is running!",
+      "ru": "Белтруд, у нас проблема! Фабрика снова работает!",
+      "speaker": "Maxie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "We saw a mech... A new mech! It looked different like it was made in-",
+      "ru": "Мы видели меха... нового меха! Он выглядел иначе, будто его сделали на-",
+      "speaker": "Maxie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "What a load of scrap! You shouldn't talk about that in front of our guest!",
+      "ru": "Что за чушь! Не говори об этом при нашем госте!",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Our guest... just killed several despermechs by himself.",
+      "ru": "Наш гость... только что в одиночку уничтожил нескольких деспермехов.",
+      "speaker": "Maxie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "And why would we take the word of someone who can't do basic electromagic?",
+      "ru": "И с чего нам верить человеку, который даже простейшую электромагию освоить не может?",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Don't listen to Maxie. Enjoy your stay.",
+      "ru": "Не слушай Макси. Приятного отдыха на острове.",
+      "speaker": "Corkus Delegate",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "They won't admit anything with you around. They want to become allies with Wynn.",
+      "ru": "При тебе они ничего не признают. Им нужен союз с Винном.",
+      "speaker": "Maxie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Come to my house when you reach level 89, here's a key so you can get in. We must prepare to break into the factory.",
+      "ru": "Приходи ко мне домой, когда достигнешь 89 уровня. Вот ключ, чтобы ты мог войти. Нам нужно подготовиться к проникновению на фабрику.",
+      "speaker": "Maxie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Something is going on at the diner, you should hurry.",
+      "ru": "Что-то происходит в закусочной, надо поторопиться.",
+      "speaker": "Corkus Citizen",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "You don't know, huh? Of course you don't. Let me explain.",
+      "ru": "Не знаешь, да? Конечно, откуда тебе знать. Дай-ка объясню.",
+      "speaker": "Maxie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Look, I-I'm sorry for slowing you down. It's just...",
+      "ru": "Слушай, я-я прошу прощения, что задерживаю тебя. Просто...",
+      "speaker": "Maxie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Oh, two paths. Well, I'm not sure which way it is, so let's split up. I'll go to the right.",
+      "ru": "О, две дороги. Не знаю, какая нам нужна, так что давай разделимся. Я пойду направо.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "New Quest Started: The Envoy Part I",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Посланник, часть I",
+      "speaker": "",
+      "stage": "Stage 11"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Olivin.",
+      "ru": "Поговорить с Оливином.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Speak to C.S.S Wavebreaker Captain at the Selchar docks.",
+      "ru": "Поговорить с капитаном \"Волнолома\" у причалов Селчара.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Get onto the C.S.S. Wavebreaker.",
+      "ru": "Подняться на борт \"Волнолома\".",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Speak to Corkus Delegate",
+      "ru": "Поговорить с делегатом Коркуса.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Walk towards The Five Gears Diner.",
+      "ru": "Отправиться в закусочную \"Пять шестерёнок\".",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to Maxie.",
+      "ru": "Поговорить с Макси.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Activate the fans.",
+      "ru": "Запустить вентиляторы.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Open the door and exit the ducts.",
+      "ru": "Открыть дверь и выйти из вентиляции.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Follow the path.",
+      "ru": "Идти по тропе.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Talk to Maxie at the entrance to The Five Gears Diner.",
+      "ru": "Поговорить с Макси у входа в закусочную \"Пять шестерёнок\".",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Talk to Maxie and Corkus Delegate in Corkus City.",
+      "ru": "Поговорить с Макси и делегатом Коркуса в Коркусе.",
+      "stage": "Stage 11"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,309 @@
+{
+  "quest": "Beneath the Depths",
+  "level": 60,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "beneath-the-depths",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Garh, you look like a mighty fine adventurer, lad. But perhaps your pockets are a little lighter than you want, eh?",
+      "ru": "Гарр, вижу, ты знатный приключенец, парень. Но кошель у тебя, поди, полегче, чем хотелось бы, а?",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Perhaps we be making a deal, lad, and it'll make us both rich!",
+      "ru": "Может, провернём одно дельце, парень, и оба озолотимся!",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Ye see, lad, me treasure has been lost for quite some time, I kept it in a ocean village named Sarnfic, in a secret room.",
+      "ru": "Видишь ли, парень, моё сокровище пропало уже давненько. Я хранил его в океанской деревне под названием Сарнфик, в тайной комнате.",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Argh, but lad. The village vanished out of nowhere! Like some kind of dark magic! I swears to ye, I tell no lies!",
+      "ru": "Ах, но тут такое дело, парень. Деревня просто исчезла! Как будто тёмная магия какая-то! Клянусь тебе, не вру!",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "So ye see, in me old age I could use a spot of me lawful gold to see me through me final years.",
+      "ru": "Так что сам понимаешь, парень, на старости лет мне бы немного моего честно нажитого золота, чтобы дожить свой век без нужды.",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Don't fret though, chuck, old Javier always kept a back up plan.",
+      "ru": "Но не переживай, дружок, у старины Хавьера всегда был запасной план.",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I left me old sea fearin' map in me old hideout, it'll tell ye where we can find me old gold.",
+      "ru": "Я оставил свою старую мореходную карту в старом тайнике, она и покажет, где искать моё золото.",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "So, lad. Are ya willin' to make ye'self mighty wealthy? Good.",
+      "ru": "Так что, парень, хочешь как следует разбогатеть? Отлично.",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Me old hideout's hidden inside that there skull at the entrance to our mighty fine establishment, Bring me that map, lad!",
+      "ru": "Мой старый тайник спрятан внутри того черепа у входа в наше славное заведение. Принеси мне ту карту, парень!",
+      "speaker": "Javier",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Halt it there, laddy! The wind has told us that yer looking for treasure map. Ah, ye'll not get it so easily.",
+      "ru": "Стоять, паренёк! Ветер нашептал нам, что ты ищешь карту сокровищ. Ха, так просто тебе её не получить.",
+      "speaker": "Deceased Buccaneer",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Ye see, us spirits are as greedy as our physical selves were. 'ere's no foolin' 'round there. We want yer money, and only then will we open the paths to the map.",
+      "ru": "Видишь ли, мы, духи, такие же жадные, как и при жизни. Тут без оплаты не обойтись. Нам нужны твои деньги, и только тогда мы откроем путь к карте.",
+      "speaker": "Deceased Buccaneer",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "One full stack of emeralds will satisfy our needs. Go to the front of this tomb if ye have what we want.",
+      "ru": "Полного стака изумрудов нам хватит. Подойди ко входу в эту гробницу, когда принесёшь то, что нам надо.",
+      "speaker": "Deceased Buccaneer",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Good luck on that petty journey of yers. Just find the whole path, and yerself'll be just fine...",
+      "ru": "Удачи в твоём пустяковом походе. Найдёшь дорогу до конца - и всё будет в порядке...",
+      "speaker": "Deceased Buccaneer",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Argh, yer talented aren't you lad! Many thanks indeed, now we can see where me treasure be buried.",
+      "ru": "Ах, да ты талант, парень! Спасибо тебе, теперь мы хоть знаем, где зарыто моё сокровище.",
+      "speaker": "Javier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Hrmm, well, garr, blast it all",
+      "ru": "Хмм, ну, гарр, чтоб тебя...",
+      "speaker": "Javier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I canne read me own darn map, lad! What'dya do with it? Scratch off the ink with yer pennies?",
+      "ru": "Да я ж не могу прочитать свою собственную карту, парень! Ты что с ней сделал? Чернила монетами содрал, что ли?",
+      "speaker": "Javier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Gar, sorry lad. It be the test of time that failed old Javier, not you.",
+      "ru": "Гарр, прости, парень. Это время подвело старину Хавьера, а не ты.",
+      "speaker": "Javier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Fear not, lad. There be an old friend of Javier's that can help decipher this old rag.",
+      "ru": "Не бойся, парень. У Хавьера есть старый друг, он сумеет расшифровать эту тряпку.",
+      "speaker": "Javier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Go to the old Mage Island, there be a man by the name of Dalben who can restore me map to its former glory. Get it done lad, and bring me treasure back!",
+      "ru": "Ступай на старый Остров Магов. Там живёт человек по имени Далбен, он сможет вернуть карте прежний вид. Сделай это, парень, и принеси мне моё сокровище!",
+      "speaker": "Javier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "What's this? A traveller? How might we assist you?",
+      "ru": "Что это? Путник? Чем мы можем помочь?",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Ah, I see, you wish to explore the ocean depths? But for what possible reason?",
+      "ru": "А, вижу, ты хочешь исследовать океанские глубины? Но ради чего?",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "This map... How did you acquire it? This is enchanted by our people.",
+      "ru": "Эта карта... Где ты её взял? На ней чары нашего народа.",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "You... You seek Sarnfic, don't you?",
+      "ru": "Ты... ты ищешь Сарнфик, верно?",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Alas, that place has history. We, the Mage Council, banished that city long ago to hide the horrific power hidden within a treasure a pirate hid there.",
+      "ru": "Увы, у этого места мрачная история. Мы, Совет магов, давным-давно изгнали этот город, чтобы скрыть чудовищную силу сокровища, которое спрятал там один пират.",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "A pair of boots, made from a black material fashioned from the stone of an evil place, incredibly dark magic. But we do not believe the filthy idiotic pirate knew what he'd found.",
+      "ru": "Пара ботинок из чёрного материала, сделанного из камня зловещего края. В них заключена невероятно тёмная магия. Но мы не думаем, что этот грязный болван-пират вообще понимал, что нашёл.",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "I must say, we, the council regret having to lay waste an entire village over a pair of boots. There was no other way.",
+      "ru": "Должен признать, мы, совет, сожалеем, что пришлось погубить целую деревню из-за пары ботинок. Но другого выхода не было.",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Who knows why he even kept the boots. If he had known about their power, I'm sure he would have used it for evil. But we sense no evil in you, so as such we will aid you in your quest.",
+      "ru": "Кто знает, зачем он вообще их хранил. Если бы он понял их силу, наверняка использовал бы во зло. Но зла в тебе мы не чувствуем, поэтому поможем тебе в твоих поисках.",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "We hope that you will use the boots for good, despite the dark intentions. We will lift the enchantment once lain upon the charts, but it will cost you.",
+      "ru": "Надеемся, ты используешь эти ботинки во благо, несмотря на их тёмную природу. Мы снимем чары, некогда наложенные на карту, но это будет стоить денег.",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Give me [5 Emerald Blocks], that should cover the cost.",
+      "ru": "Дай мне [5 изумрудных блоков], этого хватит на оплату.",
+      "speaker": "Dalben",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Brilliant. That seems in order. Here you go.",
+      "ru": "Превосходно. Всё в порядке. Держи.",
+      "speaker": "Dalben",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "We only hope that the treasure will never fall into the hands of that pirate again, we'd much rather they fall into yours.",
+      "ru": "Мы лишь надеемся, что сокровище больше никогда не попадёт в руки того пирата. Уж лучше пусть оно достанется тебе.",
+      "speaker": "Dalben",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Well? What does it say? Go to that location! Find the treasure!",
+      "ru": "Ну? Что там написано? Иди туда! Найди сокровище!",
+      "speaker": "Dalben",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Gnar, you did it lad! Ye brought back old Javiers gold! And as I promised, heres yer share of the loot.",
+      "ru": "Гнар, у тебя вышло, парень! Ты вернул старому Хавьеру его золото! Как и обещал, вот твоя доля добычи.",
+      "speaker": "Javier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "I threw in something extra for ye. It's an old key I salvaged a few years back, from the shipwreck of a legendary pirate.",
+      "ru": "Я ещё кое-что сверху подкинул. Это старый ключ, который я вытащил пару лет назад из обломков корабля одного легендарного пирата.",
+      "speaker": "Javier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Who knows what it leads to? Maybe a treasure hoard, or maybe the ol' swashbuckler wanted to lead someone into a trap.",
+      "ru": "Кто знает, куда он ведёт? Может, к сокровищнице, а может, старый морской волк просто хотел заманить кого-то в ловушку.",
+      "speaker": "Javier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Me bones are too old for a grand adventure like that, guess ye'll have to figure it out for yerself.",
+      "ru": "Мои старые кости уже не выдержат такого приключения, так что дальше уж сам разбирайся.",
+      "speaker": "Javier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "New Quest Started: Beneath the Depths",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Ниже глубин",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Javier in the Pirate Cove at [-640, 53, -3117]",
+      "ru": "Поговорить с Хавьером в Пиратской бухте [-640, 53, -3117].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Javier's map, hidden in the skull tomb at the entrance of the island",
+      "ru": "Найти карту Хавьера в гробнице-черепе у входа на остров.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Talk to Dalben on Mage Island about restoring the map",
+      "ru": "Поговорить с Далбеном на Острове магов о восстановлении карты.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Bring back [5 Blocks of Emerald] to Dalben",
+      "ru": "Принести Далбену [5 Изумрудных блоков].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Explore the cave in the ocean, located at [-187, 16, -3452]",
+      "ru": "Исследовать пещеру в океане [-187, 16, -3452].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find [1 Ocean Treasure] and bring it back to Javier in Pirate Cove",
+      "ru": "Найти [1 Ocean Treasure] и принести его Хавьеру в Пиратскую бухту.",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,505 @@
+{
+  "quest": "Murder Mystery",
+  "level": 73,
+  "difficulty": "Easy",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "murder-mystery",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Stand back, human! This is a crime scene, under my authority. I cannot let you inside.",
+      "ru": "Назад, человек! Это место преступления, и расследование веду я. Внутрь тебя не пущу.",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Although we are in need of some... assistance... and you are fairly experienced, are you not?",
+      "ru": "Хотя нам и правда не помешала бы... помощь... а ты, вроде, не зелёный новичок, верно?",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Well, straight to the point... do you think I might be able to hire you as a private investigator?",
+      "ru": "Что ж, сразу к делу... Ты не против, если я найму тебя частным сыщиком?",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "To put it bluntly, the owner of this house, Eminar, was murdered a few days ago, and what few leads we had have all gone cold.",
+      "ru": "Скажу прямо: хозяина этого дома, Эминара, убили несколько дней назад. А все наши немногочисленные зацепки завели нас в тупик.",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "This is acting outside protocol, of course... but if you manage to catch the killer, I'm sure I could pull some strings and pay you for your work!",
+      "ru": "Это, конечно, против правил... Но если ты поймаешь убийцу, я наверняка смогу договориться об оплате твоей работы!",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I'll make sure no one stops you inside the crime scene. Head inside the house and see if you can find anything helpful.",
+      "ru": "Я прослежу, чтобы внутри тебе никто не мешал. Заходи в дом и поищи всё, что может помочь.",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "My soldiers and I will keep watch outside the house, and make sure you're not disturbed. Be careful in there!",
+      "ru": "Я и мои солдаты постоим снаружи и проследим, чтобы тебя не тревожили. Только осторожнее там!",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Ah, a human! A refreshing sight these days. You've come to see me, I presume? What brings you here?",
+      "ru": "А, человек! Хоть одно свежее лицо в наши дни. Полагаю, ты ко мне? Что тебя привело?",
+      "speaker": "Rohem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "An investigation!? Eminar? That's... that's absurd. I've done nothing wrong.",
+      "ru": "Расследование!? Эминар? Это... это же бред. Я ничего плохого не сделал.",
+      "speaker": "Rohem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Still, the poor man. Eminar and I were good friends, you know. If it could help find his killer, I may have some information for you... strictly off-record, of course...",
+      "ru": "И всё же беднягу жаль. Мы с Эминаром были хорошими друзьями, знаешь ли. Если это поможет найти убийцу, я могу кое-что рассказать... Только неофициально, разумеется...",
+      "speaker": "Rohem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Well. You see, there's an underground gambling den hidden in the city's sewers. Only the elite can get in, and Eminar happened to be a frequent visitor.",
+      "ru": "Так вот. В городской канализации спрятан подпольный игорный дом. Туда пускают только избранных, и Эминар был там частым гостем.",
+      "speaker": "Rohem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Once, he even brought me along with him.",
+      "ru": "Однажды он даже и меня туда притащил.",
+      "speaker": "Rohem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Eminar, though, he often tried to cheat the other gamblers. I suppose it was only a matter of time before they had enough; most do not take cheating lightly.",
+      "ru": "Правда, Эминар часто пытался жульничать с другими игроками. Думаю, вопрос был только во времени, когда их это окончательно достанет. Обман там не прощают.",
+      "speaker": "Rohem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Back to the point, many of them, including poor Eminar, had a symbol built into the sides of their homes, shaped like a snake. A proof of membership, you could say.",
+      "ru": "Но вернёмся к делу. У многих из них, в том числе у бедняги Эминара, на стенах домов выложен знак в виде змеи. Своего рода знак принадлежности к клубу.",
+      "speaker": "Rohem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "If you can find it, it will show you the way to get into the sewers. I'm sorry, I would tell you more if I knew more. But good luck with your investigation, sir.",
+      "ru": "Если найдёшь его, он покажет тебе путь в канализацию. Прости, я бы рассказал больше, если бы сам знал. Но удачи в расследовании, сэр.",
+      "speaker": "Rohem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "How did ya find us down 'ere? I don't remember you... you're with the police, aren't ya? Here after Eminar, I suppose?",
+      "ru": "И как ты нас тут нашёл, а? Не припомню тебя... ты ж из полиции, да? Пришёл из-за Эминара, небось?",
+      "speaker": "Valimare",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Yeah, we've 'eard about what happened to him. Murders don't happen every day up there, ya know. And as it happened, I saw Eminar down here, not too long ago...",
+      "ru": "Ага, мы слыхали, что с ним стряслось. У вас там наверху убийства не каждый день случаются, сам понимаешь. И так уж вышло, я видел Эминара тут не так давно...",
+      "speaker": "Valimare",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Well... as long as I get a guarantee I won't be shut down, I'll help ya. This is a very profitable place, as I'm sure ya might've guessed.",
+      "ru": "Ну... если гарантируешь, что нас тут не прикроют, я помогу. Место, сам понимаешь, прибыльное.",
+      "speaker": "Valimare",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "He was brought down here by his friend one day. Rohem, it was. A fine customer, you understand. Never failed to pay his dues...",
+      "ru": "Его однажды сюда привёл дружок. Рохем, да. Хороший клиент, надо сказать. Всегда платил как положено...",
+      "speaker": "Valimare",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "But the day he brought Eminar 'round, though, it got ugly fast. Kept borrowing Rohem's emeralds and losing, till neither of em had anythin' left.",
+      "ru": "Но в тот день, когда он притащил Эминара, всё быстро пошло наперекосяк. Эминар всё занимал у Рохема изумруды и проигрывал их, пока у обоих ничего не осталось.",
+      "speaker": "Valimare",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "It was a good day for me, for obvious reasons, don'cha see! But Rohem was furious. Dead drunk, too, but what else is new!",
+      "ru": "Для меня денёк был отличный, ну сам понимаешь почему! А вот Рохем был в бешенстве. Ещё и в хлам пьяный, как обычно.",
+      "speaker": "Valimare",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Neither of 'em has been back since, though in Eminar's case, I can see why! And I hope that's enough for ya, 'cause that's all I got.",
+      "ru": "С тех пор ни один из них не возвращался, хотя в случае Эминара я и так понимаю почему! Надеюсь, тебе этого хватит, потому что это всё, что у меня есть.",
+      "speaker": "Valimare",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Now get out of 'ere; there's a back exit in the wall over there. Though, if ya ever fancy a game of 'jack, come back'n we'll be happy to serve ya!",
+      "ru": "А теперь вали отсюда: вон там в стене есть чёрный выход. Но если захочешь сыграть в блэкджек, заходи! Всегда рады!",
+      "speaker": "Valimare",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Ah... you again! You're back. I see that. I must admit, I did not expect you to return... so soon...",
+      "ru": "А... это опять ты! Вернулся. Вижу. Признаюсь, я не ожидал, что ты заявишься снова... так быстро...",
+      "speaker": "Rohem",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "You really did find your way down there? Oh, that's... excellent... I hope the investigation is going well. Now if you'll just leave me be-",
+      "ru": "Ты и правда туда пробрался? О, это... замечательно... Надеюсь, расследование идёт хорошо. А теперь, если позволишь, я хотел бы остаться один-",
+      "speaker": "Rohem",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Valimare? Bah! Why would you trust anything he says? He's a criminal! A scam artist! I mean, I did direct you to him, but...",
+      "ru": "Валимаре? Пф! С чего ты вообще веришь хоть слову этого типа? Он преступник! Мошенник! В смысле, да, я сам тебя к нему и отправил, но...",
+      "speaker": "Rohem",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "He- He's the one you should be arresting. Eminar was a danger to society, got what he deserved, the fool-",
+      "ru": "Его... его надо было арестовывать! Эминар был угрозой для общества, сам напросился, идиот-",
+      "speaker": "Rohem",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Wait! No! Don't turn me in! Can't you let me finish my drink in peace? Get out, get out, you can't prove anything!",
+      "ru": "Стой! Нет! Не сдавай меня! Дай мне хотя бы допить спокойно, а? Пошёл вон, вон отсюда, ты ничего не докажешь!",
+      "speaker": "Rohem",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Besides, have you ever heard of a little thing called evidence? You don't have any proof!",
+      "ru": "И вообще, слышал про такую мелочь, как улики? У тебя нет никаких доказательств!",
+      "speaker": "Rohem",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Now, officer, if you don't have a proper warrant, I expect you to vacate my property immediately!",
+      "ru": "Так что, офицер, если у вас нет надлежащего ордера, прошу немедленно покинуть мои владения!",
+      "speaker": "Rohem",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Hi! I'm digging a hole in my garden, just like Mr. Rohem did last night!",
+      "ru": "Привет! Я копаю яму у себя в саду, прям как мистер Рохем прошлой ночью!",
+      "speaker": "Child",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "For the last time officer, would you either show me a warrant or get out of my- what are you doing in my garden?!",
+      "ru": "В последний раз повторяю, офицер, либо покажите ордер, либо убирайтесь с мо... что вы делаете в моём саду?!",
+      "speaker": "Rohem",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "A... a hatchet? I don't know what you mean, I- I've never seen that before in my life!",
+      "ru": "Т... топор? Я не понимаю, о чём вы, я... я вообще впервые это вижу!",
+      "speaker": "Rohem",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Gah! Curse you, human! I might be headed to jail, but I can send you straight to hell!",
+      "ru": "Да чтоб тебя, человек! Может, меня и отправят в тюрьму, но тебя я отправлю прямиком в ад!",
+      "speaker": "Rohem",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "That's enough, Rohem! Stand down, or the guards will attack.",
+      "ru": "Хватит, Рохем! Сдавайся, иначе стража нападёт.",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Augh! Fine, you've got me. But mark my words, this won't be the last you hear of me, human!",
+      "ru": "Ай! Ладно, взяли. Но запомни мои слова, человек - ты обо мне ещё услышишь!",
+      "speaker": "Rohem",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Whatever you pale-faced walking cowlick. You're headed to Lexdale Penitentiary with a charge of first-class murder. Guards, take him away.",
+      "ru": "Да-да, бледная патлатая морда. Тебя ждёт тюрьма Лексдейла по обвинению в предумышленном убийстве. Стража, уводите его.",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "As for you, human, please accept my immense gratitude. We probably wouldn't have caught that rat without you.",
+      "ru": "А тебе, человек, моя огромная благодарность. Без тебя мы бы этого крысёныша вряд ли взяли.",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "On behalf of the city of Cinfras, please accept these emeralds as compensation for your services. You were a fine detective today!",
+      "ru": "От лица города Синфрас прими эти изумруды как оплату за твою работу. Сегодня из тебя вышел отличный детектив!",
+      "speaker": "Detective Lorias",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Heya there! Fancy a quick game of blackjack?",
+      "ru": "Привет! Не хочешь сыграть партию в блэкджек?",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Deal me in.",
+      "ru": "Я в деле.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Alrighty, let's play some blackjack!",
+      "ru": "Ладно, сыграем в блэкджек!",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Good stuff! Put ya money in the pot and I'll start the deal.",
+      "ru": "Отлично! Вноси ставку в банк, и я начну раздачу.",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Not feelin' up to playin' right now? No worries, just drop by later!",
+      "ru": "Сейчас не до игры? Ничего страшного, заходи попозже!",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Not today.",
+      "ru": "Не сегодня.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Not right now? No worries - come back another time!",
+      "ru": "Не сейчас? Без проблем - заходи в другой раз!",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "How do I play?",
+      "ru": "А как играть?",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Ah, new to the game huh? No worries, lemme tell ya all about it!",
+      "ru": "А, раньше не играл? Не беда, сейчас всё объясню!",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "The rules are simple! I deal two cards face up to ya both face down, and two cards to me, one face up and one face down.",
+      "ru": "Правила простые! Я раздаю тебе две карты рубашкой вверх и себе две, одну открытую и одну закрытую.",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Ya can hit and get another card as many times as ya want, or stand and end ya turn. The aim is to get the value of your hand as close to 21 as possible!",
+      "ru": "Можешь брать ещё карту сколько хочешь, а можешь остановиться и закончить ход. Цель - набрать как можно ближе к 21!",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Number cards are worth what they say, all picture cards are worth 10, and an ace can be worth either 1 or 11, whichever works best for ya hand.",
+      "ru": "Карты с числами стоят столько очков, сколько на них написано. Каждая карта с картинкой стоит 10, а туз - 1 или 11, как выгоднее для твоих карт.",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Go over 21 and that's it - you're bust! Stand with your current hand and it's my turn to hit or stand to try and beat your hand.",
+      "ru": "Набрал больше 21 - всё, перебор! Если остановишься, дальше мой ход: я буду брать карты или остановлюсь, чтобы попробовать обойти тебя.",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "And if ya get a blackjack - that's an ace and a picture card or a ten - ya automatically get double ya money back!",
+      "ru": "А если выпадет блэкджек - туз и карта с картинкой или десятка - сразу получишь свою ставку обратно в двойном размере!",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Sound fair enough? Alrighty, just right-click me again to play!",
+      "ru": "По рукам? Тогда нажми на меня правой кнопкой ещё раз, и сыграем!",
+      "speaker": "Blackjack Dealer",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "This half-finished letter seems to be asking for a loan to pay off some kind of debt...",
+      "ru": "В этом недописанном письме, похоже, просят денег взаймы, чтобы погасить какой-то долг...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "It looks like the victim's head was somehow detached from his body...",
+      "ru": "Похоже, голову жертвы каким-то образом отделили от тела...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "It looks like the attacker managed to break in through the window.",
+      "ru": "Похоже, нападавший сумел проникнуть через окно.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "This painting doesn't seem to have much to do with the murder, but it's a nice landscape of Aldorei Valley.",
+      "ru": "Эта картина вряд ли связана с убийством, но это славный пейзаж долины Альдорей.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "The victim's book collection seems to be exclusively made up of dimestore romance novels.",
+      "ru": "Коллекция книг жертвы, похоже, состоит исключительно из дешёвых любовных романов.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Looks like the symbol has something carved in on the back...",
+      "ru": "Похоже, на обратной стороне символа что-то вырезано...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "It seems you better go have a chat with Rohem...",
+      "ru": "Кажется, тебе лучше поговорить с Рохемом...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You should look around for clues that tie Rohem to the murder.",
+      "ru": "Стоит поискать улики, связывающие Рохема с убийством.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "There's a trail of muddy footprints leading back into the house.",
+      "ru": "Цепочка грязных следов ведёт обратно в дом.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "It's a dirty shovel - it must've been used recently to dig something up.",
+      "ru": "Это грязная лопата - похоже, ею недавно что-то выкапывали.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "New Quest Started: Murder Mystery",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Загадка убийства",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Detective Lorias at [-590, -4956].",
+      "ru": "Поговорить с детективом Лориасом [-590, -4956].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Investigate the crime scene at [-603, 46, -4986] for clues.",
+      "ru": "Осмотреть место преступления в поисках улик [-603, 46, -4986].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Return to the victim's house at [-592, 45, -4972] to find a snake symbol.",
+      "ru": "Вернуться в дом жертвы и найти символ змеи [-592, 45, -4972].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find the gamblers in the Cinfras sewers.",
+      "ru": "Найти завсегдатаев игорного дома в канализации Синфраса.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Confront Rohem about the murder at house #09 in Cinfras.",
+      "ru": "Потребовать у Рохема объяснений об убийстве в доме #09 в Синфрасе.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find the murder weapon around Rohem's house at house #09 in Cinfras.",
+      "ru": "Найти орудие убийства возле дома Рохема (#09) в Синфрасе.",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

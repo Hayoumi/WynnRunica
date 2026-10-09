@@ -1,0 +1,233 @@
+{
+  "quest": "Grave Digger",
+  "level": 20,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "grave-digger",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "You sure look like a strong adventurer who could help me!",
+      "ru": "С виду ты сильный искатель приключений, который наверняка смог бы мне помочь!",
+      "speaker": "Sayleros",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "My name is Sayleros. I spent most of my life in Nemract, but decided to come live in Detlas with my family a few weeks ago.",
+      "ru": "Меня зовут Сайлерос. Почти всю жизнь я прожил в Немракте, но пару недель назад решил перебраться в Детлас вместе с семьёй.",
+      "speaker": "Sayleros",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "However, we got attacked by thieves on our way here, and I had to leave my family behind. Most of them died, unfortunately.",
+      "ru": "Но по дороге на нас напали воры, и мне пришлось оставить семью. Большинство моих родных, к сожалению, погибло.",
+      "speaker": "Sayleros",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I know that my brother had his will on him during the attack. Knowing he was a rich fellow, I expect to be receiving a large part of his fortune.",
+      "ru": "Я точно знаю, что во время нападения завещание моего брата было при нём. А так как он был при деньгах, я рассчитываю получить солидную часть его состояния.",
+      "speaker": "Sayleros",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "His body was buried somewhere in Nemract. I own a large graveyard there, and can grant you access to it if you can bring me back his will.",
+      "ru": "Его тело похоронили где-то в Немракте. У меня там большое кладбище, и я дам тебе туда доступ, если принесёшь мне его завещание.",
+      "speaker": "Sayleros",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "One of my other brothers also survived the attack. He isn't... um... somebody I'd trust greatly, but I'm sure he has some useful information for you.",
+      "ru": "Один из моих братьев тоже пережил нападение. Ему я бы, э-э... не слишком доверял, но уверен, он сможет рассказать тебе что-нибудь полезное.",
+      "speaker": "Sayleros",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "His name is Drucksh. He usually likes to talk a lot when he is drunk, see if you can do anything with that.",
+      "ru": "Его зовут Друкш. Когда он пьян, то становится очень разговорчивым. Может, сумеешь этим воспользоваться.",
+      "speaker": "Sayleros",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I'll be waiting for your return! Follow this path, it leads directly to Nemract. Good luck!",
+      "ru": "Буду ждать твоего возвращения! Иди по этой дороге, она ведёт прямо в Немракт. Удачи!",
+      "speaker": "Sayleros",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Mmh. g... uh! oh why hello there.",
+      "ru": "Ммх. г... э! о, ну здрасте.",
+      "speaker": "Drucksh",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "My brother? Oh yes, I do know where he is \"buried\", but do I want to tell you? No, It's none of your business.",
+      "ru": "Мой брат? А, да, я знаю, где его \"похоронили\", но хочу ли я тебе это говорить? Нет, не твоё дело.",
+      "speaker": "Drucksh",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "There must be something that can make him talk at the nearby Potion Shop...",
+      "ru": "В соседней лавке зелий наверняка найдётся что-то, что развяжет ему язык...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Ohh mmhhhgg... g-g-good old Nemract whiskey!",
+      "ru": "Ох, мммхх... с-с-старый добрый немрактский виски!",
+      "speaker": "Drucksh",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "F-fine! I guess it wouldn't h-h-hurt to tell...*burp*..you where it-it- he is...",
+      "ru": "Л-ладно! Думаю, не п-п-повредит сказать... *отрыжка* ...тебе, где он-он... где он лежит...",
+      "speaker": "Drucksh",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "It's in the old c-c-cathedral, at the end of the town. Walk east, it should be right after the b-b-bridge.",
+      "ru": "Это в старом с-с-соборе, в конце города. Иди на восток, он сразу за м-м-мостом.",
+      "speaker": "Drucksh",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Though, he's not as d-d-dead as you think...",
+      "ru": "Только он не такой уж м-м-мёртвый, как ты думаешь...",
+      "speaker": "Drucksh",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Welcome to the Nemract cathedral traveler. How can I help you?",
+      "ru": "Добро пожаловать в собор Немракта, путник. Чем могу помочь?",
+      "speaker": "The Priest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Sayleros has sent you to find something in the crypt? That is a very bad idea. However, you look well prepared.",
+      "ru": "Сайлерос послал тебя искать что-то в крипте? Это очень плохая затея. Хотя выглядишь ты подготовленным.",
+      "speaker": "The Priest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Corruption has seeped into the graves, the dead are coming back to life. We are working on barring the entrance up, to protect the cathedral.",
+      "ru": "Порча просочилась в могилы, и мёртвые оживают. Мы пытаемся перекрыть вход, чтобы защитить собор.",
+      "speaker": "The Priest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "If you must enter, I will not try to stop you. The keys to access different parts of the crypt are down there.",
+      "ru": "Если тебе всё равно надо войти, я не стану мешать. Ключи от разных частей крипты лежат внизу.",
+      "speaker": "The Priest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "The partially barred entrance across from me will lead you there, please, be careful.",
+      "ru": "Через частично заколоченный вход напротив меня ты попадёшь в крипту. Пожалуйста, будь осторожен.",
+      "speaker": "The Priest",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "<playername>, there you are! You were taking so long, so I came over here as quickly as I could, in case you needed my help.",
+      "ru": "<playername>, вот ты где! Ты так долго не возвращался, что я сам поспешил сюда, вдруг тебе нужна помощь.",
+      "speaker": "Sayleros",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "What? You got his will already? That- that's brilliant! Here, let me take a look.",
+      "ru": "Что? Ты уже добыл его завещание? Это- это же прекрасно! Дай-ка взгляну.",
+      "speaker": "Sayleros",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Well, it's a little dusty, but I think it'll do the trick! Thank you greatly for the help.",
+      "ru": "Ну, оно слегка пыльное, но сойдёт! Огромное спасибо за помощь.",
+      "speaker": "Sayleros",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Here, here, take these as proof of my gratitude. And, also- Priest, since you're here, I'd like to grant <playername> here access to the graveyard.",
+      "ru": "Вот, держи это в знак моей благодарности. И ещё - святой отец, раз уж вы здесь, я хочу дать <playername> доступ на кладбище.",
+      "speaker": "Sayleros",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Very well. It shall be done.",
+      "ru": "Хорошо. Так и будет.",
+      "speaker": "Priest",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Excellent. Well, I'll be off to Detlas now. Feel free to visit if you'd like!",
+      "ru": "Отлично. Ну, а я тогда обратно в Детлас. Заходи как-нибудь, если захочешь!",
+      "speaker": "Sayleros",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "New Quest Started: Grave Digger",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Могильщик",
+      "speaker": "",
+      "stage": "Stage 5"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Sayleros in Detlas at [476, 69, -1624]",
+      "ru": "Поговорить с Сайлеросом в Детласе [476, 69, -1624].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Drucksh in Nemract at [71, 43, -2178] and make him talk about Sayleros' dead brother using [Nemract Whiskey]",
+      "ru": "Найти Друкша в Немракте и угостить [Виски Немракта], чтобы разговорить его о погибшем брате Сайлероса [71, 43, -2178].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Talk to The Priest in the old cathedral at [319, 56, -2160]",
+      "ru": "Поговорить со священником в старом соборе [319, 56, -2160].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Kill Sayleros' Brother and retrieve his will in the Nemract cathedral's crypt at [335, 54, -2165].",
+      "ru": "Убить восставшего брата Сайлероса и забрать завещание в склепе собора Немракта [335, 54, -2165].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Bring Sayleros' brother's will to Sayleros at [318, 56, -2165] in the Nemract cathedral.",
+      "ru": "Отнести завещание брата Сайлеросу в собор Немракта [318, 56, -2165].",
+      "stage": "Stage 5"
+    }
+  ],
+  "choices": []
+}

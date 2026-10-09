@@ -1,0 +1,1593 @@
+{
+  "quest": "Cowfusion",
+  "level": 86,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "cowfusion",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "A Human, eh? All the way out 'ere at the end of the canyon? Yer a tough one.",
+      "ru": "Человек, а? И добрался аж сюда, на самый край каньона? Крепкий ты парень.",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Perhaps I can give yer some work, if yer are lookin' for it? Someone's been coming and nabbing my cows!",
+      "ru": "Может, дать тебе работёнку, если ищешь? Кто-то повадился красть моих коров!",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "'an I know exactly who it is - that blasted cow scientist that lives in the lab just north of 'ere.",
+      "ru": "И я точно знаю кто - тот проклятый учёный, что возится с коровами в лаборатории к северу отсюда.",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Anyway, yer up for the job? Can't let 'im just keep stealing them forever!",
+      "ru": "Ну так что, берёшься? Нельзя же давать ему таскать их вечно!",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "His cavern laboratory is just north from 'ere. Not too hard to find. Once yer there, get him to return my cows!",
+      "ru": "Его пещерная лаборатория прямо к северу отсюда. Найти несложно. Доберёшься - заставь вернуть моих коров!",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "There's one problem though. The door to the place is always shut, so you'll 'ave to find another way in.",
+      "ru": "Только есть одна загвоздка. Дверь туда всегда закрыта, так что тебе придётся искать другой способ попасть внутрь.",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "бєЂМ·НљhМ·МіН†М•aМ·МЎМ...Мљб№«М·МЁМўМї'М¶М›М®МЇНЉЕ›МёМ­ МµМ№НЊМ„tМёМ›М«М¤М...hМ·МјМЃМ’ГЇМµМЎН†Е›МґМЇНЋМ€МЃ МґМЁМћН‘Мљ'М¶Н€Н›М”eМ¶МІН‹rМґМ™М°МЉМЉeМ·М№НЊМЂ?МёМњМ“Нњ МёМ™МЂIМґНЋНЊМЏbМ¶МЇНђМЂГ©МёМҐlМёМјН“М€Н-eМёМ М¦Н‚,М·Н”М‰Мѓ МёН•М¤М...tМ¶Н‡М’hМµМ›Н€М Н‘Г¤МµМЎНљЕЈМґМ‡Мѕ МµН‡М€б»·М·Н•НГ¶МµМіМЇГєМ¶М-Нќ?МёН”НЉНЉ МґН‰Н€МЂН MМёМ–М†ГЅМёМ™Нњ МёМ›Н...Н...gМµМЈМЂбё­МёМіН‘Н’rМ¶МєМїlМёНљН†,МёМ¦М‡М• МёН”Мїбё®МґМјМ¬Нќ МґМ°Н›kМґМ°М...nМ·МҐНђeМґН“М...wМµМҐМ”МЉ М¶М±Н•Н’М...yМёМЁН‡Н†М‹ИЇМ·НЌН‡МЋб№·МёМ»М“Н‚'М¶МўН•МЊМЃdМёМњМЋМЌ М¶НЋН™МЃНќcМµМјМћМїН›З«МґМЂМЃmМµМІМ€МЃГ«МµНЋМЃ МµМєН-НЊbМґН•МЌбёЃМёМЅМЃcМµМєМЅkМ¶М»МЂ МґМ©ННќtМёМ®М®М‰ИЌМґНњ М¶М©Н‰М’mМ¶МќМ°М...eМ¶Н€М®МѕН!МµН€Н‚МЃ",
+      "ru": "бєЂМ·НљhМ·МіН†М•aМ·МЎМ...Мљб№\"М·МЁМўМї'М¶М›М®МЇНЉЕ›МёМ­ МµМ№НЊМ\"tМёМ›М\"М¤М...hМ·МјМЃМ'ГЇМµМЎН†Е›МґМЇНЋМ€МЃ МґМЁМћН'Мљ'М¶Н€Н›М\"eМ¶МІН‹rМґМ™М°МЉМЉeМ·М№НЊМЂ?МёМњМ\"Нњ МёМ™МЂIМґНЋНЊМЏbМ¶МЇНђМЂГ©МёМҐlМёМјН\"М€Н-eМёМ М¦Н‚,М·Н\"М‰Мѓ МёН•М¤М...tМ¶Н‡М'hМµМ›Н€М Н'Г¤МµМЎНљЕЈМґМ‡Мѕ МµН‡М€б\"·М·Н•НГ¶МµМіМЇГєМ¶М-Нќ?МёН\"НЉНЉ МґН‰Н€МЂН MМёМ-М†ГЅМёМ™Нњ МёМ›Н...Н...gМµМЈМЂбё­МёМіН'Н'rМ¶МєМїlМёНљН†,МёМ¦М‡М• МёН\"Мїбё®МґМјМ¬Нќ МґМ°Н›kМґМ°М...nМ·МҐНђeМґН\"М...wМµМҐМ\"МЉ М¶М±Н•Н'М...yМёМЁН‡Н†М‹ИЇМ·НЌН‡МЋб№·МёМ\"М\"Н‚'М¶МўН•МЊМЃdМёМњМЋМЌ М¶НЋН™МЃНќcМµМјМћМїН›З\"МґМЂМЃmМµМІМ€МЃГ\"МµНЋМЃ МµМєН-НЊbМґН•МЌбёЃМёМЅМЃcМµМєМЅkМ¶М\"МЂ МґМ©ННќtМёМ®М®М‰ИЌМґНњ М¶М©Н‰М'mМ¶МќМ°М...eМ¶Н€М®МѕН!МµН€Н‚МЃ",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "AМёМњМ‹Е„МµН‰МћdМґН–Н™М‚М• МґМЎМҐНtМµМ›М™Н€oМµН–Н‘ М¶МЁМ-М†Н tМґМќН‡Н‘бё§М·М›Н‡МћМЃбёЇМґМЇНљnМґМ МЏНЊбёµМ·МЌ МµМќМђМ‡IМ·М›Н–М®НЉ М·НљМЃбєѓМёМ©Н‘Г¤М¶М°МЇsМёМҐМЇМЋ М·ММ“М‰gМґМІН’ГіМґМІМ¦МљГ¬М·НљМ-М‡б№‹МёМўМ›Н‚gМґН‰Н’ М¶М­Н™МЊМѕtМґМћНЋМ‰ГґМ¶М©Мњ М¶МЈМ„НhМ¶М–Н•МЋГ®М·МџМЂrМ·М™М’М“И©МґМЅ МґМ–М‰Н...sМґМІНЉМїoМґН‡МџМѕМ•mМґМЁМћНЊМЌГ«М·М№МЃ М¶МџМ„cМ¶М›М©М»iМёМ ННњtМ·МўМ‚бє™М·М№МЈ-М¶М«МЌdМ¶М¬М“wМ·М-М±МђГЄМ¶НљН бё№МёНљМ‡lМµН•НЋМЅМ‚iМёМҐН б№...МґМћМѕ'М¶Н–М€МЃ М¶НЌМЂ'М¶МҐМ¦Н†uМёН‡МђМЏmМµМ¬МЅМ†aМёН€НЋН nМёМ©М–МЋНђ МµМўН”Н‘б№±М·Н‘НњГµМ¶М»Н... М·МЄН’ДќМµНЌГ«МґМџН‡Мљб№ЇМёМ... М¶М§М©МЂyМґН‡Н–Н‹МЅГ¶М·МН‰МЃМѕuМґМ–Нќ М¶МіМ М•fМґМ±Н–М“НoМ·М-М”М“rМµМўНќ МґМ±М‚МЅmМґМЁМ›М›eМёМєМќН‹?МµМ¬НЉНќ МґМІН’Н›ИћМёН™М‰Г¤МµМјМЃ!М·Н‡МЃ",
+      "ru": "AМёМњМ‹Е\"МµН‰МћdМґН-Н™М‚М• МґМЎМҐНtМµМ›М™Н€oМµН-Н' М¶МЁМ-М†Н tМґМќН‡Н'бё§М·М›Н‡МћМЃбёЇМґМЇНљnМґМ МЏНЊбёµМ·МЌ МµМќМђМ‡IМ·М›Н-М®НЉ М·НљМЃбєѓМёМ©Н'Г¤М¶М°МЇsМёМҐМЇМЋ М·ММ\"М‰gМґМІН'ГіМґМІМ¦МљГ¬М·НљМ-М‡б№‹МёМўМ›Н‚gМґН‰Н' М¶М­Н™МЊМѕtМґМћНЋМ‰ГґМ¶М©Мњ М¶МЈМ\"НhМ¶М-Н•МЋГ®М·МџМЂrМ·М™М'М\"И©МґМЅ МґМ-М‰Н...sМґМІНЉМїoМґН‡МџМѕМ•mМґМЁМћНЊМЌГ\"М·М№МЃ М¶МџМ\"cМ¶М›М©М\"iМёМ ННњtМ·МўМ‚бє™М·М№МЈ-М¶М\"МЌdМ¶М¬М\"wМ·М-М±МђГЄМ¶НљН бё№МёНљМ‡lМµН•НЋМЅМ‚iМёМҐН б№...МґМћМѕ'М¶Н-М€МЃ М¶НЌМЂ'М¶МҐМ¦Н†uМёН‡МђМЏmМµМ¬МЅМ†aМёН€НЋН nМёМ©М-МЋНђ МµМўН\"Н'б№±М·Н'НњГµМ¶М\"Н... М·МЄН'ДќМµНЌГ\"МґМџН‡Мљб№ЇМёМ... М¶М§М©МЂyМґН‡Н-Н‹МЅГ¶М·МН‰МЃМѕuМґМ-Нќ М¶МіМ М•fМґМ±Н-М\"НoМ·М-М\"М\"rМµМўНќ МґМ±М‚МЅmМґМЁМ›М›eМёМєМќН‹?МµМ¬НЉНќ МґМІН'Н›ИћМёН™М‰Г¤МµМјМЃ!М·Н‡МЃ",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "RМёМ›МјМ¬Н‘iМ·МџМ“МЉgМ·Н‡МЋбё§МёМіМЃб№«М¶М® МµМЄМ‘НђtМµМњМНђИџМёМџМ М‹eМ·М™Н‚nМ·Н™МЌМљ,М·М›М®Мљ МёМњМ‘Н...bМґМ-М„НќГЈМґМіМЊcМ·НљНkМґМЁН- М¶Н‰Н€МѕiМ·М§Н•НЊМ€МЃnМёМЁМєМ’И›МµМ¬Н›МЃoМµМЇМЉНЉ МµМ¬М‹М‹tМёМ№М†МЂбё©МёМ°Н-eМµМ¤М“ МµН‡МЅМ†pМ·М¦М™МЂМљД“МёН‡Н†Е„М¶М»МєН  М·Н‡М†НќГЅМ¶М°М†oМ¶Н–НќuМ¶Н”МїН... М·НЌМ‚М‡gМ¶МЄМЋМЅoМ·М№Нќ.М·М¬НЌМ€МЃМ” М¶М¦МљHМґМљН...б»ҐМ·М Н-б№-М¶Н‡М¦!М¶Н–М№М”М‡",
+      "ru": "RМёМ›МјМ¬Н'iМ·МџМ\"МЉgМ·Н‡МЋбё§МёМіМЃб№\"М¶М® МµМЄМ'НђtМµМњМНђИџМёМџМ М‹eМ·М™Н‚nМ·Н™МЌМљ,М·М›М®Мљ МёМњМ'Н...bМґМ-М\"НќГЈМґМіМЊcМ·НљНkМґМЁН- М¶Н‰Н€МѕiМ·М§Н•НЊМ€МЃnМёМЁМєМ'И›МµМ¬Н›МЃoМµМЇМЉНЉ МµМ¬М‹М‹tМёМ№М†МЂбё©МёМ°Н-eМµМ¤М\" МµН‡МЅМ†pМ·М¦М™МЂМљД\"МёН‡Н†Е\"М¶М\"МєН  М·Н‡М†НќГЅМ¶М°М†oМ¶Н-НќuМ¶Н\"МїН... М·НЌМ‚М‡gМ¶МЄМЋМЅoМ·М№Нќ.М·М¬НЌМ€МЃМ\" М¶М¦МљHМґМљН...б\"ҐМ·М Н-б№-М¶Н‡М¦!М¶Н-М№М\"М‡",
+      "speaker": "Ranol",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Moo.",
+      "ru": "Му.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Password?",
+      "ru": "Пароль?",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Moo? (What password?)",
+      "ru": "Му? (Какой ещё пароль?)",
+      "speaker": "CHOICE",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "You're right, there is no password. Just seeing if you can understand me.",
+      "ru": "Ну да, ты прав, никакого пароля нет. Просто проверял, понимаешь ли ты меня.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "You're one of us then, the oppressed? Want to break free from these farmers? Well aren't you in luck.",
+      "ru": "Значит, ты один из нас, угнетённых? Хочешь освободиться от власти фермеров? Тогда тебе повезло.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I can help you with that. WE can help you with that.",
+      "ru": "Я могу с этим помочь. МЫ можем с этим помочь.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Our people have a secret hideout not far from here. It's located right under that barn just behind me.",
+      "ru": "У нашего народа есть тайное убежище неподалёку. Оно прямо под тем сараем у меня за спиной.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "It may seem close, but unless you've been practicing your atheletics, you won't be able to get over these fences.",
+      "ru": "Кажется, что близко, но если ты не привык прыгать через препятствия, через эти заборы тебе не перебраться.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "See that haybale in the middle of our pen? I bet you could push and pull it into such a position that'd allow you to climb over the fence with your cow physique.",
+      "ru": "Видишь тюк сена посреди загона? Держу пари, ты сможешь подвинуть его так, чтобы даже в коровьем теле перелезть через забор.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "The second pen might have a similar problem, but I'm sure you can figure that out yourself.",
+      "ru": "Во втором загоне, может, будет похожая проблема, но с этим ты и сам разберёшься.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Good luck!",
+      "ru": "Удачи!",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Moo. (Moo.)",
+      "ru": "Му. (Му.)",
+      "speaker": "CHOICE",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Moo moo moooo moo Moo moo. (The grook flies over the nest with the egg in hand.)",
+      "ru": "Му му муууу му Му му. (Грук летит над гнездом с яйцом в руках.)",
+      "speaker": "CHOICE",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "What? What does that even mean? There isn't actually a password! Or did no one tell me that there was? Ah, nevermind, at least you can understand me.",
+      "ru": "Что? Это вообще что значит? Тут ведь нет никакого пароля! Или пароль всё-таки есть, а мне никто не сказал? А, неважно, хотя бы ты меня понимаешь.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Oh, a new recruit? We weren't expecting anyone at this time. How'd you find your way in?",
+      "ru": "О, новенький? Мы никого сейчас не ждали. Ты вообще как сюда попал?",
+      "speaker": "Receptionist",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Wait, you're different. Something's off about you. Like you've never been in a cow's body before.",
+      "ru": "Стоп, ты какой-то не такой. С тобой что-то не так. Как будто ты вообще раньше в коровьем теле не был.",
+      "speaker": "Receptionist",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Oh. Oh, this is not good. Uhm, you should talk to the boss. He'll probably know what to do with you.",
+      "ru": "Ой. Ой, дело плохо. Эм, тебе лучше поговорить с начальником. Он, наверное, знает, что с тобой делать.",
+      "speaker": "Receptionist",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "You'll find him in the big office at the very end of this facility. Just stick to the path and don't be nosey, okay?",
+      "ru": "Его кабинет в самом конце комплекса. Просто иди по дорожке и не суй нос куда не надо, ладно?",
+      "speaker": "Receptionist",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Whoop, alright! Don't want you going anywhere, buddy! Uh... What are you doing here, exactly...?",
+      "ru": "Опа, стой! Никуда не уходи, дружище! Эм... А ты вообще что тут делаешь...?",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Moo moo Moooo. (I was a human that was turned into a cow.)",
+      "ru": "Му му Мууу. (Я был человеком, которого превратили в корову.)",
+      "speaker": "CHOICE",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "You- what? Oh gosh, how is that even possible? I don't think I had anything that could...",
+      "ru": "Ты - чего? О господи, как это вообще возможно? У меня вроде не было ничего, что могло бы...",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Oh! You must've been snooping through my laboratory. That's... okay, we can talk about that later. Did you step into my machine?",
+      "ru": "О! Ты, наверное, бродил по моей лаборатории. Это... ладно, об этом потом. Ты вошёл в мою машину?",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "It's not even meant to do that! Its purpose is to turn the exiles back into Wocs. So how does a Human become a cow...?",
+      "ru": "Она вообще не для этого! Она должна превращать изгнанников обратно в воков. Тогда как человек стал коровой...?",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Right, right, sorry. Here, uh- I'll try and get this cage down. Darn controls... Why did I design these so poorly?",
+      "ru": "Точно, точно, извини. Сейчас, эм... попробую опустить эту клетку. Дурацкое управление... Ну зачем я сделал его таким неудобным?",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "...So while I try to figure out which lever to push, tell me about yourself! Anything interesting going on in your life?",
+      "ru": "...Пока я пытаюсь понять, какой рычаг дёрнуть, расскажи о себе! Что-нибудь интересное у тебя в жизни происходит?",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Moo moo moo mooooo! (I was the one that helped you in Katoa Ranch!)",
+      "ru": "Му му му муууу! (Это я помогал тебе на ранчо Катоа!)",
+      "speaker": "CHOICE",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "You... You are? You are! Oh, wow, it's great to see you again! It's been so long since our escapades back in Wynn!",
+      "ru": "Ты... Это ты? Это ты! Ого, как же здорово снова тебя видеть! Столько времени прошло с наших приключений в Винне!",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "This is great, actually! I- I can show you around this place! Introduce you to some of the folks we freed together! Oh, what fantastic timing this has been.",
+      "ru": "Вот здорово! Я- я могу показать тебе всё вокруг! Познакомить с теми, кого мы вместе освободили! Как же вовремя ты появился.",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "I just need to figure out which switch to pull... I think it's this one! Probably. I really need to label these things. Alright, here goes!",
+      "ru": "Надо только понять, какой переключатель дёрнуть... Кажется, вот этот! Наверное. Мне давно пора их подписать. Ладно, попробуем!",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Wait, no, that's the wrong-...!",
+      "ru": "Стой, нет, это не тот-...!",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "I, uh... Hah. Very funny. Tell me you're a human, then pretend to be a cow.",
+      "ru": "Я, эм... Ха. Очень смешно. Сначала говоришь, что ты человек, а потом притворяешься коровой.",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "That's... fine. You know, I'm under quite a lot of stress right now. Working hard, day in and day out. I don't really need your attitude right now!",
+      "ru": "Ну... ладно. Знаешь, у меня сейчас и так нервы на пределе. Работаю без передышки день за днём. Мне сейчас только твоих выходок не хватало!",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "You know what? I don't need this attitude. I'm- I'm going to send you to The Pit. Where- where all my other mistakes lie.",
+      "ru": "А знаешь что? Хватит с меня твоих выходок. Я- я отправлю тебя в Яму. Туда- туда, где лежат все мои остальные ошибки.",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "...You have a weapon. You can probably manage! You don't need anything from me! Here, see how you like it down there!",
+      "ru": "...У тебя же есть оружие. Наверное, справишься! Ничего тебе от меня не надо! Вот и посмотрим, как тебе внизу понравится!",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Okay. So you are just a regular cow. Not a Woc. Uh... Who let you in, little pal? I'm going to need to have to have a word about closing the doors...",
+      "ru": "Ладно. Значит, ты просто обычная корова. Не вок. Эм... И кто тебя сюда пустил, малыш? Похоже, мне надо будет серьёзно поговорить насчёт дверей...",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Well, this is... awkward. So, then... cow. What's it like being... a cow?",
+      "ru": "Ну, это... неловко. Итак... корова. Как оно вообще... быть коровой?",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Moo moo Moooo. (I am not a cow. I was a human that was turned into a cow.)",
+      "ru": "Му му Мууу. (Я не корова. Я был человеком, которого превратили в корову.)",
+      "speaker": "CHOICE",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Right. Okay. Figure I'd best let you go free.",
+      "ru": "Ага. Ладно. Пожалуй, стоит тебя отпустить.",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "...Unless. Unless. Nobody's... nobody's looking. I could just send you to The Pit... Nobody would know.",
+      "ru": "...Хотя. Хотя. Никто же... никто не смотрит. Я могу просто отправить тебя в Яму... и никто не узнает.",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "It's... easier this way. It's fine. Maybe you'll even- maybe you'll even make your way out. Good luck, little buddy.",
+      "ru": "Так... проще. Всё нормально. Может, ты даже... ну, может, даже выберешься. Удачи, малыш.",
+      "speaker": "Drale",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "... where did you come from?!",
+      "ru": "... ты откуда вообще взялся?!",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "You fell into the incinerator? And defeated a mutant cow monster?",
+      "ru": "Ты свалился в мусоросжигатель? И победил коровьего мутанта?",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "...Oh! You're the one Drale told us to look out for. Accidentally dropped into the Pit, huh?",
+      "ru": "...О! Так это тебя Дрейл велел высматривать. Случайно попал в Яму, да?",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "The boss said to apologize to ya for the inconvenience. We've all been workin' late hours recently... Some of us more than others.",
+      "ru": "Начальник велел извиниться за неудобства. Мы в последнее время все работаем допоздна... Кто-то больше остальных.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Anyhow, follow me. I'll take you back to him, and you can talk this out! You'll be back as a human in no time.",
+      "ru": "В общем, иди за мной. Я отведу тебя к нему, и вы обо всём договоритесь! Очень скоро ты снова станешь человеком.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "So... yeah. That's Drale for you. Absentminded as ever. He said something about labeling his levers from now on, so I reckon that's a positive.",
+      "ru": "Ну... да. Это весь Дрейл. Рассеянный как всегда. Он там что-то говорил, что теперь подпишет свои рычаги, так что, наверное, это уже плюс.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "...You're a good friend of the boss, right? Would you be able to put in a good word for us? Gerald and I have been down here for a while, and we'd like to get back to our normal positions.",
+      "ru": "...Ты же хороший друг начальника, да? Не замолвишь за нас словечко? Мы с Джеральдом уже давно здесь внизу и хотели бы вернуться к прежней работе.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Drale's alright on a good day, but we've been running out of good days lately! He keeps pulling late hours on this... wholly unnecessary project!",
+      "ru": "В хороший день Дрейл вполне приятный, но хороших дней в последнее время всё меньше! Он сидит допоздна над этим... совершенно ненужным проектом!",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "He insists we have to keep trying to find our original ship, instead of just building a new one with all the materials we have! It's ridiculous!",
+      "ru": "Он упёрся, что мы обязаны искать наш старый корабль, вместо того чтобы просто собрать новый из всего, что у нас есть! Это же бред!",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Maybe you'll be able to get through to him, being his friend and all. We've all been stressed, and it's really just...",
+      "ru": "Может, у тебя получится до него достучаться, раз уж вы друзья. Мы все на нервах, и всё это просто...",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "What ship? Oh, of course, you're not a Woc. See, our race isn't actually from- you know, maybe that's a story for another time.",
+      "ru": "Какой корабль? А, ну да, ты же не вок. Понимаешь, наша раса вообще-то не отсюда- хотя ладно, это история на потом.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "For now let's get you back up to the main lab. Drale will be glad to see you in one piece! He sounded worried for your safety.",
+      "ru": "А пока давай вернём тебя в главную лабораторию. Дрейл будет рад увидеть тебя целым и невредимым! Судя по голосу, он переживал за тебя.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Well, we're here!",
+      "ru": "Ну вот, пришли!",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "You head on up that pipe and with a bit of luck it'll plonk you out right in front of Drale.",
+      "ru": "Лезь вон по той трубе, и если повезёт, тебя выплюнет прямо перед Дрейлом.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Remember what I told you! Try to put in a good word for us, yeah?",
+      "ru": "Помни, что я тебе сказал! Постарайся замолвить за нас словечко, ага?",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "If not, well... At least I tried. Let the record show I tried.",
+      "ru": "А если нет, ну... По крайней мере, я попытался. Так и запишем: я пытался.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "...Alright! Go on, off you go! It was lovely to meet you.",
+      "ru": "...Ладно! Давай, в путь! Было приятно познакомиться.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Yeah that checks out. So what happened to get you thrown down here?",
+      "ru": "Да, в это верится. Так что ты такого натворил, что тебя сюда скинули?",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Oh, angered him by pretending to be a cow after already speaking? Yeah, I feel ya. When the boss is in a mood, anything you say could get you thrown down here.",
+      "ru": "А, рассердил его: сначала заговорил, а потом стал притворяться коровой? Да, понимаю. Когда начальник не в духе, любое твоё слово может отправить тебя сюда.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Here, why don't you follow me? I'll take you back to him, you can straighten things out, and I'm sure you'll be back as a human in no time!",
+      "ru": "Может, пойдёшь за мной? Я отведу тебя обратно, вы всё уладите, и, уверен, ты скоро снова станешь человеком!",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "So... yeah. Drale isn't the best at... conflict resolution. Catch him on a bad day, and he might just throw you in the Pit.",
+      "ru": "Ну... да. Дрейл не то чтобы мастер по... решению конфликтов. Попадёшься ему в плохой день - и он просто швырнёт тебя в Яму.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "I got stationed down here for a week because I interrupted him during his daily yoga session.",
+      "ru": "Меня, например, на неделю сюда сослали только за то, что я прервал его ежедневную йогу.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Gerald, over there? He used to be in accounting. Until he forgot to carry the two one day, and... Well, here he is now.",
+      "ru": "Вон Джеральд? Он раньше работал в учёте. Пока однажды не забыл перенести двойку, и... ну, вот он теперь здесь.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "For now let's get you back up to the main lab and hopefully Drale will be in a bit of a better mood!",
+      "ru": "А пока давай вернём тебя наверх в главную лабораторию. Будем надеяться, у Дрейла уже улучшилось настроение!",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "If you try explaining the situation again I'm sure he'll be understanding.",
+      "ru": "Если ещё раз спокойно объяснишь ситуацию, уверен, он нормально отреагирует.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "He usually is after he's had some time to cool off.",
+      "ru": "Обычно так и бывает, когда он чуть поостынет.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Go on, off you go! It was lovely to meet you.",
+      "ru": "Давай, ступай! Было приятно познакомиться.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Pretended to be a cow when you're actually a human? Must have caught him on a rough day to get thrown down for that. Usually he'd just let a cow go.",
+      "ru": "Притворился коровой, хотя ты человек? Видимо, ты попался ему в особенно тяжёлый день, раз он тебя сюда скинул. Обычно он просто отпускает коров.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Well here, why don't you follow me? I'll take you back to him, you can straighten things out, and I'm sure you'll be back as a human in no time!",
+      "ru": "Ну пошли тогда за мной. Я отведу тебя обратно, вы всё уладите, и скоро снова будешь человеком.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "So... yeah. That's Drale. Catch him on a bad day, and he might just throw you into the Pit.",
+      "ru": "Ну... да. Это Дрейл. Попадёшься в плохой день - и сразу летишь в Яму.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "For now let's get you back up to the main lab and hopefully Drale will be in a bit of a better mood! Maybe mention the human thing this time, alright?",
+      "ru": "А пока давай вернём тебя наверх в главную лабораторию. Будем надеяться, у Дрейла уже улучшилось настроение! И в этот раз, может, скажешь, что ты человек, ладно?",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Oh, this is- Oh! You're alive! I, ah- heh. Sorry about... all that. I really, really need to label these levers properly...",
+      "ru": "О, это- О! Ты жив! Я, эм... хех. Прости за... всё это. Мне правда уже пора нормально подписать эти рычаги...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Right! Right. You'se seen... all that down there, then. I just hope you won't think less of me for it.",
+      "ru": "Точно! Точно. Значит, ты видел... всё это внизу. Надеюсь, ты не станешь после этого думать обо мне хуже.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "I can... I can tell you more about it later. I hope it wasn't too bad? Down there? You seen to have gotten out in one piece, so...",
+      "ru": "Я могу... могу потом рассказать об этом подробнее. Надеюсь, там внизу было не слишком страшно? Ты вроде выбрался целым, так что...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Moo mooooo moo moo! (The workers in the pit want better positions!)",
+      "ru": "Му муууу му му! (Рабочие в Яме хотят работу получше!)",
+      "speaker": "CHOICE",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "...Oh. Right. Gosh, how long has it been since I-...",
+      "ru": "...О. Точно. Ох, сколько же времени прошло с тех пор, как я-...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Okay. Alright, yes, I'll give them better positions. And I'll- I don't know. Apologize. Give them a bonus.",
+      "ru": "Ладно. Хорошо, да, я дам им работу получше. И я- не знаю. Извинюсь. Дам им премию.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "It's been... hard, recently. We've been working to get back home, and I guess I just... Put too much of myself into that. It's fine! Don't- Don't worry about me.",
+      "ru": "В последнее время... тяжело. Мы пытаемся вернуться домой, и, похоже, я просто... отдал этому слишком много сил. Всё нормально! Не- не волнуйся за меня.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Moo... Moo moo moooo? (So... How do I get back to normal?)",
+      "ru": "Му... Му му мууу? (Ну... А как мне снова стать нормальным?)",
+      "speaker": "CHOICE",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Oh. Right, your body! I can fix that! We just need to get back to the machine, and... Poof. You'll be back to normal!",
+      "ru": "О. Точно, твоё тело! Я могу всё исправить! Надо просто вернуться к машине, и... Пых! Снова станешь прежним!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "...I hope. Hey, being a cow isn't so bad! If- If it doesn't work, we can make you a home here...?",
+      "ru": "...Надеюсь. Эй, быть коровой не так уж плохо! Если- если не сработает, можем устроить тебе тут домик...?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Uh... It'll work. It's always- always worked in the past! Heh...",
+      "ru": "Эм... Всё сработает. Оно всегда- всегда срабатывало раньше! Хех...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Anyway! Let's get going!",
+      "ru": "В общем! Пошли!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Moo moo moooo... (How do I get back to normal?)",
+      "ru": "Му му муууу... (Как мне снова стать нормальным?)",
+      "speaker": "CHOICE",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Uh... Hm. Maybe- Maybe being a cow is affecting your brain somehow... That can't be good.",
+      "ru": "Эм... Хм. Может- может, коровье тело как-то влияет на твой разум... Это нехорошо.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "We should get you back to human as quickly as possible. Come on, follow me.",
+      "ru": "Надо как можно быстрее сделать тебя снова человеком. Давай, за мной.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "...This doesn't even mean anything! What am I supposed to do with-",
+      "ru": "...Это вообще ничего не значит! И что мне с этим, по-твоему, делать-",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Oh! It's- It's you! Didn't I just...",
+      "ru": "О! Это- это ты! Разве я только что не...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "...Um. This is... really awkward, haha. I'm... sorry?",
+      "ru": "...Эм. Это... ужасно неловко, ха-ха. Я... прости меня?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "You're... the one who pretended to be a cow, right? I, uh... in my defense, I was very stressed. So I dropped you into the Pit.",
+      "ru": "Ты же... тот самый, кто притворялся коровой, да? Я, эм... в свою защиту скажу, что был очень на нервах. Поэтому и скинул тебя в Яму.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "...Anyway! What's- What's going on with your life? Anything interesting?",
+      "ru": "...В общем! Что- что у тебя нового? Что-нибудь интересное?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Moo moo moooo. (How do I get back to normal?)",
+      "ru": "Му му муууу. (Как мне снова стать нормальным?)",
+      "speaker": "CHOICE",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Oh! Right. Getting back to normal.",
+      "ru": "О! Точно. Вернуть тебя обратно.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "You said you stepped into my machine, right? We could try putting you in there a second time. What's the worst that could happen?",
+      "ru": "Ты же говорил, что вошёл в мою машину, да? Можно попробовать отправить тебя туда ещё раз. Что может случиться в худшем случае?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "...Uh. You stay as a cow. That's what. That's... fine. Let's just go and try it out.",
+      "ru": "...Эм. Останешься коровой. Вот что. Но... ладно. Давай просто попробуем.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "I am talking to a cow. Again. Why is this where my life has taken me.",
+      "ru": "Я разговариваю с коровой. Опять. Ну и куда вообще меня занесла жизнь.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "So! What's... going on, little buddy? Any- any souvenirs? From the Pit...?",
+      "ru": "Ну! Что там... как оно, малыш? Есть- есть сувениры? Из Ямы...?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Moo moo Moooo! (I'm not a cow! I'm a human that was turned into a cow!)",
+      "ru": "Му му Мууу! (Я не корова! Я человек, которого превратили в корову!)",
+      "speaker": "CHOICE",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Oh, you- Oh. Right! Okay. I don't- I don't quite understand why you would pretend to be a cow. But alright!",
+      "ru": "А, ты- О. Точно! Ладно. Я не- не очень понимаю, зачем тебе было притворяться коровой. Но ладно!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "So, uh... Human turned into a cow. Okay. How did you manage to get yourself stuck as a cow, anyway? I didn't think we had anything that could do that...",
+      "ru": "Итак, эм... человек, превращённый в корову. Ладно. Как тебя вообще угораздило стать коровой? Я не думал, что у нас есть что-то, способное на такое...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "Moo moo moooo. (I walked into your stupid machine!)",
+      "ru": "Му му муууу. (Я влез в твою тупую машину!)",
+      "speaker": "CHOICE",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "My machine. It's- It's not even supposed to do that! I designed it to turn exiles back into Wocs, how would it have...",
+      "ru": "Моя машина. Она- она вообще не должна так делать! Я проектировал её, чтобы превращать изгнанников обратно в воков, как она могла...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Great. Of course it'd have that issue, and just when I thought I...",
+      "ru": "Прекрасно. Ну конечно у неё и такая проблема есть, а я-то уже подумал, что...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Right. Right. Alright. We can work with this! Let's just take you back to that machine, put you in it, and see if it turns you back to normal!",
+      "ru": "Так. Так. Ладно. Что-нибудь придумаем! Давай просто вернёмся к машине, отправим тебя внутрь и посмотрим, вернёт ли она тебе прежний облик!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "It'll work. Probably. I mean, I haven't ever tried it, so I can't really say for sure... Oh, yep, you're still here. Let's get moving.",
+      "ru": "Сработает. Наверное. Ну, я такого ещё не пробовал, так что наверняка сказать не могу... О, да, ты ещё здесь. Пошли.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Yep. Just a cow...",
+      "ru": "Ага. Просто корова...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Well, alright. Let's just- get you in my machine, I guess. It worked for the exiles, so maybe it will work for you...?",
+      "ru": "Ну ладно. Давай просто... засунем тебя в мою машину. С изгнанниками она работала, может, и с тобой сработает...?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "...Don't look at me like that. Come on, let's get going.",
+      "ru": "...Не смотри на меня так. Давай, пошли.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "So... How have you been? It's been a while since our adventure at Katoa Ranch, hasn't it?",
+      "ru": "Ну... как поживаешь? Немало времени прошло с нашего приключения на ранчо Катоа, правда?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Well, you've been turned into a cow... Obviously... But besides that!",
+      "ru": "Ну да, тебя превратили в корову... Это очевидно... Но кроме этого!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Me? Well... heh. I've been doing pretty well, all thing considered. We've been gathering exiles from all over the province! Set up a city for us all while we work towards...",
+      "ru": "Я? Ну... хех. У меня, если подумать, всё не так уж плохо. Мы собираем изгнанников со всей провинции! Даже город для всех нас устроили, пока работаем над...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "It's a long story. I can't tell you everything- not yet. But... All of us here, we don't belong here. We just want to go home.",
+      "ru": "Это долгая история. Я не могу рассказать всё - пока что. Но... все мы здесь, мы не отсюда. Мы просто хотим домой.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "And- and maybe if we can find our ship again, we'll be able to prove that we're not irredeemable. That whatever we went through- that it won't define us.",
+      "ru": "И- и, может, если мы снова найдём наш корабль, мы сможем доказать, что не безнадёжны. Что всё, через что мы прошли... не обязано определять нас навсегда.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "...Heh. Don't- don't worry about it too much. For now, this place is enough of a safe haven for us. It'll have to be enough until we succeed.",
+      "ru": "...Хех. Не- не переживай об этом слишком сильно. Пока здесь мы в безопасности. Придётся этим довольствоваться, пока не добьёмся своего.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "We're so close. I can feel it. Just... Just a little while left to go.",
+      "ru": "Мы уже так близко. Я это чувствую. Осталось просто... ещё совсем немного.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Anyway, uh... Here's the elevator! Just step on in, and we can head on up to the laboratory.",
+      "ru": "В общем, эм... Вот лифт! Просто заходи, и поедем наверх, в лабораторию.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Moooo moo moo moo? (What's that big door next to us for?)",
+      "ru": "Муууу му му му? (А для чего та большая дверь рядом?)",
+      "speaker": "CHOICE",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "The- oh. Uh... It's nothing. Nothing to worry about.",
+      "ru": "Та- о. Эм... ничего. Не о чем переживать.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "It just leads to... maintenance. Yep! Just- just maintenance. Nothing else.",
+      "ru": "Она ведёт просто... в техотсек. Ага! Просто- просто техотсек. И всё.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Into the elevator now, come on! You need a key to get in anyway, and I definitely don't have one laying around!",
+      "ru": "Так, в лифт, давай! Всё равно тебе нужен ключ, чтобы туда зайти, а у меня уж точно никакого лишнего ключа под рукой нет!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "...You're worrying me, friend. Come on, let's get going. Into the elevator, let's get you back to normal.",
+      "ru": "...Ты меня тревожишь, друг. Давай, пойдём. В лифт, пора вернуть тебе прежний облик.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "So... Have you done anything interesting recently? Besides- getting turned into a cow. Obviously.",
+      "ru": "Ну... случалось с тобой что-нибудь интересное в последнее время? Кроме того, что тебя превратили в корову. Это понятно.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "You're, uh... Probably wondering what this place is. Just a big city under some random guy's farm, right?",
+      "ru": "Ты, эм... наверное, думаешь, что это за место. Просто большой город под фермой какого-то незнакомца, да?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "It's... heh. We've been trying to gather as many of our people as we can. We exiles have to stick together, after all.",
+      "ru": "Ну... хех. Мы пытаемся собрать как можно больше наших. Изгнанникам всё-таки надо держаться вместе.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "It's a long story. I'm not sure how much of it I really want to tell you, heh. Especially considering... Yeah.",
+      "ru": "Это длинная история. Я даже не уверен, сколько из неё вообще хочу тебе рассказывать, хех. Особенно если учесть... ну да.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "But. This place is a safe haven for us exiles. A place for us all to live until we achieve our goals.",
+      "ru": "Но. Это место - убежище для нас, изгнанников. Место, где мы можем жить, пока не добьёмся своей цели.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "And- hey! You've seen our secrets now! May as well let it be a safe haven for you as well, right? Heh.",
+      "ru": "И - эй! Ты уже и так увидел наши секреты! Так почему бы не сделать это убежище и для тебя тоже, а? Хех.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Oh- the elevator. Here we are. Uh... Just head on in, little buddy? It'll take us up.",
+      "ru": "О - лифт. Вот и он. Эм... Заходи, малыш? Он поднимет нас наверх.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "...You're worrying me. Come on, let's get going. Into the elevator, let's get you back to normal.",
+      "ru": "...Ты меня тревожишь. Давай уже, поехали. В лифт, пора возвращать тебя в норму.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "So... Hey there, little... cow?",
+      "ru": "Ну... привет, маленькая... корова?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Uh. Do you- do you understand what I'm saying?",
+      "ru": "Эм. Ты- ты вообще понимаешь, что я говорю?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "...This is stupid. I'm talking to a cow. Of course you can't...",
+      "ru": "...Какая глупость. Я разговариваю с коровой. Конечно, ты не понимаешь...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Well I guess I could- talk at you. For a bit. If that's, heh, fine with you!",
+      "ru": "Ну, пожалуй, я мог бы- поговорить, а ты послушаешь. Немного. Если ты, хех, не против!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "It's been tough, recently. Working towards a goal I know is important, but still feels... out of reach.",
+      "ru": "В последнее время тяжело. Стремлюсь к цели, которая, я знаю, важна, но всё равно кажется... недостижимой.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "And it doesn't seem like anybody else can see that! That this is important! They look at me like I'm going crazy, and-",
+      "ru": "И такое чувство, будто больше никто этого не видит! Насколько это важно! Они смотрят на меня так, будто я с катушек съехал, и-",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "I'm not. I know I'm not. We need to find the ship. If we don't, who knows what...",
+      "ru": "Я не съехал. Я знаю, что нет. Нам нужно найти корабль. Если не найдём, кто знает, что...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Anyway! Here's the elevator! Just step on in, and we can head on up to the laboratory.",
+      "ru": "В общем! Вот лифт! Просто заходи, и поедем наверх, в лабораторию.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Hrrgh- You're- you're not a cow?! Why would you... I just said all that, and you could...",
+      "ru": "Кхх- Ты- ты не корова?! Зачем ты... Я ведь всё это рассказал, а ты мог...",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "D-Don't worry about the door. It's... It's nothing. Maintenance. That- that's what it is.",
+      "ru": "Н-не беспокойся о двери. Это... это ничего. Техотсек. Да- да, именно он.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Er... come on, into the elevator! You want to get back to normal, right? Besides, you'd need a key to get in there, and I don't know where you'd find one of those, haha!",
+      "ru": "Эм... давай в лифт! Ты же хочешь снова стать нормальным, да? Да и ключ тебе бы всё равно понадобился, а уж где его взять - я вообще не представляю, ха-ха!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "...Moo. Yep. I agree. Come on, let's get going. Into the elevator.",
+      "ru": "...Му. Ага. Согласен. Давай, поехали. В лифт.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "So... here we are. The lab!",
+      "ru": "Ну... вот мы и пришли. Лаборатория!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Just... follow me, for now. The machine is this way.",
+      "ru": "Просто... пока иди за мной. Машина вон там.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "There it is! If you step into the machine, real quick, it should... it should work!",
+      "ru": "Вот она! Если ты быстренько встанешь в машину, она должна... должна сработать!",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Look at you! As good as new!",
+      "ru": "Ну вот! Как новенький!",
+      "speaker": "Drale",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "Heh... Well, there you are! Good as new! I hope...",
+      "ru": "Хех... Ну вот и всё! Как новенький! Надеюсь...",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "And- to, uh, compensate you for... you know... Here! One liquid emerald. I feel terrible for how our reunion ended up going... I hope you won't hold it against me?",
+      "ru": "И - эм, в качестве компенсации за... ну, сам понимаешь... Вот! Один жидкий изумруд. Мне ужасно неловко из-за того, как вышла наша встреча... Надеюсь, ты не будешь держать на меня зла?",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Uh... I really should get back to work. But- hey! Feel free to visit whenever you want! You'll be able to use the entrance at Ranol's farm.",
+      "ru": "Эм... Мне правда пора обратно к работе. Но - эй! Заходи когда захочешь! Сможешь пользоваться входом на ферме Ранола.",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Maybe I can tell you more about what I've been up to! That'd be nice.",
+      "ru": "Может, я ещё расскажу тебе, чем тут занимаюсь! Было бы славно.",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "There you are! Back to norm...-",
+      "ru": "А вот и ты! Снова в нор...-",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "<playername>?! What are you- that was you the whole time?! Why didn't you tell me!",
+      "ru": "<playername>?! Ты что - так это всё время был ты?! Почему ты сразу не сказал!",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Oh gosh, this has been... An awful reunion. I can't believe I dropped you into the Pit...",
+      "ru": "О господи, это была... ужасная встреча. Не могу поверить, что я скинул тебя в Яму...",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "I'm so sorry for- for all of that. You should have told me! Oh...",
+      "ru": "Прости меня за- за всё это. Надо было сказать! Ох...",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "Okay, uh... Here, take this. As- as compensation for- for all of that.",
+      "ru": "Ладно, эм... Вот, держи. В качестве... компенсации за всё это.",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "I... I need to get back to work. But- uh, if you ever want, feel free to visit sometime? You'll be able to use the entrance at Ranol's farm.",
+      "ru": "Мне... мне нужно вернуться к работе. Но - эм, если захочешь, заглядывай как-нибудь? Сможешь пользоваться входом на ферме Ранола.",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Maybe I can tell you more about what I've been up to! Heh...",
+      "ru": "Может, я смогу рассказать тебе больше о том, чем тут занимаюсь! Хех...",
+      "speaker": "Drale",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Day 1",
+      "ru": "День 1",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "This place isn't meant for me. I can't remain here. And now that I know that I'm not the only one here...",
+      "ru": "Это место не для меня. Я не могу оставаться здесь. И теперь, когда я знаю, что я тут не один...",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "There's an opportunity for us exiles to return home. I've spoken to them! Their minds - so bright, so open. And yet... why are they here?",
+      "ru": "У нас, изгнанников, есть шанс вернуться домой. Я говорил с ними! Их разум - такой ясный, такой открытый. И всё же... почему они здесь?",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "We must not allow this to continue. I will make sure that all of us return home where we belong.",
+      "ru": "Мы не можем позволить этому продолжаться. Я добьюсь того, чтобы все мы вернулись туда, где нам и место.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "Day 10",
+      "ru": "День 10",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "While my journey across the ocean wasn't a success, I did meet with a Corkian along the way.",
+      "ru": "Пусть моё путешествие через океан и не увенчалось успехом, по дороге я всё же встретил одного коркианца.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "The device I showed him seemed familiar, but they couldn't explain how. Could it be...? No, no, it can't.",
+      "ru": "Устройство, которое я ему показал, показалось ему знакомым, но он не смог объяснить почему. Неужели это...? Нет, нет, не может быть.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Either way I've received valuable insight from this interaction. My plans can be set in motion. But I can't do this alone.",
+      "ru": "Как бы там ни было, эта встреча помогла мне многое понять. Теперь я могу приступить к задуманному. Но одному мне не справиться.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "If I am to return home... I must bring every exile from Wynn to Gavel with me. Together, we will reclaim what was taken from us.",
+      "ru": "Если я хочу вернуться домой... я должен привести с собой в Гавель каждого изгнанника из Винна. Вместе мы вернём то, что у нас отняли.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Day 23",
+      "ru": "День 23",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Finally, the last exiles have escaped from Wynn! The ones I could find, at least... They'll soon join the rest in Gavel, where we'll find the rest of our lost kin.",
+      "ru": "Наконец-то последние изгнанники выбрались из Винна! Ну, те, кого я сумел найти... Скоро они присоединятся к остальным в Гавеле, где мы разыщем и прочих наших потерянных сородичей.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "This last mission would've been a failure if not for a strange soldier I met along the way. Without their assistance... these poor exiles would've ended up at a slaughterhouse.",
+      "ru": "Эта последняя вылазка обернулась бы провалом, если бы не один странный солдат, которого я встретил по пути. Без его помощи... эти бедные изгнанники оказались бы на бойне.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "If I ever meet them again... I'll have to express my utmost gratitude to them. But now, I must venture to Gavel myself.",
+      "ru": "Если я когда-нибудь снова встречу его... я должен буду отблагодарить его как следует. Но сейчас мне пора самому отправляться в Гавель.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Day 30",
+      "ru": "День 30",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "Bovemism seems to be a lot less popular in this province. It... hurts. To imagine how badly our kin get treated here. But their suffering will not last.",
+      "ru": "Похоже, бовемизм в этой провинции куда менее популярен. Это... больно. Даже думать больно, как плохо тут обращаются с нашими. Но их страдания не будут вечными.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "I've learned of a remote, mountainous region here. The locals claim that its terrain is always shifting. It'll be the perfect place for our city.",
+      "ru": "Я узнал об отдалённом горном крае. Местные говорят, что земля там постоянно меняется. Идеальное место для нашего города.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Day 31",
+      "ru": "День 31",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "Today I met someone... strange. His name was Dr. Urelix. His work... though awful, I can't say it wasn't insightful. We spoke, some, on that topic of transformation...",
+      "ru": "Сегодня я встретил кое-кого... странного. Его звали доктор Уреликс. Его работа... она ужасна, но, не скрою, многому меня научила. Мы немного поговорили о превращениях...",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "With this newfound knowledge, I believe that I can revert the first exile back into a Woc within a few weeks. Things are coming along better than I expected.",
+      "ru": "Благодаря новым знаниям я, похоже, смогу вернуть первому изгнаннику облик вока уже через несколько недель. Всё идёт лучше, чем я ожидал.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Day 47",
+      "ru": "День 47",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "I write here today, ashamed of my failure. The first transformation was... a disaster. Instead of a healthy Woc, I was faced with- With- Something- I had to put it down.",
+      "ru": "Сегодня я пишу это, сгорая от стыда за провал. Первое превращение стало... катастрофой. Вместо здорового вока передо мной оказалось- оказалось- нечто- и мне пришлось это прикончить.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "I can't let the others find out. I just- can't. If they were to find out what- what I've done- They would not forgive me.",
+      "ru": "Я не могу позволить остальным узнать. Просто- не могу. Если они узнают, что- что я сделал- они меня не простят.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "I can't be left alone again. I've worked so hard, so long, just to... I have to keep going. I have to perfect this transformation.",
+      "ru": "Я не могу снова остаться один. Я так долго и так тяжело работал ради этого... Я должен продолжать. Я обязан довести это превращение до совершенства.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Day 59",
+      "ru": "День 59",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "It's... done. I've finally done it. A healthy Woc, transformed back from their fallen state! It has taken me... far too long. Was it worth it? All that sacrifice?...",
+      "ru": "Готово... Я наконец это сделал. Здоровый вок, вновь обретший свой прежний облик! На это ушло... слишком много времени. Стоило ли оно того? Все эти жертвы?...",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "I can't think like that. It has to have been worth it. If it wasn't worth it, then all I have done would have been... for nothing. I can't let that happen.",
+      "ru": "Нельзя так думать. Оно обязано было того стоить. Если нет, тогда всё, что я сделал, было бы... зря. Я не могу этого допустить.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "I have to leave this chapter behind me. For... for my own sake. I can still redeem myself. I must.",
+      "ru": "Я должен оставить эту главу позади. Ради... ради самого себя. Я ещё могу всё искупить. Я обязан.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "Day 65",
+      "ru": "День 65",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "We begin working on the city today. 'The Canyon of the Lost' is what they call this place. It's about as remote as it gets.",
+      "ru": "Сегодня мы начинаем строить город. Это место называют \"Каньон Потерянных\". Дальше от цивилизации уже некуда.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "However, with the amount of work that awaits us, I won't be able to continue working on this journal. This chapter of our journey will remain undocumented. Perhaps that's for the best...",
+      "ru": "Но нас ждёт столько работы, что я больше не смогу вести этот дневник. Эта глава нашего пути останется без записей. Может, оно и к лучшему...",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "The device is nearing completion! Our time here will soon come to an end. Soon, we can begin our journey back home.",
+      "ru": "Устройство почти готово! Скоро мы покинем это место. Совсем скоро сможем отправиться домой.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "If all goes according to plan... It should be able to 'catch' the signal of our ship, and return it to us.",
+      "ru": "Если всё пойдёт по плану... оно должно будет \"поймать\" сигнал нашего корабля и вернуть его нам.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "But... before we depart, I must extract the last exile from that farmer's barn. We can't leave any behind. We've lost too many already.",
+      "ru": "Но... прежде чем мы уйдём, я должен вытащить последнего изгнанника из сарая того фермера. Мы не можем бросить никого. Мы и так потеряли слишком многих.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "The stars await, my kin.",
+      "ru": "Звёзды ждут нас, мои сородичи.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Maybe there's a way to open the door somewhere around...?",
+      "ru": "Может, где-то рядом есть способ открыть дверь...?",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "[!] Main Laboratory Door unlocked!",
+      "ru": "[!] Главная дверь лаборатории разблокирована!",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "Looks like Ranol's cows are being held in this pen... maybe there's a way to unlock the door around?",
+      "ru": "Похоже, коров Ранола держат в этом загоне... может, рядом есть способ отпереть дверь?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "[!] You can no longer jump or cast spells.",
+      "ru": "[!] Ты больше не можешь прыгать и применять заклинания.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Something feels wrong... you should head back to Ranol...",
+      "ru": "Что-то не так... тебе стоит вернуться к Ранолу...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "You can left-click to pull the hay bale and right-click to push it.",
+      "ru": "Нажми левую кнопку мыши, чтобы потянуть тюк сена, или правую, чтобы толкнуть его.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "... So apparently you can climb ropes but not jump. Being a cow is weird.",
+      "ru": "... Значит, по верёвкам лазить можно, а прыгать нельзя. Быть коровой странно.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "[!] Northward fan disabled!",
+      "ru": "[!] Северный вентилятор отключён!",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "[!] Southward fan disabled!",
+      "ru": "[!] Южный вентилятор отключён!",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "[!] Sanitisation complete, door opening...",
+      "ru": "[!] Санитарная обработка завершена, дверь открывается...",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "New Quest Started: Cowfusion",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Замукательство",
+      "speaker": "",
+      "stage": "Stage 10"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Ranol at [768, 45, -5425]",
+      "ru": "Поговорить с Ранолом [768, 45, -5425].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Head to the Laboratory at [803, 43, -5576]",
+      "ru": "Отправиться в лабораторию [803, 43, -5576].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Find a way into the Laboratory",
+      "ru": "Найти вход в лабораторию.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Search the Laboratory for the missing cows",
+      "ru": "Найти пропавших коров в лаборатории.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find a way to free the Cows.",
+      "ru": "Найти способ освободить коров.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "???",
+      "ru": "???",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Find out what happened",
+      "ru": "Выяснить, что произошло.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Return to Ranol",
+      "ru": "Вернуться к Ранолу.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Escape Ranol's farm",
+      "ru": "Сбежать с фермы Ранола.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Find and enter the Secret Cow Hideout",
+      "ru": "Найти тайное убежище коров и войти внутрь.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Talk to the Receptionist",
+      "ru": "Поговорить с секретарём.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Find the one who's in charge of the hideout",
+      "ru": "Найти того, кто управляет убежищем.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Talk to Drale",
+      "ru": "Поговорить с Дрейлом.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Escape The Pit",
+      "ru": "Выбраться из Ямы.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Talk to Drale",
+      "ru": "Поговорить с Дрейлом.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Enter the Transmutation Machine",
+      "ru": "Войти в машину превращений.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Talk to Drale",
+      "ru": "Поговорить с Дрейлом.",
+      "stage": "Stage 17"
+    }
+  ],
+  "choices": []
+}

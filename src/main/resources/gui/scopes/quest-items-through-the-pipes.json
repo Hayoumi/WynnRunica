@@ -1,0 +1,1947 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "quest-items-through-the-pipes",
+  "scopes": [
+    {
+      "id": "item-0-rusted-rake",
+      "match": {
+        "title": "Rusted Rake",
+        "anchors": [
+          "Can harvest bushes"
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Rusted Rake",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Can harvest bushes",
+          "ru": "Позволяет собирать листву с кустов"
+        }
+      ]
+    },
+    {
+      "id": "item-0-rusted-rake-badge",
+      "match": {
+        "title": "Rusted Rake<em>",
+        "anchors": [
+          "Can harvest bushes"
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Rusted Rake<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Can harvest bushes",
+          "ru": "Позволяет собирать листву с кустов"
+        }
+      ]
+    },
+    {
+      "id": "item-1-leaf-litter",
+      "match": {
+        "title": "Leaf Litter",
+        "anchors": [
+          "Can be used as fuel"
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Leaf Litter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Can be used as fuel",
+          "ru": "Можно использовать как топливо"
+        }
+      ]
+    },
+    {
+      "id": "item-1-leaf-litter-badge",
+      "match": {
+        "title": "Leaf Litter<em>",
+        "anchors": [
+          "Can be used as fuel"
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Leaf Litter<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Can be used as fuel",
+          "ru": "Можно использовать как топливо"
+        }
+      ]
+    },
+    {
+      "id": "item-2-propeller",
+      "match": {
+        "title": "Propeller",
+        "anchors": [
+          "Used to create airflow in ventilation pipes. Safety was the least of concerns."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Propeller",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Used to create airflow in ventilation pipes. Safety was the least of concerns.",
+          "ru": "Использовался для создания потока воздуха в вентиляционных трубах. Безопасность никого особо не заботила."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Right-Click to toggle propulsion",
+          "ru": "ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "<em> Right-Click to toggle propulsion",
+          "ru": "<em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "- <em> Right-Click to toggle propulsion",
+          "ru": "- <em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-3",
+          "en": "− <em> Right-Click to toggle propulsion",
+          "ru": "− <em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-4",
+          "en": "- Right-Click to toggle propulsion",
+          "ru": "- ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-5",
+          "en": "− Right-Click to toggle propulsion",
+          "ru": "− ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Pushes the raft away.",
+          "ru": "Толкает плот §lот себя§r."
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Pushes the raft away.",
+          "ru": "- Толкает плот §lот себя§r."
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Pushes the raft away.",
+          "ru": "− Толкает плот §lот себя§r."
+        }
+      ]
+    },
+    {
+      "id": "item-2-propeller-badge",
+      "match": {
+        "title": "Propeller<em>",
+        "anchors": [
+          "Used to create airflow in ventilation pipes. Safety was the least of concerns."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Propeller<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Used to create airflow in ventilation pipes. Safety was the least of concerns.",
+          "ru": "Использовался для создания потока воздуха в вентиляционных трубах. Безопасность никого особо не заботила."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Right-Click to toggle propulsion",
+          "ru": "ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "<em> Right-Click to toggle propulsion",
+          "ru": "<em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "- <em> Right-Click to toggle propulsion",
+          "ru": "- <em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-3",
+          "en": "− <em> Right-Click to toggle propulsion",
+          "ru": "− <em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-4",
+          "en": "- Right-Click to toggle propulsion",
+          "ru": "- ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-5",
+          "en": "− Right-Click to toggle propulsion",
+          "ru": "− ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Pushes the raft away.",
+          "ru": "Толкает плот §lот себя§r."
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Pushes the raft away.",
+          "ru": "- Толкает плот §lот себя§r."
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Pushes the raft away.",
+          "ru": "− Толкает плот §lот себя§r."
+        }
+      ]
+    },
+    {
+      "id": "item-2-propellor",
+      "match": {
+        "title": "Propellor",
+        "anchors": [
+          "Used to create airflow in ventilation pipes. Safety was the least of concerns."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Propellor",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Used to create airflow in ventilation pipes. Safety was the least of concerns.",
+          "ru": "Использовался для создания потока воздуха в вентиляционных трубах. Безопасность никого особо не заботила."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Right-Click to toggle propulsion",
+          "ru": "ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "<em> Right-Click to toggle propulsion",
+          "ru": "<em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "- <em> Right-Click to toggle propulsion",
+          "ru": "- <em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-3",
+          "en": "− <em> Right-Click to toggle propulsion",
+          "ru": "− <em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-4",
+          "en": "- Right-Click to toggle propulsion",
+          "ru": "- ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-5",
+          "en": "− Right-Click to toggle propulsion",
+          "ru": "− ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Pushes the raft away.",
+          "ru": "Толкает плот §lот себя§r."
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Pushes the raft away.",
+          "ru": "- Толкает плот §lот себя§r."
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Pushes the raft away.",
+          "ru": "− Толкает плот §lот себя§r."
+        }
+      ]
+    },
+    {
+      "id": "item-2-propellor-badge",
+      "match": {
+        "title": "Propellor<em>",
+        "anchors": [
+          "Used to create airflow in ventilation pipes. Safety was the least of concerns."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Propellor<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Used to create airflow in ventilation pipes. Safety was the least of concerns.",
+          "ru": "Использовался для создания потока воздуха в вентиляционных трубах. Безопасность никого особо не заботила."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Right-Click to toggle propulsion",
+          "ru": "ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "<em> Right-Click to toggle propulsion",
+          "ru": "<em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "- <em> Right-Click to toggle propulsion",
+          "ru": "- <em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-3",
+          "en": "− <em> Right-Click to toggle propulsion",
+          "ru": "− <em> ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-4",
+          "en": "- Right-Click to toggle propulsion",
+          "ru": "- ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-3-5",
+          "en": "− Right-Click to toggle propulsion",
+          "ru": "− ПКМ - §bвключить или выключить тягу§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Pushes the raft away.",
+          "ru": "Толкает плот §lот себя§r."
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Pushes the raft away.",
+          "ru": "- Толкает плот §lот себя§r."
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Pushes the raft away.",
+          "ru": "− Толкает плот §lот себя§r."
+        }
+      ]
+    },
+    {
+      "id": "item-3-seat",
+      "match": {
+        "title": "Seat",
+        "anchors": [
+          "Part of an old, broken seat. Looks comfortable, although quite dusty."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Seat",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Part of an old, broken seat. Looks comfortable, although quite dusty.",
+          "ru": "Часть старого сломанного сиденья. Выглядит удобной, хоть и порядком запылилась."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Provides a place to sit",
+          "ru": "Позволяет сесть"
+        },
+        {
+          "id": "line-3-1",
+          "en": "- Provides a place to sit",
+          "ru": "- Позволяет сесть"
+        },
+        {
+          "id": "line-3-2",
+          "en": "− Provides a place to sit",
+          "ru": "− Позволяет сесть"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Destruction of this part will result in failure!",
+          "ru": "§cРазрушение этой части приведёт к провалу!§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Destruction of this part will result in failure!",
+          "ru": "- §cРазрушение этой части приведёт к провалу!§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Destruction of this part will result in failure!",
+          "ru": "− §cРазрушение этой части приведёт к провалу!§r"
+        }
+      ]
+    },
+    {
+      "id": "item-3-seat-badge",
+      "match": {
+        "title": "Seat<em>",
+        "anchors": [
+          "Part of an old, broken seat. Looks comfortable, although quite dusty."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Seat<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Part of an old, broken seat. Looks comfortable, although quite dusty.",
+          "ru": "Часть старого сломанного сиденья. Выглядит удобной, хоть и порядком запылилась."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Provides a place to sit",
+          "ru": "Позволяет сесть"
+        },
+        {
+          "id": "line-3-1",
+          "en": "- Provides a place to sit",
+          "ru": "- Позволяет сесть"
+        },
+        {
+          "id": "line-3-2",
+          "en": "− Provides a place to sit",
+          "ru": "− Позволяет сесть"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Destruction of this part will result in failure!",
+          "ru": "§cРазрушение этой части приведёт к провалу!§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Destruction of this part will result in failure!",
+          "ru": "- §cРазрушение этой части приведёт к провалу!§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Destruction of this part will result in failure!",
+          "ru": "− §cРазрушение этой части приведёт к провалу!§r"
+        }
+      ]
+    },
+    {
+      "id": "item-4-planks",
+      "match": {
+        "title": "Planks",
+        "anchors": [
+          "A basic wooden board, capable of withstanding water."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Planks",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A basic wooden board, capable of withstanding water.",
+          "ru": "Обычная деревянная доска, способная выдержать воду."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Provides structure",
+          "ru": "Служит основой конструкции"
+        },
+        {
+          "id": "line-3-1",
+          "en": "- Provides structure",
+          "ru": "- Служит основой конструкции"
+        },
+        {
+          "id": "line-3-2",
+          "en": "− Provides structure",
+          "ru": "− Служит основой конструкции"
+        }
+      ]
+    },
+    {
+      "id": "item-4-planks-badge",
+      "match": {
+        "title": "Planks<em>",
+        "anchors": [
+          "A basic wooden board, capable of withstanding water."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Planks<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A basic wooden board, capable of withstanding water.",
+          "ru": "Обычная деревянная доска, способная выдержать воду."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Provides structure",
+          "ru": "Служит основой конструкции"
+        },
+        {
+          "id": "line-3-1",
+          "en": "- Provides structure",
+          "ru": "- Служит основой конструкции"
+        },
+        {
+          "id": "line-3-2",
+          "en": "− Provides structure",
+          "ru": "− Служит основой конструкции"
+        }
+      ]
+    },
+    {
+      "id": "item-5-scuttle-raft",
+      "match": {
+        "title": "Scuttle Raft",
+        "anchors": [
+          "A relatively weak explosive, capable of destroying relatively weak things."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Scuttle Raft",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A relatively weak explosive, capable of destroying relatively weak things.",
+          "ru": "Довольно слабая взрывчатка, способная разрушить довольно непрочные вещи."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to scuttle",
+          "ru": "ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to scuttle",
+          "ru": "<em> ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to scuttle",
+          "ru": "- <em> ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to scuttle",
+          "ru": "− <em> ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to scuttle",
+          "ru": "- ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to scuttle",
+          "ru": "− ПКМ - затопить плот"
+        },
+        {
+          "id": "line-2-0",
+          "en": "Upon activation, your raft will begin to sink itself. You will return to the dock.",
+          "ru": "После использования плот §cначнёт тонуть§r. Вы §lвернётесь к причалу§r."
+        },
+        {
+          "id": "line-2-1",
+          "en": "- Upon activation, your raft will begin to sink itself. You will return to the dock.",
+          "ru": "- После использования плот §cначнёт тонуть§r. Вы §lвернётесь к причалу§r."
+        },
+        {
+          "id": "line-2-2",
+          "en": "− Upon activation, your raft will begin to sink itself. You will return to the dock.",
+          "ru": "− После использования плот §cначнёт тонуть§r. Вы §lвернётесь к причалу§r."
+        }
+      ]
+    },
+    {
+      "id": "item-5-scuttle-raft-badge",
+      "match": {
+        "title": "Scuttle Raft<em>",
+        "anchors": [
+          "A relatively weak explosive, capable of destroying relatively weak things."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Scuttle Raft<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A relatively weak explosive, capable of destroying relatively weak things.",
+          "ru": "Довольно слабая взрывчатка, способная разрушить довольно непрочные вещи."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to scuttle",
+          "ru": "ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to scuttle",
+          "ru": "<em> ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to scuttle",
+          "ru": "- <em> ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to scuttle",
+          "ru": "− <em> ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to scuttle",
+          "ru": "- ПКМ - затопить плот"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to scuttle",
+          "ru": "− ПКМ - затопить плот"
+        },
+        {
+          "id": "line-2-0",
+          "en": "Upon activation, your raft will begin to sink itself. You will return to the dock.",
+          "ru": "После использования плот §cначнёт тонуть§r. Вы §lвернётесь к причалу§r."
+        },
+        {
+          "id": "line-2-1",
+          "en": "- Upon activation, your raft will begin to sink itself. You will return to the dock.",
+          "ru": "- После использования плот §cначнёт тонуть§r. Вы §lвернётесь к причалу§r."
+        },
+        {
+          "id": "line-2-2",
+          "en": "− Upon activation, your raft will begin to sink itself. You will return to the dock.",
+          "ru": "− После использования плот §cначнёт тонуть§r. Вы §lвернётесь к причалу§r."
+        }
+      ]
+    },
+    {
+      "id": "item-6-empty-cage",
+      "match": {
+        "title": "Empty Cage",
+        "anchors": [
+          "A moderate-sized cage. Maybe this could be used to trap something."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Empty Cage",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A moderate-sized cage. Maybe this could be used to trap something.",
+          "ru": "Клетка среднего размера. Возможно, в неё можно §bкого-нибудь поймать§r."
+        }
+      ]
+    },
+    {
+      "id": "item-6-empty-cage-badge",
+      "match": {
+        "title": "Empty Cage<em>",
+        "anchors": [
+          "A moderate-sized cage. Maybe this could be used to trap something."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Empty Cage<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A moderate-sized cage. Maybe this could be used to trap something.",
+          "ru": "Клетка среднего размера. Возможно, в неё можно §bкого-нибудь поймать§r."
+        }
+      ]
+    },
+    {
+      "id": "item-7-curious-bag",
+      "match": {
+        "title": "Curious Bag",
+        "anchors": [
+          "A small bag full of assorted art supplies. Someone might be looking for this..."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Curious Bag",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A small bag full of assorted art supplies. Someone might be looking for this...",
+          "ru": "Небольшая сумка с разными принадлежностями для рисования. Возможно, кто-то её ищет..."
+        }
+      ]
+    },
+    {
+      "id": "item-7-curious-bag-badge",
+      "match": {
+        "title": "Curious Bag<em>",
+        "anchors": [
+          "A small bag full of assorted art supplies. Someone might be looking for this..."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Curious Bag<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A small bag full of assorted art supplies. Someone might be looking for this...",
+          "ru": "Небольшая сумка с разными принадлежностями для рисования. Возможно, кто-то её ищет..."
+        }
+      ]
+    },
+    {
+      "id": "item-8-rudder",
+      "match": {
+        "title": "Rudder",
+        "anchors": [
+          "Originally used to divert water flow. It makes a great rudder."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Rudder",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Originally used to divert water flow. It makes a great rudder.",
+          "ru": "Изначально использовался для перенаправления потока воды. Из него выходит отличный руль."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Turns the raft in the direction you are looking",
+          "ru": "Поворачивает плот §lв сторону, куда вы смотрите§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "- Turns the raft in the direction you are looking",
+          "ru": "- Поворачивает плот §lв сторону, куда вы смотрите§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "− Turns the raft in the direction you are looking",
+          "ru": "− Поворачивает плот §lв сторону, куда вы смотрите§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "The raft will rotate around the rudder location",
+          "ru": "Плот будет вращаться вокруг §lместа установки руля§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "- The raft will rotate around the rudder location",
+          "ru": "- Плот будет вращаться вокруг §lместа установки руля§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "− The raft will rotate around the rudder location",
+          "ru": "− Плот будет вращаться вокруг §lместа установки руля§r"
+        }
+      ]
+    },
+    {
+      "id": "item-8-rudder-badge",
+      "match": {
+        "title": "Rudder<em>",
+        "anchors": [
+          "Originally used to divert water flow. It makes a great rudder."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Rudder<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "Originally used to divert water flow. It makes a great rudder.",
+          "ru": "Изначально использовался для перенаправления потока воды. Из него выходит отличный руль."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Turns the raft in the direction you are looking",
+          "ru": "Поворачивает плот §lв сторону, куда вы смотрите§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "- Turns the raft in the direction you are looking",
+          "ru": "- Поворачивает плот §lв сторону, куда вы смотрите§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "− Turns the raft in the direction you are looking",
+          "ru": "− Поворачивает плот §lв сторону, куда вы смотрите§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "The raft will rotate around the rudder location",
+          "ru": "Плот будет вращаться вокруг §lместа установки руля§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "- The raft will rotate around the rudder location",
+          "ru": "- Плот будет вращаться вокруг §lместа установки руля§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "− The raft will rotate around the rudder location",
+          "ru": "− Плот будет вращаться вокруг §lместа установки руля§r"
+        }
+      ]
+    },
+    {
+      "id": "item-9-shiny-jewelry",
+      "match": {
+        "title": "Shiny Jewelry",
+        "anchors": [
+          "A surprisingly shiny silver ring. Maybe this could be used as a distraction."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Shiny Jewelry",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A surprisingly shiny silver ring. Maybe this could be used as a distraction.",
+          "ru": "Удивительно блестящее серебряное кольцо. Возможно, с его помощью можно §bотвлечь внимание§r."
+        }
+      ]
+    },
+    {
+      "id": "item-9-shiny-jewelry-badge",
+      "match": {
+        "title": "Shiny Jewelry<em>",
+        "anchors": [
+          "A surprisingly shiny silver ring. Maybe this could be used as a distraction."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Shiny Jewelry<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A surprisingly shiny silver ring. Maybe this could be used as a distraction.",
+          "ru": "Удивительно блестящее серебряное кольцо. Возможно, с его помощью можно §bотвлечь внимание§r."
+        }
+      ]
+    },
+    {
+      "id": "item-10-harpoon",
+      "match": {
+        "title": "Harpoon",
+        "anchors": [
+          "An improvised harpoon, constructed with scrap found around the sewers."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Harpoon",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "An improvised harpoon, constructed with scrap found around the sewers.",
+          "ru": "Самодельный гарпун из обломков, найденных в канализации."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Left-Click to fire hook",
+          "ru": "ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "<em> Left-Click to fire hook",
+          "ru": "<em> ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "- <em> Left-Click to fire hook",
+          "ru": "- <em> ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-3",
+          "en": "− <em> Left-Click to fire hook",
+          "ru": "− <em> ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-4",
+          "en": "- Left-Click to fire hook",
+          "ru": "- ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-5",
+          "en": "− Left-Click to fire hook",
+          "ru": "− ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Right-Click to reel in",
+          "ru": "ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "<em> Right-Click to reel in",
+          "ru": "<em> ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "- <em> Right-Click to reel in",
+          "ru": "- <em> ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-3",
+          "en": "− <em> Right-Click to reel in",
+          "ru": "− <em> ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-4",
+          "en": "- Right-Click to reel in",
+          "ru": "- ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-5",
+          "en": "− Right-Click to reel in",
+          "ru": "− ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-5-0",
+          "en": "Pulls the raft towards the hook",
+          "ru": "Тянет плот §lк крюку§r"
+        },
+        {
+          "id": "line-5-1",
+          "en": "- Pulls the raft towards the hook",
+          "ru": "- Тянет плот §lк крюку§r"
+        },
+        {
+          "id": "line-5-2",
+          "en": "− Pulls the raft towards the hook",
+          "ru": "− Тянет плот §lк крюку§r"
+        }
+      ]
+    },
+    {
+      "id": "item-10-harpoon-badge",
+      "match": {
+        "title": "Harpoon<em>",
+        "anchors": [
+          "An improvised harpoon, constructed with scrap found around the sewers."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Harpoon<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "An improvised harpoon, constructed with scrap found around the sewers.",
+          "ru": "Самодельный гарпун из обломков, найденных в канализации."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Left-Click to fire hook",
+          "ru": "ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "<em> Left-Click to fire hook",
+          "ru": "<em> ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "- <em> Left-Click to fire hook",
+          "ru": "- <em> ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-3",
+          "en": "− <em> Left-Click to fire hook",
+          "ru": "− <em> ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-4",
+          "en": "- Left-Click to fire hook",
+          "ru": "- ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-3-5",
+          "en": "− Left-Click to fire hook",
+          "ru": "− ЛКМ - §bвыпустить крюк§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Right-Click to reel in",
+          "ru": "ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "<em> Right-Click to reel in",
+          "ru": "<em> ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "- <em> Right-Click to reel in",
+          "ru": "- <em> ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-3",
+          "en": "− <em> Right-Click to reel in",
+          "ru": "− <em> ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-4",
+          "en": "- Right-Click to reel in",
+          "ru": "- ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-4-5",
+          "en": "− Right-Click to reel in",
+          "ru": "− ПКМ - §bподтянуть крюк§r"
+        },
+        {
+          "id": "line-5-0",
+          "en": "Pulls the raft towards the hook",
+          "ru": "Тянет плот §lк крюку§r"
+        },
+        {
+          "id": "line-5-1",
+          "en": "- Pulls the raft towards the hook",
+          "ru": "- Тянет плот §lк крюку§r"
+        },
+        {
+          "id": "line-5-2",
+          "en": "− Pulls the raft towards the hook",
+          "ru": "− Тянет плот §lк крюку§r"
+        }
+      ]
+    },
+    {
+      "id": "item-11-thruster",
+      "match": {
+        "title": "Thruster",
+        "anchors": [
+          "A lengthy statement, titled \"CAUTION\", seems to have long been erased."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Thruster",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A lengthy statement, titled \"CAUTION\", seems to have long been erased.",
+          "ru": "Длинное предупреждение с заголовком \"ОСТОРОЖНО\", похоже, давно стёрлось."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Right-Click to ignite",
+          "ru": "ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "<em> Right-Click to ignite",
+          "ru": "<em> ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "- <em> Right-Click to ignite",
+          "ru": "- <em> ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-3",
+          "en": "− <em> Right-Click to ignite",
+          "ru": "− <em> ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-4",
+          "en": "- Right-Click to ignite",
+          "ru": "- ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-5",
+          "en": "− Right-Click to ignite",
+          "ru": "− ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Propels the raft at a high speed",
+          "ru": "Разгоняет плот до §lвысокой скорости§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Propels the raft at a high speed",
+          "ru": "- Разгоняет плот до §lвысокой скорости§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Propels the raft at a high speed",
+          "ru": "− Разгоняет плот до §lвысокой скорости§r"
+        }
+      ]
+    },
+    {
+      "id": "item-11-thruster-badge",
+      "match": {
+        "title": "Thruster<em>",
+        "anchors": [
+          "A lengthy statement, titled \"CAUTION\", seems to have long been erased."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Thruster<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A lengthy statement, titled \"CAUTION\", seems to have long been erased.",
+          "ru": "Длинное предупреждение с заголовком \"ОСТОРОЖНО\", похоже, давно стёрлось."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Right-Click to ignite",
+          "ru": "ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-1",
+          "en": "<em> Right-Click to ignite",
+          "ru": "<em> ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-2",
+          "en": "- <em> Right-Click to ignite",
+          "ru": "- <em> ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-3",
+          "en": "− <em> Right-Click to ignite",
+          "ru": "− <em> ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-4",
+          "en": "- Right-Click to ignite",
+          "ru": "- ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-3-5",
+          "en": "− Right-Click to ignite",
+          "ru": "− ПКМ - §bзапустить§r"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Propels the raft at a high speed",
+          "ru": "Разгоняет плот до §lвысокой скорости§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Propels the raft at a high speed",
+          "ru": "- Разгоняет плот до §lвысокой скорости§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Propels the raft at a high speed",
+          "ru": "− Разгоняет плот до §lвысокой скорости§r"
+        }
+      ]
+    },
+    {
+      "id": "item-12-companion-seat",
+      "match": {
+        "title": "Companion Seat",
+        "anchors": [
+          "A luxurious velvet-red seat."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Companion Seat",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A luxurious velvet-red seat.",
+          "ru": "Роскошное красное бархатное сиденье."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Provides an additional seat",
+          "ru": "Даёт дополнительное место для сидения"
+        },
+        {
+          "id": "line-3-1",
+          "en": "- Provides an additional seat",
+          "ru": "- Даёт дополнительное место для сидения"
+        },
+        {
+          "id": "line-3-2",
+          "en": "− Provides an additional seat",
+          "ru": "− Даёт дополнительное место для сидения"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Destruction of this part will result in failure!",
+          "ru": "§cРазрушение этой части приведёт к провалу!§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Destruction of this part will result in failure!",
+          "ru": "- §cРазрушение этой части приведёт к провалу!§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Destruction of this part will result in failure!",
+          "ru": "− §cРазрушение этой части приведёт к провалу!§r"
+        }
+      ]
+    },
+    {
+      "id": "item-12-companion-seat-badge",
+      "match": {
+        "title": "Companion Seat<em>",
+        "anchors": [
+          "A luxurious velvet-red seat."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Companion Seat<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A luxurious velvet-red seat.",
+          "ru": "Роскошное красное бархатное сиденье."
+        },
+        {
+          "id": "line-1-0",
+          "en": "Right-Click to place",
+          "ru": "ПКМ - разместить"
+        },
+        {
+          "id": "line-1-1",
+          "en": "<em> Right-Click to place",
+          "ru": "<em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-2",
+          "en": "- <em> Right-Click to place",
+          "ru": "- <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-3",
+          "en": "− <em> Right-Click to place",
+          "ru": "− <em> ПКМ - разместить"
+        },
+        {
+          "id": "line-1-4",
+          "en": "- Right-Click to place",
+          "ru": "- ПКМ - разместить"
+        },
+        {
+          "id": "line-1-5",
+          "en": "− Right-Click to place",
+          "ru": "− ПКМ - разместить"
+        },
+        {
+          "id": "line-2-0",
+          "en": "When on Raft:",
+          "ru": "На плоту:"
+        },
+        {
+          "id": "line-3-0",
+          "en": "Provides an additional seat",
+          "ru": "Даёт дополнительное место для сидения"
+        },
+        {
+          "id": "line-3-1",
+          "en": "- Provides an additional seat",
+          "ru": "- Даёт дополнительное место для сидения"
+        },
+        {
+          "id": "line-3-2",
+          "en": "− Provides an additional seat",
+          "ru": "− Даёт дополнительное место для сидения"
+        },
+        {
+          "id": "line-4-0",
+          "en": "Destruction of this part will result in failure!",
+          "ru": "§cРазрушение этой части приведёт к провалу!§r"
+        },
+        {
+          "id": "line-4-1",
+          "en": "- Destruction of this part will result in failure!",
+          "ru": "- §cРазрушение этой части приведёт к провалу!§r"
+        },
+        {
+          "id": "line-4-2",
+          "en": "− Destruction of this part will result in failure!",
+          "ru": "− §cРазрушение этой части приведёт к провалу!§r"
+        }
+      ]
+    },
+    {
+      "id": "item-13-firecracker",
+      "match": {
+        "title": "Firecracker",
+        "anchors": [
+          "A small firecracker, capable of making a loud sound. Maybe this could be used to scare something."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Firecracker",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A small firecracker, capable of making a loud sound. Maybe this could be used to scare something.",
+          "ru": "Небольшая петарда, способная громко хлопнуть. Возможно, ей можно §bкого-нибудь напугать§r."
+        }
+      ]
+    },
+    {
+      "id": "item-13-firecracker-badge",
+      "match": {
+        "title": "Firecracker<em>",
+        "anchors": [
+          "A small firecracker, capable of making a loud sound. Maybe this could be used to scare something."
+        ],
+        "priority": 800
+      },
+      "title": {
+        "id": "title",
+        "en": "Firecracker<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0-0",
+          "en": "A small firecracker, capable of making a loud sound. Maybe this could be used to scare something.",
+          "ru": "Небольшая петарда, способная громко хлопнуть. Возможно, ей можно §bкого-нибудь напугать§r."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "quest": "The Shadow of the Beast",
+  "level": 54,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-shadow-of-the-beast",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, you look tough. You must be one of those humans I keep hearing about, right? People talk about your kind all the time.",
+      "ru": "О, выглядишь крепко. Ты, наверное, из тех самых людей, про которых я всё время слышу, да? О вашем народе тут постоянно болтают.",
+      "speaker": "Dereg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "You know, that you're all scrappers. Tough as nails, and willing to kill all sorts of beasts, you know?",
+      "ru": "Ну, говорят, вы все драчуны. Вас ничем не проймёшь, любую тварь готовы прикончить, верно?",
+      "speaker": "Dereg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I think you know what I'm getting at. I saw some massive thing lumbering around the swamp one night! Tall as the trees, it was.",
+      "ru": "Думаю, ты уже понял, к чему я веду. Одной ночью я видел, как по болоту бродила какая-то огромная хрень! Ростом с деревья была.",
+      "speaker": "Dereg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I couldn't make out the details, but if its size was any indication, it could just step over the Olux walls and wreck the whole town!",
+      "ru": "Подробностей я не разглядел, но если судить по размерам, она может просто перешагнуть стены Олукса и разнести весь город.",
+      "speaker": "Dereg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Of course, there's so many scam artists around here trying to sell anti-monster underwear or whatever that no one believes me.",
+      "ru": "Конечно, тут и так полно мошенников, которые толкают трусы от монстров и прочую дичь, так что мне никто не верит.",
+      "speaker": "Dereg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "So, that means it's up to you! Ehm, supposing that you're willing to help out, at least... The one thing I know for sure is that it was eating something.",
+      "ru": "Так что вся надежда на тебя! Эм, если ты вообще согласишься помочь... Единственное, что я знаю точно - эта тварь что-то жрала.",
+      "speaker": "Dereg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "See that blood on the ground? That stuff is fresh. Follow it, see where it leads, and hunt that beast before it does something terrible!",
+      "ru": "Видишь кровь на земле? Она свежая. Иди по следу, посмотри, куда он ведёт, и прибей эту тварь, пока она не натворила бед!",
+      "speaker": "Dereg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "That blood trail ought to lead you to wherever the beast went. Hunt that thing down for us all!",
+      "ru": "Этот кровавый след должен вывести тебя к тому месту, куда ушла тварь. Разберись с ней ради всех нас!",
+      "speaker": "Dereg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Oh, this is such a mess! And my axe is busted, too...how am I going to get this fixed?!",
+      "ru": "Ох, ну и бардак! Ещё и топор сломан... как мне теперь всё это чинить?!",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I can't pay for- AAAH! H-Human! What do you want?! Not a good time!",
+      "ru": "Я не могу платить за- ААА! Ч-человек! Чего тебе надо?! Ты вообще не вовремя!",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Something destroyed my cow pen and wrecked up my entire farm!",
+      "ru": "Кто-то развалил мой загон для коров и разнёс всю ферму!",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "And they were solid, good-quality Willow, too...uff...",
+      "ru": "И дерево там было добротное, хорошая ива, между прочим... уф...",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Wait, what? You're hunting the thing? Well, that's fine and dandy, but do you think you could help here first?",
+      "ru": "Стоп, чего? Ты охотишься на эту тварь? Ну это, конечно, хорошо, но может сначала поможешь здесь?",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "I have an idea of where it went, so...you scratch my back, I scratch yours?",
+      "ru": "Я примерно знаю, куда оно ушло, так что... ты мне, я тебе?",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Okay, this can work, this can work! I have to figure out how to fix this, and some of my cows ran off in a panic.",
+      "ru": "Так, это может сработать, может! Мне надо понять, как всё это чинить, а часть моих коров в панике разбежалась.",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "So, you can take care of them while I re-plan my fencing. Simple enough, right?",
+      "ru": "Так что ты займись ими, пока я прикидываю, как восстановить забор. Просто же, да?",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Three of my cows ran off. Look around the farm for them. They were eating, so look for fallen wheat on the ground!",
+      "ru": "Три мои коровы сбежали. Поищи их по ферме. Они жрали, так что ориентируйся по рассыпанной пшенице на земле!",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Go on, hop to it! I'm waiting for you right here!",
+      "ru": "Давай, шевелись! Я жду тебя прямо тут!",
+      "speaker": "Tolem",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Oh, back aleady? I haven't even finished my stuff, where are the cows?",
+      "ru": "О, уже вернулся? Я тут ещё даже не закончил. А где коровы?",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "...eheh. You. You're. This is a joke, right? We're having a chuckle?!",
+      "ru": "...эхех. Ты. Ты... Это же шутка, да? Мы сейчас просто угораем, да?!",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "WE'RE JOKING, RIGHT?! FOR THE LOVE OF ALL THAT'S HOLY TELL ME THIS IS A JOKE!",
+      "ru": "МЫ ЖЕ ШУТИМ, ДА?! РАДИ ВСЕГО СВЯТОГО СКАЖИ, ЧТО ЭТО ШУТКА!",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "WHAT IS THIS?! ARE YOU BRAINDEAD?!",
+      "ru": "ЭТО ЧТО ТАКОЕ?! ТЫ СОВСЕМ БЕЗ МОЗГОВ?!",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "NO, WAIT, YOU'RE HUMAN, THAT'S THE PROBLEM! IDIOT THUGS, ALL OF YOU!",
+      "ru": "А, ПОДОЖДИ, ТЫ ЖЕ ЧЕЛОВЕК, ВОТ В ЧЁМ ПРОБЛЕМА! ТУПЫЕ ГРОМИЛЫ, ВСЕ ДО ОДНОГО!",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "DID I NEED TO SPECIFY THAT I WANTED THEM BACK ALIVE? WAS THAT NOT OBVIOUS TO YOU?!",
+      "ru": "МНЕ ЧТО, НУЖНО БЫЛО ОТДЕЛЬНО УТОЧНЯТЬ, ЧТО Я ХОТЕЛ ИХ ОБРАТНО ЖИВЫМИ? ЭТО БЫЛО НЕОЧЕВИДНО?!",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Hff...haah...hrrgh...I...I can't bellevue...bellevue? Believe! I can't believe this!",
+      "ru": "Хфф... хаах... хрргх... Я... я не могу пове... повер... ПОВЕРИТЬ! Я не могу в это поверить!",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Uff, settle down, Tolem, settle down...you can still salvage this...",
+      "ru": "Уф, спокойно, Толем, спокойно... ещё не всё потеряно...",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Alright, two things. Your new name is Idiot, and I'm changing our deal. You owe me [10 Willow Planks].",
+      "ru": "Так, два момента. Во-первых, твоё новое имя - Идиот. Во-вторых, наш уговор меняется. Теперь ты мне должен [10 Willow Planks].",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "You're going to help me get at least one thing around here working. You get the wood, I'll keep looking over the fencing.",
+      "ru": "Ты хотя бы одну вещь тут приведёшь в порядок. Ты тащишь древесину, я пока дальше разбираюсь с забором.",
+      "speaker": "Tolem",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Oh lovely. Idiot's back! Joy of joys. Willow planks, please.",
+      "ru": "О, прекрасно. Идиот вернулся! Какая радость. Ивовые доски, будь любезен.",
+      "speaker": "Tolem",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Good. Even if you've got murder on the mind constantly, you have decent woodcutting arms.",
+      "ru": "Отлично. Даже если у тебя в голове круглые сутки одни убийства, топором ты работаешь неплохо.",
+      "speaker": "Tolem",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "I'll sell the remainder of these planks to try and recoup the money for my cows you mulched.",
+      "ru": "Остатки этих досок я продам, чтобы хоть как-то отбить деньги за коров, которых ты мне перемолол.",
+      "speaker": "Tolem",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "So go on, get out of here now. Make yourself useful and follow the giant footprints in the ground. Hunt something that NEEDS hunting, instead of cattle!",
+      "ru": "Всё, вали отсюда. Хоть теперь принеси пользу и иди по огромным следам в земле. Охоться на то, что НУЖНО убивать, а не на коров!",
+      "speaker": "Tolem",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Go on, get out of here. Make yourself useful and follow the giant footprints in the ground. Hunt something that NEEDS hunting, instead of cattle!",
+      "ru": "Давай, свали уже. Хоть теперь сделай что-то полезное и иди по огромным следам в земле. Охоться на то, что НУЖНО убивать, а не на скотину!",
+      "speaker": "Tolem",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Oh, I'll never be able to fix this with my back in this state...",
+      "ru": "Ох, да я с такой спиной это вообще никогда не починю...",
+      "speaker": "Kroac",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Oh, look at this...all my years of carpentry and my bad back does my poor house in.",
+      "ru": "Ну вот, полюбуйся... столько лет плотничаю, а теперь из-за больной спины даже свой бедный дом починить не могу.",
+      "speaker": "Kroac",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "What on earth could have done this?! It must be the biggest beast in the swamp!",
+      "ru": "Что вообще могло так вломить?! Должно быть, это самая здоровая тварь во всём болоте!",
+      "speaker": "Kroac",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "I was just sitting inside having some dinner, I hear some rumbling, and suddenly my house is falling apart!",
+      "ru": "Я просто сидел внутри, ужинал, слышу грохот, и тут мой дом начинает разваливаться!",
+      "speaker": "Kroac",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "You human folk are good with physical labor, I hear? Do you think you could help me out here?",
+      "ru": "Говорят, вы, люди, хорошо справляетесь с тяжёлой работой. Поможешь мне тут?",
+      "speaker": "Kroac",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "There's a mine just over there. Think you can get [10 Cobblestone] out of it?",
+      "ru": "Там вон рядом шахта. Сможешь добыть [10 Cobblestone]?",
+      "speaker": "Kroac",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "I'll go find someone who's selling any spare wood for the roof...",
+      "ru": "А я пока поищу, у кого можно купить лишнюю древесину на крышу...",
+      "speaker": "Kroac",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Think you could help fix my house? You'll need [10 Cobblestone] to do it.",
+      "ru": "Поможешь мне починить дом? Для этого понадобится [10 Cobblestone].",
+      "speaker": "Kroac",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Did you get enough cobblestone? I found a guy down the street selling this top-quality Willow...",
+      "ru": "Ну что, набрал достаточно булыжника? А я тут нашёл одного типа дальше по улице, он первосортную иву продаёт...",
+      "speaker": "Kroac",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Good, perfect. That should be enough. Though, I do have one other thing to ask you, soldier.",
+      "ru": "Хорошо, отлично. Этого должно хватить. Хотя у меня есть ещё одна просьба, солдат.",
+      "speaker": "Kroac",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "My back's already screaming at me just from lugging the wood over here, there's no way I can climb up there and fix the roof like this.",
+      "ru": "У меня спина уже орёт просто от того, что я сюда дотащил дерево. Я точно не смогу сам залезть наверх и латать крышу в таком состоянии.",
+      "speaker": "Kroac",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "I can compensate you for the trouble, but d'you think you could do some patchwork for me with that cobble?",
+      "ru": "Я заплачу тебе за хлопоты, но может, ты сам залатаешь мне крышу этим камнем?",
+      "speaker": "Kroac",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Oh, you're a saint. Can't imagine why the guy was grumbling about humans... Just climb right on up the ladder!",
+      "ru": "Ох, да ты святой человек. Даже не понимаю, чего там тот тип бурчал про людей... Просто лезь по лестнице наверх!",
+      "speaker": "Kroac",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "[+2 Emerald Blocks]",
+      "ru": "[+2 блока изумрудов]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "I'm sorry, but your patchjob fell apart. You'll need something like 10 cobblestone to help fix this.",
+      "ru": "Извини, но твоя заплатка развалилась. Нужно что-то около 10 булыжника, чтобы нормально это починить.",
+      "speaker": "Kroac",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "That'll do just fine, kind soldier! You're a lifesaver, really, you are.",
+      "ru": "Вот это уже отлично, добрый солдат! Ты меня реально выручил, без шуток.",
+      "speaker": "Kroac",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Wait, you're going after the thing that did this? Really?! Fantastic! That's a load off my mind.",
+      "ru": "Погоди, ты собираешься пойти за тем, кто это устроил? Серьёзно?! Великолепно! Прям камень с души.",
+      "speaker": "Kroac",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Look's like there's tracks off to the east...big tracks. Good luck following it, stay safe!",
+      "ru": "Похоже, следы ведут на восток... и следы немаленькие. Удачи тебе, и береги себя!",
+      "speaker": "Kroac",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "If you are done fixing my house, it looks like there're tacks off to the east...big tracks. Good luck following it, stay safe!",
+      "ru": "Если с домом закончил, там вроде следы на восток ведут... большие такие. Удачи в погоне, и береги себя!",
+      "speaker": "Kroac",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "EVERYONE, MOVE! THE BEAST IS ON A RAMPAGE!",
+      "ru": "ВСЕ В СТОРОНУ! ТВАРЬ БУШУЕТ!",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Aah, no! There were people in that house!",
+      "ru": "Аа, нет! В том доме были люди!",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Wah! H-Human! Get away, there's nothing you can help with here!",
+      "ru": "Ай! Ч-человек! Уйди отсюда, тут ты ничем не поможешь!",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "All your type does is break and hurt! You have more in common with the giant there than any of us!",
+      "ru": "От вас, людей, одни разрушения и боль! У тебя с тем гигантом больше общего, чем с любым из нас!",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Aah, there's so many people hurt already, don't make it worse please!",
+      "ru": "Аа, тут и так уже слишком много раненых, не делай ещё хуже, пожалуйста!",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "We don't even have any medicine...",
+      "ru": "У нас даже лекарств нет...",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Ugh, think Rileen! You have the herbs, what else goes into the poultices...",
+      "ru": "Уф, думай, Рилин! Травы есть, а что ещё нужно для припарок...",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Oh, right! Fish oil...but I don't have a rod, gah!",
+      "ru": "Точно! Рыбий жир... но у меня даже удочки нет, блин!",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "There's no way I can get [10 Salmon Oil], even if that pond out back is teeming with fish...",
+      "ru": "Я никак не добуду [10 Salmon Oil], даже если в том пруду сзади рыбы навалом...",
+      "speaker": "Rileen",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "No, there's no time to make a fishing spear- AAH! You're still here? What do you WANT?!",
+      "ru": "Нет, времени на самодельное копьё для рыбалки нет - АА! Ты ещё тут? ЧЕГО ТЕБЕ НАДО?!",
+      "speaker": "Rileen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "W-wait, what's...is this... This is salmon oil! Ten bottles of it! You...you heard me talking?",
+      "ru": "П-погоди, это... это что... Это лососевый жир! Десять бутылок! Ты... ты слышал, как я это говорила?",
+      "speaker": "Rileen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "And you went out of your way to... What kind of a human are you? I've only ever heard horror stories about your kind.",
+      "ru": "И ты специально пошёл и... Ты вообще что за человек такой? Я про ваш народ только страшилки и слышала.",
+      "speaker": "Rileen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "...maybe you're not so bad. I don't have anything that I can give you in return, but thank you, still.",
+      "ru": "...может, ты не такой уж плохой. Мне нечем тебя отблагодарить, но всё равно спасибо.",
+      "speaker": "Rileen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Wait, you were chasing the giant? That's why you were here? That...that's amazing news!",
+      "ru": "Погоди, ты гнался за гигантом? Поэтому ты здесь? Это... это же отличные новости!",
+      "speaker": "Rileen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "I think it went into the cave east of here. Go for it! Stop that thing before it causes any more damage!",
+      "ru": "Думаю, он ушёл в пещеру к востоку отсюда. Вперёд! Останови эту тварь, пока она не наломала ещё больше!",
+      "speaker": "Rileen",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Looks like the giant is through here...prepare for the battle.",
+      "ru": "Похоже, гигант здесь... готовься к бою.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "The giant door has opened. Don't leave without the giant's bone, proof of its death.",
+      "ru": "Огромная дверь открылась. Не уходи без кости гиганта - это доказательство его смерти.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "You're back! Any luck hunting the thing down?",
+      "ru": "Ты вернулся! Ну что, есть успехи в охоте на эту штуку?",
+      "speaker": "Dereg",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "What? You actually found the beast?! Heck of a hunting job, human!",
+      "ru": "Чего? Ты реально нашёл тварь?! Ну ты зверь по части охоты, человек!",
+      "speaker": "Dereg",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "You wouldn't be back here if you didn't manage to kill it...which means our problems are solved, right?",
+      "ru": "Ты бы не вернулся сюда, если бы не смог её завалить... а значит, наши проблемы решены, да?",
+      "speaker": "Dereg",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Heheh! That bone powder looks giant enough to me! Great job, bucko!",
+      "ru": "Хехех! Этот костяной порошок вполне похож на останки гиганта! Отличная работа, дружище!",
+      "speaker": "Dereg",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Y'know, come to think of it, I remember something that might be interesting to your sort.",
+      "ru": "Слушай, кстати, я тут вспомнил кое-что, что может быть интересно таким, как ты.",
+      "speaker": "Dereg",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "The weapon merchant in Olux researches cryptids as a hobby, and that beast seemed one-of-a-kind to me.",
+      "ru": "Торговец оружием в Олуксе на досуге изучает всяких неведомых зверей, а эта тварь, по-моему, была вообще уникальной.",
+      "speaker": "Dereg",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "You should show him that bone powder! He might have some good gear for you.",
+      "ru": "Покажи ему этот костяной порошок! Может, у него для тебя найдётся хороший шмот.",
+      "speaker": "Dereg",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "New Quest Started: The Shadow of the Beast",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Тень зверя",
+      "speaker": "",
+      "stage": "Stage 12"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Dereg in his house at [-1483, 51, -5218].",
+      "ru": "Поговорить с Дерегом в его доме [-1483, 51, -5218].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Follow the trail of blood left by the beast.",
+      "ru": "Идти по кровавому следу чудовища.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Deal with the three escaped cows near the house and in the cave under the farm.",
+      "ru": "Разобраться с тремя сбежавшими коровами возле дома и в пещере под фермой.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Gather [10 Willow Planks] for Tolem.",
+      "ru": "Собрать для Толема [10 Willow Planks].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Follow the footprints from Tolem's house at [-1673, 54, -5288].",
+      "ru": "Идти по следам от дома Толема [-1673, 54, -5288].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to Kroac at [-1583, 55, -5438].",
+      "ru": "Поговорить с Кроаком [-1583, 55, -5438].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Enter Kroac's mine and gather [10 Cobblestone].",
+      "ru": "Войти в шахту Кроака и собрать [10 Cobblestone].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Repair Kroac's house using the cobblestone from the mine.",
+      "ru": "Починить дом Кроака с помощью булыжника из шахты.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Keep following the tracks of the beast.",
+      "ru": "Продолжить идти по следам чудовища.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Gather [10 Salmon Oil] for Rileen.",
+      "ru": "Собрать для Рилин [10 Salmon Oil].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Find the cave of the beast by following the footprints behind Rileen's house.",
+      "ru": "Идти по следам за домом Рилин к пещере чудовища.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Kill the beast and return to Dereg with proof of its death at [-1483, 51, -5218].",
+      "ru": "Убить чудовище и принести Дерегу доказательство его гибели [-1483, 51, -5218].",
+      "stage": "Stage 12"
+    }
+  ],
+  "choices": []
+}

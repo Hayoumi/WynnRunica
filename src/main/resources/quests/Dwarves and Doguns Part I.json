@@ -1,0 +1,1175 @@
+{
+  "quest": "Dwarves and Doguns Part I",
+  "level": 91,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "dwarves-and-doguns-part-i",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Interesting to see a Human wanting to see a Dwarven play!",
+      "ru": "Забавно видеть человека, который сам хочет посмотреть дварфийский спектакль!",
+      "speaker": "Lozeg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "The only play we're performing is the annual Victory Festival.",
+      "ru": "Сегодня у нас только одно представление - ежегодный Фестиваль Победы.",
+      "speaker": "Lozeg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "The entry cost is [1 Emerald Block]",
+      "ru": "Вход стоит [1 изумрудный блок]",
+      "speaker": "Lozeg",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Just take a seat and enjoy the show.",
+      "ru": "Занимай место и наслаждайся представлением.",
+      "speaker": "Lozeg",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Wait, is that- Hey, <playername>! It's so good to see you!",
+      "ru": "Стой, это что- Эй, <playername>! Рад тебя видеть!",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Hello, to the people of Gavel, glad to see so many here!",
+      "ru": "Приветствую вас, жители Гавеля! Рад, что вас собралось так много!",
+      "speaker": "Narrator",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I hope you'll enjoy the play and that it'll be very educational too. I will be tonight's narrator.",
+      "ru": "Надеюсь, вам понравится это представление, и оно даже окажется для вас познавательным. Сегодня вечером я буду вашим рассказчиком.",
+      "speaker": "Narrator",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Pheeeew. I think we outran the villagers.",
+      "ru": "Фуууух. Кажется, мы оторвались от жителей.",
+      "speaker": "Babbi",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I think we are safe here in the mountains. Oh look. Shiny ores. This is like a gold mine.",
+      "ru": "Думаю, в горах мы в безопасности. О, глянь. Блестящая руда. Да это просто золотая жила.",
+      "speaker": "Dwarfi",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "These nice minerals are very nice, let us start digging.",
+      "ru": "Отличные минералы, прям очень отличные. Давайте копать.",
+      "speaker": "Dwarfi",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "What is that?! A DEMON.",
+      "ru": "Это ещё что?! ДЕМОН.",
+      "speaker": "Babbi",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "I am a dangerous monster and I will not let you mine these diamonds. We are the Doguns, and we will kill you!!",
+      "ru": "Я опасное чудовище и не позволю вам добывать эти алмазы. Мы Догуны, и мы вас убьём!!",
+      "speaker": "Demon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Graoaoro. I will eat you all for my afternoon demon luncheon.",
+      "ru": "Я сожру вас всех на свой демонический полдник.",
+      "speaker": "Demon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "We must protect ourselves!",
+      "ru": "Надо защищаться!",
+      "speaker": "Arock",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "MOAHAHAHHA! BEGONE TINY DWARVES.",
+      "ru": "МОАХАХАХА! ПРОЧЬ, КРОШЕЧНЫЕ ДВАРФЫ.",
+      "speaker": "Demon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Ahhhh. I am dying...dying!",
+      "ru": "Аааа. Я умираю... умираю!",
+      "speaker": "Arock",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "MOAHAHAHA. WE WILL KILL ALL OF YOU.",
+      "ru": "МОАХАХАХА. МЫ УБЬЁМ ВАС ВСЕХ.",
+      "speaker": "Demon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "We need to forge better weapons so we can fight back.",
+      "ru": "Нам надо выковать оружие получше, чтобы дать им отпор.",
+      "speaker": "Babbi",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Good idea! We will use our intelligence to slay the demons.",
+      "ru": "Хорошая мысль! Мы используем свой ум, чтобы прикончить демонов.",
+      "speaker": "Gagly",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "YOU CANNOT BEAT US, WE CAN SUMMON DRAGONS WITH OUR MAGIC.",
+      "ru": "ВАМ НАС НЕ ПОБЕДИТЬ, МЫ МОЖЕМ ПРИЗЫВАТЬ ДРАКОНОВ СВОЕЙ МАГИЕЙ.",
+      "speaker": "Demon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Dragons are no match for us?? CHARGE!",
+      "ru": "Драконы нам не помеха?? В АТАКУ!",
+      "speaker": "Gagly",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "We have won. Hooray. And now we have established a great citadel, Rodoroc!",
+      "ru": "Мы победили. Ура. И теперь мы основали великую цитадель - Родорок!",
+      "speaker": "Gagly",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "The dwarven intellect beat the sheer power of the demons magic.",
+      "ru": "Дварфийский ум превзошёл грубую силу демонической магии.",
+      "speaker": "Gagly",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Thank you all for watching!",
+      "ru": "Спасибо всем, кто пришёл!",
+      "speaker": "Narrator",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I hope you enjoyed the show, and learned something new today!",
+      "ru": "Надеюсь, вам понравилось представление, и вы сегодня узнали что-то новое!",
+      "speaker": "Narrator",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "We are continuing the celebration at the old Demon City. Follow the red banners outside Rodoroc to get there.",
+      "ru": "Праздник продолжается в старом Городе демонов. Идите по красным знамёнам за пределами Родорока, и придёте туда.",
+      "speaker": "Narrator",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Meet you all there.",
+      "ru": "Там и увидимся.",
+      "speaker": "Narrator",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Ugh, that was awful. Don't believe anything you see here, human. History is written by the victors.",
+      "ru": "Уф, это было ужасно. Не верь ничему, что здесь увидел, человек. Историю пишут победители.",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Welcome one and all! Dwarven brothers and sisters, guests and visitors!",
+      "ru": "Добро пожаловать все без исключения! Братья и сёстры-дварфы, гости и приезжие!",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "If I could draw your attention to the wooden stage in the north, we can begin.",
+      "ru": "Если все обратят внимание на деревянную сцену на севере, мы можем начинать.",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Welcome to the annual festival where we celebrate victory over the foul demons...The Doguns!",
+      "ru": "Добро пожаловать на ежегодный фестиваль, где мы празднуем победу над мерзкими демонами... Догунами!",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Now, if I can get you to turn around to face the bonfire, we've prepared a lovely firecasting show for you all while we prepare!",
+      "ru": "А теперь повернитесь к костру, пожалуйста. Пока мы готовимся, для вас устроят чудесное огненное шоу!",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Wow, I didn't know Dwarves could learn such magic! Beats the heck out of firecrackers!",
+      "ru": "Ого, я и не знал, что дварфы умеют такое колдовать! Это куда круче обычных петард!",
+      "speaker": "Mahou",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Magnificent! Thank you very much to our fire casters. Now, ladies and gents, your attention to the main stage please!",
+      "ru": "Великолепно! Огромное спасибо нашим огненным магам. А теперь, дамы и господа, внимание на главную сцену!",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "For the last 900 years we have captured renegade Doguns that escaped the war, and this year is no exception!",
+      "ru": "Последние 900 лет мы ловим беглых Догунов, уцелевших после войны, и этот год не исключение!",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "We shall now entomb the foul demon to join the ranks of the other Doguns on display.",
+      "ru": "Сейчас мы заточим этого мерзкого демона, чтобы он пополнил ряды прочих Догунов в нашей экспозиции.",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Bring it out, guards!",
+      "ru": "Выводите его, стража!",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Note its magical might, its aggressive nature, its intense heat, and its fierce appearance.",
+      "ru": "Обратите внимание на его магическую силу, его агрессивную натуру, жуткий жар и грозный облик.",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "All no match for the ingenuity and comeradery of the Dwarven nations!",
+      "ru": "Но всё это ничто против смекалки и братства дварфийских народов!",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "M-Monsters... You all...are the demons here...",
+      "ru": "М-монстры... Это вы все... тут настоящие демоны...",
+      "speaker": "Dogun",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Every year, every year, every single YEAR you do this. You all need to open your god-blessed eyes for once!",
+      "ru": "Каждый год, каждый год, КАЖДЫЙ ГОД вы делаете это. Ради всего святого, хоть раз откройте глаза!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Do you all really believe everything they tell you? Do you all just lap it up like dogs?!",
+      "ru": "Вы правда верите всему, что вам говорят? Лакаете всё это, словно псы?!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Our side won the war, but does that really mean we were in the right? I'll tell you right now, it doesn't!",
+      "ru": "Да, наша сторона выиграла войну, но это вообще не значит, что мы были правы! И я вам сразу говорю - нет, не значит!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "We all see it- The Doguns have feelings, family and thoughts, just like anyone else here!",
+      "ru": "Мы все это видим - у Догунов есть чувства, семьи и мысли, как и у любого тут!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "You are encasing live Doguns for entertainment. Public execution! This twisted display is more demonic than they ever could dream to be!",
+      "ru": "Вы заживо замуровываете догунов ради развлечения. Это публичная казнь! Это извращённое зрелище делает вас куда большими демонами, чем они когда-либо могли бы стать!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Guards! Get this propaganda spewing half pint to the Molten Core Prison, north side.",
+      "ru": "Стража! Уведите этого мелкого разносчика пропаганды в тюрьму Расплавленного Ядра, на северную сторону.",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Come along, sir. Let's not make more of a scene.",
+      "ru": "Пройдёмте, сэр. Хватит устраивать сцену.",
+      "speaker": "Dwarven Guard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Why would Axelus say something so blatantly wrong?",
+      "ru": "И зачем Акселус сказал такую очевидную чушь?",
+      "speaker": "Crowd",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "What was he talking about? That was all nonsense!",
+      "ru": "О чём он вообще говорил? Это же полный бред!",
+      "speaker": "Crowd",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Are they really taking him to the Molten Core? You've heard the horror stories about there, right?",
+      "ru": "Его правда отведут в Расплавленное Ядро? Вы ведь слышали все эти страшные истории об этом месте, да?",
+      "speaker": "Crowd",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Well, the expression 'no hope blows from the north' came from there, since it's on the north side...",
+      "ru": "Ну, выражение 'с севера надежды не жди' как раз оттуда и пошло, потому что это всё на северной стороне...",
+      "speaker": "Crowd",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Apologies, all. I shall provide us all with a quick way back to Rodoroc on the floor here. We hope you enjoyed the show, despite the interruption!",
+      "ru": "Прошу прощения. Сейчас я открою здесь, на полу, короткий путь обратно в Родорок. Надеемся, представление вам понравилось, несмотря на помеху!",
+      "speaker": "Marock",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "I see I got your attention. Interested in the truth.",
+      "ru": "Вижу, внимание я всё-таки привлёк. Значит, интересуешься правдой.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "I'm no conspiracy nut. The Dwarves have been lied to for hundreds of years about the war.",
+      "ru": "Я не помешан на заговорах. Дварфам сотни лет врут о войне.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "I have seen the truth. But my word isn't enough, is it? Seeing is believing, after all.",
+      "ru": "Я видел правду. Но одного моего слова мало, да? Всё-таки пока сам не увидишь - не поверишь.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Hopefully I will see you soon, <playername>.",
+      "ru": "Надеюсь, скоро увидимся, <playername>.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Well, now you have read what I read. The truth...or the lie.",
+      "ru": "Ну вот, теперь ты прочитал то же, что и я. Правда это... или ложь.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "My people are tyrants and conquerors...but they are also good. The people have been brainwashed.",
+      "ru": "Мой народ - тираны и завоеватели... но в них есть и добро. Им промыли мозги.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Many things are about to happen. If you want to know more, come to house number 81 in Maex. I'll be waiting.",
+      "ru": "Скоро многое случится. Если хочешь узнать больше, приходи в дом номер 81 в Маэксе. Я буду ждать.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Ah, you made it. Come and meet Korzim",
+      "ru": "А, ты пришёл. Иди, познакомлю тебя с Корзимом.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Welcome.. Human. I... am Korzim.",
+      "ru": "Добро пожаловать... человек. Я... Корзим.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "We...are those who...want peace. I am son...of the Dogun Chief... I have...been banished.",
+      "ru": "Мы... те, кто... хочет мира. Я сын... вождя Догунов... Меня... изгнали.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "The coalition is a small group of believers in the truth. The Doguns aren't demons, and the Dwarves aren't all brainwashed.",
+      "ru": "Коалиция - небольшая группа тех, кто верит в правду. Догуны не демоны, и не всем дварфам промыли мозги.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "But of course, we have to live in hiding. The Doguns won't tolerate Dwarves and the Dwarves hunt traitors and \"Demons\".",
+      "ru": "Но, само собой, нам приходится прятаться. Догуны не терпят дварфов, а дварфы охотятся на предателей и \"демонов\".",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Right now, we're trying to convince the public. But it's proving difficult, if not impossible.",
+      "ru": "Сейчас мы пытаемся убедить остальных. Но это очень трудно, если вообще возможно.",
+      "speaker": "Barden",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "It isn't 900 years ago. We have the technology and supply chains to live here peacefully, but they just won't listen!",
+      "ru": "Сейчас не те времена, что 900 лет назад. У нас есть техника и налаженные поставки, мы можем жить здесь мирно. Но они просто не хотят слушать!",
+      "speaker": "Barden",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "We have...a plan... To win over...my people...that is.",
+      "ru": "У нас есть... план... как склонить... мой народ... на свою сторону.",
+      "speaker": "Korzim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Korzim has told us that dragon bone is sacred to his people. We had to make some connections, but we have a way to get it now.",
+      "ru": "Корзим рассказал нам, что кость дракона для его народа - священная вещь. Пришлось кое с кем связаться, но теперь у нас есть способ её достать.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "If you want, you could come with us. We can explain more of the situation later. Exit's through the back.",
+      "ru": "Если хочешь, можешь пойти с нами. Остальное объясним потом. Выход сзади.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "The others...are just up ahead. I'll let you through...our tunnel.",
+      "ru": "Остальные... ждут впереди. Я пропущу тебя... через наш туннель.",
+      "speaker": "Korzim",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "We use.. earth and.. fire.. elements. It is slow... like us.. but powerful.",
+      "ru": "Мы используем... землю и... огонь... Это медленно... как и мы... но мощно.",
+      "speaker": "Korzim",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "<playername>, over here! Near the skull.",
+      "ru": "<playername>, сюда! К черепу.",
+      "speaker": "Axelus",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "We got this drill all the way from Corkus. Axelus had to pay a king's ransom to buy it, but this ought to work!",
+      "ru": "Мы притащили этот бур аж из Коркуса. Акселус отвалил за него целое состояние, но теперь всё должно получиться!",
+      "speaker": "Barden",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Barden",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "AAAAGH! Idiot Corkus swindlers! Damn it all! How many emeralds did we waste?!",
+      "ru": "ААААХ! Чёртовы коркусские жулики! Да чтоб их! Сколько изумрудов мы на это спустили?!",
+      "speaker": "Barden",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Ugh, do you have any experience with machines? You might have some idea of how in the hell to fix this hunk of junk.",
+      "ru": "Уф, ты умеешь обращаться с машинами? Может, придумаешь, как, чёрт возьми, починить эту груду хлама.",
+      "speaker": "Barden",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Fantastic, <playername>! We got the bone! Couldn't have done it without you.",
+      "ru": "Отлично, <playername>! Мы достали кость! Без тебя бы не справились.",
+      "speaker": "Barden",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "You can take it back to the coalition base. Barden and I will need to pack up before we join you.",
+      "ru": "Отнеси её обратно на базу коалиции. Нам с Барденом ещё надо всё свернуть, прежде чем мы присоединимся к тебе.",
+      "speaker": "Axelus",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Just knock on the black block in front of the cave we arrived in.",
+      "ru": "Просто постучи по чёрному блоку перед пещерой, через которую мы пришли.",
+      "speaker": "Barden",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "I'll let... you in.",
+      "ru": "Я... впущу тебя.",
+      "speaker": "Korzim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Great, you got back alright.",
+      "ru": "Отлично, добрался без проблем.",
+      "speaker": "Axelus",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Dragon bone is one of the hardest substances in all the provinces. It's extremely rare.",
+      "ru": "Кость дракона - один из самых прочных материалов во всех провинциях. И жутко редкий.",
+      "speaker": "Axelus",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "We're going to present this to the Dogun chief as tribute. We need to tidy it up.",
+      "ru": "Мы собираемся преподнести её вождю Догунов как дар. Но сперва надо привести её в порядок.",
+      "speaker": "Axelus",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Could you get [1 Repair Kit] from the eastern part of the base?",
+      "ru": "Можешь принести [1 Repair Kit] из восточной части базы?",
+      "speaker": "Axelus",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Shh. Do you hear that?",
+      "ru": "Тсс. Слышите?",
+      "speaker": "???",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "There are voices behind this wall, and the trail ends here.",
+      "ru": "За этой стеной голоса, и след обрывается тут.",
+      "speaker": "???",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "We have no vaults here. Must be traitors... The King really wants to see Axelus.",
+      "ru": "Никаких хранилищ тут нет. Значит, предатели... Король очень хочет увидеть Акселуса.",
+      "speaker": "???",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Stand back! I'll ready the charges...",
+      "ru": "Отойдите! Я подготовлю заряды...",
+      "speaker": "???",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Is everyone okay!?",
+      "ru": "Все целы!?",
+      "speaker": "Axelus",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "No, no, ignore the repair kit! There's no time to worry about that!",
+      "ru": "Нет, нет, забудь про набор! Сейчас не до этого!",
+      "speaker": "Axelus",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Our position has been compromised, they blew our doors wide open! We have to evacuate immediately.",
+      "ru": "Наше убежище обнаружили, двери разнесли! Нужно немедленно уходить.",
+      "speaker": "Axelus",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "We've never been caught like this before, they never knew we really had Doguns on our side.",
+      "ru": "Нас ещё никогда так не накрывали. Они не знали, что Догуны и правда с нами.",
+      "speaker": "Axelus",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "We need to get to safety right now! The least explored area is the Upper Heights.",
+      "ru": "Надо срочно уходить в безопасное место! Самый малоизученный район - Верхние Высоты.",
+      "speaker": "Axelus",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Everyone, out! Now! They won't follow through the rough terrain!",
+      "ru": "Все наружу! Живо! По такой местности они за нами не полезут!",
+      "speaker": "Axelus",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "We'll stay around here, we aren't welcome in the village.",
+      "ru": "Мы останемся тут неподалёку, в деревне нам не рады.",
+      "speaker": "Axelus",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "But... bring them... the dragon bone as a gift... If they accept it... they might accept us.",
+      "ru": "Но... отнеси им... кость дракона как дар... Если примут её... может, и нас примут.",
+      "speaker": "Korzim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "You are free to enter the village but we will stay back and wait until the coast is clear. Keep going.",
+      "ru": "Ты можешь войти в деревню, а мы останемся здесь и подождём, пока всё не утихнет. Иди дальше.",
+      "speaker": "Axelus",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "What is... that on the... cliff to the south?",
+      "ru": "Что это... там на... южной скале?",
+      "speaker": "Plario",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Hey, aren't those...Doguns?! A whole settlement...",
+      "ru": "Эй, это что... Догуны?! Целое поселение...",
+      "speaker": "Dwarven Scout",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "They've been gathering forces! We must inform Rodoroc immediately!",
+      "ru": "Они собирают силы! Нужно срочно сообщить в Родорок!",
+      "speaker": "Dwarven Scout",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Human. Come talk to me.. Now.",
+      "ru": "Человек. Подойди... ко мне. Сейчас.",
+      "speaker": "Plario",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Human... That Dwarf, he saw us...",
+      "ru": "Человек... тот дварф... он нас увидел...",
+      "speaker": "Plario",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "They will... destroy us... If he reports... back to Rodoroc.",
+      "ru": "Они... уничтожат нас... Если он доложит... в Родорок.",
+      "speaker": "Plario",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "We need to... prepare our defenses. We need all the... help we can get.",
+      "ru": "Нужно... готовить оборону. Нам нужна... любая помощь.",
+      "speaker": "Plario",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Wait... What are... you holding? Dragon bone...? Just what we need...",
+      "ru": "Погоди... что это... у тебя? Кость дракона...? Как раз то, что надо...",
+      "speaker": "Plario",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Human... if you promise to help us... I will grant you access to... our secret elevators... You can get up and... down the heights with those.",
+      "ru": "Человек... если пообещаешь нам помочь... я дам тебе доступ к... нашим тайным лифтам... С ними ты сможешь подниматься и... спускаться по высотам.",
+      "speaker": "Plario",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Please return to... us when you reach level 92. Take this... badge so the... others recognize you... as an ally. One of the elevators is... to the south.",
+      "ru": "Вернись к... нам, когда достигнешь 92 уровня. Возьми этот... значок, чтобы... остальные знали... что ты союзник. Один из лифтов... на юге.",
+      "speaker": "Plario",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Ugh, that was horrible.. Like I said before, this war was a genocide. Don't believe any of the lies they try and feed you.",
+      "ru": "Уф, это было ужасно... Как я уже говорил, эта война была геноцидом. Не верь ни одной лжи, которой они пытаются тебя кормить.",
+      "speaker": "Акселус",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "The Library of Flames",
+      "ru": "Библиотека Пламени",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Defeat the four heroes to find the truth.",
+      "ru": "Одолей четырёх героев, чтобы узнать правду.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "You get the feeling that there's something hidden in this gravechamber...",
+      "ru": "У тебя возникает чувство, что в этой усыпальнице что-то спрятано...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Ye trespassers beware...",
+      "ru": "Берегитесь, нарушители...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "It's an extremely old book. The pages are torn, yellowed, and dusty.",
+      "ru": "Книга очень старая. Страницы порваны, пожелтели и покрыты пылью.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "The cover crumbles a touch at your grip when you open it up. How old is this?",
+      "ru": "Обложка слегка крошится под твоими пальцами, когда ты её открываешь. Насколько же она старая?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "\"Top Secret”? The words are faded and hard to make out.",
+      "ru": "\"Совершенно секретно\"? Слова выцвели, и их трудно разобрать.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "\"Operation shadow\"",
+      "ru": "\"Операция Тень\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "It seems to be a report written at the start of the Dogun war.",
+      "ru": "Похоже, это донесение, написанное в начале войны с догунами.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "\"The natives occupy 90% of the habitable land in the heights..\"",
+      "ru": "\"Туземцы занимают 90% пригодных для жизни земель высокогорья...\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Several pages are dedicated to the Doguns personalities, traits and powers.",
+      "ru": "Несколько страниц посвящены характерам, чертам и силам догунов.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "\".. Magical powerhouses of the fire element..\"",
+      "ru": "\"... Обладают огромной магической силой стихии огня...\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "\".. Live well into their thousands..\"",
+      "ru": "\"... Живут тысячелетиями...\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "\"Near Dwarven intelligence..\"",
+      "ru": "\"Почти дварфийский интеллект...\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "The report suggests that the two species would compete for space.",
+      "ru": "В донесении говорится, что обе расы будут соперничать за землю.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "\"Clearance is needed if Dwarves are going to form a colony..\"",
+      "ru": "\"Зачистка необходима, если дварфы намерены основать колонию...\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "According to the report, the land was once rich with minerals and materials.",
+      "ru": "Согласно донесению, эта земля некогда была богата минералами и материалами.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "\"Public opinion is firmly against removal of the natives..\"",
+      "ru": "\"Общественное мнение твёрдо против устранения туземцев..\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "This page appears to have been ripped out and crudely reattached.",
+      "ru": "Похоже, эту страницу вырвали и грубо приклеили обратно.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "\"Any war could result in rioting in Thanos and other established colonies.\"",
+      "ru": "\"Любая война может привести к беспорядкам в Таносе и других основанных колониях.\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "\"A program of public profiling of the natives is recommended..\"",
+      "ru": "\"Рекомендуется кампания по очернению туземцев...\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "There are detailed instructions on producing propaganda against the Doguns.",
+      "ru": "Здесь подробные инструкции по созданию пропаганды против догунов.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "\".. recommend they are referred to as demons, as inherent fear will take hold..\"",
+      "ru": "\"... рекомендуем называть их демонами, чтобы пробудить страх...\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "The report details propaganda at all levels of society, particularly at educational centers.",
+      "ru": "Донесение описывает пропаганду во всех слоях общества, особенно в учебных заведениях.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Several rumours are suggested to be propagated amongst the population.",
+      "ru": "Предлагается распространить среди населения несколько слухов.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "\"Once public opinion is sufficiently hostile, establishment of colonies will be achievable..\"",
+      "ru": "\"Когда общественность станет достаточно враждебна к туземцам, можно будет основывать колонии...\"",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "The report goes on to detail the total dominance of Molten Heights and the importance of propaganda continuation.",
+      "ru": "Далее донесение подробно описывает полное господство над Раскалёнными высотами и важность продолжения пропаганды.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "Axelus! You are under arrest for high treason!",
+      "ru": "Акселус! Ты арестован за государственную измену!",
+      "speaker": "Пенс'р",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "The king has sent for you personally.",
+      "ru": "Король послал за тобой лично.",
+      "speaker": "Пенс'р",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "If you don't come with us we wi-",
+      "ru": "Если ты не пойдёшь с нами, мы-",
+      "speaker": "Пенс'р",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "...oh Lord, this must be why! D-Doguns?!",
+      "ru": "...О господи, так вот в чём дело! Д-догуны?!",
+      "speaker": "Пенс'р",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "He is consorting with the enemy! Axelus, they've tainted your soul!",
+      "ru": "Он сговорился с врагом! Акселус, они осквернили твою душу!",
+      "speaker": "Пенс'р",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Entomb these Doguns, and slay their Dwarven thralls!",
+      "ru": "Замуруйте этих догунов и убейте их дварфийских прислужников!",
+      "speaker": "Пенс'р",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Now do you see? Everything that I told you about when we rescued those flerisi was indeed true.",
+      "ru": "Теперь понимаешь? Всё, что я тебе рассказывал, когда мы спасали тех флериси, было правдой.",
+      "speaker": "Axelus",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Looks like Axelus dropped a note...? Doesn't seem like anyone else noticed.",
+      "ru": "Похоже, Акселус выронил записку...? Кажется, больше никто не заметил.",
+      "speaker": "Dwarven Guard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "Seems like Axelus had more to say. Since no one else picked up the note, you may as well seek him out.",
+      "ru": "Похоже, Акселусу было что добавить. Раз никто не подобрал записку, почему бы не найти его?",
+      "speaker": "Marock",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "It seems like Axelus slipped another note into your pocket.",
+      "ru": "Похоже, Акселус подсунул тебе в карман ещё одну записку.",
+      "speaker": "добито по логу захвата",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "The note reads: \"If you want to know the truth, find me and talk to me...\"",
+      "ru": "В записке написано: \"Если хочешь узнать правду, найди меня и поговори со мной...\"",
+      "speaker": "добито по вики (нарратив/записки)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "The note reads: \"The truth lies at the Library of Flames. The caves south of the bank...\"",
+      "ru": "В записке написано: \"Правда в Библиотеке Пламени. Пещеры к югу от банка...\"",
+      "speaker": "добито по вики (нарратив/записки)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "That gate must be the entrance to the Library that Axelus mentioned, but it looks locked tight. Could anything in the area open it up?",
+      "ru": "Наверное, эти ворота ведут в библиотеку, о которой говорил Акселус. Но они наглухо заперты. Может, поблизости есть что-то, что поможет их открыть?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "To repair the mechanical core, select a colour and connect the clay with the same coloured glass block by clicking the iron blocks with the Rewiring Tool.",
+      "ru": "Чтобы починить механическое ядро, выбери цвет и соедини глину со стеклянным блоком того же цвета, нажимая на железные блоки с помощью §#55FFFFИнструмента переподключения.§r",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "[+1 Dragon Bone Shard]",
+      "ru": "[+1 Dragon Bone Shard]",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "We don't forbid...you humans to be here, but please leave... We don't want any...unwanted dwarves here.",
+      "ru": "Мы не запрещаем... вам, людям, находиться здесь, но, пожалуйста, уходите... Мы не хотим видеть здесь... незваных дварфов.",
+      "speaker": "Plario",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "New Quest Started: Dwarves and Doguns Part I",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Дварфы и догуны, часть I",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "If you want a ticket you'll have to pay me [1 Emerald Block].",
+      "ru": "Если хочешь билет, придётся заплатить мне [1 Изумрудный блок].",
+      "speaker": "Lozeg",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find out what's happening at the theatre.",
+      "ru": "Выяснить, что происходит в театре.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Watch the play.",
+      "ru": "Посмотреть спектакль.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Make your way to the Dogun Festival by following the red banners outside Rodoroc.",
+      "ru": "Добраться до праздника догунов, ориентируясь на красные знамёна за пределами Родорока.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find out more about the hysterical dwarf in Rodoroc's prison.",
+      "ru": "Расспросить о взволнованном дварфе в тюрьме Родорока.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Pick up Axelus' note and head to the location at [1024, 13, -5050].",
+      "ru": "Забрать записку Акселуса и отправиться в указанное место [1024, 13, -5050].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Explore the Library of Flames.",
+      "ru": "Исследовать Библиотеку пламени.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Exit the library.",
+      "ru": "Покинуть библиотеку.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Search for house 81 in Maex like Axelus said.",
+      "ru": "Найти дом 81 в Маэксе, как сказал Акселус.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Talk to Axelus in the Coalition Base.",
+      "ru": "Поговорить с Акселусом на базе коалиции.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Follow the group on the mission.",
+      "ru": "Отправиться с отрядом на задание.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Meet the group.",
+      "ru": "Встретиться с отрядом.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Head back to the Coalition Base through the tunnel.",
+      "ru": "Вернуться на базу коалиции через туннель.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Retrieve the [Repair Kit] in the eastern part of the base.",
+      "ru": "Забрать [Ремонтный набор] в восточной части базы.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Find your way up to the Dogun Village through the tunnel.",
+      "ru": "Найти путь через туннель в деревню догунов.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Talk to Plario.",
+      "ru": "Поговорить с Пларио.",
+      "stage": "Stage 15"
+    }
+  ],
+  "choices": []
+}

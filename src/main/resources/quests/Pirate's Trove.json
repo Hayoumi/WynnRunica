@@ -1,0 +1,142 @@
+{
+  "quest": "Pirate's Trove",
+  "level": 39,
+  "difficulty": "Easy",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "pirate-s-trove",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Lo, adventurer! Welcome to the great province of Gavel, home of the villager race, and yours truly. You'll be headed into the grand citadel of Llevigar soon!",
+      "ru": "Эй, искатель приключений! Добро пожаловать в великую провинцию Гавел, родину вилладжеров, ну и меня заодно. Скоро тебе предстоит попасть в величественную цитадель Ллевигар!",
+      "speaker": "Damiral",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "But enough with the pleasantries. Tell me... have you ever heard the tale of the great pirate, Captain Hastor? Sailed the seas a long time ago.",
+      "ru": "Ладно, хватит любезностей. Скажи-ка... слыхал байку о великом пирате, капитане Хасторе? Он бороздил моря давным-давно.",
+      "speaker": "Damiral",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Legend says that when Llevigar was rebuilt all those years ago, he hid his fortune within the walls someplace!",
+      "ru": "Легенда гласит, что когда Ллевигар заново отстроили много лет назад, он припрятал своё состояние где-то за городскими стенами!",
+      "speaker": "Damiral",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I'm a retired sailor now, but I could still do with a few extra emeralds from that treasure. Perhaps, if you're up to it... we could come to an agreement?",
+      "ru": "Я теперь моряк на пенсии, но от пары лишних изумрудов из того клада всё ещё не отказался бы. Может, если ты не против... договоримся?",
+      "speaker": "Damiral",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I have a riddle, the first of a number of clues that are supposed to lead to where Hastor hid his fortune, but I can't for the life of me figure it out.",
+      "ru": "У меня есть загадка - первая из нескольких подсказок, которые должны привести к тайнику Хастора, но я хоть убей не могу её разгадать.",
+      "speaker": "Damiral",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Maybe you'll be able to solve it. If you can, I'll make sure to split the treasure with you!",
+      "ru": "Может, у тебя выйдет. Если справишься, честно поделюсь кладом!",
+      "speaker": "Damiral",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "This first riddle goes like so: \"Toward the sunset, among the northern flowers shaded by quartz\".",
+      "ru": "Первая загадка звучит так: \"К закату, среди северных цветов в тени кварца\".",
+      "speaker": "Damiral",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I do wish you good luck, adventurer! Remember, everything you need to solve the clues should be found somewhere inside Llevigar.",
+      "ru": "Удачи тебе, искатель приключений! Помни, всё нужное для разгадки этих подсказок можно найти где-то внутри Ллевигара.",
+      "speaker": "Damiral",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Aha! I'd come to ask how it was coming when I saw you jump over here!",
+      "ru": "Ага! Я как раз хотел спросить, как у тебя дела, и тут увидел, как ты сюда перепрыгнул!",
+      "speaker": "Damiral",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Phenomenal work, my compatriot. Though, do remember our deal?",
+      "ru": "Шикарная работа, дружище. Но ты же помнишь нашу сделку?",
+      "speaker": "Damiral",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "You find the treasure, I give you a cut. I'll just take my part and be on my way!",
+      "ru": "Ты находишь клад, я отдаю тебе долю. Я просто возьму свою часть и отправлюсь дальше!",
+      "speaker": "Damiral",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "this means west because that's where the sun sets.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "this signifies the identifier's house.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "New Quest Started: Pirate's Trove",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Пиратский клад",
+      "speaker": "",
+      "stage": "Stage 5"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Damiral, outside Llevigar at [-1937, 38, -4260]",
+      "ru": "Поговорить с Дамиралом за пределами Ллевигара [-1937, 38, -4260].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Clue I: Toward the sunset, among northern flowers shaded by quartz",
+      "ru": "Подсказка I: \"К закату, среди северных цветов в тени кварца.\"",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Clue II: In a place of identity, above the leaves and between the glass",
+      "ru": "Подсказка II: \"В месте опознания, над листьями, между стёклами.\"",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Clue III: In an emerald fountain, surrounded by the wealth of the villagers",
+      "ru": "Подсказка III: \"В изумрудном фонтане, среди богатств жителей.\"",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Clue IV: Beneath the cowl of an eastern titan, keeping watch over our heads",
+      "ru": "Подсказка IV: \"Под капюшоном восточного великана, что возвышается над нашими головами.\"",
+      "stage": "Stage 5"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,256 @@
+{
+  "quest": "Potion Making",
+  "level": 12,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "potion-making",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Heeh...stranger. I...may need your assistance...",
+      "ru": "Хех... странник. Мне... может понадобиться твоя помощь...",
+      "speaker": "The Assistant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "My master...wishes to create a very dangerous potion...a transformative elixir of invincibility...",
+      "ru": "Мой хозяин... хочет сварить очень опасное зелье... эликсир превращения и неуязвимости...",
+      "speaker": "The Assistant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I was...in support of this... but then, he accrued essence of...the corruption. I had to run away...",
+      "ru": "Сначала я... поддерживал его... но потом он добыл эссенцию... Порчи. Мне пришлось сбежать...",
+      "speaker": "The Assistant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I fear...that he may be going...too far. I need your help...",
+      "ru": "Боюсь... он заходит... слишком далеко. Мне нужна твоя помощь...",
+      "speaker": "The Assistant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Get me...[8 Red Mushrooms], they can be found outside the east gate behind me.",
+      "ru": "Принеси мне...[8 Red Mushrooms], они растут снаружи за восточными воротами у меня за спиной.",
+      "speaker": "The Assistant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Good...good. You have the mushrooms.",
+      "ru": "Хорошо... хорошо. Грибы у тебя.",
+      "speaker": "The Assistant",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "You must...ensure that it has worked. You...are much stronger than I, stranger...",
+      "ru": "Надо... убедиться, что всё сработало. Ты... куда сильнее меня, странник...",
+      "speaker": "The Assistant",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Did you see the orange witch hat roofed hut when you were gathering the mushrooms?",
+      "ru": "Видел хижину с оранжевой крышей в форме ведьминой шляпы, пока собирал грибы?",
+      "speaker": "The Assistant",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "That is my master's house, you must go back out the east gate and enter the hut.",
+      "ru": "Это дом моего хозяина. Тебе надо снова выйти через восточные ворота и зайти в ту хижину.",
+      "speaker": "The Assistant",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Bring me his...coat as proof...of his death...",
+      "ru": "Принеси мне его... пальто как доказательство... его смерти...",
+      "speaker": "The Assistant",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Ah, you must be the one my assistant told me about.",
+      "ru": "А, так это ты, про кого мне говорил мой помощник.",
+      "speaker": "Dr. Essren",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "If you are trying to stop me, it's too late. I already drank the pot-...",
+      "ru": "Если ты пришёл меня остановить, поздно. Я уже выпил зель-...",
+      "speaker": "Dr. Essren",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "What is this taste? Mushrooms? This can't b-",
+      "ru": "Что это за вкус? Грибы? Да не мож-",
+      "speaker": "Dr. Essren",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Aaȃ̵̠ȃ̵̠aȃ̵̠r̸̘̈́r̸̘̈́r̸̘̈́ġ̴̼gg!",
+      "ru": "АААААААААА!",
+      "speaker": "Dr. Essren",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "What have you done to this potion, human? You will pay for it!",
+      "ru": "Что ты сделал с этим зельем, человек? Ты за это ответишь!",
+      "speaker": "Transformed Essren",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I...must thank you, stranger...",
+      "ru": "Я... должен тебя поблагодарить, странник...",
+      "speaker": "The Assistant",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I only hope...that my master will not be...angry with me about this. It...was for the better.",
+      "ru": "Надеюсь только... что мой хозяин не будет... сердиться на меня за это. Это... было к лучшему.",
+      "speaker": "The Assistant",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Now. I...do not want you saying anything about...these events. Take these, and...never speak of this again.",
+      "ru": "А теперь. Я... не хочу, чтобы ты хоть кому-то рассказал... об этом. Возьми это и... больше никогда об этом не говори.",
+      "speaker": "The Assistant",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I want...to stop him...but I need you to...get me the necessary ingredients... to neutralize the potion...",
+      "ru": "Я хочу... остановить его... но мне нужно, чтобы ты... достал необходимые ингредиенты... чтобы нейтрализовать зелье...",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "The...the...cows. Steal...from them.",
+      "ru": "Эти... эти... коровы. Укради... у них.",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Good... Hurry..!",
+      "ru": "Хорошо... Поторопись...!",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I'll... return to my master's house...and sneak the mushrooms into...his potion. Wait for me here...",
+      "ru": "Я... вернусь в дом хозяина... и подмешаю грибы в... его зелье. Жди меня здесь...",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "I...have returned... He came back...just as I finished slipping the mushrooms in and...told me...to get out.",
+      "ru": "Я... вернулся... Он пришёл... как раз когда я закончил подмешивать грибы, и... велел мне... убираться.",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You must...make sure...he has not managed...to become invincible... Do what has to be done....",
+      "ru": "Ты должен... убедиться... что он не сумел... стать неуязвимым... Сделай всё, что нужно...",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "You must go back out the east gate and enter the hut, it is my master's house.",
+      "ru": "Тебе нужно снова выйти через восточные ворота и войти в хижину, это дом моего хозяина.",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Don't forget... Do what you must...",
+      "ru": "Не забудь... Сделай, что должен...",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Aaaaargh!!!!!",
+      "ru": "Аааааргх!!!!!",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Don't believe...everything people tell you... If master managed to...discover invincibility... No...too...dangerous.",
+      "ru": "Не верь... всему, что тебе говорят... Если хозяин сумел... найти способ стать неуязвимым... Нет... слишком... опасно.",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "This was...for the better...",
+      "ru": "Это... было к лучшему...",
+      "speaker": "Potion Making (добавлено с вики)",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "New Quest Started: Potion Making",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Варка зелий",
+      "speaker": "",
+      "stage": "Stage 4"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to The Assistant in Detlas at [491, 67, -1575]",
+      "ru": "Поговорить с помощником в Детласе [491, 67, -1575].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Slay Mooshrooms near [582, 64, -1557] and bring [8 Red Mushrooms] to The Assistant in Detlas",
+      "ru": "Убить грибных коров возле [582, 64, -1557] и принести помощнику в Детласе [8 Red Mushrooms].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Enter the hut at [616, 67, -1616] and slay Essren, and take his coat.",
+      "ru": "Войти в хижину, убить Эссрена и забрать его пальто [616, 67, -1616].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Bring back Essren's Dusty Coat to The Assistant in Detlas",
+      "ru": "Принести помощнику в Детласе пыльное пальто Эссрена.",
+      "stage": "Stage 4"
+    }
+  ],
+  "choices": [
+    {
+      "id": "choice-0001",
+      "en": "I thought the mushrooms neutralized the potion?",
+      "ru": "Я думал, грибы нейтрализуют зелье?",
+      "stage": "",
+      "dialogueId": "dialogue-0016"
+    }
+  ]
+}

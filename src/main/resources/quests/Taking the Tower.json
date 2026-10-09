@@ -1,0 +1,379 @@
+{
+  "quest": "Taking the Tower",
+  "level": 8,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "taking-the-tower",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, <playername>! Hey! It's good to see you and Tasim again. Hope you didn't have too many adventures without me!",
+      "ru": "О, <playername>! Привет! Рад снова видеть тебя и Тасима. Надеюсь, без меня у вас не было слишком много приключений!",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Tasim's gone off to the training room, if you were looking for him. He's really jumping straight into it, which... is good! We all need to get stronger so we can defend the province.",
+      "ru": "Если ищешь Тасима, он в тренировочном зале. Сразу взялся за дело, и это... здорово! Всем нам нужно стать сильнее, чтобы защищать провинцию.",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "...Oh! Since you're here- I was about to head out to join Lieutenant Van's squad to take back a tower overtaken by corrupteds. You should come with us, too!",
+      "ru": "...О! Раз уж ты здесь - я собирался присоединиться к отряду лейтенанта Вана. Будем отбивать башню, захваченную заражёнными. Пойдём с нами!",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Tasim told me all about the corrupted force you took out. I wish I could have been there to help!",
+      "ru": "Тасим рассказал, как ты одолел отряд заражённых. Жаль, что меня там не было! Хотел бы помочь!",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Well? What do you think? Want to get some real combat experience? It shouldn't take long.",
+      "ru": "Ну что скажешь? Хочешь набраться настоящего боевого опыта? Много времени это не займёт.",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Sure, I'll come with you.",
+      "ru": "Да, я с вами.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Perfect. Well, no time better than the present! Let's get going.",
+      "ru": "Отлично. Ну, лучшего момента и не будет, погнали!",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Oh, wait. There's a stop we've got to make first. Follow me to the Powder Master!",
+      "ru": "О, погоди. Сначала нужно кое-куда заглянуть. §bИдём за мной к Улучшателю Предметов!§r",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Sorry, I've got something to do here first.",
+      "ru": "Извини, сначала мне нужно кое-что закончить.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Oh. Alright.",
+      "ru": "Оу. Ладно.",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Alright, so. There's something I've been told about the tower we're going to be attacking which we can prepare for!",
+      "ru": "Так вот. Мне кое-что рассказали о башне, которую мы будем штурмовать. Можно подготовиться заранее!",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Apparently, the big bad at the top of the tower is weak to Water damage! And so, here we are at the Powder Master.",
+      "ru": "Говорят, главарь на вершине башни уязвим к урону §bводой§r!",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "You can apply various elemental powders to your weapons here, which lets them deal types of damage they might not have been able to before.",
+      "ru": "Здесь можно наносить на оружие стихийные порошки. Они добавляют ему урон тех стихий, которых у него прежде могло не быть.",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "In this case, you can apply a powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
+      "ru": "В этом случае нанеси порошок §bводы§r, чтобы твоё оружие лучше справлялось с заражёнными врагами у башни!",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I, uh... don't remember the whole elemental speech off the top of my head. If you want to know more about those, you'll have to talk to Captain Ragon in the barracks. He has a whole course about it!",
+      "ru": "Я, э... не помню наизусть всю эту речь про стихии. Если хочешь узнать подробнее, поговори с §bкапитаном Рагоном§r в казармах. У него на эту тему целый курс!",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "...The point is- here. Take this elemental powder and Hold the powder, then Right Click on your weapon. Let me know when you're done!",
+      "ru": "...Короче говоря - вот. Держи этот стихийный порошок: §bвозьми его курсором, затем нажми правой кнопкой мыши по своему оружию§r. Сообщи, когда закончишь!",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "[+1 Water Powder I]",
+      "ru": "[+1 Water Powder I]",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Got the powder on your weapon? Good, that means we're ready.",
+      "ru": "Нанёс порошок на оружие? Отлично, значит мы готовы.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "You see this Item Upgrader? It can be used to upgrade powders to high tiers.",
+      "ru": "Видишь того §6улучшателя предметов§r? Он может §bповысить уровень§r твоих порошков.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "It can also remove powders from your items, if you need to- don't worry, you'll get your powders back!",
+      "ru": "Он также может §#55FFFFснимать порошки §rс твоих предметов, если понадобится - не переживай, все порошки тебе вернут!",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs- you probably saw it on your way in.",
+      "ru": "Лейтенант Ван и остальные стоят у тех домов в пригороде Детласа - ты, наверное, видел их по дороге сюда.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Lead the way! I'll be right behind you.",
+      "ru": "Веди! Я сразу за тобой.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Ah, Aledar! Good to see you here. Who's this with you?",
+      "ru": "А, Аледар! Рад тебя видеть. А это кто с тобой?",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "This is <playername>, sir. They're here to join our assault, if you'll allow it.",
+      "ru": "Это <playername>, сэр. Он тут, чтобы присоединиться к нашему штурму, если вы не против.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Hm... Well, I don't see why not. The more the merrier, that's what I say.",
+      "ru": "Хм... Ну, почему бы и нет. Чем нас больше, тем веселее, как говорится.",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "If everyone's here, we can begin. Here's the plan! We'll need to fight off some of the forces near the base of the tower, so that someone can climb to the top.",
+      "ru": "Раз все на месте, начнём. План такой! Нужно отбросить врага у подножия башни, чтобы кто-нибудь смог подняться наверх.",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "It doesn't matter who does the job, so long as it gets done. If you see an opportunity- go for it!",
+      "ru": "Неважно, кто именно это сделает, главное чтоб дело было сделано. Увидишь шанс - используй его!",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "If you need to retreat, or the corrupteds are slain, regroup here!| Understood?",
+      "ru": "Если придётся отступать или когда с заражёнными будет покончено, §bсобирайтесь здесь!§r| Поняли?",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Yes, sir!",
+      "ru": "Так точно, сэр!",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Good. Alright soldiers, let's take back that tower!",
+      "ru": "Отлично. Ладно, солдаты, возвращаем эту башню себе!",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Alright. It's time to take on the tower! We've got this, <playername>.",
+      "ru": "Ну всё. Пора идти на башню! Мы справимся, <playername>.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "We did it, we killed the corrupted! Come on, let's get back to Lieutenant Van with the news!",
+      "ru": "Получилось, мы убили заражённого! Пошли, доложим лейтенанту Вану!",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "It seems everyone has returned. Well? Have the corrupted forces been vanquished?",
+      "ru": "Вижу, все вернулись. Ну что? Заражённые разбиты?",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "They have, lieutenant. <playername> and I reached the top and defeated the corrupted.",
+      "ru": "Так точно, лейтенант. Мы с <playername> добрались до вершины и одолели заражённого.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Fine work, soldiers! Another great victory for the Detlas army. With the leader killed, it shouldn't be too difficult to clear out the rest of them.",
+      "ru": "Отличная работа, солдаты! Ещё одна славная победа армии Детласа. Раз их главарь мёртв, добить остальных уже будет не так сложно.",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "I'll let the Admiral know of your victory today, soldiers. And- here, some payment for your work.",
+      "ru": "Я доложу адмиралу о вашей сегодняшней победе, солдаты. И - вот, держите оплату за работу.",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "The two of you have a promising future. I look forward to serving with you in the future!",
+      "ru": "У вас обоих большое будущее. Буду рад снова сражаться плечом к плечу с вами!",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "We'll take care of the remaining stragglers, don't you worry. Thank you for your work today, soldier.",
+      "ru": "С оставшимися врагами мы справимся сами, не тревожься. Спасибо за службу, солдат.",
+      "speaker": "Lieutenant Van",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "New Quest Started: Taking the Tower",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Взятие башни",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Well, I'll still be here for a while. If you change your mind, let me know!",
+      "ru": "Ну, я тут ещё побуду. Передумаешь - дай знать!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Hey, you're back! Have you changed you mind? Want to join a raid on a corrupted tower?",
+      "ru": "Эй, ты вернулся! Передумал? Хочешь присоединиться к штурму захваченной башни?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "...The point is- here. Take this elemental powder and talk to the Powder Master to apply it. Let me know when you're done!",
+      "ru": "...В общем, держи. Возьми этот стихийный порошок и поговори с мастером порошков, чтобы нанести его на оружие. Скажи, когда закончишь!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Go on, head for the tower! If we're lucky, we'll be able to clear out the corrupteds who have taken over it.",
+      "ru": "Вперёд, к башне! Если повезёт, сможем выгнать оттуда захвативших её заражённых.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "audit-ded5d897130d023b",
+      "en": "Oh, wait. There's a stop we've got to make first. Follow me to the Item Upgrader!",
+      "ru": "О, погоди. Сначала нужно кое-куда заглянуть. §bИдём за мной к Улучшателю Предметов!§r",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "audit-751059593db5fb6c",
+      "en": "Apparently, the big bad at the top of the tower is weak to  Water damage!",
+      "ru": "Говорят, главарь на вершине башни уязвим к урону §bводой§r!",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "audit-81831a8e1e79f1c3",
+      "en": "In this case, you can apply a  Water  powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
+      "ru": "В этом случае нанеси порошок §bводы§r, чтобы твоё оружие лучше справлялось с заражёнными врагами у башни!",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "audit-c755ef429fe67a40",
+      "en": "...Anyway, Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs- you probably saw it on your way in.",
+      "ru": "...В общем, лейтенант Ван и остальные стоят у §bтех домов в пригороде Детласа§r. Ты, наверное, видел их по дороге сюда.",
+      "speaker": "Aledar",
+      "stage": ""
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Aledar in the Detlas Barracks at [511, 67, -1613].",
+      "ru": "Поговорить с Аледаром в казармах Детласа [511, 67, -1613].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Follow Aledar to the Powder Master at [485, 67, -1624].",
+      "ru": "Следовать за Аледаром к мастеру порошков [485, 67, -1624].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Apply a Water Powder to your weapon, then let Aledar know at [485, 67, -1624].",
+      "ru": "Добавить водный порошок в оружие и сообщить об этом Аледару [485, 67, -1624].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Meet up with Lieutenant Van's squad near the Raging Tower at [231, 69, -1620].",
+      "ru": "Встретиться с отрядом лейтенанта Вана у Яростной башни [231, 69, -1620].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Assault the Raging Tower at [155, 67, -1698] and defeat the monster at the top.",
+      "ru": "Взять Яростную башню штурмом и победить чудовище на вершине [155, 67, -1698].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Report back to Lieutenant Van about your success at [231, 67, -1620]",
+      "ru": "Доложить лейтенанту Вану об успехе [231, 67, -1620].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

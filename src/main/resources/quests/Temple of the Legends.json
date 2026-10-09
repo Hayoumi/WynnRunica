@@ -1,0 +1,945 @@
+{
+  "quest": "Temple of the Legends",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "temple-of-the-legends",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "I see you want to enter this mighty temple! Do not deny it, I see it in your eyes.",
+      "ru": "Вижу, ты хочешь войти в этот великий храм! Даже не отрицай, у тебя это по глазам видно.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "It is only natural, after all, to want to join the esteemed ranks of the Legends, such as myself!",
+      "ru": "И это вполне естественно! Кто бы ни захотел встать в ряды прославленных Легенд, таких как я!",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You will need to prove yourself by fighting a powerful beast, hidden deep in this cave beside me.",
+      "ru": "Но сперва тебе придётся доказать, что ты чего-то стоишь, сразившись с мощной тварью, скрытой глубоко в этой пещере рядом со мной.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "However, as a Legend, I am very busy, autographs and the sort, and that's not to mention my guard duty! Let me see if you are even worth my time.",
+      "ru": "Но, как Легенда, я очень занят - автографы, важные дела и всё такое, не говоря уже о карауле! Так что сначала я должен понять, стоишь ли ты вообще моего времени.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Hm... At a glance, you don't look anything special! Why, you may as well be a common soldier, for all I can imagine!",
+      "ru": "Хм... С первого взгляда ты вообще ничем не выделяешься! Да ты, если честно, выглядишь как самый обычный солдат!",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Tell me, why should I bother giving you this chance? Because thus far, I'm not impressed.",
+      "ru": "Ну и скажи мне, с чего бы мне давать тебе этот шанс? Пока что ты меня совсем не впечатлил.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I'm very, very stubborn.",
+      "ru": "Я очень, очень упёртый.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I have a lot of money.",
+      "ru": "У меня куча денег.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Well, I'm already a Legend. So you should just let me in.",
+      "ru": "Вообще-то я уже Легенда. Так что просто пропускай меня.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "If you think I'm not impressive, why should I bother convincing you?",
+      "ru": "Если ты считаешь, что я не впечатляю, с чего бы мне вообще тебя убеждать?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "I guess you shouldn't.",
+      "ru": "Пожалуй, не должен.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "So you return! Very interesting. That certainly puts you a level beyond any others who have tried... But it is not enough.",
+      "ru": "Так ты вернулся! Очень интересно. Это уже ставит тебя выше всех остальных, кто пробовал... Но этого всё равно мало.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "So? Tell me, why should I bother giving you this chance? Because thus far, I'm not impressed.",
+      "ru": "Ну так что? Скажи мне, с чего бы мне давать тебе этот шанс? Пока что ты меня всё ещё не впечатлил.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "I'm very, very stubborn.This option disappears once selected.",
+      "ru": "Я очень, очень упёртый. Этот вариант исчезает после выбора.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I'm still very stubborn.This option appears after \"I'm very, very stubborn.\" is selected, and disappears once selected.",
+      "ru": "Я всё ещё очень упёртый. Этот вариант появляется после выбора \"Я очень, очень упёртый.\" и исчезает после выбора.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I'm not going to quit.This option appears after \"I'm still very stubborn.\" is selected.",
+      "ru": "Я не собираюсь сдаваться. Этот вариант появляется после выбора \"Я всё ещё очень упёртый.\"",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Ah, hello soldier. What brings you to my humble abode today?",
+      "ru": "А, здравствуй, солдат. Что привело тебя сегодня в мою скромную обитель?",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Oh my. You...you want to attack HIM? Th-that horrid beast! Are you mad?!",
+      "ru": "О боги. Ты... ты хочешь напасть на НЕГО? На это ж-жуткое чудовище! Ты с ума сошёл?!",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Urgh, Kelight keeps sending adventurers like you to their deaths with his asinine tasks!",
+      "ru": "Тьфу, этот Келайт всё шлёт таких, как ты, на верную смерть со своими идиотскими заданиями!",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Fine. If you're really so determined to walk to your death, I can tell you where to go.",
+      "ru": "Ладно. Если тебе так уж хочется пойти и сдохнуть, я хотя бы скажу, куда именно.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Down in the Roots, there is a cave full of the Light Dust you'll need.",
+      "ru": "Внизу, у Корней, есть пещера, полная Световой Пыли, которая тебе нужна.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Powerful corrupteds live in that cave, so be very careful retrieving it, and bring it back to me once you find it.",
+      "ru": "В той пещере обитают сильные Заражённые. Будь очень осторожен, когда будешь добывать пыль, и принеси её мне, как найдёшь.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "[+1 Light Dust]",
+      "ru": "[+1 Light Dust]",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You have the Light Dust, then? Hand it here, I want to see something.",
+      "ru": "Значит, у тебя Световая Пыль? Давай сюда, я хочу кое-что проверить.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Ah, just as I thought. Even this light has been tainted by Corruption. Sorry, looks like you can't fight him, go home.",
+      "ru": "Ага, как я и думал. Даже этот свет уже испорчен Порчей. Извини, похоже, тебе с ним не сразиться, иди домой.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "...urgh, there's no fooling you, is there? You really are committed to trying to fight him.",
+      "ru": "...тьфу, тебя, значит, так просто не спровадишь? Ты и правда упёрся и решил драться с ним.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Well, I wasn't lying when I said the Light Dust was corrupted, but there is a way to purify it.",
+      "ru": "Ну, я не врал, когда говорил, что Световая Пыль заражена, но способ очистить её есть.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "An old acquaintance of mine, Rayshyroth, has a method. He lives on Mage Island.",
+      "ru": "Мой старый знакомый Рейширот знает способ. Он живёт на Острове магов.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "He knows even more about that...thing, than I do in my years of studying the Nether. Maybe he'll be able to talk you out of this.",
+      "ru": "Он знает об этой... штуке даже больше, чем я за все годы изучения Незера. Может, ему удастся всё-таки тебя отговорить.",
+      "speaker": "Jorkin",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Oh? Well, greetings. What brings you to our quiet lonely island, let alone all the way up here?",
+      "ru": "О? Приветствую. Что привело тебя на наш тихий одинокий остров, да ещё и так высоко?",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "...I see. Yes, the corruption of the blasted Nether Portal is rather potent. I'm not surprised this would need purification.",
+      "ru": "...Понятно. Да, Порча от того проклятого портала в Незер очень сильна. Неудивительно, что пыль придётся очищать.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Well, I can certainly do it, but I'll need the materials to do so. Shouldn't be anything you can't handle by now, right?",
+      "ru": "Ну, сделать это я могу, но мне понадобятся материалы. Ничего такого, с чем ты бы уже не справился, верно?",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "You see, below my house here, there is a wellspring from which a powerful magic flux generates.",
+      "ru": "Понимаешь, под моим домом есть источник, из которого рождается мощный магический поток.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "It creates a unique magic vapor if disrupted, which I can use to purify the dust for you.",
+      "ru": "Если его потревожить, он создаёт особый магический пар, который я и смогу использовать, чтобы очистить для тебя эту пыль.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "I would say, given how badly corrupted this is, I will need at least [12 Sky Vapor] for the task.",
+      "ru": "Я бы сказал, учитывая, насколько всё это заражено, для дела мне нужно как минимум [12 Sky Vapor].",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Aha, you're back with the Sky Vapor! Sorry about the climb, even I find it rather inconvenient at times.",
+      "ru": "Ага, ты вернулся с небесным паром! Извини за подъём, мне самому тут порой неудобно лазить.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "While I perform the ritual to purify this, I'd like to ask you something. Do you know, exactly, what it is you'll be fighting?",
+      "ru": "Пока я буду проводить ритуал очищения, хочу кое-что спросить. Ты вообще точно знаешь, с чем собираешься драться?",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Don't look so surprised, I know exactly what you need Light Dust for. The corruption warding helmet...to allow you to fight the Corrupter of Worlds.",
+      "ru": "Не смотри так удивлённо, я отлично знаю, зачем тебе нужна Световая Пыль. Для шлема, защищающего от Порчи... чтобы дать тебе шанс сразиться с Осквернителем миров.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Yes, yes. I imagine that Kelight didn't bother telling you that was his title. I also surmise that you were given few details of how he came to be...",
+      "ru": "Да-да. Подозреваю, Келайт даже не удосужился сказать тебе, что именно так его зовут. И, скорее всего, почти ничего не рассказал о том, как это существо появилось...",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "The beast now known as the Corrupter of Worlds used to be a simple mining captain, during the expeditions that uncovered the Nether Portal. He was the first to enter that wicked realm.",
+      "ru": "Чудовище, которое теперь зовут Осквернителем миров, когда-то возглавляло отряд шахтёров. Их экспедиция обнаружила портал в Незер. Он первым вошёл в то проклятое измерение.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "The poor man was never heard from again...well, that is until the corrupted hordes began to pour from the Nether, with him leading the pack. A bit ironic, isn't it? Led the miners in life, the corrupteds in death.",
+      "ru": "О бедняге больше никто не слышал... ну, до тех пор, пока из Незера не попёрли орды заражённых, а он не возглавил их. Иронично, да? При жизни вёл шахтёров, после смерти повёл заражённых.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "His mining crew there lasted hardly minutes. He personally slaughtered every single one of his original crew, and thousands more. The energies of the Nether have made him monstrously powerful.",
+      "ru": "Его шахтёрская команда там продержалась всего несколько минут. Он лично вырезал каждого из своего первоначального отряда, а потом ещё тысячи других. Энергия Незера сделала его чудовищно сильным.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "...although, the stories differ. Some say that Bak'al was the first to enter the portal, and the Corrupter of Worlds was simply a beast from the Nether. But the unclear truth doesn't change his strength.",
+      "ru": "...хотя рассказы расходятся. Кто-то говорит, что первым в портал вошёл Бак'ал, а Осквернитель миров был просто тварью из Незера. Какова бы ни была правда, слабее он от этого не становится.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Just remember that no one, aside from that snooty Kelight, will think less of you should you choose not to fight him.",
+      "ru": "Просто запомни: никто, кроме этого заносчивого Келайта, не станет думать о тебе хуже, если ты решишь с ним не драться.",
+      "speaker": "Rayshyroth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Hah. Took you long enough. This is the light dust, I presume?",
+      "ru": "Ха. Долго же ты. Это и есть световая пыль, надо полагать?",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I'll hold onto this for now. While it is a vital ingredient for your protection, it is not enough on its own.",
+      "ru": "Я пока оставлю пыль у себя. Она необходима для твоей защиты, но одной её недостаточно.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "You'll need an item to focus the magic around yourself, preferably something you'd wear. Hm... How about a helmet? Certainly, it'd do wonders for your poor sense of style.",
+      "ru": "Тебе нужна вещь, которая сфокусирует магию вокруг тебя, желательно что-то, что можно носить. Хм... Как насчёт шлема? Заодно, может, он хоть немного исправит твой ужасный вкус.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Ahem. As for creating it... I know only one man capable of crafting a piece of armor good enough to ensure your safety.",
+      "ru": "Кхм. Что до изготовления... Я знаю только одного человека, который способен выковать броню достаточно хорошую, чтобы у тебя был шанс выжить.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Unfortunately, he will be hard to reach. His name was Garull, and he was the finest craftsman I'd ever met! A bit on the eccentric side, though.",
+      "ru": "Правда, добраться до него будет непросто. Его зовут Гарулл, и это лучший мастер, которого я вообще встречал! Хотя, надо признать, чудаковат он был знатно.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "He was always ranting and raving about Creepers... he really thought they were real, can you imagine? What complete and utter nonsense.",
+      "ru": "Он вечно твердил про криперов... И всерьёз верил, что они существуют, представляешь? Несусветная чушь.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "When I suggested the notion to be absurd, he seemed upset by my comments, and stopped visiting. Truly, I did not know what I did wrong. What a ridiculous man.",
+      "ru": "Я сказал, что это нелепость, а он обиделся и перестал приходить. Право, не понимаю, что я сделал не так. До смешного странный человек.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "As it stands, I have no idea where you could find him. He spoke of wanting to research the Pigman Ravines several times, though none of our rank had ever seen him there.",
+      "ru": "Сейчас я вообще не знаю, где его искать. Он несколько раз говорил, что хочет исследовать Овраги свинолюдов, хотя никто из нас там его так и не видел.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "In any case, it is somewhere to begin your search! Should you manage to find him, and convince him to craft you the helmet, return here and we can proceed.",
+      "ru": "В любом случае, это хоть какая-то зацепка для начала поисков! Если найдёшь его и уговоришь выковать тебе шлем, возвращайся сюда, и мы продолжим.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "GWUH! Oh god, don't scare me like that! Who... Who even are you?!",
+      "ru": "ГВУХ! Ох блин, не подкрадывайся так! Ты... Ты вообще кто такой?!",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Ah, you were sent from Kelight for a protection helmet? I can do that, sure, but there's a few complications.",
+      "ru": "А, тебя Келайт прислал за защитным шлемом? Сделать могу, без проблем, но есть пара заморочек.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "See, I usually use something called Touroto Hide to make my armor. It's extremely resilient, magic resistant and tough to break.",
+      "ru": "Обычно я делаю броню из шкуры турото. Она необычайно прочная, устойчива к магии, и её трудно повредить.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "But, this also makes the Touroto themselves almost impossible to kill. Getting Touroto Hide is extremely difficult. I do know of a black market for it in Rymek, but...",
+      "ru": "Но из-за этого и самих турото почти невозможно убить. Добыть шкуру турото крайне трудно. Я знаю чёрный рынок в Римеке, где такое можно достать, но...",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "They only sell useless Old Touroto Hide, gotten from ones that died of old age. It's almost no better than just plain leather.",
+      "ru": "Там продают только бесполезную старую шкуру турото, снятую с тех, кто сдох от старости. По качеству это чуть ли не обычная кожа.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "So, for me to craft you this helmet, I'll need you to bring me not just the [Old Touroto Hide], but also the means to restore it to its previous power. Do listen up, there's a lot to tell you!",
+      "ru": "Так что, чтобы я сделал тебе этот шлем, мне нужна не только [старая шкура турото], но и способ вернуть ей прежнюю силу. Слушай внимательно, тут много всего!",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "There's the [Aseado Leaf], grown someplace in the Dernel Jungle... it has powerful medicinal qualities, supposedly able to reverse aging.",
+      "ru": "Нужен [лист Асеадо], который растёт где-то в джунглях Дернела... У него мощные лечебные свойства, говорят, он даже способен обратить старение вспять.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Then, a [Maro's Eye Jewel], which is an amazing magical focus from...well, where else, the Maro Peaks. Using its dust, I'll be able to return its magical resilience manually.",
+      "ru": "Потом нужен [глазной самоцвет Маро] - он отлично сосредотачивает магию. Найдёшь его... ну где же ещё, на Пиках Маро. Его пыль поможет мне вернуть шкуре утраченную стойкость.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Finally, I'll need a [Coral of Nelfors], which can be found in the Seavale Reef. This is what I need to use to enchant the hide to be magically resistant.",
+      "ru": "И наконец, мне нужен [коралл Нелфорса], который можно найти в рифе Сивейл. Именно им я зачарую шкуру на магическую устойчивость.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "I wrote all that down in your content book. If you can get it all, come back to see me, but don't be so sneaky about coming up to me please!",
+      "ru": "Я всё записал в твою Книгу контента. Добудешь нужное - возвращайся. Только в следующий раз не подкрадывайся так, прошу!",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Thank you for listening to me about not being so quiet coming over here. I'm guessing you've got everything?",
+      "ru": "Спасибо, что в этот раз не подкрался бесшумно. Я так понимаю, всё нужное у тебя уже есть?",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Alright, this should go quickly. For however pompous Kelight is, he's right in sending you to me to craft this.",
+      "ru": "Ладно, это не займёт много времени. Как бы Келайт ни важничал, он правильно сделал, что отправил тебя ко мне.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Now, I want to warn you about something. I've heard stories about the enemy you need this helmet to face, none of them good.",
+      "ru": "Но я должен тебя предупредить. Я слышал истории о враге, ради которого тебе нужен этот шлем, и хороших среди них не было ни одной.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "While I have seen people return from killing the \"beast\" he talks about, it isn't often. Be very careful, should you choose to fight it.",
+      "ru": "Да, я видел людей, которые возвращались после убийства этой \"твари\", но такое бывает редко. Если всё же решишься с ней драться, будь предельно осторожен.",
+      "speaker": "Garull",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "...Hm? Oh, it's you again. Did you actually manage to find the blighter? Good to know he isn't dead, at least.",
+      "ru": "...Хм? А, снова ты. Ты реально нашёл этого чокнутого? Ну хоть не сдох, и то хорошо.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "You have the helmet, I presume? Hand it over, here. I'll quickly apply the light dust. Then, you'll be able to enter the cave.",
+      "ru": "Шлем у тебя, полагаю? Давай его сюда. Я быстро нанесу световую пыль. После этого сможешь зайти в пещеру.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Hopefully you'll do better than that last group that tried to fight him. Six fighters strong... never came back.",
+      "ru": "Надеюсь, ты справишься лучше, чем та последняя группа, что пыталась с ним драться. Шесть бойцов... и ни один не вернулся.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "...Well, good luck! I'm certain you'll either succeed, or you'll fail spectacularly. Either or, really.",
+      "ru": "...Что ж, удачи! Уверен, ты либо победишь, либо потерпишь сокрушительное поражение. Одно из двух, право слово.",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Bring me concrete proof of your triumph over the beast, and I will grant you passage into the Temple of the Legends! Do be quick, would you?",
+      "ru": "Принеси мне железное доказательство своей победы над тварью, и я открою тебе путь в Храм Легенд! Только не тяни, ладно?",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "You start to feel weaker as you enter the cave...",
+      "ru": "Ты входишь в пещеру и чувствуешь, как силы покидают тебя...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "It feels as though demons are starting to consume your mind... Maybe it wasn't a good idea to enter this place...",
+      "ru": "Кажется, демоны начинают пожирать твой разум... Может, не стоило сюда заходить...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "... You... You did it? H-how?!",
+      "ru": "... Ты... Ты справился? К-как?!",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Even one so brave and powerful as myself could not possibly survive against-",
+      "ru": "Даже такой храбрый и могучий, как я, не смог бы выжить против-",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Er... I mean, of course you were able to defeat the beast! I believed in you from the very start!",
+      "ru": "Эм... То есть, конечно же, ты смог победить эту тварь! Я верил в тебя с самого начала!",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "...Ehm. I suppose you are welcome in the Temple of the Legends, now! You have... certainly proven yourself. My apologies for misjudging you. Feel proud of your accomplishment!",
+      "ru": "...Кхм. Что ж, теперь тебе открыт вход в Храм Легенд! Ты... несомненно доказал, что достоин этого. Прошу прощения, что недооценил тебя. Можешь гордиться своим подвигом!",
+      "speaker": "Kelight",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "New Quest Started: Temple of the Legends",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Храм Легенд",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0004",
+      "en": "You're stubborn? Hah! Don't make me laugh. Do you think you are the first to attempt entry without anything great to show for it?",
+      "ru": "§oТы§r упёртый? Ха! Не смеши меня. Думаешь, ты первый пытаешься войти, не совершив ничего выдающегося?",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0005",
+      "en": "Of course you aren't. Run along, now. Return when you have something truly impressive to show for yourself.",
+      "ru": "Конечно, нет. Ступай. Вернёшься, когда сможешь похвастаться чем-то §oпо-настоящему§r впечатляющим.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0007",
+      "en": "...And? Surely you do not hope to bribe me, do you? What use would I have for whatever meager wealth you have?",
+      "ru": "...И что? Надеюсь, ты не собираешься меня подкупить? Зачем мне твои жалкие сбережения?",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0008",
+      "en": "I'm a Legend! I have everything I could possibly need for the rest of my life! Now, run along. Return when you have something concrete to show me.",
+      "ru": "Я Легенда! У меня до конца жизни есть всё, что может понадобиться! А теперь ступай. Вернёшься, когда сможешь показать мне что-то стоящее.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0010",
+      "en": "Ha! You? A Legend?! What a joke. You aren't the first to have tried that, by the way. I know each and every member of our ranks, and you are not one of them.",
+      "ru": "Ха! Ты? Легенда?! Ну и шутка. Кстати, ты не первый, кто пробует так пройти. Я знаю всех в наших рядах, и тебя среди них нет.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0011",
+      "en": "Ah, truly, being a gatekeeper of the Temple is an entertaining position. Run along, now. Return when you have something real to show me.",
+      "ru": "Ах, работа привратника Храма и правда бывает забавной. Ступай. Вернёшься, когда сможешь показать мне что-то настоящее.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0013",
+      "en": "Hmph. Ridiculous. I don't need you to convince me of anything! Clearly, you are nothing but a pretender.",
+      "ru": "Хмф. Нелепость. Тебе не нужно меня ни в чём убеждать! Очевидно, ты просто самозванец.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0014",
+      "en": "Run along, now. If you don't have anything to show for yourself, don't waste my time!",
+      "ru": "А теперь ступай. Если тебе нечем похвастаться, не трать моё время!",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0015",
+      "en": "...But- ah. Since you are still here. Perhaps- no, no, don't be ridiculous, Kelight.",
+      "ru": "...Но... ах. Раз уж ты всё ещё здесь. Может... §oнет, нет, не говори глупостей, Келайт.§r",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0016",
+      "en": "Come on, Kelight, don't do this, you can't just let them get you with the silent treatment...",
+      "ru": "§oНу же, Келайт, не поддавайся, нельзя позволить им взять тебя молчанием...§r",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0017",
+      "en": "Oh, fine. You've got me interested. What is special about you? You look like a common soldier, and yet...",
+      "ru": "Ну §lладно§r. Ты меня заинтересовал. §oЧто§r в тебе особенного? Ты похож на обычного солдата, и всё же...",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0018",
+      "en": "Very well. I will allow you to attempt the trial. Perhaps, then, you will be able to prove yourself.",
+      "ru": "Хорошо. Я позволю тебе пройти испытание. Возможно, тогда ты сумеешь себя проявить.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0019",
+      "en": "Hidden deep within a nearby cave is a beast beyond compare. Corrupted, yes, but nothing like the foes you may have faced before.",
+      "ru": "Глубоко в пещере неподалёку скрывается невиданная тварь. Поражённая Порчей, да, но совершенно не похожая на врагов, с которыми ты мог встречаться раньше.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0020",
+      "en": "Rumor has it this creature was one of the miners which first ventured into the Nether Portal... Of course, as a Legend, I would usually disregard such things.",
+      "ru": "Говорят, это существо было одним из шахтёров, которые первыми вошли в Портал Нижнего мира... Конечно, как Легенда, я обычно не обращаю внимания на такие слухи.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0021",
+      "en": "In any case, its power cannot be underestimated. Simply entering its cave will greatly weaken you, even with the best equipment!",
+      "ru": "Как бы то ни было, её силу нельзя недооценивать. Даже с лучшим снаряжением ты сильно ослабеешь, просто войдя в её пещеру!",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0022",
+      "en": "Getting close to it would quickly corrupt you, which is why you will need protection. Only a light which is from the same realm from which the beast arrived will do the trick.",
+      "ru": "Приблизившись к ней, ты быстро заразишься Порчей, поэтому тебе нужна защита. Поможет только свет из того же мира, откуда пришла эта тварь.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0023",
+      "en": "As such, your very first step on your journey to become a Legend will be... to visit a friend of mine who studies the Nether.",
+      "ru": "Так что первым шагом на твоём пути к званию Легенды будет... визит к моему другу, который изучает Нижний мир.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0024",
+      "en": "His name is Jorkin, and he knows more about that realm than anyone else I know. Find him near the Roots of Corruption, in Elkurn, and request his aid. Tell him I sent you.",
+      "ru": "Его зовут Джоркин, и об этом мире он знает больше всех моих знакомых. Найди его §bв Элкурне, рядом с Корнями Порчи, и попроси о помощи§r. Скажи, что я тебя послал.",
+      "stage": "Stage 1",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0029",
+      "en": "So you are! And so am I. You will not get past me that easily, I'm afraid.",
+      "ru": "И правда! Как и я. Боюсь, так просто ты меня не пройдёшь.",
+      "stage": "Stage 1.5",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0030",
+      "en": "Off you go, then. Don't come back unless you have something to show!",
+      "ru": "А теперь уходи. Не возвращайся, если тебе нечего показать!",
+      "stage": "Stage 1.5",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0032",
+      "en": "Yes, I'm starting to get that impression. You are such a headache, you know that?",
+      "ru": "Да, я уже начинаю это понимать. С тобой столько головной боли, знаешь?",
+      "stage": "Stage 1.5",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0033",
+      "en": "Fine! Fine. I'll give you a chance. I'm certain you won't succeed, but anything to get you to stop bothering me.",
+      "ru": "§oЛадно!§r Ладно. Я дам тебе шанс. Уверен, ты не справишься, но я на всё готов, лишь бы ты перестал меня донимать.",
+      "stage": "Stage 1.5",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0034",
+      "en": "Ahem. Hidden deep within a nearby cave is a beast beyond compare. Corrupted, yes, but nothing like the foes you may have faced before.",
+      "ru": "§oКхм.§r Глубоко в пещере неподалёку скрывается невиданная тварь. Поражённая Порчей, да, но совершенно не похожая на врагов, с которыми ты мог встречаться раньше.",
+      "stage": "Stage 1.5",
+      "speaker": "Kelight"
+    },
+    {
+      "id": "wiki-20261008-dialogues-0041",
+      "en": "This is the Light Dust that Jorkin mentioned! He said to bring it back to him...",
+      "ru": "Это та самая Light Dust, о которой говорил Джоркин! Он просил принести её ему...",
+      "stage": "Stage 4",
+      "speaker": ""
+    },
+    {
+      "id": "wiki-20261008-dialogues-0058",
+      "en": "Hm? What are these oddities you have with you? Curious, yet useless. Allow me to dispose of them for you.",
+      "ru": "Хм? Что это за странные вещи у тебя? Любопытно, но бесполезно. Позволь избавить тебя от них.",
+      "stage": "Post Quest",
+      "speaker": "Kelight"
+    }
+  ],
+  "choices": [
+    {
+      "id": "wiki-20261008-choices-0003",
+      "en": "I'm very, very stubborn.",
+      "ru": "Я очень, очень упёртый.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-choices-0006",
+      "en": "I have a lot of money.",
+      "ru": "У меня куча денег.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-choices-0009",
+      "en": "Well, I'm already a Legend. So you should just let me in.",
+      "ru": "Вообще-то я уже Легенда. Так что просто пропускай меня.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-choices-0012",
+      "en": "If you think I'm not impressive, why should I bother convincing you?",
+      "ru": "Если ты считаешь, что я не впечатляю, с чего бы мне вообще тебя убеждать?",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-choices-0025",
+      "en": "I guess you shouldn't.",
+      "ru": "Пожалуй, не должен.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-choices-0028",
+      "en": "I'm still very stubborn.",
+      "ru": "Я всё ещё очень упёртый.",
+      "stage": "Stage 1.5"
+    },
+    {
+      "id": "wiki-20261008-choices-0031",
+      "en": "I'm not going to quit.",
+      "ru": "Я не собираюсь сдаваться.",
+      "stage": "Stage 1.5"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "wiki-20261008-objectives-0001",
+      "en": "Talk to Kelight at the entrance of the Temple of the Legends, close to Troms at [-693, 68, -993]",
+      "ru": "Поговорите с Келайтом у входа в Храм Легенд, рядом с Тромсом, в [-693, 68, -993]",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-objectives-0002",
+      "en": "Talk to Kelight at the entrance of the Temple of the Legends, close to Troms at [<num>, <num>, <num>]",
+      "ru": "Поговорите с Келайтом у входа в Храм Легенд, рядом с Тромсом, в [<num>, <num>, <num>]",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "wiki-20261008-objectives-0026",
+      "en": "Find a way to get Kelight to allow you entry into the Temple of the Legends at [-693, 68, -993].",
+      "ru": "Найдите способ убедить Келайта впустить вас в Храм Легенд в [-693, 68, -993].",
+      "stage": "Stage 1.5"
+    },
+    {
+      "id": "wiki-20261008-objectives-0027",
+      "en": "Find a way to get Kelight to allow you entry into the Temple of the Legends at [<num>, <num>, <num>].",
+      "ru": "Найдите способ убедить Келайта впустить вас в Храм Легенд в [<num>, <num>, <num>].",
+      "stage": "Stage 1.5"
+    },
+    {
+      "id": "wiki-20261008-objectives-0035",
+      "en": "Talk to Jorkin in Elkurn at [-15, 79, -1135] about Light Dust.",
+      "ru": "Поговорите с Джоркином в Элкурне в [-15, 79, -1135] о Light Dust.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "wiki-20261008-objectives-0036",
+      "en": "Talk to Jorkin in Elkurn at [<num>, <num>, <num>] about Light Dust.",
+      "ru": "Поговорите с Джоркином в Элкурне в [<num>, <num>, <num>] о Light Dust.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "wiki-20261008-objectives-0037",
+      "en": "Find the lightdust cavern located near the Portal at [261, 39, -1359].",
+      "ru": "Найдите пещеру со светящейся пылью рядом с Порталом в [261, 39, -1359].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "wiki-20261008-objectives-0038",
+      "en": "Find the lightdust cavern located near the Portal at [<num>, <num>, <num>].",
+      "ru": "Найдите пещеру со светящейся пылью рядом с Порталом в [<num>, <num>, <num>].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "wiki-20261008-objectives-0039",
+      "en": "Retrieve [1 Light Dust] from the cave at [261, 39, -1359] and bring it back to Jorkin at [-15, 79, -1135].",
+      "ru": "Добудьте §3[1 Light Dust]§r в пещере в [261, 39, -1359] и принесите Джоркину в [-15, 79, -1135].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "wiki-20261008-objectives-0040",
+      "en": "Retrieve [<num> Light Dust] from the cave at [<num>, <num>, <num>] and bring it back to Jorkin at [<num>, <num>, <num>].",
+      "ru": "Добудьте §3[<num> Light Dust]§r в пещере в [<num>, <num>, <num>] и принесите Джоркину в [<num>, <num>, <num>].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "wiki-20261008-objectives-0042",
+      "en": "Visit Rayshyroth on Mage Island at [846, 87, -2906] to purify the dust",
+      "ru": "Посетите Рейширота на Острове Магов в [846, 87, -2906], чтобы очистить пыль",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "wiki-20261008-objectives-0043",
+      "en": "Visit Rayshyroth on Mage Island at [<num>, <num>, <num>] to purify the dust",
+      "ru": "Посетите Рейширота на Острове Магов в [<num>, <num>, <num>], чтобы очистить пыль",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "wiki-20261008-objectives-0044",
+      "en": "Find the cave on Mage Island where the Sky Flux gathers at [864, 31, -2916].",
+      "ru": "Найдите пещеру на Острове Магов, где скапливается Sky Flux, в [864, 31, -2916].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "wiki-20261008-objectives-0045",
+      "en": "Find the cave on Mage Island where the Sky Flux gathers at [<num>, <num>, <num>].",
+      "ru": "Найдите пещеру на Острове Магов, где скапливается Sky Flux, в [<num>, <num>, <num>].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "wiki-20261008-objectives-0046",
+      "en": "Give [12 Sky Vapor] to Rayshyroth at [846, 87, -2906].",
+      "ru": "Отдайте §3[12 Sky Vapor]§r Рейшироту в [846, 87, -2906].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "wiki-20261008-objectives-0047",
+      "en": "Give [<num> Sky Vapor] to Rayshyroth at [<num>, <num>, <num>].",
+      "ru": "Отдайте §3[<num> Sky Vapor]§r Рейшироту в [<num>, <num>, <num>].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "wiki-20261008-objectives-0048",
+      "en": "Show the [Purified Light Dust] to Kelight at the entrance of the Temple of the Legends at [-692, 63, -975].",
+      "ru": "Покажите §3[Purified Light Dust]§r Келайту у входа в Храм Легенд в [-692, 63, -975].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "wiki-20261008-objectives-0049",
+      "en": "Show the [Purified Light Dust] to Kelight at the entrance of the Temple of the Legends at [<num>, <num>, <num>].",
+      "ru": "Покажите §3[Purified Light Dust]§r Келайту у входа в Храм Легенд в [<num>, <num>, <num>].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "wiki-20261008-objectives-0050",
+      "en": "Find Garull, the Creeper obsessed craftsman, somewhere in the Pigmen's Ravines located around [-740, 93, -1311].",
+      "ru": "Найдите Гарулла, мастера, помешанного на криперах, где-то в Ущельях Свинолюдей возле [-740, 93, -1311].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "wiki-20261008-objectives-0051",
+      "en": "Find Garull, the Creeper obsessed craftsman, somewhere in the Pigmen's Ravines located around [<num>, <num>, <num>].",
+      "ru": "Найдите Гарулла, мастера, помешанного на криперах, где-то в Ущельях Свинолюдей возле [<num>, <num>, <num>].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "wiki-20261008-objectives-0052",
+      "en": "Bring the [Old Touroto Hide], [Aseado Leaf], [Maro's Eye Jewel], and [Coral of Nelfors] to Garull in the cave at [-849, 97, -1211].",
+      "ru": "Принесите §3[Old Touroto Hide]§r, §3[Aseado Leaf]§r, §3[Maro's Eye Jewel]§r и §3[Coral of Nelfors]§r Гаруллу в пещеру в [-849, 97, -1211].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "wiki-20261008-objectives-0053",
+      "en": "Bring the [Old Touroto Hide], [Aseado Leaf], [Maro's Eye Jewel], and [Coral of Nelfors] to Garull in the cave at [<num>, <num>, <num>].",
+      "ru": "Принесите §3[Old Touroto Hide]§r, §3[Aseado Leaf]§r, §3[Maro's Eye Jewel]§r и §3[Coral of Nelfors]§r Гаруллу в пещеру в [<num>, <num>, <num>].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "wiki-20261008-objectives-0054",
+      "en": "Bring the [Helmet of the Legends] to Kelight at the entrance of the Temple of the Legends at [-692, 63, -975].",
+      "ru": "Принесите §3[Helmet of the Legends]§r Келайту у входа в Храм Легенд в [-692, 63, -975].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "wiki-20261008-objectives-0055",
+      "en": "Bring the [Helmet of the Legends] to Kelight at the entrance of the Temple of the Legends at [<num>, <num>, <num>].",
+      "ru": "Принесите §3[Helmet of the Legends]§r Келайту у входа в Храм Легенд в [<num>, <num>, <num>].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "wiki-20261008-objectives-0056",
+      "en": "Kill the Corrupter of Worlds in the cave at [-714, 61, -963] and bring proof of its death to Kelight at [-692, 63, -975].",
+      "ru": "Убейте Осквернителя Миров в пещере в [-714, 61, -963] и принесите доказательство его смерти Келайту в [-692, 63, -975].",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "wiki-20261008-objectives-0057",
+      "en": "Kill the Corrupter of Worlds in the cave at [<num>, <num>, <num>] and bring proof of its death to Kelight at [<num>, <num>, <num>].",
+      "ru": "Убейте Осквернителя Миров в пещере в [<num>, <num>, <num>] и принесите доказательство его смерти Келайту в [<num>, <num>, <num>].",
+      "stage": "Stage 12"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "price-check",
+  "scopes": [
+    {
+      "id": "price-check",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Price Check",
+        "anchors": [
+          "§7These are the calculated prices",
+          "§7from the past two weeks"
+        ]
+      },
+      "title": {
+        "id": "title",
+        "en": "Price Check",
+        "ru": "Проверка Цен"
+      },
+      "lines": [
+        {
+          "id": "line-0067",
+          "en": "§7These are the calculated prices",
+          "ru": "§7Это расчётные цены"
+        },
+        {
+          "id": "line-0068",
+          "en": "§7from the past two weeks",
+          "ru": "§7за последние две недели"
+        },
+        {
+          "id": "line-0064",
+          "en": "§7Recommended Price: <num> (<num>²½ <num>²)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>²½ <num>²)"
+        },
+        {
+          "id": "line-0065",
+          "en": "§7Quick Sell Price: <num> (<num>²½ <num>²)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>²½ <num>²)"
+        },
+        {
+          "id": "line-0177",
+          "en": "§7Highest Buy Offer: <num> (<num>¼² <num>²½ <num>²)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼² <num>²½ <num>²)"
+        },
+        {
+          "id": "highest-buy-one-coin",
+          "en": "§7Highest Buy Offer: <num> (<num>²)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>²)"
+        },
+        {
+          "id": "line-0066",
+          "en": "§7Cheapest Sell Offer: <num> (<num>²½ <num>²)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>²½ <num>²)"
+        },
+        {
+          "id": "line-0116",
+          "en": "§7Recommended Price: <num> (<num>¼²)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>¼²)"
+        },
+        {
+          "id": "line-0115",
+          "en": "§7Quick Sell Price: <num> (<num>¼²)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>¼²)"
+        },
+        {
+          "id": "line-0174",
+          "en": "§7Recommended Price: <num> (<num>¼² <num>²½ <num>²)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>¼² <num>²½ <num>²)"
+        },
+        {
+          "id": "line-0175",
+          "en": "§7Quick Sell Price: <num> (<num>¼² <num>²½ <num>²)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>¼² <num>²½ <num>²)"
+        },
+        {
+          "id": "line-0176",
+          "en": "§7Cheapest Sell Offer: <num> (<num>¼² <num>²½ <num>²)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼² <num>²½ <num>²)"
+        },
+        {
+          "id": "price-style-d7abc36f294efed9",
+          "en": "§7Recommended Price: <num> (<num>²)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>²)"
+        },
+        {
+          "id": "price-style-b4b9d56f34134ac4",
+          "en": "§7Recommended Price: <num> (<num>²½)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>²½)"
+        },
+        {
+          "id": "price-style-d6f299c6c2e08c52",
+          "en": "§7Recommended Price: <num> (<num>¼² <num>²)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>¼² <num>²)"
+        },
+        {
+          "id": "price-style-1fee43cb7af1beb6",
+          "en": "§7Recommended Price: <num> (<num>¼² <num>²½)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>¼² <num>²½)"
+        },
+        {
+          "id": "price-style-bd9a09390c783f79",
+          "en": "§7Recommended Price: <num> (<num>stx)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>stx)"
+        },
+        {
+          "id": "price-style-3f1529ed3f172ead",
+          "en": "§7Recommended Price: <num> (<num>stx <num>¼²)",
+          "ru": "§dРекомендуемая Цена: §f<num> §8(<num>stx <num>¼²)"
+        },
+        {
+          "id": "price-style-69f76c2b604bbeb7",
+          "en": "§7Quick Sell Price: <num> (<num>²)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>²)"
+        },
+        {
+          "id": "price-style-20917a2683165753",
+          "en": "§7Quick Sell Price: <num> (<num>²½)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>²½)"
+        },
+        {
+          "id": "price-style-2da122d942ecc7bd",
+          "en": "§7Quick Sell Price: <num> (<num>¼² <num>²)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>¼² <num>²)"
+        },
+        {
+          "id": "price-style-3f1c8765123a3186",
+          "en": "§7Quick Sell Price: <num> (<num>¼² <num>²½)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>¼² <num>²½)"
+        },
+        {
+          "id": "price-style-7b2d0387d2468ba3",
+          "en": "§7Quick Sell Price: <num> (<num>stx)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>stx)"
+        },
+        {
+          "id": "price-style-45344ecfb1ea5ef2",
+          "en": "§7Quick Sell Price: <num> (<num>stx <num>¼²)",
+          "ru": "§6Цена Быстрой Продажи: §f<num> §8(<num>stx <num>¼²)"
+        },
+        {
+          "id": "price-style-a3ddf71ebe17699e",
+          "en": "§7Instant Buy Price: <num> (<num>²)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>²)"
+        },
+        {
+          "id": "price-style-ad30b272daf66110",
+          "en": "§7Instant Buy Price: <num> (<num>²½)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>²½)"
+        },
+        {
+          "id": "price-style-b4cf98850a7ef1c9",
+          "en": "§7Instant Buy Price: <num> (<num>¼²)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>¼²)"
+        },
+        {
+          "id": "price-style-6f6c153e7f0e635f",
+          "en": "§7Instant Buy Price: <num> (<num>²½ <num>²)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>²½ <num>²)"
+        },
+        {
+          "id": "price-style-d82adb07175cf44e",
+          "en": "§7Instant Buy Price: <num> (<num>¼² <num>²)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>¼² <num>²)"
+        },
+        {
+          "id": "price-style-643bdefefed2b589",
+          "en": "§7Instant Buy Price: <num> (<num>¼² <num>²½)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>¼² <num>²½)"
+        },
+        {
+          "id": "price-style-eb6ff60f47d9592b",
+          "en": "§7Instant Buy Price: <num> (<num>¼² <num>²½ <num>²)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>¼² <num>²½ <num>²)"
+        },
+        {
+          "id": "price-style-5aa05bfa59a295ab",
+          "en": "§7Instant Buy Price: <num> (<num>stx)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>stx)"
+        },
+        {
+          "id": "price-style-d7ae5e496243e6b5",
+          "en": "§7Instant Buy Price: <num> (<num>stx <num>¼²)",
+          "ru": "§6Цена Мгновенной Покупки: §f<num> §8(<num>stx <num>¼²)"
+        },
+        {
+          "id": "price-style-0ddc6594270d8ec4",
+          "en": "§7Cheapest Sell Offer: <num> (<num>²)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>²)"
+        },
+        {
+          "id": "price-style-c278e43357901b9f",
+          "en": "§7Cheapest Sell Offer: <num> (<num>²½)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>²½)"
+        },
+        {
+          "id": "price-style-2b70cd3b46b1b4b7",
+          "en": "§7Cheapest Sell Offer: <num> (<num>¼²)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼²)"
+        },
+        {
+          "id": "price-style-921354547ac1db9e",
+          "en": "§7Cheapest Sell Offer: <num> (<num>¼² <num>²)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼² <num>²)"
+        },
+        {
+          "id": "price-style-4fb2c62e9752d8dd",
+          "en": "§7Cheapest Sell Offer: <num> (<num>¼² <num>²½)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼² <num>²½)"
+        },
+        {
+          "id": "price-style-ba090765fcfa5670",
+          "en": "§7Cheapest Sell Offer: <num> (<num>stx)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>stx)"
+        },
+        {
+          "id": "price-style-06ae8201d403dc4b",
+          "en": "§7Cheapest Sell Offer: <num> (<num>stx <num>¼²)",
+          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>stx <num>¼²)"
+        },
+        {
+          "id": "price-style-20919462ca7aca53",
+          "en": "§7Highest Buy Offer: <num> (<num>²½)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>²½)"
+        },
+        {
+          "id": "price-style-4182bd5bc7de3057",
+          "en": "§7Highest Buy Offer: <num> (<num>¼²)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼²)"
+        },
+        {
+          "id": "price-style-3e2fabe1e824cd13",
+          "en": "§7Highest Buy Offer: <num> (<num>²½ <num>²)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>²½ <num>²)"
+        },
+        {
+          "id": "price-style-66bbe655a74c1dd8",
+          "en": "§7Highest Buy Offer: <num> (<num>¼² <num>²)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼² <num>²)"
+        },
+        {
+          "id": "price-style-497c047936014c36",
+          "en": "§7Highest Buy Offer: <num> (<num>¼² <num>²½)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼² <num>²½)"
+        },
+        {
+          "id": "price-style-15cf641a687c5eb2",
+          "en": "§7Highest Buy Offer: <num> (<num>stx)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>stx)"
+        },
+        {
+          "id": "price-style-484b9ae1d17f1ffd",
+          "en": "§7Highest Buy Offer: <num> (<num>stx <num>¼²)",
+          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>stx <num>¼²)"
+        }
+      ]
+    }
+  ]
+}

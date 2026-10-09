@@ -6,11 +6,16 @@
   ],
   "client": [
     "TitleTrackerMixin",
+    "InGameHudAccessor",
     "GuiTranslationMixin",
     "TooltipCaptureMixin",
     "TooltipRenderMixin",
-    "WynntilsAthenaRelayMixin",
-    "WynntilsHadesRelayMixin"
+    "WynntilsHadesRelayMixin",
+    "NpcNameRendererMixin",
+    "ScoreboardEntryMixin",
+    "WynntilsActivityTaskFunctionMixin",
+    "WynntilsActivityTypeFunctionMixin",
+    "WynntilsObjectiveMixin"
   ],
   "injectors": {
     "defaultRequire": 1

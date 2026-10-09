@@ -1,0 +1,696 @@
+{
+  "quest": "Hunger of the Gerts Part II",
+  "level": 78,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "hunger-of-the-gerts-part-ii",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Gert! Gert! Prepare war we are!",
+      "ru": "Герты! Герты! Готовиться к войне!",
+      "speaker": "Gert Chief",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Look me.",
+      "ru": "На меня смотреть.",
+      "speaker": "Gert Chief",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Today we attack. Today Gerts will take down bad men!",
+      "ru": "Сегодня нападать. Сегодня герты бить плохих людей!",
+      "speaker": "Gert Chief",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "But first! We eat food.",
+      "ru": "Но сперва! Еду есть.",
+      "speaker": "Gert Chief",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Get axe ready after food. We take back our food!",
+      "ru": "После еды топор готовить. Нашу еду вернуть!",
+      "speaker": "Gert Chief",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "You again?",
+      "ru": "Опять ты?",
+      "speaker": "Cikal",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "This is a very... inconvenient timing for me, you see.",
+      "ru": "Время ты, конечно... выбрал вообще неудачное.",
+      "speaker": "Cikal",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Gamenight is starting soon. State your issue fast, please.",
+      "ru": "Скоро вечер игр. Прошу, быстро говори, что у тебя.",
+      "speaker": "Cikal",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "The Gerts attacking us? HAH! Funny joke.",
+      "ru": "Герты на нас нападают? ХА! Смешная шутка.",
+      "speaker": "Cikal",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Those pea brains can't even count to three. I doubt they can take our mighty fine establishment down.",
+      "ru": "Эти пустоголовые даже до трёх считать не умеют. Очень сомневаюсь, что они смогут снести наше прекрасное заведение.",
+      "speaker": "Cikal",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Now, if you excuse me. Gamenight is starting, I am needed.",
+      "ru": "А теперь извини. Вечер игр начинается, без меня там никак.",
+      "speaker": "Cikal",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Psst! Come here, traveler.",
+      "ru": "Псс! Иди сюда, путник.",
+      "speaker": "Winie",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I want to start off by apologizing for Cikal's behavior.",
+      "ru": "Для начала хочу извиниться за поведение Сикала.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "I recently started working here and I totally believe you about the attack.",
+      "ru": "Я тут недавно работаю, и я полностью верю тебе насчёт нападения.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "What's weird is that the other guards here don't even believe it's a possibility. It's like their brains have become all scrambled.",
+      "ru": "Странно, остальные стражники даже мысли о нападении не допускают. Будто у них в головах всё перепуталось.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I seem to be the only one with any sense left!",
+      "ru": "Похоже, я тут одна ещё с остатками здравого смысла!",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "When I brought up how wrong it was for us to steal their food rations, they just laughed at me like I was crazy.",
+      "ru": "Когда я сказала, что воровать у Гертов их пайки было неправильно, они просто посмеялись надо мной, будто я чокнутая.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Can I ask you for a favor?",
+      "ru": "Можно попросить тебя об одолжении?",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I'll head to Cinfras to report this to the higher ups. If you can somehow find a way to evacuate the guards here.",
+      "ru": "Я пойду в Синфрас и доложу об этом начальству. А ты, если сможешь, придумай, как эвакуировать здешних стражников.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "They may be jerks but we can't just let them die here.",
+      "ru": "Пусть они и те ещё козлы, но мы не можем просто оставить их тут умирать.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "I think you should start with the people in the courtyard.",
+      "ru": "Думаю, начинать стоит с тех, кто во дворе.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Huh?",
+      "ru": "А?",
+      "speaker": "Alie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Right... You are that crazy adventurer Cikal talked about...",
+      "ru": "А, точно... Ты тот чокнутый искатель приключений, про которого говорил Сикал...",
+      "speaker": "Alie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "If you don't have any meat you can \"hand\" into the watch, please leave.",
+      "ru": "Если у тебя нет мяса, которое можно \"сдать\" в дозор, тогда проваливай.",
+      "speaker": "Alie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I promise we take good care of the food here.",
+      "ru": "Обещаю, за едой тут мы присматриваем очень хорошо.",
+      "speaker": "Alie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Ya what is it?",
+      "ru": "Ну и чего тебе?",
+      "speaker": "Colry",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Well... I'd rather avoid awkward situations so... please leave before I have to throw you out.",
+      "ru": "Ну... я бы предпочёл избежать неловких ситуаций, так что... уйди, пока мне не пришлось вышвыривать тебя самому.",
+      "speaker": "Colry",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "I appreciate it, boss.",
+      "ru": "Спасибо, приятель.",
+      "speaker": "Colry",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Only thing that could sway me is food, hahaha! We only eat meat around here!",
+      "ru": "Единственное, что может меня переубедить, это еда, ха-ха! Мы тут жрём только мясо!",
+      "speaker": "Colry",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Yes?",
+      "ru": "Да?",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Oh, it's... you.",
+      "ru": "А, это... ты.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "What could you want?",
+      "ru": "Чего тебе надо?",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "You need to leave right away!",
+      "ru": "Тебе надо срочно уходить!",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Why are you yelling at me?",
+      "ru": "Чего ты на меня орёшь?",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "And no shot I'm leaving today! We are having our daily game night tonight!",
+      "ru": "И даже не мечтай, что я сегодня уйду! Мы каждый вечер собираемся играть!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Daily...?",
+      "ru": "Каждый вечер...?",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Yes. Indeed. Meaning, I'm very busy.",
+      "ru": "Да. Именно. А значит, я очень занят.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Every day is a party here. But you. Are. Not. Invited!",
+      "ru": "У нас тут каждый день праздник. Но тебя. Сюда. Не. Звали!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Your life is in danger.",
+      "ru": "Твоя жизнь в опасности.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "We here at the Gylia Watch are ready to give up our lives!",
+      "ru": "Мы в Дозоре Гилии готовы отдать свои жизни!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Except on Saturdays!",
+      "ru": "Кроме суббот!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Now, if you'll excuse me, I have business to attend to.",
+      "ru": "А теперь, если позволишь, у меня есть дела.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "What are you up to?",
+      "ru": "Чем ты вообще занят?",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "I'm just patrolling. Someone has to look at the mountains for signs of an ambush.",
+      "ru": "Я патрулирую. Кто-то же должен следить за горами, чтобы нас не застали врасплох.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Well... even though I doubt Gerts can climb...",
+      "ru": "Хотя... я, конечно, сомневаюсь, что Герты вообще умеют лазать...",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "The details aren't that important. I am doing my job, anyway.",
+      "ru": "Но это уже детали. Я всё равно делаю свою работу.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Was there anything else?",
+      "ru": "Ещё что-то?",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Thank you for protecting us.",
+      "ru": "Спасибо, что защищаешь нас.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Oh...",
+      "ru": "О...",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "You are very welcome.",
+      "ru": "Всегда пожалуйста.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "I appreciate your comment!",
+      "ru": "Мне приятно это слышать!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "So what's on your mind?",
+      "ru": "Ну и что у тебя на уме?",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "I overheard the Gerts... They will be attacking.",
+      "ru": "Я подслушал Гертов... Они собираются напасть.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "It is our duty to protect the public from the Gerts!",
+      "ru": "Наш долг - защищать народ от Гертов!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "If what you are saying is true, we need to stay here!",
+      "ru": "Если ты говоришь правду, нам тем более надо оставаться здесь!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "I don't even think anyone would miss the Gerts they were to die, hah!",
+      "ru": "Да и вообще, думаю, никто бы не скучал по Гертам, если бы они подохли, ха!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Do you want to go have a snack?",
+      "ru": "Хочешь сходить перекусить?",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "I can never say no to a snack!",
+      "ru": "От перекуса я никогда не отказываюсь!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "What are you thinking?",
+      "ru": "И что ты предлагаешь?",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Let's head outside the watch.",
+      "ru": "Давай выйдем за пределы Дозора.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Ooh! It sounds like you've prepared a whole feast out there!",
+      "ru": "О-о! Похоже, ты там целый пир приготовил!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Alright, deal!",
+      "ru": "Ладно, по рукам!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "I'll head outside and wait for you.",
+      "ru": "Я выйду наружу и подожду тебя.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Yeah, Gerts definitely don't climb or fly.",
+      "ru": "Ага, Герты уж точно не лазают и не летают.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "I knew that!",
+      "ru": "Я это и так знал!",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Hey!",
+      "ru": "Эй!",
+      "speaker": "Winie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Good job on emptying the tower. I explained the situation to the Cinfras Military and they followed me here.",
+      "ru": "Отличная работа, башню ты освободил. Я объяснила ситуацию военным Синфраса, и они пришли сюда со мной.",
+      "speaker": "Winie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Good thing you came to us. There is something wrong with this place because I swear... everyone seems to go coockoo.",
+      "ru": "Хорошо, что ты к нам обратилась. Что-то с этим местом не так, клянусь... здесь все будто с ума сходят.",
+      "speaker": "Cinfras Military",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Either way. Due to the workers breaking the treaty we have no choice but to charge them for their crimes and fire them on the spot.",
+      "ru": "Как бы там ни было, стражники нарушили договор. Придётся предъявить им обвинения и немедленно отстранить от службы.",
+      "speaker": "Cinfras Military",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Us three have been put in place as a replacement until further notice.",
+      "ru": "Нас троих назначили сюда вместо них до дальнейших распоряжений.",
+      "speaker": "Winie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "We will also return the stolen food to the Gerts, and hopefully calm them down.",
+      "ru": "Ещё мы вернём Гертам украденную еду и, надеюсь, немного их успокоим.",
+      "speaker": "Winie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Your job is finished here, Wynnian. Thank you on behalf of Cinfras.",
+      "ru": "На этом твоя работа закончена, житель Винна. Благодарю от имени Синфраса.",
+      "speaker": "Winie",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "This is bad...",
+      "ru": "Это плохо...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "You should warn the Gylia Guards.",
+      "ru": "Тебе стоит предупредить стражей Гилии.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Maybe you can find a way to lure the two guards away using food?",
+      "ru": "Может, удастся как-нибудь выманить двух стражников едой?",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "You successfully lead the two guards out of the tower. Maybe you should go to the second floor next?",
+      "ru": "Ты успешно выманил двух стражников из башни. Может, теперь стоит подняться на второй этаж?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "That strategy did not work. Maybe you can retry?",
+      "ru": "Эта затея не сработала. Может, попробуешь снова?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "That strategy lead you nowhere. Maybe you can retry?",
+      "ru": "Эта затея ни к чему не привела. Может, попробуешь снова?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "You successfully got Bory out of the watch!",
+      "ru": "Ты успешно выманил Бори из дозорной башни!",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Maybe it's time to save the people in the basement.",
+      "ru": "Может, пора спасти людей в подвале.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "It seems that they locked up the basement...",
+      "ru": "Похоже, подвал заперли...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Something happened outside!",
+      "ru": "Снаружи что-то случилось!",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "This must be a freshly dug tunnel...",
+      "ru": "Должно быть, это свежевырытый тоннель...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "It seems the Gerts have gone on the offense.",
+      "ru": "Похоже, герты перешли в наступление.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Maybe you can collapse the tunnel entrance?",
+      "ru": "Может, удастся обрушить вход в тоннель?",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "That should stop the Gerts.",
+      "ru": "Это должно остановить гертов.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "At least for now. Maybe it's time to check on the Gylia Watch again.",
+      "ru": "По крайней мере, пока. Пора снова проверить, как дела у Дозора Гилии.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "New Quest Started: Hunger of the Gerts Part II",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Голод гертов, часть II",
+      "speaker": "",
+      "stage": "Stage 10"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find out what happens in the Gerten camp at [-33, 34, -5502].",
+      "ru": "Выяснить, что происходит в лагере гертов [-33, 34, -5502].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Head to the Gylia Watch at [-19, 36, -5425] to warn them about the attack.",
+      "ru": "Отправиться к Дозору Гилии [-19, 36, -5425] и предупредить о нападении.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Talk to the other Gylia watchman at [-14, 36, -5410].",
+      "ru": "Поговорить с другим дозорным Гилии [-14, 36, -5410].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find the Gyila guards out in the courtyard at [-33, 46, -5395].",
+      "ru": "Найти стражников Гилии во дворе [-33, 46, -5395].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Search for food in the courtyard and create a trail leading out of the Gylia Watch.",
+      "ru": "Найти во дворе еду и выложить из неё дорожку за пределы Дозора Гилии.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Use the elevator in the Gylia Watch and find the guard at [-11, 73, -5412].",
+      "ru": "Подняться на подъёмнике в башне Дозора Гилии и найти стражника [-11, 73, -5412].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Head towards the basement in the tower at [-25, 35, -5416].",
+      "ru": "Спуститься в подвал башни [-25, 35, -5416].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Go outside towards the sound at [-30, 36, -5422].",
+      "ru": "Выйти наружу и идти на звук [-30, 36, -5422].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Continue through the tunnel.",
+      "ru": "Продолжить путь через туннель.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Collapse the Gert tunnel by attacking the weak pillar.",
+      "ru": "Обрушить туннель гертов, ударив по непрочной опоре.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Return to the Gylia Watch at [-19, 36, -5425] and check if everyone is safe.",
+      "ru": "Вернуться к Дозору Гилии [-19, 36, -5425] и убедиться, что все в безопасности.",
+      "stage": "Stage 11"
+    }
+  ],
+  "choices": []
+}

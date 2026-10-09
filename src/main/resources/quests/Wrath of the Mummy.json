@@ -1,0 +1,259 @@
+{
+  "quest": "Wrath of the Mummy",
+  "level": 36,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "wrath-of-the-mummy",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Stay away, friend!",
+      "ru": "Не подходи, друг!",
+      "speaker": "Ormrod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I live in this camp by choice. A curse follows me... and now trouble starts wherever I go. I left civilization and made camp in the desert, where I could do no more harm.",
+      "ru": "Я в этом лагере живу не просто так. За мной тянется проклятие... и теперь беда начинается везде, куда бы я ни пришёл. Я ушёл подальше от людей и разбил лагерь в пустыне, чтобы больше никому не вредить.",
+      "speaker": "Ormrod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I do miss the comforts of Almuj some days, though... you look like a learned adventurer. If I asked you to investigate this curse, perhaps you could help me rid myself of it?",
+      "ru": "Хотя иногда я всё-таки скучаю по уюту Алмуджа... Ты выглядишь как опытный искатель приключений. Если я попрошу тебя разобраться с этим проклятием, может, ты поможешь мне от него избавиться?",
+      "speaker": "Ormrod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "It all started when I discovered an old tomb in the North of the desert. Upon entering it, the ground started shaking and I heard inhuman screams coming from deeper within.",
+      "ru": "Всё началось, когда я нашёл старую гробницу на севере пустыни. Как только я вошёл внутрь, земля затряслась, а из глубины донеслись нечеловеческие вопли.",
+      "speaker": "Ormrod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I ran as fast as I could, learning later the tomb housed the remains of an ancient Mummy... which I accidentally awoke. If the Mummy could be put back to rest, perhaps the curse would go away.",
+      "ru": "Я драпал оттуда так быстро, как только мог. Позже узнал, что в той гробнице покоились останки древней Мумии... и я случайно её разбудил. Если снова упокоить Мумию, может, и проклятие исчезнет.",
+      "speaker": "Ormrod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I have heard of a scholar in Almuj, Achper, who may know more about the tomb. I am reluctant to return to the city, in case my presence hurts anyone else.",
+      "ru": "Я слышал про одного учёного в Алмудже, Ачпера, он может знать про эту гробницу больше. Сам я в город возвращаться не хочу - вдруг из-за меня опять кто-то пострадает.",
+      "speaker": "Ormrod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "If you would truly like to help, you should start by talking to him.",
+      "ru": "Если правда хочешь помочь, начни с разговора с ним.",
+      "speaker": "Ormrod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "If I know about mummies? Of course! I've spent my entire life studying them!",
+      "ru": "Знаю ли я что-нибудь о мумиях? Конечно! Я всю жизнь их изучаю!",
+      "speaker": "Achper",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "They usually are very hard to reach, hidden in their tomb... and they don't like being disturbed.",
+      "ru": "До них обычно трудно добраться, они скрываются в своих гробницах... и не любят, когда их тревожат.",
+      "speaker": "Achper",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I have heard of the curse that follows Ormrod, and the only way to remove its effects would be to kill the mummy.",
+      "ru": "Я слышал про проклятие, что тянется за Ормродом. Единственный способ избавиться от него - убить мумию.",
+      "speaker": "Achper",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "The tomb lies in the North of the desert, but be very careful!",
+      "ru": "Гробница находится на севере пустыни, но будь очень осторожен!",
+      "speaker": "Achper",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Mummies aren't known to be weak... especially that one. It's demonic... pure evil, It's easily one of the most powerful specimens I've encountered.",
+      "ru": "Мумии вообще не славятся слабостью... а эта - тем более. Она демоническая... чистое зло. Один из самых мощных экземпляров, что я вообще видел.",
+      "speaker": "Achper",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "On top of that, the Creden Tibus bandit clan have been ransacking the tombs around the desert. You might run into trouble with them, so be prepared.",
+      "ru": "И это ещё не всё - бандитский клан Креден Тибус грабит гробницы по всей пустыне. Можешь столкнуться с ними, так что будь готов.",
+      "speaker": "Achper",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Stop! If you're thinking about looting the tomb, you're too late. The Creden Tibus have laid claim here, and you're not getting past.",
+      "ru": "Стоять! Если решил ограбить гробницу, ты опоздал. Креден Тибус уже объявили это место своим, дальше ты не пройдёшь.",
+      "speaker": "Bandit",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Mummy? Curse? I don't know anything about that, but I can't let you in - how do I know you won't just grab the gold?",
+      "ru": "Мумия? Проклятие? Не знаю я ни о чём таком, но внутрь я тебя не пущу - откуда мне знать, что ты просто золото не утащишь?",
+      "speaker": "Bandit",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Unless... look. I've been waiting to get my hands on some pink wool, and the only shop that sells it has just been restocked.",
+      "ru": "Хотя... слушай. Я уже давно хочу раздобыть немного розовой шерсти, а в единственную лавку, где она продаётся, как раз привезли новую партию.",
+      "speaker": "Bandit",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Trouble is, the shop's over in Rymek and I'm stuck guarding this tomb. If you go and grab me some before it sells out, I can look the other way.",
+      "ru": "Проблема в том, что лавка в Римеке, а я тут застрял на охране этой гробницы. Если сгоняешь и притащишь мне её, пока всё не раскупили, я могу и не заметить, как ты пройдёшь.",
+      "speaker": "Bandit",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "You can take my wagon over there, but you'll have to make your own way back. Give me [1 Pink Wool] and I'll let you through.",
+      "ru": "Можешь взять вон ту мою телегу, но назад уже сам как-нибудь. Дашь мне [1 Pink Wool] - и я тебя пропущу.",
+      "speaker": "Bandit",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Well, whaddya know? You got some Pink Wool! Okay, hand it here and I'll look the other way and let you into the tomb.",
+      "ru": "Ну надо же, и правда достал розовую шерсть! Ладно, давай сюда, и я отвернусь, пока ты будешь заходить в гробницу.",
+      "speaker": "Bandit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Just don't touch any of the gold, hmm? And if I were you, I wouldn't go in too deep.",
+      "ru": "Только золото не трогай, ага? И на твоём месте я бы слишком глубоко не лез.",
+      "speaker": "Bandit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "The clan was going to explore further inside, but the sounds...",
+      "ru": "Клан хотел пройти дальше внутрь, но эти звуки...",
+      "speaker": "Bandit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Anyway, I'll still let you inside if you want. Just remember, if anyone asks, this conversation never happened.",
+      "ru": "Короче, если хочешь, я всё равно тебя пущу. Только запомни - если кто спросит, этого разговора не было.",
+      "speaker": "Bandit",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "As the door opens, a chill runs down your spine as the heat of the desert is sealed behind you...",
+      "ru": "Когда дверь открывается, по спине пробегает холодок - жар пустыни остаётся позади...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You hear the muffled shriek of an evil creature through the door...",
+      "ru": "Сквозь дверь до тебя доносится приглушённый визг какой-то злой твари...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Hello, again... have you had any luck?",
+      "ru": "Снова привет... ну что, получилось что-нибудь?",
+      "speaker": "Ormrod",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Those are the Mummy's bandages?! You did it? My curse is finally lifted!",
+      "ru": "Это что, бинты той самой Мумии?! У тебя вышло? Моё проклятие наконец-то снято!",
+      "speaker": "Ormrod",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "I can't thank you enough! As a reward, take this rag I got from the Mummy when I entered the tomb.",
+      "ru": "Я даже не знаю, как тебя отблагодарить! В награду возьми эту тряпку, что я забрал у Мумии, когда влез в гробницу.",
+      "speaker": "Ormrod",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "I am not strong enough to wear it, but I'm sure you are! Take these emeralds too, that's the least I can do!",
+      "ru": "Я слишком слаб, чтобы такое носить, а вот ты точно справишься! И ещё возьми эти изумруды. Это самое малое, что я могу для тебя сделать!",
+      "speaker": "Ormrod",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "New Quest Started: Wrath of the Mummy",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Гнев мумии",
+      "speaker": "",
+      "stage": "Stage 7"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Ormrod in the desert of Almuj at [980, 72, -1818].",
+      "ru": "Поговорить с Ормродом в пустыне Алмуджа [980, 72, -1818].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to Achper in Almuj about the curse at [872, 70, -1932].",
+      "ru": "Расспросить Ачпера в Алмудже о проклятии [872, 70, -1932].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Attempt to enter the Mummy's tomb at [1048, 85, -2300]",
+      "ru": "Попытаться войти в гробницу мумии [1048, 85, -2300].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Use the bandit's wagon at [1039, 84, -2281] to get to Rymek.",
+      "ru": "Доехать до Римека на повозке бандита [1039, 84, -2281].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Bring back [1 Pink Wool] to the bandit at [1048, 85, -2300].",
+      "ru": "Принести бандиту [1 Pink Wool] [1048, 85, -2300].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Enter the tomb at [1048, 85, -2300] and kill the Mummy.",
+      "ru": "Войти в гробницу и убить мумию [1048, 85, -2300].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Bring [1 Mummy's Bandage] to Ormrod at [980, 72, -1818].",
+      "ru": "Принести Ормроду [1 Mummy's Bandage] [980, 72, -1818].",
+      "stage": "Stage 7"
+    }
+  ],
+  "choices": []
+}

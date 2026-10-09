@@ -1,0 +1,877 @@
+{
+  "quest": "One Thousand Meters Under",
+  "level": 95,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "one-thousand-meters-under",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "'Help Wanted.'",
+      "ru": "\"Требуются помощники.\"",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Hello, welcome to Ynnos' facility.",
+      "ru": "Здравствуйте, добро пожаловать в лабораторию Инноса.",
+      "speaker": "The Secretary",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Oh, you're here about the job vacancy? Well, you're a little late.",
+      "ru": "А, вы по поводу вакансии? Ну, вы слегка припозднились.",
+      "speaker": "The Secretary",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "There might still be time, just sneak in to the conference room behind me.",
+      "ru": "Возможно, ещё не всё потеряно, просто тихонько проскользните в переговорную у меня за спиной.",
+      "speaker": "The Secretary",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "*Ahem* Welcome, everyone.",
+      "ru": "*Кхм* Добро пожаловать, друзья.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I am Ynnos, one of the leading scientists in Gavel. You're here because... Well you read the help wanted sign.",
+      "ru": "Я Иннос, один из ведущих учёных Гавеля. Вы здесь потому что... ну, вы сами читали объявление о наборе.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Allow me to explain the situation we're in. It's a series of unfortunate events. I study the amazing properties of crystals and other geodes.",
+      "ru": "Позвольте объяснить, что случилось. Нас преследует череда неудач. Я изучаю удивительные свойства кристаллов и жеод.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I am funded by a private organization, however that seems to have stopped. So... We had to make cuts in the budget.",
+      "ru": "Мои исследования оплачивает частная организация, но, похоже, она прекратила выделять деньги. Так что... Нам пришлось сократить расходы.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "One of these, was using cheaper rope. While moving the crystal across Ahmsord, well, it snapped. The crystal fell.",
+      "ru": "Например, мы стали пользоваться более дешёвой верёвкой. Когда перевозили кристалл через Амсорд, она... лопнула. Кристалл упал.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I can not stress the value of that crystal. It had many unique properties that are allowing me to understand why the Sky Islands float the way they do.",
+      "ru": "Трудно переоценить ценность того кристалла. Его уникальные свойства помогают мне понять, почему Небесные острова парят в воздухе.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "They hold the very key to restoring this land to being whole once more... But it's gone.",
+      "ru": "В этих свойствах кроется способ вновь сделать эту землю целой... Но кристалл потерян.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Fortunately, I detected an impact. It's hit something down in the void. We're not sure what, however or how deep.",
+      "ru": "К счастью, я засёк удар. Он врезался во что-то внизу, в Бездне. Правда, мы не знаем во что именно и на какой глубине.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Your mission will be to retrieve the crystal in a specially designed ship to withstand the void. We barely scraped it out of the budget, so try to bring it back in one piece.",
+      "ru": "Ваша задача - вернуть кристалл на корабле, специально созданном для путешествий по Бездне. Мы едва наскребли на него денег, так что постарайтесь вернуть его целым.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "If you think you are not up for the challenge, leave now...",
+      "ru": "Если чувствуете, что это вам не по силам, уходите сейчас...",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "When you think you are ready, exit the room behind me and meet me at the dock as soon as possible.",
+      "ru": "Когда будете готовы, выходите через дверь у меня за спиной и как можно скорее подходите к доку.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Attention crew members.",
+      "ru": "Внимание, члены экипажа.",
+      "speaker": "Kantor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "This is the ship's mechanic. There appears to be a fault on the lower deck. I request urgent assistance.",
+      "ru": "Говорит механик корабля. На нижней палубе обнаружена неисправность. Срочно нужна помощь.",
+      "speaker": "Kantor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I wonder what the mechanic is doing?",
+      "ru": "Интересно, чем там механик занимается?",
+      "speaker": "Arlene",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "He has been screaming and crying for a while now. I hope everything is alright down there.",
+      "ru": "Он уже какое-то время орёт и ноет. Надеюсь, внизу всё не так уж плохо.",
+      "speaker": "Arlene",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Ah finally! One of the air pipes has shattered, we need to patch it up ASAP!",
+      "ru": "О, наконец-то! Одна из воздушных труб лопнула, надо срочно её залатать!",
+      "speaker": "Kantor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Quick, head into the room behind me and line up the white glass with the blue blocks. I'll control things from here!",
+      "ru": "Быстро, заходи в комнату позади меня и совмести белое стекло с синими блоками. Я буду управлять отсюда!",
+      "speaker": "Kantor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Oh wow, thanks for the help! You should head up to the resting room and take a nap before we arrive at the first island.",
+      "ru": "Ого, спасибо за помощь! Теперь поднимайся в комнату отдыха и немного поспи, пока мы не доберёмся до первого острова.",
+      "speaker": "Kantor",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "We have encountered out first island, 100m down. Crew members, climb up the ladder and search the island for the crystal.",
+      "ru": "Мы достигли первого острова, глубина 100 метров. Члены экипажа, поднимайтесь по лестнице и обыщите остров в поисках кристалла.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "We've arrived at the next void island.",
+      "ru": "Мы прибыли к следующему острову в Бездне.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "The void islands are really different from Gavel... Or are we still even in Gavel?",
+      "ru": "Острова Бездны совсем не похожи на Гавель... Хотя мы вообще ещё в Гавеле?",
+      "speaker": "Captain Olof",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Anyway, let's explore the island, look for the void crystal, and return to Ahmsord!",
+      "ru": "Ладно, неважно. Исследуем остров, ищем кристалл Бездны и возвращаемся в Амсорд!",
+      "speaker": "Captain Olof",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Oh my, what are these creatures!?",
+      "ru": "О боже, это ещё что за твари!?",
+      "speaker": "Captain Olof",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "They are attacking the windshield in the front room, it looks like it's about to break at any moment!",
+      "ru": "Они долбят по лобовому стеклу в переднем отсеке, оно вот-вот треснет!",
+      "speaker": "Captain Olof",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Quick, you! Come into the cockpit and press on the window to scare them off!",
+      "ru": "Эй, ты! Быстро в кабину и дави на стекло, чтобы их спугнуть!",
+      "speaker": "Captain Olof",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "This is not good, the creatures destroyed part of the windshield.",
+      "ru": "Плохо дело, твари разнесли часть лобового стекла.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "We can't continue much longer with a broken windshield, we'll have to repair it at another island.",
+      "ru": "С разбитым стеклом мы далеко не уйдём, придётся чиниться на следующем острове.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Ynnos said the void has pockets of toxic gas... Go take a nap, I'll wake you up when we're there.",
+      "ru": "Иннос говорил, что в Бездне местами скапливается ядовитый газ... Иди поспи, я разбужу тебя, когда доберёмся.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Attention crew. We have arrived at the second island, 300m down. We cannot progress without making some emergency repairs.",
+      "ru": "Внимание, экипаж. Мы прибыли ко второму острову, глубина 300 метров. Без срочного ремонта дальше не двинемся.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Crew, please disembark and search resources to help repair the ship. We need glass and some kind of glue.",
+      "ru": "Экипаж, высаживайтесь и ищите материалы для ремонта корабля. Нам нужно стекло и какой-нибудь клей.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "The void creatures did heavy damage to our craft, we need to repair the submarine.",
+      "ru": "Твари из Бездны сильно повредили судно. Нужно чинить подводную лодку.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "I'm not sure what we'll find here, but we'll need some glue and glass...",
+      "ru": "Не знаю, что мы тут вообще найдём, но стекло и клей нам нужны точно...",
+      "speaker": "Captain Olof",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I doubt we'll find those exact things, so get resourceful!",
+      "ru": "Сомневаюсь, что найдём это в чистом виде, так что включай смекалку!",
+      "speaker": "Captain Olof",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Bring me [5 Sand Substitutes] and [10 Glue Substitutes], that should be enough.",
+      "ru": "Принеси мне [5 Sand Substitutes] и [10 Glue Substitutes], этого должно хватить.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Ech! What is this stuff? Well, this should do the trick.",
+      "ru": "Фу, что это вообще за дрянь? Хотя ладно, для дела сгодится.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Me and the mechanic will start repairing. It'll take a while, so enter the submarine and rest up.",
+      "ru": "Мы с механиком начнём ремонт. Это займёт время, так что залезай обратно в субмарину и отдохни.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "We'll continue the trip when we've repaired the ship.",
+      "ru": "Продолжим путь, как только закончим чинить корабль.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "This is the mechanic, requesting urgent assistence in the basement!",
+      "ru": "Говорит механик, срочно нужна помощь в нижнем отсеке!",
+      "speaker": "Jesp",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Toxic gas has leaked in through the submarine's vents, someone will have to manually close them.",
+      "ru": "Через вентиляцию в субмарину пошёл ядовитый газ, кому-то придётся вручную перекрыть заслонки.",
+      "speaker": "Jesp",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "I'll control things from here, someone get down to the lowest level and close those vents!",
+      "ru": "Я буду управлять отсюда. Кто-нибудь, спускайтесь на самую нижнюю палубу и закройте вентиляционные люки!",
+      "speaker": "Jesp",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Attention crew. We have arrived at the next island 700m down.",
+      "ru": "Внимание, экипаж. Мы прибыли к следующему острову, глубина 700 метров.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Disembark and start the search for the crystal.",
+      "ru": "Высаживайтесь и начинайте поиски кристалла.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Let's hope it's here... I don't know how much more void my body can handle.",
+      "ru": "Будем надеяться, что он здесь... Я уже не уверен, сколько ещё Бездны выдержит моё тело.",
+      "speaker": "Captain Olof",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Look out! <playername>, we'll build a bridge to the other island whilst you defend us from the mobs!",
+      "ru": "Осторожно! <playername>, мы построим мост к другому острову, а ты защищай нас от чудовищ!",
+      "speaker": "Rex",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Don't die back there!",
+      "ru": "Только не сдохни там!",
+      "speaker": "Manny",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Keep fighting! We're almost halfway to the other side!",
+      "ru": "Продолжай драться! Мы уже почти на полпути!",
+      "speaker": "Jesp",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Almost done!",
+      "ru": "Почти готово!",
+      "speaker": "Arlene",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Hey, the bridge is ready!",
+      "ru": "Эй, мост готов!",
+      "speaker": "Manny",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "We didn't find the crystal here either. Maybe it just fell in the void?",
+      "ru": "И тут кристалла нет. Может, он вообще просто улетел в Бездну?",
+      "speaker": "Rex",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "No, it must have hit an island. The scientist said he detected a collision.",
+      "ru": "Нет, он точно врезался в какой-то остров. Учёный говорил, что засёк столкновение.",
+      "speaker": "Manny",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Wait... What's that sound?",
+      "ru": "Погоди... Что это за звук?",
+      "speaker": "Rex",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "The ropes are snapping! Quick! Abandon ship!",
+      "ru": "Верёвки рвутся! Быстро! Всем покинуть корабль!",
+      "speaker": "Manny",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Whoooooooo are you!?",
+      "ru": "Ктоооо ты такой!?",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "A...HUUUUUUMAN!? In the void?",
+      "ru": "Ч... ЧЕЛОВЕЕЕЕК!? В Бездне?",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Someone dropped a boooook about you people! Warriors! Workers!",
+      "ru": "Кто-то уронил книииигу про вас! Воины! Работяги!",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Ah. Yoooou want to know about this place?",
+      "ru": "А. Тыыы хочешь узнать про это место?",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Well... We were once Villagers. I think we still are, a bit.",
+      "ru": "Ну... когда-то мы были жителями. Наверное, немного ими и остались.",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "For some reason, 1000 years agoooo. The sky islands ruptured.",
+      "ru": "По какой-то причине, тысяяячу лет назад, небесные острова разорвались.",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Some stayed. Others fell. We somehow survived the fall into the vooooid.",
+      "ru": "Одни остались наверху. Другие рухнули. А мы каким-то образом пережили падение в Беееездну.",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "How we have lived for so long, I doooo not know. But one thing we know for sure. The void provides.",
+      "ru": "Как мы прожили так долго, я неее знаю. Но одно мы знаем точно. Бездна снабжает нас всем необходимым.",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "We are stuck here now. The void has forever changed our physiology.",
+      "ru": "Теперь мы застряли здесь. Бездна навсегда изменила нашу физиологию.",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "The crystal yoooou are looking for fell on this island. But...",
+      "ru": "Кристалл, который тыыы ищешь, упал именно на этот остров. Но...",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "We need it. It will aid us for years.",
+      "ru": "Он нужен нам. Он поможет нам ещё долгие годы.",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "We have very limited resources here. That's why a power source like this is soooo valuable.",
+      "ru": "У нас тут очень мало ресурсов. Поэтому такой источник энергии для нас тааак ценен.",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "If you go to the east, you will find Rontaid, our chief scientist. He'll know what to doooo.",
+      "ru": "Если пойдёшь на восток, найдёшь Ронтейда, нашего главного учёного. Он знаааает, что делать.",
+      "speaker": "Celuuse",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "WHAT...WHO...Humans in the void!?",
+      "ru": "ЧТО... КТО... Люди в Бездне!?",
+      "speaker": "Rontaid",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Well, looks like the book we found wasn't fiction after all!",
+      "ru": "Ну, похоже, книга, которую мы нашли, оказалась всё-таки не выдумкой!",
+      "speaker": "Rontaid",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "This crystal is going toooo be our saviour. I was trying to create one of my own, you know.",
+      "ru": "Этот кристалл станет нааашим спасением. Я, между прочим, и сам пытался сделать такой.",
+      "speaker": "Rontaid",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "I think I have the formula, but we don't have what we need to make it.",
+      "ru": "Думаю, формулу я уже вывел, но у нас нет того, что нужно для изготовления.",
+      "speaker": "Rontaid",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Instead of taking this crystal back, why don't I exchange it for the recipe?",
+      "ru": "Вместо того чтобы забирать этот кристалл, давай обменяем его на рецепт?",
+      "speaker": "Rontaid",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "That way, you can make however many crystals youuuu want, and we can keep this one.",
+      "ru": "Тогда ты сможешь сделать столько кристаллов, сколько захооочешь, а этот останется нам.",
+      "speaker": "Rontaid",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Here's the recipe, give it to a scientist or someone a bit...smarter than yourself. No offense.",
+      "ru": "Вот рецепт, отдай его какому-нибудь учёному или кому-то... поумнее тебя. Без обид.",
+      "speaker": "Rontaid",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "A platform was lowered from the surface a while ago at your crash site, as well. If youuuu wish to return, follow this path, I made a shortcut.",
+      "ru": "Ещё к месту вашего крушения недавно спустили платформу с поверхности. Если тыыы хочешь вернуться, иди по этой тропе: я сделал короткий путь.",
+      "speaker": "Rontaid",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "You survived! Where is everyone else?",
+      "ru": "Ты выжил! А где все остальные?",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "I knew some must have died... But all of them?",
+      "ru": "Я понимал, что кто-то мог погибнуть... Но чтобы все?",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Well... At least I don't have to pay them! Hah!",
+      "ru": "Ну... Зато хотя бы им не надо платить! Ха!",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "...That was heartless of me, I'm sorry. The rope we used was too weak to hold you down there.",
+      "ru": "...Это было слишком жестоко с моей стороны, извини. Верёвка, которую мы использовали, оказалась слишком слабой, чтобы удержать вас там.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "My calculations didn't account for the void's physics, it seems.",
+      "ru": "Похоже, я не учёл в расчётах законы Бездны.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "At least we got you back in one piece. You can tell us what happened.",
+      "ru": "Хотя бы тебя самого вернули целым. Теперь расскажи, что там произошло.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Well I'll be damned. I'll start sending post down there! We can work together.",
+      "ru": "Да чтоб меня. Я начну отправлять туда почту! Мы можем сотрудничать.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Better to keep everything that happened here a secret. I don't want to lose what little funding I have. This recipe is genius! Here, take this as well as your money.",
+      "ru": "Лучше держать всё это в секрете. Я не хочу потерять и те жалкие остатки финансирования, что у меня есть. Этот рецепт - просто гениален! Вот, держи это вместе со своей оплатой.",
+      "speaker": "Scientist Ynnos",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Ominous Wind",
+      "ru": "Зловещий ветер",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Employer: Scientist Ynnos.",
+      "ru": "Наниматель: учёный Иннос.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Job Description: Manual labour, exploration, protection.",
+      "ru": "Описание работы: физический труд, исследование, защита.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Reward: Should you survive, 2 LE.",
+      "ru": "Награда: если выживешь, 2 LE.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "It looks like everyone already went inside the submarine.",
+      "ru": "Похоже, все уже зашли внутрь подводной лодки.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "The intercom crackles into life...",
+      "ru": "Переговорное устройство с треском оживает...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Looks like you managed to fix the pipe! You should tell the mechanic.",
+      "ru": "Похоже, тебе удалось починить трубу! Тебе стоит сказать механику.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "The area seems to be filled with junk that has fallen from Ahmsord.",
+      "ru": "Эта местность, похоже, завалена хламом, упавшим с Амсорда.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "The crystal must have fallen deeper.",
+      "ru": "Должно быть, кристалл упал глубже.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "You enter the submarine...",
+      "ru": "Ты входишь в подводную лодку...",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "You successfully protected the windowshield!",
+      "ru": "Ты успешно защитил иллюминатор!",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "You successfully closed the vents in time! Take the ladder back up to the main deck.",
+      "ru": "Ты успешно закрыл вентиляцию вовремя! Поднимись по лестнице обратно на главную палубу.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Looks like the ventilation issue is fixed... maybe you should go and take a nap...",
+      "ru": "Похоже, проблема с вентиляцией решена... может, тебе стоит пойти вздремнуть...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "The crystal you're looking for is purple, not blue.",
+      "ru": "Кристалл, который ты ищешь, фиолетовый, а не синий.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "You probably could've seen that from the other side.",
+      "ru": "Это, наверное, можно было разглядеть и с другой стороны.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Head back into the submarine and keep looking.",
+      "ru": "Возвращайся в подводную лодку и продолжай искать.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "This doesn't look good... You should check the submarine wreck for any survivors.",
+      "ru": "Выглядит скверно... Стоит проверить обломки подлодки: вдруг кто-то выжил.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "This isn't good. You're the only survivor... forget about the crystal, just look for a path out of this place.",
+      "ru": "Дело плохо. Ты единственный выживший... забудь о кристалле, просто ищи выход из этого места.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Looks like the backup team have lowered a crane down to the island, this is your way out!",
+      "ru": "Похоже, резервная команда спустила кран на остров - это твой путь наружу!",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Ahmsord Research facility at [1118, 101, -4520].",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "New Quest Started: One Thousand Meters Under",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Тысяча метров под землёй",
+      "speaker": "",
+      "stage": "Stage 19"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Read the Help Wanted sign in Ahmsord at [1108, 107, -4555].",
+      "ru": "Прочитать объявление о найме в Амсорде [1108, 107, -4555].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to The Secretary at [1121, 101, -4525].",
+      "ru": "Поговорить с секретарём [1121, 101, -4525].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Enter the conference room and listen to the scientist.",
+      "ru": "Войти в зал совещаний и выслушать учёного.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Enter the submarine at [1157, 112, -4552].",
+      "ru": "Войти в подводную лодку [1157, 112, -4552].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Wait for the submarine to arrive at the void islands.",
+      "ru": "Дождаться прибытия к островам Бездны.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Take a nap in the resting room.",
+      "ru": "Вздремнуть в комнате отдыха.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Talk to the captain outside of the submarine.",
+      "ru": "Поговорить с капитаном снаружи подводной лодки.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Explore the island and look for the crystal.",
+      "ru": "Исследовать остров в поисках кристалла.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Return to the submarine and continue your journey.",
+      "ru": "Вернуться в подводную лодку и продолжить путешествие.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Continue your journey.",
+      "ru": "Продолжить путешествие.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Head to the resting room.",
+      "ru": "Отправиться в комнату отдыха.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Meet up with the captain outside the submarine.",
+      "ru": "Встретиться с капитаном снаружи подводной лодки.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Find [5 Sand] and [10 Glue] on the void island.",
+      "ru": "Найти [5 Sand] и [10 Glue] на острове Бездны.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Continue your journey.",
+      "ru": "Продолжить путешествие.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Return to the submarine and continue the journey.",
+      "ru": "Вернуться в подводную лодку и продолжить путешествие.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Find a way out of the void.",
+      "ru": "Найти выход из Бездны.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Talk to Rontaid outside the town at [14144, 118, -4255].",
+      "ru": "Поговорить с Ронтейдом за пределами города [14144, 118, -4255].",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Return to the crash site by following the road.",
+      "ru": "Вернуться к месту крушения по дороге.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Return to the scientist and tell him the news.",
+      "ru": "Вернуться к учёному с новостями.",
+      "stage": "Stage 19"
+    }
+  ],
+  "choices": []
+}

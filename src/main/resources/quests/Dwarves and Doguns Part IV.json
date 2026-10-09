@@ -1,0 +1,489 @@
+{
+  "quest": "Dwarves and Doguns Part IV",
+  "level": 94,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "dwarves-and-doguns-part-iv",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "<playername>... Do you have...the staff? And the amulet...?",
+      "ru": "<playername>... У тебя есть... посох? И амулет...?",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "The war is starting... and Axelus... He has not returned.",
+      "ru": "Война начинается... а Акселус... Он не вернулся.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "We can not go... Not without him. Find him... And bring him to the... Dogun village.",
+      "ru": "Мы не можем уйти... Не без него. Найди его... И приведи в... деревню Догунов.",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I can not leave. The guard...it is on high alert. He was last at Rodoroc...yes?",
+      "ru": "Я не могу уйти. Стража... она сейчас на взводе. В последний раз он был в Родороке... да?",
+      "speaker": "Korzim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "The first group has already started their climb, let's hurry.",
+      "ru": "Первая группа уже начала подъём, надо торопиться.",
+      "speaker": "Soldier",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Hey! Everyone, the king has someone in the cage! It's been years since we used it!",
+      "ru": "Эй! Народ, король кого-то посадил в клетку! Мы не пользовались ей уже много лет!",
+      "speaker": "Rodoroc Citizen",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Wait, that's Axelus up there!! The king locked up his son?! What in the world?",
+      "ru": "Стой, это же Акселус наверху!! Король запер собственного сына?! Что вообще творится?",
+      "speaker": "Rodoroc Citizen",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I heard he was consorting with demons, but that can't possibly be true, can it?",
+      "ru": "Я слышал, он якшается с демонами, но это же не может быть правдой, да?",
+      "speaker": "Rodoroc Citizen",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "For the last time, they are not demons!! Gods, I've been telling you this whole time! Not even my father will listen to reason!",
+      "ru": "Да сколько можно, это не демоны!! Боги, я вам это с самого начала твержу! Даже мой отец не хочет включить голову!",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "If I don't get freed we're doomed, you hear me?! We won't survive another war! As your prince I demand to be freed!",
+      "ru": "Если меня не выпустят, нам всем конец, вы слышите?! Мы не переживём ещё одну войну! Я как ваш принц требую меня освободить!",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Listen, the statues are climbable and there's a control panel for the lava siphons near them! Now help me so we all don't die!",
+      "ru": "Слушайте, по статуям можно взобраться. Рядом с ними есть панель управления лавовыми сифонами! Помогите мне, пока мы тут все не погибли!",
+      "speaker": "Axelus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Wait, that human just defaced the hero's monument!! Are they working with the demons too?",
+      "ru": "Погодите, этот человек только что испортил памятник герою!! Он тоже с демонами заодно?",
+      "speaker": "Rodoroc Citizen",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "<playername>! I didn't think you'd be back, but we need to leave, now! Meet me outside!",
+      "ru": "<playername>! Не думал, что ты вернёшься, но надо уходить, немедленно! Встретимся снаружи!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "<playername>! Over here, to the right! By the cannon! I'm commandeering this thing.",
+      "ru": "<playername>! Сюда, направо! К пушке! Забираю эту штуку себе.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "We need to get up to the Doguns before the Dwarves begin their assault, or before the Doguns take their last resort.",
+      "ru": "Нам надо добраться до Догунов раньше, чем дварфы пойдут в атаку, или раньше, чем сами Догуны решатся на крайний шаг.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Get in the cannon, now! You've got your armour, you might end up charred and covered in soot but you'll be fine!",
+      "ru": "Полезай в пушку, живо! Броня на тебе есть, может, слегка обуглишься и будешь весь в саже, но переживёшь!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Don't tell anyone we shot ourselves out of a cannon, I'll never live it down. Now come on, to the Dogun village, hurry!",
+      "ru": "Только никому не рассказывай, что мы выстрелили собой из пушки, а то я этого позора никогда не переживу. Всё, давай, в деревню Догунов, быстро!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "If the Doguns are taking their last resort and summoning Garaheth, then we've got two sides to stop at once...basically, the odds are astronomically against us.",
+      "ru": "Если догуны прибегнут к последнему средству и призовут Гарахета, придётся остановить обе стороны сразу... Короче, шансов у нас почти нет.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "That means you do what you need to do, no matter what. Understood? If we can stop this madness then the casualties won't have died for nothing! Now move!",
+      "ru": "Значит, делай всё необходимое, несмотря ни на что. Понял? Если остановим это безумие, павшие погибли не напрасно! Вперёд!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "A hole in the wall has been opened...",
+      "ru": "В стене открылся проход...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "WAIT, STOP THE-",
+      "ru": "СТОЙ, ОСТАНОВИТЕ-",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Quiet. Dwarven whelp...you have failed... We will not go quietly. AWAKEN.",
+      "ru": "Тихо. Дварфийский щенок... ты ничего не добился... Мы не сдадимся без боя. ПРОБУДИСЬ.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "I can't believe this... That bone was part of the ritual?! Agh, how could we have been so STUPID! You're all lucky we prepared for this!!",
+      "ru": "Не могу поверить... Та кость была частью ритуала?! Агрх, какими же мы были ИДИОТАМИ! Вам всем повезло, что мы к этому готовились!!",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You need to get inside him. He's still chained! The amulet will protect you from the heat! Freeze him from the inside out!!",
+      "ru": "Тебе нужно залезть внутрь него. Он всё ещё прикован! Амулет защитит тебя от жара! Заморозь его изнутри!!",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "EVERYONE, STOP THIS! RIGHT NOW!! IT'S OVER!!",
+      "ru": "ВСЕ, ПРЕКРАТИТЕ ЭТО! НЕМЕДЛЕННО!! ВСЁ КОНЧЕНО!!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Open your eyes for once in your lives!! You see that?! Behind me! THAT was going to be the end result!",
+      "ru": "Да откройте вы уже глаза хоть раз в жизни!! Видите это?! У меня за спиной! ВОТ чем всё должно было кончиться!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Garaheth would have killed every one of us, damn it! Are you that short-sighted that you can't see this?!",
+      "ru": "Гарахет перебил бы нас всех, чёрт возьми! Вы неужели настолько слепы, что этого не видите?!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Everyone here is to blame, except the human who helped stop this! The Doguns were already exiled, they wouldn't have hurt anyone!",
+      "ru": "Здесь виноваты вообще все, кроме человека, который помог это остановить! Догуны и так уже были изгнаны, они бы никого не тронули!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "But we couldn't just let ANYTHING be! You always need more glory, more, more, MORE! Don't you, Draani? I'm ashamed to be your lineage!",
+      "ru": "Но мы же не можем НИЧЕГО оставить в покое! Вам всё мало славы, ещё, ещё, ЕЩЁ! Правда, Драани? Мне стыдно быть твоим сыном!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "And you, Doguns! I...I pitied you. You were wronged, but you resort to this? You'd doom the world over to spite the Dwarves? Is that it?!",
+      "ru": "А вы, догуны! Я... я вас жалел. С вами обошлись несправедливо, но вы решились на это? Готовы погубить весь мир, лишь бы насолить дварфам? Так?!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Whelp. You do not understand. To be persecuted...and see your people tortured...hunted.",
+      "ru": "Щенок. Ты не понимаешь. Когда тебя гонят... когда видишь, как твой народ мучают... как на него охотятся...",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "You all deserve it! You attacked our ancestors for sport! Eye for an eye, have you heard of it? It's only fair!",
+      "ru": "Вы все этого заслужили! Вы ради забавы нападали на наших предков! Слышали про глаз за глаз? Всё по справедливости!",
+      "speaker": "Dwarven Commander",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Imbeciles...your stories are not true. We... We lived through the war. You took everything...and suffered none.",
+      "ru": "Глупцы... ваши истории лживы. Мы... Мы пережили ту войну. Вы отняли у нас всё... и не пострадали сами.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "I've been trying to tell BOTH of you that the monarchy has been spreading lies for centuries! One bad king doesn't mean the whole species is a loss!",
+      "ru": "Я пытался объяснить ОБЕИМ сторонам, что монархия веками распространяла ложь! Один плохой король не значит, что весь народ безнадёжен!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Shut your mouth. Even now...you trample on the bones of our god... You have taken everything from us...",
+      "ru": "Закрой рот. Даже сейчас... вы топчете кости нашего бога... Вы забрали у нас всё...",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "This earth is stained by you. We...we shall burn you...and scatter your ash to the wind.",
+      "ru": "Эта земля запятнана вами. Мы... мы сожжём вас... и развеем ваш пепел по ветру.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "DON'T YOU DARE! STOP, RIGHT NOW!",
+      "ru": "ДАЖЕ НЕ ДУМАЙ! ПРЕКРАТИ, СЕЙЧАС ЖЕ!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Axelus!",
+      "ru": "Акселус!",
+      "speaker": "Korzim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "...he..",
+      "ru": "...он..",
+      "speaker": "Korzim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "You would... You would kill a savior...?",
+      "ru": "Вы... Вы убили бы спасителя...?",
+      "speaker": "Korzim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "No, no! No no no, this can't be happening! H-Hang on, we'll save you, I...I'll do something, I...",
+      "ru": "Нет, нет! Нет нет нет, этого не может быть! П-подожди, мы тебя спасём, я... я что-нибудь сделаю, я...",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Y-You DEMONS! MONSTERS! I'll avenge you, Axelus, j-just give me time-",
+      "ru": "В-Вы ДЕМОНЫ! ЧУДОВИЩА! Я отомщу за тебя, Акселус, т-только дай мне время-",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "AGH, SHUT UP! SHUT...ack... Q-Quiet. Listen to one damn word from my mouth, Draani... For once in your miserable life",
+      "ru": "АХ, ЗАТКНИСЬ! ЗАТК... кх... Т-тихо. Послушай хоть одно моё слово, чёрт возьми, Драани... Хоть раз за свою жалкую жизнь",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Tell. The. TRUTH!! G-gaagh...you know that's th...the only way to stop this. Swallow your pride, you...old fool...",
+      "ru": "Скажи. Всем. ПРАВДУ!! Г-гаах... ты знаешь, что это... это единственный способ всё остановить. Переступи через свою гордость, ты... старый дурак...",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I...I... Axelus... He...he called me Draani...why did...?",
+      "ru": "Я... я... Акселус... Он... он назвал меня Драани... почему...?",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Men, stand down. This... This war is over! I will not have one more life lost! Touch the Doguns and I'll personally behead you!",
+      "ru": "Солдаты, отбой. Эта... Эта война окончена! Я не допущу больше ни одной смерти! Тронете догунов - лично отрублю вам головы!",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Chief, I...I ask of you but an hour of your time. If you are willing to negotiate...",
+      "ru": "Вождь, я... я прошу у тебя всего час. Если ты готов говорить...",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "A few hours later...",
+      "ru": "Несколько часов спустя...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Ah, you've arrived. I...actually remember you from earlier. So you and...",
+      "ru": "А, ты пришёл. Я... вообще-то помню тебя ещё с того раза. Значит, ты и...",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "A-and...",
+      "ru": "И... и...",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...you knew my son. Were helping him try to put an end to this, before everything was too far gone. Heh...apologies, for that.",
+      "ru": "...ты знал моего сына. Помогал ему остановить это, пока ещё не стало слишком поздно. Хех... прости меня за тот раз.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Paku and I have had a long discussion about the wisdom of youth over the old. You all were right. I needed to swallow my pride.",
+      "ru": "Мы с Паку долго говорили о том, что молодые порой мудрее стариков. Вы все были правы. Мне нужно было переступить через свою гордость.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "We agreed upon a peace treaty... A new city... The Dwarves will aid us in building it.",
+      "ru": "Мы договорились о мире... О новом городе... Дварфы помогут нам его построить.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "All hostilities...will end. My people will...be free to roam the caverns. It has been...too long.",
+      "ru": "Вся вражда... закончится. Мой народ... снова сможет свободно ходить по пещерам. Мы ждали этого... слишком долго.",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "And the entombed Doguns at Courag will be reconstituted, as well, supposing that is a possibility.",
+      "ru": "И Догуны, погребённые в Кураге, тоже будут восстановлены, если это вообще возможно.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Every king, since my so-far-great grandfather, Draani Thunderwill, has battled with their morality over the lies told to my people.",
+      "ru": "Каждый король, начиная с моего далёкого предка Драани Громовола, терзался из-за лжи, которой кормили мой народ.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "It ends here, with the name Draani VIII. It will take time, but the bloodshed has proven things must begin to change now.",
+      "ru": "На мне, Драани 8, это закончится. Потребуется время, но пролитая кровь доказала: перемены должны начаться сейчас.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "You and the coalition have saved the Heights, and Gavel. In Maex, you will find a stall to trade valuable minerals. You will be granted special Dwarven privileges to purchase it now.",
+      "ru": "Ты и коалиция спасли Высоты и Гавель. В Маэксе есть лавка ценных минералов. Теперь ты сможешь покупать их по особой привилегии дварфов.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Though that is...almost certainly not enough a reward for everything you have done...sincerely. Thank you, Wynn soldier.",
+      "ru": "Хотя это... почти наверняка слишком малая награда за всё, что ты сделал... Искренне благодарю тебя, солдат Винна.",
+      "speaker": "King of Rodoroc",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "We...we have nothing left... We could have...taken them with us... Now they will...will... You...!",
+      "ru": "Мы... у нас больше ничего не осталось... Мы могли бы... забрать их с собой... Теперь они... они... Ты...!",
+      "speaker": "Dogun Chieftain",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "New Quest Started: Dwarves and Doguns Part IV",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Дварфы и догуны, часть IV",
+      "speaker": "",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Return to Korzim on the second floor of the enchanter in Maex with the Amulet of Fire Resistance and the Staff of True Ice.",
+      "ru": "Вернуться к Корзиму на второй этаж дома зачарователя в Маэксе с амулетом огнестойкости и посохом Истинного льда.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Head to Rodoroc and look for Axelus.",
+      "ru": "Отправиться в Родорок и найти Акселуса.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Free Axelus and escape the city.",
+      "ru": "Освободить Акселуса и сбежать из города.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Reach the portal and stop Garaheth.",
+      "ru": "Добраться до портала и остановить Гарахета.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Enter the body of Garaheth.",
+      "ru": "Войти внутрь тела Гарахета.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find all 4 organs and destroy them.",
+      "ru": "Найти и уничтожить все 4 органа.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Leave Garaheth and exit his realm.",
+      "ru": "Выбраться из Гарахета и покинуть его мир.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Speak with the King of Rodoroc and the Dogun Chieftain.",
+      "ru": "Поговорить с королём Родорока и вождём догунов.",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": []
+}

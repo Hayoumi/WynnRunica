@@ -1,0 +1,1370 @@
+{
+  "quest": "Recipe For Disaster",
+  "level": 96,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "recipe-for-disaster",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ah, bonjour! Welcome to my restaurant, allow me to lead you to your seat-",
+      "ru": "А, бонжур! Добро пожаловать в мой ресторан, позвольте проводить вас к столику-",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Oh do my eyes deceive me? Serais-ce possible?!",
+      "ru": "О, неужели глаза меня обманывают? Неужто это возможно?!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "It is you... the novice soldier turned hero of legends! Who would have thought?!",
+      "ru": "Это же ты... молодой солдат, ставший героем легенд! Кто бы мог подумать?!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I have heard tales of your exploits across the lands, mon ami! Je suis honore! Someone like you sitting in my restaurant!",
+      "ru": "Я слышал истории о твоих подвигах по всем землям, мон ами! Для меня это честь! Такой человек - и у меня в ресторане!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Je suis, bien sur... Le Chef Hamsey! Famed across the lands for my flavors, as you are for your weapon!",
+      "ru": "Я, разумеется... шеф Хэмси! Мои блюда славятся по всем землям, как и твоё оружие!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I boast, I boast. Je peu t'offrir un plat... but perhaps I have a different proposition for us both.",
+      "ru": "Хвастаюсь, хвастаюсь. Я мог бы просто накормить тебя... но, возможно, у меня есть для нас обоих предложение получше.",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "You may have mastered the art of battle, my friend, but what of... L'Art de la Cuisine?!",
+      "ru": "Ты, может, и овладел искусством боя, мой друг, но что насчёт... кулинарного искусства?!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Follow me into the kitchen behind me, and I will tell you more.",
+      "ru": "Иди за мной на кухню, что у меня за спиной, и я всё объясню.",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Welcome to my kitchen! C'est beau, non?",
+      "ru": "Добро пожаловать на мою кухню! Красота же, а?",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "It may be on fire, but... que serais la Cuisine sans une touche de danger, eh?!",
+      "ru": "Она, может, и горит местами, но... какая кухня без щепотки опасности, а?!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "So, back to the challenge. What do you say to a bit of friendly competition, hehe?",
+      "ru": "Так, вернёмся к делу. Что скажешь насчёт небольшой дружеской кулинарной дуэли, хехе?",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "You can work with one of my three best chefs on a dish and present it to me once you're done!",
+      "ru": "Ты можешь выбрать одного из трёх моих лучших поваров, приготовить с ним блюдо и потом принести его мне!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I, of course, will judge your dish based on the twenty-nine Principes de Cuisine - texture, presentation, originality...",
+      "ru": "А я, само собой, буду оценивать твоё блюдо по двадцати девяти кулинарным принципам - текстура, подача, оригинальность...",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "... aroma, magical ability... oh, and flavour!",
+      "ru": "... аромат, магические свойства... ах да, и вкус!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "S'il te plait! Go introduce yourself to each of my chefs and return once you have decided who to work with!",
+      "ru": "Прошу! Иди познакомься с каждым из моих поваров и возвращайся, когда решишь, с кем работать!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Heya! You must be the adventurer that Hamsey told me about. You know, he was almost ecstatic, but don't tell him I said that!",
+      "ru": "Приветик! Ты, наверное, тот самый искатель приключений, о котором мне Хэмси рассказывал. Он, между прочим, чуть ли не пищал от радости, только ты ему не передавай!",
+      "speaker": "Brie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Oh, a cook-off? How exciting! I'll gladly help you out. Maybe this way I can prove myself a bit more to the others...?",
+      "ru": "О, кулинарная дуэль? Как круто! Я с радостью помогу. Может, так я смогу хоть немного доказать остальным, чего стою...?",
+      "speaker": "Brie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "If we work together, we can make a Seasoned Voidroot Stew, how does that sound?",
+      "ru": "Если будем работать вместе, можем приготовить приправленное рагу из корня Бездны. Как тебе?",
+      "speaker": "Brie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "You need to talk to the other chefs before deciding what to make, though!",
+      "ru": "Но прежде чем решать, тебе всё равно надо поговорить и с другими поварами!",
+      "speaker": "Brie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Good friend of Hamsey's, are you? I'll believe it when - no, if - you somehow win this competition.",
+      "ru": "Так ты, значит, хороший друг Хэмси? Поверю, когда - нет, если - ты каким-то чудом выиграешь это соревнование.",
+      "speaker": "Kale",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "I don't need any amateurs like yourself getting in my way when I'm cooking up a storm!",
+      "ru": "Мне не нужны дилетанты вроде тебя под ногами, когда я творю кулинарные шедевры!",
+      "speaker": "Kale",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Are you still here? Just... go chitchat to someone else, please.",
+      "ru": "Ты всё ещё тут? Просто... иди поболтай с кем-нибудь другим, пожалуйста.",
+      "speaker": "Kale",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Yo, dawg. Name's Frank. Hamsey said you guys go waaay back. Any friend of Hamsey's is good with me, man.",
+      "ru": "Здорово, брат. Я Фрэнк. Хэмси сказал, что вы дааавно знакомы. Друг Хэмси - мой друг, приятель.",
+      "speaker": "Frank",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Nothin' too sure on what we're gonna cook yet, figure I'll dream somethin' up before the time comes.",
+      "ru": "Пока ещё не до конца решил, что именно мы будем готовить, но что-нибудь придумаю по ходу.",
+      "speaker": "Frank",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Thinkin' a pie, maybe? Not too much effort there, can't go far wrong, right?",
+      "ru": "Думаю, может, пирог? Возни не так много, а накосячить трудно, верно?",
+      "speaker": "Frank",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "You've talked to all three chefs, you should check back with Hamsey.",
+      "ru": "Ты поговорил со всеми тремя поварами, теперь можно вернуться к Хэмси.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Ah, you have introduced yourself to tous mes cuisiners? Who do you want to work with?!",
+      "ru": "Ах, ты уже познакомился со всеми моими поварами? Так с кем же ты хочешь работать?!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Which chef do you want to cook with?",
+      "ru": "С каким поваром ты хочешь готовить?",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Brie",
+      "ru": "Бри",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Kale",
+      "ru": "Кейл",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Frank",
+      "ru": "Фрэнк",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Maitenant, mon ami, head over to your chef and start cooking!",
+      "ru": "А теперь, мон ами, иди к своему повару и начинай готовить!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Heya again! So you decided to make the Seasoned Voidroot Stew with me? Hurray!",
+      "ru": "Снова приветик! Значит, решил готовить рагу из корня Бездны со мной? Ура!",
+      "speaker": "Brie",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "It's not quite as easy as it might seem, but I think together we'll be able to handle it.",
+      "ru": "Это не так уж легко, как может показаться, но думаю, вдвоём мы справимся.",
+      "speaker": "Brie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Like I said before, about proving myself... I'm the newest chef here at the kitchen and some of the other chefs disapprove of my ideas. This could be my chance!",
+      "ru": "Как я и говорила, мне надо себя показать... Я недавно работаю на этой кухне, и некоторые из остальных не в восторге от моих идей. Это мой шанс!",
+      "speaker": "Brie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "I've been perfecting the recipe for Voidroot Stew for months now and I finally have a chance to show everyone what I'm worth!",
+      "ru": "Я месяцами доводила рецепт рагу из корня Бездны до ума, и вот наконец у меня есть шанс показать всем, чего я стою!",
+      "speaker": "Brie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "The first one is some [Snail Slime] available on Snail Island! We only need one for this dish.",
+      "ru": "Первое, что нужно - это [Улиточная слизь] с Улиточного острова! Для блюда хватит одной порции.",
+      "speaker": "Brie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Next up, we need some [Voidroot], a super rare root found deep in the Void. I've heard someone in the Sky Islands can take you down there.",
+      "ru": "Дальше нужен [Корень Бездны], очень редкий корень, который растёт глубоко в Бездне. Я слышала, что кто-то на Небесных островах может спустить тебя туда.",
+      "speaker": "Brie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Lastly, we need some [Moonsalt], which is famously hard to obtain. Luckily, self-proclaimed 'Space Wizard' Astralaus should have some, so you can just pop over to his tower and ask for some!",
+      "ru": "И напоследок нужна [Лунная соль], а её, как известно, добыть очень непросто. Но, к счастью, у самопровозглашённого \"космического волшебника\" Астралуса она вроде есть, так что можешь просто заскочить к нему в башню и попросить немного!",
+      "speaker": "Brie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "And that should do it! I'll give you a Recipe Book, just right-click to open it up and track your ingredients. Good luck!",
+      "ru": "И этого должно хватить! Держи книгу рецептов. Открой её правой кнопкой мыши, чтобы посмотреть, какие ингредиенты нужны. Удачи!",
+      "speaker": "Brie",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "[+1 Recipe Book]",
+      "ru": "[+1 Recipe Book]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Ugh. Stay out of my way, and we'll get along just fine.",
+      "ru": "Уф. Не мешайся под ногами, и сработаемся без проблем.",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Make yourself useful and get me everything we need. I'm not in the mood for chit-chat.",
+      "ru": "Приноси всё, что нам нужно, и не трать моё время на болтовню.",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "I don't want my reputation tarnished by the likes of you...",
+      "ru": "Я не хочу, чтобы мою репутацию портили такие, как ты...",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Listen up, I'm *not* going to say this again. Take notes.",
+      "ru": "Слушай внимательно, повторять я *не* собираюсь. Записывай.",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "The key ingredient in my amazing omelette is obviously the [Blue-Ring Grook Egg], which of course you didn't know.",
+      "ru": "Главный ингредиент моего восхитительного омлета - очевидно, [Яйцо синекольцевого грука], хотя ты, конечно, этого не знал.",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Secondly what we need is some [Snail Slime], which is at Snail Island, obviously. Any seasoned chef could tell you that.",
+      "ru": "Во-вторых, нам нужна [Улиточная слизь], которая добывается на Улиточном острове. Любой опытный повар это знает.",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Lastly you need a [Talking Mushroom] which is found on the swamp Sky Island, provided you have a functioning sense of sight.",
+      "ru": "И напоследок нужен [Говорящий гриб], который растёт на болотном Небесном острове - если у тебя, конечно, зрение работает.",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "YOU FORGOT ALREADY?? I TOLD YOU TO TAKE NOTES!",
+      "ru": "ТЫ УЖЕ ЗАБЫЛ?? Я ЖЕ СКАЗАЛ ЗАПИСЫВАТЬ!",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Lucky for you, at least one of us here is competent. I wrote everything down in this recipe book. Right-click to open it. Now get me my ingredients and scram!",
+      "ru": "Повезло тебе, что хотя бы один из нас знает своё дело. Я всё записал в эту книгу рецептов. Открой её правой кнопкой мыши. А теперь принеси мне ингредиенты и убирайся!",
+      "speaker": "Kale",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Thrilled to be workin' with you, dude! We'll blow Hamsey's mind.",
+      "ru": "Рад с тобой поработать, чувак! Мы Хэмси просто крышу сорвём.",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Hmmm, now what kinda pie should we be bakin', here?",
+      "ru": "Хммм, ну и какой пирог мы будем печь?",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Well, I might be a lil' lazy, but when it comes to cookin', I've got the eye. And to me, dude? You look like a real Skyhigh Pie kind of guy! Heheh.",
+      "ru": "Ну да, я слегка ленивый, но когда дело доходит до готовки, нюх у меня есть. И мне кажется, чувак, ты прям создан для небесного пирога! Хехех.",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Welp, guess you know how to cook up a simple Skyhigh Pie, right? Off you go, I'll be waiting here when you have the ingredients.",
+      "ru": "Ну, думаю, простой небесный пирог ты и сам умеешь делать, да? Дуй тогда, а я подожду тут, пока не соберёшь ингредиенты.",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Hehe, just messin' with you, man! Shoulda seen your face.",
+      "ru": "Хехе, да я прикалываюсь, чувак! Ты бы видел своё лицо.",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "First, we're gonna need some kinda flour. A lil' [Sunrise Flour] aughtta do.",
+      "ru": "Сначала нам нужна какая-нибудь мука. Немного [Рассветной муки] вполне хватит.",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "A good-sized [Blue-Ring Grook Egg] should give us a lil' kick. Not as much as those grooks'll give you a kick if they see you pilfering their eggs, though!",
+      "ru": "Увесистое [Яйцо синекольцевого грука] придаст пирогу характер. Но груки свой характер покажут куда ярче, если поймают тебя на краже яиц!",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Finally, the secret ingredient - A [Skyhigh Raspberry]. Real good stuff, but it's a fair way out. Guess a lil' walking never hurt anyone, huh? Not that I've ever bothered.",
+      "ru": "И наконец секретный ингредиент - [Небесная малина]. Отличная штука, но путь до неё неблизкий. Прогулка ещё никому не вредила, а? Сам-то я, правда, ходьбой не утруждался.",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Huh, you've got a bad memory? Yeah, me too, man. Here's a Recipe Book, just right-click to open it up and check where to grab the ingredients!",
+      "ru": "Чё, память плохая? Да у меня тоже, брат. Держи книгу рецептов, просто открой ПКМ и смотри, где что достать!",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Return here once you've got them all. Peace out, dude!",
+      "ru": "Возвращайся, как всё соберёшь. Бывай, брат!",
+      "speaker": "Frank",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "The recipe book says voidroot only grows in complete darkness... better start looking around.",
+      "ru": "В книге рецептов сказано, что корень Бездны растёт только в полной темноте... стоит осмотреться.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "It's some kind of cargo that's fallen from above... there's a distinct smell of fresh cookies coming from inside.",
+      "ru": "Это какой-то груз, упавший сверху... изнутри отчётливо пахнет свежим печеньем.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "These eggs look almost... furry? It's probably best to leave them alone.",
+      "ru": "Эти яйца выглядят почти... пушистыми? Пожалуй, лучше их не трогать.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "It's a strange grey fruit that's cold and dry to the touch... not the voidroot you're looking for though.",
+      "ru": "Это странный серый плод, холодный и сухой на ощупь... но точно не тот корень Бездны, который ты ищешь.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "It's some kind of purple orb, pulsating with an otherworldly light. Maybe best not to touch.",
+      "ru": "Это какой-то фиолетовый шар, пульсирующий потусторонним светом. Пожалуй, лучше не трогать.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "A... sword? In a pool of blood? It seems to have landed pretty neatly though.",
+      "ru": "Меч...? В луже крови? Хотя упал он, надо признать, довольно аккуратно.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "A label on the side reads ℂ𝕠𝕣𝕜𝕚𝕒𝕟 𝕄𝕦𝕣𝕕𝕖𝕣 𝔹𝕠𝕥. You probably shouldn't get too close to it.",
+      "ru": "На боковой наклейке написано \"Коркианский робот-убийца\". Наверное, лучше не подходить слишком близко.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Dusty grey texture? Desaturated green leaves? Ever-growing sense of all-encompassing dread? Matches the recipe book description perfectly!",
+      "ru": "Пыльно-серая поверхность? Блекло-зелёные листья? С каждым мгновением страх всё сильнее захватывает тебя? Полностью совпадает с описанием из книги рецептов!",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "[+1 Voidroot]",
+      "ru": "[+1 Voidroot]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Looks like this is that \"Space Wizard\"'s tower... you should start looking around for some Moonsalt.",
+      "ru": "Похоже, это башня того самого \"космического волшебника\"... стоит поискать здесь немного лунной соли.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Welcome to Astralus' Astral House! Can you get to the top by flipping gravity?",
+      "ru": "Добро пожаловать в Астральный дом Астралуса! Сможешь добраться наверх, переворачивая гравитацию?",
+      "speaker": "Astralus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Astronomical progress! But this is just the beginning!",
+      "ru": "Астрономический прогресс! Но это только начало!",
+      "speaker": "Astralus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "...And why did you come to my tower?",
+      "ru": "...И зачем ты пришёл в мою башню?",
+      "speaker": "Astralus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "My Moonsalt? How absurd! I collected mine myself, you collect yours! It's only fair.",
+      "ru": "Моя [Лунная соль]? Какая нелепость! Я свою добыл сам, вот и ты добудь свою. Всё честно.",
+      "speaker": "Astralus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Darn humans, you never listen! I said... Get. It. Yourself.",
+      "ru": "Чёртовы люди, вы вообще не слушаете! Я сказал... Достань. Сам.",
+      "speaker": "Astralus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "What takes you here, strangeling? What namings do you have? Hu-man? We claim Humyn! Bad choose, pick elsewhere strangeling!",
+      "ru": "Что приводит тебя сюда, чужак? Как себя зовёшь? Че-ловек? Мы - челавеки! Плохой выбор, выбери другое, чужак!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Investigating for helping? How many conveniences! Humyns requires assistancing! You observers, humyns failflies into large crater-rock!",
+      "ru": "Исследуешь, чтобы помогать? Как удобно! Челавекам нужна помощь! Смотри сюда, челавеки бухнулись в большой кратер-камень!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Burnmilk run out and one direction to retrieve it is moonsalt! We strike lucknugget and discover moonsalt on crater-rock!",
+      "ru": "Горючмолоко закончилось, а один путь вернуть его - лунносоль! Мы ударили удачекусок и нашли лунносоль на кратер-камне!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Refined moonsalt gives burnmilk for spacezoom! Inconveniencing, spacezoom destroyed. Humyns create miniscule Spacezoom!",
+      "ru": "Очищенная лунносоль даёт горючмолоко для космозума! Неудобство - старый космозум уничтожен. Челавеки сделали крошечный космозум!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Only singular humyn can fit in current spacezoom. If strangeling helps humyns will let strangeling in spacezoom. Humyns can create new spacezoom in given time!",
+      "ru": "В нынешний космозум помещается только один челавек. Если чужак поможет, челавеки пустят чужака в космозум. Потом челавеки сделают новый!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Humyns currently residing on crater-rock, meaning waiting is not result of death!",
+      "ru": "Челавеки сейчас живут на кратер-камне, так что подождать - не значит умереть!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Moonsalt discovered in saltcave in north, strangeling follow path!",
+      "ru": "Лунносоль найдена в солепещере на севере, чужак, иди по тропе!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Just [1 Unrefined Moonsalt] need for burnmilk, strangeling can grab any left over!",
+      "ru": "[1 Unrefined Moonsalt] хватит для горючмолока, всё лишнее чужак может забрать себе!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "When strangeling has moonsalt, refine at device beside humyn and go zoom in spacezoom!",
+      "ru": "Когда чужак добудет лунносоль, очищай её на устройстве рядом с челавеком и потом зум в космозум!",
+      "speaker": "Regular Humyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "It looks like this is the Moonsalt Cave... you should head deeper to find some salt.",
+      "ru": "Похоже, это Пещера Лунной Соли... чтобы найти соль, надо пройти глубже.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Run away!",
+      "ru": "Беги!",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "You've secured some Unrefined Moonsalt, time to head back to the village and your way home.",
+      "ru": "Ты добыл немного неочищенной лунной соли, пора возвращаться в деревню и домой.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "You've managed to refine the moonsalt into some kind of fuel, you should head over to the spaceship now.",
+      "ru": "Тебе удалось переработать лунную соль в какое-то топливо, теперь стоит идти к кораблю.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "[+1 Burnmilk Fuel]",
+      "ru": "[+1 Burnmilk Fuel]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "[+1 Leftover Moonsalt]",
+      "ru": "[+1 Leftover Moonsalt]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "You fill the ship up with the burnmilk and press the button on the control panel that is helpfully labeled \"TRAVEL SPACEZOOM\".",
+      "ru": "Ты заливаешь в корабль горючмолоко и жмёшь кнопку на панели управления, на которой очень кстати написано \"ПОЛЁТ НА КОСМОЗУМЕ\".",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Looks like you're safely back in the Sky Islands, and with some Moonsalt to boot!",
+      "ru": "Похоже, ты благополучно вернулся на Небесные острова, да ещё и с запасом [Лунной соли]!",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Hello aaand welcome to the Racetrack of the Century!",
+      "ru": "Привееет и добро пожаловать на Гонку Века!",
+      "speaker": "Snail Race Supervisor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "One winner, one loser. And Usnail Bolt eats losers for breakfast.",
+      "ru": "Один победитель, один проигравший. А Уснейл Болт завтракает проигравшими.",
+      "speaker": "Snail Race Supervisor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Breakfast? Wait, did I have breakfast? A little breckkie could be good fo-",
+      "ru": "Завтрак? Погоди, а я сам завтракал? Сейчас бы перекусить, это было бы очень кста-",
+      "speaker": "Snail Race Supervisor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "The announcer seems to lose his train of thought",
+      "ru": "Похоже, ведущий потерял нить мысли",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Well, no matter. What do you say, adventurer? Enter the race against Usnail Bolt. The grand prize is some Snail Slime!",
+      "ru": "Ну и ладно. Что скажешь, искатель приключений? Выходи на гонку против Уснейла Болта. Главный приз - немного улиточной слизи!",
+      "speaker": "Snail Race Supervisor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Would you like to race Usnail Bolt?",
+      "ru": "Хочешь посоревноваться с Уснейлом Болтом?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Join the Race",
+      "ru": "Участвовать в гонке",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Refuse",
+      "ru": "Отказаться",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Well well well... looks like Usnail Bolt has won this one. Again.",
+      "ru": "Ну надо же... похоже, Уснейл Болт снова победил. Опять.",
+      "speaker": "Snail Race Supervisor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Not your lucky day, human. Oh well, you know the price for losing. Guards!",
+      "ru": "Не твой день, человек. Ну ладно, цену проигрыша ты знаешь. Охрана!",
+      "speaker": "Snail Race Supervisor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "You've clearly won the race, but everyone seems to be waiting for Usnail Bolt to finish as well...",
+      "ru": "Ты явно выиграл гонку, но все почему-то всё равно ждут, пока Уснейл Болт доберётся до финиша...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Wowee! In what turned out to be an amazing race, the human has managed to steal the lead right out from Usnail Bolt's nose!",
+      "ru": "Вау! В невероятной гонке человек сумел вырвать лидерство прямо из-под носа у Уснейла Болта!",
+      "speaker": "Snail Race Supervisor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Here, human. Take this slime as your prize.",
+      "ru": "Держи, человек. Вот тебе эта слизь в качестве приза.",
+      "speaker": "Snail Race Supervisor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "[+1 Snail Slime]",
+      "ru": "[+1 Snail Slime]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "ISN'T THIS JUST ABSOLUTELY FANTASTIC. A HUMAN?! WHO WOULD HAVE GUESSED.",
+      "ru": "НУ ПРОСТО ЗАМЕЧАТЕЛЬНО. ЧЕЛОВЕК?! КТО БЫ МОГ ПОДУМАТЬ.",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "YOU'RE THE SEVENTH ONE PASSING ME TODAY AND YOU'RE NO DIFFERENT FROM THE OTHERS.",
+      "ru": "ТЫ УЖЕ СЕДЬМОЙ ЗА СЕГОДНЯ, КТО МИМО МЕНЯ ПРОХОДИТ, И ТЫ НИЧЕМ НЕ ЛУЧШЕ ОСТАЛЬНЫХ.",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "EVERY SINGLE ONE WITH THAT DOPEY SHEEPISH LOOK ON THEIR FACE, AS IF A TALKING MUSHROOM IS OUT OF THE BLUE.",
+      "ru": "КАЖДЫЙ С ЭТОЙ ТУПОЙ РАСТЕРЯННОЙ РОЖЕЙ, БУДТО ГОВОРЯЩИЙ ГРИБ - ЭТО ЧТО-ТО ИЗ РЯДА ВОН.",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "GIVE ME A BREAK, I'VE HAD ENOUGH OF JERKS PICKING ME UP AND DISRESPECTING ME LIKE THAT. PRIVATE SPACE, EVER HEARD OF IT?",
+      "ru": "ОТВАЛИТЕ УЖЕ, С МЕНЯ ХВАТИТ ПРИДУРКОВ, КОТОРЫЕ ХВАТАЮТ МЕНЯ И НИ ВО ЧТО НЕ СТАВЯТ. ЛИЧНОЕ ПРОСТРАНСТВО, НЕ СЛЫШАЛИ?",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "WHY DO I EVEN TRY. JUST LOOK AT YOU! THE EPITOME OF CLUELESS. WHAT NOW, GONNA TAKE ME ON SOME LOONEY ADVENTURE ACROSS THE SKY ISLANDS?",
+      "ru": "ДА ЗАЧЕМ Я ВООБЩЕ СТАРАЮСЬ. ТЫ ТОЛЬКО ПОСМОТРИ НА СЕБЯ! ХОДЯЧЕЕ НЕДОРАЗУМЕНИЕ. ЧТО ТЕПЕРЬ, ПОТАЩИШЬ МЕНЯ В КАКОЕ-НИБУДЬ БЕЗУМНОЕ ПРИКЛЮЧЕНИЕ ПО НЕБЕСНЫМ ОСТРОВАМ?",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "I HOPE NOT, IF YOU WERE THINKING THAT. I'VE ALREADY LOST A STEM TODAY BECAUSE SOME DIMWIT TRIED TAKING A BITE OUT OF ME... LIVE!",
+      "ru": "НАДЕЮСЬ, ЧТО НЕТ, ЕСЛИ ТЫ ОБ ЭТОМ ПОДУМАЛ. Я УЖЕ СЕГОДНЯ ПОТЕРЯЛ ЧАСТЬ НОЖКИ, ПОТОМУ ЧТО КАКОЙ-ТО ИДИОТ РЕШИЛ ОТКУСИТЬ ОТ МЕНЯ КУСОК... ЖИВЬЁМ!",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Confused, you pick up the mushroom to examine it. What even is this thing?",
+      "ru": "Озадаченный, ты поднимаешь гриб, чтобы рассмотреть его поближе. Что это вообще за штука?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "DON'T TELL ME, ARE YOU TAKING ME ON SOME LOONEY ADVENTURE ACROSS THE SKY ISLANDS? HOW LOVELY.",
+      "ru": "ТОЛЬКО НЕ ГОВОРИ, ТЫ ВСЁ-ТАКИ ТАЩИШЬ МЕНЯ В КАКОЕ-ТО БЕЗУМНОЕ ПРИКЛЮЧЕНИЕ ПО НЕБЕСНЫМ ОСТРОВАМ? КАК ЖЕ МИЛО.",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "A KITCHEN YOU SAY, WELL, IF IT'LL PUT ME OUT OF MY MISERY AS SOON AS POSSIBLE, THEN WHY NOT.",
+      "ru": "НА КУХНЮ, ГОВОРИШЬ? НУ, ЕСЛИ ЭТО ПОМОЖЕТ БЫСТРЕЕ ПОКОНЧИТЬ С МОИМИ СТРАДАНИЯМИ, ТО ПОЧЕМУ БЫ И НЕТ.",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "WAIT, WHY ARE YOU STUFFING ME INTO YOUR BAG? HOW DO YOU EXPECT ME TO BREATHE IN HERE?!",
+      "ru": "СТОЙ, ЗАЧЕМ ТЫ ЗАПИХИВАЕШЬ МЕНЯ В СУМКУ? ТЫ КАК ПРЕДЛАГАЕШЬ МНЕ ТУТ ДЫШАТЬ?!",
+      "speaker": "Talking Mushroom",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Without dwelling on it too much, you take the talking mushroom and put it in your satchel.",
+      "ru": "Недолго думая, ты кладёшь говорящий гриб в сумку.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Looks like you managed to escape with the egg... that was a close one!",
+      "ru": "Похоже, тебе удалось сбежать с яйцом... едва унёс ноги!",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Hello there! I can see you knead you some sunrise flour, don't you?",
+      "ru": "Привет! Вижу, тебе прямо-таки позарез нужна рассветная мука, а?",
+      "speaker": "Baker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "It's needed rye away? Well no worries, friend!",
+      "ru": "Срочно надо? Ну не переживай, дружище!",
+      "speaker": "Baker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Well butter me up and call me toast, it seems I ran out of the stuff, there's none left.",
+      "ru": "Чтоб меня намазали маслом и подали к завтраку! А мука-то закончилась, ни щепотки не осталось.",
+      "speaker": "Baker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "I'm sorry if I see to just be loafing around, but at yeast I know how to make some more.",
+      "ru": "Прости, если кажется, будто я тут только батоны гоняю, но хотя бы знаю, как сделать ещё муки.",
+      "speaker": "Baker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Can you see that wheat field over there, next to the bakery? You can farm up some wheat and pop it on the mill.",
+      "ru": "Видишь вон то пшеничное поле рядом с пекарней? Можешь собрать немного пшеницы и смолоть её на мельнице.",
+      "speaker": "Baker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Grab a scythe from the tool merchant next dough and get to work!",
+      "ru": "Хватай косу у торговца инструментами прямо рядышком и за работу!",
+      "speaker": "Baker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Make as much as you want, I've made all the bread I need for today already.",
+      "ru": "Делай сколько хочешь, я на сегодня весь свой хлеб уже испёк.",
+      "speaker": "Baker",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "You've managed to farm up some Sunrise Wheat - you should go refine it at the Baker's mill.",
+      "ru": "Ты добыл немного рассветной пшеницы - теперь отнеси её на мельницу пекаря.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Howdy, pal! Looking for some Skyhigh Raspberries? They work great in a pie!",
+      "ru": "Здорово, дружище! Ищешь небесную малину? В пироге ей цены нет!",
+      "speaker": "Raspberry Vendor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "If you're interested, it's just a small fee of 10 Emeralds to get access to the island.",
+      "ru": "Если интересно, всего 10 изумрудов - и получаешь доступ на остров.",
+      "speaker": "Raspberry Vendor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "A man's gotta make a living somehow, so I've set up a system of cannons to take you right up to the island they grow on!",
+      "ru": "Человеку надо как-то зарабатывать, так что я поставил систему пушек, которые забросят тебя прямо на остров, где они растут!",
+      "speaker": "Raspberry Vendor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "So, whaddya say? Small price for a little adventure, and as many raspberries as you can eat!",
+      "ru": "Ну что скажешь? Небольшая цена за маленькое приключение и столько малины, сколько сможешь съесть!",
+      "speaker": "Raspberry Vendor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Would you like to collect some Skyhigh Raspberries?",
+      "ru": "Хочешь собрать немного небесной малины?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Pay to get raspberries | [-10 Emeralds]",
+      "ru": "Заплатить за доступ к малине | [-10 изумрудов]",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Not today, thank you!",
+      "ru": "Не сегодня, спасибо!",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "[+1 Skyhigh Raspberry]",
+      "ru": "[+1 Skyhigh Raspberry]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "You've gathered all the ingredients, you should head back to [Your Chef].",
+      "ru": "Ты собрал все ингредиенты, теперь возвращайся к своему повару.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "Have you got all the ingredients? Amazing!",
+      "ru": "Все ингредиенты собрал? Супер!",
+      "speaker": "Brie",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Okay you set back and let me work on the cooking, just pass over the ingredients!",
+      "ru": "Теперь отойди и дай мне заняться готовкой, просто передай ингредиенты!",
+      "speaker": "Brie",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Aha! That should do it! Hopefully I've done everything correctly... but wow, would you look at the color of that soup!",
+      "ru": "Ага! Вот так и надо! Надеюсь, я всё сделала правильно... но ты только посмотри, какой цвет у этого супа!",
+      "speaker": "Brie",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "[+1 Seasoned Voidroot Stew]",
+      "ru": "[+1 Seasoned Voidroot Stew]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "[+750 Cooking XP]",
+      "ru": "[+750 кулинарного опыта]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "You should bring it over to Hamsey to see what he thinks!",
+      "ru": "Неси это Хэмси и посмотрим, что он скажет!",
+      "speaker": "Brie",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "You got everything? Took you long enough.",
+      "ru": "Всё достал? Долго же ты.",
+      "speaker": "Kale",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Let's get started. Everyone else already finished. Stay back while I work my magic.",
+      "ru": "Начинаем. Остальные уже давно всё закончили. Отойди и не мешай, пока я творю магию.",
+      "speaker": "Kale",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "Curiously, everyone else's cooking equipment is sparkling clean. It doesn't look like they've even started.",
+      "ru": "Странно, но у всех остальных оборудование сияет чистотой. Похоже, они даже не начинали.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "Mwah! My masterdish is finished. Present this to the chef, I'm sure he'll love it!",
+      "ru": "Мва! Моё шедевральное блюдо готово. Неси это шефу, уверен, он будет в восторге!",
+      "speaker": "Kale",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "[+1 Omelette of Rage]",
+      "ru": "[+1 Omelette of Rage]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "[+300 Cooking XP]",
+      "ru": "[+300 кулинарного опыта]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "And be CAREFUL taking it over. That food could be worth HUNDREDS once I'm famous!",
+      "ru": "И БУДЬ ОСТОРОЖЕН, пока несёшь. Когда я прославлюсь, это блюдо будет стоить СОТНИ!",
+      "speaker": "Kale",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "You got everything? Awesome stuff, dude.",
+      "ru": "Всё принёс? Кайф, чувак.",
+      "speaker": "Frank",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "I'll just take a smallll bit of this raspberry - chef's commission, eh? And let's get started!",
+      "ru": "Я только отщипну совсем маааленький кусочек этой малины - поварская доля, сам понимаешь. И начинаем!",
+      "speaker": "Frank",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "And we're all done. Hamsey's gonna love this.",
+      "ru": "И всё готово. Хэмси это точно зайдёт.",
+      "speaker": "Frank",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "[+1 Skyhigh Pie]",
+      "ru": "[+1 Skyhigh Pie]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "[+500 Cooking XP]",
+      "ru": "[+500 кулинарного опыта]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Here you go, dawg. Pleasure working with you - show this to Hamsey and we'll see what he thinks. Make sure you don't \"lose\" any of it on the way over - you know what they say about your own supply!",
+      "ru": "Держи, брат. Было приятно с тобой поработать - покажи это Хэмси и посмотрим, что он скажет. Только смотри не \"потеряй\" ничего по пути - сам знаешь, чем кончается дегустация собственных запасов!",
+      "speaker": "Frank",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Ah, you have finished your dish? Well, then, il est temps de goûter!",
+      "ru": "Ах, ты уже закончил блюдо? Что ж, пора пробовать!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "Let us retreat to my private dining room... this way!",
+      "ru": "Тогда пройдём в мою отдельную столовую... сюда!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Welcome back, mon ami! I see you've return with a dish in hand!",
+      "ru": "С возвращением, мон ами! Вижу, ты пришёл с готовым блюдом!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "A stew? Seems simple, but even the simplest things in life can be le meilleur!",
+      "ru": "Рагу? Выглядит просто, но даже самое простое в жизни может оказаться лучшим!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "You watch Hamsey start to taste your dish... will it be up to his standards?",
+      "ru": "Ты смотришь, как Хэмси пробует твоё блюдо... будет ли он доволен?",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "Adventurer, are you sure you made this dish? It is so good I might as well close the restaurant!",
+      "ru": "Путник, ты точно сам это приготовил? Настолько вкусно, что мне впору закрывать ресторан!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "You never fail to surprise me, friend. Here, take this apron, an essential of any true chef.",
+      "ru": "Ты не перестаёшь меня удивлять, друг. Держи этот фартук - вещь, без которой не обходится ни один настоящий повар.",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "I cannot help but notice that your dish is ready!",
+      "ru": "Не могу не заметить, что твоё блюдо уже готово!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "Let me taste your dish and I will present you mine! Mon dieu, une omelette?",
+      "ru": "Дай-ка я попробую твоё блюдо, а потом покажу тебе своё! Боже мой, омлет?",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "Je suis déçu, ami. I would prefer biting into a mule derrière! This thing... a Gert wouldn't touch it!",
+      "ru": "Я разочарован, ами. Я бы лучше укусил мула за зад! Эту штуку... даже герт бы не тронул!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "I see you haven't improved in the art of cuisine. Leave me be, and come back when you have learned what good food is!",
+      "ru": "Похоже, в кулинарном искусстве ты так ничему и не научился. Оставь меня и приходи, когда поймёшь, что такое хорошая еда!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "I see you've returned, and not empty handed. Please, show me what you've created!",
+      "ru": "Вижу, ты вернулся и не с пустыми руками. Давай, показывай, что сотворил!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "A pie? Why, you must have been helped by Frank. He always has a thing for making pie!",
+      "ru": "Пирог? Ну конечно, тебе помогал Фрэнк. Его вечно тянет на пироги!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "I can see that your compétences culinaires are very well developed!",
+      "ru": "Я вижу, готовишь ты очень недурно!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Though I will not truly call you a chef quite yet, you are très bien! Have this reward as congratulations!",
+      "ru": "Хотя настоящим шефом я тебя пока ещё не назову, ты всё равно очень даже хорош! Держи награду в честь такого результата!",
+      "speaker": "Chef Hamsey",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "2027, 74, -4631",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "2032, 74, -4643",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "1992, 68, -4660",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "2005, 68, -4655",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "2074, 69, -4622",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "2063, 68, -4614",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Brie, Kale",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Kale, Frank",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "New Quest Started: Recipe For Disaster",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Рецепт катастрофы",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Ah, Brie! An excellent chef... and an even better cheese! I jest, I jest. You will work well together, I am certain.",
+      "ru": "А, Бри! Превосходный повар... и ещё более превосходный сыр! Шучу, шучу. Уверен, вы прекрасно сработаетесь.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Ah, Kale. One of my most talented chefs, though he can be stubborn at times!",
+      "ru": "А, Кейл. Один из самых талантливых моих поваров, хотя порой упрям!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "Frank! Whilst he may seem rather... relaxed, at times, I assure you he is a most capable chef!",
+      "ru": "Фрэнк! Пусть иногда он кажется несколько... расслабленным, уверяю тебя, повар он весьма умелый!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Aaaaaand they're off!",
+      "ru": "И-и-и-и старт!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Shame, could've been a great race. See you around, adventurer!",
+      "ru": "Жаль, могла выйти отличная гонка. Ещё увидимся, искатель приключений!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "Alrighty! Just head on over to that island beside me and jump in the cannon - it's perfectly safe, I promise!",
+      "ru": "Ладненько! Просто дойди до того острова рядом со мной и запрыгни в пушку. Совершенно безопасно, обещаю!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Find your way up the island and grab as many raspberries as you want! When you're done just jump in the big cannon and come back to shore!",
+      "ru": "Заберись на остров и набери малины сколько душе угодно! А как закончишь, прыгай в большую пушку и возвращайся на берег!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Alrighty, no worries. Feel free to come back if you're ever in the mood for some!",
+      "ru": "Ладненько, ничего страшного. Заходи, если вдруг захочется!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 4"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Meet up with Chef Hamsey in Ahmsord at [949, 129, -4475].",
+      "ru": "Встретиться с поваром Хэмси в Амсорде [949, 129, -4475].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Chef Hamsey in his kitchen.",
+      "ru": "Найти повара Хэмси на его кухне.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Speak to all three chefs in Hamsey's kitchen.",
+      "ru": "Поговорить со всеми тремя поварами на кухне Хэмси.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Talk to Hamsey and choose a chef to work with.",
+      "ru": "Поговорить с Хэмси и выбрать повара, с которым будешь работать.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Talk to your chosen chef about the dish.",
+      "ru": "Обсудить блюдо с выбранным поваром.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Collect [1 {Ingredient}] at [X, Y, Z] or check your recipe book.",
+      "ru": "Собрать [1 {Ingredient}] в [X, Y, Z] или свериться с книгой рецептов.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Present the ingredients to your chosen chef.",
+      "ru": "Показать ингредиенты выбранному повару.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Talk to Hamsey with your finished dish.",
+      "ru": "Принести готовое блюдо Хэмси.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Meet Hamsey in the dining room at [927, 53, -4305].",
+      "ru": "Встретиться с Хэмси в столовой [927, 53, -4305].",
+      "stage": "Stage 9"
+    }
+  ],
+  "choices": []
+}

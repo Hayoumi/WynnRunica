@@ -1,0 +1,737 @@
+{
+  "quest": "Royal Trials",
+  "level": 98,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "royal-trials",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Back off! No'ne enters 'til the pirate queen is chosen. What's a landwalker like you doin' here?",
+      "ru": "Назад! Никто не войдёт, пока не выберут пиратскую королеву. Чего тут забыл такой сухопутник, как ты?",
+      "speaker": "Skyraider Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Participate? Are ye crazy? Ain't no way a landlubber is wearing the crown.",
+      "ru": "Участвовать? Ты что, с дуба рухнул? Да ни в жизнь сухопутник не наденет корону.",
+      "speaker": "Skyraider Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Off with ya now! Before I call the gals to gut you. And dun' go wandering around chatting to any skyraiders!",
+      "ru": "А ну кыш отсюда! А то позову девчат, они тебя быстро выпотрошат. И даже не думай тут шляться и болтать с небесными налётчиками!",
+      "speaker": "Skyraider Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Yer wantin' to be pirate queen, ye? Don' worry, I can help ye.",
+      "ru": "Хочешь стать пиратской королевой, а? Не дрейфь, я помогу.",
+      "speaker": "Hrona",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Y'see, the other pirates ain't fit for the role. They're dumb 'n weak. All they've got is looks.",
+      "ru": "Понимаешь, остальные пираточки для этой роли не годятся. Тупые и слабые. Из достоинств только мордашка.",
+      "speaker": "Hrona",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Yer got the lot! Looks and talent.",
+      "ru": "А у тебя весь набор! И красота, и талант.",
+      "speaker": "Hrona",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Y'know, the guard, she's dumb too. A simple disguise will fool 'er. Issue is, ye dun' look like a skyraider at all!",
+      "ru": "Да и стражница тоже не умом блещет. Простая маскировка её обманет. Проблема только в том, что на небесного налётчика ты вообще не похож.",
+      "speaker": "Hrona",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Yer in luck, though. A skyraider will sell anything for a price - just look around the town and see if ye can persuade anyone to part with their outfit.",
+      "ru": "Но тебе повезло. Небесный налётчик за хорошую цену продаст что угодно - пройдись по городу и посмотри, сможешь ли кого-то уговорить отдать тебе наряд.",
+      "speaker": "Hrona",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Aye? A landwalker, wanderin' around our base? Whatcha' want?",
+      "ru": "Ась? Сухопутник шляется по нашей базе? Чего тебе надо?",
+      "speaker": "Egpla",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "My outfit?!",
+      "ru": "Мой прикид?!",
+      "speaker": "Egpla",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "... aye, I suppose I could be tempted to pass it on to ye... for a price.",
+      "ru": "... ну, может, я и согласилась бы его тебе сплавить... за нужную цену.",
+      "speaker": "Egpla",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Here, these are what I'd trade it to ye for.",
+      "ru": "Вот, за что я готова его обменять.",
+      "speaker": "Egpla",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "If yer thinkin' emeralds... [30 Emerald Blocks] seems like a fair price, heh.",
+      "ru": "Если думаешь про изумруды... [30 изумрудных блоков] будет честной ценой, хех.",
+      "speaker": "Egpla",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Of course, if you're running low on funds, how about ye grab me [3 Dragonling Eggs] instead? Y'know, the ingredient. I'm 'oping to raise some 'o the lil critters!",
+      "ru": "Но если туго с деньгами, принеси мне лучше [3 Dragonling Eggs]. Ну, ингредиент этот. Хочу попробовать вырастить нескольких мелких тварюшек!",
+      "speaker": "Egpla",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "But if neither of them tickle ye fancy... I've always wanted [1 Shiny Shell] - they're just so sparkly! Ye can find them in the cave south-east of here, beside the ladders.",
+      "ru": "А если ни то ни другое тебе не по душе... я давно хочу [1 Shiny Shell] - они такие блестючие! Найти можно в пещере к юго-востоку отсюда, рядом с лестницами.",
+      "speaker": "Egpla",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Ye can get me one o' those three, landwalker, and ye can have my outfit!",
+      "ru": "Принеси мне любой из этих трёх вариантов, сухопутник, и мой прикид твой!",
+      "speaker": "Egpla",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "[30 Emerald Blocks]",
+      "ru": "[30 изумрудных блоков]",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "So, landwalker, are ye ready to pay up? I can see emeralds in ye pocket, hand 'em over.",
+      "ru": "Ну что, сухопутник, готов расплатиться? Вижу, изумруды у тебя в кармане звенят, давай сюда.",
+      "speaker": "Egpla",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "[3 Dragonling Eggs]",
+      "ru": "[3 Dragonling Eggs]",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Alrigh'! Those're exactly what I've been lookin' for. Give it here, lemme have a look...",
+      "ru": "Во, то что надо! Именно это я и искала. Давай сюда, ща гляну...",
+      "speaker": "Egpla",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "[1 Shiny Shell]",
+      "ru": "[1 Shiny Shell]",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Aye, landwalker! Is that the sparkle of a shiny shell I spot in ye pocket?! Lemme have a look...",
+      "ru": "О, сухопутник! Это что, блеск блестящей ракушки у тебя в кармане?! Ну-ка покажи...",
+      "speaker": "Egpla",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Alright, landwalker. Ye can have me outfit. 'ere, lemme just get changed inside.",
+      "ru": "Ладно, сухопутник. Забирай мой прикид. Ща только переоденусь внутри.",
+      "speaker": "Egpla",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Here ye go, landlubber. I hope ye get some kinda use out of it, whatever ye want it for.",
+      "ru": "Держи, сухопутник. Надеюсь, наряд тебе пригодится, зачем бы он тебе ни понадобился.",
+      "speaker": "Egpla",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Another contestant, eh? That outfit looks a bit funny on ye, but I'll let yer in. Hurry up!",
+      "ru": "Ещё одна участница, а? Прикид на тебе сидит чутка странно, но я тебя пропущу. Давай шевелись!",
+      "speaker": "Skyraider Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Ugh! Ye can't be the queen, ye can barely fly an airship!",
+      "ru": "Тьфу! Какая из тебя королева, ты же еле-еле дирижаблём рулить умеешь!",
+      "speaker": "Angry Contestant",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "No! I'll be the queen! I'm much more qualified than any of you sky rats!",
+      "ru": "Нет! Королевой буду я! Я куда более достойна, чем все вы, небесные крысы!",
+      "speaker": "Angry Contestant",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Gather round, ladies. The next Queen is about to be selected!",
+      "ru": "Собрались, дамы. Сейчас будет выбрана следующая Королева!",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "As ye know, our previous queen suffered a... nasty fate, murdered on her very own airship by a Wynn soldier.",
+      "ru": "Как вы знаете, прошлую королеву постигла... неприятная участь. Её убил солдат Винна прямо на её собственном дирижабле.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "But in the ashes of her honor, a new queen shall rise! Three trials. That's what ye all face now.",
+      "ru": "Но из пепла её славы восстанет новая королева! Вас ждут три испытания. Вот через что вам сейчас придётся пройти.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Only one, who passes all trials laid before her, will pass and gain the title of Skyraider Queen.",
+      "ru": "Только та, которая пройдёт все испытания, станет королевой небесных налётчиков.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Now, I introduce ye all to the first trial, to test yer capability at a vital skill for queenship - combat!",
+      "ru": "А теперь первое испытание. Оно проверит важнейший навык для королевы - бой!",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Ladies, you may now Begin!",
+      "ru": "Дамы, можете начинать!",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Arr, that weeded out the weak. A queen must be strong to lead.",
+      "ru": "Арр, слабых отсеяло. Королева должна быть сильной, если хочет вести за собой.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Now, to the second challenge - the task of flight! Ye can't be a queen if ye can't fly yer airship!",
+      "ru": "Теперь второе испытание - полёт! Не можешь вести свой дирижабль - не можешь быть королевой!",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Make sure ye bring yer eyes, girls, one false move and death awaits.",
+      "ru": "Глазки держите открытыми, девочки, один неверный шаг - и вас уже ждёт смерть.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "This task should get rid of the rest of ye unworthy.",
+      "ru": "Это испытание добьёт всех остальных недостойных.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Well lookie here, an amateur made it through her flight.",
+      "ru": "Ну надо же, даже любительница справилась с полётом.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Well let's see how you hold up in the final task ladies.",
+      "ru": "Ну а теперь посмотрим, как вы покажете себя в последнем испытании, дамы.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Yer ain' a pirate at all if ye can't steal, but this is different.",
+      "ru": "Ты вообще не пиратка, если не умеешь воровать, но тут всё посерьёзнее.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "This is the real deal. Stealin' from a highly secure mansion.",
+      "ru": "Вот настоящее дело: украсть сокровище из хорошо охраняемого особняка.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Yer job is to steal a priceless treasure from the richest family in the sky.",
+      "ru": "Твоя задача - украсть бесценное сокровище у самой богатой семьи в небе.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "We'll be waiting with a getaway airship at the extraction point, everyone else'll left behind.",
+      "ru": "Мы будем ждать на дирижабле в месте отхода, а всех остальных просто бросим.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Remember, this be the real thing, and the consequences of failure will be severe. Good luck, ladies.",
+      "ru": "И помните, это всё по-настоящему, и за провал дорого поплатитесь. Удачи, дамы.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "This here is the garden you we'll tunnel into, and yer'll 'ave to find a way into the Mansion, maybe yer can just ask nicely, heh.",
+      "ru": "Вот сюда, в сад, вы и прокопаетесь, а дальше вам надо будет найти путь в особняк. Может, просто вежливо постучитесь, хех.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Then yer'll have to sneak through these corridors to reach the treasure - and don't let the guards find yer, or they'll lock yer up and throw away the key.",
+      "ru": "Потом придётся красться по этим коридорам к сокровищу - и только попробуй попасться стражникам, а то закроют и ключ выкинут.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "This, o' course, is the mythical treasure that yer gonna want to grab and get outta here, stat. I'm sure there'll be some extra defenses, though.",
+      "ru": "А это, само собой, то самое мифическое сокровище, которое надо схватить и валить отсюда как можно быстрее. Хотя я почти уверена, что там будет ещё какая-нибудь защита.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "And finally yer'll have to escape outta this window right 'ere - I'll be waitin' with an airship to carry all of ye out.",
+      "ru": "И напоследок вам надо будет выбраться через это окно вот тут - я буду ждать на дирижабле, чтобы забрать вас всех.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Aye', think ye ready to try grabbin' that treasure, eh? Just 'ead outta this hole and try to find yer way into the mansion.",
+      "ru": "Ну что, думаешь, готова попробовать спереть это сокровище, а? Просто вылезай через эту дыру и ищи путь в особняк.",
+      "speaker": "Skyraider",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "[Grape]",
+      "ru": "[Виноград]",
+      "speaker": "CHOICE",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "[Leaf]",
+      "ru": "[Лист]",
+      "speaker": "CHOICE",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "[Flower]",
+      "ru": "[Цветок]",
+      "speaker": "CHOICE",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "[Apple]",
+      "ru": "[Яблоко]",
+      "speaker": "CHOICE",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "[Egg]",
+      "ru": "[Яйцо]",
+      "speaker": "CHOICE",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "[Rock]",
+      "ru": "[Камень]",
+      "speaker": "CHOICE",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Oi', you! Whatcha' think yer' doin' sneakin' around these parts? This be a restricted area! Yer' headed to the jail cell!",
+      "ru": "Эй, ты! Ты чё тут крадёшься? Это закрытая зона! Сейчас поедешь в камеру!",
+      "speaker": "Mansion Guard",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Aye', men! Tha' treasure has been stolen! Prepare the defenses!",
+      "ru": "Эй, парни! Сокровище украли! Готовьте оборону!",
+      "speaker": "Mansion Guard",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Aye, we caught the nasty thief! We'll be lockin' him up till' he rots!",
+      "ru": "Ага, мерзкого вора мы повязали! Посадим его, и пусть там гниёт!",
+      "speaker": "Mansion Guard",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Ah, I thought yer might be the first one back. Yer got a queenly look about ye...",
+      "ru": "А, я так и думала, что ты вернёшься первой. Выглядишь ты вполне по-королевски...",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Head to the airship behind me, lassie. We'll wait a second before the others.",
+      "ru": "Дуй на дирижабль у меня за спиной, девочка. Немного подождём остальных.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Aha! I figured it'd be ye to win o'er the rest of that lot... Ye've earned the proper sovereignty of bein' our ruler, our queen of the Skyraiders.",
+      "ru": "Ага! Я так и знала, что именно ты обойдёшь всех остальных... Ты честно заслужила право быть нашей правительницей, нашей королевой небесных налётчиков.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Don't be worryin', we got this airship armoured somethin' heavy, and we're miles away from their cannons... Nothin' to be afraid of, we're safe in this ship.",
+      "ru": "Да не переживай, этот дирижабль бронирован как надо, а от их пушек нас отделяет много миль... Бояться нечего, тут мы в безопасности.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "But, first things first, let's take a look inside that fancy box ye got, see what mythical treasures lay guarded behind those grubby guardsmen, shall we?",
+      "ru": "Но сначала давай глянем, что там внутри этой красивой коробки, что за мифическое сокровище те чумазые охранники так сторожили, а?",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "By the skies and seas...",
+      "ru": "Клянусь небом и морем...",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "I hafta wonder now if this weren't bein' guarded for a bit of a nefarious reason. This be... Quite the weapon. It'd be deadly if this got used.",
+      "ru": "Теперь мне уже интересно, не охраняли ли это по очень даже мрачной причине. Это... Ну и оружие. Если его пустить в дело, будут жертвы.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Well, thanks to ye, us Skyraiders might have it now, but using this weapon against civilization would be beyond terrible. We might be pirates but we ain't heartless!",
+      "ru": "Ну, благодаря тебе эта штука теперь у нас, у небесных налётчиков, но использовать такое оружие против мирных людей было бы уже совсем за гранью. Мы, конечно, пираты, но не бессердечные же!",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "I think we'll just have to keep this locked up nice n' tight once we get back. We'll be sure to tie this little cataclysm-in-a-box down much safer th'n those idiot men did.",
+      "ru": "Думаю, как вернёмся, придётся запереть эту штуку покрепче. Уж мы-то закрепим эту маленькую катастрофу в коробке куда надёжнее, чем те мужики-идиоты.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Aha! Just gettin' back now. Let's head down and start the ceremony, shall we?",
+      "ru": "Ага! Как раз вернулись. Ну что, спускаемся и начинаем церемонию?",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "I am pleased to introduce our 734th Skyraider Queen. Fer the sake of our people, let her reign last more than two weeks.",
+      "ru": "С радостью представляю нашу 734-ю королеву небесных налётчиков. Ради всего нашего народа пусть её правление продлится больше двух недель.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "I, on behalf on the rest of the Skyraider people, have the honor of decoratin' you with the highest decoration of the Skyraiders, The Queen's Headpiece.",
+      "ru": "Я, от имени всего народа небесных налётчиков, имею честь наградить тебя высшей наградой небесных налётчиков - королевским убором.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Please use your sovereignty to lead us to the riches we deserve.",
+      "ru": "Используй свою власть, чтобы привести нас к тем богатствам, которых мы заслуживаем.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Yer Majesty. What an honour to have such a beautiful queen.",
+      "ru": "Ваше Величество. Для нас честь иметь такую красивую королеву.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Now, we must crown ye, and give you yer reward.",
+      "ru": "А теперь мы должны короновать тебя и вручить награду.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Benefits of being a queen I 'spose.",
+      "ru": "Есть свои плюсы в том, чтобы быть королевой.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Please accept this, your majesty.",
+      "ru": "Примите это, ваше величество.",
+      "speaker": "Trials Overseer",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "What item would you trade Egpla for her outfit?",
+      "ru": "Какой предмет ты отдашь Эгпле в обмен на её наряд?",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "As you walk, you hear arguments between other contestants either side of you...",
+      "ru": "Пока ты идёшь, по обе стороны слышны перепалки между другими участницами...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Perhaps you can try throwing this at the window?",
+      "ru": "Возможно, стоит попробовать бросить это в окно?",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "What item would you like to throw at the window?",
+      "ru": "Какой предмет ты хочешь бросить в окно?",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "It looks like your grape didn't do anything... you should find another item to throw.",
+      "ru": "Похоже, твой виноград ничего не дал... тебе стоит найти другой предмет для броска.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "It looks like your leaf didn't do anything... you should find another item to throw.",
+      "ru": "Похоже, твой лист ничего не дал... тебе стоит найти другой предмет для броска.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "It looks like your flower didn't do anything... you should find another item to throw.",
+      "ru": "Похоже, твой цветок ничего не дал... тебе стоит найти другой предмет для броска.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "It looks like your apple didn't do anything... you should find another item to throw.",
+      "ru": "Похоже, твоё яблоко ничего не дало... тебе стоит найти другой предмет для броска.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "It looks like your egg didn't do anything... you should find another item to throw.",
+      "ru": "Похоже, твоё яйцо ничего не дало... тебе стоит найти другой предмет для броска.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "The rock broke the window! Now you've just got to find a way up there...",
+      "ru": "Камень разбил окно! Теперь осталось лишь найти способ забраться туда...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Looks like you're inside the Mansion... now you've got to find your way to the treasure.",
+      "ru": "Похоже, ты внутри особняка... теперь тебе нужно найти путь к сокровищу.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "New Quest Started: Royal Trials",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Королевские испытания",
+      "speaker": "",
+      "stage": "Stage 15"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Skyraider Guard at [1479, 84, -4343].",
+      "ru": "Поговорить со стражницей небесных налётчиков [1479, 84, -4343].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to Hrona at [1486, 86, -4332].",
+      "ru": "Поговорить с Хроной [1486, 86, -4332].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Look around the skyraider town at [1442, 83, -4339] and find a pirate outfit.",
+      "ru": "Осмотреть городок небесных налётчиков и найти пиратскую одежду [1442, 83, -4339].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Give an item to Egpla at [1427, 84, -4345].",
+      "ru": "Передать предмет Эгпле [1427, 84, -4345].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Enter the trials at [1483, 82, -4339].",
+      "ru": "Войти на испытания [1483, 82, -4339].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Approach the stage.",
+      "ru": "Подойти к сцене.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Listen to the Trials Overseer's speech.",
+      "ru": "Выслушать речь распорядительницы испытаний.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Defeat the armory room of the combat challenge.",
+      "ru": "Пройти боевое испытание в оружейной.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Defeat the brig room of the combat challenge.",
+      "ru": "Пройти боевое испытание в корабельной тюрьме.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Defeat the cockpit room of the combat challenge.",
+      "ru": "Пройти боевое испытание в рубке.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Listen to the trials overseer's speech.",
+      "ru": "Выслушать речь распорядительницы испытаний.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Defeat the challenge of flight.",
+      "ru": "Пройти испытание полёта.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Listen to the trials overseer's speech.",
+      "ru": "Выслушать речь распорядительницы испытаний.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Break into the mansion.",
+      "ru": "Проникнуть в особняк.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Sneak past the guards and steal the treasure.",
+      "ru": "Прокрасться мимо стражников и украсть сокровище.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Get the treasure to the trials overseer outside of the mansion's window.",
+      "ru": "Передать сокровище распорядительнице испытаний за окном особняка.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Exit the Mansion onto the airship outside.",
+      "ru": "Выйти из особняка на дирижабль снаружи.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Listen to the trials overseer's speech.",
+      "ru": "Выслушать речь распорядительницы испытаний.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Talk to the trials overseer.",
+      "ru": "Поговорить с распорядительницей испытаний.",
+      "stage": "Stage 19"
+    }
+  ],
+  "choices": []
+}

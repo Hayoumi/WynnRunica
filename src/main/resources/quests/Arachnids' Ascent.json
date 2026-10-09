@@ -1,0 +1,799 @@
+{
+  "quest": "Arachnids' Ascent",
+  "level": 14,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "arachnids-ascent",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hm... ah, <playername>! There you are. I was just about to send someone to fetch you.",
+      "ru": "Так... а, <playername>! Вот ты где. Я как раз собирался послать за тобой кого-нибудь.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Follow me- we have a conversation to have in my office. It's on the top floor of the barracks.",
+      "ru": "Иди за мной - надо кое-что обсудить у меня в кабинете. Он на верхнем этаже казарм.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "...ahem. Now that we're here, we can discuss the matter of Nivla Woods.",
+      "ru": "...кхм. А теперь, когда мы на месте, можно обсудить ситуацию в лесу Нивла.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Our preparations are complete, and it's time for the assault on Nivla's spider den! With you here, we'll just need to wait for-...",
+      "ru": "Подготовка закончена, и пришло время штурма паучьего логова в лесу Нивла! Раз ты здесь, нам остаётся только дождаться-...",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Admiral- we're here! Sorry we're late, we were sparring in the training room and lost track of time...",
+      "ru": "Адмирал - мы тут! Простите, что опоздали, мы устроили учебный бой в тренировочном зале и потеряли счёт времени...",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "If <playername> is here, I take it that means today is the day we strike at the spiders?",
+      "ru": "Если <playername> уже здесь, значит, сегодня мы всё-таки идём на пауков?",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Indeed it is. Now, you three are to be the force which will fight through their den and clear out as many of those spiders as you can. For that, you'll need support.",
+      "ru": "Именно так. Вы трое будете основным отрядом, который прорвётся через их логово и вырежет столько пауков, сколько сможет. Но для этого вам понадобится поддержка.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "We've sent out several soldiers ahead of time to make preparations on site. You'll want to first speak to Private Cob on the Black Road, who will have supplies for you.",
+      "ru": "Мы заранее отправили туда нескольких солдат, чтобы всё подготовить. Сперва поговорите с рядовым Кобом на Чёрной дороге - у него для вас припасы.",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I expect this mission will hold some danger, but I trust the three of you will be able to deal with anything you come across. Good luck, soldiers!",
+      "ru": "Задание может оказаться опасным, но я верю, что вы трое справитесь со всем, что встретите. Удачи, солдаты!",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Yes, sir. We'll do our best.",
+      "ru": "Есть, сэр. Сделаем всё, что сможем.",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "These spiders won't stand a chance! Let's get going.",
+      "ru": "У этих пауков шансов не будет! Погнали.",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "'ey there, chaps! You lot must be the spider killin' force, eh?",
+      "ru": "Эй, парни! Вы, небось, тот самый отряд по зачистке пауков, а?",
+      "speaker": "Private Cob",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "That's us! The Admiral told us you had supplies to give us?",
+      "ru": "Ага, это мы! Адмирал сказал, что у тебя для нас есть припасы?",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "That I do! Now, 'fore I send ya off, there's been sum news from the Cap'n!",
+      "ru": "Есть такое! Но прежде чем вас отправить, есть новости от капитана!",
+      "speaker": "Private Cob",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Buncha terrorised citizens been found right next to the bloomin' den! Trapped in a sticky old web, they were.",
+      "ru": "Группу перепуганных жителей нашли прямо рядом с этим чёртовым логовом! Они застряли в липкой паутине.",
+      "speaker": "Private Cob",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Priority number one is gettin' them out, before takin' on the den. But nothin' can get through the web!",
+      "ru": "Первая задача - вытащить их, а уже потом лезть в логово. Только вот паутину вообще ничем не пробить!",
+      "speaker": "Private Cob",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "No fire, no magic... nothin' has broken through. The cap'n decided- 'ey, why not try some lava? 's hotter than fire, anyway.",
+      "ru": "Ни огонь, ни магия... вообще ничего её не берёт. Тогда капитан и выдал - эй, а чего бы не попробовать лаву? Она ведь погорячее обычного огня.",
+      "speaker": "Private Cob",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Point is. Along with all your supplies 'n whatnot, ya've gotta bring along some lava for the cap'n. Magically contained, o' course!",
+      "ru": "Так вот. Вместе с припасами вам надо принести капитану немного лавы. Разумеется, сдерживать её будет магия!",
+      "speaker": "Private Cob",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Sure, that sounds easy enough. A bit of extra work, but we were heading in that direction anyway.",
+      "ru": "Ну да, звучит не так уж сложно. Лишняя возня, конечно, но мы всё равно туда идём.",
+      "speaker": "Tasim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "That's the spirit! If ya want the best route to the den, follow that road with the burn marks. It'll send ya straight to the cap'n!",
+      "ru": "Вот это настрой! Если хотите пройти к логову удобным путём, идите по дороге со следами огня. Она выведет прямо к капитану!",
+      "speaker": "Private Cob",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "[+1 Military Supply Crate]",
+      "ru": "[+1 Military Supply Crate]",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "At ease, soldiers! You're the three Aegis told me to look out for, aren't you? Have you spoken to Cob yet?",
+      "ru": "Вольно, солдаты! Вы те трое, о которых меня предупреждал Аегис, верно? С Кобом уже говорили?",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "We have, and we've brought supplies. As well as... lava, I think?",
+      "ru": "Говорили. Мы принесли припасы. И ещё... лаву, вроде бы?",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Ah, good! You can see the pickle we're in, hmm? We've tried everything to get those poor souls out, but the damned web is like glue!",
+      "ru": "А, отлично! Ну вы и сами видите, в какое положение мы попали. Мы уже всё перепробовали, чтобы вытащить бедолаг, но эта чёртова паутина как клей!",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Now, let's see here... If I cast a spell on it like this, then...",
+      "ru": "Так, посмотрим... Если я кину на неё заклинание вот так, то...",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Hm... That's not good.",
+      "ru": "Хм... Плохо дело.",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "So, what do we do now? You mentioned another option- what was that about? What about it made it difficult?",
+      "ru": "И что теперь? Вы говорили про другой вариант - что это за вариант? И что мешает его использовать?",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Right. You may have noticed on your way here, but the nest is at the base of Mt. Wynn, a dormant volcano.",
+      "ru": "Ага. Вы, наверное, заметили по пути, что логово находится у подножия горы Винн, спящего вулкана.",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Legends speak of incredible magic granted by the mountain- that of protection, incinerating any who dare go against it.",
+      "ru": "Легенды говорят о невероятной магии, дарованной этой горой - защите, что испепеляет любого, кто посмеет ей противиться.",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "These are only stories, of course. It's very unlikely the mountain actually could grant such magic. However... there may be some truth in the legend.",
+      "ru": "Конечно, это всего лишь рассказы. Вряд ли гора и вправду может даровать такую магию. Но... в легенде, возможно, есть доля правды.",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "So what's the catch? You would have tried it first if it were that simple.",
+      "ru": "И в чём подвох? Если бы всё было так просто, вы бы уже сами это сделали.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "The mountain is infested with spiders, even more so than Nivla Woods. Our few attempts at scouting it out have shown they're incredibly hostile towards intruders.",
+      "ru": "Пауков на горе даже больше, чем в лесу Нивла. Несколько разведывательных вылазок показали, что пауки там совсем не терпят чужаков.",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "As though they're protecting something, I assume?",
+      "ru": "Как будто они там что-то охраняют, да?",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Indeed. So, here's the plan... If you enter the mountain, the spiders will quickly try to move inside to stop you. I'll need one of you to stay here with me to fight them off.",
+      "ru": "Именно. Значит, план такой... Если вы войдёте в гору, пауки быстро устремятся внутрь, чтобы вас остановить. Один из вас должен остаться со мной, чтобы их сдержать.",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "So two of us take on the volcano, and two stay behind. Got it! <playername>, you should be part of the Mount Wynn group. But then, Tasim, which of us should go with them?",
+      "ru": "То есть двое идут на вулкан, а двое остаются тут. Понял! <playername>, тебе точно надо в группу на гору Винн. Тогда, Тасим, кто из нас пойдёт с ним?",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Why don't we let <playername> decide? Which of us do you want to join you in the volcano?",
+      "ru": "Пусть <playername> сам решит. Кого из нас ты хочешь взять с собой в вулкан?",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Aledar.",
+      "ru": "Аледара.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Tasim.",
+      "ru": "Тасима.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "I need some more time to decide.",
+      "ru": "Мне надо ещё подумать.",
+      "speaker": "CHOICE",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "So, who do you want to join you to fight through Mount Wynn?",
+      "ru": "Ну так кого ты хочешь взять с собой штурмовать гору Винн?",
+      "speaker": "Tasim",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "...Wow, it's hot in here! That makes sense, I guess, given what we're here for. Let's reach the top as quickly as we can.",
+      "ru": "...Ух ты, тут жарко! Ну, если вспомнить, зачем мы сюда пришли, это неудивительно. Давай как можно быстрее наверх.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "You've been rocketed by the great web.",
+      "ru": "Тебя швырнула огромная паутина.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "W-woah! You felt that too, right? What's going-",
+      "ru": "О-ого! Ты тоже это почувствовал, да? Что за-",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "We've got to run for it! Come on, jump!",
+      "ru": "Надо бежать! Быстро, прыгай!",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "That... that was a close one. Phew! Can't believe we made it out in one piece. I think we're near the top, too.",
+      "ru": "Это... чуть не кончилось плохо. Фух! Не верится, что мы выбрались целыми. Похоже, мы ещё и почти наверху.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Well, here we are! ...The heat's gotten more intense up here. Come on, let's find out what we're looking for, before I over-",
+      "ru": "Ну вот мы и пришли! ...Тут наверху ещё жарче. Давай найдём то, за чем пришли, пока я не пере-",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "...intruders....come to take....sacred protection....",
+      "ru": "...чужаки.... пришли забрать.... священную защиту....",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": ".....must not......allow....will kill.....for queen!....",
+      "ru": ".....нельзя...... позволить.... убью..... за королеву!....",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Ack! We should have known it wouldn't be that easy. Alright, let's take down this spider and get what we came for!",
+      "ru": "Ох! Надо было догадаться, что просто не будет. Ладно, победим этого паука и заберём то, за чем пришли!",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "[+1 Mount Wynn's Flame]",
+      "ru": "[+1 Mount Wynn's Flame]",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Well, there it is. We have what we need to burn through those webs!... I hope.",
+      "ru": "Ну вот, оно. У нас есть то, чем можно прожечь эту паутину!... Надеюсь.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "The spider mentioned a queen... I guess that's what we'll be facing in their nest, then.",
+      "ru": "Паук упомянул королеву... Значит, в логове нас, похоже, ждёт именно она.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Alright, let's get back to Tasim and the captain!",
+      "ru": "Ладно, погнали обратно к Тасиму и капитану!",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "...I can hear the spiders already. We'll need to fight through them if we want to reach the top. Let's get going, we don't want to take too long.",
+      "ru": "...Я уже слышу пауков. Если хотим добраться до вершины, придётся продираться через них. Пошли, нельзя тут долго возиться.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "H-huh? That shaking, it's almost like-",
+      "ru": "А-а? Эта тряска, как будто-",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "What are those spiders doing!? <playername>, come on, we need to move!",
+      "ru": "Что творят эти пауки!? <playername>, давай, надо двигаться!",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "...That was closer than it should have been. The spiders must be real desperate to protect whatever it is they have up here, huh? Let's keep going.",
+      "ru": "...Еле унесли ноги. Похоже, пауки в отчаянии защищают то, что у них тут наверху. Ладно, идём дальше.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "It was a tough climb, but we made it... It's, uh, very hot up here. So- what was it we were looking for-",
+      "ru": "Подъём был нелёгкий, но мы справились... Тут, эм, очень жарко. Так... что мы там искали-",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Of course it wouldn't be that easy... Alright, <playername>, let's do what we came here for. Let's claim that magic, and burn through the webs!",
+      "ru": "Конечно, всё не могло быть так просто... Ладно, <playername>, делаем то, за чем пришли. Забираем эту магию и прожигаем паутину!",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "I guess that's that taken care of. We'll be able to burn through that web and save the villagers!",
+      "ru": "Ну, с этим разобрались. Теперь мы сможем прожечь паутину и спасти жителей!",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "You heard the spider mention a queen, right? We'll probably have to defeat it in it's nest to stop the spiders, once and for all.",
+      "ru": "Ты ведь слышал, как паук говорил про королеву? Похоже, чтобы покончить с пауками раз и навсегда, придётся убить её в логове.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "We should probably get going back down the mountain. We don't want to keep Aledar and the Captain waiting.",
+      "ru": "Надо бы спускаться обратно с горы. Не стоит заставлять Аледара и капитана ждать.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "You've returned! I trust you found something that can help us pass through these webs?",
+      "ru": "Вы вернулись! Надеюсь, нашли что-то, чем можно пробиться через эту паутину?",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "We did! We fought off a spider at the summit, and claimed a magical flame.",
+      "ru": "Да! Мы убили паука на вершине и забрали магическое пламя.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Excellent! Now, give it here. Let's see if we can't get these villagers free... watch out, folks! It might get a little warm for a moment...",
+      "ru": "Отлично! Давайте сюда. Посмотрим, получится ли вытащить этих жителей... осторожно, народ! Сейчас может стать чуточку жарковато...",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Great work, soldiers. With these villagers out we can turn our focus to the main den.",
+      "ru": "Отличная работа, солдаты. Теперь, когда жители выбрались, можно сосредоточиться на главном логове.",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "If you're prepared, I don't see any reason to hold back. Good luck in there, soldiers! Let's stop this spider blight once and for all.",
+      "ru": "Если вы готовы, смысла тянуть больше нет. Удачи там, солдаты! Давайте раз и навсегда покончим с этой паучьей напастью.",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "We'll do our best, Captain. Aledar, <playername>, let's head down to the den entrance.",
+      "ru": "Сделаем всё, что сможем, капитан. Аледар, <playername>, пошли ко входу в логово.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "We did, yes. There was a powerful spider at the peak, which was making use of this magical flame.",
+      "ru": "Да. На вершине был сильный паук, который пользовался этим магическим пламенем.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "H-hah! F-freedom! No m-more c-creepy crawlies... Just me a-and my... mushrooms.",
+      "ru": "Х-ха! С-свобода! Б-больше никаких мерзких ползучих тварей... Только я и мои... грибы.",
+      "speaker": "Yahya",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "We did it! We killed the spider queen! Nivla Woods is safe from that threat now!",
+      "ru": "Мы сделали это! Мы убили королеву пауков! Теперь эти пауки больше не угрожают лесу Нивла!",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "We- we did! That was... intense. But we succeeded in the end!",
+      "ru": "М-мы сделали это! Это было... тяжело. Но в конце концов мы справились!",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "...So, what now? We completed the mission, so we should report back to the Admiral, but... what's after that?",
+      "ru": "...И что теперь? Миссию мы выполнили, значит, надо доложить адмиралу, но... что дальше?",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I guess we'll have to figure that out. I know I still want to help defend the province, but beyond that... I don't know.",
+      "ru": "Похоже, это ещё надо понять. Я знаю, что всё ещё хочу помогать защищать провинцию, но кроме этого... без понятия.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "...Yeah, alright. Well, hey, let's all meet back at Detlas and celebrate! We deserve it after that whole ordeal.",
+      "ru": "...Да, ладно. Слушайте, давайте встретимся потом в Детласе и отметим! После всего этого мы точно заслужили.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "That sounds good, yeah. <playername>, we'll rest up here a little, but we'll meet you back at the barracks soon.",
+      "ru": "Звучит хорошо, да. <playername>, мы немного передохнём тут, а потом скоро встретимся с тобой в казармах.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Well, here we are! Back at the barracks, after a successful mission. It feels a little... unreal, you know?",
+      "ru": "Ну вот мы и тут! Снова в казармах после успешной миссии. Даже не верится, знаешь?",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "I know what you mean. But, well, we did good! We managed to make the woods safer for the people living there.",
+      "ru": "Понимаю, о чём ты. Но мы правда хорошо сработали! Лес теперь стал безопаснее для тех, кто там живёт.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "We did! And now, we celebrate! Here, let's all some Nemract Whiskey for the occasion.",
+      "ru": "Ага! А теперь - празднуем! Давайте выпьем немрактского виски по такому поводу.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "So, what are you two planning to do next? I think I'll speak to the Admiral about finding an assignment somewhere.",
+      "ru": "Ну и что вы оба собираетесь делать дальше? Я, наверное, поговорю с адмиралом насчёт какого-нибудь нового назначения.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Hm. I've been thinking a little about... looking into more advanced powder techniques. Something about their magic sticks out to me.",
+      "ru": "Хм. Я тут подумывал... освоить более сложные приёмы работы с порошками. В их магии есть что-то такое, что меня привлекает.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Oh, really? I thought you would be more into basic fighting, what with our journey to Ragni.",
+      "ru": "Серьёзно? Я думал, после нашей дороги в Рагни тебя больше тянет к обычному бою.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Yeah... well, I guess I found something a little more interesting along the way. I'll let you know how it all goes.",
+      "ru": "Да... ну, по пути я, похоже, нашёл кое-что поинтереснее. Потом расскажу, как пойдёт.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Keep us updated, Aledar. So, <playername>, what are you thinking of doing next?",
+      "ru": "Держи нас в курсе, Аледар. Ну а ты, <playername>, что думаешь делать дальше?",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "I'll keep adventuring, and see who I can help.",
+      "ru": "Продолжу странствовать и искать, кому ещё могу помочь.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "I might explore a little, see what else is out there.",
+      "ru": "Пожалуй, ещё немного исследую окрестности и посмотрю, что здесь есть.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "I think I'll stick around here a little longer.",
+      "ru": "Думаю, я тут ещё немного задержусь.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "I'm not sure what I'll do next.",
+      "ru": "Пока не знаю, что буду делать дальше.",
+      "speaker": "CHOICE",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "...Well, I'm glad we're all able to be here together. Here's to a long and fulfilling friendship!",
+      "ru": "...Ну, я рад, что мы все можем быть здесь вместе. За долгую и крепкую дружбу!",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "I'll drink to that! To all our future adventures.",
+      "ru": "За это я выпью! За все наши будущие приключения.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "...Oh, <playername>! Good to see you. Anything interesting going on with you?",
+      "ru": "...О, <playername>! Рад видеть. У тебя что-нибудь интересное происходит?",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Me? Well, I've been making little progress... but, nothing too big yet. I'm keeping at it, though!",
+      "ru": "У меня? Ну, кое-что уже получается... но пока никаких больших успехов. Всё равно продолжаю стараться!",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Oh, hello <playername>. I'm probably not going to be here for long- I've been assigned to help defend Elkurn to the south.",
+      "ru": "О, привет, <playername>. Я тут, скорее всего, ненадолго - меня отправили помогать защищать Элкёрн на юге.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "You should come visit, if you have the chance!",
+      "ru": "Если будет возможность - заглядывай!",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "New Quest Started: Arachnids' Ascent",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Восхождение арахнидов",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Let's see... ah, <playername>! There you are. I was just about to send someone to fetch you.",
+      "ru": "Так, посмотрим... а, <playername>! Вот и ты. Я как раз собирался послать за тобой.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Alright! We'll handle the volcano then. Captain, Tasim, don't die out here!",
+      "ru": "Отлично! Тогда вулкан на нас. Капитан, Тасим, не помрите тут без нас!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Alright. We'll fight through the spiders in the mountain, then. Captain, Aledar, good luck!",
+      "ru": "Хорошо. Тогда мы пробьёмся через пауков в горе. Капитан, Аледар, удачи!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Then take more time. But don't take too long- we don't want the spiders to realize we're planning something.",
+      "ru": "Тогда не спеши. Только не затягивай: не хватало, чтобы пауки поняли, что мы что-то замышляем.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Not a bad idea! I might join you with that later, once I've decided on things more.",
+      "ru": "А что, неплохая мысль! Может, я потом к тебе присоединюсь, когда сам всё решу.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Helping people is a good goal. There's bound to be lots of people around who need it.",
+      "ru": "Помогать людям - хорошая цель. Тут наверняка полно тех, кому нужна помощь.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Exploring, huh? That's a good idea. There's plenty to see around here!",
+      "ru": "Исследовать, значит? Хорошая мысль. Тут есть на что посмотреть!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "...And- well, we all came here for a reason. Might as well see the province while we're here, right?",
+      "ru": "...И- ну, мы все сюда приехали не просто так. Раз уж мы здесь, почему бы не посмотреть провинцию, верно?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Well, if you're staying in the area, maybe we'll cross paths! I'll likely be defending Detlas in the short-term.",
+      "ru": "Что ж, если ты останешься в этих краях, может, ещё пересечёмся! Я пока, скорее всего, буду защищать Детлас.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "And, well, I'll probably be in the area as well! There's plenty of experts in the area.",
+      "ru": "И я, пожалуй, тоже буду где-то поблизости! Тут хватает знающих людей.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Well, hey, there's no shame in that. There's lots to do around here. I'm sure you'll figure it out!",
+      "ru": "Да ладно, ничего стыдного в этом нет. Дел тут навалом. Уверен, ты разберёшься!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "If you need a goal, the next place you might want to visit is Nemract Swamp, to the north. Maybe pay it a visit when you reach level 20.",
+      "ru": "Если нужна цель, то следующее место, куда стоит заглянуть - Немрактские болота, на севере. Загляни туда, когда доберёшься до 20 уровня.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Admiral Aegis in the Detlas Barracks at [519, 67, -1628].",
+      "ru": "Поговорить с адмиралом Аегисом в казармах Детласа [519, 67, -1628].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Speak to Private Cob in the Savannah at [682, 74, -1714] to receive supplies.",
+      "ru": "Поговорить с рядовым Кобом в саванне и получить припасы [682, 74, -1714].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Bring the supplies to Captain Enduyn at [-192, 44, -1822].",
+      "ru": "Доставить припасы капитану Эндуину [-192, 44, -1822].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Decide who to bring with you into Mount Wynn at [-192, 44, -1822].",
+      "ru": "Выбрать спутника для похода на гору Винн [-192, 44, -1822].",
+      "stage": "Stage 3.5"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Enter Mount Wynn and reach the summit through the cave at [-120, 76, -1888].",
+      "ru": "Войти в пещеру горы Винн и добраться до вершины [-120, 76, -1888].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return to Captain Enduyn with the flame at [-192, 44, -1822].",
+      "ru": "Вернуться к капитану Эндуину с пламенем [-192, 44, -1822].",
+      "stage": "Stage 5"
+    }
+  ],
+  "choices": []
+}

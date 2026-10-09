@@ -1,0 +1,4760 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "captured-menus",
+  "scopes": [
+    {
+      "id": "menu-fa98addf18b369",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "You are identifying",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "You are identifying",
+        "ru": "Вы опознаёте"
+      },
+      "lines": [
+        {
+          "id": "line-fa98addf18b369de",
+          "en": "You are identifying",
+          "ru": "Вы опознаёте"
+        },
+        {
+          "id": "line-3ed8223e674ec616",
+          "en": "§7Identifying",
+          "ru": "§7Опознаваемые Предметы"
+        },
+        {
+          "id": "line-4368414ee78929a9",
+          "en": "§7Augments",
+          "ru": "§7Улучшения"
+        },
+        {
+          "id": "line-a865790de6b33096",
+          "en": "§7- Corkian Amplifier III",
+          "ru": "- Коркианский Усилитель III"
+        },
+        {
+          "id": "line-b0181d5263598176",
+          "en": "§7<em> Click to confirm",
+          "ru": "<em> Нажмите, чтобы подтвердить"
+        },
+        {
+          "id": "line-0223830f00ea47bb",
+          "en": "§7- <em><em>Unidentified Relik",
+          "ru": ""
+        }
+      ]
+    },
+    {
+      "id": "menu-04afa784b8979a",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Buy Order Summary",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Buy Order Summary",
+        "ru": "Заказ на Покупку"
+      },
+      "lines": [
+        {
+          "id": "line-04afa784b8979ae8",
+          "en": "Buy Order Summary",
+          "ru": "Заказ на Покупку"
+        },
+        {
+          "id": "line-1e15d79d3c8278cb",
+          "en": "§aBuying:",
+          "ru": "§aПокупка:"
+        },
+        {
+          "id": "line-751175821b7dcfec",
+          "en": "§a- <num>x Corkian Amplifier III",
+          "ru": "- §7<num>§7x §bКоркианский Усилитель§7 III"
+        },
+        {
+          "id": "line-1f64dcc60e7576a4",
+          "en": "§a- <num>² (<num>¼² <num>²½) total",
+          "ru": "§a- §f<num>§7² §8(<num>¼² <num>²½) §fвсего"
+        },
+        {
+          "id": "line-391d9698355f8bd8",
+          "en": "§7<em> Click to place buy order",
+          "ru": "§7<em> §aНажмите, чтобы разместить заказ"
+        }
+      ]
+    },
+    {
+      "id": "menu-15cceca78a172d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§6<num>x Private Guild Bank Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6<num>x Private Guild Bank Slot",
+        "ru": "§6<num>§7x Личная ячейка банка гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-15cceca78a172d46",
+          "en": "§6<num>x Private Guild Bank Slot",
+          "ru": "§6<num>§7x Личная ячейка банка гильдии"
+        },
+        {
+          "id": "line-7e79735c2d56e33f",
+          "en": "§7Unlocks §6<num>§7 permanent extra",
+          "ru": "§7Навсегда открывает §6<num>§7 доп. яче<pl:йку|йки|ек>:"
+        },
+        {
+          "id": "line-b32f6685f8a2dfcb",
+          "en": "§7§6Private Guild Bank Slot",
+          "ru": "§7§6Личная Ячейка Банка Гильдии"
+        },
+        {
+          "id": "line-d7c1dddd625a74b4",
+          "en": "§7§c✖ §7Requirement: §f<num>§7/<num> SR",
+          "ru": "§7§c✖ §7Требуется: §f<num>§7/§7<num>§7 SR"
+        }
+      ]
+    },
+    {
+      "id": "menu-f88d6ce2abb1e3",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§6<num>x Public Guild Bank Slots",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6<num>x Public Guild Bank Slots",
+        "ru": "§6<num>§7x Общая ячейка банка гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-f88d6ce2abb1e335",
+          "en": "§6<num>x Public Guild Bank Slots",
+          "ru": "§6<num>§7x Общая ячейка банка гильдии"
+        },
+        {
+          "id": "line-7e79735c2d56e33f",
+          "en": "§7Unlocks §6<num>§7 permanent extra",
+          "ru": "§7Навсегда открывает §6<num>§7 доп. яче<pl:йку|йки|ек>:"
+        },
+        {
+          "id": "line-63a38ed4295b60e9",
+          "en": "§7§6Public Guild Bank Slots",
+          "ru": "§7§6Общая Ячейка Банка Гильдии"
+        },
+        {
+          "id": "line-d7c1dddd625a74b4",
+          "en": "§7§c✖ §7Requirement: §f<num>§7/<num> SR",
+          "ru": "§7§c✖ §7Требуется: §f<num>§7/§7<num>§7 SR"
+        }
+      ]
+    },
+    {
+      "id": "menu-8aae63c1e2423c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§bGuild Badge",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§bGuild Badge",
+        "ru": "§bЗнак Гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-8aae63c1e2423c4b",
+          "en": "§bGuild Badge",
+          "ru": "§bЗнак Гильдии"
+        },
+        {
+          "id": "line-980e69d166a5965c",
+          "en": "§7Unlocks the Guild Badge",
+          "ru": "§7Открывает Знак Гильдии"
+        },
+        {
+          "id": "line-b5328e36c553941b",
+          "en": "§7§bSeason <num> - <num>rd Place",
+          "ru": "§#55FFFFСезон <num> - <num>-е место"
+        },
+        {
+          "id": "line-2043d670a73bf605",
+          "en": "§7§a✔ §7Current Position: §f<num>",
+          "ru": "§7§a✔ §7Текущее Место: §f<num>§7"
+        },
+        {
+          "id": "line-f28d64133d56ce36",
+          "en": "§7§c✖ §7Finish on §fTop <num>",
+          "ru": "§7§c✖ §7Завершить Сезон в §fТоп-§f<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-d0c08cce39af39",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a<num>% Guild XP Boost",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a<num>% Guild XP Boost",
+        "ru": "§a<num>%§7 К Опыту Гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-d0c08cce39af3919",
+          "en": "§a<num>% Guild XP Boost",
+          "ru": "§a<num>%§7 К Опыту Гильдии"
+        },
+        {
+          "id": "line-97afa7d612b5d05b",
+          "en": "§7Receives a§a <num>% Guild XP Boost§7",
+          "ru": "§7Благословение:§a +§a<num>%§7 Опыта Гильдии§7"
+        },
+        {
+          "id": "line-1194228b6f08a7fe",
+          "en": "§7bless until §f<num>",
+          "ru": "§7до §f<num>"
+        },
+        {
+          "id": "line-2043d670a73bf605",
+          "en": "§7§a✔ §7Current Position: §f<num>",
+          "ru": "§7§a✔ §7Текущее Место: §f<num>§7"
+        },
+        {
+          "id": "line-faa17b2dc0d9faa2",
+          "en": "§7§a✔ §7Finish on §fTop <num>",
+          "ru": "§7§a✔ §7Завершить Сезон в §fТоп-§f<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-c0c87e194e8ed0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a<num> Emeralds",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a<num> Emeralds",
+        "ru": "§a<num>§7 Изумруды"
+      },
+      "lines": [
+        {
+          "id": "line-c0c87e194e8ed0cb",
+          "en": "§a<num> Emeralds",
+          "ru": "§aИзумруды: §a<num>§7"
+        },
+        {
+          "id": "line-e549cdc2f88d31eb",
+          "en": "§7Invite <num> friend to receive",
+          "ru": "§7Пригласите <num> друга и получите"
+        },
+        {
+          "id": "line-5d43dbde41d856fc",
+          "en": "§7<num> emeralds",
+          "ru": "§7<num>§7 изумруд<pl:|а|ов>"
+        },
+        {
+          "id": "line-cb18205d728902ac",
+          "en": "§7§c✖ §7Recruit Players: §f<num>§7/<num>",
+          "ru": "§7§c✖ §7Приглашено Игроков: §f<num>§7/§7<num>§7"
+        },
+        {
+          "id": "line-a2b102bc20285d2b",
+          "en": "§7Invite <num> friends to receive",
+          "ru": "§7Пригласите <num> друзей и получите"
+        }
+      ]
+    },
+    {
+      "id": "menu-a6572e90ab4ec6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lGuild Rewards",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lGuild Rewards",
+        "ru": "§d§lНаграды Гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-a6572e90ab4ec606",
+          "en": "§d§lGuild Rewards",
+          "ru": "§d§lНаграды Гильдии"
+        },
+        {
+          "id": "line-6cab2af77a9f0808",
+          "en": "§7Owner and Chiefs can send",
+          "ru": "§7Глава и командиры могут выдать"
+        },
+        {
+          "id": "line-bc3735d443a6f2b7",
+          "en": "§7these rewards to guild members",
+          "ru": "§7эти награды участникам гильдии"
+        },
+        {
+          "id": "line-d29a5f4b39ed55a7",
+          "en": "Emeralds: <num>",
+          "ru": "Изумруды: <num>"
+        },
+        {
+          "id": "line-c3974cc2c2ab01ed",
+          "en": "Guild Tomes: <num>",
+          "ru": "Гильдейские Тома: <num>"
+        },
+        {
+          "id": "line-6baacf38cf8d6fac",
+          "en": "Aspects: <num>",
+          "ru": "Аспекты: <num>"
+        },
+        {
+          "id": "line-e3dd9879d8b4f33f",
+          "en": "§6§lYou've received a reward!",
+          "ru": "§6§lВы получили награду!"
+        },
+        {
+          "id": "line-0a130cbc26a0bb59",
+          "en": "§eClick to get <num> Aspects",
+          "ru": "§#FFFF55Нажмите, чтобы забрать <num> Аспект<pl:|а|ов>"
+        }
+      ]
+    },
+    {
+      "id": "menu-d0158f32b233dc",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§b§lTransfer Guild",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lTransfer Guild",
+        "ru": "§b§lПередать Гильдию"
+      },
+      "lines": [
+        {
+          "id": "line-d0158f32b233dca0",
+          "en": "§b§lTransfer Guild",
+          "ru": "§b§lПередать Гильдию"
+        },
+        {
+          "id": "line-0b9828a22a0341c3",
+          "en": "§7Click to transfer the",
+          "ru": "§7Нажмите, чтобы передать"
+        },
+        {
+          "id": "line-70c1e973dae445c4",
+          "en": "§7guild to another member",
+          "ru": "§7гильдию другому участнику"
+        },
+        {
+          "id": "line-3f4f18b6f05df826",
+          "en": "§bYou will lose ownership",
+          "ru": "§bВы перестанете быть главой"
+        },
+        {
+          "id": "line-b0d26e9f26f53f0c",
+          "en": "§bafter a guild transfer",
+          "ru": "§bпосле передачи гильдии"
+        }
+      ]
+    },
+    {
+      "id": "menu-205f0163b0d783",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Cancel Order",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Cancel Order",
+        "ru": "Отменить Заказ"
+      },
+      "lines": [
+        {
+          "id": "line-205f0163b0d783b2",
+          "en": "Cancel Order",
+          "ru": "Отменить Заказ"
+        },
+        {
+          "id": "line-6062ce2b8bb3a634",
+          "en": "§7Cancel this order and withdraw",
+          "ru": "§7Отменить заказ и забрать"
+        },
+        {
+          "id": "line-e3dff0755019e54f",
+          "en": "§7all items in storage",
+          "ru": "§7все предметы из хранилища"
+        }
+      ]
+    },
+    {
+      "id": "menu-e96437bc042ba5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Sort Results",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Sort Results",
+        "ru": "Сортировка"
+      },
+      "lines": [
+        {
+          "id": "line-e96437bc042ba5d0",
+          "en": "Sort Results",
+          "ru": "Сортировка"
+        },
+        {
+          "id": "line-f352c80489f31b30",
+          "en": "§8Sort the content of this page",
+          "ru": "§8Порядок результатов на странице"
+        },
+        {
+          "id": "line-1498bea8fb172cc9",
+          "en": "§6- Most Recent",
+          "ru": "§6- §rСначала Новые"
+        },
+        {
+          "id": "line-8939384dfba7cbb8",
+          "en": "§6- Least Recent",
+          "ru": "§6- §rСначала Старые"
+        },
+        {
+          "id": "line-c6895c109cce50f8",
+          "en": "§6- Most Expensive",
+          "ru": "§6- §rСначала Дорогие"
+        },
+        {
+          "id": "line-d9e6a3ec861081c7",
+          "en": "§6- Least Expensive",
+          "ru": "§6- §rСначала Дешёвые"
+        },
+        {
+          "id": "line-7b26514c1c211d54",
+          "en": "§6- Highest Level Range",
+          "ru": "§6- §rСначала Высокие Уровни"
+        },
+        {
+          "id": "line-34d852a93d0ddb36",
+          "en": "§6- Lowest Level Range",
+          "ru": "§6- §rСначала Низкие Уровни"
+        }
+      ]
+    },
+    {
+      "id": "menu-edca7bb01a477c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§c§lGuild Bank",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§c§lGuild Bank",
+        "ru": "§c§lБанк Гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-dc392eb764be59e7",
+          "en": "§7Share items with other",
+          "ru": "§7Обменивайтесь предметами"
+        },
+        {
+          "id": "line-9640270474a46e56",
+          "en": "§7players in the guild",
+          "ru": "§7с участниками гильдии"
+        },
+        {
+          "id": "line-c9ff6491e400faff",
+          "en": "§cYou are too far away from",
+          "ru": "§cВы слишком далеко"
+        },
+        {
+          "id": "line-b13d302028abb581",
+          "en": "§can Emerald Merchant to open",
+          "ru": "§cот торговца изумрудами"
+        }
+      ]
+    },
+    {
+      "id": "menu-90b3e8c4215b97",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§f§lGuild Output",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§f§lGuild Output",
+        "ru": "§f§lДобыча Гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-90b3e8c4215b9764",
+          "en": "§f§lGuild Output",
+          "ru": "§f§lДобыча Гильдии"
+        },
+        {
+          "id": "line-b9ca137f8d6a066e",
+          "en": "§7You do not own any",
+          "ru": "§7У вашей гильдии пока нет"
+        },
+        {
+          "id": "line-cba0f6a71245d911",
+          "en": "§7territories to view",
+          "ru": "§7подконтрольных территорий"
+        }
+      ]
+    },
+    {
+      "id": "menu-9a8880bca8230d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§b§lView Your Guild",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lView Your Guild",
+        "ru": "§b§lВаша Гильдия"
+      },
+      "lines": [
+        {
+          "id": "line-9a8880bca8230da1",
+          "en": "§b§lView Your Guild",
+          "ru": "§b§lВаша Гильдия"
+        },
+        {
+          "id": "line-c5f3683c0c4458ab",
+          "en": "<em> Click to Manage",
+          "ru": "<em> §aНажмите, чтобы Управлять"
+        }
+      ]
+    },
+    {
+      "id": "menu-234f3d644fbf50",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Sell Order Summary",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Sell Order Summary",
+        "ru": "Заказ на Продажу"
+      },
+      "lines": [
+        {
+          "id": "line-234f3d644fbf508c",
+          "en": "Sell Order Summary",
+          "ru": "Заказ на Продажу"
+        },
+        {
+          "id": "line-54dae83d47370a1e",
+          "en": "§a- <num>² (<num>stx <num>¼²) each",
+          "ru": "§a- §f<num>§7² §8(<num>stx <num>¼²) §fза штуку"
+        },
+        {
+          "id": "line-0b92d050df69dfca",
+          "en": "§a- <num>² (<num>stx <num>¼²) each (taxed)",
+          "ru": "§a- §f<num>§7² §8(<num>stx <num>¼²) §fза штуку (с налогом)"
+        },
+        {
+          "id": "line-0051a3d420af0cb1",
+          "en": "§a- <num>² (<num>stx <num>¼²) total",
+          "ru": "§a- §f<num>§7² §8(<num>stx <num>¼²) §fвсего"
+        }
+      ]
+    },
+    {
+      "id": "menu-634623cb0ec9d6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lPvP Damage §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lPvP Damage §7[Lv. <num>]",
+        "ru": "§d§lУрон по Игрокам §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-634623cb0ec9d654",
+          "en": "§d§lPvP Damage §7[Lv. <num>]",
+          "ru": "§d§lУрон по Игрокам §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-152185a909815f33",
+          "en": "§7Guild members in this territory",
+          "ru": "§7Участники гильдии на этой территории"
+        },
+        {
+          "id": "line-a3c88c54f4c5931f",
+          "en": "§7will deal more damage to players",
+          "ru": "§7наносят больше урона игрокам"
+        },
+        {
+          "id": "line-63f6988ecc31bf77",
+          "en": "§7§dDamage Bonus: <num>%",
+          "ru": "§7§dБонус Урона: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-28642eecf8ed7ec4",
+          "en": "§a- §7Ⓑ <num> Ore",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-40df5b53a3f615",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lTome Seeking §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lTome Seeking §7[Lv. <num>]",
+        "ru": "§d§lПоиск Томов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-40df5b53a3f6158b",
+          "en": "§d§lTome Seeking §7[Lv. <num>]",
+          "ru": "§d§lПоиск Томов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-82d4eba5e0c44c62",
+          "en": "§7Your Guild will have a chance",
+          "ru": "§7Ваша гильдия получает шанс"
+        },
+        {
+          "id": "line-420f2366fd19af78",
+          "en": "§7to find exclusive Tomes while",
+          "ru": "§7найти особые тома, пока"
+        },
+        {
+          "id": "line-ee789110df1307c0",
+          "en": "§7holding this territory",
+          "ru": "§7удерживает эту территорию"
+        },
+        {
+          "id": "line-576640dcb2b9f2f7",
+          "en": "§7This upgrade is limited to",
+          "ru": "§7Улучшение доступно максимум"
+        },
+        {
+          "id": "line-60a84eda3e0b78fd",
+          "en": "§7<num> territories.",
+          "ru": "§7на §7<num>§7 территори<pl:и|ях|ях>."
+        },
+        {
+          "id": "line-4c2277fc341db323",
+          "en": "§7§dDrop Chance: <num>%/h",
+          "ru": "§7§dШанс Находки: <num>%/ч"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-75f6b49eee65fc70",
+          "en": "§a- §7Ⓚ <num> Fish",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-0b22fc108c1b18",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lLarger Emerald Storage §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lLarger Emerald Storage §7[Lv. <num>]",
+        "ru": "§d§lХранилище Изумрудов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-0b22fc108c1b18ec",
+          "en": "§d§lLarger Emerald Storage §7[Lv. <num>]",
+          "ru": "§d§lХранилище Изумрудов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-9a7676bc7f1c9b00",
+          "en": "§7Increases the storage limit for",
+          "ru": "§7Увеличивает вместимость хранилища"
+        },
+        {
+          "id": "line-1faa1922574e7a12",
+          "en": "§7emeralds in this territory",
+          "ru": "§7изумрудов на этой территории"
+        },
+        {
+          "id": "line-e11f700e2df96761",
+          "en": "§7§dStorage Bonus: <num>%",
+          "ru": "§7§dБонус Вместимости: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-f8c2fed23113784d",
+          "en": "§a- §7Ⓒ <num> Wood",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-c75d1983616907",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§6§lDamage §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6§lDamage §7[Lv. <num>]",
+        "ru": "§6§lУрон §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-c75d19836169078c",
+          "en": "§6§lDamage §7[Lv. <num>]",
+          "ru": "§6§lУрон §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-28642eecf8ed7ec4",
+          "en": "§a- §7Ⓑ <num> Ore",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-e0ccde2343660f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§c§lHealth §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§c§lHealth §7[Lv. <num>]",
+        "ru": "§c§lЗдоровье §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-e0ccde2343660f84",
+          "en": "§c§lHealth §7[Lv. <num>]",
+          "ru": "§c§lЗдоровье §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-f8c2fed23113784d",
+          "en": "§a- §7Ⓒ <num> Wood",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-d0ffa988bb83ab",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§b§lDefence §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lDefence §7[Lv. <num>]",
+        "ru": "§b§lЗащита §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-d0ffa988bb83ab30",
+          "en": "§b§lDefence §7[Lv. <num>]",
+          "ru": "§b§lЗащита §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-75f6b49eee65fc70",
+          "en": "§a- §7Ⓚ <num> Fish",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-0a3f598ed0fc51",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§3§lGuild Tower",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§3§lGuild Tower",
+        "ru": "§3§lГильдейская Башня"
+      },
+      "lines": [
+        {
+          "id": "line-0a3f598ed0fc519c",
+          "en": "§3§lGuild Tower",
+          "ru": "§3§lГильдейская Башня"
+        },
+        {
+          "id": "line-312e0d9923bc84b0",
+          "en": "§7Level up your Guild Tower",
+          "ru": "§7Улучшайте гильдейскую башню,"
+        },
+        {
+          "id": "line-0ae4d924c3206aa6",
+          "en": "§7to protect your territory",
+          "ru": "§7чтобы защитить территорию"
+        },
+        {
+          "id": "line-67478f51daa516de",
+          "en": "§dTotal Stats:",
+          "ru": "§dОбщие Характеристики:"
+        },
+        {
+          "id": "line-d3d2b5d4f37ca1ad",
+          "en": "§d- §7Attacks per Second: <num>",
+          "ru": "§d- §7Атак в секунду: §7<num>§7"
+        },
+        {
+          "id": "line-11ca10e5dbfb5652",
+          "en": "§aTower Cost (per hour):",
+          "ru": "§aРасходы башни за час:"
+        },
+        {
+          "id": "line-b1b60db9c1d10b63",
+          "en": "§a- §7<num> Emeralds§8 (<num>%)",
+          "ru": "§a- §7Изумруды: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-1c92c2813a6d65ec",
+          "en": "§a- §7Ⓑ <num> Ore§4 (No output)",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7§4 (Нет добычи)"
+        },
+        {
+          "id": "line-f4310f29b5d41a74",
+          "en": "§a- §7Ⓒ <num> Wood§4 (No output)",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7§4 (Нет добычи)"
+        },
+        {
+          "id": "line-b45ef945dea6e9c0",
+          "en": "§a- §7Ⓚ <num> Fish§4 (No output)",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7§4 (Нет добычи)"
+        },
+        {
+          "id": "line-257f61f099cd43b6",
+          "en": "§a- §7Ⓙ <num> Crops§8 (<num>%)",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-adf85767b94510bf",
+          "en": "§aClick to Upgrade",
+          "ru": "§aНажмите, чтобы Улучшить"
+        }
+      ]
+    },
+    {
+      "id": "menu-0198a8be562e65",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lResource Rate §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lResource Rate §7[Lv. <num>]",
+        "ru": "§d§lЧастота Добычи Ресурсов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-0198a8be562e650e",
+          "en": "§d§lResource Rate §7[Lv. <num>]",
+          "ru": "§d§lЧастота Добычи Ресурсов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-9bc392f00231f530",
+          "en": "§7Decreases the time needed to produce",
+          "ru": "§7Сокращает время добычи"
+        },
+        {
+          "id": "line-e6520aae027d9745",
+          "en": "§7resources on this territory",
+          "ru": "§7ресурсов на этой территории"
+        },
+        {
+          "id": "line-dd7dfa354121d942",
+          "en": "§7§dGather Rate: <num>s",
+          "ru": "§7§dИнтервал добычи: §d<num>§7с"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-1a90f87590315b59",
+          "en": "§a- §7<num> Emeralds",
+          "ru": "§a- §7Изумруды: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-0ced05c1d9f475",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lEfficient Emeralds §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lEfficient Emeralds §7[Lv. <num>]",
+        "ru": "§d§lДобыча Изумрудов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-0ced05c1d9f475bc",
+          "en": "§d§lEfficient Emeralds §7[Lv. <num>]",
+          "ru": "§d§lДобыча Изумрудов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-2318d697eccbf2d4",
+          "en": "§7Increases the amount of emeralds",
+          "ru": "§7Увеличивает добычу изумрудов"
+        },
+        {
+          "id": "line-ab1fff48d7969c10",
+          "en": "§7this territory will produce",
+          "ru": "§7на этой территории"
+        },
+        {
+          "id": "line-0a613ec9d0c6747e",
+          "en": "§7§dEmerald Bonus: <num>%",
+          "ru": "§7§dБонус Изумрудов: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-28642eecf8ed7ec4",
+          "en": "§a- §7Ⓑ <num> Ore",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-9c4abf5751562b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§b§lTotal Cost (per hour)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lTotal Cost (per hour)",
+        "ru": "§b§lРасходы за час"
+      },
+      "lines": [
+        {
+          "id": "line-9c4abf5751562b84",
+          "en": "§b§lTotal Cost (per hour)",
+          "ru": "§b§lРасходы за час"
+        },
+        {
+          "id": "line-3440fd597664b2c6",
+          "en": "§7§7<num> Emeralds§8 (<num>%)",
+          "ru": "§7Изумруды: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-395ce201ab029573",
+          "en": "§7§7Ⓑ <num> Ore§4 (No output)",
+          "ru": "§7Ⓑ Руда: §7<num>§7§4 (Нет добычи)"
+        },
+        {
+          "id": "line-e42c6e3fab768f69",
+          "en": "§7§7Ⓒ <num> Wood§4 (No output)",
+          "ru": "§7Ⓒ Древесина: §7<num>§7§4 (Нет добычи)"
+        },
+        {
+          "id": "line-0fa3315ca1b2a276",
+          "en": "§7§7Ⓚ <num> Fish§4 (No output)",
+          "ru": "§7Ⓚ Рыба: §7<num>§7§4 (Нет добычи)"
+        },
+        {
+          "id": "line-c72eb93a385d95f5",
+          "en": "§7§7Ⓙ <num> Crops§8 (<num>%)",
+          "ru": "§7Ⓙ Урожай: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-b931d51ddecb6201",
+          "en": "§dGuild Output (per hour):",
+          "ru": "§dДобыча гильдии за час:"
+        },
+        {
+          "id": "line-3f8a4da1e2d92665",
+          "en": "§7§7<num> Emeralds",
+          "ru": "<num> Изумруд<pl:|а|ов>"
+        },
+        {
+          "id": "line-943b0e9a77caeed5",
+          "en": "§7§7Ⓑ <num> Ore",
+          "ru": "§7Ⓑ Руда: §7<num>§7"
+        },
+        {
+          "id": "line-fc3bf27fc0d5d6fd",
+          "en": "§7§7Ⓒ <num> Wood",
+          "ru": "§7Ⓒ Древесина: §7<num>§7"
+        },
+        {
+          "id": "line-e7f870dd0ba89338",
+          "en": "§7§7Ⓚ <num> Fish",
+          "ru": "§7Ⓚ Рыба: §7<num>§7"
+        },
+        {
+          "id": "line-80a75e3162c196ac",
+          "en": "§7§7Ⓙ <num> Crops",
+          "ru": "§7Ⓙ Урожай: §7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-738aa7d1661a62",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lTower Multi-Attacks §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lTower Multi-Attacks §7[Lv. <num>]",
+        "ru": "§d§lЦели Башни §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-738aa7d1661a62e1",
+          "en": "§d§lTower Multi-Attacks §7[Lv. <num>]",
+          "ru": "§d§lЦели Башни §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-23520ecc976fc43e",
+          "en": "§7Increases the number of players",
+          "ru": "§7Увеличивает число игроков, которых"
+        },
+        {
+          "id": "line-1da2586a083ccc67",
+          "en": "§7your Guild Tower can attack at once",
+          "ru": "§7башня может атаковать одновременно"
+        },
+        {
+          "id": "line-576640dcb2b9f2f7",
+          "en": "§7This upgrade is limited to",
+          "ru": "§7Улучшение доступно максимум"
+        },
+        {
+          "id": "line-60a84eda3e0b78fd",
+          "en": "§7<num> territories.",
+          "ru": "§7на §7<num>§7 территори<pl:и|ях|ях>."
+        },
+        {
+          "id": "line-0b1e9e025b9bf7eb",
+          "en": "§7§dMax Targets: <num>",
+          "ru": "§7§dМаксимум Целей: §d<num>§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-75f6b49eee65fc70",
+          "en": "§a- §7Ⓚ <num> Fish",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-5a5c19d2bbdc40",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lGathering Experience §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lGathering Experience §7[Lv. <num>]",
+        "ru": "§d§lОпыт Сбора Ресурсов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-5a5c19d2bbdc40c8",
+          "en": "§d§lGathering Experience §7[Lv. <num>]",
+          "ru": "§d§lОпыт Сбора Ресурсов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-152185a909815f33",
+          "en": "§7Guild members in this territory",
+          "ru": "§7Участники гильдии на этой территории"
+        },
+        {
+          "id": "line-20b74a55ddc84a75",
+          "en": "§7will gain bonus gathering XP",
+          "ru": "§7получают больше опыта за сбор"
+        },
+        {
+          "id": "line-baaaa39af5b81867",
+          "en": "§7§dGathering XP: <num>%",
+          "ru": "§7§dОпыт Сбора Ресурсов: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-f8c2fed23113784d",
+          "en": "§a- §7Ⓒ <num> Wood",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-eb6718a459e231",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lStronger Minions §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lStronger Minions §7[Lv. <num>]",
+        "ru": "§d§lУсиление Прислужников §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-eb6718a459e23176",
+          "en": "§d§lStronger Minions §7[Lv. <num>]",
+          "ru": "§d§lУсиление Прислужников §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-21bd5ae368a1a3cb",
+          "en": "§7Buffs the minions that spawn",
+          "ru": "§7Усиливает прислужников, появляющихся"
+        },
+        {
+          "id": "line-e659afb934afd654",
+          "en": "§7when your territory is attacked",
+          "ru": "§7при нападении на территорию"
+        },
+        {
+          "id": "line-aa50364a195707f2",
+          "en": "§7§dMinion Damage: <num>%",
+          "ru": "§7§dУрон Прислужников: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-f8c2fed23113784d",
+          "en": "§a- §7Ⓒ <num> Wood",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-8599dad91e0b50",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lMob Experience §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lMob Experience §7[Lv. <num>]",
+        "ru": "§d§lОпыт за Мобов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-8599dad91e0b50b3",
+          "en": "§d§lMob Experience §7[Lv. <num>]",
+          "ru": "§d§lОпыт за Мобов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-152185a909815f33",
+          "en": "§7Guild members in this territory",
+          "ru": "§7Участники гильдии на этой территории"
+        },
+        {
+          "id": "line-0fb8f8778ae9297b",
+          "en": "§7will receive more XP from mobs",
+          "ru": "§7получают больше опыта за мобов"
+        },
+        {
+          "id": "line-d8a6995f0147f6aa",
+          "en": "§7§dXP Bonus: <num>%",
+          "ru": "§7§dБонус Опыта: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-75f6b49eee65fc70",
+          "en": "§a- §7Ⓚ <num> Fish",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-859286948f7f4b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lEmerald Rate §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lEmerald Rate §7[Lv. <num>]",
+        "ru": "§d§lЧастота Добычи Изумрудов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-859286948f7f4ba7",
+          "en": "§d§lEmerald Rate §7[Lv. <num>]",
+          "ru": "§d§lЧастота Добычи Изумрудов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-9bc392f00231f530",
+          "en": "§7Decreases the time needed to produce",
+          "ru": "§7Сокращает время добычи"
+        },
+        {
+          "id": "line-2dd48d8503ccbd0e",
+          "en": "§7emeralds on this territory",
+          "ru": "§7изумрудов на этой территории"
+        },
+        {
+          "id": "line-dd7dfa354121d942",
+          "en": "§7§dGather Rate: <num>s",
+          "ru": "§7§dИнтервал добычи: §d<num>§7с"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-765c8cb1bfa4340d",
+          "en": "§a- §7Ⓙ <num> Crops",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-cec0bf14368ed5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lEfficient Resources §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lEfficient Resources §7[Lv. <num>]",
+        "ru": "§d§lДобыча Ресурсов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-cec0bf14368ed56b",
+          "en": "§d§lEfficient Resources §7[Lv. <num>]",
+          "ru": "§d§lДобыча Ресурсов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-d7fa5d4b6d49e7d2",
+          "en": "§7Increases the amount of resources",
+          "ru": "§7Увеличивает добычу ресурсов"
+        },
+        {
+          "id": "line-ab1fff48d7969c10",
+          "en": "§7this territory will produce",
+          "ru": "§7на этой территории"
+        },
+        {
+          "id": "line-9bed6fcd49047efd",
+          "en": "§7§dGathering Bonus: <num>%",
+          "ru": "§7§dБонус Добычи: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-1a90f87590315b59",
+          "en": "§a- §7<num> Emeralds",
+          "ru": "§a- §7Изумруды: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-9c5c92dbbea87f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lEmerald Seeking §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lEmerald Seeking §7[Lv. <num>]",
+        "ru": "§d§lПоиск Изумрудов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-9c5c92dbbea87fd5",
+          "en": "§d§lEmerald Seeking §7[Lv. <num>]",
+          "ru": "§d§lПоиск Изумрудов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-82d4eba5e0c44c62",
+          "en": "§7Your Guild will have a chance",
+          "ru": "§7Ваша гильдия получает шанс"
+        },
+        {
+          "id": "line-7ea31ef03f4d4835",
+          "en": "§7to find Emeralds while holding",
+          "ru": "§7найти изумруды, пока удерживает"
+        },
+        {
+          "id": "line-a78ee9d53ebd0145",
+          "en": "§7this territory",
+          "ru": "§7эту территорию"
+        },
+        {
+          "id": "line-576640dcb2b9f2f7",
+          "en": "§7This upgrade is limited to",
+          "ru": "§7Улучшение доступно максимум"
+        },
+        {
+          "id": "line-60a84eda3e0b78fd",
+          "en": "§7<num> territories.",
+          "ru": "§7на §7<num>§7 территори<pl:и|ях|ях>."
+        },
+        {
+          "id": "line-4c2277fc341db323",
+          "en": "§7§dDrop Chance: <num>%/h",
+          "ru": "§7§dШанс Находки: <num>%/ч"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-f8c2fed23113784d",
+          "en": "§a- §7Ⓒ <num> Wood",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-8d1defe44f72a6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lTower Volley §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lTower Volley §7[Lv. <num>]",
+        "ru": "§d§lЗалп Башни §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-8d1defe44f72a62e",
+          "en": "§d§lTower Volley §7[Lv. <num>]",
+          "ru": "§d§lЗалп Башни §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-a11bf05e756991f9",
+          "en": "§7Cast a volley of fireballs from the",
+          "ru": "§7Башня выпускает залп огненных шаров,"
+        },
+        {
+          "id": "line-12ea2e675b1e73db",
+          "en": "§7tower damaging players between <num>%",
+          "ru": "§7нанося игрокам от §7<num>%§7"
+        },
+        {
+          "id": "line-d05135de532d09c3",
+          "en": "§7and <num>% of the Tower's damage.",
+          "ru": "§7до §7<num>%§7 от урона башни."
+        },
+        {
+          "id": "line-b45fcd1bea61d001",
+          "en": "§7§dFrequency: <num>s",
+          "ru": "§7§dИнтервал: §d<num>§7с"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-28642eecf8ed7ec4",
+          "en": "§a- §7Ⓑ <num> Ore",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-f9c386db8f6352",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lAttack §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lAttack §7[Lv. <num>]",
+        "ru": "§a§lЧастота Атак §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-f9c386db8f63527e",
+          "en": "§a§lAttack §7[Lv. <num>]",
+          "ru": "§a§lЧастота Атак §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        },
+        {
+          "id": "line-a38ec6fbf102bfb3",
+          "en": "§7§aAttacks per Second: <num>%",
+          "ru": "§7§aЧастота атак: §a<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-765c8cb1bfa4340d",
+          "en": "§a- §7Ⓙ <num> Crops",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-0a49e891235b7e",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lMob Damage §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lMob Damage §7[Lv. <num>]",
+        "ru": "§d§lУрон по Мобам §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-0a49e891235b7e37",
+          "en": "§d§lMob Damage §7[Lv. <num>]",
+          "ru": "§d§lУрон по Мобам §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-152185a909815f33",
+          "en": "§7Guild members in this territory",
+          "ru": "§7Участники гильдии на этой территории"
+        },
+        {
+          "id": "line-6084c815d8006be9",
+          "en": "§7will deal more damage to mobs",
+          "ru": "§7наносят больше урона мобам"
+        },
+        {
+          "id": "line-63f6988ecc31bf77",
+          "en": "§7§dDamage Bonus: <num>%",
+          "ru": "§7§dБонус Урона: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-765c8cb1bfa4340d",
+          "en": "§a- §7Ⓙ <num> Crops",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-1602ab8936328a",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lLarger Resource Storage §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lLarger Resource Storage §7[Lv. <num>]",
+        "ru": "§d§lХранилище Ресурсов §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-1602ab8936328ae2",
+          "en": "§d§lLarger Resource Storage §7[Lv. <num>]",
+          "ru": "§d§lХранилище Ресурсов §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-9a7676bc7f1c9b00",
+          "en": "§7Increases the storage limit for",
+          "ru": "§7Увеличивает вместимость хранилища"
+        },
+        {
+          "id": "line-441dec7f92aa3973",
+          "en": "§7resources in this territory",
+          "ru": "§7ресурсов на этой территории"
+        },
+        {
+          "id": "line-e11f700e2df96761",
+          "en": "§7§dStorage Bonus: <num>%",
+          "ru": "§7§dБонус Вместимости: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-1a90f87590315b59",
+          "en": "§a- §7<num> Emeralds",
+          "ru": "§a- §7Изумруды: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-d1d1a6bc36a723",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lXP Seeking §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lXP Seeking §7[Lv. <num>]",
+        "ru": "§d§lОпыт Гильдии §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-d1d1a6bc36a72371",
+          "en": "§d§lXP Seeking §7[Lv. <num>]",
+          "ru": "§d§lОпыт Гильдии §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-34f903e2e2856efb",
+          "en": "§7Your Guild will gain XP",
+          "ru": "§7Ваша гильдия получает опыт,"
+        },
+        {
+          "id": "line-d0663662dc661277",
+          "en": "§7while holding this territory",
+          "ru": "§7пока удерживает эту территорию"
+        },
+        {
+          "id": "line-576640dcb2b9f2f7",
+          "en": "§7This upgrade is limited to",
+          "ru": "§7Улучшение доступно максимум"
+        },
+        {
+          "id": "line-60a84eda3e0b78fd",
+          "en": "§7<num> territories.",
+          "ru": "§7на §7<num>§7 территори<pl:и|ях|ях>."
+        },
+        {
+          "id": "line-0ecb7472056fcf65",
+          "en": "§7§dGuild XP: <num>/h",
+          "ru": "§7§dОпыт Гильдии: <num>/ч"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-1a90f87590315b59",
+          "en": "§a- §7<num> Emeralds",
+          "ru": "§a- §7Изумруды: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-620d68a5009bd5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§e§lTrading Route",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§e§lTrading Route",
+        "ru": "§e§lМаршрут Перевозки"
+      },
+      "lines": [
+        {
+          "id": "line-620d68a5009bd51c",
+          "en": "§e§lTrading Route",
+          "ru": "§e§lМаршрут Перевозки"
+        },
+        {
+          "id": "line-2ca5a262fc3134bf",
+          "en": "§7All excess resources will be sent",
+          "ru": "§7Все излишки ресурсов отправляются"
+        },
+        {
+          "id": "line-71f47587e581fc4e",
+          "en": "§7to the guild headquarters using the",
+          "ru": "§7в штаб гильдии по маршруту,"
+        },
+        {
+          "id": "line-381e163540bd2612",
+          "en": "§7route shown below",
+          "ru": "§7указанному ниже"
+        },
+        {
+          "id": "line-7d3345845a88e350",
+          "en": "§7Route Tax: §a<num>% §8(compound)",
+          "ru": "§7Налог на пути: §a<num>%§7 §8(по всем участкам)"
+        },
+        {
+          "id": "line-5695b8818deee2c8",
+          "en": "§3Style: §bCheapest",
+          "ru": "§3Маршрут: §bСамый Дешёвый"
+        },
+        {
+          "id": "line-74f97b2aa8b8e1f7",
+          "en": "§2Borders: §aOpen",
+          "ru": "§2Границы: §aОткрыты"
+        },
+        {
+          "id": "line-7770ac3b5cdfa334",
+          "en": "§7Left-Click to set style §8(shift for global)",
+          "ru": "§7ЛКМ: маршрут §8(Shift: для всех)"
+        },
+        {
+          "id": "line-c8fabf3cbca57116",
+          "en": "§7Right-Click to set border §8(shift for global)",
+          "ru": "§7ПКМ: границы §8(Shift: для всех)"
+        }
+      ]
+    },
+    {
+      "id": "menu-4160c213502854",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lEmerald Rate §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lEmerald Rate §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lЧастота Добычи Изумрудов §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-4160c21350285485",
+          "en": "§d§lEmerald Rate §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lЧастота Добычи Изумрудов §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-9bc392f00231f530",
+          "en": "§7Decreases the time needed to produce",
+          "ru": "§7Сокращает время добычи"
+        },
+        {
+          "id": "line-2dd48d8503ccbd0e",
+          "en": "§7emeralds on this territory",
+          "ru": "§7изумрудов на этой территории"
+        },
+        {
+          "id": "line-dd7dfa354121d942",
+          "en": "§7§dGather Rate: <num>s",
+          "ru": "§7§dИнтервал добычи: §d<num>§7с"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-765c8cb1bfa4340d",
+          "en": "§a- §7Ⓙ <num> Crops",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-0fb31d448a60a1",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lEfficient Emeralds §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lEfficient Emeralds §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lДобыча Изумрудов §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-0fb31d448a60a193",
+          "en": "§d§lEfficient Emeralds §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lДобыча Изумрудов §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-2318d697eccbf2d4",
+          "en": "§7Increases the amount of emeralds",
+          "ru": "§7Увеличивает добычу изумрудов"
+        },
+        {
+          "id": "line-ab1fff48d7969c10",
+          "en": "§7this territory will produce",
+          "ru": "§7на этой территории"
+        },
+        {
+          "id": "line-0a613ec9d0c6747e",
+          "en": "§7§dEmerald Bonus: <num>%",
+          "ru": "§7§dБонус Изумрудов: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-28642eecf8ed7ec4",
+          "en": "§a- §7Ⓑ <num> Ore",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-42074c4d7e21b8",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lTower Aura §7[Lv. <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lTower Aura §7[Lv. <num>]",
+        "ru": "§d§lАура Башни §7[Ур. §7<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-42074c4d7e21b8a8",
+          "en": "§d§lTower Aura §7[Lv. <num>]",
+          "ru": "§d§lАура Башни §7[Ур. §7<num>§7]"
+        },
+        {
+          "id": "line-bd8a7a42b053be6e",
+          "en": "§7Cast an outward-moving Aura from",
+          "ru": "§7Башня создаёт расходящуюся ауру,"
+        },
+        {
+          "id": "line-e9dea8414bee8942",
+          "en": "§7the Tower damaging players between",
+          "ru": "§7нанося игрокам урон от"
+        },
+        {
+          "id": "line-deb444f43458ffe3",
+          "en": "§7<num>% and <num>% of the Tower's damage.",
+          "ru": "§7<num>%§7 до §7<num>%§7 от урона башни."
+        },
+        {
+          "id": "line-b45fcd1bea61d001",
+          "en": "§7§dFrequency: <num>s",
+          "ru": "§7§dИнтервал: §d<num>§7с"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-765c8cb1bfa4340d",
+          "en": "§a- §7Ⓙ <num> Crops",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-e1eb82c3b6ae71",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§b§lSet as HQ",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lSet as HQ",
+        "ru": "§b§lНазначить Штабом"
+      },
+      "lines": [
+        {
+          "id": "line-e1eb82c3b6ae7168",
+          "en": "§b§lSet as HQ",
+          "ru": "§b§lНазначить Штабом"
+        },
+        {
+          "id": "line-86adb2c2e61e6770",
+          "en": "§7This territory §bis set §7as",
+          "ru": "§7Эта территория §bназначена §7штабом"
+        },
+        {
+          "id": "line-a76d87d8b16af1b7",
+          "en": "§7your guild's headquarters",
+          "ru": "§7вашей гильдии"
+        },
+        {
+          "id": "line-a09b2a0a0a7637d6",
+          "en": "§bHQ Bonuses:",
+          "ru": "§bБонусы Штаба:"
+        },
+        {
+          "id": "line-44b577429d97d382",
+          "en": "§b- §7<num>% Guild Tower Health",
+          "ru": "§b- §7<num>%§7 К Здоровью Башни"
+        },
+        {
+          "id": "line-5ed0fe2be4625a33",
+          "en": "§b- §7<num>% Guild Tower Damage",
+          "ru": "§b- §7<num>%§7 К Урону Башни"
+        },
+        {
+          "id": "line-e4ac1fbac4a5d9dc",
+          "en": "§8Holding more territories",
+          "ru": "§8Чем больше территорий"
+        },
+        {
+          "id": "line-36996f87dee8356e",
+          "en": "§8and creating links increases",
+          "ru": "§8связано со штабом,"
+        },
+        {
+          "id": "line-7d9d543b5399c426",
+          "en": "§8the HQ Bonus.",
+          "ru": "§8тем выше бонус штаба."
+        },
+        {
+          "id": "line-c225a76c198180ac",
+          "en": "§7To gain resources from your",
+          "ru": "§7Чтобы получать ресурсы"
+        },
+        {
+          "id": "line-4360925fc7a398c3",
+          "en": "§7other territories, you must",
+          "ru": "§7с других территорий,"
+        },
+        {
+          "id": "line-5d92e786947fcf07",
+          "en": "§7link them to your headquarters",
+          "ru": "§7соедините их со штабом"
+        }
+      ]
+    },
+    {
+      "id": "menu-4efa53c15ce960",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lTaxes",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lTaxes",
+        "ru": "§a§lНалоги"
+      },
+      "lines": [
+        {
+          "id": "line-4efa53c15ce96095",
+          "en": "§a§lTaxes",
+          "ru": "§a§lНалоги"
+        },
+        {
+          "id": "line-ce6e746ee5aa32ce",
+          "en": "§7If resources from other guilds",
+          "ru": "§7Если ресурсы других гильдий"
+        },
+        {
+          "id": "line-cd2034c7d49500fd",
+          "en": "§7use this territory to travel, they",
+          "ru": "§7проходят через эту территорию,"
+        },
+        {
+          "id": "line-ad6a9bc3a49ac9f0",
+          "en": "§7will be taxed at these rates",
+          "ru": "§7с них взимается этот налог"
+        },
+        {
+          "id": "line-537d095ed2520c9d",
+          "en": "§aTax: §7<num>%",
+          "ru": "§aНалог: §7<num>%§7"
+        },
+        {
+          "id": "line-e5405a43e2c8c4e5",
+          "en": "§6Ally Tax: §7<num>%",
+          "ru": "§6Налог для Союзников: §7<num>%§7"
+        },
+        {
+          "id": "line-a7308b90f7632eee",
+          "en": "§7Left-Click to set tax §8(shift for global)",
+          "ru": "§7ЛКМ: налог §8(Shift: для всех)"
+        },
+        {
+          "id": "line-7cbc0e1643f2d657",
+          "en": "§7Right-Click to set ally tax §8(shift for global)",
+          "ru": "§7ПКМ: налог союзникам §8(Shift: для всех)"
+        }
+      ]
+    },
+    {
+      "id": "menu-cc27be87678203",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lXP Seeking §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lXP Seeking §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lОпыт Гильдии §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-cc27be8767820357",
+          "en": "§d§lXP Seeking §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lОпыт Гильдии §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-34f903e2e2856efb",
+          "en": "§7Your Guild will gain XP",
+          "ru": "§7Ваша гильдия получает опыт,"
+        },
+        {
+          "id": "line-d0663662dc661277",
+          "en": "§7while holding this territory",
+          "ru": "§7пока удерживает эту территорию"
+        },
+        {
+          "id": "line-576640dcb2b9f2f7",
+          "en": "§7This upgrade is limited to",
+          "ru": "§7Улучшение доступно максимум"
+        },
+        {
+          "id": "line-60a84eda3e0b78fd",
+          "en": "§7<num> territories.",
+          "ru": "§7на §7<num>§7 территори<pl:и|ях|ях>."
+        },
+        {
+          "id": "line-0ecb7472056fcf65",
+          "en": "§7§dGuild XP: <num>/h",
+          "ru": "§7§dОпыт Гильдии: <num>/ч"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-1a90f87590315b59",
+          "en": "§a- §7<num> Emeralds",
+          "ru": "§a- §7Изумруды: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-f130335feb703b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lResources",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lResources",
+        "ru": "§a§lРесурсы"
+      },
+      "lines": [
+        {
+          "id": "line-f130335feb703b7d",
+          "en": "§a§lResources",
+          "ru": "§a§lРесурсы"
+        },
+        {
+          "id": "line-49b9e6f233f85b52",
+          "en": "§7Periodically, resources from",
+          "ru": "§7Ресурсы с этой территории"
+        },
+        {
+          "id": "line-1b4b20f866bb4e60",
+          "en": "§7this territory will be brought to",
+          "ru": "§7периодически доставляются"
+        },
+        {
+          "id": "line-20a0f61b9eda4d3e",
+          "en": "§7your headquarter's Guild Bank",
+          "ru": "§7в гильдейский банк штаба"
+        },
+        {
+          "id": "line-9245bc0b44bf6c1a",
+          "en": "§7§a<num> Emeralds per Hour",
+          "ru": "§#55FF55Изумруды: <num> в час"
+        },
+        {
+          "id": "line-f03bf3ccbe5b199b",
+          "en": "§7§a<num> stored (<num> traversing)",
+          "ru": "<num> в запасе (<num> в пути)"
+        },
+        {
+          "id": "line-2e2121c011dcf21b",
+          "en": "§7§7Ⓑ <num> Ore per Hour",
+          "ru": "§7Ⓑ Руда: §7<num>§7 в час"
+        },
+        {
+          "id": "line-c1683c77fe1f7674",
+          "en": "§7§fⒷ <num> stored (<num> traversing)",
+          "ru": "Ⓑ <num> в запасе (<num> в пути)"
+        },
+        {
+          "id": "line-938efc16c5db69d4",
+          "en": "§7§7Ⓒ <num> Wood per Hour",
+          "ru": "§7Ⓒ Древесина: §7<num>§7 в час"
+        },
+        {
+          "id": "line-b9864cea4c6e3f27",
+          "en": "§7§6Ⓒ <num> stored (<num> traversing)",
+          "ru": "Ⓒ <num> в запасе (<num> в пути)"
+        },
+        {
+          "id": "line-f842db223e83aea1",
+          "en": "§7§7Ⓚ <num> Fish per Hour",
+          "ru": "§7Ⓚ Рыба: §7<num>§7 в час"
+        },
+        {
+          "id": "line-599d0ba208175dfc",
+          "en": "§7§bⓀ <num> stored (<num> traversing)",
+          "ru": "Ⓚ <num> в запасе (<num> в пути)"
+        },
+        {
+          "id": "line-2bc9f0111400352d",
+          "en": "§7§eⒿ <num> Crops per Hour",
+          "ru": "Ⓙ Урожай: <num> в час"
+        },
+        {
+          "id": "line-703e90ceeecc2890",
+          "en": "§7§eⒿ <num> stored (<num> traversing)",
+          "ru": "Ⓙ <num> в запасе (<num> в пути)"
+        },
+        {
+          "id": "line-5b0cd4c69cf4796f",
+          "en": "§d✦ Treasury Generation Bonus: §f<num>%",
+          "ru": "§d✦ Бонус Добычи от Казны: §f<num>%§7"
+        },
+        {
+          "id": "line-addad9c9a106e334",
+          "en": "§5✦ Next Tier in §f<num> minutes",
+          "ru": "§5✦ Следующий уровень через §f<num>§f мин."
+        },
+        {
+          "id": "line-d7e657512752c53d",
+          "en": "§8Treasury increases based",
+          "ru": "§8Казна растёт, пока гильдия"
+        },
+        {
+          "id": "line-a4f70bbb1943af44",
+          "en": "§8on how long this territory",
+          "ru": "§8удерживает эту территорию."
+        },
+        {
+          "id": "line-51d58eb3ccdf1673",
+          "en": "§8has been held. The farther away",
+          "ru": "§8Чем дальше территория"
+        },
+        {
+          "id": "line-920faee48db29a18",
+          "en": "§8from the HQ, smaller is the Bonus.",
+          "ru": "§8от штаба, тем меньше бонус."
+        },
+        {
+          "id": "line-d2c16a092c0e6cc0",
+          "en": "§7Resources move every <num>s §8(<num>s)",
+          "ru": "§7Доставка каждые <num>с §8(<num>с)"
+        }
+      ]
+    },
+    {
+      "id": "menu-ef13838359c69f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lTower Multi-Attacks §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lTower Multi-Attacks §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lЦели Башни §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-ef13838359c69f27",
+          "en": "§d§lTower Multi-Attacks §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lЦели Башни §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-23520ecc976fc43e",
+          "en": "§7Increases the number of players",
+          "ru": "§7Увеличивает число игроков, которых"
+        },
+        {
+          "id": "line-1da2586a083ccc67",
+          "en": "§7your Guild Tower can attack at once",
+          "ru": "§7башня может атаковать одновременно"
+        },
+        {
+          "id": "line-576640dcb2b9f2f7",
+          "en": "§7This upgrade is limited to",
+          "ru": "§7Улучшение доступно максимум"
+        },
+        {
+          "id": "line-60a84eda3e0b78fd",
+          "en": "§7<num> territories.",
+          "ru": "§7на §7<num>§7 территори<pl:и|ях|ях>."
+        },
+        {
+          "id": "line-0b1e9e025b9bf7eb",
+          "en": "§7§dMax Targets: <num>",
+          "ru": "§7§dМаксимум Целей: §d<num>§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-75f6b49eee65fc70",
+          "en": "§a- §7Ⓚ <num> Fish",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-ce8ea6aba07b5d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lResource Rate §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lResource Rate §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lЧастота Добычи Ресурсов §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-ce8ea6aba07b5d6d",
+          "en": "§d§lResource Rate §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lЧастота Добычи Ресурсов §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-9bc392f00231f530",
+          "en": "§7Decreases the time needed to produce",
+          "ru": "§7Сокращает время добычи"
+        },
+        {
+          "id": "line-e6520aae027d9745",
+          "en": "§7resources on this territory",
+          "ru": "§7ресурсов на этой территории"
+        },
+        {
+          "id": "line-dd7dfa354121d942",
+          "en": "§7§dGather Rate: <num>s",
+          "ru": "§7§dИнтервал добычи: §d<num>§7с"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-1a90f87590315b59",
+          "en": "§a- §7<num> Emeralds",
+          "ru": "§a- §7Изумруды: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-45c1824ee70f4c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§b§lRecently Captured",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lRecently Captured",
+        "ru": "§b§lНедавний Захват"
+      },
+      "lines": [
+        {
+          "id": "line-45c1824ee70f4c5e",
+          "en": "§b§lRecently Captured",
+          "ru": "§b§lНедавний Захват"
+        },
+        {
+          "id": "line-2cf527fd8ce5a5e7",
+          "en": "§7You have recently captured",
+          "ru": "§7Вы недавно захватили территорию"
+        },
+        {
+          "id": "line-08745c102023e494",
+          "en": "§7<em> Click to apply a Loadout",
+          "ru": "§7<em> §aНажмите, чтобы применить набор"
+        }
+      ]
+    },
+    {
+      "id": "menu-1669fb2f6c5b91",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lBonus",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lBonus",
+        "ru": "§d§lУлучшения"
+      },
+      "lines": [
+        {
+          "id": "line-1669fb2f6c5b9141",
+          "en": "§d§lBonus",
+          "ru": "§d§lУлучшения"
+        },
+        {
+          "id": "line-123070604fbdf2f1",
+          "en": "§d- §7Stronger Minions§8 [Lv. <num>]",
+          "ru": "§d- §7Усиление Прислужников§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-946328459a12d5f0",
+          "en": "§d- §7Tower Multi-Attacks§8 [Lv. <num>]",
+          "ru": "§d- §7Цели Башни§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-863bf88ec789e0fc",
+          "en": "§d- §7Tower Aura§8 [Lv. <num>]",
+          "ru": "§d- §7Аура Башни§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-ba33db2b91f7fab5",
+          "en": "§d- §7Tower Volley§8 [Lv. <num>]",
+          "ru": "§d- §7Залп Башни§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-822cf0cece1ad1a1",
+          "en": "§d- §7XP Seeking§8 [Lv. <num>]",
+          "ru": "§d- §7Опыт Гильдии§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-a864f4c268963f17",
+          "en": "§d- §7Larger Resource Storage§8 [Lv. <num>]",
+          "ru": "§d- §7Хранилище Ресурсов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-cacafd2f1d4d0eec",
+          "en": "§d- §7Larger Emerald Storage§8 [Lv. <num>]",
+          "ru": "§d- §7Хранилище Изумрудов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-68b075436d392b63",
+          "en": "§d- §7Efficient Resources§8 [Lv. <num>]",
+          "ru": "§d- §7Добыча Ресурсов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-be7d336c81a37f70",
+          "en": "§d- §7Efficient Emeralds§8 [Lv. <num>]",
+          "ru": "§d- §7Добыча Изумрудов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-f6ef04af8f7071c6",
+          "en": "§d- §7Resource Rate§8 [Lv. <num>]",
+          "ru": "§d- §7Частота Добычи Ресурсов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-654124746446790e",
+          "en": "§d- §7Emerald Rate§8 [Lv. <num>]",
+          "ru": "§d- §7Частота Добычи Изумрудов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-86067202dc32fbd6",
+          "en": "§aBonus Cost (per hour):",
+          "ru": "§aРасходы улучшений за час:"
+        },
+        {
+          "id": "line-b1b60db9c1d10b63",
+          "en": "§a- §7<num> Emeralds§8 (<num>%)",
+          "ru": "§a- §7Изумруды: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-7ef3004f5d3daae1",
+          "en": "§a- §7Ⓑ <num> Ore§8 (<num>%)",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-564d2debb95704d0",
+          "en": "§a- §7Ⓒ <num> Wood§8 (<num>%)",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-bd4eed1c180e407e",
+          "en": "§a- §7Ⓚ <num> Fish§8 (<num>%)",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-257f61f099cd43b6",
+          "en": "§a- §7Ⓙ <num> Crops§8 (<num>%)",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-adf85767b94510bf",
+          "en": "§aClick to Upgrade",
+          "ru": "§aНажмите, чтобы Улучшить"
+        }
+      ]
+    },
+    {
+      "id": "menu-29a3ee107ec7f4",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lAttack for free",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lAttack for free",
+        "ru": "§a§lБесплатная атака"
+      },
+      "lines": [
+        {
+          "id": "line-29a3ee107ec7f40d",
+          "en": "§a§lAttack for free",
+          "ru": "§a§lБесплатная атака"
+        },
+        {
+          "id": "line-ac99a307e46386ba",
+          "en": "§7Territory Defences: §aVery Low",
+          "ru": "§7Защита Территории: §aОчень Низкая"
+        },
+        {
+          "id": "line-a0e671b00648f580",
+          "en": "§7✦ Treasury: §6Low",
+          "ru": "§7✦ Казна: §6Низкая"
+        },
+        {
+          "id": "line-c8707b578163cf57",
+          "en": "§8A higher treasury will",
+          "ru": "§8Чем больше казна,"
+        },
+        {
+          "id": "line-c5ecb2b6c04c3d18",
+          "en": "§8give more territory",
+          "ru": "§8тем больше ресурсов"
+        },
+        {
+          "id": "line-156afc8b33941cb4",
+          "en": "§8resources upon capture",
+          "ru": "§8вы получите при захвате"
+        },
+        {
+          "id": "line-80b8cc9282a1c9d7",
+          "en": "§7Price: §a✔§f Free",
+          "ru": "§7Цена: §a✔§f Бесплатно"
+        },
+        {
+          "id": "line-4f8dacf965819bab",
+          "en": "§7Time to Start: §f<num>m",
+          "ru": "§7До начала: §f§f<num>§f мин."
+        }
+      ]
+    },
+    {
+      "id": "menu-223c5a74cb017c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lTower Volley §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lTower Volley §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lЗалп Башни §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-223c5a74cb017cc8",
+          "en": "§d§lTower Volley §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lЗалп Башни §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-a11bf05e756991f9",
+          "en": "§7Cast a volley of fireballs from the",
+          "ru": "§7Башня выпускает залп огненных шаров,"
+        },
+        {
+          "id": "line-12ea2e675b1e73db",
+          "en": "§7tower damaging players between <num>%",
+          "ru": "§7нанося игрокам от §7<num>%§7"
+        },
+        {
+          "id": "line-d05135de532d09c3",
+          "en": "§7and <num>% of the Tower's damage.",
+          "ru": "§7до §7<num>%§7 от урона башни."
+        },
+        {
+          "id": "line-b45fcd1bea61d001",
+          "en": "§7§dFrequency: <num>s",
+          "ru": "§7§dИнтервал: §d<num>§7с"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-28642eecf8ed7ec4",
+          "en": "§a- §7Ⓑ <num> Ore",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-9fdd6a34448d5a",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Withdraw & Return",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Withdraw & Return",
+        "ru": "Забрать и Вернуться"
+      },
+      "lines": [
+        {
+          "id": "line-9fdd6a34448d5a42",
+          "en": "Withdraw & Return",
+          "ru": "Забрать и Вернуться"
+        }
+      ]
+    },
+    {
+      "id": "menu-4b99f94e46b154",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lEfficient Resources §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lEfficient Resources §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lДобыча Ресурсов §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-4b99f94e46b1546f",
+          "en": "§d§lEfficient Resources §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lДобыча Ресурсов §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-d7fa5d4b6d49e7d2",
+          "en": "§7Increases the amount of resources",
+          "ru": "§7Увеличивает добычу ресурсов"
+        },
+        {
+          "id": "line-ab1fff48d7969c10",
+          "en": "§7this territory will produce",
+          "ru": "§7на этой территории"
+        },
+        {
+          "id": "line-9bed6fcd49047efd",
+          "en": "§7§dGathering Bonus: <num>%",
+          "ru": "§7§dБонус Добычи: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-1a90f87590315b59",
+          "en": "§a- §7<num> Emeralds",
+          "ru": "§a- §7Изумруды: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-7253af118e23a0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lLarger Resource Storage §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lLarger Resource Storage §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lХранилище Ресурсов §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-7253af118e23a0a4",
+          "en": "§d§lLarger Resource Storage §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lХранилище Ресурсов §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-9a7676bc7f1c9b00",
+          "en": "§7Increases the storage limit for",
+          "ru": "§7Увеличивает вместимость хранилища"
+        },
+        {
+          "id": "line-441dec7f92aa3973",
+          "en": "§7resources in this territory",
+          "ru": "§7ресурсов на этой территории"
+        },
+        {
+          "id": "line-e11f700e2df96761",
+          "en": "§7§dStorage Bonus: <num>%",
+          "ru": "§7§dБонус Вместимости: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-1a90f87590315b59",
+          "en": "§a- §7<num> Emeralds",
+          "ru": "§a- §7Изумруды: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-895de03cc8208e",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lTower Aura §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lTower Aura §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lАура Башни §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-895de03cc8208eee",
+          "en": "§d§lTower Aura §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lАура Башни §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-bd8a7a42b053be6e",
+          "en": "§7Cast an outward-moving Aura from",
+          "ru": "§7Башня создаёт расходящуюся ауру,"
+        },
+        {
+          "id": "line-e9dea8414bee8942",
+          "en": "§7the Tower damaging players between",
+          "ru": "§7нанося игрокам урон от"
+        },
+        {
+          "id": "line-deb444f43458ffe3",
+          "en": "§7<num>% and <num>% of the Tower's damage.",
+          "ru": "§7<num>%§7 до §7<num>%§7 от урона башни."
+        },
+        {
+          "id": "line-b45fcd1bea61d001",
+          "en": "§7§dFrequency: <num>s",
+          "ru": "§7§dИнтервал: §d<num>§7с"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-765c8cb1bfa4340d",
+          "en": "§a- §7Ⓙ <num> Crops",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-29be5180e72e04",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lTome Seeking §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lTome Seeking §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lПоиск Томов §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-29be5180e72e0457",
+          "en": "§d§lTome Seeking §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lПоиск Томов §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-82d4eba5e0c44c62",
+          "en": "§7Your Guild will have a chance",
+          "ru": "§7Ваша гильдия получает шанс"
+        },
+        {
+          "id": "line-420f2366fd19af78",
+          "en": "§7to find exclusive Tomes while",
+          "ru": "§7найти особые тома, пока"
+        },
+        {
+          "id": "line-ee789110df1307c0",
+          "en": "§7holding this territory",
+          "ru": "§7удерживает эту территорию"
+        },
+        {
+          "id": "line-576640dcb2b9f2f7",
+          "en": "§7This upgrade is limited to",
+          "ru": "§7Улучшение доступно максимум"
+        },
+        {
+          "id": "line-60a84eda3e0b78fd",
+          "en": "§7<num> territories.",
+          "ru": "§7на §7<num>§7 территори<pl:и|ях|ях>."
+        },
+        {
+          "id": "line-4c2277fc341db323",
+          "en": "§7§dDrop Chance: <num>%/h",
+          "ru": "§7§dШанс Находки: <num>%/ч"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-75f6b49eee65fc70",
+          "en": "§a- §7Ⓚ <num> Fish",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-4d99064739ae56",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lStronger Minions §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lStronger Minions §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lУсиление Прислужников §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-4d99064739ae5654",
+          "en": "§d§lStronger Minions §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lУсиление Прислужников §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-21bd5ae368a1a3cb",
+          "en": "§7Buffs the minions that spawn",
+          "ru": "§7Усиливает прислужников, появляющихся"
+        },
+        {
+          "id": "line-e659afb934afd654",
+          "en": "§7when your territory is attacked",
+          "ru": "§7при нападении на территорию"
+        },
+        {
+          "id": "line-aa50364a195707f2",
+          "en": "§7§dMinion Damage: <num>%",
+          "ru": "§7§dУрон Прислужников: §d<num>%§7"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-f8c2fed23113784d",
+          "en": "§a- §7Ⓒ <num> Wood",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-199c25070a1221",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lEmerald Seeking §7[Lv. <num>]§8 (Max)",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lEmerald Seeking §7[Lv. <num>]§8 (Max)",
+        "ru": "§d§lПоиск Изумрудов §7[Ур. §7<num>§7]§8 (Макс.)"
+      },
+      "lines": [
+        {
+          "id": "line-199c25070a1221db",
+          "en": "§d§lEmerald Seeking §7[Lv. <num>]§8 (Max)",
+          "ru": "§d§lПоиск Изумрудов §7[Ур. §7<num>§7]§8 (Макс.)"
+        },
+        {
+          "id": "line-82d4eba5e0c44c62",
+          "en": "§7Your Guild will have a chance",
+          "ru": "§7Ваша гильдия получает шанс"
+        },
+        {
+          "id": "line-7ea31ef03f4d4835",
+          "en": "§7to find Emeralds while holding",
+          "ru": "§7найти изумруды, пока удерживает"
+        },
+        {
+          "id": "line-a78ee9d53ebd0145",
+          "en": "§7this territory",
+          "ru": "§7эту территорию"
+        },
+        {
+          "id": "line-576640dcb2b9f2f7",
+          "en": "§7This upgrade is limited to",
+          "ru": "§7Улучшение доступно максимум"
+        },
+        {
+          "id": "line-60a84eda3e0b78fd",
+          "en": "§7<num> territories.",
+          "ru": "§7на §7<num>§7 территори<pl:и|ях|ях>."
+        },
+        {
+          "id": "line-4c2277fc341db323",
+          "en": "§7§dDrop Chance: <num>%/h",
+          "ru": "§7§dШанс Находки: <num>%/ч"
+        },
+        {
+          "id": "line-77b662abd080c173",
+          "en": "§aCost (per hour):",
+          "ru": "§aРасходы за час:"
+        },
+        {
+          "id": "line-f8c2fed23113784d",
+          "en": "§a- §7Ⓒ <num> Wood",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7"
+        },
+        {
+          "id": "line-c1bddf01c7852fa9",
+          "en": "§7Left-Click to increase",
+          "ru": "§7ЛКМ: повысить уровень"
+        },
+        {
+          "id": "line-53997319d53ebcee",
+          "en": "§7Right-Click to decrease",
+          "ru": "§7ПКМ: понизить уровень"
+        }
+      ]
+    },
+    {
+      "id": "menu-3b418a8bd0ebb3",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Preparing your order...",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Preparing your order...",
+        "ru": "Подготовка заказа..."
+      },
+      "lines": [
+        {
+          "id": "line-3b418a8bd0ebb328",
+          "en": "Preparing your order...",
+          "ru": "Подготовка заказа..."
+        }
+      ]
+    },
+    {
+      "id": "menu-ca3e0fa0f912b2",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lConfirm Reroll",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lConfirm Reroll",
+        "ru": "§a§lПодтвердить Смену"
+      },
+      "lines": [
+        {
+          "id": "line-5efa381c342af332",
+          "en": "§7Click again to confirm",
+          "ru": "§7Нажмите ещё раз, чтобы подтвердить"
+        }
+      ]
+    },
+    {
+      "id": "menu-845673d35ce4ce",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<num>x Guild Tomes",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Guild Tomes",
+        "ru": "§5<num>§7x Гильдейский том"
+      },
+      "lines": [
+        {
+          "id": "line-845673d35ce4ce7c",
+          "en": "<num>x Guild Tomes",
+          "ru": "§5<num>§7x Гильдейский том"
+        },
+        {
+          "id": "line-e822f9d8a3f3ce1e",
+          "en": "§7Adds <num> Guild Tomes to your",
+          "ru": "Добавляет §5<num>§7 Гильдейск<pl:ий|их|их> Том<pl:|а|ов>"
+        },
+        {
+          "id": "line-ad1eb9c3f5e78515",
+          "en": "§7guild rewards. The reward",
+          "ru": "§7к наградам гильдии. Лимит"
+        },
+        {
+          "id": "line-bc8f0aaf9860715a",
+          "en": "§7limit is ignored.",
+          "ru": "§7наград не учитывается."
+        },
+        {
+          "id": "line-d7c1dddd625a74b4",
+          "en": "§7§c✖ §7Requirement: §f<num>§7/<num> SR",
+          "ru": "§7§c✖ §7Требуется: §f<num>§7/§7<num>§7 SR"
+        }
+      ]
+    },
+    {
+      "id": "menu-b78fe521b40e8d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<num>x Guild Tome",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Guild Tome",
+        "ru": "§5<num>§7x Гильдейский том"
+      },
+      "lines": [
+        {
+          "id": "line-b78fe521b40e8d10",
+          "en": "<num>x Guild Tome",
+          "ru": "§5<num>§7x Гильдейский том"
+        },
+        {
+          "id": "line-248ddf36c54eb5ed",
+          "en": "§7Adds <num> Guild Tome to your",
+          "ru": "Добавляет §5<num>§7 Гильдейский Том"
+        },
+        {
+          "id": "line-ad1eb9c3f5e78515",
+          "en": "§7guild rewards. The reward",
+          "ru": "§7к наградам гильдии. Лимит"
+        },
+        {
+          "id": "line-bc8f0aaf9860715a",
+          "en": "§7limit is ignored.",
+          "ru": "§7наград не учитывается."
+        },
+        {
+          "id": "line-d7c1dddd625a74b4",
+          "en": "§7§c✖ §7Requirement: §f<num>§7/<num> SR",
+          "ru": "§7§c✖ §7Требуется: §f<num>§7/§7<num>§7 SR"
+        }
+      ]
+    },
+    {
+      "id": "menu-97368c5ad66e4d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lConfirm Selling",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lConfirm Selling",
+        "ru": "§a§lПодтвердить Продажу"
+      },
+      "lines": [
+        {
+          "id": "line-97368c5ad66e4dde",
+          "en": "§a§lConfirm Selling",
+          "ru": "§a§lПодтвердить Продажу"
+        },
+        {
+          "id": "line-0b46fbeee4d0ce29",
+          "en": "§8You are about to sell",
+          "ru": "§8Вы собираетесь продать"
+        },
+        {
+          "id": "line-1a95ffa7be528c1f",
+          "en": "§7- §7<em><em>Unidentified Boots",
+          "ru": ""
+        },
+        {
+          "id": "line-5b8a4b2645003100",
+          "en": "§7- §7<em><em>Unidentified Helmet",
+          "ru": ""
+        },
+        {
+          "id": "line-f2a4e860fd49b56d",
+          "en": "§7- §7<em><em>Unidentified Bow",
+          "ru": ""
+        },
+        {
+          "id": "line-df59993f626c9cf2",
+          "en": "§7- §7<em><em>Unidentified Bracelet",
+          "ru": ""
+        },
+        {
+          "id": "line-ed850f6e90fc9dc0",
+          "en": "§7- §7<em><em>Unidentified Ring",
+          "ru": ""
+        },
+        {
+          "id": "line-64c9a36cc135ee74",
+          "en": "§7- §7<em><em>Unidentified Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-65ec632918e1381a",
+          "en": "§7Expected Price: <num>²<num>²",
+          "ru": "Ожидаемая Цена: §a<num>§7²§a<num>§7²"
+        },
+        {
+          "id": "line-14e3e1d2f1489cbc",
+          "en": "§7<em> Click again to confirm",
+          "ru": "§7<em> §aНажмите ещё раз для подтверждения"
+        }
+      ]
+    },
+    {
+      "id": "menu-435561c89fc820",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§e§lYou are selling",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§e§lYou are selling",
+        "ru": "§e§lПродажа предметов"
+      },
+      "lines": [
+        {
+          "id": "line-435561c89fc82077",
+          "en": "§e§lYou are selling",
+          "ru": "§e§lПродажа предметов"
+        },
+        {
+          "id": "line-1a95ffa7be528c1f",
+          "en": "§7- §7<em><em>Unidentified Boots",
+          "ru": ""
+        },
+        {
+          "id": "line-5b8a4b2645003100",
+          "en": "§7- §7<em><em>Unidentified Helmet",
+          "ru": ""
+        },
+        {
+          "id": "line-f2a4e860fd49b56d",
+          "en": "§7- §7<em><em>Unidentified Bow",
+          "ru": ""
+        },
+        {
+          "id": "line-df59993f626c9cf2",
+          "en": "§7- §7<em><em>Unidentified Bracelet",
+          "ru": ""
+        },
+        {
+          "id": "line-ed850f6e90fc9dc0",
+          "en": "§7- §7<em><em>Unidentified Ring",
+          "ru": ""
+        },
+        {
+          "id": "line-64c9a36cc135ee74",
+          "en": "§7- §7<em><em>Unidentified Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-65ec632918e1381a",
+          "en": "§7Expected Price: <num>²<num>²",
+          "ru": "Ожидаемая Цена: §a<num>§7²§a<num>§7²"
+        },
+        {
+          "id": "line-b0181d5263598176",
+          "en": "§7<em> Click to confirm",
+          "ru": "<em> Нажмите, чтобы подтвердить"
+        }
+      ]
+    },
+    {
+      "id": "menu-37502394c078d4",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Confirm and Create",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Confirm and Create",
+        "ru": "Создать Персонажа"
+      },
+      "lines": [
+        {
+          "id": "line-37502394c078d40b",
+          "en": "Confirm and Create",
+          "ru": "Создать Персонажа"
+        },
+        {
+          "id": "line-6c85e636d831f927",
+          "en": "§7Once you are ready, clicking",
+          "ru": "§7Когда всё будет готово,"
+        },
+        {
+          "id": "line-f268b8b5daff8797",
+          "en": "§7this button will create your",
+          "ru": "§7нажмите, чтобы создать персонажа"
+        },
+        {
+          "id": "line-822c392bee072d8f",
+          "en": "§7character and join the world",
+          "ru": "§7и войти в мир"
+        },
+        {
+          "id": "line-95f31facfe0273a0",
+          "en": "§6- Class: <em> Hunter",
+          "ru": "§6- §7Класс: <em> §fОхотник"
+        },
+        {
+          "id": "line-399b9508273a783a",
+          "en": "§6- Nickname: Not Defined",
+          "ru": "§6- §7Псевдоним: §fНе задан"
+        },
+        {
+          "id": "line-3d37fbd84c561bb9",
+          "en": "§7<em> Click to Create",
+          "ru": "<em> Нажмите, чтобы создать"
+        },
+        {
+          "id": "beta-class-warrior",
+          "en": "§6- Class: Warrior",
+          "ru": "§6- §7Класс: §fВоин"
+        },
+        {
+          "id": "beta-class-warrior-icon",
+          "en": "§6- Class: <em> Warrior",
+          "ru": "§6- §7Класс: <em> §fВоин"
+        },
+        {
+          "id": "beta-class-knight",
+          "en": "§6- Class: Knight",
+          "ru": "§6- §7Класс: §fРыцарь"
+        },
+        {
+          "id": "beta-class-knight-icon",
+          "en": "§6- Class: <em> Knight",
+          "ru": "§6- §7Класс: <em> §fРыцарь"
+        },
+        {
+          "id": "beta-class-mage",
+          "en": "§6- Class: Mage",
+          "ru": "§6- §7Класс: §fМаг"
+        },
+        {
+          "id": "beta-class-mage-icon",
+          "en": "§6- Class: <em> Mage",
+          "ru": "§6- §7Класс: <em> §fМаг"
+        },
+        {
+          "id": "beta-class-dark-wizard",
+          "en": "§6- Class: Dark Wizard",
+          "ru": "§6- §7Класс: §fТёмный Маг"
+        },
+        {
+          "id": "beta-class-dark-wizard-icon",
+          "en": "§6- Class: <em> Dark Wizard",
+          "ru": "§6- §7Класс: <em> §fТёмный Маг"
+        },
+        {
+          "id": "beta-class-archer",
+          "en": "§6- Class: Archer",
+          "ru": "§6- §7Класс: §fЛучник"
+        },
+        {
+          "id": "beta-class-archer-icon",
+          "en": "§6- Class: <em> Archer",
+          "ru": "§6- §7Класс: <em> §fЛучник"
+        },
+        {
+          "id": "beta-class-hunter",
+          "en": "§6- Class: Hunter",
+          "ru": "§6- §7Класс: §fОхотник"
+        },
+        {
+          "id": "beta-class-assassin",
+          "en": "§6- Class: Assassin",
+          "ru": "§6- §7Класс: §fАссасин"
+        },
+        {
+          "id": "beta-class-assassin-icon",
+          "en": "§6- Class: <em> Assassin",
+          "ru": "§6- §7Класс: <em> §fАссасин"
+        },
+        {
+          "id": "beta-class-ninja",
+          "en": "§6- Class: Ninja",
+          "ru": "§6- §7Класс: §fНиндзя"
+        },
+        {
+          "id": "beta-class-ninja-icon",
+          "en": "§6- Class: <em> Ninja",
+          "ru": "§6- §7Класс: <em> §fНиндзя"
+        },
+        {
+          "id": "beta-class-shaman",
+          "en": "§6- Class: Shaman",
+          "ru": "§6- §7Класс: §fШаман"
+        },
+        {
+          "id": "beta-class-shaman-icon",
+          "en": "§6- Class: <em> Shaman",
+          "ru": "§6- §7Класс: <em> §fШаман"
+        },
+        {
+          "id": "beta-class-skyseer",
+          "en": "§6- Class: Skyseer",
+          "ru": "§6- §7Класс: §fПровидец"
+        },
+        {
+          "id": "beta-class-skyseer-icon",
+          "en": "§6- Class: <em> Skyseer",
+          "ru": "§6- §7Класс: <em> §fПровидец"
+        }
+      ]
+    },
+    {
+      "id": "menu-9a91ba693437e5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Guild Raid Available",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Guild Raid Available",
+        "ru": "Доступен Гильдейский Рейд"
+      },
+      "lines": [
+        {
+          "id": "line-9a91ba693437e543",
+          "en": "Guild Raid Available",
+          "ru": "Доступен Гильдейский Рейд"
+        },
+        {
+          "id": "line-9bf45086fc828409",
+          "en": "§7All members of this party",
+          "ru": "§7Все участники группы состоят"
+        },
+        {
+          "id": "line-48715b13745e4d55",
+          "en": "§7are part of the same or",
+          "ru": "§7в одной гильдии или"
+        },
+        {
+          "id": "line-6c90b300ea99fee5",
+          "en": "§7allied guilds, allowing for",
+          "ru": "§7в союзных гильдиях. Поэтому"
+        },
+        {
+          "id": "line-4dc9d9161b9a3784",
+          "en": "§7a guild raid to be started",
+          "ru": "§7можно начать гильдейский рейд"
+        },
+        {
+          "id": "line-d5f0e07a091dd893",
+          "en": "§c§lDifficulty Modifiers:",
+          "ru": "§c§lИзменения Сложности:"
+        },
+        {
+          "id": "line-d09153dd5f3660af",
+          "en": "§7- Modified Challenges",
+          "ru": "- Изменённые Испытания"
+        },
+        {
+          "id": "line-cda6d3555c354e8c",
+          "en": "§7- <num>% Mob Damage",
+          "ru": "- §f<num>%§7 Урона Мобов"
+        },
+        {
+          "id": "line-a853eacc1a1d49ce",
+          "en": "§7- <num>% Mob Health",
+          "ru": "- §f<num>%§7 Здоровья Мобов"
+        },
+        {
+          "id": "line-0a225ea0f9bdae8f",
+          "en": "§aPersonal Rewards:",
+          "ru": "§aЛичные Награды:"
+        },
+        {
+          "id": "line-d32062c9a68c43c8",
+          "en": "§7- <num> Reward Pulls",
+          "ru": "- §f<num>§7 Пулл<pl:|а|ов> Награды"
+        },
+        {
+          "id": "line-6361ea2d72b7d987",
+          "en": "§bGuild Rewards:",
+          "ru": "§bНаграды Гильдии:"
+        },
+        {
+          "id": "line-eb20e2af076c25db",
+          "en": "§7- <num> Aspects",
+          "ru": "- §f<num>§7 Аспект<pl:|а|ов>"
+        },
+        {
+          "id": "line-11d258847a8b5324",
+          "en": "§7- <num> Emeralds",
+          "ru": "- Изумруды: §f<num>§7"
+        },
+        {
+          "id": "line-cc80e28e79b876e5",
+          "en": "§7- <num>k Guild Experience",
+          "ru": "- §f<num>§7 §fтыс.§7 опыта гильдии"
+        },
+        {
+          "id": "line-fc3f15d3a216c7d3",
+          "en": "§7- Seasonal Rating",
+          "ru": "- Сезонный Рейтинг"
+        },
+        {
+          "id": "line-1ffb309add9fad47",
+          "en": "§7<em>per gambit, per player",
+          "ru": "§7<em>за каждый гамбит каждого игрока"
+        },
+        {
+          "id": "line-f826449a6ac6361d",
+          "en": "§8All players opted in and",
+          "ru": "§8Все участники согласились."
+        },
+        {
+          "id": "line-12344847f2eb6e13",
+          "en": "§8this raid will start as",
+          "ru": "§8Рейд начнётся"
+        },
+        {
+          "id": "line-b014646e26738cb7",
+          "en": "§8a guild raid",
+          "ru": "§8в гильдейском режиме"
+        },
+        {
+          "id": "line-d812953e78b7b803",
+          "en": "§7<em> Click to Opt-Out",
+          "ru": "<em> Нажмите, чтобы Отказаться"
+        }
+      ]
+    },
+    {
+      "id": "menu-53fab2a248e613",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Guild Log",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Guild Log",
+        "ru": "Журнал Гильдии"
+      },
+      "lines": [
+        {
+          "id": "line-53fab2a248e613e1",
+          "en": "Guild Log",
+          "ru": "Журнал Гильдии"
+        },
+        {
+          "id": "line-9e76f1024cabbaf2",
+          "en": "§7Visualize all recent logged",
+          "ru": "§7Посмотреть недавние записи"
+        },
+        {
+          "id": "line-97dbd259da45fdd8",
+          "en": "§7announcements of this guild",
+          "ru": "§7о событиях гильдии"
+        }
+      ]
+    },
+    {
+      "id": "menu-50db45e85d5a97",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Trade Silverbull Shares",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Trade Silverbull Shares",
+        "ru": "Торговля Акциями Silverbull"
+      },
+      "lines": [
+        {
+          "id": "line-d12b182a80fe89f2",
+          "en": "§7Not enough tradable shares",
+          "ru": "Недостаточно акций для обмена"
+        }
+      ]
+    },
+    {
+      "id": "menu-f4e6d5cbf46d9c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "⬠ Locked Trade Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "⬠ Locked Trade Slot",
+        "ru": "⬠ Заблокированный Слот"
+      },
+      "lines": [
+        {
+          "id": "line-cf3f3f985e853a3f",
+          "en": "§8available to §dHERO+",
+          "ru": "§8доступно с §dHERO+"
+        }
+      ]
+    },
+    {
+      "id": "menu-eaae7d08f3d6e4",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lClick to Confirm",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lClick to Confirm",
+        "ru": "§a§lНажмите для Подтверждения"
+      },
+      "lines": [
+        {
+          "id": "line-385717458e28e570",
+          "en": "§7Set this territory as your",
+          "ru": "§7Сделайте эту территорию"
+        },
+        {
+          "id": "line-944fed7eb4ac2779",
+          "en": "§7guild's headquarters",
+          "ru": "§7штабом своей гильдии"
+        },
+        {
+          "id": "line-a09b2a0a0a7637d6",
+          "en": "§bHQ Bonuses:",
+          "ru": "§bБонусы Штаба:"
+        },
+        {
+          "id": "line-44b577429d97d382",
+          "en": "§b- §7<num>% Guild Tower Health",
+          "ru": "§b- §7<num>%§7 К Здоровью Башни"
+        },
+        {
+          "id": "line-5ed0fe2be4625a33",
+          "en": "§b- §7<num>% Guild Tower Damage",
+          "ru": "§b- §7<num>%§7 К Урону Башни"
+        },
+        {
+          "id": "line-e4ac1fbac4a5d9dc",
+          "en": "§8Holding more territories",
+          "ru": "§8Чем больше территорий"
+        },
+        {
+          "id": "line-36996f87dee8356e",
+          "en": "§8and creating links increases",
+          "ru": "§8связано со штабом,"
+        },
+        {
+          "id": "line-7d9d543b5399c426",
+          "en": "§8the HQ Bonus.",
+          "ru": "§8тем выше бонус штаба."
+        },
+        {
+          "id": "line-c225a76c198180ac",
+          "en": "§7To gain resources from your",
+          "ru": "§7Чтобы получать ресурсы"
+        },
+        {
+          "id": "line-4360925fc7a398c3",
+          "en": "§7other territories, you must",
+          "ru": "§7с других территорий,"
+        },
+        {
+          "id": "line-5d92e786947fcf07",
+          "en": "§7link them to your headquarters",
+          "ru": "§7соедините их со штабом"
+        }
+      ]
+    },
+    {
+      "id": "menu-ae15640db4b815",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§7Back to Identifier",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Back to Identifier",
+        "ru": "§7Назад к Опознавателю"
+      },
+      "lines": [
+        {
+          "id": "line-ae15640db4b81548",
+          "en": "§7Back to Identifier",
+          "ru": "§7Назад к Опознавателю"
+        }
+      ]
+    },
+    {
+      "id": "menu-973dfef5aa7c04",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§eUpdate Loadout",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§eUpdate Loadout",
+        "ru": "§eОбновить Набор"
+      },
+      "lines": [
+        {
+          "id": "line-973dfef5aa7c04a7",
+          "en": "§eUpdate Loadout",
+          "ru": "§eОбновить Набор"
+        },
+        {
+          "id": "line-e7b995a6d7a26d7d",
+          "en": "§7Accepting the changes",
+          "ru": "§7После подтверждения изменений"
+        },
+        {
+          "id": "line-597230a1cdfed1d1",
+          "en": "§7will update this loadout",
+          "ru": "§7этот набор настроек"
+        },
+        {
+          "id": "line-ba7b0d07bdf6a98c",
+          "en": "§7configurations.",
+          "ru": "§7будет обновлён."
+        }
+      ]
+    },
+    {
+      "id": "menu-9b6280e60d54c6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§e§lTrade Route",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§e§lTrade Route",
+        "ru": "§e§lНастройки Маршрута"
+      },
+      "lines": [
+        {
+          "id": "line-9b6280e60d54c6a9",
+          "en": "§e§lTrade Route",
+          "ru": "§e§lНастройки Маршрута"
+        },
+        {
+          "id": "line-e888452921856b3c",
+          "en": "§7Controls your territory",
+          "ru": "§7Настройка границ территории"
+        },
+        {
+          "id": "line-04c81e026993378d",
+          "en": "§7borders and travel method.",
+          "ru": "§7и маршрута перевозки ресурсов."
+        },
+        {
+          "id": "line-d9ce3a37266b85e9",
+          "en": "§3Style: §bFastest",
+          "ru": "§3Маршрут: §bСамый Быстрый"
+        },
+        {
+          "id": "line-74f97b2aa8b8e1f7",
+          "en": "§2Borders: §aOpen",
+          "ru": "§2Границы: §aОткрыты"
+        },
+        {
+          "id": "line-528d77984753fb08",
+          "en": "§aLeft-Click to change borders",
+          "ru": "§aЛКМ: изменить границы"
+        },
+        {
+          "id": "line-8f7e93f6a8a182ca",
+          "en": "§aRight-Click to change style",
+          "ru": "§aПКМ: изменить маршрут"
+        }
+      ]
+    },
+    {
+      "id": "menu-1598735ba4ff9e",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Treasury Bill",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Treasury Bill",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1598735ba4ff9eda",
+          "en": "Treasury Bill",
+          "ru": ""
+        }
+      ]
+    },
+    {
+      "id": "menu-c74473d172ac15",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Confirm Creation",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Confirm Creation",
+        "ru": "Создать Группу"
+      },
+      "lines": [
+        {
+          "id": "line-c74473d172ac1569",
+          "en": "Confirm Creation",
+          "ru": "Создать Группу"
+        },
+        {
+          "id": "line-d5789a0d19f5c0c6",
+          "en": "§7Creates and publishes",
+          "ru": "§7Создаёт группу и делает её"
+        },
+        {
+          "id": "line-838963fc5b1e5238",
+          "en": "§7your new party",
+          "ru": "§7доступной для поиска"
+        },
+        {
+          "id": "line-c931fda688865c9d",
+          "en": "<em> Left-Click to Confirm",
+          "ru": "<em> §aЛКМ: Подтвердить"
+        },
+        {
+          "id": "line-64da627b6af4fd5a",
+          "en": "<em> Right-Click to Cancel",
+          "ru": "<em> ПКМ: Отменить"
+        }
+      ]
+    },
+    {
+      "id": "menu-1b45f0a229f2cc",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lConfirm Rewards",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lConfirm Rewards",
+        "ru": "§a§lПодтвердить Награды"
+      },
+      "lines": [
+        {
+          "id": "line-1b45f0a229f2cc01",
+          "en": "§a§lConfirm Rewards",
+          "ru": "§a§lПодтвердить Награды"
+        },
+        {
+          "id": "line-5efa381c342af332",
+          "en": "§7Click again to confirm",
+          "ru": "§7Нажмите ещё раз, чтобы подтвердить"
+        },
+        {
+          "id": "line-fd6a7d48e09ab096",
+          "en": "§7accepting your rewards",
+          "ru": "§7получения наград"
+        }
+      ]
+    },
+    {
+      "id": "menu-36a5b712310719",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Stuffed Crafter Bag [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Stuffed Crafter Bag [<num>]",
+        "ru": "Набитый Мешок Мастера [§b<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-36a5b712310719cd",
+          "en": "Stuffed Crafter Bag [<num>]",
+          "ru": "Набитый Мешок Мастера [§b<num>§7]"
+        },
+        {
+          "id": "line-8a854cd79fa63b25",
+          "en": "§7 <em> Right-Click to open",
+          "ru": "§7 <em> §*ПКМ - Открыть"
+        },
+        {
+          "id": "line-d5cb4135f6ea8593",
+          "en": "§7 <em> Shift + Right-Click to open all",
+          "ru": "§7 <em> §*Shift + ПКМ - Открыть Всё"
+        },
+        {
+          "id": "line-81ab7ed2bad9835a",
+          "en": "§7Contains one of several",
+          "ru": "§7Содержит один из видов"
+        },
+        {
+          "id": "line-a2fc856c3c198735",
+          "en": "§7exclusive ingredients in",
+          "ru": "§fособых ингредиентов§7 в"
+        },
+        {
+          "id": "line-e4467472352d240a",
+          "en": "§7very high quantities.",
+          "ru": "§7в очень большом количестве."
+        },
+        {
+          "id": "line-94d9f22f8211dee9",
+          "en": "§7Legendary Item",
+          "ru": "Легендарный Предмет"
+        }
+      ]
+    },
+    {
+      "id": "menu-64fe2b18d1bdc5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Cinfras Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Cinfras Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Синфрас [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-64fe2b18d1bdc5d7",
+          "en": "Cinfras Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Синфрас [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-7c47de83b48a0b02",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿖<em><em><em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿖<em><em><em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-c2ce43624d1ceb",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Lutho Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Lutho Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Лутхо [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-c2ce43624d1ceb36",
+          "en": "Lutho Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Лутхо [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-1bea5d2ef0aebf27",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿠<em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿠<em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-82debf79c860d7",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Nii Rune<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Nii Rune<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-82debf79c860d737",
+          "en": "<em>Nii Rune<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-c07b26c8a78fdac3",
+          "en": "<em><em><em><em><em>Nii Rune",
+          "ru": ""
+        },
+        {
+          "id": "line-b0810958b602566d",
+          "en": "Use this item to enter Raids",
+          "ru": "§7Используйте этот предмет для"
+        },
+        {
+          "id": "line-7f5c83c08f965a93",
+          "en": "or craft a Corrupted Dungeon",
+          "ru": "§7входа в §fРейды §7или создания"
+        },
+        {
+          "id": "line-99a52df3ff3d4994",
+          "en": "Key",
+          "ru": "§fКлюча Заражённого Подземелья"
+        }
+      ]
+    },
+    {
+      "id": "menu-88623502235048",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Espren Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Espren Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Эспрен [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-88623502235048c6",
+          "en": "Espren Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Эспрен [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-92f03b1747d38e1b",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿚<em><em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿚<em><em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-a9f9dad72728bb",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Uth Rune<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Uth Rune<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a9f9dad72728bbe6",
+          "en": "<em>Uth Rune<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-1bed88cfeac7c299",
+          "en": "<em><em><em><em><em>Uth Rune",
+          "ru": ""
+        },
+        {
+          "id": "line-b0810958b602566d",
+          "en": "Use this item to enter Raids",
+          "ru": "§7Используйте этот предмет для"
+        },
+        {
+          "id": "line-7f5c83c08f965a93",
+          "en": "or craft a Corrupted Dungeon",
+          "ru": "§7входа в §fРейды §7или создания"
+        },
+        {
+          "id": "line-99a52df3ff3d4994",
+          "en": "Key",
+          "ru": "§fКлюча Заражённого Подземелья"
+        }
+      ]
+    },
+    {
+      "id": "menu-f39aacd6a143ac",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Corkus City Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corkus City Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Город Коркус [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-f39aacd6a143accc",
+          "en": "Corkus City Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Город Коркус [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-5cd5d2377b7ccd9f",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿀<em><em><em><em><em><em> <em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿀<em><em><em><em><em><em> <em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-3af3807c8c526c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Az Rune<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Az Rune<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-3af3807c8c526cbb",
+          "en": "<em>Az Rune<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-84f17669b8bbeed9",
+          "en": "<em><em><em><em><em>Az Rune",
+          "ru": ""
+        },
+        {
+          "id": "line-b0810958b602566d",
+          "en": "Use this item to enter Raids",
+          "ru": "§7Используйте этот предмет для"
+        },
+        {
+          "id": "line-7f5c83c08f965a93",
+          "en": "or craft a Corrupted Dungeon",
+          "ru": "§7входа в §fРейды §7или создания"
+        },
+        {
+          "id": "line-99a52df3ff3d4994",
+          "en": "Key",
+          "ru": "§fКлюча Заражённого Подземелья"
+        }
+      ]
+    },
+    {
+      "id": "menu-20a8b4a4929d89",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Ragni Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Ragni Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Рагни [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-20a8b4a4929d8947",
+          "en": "Ragni Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Рагни [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-419270c6f9c6f57d",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿢<em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿢<em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-fb6754c34b2ee6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Detlas Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Detlas Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Детлас [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-fb6754c34b2ee65d",
+          "en": "Detlas Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Детлас [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-92f03b1747d38e1b",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿚<em><em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿚<em><em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-4d49f91933d958",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Tol Rune<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Tol Rune<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4d49f91933d958a8",
+          "en": "<em>Tol Rune<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-dbc114b13f47fe0c",
+          "en": "<em><em><em><em><em>Tol Rune",
+          "ru": ""
+        },
+        {
+          "id": "line-b0810958b602566d",
+          "en": "Use this item to enter Raids",
+          "ru": "§7Используйте этот предмет для"
+        },
+        {
+          "id": "line-7f5c83c08f965a93",
+          "en": "or craft a Corrupted Dungeon",
+          "ru": "§7входа в §fРейды §7или создания"
+        },
+        {
+          "id": "line-99a52df3ff3d4994",
+          "en": "Key",
+          "ru": "§fКлюча Заражённого Подземелья"
+        }
+      ]
+    },
+    {
+      "id": "menu-b5b1b8c2376ad5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Thesead Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Thesead Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Тесеад [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-b5b1b8c2376ad5fa",
+          "en": "Thesead Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Тесеад [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-f4beaa45a122658d",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿔<em><em><em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿔<em><em><em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-af0be7e646a1ee",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Packed Crafter Bag [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Packed Crafter Bag [<num>]",
+        "ru": "Полный Мешок Мастера [§d<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-af0be7e646a1ee96",
+          "en": "Packed Crafter Bag [<num>]",
+          "ru": "Полный Мешок Мастера [§d<num>§7]"
+        },
+        {
+          "id": "line-8a854cd79fa63b25",
+          "en": "§7 <em> Right-Click to open",
+          "ru": "§7 <em> §*ПКМ - Открыть"
+        },
+        {
+          "id": "line-d5cb4135f6ea8593",
+          "en": "§7 <em> Shift + Right-Click to open all",
+          "ru": "§7 <em> §*Shift + ПКМ - Открыть Всё"
+        },
+        {
+          "id": "line-81ab7ed2bad9835a",
+          "en": "§7Contains one of several",
+          "ru": "§7Содержит один из видов"
+        },
+        {
+          "id": "line-a2fc856c3c198735",
+          "en": "§7exclusive ingredients in",
+          "ru": "§fособых ингредиентов§7 в"
+        },
+        {
+          "id": "line-8195f6c9aa2a9a14",
+          "en": "§7high quantities.",
+          "ru": "в большом количестве."
+        },
+        {
+          "id": "line-a2c284a0b2f43786",
+          "en": "§7Rare Item",
+          "ru": "Редкий Предмет"
+        }
+      ]
+    },
+    {
+      "id": "menu-1dc6c85b0b6dac",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Varied Crafter Bag [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Varied Crafter Bag [<num>]",
+        "ru": "Сборный Мешок Мастера [§e<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-1dc6c85b0b6dac57",
+          "en": "Varied Crafter Bag [<num>]",
+          "ru": "Сборный Мешок Мастера [§e<num>§7]"
+        },
+        {
+          "id": "line-8a854cd79fa63b25",
+          "en": "§7 <em> Right-Click to open",
+          "ru": "§7 <em> §*ПКМ - Открыть"
+        },
+        {
+          "id": "line-d5cb4135f6ea8593",
+          "en": "§7 <em> Shift + Right-Click to open all",
+          "ru": "§7 <em> §*Shift + ПКМ - Открыть Всё"
+        },
+        {
+          "id": "line-8da8e9f1fc0a5963",
+          "en": "§7Contains a few of several",
+          "ru": "§7Содержит несколько видов"
+        },
+        {
+          "id": "line-a2fc856c3c198735",
+          "en": "§7exclusive ingredients in",
+          "ru": "§fособых ингредиентов§7 в"
+        },
+        {
+          "id": "line-f84f2f501d0019ca",
+          "en": "§7decent quantities.",
+          "ru": "§7приличном количестве."
+        },
+        {
+          "id": "line-12ae288c9a0f69fc",
+          "en": "§7Unique Item",
+          "ru": "Уникальный Предмет"
+        }
+      ]
+    },
+    {
+      "id": "menu-098719e70dfd04",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Gelibord Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Gelibord Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Гелиборд [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-098719e70dfd0413",
+          "en": "Gelibord Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Гелиборд [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-a157d4744fb2fe3f",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿐<em><em><em><em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿐<em><em><em><em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-d04b20fccc72c8",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Hyloch Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Hyloch Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Хайлок [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-d04b20fccc72c8f9",
+          "en": "Hyloch Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Хайлок [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-92f03b1747d38e1b",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿚<em><em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿚<em><em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-ddbe71626f0b4b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Nemract Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Nemract Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Немракт [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-ddbe71626f0b4b70",
+          "en": "Nemract Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Немракт [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-f4beaa45a122658d",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿔<em><em><em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿔<em><em><em><em><em><em><em>󐀂"
+        }
+      ]
+    },
+    {
+      "id": "menu-2121012f1f1c4d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Rodoroc Teleportation Scroll [<num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Rodoroc Teleportation Scroll [<num>]",
+        "ru": "Свиток Телепортации: Родорок [§#F9E79E<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-2121012f1f1c4d40",
+          "en": "Rodoroc Teleportation Scroll [<num>]",
+          "ru": "Свиток Телепортации: Родорок [§#F9E79E<num>§7]"
+        },
+        {
+          "id": "line-f4beaa45a122658d",
+          "en": "Warps to <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿔<em><em><em><em><em><em><em>󐀂",
+          "ru": "Телепортация в <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿔<em><em><em><em><em><em><em>󐀂"
+        }
+      ]
+    }
+  ]
+}

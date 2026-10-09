@@ -1,0 +1,453 @@
+{
+  "quest": "From the Mountains",
+  "level": 67,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "from-the-mountains",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Mmph! Humnym! Mah houfhs fhs on fifhre! Gft hfrelp, tiff brafze womd strfp!",
+      "ru": "Ммпф! Челомек! Мой дом гофит! Нужна помомь, огомь не гаснет!",
+      "speaker": "Arnod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Ouh hff do hflp! I hff nho glue wfhtsh doon fifs!",
+      "ru": "Ты долфен помофь! Я не фнаю, почему он гофит!",
+      "speaker": "Arnod",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "...well, that explains why you didn't help. But, uh, did the RAGING FIRE escape your notice somehow?!",
+      "ru": "...ну, теперь понятно, почему ты не помог. Но, эээ, ты как вообще умудрился НЕ ЗАМЕТИТЬ ГОРЯЩИЙ ДОМ?!",
+      "speaker": "Arnod",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I don't care who it is, get me help!! I don't care if you do it, I don't care if you get someone to do it, but someone's got to help with this crazy re-igniting fire!",
+      "ru": "Мне плевать кто, просто найди помощь!! Сам туши или приведи кого-нибудь, но кто-то должен справиться с этим безумным огнём, который всё время вспыхивает заново!",
+      "speaker": "Arnod",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Check around Bucie if you need to, but hurry up already! My house is going to burn to ashes if you don't hurry!",
+      "ru": "Если надо, поищи помощь где-нибудь возле Бьюси, но только быстрее уже! Если не поторопишься, от моего дома останется один пепел!",
+      "speaker": "Arnod",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Hm... where am I going to get help now- Mh? You're one of those human types, right? Do you have-",
+      "ru": "Хм... и где мне теперь искать помощь- Мм? Ты же один из этих людей, да? У тебя случайно не-",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Huh? Someone's house is on fire? Guess that's a little more pressing than what I was going to ask. Where is it?",
+      "ru": "А? У кого-то дом горит? Ну, это, пожалуй, важнее того, о чём я хотел спросить. Где?",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Oh, that valley by the gate? I think I know where you mean. Let's walk together. So, tell me what exactly happened?",
+      "ru": "А, та долина у ворот? Кажется, понял, о чём ты. Пошли вместе. Ну и расскажи по пути, что именно случилось.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Ah, so you're like a mercenary then, and you found this man's house on fire. He said... what? It re-ignited itself? Well, that doesn't make any sense.",
+      "ru": "Ага, значит, ты вроде наёмника и увидел, что у этого мужика горит дом. Он сказал... что? Что огонь сам вспыхивает снова? Ничего не понимаю.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Eh, I'll see when we get there. Oh, what am I doing over here? Yeah, I suppose I do look different from the fare you'd have seen. Well, I'm a dwarf.",
+      "ru": "Ладно, на месте разберёмся. А, что я вообще здесь делаю? Да, наверное, я и правда выгляжу не так, как те, кого ты привык видеть. Я дварф.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Normally I live in the Molten Heights, past the canyons to the east. Guess for yourself what the land is like, considering the name.",
+      "ru": "Обычно я живу в Раскалённых высотах, за каньонами на востоке. Сам можешь догадаться, что там за местечко, по одному только названию.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Without getting into too much detail, there's... A few problems, with how it's being governed, and I was trying to drum up support over in Llevigar.",
+      "ru": "Если коротко, там есть... некоторые проблемы с властями. Вот я и пытался найти поддержку в Ллевигаре.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "It, uh. Well, I'm used to getting laughed out of the room back home, but I wasn't expecting to see the same thing over there, just with quartz wallpaper.",
+      "ru": "Я, эээ. Ну, дома-то я уже привык, что надо мной ржут и выставляют за дверь, но не думал, что в Ллевигаре будет то же самое, только на фоне кварцевых стен.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "I was going to ask if you had any way that you might've been able to help, but... well, I can smell the smoke from here. One thing at a time.",
+      "ru": "Я вообще хотел спросить, не сможешь ли ты мне с этим как-то помочь, но... ну, я уже отсюда чую дым. Сначала одно, потом другое.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "...and where there's smoke, there's fire. This is, uh... that's looking a little more like home, and I'm fairly certain that it isn't supposed to be.",
+      "ru": "...а где дым, там и огонь. Эм... уже напоминает мне родные края, а ведь тут такого быть не должно.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Yep, this fire isn't natural at all... Hell, this almost looks like arson to me!",
+      "ru": "Ага, этот огонь точно неестественный... Чёрт, да это уже больше на поджог похоже!",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "So that's the house, hm? Alright, I'll see what I can do. Might not be able to put it out, but if it's re-igniting, then maybe...",
+      "ru": "Так вот тот дом, да? Ладно, посмотрю, что можно сделать. Потушить, может, и не выйдет, но если он сам разгорается заново, то, может...",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Hm... didn't think they'd be this far out, but it'd make sense if...",
+      "ru": "Хм... не думал, что они заберутся так далеко, но если подумать...",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Aha! Here's the problem. It's just a little Fleris. Ehm, to explain, they normally live in the Heights.",
+      "ru": "Ага! Вот и проблема. Это просто маленький Флерис. Эмм, если что, обычно они живут в Высотах.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Pretty affectionate, good if you can stand the heat, but if you take them away from their mounds they get spooked.",
+      "ru": "Они ласковые, отличные питомцы, если выдержишь жар. Но вдали от родных насыпей они пугаются.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "One fleris could have kept setting this man's house on fire, but all the other fallout... there's certainly more where this one came from.",
+      "ru": "Один Флерис вполне мог снова и снова подпаливать этот дом, но весь остальной пожар... тут точно был не один.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Let's go talk to the villager outside. He might've seen where the others got off to, or where they came from.",
+      "ru": "Пошли поговорим с мужиком снаружи. Может, он видел, куда делись остальные или откуда они вообще полезли.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Sir, I figured out why your house kept re-igniting and solved that issue, but tell me, have you seen any moving sludgy things around here?",
+      "ru": "Сэр, я выяснил, почему ваш дом снова и снова загорался, и с этим разобрался. Скажите, вы не видели тут поблизости каких-нибудь ползающих сгустков слизи?",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Uhm, I don't really know. I've been trying to douse my house so many times over that I haven't really paid attention!",
+      "ru": "Эм, не особо. Я столько раз пытался тушить дом, что вообще ни на что вокруг не смотрел!",
+      "speaker": "Arnod",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I remember seeing some tar-looking stuff dripping from the mountains behind my house, but that's it!",
+      "ru": "Помню только, как за домом с гор капала какая-то штука, похожая на смолу, вот и всё!",
+      "speaker": "Arnod",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Sounds concrete enough to me. Let's check out what's going on on top of the mountain ridge. Check that book of yours if you need directions.",
+      "ru": "Уже есть зацепка. Пошли посмотрим, что творится наверху на горном хребте. Если не знаешь дороги, загляни в свою книжку.",
+      "speaker": "Axelus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Hm, you're a pretty quick climber. I thought I'd get ahead of you. Well, this looks like the scorched area down in the valley... Hm! I thought so.",
+      "ru": "Хм, а ты неплохо карабкаешься. Я думал, успею тебя обогнать. Ну да, тут всё выглядит так же выжжено, как внизу в долине... Хм! Так я и думал.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "There's only one reason I can think of that there would be so many Flerisi around here... If that wagon's reinforced, then...",
+      "ru": "На ум приходит лишь одна причина, почему здесь столько Флериси... Если та повозка укреплена, то...",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Gah, I knew it. Traffickers! And incompetent ones, too, considering they couldn't hold the things.",
+      "ru": "Тьфу, так и знал. Контрабандисты! И ещё криворукие, раз даже удержать этих тварей не смогли.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "There's a black market issue in the Molten Heights. Things that you can't find anywhere else is harvested in the Heights for their high value.",
+      "ru": "В Раскалённых высотах серьёзная проблема с чёрным рынком. Всё, чего больше нигде не найти, там добывают и гонят за бешеные деньги.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Flerisi are one of them. In the Heights, they're kept as pets. They're relatively friendly, keep your house warm, and don't need much care...",
+      "ru": "Флериси - как раз из таких. В Высотах их держат как питомцев. Они относительно дружелюбные, греют дом и не требуют особого ухода...",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "...But if you take them away from a warm place, they burn everything. To think- Some people use the things as weapons. Can't leave well enough alone...",
+      "ru": "...Но если забрать их из тёплого места, они начинают жечь всё подряд. И ведь кто-то ещё умудряется использовать их как оружие. Ну не могут люди просто оставить всё как есть...",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "We'll need to catch these Flerisi. Here, take this net. While you catch them, I'll repair the cart so we can put them in there later.",
+      "ru": "Нам придётся отловить этих Флериси. Держи сеть. Пока ты их ловишь, я починю повозку, чтобы потом можно было запихнуть их туда.",
+      "speaker": "Axelus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "I've got the cart all repaired and ready, did you get all the Flerisi? Come over to the cart then. There's still have work to do.",
+      "ru": "Я уже починил повозку и всё подготовил. Ты всех Флериси поймал? Тогда подойди к повозке. Дел ещё хватает.",
+      "speaker": "Axelus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "I'll keep the Flerisi in a smaller fire to keep them calm, see if I can't get them back to the Heights when this is done.",
+      "ru": "Я подержу Флериси в небольшом огне, чтобы они были поспокойнее. А там, глядишь, и верну их обратно в Высоты, когда всё закончится.",
+      "speaker": "Axelus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "For now, I want to see if I can find anything on who these traffickers were. Let's see if they left anything in the front of the cart.",
+      "ru": "А пока хочу понять, кто именно были эти контрабандисты. Давай посмотрим, не оставили ли они что-нибудь спереди в повозке.",
+      "speaker": "Axelus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "...oh. Well, didn't notice that the fire went THAT far earlier. That's a problem, isn't it?",
+      "ru": "...ох. Не заметил раньше, что огонь распространился ТАК далеко. Плохо дело, а?",
+      "speaker": "Axelus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "To explain, Flerisi aren't all as tiny as the ones we've found here. They feed of cinders and fire... And for this much damage to be caused, well...",
+      "ru": "Если коротко, Флериси не все такие мелкие, как те, что мы тут нашли. Они питаются углями и огнём... И чтобы натворить столько бед, ну...",
+      "speaker": "Axelus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Methinks this one's getting a bit out of control. This is right next to that big forest, too. Could be a problem if we leave this one be.",
+      "ru": "Мне кажется, этот уже немного вышел из-под контроля. И он ещё прямо рядом с тем большим лесом. Если его оставить как есть, будет совсем плохо.",
+      "speaker": "Axelus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "We're going to have to track it down and subdue it. Here, follow me. I'll dig us down to the valley. Watch a dwarf at work!",
+      "ru": "Придётся выследить его и утихомирить. Давай за мной. Я прокопаю нам путь вниз в долину. Сейчас увидишь дварфа за работой!",
+      "speaker": "Axelus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Not bad, eh? Anyways, dunno what that huge gate's for, but it looks like our Fleris friend has commandeered it for a bonfire.",
+      "ru": "Неплохо, а? Ладно, я без понятия, зачем нужны те здоровенные ворота, но, похоже, наш дружок Флерис приспособил их себе под кострище.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "At least it's a little more contained than I thought, being in that cave, but we still have to catch it. Lead the way. I'm right with you.",
+      "ru": "Хотя бы в пещере огонь не разойдётся так сильно, как я боялся, но поймать его всё равно надо. Веди, я с тобой.",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "What the...?! It inflamed the creatures in this cave! Fend 'em off!",
+      "ru": "Это ещё что...?! Он воспламенил тварей в этой пещере! Отбивайся!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "There are more of them coming! Get to the end of the cave!",
+      "ru": "Их всё больше! Прорывайся к концу пещеры!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Gah, more?! Behind you!",
+      "ru": "Тьфу, ещё?! Сзади тебя!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Both of us stopping is going to make it take too much time, the traffickers might come back!",
+      "ru": "Если мы оба тут застрянем, потеряем слишком много времени, а контрабандисты могут вернуться!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Listen up. I'll handle these things, while you go after the Fleris. If it's a big one like we think, it'll be a downhill battle- It should shrink if you attack it!",
+      "ru": "Слушай. Я разберусь с этими тварями, а ты гонись за Флерисом. Если он и правда такой здоровый, с каждым ударом будет всё легче - бей его, и он должен уменьшаться!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Alright, time for a little royal rumble!",
+      "ru": "Ну всё, пора устроить хорошую потасовку!",
+      "speaker": "Axelus",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Phew, you're alright! Charred and covered in soot, but that's to be expected. Subdued the Fleris, too! I have the net with me, so allow me.",
+      "ru": "Фух, ты цел! Подгорел и весь в саже, но ничего удивительного. И Флериса усмирил! Сеть у меня, давай я его заберу.",
+      "speaker": "Axelus",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Well, this is probably a bit of thankless work we just did, but so is a lot of work. Let's get out of here. We can talk outside.",
+      "ru": "Ну, работа у нас вышла, конечно, из разряда \"никто спасибо не скажет\", но такой работы в жизни хватает. Пошли отсюда, снаружи поговорим.",
+      "speaker": "Axelus",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Well, I say the work is thankless, but that won't stop me, anyways. Thank you for the help, human- This would've been overwhelming alone.",
+      "ru": "Я, конечно, сказал, что работа неблагодарная, но меня это всё равно не остановит. Спасибо за помощь, человек - в одиночку мне было бы не справиться.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "I'll ask the local police force if they've found the traffickers. If they cut and run, well... I got a free cart for the ride home. There's thing for me to attend to there.",
+      "ru": "Я спрошу у местной стражи, не нашли ли они контрабандистов. А если те уже смылись, ну... у меня хотя бы появилась бесплатная повозка для дороги домой. Там меня ещё ждут дела.",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Oh, where are my manners? Never even introduced myself this whole time. The name is Axelus. And yours?",
+      "ru": "Ой, что это я. За всё это время даже не представился. Меня зовут Акселус. А тебя?",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "<playername>, huh? I'll try and remember that. For now, take this armor for the trouble. Safe travels, <playername>!",
+      "ru": "<playername>, значит? Постараюсь запомнить. А пока держи эту броню за труды. Удачи в пути, <playername>!",
+      "speaker": "Axelus",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "New Quest Started: From the Mountains",
+      "ru": "§#FFAA00Новый квест: §#FFFF55С гор",
+      "speaker": "",
+      "stage": "Stage 9"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find out what's going on at [-1366, 42, -4543].",
+      "ru": "Выяснить, что происходит [-1366, 42, -4543].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find what Arnod wants inside of the house.",
+      "ru": "Найти в доме то, что нужно Арноду.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Find someone in Bucie who can help you with the fires.",
+      "ru": "Найти в Бьюси того, кто поможет справиться с пожарами.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Go to the path at [-1447, 61, -4582], and follow it up to the top of the mountain.",
+      "ru": "Отправиться к тропе в [-1447, 61, -4582] и подняться по ней на вершину горы.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Capture all of the rogue Flerisi and bring them to Axelus.",
+      "ru": "Поймать всех сбежавших флериси и доставить их Акселусу.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Enter the hole at [-1390, 96, -4495].",
+      "ru": "Спуститься в дыру [-1390, 96, -4495].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Investigate the trail of fire.",
+      "ru": "Исследовать огненный след.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Subdue the Fleris.",
+      "ru": "Усмирить флериса.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Exit the cave and talk with Axelus at [-1263, 43, -4490].",
+      "ru": "Выйти из пещеры и поговорить с Акселусом [-1263, 43, -4490].",
+      "stage": "Stage 9"
+    }
+  ],
+  "choices": []
+}

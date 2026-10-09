@@ -1,0 +1,1338 @@
+{
+  "quest": "The Scarred Springs",
+  "level": 108,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-scarred-springs",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh! Well, hello there, tourist! I have to assume you're a tourist, anyways. That doesn't look like local dress, anyways. I suppose you've heard about the hot springs!",
+      "ru": "О! Ну, привет, турист! Я так понимаю, ты турист, по крайней мере. На местную одежду это точно не похоже. Наверное, ты слышал про горячие источники!",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Well, ah...unfortunately, Pishlas is closed for renovations. You see, it's been closed for a long time... My family has run it for generations, but trouble started.",
+      "ru": "Ну, эм... к сожалению, Пишлас закрыт на ремонт. Понимаешь, он уже давно закрыт... Моя семья держала это место поколениями, но потом начались проблемы.",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "With my mother having been stricken ill for so long, my father and all our family, we've had to abandon this place to care for her. It's fallen into disrepair.",
+      "ru": "Моя мать долго тяжело болела, и отец вместе со всей семьёй был вынужден забросить это место, чтобы ухаживать за ней. Всё пришло в упадок.",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "She's well enough now that she doesn't need someone looking after her every hour, so I'm taking it on myself to return this place to its former glory!",
+      "ru": "Сейчас ей уже лучше, она больше не нуждается в уходе каждую минуту, так что я сам взялся вернуть этому месту былую славу!",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "It's been hard work...and it should be opening soon- but I'm not quite done. Again, I'm so sorry you came all this way for nothing.",
+      "ru": "Работа нелёгкая... Открытие уже скоро, а я ещё не всё закончил. Ещё раз прости, что проделал такой путь зря.",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Want some help?",
+      "ru": "Хочешь помочь?",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I- excuse me? You want to...",
+      "ru": "Я- прости, что? Ты хочешь...",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "That'd... That'd be absolutely fantastic!! I've been working alone on this for months now!! I'm NEARLY done, but-",
+      "ru": "Это... Это было бы просто шикарно!! Я уже месяцы в одиночку тут вкалываю!! Я ПОЧТИ всё доделал, но-",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Come on, come on! I'll show you around! Let's go, let's go!!",
+      "ru": "Пошли, пошли! Я тебе всё покажу! Давай, давай!!",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Hopefully you'll be able to visit before you have to go home then!",
+      "ru": "Надеюсь, тогда ты ещё и сам успеешь тут отдохнуть, прежде чем отправишься домой!",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Okay, okay, what's next on the list... C'mon, think like Sovereign Zhiraok!",
+      "ru": "Так, так, что там дальше по списку... Давай, думай как Сюзерен Жираок!",
+      "speaker": "Maripe",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "The dialogue restarts from the beginning when talking to Maripe again",
+      "ru": "Если снова поговорить с Марипе, диалог начнётся с начала",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Okay, so! These are the main pools- Frankly, I have no idea how all these frogs got here, given the bog is clear across the whole forest...",
+      "ru": "Итак! Это главные бассейны. Честно говоря, не представляю, откуда здесь столько лягушек: болото ведь на другом конце леса...",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "But they've got to go. Sure, they're cute, but no one's going to want to take a soak with them... Or with all these fallen leaves in the pools.",
+      "ru": "Но их надо убрать. Да, они милые, но никто не захочет отмокать вместе с ними... да ещё и с этими листьями в воде.",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "The side pool over here is just as important to clean out. Need to have clear pools for the guests! And maybe even for the Sovereign!",
+      "ru": "Боковой бассейн вон там тоже важно почистить. Для гостей вода должна быть чистой! И, может, даже для самого Сюзерена!",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I've already put a lot of time into fixing up these huts. I do carpentry work. These used to be in so much worse shape... I'm a little glad my grandparents didn't end up seeing it like this.",
+      "ru": "На ремонт этих домиков у меня ушла уйма времени. Я плотник. Раньше они были в куда худшем состоянии... Даже немного рад, что бабушка с дедушкой не застали их такими.",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I have such fond memories of playing around here when I was younger... What would they think, seeing it fall apart? That thought has been giving me motivation this whole time.",
+      "ru": "У меня столько тёплых воспоминаний о том, как я тут играл в детстве... Что бы они подумали, увидев это всё разваленным? Эта мысль и держала меня всё это время.",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "It'd be a disgrace to let Pishlas fall completely apart. Even Sovereign Zhiraok agreed! Did you know he dropped by, when I was first starting- Oh, wait! There's one other place!",
+      "ru": "Было бы позором позволить Пишласу совсем сгнить. Даже Сюзерен Жираок так сказал! Ты знаешь, он сам заходил ко мне, когда я только начинал- Ой, стой! Тут ещё одно место есть!",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "The teahouse! Refreshments, hot drinks, a place to sit out of the water... This is one of the big remaining projects. I'll take care of this- but, back about the Sovereign?",
+      "ru": "Чайный домик! Угощения, горячие напитки, место, где можно посидеть после купания... Тут ещё много работы. Я займусь им сам. Так вот, о Сюзерене...",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "He visited one day, while I was starting on fixing the place, and he told me this would be a fantastic community service! Since it's been so long since Pishlas has been usable, I mean.",
+      "ru": "Однажды он заглянул сюда, когда я только начал ремонт, и сказал, что восстановить источники было бы добрым делом для всех местных жителей! Ведь Пишлас уже так давно закрыт.",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "This used to be a big community center. Losing it was a blow to all Auburn residents... He's promised some great things if I can clean this all up! So let's get to it!",
+      "ru": "Раньше здесь собиралась вся округа. Когда источники закрылись, жители Аубёрна очень горевали... Он пообещал мне немало хорошего, если я всё восстановлю! Так что за дело!",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "You go gather up the frogs! There's a pond to the you can drop them off at. Then...the leaves! Pick them out of the pools. Then...then come back and we'll see where we're at!",
+      "ru": "Ты пока собирай лягушек! Есть пруд, куда их можно отнести. Потом... листья! Повытаскивай их из бассейнов. А потом... потом вернёшься, и посмотрим, что дальше!",
+      "speaker": "Maripe",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "How's it coming? Still working on this. Will be for a bit, but I'm energized! Maybe I can get this done today, even! Uh...right, right! Frogs!",
+      "ru": "Ну как успехи? Я пока всё ещё вожусь с ремонтом. Работы хватает, но сил у меня хоть отбавляй! Может, даже сегодня закончу! Эм... точно, точно! Лягушки!",
+      "speaker": "Maripe",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Okay, there were five, and you're holding... Alright, so there's left to get!",
+      "ru": "Так, всего их было пять, а у тебя сейчас... Ага, значит, ещё осталось!",
+      "speaker": "Maripe",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Woah! That...that's sure a way to carry the frogs, haha! Y- Pfffkhhhaaahahahaa!! You look- Wahaha, that's fantastic!! Oh, Ohhkay, okay, right!",
+      "ru": "Ого! Ну... это точно один из способов таскать лягушек, ха-ха! Т- Пфффкххааахахаха!! Ты выглядишь- Вахаха, это прекрасно!! Всё, в-всё, ладно, соберись!",
+      "speaker": "Maripe",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "There's a pond to the of Pishlas here you can drop them off at! Now, g-get out of here, eheheh! I gotta concentrate, and there's frogs on y- heehehahahahaaah!!",
+      "ru": "Тут рядом с Пишласом есть пруд, туда их и скидывай! А теперь, д-давай иди уже, эхехе! Мне надо сосредоточиться, а у тебя лягушки на- хихехахахаа!!",
+      "speaker": "Maripe",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Okay, frogs are dealt with, now the leaves! There were ten big patches out there I saw. Get in there and scoop them up- Uh, lemme see. ...",
+      "ru": "Так, с лягушками разобрались, теперь листья! Я там видел десять больших куч. Лезь и выгребай их - эм, дай гляну. ...",
+      "speaker": "Maripe",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Okay, you got left! Hopefully once you do, I'll be all done over here, and we'll go from there!",
+      "ru": "Так, ещё не всё! Надеюсь, к тому времени, как ты закончишь, я тоже управлюсь, и можно будет идти дальше!",
+      "speaker": "Maripe",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Okay, there! And STAY in, you darn board... So, how's the work going?",
+      "ru": "Так, вот так! И ДЕРЖИСЬ уже, упрямая доска... Ну, как идёт работа?",
+      "speaker": "Maripe",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Frogs dealt with, check...and leaves out of the water, check! Which, ah...well, that means now I need you to get some leaves...to put IN the water, eheh!",
+      "ru": "Лягушки убраны, галочка... листья из воды вынуты, тоже галочка! А это, эм... ну, теперь мне надо, чтобы ты достал листья... которые пойдут В воду, эхех!",
+      "speaker": "Maripe",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "What I mean by that, is that I need fresh tea for the teahouse! I've already got some food stowed away for refreshments, but I'll need some drinks to go along with that.",
+      "ru": "Я в том смысле, что мне нужен свежий чай для чайного дома! Еду для угощений я уже припрятал, но к ней нужны и напитки.",
+      "speaker": "Maripe",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "I might be done in this building, but there's still plenty of things for me to take care of, so I've got to stay behind and really...really focus in on this!",
+      "ru": "С этим зданием я, может, и закончил, но впереди ещё полно дел. Так что я останусь здесь и постараюсь... как следует сосредоточиться!",
+      "speaker": "Maripe",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "It's just that...a lot of this isn't heavy work, but there's just so many tasks on the list that I don't know where to start, so I just can't get it going. You taking care of the other things is helping with that!",
+      "ru": "Просто... сама работа не такая уж тяжёлая, но задач так много, что я не знаю, за что хвататься первым, и из-за этого всё стопорится. А то, что ты забираешь часть мелочёвки на себя, очень помогает!",
+      "speaker": "Maripe",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "So, uh, anyway! There's a teahouse off to the northwest, up on a ridge. I know the owner- her name's Marseled, and she makes the best tea in the whole forest!",
+      "ru": "Так вот! К северо-западу отсюда, на гребне, есть чайный домик. Я знаю хозяйку: её зовут Марселед, и она готовит лучший чай во всём лесу!",
+      "speaker": "Maripe",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "So, your job is to head there for a big bulk order, and then bring it back! I'll ask her about paying it off later, since we trade favors a lot. Tell her I sent you!",
+      "ru": "Тебе нужно сходить туда, заказать побольше чая и принести его сюда! Об оплате я с ней договорюсь позже, мы часто выручаем друг друга. Скажи, что ты от меня!",
+      "speaker": "Maripe",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Okay, dust busted, cobwebs cleared, lanterns in the middle of being lit- Oh, hey! Did you get the tea?",
+      "ru": "Так, пыль убрал, паутину снял, фонари почти зажёг- О, привет! Чай добыл?",
+      "speaker": "Maripe",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Marseled's teahouse is off to the northwest, up on the ridge. If you need the exact spot, look in your !",
+      "ru": "Чайный домик Марселед к северо-западу, наверху на гребне. Точное место отмечено в книге квестов.",
+      "speaker": "Maripe",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Welcome, traveler, to my humble teahouse. My name is Marseled. It is always a pleasure to see a new customer.",
+      "ru": "Добро пожаловать, путник, в мой скромный чайный домик. Меня зовут Марселед. Всегда приятно видеть нового клиента.",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "So, what can I do for you?",
+      "ru": "Так чем я могу помочь?",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Oh, is that so? Why, that's wonderful! He's spoken with me a few times about working on old Pishlas there. If he wants fresh stock for drinks, he must be confident that it's nearly finished!",
+      "ru": "О, вот как? Это же прекрасно! Он уже несколько раз говорил мне, что занимается старым Пишласом. Если ему уже нужна свежая заварка для напитков, значит, он уверен, что всё почти готово!",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Admittedly, though, I'm facing some...difficulties. I've not got quite enough to fill up an order like he'll need. You see, ah...there's...",
+      "ru": "Правда, у меня сейчас... небольшие трудности. Запасов на такой большой заказ не хватит. Понимаешь, эм... тут...",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "It's COCKROACHES! Filthy, ugly, disgusting COCKROACHES!! They keep getting all over the mushrooms and on the tea leaves and I CAN'T touch them, I can't I can't I CAN'T!!",
+      "ru": "ЭТО ТАРАКАНЫ! Грязные, мерзкие, отвратительные ТАРАКАНЫ!! Они всё время ползают по грибам и чайным листьям, а я НЕ МОГУ их трогать, не могу, не могу, НЕ МОГУ!!",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "They aren't even harming the plants or anything, but I go out to harvest them and they race up to me and crawl all over my feet and up my leggings and aahghguhgughuguhhhh!!!",
+      "ru": "Они даже растения особо не портят, но стоит мне выйти собирать урожай, как они несутся ко мне и лезут по ногам, по щиколоткам, под штаны, и аааагхгухугуххх!!!",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "I hate them I hate them I hate them, I hate them so much! I- Er. Um. S-sorry. I...shouldn't act so ill-mannered in front of my customers.",
+      "ru": "Ненавижу их, ненавижу, ненавижу, я их так ненавижу! Я- Эм. Прости. Я... не должна так срываться при клиентах.",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "The musrooms are right out front and the leaves are down the side of the hill. and should be enough to get me started again.",
+      "ru": "Грибы растут прямо у входа, а листья - вниз по склону. Этого должно хватить, чтобы я снова могла начать работать.",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "I do hate to ask, but...if you could go out and harvest some of the ingredients for me? And deal with the pests? I've tried, but every time I just...panic.",
+      "ru": "Мне ужасно неловко просить, но... не мог бы ты сам собрать для меня часть ингредиентов? И разобраться с этой дрянью? Я пыталась, но каждый раз просто... паникую.",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "If you could take care of that problem for me, I'll be able to fill out the order for Maripe... And, hopefully, I won't wake the whole of Espren shrieking over a roach in my pants.",
+      "ru": "Если ты решишь эту проблему, я смогу собрать заказ для Марипе... И, надеюсь, не разбужу половину Эспрена визгами из-за таракана у себя в штанах.",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "The mushrooms are just out front, and the leaves are down the side of the hill. and should be enough to fill the order.",
+      "ru": "Грибы прямо перед входом, а листья ниже по склону. Этого должно хватить на весь заказ.",
+      "speaker": "Marseled",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Oh, hey! Did you get the tea yet? I'm trying to get everything in ship-shape here, but I'm running in circles a little...",
+      "ru": "О, привет! Ну что, чай уже достал? Я тут пытаюсь всё довести до ума, но уже немного бегаю по кругу...",
+      "speaker": "Maripe",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Oh, ew. She's got roaches in the farm? Yeah, that's rough. Anyways, go get 'em! I'll be, uh... Well, hopefully I'll have this done by the time you deal with that!",
+      "ru": "О, фу. У неё тараканы на ферме? Вот напасть. Ладно, иди разберись! А я, эм... Надеюсь, к твоему возвращению уже закончу!",
+      "speaker": "Maripe",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "They're gone? They're really gone?",
+      "ru": "Их нет? Они правда исчезли?",
+      "speaker": "Marseled",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "YES!! Take THAT, you dirty things! No more cockroooaches, no more cockroooaches, yeah, yeah- Er!",
+      "ru": "ДА!! Получили, мерзкие твари! Больше никаких таракааанов, больше никаких таракааанов, да, да- Эм!",
+      "speaker": "Marseled",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "...if you could. Um. Not tell anyone I was...doing that happy dance. Please. I don't think I've done that since I was a child.",
+      "ru": "...если можно. Эм. Не рассказывай никому, что я... вот так тут плясала от счастья. Пожалуйста. Кажется, я такого с детства не делала.",
+      "speaker": "Marseled",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "A-anyway, I'll pack up that order and bring it down to Pishlas on my own time. I know where it is. Perhaps I can be there for the opening celebrations, too!",
+      "ru": "В-в общем, я соберу заказ и сама отнесу его в Пишлас. Я знаю, где это. Может, даже успею к празднику в честь открытия!",
+      "speaker": "Marseled",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "I'll be sure to let my customers know. An entire generation has missed out on those hot springs, if my parents speak truly, so this will be an event to cherish, I think!",
+      "ru": "И обязательно расскажу своим посетителям. Если родители правы, целое поколение не застало эти горячие источники. Думаю, их открытие запомнится надолго!",
+      "speaker": "Marseled",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Okay, that's that now, so now- Oh, you're back! Did you get the order all filled out?",
+      "ru": "Так, с этим разобрался, теперь- О, ты вернулся! Ну что, заказ оформил?",
+      "speaker": "Maripe",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "...oops. You got confused, didn't you. Nah, those ingredients need to go to Marseled, and THEN come here. Good hustle, though! Get those to Marseled for processing!",
+      "ru": "...Ой, кажется, ты меня не так понял. Эти ингредиенты нужно отнести Марселед, и ТОЛЬКО потом идти сюда. Но ты быстро обернулся! Неси их Марселед, пусть приготовит чай!",
+      "speaker": "Maripe",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Oh my gosh, oh my gosh...L-Look! We have visitors!! Um, I know I'm not setting a great example, but...be quiet, okay? Don't disturb them!",
+      "ru": "О боже, о боже... С-смотри! У нас гости!! Эм, знаю, что сам сейчас не пример хладнокровия, но... тише, ладно? Не спугни их!",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "See? The foxes...! I haven't seen them around here since I was a kid! I- well, if you're a tourist you wouldn't know, I suppose, but this is exciting!",
+      "ru": "Видишь? Лисы...! С детства не видел их здесь! Я... Ну, ты ведь приезжий и, наверное, не знаешь, но для нас это большая радость!",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "There's a really common tale about foxes here- That they're the reincarnation of our ancestors, that their spirits inhabit them. I know it's...well, it's supposed to be just a tall tale, but...",
+      "ru": "Тут есть старая местная легенда про лис - будто это перерождение наших предков, и в них живут их духи. Я знаю, что это... ну, вроде как просто сказка, но...",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "I really can't help but feel like seeing them here is a good omen! It's like my grandparents are back again- Er, wait! The tea! I completely forgot, did you get the order placed?",
+      "ru": "Я не могу отделаться от чувства, что увидеть их здесь - это очень хороший знак! Как будто мои бабушка с дедушкой снова рядом- Эм, стой! Чай! Я совсем забыл, ты заказ-то оформил?",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Oh, Marseled said she'd bring it by herself? Alright, fantastic! And she said she'd invite folks to the opening too... Funny she did, since that's what I was just about to ask you to do!",
+      "ru": "О, Марселед сказала, что сама всё принесёт? Отлично, шикарно! И ещё сказала, что позовёт людей на открытие... Забавно, потому что именно об этом я как раз хотел попросить тебя сам!",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Pishlas is almost back to the way I remember it being when I was younger. I've still got a bit of decorating to do, so I want you to spread the word!",
+      "ru": "Пишлас уже почти такой, каким я помню его в детстве. Мне осталось ещё немного с украшениями повозиться, а ты пока разнеси весть!",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "I've got some notes here on where you could find folks I know in Espren. You tell them, put some notices up...",
+      "ru": "У меня тут есть заметки, где искать знакомых людей в Эспрене. Сходи к ним, развесь объявления...",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "...and then after the big celebration re-opening, they'll tell their families, and then word will spread from there! Is it odd to say I'm looking forward to the work of maintaining the place?",
+      "ru": "...а после торжественного открытия они расскажут своим семьям, и весть разнесётся по округе! Странно, наверное, но мне уже не терпится заниматься обычными хлопотами по уходу за источниками.",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Anyways, head off and start getting the word out! If you don't know where to look, just ! If you lose my notes you can come back and I'll copy them down again for you.",
+      "ru": "Иди, пора рассказать всем об открытии! Если не знаешь, куда идти, загляни в книгу квестов. А если потеряешь мои заметки, возвращайся, я перепишу их для тебя.",
+      "speaker": "Maripe",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Whew, okay... Whew. Gotta remember, I'm not the Sovereign. Can't be everywhere at once. Need to slow down...it's nearly done, no need to stress out- Oh, hey!",
+      "ru": "Фух, так... Фух. Надо помнить, что я не Сюзерен. Я не могу быть везде сразу. Нужно притормозить... почти всё уже готово, не надо так нервничать- О, привет!",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Have you spread the word yet? to see where the people usually are, and get the news out! You're invited to the grand re-opening too, of course.",
+      "ru": "Ну как, уже всем рассказал? В книге квестов отмечены места, где их можно найти. Ты тоже приглашён на торжественное открытие, конечно же!",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Oh, you lost my notes. Don't worry, it happens. Do you think you can find the spots on your own, or do you want me to write a new copy down for you?",
+      "ru": "О, ты потерял мои заметки. Ничего страшного, бывает. Думаешь, сам найдёшь нужные места или мне переписать всё заново?",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Okay, one sec...and...here! Remember to for where to go!",
+      "ru": "Так, секунду... и... вот! Не забудь: куда идти, можно посмотреть в книге квестов!",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "All the spots I listed are , but if you're having trouble, I'll write you up a new set if you ask!",
+      "ru": "Все места, которые я перечислил, отмечены в книге квестов. Но если всё-таки запутаешься, я перепишу список, только попроси!",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Oh, hello there. I certainly haven't seen you around here before.",
+      "ru": "О, привет. Я тебя тут раньше точно не видел.",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Is there something you wanted to speak with me about?",
+      "ru": "Ты хотел о чём-то поговорить?",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "E-excuse you? What's reopening soon?",
+      "ru": "П-прости, что скоро открывается?",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Oh, OH! Pishlas? The hot springs? Sorry, it's been so long that I nearly forgot the name.",
+      "ru": "О, ОХ! Пишлас? Горячие источники? Прости, просто столько времени прошло, что я почти забыл название.",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "I have such vague memories of going there as a child, but I couldn't imagine them after seeing how the place was abandoned.",
+      "ru": "У меня остались только смутные воспоминания о том, как я ходил туда ребёнком, но после того, как место забросили, я уже и представить не мог, что оно снова оживёт.",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Maripe did tell me some time ago he would be working on renovating it. I'm to suppose his work has paid off, then! I'd intended to visit him again soon, but this provides a nice excuse, as well.",
+      "ru": "Марипе как-то говорил мне, что собирается восстановить источники. Значит, его труды не пропали даром! Я и так хотел вскоре навестить его, а теперь есть отличный повод.",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "...I might have to spread the word to his family for him. Even if Maripe's father is too busy looking after his wife, I'm sure he'll be delighted to hear about this.",
+      "ru": "...Пожалуй, мне ещё и его семье надо рассказать. Даже если отец Марипе слишком занят заботой о жене, он точно будет счастлив такое услышать.",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Well, I hope to see you there, stranger!",
+      "ru": "Ну, надеюсь, увидимся там, странник!",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Well, this is a sight, for sure! What can we do for you, fella?",
+      "ru": "Ну и ну, вот это зрелище! Что тебе надо, дружище?",
+      "speaker": "Mont",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Wait, Pishlas? The hot springs?",
+      "ru": "Погоди, Пишлас? Горячие источники?",
+      "speaker": "Group",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "It's been ages, right...? That place, it's been in a state of disrepair for as long as I can recall...",
+      "ru": "Это же уже целая вечность прошла, да...? Насколько я себя помню, это место всегда стояло заброшенным...",
+      "speaker": "Nerod",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "They're finally going to be open again? And fully renovated? Sounds-",
+      "ru": "Неужели их наконец откроют? И всё уже восстановили? Звучит-",
+      "speaker": "Mont",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Sounds tempting. It's been ages since I've been able to bathe in hot water or relax properly...",
+      "ru": "Звучит заманчиво. Я уже вечность нормально не мылся в горячей воде и не отдыхал как следует...",
+      "speaker": "Feri",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "We'll surely all be there! These old bones could use a nice, long soak, I think!",
+      "ru": "Мы точно придём все! Моим старым костям как раз не помешает хорошенько отмокнуть!",
+      "speaker": "Mont",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "The tourist returns! Anything else you wanted to talk about?",
+      "ru": "Турист вернулся! Ещё что-то хотел обсудить?",
+      "speaker": "Mont",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "The normal dialogue options will appear.",
+      "ru": "Появятся обычные варианты диалога.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Okay. Phew. Wow. Okay. Alright, alright, it's...",
+      "ru": "Так. Фух. Вау. Так. Ладно, ладно, это...",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "It's...it's done. It's all... It's all done, wow, I... There's. There's people... And they're here, and they're enjoying it, and, and...",
+      "ru": "Это... это сделано. Всё... Всё реально готово, вау, я... Тут... Тут люди... И они здесь, и им нравится, и, и...",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "And I don't have to think about this anymore, and my parents can relax about having let the place go, and...",
+      "ru": "И мне больше не надо об этом постоянно думать, и мои родители могут перестать переживать из-за того, что место так запустили, и...",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "And, and, and, the, the Sovereign, he'll, Ill get to tell him I'm done, and I'll get that, and... Ohhh my stars I'm done but I'm even more anxious now that it's done than I was before, aaah-",
+      "ru": "И, и, и ещё, С-Сюзерен, я... я смогу сказать ему, что всё закончено, и тогда, и... Ох звёзды, я всё закончил, но теперь нервничаю даже сильнее, чем раньше, ааа-",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Okay, come on, keep your head on straight, Maripe! Now's the time to relax a bit... Deep breaths now- Oh, hey!",
+      "ru": "Так, соберись, Марипе! Сейчас уже можно чуть-чуть расслабиться... Спокойно, глубоко дышим- О, привет!",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Uh, I...I need a minute, eheh. How about...you, uh, talk to everyone else, first, and just...yeah?",
+      "ru": "Эм, мне... мне нужна минута, эхех. Давай... ты, эм, сначала поговоришь с остальными, а я тут... да?",
+      "speaker": "Maripe",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "I'd say I barely recognize the place after all the renovations...but honestly, it feels like I'm right at home, like I'm that little fox kit I used to be.",
+      "ru": "Я бы сказал, что после ремонта место стало почти не узнать... но по ощущениям я снова дома, как будто опять стал тем маленьким лисёнком, которым когда-то был.",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Maripe tried to talk you up like you did all the work! I practically had to pry a confession out of him that you just came in at the end to help with the finishing touches.",
+      "ru": "Марипе так тебя расхваливал, будто ты всё сделал за него! Едва удалось вытянуть из него признание, что ты лишь помог с последними штрихами.",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "He's always been a humble sort, but I think that just shows his gratitude. And believe me, I'm grateful to you as well! I think you gave him the kick he needed.",
+      "ru": "Он всегда был скромным, но, по-моему, это просто показывает, насколько он тебе благодарен. И поверь, я тоже благодарен! Думаю, ты дал ему тот толчок, который был нужен.",
+      "speaker": "Cousullo",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Ohhhohoho that's the spot. Man...I never knew what I was missing. Sort of an old style name, Pishlas, but...",
+      "ru": "О-ох, вот это хорошо. Даже не знал, чего мне не хватало. Название, Пишлас, конечно, старомодное, но...",
+      "speaker": "Denis",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Phew, I'm definitely going to be coming back here again. A long day of Liff hunting, then a long night's soak... Oh, that sounds like a satisfying routine...",
+      "ru": "Фух, я сюда ещё не раз вернусь. Целый день охотиться на лиффов, а вечером понежиться в горячей воде... Вот бы каждый день был таким...",
+      "speaker": "Denis",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Maripe, hm. That boy has done good. Certainly couldn't have done better myself, at my age. He's got an eye for carpentry, for decoration, for the respect of his ancestors...",
+      "ru": "Марипе, хм. Хорошо парень справился. В моём возрасте я бы точно лучше уже не сделал. У него и глаз на плотницкое дело есть, и вкус к украшениям, и уважение к предкам...",
+      "speaker": "Feri",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "And heck, he's even got free towels provided! I'll be a regular from now on, that's for sure! Hope he's prepared for daily business!",
+      "ru": "А тут даже полотенца дают бесплатно! Теперь буду заходить каждый день, это уж точно! Надеюсь, он готов к постоянному наплыву гостей!",
+      "speaker": "Feri",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Wow... I'll have to tell Timot what he's missing out on. This is fantastic. Perfect view, perfect water, perfect service...",
+      "ru": "Надо же... Нужно рассказать Тимоту, что он упускает. Здесь чудесно. И вид, и вода, и обслуживание, всё прекрасно...",
+      "speaker": "Nerod",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Family concerns are dfinitely more important than a warm bath, but... I'll have to share some leaves with him, buy his ticket for next time. He deserves a free soak.",
+      "ru": "Семейные проблемы, конечно, важнее горячей ванны, но... Надо будет поделиться с ним листьями, оплатить ему проход в следующий раз. Он заслужил бесплатный отдых.",
+      "speaker": "Nerod",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Ahhh, that hits the spot... Youngster, do yourself a favor- never get as old as I am. 90 years, I've got...and this... Goodbye, aches, my dear old enemies...",
+      "ru": "А-а-ах, как же хорошо... Молодой, сделай себе одолжение: никогда не доживай до моих лет. Мне уже 90... а здесь... Прощайте, боли, мои давние враги...",
+      "speaker": "Mont",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "It's heavenly to feel them wash away in the water, but boy would I love to not creak when I sit down to begin with. Good on you for helping out, by the way- especially for a tourist!",
+      "ru": "Это просто рай - чувствовать, как всё это смывает водой, хотя, честно говоря, я бы предпочёл вообще не хрустеть при каждом приседании. Кстати, молодец, что помог - особенно для туриста!",
+      "speaker": "Mont",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "After the community notice board got vandalized so badly a couple years ago, I thought not to trust it again. I'm quite glad I broke with that and gave it a look now.",
+      "ru": "Пару лет назад так изуродовали нашу доску объявлений, что я зарёкся ей верить. Рад, что на этот раз всё-таки заглянул.",
+      "speaker": "Fiscu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Have you seen the owner of the springs, by the way? He's had a few foxes around him all day- normally, they're not the ones doing the chasing like that!",
+      "ru": "Кстати, ты хозяина источников не видел? За ним весь день бегают несколько лис - обычно ведь не они так гоняются за людьми!",
+      "speaker": "Fiscu",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Oh, it's lovely to be back. Having visited this place as a teenager, it had always saddened me that it closed. My heart really does go out to Maripe's mother.",
+      "ru": "Ох, как же хорошо снова сюда вернуться. Я бывал здесь ещё подростком, и мне всегда было грустно, что место закрылось. Мне правда очень жаль мать Марипе.",
+      "speaker": "Estur",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Honestly, if the Sovereign can manage all his business, his father should've been able to keep up. But either way, Maripe has outdone himself- and the Auburn Amaretto is such a fine vintage!",
+      "ru": "Если Сюзерен справляется со всеми своими делами, то и отец Марипе мог бы управиться. Но как бы там ни было, Марипе превзошёл сам себя. А какой здесь чудесный аубёрнский амаретто!",
+      "speaker": "Estur",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "I've enough years on me to remember how Maripe's grandparents used to run this place. Maripe has outdone himself- this is, at barest minimum, up to their standard. No one can say otherwise.",
+      "ru": "Я ещё помню, как этим местом управляли бабушка с дедушкой Марипе. Он превзошёл сам себя! По крайней мере, ничуть не уступает им, и с этим никто не поспорит.",
+      "speaker": "Marseled",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "It always was something of a...blemish, on his family's name, this place. I understand his mother fell ill, and that's certainly no one's fault, but abandoning a family business for any reason...",
+      "ru": "Это место всегда было чем-то вроде... пятна на имени их семьи. Я понимаю, что его мать заболела, и в этом никто не виноват, но забросить семейное дело по любой причине...",
+      "speaker": "Marseled",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "People judged them all, whether they realized it or not. Hopefully now with Pishlas open, that will end. It feels as if a cloud has lifted, really. Hmhm, or maybe that's just the tea.",
+      "ru": "Люди всё равно их осуждали, даже не всегда сознавая это. Надеюсь, теперь, когда Пишлас снова открыт, всё изменится. Словно туча рассеялась. Хм-хм, а может, это просто чай.",
+      "speaker": "Marseled",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Either way, this is marvelous work. And I can take my harvest without having to worry about disgusting cockroaches crawling all over me! So thank you for that, as well.",
+      "ru": "Как бы там ни было, работа проделана шикарная. И теперь я могу собирать урожай, не боясь, что по мне снова поползут эти отвратительные тараканы! Так что и за это тоже спасибо.",
+      "speaker": "Marseled",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "I think I said earlier- with so many different little things piling up, I just couldn't think straight. i've been stuck at 'almost done' for a while now.",
+      "ru": "Кажется, я уже говорил - когда вокруг накапливается слишком много мелких дел, я просто перестаю нормально соображать. Уже долго сижу в состоянии \"почти готово\".",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "You showing up, offering to take care of all the little things cluttering up my brainspace...that made this...possible! I don't think I could've done it without you!",
+      "ru": "Ты пришёл и взял на себя все те мелочи, которые не давали мне покоя... Благодаря тебе всё получилось! Не думаю, что я справился бы без тебя!",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "It really is jsut like I remembered it being. Everyone getting together and relaxing, talking about whatever strikes their fancy, just letting their woes disappear...",
+      "ru": "Оно и правда стало таким, каким я его помню. Все собрались, отдыхают, болтают о чём хотят, просто позволяют своим заботам раствориться...",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "It even feels like I've got my grandparents right here with me. ...though, maybe that's just these two. These foxes have been following me all day...I hope they'll stick around.",
+      "ru": "У меня даже ощущение, будто бабушка с дедушкой снова рядом. ...хотя, может, это просто вот эти двое. Эти лисы весь день за мной ходят... Надеюсь, останутся тут.",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "It's this feeling of... a weight off my chest, but the knowledge there's a new task ahead of me- keeping up with this place. With Pishlas. It's...refreshing, I think.",
+      "ru": "Такое чувство... будто камень с души упал. Но я знаю, что впереди новое дело: заботиться об источниках. О Пишласе. И это... даже придаёт сил.",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Do... I know you're just a tourist, but...do you think... Do you think my grandparents would be proud of me? For all this?",
+      "ru": "Слушай... Я знаю, что ты просто турист, но... как думаешь... мои бабушка с дедушкой гордились бы мной? Всем этим?",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "...oh gosh, I promised myself I wouldn't cry...a-and here I am doing it anyways. Haha... Stars, I'm tired after all this. So, so tired...but. But the good king of tired, you know?",
+      "ru": "...Ох, я же обещал себе не плакать... А-а сам опять начал. Ха... Звёзды, как же я устал. Очень, очень устал... Но это приятная усталость, понимаешь?",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "You might need to go home soon, since you're just visiting...but come back any time. It'll be free, for you- and these should go pretty far in the Highlands, I think. I just- Thank you...so much.",
+      "ru": "Наверное, тебе скоро пора домой, ты ведь здесь ненадолго... Но возвращайся в любое время. Для тебя вход бесплатный. А это, думаю, пригодится тебе и в Нагорье. Я просто... Спасибо тебе... за всё.",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "The dialogue ends and the quest is completed.",
+      "ru": "Диалог заканчивается, и квест завершается.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "...you know...you might have a point. I've been so weighed down by what everyone might think, that I could barely focus on the work. I should try and let that go, shouldn't I?",
+      "ru": "...Знаешь... наверное, ты прав. Я так переживал о том, что подумают другие, что почти не мог сосредоточиться на работе. Пора перестать себя этим мучить, да?",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "You know, for a tourist, you sure are generous with the help. So, I should be generous too! How's free access for life...and a personal gift from me sound? Again...thank you, so much!",
+      "ru": "Знаешь, для туриста ты вообще очень щедрый на помощь. Значит, и я должен быть щедрым! Как тебе пожизненный бесплатный вход... и личный подарок от меня? Ещё раз... спасибо тебе огромное!",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "...heh. I guess that would make sense. But...I'd like to think they would be. I really would.",
+      "ru": "...хех. Наверное, в этом есть смысл. Но... мне хочется верить, что да. Очень хочется.",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "So... For one thing. You get free access! For another...here's a personal gift from me! After all, you didn't HAVE to help...but you did! You'll get a lot more use out of these than I will. SO...thank you, so much!",
+      "ru": "Так что... Во-первых, для тебя теперь бесплатный вход! А во-вторых... вот тебе личный подарок от меня! Ты ведь вообще не был обязан помогать... но помог! И пользы от этого у тебя будет явно больше, чем у меня. Так что... спасибо тебе огромное!",
+      "speaker": "Maripe",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "I'll come back later.",
+      "ru": "Зайду позже.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "You should release the frogs at the pond in the back.",
+      "ru": "Выпусти лягушек в пруд на задворках.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "You should head back to clean up the pools now.",
+      "ru": "Теперь вернись и приберись в купальнях.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "You should head back to Maripe.",
+      "ru": "Возвращайся к Марипе.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Maripe sent me. He's reopening the hot springs and needs to stock the teahouse with a bulk order.",
+      "ru": "Меня прислал Марипе. Он снова открывает горячие источники и хочет заказать побольше чая для чайного домика.",
+      "speaker": "Player",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "You should bring the ingredients back to Marseled.",
+      "ru": "Отнеси ингредиенты Марселед.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Job's done- The cockroaches are dead, and I have the ingredients for you.",
+      "ru": "Всё готово. С тараканами покончено, а ингредиенты я принёс.",
+      "speaker": "Player",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "It looks quite comfortable in its sleep. Strangely, it feels as if it's wanted to sleep here for a long time.",
+      "ru": "Во сне ему вполне уютно. Странно, но кажется, будто он давно хотел поспать именно тут.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "It's not quite asleep yet. It appears to be shivering in... anticipation?",
+      "ru": "Он ещё не совсем уснул. Похоже, дрожит от... предвкушения?",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "It's basking in the shade. It looks pleased with something, but you're not sure what...",
+      "ru": "Он нежится в тени. Чем-то доволен, но чем именно - непонятно...",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "I'll be fine",
+      "ru": "Я справлюсь",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "One of my friends lives on the edges of Espren. She usually listens to the chimes to pass the time.",
+      "ru": "Одна моя подруга живёт на окраине Эспрена. Обычно она коротает время, слушая перезвон.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "There's a nice spot in the outskirts by the road. Groups often gather there before heading out.",
+      "ru": "На окраине у дороги есть славное местечко. Там часто собираются группы перед выходом.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "A large notice board in the middle of Espren. You could probably hang a poster there!",
+      "ru": "Большая доска объявлений в центре Эспрена. Туда вполне можно повесить плакат!",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "It's Espren's communal notice board. It's full of messages, old and new...",
+      "ru": "Это общественная доска объявлений Эспрена. Она вся в сообщениях, старых и новых...",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Is there anything of interest here?",
+      "ru": "Есть тут что-нибудь интересное?",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Plenty of papers have been posted over, and there's a weathered old advertisement in the middle. Surely it's lost relevance by now, so...",
+      "ru": "Поверх налеплена куча бумаг, а в середине - выцветшее старое объявление. Наверняка оно давно потеряло актуальность, так что...",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "There. That should be a good spot for it. How much effort did Maripe put into the poster? It really stands out from the rest of the notices.",
+      "ru": "Вот так. Здесь ему самое место. Сколько же сил Марипе вложил в этот плакат? Он сразу выделяется среди других объявлений.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "There isn't a world that exists where someone doesn't see this advertisement.",
+      "ru": "Такое объявление уж точно не останется незамеченным.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "That's everyone! You may as well head back and join in on the fun.",
+      "ru": "Вот и все! Можешь возвращаться и присоединяться к веселью.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "There's so many people here! It'd be a shame to not .",
+      "ru": "Сколько здесь народу! Жаль было бы не пообщаться с гостями.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "It's sleeping lightly, as if it could wake up at any moment. Feels like it's keeping an eye on the springs...or like a proud parent surveying their child's work.",
+      "ru": "Он спит чутко, будто может проснуться в любой миг. Словно приглядывает за источниками... или как гордый родитель, осматривающий работу своего чада.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "It's sleeping soundly. Its breaths are soft, like they could lull you to sleep if you listened for long enough...like a proud parent tucking you into bed.",
+      "ru": "Он крепко спит. Дыхание тихое, такое, что и сам задремлешь, если прислушаешься подольше... как гордый родитель, укладывающий тебя в постель.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "It looks very comfortable in its sleep. Maripe must have been mindful enough to lay a towel below it.",
+      "ru": "Во сне ему очень уютно. Марипе, видимо, был достаточно заботлив, чтобы подстелить ему полотенце.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "It's slowly dozing off. It appears to be... savoring the moment?",
+      "ru": "Он потихоньку задрёмывает. Похоже, он... смакует момент?",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "It's basking in the shade. Even despite all the people around, it seems content...or maybe, it's because of all the people around?",
+      "ru": "Он нежится в тени. Даже несмотря на всех этих людей вокруг, он доволен... или, может, как раз из-за людей вокруг?",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "It seems to enjoy watching the visitors.",
+      "ru": "Похоже, ему нравится наблюдать за посетителями.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Maripe's waving in your general direction. He must've calmed down enough to talk coherently now.",
+      "ru": "Марипе машет примерно в твою сторону. Видимо, успокоился достаточно, чтобы говорить связно.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Surely...",
+      "ru": "Наверняка...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "Surely they would be. You've done a great job.",
+      "ru": "Наверняка да. Ты отлично справился.",
+      "speaker": "Player",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Does it Matter?",
+      "ru": "Какая разница?",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Does it matter? It's more important that you've done it, instead of what people might think.",
+      "ru": "Какая разница? Важнее, что ты это сделал, а не что подумают люди.",
+      "speaker": "Player",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "I can't say.",
+      "ru": "Не могу сказать.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "I can't say. They're gone, after all.",
+      "ru": "Не могу сказать. Их ведь больше нет.",
+      "speaker": "Player",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Maripe will be working near the front of Pishlas.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "[-2027, 20, -1072].",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "[-2113, 23, -1098].",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "[-2082, 24, -1002]",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "New Quest Started: The Scarred Springs",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Израненные источники",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Maripe sent me.",
+      "ru": "Меня прислал Марипе.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Job's done.",
+      "ru": "Дело сделано.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "A new copy please?",
+      "ru": "Можно ещё один экземпляр?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Pishlas is reopening soon.",
+      "ru": "Пишлас скоро снова откроется.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "Hang the poster",
+      "ru": "Повесить плакат",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "Okay, okay, what's next on the list... C'mon, think like Sovereign Zhiraok!",
+      "ru": "Так, так, что там дальше по списку... Давай, думай как Сюзерен Жираок!",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/The Scarred Springs.txt"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "The side pool over here is just as important to clean out. Need to have clear pools for the guests! And maybe even for the Sovereign!",
+      "ru": "Боковой бассейн вон там тоже важно почистить. Для гостей вода должна быть чистой! И, может, даже для самого Сюзерена!",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/The Scarred Springs.txt"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "It'd be a disgrace to let Pishlas fall completely apart. Even Sovereign Zhiraok agreed! Did you know he dropped by, when I was first starting- Oh, wait! There's one other place!",
+      "ru": "Было бы позором позволить Пишласу совсем сгнить. Даже Сюзерен Жираок так сказал! Ты знаешь, он сам заходил ко мне, когда я только начинал- Ой, стой! Тут ещё одно место есть!",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/The Scarred Springs.txt"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "The teahouse! Refreshments, hot drinks, a place to sit out of the water... This is one of the big remaining projects. I'll take care of this- but, back about the Sovereign?",
+      "ru": "Чайный домик! Угощения, горячие напитки, место, где можно посидеть после купания... Тут ещё много работы. Я займусь им сам. Так вот, о Сюзерене...",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/The Scarred Springs.txt"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "Whew, okay... Whew. Gotta remember, I'm not the Sovereign. Can't be everywhere at once. Need to slow down...it's nearly done, no need to stress out- Oh, hey!",
+      "ru": "Фух, так... Фух. Надо помнить, что я не Сюзерен. Я не могу быть везде сразу. Нужно притормозить... почти всё уже готово, не надо так нервничать- О, привет!",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/The Scarred Springs.txt"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "And, and, and, the, the Sovereign, he'll, Ill get to tell him I'm done, and I'll get that, and... Ohhh my stars I'm done but I'm even more anxious now that it's done than I was before, aaah-",
+      "ru": "И, и, и ещё, С-Сюзерен, я... я смогу сказать ему, что всё закончено, и тогда, и... Ох звёзды, я всё закончил, но теперь нервничаю даже сильнее, чем раньше, ааа-",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/The Scarred Springs.txt"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Honestly, if the Sovereign can manage all his business, his father should've been able to keep up. But either way, Maripe has outdone himself- and the Auburn Amaretto is such a fine vintage!",
+      "ru": "Если Сюзерен справляется со всеми своими делами, то и отец Марипе мог бы управиться. Но как бы там ни было, Марипе превзошёл сам себя. А какой здесь чудесный аубёрнский амаретто!",
+      "speaker": "",
+      "stage": "",
+      "legacySource": "game-config/quests/The Scarred Springs.txt"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Maripe at Pishlas at [-1762, 18, -1000].",
+      "ru": "Поговорить с Марипе в Пишласе [-1762, 18, -1000].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Let Maripe show you around at [-1762, 18, -1000].",
+      "ru": "Осмотреть окрестности вместе с Марипе [-1762, 18, -1000].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Pick up the frogs around [-1756, 16, -986].",
+      "ru": "Собрать лягушек возле [-1756, 16, -986].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Release the frogs at the pond in the back at [-1798, 17, -934].",
+      "ru": "Выпустить лягушек в дальнем пруду [-1798, 17, -934].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Pick up all the leaf piles around [-1756, 16, -986].",
+      "ru": "Собрать все кучи листьев возле [-1756, 16, -986].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Report back to Maripe [-1763, 31, -956].",
+      "ru": "Вернуться к Марипе и сообщить об успехе [-1763, 31, -956].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Get some tea from [-1882, 38, -1084].",
+      "ru": "Взять чай в [-1882, 38, -1084].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Collect 3 mushrooms and 3 leaf batches from the tea farm at [-1877, 32, -1117].",
+      "ru": "Собрать 3 гриба и 3 пучка листьев на чайной ферме [-1877, 32, -1117].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Bring the tea you collected back to Marseled at [-1882, 38, -1084].",
+      "ru": "Принести собранный чай Марселеду [-1882, 38, -1084].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Bring the tea back to Maripe at [-1767, 18, -991].",
+      "ru": "Принести чай Марипе [-1767, 18, -991].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Invite citizens of Espren at [-2075, 25, -1065] to join the opening celebrations.",
+      "ru": "Пригласить жителей Эспрена в [-2075, 25, -1065] на празднование открытия.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Head back to Pishlas to participate in the celebrations at [-1762, 16, -1000].",
+      "ru": "Вернуться в Пишлас и присоединиться к празднованию [-1762, 16, -1000].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Talk to Maripe at [-1774, 17, -989]",
+      "ru": "Поговорить с Марипе [-1774, 17, -989].",
+      "stage": "Stage 12"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,4360 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "captured-lootruns",
+  "scopes": [
+    {
+      "id": "lootrun-e5c17e3a8959174d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Mob Slaughter",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Mob Slaughter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e5c17e3a8959174d",
+          "en": "Mob Slaughter",
+          "ru": ""
+        },
+        {
+          "id": "line-93564053fcee46f0",
+          "en": "§7This time only, immediately",
+          "ru": "§7Только сейчас вы получаете"
+        },
+        {
+          "id": "line-dccc2d9b54500758",
+          "en": "§7gain <num> <em>Intelligence (Max",
+          "ru": "§7§b<num>§7 <em>§fинтеллекта§7 (макс."
+        },
+        {
+          "id": "line-1ede4e38069a4437",
+          "en": "§7x<num>) for every <num> Mobs killed",
+          "ru": "x§7<num>§7) за каждые §f<num>§7 убитых мобов"
+        },
+        {
+          "id": "line-9c493b17c7f615a2",
+          "en": "§7this Lootrun",
+          "ru": "за этот лутран."
+        },
+        {
+          "id": "line-61332876e421ba23",
+          "en": "§7Static Boon",
+          "ru": "Статичный Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-d76fc27dbf6d1377",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Retrograde Champion",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Retrograde Champion",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d76fc27dbf6d1377",
+          "en": "Retrograde Champion",
+          "ru": ""
+        },
+        {
+          "id": "line-93564053fcee46f0",
+          "en": "§7This time only, immediately",
+          "ru": "§7Только сейчас вы получаете"
+        },
+        {
+          "id": "line-dcf7e6640873945f",
+          "en": "§7gain <num>% Spell Damage (Max",
+          "ru": "§7§f<num>%§7 §fурона заклинаний§7 (макс."
+        },
+        {
+          "id": "line-3ece114c976b7146",
+          "en": "§7x<num>) for every Challenge",
+          "ru": "§7x<num>§7) за каждое Испытание,"
+        },
+        {
+          "id": "line-c0103ad62075f3bf",
+          "en": "§7completed during this Lootrun",
+          "ru": "§7завершённое за этот Лутран."
+        },
+        {
+          "id": "line-0e6678babc9dbb7d",
+          "en": "§7§a✔ §7Completed Challenges: §f<num>",
+          "ru": "§7§a✔ §7Завершено Испытаний: §f<num>§7"
+        },
+        {
+          "id": "line-61332876e421ba23",
+          "en": "§7Static Boon",
+          "ru": "Статичный Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-39fc5bde3b37f512",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Slowrunner",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Slowrunner",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-39fc5bde3b37f512",
+          "en": "Slowrunner",
+          "ru": ""
+        },
+        {
+          "id": "line-f0bdeb1088cd84a8",
+          "en": "§7For the rest of your Lootrun,",
+          "ru": "§7До конца этого лутрана"
+        },
+        {
+          "id": "line-946dfa62305788c0",
+          "en": "§7gain <num>% Loot Quality when",
+          "ru": "§7§fкачество лута§7 выше на §b<num>%§7, если"
+        },
+        {
+          "id": "line-4d113ece9eb91ff6",
+          "en": "§7less than <num>m is left on the",
+          "ru": "осталось меньше §f§f<num> мин.§7 на"
+        },
+        {
+          "id": "line-64fb0ee41154bfc7",
+          "en": "§7timer",
+          "ru": "таймере."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-7f419c25fcbd9c1c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Persistent Champion",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Persistent Champion",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-7f419c25fcbd9c1c",
+          "en": "Persistent Champion",
+          "ru": ""
+        },
+        {
+          "id": "line-f0bdeb1088cd84a8",
+          "en": "§7For the rest of your Lootrun,",
+          "ru": "§7До конца этого Лутрана:"
+        },
+        {
+          "id": "line-56303c01f9c51396",
+          "en": "§7gain <num> Health (Max x<num>)",
+          "ru": "§*<num> §fк Здоровью§7 (макс. x<num>§7)"
+        },
+        {
+          "id": "line-425e2a4f63dac63d",
+          "en": "§7everytime you complete a",
+          "ru": "§7за каждое завершённое"
+        },
+        {
+          "id": "line-fd757957b96c5249",
+          "en": "§7Challenge",
+          "ru": "§7Испытание"
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        },
+        {
+          "id": "line-47e66e0e439ee271",
+          "en": "§7x<num>) everytime you complete a",
+          "ru": "§7x<num>§7) за каждое завершённое"
+        },
+        {
+          "id": "line-458f282b0ca17950",
+          "en": "§7(Max x<num>) everytime you",
+          "ru": "§7(макс. x<num>§7) за каждое"
+        },
+        {
+          "id": "line-5fd539ba57e92473",
+          "en": "§7complete a Challenge",
+          "ru": "§7завершённое Испытание."
+        },
+        {
+          "id": "line-19947a5b5be42db5",
+          "en": "§7gain <num> <em>Strength (Max x<num>)",
+          "ru": "§*<num> <em>§fк Силе§7 (макс. x<num>§7)"
+        },
+        {
+          "id": "line-dcf7e6640873945f",
+          "en": "§7gain <num>% Spell Damage (Max",
+          "ru": "§*<num>% §fк Урону Заклинаний§7 (макс."
+        },
+        {
+          "id": "line-70b7bad5016444e8",
+          "en": "§7gain <num> Health Regen (Max",
+          "ru": "§*<num> §fк Восстановлению Здоровья§7 (макс."
+        },
+        {
+          "id": "line-ea47869550b379bd",
+          "en": "§7gain <num>% Elemental Damage",
+          "ru": "§*<num>% §fк Стихийному Урону§7"
+        },
+        {
+          "id": "line-099c0b62b8ede6f3",
+          "en": "§7gain <num> <em>Agility (Max x<num>)",
+          "ru": "§*<num> <em>§fк Проворству§7 (макс. x<num>§7)"
+        },
+        {
+          "id": "line-f1bdd6203fa83b36",
+          "en": "§7gain <num>% Weaken Enemy (Max",
+          "ru": "§*<num>% §fк Ослаблению Врагов§7 (макс."
+        },
+        {
+          "id": "line-341e3baf19191745",
+          "en": "§7gain <num>% Damage (Max x<num>)",
+          "ru": "§*<num>% §fк Урону§7 (макс. x<num>§7)"
+        },
+        {
+          "id": "line-1f87c67610505f88",
+          "en": "§7gain <num> <em>Defence (Max x<num>)",
+          "ru": "§*<num> <em>§fк Защите§7 (макс. x<num>§7)"
+        },
+        {
+          "id": "line-555dbf31e58fbed4",
+          "en": "§7gain <num> <em>Dexterity (Max x<num>)",
+          "ru": "§*<num> <em>§fк Ловкости§7 (макс. x<num>§7)"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-086859115ffd7fa1",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Persnickety",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Persnickety",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-086859115ffd7fa1",
+          "en": "Persnickety",
+          "ru": ""
+        },
+        {
+          "id": "line-56c196986836370d",
+          "en": "§7Once you have been offered a",
+          "ru": "§7Когда за этот лутран вам предложат"
+        },
+        {
+          "id": "line-6f729169e6a1989b",
+          "en": "§7Blue or Purple Beacon more",
+          "ru": "§7синий или фиолетовый маяк"
+        },
+        {
+          "id": "line-e7e1c17adfc28e10",
+          "en": "§7than <num> times this Lootrun,",
+          "ru": "§7больше §f<num>§7 раз, вы получите"
+        },
+        {
+          "id": "line-374ad55fb838d14b",
+          "en": "§7gain <num> Health",
+          "ru": "§b<num>§7 §fздоровья§7."
+        },
+        {
+          "id": "line-9c3b7ead1c80fe4b",
+          "en": "§7§a✔ §7Blue Beacon Offered: §f<num>",
+          "ru": "§7§a✔ §7Предложено Синих Маяков: §f<num>§7"
+        },
+        {
+          "id": "line-9ec2f87c154e7397",
+          "en": "§7§a✔ §7Purple Beacon Offered: §f<num>",
+          "ru": "§7§a✔ §7Предложено Фиолетовых Маяков: §f<num>§7"
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-14b1d83ac2d8dda2",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Complete Chaos",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Complete Chaos",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-14b1d83ac2d8dda2",
+          "en": "Complete Chaos",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-61edca00dd7427db",
+          "en": "§7Get §f<num>§7 Boons",
+          "ru": "§7Получите §f<num>§7 Дар<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-af882128b2b086f3",
+          "en": "After finishing a Challenge,",
+          "ru": "После завершения Испытания"
+        },
+        {
+          "id": "line-6a99e669edb78e92",
+          "en": "get an additional random",
+          "ru": "вы получаете ещё одну случайную"
+        },
+        {
+          "id": "line-5a24755534ea6fe8",
+          "en": "Beacon reward.",
+          "ru": "награду маяка."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-fab8846e373332fa",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Lightbringer",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Lightbringer",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-fab8846e373332fa",
+          "en": "Lightbringer",
+          "ru": ""
+        },
+        {
+          "id": "line-93564053fcee46f0",
+          "en": "§7This time only, immediately",
+          "ru": "§7Только сейчас вы получаете"
+        },
+        {
+          "id": "line-121c23e4d3f62e67",
+          "en": "§7gain <num>% Critical Damage",
+          "ru": "§7§b<num>%§7 §fкритического урона§7"
+        },
+        {
+          "id": "line-020bffec30bf90d2",
+          "en": "§7(Max x<num>) for every Boon you",
+          "ru": "(макс. x§7<num>§7) за каждый дар,"
+        },
+        {
+          "id": "line-ffdce8e2819974b7",
+          "en": "§7currently have",
+          "ru": "который у вас сейчас есть."
+        },
+        {
+          "id": "line-8ff675b5e51a67e8",
+          "en": "§7§a✔ §7Active Boons: §f<num>",
+          "ru": "§7§a✔ §7Активных Даров: §f<num>§7"
+        },
+        {
+          "id": "line-61332876e421ba23",
+          "en": "§7Static Boon",
+          "ru": "Статичный Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-15c06f18a57a227d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Clockworker",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Clockworker",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-15c06f18a57a227d",
+          "en": "Clockworker",
+          "ru": ""
+        },
+        {
+          "id": "line-f0bdeb1088cd84a8",
+          "en": "§7For the rest of your Lootrun,",
+          "ru": "§7До конца лутрана вы получаете"
+        },
+        {
+          "id": "line-dccc2d9b54500758",
+          "en": "§7gain <num> <em>Intelligence (Max",
+          "ru": "§7§b<num>§7 <em>§fинтеллекта§7 (макс."
+        },
+        {
+          "id": "line-be395045380469f7",
+          "en": "§7x<num>) for every minute left on",
+          "ru": "x§7<num>§7) за каждую минуту, оставшуюся"
+        },
+        {
+          "id": "line-8701c7c0740b455e",
+          "en": "§7the timer",
+          "ru": "на таймере."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-d75eb06e7df43bf8",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Bad Omen",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Bad Omen",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d75eb06e7df43bf8",
+          "en": "Bad Omen",
+          "ru": ""
+        },
+        {
+          "id": "line-7c36d8a6b1a0dde5",
+          "en": "§7For the rest of this Lootrun,",
+          "ru": "§7До конца этого лутрана"
+        },
+        {
+          "id": "line-ea47869550b379bd",
+          "en": "§7gain <num>% Elemental Damage",
+          "ru": "§7§fстихийный урон§7 растёт на §b<num>%§7"
+        },
+        {
+          "id": "line-8b408e7a86c13c4b",
+          "en": "§7(Max x<num>) everytime you get a",
+          "ru": "(макс. x§7<num>§7) каждый раз, когда"
+        },
+        {
+          "id": "line-2b51faa936e242df",
+          "en": "§7Curse",
+          "ru": "Вы Получаете Проклятие."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-2b5edf5166930369",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Optimism",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Optimism",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2b5edf5166930369",
+          "en": "Optimism",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-1154f304bcd7e5ad",
+          "en": "§7Get offered §f<num>§7 Beacons",
+          "ru": "§7Получите на выбор §f<num>§7 маяк<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-4aef9261e9cc8ce2",
+          "en": "When a beacon is rerolled, it",
+          "ru": "После реролла маяк"
+        },
+        {
+          "id": "line-ce7d6be11af54a29",
+          "en": "will not be re-offered unless",
+          "ru": "не предложат снова, пока"
+        },
+        {
+          "id": "line-de211fa9b636fe28",
+          "en": "you run out of options.",
+          "ru": "не закончатся другие варианты."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-e467e9d949cae71b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Chronokinesis",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Chronokinesis",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e467e9d949cae71b",
+          "en": "Chronokinesis",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-61edca00dd7427db",
+          "en": "§7Get §f<num>§7 Boons",
+          "ru": "§7Получите §f<num>§7 Дар<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-d07f3ad19910144c",
+          "en": "(Non-flying) chests now give",
+          "ru": "Обычные сундуки теперь дают"
+        },
+        {
+          "id": "line-9ef62eaa2dd9e881",
+          "en": "<num> Pull, but consume <num>s (<num>s",
+          "ru": "§f<num> Пулл§7, но тратят §f<num>с§7 (§f<num>с"
+        },
+        {
+          "id": "line-71f467ee0171c314",
+          "en": "per chest) from your Timer.",
+          "ru": "§fза сундук)§7 с таймера."
+        },
+        {
+          "id": "line-448cb4ba37231fee",
+          "en": "Completing a challenge",
+          "ru": "Завершение Испытания"
+        },
+        {
+          "id": "line-e6cd6f49e4ac777b",
+          "en": "reduces this penalty by <num>s.",
+          "ru": "снижает этот штраф на §f§f<num>с§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-5fb4868f7804b693",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Dying Light",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Dying Light",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5fb4868f7804b693",
+          "en": "Dying Light",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-9b027e9958f3ae71",
+          "en": "Until you gain <num>% total",
+          "ru": "Пока не получите §f<num>%§7 §fобщей§7"
+        },
+        {
+          "id": "line-6b3d378d84d2b433",
+          "en": "Boon Potency (<num>%), your",
+          "ru": "§fСилы Даров§7 §7(§7<num>%§7), Ваши"
+        },
+        {
+          "id": "line-b376c59901d684f6",
+          "en": "boons will drain by <num>%",
+          "ru": "дары по очереди теряют §f<num>%§7"
+        },
+        {
+          "id": "line-bf84930d33846fd1",
+          "en": "Potency / <num> seconds, one by",
+          "ru": "§fсилы каждые <num> с§7, один за"
+        },
+        {
+          "id": "line-7692c3ad3540bb80",
+          "en": "one",
+          "ru": "другим."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-30dc50811edaf2d2",
+          "en": "Rainbow beacons will now",
+          "ru": "Радужные маяки теперь дают"
+        },
+        {
+          "id": "line-a19f01f56c162aaf",
+          "en": "grant <num> End Reward Sacrifice.",
+          "ru": "§7<num>§7 пожертвовани<pl:е|я|й> наград."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-4711e0957671396a",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Ultimate Sacrifice",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Ultimate Sacrifice",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4711e0957671396a",
+          "en": "Ultimate Sacrifice",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-28eadfe89d2885b4",
+          "en": "For the next <num> challenges,",
+          "ru": "Во время следующих §f<num>§7 Испытаний"
+        },
+        {
+          "id": "line-0defc1a05dcdf0d2",
+          "en": "your boons are disabled.",
+          "ru": "ваши дары не действуют."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-2b4a3cdbaa008422",
+          "en": "Gain <num> End Reward Sacrifices.",
+          "ru": "Получите Пожертвования Наград: §f<num>§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-0a00ceed25267bf2",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Midas Touch",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Midas Touch",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0a00ceed25267bf2",
+          "en": "Midas Touch",
+          "ru": ""
+        },
+        {
+          "id": "line-7c36d8a6b1a0dde5",
+          "en": "§7For the rest of this Lootrun,",
+          "ru": "§7До конца этого лутрана"
+        },
+        {
+          "id": "line-ea47869550b379bd",
+          "en": "§7gain <num>% Elemental Damage",
+          "ru": "§7§fстихийный урон§7 растёт на §b<num>%§7"
+        },
+        {
+          "id": "line-8b408e7a86c13c4b",
+          "en": "§7(Max x<num>) everytime you get a",
+          "ru": "(макс. x§7<num>§7) каждый раз, когда"
+        },
+        {
+          "id": "line-81ba80857c196a4a",
+          "en": "§7Boon",
+          "ru": "Вы Получаете Дар."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-dbc5608d9a2eabc7",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Killstreak",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Killstreak",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-dbc5608d9a2eabc7",
+          "en": "Killstreak",
+          "ru": ""
+        },
+        {
+          "id": "line-f0bdeb1088cd84a8",
+          "en": "§7For the rest of your Lootrun,",
+          "ru": "§7До конца этого лутрана"
+        },
+        {
+          "id": "line-74df80c0ece26ed2",
+          "en": "§7gain <num>% Spell Damage for <num>s",
+          "ru": "§7§fурон заклинаний§7 растёт на §f<num>%§7 на §f§f<num>с§7"
+        },
+        {
+          "id": "line-69cdb87d38cf6c41",
+          "en": "§7everytime you kill <num> Mobs.",
+          "ru": "за каждые §f<num>§7 убитых мобов."
+        },
+        {
+          "id": "line-a1bc515219b2cf57",
+          "en": "§7Duration resets after every",
+          "ru": "Длительность обновляется"
+        },
+        {
+          "id": "line-9c92deb7ea27791d",
+          "en": "§7kill.",
+          "ru": "с каждым убийством."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        },
+        {
+          "id": "line-a286d280ba13977c",
+          "en": "§7gain <num>% Loot Quality for <num>s",
+          "ru": "§7получаете §f<num>% Качества Добычи§7 на §f<num>с"
+        },
+        {
+          "id": "line-5f48e36ee43f1d96",
+          "en": "§7gain <num> Health Regen for <num>s",
+          "ru": "§7получаете §f<num> к Восстановлению Здоровья§7 на §f<num>с"
+        },
+        {
+          "id": "line-43949308e86574f4",
+          "en": "§7gain <num>% Walk Speed for <num>s",
+          "ru": "§7получаете §f<num>% Скорости Ходьбы§7 на §f<num>с"
+        },
+        {
+          "id": "line-683166b5734e3041",
+          "en": "§7gain <num>% Elemental Damage for",
+          "ru": "§7получаете §f<num>% Стихийного Урона§7 на"
+        },
+        {
+          "id": "line-cfa1f32abfd031d9",
+          "en": "§7<num>s everytime you kill <num>",
+          "ru": "§f<num>с§7 за каждые §f<num>"
+        },
+        {
+          "id": "line-7b22e47f7cfdc175",
+          "en": "§7Mobs. Duration resets after",
+          "ru": "§7убитых мобов. Длительность"
+        },
+        {
+          "id": "line-ecc3cea907a948fa",
+          "en": "§7every kill.",
+          "ru": "§7обновляется с каждым убийством."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-4b54fefe709766f8",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Anemic's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Anemic's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4b54fefe709766f8",
+          "en": "Anemic's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-b1bb514e0f42cd57",
+          "en": "You cannot heal more than <num>%",
+          "ru": "Нельзя восстановить больше §f<num>%§7"
+        },
+        {
+          "id": "line-9d93d9de989242e9",
+          "en": "max health over <num> second",
+          "ru": "макс. здоровья за §f<num>§7 с."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        },
+        {
+          "id": "line-ac06970543e24c4b",
+          "en": "§cUn-ready to change",
+          "ru": "§cСнимите готовность, чтобы изменить"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a1b861f68409a354",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Famished's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Famished's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a1b861f68409a354",
+          "en": "Famished's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-0d1ba2f22462e64e",
+          "en": "You have <num> less Raid Buff",
+          "ru": "Вариантов Рейдовых усилений на §f<num>§7"
+        },
+        {
+          "id": "line-c3d99e0721cf34a9",
+          "en": "choice.",
+          "ru": "меньше."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        },
+        {
+          "id": "line-ac06970543e24c4b",
+          "en": "§cUn-ready to change",
+          "ru": "§cСнимите готовность, чтобы изменить"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-9fae898094b94794",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Shattered Mortal's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Shattered Mortal's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9fae898094b94794",
+          "en": "Shattered Mortal's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-dc000a8eaebc2655",
+          "en": "Each time you die, deal <num>%",
+          "ru": "§7С каждой смертью наносите §f<num>%"
+        },
+        {
+          "id": "line-6fae926c1945cbd5",
+          "en": "damage for the rest of the",
+          "ru": "§fурона§7 до конца"
+        },
+        {
+          "id": "line-263dae9af8f88960",
+          "en": "raid",
+          "ru": "рейда."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-2b26c4d7fd54b245",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Cursed Alchemist's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Cursed Alchemist's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2b26c4d7fd54b245",
+          "en": "Cursed Alchemist's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-192b3330a70525bc",
+          "en": "Cannot use more than <num>",
+          "ru": "Можно использовать не больше §f<num>§7"
+        },
+        {
+          "id": "line-76f2e985a6bdc76e",
+          "en": "consumables throughout the",
+          "ru": "расходников за всё время"
+        },
+        {
+          "id": "line-263dae9af8f88960",
+          "en": "raid",
+          "ru": "рейда."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a05183984a2f8e17",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Farsighted's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Farsighted's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a05183984a2f8e17",
+          "en": "Farsighted's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-4c0d2b74ef62451f",
+          "en": "§8Refreshes in <num> hour",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-a8a89fd266e8853d",
+          "en": "You deal <num>% less damage to",
+          "ru": "Вы наносите на §7<num>%§7 меньше урона"
+        },
+        {
+          "id": "line-ddaa15cfd1fee136",
+          "en": "mobs that are <num> blocks or",
+          "ru": "мобам на расстоянии §f<num>§7 §fблоков§7"
+        },
+        {
+          "id": "line-912ce5110f65cbfe",
+          "en": "less away from you",
+          "ru": "от вас или ближе."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-fc4c610bde55183e",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Outworn Soldier's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Outworn Soldier's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-fc4c610bde55183e",
+          "en": "Outworn Soldier's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-4c0d2b74ef62451f",
+          "en": "§8Refreshes in <num> hour",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-a1cd33b224c089cf",
+          "en": "Your spells cost at least <num>",
+          "ru": "Заклинания расходуют минимум §f<num>§7"
+        },
+        {
+          "id": "line-c1212091aa78c007",
+          "en": "mana",
+          "ru": "маны."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-890531038d38bbec",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Arcane Incontinent's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Arcane Incontinent's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-890531038d38bbec",
+          "en": "Arcane Incontinent's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-4c0d2b74ef62451f",
+          "en": "§8Refreshes in <num> hour",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-8812ad23f28786c3",
+          "en": "Main Attacks now cost <num> mana",
+          "ru": "Основные атаки расходуют §f<num>§7 маны"
+        },
+        {
+          "id": "line-d6c48b73689bef1a",
+          "en": "to use",
+          "ru": "при использовании."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-fcc2469991ae4b73",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Dull Blade's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Dull Blade's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-fcc2469991ae4b73",
+          "en": "Dull Blade's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-4c0d2b74ef62451f",
+          "en": "§8Refreshes in <num> hour",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-5cd5e8989a1519c6",
+          "en": "Your attacks cannot deal more",
+          "ru": "Одна ваша атака не может снять больше"
+        },
+        {
+          "id": "line-df808a032c8d2d63",
+          "en": "than <num>% of a mob's max",
+          "ru": "§f<num>%§7 максимального здоровья моба"
+        },
+        {
+          "id": "line-ddb36f7310ce64d9",
+          "en": "health per hit",
+          "ru": "за удар."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a51ad6deee943bba",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Picky Looter",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Picky Looter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a51ad6deee943bba",
+          "en": "Picky Looter",
+          "ru": ""
+        },
+        {
+          "id": "line-f0bdeb1088cd84a8",
+          "en": "§7For the rest of your Lootrun,",
+          "ru": "§7До конца этого лутрана"
+        },
+        {
+          "id": "line-341e3baf19191745",
+          "en": "§7gain <num>% Damage (Max x<num>)",
+          "ru": "§7§fурон§7 растёт на §b<num>%§7 (макс. x§7<num>§7)"
+        },
+        {
+          "id": "line-eb38273380e54dad",
+          "en": "§7Yellow Beacon",
+          "ru": "Жёлтый Маяк."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-cab5f2bf86827b4b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Looter",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Looter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-cab5f2bf86827b4b",
+          "en": "Looter",
+          "ru": ""
+        },
+        {
+          "id": "line-7c36d8a6b1a0dde5",
+          "en": "§7For the rest of this Lootrun,",
+          "ru": "§7До конца этого лутрана"
+        },
+        {
+          "id": "line-fd44131e69546ef0",
+          "en": "§7gain <num>% Critical Damage (Max",
+          "ru": "§7§fкритический урон§7 растёт на §b<num>%§7 (макс."
+        },
+        {
+          "id": "line-7dcba484de06849b",
+          "en": "§7x<num>) for every <num> items",
+          "ru": "x§7<num>§7) за каждые §f<num>§7 предметов,"
+        },
+        {
+          "id": "line-75033239ec882827",
+          "en": "§7offered to you from a Chest",
+          "ru": "предложенных вам из сундука."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-410acc7c6500c90c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Opal Offering",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Opal Offering",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-410acc7c6500c90c",
+          "en": "Opal Offering",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-61edca00dd7427db",
+          "en": "§7Get §f<num>§7 Boons",
+          "ru": "§7Получите §f<num>§7 Дар<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-ba87bee2f583f937",
+          "en": "After getting a Curse,",
+          "ru": "§7При получении §fПроклятия"
+        },
+        {
+          "id": "line-b3409a27bff6fa21",
+          "en": "consume <num> Boon to gain <num>",
+          "ru": "§7расходуется §f<num> Дар§7, давая §f<num>"
+        },
+        {
+          "id": "line-80eeb53e0189d1fa",
+          "en": "Pull, <num> extra per <num>%",
+          "ru": "§7Пулл, §fещё <num>§7 за каждые §f<num>%"
+        },
+        {
+          "id": "line-5feb8207db3bbe2f",
+          "en": "Potency over <num>% consumed.",
+          "ru": "§fСилы свыше <num>%§7 у Дара."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-83e54c382962cd32",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Requiem",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Requiem",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-83e54c382962cd32",
+          "en": "Requiem",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-84ae6fdacc2d52a9",
+          "en": "§7Add §f<num>m §7to your Time Limit",
+          "ru": "§7Увеличьте лимит времени на §f§f<num> мин.§7§7"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-c4abd313c78ba4cd",
+          "en": "For the next <num> minutes,",
+          "ru": "В течение следующих §f<num>§7 мин."
+        },
+        {
+          "id": "line-b3404552c48f3b18",
+          "en": "Enemy Scaling and Curses are",
+          "ru": "усиление врагов и проклятия"
+        },
+        {
+          "id": "line-60edf72471d71ecc",
+          "en": "voided.",
+          "ru": "не действуют."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-576221d9a29c4b4c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Inner Peace",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Inner Peace",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-576221d9a29c4b4c",
+          "en": "Inner Peace",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-9a19cccf6c41d522",
+          "en": "§7Gain §f<num>§7 End Reward Pulls",
+          "ru": "§7Получите §f<num>§7 Пулл<pl:|а|ов> Наград"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-c10a041f37fd5f38",
+          "en": "Curses are now half as",
+          "ru": "Проклятия теперь вдвое"
+        },
+        {
+          "id": "line-2cb97a630573983d",
+          "en": "effective.",
+          "ru": "слабее."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-6647da40568f28ac",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Heavensent",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Heavensent",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6647da40568f28ac",
+          "en": "Heavensent",
+          "ru": ""
+        },
+        {
+          "id": "line-f0bdeb1088cd84a8",
+          "en": "§7For the rest of your Lootrun,",
+          "ru": "§7До конца этого лутрана"
+        },
+        {
+          "id": "line-ea47869550b379bd",
+          "en": "§7gain <num>% Elemental Damage",
+          "ru": "§7§fстихийный урон§7 растёт на §b<num>%§7"
+        },
+        {
+          "id": "line-382376d5b909f097",
+          "en": "§7offered",
+          "ru": "предложенный маяк."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-8d742d4e9dc2f0e3",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Parsimonious",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Parsimonious",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-8d742d4e9dc2f0e3",
+          "en": "Parsimonious",
+          "ru": ""
+        },
+        {
+          "id": "line-93564053fcee46f0",
+          "en": "§7This time only, immediately",
+          "ru": "§7Только сейчас вы получаете"
+        },
+        {
+          "id": "line-341e3baf19191745",
+          "en": "§7gain <num>% Damage (Max x<num>)",
+          "ru": "§7§b<num>%§7 §fурона§7 (макс. x§7<num>§7)"
+        },
+        {
+          "id": "line-85717f52f3bfb444",
+          "en": "§7for every <num> items offered to",
+          "ru": "за каждые §f<num>§7 предметов, предложенных"
+        },
+        {
+          "id": "line-f8c62efd6c0eb585",
+          "en": "§7you from any Chests this",
+          "ru": "вам из любых сундуков за этот"
+        },
+        {
+          "id": "line-ee718bd26e8ad17e",
+          "en": "§7Lootrun",
+          "ru": "Лутран."
+        },
+        {
+          "id": "line-61332876e421ba23",
+          "en": "§7Static Boon",
+          "ru": "Статичный Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-9338bb693625c920",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Route Indigo",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Route Indigo",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9338bb693625c920",
+          "en": "Route Indigo",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-84ae6fdacc2d52a9",
+          "en": "§7Add §f<num>m §7to your Time Limit",
+          "ru": "§7Увеличьте лимит времени на §f§f<num> мин.§7§7"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-97f6a3556830a0ee",
+          "en": "Purple and Blue Beacons are",
+          "ru": "§fФиолетовые и синие маяки§7 скрыты,"
+        },
+        {
+          "id": "line-0aec29b0a764c13e",
+          "en": "obscured, but will always be",
+          "ru": "но всегда будут"
+        },
+        {
+          "id": "line-ffa4c3532c775355",
+          "en": "Greatly Empowered.",
+          "ru": "Сильно Усилены."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a94647faea6e51fc",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Thrill Seeker",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Thrill Seeker",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a94647faea6e51fc",
+          "en": "Thrill Seeker",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-9a19cccf6c41d522",
+          "en": "§7Gain §f<num>§7 End Reward Pulls",
+          "ru": "§7Получите §f<num>§7 Пулл<pl:|а|ов> Наград"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-0ddceece4c4207e7",
+          "en": "Gain <num> Pull per Red Beacon",
+          "ru": "§7Получаете §f<num> Пулл§7 за завершение"
+        },
+        {
+          "id": "line-15ba4a35771dd5f9",
+          "en": "Challenge completed. This",
+          "ru": "§7Испытания Красного Маяка. Это"
+        },
+        {
+          "id": "line-41b7ab9e943a942a",
+          "en": "amount is increased by <num> per",
+          "ru": "§7число растёт на §f<num>§7 за каждые"
+        },
+        {
+          "id": "line-64b277480b120f0a",
+          "en": "<num> challenges completed (max",
+          "ru": "§f<num> завершённых Испытаний§7 (макс."
+        },
+        {
+          "id": "line-9c65a283a9229060",
+          "en": "<num>). This boost is reset upon",
+          "ru": "§7<num>§7). Бонус сбрасывается, если"
+        },
+        {
+          "id": "line-35ac88d5a61596ae",
+          "en": "taking a Green Beacon.",
+          "ru": "выбрать §fзелёный маяк§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a8c5cd20f9399a6c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Hoarder",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Hoarder",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a8c5cd20f9399a6c",
+          "en": "Hoarder",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-84ae6fdacc2d52a9",
+          "en": "§7Add §f<num>m §7to your Time Limit",
+          "ru": "§7Увеличьте лимит времени на §f§f<num> мин.§7§7"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-b10c57586b8462cb",
+          "en": "After opening <num> Flying",
+          "ru": "После открытия §f<num>§7 §fлетающих§7"
+        },
+        {
+          "id": "line-f61b2df438ed6ba8",
+          "en": "Chests, choose <num> Boon out of",
+          "ru": "сундуков выберите §f<num>§7 §fдар<pl:|а|ов>§7 из"
+        },
+        {
+          "id": "line-86d21d0eb63f6903",
+          "en": "<num> after your next challenge.",
+          "ru": "§7<num>§7 после следующего Испытания."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-4fe5ea916ab7d6e3",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Ostinato",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Ostinato",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4fe5ea916ab7d6e3",
+          "en": "Ostinato",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-61edca00dd7427db",
+          "en": "§7Get §f<num>§7 Boons",
+          "ru": "§7Получите §f<num>§7 Дар<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-ae96482136085696",
+          "en": "Getting a Boon Type that you",
+          "ru": "При получении §fдара§7, §fтип§7 которого"
+        },
+        {
+          "id": "line-523c5780b4b7451a",
+          "en": "already have will grant <num>",
+          "ru": "у вас уже есть, вы получаете §f<num>§7"
+        },
+        {
+          "id": "line-d29c9cdde7af0254",
+          "en": "Pulls per duplicate. Your",
+          "ru": "§fпулл<pl:|а|ов> за повтор§7. Сила ваших"
+        },
+        {
+          "id": "line-99ab5b335780ebef",
+          "en": "boons will be reduced in",
+          "ru": "даров уменьшается"
+        },
+        {
+          "id": "line-b5ca2c9cef70aa90",
+          "en": "Potency by <num>% per duplicate.",
+          "ru": "на §f<num>%§7 за каждый повтор."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-01fd1af1b58c7944",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Adrenaline Junkie",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Adrenaline Junkie",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-01fd1af1b58c7944",
+          "en": "Adrenaline Junkie",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-688943d31bc02a17",
+          "en": "Until you gain <num> Pulls, lose",
+          "ru": "§7До получения §f<num>§7 Пулл<pl:а|ов|ов> теряете"
+        },
+        {
+          "id": "line-be744d42b9d84e88",
+          "en": "<num>% Boon Potency from a",
+          "ru": "§f<num>% Силы"
+        },
+        {
+          "id": "line-521e18e99fd456bf",
+          "en": "random Boon every <num>s during",
+          "ru": "§fСлучайного Дара§7 каждые §f<num>с§7 в"
+        },
+        {
+          "id": "line-c7a0619210979607",
+          "en": "interludes.",
+          "ru": "§7перерывах."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-f125a259e56391a4",
+          "en": "Gain <num> End Reward Rerolls.",
+          "ru": "Получите Рероллы Наград: §f<num>§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-e5bcda9532f6108d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Backup Beat",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Backup Beat",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e5bcda9532f6108d",
+          "en": "Backup Beat",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-9a19cccf6c41d522",
+          "en": "§7Gain §f<num>§7 End Reward Pulls",
+          "ru": "§7Получите §f<num>§7 Пулл<pl:|а|ов> Наград"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-81c55a37e5907165",
+          "en": "Every time you add <num>s to",
+          "ru": "Каждые §f§f<num>с§7, добавленные"
+        },
+        {
+          "id": "line-5e71f204907f5920",
+          "en": "your timer, gain <num> Beacon",
+          "ru": "к таймеру, дают §f<num>§7 §fреролл§7<pl:|а|ов>"
+        },
+        {
+          "id": "line-31708415b482b327",
+          "en": "Rerolls.",
+          "ru": "Маяков."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-9ae28d3c986c75d3",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Jester's Trick",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Jester's Trick",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9ae28d3c986c75d3",
+          "en": "Jester's Trick",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-28a264ed01003de3",
+          "en": "§7Get §f<num>§7 Curses",
+          "ru": "§7Получите §f<num>§7 Прокляти<pl:е|я|й>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-143068314458928d",
+          "en": "Every time you are offered <num>",
+          "ru": "За каждые §f<num>§7 предметов,"
+        },
+        {
+          "id": "line-e4db2b09437b5f7a",
+          "en": "Items from Flying Chests,",
+          "ru": "§fПредложенных §7из Летающих Сундуков,"
+        },
+        {
+          "id": "line-94411fd2a6e34e6d",
+          "en": "randomly get <num><num> Pulls, <num><num>",
+          "ru": "вы случайно получаете §f<num>§7§f<num>§f§f§f§f§f пуллов§7§7§7§7§7, §f<num>§7§f<num>§7"
+        },
+        {
+          "id": "line-8d2670e3e2ef979b",
+          "en": "Boon, <num><num> Curse or <num><num>s.",
+          "ru": "даров, §f<num>§7§f<num>§7 проклятий или §f<num>§7§f<num>§7с."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a5cb3e05865aef75",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Redemption",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Redemption",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a5cb3e05865aef75",
+          "en": "Redemption",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-28a264ed01003de3",
+          "en": "§7Get §f<num>§7 Curses",
+          "ru": "§7Получите §f<num>§7 Прокляти<pl:е|я|й>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-73a362121b35414f",
+          "en": "Gain <num> End Reward Sacrifice.",
+          "ru": "Получите Пожертвования Наград: §f<num>§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-db6881274c57cf73",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Madman",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Madman",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-db6881274c57cf73",
+          "en": "Madman",
+          "ru": ""
+        },
+        {
+          "id": "line-93564053fcee46f0",
+          "en": "§7This time only, immediately",
+          "ru": "§7Только сейчас вы получаете"
+        },
+        {
+          "id": "line-56303c01f9c51396",
+          "en": "§7gain <num> Health (Max x<num>)",
+          "ru": "§7§b<num>§7 §fздоровья§7 (макс. x§7<num>§7)"
+        },
+        {
+          "id": "line-758a1348460b0ef6",
+          "en": "§7for every Curse you currently",
+          "ru": "за каждое проклятие, которое"
+        },
+        {
+          "id": "line-f8d5780b3bddcb17",
+          "en": "§7have",
+          "ru": "у вас сейчас есть."
+        },
+        {
+          "id": "line-091bb18ddfd9cb26",
+          "en": "§7§a✔ §7Active Curses: §f<num>",
+          "ru": "§7§a✔ §7Активных Проклятий: §f<num>§7"
+        },
+        {
+          "id": "line-61332876e421ba23",
+          "en": "§7Static Boon",
+          "ru": "Статичный Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a10c534259102512",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Interest Scheme",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Interest Scheme",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a10c534259102512",
+          "en": "Interest Scheme",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-6d076f62ee0bc237",
+          "en": "§7Open §f<num>§7 Chests",
+          "ru": "§7Откройте §f<num>§7 Сундук<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-c30a900879166ef6",
+          "en": "Gaining <num> Pulls will add <num>",
+          "ru": "§7Каждые §f<num> Пулла§7 добавляют §f<num>"
+        },
+        {
+          "id": "line-0126a6d9eb050fd2",
+          "en": "Flying Chests to completing",
+          "ru": "§7к числу §fЛетающих Сундуков"
+        },
+        {
+          "id": "line-932d493838dada18",
+          "en": "your next Yellow Beacon. (Max",
+          "ru": "§7следующего Жёлтого Маяка. §8(макс."
+        },
+        {
+          "id": "line-36711e1c96f28668",
+          "en": "<num>)",
+          "ru": "§8<num>§8)"
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-110f0cccba495de5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Porphyrophobia",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Porphyrophobia",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-110f0cccba495de5",
+          "en": "Porphyrophobia",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-9a19cccf6c41d522",
+          "en": "§7Gain §f<num>§7 End Reward Pulls",
+          "ru": "§7Получите §f<num>§7 Пулл<pl:|а|ов> Наград"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-32434e57dd7d2ef0",
+          "en": "Getting offered a Purple",
+          "ru": "При появлении фиолетового"
+        },
+        {
+          "id": "line-48b2b92a0e24fb46",
+          "en": "Beacon gives <num> Curse. Purple",
+          "ru": "маяка вы получаете §f<num>§7 §fпрокляти<pl:е|я|й>§7. Он"
+        },
+        {
+          "id": "line-7bacea6419d370de",
+          "en": "Beacons now give twice as",
+          "ru": "теперь даёт вдвое"
+        },
+        {
+          "id": "line-d15e181f268b9d0f",
+          "en": "many Pulls.",
+          "ru": "больше пуллов."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-907aa6c292ef62d6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Serendipity",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Serendipity",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-907aa6c292ef62d6",
+          "en": "Serendipity",
+          "ru": ""
+        },
+        {
+          "id": "line-7c36d8a6b1a0dde5",
+          "en": "§7For the rest of this Lootrun,",
+          "ru": "§7До конца этого лутрана"
+        },
+        {
+          "id": "line-70b7bad5016444e8",
+          "en": "§7gain <num> Health Regen (Max",
+          "ru": "§7§fрегенерация здоровья§7 растёт на §b<num>§7 (макс."
+        },
+        {
+          "id": "line-7fc02bc1a685962a",
+          "en": "§7x<num>) everytime you open a",
+          "ru": "x§7<num>§7) за каждый открытый"
+        },
+        {
+          "id": "line-57027b63afc5b45a",
+          "en": "§7Chest",
+          "ru": "Сундук."
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-24bba7526b27b6c0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Orphion's Grace",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Orphion's Grace",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-24bba7526b27b6c0",
+          "en": "Orphion's Grace",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-84ae6fdacc2d52a9",
+          "en": "§7Add §f<num>m §7to your Time Limit",
+          "ru": "§7Увеличьте лимит времени на §f§f<num> мин.§7§7"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-c3804f67b4ed4ce9",
+          "en": "Boons are now <num>% more",
+          "ru": "Дары теперь на §f<num>%§7"
+        },
+        {
+          "id": "line-2cb97a630573983d",
+          "en": "effective.",
+          "ru": "сильнее."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-4eb3f740c5bc7007",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Chronotrigger",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Chronotrigger",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4eb3f740c5bc7007",
+          "en": "Chronotrigger",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-28eadfe89d2885b4",
+          "en": "For the next <num> challenges,",
+          "ru": "Во время следующих §f<num>§7 Испытаний"
+        },
+        {
+          "id": "line-1e346607e4eb0a0c",
+          "en": "you cannot gain time in any",
+          "ru": "вы не можете добавлять время"
+        },
+        {
+          "id": "line-653189cd52f94bde",
+          "en": "way.",
+          "ru": "никаким способом."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-576724f4eec644f8",
+          "en": "Green Beacons will cleanse <num>%",
+          "ru": "Зелёные маяки снимают §f<num>%§7"
+        },
+        {
+          "id": "line-de9e436acefd1dd9",
+          "en": "of your Curses, and boost",
+          "ru": "ваших проклятий и увеличивают"
+        },
+        {
+          "id": "line-9c148d89b80ab39c",
+          "en": "your Pulls by <num>% per curse",
+          "ru": "§7пуллы на §f<num>% за каждое снятое"
+        },
+        {
+          "id": "line-9a1d7dd6b3cc3415",
+          "en": "cleansed. (max <num>%, rounding",
+          "ru": "§fпроклятие §7(макс. <num>%, округление"
+        },
+        {
+          "id": "line-c7111258ebce9213",
+          "en": "up)",
+          "ru": "вверх)."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-743e5d91843b853c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Lights Out",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Lights Out",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-743e5d91843b853c",
+          "en": "Lights Out",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-6592bb278388d43f",
+          "en": "Until you defeat <num> Radiant",
+          "ru": "§7Пока не победите §f<num>§7 Radiant-мобов"
+        },
+        {
+          "id": "line-232b01b633da4231",
+          "en": "Challenge Mobs, receive <num>",
+          "ru": "§7в Испытаниях, получайте <num>"
+        },
+        {
+          "id": "line-2dd01d869f8079a4",
+          "en": "Radiance Chance Curses after",
+          "ru": "§7Проклятия на Radiance Chance после"
+        },
+        {
+          "id": "line-4aa70b1d37ff032c",
+          "en": "every challenge.",
+          "ru": "§7каждого Испытания."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-76d5663753e7e273",
+          "en": "Gain <num> Pulls per Radiant",
+          "ru": "§7Получите <num> Пулл<pl:|а|ов> за каждое"
+        },
+        {
+          "id": "line-70f96c2333bbb1f7",
+          "en": "Power or Chance curse you",
+          "ru": "§7Проклятие на Radiant Power или"
+        },
+        {
+          "id": "line-cf8d7205c81be7b0",
+          "en": "have, and cleanse them.",
+          "ru": "§7Radiant Chance и снимите их."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-b79383fd633e87a4",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Hubris",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Hubris",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b79383fd633e87a4",
+          "en": "Hubris",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-28eadfe89d2885b4",
+          "en": "For the next <num> challenges,",
+          "ru": "Во время следующих §f<num>§7 Испытаний"
+        },
+        {
+          "id": "line-d14314648d479449",
+          "en": "dying will end your Lootrun.",
+          "ru": "смерть завершит ваш лутран."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-8620f89e747d3f7f",
+          "en": "Gain <num> End Reward Reroll and",
+          "ru": "Получите §f<num>§7 Реролл<pl:|а|ов> Наград и"
+        },
+        {
+          "id": "line-c0cb6a65c63f9dd9",
+          "en": "<num> End Reward Sacrifice.",
+          "ru": "§f<num>§7 Пожертвовани<pl:е|я|й> Наград."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-d1fc42d9f7abedcd",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Cleansing Greed",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Cleansing Greed",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d1fc42d9f7abedcd",
+          "en": "Cleansing Greed",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-61edca00dd7427db",
+          "en": "§7Get §f<num>§7 Boons",
+          "ru": "§7Получите §f<num>§7 Дар<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-d3fa18ed08df8550",
+          "en": "After opening a Flying Chest,",
+          "ru": "После открытия летающего сундука"
+        },
+        {
+          "id": "line-1e205575bc077178",
+          "en": "remove one of your Curses.",
+          "ru": "снимается одно из ваших проклятий."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-de6fb3075e4e52a0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Gourmand",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Gourmand",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-de6fb3075e4e52a0",
+          "en": "Gourmand",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-84ae6fdacc2d52a9",
+          "en": "§7Add §f<num>m §7to your Time Limit",
+          "ru": "§7Увеличьте лимит времени на §f§f<num> мин.§7§7"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-9586119460da3e8b",
+          "en": "Gain <num> Beacon Choice when",
+          "ru": "Доп. §fварианты маяков§7: §f<num>§7 при"
+        },
+        {
+          "id": "line-28efd714416687bb",
+          "en": "you use a Beacon Reroll (Max",
+          "ru": "реролле маяков (макс."
+        },
+        {
+          "id": "line-b65713c78455df51",
+          "en": "<num>). Resets when you begin a",
+          "ru": "§7<num>§7). Сбрасывается в начале"
+        },
+        {
+          "id": "line-2c4eb59de02a7bbb",
+          "en": "challenge.",
+          "ru": "Испытания."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-56036df3fb8817bf",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Equilibrium",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Equilibrium",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-56036df3fb8817bf",
+          "en": "Equilibrium",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-1154f304bcd7e5ad",
+          "en": "§7Get offered §f<num>§7 Beacons",
+          "ru": "§7Получите на выбор §f<num>§7 маяк<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-5b4b21e9e5986b8e",
+          "en": "Gaining a Curse will boost",
+          "ru": "Получение проклятия повышает"
+        },
+        {
+          "id": "line-d342a0b23195a035",
+          "en": "by <num>%. (Max <num>%)",
+          "ru": "на §f<num>%§7 (макс. §7<num>%§7)."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-c2aefdf6a4a5aaaa",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Radiant Hunter",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Radiant Hunter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c2aefdf6a4a5aaaa",
+          "en": "Radiant Hunter",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-61edca00dd7427db",
+          "en": "§7Get §f<num>§7 Boons",
+          "ru": "§7Получите §f<num>§7 Дар<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-7bd6163e018c222a",
+          "en": "Defeating a Radiant Challenge",
+          "ru": "§7За убийство Radiant-моба"
+        },
+        {
+          "id": "line-736e3987962cb7ec",
+          "en": "mob grants <num> Pulls (<num> max",
+          "ru": "§7в Испытании: §f<num> Пулл<pl:|а|ов>§7 (до <num>"
+        },
+        {
+          "id": "line-67061b3f38375f44",
+          "en": "per challenge). Cleanse <num>",
+          "ru": "§7за Испытание). Снимает §f<num>"
+        },
+        {
+          "id": "line-e3c7852acff26a81",
+          "en": "Radiant Chance Curse per <num>",
+          "ru": "§fПроклятие Radiant Chance§7 за §f<num>"
+        },
+        {
+          "id": "line-fc640aa0b2f7ebe5",
+          "en": "Pulls gained this way.",
+          "ru": "§fПуллов§7, полученных так."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-98e2970d720396d0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Materialism",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Materialism",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-98e2970d720396d0",
+          "en": "Materialism",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-61edca00dd7427db",
+          "en": "§7Get §f<num>§7 Boons",
+          "ru": "§7Получите §f<num>§7 Дар<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-9916d3d0b6fb6a31",
+          "en": "All Challenges now",
+          "ru": "Все Испытания теперь"
+        },
+        {
+          "id": "line-3eb9c7d8d94e187f",
+          "en": "additionally spawn <num> Flying",
+          "ru": "добавляют §fлетающие сундуки§7: §f<num>§7"
+        },
+        {
+          "id": "line-65cf83f32005a18b",
+          "en": "Chests after completion.",
+          "ru": "§7после завершения."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-6a1d74cae6bfb6bf",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "High Spirits",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "High Spirits",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6a1d74cae6bfb6bf",
+          "en": "High Spirits",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-6d076f62ee0bc237",
+          "en": "§7Open §f<num>§7 Chests",
+          "ru": "§7Откройте §f<num>§7 Сундук<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-ecb118db39335558",
+          "en": "<num>% Vibrancy Chance.",
+          "ru": "§f<num>%§7 к шансу Vibrancy."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-1c77ab1508bb40d8",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Sacrificial Ritual",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Sacrificial Ritual",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1c77ab1508bb40d8",
+          "en": "Sacrificial Ritual",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-6d076f62ee0bc237",
+          "en": "§7Open §f<num>§7 Chests",
+          "ru": "§7Откройте §f<num>§7 Сундук<pl:|а|ов>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-af882128b2b086f3",
+          "en": "After finishing a Challenge,",
+          "ru": "После завершения Испытания"
+        },
+        {
+          "id": "line-b7b8978dd3af175c",
+          "en": "consume <num> Pull to gain <num>",
+          "ru": "расходуется §f<num>§7 пулл<pl:|а|ов>, давая §f<num>§7"
+        },
+        {
+          "id": "line-1a8cafacce450a0b",
+          "en": "Challenges.",
+          "ru": "Испытаний."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-b1f77ed637787caf",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Patient Champion",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Patient Champion",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b1f77ed637787caf",
+          "en": "Patient Champion",
+          "ru": ""
+        },
+        {
+          "id": "line-c9ca27b7ce658059",
+          "en": "§7Once you reach <num> Challenges",
+          "ru": "§7Когда вы завершите §f<num>§7 Испытаний"
+        },
+        {
+          "id": "line-ec1f36841baed14a",
+          "en": "§7completed during your",
+          "ru": "за этот лутран,"
+        },
+        {
+          "id": "line-0717f4915b37ccd4",
+          "en": "§7Lootrun, gain <num>s Mana",
+          "ru": "§7вы получите §f<num>с регенерации"
+        },
+        {
+          "id": "line-33cabe4ea35f9734",
+          "en": "§7Regen",
+          "ru": "§fМаны."
+        },
+        {
+          "id": "line-a20b1202f9ad51e4",
+          "en": "§7§c✖ §7Completed Challenges: §f<num>",
+          "ru": "§7§c✖ §7Завершено Испытаний: §f<num>§7"
+        },
+        {
+          "id": "line-ae9c61a3fcaf25d0",
+          "en": "§7Dynamic Boon",
+          "ru": "Динамический Дар"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-1598735ba4ff9eda",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Treasury Bill",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Treasury Bill",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-1a534c3e50b8eae7",
+          "en": "Lose <num> Pull every <num>s until",
+          "ru": "§7Вы теряете §f<num>§7 Пулл<pl:|а|ов> каждые §f<num>с§7, пока"
+        },
+        {
+          "id": "line-44916846af629f56",
+          "en": "you reach <num> total Pulls.",
+          "ru": "не получите всего §f<num>§7 пуллов."
+        },
+        {
+          "id": "line-d247753615735e13",
+          "en": "(<num>)",
+          "ru": "(§7<num>§7)."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-514491a68d6f7d4a",
+          "en": "Boost your current Pulls by",
+          "ru": "Увеличьте текущее число пуллов на"
+        },
+        {
+          "id": "line-0b5eaa3595254e5f",
+          "en": "<num>%.",
+          "ru": "§f<num>%§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-822992fc859a45b5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "King's Court",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "King's Court",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-822992fc859a45b5",
+          "en": "King's Court",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-3f79b05d3a987246",
+          "en": "§7Get §f<num>§7 Boons and §7Get §f<num>§7 Curses",
+          "ru": "§7Получите §f<num>§7 Дар<pl:|а|ов> и §7Ещё §f<num>§7 Прокляти<pl:е|я|й>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-16172e299f97dce6",
+          "en": "<num> Crimson Beacon added to",
+          "ru": "Багровые маяки: §f<num>§7 добавлено"
+        },
+        {
+          "id": "line-746fbfa839cda630",
+          "en": "your pool.",
+          "ru": "в набор доступных маяков."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-852b75c7997590f6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Imperitia",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Imperitia",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-852b75c7997590f6",
+          "en": "Imperitia",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-3f516d44fd3117d3",
+          "en": "Until you gain <num> Pulls",
+          "ru": "Пока не получите §f<num>§7 §fпуллов§7"
+        },
+        {
+          "id": "line-44c028f87ee98fd1",
+          "en": "(<num>), spell costs are",
+          "ru": "(§7<num>§7), заклинания требуют"
+        },
+        {
+          "id": "line-0e4f441f236bc9a6",
+          "en": "increased by <num> Mana per",
+          "ru": "на §f<num>§7 §fманы§7 больше за каждый"
+        },
+        {
+          "id": "line-2fd6244437d96b6b",
+          "en": "challenge completed.",
+          "ru": "завершённый Испытание."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-2b4a3cdbaa008422",
+          "en": "Gain <num> End Reward Sacrifices.",
+          "ru": "Получите Пожертвования Наград: §f<num>§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-be455eed67e9482e",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Beleza Pura",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Beleza Pura",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-be455eed67e9482e",
+          "en": "Beleza Pura",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-28a264ed01003de3",
+          "en": "§7Get §f<num>§7 Curses",
+          "ru": "§7Получите §f<num>§7 Прокляти<pl:е|я|й>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-5b43b69f907b00c4",
+          "en": "If an Aqua Beacon is offered,",
+          "ru": "При появлении §fбирюзового маяка§7"
+        },
+        {
+          "id": "line-17ccf5a2d50b34dc",
+          "en": "all other offered beacons",
+          "ru": "все остальные предложенные маяки"
+        },
+        {
+          "id": "line-de4d9c4e01b01f14",
+          "en": "will be boosted by <num> tier.",
+          "ru": "усиливаются на §7<num>§7 уровн<pl:ь|я|ей>."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-120335c8b6e46b35",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "High Roller",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "High Roller",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-120335c8b6e46b35",
+          "en": "High Roller",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-28a264ed01003de3",
+          "en": "§7Get §f<num>§7 Curses",
+          "ru": "§7Получите §f<num>§7 Прокляти<pl:е|я|й>"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-8620f89e747d3f7f",
+          "en": "Gain <num> End Reward Reroll and",
+          "ru": "Получите §f<num>§7 Реролл<pl:|а|ов> Наград и"
+        },
+        {
+          "id": "line-2c97ffd97aa7313e",
+          "en": "<num> Pulls.",
+          "ru": "§f<num>§7 Пулл<pl:|а|ов>."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-31ace21517861ae6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Foreseen Swordsman's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Foreseen Swordsman's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-31ace21517861ae6",
+          "en": "Foreseen Swordsman's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-0e4e5b900433a135",
+          "en": "Hitting a mob <num> times over",
+          "ru": "Если вы ударите моба §f<num>§7 раз за"
+        },
+        {
+          "id": "line-f163bcf000ab7b1d",
+          "en": "<num>s will grant it <num>%",
+          "ru": "§f§f<num>с§7, он получит §f<num>%§7"
+        },
+        {
+          "id": "line-535d0805fdbd877e",
+          "en": "resistance to your attacks",
+          "ru": "сопротивления вашим атакам"
+        },
+        {
+          "id": "line-99405e82704e60d2",
+          "en": "for <num>s",
+          "ru": "на §f§f<num>с§7."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a57e2e22c3145521",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Burdened Pacifist's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Burdened Pacifist's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a57e2e22c3145521",
+          "en": "Burdened Pacifist's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-00f125c2afb48c5d",
+          "en": "For every <num> mobs killed,",
+          "ru": "За каждые §f<num>§7 убитых мобов"
+        },
+        {
+          "id": "line-b71ccf9fddad9196",
+          "en": "reduce your received healing",
+          "ru": "получаемое вами лечение снижается"
+        },
+        {
+          "id": "line-31958a24ebfaa570",
+          "en": "by <num>% for <num> seconds.",
+          "ru": "на §f<num>%§7 на §f<num>§7 с."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-de509af04641479b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Monochromokopia",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Monochromokopia",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-de509af04641479b",
+          "en": "Monochromokopia",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-26a396e7e1661047",
+          "en": "Until you gain <num> Pulls,",
+          "ru": "Пока не получите §f<num>§7 пуллов,"
+        },
+        {
+          "id": "line-4ac40960915ace79",
+          "en": "completed beacons will become",
+          "ru": "завершённые маяки становятся"
+        },
+        {
+          "id": "line-74a398f47f05ca5a",
+          "en": "Obscured for <num> challenges.",
+          "ru": "§fскрытыми§7 на §7<num>§7 Испытаний."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-3b20e564b72e2faa",
+          "en": "Add an additional White, Grey",
+          "ru": "В набор доступных маяков добавляется"
+        },
+        {
+          "id": "line-0c757cdf38090d1c",
+          "en": "and Dark Grey Beacon to your",
+          "ru": "§7по одному §fбелому§7, §fсерому§7"
+        },
+        {
+          "id": "line-c902a0dee50113ab",
+          "en": "beacon pool.",
+          "ru": "§7и §fтёмно-серому маяку§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-fee3bbcff7cb3f9f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Side Hustle",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Side Hustle",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-fee3bbcff7cb3f9f",
+          "en": "Side Hustle",
+          "ru": ""
+        },
+        {
+          "id": "line-c1fc4d4428f0a61e",
+          "en": "§7Trial:",
+          "ru": "Испытание:"
+        },
+        {
+          "id": "line-9c1681b68c848e2f",
+          "en": "Until you open <num> chests,",
+          "ru": "Пока не откроете §f<num>§7 сундуков,"
+        },
+        {
+          "id": "line-ed39b616907b7c7d",
+          "en": "starting, completing or",
+          "ru": "начало, завершение или"
+        },
+        {
+          "id": "line-1bbaa25c80b84904",
+          "en": "failing a challenge will set",
+          "ru": "провал Испытания устанавливает"
+        },
+        {
+          "id": "line-374207a6b8e871a7",
+          "en": "your timer to <num> seconds.",
+          "ru": "таймер на §f<num>§7 с."
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-f125a259e56391a4",
+          "en": "Gain <num> End Reward Rerolls.",
+          "ru": "Получите Рероллы Наград: §f<num>§7."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-89f17295d8e23435",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Stasis",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Stasis",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-89f17295d8e23435",
+          "en": "Stasis",
+          "ru": ""
+        },
+        {
+          "id": "line-44362de9324ff2f4",
+          "en": "§7Objective:",
+          "ru": "Цель:"
+        },
+        {
+          "id": "line-84ae6fdacc2d52a9",
+          "en": "§7Add §f<num>m §7to your Time Limit",
+          "ru": "§7Увеличьте лимит времени на §f§f<num> мин.§7§7"
+        },
+        {
+          "id": "line-79024e3a1d2283cb",
+          "en": "§7Reward:",
+          "ru": "Награда:"
+        },
+        {
+          "id": "line-b92ffb0680d5fb36",
+          "en": "While choosing a beacon, your",
+          "ru": "Во время выбора маяка"
+        },
+        {
+          "id": "line-43bfd52f23d5866c",
+          "en": "timer does not decrease. (Max",
+          "ru": "§fтаймер не убывает§7 (макс."
+        },
+        {
+          "id": "line-d124aaa20fc87cf1",
+          "en": "<num>m)",
+          "ru": "§7<num>§7 мин.)."
+        },
+        {
+          "id": "line-c5a24d8b7b4f6d47",
+          "en": "§8Complete the objective",
+          "ru": "§8Выполните цель,"
+        },
+        {
+          "id": "line-d074041386afb778",
+          "en": "§8to receive the rewards",
+          "ru": "§8чтобы получить награды."
+        },
+        {
+          "id": "line-d3ab5eaaaf3b4d71",
+          "en": "§7Click to choose!",
+          "ru": "Нажмите, чтобы выбрать!"
+        }
+      ]
+    },
+    {
+      "id": "lootrun-299bf36515bdf3fb",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Bleeding Warrior's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Bleeding Warrior's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-299bf36515bdf3fb",
+          "en": "Bleeding Warrior's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-983f1d11aebea9ad",
+          "en": "§8Refreshes in <num> minutes",
+          "ru": "§8Обновится через §7<num> мин."
+        },
+        {
+          "id": "line-2bb94d7acedd34ad",
+          "en": "For each <num>% health you lack,",
+          "ru": "За каждые недостающие §f<num>%§7 здоровья"
+        },
+        {
+          "id": "line-3b8d723cc29d41bb",
+          "en": "make your attacks <num>% weaker",
+          "ru": "ваши атаки становятся на §f<num>%§7 слабее."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-fb83af93d71f542f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Fallen Angel's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Fallen Angel's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-fb83af93d71f542f",
+          "en": "Fallen Angel's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-6d36f88912fecb10",
+          "en": "After being airborne for <num>s",
+          "ru": "Проведя в воздухе §f§f<num>с§7,"
+        },
+        {
+          "id": "line-be6c53235c389ea9",
+          "en": "you become unable to gain",
+          "ru": "вы теряете возможность"
+        },
+        {
+          "id": "line-a628fb0aa934bf2b",
+          "en": "health in any way. This",
+          "ru": "восстанавливать здоровье. Эффект"
+        },
+        {
+          "id": "line-8e8a08a5b86d3809",
+          "en": "effect persists for <num>s",
+          "ru": "действует ещё §f§f<num>с§7"
+        },
+        {
+          "id": "line-a0ed227766df6c01",
+          "en": "after landing.",
+          "ru": "после приземления."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-922228a64f9c1bb8",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Sadist's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Sadist's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-922228a64f9c1bb8",
+          "en": "Sadist's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-2adbb352051221b2",
+          "en": "Your current health begins to",
+          "ru": "Вы начинаете терять"
+        },
+        {
+          "id": "line-8283c51bd480881c",
+          "en": "drain by <num>% per second after",
+          "ru": "§f<num>%§7 текущего здоровья в секунду,"
+        },
+        {
+          "id": "line-aba31041a320a77f",
+          "en": "<num> seconds of not dealing",
+          "ru": "если в течение §f<num>§7 с не наносите"
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-a1e9b272bb9cba47",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Leaden Fighter's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Leaden Fighter's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a1e9b272bb9cba47",
+          "en": "Leaden Fighter's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-6a6057a75595586a",
+          "en": "For every <num>% mana you have",
+          "ru": "За каждые §f<num>%§7 маны сверх"
+        },
+        {
+          "id": "line-fc63f63b96c94b88",
+          "en": "above <num>% of your max,",
+          "ru": "§f<num>%§7 от вашего максимума"
+        },
+        {
+          "id": "line-c25a2688cff9810e",
+          "en": "increase your spells' mana",
+          "ru": "расход маны на заклинания"
+        },
+        {
+          "id": "line-7da8823563986738",
+          "en": "costs by <num>%.",
+          "ru": "растёт на §f<num>%§7."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    },
+    {
+      "id": "lootrun-2b3fbc28fa59a757",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Empath's Gambit",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Empath's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2b3fbc28fa59a757",
+          "en": "Empath's Gambit",
+          "ru": ""
+        },
+        {
+          "id": "line-d97180313403220e",
+          "en": "§8Refreshes in <num> hours",
+          "ru": "§8Обновится через §7<num> ч"
+        },
+        {
+          "id": "line-4544d608c3d6114a",
+          "en": "When a player within <num> blocks",
+          "ru": "Когда игрок в пределах §f<num>§7 блоков"
+        },
+        {
+          "id": "line-dd09e6c6c288c5ca",
+          "en": "of you takes damage, you also",
+          "ru": "от вас получает урон, вы тоже"
+        },
+        {
+          "id": "line-835db33f3fb99e4d",
+          "en": "take <num>% of that damage.",
+          "ru": "получаете §f<num>%§7 этого урона."
+        },
+        {
+          "id": "line-631bd37a530c58d8",
+          "en": "§b- Reward Pulls: <num>",
+          "ru": "§b- §rПуллы Наград: §f<num>§7"
+        },
+        {
+          "id": "line-c8673398d12f3e9f",
+          "en": "§b- Aspect Pulls: <num>",
+          "ru": "§b- §rПуллы Аспектов: §f<num>§7"
+        },
+        {
+          "id": "line-9be32716b28a1d4b",
+          "en": "§8more rewards next ones will give",
+          "ru": "§8больше наград дают следующие."
+        }
+      ]
+    }
+  ]
+}

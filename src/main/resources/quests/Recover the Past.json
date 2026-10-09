@@ -1,0 +1,3030 @@
+{
+  "quest": "Recover the Past",
+  "level": 25,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "recover-the-past",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Success! Success, success, SUCCESS! I'm a genius, the smartest man alive!",
+      "ru": "Успех! Успех, успех, УСПЕХ! Я гений, самый умный человек на свете!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "You there, random bystander! You have witnessed a magical marvel! I have just successfully restored my memories from years ago!",
+      "ru": "Эй ты, случайный прохожий! Ты только что увидел магическое чудо! Я успешно восстановил свои воспоминания многолетней давности!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You look to be from Fruma, yes? So you know just as well as I that your memories of your life before have vanished. Poof. Gone!",
+      "ru": "Ты, похоже, из Фрумы, да? Значит, ты не хуже меня знаешь, что воспоминания о прошлой жизни просто исчезли. Пуф. И нет их!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "But with this device... we can change that! Restore what has been lost! Recover the- you get the point.",
+      "ru": "Но с этим устройством... мы можем всё изменить! Вернуть потерянное! Восстановить- ну, ты понял.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Now, I'm in great need of test subjects... You would do well as one, yes, but I need to be more certain this thing works.",
+      "ru": "Теперь мне очень нужны подопытные... Ты бы отлично подошёл, да, но сначала нужно убедиться, что устройство работает как надо.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Listen here! I have a proposition to make. You'd like your memories back, yes? Bring me enough test subjects, and I can show you what you've lost!",
+      "ru": "Слушай сюда! У меня есть предложение. Ты же хочешь вернуть свои воспоминания, да? Приведи мне достаточно подопытных, и я покажу тебе, что ты потерял!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Let's see, let's see... We need individuals originally from Fruma. There are a few of those around here.",
+      "ru": "Так, посмотрим, посмотрим... Нам нужны люди родом из Фрумы. Тут таких несколько есть.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "You can start with the would-be sailor, Caid. You'll find him just past Elkurn- follow the path until you reach the river.",
+      "ru": "Начни с будущего моряка, Кайда. Найдёшь его сразу за Элкурном - иди по тропе, пока не дойдёшь до реки.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "In the meantime, I'll be making adjustments here... It's not perfect just yet. I'm still missing large portions of my memory... Hm? You're still in here? Get going!",
+      "ru": "А я пока тут кое-что подкручу... Оно ещё не идеально. У меня всё ещё огромные дыры в памяти... Хм? Ты всё ещё здесь? Давай, шевелись!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Stupid- ship! Get out of there! How did I even- manage to do this!?",
+      "ru": "Тупой- корабль! Вылезай оттуда! Как я вообще- умудрился это сделать?!",
+      "speaker": "Caid",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Huh? Oh! I- ah, nothing to see here! Just... just taking a look at my good old ship!",
+      "ru": "А? О! Я- эм, тут не на что смотреть! Просто... просто любуюсь своим старым добрым кораблём!",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Picard sent you? The guy cooped up in the tower? Huh. Good to know he's finally finished his work. What did he want me for?",
+      "ru": "Пикард тебя прислал? Тот мужик, что торчит в башне? Хм. Значит, он наконец закончил свою работу. И зачем я ему понадобился?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "...Look at my memories from Fruma, huh? I'm not so sure 'bout that. If they're missing, they must be missing for a reason. And I'm- I'm happy here! Don't need to know nothin' about-...",
+      "ru": "...Посмотреть мои воспоминания из Фрумы, да? Не уверен я насчёт этого. Если они пропали, значит, наверное, на то была причина. И я- мне тут хорошо! Не надо мне ничего знать про-...",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "...Yeah, alright. I'll come with you to get my memory checked out. Just, do me a solid first, alright?",
+      "ru": "...Ладно, хорошо. Пойду с тобой проверить память. Только сначала выручи меня, ага?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I'm something of a builder. Figured I'd try my hand at makin' a ship, and, here it is! Pretty good, right?",
+      "ru": "Я кое-что понимаю в строительстве. Решил попробовать построить корабль, и вот он! Неплохо же, да?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Issue is, I built it somewhere I can't really move it out from. And, trust me, I've tried. A lot.",
+      "ru": "Проблема в том, что я построил его там, откуда его вообще не вытащить. И поверь, я пытался. Много раз.",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I have a friend out in Elkurn- an alchemist. I'll write down his location in the content book. Could you go ask him if he has anything to help?",
+      "ru": "У меня в Элкурне есть друг, алхимик. Отмечу, где его найти, в Книге контента. Сходи спроси, нет ли у него чего-нибудь, что поможет.",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Thank you greatly. I'll keep trying here, maybe I'll be able to get it out myself...",
+      "ru": "Огромное спасибо. Я пока тут ещё попробую, может, сам всё-таки вытащу...",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Hello! Looking for potions? This is the best potion shop in Elkurn!",
+      "ru": "Привет! Ищешь зелья? Это лучшая лавка зелий в Элкурне!",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Oh, Caid asked you to speak with me? What does he need this time?",
+      "ru": "О, Кайд попросил поговорить со мной? Что ему опять понадобилось?",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "He built his ship in the wrong place... and needs help getting it out... Good grief, I could have told him that'd be a problem if he'd have just-",
+      "ru": "Он построил корабль не там... и теперь ему надо как-то его вытащить... Господи, я бы сразу сказал, что это будет проблема, если бы он просто-",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "...Ehm. Well, luckily for him, I know just the thing to help! I can brew him up a shrinking potion, and he'll be all good to go...",
+      "ru": "...Кхм. Ну, к счастью для него, я знаю, что поможет! Сварю ему зелье уменьшения, и дело в шляпе...",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Golden apples, check... Got the water over there... Hm. I appear to be out of an ingredient. You can fetch it for me, right?",
+      "ru": "Золотые яблоки есть... вода вон там... Хм. Похоже, одного ингредиента не хватает. Ты же сможешь его принести, верно?",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Good, good. The item I'm looking for is known as a [Bloom of Death]. You can likely find some growing near the Elkurn church.",
+      "ru": "Хорошо, хорошо. Мне нужен [Цветок смерти]. Скорее всего, они растут возле церкви Элкурна.",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Do be careful, though! They're rather aggressive towards those they deem as a threat. Nothing you can't handle, I'm sure!",
+      "ru": "Только будь осторожен! Они нападают на тех, кого считают угрозой. Но ты, уверен, справишься!",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Well, I'll get to brewing. Fetch me [1 Bloom of Death] and I'll be able to finish the potion!",
+      "ru": "Ладно, я начну варить. Принеси мне [1 Bloom of Death], и я смогу закончить зелье!",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "There you are! And you have the bloom! Excellent, excellent, give it here.",
+      "ru": "А вот и ты! И цветок с тобой! Отлично, отлично, давай сюда.",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Just a touch of this, and a touch of that, and...",
+      "ru": "Капельку этого, капельку того, и...",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "All done! One shrinking potion, ready for use!",
+      "ru": "Готово! Одно зелье уменьшения, можно пользоваться!",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "My work here is done. Bring that to Caid, and it should sort out his situation!",
+      "ru": "Я своё дело сделал. Отнеси зелье Кайду, оно должно решить его проблему!",
+      "speaker": "Alchemist",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Come- on! You've got to get out- eventually! Stupid- ship!",
+      "ru": "Ну давай! Ты же должен когда-нибудь вылезти! Дурацкий- корабль!",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "... You're back! Did my friend know what to do?",
+      "ru": "...Ты вернулся! Мой друг понял, что делать?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "A shrinking potion... Weird choice, but I guess it'll work! So, what, do I just pour it on...",
+      "ru": "Зелье уменьшения... Странный вариант, но, наверное, сработает! Так, мне его просто вылить на...",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Huh. Well, it's certainly... smaller. I don't know if I can even fit in there anymore! The potion will wear off... right?",
+      "ru": "Хм. Ну, он точно стал... меньше. Я даже не знаю, влезу ли я туда теперь! Действие зелья ведь пройдёт... да?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Well. Whatever, I can get it out of there now! Guess that means we should go to the doctor. Lead the way.",
+      "ru": "Ладно. Неважно, теперь я могу его оттуда вытащить! Значит, пора идти к доктору. Веди.",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Aha! You've returned! Good, good, this'll be a good test of my changes...",
+      "ru": "Ага! Вы вернулись! Хорошо, хорошо, теперь проверим, помогли ли мои доработки...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "...Right. And this is the doctor we're trusting with my memories?",
+      "ru": "...Ага. И вот этому доктору мы доверим мои воспоминания?",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Now, now, don't underestimate my genius. You'll be fine! Probably. I'd give it a 95% chance. Now, step up here.",
+      "ru": "Ну-ну, не недооценивай мой гений. Всё будет хорошо! Наверное. Вероятность 95 процентов. Так, вставай сюда.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "And now, all I need to do is... Activate the spell here, hit the switch there, and...",
+      "ru": "А теперь мне нужно только... активировать заклинание здесь, щёлкнуть рычагом там, и...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "G-gah! What's happening?",
+      "ru": "А-аах! Что происходит?",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Right, let's see what we've got here... Edwin, can you check that other crate over there?",
+      "ru": "Так, посмотрим, что у нас тут... Эдвин, можешь проверить тот ящик вон там?",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Sure thing. Say- Caid. How do you keep getting ahold of these things? There's expensive parts in these, and that seems a bit out of your price range.",
+      "ru": "Конечно. Слушай, Кайд. Ты откуда вообще всё это достаёшь? Тут дорогие детали, а тебе это явно не по карману.",
+      "speaker": "Edwin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Well... Let's just say the latest resupply package for the guards is slightly lighter than it might otherwise be.",
+      "ru": "Ну... Скажем так, последняя партия припасов для стражи стала чуть легче, чем должна была быть.",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Wait- what? Caid, please tell me you haven't been stealing from the guards. You know they won't-",
+      "ru": "Стоп, что? Кайд, пожалуйста, скажи, что ты не воровал у стражи. Ты же знаешь, они не-",
+      "speaker": "Edwin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Edwin, relax. I'm barely skimming off the top of their supplies. They won't notice one or two missing packages out of thirty.",
+      "ru": "Эдвин, расслабься. Я позаимствовал совсем немного. Они не заметят одну-две пропавшие посылки из тридцати.",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "'sides, I'm not scared of them. They're here to protect us, aren't they? I figure they'll just let me off with a warning, like they have all those other times.",
+      "ru": "Да и вообще, я их не боюсь. Они же тут, чтобы нас защищать, верно? Думаю, они просто отпустят меня с предупреждением, как и во все прошлые разы.",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "If... if you say so. I guess you're right. They don't need all those supplies, really. And we can make much better use of these than they would!",
+      "ru": "Ну... если ты так говоришь. Наверное, ты прав. Им правда не нужны все эти припасы. А мы найдём им куда лучшее применение!",
+      "speaker": "Edwin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Exactly! I'm glad you agree. So, have you found anything goo-",
+      "ru": "Вот именно! Рад, что ты согласен. Ну что, нашёл что-нибудь хоро-",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "'???: You two! Hold still, you're under arrest!'",
+      "ru": "'???: Вы двое! Стоять, вы арестованы!'",
+      "speaker": "Royal Captain",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "G-g-g-guards! Run!!",
+      "ru": "С-с-с-стража! Беги!!",
+      "speaker": "Edwin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "E-Edwin! Get back here, you cowa-",
+      "ru": "Э-Эдвин! Вернись сюда, трус-",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "That's enough out of you. You two, track down the accomplice.",
+      "ru": "С тебя хватит. Вы двое, найдите сообщника.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Yessir.",
+      "ru": "Есть, сэр.",
+      "speaker": "Imperial Soldier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "On it.",
+      "ru": "Выполняю.",
+      "speaker": "Imperial Soldier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Caid, you are being placed under arrest for repeated counts of theft of imperial property.",
+      "ru": "Кайд, ты арестован за многократную кражу имперского имущества.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Your record shows you have received multiple warnings for previous acts. This was your final chance, and you have thoroughly wasted it.",
+      "ru": "За прошлые проступки ты уже получил несколько предупреждений. Это был твой последний шанс, и ты его безвозвратно упустил.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Take him to the prison for further questioning, and decide what shall be done with him.",
+      "ru": "Отведите его в тюрьму для дальнейшего допроса, а там решим, что с ним делать.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Hey! Hello? Bystander-turned-assistant! Get yourself out of that trance, we need to talk.",
+      "ru": "Эй! Алло? Прохожий, а теперь ассистент! Выходи из транса, нам нужно поговорить.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Hm. Hm hm hm. The memory cut off there... I wonder what we'd see if we could-",
+      "ru": "Хм. Хм-хм-хм. Воспоминание оборвалось на этом месте... Интересно, что бы мы увидели, если бы смогли-",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Ah! Bystander-turned-assis- you know what, I'll just call you my assistant. Finally out of your trance, I see.",
+      "ru": "А! Прохожий, а теперь ассис- Знаешь что, буду просто звать тебя моим ассистентом. Вижу, ты наконец вышел из транса.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Hm? Where'd the sailor go? Oh, I don't know, I wasn't keeping track- I believe he returned to his ship. That's not important.",
+      "ru": "Хм? Куда делся моряк? О, не знаю, я не следил - думаю, он вернулся к своему кораблю. Это неважно.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "What is important is what we've just seen! Memories relived in vivid detail! Truly, this device will change the world!",
+      "ru": "Важно то, что мы только что увидели! Воспоминания, пережитые заново во всех деталях! Это устройство правда изменит мир!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "... Though, I will say. I am a little lost as to the timeline of events. Caid was arrested- so how did he find himself here in Wynn, as a soldier?",
+      "ru": "...Хотя, должен сказать, я не совсем понимаю порядок событий. Кайда арестовали. Как же он оказался здесь, в Винне, солдатом?",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "It's puzzling, to be sure... If only we could see further. I'll get to work immediately- we must know more!",
+      "ru": "Это, конечно, загадка... Если бы только мы могли заглянуть дальше. Я немедленно займусь работой - мы обязаны узнать больше!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "In the meantime, I'll have you fetch another test subject for me. There's a Scout Reynauld on duty today- he's also from Fruma originally.",
+      "ru": "А пока ты приведёшь мне ещё одного подопытного. Сегодня на службе разведчик Рейнольд - он тоже родом из Фрумы.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "You'll find him near a bridge to the Roots of Corruption. I'm counting on you to convince him to join our experiment. In the name of science!",
+      "ru": "Найдёшь его у моста к Корням Порчи. Рассчитываю, что ты убедишь его присоединиться к эксперименту. Во имя науки!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "...and so, we expect them to attempt to seize control of this bridge any minute now.",
+      "ru": "...и поэтому мы ждём, что они в любой момент попытаются захватить этот мост.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "I see. Well, you'll have me to help defend the town, at the very least. I guess all we can do now is w-",
+      "ru": "Понимаю. Ну, по крайней мере, я помогу защищать город. Похоже, нам остаётся только ж-",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "<playername>? What're you doing all the way out here? The Admiral sent me to bolster Elkurn's defenses, what with the incoming threat.",
+      "ru": "<playername>? Что ты тут забыл так далеко? Адмирал отправил меня усилить оборону Элкурна из-за надвигающейся угрозы.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Hm? The strange doctor wants to see me? To restore my memories? I can't say I really trust the man... but I am curious if it'll really work.",
+      "ru": "Хм? Странный доктор хочет меня видеть? Чтобы восстановить мои воспоминания? Не скажу, что доверяю ему... но мне любопытно, действительно ли это сработает.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Recovering memories from Fruma... That's definitely something I'd be interested in. I've had a strange feeling about it, ever since we first realized we lost them.",
+      "ru": "Вернуть воспоминания из Фрумы... Вот это мне точно интересно. Всё это кажется мне странным с тех пор, как мы поняли, что потеряли их.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Then it's settled. We'll go with you to meet the doctor. However, the town takes priority. We'll need to fight off the incoming corrupted force.",
+      "ru": "Тогда решено. Мы пойдём с тобой к доктору. Но город важнее. Сначала надо отбить нападение заражённых.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "<playername>, you should join us! Three is better than two, after all. We have a bit more time, so you should go prepare, then come back here.",
+      "ru": "<playername>, тебе стоит пойти с нами! Втроём всё-таки лучше, чем вдвоём. У нас ещё есть немного времени, так что подготовься и возвращайся сюда.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Are you ready to defend Elkurn?",
+      "ru": "Готов защищать Элкурн?",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "I'm ready.",
+      "ru": "Я готов.",
+      "speaker": "CHOICE",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Then let's do this. Shouldn't be much longer now...",
+      "ru": "Тогда за дело. Ждать осталось недолго...",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "I have eyes on the target! Corrupted forces incoming!",
+      "ru": "Вижу цель! Заражённые приближаются!",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "...Ah. This might be a little tougher than I expected. Well, let's give it our all!",
+      "ru": "...А. Это может быть чуть сложнее, чем я думал. Ну что, выкладываемся на полную!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "I need some more time.",
+      "ru": "Мне нужно ещё немного времени.",
+      "speaker": "CHOICE",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "We don't have much of it left, I'm afraid. Go, then, but come back quickly.",
+      "ru": "Боюсь, его осталось не так много. Иди, но возвращайся быстро.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Finally, I've got a good shot! Just have to aim...",
+      "ru": "Наконец-то могу выстрелить! Нужно только прицелиться...",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Damn it, the summoner's shielded! How do we take it down?",
+      "ru": "Чёрт, призыватель под щитом! Как его снять?",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "The spikes look weaker than the shield! If we can kill enough of its minions, we'll break its concentration and we can destroy the spike!",
+      "ru": "Шипы выглядят слабее щита! Если убьём достаточно его приспешников, собьём ему концентрацию и сможем уничтожить шип!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Now that's a brute if I've ever seen one... Alright, if we take this one out, Reynauld should be able to take the shot!",
+      "ru": "Вот это здоровяк... Ладно, если одолеем его, Рейнольд сможет выстрелить!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Alright! That should do it. Fire a powerful shot here, and...",
+      "ru": "Отлично! Должно сработать. Выстрелю изо всех сил, и...",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Got it! You two- chip away at the summoner, it can't have long left!",
+      "ru": "Есть! Вы двое - добивайте призывателя, ему уже недолго осталось!",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "It's out of reach again- but we know how to deal with it now! Come on, we just need to kill more of its minions!",
+      "ru": "Он опять вне досягаемости, но теперь мы знаем, что делать! Давайте, нужно убить ещё его приспешников!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Another brute to take out, then Reynauld can take the shot!",
+      "ru": "Одолеем ещё одного здоровяка, и Рейнольд сможет выстрелить!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "The summoner's weak... now I just need to hit the right... spot!",
+      "ru": "Призыватель ослаб... теперь надо только попасть в нужную... точку!",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "There's nowhere for it to run now! Let's finish this.",
+      "ru": "Теперь ему некуда бежать! Заканчиваем.",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "We've done it! Elkurn stands yet another day.",
+      "ru": "Мы справились! Элкурн снова выстоял.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "That was-... that was definitely tough. But, hey, we did it!",
+      "ru": "Это было-... это было нелегко. Но мы справились!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "That we did. Thank you both for your help- I'm not sure I could have handled that alone.",
+      "ru": "Да, справились. Спасибо вам обоим за помощь. Не уверен, что смог бы справиться один.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Hey, it was nothing. That's what I'm here for.",
+      "ru": "Да брось, пустяки. Я для этого тут и нужен.",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "So, you said there was a doctor restoring peoples' memories?",
+      "ru": "Так, ты говорил, есть доктор, который восстанавливает людям память?",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "We did come to an agreement before this combat, yes. I'll follow you to the doctor.",
+      "ru": "Да, мы договорились об этом до боя. Я пойду с тобой к доктору.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Same here! I'm definitely curious to see what I've forgotten. Let's go, then.",
+      "ru": "Я тоже! Мне точно любопытно, что я забыл. Тогда идём.",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "You said the doctor was restoring memories? Lead the way.",
+      "ru": "Ты говорил, доктор восстанавливает память? Веди.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Ah, assistant! I see you've done better than expected and brought with you two whole test subjects instead of one!",
+      "ru": "А, ассистент! Вижу, ты справился лучше, чем ожидалось, и привёл целых двух подопытных вместо одного!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Now, now, come on. Which of you will be viewing your memories first?",
+      "ru": "Ну же, давайте. Кто из вас первым посмотрит свои воспоминания?",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "I suppose that would be me.",
+      "ru": "Полагаю, это буду я.",
+      "speaker": "Scout Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Excellent. Now, just step right up over here! Look directly into the orb, and concentrate on remembering.",
+      "ru": "Отлично. Тогда просто встань вот сюда! Смотри прямо в шар и сосредоточься на воспоминаниях.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Alright... Very quickly, I just need to activate this... cast a spell here... and...",
+      "ru": "Так... Быстренько активирую это... наложу заклинание здесь... и...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "...I dont' feel any diff-",
+      "ru": "...Я не чувствую никакой разни-",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "H-huh? Hey, who's there? Why are you knocking at this hour-",
+      "ru": "А-а? Эй, кто там? Зачем стучать в такой час-",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "...Oh. It's you.",
+      "ru": "...О. Это ты.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Yes, it's me. Mind if I step inside?",
+      "ru": "Да, это я. Не против, если я зайду?",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "N-no, of course not- Uh. It would have been nice if, you know, you warned me you would be coming!",
+      "ru": "Н-нет, конечно нет- Эм. Было бы неплохо, если бы ты, ну знаешь, предупредил, что придёшь!",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "You know that isn't how this works. Now, where are the goods?",
+      "ru": "Ты знаешь, так не положено. Где товар?",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Right... always straight to business with you. Never, \"oh, how was your week?\" Always just-",
+      "ru": "Точно... у тебя всегда сразу к делу. Никогда \"о, как неделя прошла?\" Всегда только-",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "Fine. It's up and over here.",
+      "ru": "Ладно. Он здесь, наверху.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "I salvaged some parts from... uh, one of the nearby factories. I hope it's-... it's probably what you need.",
+      "ru": "Я достал кое-какие детали с... эм, одной из ближайших фабрик. Надеюсь, это-... скорее всего, это то, что тебе нужно.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "...Hm. One of the factories, you say? And you're sure you weren't spotted doing it? If I were caught speaking to a known criminal, you know the consequences for both of us.",
+      "ru": "...Хм. С одной из фабрик, говоришь? И ты уверен, что тебя не заметили? Если меня поймают за разговором с известным преступником, ты знаешь, чем это кончится для нас обоих.",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "N-no. I wasn't spotted. I, uh... took precautions. Went in at night. You know.",
+      "ru": "Н-нет. Меня не заметили. Я, эм... принял меры. Пошёл ночью. Ну ты понял.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Hmph.",
+      "ru": "Хмф.",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "S-so... is that enough? I've gotten you what you've asked for.",
+      "ru": "Т-так... этого хватит? Я принёс то, что ты просил.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Well... it is that, yes. But, Caid, you know the risk I take every time I come out here to speak with you. I'll need more than just the bare minimum to guarantee your safety.",
+      "ru": "Ну... да, это то, что нужно. Но, Кайд, ты же понимаешь, чем я рискую каждый раз, когда прихожу к тебе. Чтобы я и дальше обеспечивал твою безопасность, придётся предложить что-нибудь ещё.",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "I- hmph. Okay, okay, fine, I'll- I'll add in some emeralds. To sweeten the deal.",
+      "ru": "Я- хмф. Ладно, ладно, хорошо, я- я добавлю немного изумрудов. Чтобы сделка была повыгоднее.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Excellent. A pleasure doing business, as always. I'll be back in a few weeks.",
+      "ru": "Прекрасно. Как всегда, приятно иметь дело. Вернусь через несколько недель.",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Sir- you requested my presence?",
+      "ru": "Сэр, вы хотели меня видеть?",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Ah, Reynauld. Good to see you. Come in, come in, take a seat.",
+      "ru": "А, Рейнольд. Рад тебя видеть. Заходи, заходи, садись.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Might I ask what this meeting is for, sir?",
+      "ru": "Могу спросить, зачем эта встреча, сэр?",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Oh, nothing too special. I just wanted to have a quick chat about your performance.",
+      "ru": "О, ничего особенного. Я просто хотел коротко обсудить твою службу.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "You understand that those of us who serve Her Majesty in such well regarded positions have a certain... strict code of honor we must follow, yes?",
+      "ru": "Ты ведь понимаешь, что те, кто служит Её Величеству на столь почётных должностях, обязаны следовать определённому... строгому кодексу чести?",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Otherwise, how could we be certain our ranks are pure of any misdeeds? We must set an example for the people of our great province.",
+      "ru": "Как иначе убедиться, что никто в наших рядах не запятнал себя дурными поступками? Мы должны подавать пример народу нашей великой провинции.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "I- yes, sir, I do.",
+      "ru": "Я- да, сэр, понимаю.",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Now, what do you think might happen if one of our own happened to...bend, or break that code of honor? What sort of a precedent would that set?",
+      "ru": "А теперь скажи: что, по-твоему, случится, если кто-то из наших... отступит от кодекса чести или нарушит его? Какой пример он подаст?",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Captain, I-",
+      "ru": "Капитан, я-",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "It is with no great pleasure that I inform you that you, Reynauld, are to be stripped of your rank and arrested under charges of dishonor and conspiracy against the Queen.",
+      "ru": "Без всякого удовольствия сообщаю тебе, Рейнольд, что ты лишаешься звания и будешь арестован по обвинению в бесчестии и заговоре против Королевы.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Your accomplice, the supplier, was caught the other day. I'm told he spent very little time grappling with the thought before choosing to spill your own secrets.",
+      "ru": "Твоего сообщника, поставщика, поймали на днях. Мне сказали, он недолго колебался, прежде чем выдать твои тайны.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "There is no place for your spot in our ranks, Reynauld. A shame it had to come to this.",
+      "ru": "Тебе больше нет места в наших рядах, Рейнольд. Жаль, что всё дошло до этого.",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Assistant! Snap out of it! There's more to discuss.",
+      "ru": "Ассистент! Очнись! Нам ещё есть что обсудить.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "...so, what, you haven't tested any of this before now? What if this magic is dangerous? With how Reynauld reacted, I'm convinced it even might-",
+      "ru": "...то есть что, ты до этого вообще ничего не проверял? А если эта магия опасна? После реакции Рейнольд я почти уверен, что она может-",
+      "speaker": "Tasim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "Now, now, calm yourself. Just because I didn't do any proper tests before this doesn't mean it isn't safe! I've done the calculations! They all work out fine!",
+      "ru": "Ну-ну, успокойся. То, что я не проводил нормальных тестов раньше, ещё не значит, что это небезопасно! Я сделал расчёты! Там всё сходится!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "...Oh, <playername>, you're back. That was a little intense, wasn't it?",
+      "ru": "...О, <playername>, ты вернулся. Тяжело было на это смотреть, да?",
+      "speaker": "Tasim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "Yes, yes, very intense, whatever- we still weren't able to see what comes next! I swear, I was able to see more when I looked at my own memories! It's ridiculous!",
+      "ru": "Да, да, тяжело, неважно! Мы так и не увидели, что было дальше! Клянусь, в своих воспоминаниях я видел больше! Это нелепо!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Hmph. Maybe it just needs more power... If I increase the amount of mana I'm able to put into the spell, then-",
+      "ru": "Хмф. Может, ему просто нужно больше силы... Если увеличить количество маны, которое я могу вложить в заклинание, тогда-",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Hold on. You want to put more magic into this, when it's already unstable?",
+      "ru": "Погоди. Ты хочешь вложить в это ещё больше магии, когда оно и так нестабильно?",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "Yes, fine, I understand you've taken issue with my methodology. But it works! This has worked thrice now!",
+      "ru": "Да, ладно, я понял, тебе не нравятся мои методы. Но устройство работает! Уже три раза сработало!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Don't you want to know what your life was like before? Even if it's not what you want to see, isn't it better to know?",
+      "ru": "Разве ты не хочешь узнать, какой была твоя жизнь раньше? Даже если это не то, что ты хотел бы увидеть, разве не лучше знать?",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "...Fine. We can look at my memories. I don't know that I necessarily agree... but alright.",
+      "ru": "...Ладно. Можем посмотреть мои воспоминания. Не уверен, что я согласен... но хорошо.",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Excellent, I'm glad to hear that! Now. Activating in three... two... one... go!",
+      "ru": "Отлично, рад это слышать! Так. Запускаю через три... два... один... пуск!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "...!",
+      "ru": "...!",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "'Imperial Captain: All hands on deck! Arrest that insurgent!'",
+      "ru": "'Имперский капитан: Все сюда! Арестовать этого мятежника!'",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "Huh?! What's going-",
+      "ru": "А?! Что проис-",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "Grr... He couldn't have gotten far. All of you, search the city! Leave no corner unturned! Don't let him get away!",
+      "ru": "Грр... Он не мог уйти далеко. Все, обыскать город! Проверить каждый угол! Не дайте ему уйти!",
+      "speaker": "Imperial Captain",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "I- oh, this is bad... What can I-",
+      "ru": "Я- о нет, дело плохо... Что я могу-",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "...Damn it. Damn it all. I can't just let the man bleed out, even if he's-...",
+      "ru": "...Чёрт. Да чтоб всё. Я не могу просто дать человеку истечь кровью, даже если он-...",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "It's fine, you'll be fine... I know what to do, even if I really shouldn't...",
+      "ru": "Всё хорошо, ты выживешь... Я знаю, что делать, хотя мне и не следовало бы...",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "G-gah! Wh-where am I? Who are you? I need to get-",
+      "ru": "А-аах! Г-где я? Кто ты? Мне нужно выбраться-",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Oh. You're- you're cursed.",
+      "ru": "О. Ты- ты проклят.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "I-",
+      "ru": "Я-",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "He's in here! And he has an accomplice! Arrest them both!",
+      "ru": "Он здесь! И у него сообщник! Арестовать обоих!",
+      "speaker": "Imperial Soldier",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "My magic is struggling to keep hold... but it's clear there's more to see! Increasing power...",
+      "ru": "Моей магии тяжело удерживать связь... но явно есть что-то ещё! Увеличиваю мощность...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "...You really shouldn't have gotten involved, you know.",
+      "ru": "...Тебе правда не стоило вмешиваться, знаешь.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "So, what? I should have just let you bleed out in my home? Don't be ridiculous.",
+      "ru": "И что? Мне надо было просто дать тебе истечь кровью у меня дома? Не неси бред.",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Yes! You should have! Because now, not only have I been arrested for crimes against the crown, but you've also been outed as one of the cursed. Wouldn't have happened if you had just... stood by.",
+      "ru": "Да! Надо было! Теперь меня арестовали за преступления против короны, а заодно выяснилось, что ты из проклятых. Этого бы не случилось, если бы ты просто... остался в стороне.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "...It was the right thing to do. I couldn't just stand by when there was something I could do to help.",
+      "ru": "...Я поступил правильно. Не мог остаться в стороне, когда ещё мог тебе помочь.",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "Well, a lot of good that's done us. You know no one gets out of here, right? When they take you, you're never heard from again! So. That's where we're at.",
+      "ru": "Ну да, сильно нам это помогло. Ты же знаешь, отсюда никто не выходит, да? Когда тебя забирают, о тебе больше никто не слышит! Вот. Такие дела.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "I-...",
+      "ru": "Я-...",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Good luck out there, Tasim. You'll need it.",
+      "ru": "Удачи там, Тасим. Она тебе понадобится.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "Ahem. We're ready for the process. Prepare the Adjustor.",
+      "ru": "Кхм. Мы готовы к процедуре. Подготовьте Настройщик.",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "The- the what? What are you going to do to-",
+      "ru": "Ч-что подготовить? Что вы собираетесь со мной-",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "What we will do with you today is a kindness, a mercy. If the world were to have its way, you would be far worse off. Remember that as we continue.",
+      "ru": "То, что мы сегодня с тобой сделаем, - доброта и милосердие. Предоставь мы тебя воле мира, тебе было бы куда хуже. Помни об этом до конца процедуры.",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Now. Let us begin.",
+      "ru": "А теперь. Начнём.",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "You are a new recruit, being sent to the Wynn Province to fight in their war. You enlisted because you thought your unique... talents would be useful.",
+      "ru": "§#FF5555Ты§r новый рекрут, которого отправляют в провинцию Винн сражаться в их войне. Ты записался, потому что считал, что твои особые... §#FF5555таланты§r будут полезны.",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Fruma is nothing but a speck in your history. A fact set in stone, with details lost to the hypothetical past. You think of it fondly, but remember nothing.",
+      "ru": "§#FF5555Фрума§r - лишь малая часть твоего прошлого. Это неизменный факт, но что за ним стоит, ты уже не знаешь. Ты думаешь о ней с теплотой, но §#FF5555ничего§r не помнишь.",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "You will fight in their war. You will live for it, you will die for it. You will be of Wynn forever, and Fruma will be glad to be rid of you.",
+      "ru": "Ты будешь §#FF5555сражаться§r в их войне. Ты будешь §#FF5555жить§r ради неё, ты §#FF5555умрёшь§r ради неё. Ты навсегда станешь частью §#FF5555Винна§r, а §#FF5555Фрума§r будет рада от тебя избавиться.",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "'Imperial Inquisitor: Understood?'",
+      "ru": "'Имперский инквизитор: Понятно?'",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "Must I repeat myself? Do you understand?",
+      "ru": "Мне повторить? §#FF5555Ты понял?§r",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "I will ask once more. Is your directive understood?",
+      "ru": "Спрошу ещё раз. §#FF5555Приказ понятен?§r",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "...it is understood.",
+      "ru": "...понятен.",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Wonderful. Take this one to the caravan. It looks like we'll be able to fit in two more for today's batch.",
+      "ru": "Прекрасно. Отведите этого к каравану. Похоже, в сегодняшнем караване поместятся ещё двое.",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "Now what might you be...?",
+      "ru": "А ты у нас что такое...?",
+      "speaker": "Imperial Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "......ant......",
+      "ru": "......ент......",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "......istant......",
+      "ru": "......истент......",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "......assistant!",
+      "ru": "......ассистент!",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Assistant! Snap out of it! You've gone in too deep, the memory is sucking you in!",
+      "ru": "Ассистент! Очнись! Ты зашёл слишком глубоко, воспоминание затягивает тебя!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Find an exit, now, or you'll be trapped in there forever with no chance of escape! Quickly! GO!",
+      "ru": "Найди выход, сейчас же, иначе застрянешь там навсегда без шанса выбраться! Быстро! БЕГИ!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "Good grief- there you are! Do you understand how dangerous that was?!",
+      "ru": "Господи, вот ты где! Ты понимаешь, насколько это было опасно?!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "What do you think happens to me if one of my assistants gets trapped in their memories forever! Nothing good!",
+      "ru": "Как думаешь, что будет со мной, если один из моих ассистентов навсегда застрянет в воспоминаниях?! Ничего хорошего!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "...Fine, fine. It did give us more information. Don't do it again, though! Come on, come over here, we have much to discuss.",
+      "ru": "...Ладно, ладно. Это дало нам больше информации. Но больше так не делай! Давай, иди сюда, нам многое надо обсудить.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "...Hmph. I'll admit, I'm-... I'm not sure what to do with this information.",
+      "ru": "...Хмф. Признаю, я-... я не уверен, что делать с этой информацией.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "The memory restorification orb worked as well as I could expect for a single use... but, good grief, that was upsetting to watch.",
+      "ru": "Шар восстановификации памяти сработал примерно так хорошо, как я и ожидал от одного применения... но, господи, смотреть на это было тяжко.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "It stands to reason both Caid and Reynauld also experienced this... and my magic couldn't break through that wall...",
+      "ru": "Логично предположить, что Кайд и Рейнольд тоже прошли через это... а моя магия не смогла пробить эту стену...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Is this what they're doing to their criminals out there, in Fruma? Casting them out to fight in Wynn's war?",
+      "ru": "Так вот что делают с преступниками во Фруме? Изгоняют их, чтобы те сражались на войне в Винне?",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "...I'll have to think on how much I want to delve into memories. In any case! At the very start of this, I promised you we could view your memories.",
+      "ru": "...Мне надо подумать, насколько глубоко я вообще хочу лезть в воспоминания. В любом случае! В самом начале я обещал, что мы сможем посмотреть твои воспоминания.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "The offer still stands, if you'd like to take it. Just step up to the orb, like the others did.",
+      "ru": "Предложение всё ещё в силе, если хочешь. Просто §#55FFFFподойди к шару§r, как остальные.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "H-huh?! The orb! My beautiful memory restorification orb! It's ruined!",
+      "ru": "А-а?! Шар! Мой прекрасный шар восстановификации памяти! Он сломан!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "...Oh, whatever. I have the blueprints stored somewhere around here. I can always make another... but still.",
+      "ru": "...Впрочем, неважно. Чертежи у меня где-то здесь. Всегда могу сделать новый... но всё же.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "Oh! Oh, right! My apologies, I completely forgot to check in with you! Are you alright?",
+      "ru": "О! Точно! Прошу прощения, я совсем забыл спросить, как ты себя чувствуешь! Ты в порядке?",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "None of the other test subjects experienced this powerful a reaction... strange. It's almost like we're accessing memories that didn't exist.",
+      "ru": "Ни у одного другого подопытного не было такой сильной реакции... странно. Будто мы добрались до воспоминаний, которых не существовало.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "...Well. Ehm. In any case- I'll need to continue my research. There's more to learn, I'm sure...",
+      "ru": "...Ну. Эм. В любом случае, мне нужно продолжить исследования. Уверен, там ещё много чего можно узнать...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "As thanks for your help- here, a reward. Ah, also- I believe your friend is just outside the tower. You might want to check in on him.",
+      "ru": "Вот тебе награда в благодарность за помощь. А, ещё! Кажется, твой друг снаружи, у башни. Стоит с ним поговорить.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "Cursed. He called me cursed. What does that mean for me..?",
+      "ru": "Проклят. Он назвал меня проклятым. Что это вообще значит для меня..?",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "And the Inquisitor... I don't know what to think. All of us- what we thought we knew when we arrived in Wynn... None of it was true.",
+      "ru": "И Инквизитор... Не знаю, что думать. Всё, что мы считали правдой, когда прибыли в Винн... Всё было ложью.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "...Did the two of us really meet through sheer random luck? He was running from something, and... fell straight into my life.",
+      "ru": "...Мы с ним и правда встретились по чистой случайности? Он от чего-то бежал и... вдруг оказался частью моей жизни.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "I- I need some space to think. To... reflect. Can you-... please don't tell Aledar about any of this.",
+      "ru": "Мне- мне нужно немного побыть одному и подумать. Всё... переварить. Можешь-... пожалуйста, не рассказывай Аледару обо всём этом.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "He doesn't need to know about all of this. He's- he's better off not knowing.",
+      "ru": "Ему не нужно знать обо всём этом. Ему- ему лучше не знать.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "...I'm going to head for the Gavel Province, I think. It's across from the ocean, far enough from- from all of this.",
+      "ru": "...Думаю, я отправлюсь в провинцию Гавел. Она за океаном, достаточно далеко от- от всего этого.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "When you get stronger, you should go there too. Maybe we'll run into each other, eventually.",
+      "ru": "Когда станешь сильнее, тебе тоже стоит туда отправиться. Может, однажды ещё встретимся.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "I guess this is goodbye for now, then. Not forever- but for now. I'll see you around, <playername>.",
+      "ru": "Значит, пока прощаемся. Не навсегда, только на время. Ещё увидимся, <playername>.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "Tasim. It's your time. Follow me.",
+      "ru": "Тасим. Твоё время пришло. Следуй за мной.",
+      "speaker": "Имперский солдат",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "You feel a faint tug as someone tries to pull you out of the memory. There's more to see here, though. You can't leave yet.",
+      "ru": "Ты чувствуешь слабый рывок: кто-то пытается вытащить тебя из воспоминания. Но ты ещё не всё здесь увидел. Пока нельзя уходить.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "Silence. Before we begin, I want to make one thing clear. We do not need your ilk in Fruma. We do not want your ilk in Fruma.",
+      "ru": "Молчать. Прежде чем мы начнём, хочу прояснить одно. Нам не нужны такие, как ты, во Фруме. Мы не желаем таких, как ты, во Фруме.",
+      "speaker": "Имперский инквизитор",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "Caid walks onto his boat and places a bell.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "A squad of Royal Soldiers arrives at the scene.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "Edwin runs away.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "The scene fades back to gray.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "Reynauld walks up to the orb.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "Two Royal Guards arrive in the office.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "The screen fades to gray.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "Tasim rushes up the stairs.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "Reynauld goes to his post.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "An Infernal Captain is shown as it rises into the air and summons two Corruption spikes.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "The Corruption spike's tip is destroyed, which causes the black skeleton to look over.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "The Infernal Captain regenerates the spike.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "Caid's ship is revealed to have sailed up to the battle.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "Caid rams his ship into one of the Corruption spikes.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "Reynauld lines up a shot and destroys the other Corruption spike.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "Reynauld rushes to the bridge.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "Caid and Reynauld walk away.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "Tasim's old home is shown.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "A yellow ring pulses around the injured man, getting up as angel wings briefly appear behind him.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "A gray flash covers the screen.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "The scene goes into Tasim's perspective.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "The screen fades to black.",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "New Quest Started: Recover the Past",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Вернуть прошлое",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "But with this device... we can change that! Restore what has been lost! Recover the— you get the point.",
+      "ru": "Но с этим устройством... мы можем всё изменить! Вернуть потерянное! Восстановить- ну, ты понял.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "You can start with the would-be sailor, Caid. You'll find him just past Elkurn— follow the path until you reach the river.",
+      "ru": "Начни с будущего моряка, Кайда. Найдёшь его сразу за Элкурном - §#55FFFFиди по тропе, пока не дойдёшь до реки§r.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Well? I've given you an assignment, what are you still doing here? Go find the sailor Caid. You'll find him just past Elkurn— follow the path until you reach the river.",
+      "ru": "Ну? Я дал тебе поручение, чего ты всё ещё здесь? Найди моряка Кайда. Он сразу за Элкурном - §#55FFFFиди по тропе, пока не дойдёшь до реки§r.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "Huh? Oh! I— ah, nothing to see here! Just... just taking a look at my good old ship!",
+      "ru": "А? О! Я- эм, тут не на что смотреть! Просто... просто любуюсь своим старым добрым кораблём!",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "Picard sent you? The guy cooped up in the tower? Huh. Good to know he's finally finished his work. But what could he want me for?",
+      "ru": "Тебя Пикард послал? Тот тип, который сидит безвылазно в башне? Хм. Хорошо, что он наконец закончил свою работу. Но зачем ему я?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "... Look at my memories from Fruma, huh? I'm not so sure 'bout that. If they're missing, they must be missing for a reason. I'm-I'm happy here! Don't need to know nothin' about—...",
+      "ru": "... Посмотреть мои воспоминания из Фрумы, говоришь? Не уверен, что хочу. Если они пропали, значит, на то была причина. Мне... мне и тут хорошо! Не надо мне знать ничего о...",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "... Yeah, alright. I'll come with you to get my memory checked out. Just, do me a solid first, alright?",
+      "ru": "...Ладно, хорошо. Пойду с тобой проверить память. Только сначала выручи меня, ага?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "I'm something of a builder. Figured I'd try my hand at making a ship, and, here it is! Pretty good, right?",
+      "ru": "Я вроде как строитель. Решил попробовать построить корабль, и вот он! Неплохо получилось, правда?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "That's what I'm talking about, take that Reynauld! I knew someone would like it!",
+      "ru": "Вот! Слышал бы это Рейнольд! Я знал, что кому-нибудь понравится!",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "Hey! Heh, well you're not wrong. I cobbled it together using mostly junk I found laying around. Still, it's pretty impressive for a scrap heap, don't you think?",
+      "ru": "Эй! Хех, ну, ты не так уж и неправ. Я собрал его в основном из всякого хлама, который валялся вокруг. Но для кучи хлама получилось впечатляюще, не находишь?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "You'll have to promise me you won't tell Reynauld but... Some of the more exotic components have been comin' from the guard's quarters. Nothing big! Just some stuff skimmed off the top...",
+      "ru": "Только пообещай не говорить Рейнольду, но... Некоторые редкие детали я беру из казармы стражи. Ничего серьёзного! Просто кое-что по мелочи...",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "I only need one more part to finish it off, and well, you see... A shipment just arrived from the blacksmith's... You see where I'm going with this?",
+      "ru": "Чтобы закончить, мне нужна всего одна деталь. И тут, понимаешь... К кузнецу только что пришла поставка... Догадываешься, к чему я клоню?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "Get me the part from the blacksmith's and I'll come with you to Picard's tower. I could hardly leave my baby alone unfinished like this now, could I?",
+      "ru": "Достань мне §#55FFFFэту деталь у кузнеца§r, и я пойду с тобой в башню Пикарда. Не могу же я оставить своё детище недоделанным, верно?",
+      "speaker": "Caid",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "Have you gotten the box yet? It's at the blacksmith's, a short walk away from here in Elkurn. Just, don't get spotted!",
+      "ru": "Ты уже достал ящик? Он §#55FFFFу кузнеца§r, совсем рядом, в Элкурне. Только смотри, чтобы тебя не заметили!",
+      "speaker": "Caid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "It's the box Caid was talking about...",
+      "ru": "Это тот ящик, о котором говорил Кайд...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "Move the box out of the door to complete the puzzle!",
+      "ru": "Чтобы решить головоломку, передвиньте ящик за дверь!",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "Use your Movement Keys to Preview your move, then press Jump to Confirm.",
+      "ru": "§#FFAA00Выберите направление§r §#FFFFFF§lклавишами движения§r, затем нажмите §#FFFFFF§lпрыжок§r, чтобы §#FFAA00подтвердить§r ход.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "Hold Shift to Reset.",
+      "ru": "Удерживайте §#FFFFFF§lShift§r, чтобы §#FFAA00начать заново§r.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "Seems like the box broke...",
+      "ru": "Кажется, ящик сломался...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "You take a package out of the wreckage.",
+      "ru": "Вы достаёте посылку из обломков.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "[+1 Wrapped Package]",
+      "ru": "§#FF55FF[+1 Wrapped Package]§r",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "You should return to Caid with the package before the blacksmith notices...",
+      "ru": "Нужно §#55FFFFвернуться к Кайду§r с посылкой, пока кузнец ничего не заметил...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "... You're back! How did it go? Here, I'll take the goods.",
+      "ru": "... Ты вернулся! Как всё прошло? Давай сюда, я заберу посылку.",
+      "speaker": "Caid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "The blacksmith didn't see anything right? I'm a bit worried Reynauld is on my trail...",
+      "ru": "Кузнец ведь ничего не видел? Боюсь, Рейнольд уже идёт по моему следу...",
+      "speaker": "Caid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "Ah, whatever! Finally, time to finish this ol' boat of mine!",
+      "ru": "А, ладно! Наконец-то можно закончить мою старую лодку!",
+      "speaker": "Caid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "There we go! Ta da! How's it look?",
+      "ru": "Готово! Та-дам! Как тебе?",
+      "speaker": "Caid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "That's right! Every ship worth its salt's got to have a bell. Wouldn't be the same without one.",
+      "ru": "Вот именно! На любом приличном корабле должен быть колокол. Без него уже не то.",
+      "speaker": "Caid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "What's with the attitude! Every ship worth its salt's got to have a bell, you know? Do you think the Seaskipper'd be caught dead without one? Didn't think so!",
+      "ru": "Что за отношение! На любом приличном корабле должен быть колокол, знаешь ли! Думаешь, Мореплаватель вышел бы в море без него? То-то же!",
+      "speaker": "Caid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "Anyway... I guess you've fulfilled your end of the bargain, so I've got no choice but to fulfil mine!",
+      "ru": "В общем... Свою часть сделки ты выполнил, так что мне придётся выполнить свою!",
+      "speaker": "Caid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "Lead the way to Picard's tower! Let's see what's hiding in this big head o' mine.",
+      "ru": "Веди §#55FFFFк башне Пикарда§r! Посмотрим, что скрывается в этой моей здоровенной голове.",
+      "speaker": "Caid",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "... Right. And this is the doctor we're trusting with my memories?",
+      "ru": "...Ага. И вот этому доктору мы доверим мои воспоминания?",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "Now, now, don't underestimate my genius. You'll be fine! Probably. I'd give it a ninety-five, well, ninety percent chance. Now, step up here.",
+      "ru": "Ну-ну, не стоит недооценивать мой гений. Всё будет хорошо! Наверное. Я бы дал девяносто пять... ну, девяносто процентов. А теперь подойди сюда.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "Alright... I trust you know what you're doing, doctor...",
+      "ru": "Ладно... Надеюсь, вы знаете, что делаете, доктор...",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "[?]",
+      "ru": "...!",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "Sure thing. Say— Caid. How do you keep getting ahold of these things? There's expensive parts in these, and that seems a bit out of your price range.",
+      "ru": "Конечно. Слушай, Кайд. Ты откуда вообще всё это достаёшь? Тут дорогие детали, а тебе это явно не по карману.",
+      "speaker": "Edwin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "Wait— what? Caid, please tell me you haven't been stealing from the guards. You know they won't—",
+      "ru": "Стоп, что? Кайд, пожалуйста, скажи, что ты не воровал у стражи. Ты же знаешь, они не-",
+      "speaker": "Edwin",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "Exactly! I'm glad you agree. So, have you found anything goo—",
+      "ru": "Вот именно! Рад, что ты согласен. Ну что, нашёл что-нибудь хоро-",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "You two! Hold still, you're under arrest!",
+      "ru": "'???: Вы двое! Стоять, вы арестованы!'",
+      "speaker": "Royal Captain",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "E-Edwin! Get back here, you cowa—",
+      "ru": "Э-Эдвин! Вернись сюда, трус-",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "Hm. Hm hm hm. The memory cut off there...I wonder what we'd see if we could—",
+      "ru": "Хм. Хм-хм-хм. Воспоминание оборвалось на этом месте... Интересно, что бы мы увидели, если бы смогли-",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "So, that's it, huh...",
+      "ru": "Значит, вот и всё...",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "Yes, it appears so... But perhaps, if I can increase the power, then... Yes! I'm a geniu—",
+      "ru": "Да, похоже на то... Но, возможно, если увеличить мощность, то... Да! Я гени...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "That's all I am?! Just some thief... Is that all I'm good for?",
+      "ru": "Вот кто я?! Просто какой-то вор... Ни на что другое я не годен?",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "I'm leaving.",
+      "ru": "Я ухожу.",
+      "speaker": "Caid",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "Ah! Bystander-turned-assis— you know what, I'll just call you my assistant. Finally out of your trance, I see.",
+      "ru": "А! Прохожий, а теперь ассис- Знаешь что, буду просто звать тебя моим ассистентом. Вижу, ты наконец вышел из транса.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "But that's of no importance now! What, however, is important is what we've just seen! Memories relived in vivid detail! Truly, this device will change the world!",
+      "ru": "Но сейчас это неважно! Важно то, что мы только что увидели! Воспоминания ожили во всех подробностях! Это устройство изменит мир!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "... Though, I will say. I am a little lost as to the timeline of events. Caid was arrested— so how did he find himself here in Wynn, as a soldier?",
+      "ru": "...Хотя, должен сказать, я не совсем понимаю порядок событий. Кайда арестовали. Как же он оказался здесь, в Винне, солдатом?",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "We are in need of more subjects if we are to find out the truth of it! There is a Scout Reynauld on duty today, he is also from Fruma originally, just like yourself.",
+      "ru": "Нам нужны новые подопытные, чтобы докопаться до истины! Сегодня дежурит разведчик Рейнольд. Он тоже родом из Фрумы, как и ты.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "Yes, hm. You'll find him near the bridge to the Roots of Corruption. I'm counting on you to convince him to join our experiment. In the name of science!",
+      "ru": "Да, хм. Ты найдёшь его §#55FFFFвозле моста§r к Корням Порчи. Рассчитываю, что ты убедишь его поучаствовать в нашем эксперименте. Во имя науки!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "Hm... Where does this barrier lie? Is this magic not strong enough to break through it? Maybe if I increase the power, then...",
+      "ru": "Хм... Где проходит этот барьер? Неужели этой магии недостаточно, чтобы его пробить? Может, если увеличить мощность, то...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "Gah! Assistant! What are you doing here? Have you spoken to Scout Reynauld yet? You'll find him near the bridge to the Roots of Corruption.",
+      "ru": "А! Ассистент! Что ты здесь делаешь? Ты уже говорил с разведчиком Рейнольдом? Он §#55FFFFвозле моста§r к Корням Порчи.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "Just... leave me be. Alright?",
+      "ru": "Просто... оставь меня в покое. Ладно?",
+      "speaker": "Caid",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "Ah, hello. What seems to be the matter? You look like you want something from me.",
+      "ru": "А, здравствуй. Что случилось? Кажется, тебе что-то от меня нужно.",
+      "speaker": "Reynauld",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "Hm? The strange doctor wants to see me? To restore my memories? I can't say I really trust the man... but I am curious to see if it'll really work.",
+      "ru": "Хм? Тот странный доктор хочет меня видеть? Вернуть мои воспоминания? Не могу сказать, что доверяю ему... но мне любопытно, сработает ли это.",
+      "speaker": "Reynauld",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "Unfortunately, however, I must decline. I couldn't leave my station unattended. What if a corrupted assault were to appear? Elkurn would be left defenseless.",
+      "ru": "К сожалению, я вынужден отказаться. Не могу оставить пост без присмотра. А если Порченые нападут? Элкурн останется без защиты.",
+      "speaker": "Reynauld",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "Hm, well. If it's only for a little while, that might work. As long as you promise to help out if an attack does occur.",
+      "ru": "Хм, что ж. Если ненадолго, это может сработать. Только пообещай помочь, если всё-таки случится нападение.",
+      "speaker": "Reynauld",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "Then it's settled. I'll go with you to meet the doctor. However, first we'll need someone to keep the watch. Did you have someone in mind?",
+      "ru": "Тогда решено. Я пойду с тобой к доктору. Но сначала нужен кто-то, кто подежурит вместо меня. Есть кто-нибудь на примете?",
+      "speaker": "Reynauld",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "Caid? That... crook. He's been stealing supplies, I know it. I just can't prove it. But, if you think he'll do. I'm sure it will be fine.",
+      "ru": "Кайд? Этот... проходимец. Он ворует припасы, я знаю. Просто не могу доказать. Но если ты считаешь, что он справится... Уверен, всё будет хорошо.",
+      "speaker": "Reynauld",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "I saw him heading to the temple not very long ago. Perhaps he's had a change of heart. You lead the way to Caid, I'll be right behind you.",
+      "ru": "Я видел, как он недавно направился к храму. Может, решил исправиться. §#55FFFFВеди к Кайду§r, я за тобой.",
+      "speaker": "Reynauld",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "Perhaps Caid's had a change of heart. You lead the way to him, I'll be right behind you.",
+      "ru": "Может, Кайд решил исправиться. §#55FFFFВеди к нему§r, я за тобой.",
+      "speaker": "Reynauld",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "Oh, it's you again. What do you want?",
+      "ru": "О, опять ты. Что тебе нужно?",
+      "speaker": "Caid",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "It's us, and we'd like to ask something of you. Our mutual friend here is attempting to recruit me for some sort of experiment.",
+      "ru": "Мы хотим кое о чём попросить. Наш общий знакомый пытается привлечь меня к какому-то эксперименту.",
+      "speaker": "Reynauld",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "Only, my participation would leave Elkurn undefended. So we're asking if you'd be willing to keep a watch over things while I'm otherwise preoccupied.",
+      "ru": "Но тогда Элкурн останется без защиты. Поэтому мы хотим спросить, не присмотришь ли ты за ним, пока я занят.",
+      "speaker": "Reynauld",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "Really? You're asking me to guard Elkurn?",
+      "ru": "Серьёзно? Вы просите меня охранять Элкурн?",
+      "speaker": "Caid",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "Don't get me wrong, I'd rather not leave the security of Elkurn in the hands of a thie... someone like you. You weren't my first choice to say the least, or second, or third—",
+      "ru": "Не пойми неправильно, я бы предпочёл не доверять безопасность Элкурна во... кому-то вроде тебя. Ты был далеко не первым, кого я выбрал бы. И не вторым, и не третьим...",
+      "speaker": "Reynauld",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "Yeah, yeah. I get it.",
+      "ru": "Да-да. Я понял.",
+      "speaker": "Caid",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "I'll do it.",
+      "ru": "Я согласен.",
+      "speaker": "Caid",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0297",
+      "en": "You will? Well, that was easier than I expected. Remember if you see any signs of an imminent attack, run to that doctor's tower and alert us immediately. Leave the fighting to the professionals.",
+      "ru": "Согласен? Что ж, это оказалось проще, чем я ожидал. Помни: если заметишь признаки готовящегося нападения, немедленно беги к башне доктора и предупреди нас. Сражаться предоставь профессионалам.",
+      "speaker": "Reynauld",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0298",
+      "en": "I wouldn't dream of anything else! But, consider Reynauld, that maybe the past is forgotten for a reason.",
+      "ru": "Я и не собирался! Но подумай, Рейнольд: может, прошлое забыто не просто так.",
+      "speaker": "Caid",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0299",
+      "en": "Well, that settles it. Let's hurry to the doctor, I don't want leave Elkurn's safety in that man's slippery fingers for any longer than I have to.",
+      "ru": "Что ж, решено. §#55FFFFПоспешим к доктору§r. Не хочу оставлять безопасность Элкурна в ненадёжных руках этого типа дольше, чем придётся.",
+      "speaker": "Reynauld",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0300",
+      "en": "Let's hurry to the doctor, I don't want to leave Elkurn's safety in that man's slippery fingers for any longer than I have to.",
+      "ru": "§#55FFFFПоспешим к доктору§r. Не хочу оставлять безопасность Элкурна в ненадёжных руках этого типа дольше, чем придётся.",
+      "speaker": "Reynauld",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0301",
+      "en": "Ah, assistant! Welcome back, and I see you've brought our next subject! Wonderful!",
+      "ru": "А, ассистент! С возвращением! Вижу, ты привёл следующего подопытного! Чудесно!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0302",
+      "en": "Subject?",
+      "ru": "Подопытного?",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0303",
+      "en": "Now, now, step forward. Don't be shy! Just step right up over here! Look directly into the orb, and concentrate on remembering.",
+      "ru": "Ну-ну, подойди. Не стесняйся! Встань вот здесь! Смотри прямо в шар и сосредоточься на воспоминаниях.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0304",
+      "en": "This is safe, right?",
+      "ru": "Это ведь безопасно?",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0305",
+      "en": "Yes, yes! Not to worry, the device has been extensively tested on Caid. Very quickly, I just need to activate this... cast a spell here... and...",
+      "ru": "Да-да! Не волнуйся, устройство прошло всесторонние испытания на Кайде. Сейчас, только включу вот это... Наложу здесь заклинание... и...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0306",
+      "en": "...I don't feel anythi—",
+      "ru": "...Я ничего не чувств...",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0307",
+      "en": "H-huh? Hey, who's there? Why are you knocking at this hour—",
+      "ru": "А-а? Эй, кто там? Зачем стучать в такой час-",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0308",
+      "en": "... Oh. It's you.",
+      "ru": "...О. Это ты.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0309",
+      "en": "N-no, of course not— Uh. It would have been nice if, you know, you warned me you would be coming!",
+      "ru": "Н-нет, конечно нет- Эм. Было бы неплохо, если бы ты, ну знаешь, предупредил, что придёшь!",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0310",
+      "en": "Right... always straight to business with you. Never, oh, how was your week? Always just—...",
+      "ru": "Точно... у тебя всегда сразу к делу. Никогда \"о, как неделя прошла?\" Всегда только-",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0311",
+      "en": "I salvaged some parts from... uh, one of the nearby factories. I hope it's—... it's probably what you need.",
+      "ru": "Я достал кое-какие детали с... эм, одной из ближайших фабрик. Надеюсь, это-... скорее всего, это то, что тебе нужно.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0312",
+      "en": "... Hm. One of the factories, you say? And you're sure you weren't spotted doing it? If I were caught speaking to a known criminal, you know the consequences for both of us.",
+      "ru": "...Хм. С одной из фабрик, говоришь? И ты уверен, что тебя не заметили? Если меня поймают за разговором с известным преступником, ты знаешь, чем это кончится для нас обоих.",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0313",
+      "en": "I— hmph. Okay, okay, fine, I'll- I'll add in some emeralds. To sweeten the deal.",
+      "ru": "Я- хмф. Ладно, ладно, хорошо, я- я добавлю немного изумрудов. Чтобы сделка была повыгоднее.",
+      "speaker": "Caid",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0314",
+      "en": "Sir— you requested my presence?",
+      "ru": "Сэр, вы хотели меня видеть?",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0315",
+      "en": "Ah, Reynauld. Good to see you. Come in, come in.",
+      "ru": "А, Рейнольд. Рад тебя видеть. Входи, входи.",
+      "speaker": "Royal Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0316",
+      "en": "Now, what do you think might happen if one of our own happened to...bend, or break that code of honour? What sort of a precedent would that set?",
+      "ru": "Как ты думаешь, что произойдёт, если кто-то из нас... обойдёт или нарушит этот кодекс чести? Какой пример он подаст?",
+      "speaker": "Royal Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0317",
+      "en": "Captain, I—",
+      "ru": "Капитан, я-",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0318",
+      "en": "It is with no great pleasure that I inform you that you, Reynauld, are to be stripped of your rank and arrested under charges of dishonour and conspiracy against Her Majesty.",
+      "ru": "Мне неприятно сообщать об этом, но ты, Рейнольд, будешь лишён звания и арестован по обвинению в бесчестье и заговоре против Её Величества.",
+      "speaker": "Royal Captain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0319",
+      "en": "That's...",
+      "ru": "Это...",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0320",
+      "en": "Marvelous! Assistant, you've done very well so far! We're closer than ever to uncovering the mystery of Fruma!",
+      "ru": "Великолепно! Ассистент, ты отлично справляешься! Мы как никогда близки к разгадке тайны Фрумы!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0321",
+      "en": "Reynauld! Quick, there's...",
+      "ru": "Рейнольд! Скорее, там...",
+      "speaker": "Tasim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0322",
+      "en": "<playername>!? Didn't think I'd stumble upon you all the way out here!",
+      "ru": "<playername>!? Не думал, что встречу тебя так далеко отсюда!",
+      "speaker": "Tasim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0323",
+      "en": "There's time for pleasantries later. Tasim? Why are you here? Where's Caid?",
+      "ru": "Для любезностей будет время потом. Тасим? Почему ты здесь? Где Кайд?",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0324",
+      "en": "The Admiral sent me to bolster Elkurn's defenses. I was expecting to meet you at the bridge, but all I found was Caid.",
+      "ru": "Адмирал послал меня укрепить оборону Элкурна. Я рассчитывал встретить тебя у моста, но нашёл только Кайда.",
+      "speaker": "Tasim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0325",
+      "en": "He said there was an assault on Elkurn gathering and that you were here, then he ran away.",
+      "ru": "Он сказал, что на Элкурн готовится нападение и что ты здесь, а потом сбежал.",
+      "speaker": "Tasim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0326",
+      "en": "That damned thief! I knew I shouldn't have left... This was all a mistake... Damn.",
+      "ru": "Проклятый вор! Я знал, что не стоило уходить... Всё это было ошибкой... Чёрт.",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0327",
+      "en": "There's no time to waste now. Let's go, Tasim and <playername>. We need to save Elkurn.",
+      "ru": "Нельзя терять время. Идём, Тасим и <playername>. Нужно спасти Элкурн.",
+      "speaker": "Reynauld",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0328",
+      "en": "That Tasim, he must be from Fruma as well? If he's a companion of yours, you should recruit him to this little experiment of ours. For science of course! Now, now, be off. Elkurn needs saving!",
+      "ru": "Этот Тасим тоже из Фрумы? Если он твой товарищ, пригласи его в наш небольшой эксперимент. Во имя науки, конечно! Ну, отправляйся. Элкурн нужно спасать!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0329",
+      "en": "Assistant! What are you still doing here? Your friends seem to be in need of your assistance!",
+      "ru": "Ассистент! Что ты всё ещё здесь делаешь? Кажется, твоим друзьям нужна помощь!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0330",
+      "en": "Besides, this might be an opportunity to recruit that Tasim to our experiment! Hm, yes, he would certainly be an interesting specimen to examine!",
+      "ru": "К тому же это может быть шанс привлечь Тасима к нашему эксперименту! Хм, да, его было бы очень интересно исследовать!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0331",
+      "en": "They'll be coming for this bridge any minute now. We will need to stand ready.",
+      "ru": "Они подойдут к мосту с минуты на минуту. Мы должны быть готовы.",
+      "speaker": "Reynauld",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0332",
+      "en": "<playername>, are you ready to defend Elkurn?",
+      "ru": "<playername>, ты готов защищать Элкурн?",
+      "speaker": "Reynauld",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0333",
+      "en": "Good answer, soldier. We'll take them down, no matter how many they throw at us!",
+      "ru": "Хороший ответ, солдат. Мы одолеем их, сколько бы их ни было!",
+      "speaker": "Reynauld",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0334",
+      "en": "Do whatever you have to first, but be quick. The enemy might arrive at any moment.",
+      "ru": "Сначала сделай всё, что нужно, но поторопись. Враг может появиться в любой момент.",
+      "speaker": "Reynauld",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0335",
+      "en": "Tasim, you take the front, I'll provide cover from behind.",
+      "ru": "Тасим, ты впереди, я прикрою сзади.",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0336",
+      "en": "It would be my pleasure, Reynauld!",
+      "ru": "С удовольствием, Рейнольд!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0337",
+      "en": "Shouldn't be much longer now... If only Aledar was here, it'd be like old times again. Don't you think?",
+      "ru": "Осталось ждать недолго... Вот бы Аледар был здесь, всё было бы как в старые времена. Правда?",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0338",
+      "en": "Here we go.",
+      "ru": "Началось.",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0339",
+      "en": "Damn it. That leader looks shielded! How do we take it down?",
+      "ru": "Чёрт. Похоже, их предводитель защищён щитом! Как нам его одолеть?",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0340",
+      "en": "The spikes must be its weak point!",
+      "ru": "Должно быть, шипы - его слабое место!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0341",
+      "en": "You're right! Tasim, <playername>. As long as you can keep the enemy away from me, I can line up a good shot at the spikes. That's our only chance at taking this thing down.",
+      "ru": "Ты прав! Тасим, <playername>. Если вы не дадите врагу добраться до меня, я смогу как следует прицелиться в шипы. Это наш единственный шанс его одолеть.",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0342",
+      "en": "... Ah. Turns out this might be a little tougher than expected. But, let's give it our all!",
+      "ru": "... А. Похоже, будет немного сложнее, чем мы думали. Но выложимся на полную!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0343",
+      "en": "Just... a little more... to the right...",
+      "ru": "Ещё... чуть-чуть... правее...",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0344",
+      "en": "That's it! It's got to be...",
+      "ru": "Вот так! Должно быть...",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0345",
+      "en": "Reynauld! What do we do now? We can't beat it like this...",
+      "ru": "Рейнольд! Что теперь? Так нам его не победить...",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0346",
+      "en": "I'm trying to think but... I've never...",
+      "ru": "Пытаюсь придумать, но... Я никогда...",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0347",
+      "en": "Tasim, <playername>, you continue to hold them off. I'll think of something, anything...",
+      "ru": "Тасим, <playername>, продолжайте их сдерживать. Я что-нибудь придумаю, хоть что-нибудь...",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0348",
+      "en": "We can't give up now, not while Elkurn is still in danger!",
+      "ru": "Мы не можем сдаться, пока Элкурн в опасности!",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0349",
+      "en": "Reynauld, it's not working! They just keep coming— we... have to do something... else, or we won't last!",
+      "ru": "Рейнольд, ничего не выходит! Они всё идут и идут... Нужно... сделать что-то... другое, иначе мы не выдержим!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0350",
+      "en": "You're right. We'll have to retreat, call for aid from Detlas. Three men alone can't defeat this!",
+      "ru": "Ты прав. Придётся отступить и вызвать помощь из Детласа. Втроём нам их не одолеть!",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0351",
+      "en": "But, you're not alone!",
+      "ru": "Но вы не одни!",
+      "speaker": "Caid",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0352",
+      "en": "Caid!?",
+      "ru": "Кайд!?",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0353",
+      "en": "Caid, what are you doing here!? It's too dangerous, leave this one to the professionals!",
+      "ru": "Кайд, что ты здесь делаешь!? Слишком опасно, оставь это профессионалам!",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0354",
+      "en": "I'm done, I'm done letting my future slip out of my fingers!",
+      "ru": "Хватит! Хватит позволять своему будущему ускользать из рук!",
+      "speaker": "Caid",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0355",
+      "en": "Caid, no! You... can't, you'll—",
+      "ru": "Кайд, нет! Ты... не можешь, ты же...",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0356",
+      "en": "Take this!",
+      "ru": "Получай!",
+      "speaker": "Caid",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0357",
+      "en": "Now, Reynauld! Shoot! For goodness' sake, shoot! While it's distracted!",
+      "ru": "Сейчас, Рейнольд! Стреляй! Ради всего святого, стреляй! Пока он отвлёкся!",
+      "speaker": "Caid",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0358",
+      "en": "It-It's coming down! Now's our chance!",
+      "ru": "Он... он падает! Это наш шанс!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0359",
+      "en": "We did it... We really did it!",
+      "ru": "У нас получилось... Правда получилось!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0360",
+      "en": "Caid? Are you there? Caid?!",
+      "ru": "Кайд? Ты здесь? Кайд?!",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0361",
+      "en": "I'm right... ouch... here.",
+      "ru": "Я... ай... здесь.",
+      "speaker": "Caid",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0362",
+      "en": "You're safe...",
+      "ru": "Ты цел...",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0363",
+      "en": "Caid! You made it! You're a hero!",
+      "ru": "Кайд! Ты выжил! Ты герой!",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0364",
+      "en": "That's all well and good but, what about your boat?",
+      "ru": "Всё это замечательно, но как же твоя лодка?",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0365",
+      "en": "I can always build another one, can't I?",
+      "ru": "Я ведь всегда могу построить ещё одну, верно?",
+      "speaker": "Caid",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0366",
+      "en": "Ha. But not using my belongings this time.",
+      "ru": "Ха. Но на этот раз без моих вещей.",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0367",
+      "en": "Well, Caid seems to be fine enough, considering the circumstances. I'll take him to get checked out, just in case. Thank you for your help, Tasim and <playername>. And Caid too...",
+      "ru": "Что ж, учитывая обстоятельства, Кайд вроде бы в порядке. На всякий случай я отведу его на осмотр. Спасибо за помощь, Тасим и <playername>. И тебе тоже, Кайд...",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0368",
+      "en": "You must be wanting to take Tasim with you for your experiment. After all you've done today, I can hardly object. But, Tasim...",
+      "ru": "Наверняка ты хочешь взять Тасима с собой для эксперимента. После всего, что вы сегодня сделали, я вряд ли могу возражать. Но, Тасим...",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0369",
+      "en": "Think carefully before looking into that crystal. For some, the past is filled with things they'd rather forget.",
+      "ru": "Хорошо подумай, прежде чем смотреть в этот кристалл. У некоторых прошлое полно того, о чём лучше бы забыть.",
+      "speaker": "Reynauld",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0370",
+      "en": "Recovering memories from Fruma, huh... That's definitely something I'd be interested in. I've had a strange feeling about it, ever since we first realized we lost them.",
+      "ru": "Вернуть воспоминания из Фрумы, значит... Мне это точно интересно. С тех пор как мы поняли, что потеряли их, меня не оставляет странное чувство.",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0371",
+      "en": "You were there, remember? We'd just barely entered Wynn and... Aledar was with us, and he almost went and died on his first day! I hope he's being more careful, out there...",
+      "ru": "Ты ведь был там, помнишь? Мы едва успели попасть в Винн... С нами был Аледар, и он чуть не погиб в первый же день! Надеюсь, теперь он осторожнее...",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0372",
+      "en": "Ah, anyway. Please, lead the way to the doctor. I'm intrigued to see what it's all about.",
+      "ru": "А, в общем. §#55FFFFВеди§r к доктору. Любопытно посмотреть, что это такое.",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0373",
+      "en": "... Oh, <playername>, you're back with yet another subject I see! Excellent, excellent. Please, step up to the orb.",
+      "ru": "... О, <playername>, вижу, ты вернулся с новым подопытным! Отлично, отлично. Прошу, подойди к шару.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0374",
+      "en": "So, doctor. You're certain this is safe? Reynauld warned me that—",
+      "ru": "Так, доктор. Вы уверены, что это безопасно? Рейнольд предупреждал, что...",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0375",
+      "en": "Oh, yes, yes. We've tested it with two subjects before, haven't we, <playername>? Besides, I've done the calculations! They all work out fine!",
+      "ru": "О, да-да! Мы уже испытали устройство на двух подопытных, правда, <playername>? К тому же я всё рассчитал! Всё сходится!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0376",
+      "en": "There's only the tiniest bit of instability. Hmph. Maybe it just needs more power... If I increase the amount of mana I'm able to put into the spell, then—",
+      "ru": "Есть лишь самая малость нестабильности. Хм. Может, просто нужно больше мощности... Если я увеличу количество маны, которое могу вложить в заклинание, то...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0377",
+      "en": "Fine. We can look at my memories. I don't know that I necessarily agree... but I'll do it.",
+      "ru": "Ладно. Посмотрим мои воспоминания. Не уверен, что со всем согласен... но я сделаю это.",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0378",
+      "en": "All hands on deck! Arrest that insurgent!",
+      "ru": "Все наверх! Арестуйте этого мятежника!",
+      "speaker": "Royal Captain",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0379",
+      "en": "Huh?! What's going—",
+      "ru": "А?! Что проис-",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0380",
+      "en": "I- oh, this is bad... What can I—...",
+      "ru": "Я- о нет, дело плохо... Что я могу-",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0381",
+      "en": "...Damn it. Damn it all. I can't just let the man bleed out, even if he's—...",
+      "ru": "...Чёрт. Да чтоб всё. Я не могу просто дать человеку истечь кровью, даже если он-...",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0382",
+      "en": "G-gah! Wh-where am I? Who are you? I need to get—",
+      "ru": "А-аах! Г-где я? Кто ты? Мне нужно выбраться-",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0383",
+      "en": "Oh. You're— you're cursed.",
+      "ru": "О. Ты- ты проклят.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0384",
+      "en": "I—",
+      "ru": "Я-",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0385",
+      "en": "Well, a lot of good that's done us. You know no one gets out of here, right? When they take you, you're never heard from again! So, that's where we're at.",
+      "ru": "Ну да, сильно нам это помогло. Ты же знаешь, отсюда никто не выходит, да? Когда тебя забирают, о тебе больше никто не слышит! Вот. Такие дела.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0386",
+      "en": "See you on the other side, Aledar.",
+      "ru": "Увидимся по ту сторону, Аледар.",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0387",
+      "en": "You feel a faint tug as someone tries to pull you out of the memory.",
+      "ru": "Вы чувствуете слабый рывок: кто-то пытается вытащить вас из воспоминания.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0388",
+      "en": "But there's more to see. You can't leave just yet.",
+      "ru": "Но вы ещё не всё увидели. Пока нельзя уходить.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0389",
+      "en": "The- the what? What are you going to do to—",
+      "ru": "Ч-что подготовить? Что вы собираетесь со мной-",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0390",
+      "en": "Understood?",
+      "ru": "Понятно?",
+      "speaker": "Inquisitor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0391",
+      "en": "... it is understood.",
+      "ru": "§#FF5555...понятен.§r",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0392",
+      "en": "Good grief— there you are! Do you understand how dangerous that was?!",
+      "ru": "Господи, вот ты где! Ты понимаешь, насколько это было опасно?!",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0393",
+      "en": "... Fine, fine. It did give us more information. Don't do it again, though! Come on, come over here, we have much to discuss.",
+      "ru": "...Ладно, ладно. Это дало нам больше информации. Но больше так не делай! Давай, иди сюда, нам многое надо обсудить.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0394",
+      "en": "... Hmph. I'll admit, I'm—... I'm not sure what to do with this information.",
+      "ru": "...Хмф. Признаю, я-... я не уверен, что делать с этой информацией.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0395",
+      "en": "... I'll have to think on how much I want to delve into memories. In any case! At the very start of this, I promised you we could view your memories.",
+      "ru": "...Мне надо подумать, насколько глубоко я вообще хочу лезть в воспоминания. В любом случае! В самом начале я обещал, что мы сможем посмотреть твои воспоминания.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0396",
+      "en": "Well? The offer still stands, if you'd like to take it. Simply step up to the orb, just like the others did.",
+      "ru": "Ну? Предложение всё ещё в силе, если ты хочешь согласиться. Просто §#55FFFFподойди к шару§r, как остальные.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0397",
+      "en": "... Oh, whatever. I have the blueprints stored somewhere around here. I can always make another... but still.",
+      "ru": "...Впрочем, неважно. Чертежи у меня где-то здесь. Всегда могу сделать новый... но всё же.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0398",
+      "en": "... Well. Ehem. In any case, I'll need to continue my research. There's more to learn, I'm sure...",
+      "ru": "... Что ж. Кхм. В любом случае, мне нужно продолжать исследования. Уверен, мы ещё не всё узнали...",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0399",
+      "en": "As thanks for your help. Here, a reward. Ah, also... I believe your friend is just outside the tower. You might want to check in on him.",
+      "ru": "Вот тебе награда в благодарность за помощь. А, ещё! Кажется, твой друг §#55FFFFснаружи, у башни§r. Стоит с ним поговорить.",
+      "speaker": "Dr. Picard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0400",
+      "en": "Cursed. He called me cursed. What does that mean for me...?",
+      "ru": "Проклят. Он назвал меня проклятым. Что это вообще значит для меня..?",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0401",
+      "en": "And the Inquisitor... I don't know what to think. All of us— what we thought we knew when we arrived in Wynn... None of it was true.",
+      "ru": "И Инквизитор... Не знаю, что думать. Всё, что мы считали правдой, когда прибыли в Винн... Всё было ложью.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0402",
+      "en": "I- I need some space to think. To... reflect. Can you—... please don't tell Aledar about any of this.",
+      "ru": "Мне- мне нужно немного побыть одному и подумать. Всё... переварить. Можешь-... пожалуйста, не рассказывай Аледару обо всём этом.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0403",
+      "en": "He doesn't need to know about all of this. He's— he's better off not knowing.",
+      "ru": "Ему не нужно знать обо всём этом. Ему- ему лучше не знать.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0404",
+      "en": "... I'm going to head for the Gavel Province, I think. It's across from the ocean, far enough from... From all of this.",
+      "ru": "...Думаю, я отправлюсь в провинцию Гавел. Она за океаном, достаточно далеко от- от всего этого.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0405",
+      "en": "I guess this is goodbye for now, then. Not forever— but for now. I'll see you around, <playername>.",
+      "ru": "Значит, пока прощаемся. Не навсегда - пока. Ещё увидимся, <playername>.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0406",
+      "en": "... I'm just resting here, a little. I'll be on my way soon.",
+      "ru": "... Я просто немного отдыхаю. Скоро отправлюсь дальше.",
+      "speaker": "Tasim",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0407",
+      "en": "[-1 Wrapped Package]",
+      "ru": "§#FF55FF[-1 Wrapped Package]§r",
+      "speaker": "",
+      "stage": "Stage 4"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Dr. Picard at [101, 108, -1200].",
+      "ru": "Поговорить с доктором Пикардом [101, 108, -1200].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Recover the sailor Caid near his boat at [-44, 69, -1216].",
+      "ru": "Найти моряка Кайда возле его лодки [-44, 69, -1216].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Steal the box from the Blacksmith's house at [-8, 79, -1188].",
+      "ru": "Украсть ящик из дома кузнеца [-8, 79, -1188].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Bring the package to Caid at [-44, 69, -1216].",
+      "ru": "Принести посылку Кайду [-44, 69, -1216].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Bring Caid to Dr. Picard in his tower at [101, 108, -1200].",
+      "ru": "Отвести Кайда к доктору Пикарду в башню [101, 108, -1200].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Witness Caid's past.",
+      "ru": "Увидеть прошлое Кайда.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Find Scout Reynauld near the bridge to the Roots of Corruption at [32, 69, -1235].",
+      "ru": "Найти разведчика Рейнольда возле моста к Корням Порчи [32, 69, -1235].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Return to Reynauld at [32, 69, -1235].",
+      "ru": "Вернуться к Рейнольду [32, 69, -1235].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Convince Caid to keep watch over the bridge at [-10, 75, -1242].",
+      "ru": "Уговорить Кайда сторожить мост [-10, 75, -1242].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Bring Reynauld to Dr. Picard in his tower at [101, 108, -1200].",
+      "ru": "Отвести Рейнольда к доктору Пикарду в башню [101, 108, -1200].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Witness Reynauld's past.",
+      "ru": "Увидеть прошлое Рейнольда.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Rush to defend Elkurn from the incursion at [37, 69, -1251].",
+      "ru": "Поспешить на защиту Элкурна от вторжения [37, 69, -1251].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Defend Elkurn from the corrupted incursion!",
+      "ru": "Защитить Элкурн от нападения заражённых!",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Bring Tasim to Dr. Picard in his tower at [101, 108, -1200].",
+      "ru": "Отвести Тасима к доктору Пикарду в башню [101, 108, -1200].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Witness Tasim's past.",
+      "ru": "Увидеть прошлое Тасима.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Find Tasim outside Dr. Picard's tower at [86, 79, -1194].",
+      "ru": "Найти Тасима у башни доктора Пикарда [86, 79, -1194].",
+      "stage": "Stage 15"
+    }
+  ],
+  "choices": [
+    {
+      "id": "choice-0001",
+      "en": "Looking good!",
+      "ru": "Отлично выглядит!",
+      "stage": "Stage 2",
+      "dialogueId": "dialogue-0237"
+    },
+    {
+      "id": "choice-0002",
+      "en": "Looks like a heap of scrap!",
+      "ru": "Выглядит как куча хлама!",
+      "stage": "Stage 2",
+      "dialogueId": "dialogue-0238"
+    },
+    {
+      "id": "choice-0003",
+      "en": "Start puzzle.",
+      "ru": "§#FF55FFНачать головоломку.§r",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0244"
+    },
+    {
+      "id": "choice-0004",
+      "en": "Leave for now...",
+      "ru": "Пока уйти...",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0247"
+    },
+    {
+      "id": "choice-0005",
+      "en": "Much better!",
+      "ru": "Гораздо лучше!",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0255"
+    },
+    {
+      "id": "choice-0006",
+      "en": "A bell, really?",
+      "ru": "Колокол? Серьёзно?",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0256"
+    },
+    {
+      "id": "choice-0007",
+      "en": "What if someone kept watch?",
+      "ru": "А если кто-нибудь посторожит?",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0284"
+    },
+    {
+      "id": "choice-0008",
+      "en": "What about... Caid?",
+      "ru": "Может... Кайд?",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0286"
+    },
+    {
+      "id": "choice-0009",
+      "en": "Yes, let's do this.",
+      "ru": "§#FF55FFДа, приступим.§r",
+      "stage": "Stage 11",
+      "dialogueId": "dialogue-0332"
+    },
+    {
+      "id": "choice-0010",
+      "en": "Give me a minute...",
+      "ru": "Дай мне минуту...",
+      "stage": "Stage 11",
+      "dialogueId": "dialogue-0333"
+    }
+  ]
+}

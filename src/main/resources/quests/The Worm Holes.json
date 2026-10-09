@@ -1,0 +1,631 @@
+{
+  "quest": "The Worm Holes",
+  "level": 54,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-worm-holes",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Under you!",
+      "ru": "Под тобой!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Wait a second...",
+      "ru": "Погоди секунду...",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "It looked like it escaped! Did you see where it went?",
+      "ru": "Похоже, оно сбежало! Ты видел, куда оно делось?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Arrighty fellers, let's get this wrapped up now! 'ere's plenty more holes where this one came from!",
+      "ru": "Так, ребятки, давайте уже заканчивать здесь! Таких дыр нам ещё полно заделывать!",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "...what in...aw no!",
+      "ru": "...это ещё... о нет!",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "The scaffolds are crackin'! Everyone, get offa there, now!!",
+      "ru": "Леса трещат! Все оттуда, быстро!!",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "GwaaAAAAAH!!",
+      "ru": "ГвааАААААХ!!",
+      "speaker": "Worker",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Aw, hell... I knew this project was a bust from the start...there goes Willam and Clint cause a' this!",
+      "ru": "Да чёрт... Я с самого начала знал, что этот проект - гиблое дело... вот и нет теперь Уильяма с Клинтом, и всё из-за этого!",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I gotta get someone tough enough to get down there...hm? Hey, a human! Git on over here!",
+      "ru": "Мне нужен кто-то покрепче, кто сможет спуститься туда... хм? Эй, человек! А ну иди сюда!",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I gotta ask, how much 'a that didja see, Wynn feller? Wasn't pretty, and I'm in charge a' them folks, so I gotta take responsibility fer that.",
+      "ru": "Скажи-ка, приятель из Винна, много ты там успел увидеть? Зрелище было поганое, а я за этих ребят отвечаю, так что ответственность на мне.",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Th' mayor of Olux there saw these holes poppin' up, and hired us out to cover 'em up. Thing is, the ground's too unstable to build.",
+      "ru": "Мэр Олукса заметил, как тут начали появляться эти дыры, и нанял нас их заделывать. Только вот беда - земля слишком нестабильная, строить невозможно.",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "It's gettin' real worrying round here. They only started openin' up recently, and there've been quakes too. Feels like the place is gonna collapse!",
+      "ru": "Тут всё это уже не на шутку тревожит. Эти провалы появились совсем недавно, да ещё и землетрясения начались. Такое чувство, будто тут всё сейчас обрушится!",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I think we oughta head down there and figure out what 'n heck's goin' on, and you're the best armed outta any of us, being human 'n all.",
+      "ru": "По-хорошему, надо спуститься вниз и понять, что там за чертовщина. А из всех нас ты лучше всех вооружён, ну, потому что человек и всё такое.",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Think y'all could head down 'n see if you can rustle up any leads? There's a path down just to the left of the hole.",
+      "ru": "Сможешь спуститься и посмотреть, не найдёшь ли там каких зацепок? Слева от дыры есть тропа вниз.",
+      "speaker": "Malo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "What in tarnation...? The heck did you find down there, soldier?",
+      "ru": "Да что за чёрт...? Чего ты там вообще нашёл внизу, солдат?",
+      "speaker": "Malo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Oh, it was just the skin, huh? Dang...was hopin' you'd've seen what it was, cause I got no clue 'bout this.",
+      "ru": "А, это просто сброшенная шкура, да? Блин... Я надеялся, ты хоть увидишь, чья она, потому что я вообще без понятия, что это за тварь.",
+      "speaker": "Malo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Urgh. Only gal I know who might have an idea 'bout this is that durn elf lady...",
+      "ru": "Тьфу. Единственная, кто, может, что-то знает об этом, это та чёртова эльфийка...",
+      "speaker": "Malo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "She's got purple hair and's been wanderin' round like she knows everything. Yeah, she's a bright penny but she ain't gotta be so uppity ta all of us 'bout it.",
+      "ru": "У неё фиолетовые волосы, и ходит она с таким видом, будто знает всё на свете. Да, голова у неё светлая, не спорю, но нечего из-за этого нос перед всеми задирать.",
+      "speaker": "Malo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "She put up a camp just east of here. She'll prob'ly react better to you than me, so I'll go to the authorities and see if they have any leads.",
+      "ru": "Лагерь она поставила к востоку отсюда. На тебя она, наверное, отреагирует лучше, чем на меня, а я пока схожу к властям и попробую что-нибудь узнать.",
+      "speaker": "Malo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "...Haven't we met? I have witnessed your presence in Gavel more than once.",
+      "ru": "...Разве мы уже не встречались? Я замечала тебя в Гавеле уже не раз.",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "I am Lari. I might have greeted you properly before if I were not so busy, which reminds me. You have a reason to be here, yes?",
+      "ru": "Я Лари. Мы бы уже успели как следует познакомиться, если бы я не была так занята. Кстати... ты ведь здесь по делу, да?",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Hm...I believe I know what you have found, by your description. That dead skin too, is proof enough, I would say.",
+      "ru": "Хм... По твоему описанию, мне кажется, я понимаю, что именно ты нашёл. Да и эта сброшенная шкура, я бы сказала, уже сама по себе достаточное доказательство.",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "The creature which shed that skin is known as a Grootslang. Though large, they are rather peaceful. Gentle giants, I believe the saying is?",
+      "ru": "Существо, сбросившее эту шкуру, называется Грутсланг. Несмотря на размеры, обычно они довольно мирные. Добрые гиганты, если так можно сказать.",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "This horrid Decay...it affects their habitats underground. They are seeking shelter closer to the surface. I have been trying to scrub the Decay without success...",
+      "ru": "Эта ужасная Гниль... она добралась и до их подземных мест обитания. Они ищут убежище ближе к поверхности. Я пыталась очистить землю от Гнили, но безуспешно...",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Wait... More holes appeared just today? There...there were deaths?! W-where, when?!",
+      "ru": "Подожди... Ещё дыры появились именно сегодня? Там... там были погибшие?! Г-где, когда?!",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "No, no...! I refuse to be responsible for any more deaths... Human, tell me your name, please.",
+      "ru": "Нет, нет...! Я не допущу, чтобы на мне было ещё больше смертей... Человек, скажи мне своё имя, пожалуйста.",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "<playername>, then... Let us head to the site. . I need to fix this... Please, help me get to the root of this problem so I may soothe the land's pain.",
+      "ru": "Значит, <playername>... Идём на место. Мне нужно это исправить... Прошу, помоги мне добраться до корня этой проблемы, чтобы я смогла унять боль этой земли.",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "So this is the site...",
+      "ru": "Значит, вот где всё случилось...",
+      "speaker": "Lari",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Here. Allow me to provide at least one person safe passage into the pit.",
+      "ru": "Вот. Позволь мне хотя бы одного из нас безопасно спустить в этот провал.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Have faith- Jump in. I will carry you down slowly.",
+      "ru": "Не бойся - прыгай. Я аккуратно спущу тебя вниз.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Take the lead. If we can find any further evidence of the Grootslangs around here, it will aid in my understanding.",
+      "ru": "Иди первым. Если мы найдём здесь ещё какие-нибудь следы грутслангов, это поможет мне лучше понять, что происходит.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Hm? This wall looks like it's been disturbed recently...",
+      "ru": "Хм? Похоже, эту стену недавно кто-то повредил...",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "I can hear it...but where is it crawling...?",
+      "ru": "Я его слышу... но где оно ползёт...?",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "That's the mother Wyrm! She must be what is making the holes. We need to follow her!",
+      "ru": "Это мать-вирм! Значит, именно она и делает эти провалы. Нам нужно за ней!",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Never mind the spiders, we need to keep following the Wyrm!",
+      "ru": "Не обращай внимания на пауков, нам нужно дальше идти за вирмом!",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Ah...ehm, <playername>? I've... Um, this is...a bit difficult to say, but...",
+      "ru": "Эм... <playername>? Я... эм... это... мне немного сложно такое говорить, но...",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I...do not believe we need to fight, or to kill, here? The creatures are native to here, we are invading their space.",
+      "ru": "Я... не думаю, что нам тут обязательно драться или убивать. Эти существа здесь у себя дома, а это мы вторглись на их территорию.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Why should they be attacked for merely existing in their territory? Even if they are animals, I believe that you can solve these problems without killing.",
+      "ru": "Почему на них вообще нужно нападать просто за то, что они живут на своей земле? Даже если это просто звери, я верю, что проблему можно решить без убийства.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "I...understand you may not have the same powers as myself... And I, ah...am not free of guilt, either. But I think you could stand to take a peaceful stance.",
+      "ru": "Я... понимаю, что у тебя не такие силы, как у меня... И я, эм... тоже не без вины. Но мне всё же кажется, что ты мог бы выбрать более мирный путь.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Even if I am alone on that front...though I understand you are taught differently where you come from. I do not envy you, though I still thank you for your aid thusfar.",
+      "ru": "Даже если я одна так считаю... хотя я понимаю, что на твоей родине тебя учили иначе. Не завидую тебе, но всё равно спасибо за всё, что ты уже сделал.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Your methods are...disagreeable, but you still have a sense of right to you, I feel... Well, the tunnel diverges here. We'll need to split apart.",
+      "ru": "Твои методы... скажем так, мне не по душе, но я чувствую, что добро от зла ты всё же отличаешь... Ладно, тут туннель расходится. Придётся разделиться.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I'll go to the right, so you ought to continue to the left here. I will meet up with you again soon, hopefully.",
+      "ru": "Я пойду направо, а тебе лучше идти налево. Потом снова встретимся, надеюсь.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Take the lead.",
+      "ru": "Иди первым.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Aah! <playername>! Don't...don't make any sudden movements.",
+      "ru": "Ай! <playername>! Только... только без резких движений.",
+      "speaker": "Lari",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "This Grootslang is uncharacteristically aggressive... She's scared, being so close to the surface. Stay behind me, please.",
+      "ru": "Грутсланги обычно не такие агрессивные... Она напугана: оказалась слишком близко к поверхности. Пожалуйста, держись за мной.",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "AH! [Gavellian Spell]!",
+      "ru": "АХ! [Гавелльское заклинание]!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Do not approach it! The power of the Wyrm is far too much for you!",
+      "ru": "Не подходи к ней! Сила этого вирма для тебя слишком велика!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "W-wait, again? [Gavellian Spell]- Aah, MOVE!",
+      "ru": "П-подожди, опять? [Гавелльское заклинание]- Ай, УХОДИ!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "<playername>!! You're unharmed, yes? She's scared and in pain!",
+      "ru": "<playername>!! Ты цел? Она напугана и ей больно!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "I have to get it right this time... I'm going to talk her down, stay there!",
+      "ru": "В этот раз я должна всё сделать правильно... Я попробую её успокоить, а ты стой на месте!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "You must be calm, I beg you. Retreat to the earth- You harm those above!",
+      "ru": "Тебе нужно успокоиться, прошу. Вернись обратно в землю - ты вредишь тем, кто наверху!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "The earth rotting... I take full responsibility, but does the grass above not rot also?",
+      "ru": "Земля гниёт... я беру на себя всю вину, но разве трава наверху тоже не гниёт?",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "I wish to soothe your pain, but you must allow me to aid you- You must listen!",
+      "ru": "Я хочу облегчить твою боль, но ты должна позволить мне помочь тебе - ты должна меня услышать!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "What does this violence solve? Be calm, please!",
+      "ru": "Что решит это насилие? Пожалуйста, успокойся!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "<playername>, it won't budge... There's something in its mind rejecting me. Distract it- but don't approach! It will kill you if you get close. Just...be loud!",
+      "ru": "<playername>, не выходит... Что-то в её разуме меня не пускает. Отвлеки её - но не приближайся! Если подойдёшь, она тебя убьёт. Просто... шуми погромче!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "AIYEE! <playername>! Hold on in there!",
+      "ru": "АЙЙ! <playername>! Держись там!",
+      "speaker": "Lari",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Can you hear me?! I'll get her to...to...s-something! Spit you up, I don't know! Just...please, d-don't die!",
+      "ru": "Ты меня слышишь?! Я заставлю её... её... ч-что-нибудь сделать! Выплюнуть тебя, не знаю! Просто... пожалуйста, н-не умирай!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "W-We have... We have not laid a blow against you! It is not right for you to do the same!",
+      "ru": "М-мы ведь... мы же ни разу тебя не ударили! И ты не должна нападать на нас!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "You would wound and consume everything in your rage? Even knowing the consequences?",
+      "ru": "Ты правда готова калечить и пожирать всё вокруг в своей ярости? Даже понимая, к чему это приведёт?",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Your hunger cannot be sated with this fruitless destruction! I beg of you, let them out!",
+      "ru": "Твой голод не утолить этим бессмысленным разрушением! Прошу тебя, выпусти его!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "You know th- W-wait...where did you... AAAH!",
+      "ru": "Ты же знаешь, ч- П-подожди... куда ты... АААХ!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "...y-you... <playername>... I...y-you're still alright? I...*hic* I...",
+      "ru": "...т-ты... <playername>... Я... т-ты ещё жив? Я... *всхлип* Я...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "I tried...w-why does no one listen to me? Why won't a-anything change for me?",
+      "ru": "Я пыталась... п-почему меня никто не слушает? Почему у меня вообще н-ничего не меняется?",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "She...she's been eating dark parasites. They're wracking her insides and h-hurting her head...",
+      "ru": "Она... она ела тёмных паразитов. Они раздирают её изнутри, от них у неё г-голова раскалывается...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "I...i-it's so d-dark... I c-can't breathe... This...th-this can't be the end...",
+      "ru": "Я... т-тут так т-темно... Я н-не могу дышать... Это... э-это не может быть концом...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "I...n-no, I can't die in here... I-I'm needed still... You're n-needed still! I... I...",
+      "ru": "Я... н-нет, я не могу умереть здесь... Я е-ещё нужна... Ты т-тоже ещё нужен! Я... я...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "I n-need... Or... O-Or... C-Concentrate, Lari... You can do this...",
+      "ru": "Мне н-нужно... Ор... О-Ор... С-соберись, Лари... Ты сможешь...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "[Gavellian Spell]! [Gavellian Spell]!",
+      "ru": "[Гавелльское заклинание]! [Гавелльское заклинание]!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "LET US OUT! LET US OUT OF HERE! DON'T LET US DIE LIKE THIS! I'M BEGGING YOU, PLEASE!!",
+      "ru": "ВЫПУСТИ НАС! ВЫПУСТИ НАС ОТСЮДА! НЕ ДАЙ НАМ СДОХНУТЬ ТАК! Я УМОЛЯЮ, ПОЖАЛУЙСТА!!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "...I...oh no... It's...d-d... I... I j-just... I just w-wanted out... Ohhh...n-no...",
+      "ru": "...Я... о нет... Она... м-м... Я... я п-просто... я просто х-хотела выбраться... Ох... н-нет...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "...w-we're...leaving. I...I c-can't look at this any more...",
+      "ru": "...м-мы... уходим. Я... я б-больше не могу на это смотреть...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "...I... That's...m-my fault...",
+      "ru": "...Я... Это... м-моя вина...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "I'm...I'm so sorry, <playername>. If I'd...I don't... I don't even know what else I could have d-done...",
+      "ru": "Мне... мне так жаль, <playername>. Если бы я... Я не... я уже даже не знаю, что ещё м-могла сделать...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "There...it didn't feel like there was...anything left to it... But, if I'd just been quicker, then... Would it...would it even have made a difference?",
+      "ru": "Там... мне к-казалось, что в ней уже почти н-ничего не осталось... Но если бы я была быстрее... Это... это вообще что-то бы изменило?",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "...some savior I am... I need to be better, but what else even is there that...ugh, I'm going in circles...",
+      "ru": "...тоже мне спасительница... Мне нужно стать лучше, но что ещё я могу... уф, опять одно и то же...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Let's... Let's just leave...",
+      "ru": "Давай... Давай просто уйдём...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "...I...I can't believe this. This is...does destiny just hate me? What have I done to deserve this?!",
+      "ru": "...Я... я не могу в это поверить. Это... судьба что, просто ненавидит меня? Что я вообще такого сделала, чтобы заслужить это?!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "The Mother Wyrm laid eggs... Eggs infested with parasites! Every single one is going to be born berserk!!",
+      "ru": "Мать-вирм отложила яйца... Яйца, заражённые паразитами! Из каждого вылупится уже обезумевший детёныш!!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "You saw how strong the mother was...an infestation like this could cause the entire region of Gavel to collapse in a quake...",
+      "ru": "Ты сам видел, насколько сильна была мать... такое заражение может устроить землетрясение и обрушить целый регион Гавеля...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "They...they need to be stopped, but...I can't do it. I c-can't kill... I'm sorry, I just can't!",
+      "ru": "Их... их нужно остановить, но... я не смогу. Я н-не могу убивать... Прости, но я просто не могу!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Bring a group... Even Whelps can be a terror if they're enraged. Just...p-please, take care of this quickly.",
+      "ru": "Возьми с собой товарищей... Даже детёныши могут быть страшно опасны, если впадают в ярость. Просто... п-пожалуйста, разберись с этим как можно скорее.",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "You deserve the best... But that's more than I can give...so here. Take these. I'll move along.",
+      "ru": "Ты заслуживаешь лучшего... Но большего я дать не могу... так что вот. Возьми это. А я пойду дальше.",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "New Quest Started: The Worm Holes",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Червоточины",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find out what's going on at [-2039, 55, -5434]",
+      "ru": "Выяснить, что происходит [-2039, 55, -5434].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Go down the hole and look for what's causing this and return to Malo at [-2039, 55, -5434] with proof.",
+      "ru": "Спуститься в провал, выяснить причину происходящего и вернуться к Мало с доказательством [-2039, 55, -5434].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Look for Lari and ask what is going on at [-1982, 55, -5462]",
+      "ru": "Найти Лари и расспросить её о происходящем [-1982, 55, -5462].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Meet up with Lari at [-2037, 55, -5434]",
+      "ru": "Встретиться с Лари [-2037, 55, -5434].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Investigate the worm tunnels.",
+      "ru": "Исследовать туннели червей.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Fight the Grootslang with Lari",
+      "ru": "Сразиться с грутслангом вместе с Лари.",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

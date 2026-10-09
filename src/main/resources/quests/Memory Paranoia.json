@@ -1,0 +1,899 @@
+{
+  "quest": "Memory Paranoia",
+  "level": 67,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "memory-paranoia",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, a human? If I could beg your pardon a moment...could I talk to you about the mansion here?",
+      "ru": "О, человек? Прошу прощения... можно тебя на минутку? Я хотел бы поговорить с тобой об этом особняке.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "It was not always so dilapidated. It once stood tall, a monument to the family of Caritat, who constructed it from the ground up.",
+      "ru": "Он не всегда был такой развалюхой. Когда-то он стоял во всей красе, как памятник семье Каритат, которая возвела его с нуля.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "The Caritats were unlike any other. Uncharacteristically selfless and helpful. Their wealth was everyone's wealth as far as they were concerned.",
+      "ru": "Каритаты были не как все. На редкость бескорыстные и отзывчивые. Они считали, что их богатство принадлежит всем вокруг.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "But... Eventually... Erm, we're not entirely sure what happened, only rumours have surfaced over the years, but...things took a turn, shall we say.",
+      "ru": "Но... потом... эм, мы не знаем наверняка, что случилось. За эти годы ходило немало слухов, но... скажем так, всё изменилось к худшему.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Because, aah...how shall I put this... One day they were all...discovered dead. Murdered. By each other.",
+      "ru": "Потому что, эм... как бы это сказать... однажды их всех нашли... мёртвыми. Убитыми. Друг другом.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I am the last remaining descendant, Atisun Caritat. I was the only survivor of the... incident. I was only an infant when I was found by a passerby.",
+      "ru": "Я последний потомок этой семьи, Атесун Каритат. Единственный, кто пережил ту... трагедию. Когда меня нашёл прохожий, я был ещё младенцем.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Since, erm...since there was no one alive to report the incident, it wasn't discovered until days later when a traveller passing by took notice of the mansion.",
+      "ru": "Так как, эм... в живых не осталось никого, кто мог бы рассказать о случившемся, об этом узнали лишь через несколько дней, когда проходивший мимо путник обратил внимание на особняк.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I do not believe that my family simply went mad, but I do not know what happened. I want to know the truth. I think this mansion still holds the answers I'm looking for.",
+      "ru": "Я не верю, что моя семья просто взяла и сошла с ума, но и что именно произошло, я не знаю. Я хочу узнать правду. Думаю, этот особняк всё ещё хранит ответы.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Yet, I am...scared of this place. It is the ruins of the life I should have had. The spirits of the dead are still there...cursed. I need someone else to uncover my heritage.",
+      "ru": "Но я... боюсь этого места. Это руины той жизни, которая должна была быть моей. Духи умерших всё ещё там... проклятые. Мне нужен кто-то, кто узнает правду о моей семье.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Don't you worry, like my ancestors, I'm a generous man. If you help me, I will reward you handsomely. All you have to do, is go in there and find answers. I'm sure the past won't haunt us both.",
+      "ru": "Не переживай, я, как и мои предки, человек щедрый. Если поможешь мне, я хорошо заплачу. Нужно лишь зайти туда и найти ответы. Уверен, прошлое не станет преследовать нас обоих.",
+      "speaker": "Atisun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "This check is made out to a charity for a lot of emeralds.",
+      "ru": "Этот чек выписан в пользу благотворительной организации на немалую сумму изумрудов.",
+      "speaker": "Check",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "It's so nice that the Caritats are donating all of these supplies to the struggling people in the forest.",
+      "ru": "Как же здорово, что Каритаты отдают все эти припасы нуждающимся людям в лесу.",
+      "speaker": "Maid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "He seems to be very engrossed in his writing.",
+      "ru": "Похоже, он с головой ушёл в свои записи.",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "I've heard about weird things happening around the house. People are saying the mansion might be haunted!",
+      "ru": "Я слышала, что в доме происходят странные вещи. Люди болтают, будто в особняке завелись привидения!",
+      "speaker": "Maid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Ghosts? Preposterous! This mansion isn't haunted, don't believe those silly rumors!",
+      "ru": "Привидения? Чушь какая! Нет здесь никаких привидений, не верьте этим дурацким слухам!",
+      "speaker": "Servant",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "G-g-ghosts?",
+      "ru": "П-п-привидения?",
+      "speaker": "Timmy",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Mister Caritat is always writing in that book, always so intensely. I wonder what he is writing.",
+      "ru": "Мистер Каритат всё время что-то пишет в своей книге и так увлечён этим. Интересно, что он там пишет.",
+      "speaker": "Servant",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "He won't even tell me what he's writing.",
+      "ru": "Он даже мне не говорит, что именно пишет.",
+      "speaker": "Timmy",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I'll bet he's writing insults about us. He can't be as nice as he appears.",
+      "ru": "Спорю, он там пишет про нас всякие гадости. Не может же он быть таким добрым, каким кажется.",
+      "speaker": "Maid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I accidentally dropped my Library Key down the drain, do you think my dad will be angry?",
+      "ru": "Я случайно уронил ключ от библиотеки в слив, как думаешь, папа будет злиться?",
+      "speaker": "Timmy",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "No, Mister Caritat is very forgiving. I doubt he'd be upset, especially if it was an accident.",
+      "ru": "Да нет, мистер Каритат не держит зла. Вряд ли он рассердится, тем более если это вышло случайно.",
+      "speaker": "Maid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I still want to find the key though, do you know where I should look?",
+      "ru": "Но я всё равно хочу найти ключ. Не знаешь, где его искать?",
+      "speaker": "Timmy",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Well, the drainage pipes have probably taken the key to the basement in the southeast corner of the mansion by now, that's most likely where it is.",
+      "ru": "Ну, по трубам его, скорее всего, уже унесло в подвал в юго-восточном углу особняка. Там и поищи.",
+      "speaker": "Servant",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Page 1: Today was my first day as the butler for the Caritat family. They gave me quite a warm welcome. I think I'm going to like it here.",
+      "ru": "Страница 1: Сегодня я впервые вышел на службу дворецким к семье Каритат. Они приняли меня очень тепло. Кажется, мне тут понравится.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Page 2: The Caritats are as nice as people say. They're some of the kindest people I've ever met, let alone work for.",
+      "ru": "Страница 2: Каритаты и правда такие добрые, как о них говорят. Редко встретишь столь добрых людей, а уж служить у таких мне ещё не доводилось.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Page 3: That Timmy boy has been acting rather unusual lately... Uncharacteristically hostile. I wonder what's come over him.",
+      "ru": "Страница 3: Этот мальчик Тимми в последнее время ведёт себя очень странно... Непривычно агрессивно. Интересно, что на него нашло.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Page 4: I've been hearing strange noises at night. Scratching, and sometimes yelling...I do hope nothing bad is going on.",
+      "ru": "Страница 4: По ночам я слышу странные звуки. Скрежет, иногда крики... Очень надеюсь, что ничего плохого не происходит.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "You begin to experience visions of how this charred hole came to be...",
+      "ru": "У тебя перед глазами начинают всплывать видения того, как появилась эта обугленная дыра...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Timmy, is something bothering you? You have been acting so weird lately.",
+      "ru": "Тимми, тебя что-то мучает? В последнее время ты ведёшь себя очень странно.",
+      "speaker": "Mister Caritat",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "You cannot command me, mortal! You and all of your inferior species will bow to the darkness!",
+      "ru": "Ты не смеешь мной командовать, смертный! Ты и весь твой жалкий род склонитесь перед тьмой!",
+      "speaker": "Timmy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "I don't know what game you are playing, Timmy. But I will not stand for it any longer, snap out of it!",
+      "ru": "Я не знаю, во что ты играешь, Тимми. Но терпеть это дальше не собираюсь, очнись уже!",
+      "speaker": "Mister Caritat",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "You shall pay for your insolence, mortal!",
+      "ru": "Ты заплатишь за свою наглость, смертный!",
+      "speaker": "Timmy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Dark magic? What foul books have you been reading? And what's that in your hand?",
+      "ru": "Тёмная магия? Что за мерзкие книги ты читал? И что это у тебя в руке?",
+      "speaker": "Mister Caritat",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Casting spells with a black spoon? I'm going to get rid of this foul thing!",
+      "ru": "Колдовать чёрной ложкой? Я избавлюсь от этой мерзости!",
+      "speaker": "Mister Caritat",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "That is an item beyond you, mortal. Give it back to me this instant!",
+      "ru": "Тебе не понять силы этой вещи, смертный. Немедленно верни её мне!",
+      "speaker": "Timmy",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "What's this spoon doing in the fireplace? Maybe you should bring it back to the Kitchen to find out where it came from.",
+      "ru": "Что эта ложка делает в камине? Наверное, стоит отнести её обратно на кухню и узнать, откуда она вообще взялась.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Looks like there's a dinner party, and several residents of Gelibord have been invited! It appears Mr. Caritat is about to make an announcement.",
+      "ru": "Похоже, тут званый ужин, и приглашены несколько жителей Гелиборда! Кажется, мистер Каритат собирается что-то объявить.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Attention, attention everyone! I have an announcement I'd like to make!",
+      "ru": "Внимание, внимание, прошу минутку! Я хочу кое-что объявить!",
+      "speaker": "Mister Caritat",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "My son, Timothy, has just turned eighteen today.",
+      "ru": "Моему сыну Тимоти сегодня исполнилось восемнадцать.",
+      "speaker": "Mister Caritat",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Now, there have been a few slight hiccups over the years, but we've made it through mostly in one piece.",
+      "ru": "Да, за эти годы случались небольшие... неприятности, но мы их пережили почти без потерь.",
+      "speaker": "Mister Caritat",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "And I'd like to say, I'm very proud of him. To Timothy, a new man!",
+      "ru": "И я хочу сказать, что очень им горжусь. За Тимоти, вступившего во взрослую жизнь!",
+      "speaker": "Mister Caritat",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Thank you very much, Dad, and everyone here. Here's to more years of health-",
+      "ru": "Большое спасибо, папа, и всем вам. За долгие годы и крепкое здоровье-",
+      "speaker": "Timothy",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "There seems to be something happening in the kitchen...",
+      "ru": "Похоже, на кухне что-то происходит...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Oh my god... what is that thing?!",
+      "ru": "Боже мой... что это за штука?!",
+      "speaker": "Baker",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Everyone out, now! We can't fight these things!",
+      "ru": "Все вон, быстро! С этим мы не справимся!",
+      "speaker": "Chef",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "My god...what is wrong with this place? No matter what I do, what I try...",
+      "ru": "Боже... что не так с этим местом? Что бы я ни делал, что бы ни пробовал...",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "How was any of that even possible? What are we going to tell their families?",
+      "ru": "Как это вообще могло произойти? Что мы теперь скажем их семьям?",
+      "speaker": "Timothy",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "...Timothy, I'm going to ask you something, and I need you to answer me honestly. Were you...were you responsible for this?",
+      "ru": "...Тимоти, я сейчас спрошу тебя кое о чём, и мне нужен честный ответ. Это... это ты сделал?",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "No, of course not! I overcame that years ago, you know that, I can't believe you still suspect me of-",
+      "ru": "Нет, конечно нет! Я справился с этим ещё много лет назад, ты сам это знаешь, не могу поверить, что ты до сих пор подозреваешь меня в-",
+      "speaker": "Timothy",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Ah, sir, we did find something rather unusual in the kitchen that might interest you? Maybe?",
+      "ru": "Эм, сэр, мы нашли на кухне кое-что необычное. Возможно, вам будет интересно? Может быть?",
+      "speaker": "Servant",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "What- Out with it! What did you find?! Please, please tell me I'm wrong!!",
+      "ru": "Что- Говори уже! Что вы нашли?! Пожалуйста, пожалуйста, скажи, что я ошибаюсь!!",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "We found this charred-looking black spoon. I've worked here for years, and I've never seen any spoons of this style in the mansion.",
+      "ru": "Мы нашли вот эту чёрную ложку, будто обгоревшую. Я работаю здесь уже много лет и ни разу не видел в особняке ложек такого вида.",
+      "speaker": "Servant",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Wait, that spoon? I remember sneaking into your study that one time to get it, but how did it survive the fire?",
+      "ru": "Стой, эту ложку? Я помню, как однажды втихаря залез к тебе в кабинет и стащил её, но как она вообще пережила пожар?",
+      "speaker": "Timothy",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Wait, you got it from my STUDY?! You...you idiot! Do you have any idea what you stupidly, yet inadvertently have done?! You must NEVER go in my study!!",
+      "ru": "Погоди, ты взял её из моего КАБИНЕТА?! Ты... ты идиот! Ты вообще понимаешь, что по глупости натворил, пусть и не нарочно?! Тебе НИКОГДА нельзя туда входить!!",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Using the Study Key, you open the lock. You may now use this door.",
+      "ru": "Используя ключ от кабинета, ты открываешь замок. Теперь можешь пользоваться этой дверью.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Page 1: DEATH DEATH DEATH DEATH DEATH DEATH DEATH DEATH DEATH DEATH DEATH.",
+      "ru": "Страница 1: СМЕРТЬ СМЕРТЬ СМЕРТЬ СМЕРТЬ СМЕРТЬ СМЕРТЬ СМЕРТЬ СМЕРТЬ СМЕРТЬ СМЕРТЬ СМЕРТЬ.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Page 2: There is a dark power beyond our control within this mansion. There is no use trying to fight it.",
+      "ru": "Страница 2: Внутри этого особняка есть тёмная сила, неподвластная нам. Пытаться бороться с ней бесполезно.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Page 3: I felt like all of the skulls were watching me. I had to turn them all towards the fireplace.",
+      "ru": "Страница 3: Мне казалось, будто все эти черепа следят за мной. Пришлось развернуть их всех к камину.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "There doesn't seem to be anything of interest in this room, although Mr. Caritat has some odd obsessions...",
+      "ru": "В этой комнате, похоже, нет ничего интересного, хотя у мистера Каритата весьма странные пристрастия...",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "IT WHICH STARTED THE WAR SHALL RISE ONCE MORE. FROM THE REALM OF SHADOWS, DECEIT AND PAIN.",
+      "ru": "ТО, ЧТО НАЧАЛО ВОЙНУ, ПОДНИМЕТСЯ ВНОВЬ. ИЗ МИРА ТЕНЕЙ, ОБМАНА И БОЛИ.",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "FOREVER TRAPPED, FROM WHENCE IT CAME. THROUGH THE WEAK POINT BETWEEN REALMS IT. WILL. RISE. AGAIN!",
+      "ru": "НАВЕКИ ЗАПЕРТОЕ ТАМ, ОТКУДА ПРИШЛО. ЧЕРЕЗ СЛАБОЕ МЕСТО МЕЖ МИРАМИ ОНО. СНОВА. ПОДНИМЕТСЯ!",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Dear Anton, the chandelier fell in the main hall. Please fix it as soon as possible.",
+      "ru": "Дорогой Антон, люстра в главном зале упала. Пожалуйста, почини её как можно скорее.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Looks like this key belonged to Timmy. How long has this been here? You should probably bring it back to his bedroom.",
+      "ru": "Похоже, этот ключ принадлежал Тимми. И сколько же он тут пролежал? Наверное, стоит вернуть его в спальню.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Using Timmy's Bedroom Key, you open the lock. You may now use this door.",
+      "ru": "Используя ключ от спальни Тимми, ты открываешь замок. Теперь можешь пользоваться этой дверью.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Was that Timothy as a child? Must have been at an earlier time. Seems there's a hole where he scratched the wall, there might be something inside...",
+      "ru": "Это Тимоти в детстве? Значит, всё это было куда раньше. Похоже, там, где он расцарапал стену, есть дырка. Может, внутри что-то лежит...",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "How did the Master Bedroom key even get in here? No matter, you ought to get this over to the Master Bedroom.",
+      "ru": "И как ключ от хозяйской спальни вообще сюда попал? Ладно, неважно. Лучше отнести его туда, где ему место.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Using the Master Bedroom Key, you open the lock. You may now use this door.",
+      "ru": "Используя ключ от хозяйской спальни, ты открываешь замок. Теперь можешь пользоваться этой дверью.",
+      "speaker": "",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Harold, please...",
+      "ru": "Гарольд, прошу...",
+      "speaker": "Mrs. Caritat",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Stop this madness...",
+      "ru": "Хватит этого безумия...",
+      "speaker": "Mrs. Caritat",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Harold...?",
+      "ru": "Гарольд...?",
+      "speaker": "Mrs. Caritat",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "FROM THE SOILS OF DOOM THE SERVANT LAID",
+      "ru": "СЛУГА ИЗ ЗЕМЕЛЬ ГИБЕЛИ",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "BREAK THROUGH THE REALMS TO THE LAND OF TRADE.",
+      "ru": "ПРОРВЁТСЯ СКВОЗЬ МИРЫ В ЗЕМЛЮ ТОРГА.",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "CORRUPT THE WORLD WITH SEEDS OF PAIN",
+      "ru": "ЗАРАЗИТ МИР СЕМЕНАМИ БОЛИ,",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "SO THAT HE...",
+      "ru": "ЧТОБЫ ОН...",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "...MAY RISE AGAIN!",
+      "ru": "...СМОГ ВОССТАТЬ ВНОВЬ!",
+      "speaker": "Mr. Caritat",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "The entire mansion is on fire! The only exit is through the large door at the back!",
+      "ru": "Весь особняк в огне! Единственный выход - через большую дверь сзади!",
+      "speaker": "",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Hey! Human! Are you alright?! Please, calm down, quit flailing around, you're safe!",
+      "ru": "Эй! Человек! Ты в порядке?! Пожалуйста, успокойся, не дёргайся, ты в безопасности!",
+      "speaker": "Atisun",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Oh thank goodness, you're back to us. I was so worried... er, you might not recall. Let me explain...",
+      "ru": "Ох, слава богу, ты очнулся. Я так переживал... эм, ты, наверное, ничего не помнишь. Сейчас объясню...",
+      "speaker": "Atisun",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "It... it seemed like you were possessed. You stood in the hall for... I don't know how long. I couldn't snap you out of it, no matter what I tried.",
+      "ru": "Это... выглядело так, будто в тебя кто-то вселился. Ты стоял посреди зала... я даже не знаю сколько. Я как ни пытался, не мог привести тебя в чувство.",
+      "speaker": "Atisun",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Voices that weren't yours, you spoke out their moments and thoughts. The maids, my father... everyone. I... you said what I needed to hear.",
+      "ru": "Ты говорил чужими голосами, повторял их слова и мысли. Горничных, моего отца... всех. Я... ты сказал то, что мне нужно было услышать.",
+      "speaker": "Atisun",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "My great grandfather, wanting to prove to everyone that the forest was still good, built his mansion atop the very spot that was acclaimed to be the cause of the Decay.",
+      "ru": "Мой прадед хотел доказать всем, что с лесом всё ещё всё в порядке, и построил особняк прямо на том месте, которое считали источником Гнили.",
+      "speaker": "Atisun",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "And what emerged from that spot? Who knows... but, whatever it was... the darkness must have lingered, and drove them all to madness.",
+      "ru": "И что именно поднялось из того места? Кто его знает... но что бы это ни было... тьма там явно осталась и в итоге свела их всех с ума.",
+      "speaker": "Atisun",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "I'm sorry you went through that ordeal... I would suggest seeing a healer as soon as possible.",
+      "ru": "Прости, что тебе пришлось через всё это пройти... Я бы на твоём месте как можно скорее сходил к лекарю.",
+      "speaker": "Atisun",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "I will make sure no one enters this house again. It is cursed. Thank you for helping me.",
+      "ru": "Я прослежу, чтобы в этот дом больше никто не входил. Он проклят. Спасибо тебе за помощь.",
+      "speaker": "Atisun",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Page 5: I don't even know how this happened, but Timmy performed dark magic. He shot a fireball! The north wall of the library was wrecked!",
+      "ru": "Страница 5: Я даже не знаю, как это вышло, но Тимми сотворил тёмную магию. Он выпустил огненный шар! Северная стена библиотеки разрушена!",
+      "speaker": "",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Please, everyone stay calm. I'm sure it's just the cooks spilling something...",
+      "ru": "Прошу, все сохраняйте спокойствие. Уверен, это просто повара что-то пролили...",
+      "speaker": "Мистер Каритат",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Looks like you've fallen into the basement. There must be a way out from here...",
+      "ru": "Похоже, ты провалился в подвал. Отсюда должен быть выход...",
+      "speaker": "",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "No, no! I said three feet left, you absolute...",
+      "ru": "Нет, нет! Я сказал на три фута левее, ты просто...",
+      "speaker": "Каритат-старший",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Mr. Caritat! What are you doing?!",
+      "ru": "Мистер Каритат! Что вы делаете?!",
+      "speaker": "Лари",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "What are you doing here, Elf? You need proper equipment to be on this site-",
+      "ru": "А ты что здесь делаешь, эльф? На этой стройке нельзя находиться без подходящего снаряжения-",
+      "speaker": "Каритат-старший",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Mr Caritat, you can't build a house here!",
+      "ru": "Мистер Каритат, вы не можете строить здесь дом!",
+      "speaker": "Лари",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "I can do whatever I like here, I bought the land.",
+      "ru": "Я могу делать здесь всё, что мне угодно, я купил эту землю.",
+      "speaker": "Каритат-старший",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "You don't understand! This is where it came... this is where the darkness invaded!",
+      "ru": "Вы не понимаете! Именно отсюда оно пришло... именно здесь вторглась тьма!",
+      "speaker": "Лари",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Don't be preposterous. I'm building here to show the people that there's simply nothing to worry about!",
+      "ru": "Не говори нелепостей. Я строю здесь, чтобы показать людям, что попросту не о чем беспокоиться!",
+      "speaker": "Каритат-старший",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Besides, even if there was something, now that Dullahan's gone, it'll go too.",
+      "ru": "К тому же, даже если что-то и было, теперь, когда Дуллахана не стало, оно тоже исчезнет.",
+      "speaker": "Каритат-старший",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "What?! He wasn't the one causing all this, it was-",
+      "ru": "Что?! Не он был причиной всего этого, это был-",
+      "speaker": "Лари",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Well of course you would think that. You and him had some... history, didn't you?",
+      "ru": "Ну конечно, иначе ты и не скажешь. У вас с ним ведь была кое-какая... история, не так ли?",
+      "speaker": "Каритат-старший",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "I... Please, Mr Caritat. You don't understand what you're doing...",
+      "ru": "Я... Прошу вас, мистер Каритат. Вы не понимаете, что творите...",
+      "speaker": "Лари",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "I am securing some prime real-estate right here. Oh... Perhaps that is why you're here?",
+      "ru": "Я присмотрел здесь превосходный участок. О... Может, потому ты и явилась?",
+      "speaker": "Каритат-старший",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "What? No, I-",
+      "ru": "Что? Нет, я-",
+      "speaker": "Лари",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Trying to expand elven territories, are you?! Well, I'll be having none of that! Leave, before I have my men escort you!",
+      "ru": "Пытаешься расширить эльфийские территории, да?! Что ж, этого я не потерплю! Уходи, пока я не велел своим людям тебя выпроводить!",
+      "speaker": "Каритат-старший",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "My father tried to continue the traditions... but all of it was burned to ashes. I must consider myself lucky that I did not fall with them.",
+      "ru": "Мой отец пытался сохранить наши традиции... но всё сгорело дотла. Мне повезло, что я не погиб вместе с ними.",
+      "speaker": "Атисун",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "(opening the Library Door)",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "It appears that all of the pages have been torn out...",
+      "ru": "Похоже, все страницы вырваны...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "New Quest Started: Memory Paranoia",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Паранойя памяти",
+      "speaker": "",
+      "stage": "Stage 25"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Atisun.",
+      "ru": "Поговорить с Атисуном.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Enter the Caritat Mansion.",
+      "ru": "Войти в особняк Каритат.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Learn the story of the Caritat Family.",
+      "ru": "Узнать историю семьи Каритат.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Enter the basement and recover the Library Key.",
+      "ru": "Спуститься в подвал и забрать ключ от библиотеки.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Enter the library of Caritat Mansion.",
+      "ru": "Войти в библиотеку особняка Каритат.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Enter the hole in the wall.",
+      "ru": "Пройти в отверстие в стене.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Return the spoon to the Kitchen.",
+      "ru": "Вернуть ложку на кухню.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Listen to Mr. Caritat's announcement.",
+      "ru": "Выслушать обращение мистера Каритата.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Enter the Kitchen.",
+      "ru": "Войти на кухню.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Exit the Kitchen.",
+      "ru": "Выйти из кухни.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Speak to people who haven't fled from the disaster.",
+      "ru": "Поговорить с теми, кто ещё не бежал от бедствия.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Unlock the Study.",
+      "ru": "Открыть кабинет.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Enter the Study",
+      "ru": "Войти в кабинет.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Leave the Study.",
+      "ru": "Выйти из кабинета.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Speak with the Possessed Mr. Caritat.",
+      "ru": "Поговорить с одержимым мистером Каритатом.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Leave the Study.",
+      "ru": "Выйти из кабинета.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Bring the key to Timmy's bedroom.",
+      "ru": "Принести ключ к спальне Тимми.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Enter Timmy’s bedroom.",
+      "ru": "Войти в спальню Тимми.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Search Timmy's bedroom.",
+      "ru": "Осмотреть спальню Тимми.",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "objective-0020",
+      "en": "Bring the key to the Master Bedroom.",
+      "ru": "Принести ключ к хозяйской спальне.",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "objective-0021",
+      "en": "Enter the Master Bedroom.",
+      "ru": "Войти в хозяйскую спальню.",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-0022",
+      "en": "Escape the flaming mansion through the back door.",
+      "ru": "Сбежать из горящего особняка через заднюю дверь.",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "objective-0023",
+      "en": "Navigate the Caritat's basement.",
+      "ru": "Найти путь через подвал семьи Каритат.",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "objective-0024",
+      "en": "Escape through the mysterious rift.",
+      "ru": "Сбежать через загадочный разлом.",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "objective-0025",
+      "en": "Speak to Atisun.",
+      "ru": "Поговорить с Атисуном.",
+      "stage": "Stage 25"
+    }
+  ],
+  "choices": []
+}

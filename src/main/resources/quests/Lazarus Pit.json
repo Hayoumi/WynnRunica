@@ -1,0 +1,423 @@
+{
+  "quest": "Lazarus Pit",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "lazarus-pit",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ah, one of you adventurin' types, huh? We see a lot of you around here... Going in and out as you please. Must be a nice life.",
+      "ru": "А, один из этих ваших искателей приключений, да? Вас тут много шляется... ходите туда-сюда как захотите. Неплохая, наверное, жизнь.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Though, if you could spare some time, the town could use you-",
+      "ru": "Хотя, если у тебя найдётся минутка, городу бы помощь не помешала-",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Wait, already?! It's only been a day since last! How insatiable are they...?",
+      "ru": "Стой, уже опять?! Да всего день прошёл с прошлого раза! Да сколько ж им надо...?",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "THE UNDEAD HAVE OVERWHELMED THE GOLEMS! EVERY CITIZEN FOR THEMSELVES!!",
+      "ru": "НЕЖИТЬ СМЯЛА ГОЛЕМОВ! ВСЕ ЖИТЕЛИ - СПАСАЙТЕСЬ КТО МОЖЕТ!!",
+      "speaker": "Gelibord Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "This is what I was talking about! We need your help with this! You Wynn folk are good at killing zombies, right?!",
+      "ru": "Вот об этом я и говорил! Нам нужна твоя помощь! Вы, жители Винна, хорошо умеете расправляться с зомби, верно?!",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "We need help with this! Defend the town with us!",
+      "ru": "Нам нужна помощь! Защити город вместе с нами!",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "The horde's retreating, but we have one citizen dead! Regroup at the square and prepare the pyres!",
+      "ru": "Орда отступает, но у нас один погибший житель! Все на площадь и готовьте погребальные костры!",
+      "speaker": "Gelibord Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Hey! Over here, you alright? Come talk to me, I can explain what just happened.",
+      "ru": "Эй! Сюда, ты цел? Подойди, я объясню, что тут вообще сейчас было.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Phew. That was a smaller horde, thankfully... Still, good thing you were there. That could have been worse.",
+      "ru": "Фух. На этот раз орда была поменьше, к счастью... Но хорошо, что ты оказался рядом. Всё могло закончиться куда хуже.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Still, c'mon now... We have to burn the bodies. Can't leave the job half-done.",
+      "ru": "Ладно, идём... Надо сжечь тела. Нельзя оставлять дело на полпути.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "It's a bit sacrilegious, but necessary to do right now- otherwise they just keep coming back, like they do across the ridge in Kander.",
+      "ru": "Да, это немного кощунственно, но сейчас необходимо - иначе они просто поднимаются снова, как там за хребтом, в Кандере.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "The ones around here all come up from the river, though, and since it runs right through the town, well... You can see the problem.",
+      "ru": "Но здешние мертвецы все поднимаются из реки. А она течёт прямо через город, так что... сам понимаешь, в чём беда.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Since we don't live in a reeking, pockmarked plain, we have to burn the bodies so any dead don't turn right around against us.",
+      "ru": "Мы ведь живём не на зловонной равнине, изрытой ямами. Приходится сжигать тела, чтобы мёртвые не восстали против нас.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Say your goodbyes, all. Irahe will be missed. Step away from the pyre!",
+      "ru": "Попрощайтесь все. Ирахе нам будет не хватать. Отойдите от костра!",
+      "speaker": "Gelibord Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Some conspiracy theorists think that the Lazarus Pit is the issue. It's an urban legend, a well of water that can revive the dead.",
+      "ru": "Некоторые любители теорий заговора считают, что во всём виноват Лазарев колодец. Такая местная байка - колодец с водой, способной оживлять мёртвых.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Supposing that it's real, it would make some sense, at least- If it started feeding into the river or water tables, then we'd get the current goings-on.",
+      "ru": "Если он и правда существует, в этом хотя бы есть логика. Если его вода начала попадать в реку или в подземные воды, вот тебе и нынешний бардак.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Of course, no one knows where it is, since it's just rumors, but there's supposedly an \"Order\" of pit-keepers. Conveniently long dead, and buried in that small graveyard just north of here.",
+      "ru": "Конечно, никто не знает, где он находится, потому что всё это одни слухи. Но, говорят, существовал некий \"Орден\" хранителей колодца. Очень удобно, что они давно померли и похоронены на маленьком кладбище к северу отсюда.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "It's... probably just Referick having made the rounds to any drunk who would listen a while back, but it's also our only shot. If you could give it a search, and a yay or nay?",
+      "ru": "Скорее всего... это просто Реферик когда-то пересказывал свои бредни всем пьяницам, готовым слушать. Но других зацепок у нас нет. Можешь поискать и сказать, правда это или нет?",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I'll stay back at the town square, in case the undead attack again. Give me a shout if you find something you aren't sure about.",
+      "ru": "Я останусь на площади, вдруг нежить снова попрёт. Если найдёшь что-то непонятное, дай знать.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Have you checked out that small graveyard north of here yet? Remember, you're looking for any clues about that Lazarus Pit \"Order.\"",
+      "ru": "Ты уже проверил то маленькое кладбище к северу отсюда? Напоминаю, ищешь любые зацепки про тот самый \"Орден\" Лазарева колодца.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "It looks like the revived mage dropped some kind of talisman...",
+      "ru": "Похоже, оживший маг выронил какой-то талисман...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Oh, you found something? Well color me shocked that there was any stock to Referick's ranting...",
+      "ru": "О, ты что-то нашёл? Ну надо же, а я уже и не думал, что в болтовне Реферика вообще есть хоть капля правды...",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Chapel of an ancient order? There's a chapel just northwest of here. I'd say investigate that! I have to stick around here in case of another attack, but...",
+      "ru": "Часовня древнего ордена? Тут к северо-западу как раз есть часовня. Думаю, стоит её проверить! Я бы и сам пошёл, но мне надо оставаться здесь на случай новой атаки...",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Any luck searching out that chapel yet? The coordinates ought to be in your content book, right?",
+      "ru": "Ну что, нашёл что-нибудь в той часовне? Координаты должны быть в твоей Книге контента, верно?",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Around the crypt, four graves there lie",
+      "ru": "У склепа четыре могилы стоят,",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Four tasks to solve, from those who have died.",
+      "ru": "Четыре задачи покойники хранят.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Bring them water of life anew",
+      "ru": "Водой жизни их снова оживи,",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "And the Pit of Youth will no longer elude.",
+      "ru": "И Колодец Юности сумеешь найти.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Ugh. And who put YOU in charge of waking me up? Where's Gwendolyn, my maid? Incompetents- she was supposed to be buried with me too!",
+      "ru": "Фу. И кто это ТЕБЯ назначил будить меня? Где Гвендолин, моя служанка? Бездарности - её вообще-то тоже должны были похоронить со мной!",
+      "speaker": "Lord Plaatic the Kind",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "What, you want to enter the crypt? Well, prove you're better than the funeral directors and do something right! The Ghastly Ghouls around here won't stop SCREAMING!",
+      "ru": "Что, хочешь попасть в склеп? Докажи, что ты лучше тех криворуких похоронщиков, и сделай хоть что-нибудь как следует! Эти жуткие гули никак не перестанут ОРАТЬ!",
+      "speaker": "Lord Plaatic the Kind",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "I want them gone! Get rid of, say, 10 Ghastly Ghouls. Then perhaps I'll give you the time of day, you strange, small-nosed lookyloo!",
+      "ru": "Я хочу, чтобы они исчезли! Убери, скажем, 10 Жутких Гулей. Тогда, возможно, я вообще соизволю с тобой говорить, ты, странный мелконосый зевака!",
+      "speaker": "Lord Plaatic the Kind",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Agh! Stop sneaking up on me! Have you killed those 10 Ghastly Ghouls I asked you to, yet?",
+      "ru": "Ай! Хватит ко мне подкрадываться! Ты уже убил тех 10 жутких гулей, о которых я просил, или нет?",
+      "speaker": "Lord Plaatic the Kind",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Ah, my favorite little weird-small-nosed-person! The graveyard is so lovely when it's quiet- you really did do a good job!",
+      "ru": "А, мой любимый странный маленький мелконос! Кладбище так прекрасно, когда тут тихо - ты и правда хорошо справился!",
+      "speaker": "Lord Plaatic the Kind",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "As important as I am, you must still check with the other graves, though you certainly have my blessing to enter.",
+      "ru": "Как бы я ни был важен, тебе всё равно придётся поговорить и с остальными могилами. Но моё благословение на вход у тебя есть.",
+      "speaker": "Lord Plaatic the Kind",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "My goodness! Ah, it feels good to stretch these old bones. It's not easy being cooped up in a coffin, you know.",
+      "ru": "Боже ж ты мой! Ах, как же приятно размять старые косточки. Знаешь ли, сидеть запертым в гробу - удовольствие так себе.",
+      "speaker": "Sir Pigglesworth the Thirty-Fifth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "You want to get into the crypt? I suppose I could give you a hand... figuratively, I mean. Still, need to see if you can be trusted and all...",
+      "ru": "Хочешь попасть в склеп? Пожалуй, я мог бы протянуть тебе руку помощи... В переносном смысле, конечно. Только сперва надо убедиться, что тебе можно доверять...",
+      "speaker": "Sir Pigglesworth the Thirty-Fifth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Oh, right! My dear husband gave me the most beautiful wedding band, but it became lost when I carked it. Some rude shadowy thing- See if anyone ever marries THEM!",
+      "ru": "Ах да! Мой дорогой муж подарил мне прекрасное обручальное кольцо, но после моей смерти оно пропало. Какая-то наглая теневая тварь... Посмотрим, кто согласится с НЕЙ под венец!",
+      "speaker": "Sir Pigglesworth the Thirty-Fifth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Bring it back, could you? I died around that old lich's tower to the east. Do that, and I'll be happy to give you my blessing!",
+      "ru": "Можешь вернуть его? Я умер возле той старой башни лича на востоке. Сделаешь это - и я с радостью дам тебе своё благословение!",
+      "speaker": "Sir Pigglesworth the Thirty-Fifth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Bring my wedding band back, could you? I died around that old lich's tower to the east. Do that, and I'll be happy to give you my blessing!",
+      "ru": "Верни мне моё обручальное кольцо, ладно? Я умер возле той старой башни лича на востоке. Сделаешь это - и моё благословение твоё!",
+      "speaker": "Sir Pigglesworth the Thirty-Fifth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Oh, you found it! Wonderful! Just pop it on that fingerbone right there... Ah, it fits even better on the other hand!",
+      "ru": "О, ты нашёл его! Чудесно! Надень его вон на ту кость пальца... Ах, на другой руке оно сидит даже лучше!",
+      "speaker": "Sir Pigglesworth the Thirty-Fifth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "The crypt, you say? I can offer my blessing to enter, but you'll need to check with the other tombs as well. Farewell!",
+      "ru": "В склеп, говоришь? Моё благословение на вход у тебя будет, но и с остальными могилами тоже надо разобраться. Бывай!",
+      "speaker": "Sir Pigglesworth the Thirty-Fifth",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I oughta deck you for waking me up!! Don't you realize it's RUDE to re-animate the long-dead corpse of a murderer when he's trying to get his beauty death?!",
+      "ru": "Да я бы тебе врезал за то, что разбудил!! Неужели не понимаешь, как это ГРУБО - оживлять давно мёртвого убийцу, когда тот наслаждается заслуженным мёртвым сном?!",
+      "speaker": "Uggword Pollywaggon the Murderous",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Greetings! Thank goodness, that dreary old tomb was simply awful. No furniture, no natural light, not even a lick of paint! So drab, the whole thing.",
+      "ru": "Приветствую! Слава богу, я выбрался из той унылой гробницы, она была просто отвратительна. Ни мебели, ни естественного света, даже краски нигде нет! Тоска смертная.",
+      "speaker": "Poclo Wabblebuff of Gelibord",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "What's that? You want to get into the crypt? Well, of course I can help, if you just do one teensy little thing for me?",
+      "ru": "Что такое? Хочешь попасть в склеп? Ну конечно, я могу помочь, если ты сделаешь для меня одну маааленькую вещь.",
+      "speaker": "Poclo Wabblebuff of Gelibord",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Could you feed my cat for me? I know Mrs. Fluffles must be so lonely after all these years. My old house is just south of here, over at [-1105, 42, -5381], just pop some food down for her? Thank you!",
+      "ru": "Не мог бы ты покормить мою кошку? Уверен, миссис Флаффлс так одиноко все эти годы. Мой старый дом прямо к югу отсюда, вон там [-1105, 42, -5381], просто оставь ей немного еды, ладно? Спасибо!",
+      "speaker": "Poclo Wabblebuff of Gelibord",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Please, kind adventurer! Feed Mrs. Fluffles for me. I'm sure she's just so lonely, in that big old house at [-1105, 42, -5381]",
+      "ru": "Пожалуйста, добрый искатель приключений! Покорми миссис Флаффлс за меня. Уверен, ей ужасно одиноко в том большом старом доме на [-1105, 42, -5381]",
+      "speaker": "Poclo Wabblebuff of Gelibord",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Use the Lazarus Water on Mrs. Fluffles",
+      "ru": "Использовать воду Лазаря на миссис Флаффлс",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Leave her be",
+      "ru": "Оставить её в покое",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "So, is Mrs. Fluffles doing alright without me? Oh, I bet she was so affectionate, always such a softie!",
+      "ru": "Ну что, миссис Флаффлс без меня в порядке? Ох, наверняка она была такой ласковой! Всегда была милашкой!",
+      "speaker": "Poclo Wabblebuff of Gelibord",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "[She's fine]",
+      "ru": "[С ней всё хорошо]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "[She's dead]",
+      "ru": "[Она мертва]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "... the Lazarus Pi... said to bring back the dead.",
+      "ru": "... Лазарев Колод... как говорят, возвращает мёртвых.",
+      "speaker": "Old Book",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Be warned, traveller, th... not truly alive agai... were before.",
+      "ru": "Будь осторожен, путник, они... не возвращаются по-настоящему жи... такими, как были раньше.",
+      "speaker": "Old Book",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "... In times of great need, one can find... at [-957, 47, -5438].",
+      "ru": "... Во времена великой нужды можно найти... на [-957, 47, -5438].",
+      "speaker": "Old Book",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "But know this... use for greed or self-ga... result in... worse than death.",
+      "ru": "Но знай... если из жадности или ради выг... последствия... хуже смерти.",
+      "speaker": "Old Book",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Ah, you're back! We were getting a tad worried about you. Were you able to figure anything out in the chapel there?",
+      "ru": "А, ты вернулся! Мы тут уже начали немного переживать. Ну что, удалось что-нибудь выяснить в той часовне?",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Wait, you found the Lazarus Pit? AND blocked the flow into the river? Grook feathers you humans work quick! It's only been a few hours!",
+      "ru": "Погоди, ты нашёл Лазарев колодец? И перекрыл поток его воды в реку? Перья грука, ну и быстро же вы, люди, работаете! Прошло всего несколько часов!",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Heck, I gotta pitch in and compensate you for that hard work! I know we're not the richest, but I hope you'll accept this...other way of paying, too!",
+      "ru": "Чёрт, надо и мне как-то отблагодарить тебя за такую работу! Мы, конечно, не самые богатые, но надеюсь, ты примешь и вот такую... немного другую оплату тоже!",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "New Quest Started: Lazarus Pit",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Лазарев колодец",
+      "speaker": "",
+      "stage": "Stage 1"
+    }
+  ],
+  "choices": [],
+  "objectives": []
+}

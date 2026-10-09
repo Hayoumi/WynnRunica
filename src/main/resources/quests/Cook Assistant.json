@@ -1,0 +1,163 @@
+{
+  "quest": "Cook Assistant",
+  "level": 3,
+  "difficulty": "Easy",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "cook-assistant",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "I can't believe what is happening to me...",
+      "ru": "Не могу поверить, что со мной происходит.",
+      "speaker": "The Cook",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "The King ordered me to bake cakes for all those new recruits!",
+      "ru": "Король приказал мне испечь торты для всех этих новобранцев!",
+      "speaker": "The Cook",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Unfortunately, a Grook took my last cake, and I ran out of ingredients!",
+      "ru": "К несчастью, один Грук украл мой последний торт, а ингредиенты у меня закончились!",
+      "speaker": "The Cook",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Now how can you help...",
+      "ru": "Так, чем бы ты мог помочь...",
+      "speaker": "The Cook",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Wait! That's the Grook! Go chase it down and get my cake back!",
+      "ru": "Стой! Это Грук! Скорее, догони его и верни мой торт!",
+      "speaker": "The Cook",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "The Grook got away!",
+      "ru": "Грук сбежал!",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "What are you doing? Go after the Grook...",
+      "ru": "Ты чего стоишь? Беги за Груком...",
+      "speaker": "The Cook",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "It got away!",
+      "ru": "Он сбежал!",
+      "speaker": "The Cook",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Well, I guess you are going to have to help me find the ingredients and bake another...",
+      "ru": "Что ж, похоже, тебе придётся помочь мне найти ингредиенты и испечь ещё один...",
+      "speaker": "The Cook",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "There he is again! After him!",
+      "ru": "Вот он опять! За ним!",
+      "speaker": "The Cook",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Great! You got the cake!",
+      "ru": "Отлично! Ты вернул торт!",
+      "speaker": "The Cook",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "I can't thank you enough! Here, take these emeralds and armour for all your trouble.",
+      "ru": "Даже не знаю, как тебя отблагодарить! Держи эти изумруды и броню за помощь.",
+      "speaker": "The Cook",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "You should explore around to become stronger. I hear there might be work to do in Nivla Woods.",
+      "ru": "Походи по окрестностям, набирайся сил. Слышал, в лесу Нивла может найтись работа.",
+      "speaker": "The Cook",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "New Quest Started: Cook Assistant",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Помощник повара",
+      "speaker": "добито по логу захвата",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I can't believe what is happening to me.",
+      "ru": "Поверить не могу, что со мной творится.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Now can you help...",
+      "ru": "Так поможешь мне...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "That's the Grook! Go chase it down and get my cake back!",
+      "ru": "Вон он, Грук! Догони его и верни мой торт!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to the Cook in Ragni at [-854, 67, -1563].",
+      "ru": "Поговорить с поваром в Рагни [-854, 67, -1563].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Follow the pesky Grook.",
+      "ru": "Догнать назойливого грука.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "The Grook got away! Return to the Cook at [-854, 67, -1563] to figure out what to do.",
+      "ru": "Грук удрал! Вернуться к повару и решить, что делать дальше [-854, 67, -1563].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find out where the Grook flew up to at [-809, 89, -1890].",
+      "ru": "Выяснить, куда улетел грук [-809, 89, -1890].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Return to the cook at [-854, 67, -1563]. Use a Scroll to get there faster.",
+      "ru": "Вернуться к повару. Свиток поможет добраться быстрее [-854, 67, -1563].",
+      "stage": "Stage 4"
+    }
+  ],
+  "choices": []
+}

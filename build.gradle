@@ -17,6 +17,7 @@ repositories {
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
+    maven { url = "https://maven.terraformersmc.com/releases/" }
 }
 
 dependencies {
@@ -26,6 +27,7 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    modCompileOnly "com.terraformersmc:modmenu:${project.modmenu_version}"
 }
 
 processResources {
@@ -64,6 +66,53 @@ java {
     withSourcesJar()
 }
 
+sourceSets {
+    marqueeTest {
+        compileClasspath += sourceSets.main.output + sourceSets.main.compileClasspath
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
+tasks.register('testChoiceMarquee', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath
+    mainClass = 'com.WynnRunica.ChoiceMarqueeTest'
+}
+
+check.dependsOn testChoiceMarquee
+
+tasks.register('testDialogueReveal', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath
+    mainClass = 'com.WynnRunica.DialogueRevealControllerTest'
+}
+
+check.dependsOn testDialogueReveal
+
+tasks.register('testChatBadge', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.ChatBadgeFormatterTest'
+}
+
+check.dependsOn testChatBadge
+
+tasks.register('testNpcCaptureFilter', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath
+    mainClass = 'com.WynnRunica.NpcCaptureFilterTest'
+}
+
+check.dependsOn testNpcCaptureFilter
+
+tasks.register('testSettingsLayout', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath
+    mainClass = 'com.WynnRunica.SettingsLayoutTest'
+}
+
+check.dependsOn testSettingsLayout
+
 jar {
     from("LICENSE") {
         rename { "${it}_${project.archives_base_name}" }
@@ -86,4 +135,74 @@ publishing {
         // The repositories here will be used for publishing your artifact, not for
         // retrieving dependencies.
     }
+}
+
+tasks.register('testServerNotifications', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.ChatMessageClassifierTest'
+}
+check.dependsOn testServerNotifications
+
+tasks.register('testChatCatalog', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.ChatMessageCatalogTest'
+}
+check.dependsOn testChatCatalog
+
+tasks.register('testNpcNameplates', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.NpcNameplateTest'
+}
+check.dependsOn testNpcNameplates
+
+tasks.register('testTranslationCatalog', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.TranslationCatalogTest'
+}
+check.dependsOn testTranslationCatalog
+
+// Проверка вёрстки подсказок на захватах из игры, без запуска игры. В сборку не входит.
+tasks.register('checkTooltipLayout', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.TooltipLayoutCheck'
+    // Свежие подсказки лежат в хабе: fignya/WynnRunica-tools/pull_hub_tooltips.sh выгружает их в этот файл.
+    args = [project.findProperty('captures') ?: '../fignya/tooltip-captures/hub-snapshots.jsonl',
+            '../fignya/WynnRunica-tools/font-widths.json',
+            project.findProperty('only') ?: '',
+            'E:/Program Files/Modrinth/profiles/World of Wynncraft/config/WynnRunica']
+}
+
+tasks.register('testTooltipNumberColors', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.TooltipNumberColorsTest'
+}
+check.dependsOn testTooltipNumberColors
+
+tasks.register('testTooltipStyle', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.TooltipStyleTest'
+}
+check.dependsOn testTooltipStyle
+
+tasks.register('testTranslationUpdater', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.TranslationUpdaterTest'
+}
+check.dependsOn testTranslationUpdater
+
+// Оценка объёма снимков подсказок по правилам мода. В сборку не входит.
+tasks.register('checkSnapshotVolume', JavaExec) {
+    dependsOn marqueeTestClasses
+    classpath = sourceSets.marqueeTest.runtimeClasspath + sourceSets.main.compileClasspath
+    mainClass = 'com.WynnRunica.SnapshotVolumeCheck'
+    args = ['../fignya/tooltip-captures/hub-snapshots.jsonl',
+            'E:/Program Files/Modrinth/profiles/World of Wynncraft/config/WynnRunica']
 }

@@ -1,0 +1,1282 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-menu-fields",
+  "scopes": [
+    {
+      "id": "hub-fields-c3846d8e23f4ea1c",
+      "match": {
+        "title": "<em><em> Hanqiru",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em> Hanqiru",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Total Lv: §f<num>",
+          "ru": "§7Общий Ур.: §f<num>"
+        },
+        {
+          "id": "line-002",
+          "en": "§7Combat Lv: §f<num>",
+          "ru": "§7Боевой Ур.: §f<num>"
+        },
+        {
+          "id": "line-003",
+          "en": "§7XP: §f<num>%",
+          "ru": "§7Опыт: §f<num>%"
+        },
+        {
+          "id": "line-004",
+          "en": "§dIdentifications:",
+          "ru": "§dХарактеристики:"
+        },
+        {
+          "id": "line-005",
+          "en": "<em>Page <num>",
+          "ru": "<em> §fСтраница <num>"
+        },
+        {
+          "id": "line-006",
+          "en": "§7§4❤ Effective Health: §f<num>",
+          "ru": "§7§4❤ Эффективное Здоровье: §f<num>"
+        },
+        {
+          "id": "line-007",
+          "en": "§aEnabled Gambits:",
+          "ru": "§aВключённые Гамбиты:"
+        },
+        {
+          "id": "hub-fields-bdd6bd34e917f8a7",
+          "en": "§7Class: §fKnight",
+          "ru": "§7Класс: §fРыцарь"
+        },
+        {
+          "id": "hub-fields-bda24ed8b928a865",
+          "en": "§7Class: §fHunter",
+          "ru": "§7Класс: §fОхотник"
+        },
+        {
+          "id": "hub-fields-c356f71d349a295d",
+          "en": "§7Class: §fDark Wizard",
+          "ru": "§7Класс: §fТёмный Маг"
+        },
+        {
+          "id": "hub-fields-a8b0ef50614d6bfb",
+          "en": "§7Class: §fNinja",
+          "ru": "§7Класс: §fНиндзя"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-29a3ee107ec7f40d",
+      "match": {
+        "title": "§a§lAttack for free",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lAttack for free",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-29a3ee107ec7f40d",
+          "en": "§a§lAttack for free",
+          "ru": "§a§lБесплатная атака"
+        },
+        {
+          "id": "hub-fields-ac99a307e46386ba",
+          "en": "§7Territory Defences: §aVery Low",
+          "ru": "§7Защита территории: §aОчень низкая"
+        },
+        {
+          "id": "hub-fields-a0e671b00648f580",
+          "en": "§7✦ Treasury: §6Low",
+          "ru": "§7✦ Казна: §6Мало"
+        },
+        {
+          "id": "line-c8707b578163cf57",
+          "en": "§8A higher treasury will",
+          "ru": "§8Чем больше казна,"
+        },
+        {
+          "id": "line-c5ecb2b6c04c3d18",
+          "en": "§8give more territory",
+          "ru": "§8тем больше ресурсов"
+        },
+        {
+          "id": "line-156afc8b33941cb4",
+          "en": "§8resources upon capture",
+          "ru": "§8вы получите при захвате"
+        },
+        {
+          "id": "line-80b8cc9282a1c9d7",
+          "en": "§7Price: §a✔§f Free",
+          "ru": "§7Цена: §a✔§f Бесплатно"
+        },
+        {
+          "id": "line-4f8dacf965819bab",
+          "en": "§7Time to Start: §f<num>m",
+          "ru": "§7До начала: §f§f<num>§f мин."
+        },
+        {
+          "id": "hub-fields-84c9c6653bff5429",
+          "en": "§7✦ Treasury: §cVery Low",
+          "ru": "§7✦ Казна: §cОчень мало"
+        },
+        {
+          "id": "hub-fields-1ec444b0ca714cf1",
+          "en": "§7Territory Defences: §eMedium",
+          "ru": "§7Защита территории: §eСредняя"
+        },
+        {
+          "id": "hub-fields-5f1067e4187c0fc5",
+          "en": "§7Territory Defences: §aLow",
+          "ru": "§7Защита территории: §aНизкая"
+        },
+        {
+          "id": "hub-fields-fa88bed8e65efd82",
+          "en": "§7Territory Defences: §cHigh",
+          "ru": "§7Защита территории: §cВысокая"
+        },
+        {
+          "id": "hub-fields-05de5f6f0d3c635b",
+          "en": "§7Territory Defences: §cVery High",
+          "ru": "§7Защита территории: §cОчень высокая"
+        },
+        {
+          "id": "hub-fields-769831f9cb153a6d",
+          "en": "§7✦ Treasury: §eMedium",
+          "ru": "§7✦ Казна: §eСредне"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-28ee0856b7c1e733",
+      "match": {
+        "title": "Wave Emote",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "Wave Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-28ee0856b7c1e733",
+          "en": "Wave Emote",
+          "ru": ""
+        },
+        {
+          "id": "line-097b787de3a091d8",
+          "en": "Play the wave emote and say",
+          "ru": "Помашите рукой, чтобы"
+        },
+        {
+          "id": "line-2cf24dba5fb0a30e",
+          "en": "hello",
+          "ru": "поприветствовать других"
+        },
+        {
+          "id": "hub-fields-5d92a8c11b6d4bb6",
+          "en": "§7Command: /emote wave",
+          "ru": "§7§#55FF55Команда: §#AAAAAA/emote §#FFFFFFwave"
+        },
+        {
+          "id": "line-481579838cc90b71",
+          "en": "Must be touching ground",
+          "ru": "Нужно стоять на земле"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-ed16e942257d3eac",
+      "match": {
+        "title": "Knockout Emote",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "Knockout Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-ed16e942257d3eac",
+          "en": "Knockout Emote",
+          "ru": ""
+        },
+        {
+          "id": "line-15b2b061ced35ca2",
+          "en": "Play the knockout emote to",
+          "ru": "Покажите эмоцию нокаута:"
+        },
+        {
+          "id": "line-c9a14900b2725c14",
+          "en": "see stars",
+          "ru": "искры из глаз!"
+        },
+        {
+          "id": "hub-fields-e7e49ae810c232b1",
+          "en": "§7Command: /emote knockout",
+          "ru": "§7§#55FF55Команда: §#AAAAAA/emote §#FFFFFFknockout"
+        },
+        {
+          "id": "line-481579838cc90b71",
+          "en": "Must be touching ground",
+          "ru": "Нужно стоять на земле"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-b5490b0ba8ff589e",
+      "match": {
+        "title": "2x Wave Emotes",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "2x Wave Emotes",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-fields-5d92a8c11b6d4bb6",
+          "en": "§7Command: /emote wave",
+          "ru": "§7§#55FF55Команда: §#AAAAAA/emote §#FFFFFFwave"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-404bf9fe35ca830f",
+      "match": {
+        "title": "Looking for Players..",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "Looking for Players..",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-404bf9fe35ca830f",
+          "en": "Looking for Players..",
+          "ru": "Поиск Игроков.."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-c617ae278d257402",
+          "en": "- <num> Raiding Experience",
+          "ru": "§b- §f<num> §7Рейдового Опыта"
+        },
+        {
+          "id": "line-a92ca4346994bf4b",
+          "en": "§eLooking for players..",
+          "ru": "Поиск игроков.."
+        },
+        {
+          "id": "line-cba496fe31debae0",
+          "en": "§7§e- §7Region: §fEU",
+          "ru": "§e- §7Регион: §fEU"
+        },
+        {
+          "id": "line-5edcf18fa8f93d26",
+          "en": "§7§e- §7Elapsed Time: §f<num>:<num>",
+          "ru": "§e- §7Прошло Времени: §f<num>:<num>"
+        },
+        {
+          "id": "hub-fields-3bb0709f36b3d3e8",
+          "en": "§7§e- §7Time Estimate: §bVery Fast",
+          "ru": "§7§e- §7Ожидание: §bОчень короткое"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        },
+        {
+          "id": "line-992aa46d29266b76",
+          "en": "- <num> Aspect Pulls",
+          "ru": "§#55FFFF-§#FFFFFF §#FFFFFF§#FFFFFF<num>§#FFFFFF§#FFFFFF §#AAAAAAПуллов Аспектов"
+        },
+        {
+          "id": "hub-lore-b3b5b24939d68233",
+          "en": "§7temporarily lock your",
+          "ru": "§7§rвременно блокируются"
+        },
+        {
+          "id": "hub-lore-95817832120dcc98",
+          "en": "§7equipment and potions",
+          "ru": "§7§rэкипировка и зелья"
+        },
+        {
+          "id": "hub-fields-dbd1e553754ed6ca",
+          "en": "§7§e- §7Time Estimate: §eMedium",
+          "ru": "§7§e- §7Ожидание: §eСреднее"
+        },
+        {
+          "id": "hub-fields-85075a219074e98f",
+          "en": "§7§e- §7Time Estimate: §aFast",
+          "ru": "§7§e- §7Ожидание: §aКороткое"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-29cc55c3dd1d4447",
+      "match": {
+        "title": "Looking for Players.",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "Looking for Players.",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-29cc55c3dd1d4447",
+          "en": "Looking for Players.",
+          "ru": "Поиск Игроков."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-c617ae278d257402",
+          "en": "- <num> Raiding Experience",
+          "ru": "§b- §f<num> §7Рейдового Опыта"
+        },
+        {
+          "id": "line-ce41792ff4232a9f",
+          "en": "§eLooking for players.",
+          "ru": "Поиск игроков."
+        },
+        {
+          "id": "line-cba496fe31debae0",
+          "en": "§7§e- §7Region: §fEU",
+          "ru": "§e- §7Регион: §fEU"
+        },
+        {
+          "id": "line-5edcf18fa8f93d26",
+          "en": "§7§e- §7Elapsed Time: §f<num>:<num>",
+          "ru": "§e- §7Прошло Времени: §f<num>:<num>"
+        },
+        {
+          "id": "hub-fields-3bb0709f36b3d3e8",
+          "en": "§7§e- §7Time Estimate: §bVery Fast",
+          "ru": "§7§e- §7Ожидание: §bОчень короткое"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        },
+        {
+          "id": "line-992aa46d29266b76",
+          "en": "- <num> Aspect Pulls",
+          "ru": "§#55FFFF-§#FFFFFF §#FFFFFF§#FFFFFF<num>§#FFFFFF§#FFFFFF §#AAAAAAПуллов Аспектов"
+        },
+        {
+          "id": "hub-lore-b3b5b24939d68233",
+          "en": "§7temporarily lock your",
+          "ru": "§7§rвременно блокируются"
+        },
+        {
+          "id": "hub-lore-95817832120dcc98",
+          "en": "§7equipment and potions",
+          "ru": "§7§rэкипировка и зелья"
+        },
+        {
+          "id": "hub-fields-dbd1e553754ed6ca",
+          "en": "§7§e- §7Time Estimate: §eMedium",
+          "ru": "§7§e- §7Ожидание: §eСреднее"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-d7ae80edfa0ba471",
+      "match": {
+        "title": "Looking for Players...",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "Looking for Players...",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d7ae80edfa0ba471",
+          "en": "Looking for Players...",
+          "ru": "Поиск Игроков..."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-c617ae278d257402",
+          "en": "- <num> Raiding Experience",
+          "ru": "§b- §f<num> §7Рейдового Опыта"
+        },
+        {
+          "id": "line-48f7a01a3ef28bbf",
+          "en": "§eLooking for players...",
+          "ru": "Поиск игроков..."
+        },
+        {
+          "id": "line-cba496fe31debae0",
+          "en": "§7§e- §7Region: §fEU",
+          "ru": "§e- §7Регион: §fEU"
+        },
+        {
+          "id": "line-5edcf18fa8f93d26",
+          "en": "§7§e- §7Elapsed Time: §f<num>:<num>",
+          "ru": "§e- §7Прошло Времени: §f<num>:<num>"
+        },
+        {
+          "id": "hub-fields-3bb0709f36b3d3e8",
+          "en": "§7§e- §7Time Estimate: §bVery Fast",
+          "ru": "§7§e- §7Ожидание: §bОчень короткое"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        },
+        {
+          "id": "line-992aa46d29266b76",
+          "en": "- <num> Aspect Pulls",
+          "ru": "§#55FFFF-§#FFFFFF §#FFFFFF§#FFFFFF<num>§#FFFFFF§#FFFFFF §#AAAAAAПуллов Аспектов"
+        },
+        {
+          "id": "hub-lore-b3b5b24939d68233",
+          "en": "§7temporarily lock your",
+          "ru": "§7§rвременно блокируются"
+        },
+        {
+          "id": "hub-lore-95817832120dcc98",
+          "en": "§7equipment and potions",
+          "ru": "§7§rэкипировка и зелья"
+        },
+        {
+          "id": "hub-fields-dbd1e553754ed6ca",
+          "en": "§7§e- §7Time Estimate: §eMedium",
+          "ru": "§7§e- §7Ожидание: §eСреднее"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-d2f13141576a1e8a",
+      "match": {
+        "title": "§7Black",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Black",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d2f13141576a1e8a",
+          "en": "§7Black",
+          "ru": "Чёрный"
+        },
+        {
+          "id": "line-901418cbf5c83bb4",
+          "en": "Adds a black tint to your",
+          "ru": "Окрашивает ваше снаряжение"
+        },
+        {
+          "id": "line-1e570596cee22626",
+          "en": "gear.",
+          "ru": "в чёрный цвет."
+        },
+        {
+          "id": "line-0e6be4a9ccaf79d0",
+          "en": "§7§c✖ §7Active Silverbull Subscription",
+          "ru": "§c✖ §7Активная Подписка Silverbull"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        },
+        {
+          "id": "line-b39c71bdd160edd0",
+          "en": "Unmet Requirements",
+          "ru": "Требования не Выполнены"
+        },
+        {
+          "id": "hub-fields-17f575938c206d06",
+          "en": "§7§c✖ §7Silverbull Member: 2 weeks 2 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 2 §#FFFFFFнед. 2 дн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-1b1099ecbe16b3d2",
+      "match": {
+        "title": "§7Shadow",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Shadow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1b1099ecbe16b3d2",
+          "en": "§7Shadow",
+          "ru": "Тень"
+        },
+        {
+          "id": "line-6e861c549c94e73e",
+          "en": "Adds a sleek black shine to",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "line-49ae24060e454b46",
+          "en": "your gear.",
+          "ru": "чёрный блеск."
+        },
+        {
+          "id": "line-0e6be4a9ccaf79d0",
+          "en": "§7§c✖ §7Active Silverbull Subscription",
+          "ru": "§c✖ §7Активная Подписка Silverbull"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        },
+        {
+          "id": "line-b39c71bdd160edd0",
+          "en": "Unmet Requirements",
+          "ru": "Требования не Выполнены"
+        },
+        {
+          "id": "hub-fields-0119447b3b97c380",
+          "en": "§7§c✖ §7Silverbull Member: 18 weeks 0 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 18 §#FFFFFFнед. 0 дн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-e2e8924e004f4cb8",
+      "match": {
+        "title": "1x Wave Emote",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "1x Wave Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-fields-5d92a8c11b6d4bb6",
+          "en": "§7Command: /emote wave",
+          "ru": "§7§#55FF55Команда: §#AAAAAA/emote §#FFFFFFwave"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-ca70ab137f55bf5f",
+      "match": {
+        "title": "<em> 68le",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> 68le",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-fields-79875e2f12499a1f",
+          "en": "§7Class: §fWarrior",
+          "ru": "§7Класс: §fВоин"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-9f8945032e13dbf5",
+      "match": {
+        "title": "1x Knockout Emote",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "1x Knockout Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-9f8945032e13db-0",
+          "en": "Play the knockout emote to",
+          "ru": "Включите эмоцию Knockout,"
+        },
+        {
+          "id": "item-description-9f8945032e13db-1",
+          "en": "see stars",
+          "ru": "чтобы увидеть звёзды."
+        },
+        {
+          "id": "hub-fields-e7e49ae810c232b1",
+          "en": "§7Command: /emote knockout",
+          "ru": "§7§#55FF55Команда: §#AAAAAA/emote §#FFFFFFknockout"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-df07a3c6ab420a72",
+      "match": {
+        "title": "§7Red",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Red",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-df07a3c6ab420a-0",
+          "en": "Adds a red tint to your gear.",
+          "ru": "Придаёт снаряжению красный оттенок."
+        },
+        {
+          "id": "hub-fields-8e89026f00e0fdf6",
+          "en": "§7§a✔ §7Silverbull Member: 6 days 0 hours (in total)",
+          "ru": "§7§a✔ §7Подписка Silverbull: 6 §#FFFFFFдн. 0 ч. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-d9541afac5b6776a",
+          "en": "§7§a✔ §7Silverbull Member: <num> days <num> hours (in total)",
+          "ru": "§7§a✔ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFдн. <num> §#FFFFFFч. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-d7b1f735cad4586e",
+      "match": {
+        "title": "§7Rainbow",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Rainbow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-d7b1f735cad458-0",
+          "en": "Gives your gear a shifting",
+          "ru": "Снаряжение переливается"
+        },
+        {
+          "id": "item-description-d7b1f735cad458-1",
+          "en": "rainbow glow.",
+          "ru": "цветами радуги."
+        },
+        {
+          "id": "hub-fields-3cc578a415cfb70e",
+          "en": "§7§c✖ §7Silverbull Member: 9 weeks 0 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 9 §#FFFFFFнед. 0 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-f2cf264c61f2fa4b",
+      "match": {
+        "title": "§7Glitch",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Glitch",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-f2cf264c61f2fa-0",
+          "en": "Makes your gear flicker with",
+          "ru": "Снаряжение мерцает,"
+        },
+        {
+          "id": "item-description-f2cf264c61f2fa-1",
+          "en": "a glitchy effect.",
+          "ru": "словно с графическими сбоями."
+        },
+        {
+          "id": "hub-fields-fbfb3ede2039a8ed",
+          "en": "§7§c✖ §7Silverbull Member: 117 weeks 1 day (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 117 §#FFFFFFнед. 1 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-c05864f6d5e9efb5",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> day (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-6edf41e0a3c3a517",
+      "match": {
+        "title": "§7Reflection",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Reflection",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-6edf41e0a3c3a5-0",
+          "en": "Adds a glossy reflection to",
+          "ru": "Добавляет снаряжению"
+        },
+        {
+          "id": "item-description-6edf41e0a3c3a5-1",
+          "en": "your gear.",
+          "ru": "глянцевые отражения."
+        },
+        {
+          "id": "hub-fields-71bde706afb24d06",
+          "en": "§7§c✖ §7Silverbull Member: 82 weeks 6 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 82 §#FFFFFFнед. 6 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-96084d43918bf4fe",
+      "match": {
+        "title": "§7Invert",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Invert",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-96084d43918bf4-0",
+          "en": "Inverts your item's colours",
+          "ru": "Инвертирует цвета предмета,"
+        },
+        {
+          "id": "item-description-96084d43918bf4-1",
+          "en": "for a bold new look.",
+          "ru": "придавая ему необычный вид."
+        },
+        {
+          "id": "hub-fields-f0afbc311b6ebfa1",
+          "en": "§7§c✖ §7Silverbull Member: 5 weeks 5 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 5 §#FFFFFFнед. 5 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-716a67ca9503bded",
+      "match": {
+        "title": "§7Plasma",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Plasma",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-fields-c38aae2bab01c3a9",
+          "en": "§7§c✖ §7Silverbull Member: 7 weeks 1 day (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 7 §#FFFFFFнед. 1 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-c05864f6d5e9efb5",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> day (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-7a05b1b67e63001a",
+      "match": {
+        "title": "§7Purple",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Purple",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-7a05b1b67e6300-0",
+          "en": "Adds a purple tint to your",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "item-description-7a05b1b67e6300-1",
+          "en": "gear.",
+          "ru": "фиолетовый оттенок."
+        },
+        {
+          "id": "hub-fields-49e812091f504d44",
+          "en": "§7§c✖ §7Silverbull Member: 4 weeks 2 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 4 §#FFFFFFнед. 2 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-fd676970940ba44e",
+      "match": {
+        "title": "§7Chrome",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Chrome",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-fd676970940ba4-0",
+          "en": "Adds a bright chrome shine to",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "item-description-fd676970940ba4-1",
+          "en": "your gear.",
+          "ru": "яркий хромовый блеск."
+        },
+        {
+          "id": "hub-fields-8c6ea4a0f7ea65ef",
+          "en": "§7§c✖ §7Silverbull Member: 52 weeks 1 day (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 52 §#FFFFFFнед. 1 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-c05864f6d5e9efb5",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> day (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-33dfabc113359004",
+      "match": {
+        "title": "§7Orange",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Orange",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-33dfabc1133590-0",
+          "en": "Adds a orange tint to your",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "item-description-33dfabc1133590-1",
+          "en": "gear.",
+          "ru": "оранжевый оттенок."
+        },
+        {
+          "id": "hub-fields-e9ed59bee77b9b43",
+          "en": "§7§a✔ §7Silverbull Member: 1 week 4 days (in total)",
+          "ru": "§7§a✔ §7Подписка Silverbull: 1 §#FFFFFFнед. 4 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-d284bed824d2190c",
+          "en": "§7§a✔ §7Silverbull Member: <num> week <num> days (in total)",
+          "ru": "§7§a✔ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-883dd2378b441c74",
+      "match": {
+        "title": "§7Yellow",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Yellow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-883dd2378b441c-0",
+          "en": "Adds a yellow tint to your",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "item-description-883dd2378b441c-1",
+          "en": "gear.",
+          "ru": "жёлтый оттенок."
+        },
+        {
+          "id": "hub-fields-abdf66239e036243",
+          "en": "§7§a✔ §7Silverbull Member: 1 week 1 day (in total)",
+          "ru": "§7§a✔ §7Подписка Silverbull: 1 §#FFFFFFнед. 1 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-9006f9eb6c04cf11",
+          "en": "§7§a✔ §7Silverbull Member: <num> week <num> day (in total)",
+          "ru": "§7§a✔ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-488084fd0714df2c",
+      "match": {
+        "title": "§7Cyan",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Cyan",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-488084fd0714df-0",
+          "en": "Adds a cyan tint to your gear.",
+          "ru": "Придаёт снаряжению бирюзовый оттенок."
+        },
+        {
+          "id": "hub-fields-a0a42c91b7e61a0f",
+          "en": "§7§c✖ §7Silverbull Member: 2 weeks 5 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 2 §#FFFFFFнед. 5 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-5649e22e3f26f0b5",
+      "match": {
+        "title": "§7White",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7White",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-fields-838ce87a6706c4dd",
+          "en": "§7§c✖ §7Silverbull Member: 3 weeks 1 day (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 3 §#FFFFFFнед. 1 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-c05864f6d5e9efb5",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> day (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-e984bfc42860cc0e",
+      "match": {
+        "title": "§7Pink",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Pink",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-e984bfc42860cc-0",
+          "en": "Adds a pink tint to your gear.",
+          "ru": "Придаёт снаряжению розовый оттенок."
+        },
+        {
+          "id": "hub-fields-d4e821d6e0c812e0",
+          "en": "§7§c✖ §7Silverbull Member: 3 weeks 2 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 3 §#FFFFFFнед. 2 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-a10d5f305aa0dcac",
+      "match": {
+        "title": "§7Aurora",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Aurora",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-a10d5f305aa0dc-0",
+          "en": "Adds a soft, flowing aurora",
+          "ru": "Снаряжение мягко переливается,"
+        },
+        {
+          "id": "item-description-a10d5f305aa0dc-1",
+          "en": "effect to your gear.",
+          "ru": "словно северное сияние."
+        },
+        {
+          "id": "hub-fields-9ff2254099e40640",
+          "en": "§7§c✖ §7Silverbull Member: 13 weeks 3 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 13 §#FFFFFFнед. 3 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-eba845937471e385",
+      "match": {
+        "title": "§7Ripple",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Ripple",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-eba845937471e3-0",
+          "en": "Makes your gear shimmer with",
+          "ru": "Снаряжение мерцает"
+        },
+        {
+          "id": "item-description-eba845937471e3-1",
+          "en": "rippling light.",
+          "ru": "волнами света."
+        },
+        {
+          "id": "hub-fields-37cf1809595d7ff1",
+          "en": "§7§c✖ §7Silverbull Member: 26 weeks 6 days (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 26 §#FFFFFFнед. 6 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-e71c6f24584d9908",
+      "match": {
+        "title": "§7Distort",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Distort",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-e71c6f24584d99-0",
+          "en": "Warps your gear with a",
+          "ru": "Вид снаряжения искажается,"
+        },
+        {
+          "id": "item-description-e71c6f24584d99-1",
+          "en": "twisting distortion effect.",
+          "ru": "словно оно скручивается."
+        },
+        {
+          "id": "hub-fields-20621678d3e30720",
+          "en": "§7§c✖ §7Silverbull Member: 40 weeks 1 day (in total)",
+          "ru": "§7§c✖ §7Подписка Silverbull: 40 §#FFFFFFнед. 1 дн. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-c05864f6d5e9efb5",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> day (in total)",
+          "ru": "§7§c✖ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFнед. <num> §#FFFFFFдн. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-08a7b10ea8ebd964",
+      "match": {
+        "title": "§7Green",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Green",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-fields-ebc4bbd2417a9a01",
+          "en": "§7§a✔ §7Silverbull Member: 3 days 0 hours (in total)",
+          "ru": "§7§a✔ §7Подписка Silverbull: 3 §#FFFFFFдн. 0 ч. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-d9541afac5b6776a",
+          "en": "§7§a✔ §7Silverbull Member: <num> days <num> hours (in total)",
+          "ru": "§7§a✔ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFдн. <num> §#FFFFFFч. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-3738512c6fe07981",
+      "match": {
+        "title": "§7Blue",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Blue",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-3738512c6fe079-0",
+          "en": "Adds a blue tint to your gear.",
+          "ru": "Придаёт снаряжению синий оттенок."
+        },
+        {
+          "id": "hub-fields-38a37efb8b0caf95",
+          "en": "§7§a✔ §7Silverbull Member: 1 day 0 hours (in total)",
+          "ru": "§7§a✔ §7Подписка Silverbull: 1 §#FFFFFFдн. 0 ч. §#555555(всего)"
+        },
+        {
+          "id": "hub-fields-aaac0ffe7afbd014",
+          "en": "§7§a✔ §7Silverbull Member: <num> day <num> hours (in total)",
+          "ru": "§7§a✔ §7§#AAAAAAПодписка Silverbull: <num> §#FFFFFFдн. <num> §#FFFFFFч. §#555555(всего)"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-5e47915ae591cbd8",
+      "match": {
+        "title": "<em><em> RamenTozz",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em> RamenTozz",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-fields-bda24ed8b928a865",
+          "en": "§7Class: §fHunter",
+          "ru": "§7Класс: §fОхотник"
+        }
+      ]
+    },
+    {
+      "id": "hub-fields-78b5f0cb99a9010d",
+      "match": {
+        "title": "<em><em> <actor>",
+        "anchors": [],
+        "priority": 3400
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em> <actor>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-fields-66983fd942d6d31a",
+          "en": "§7Class: §fSkyseer",
+          "ru": "§7Класс: §fПровидец"
+        }
+      ]
+    }
+  ]
+}

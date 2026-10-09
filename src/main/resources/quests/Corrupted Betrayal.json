@@ -1,0 +1,631 @@
+{
+  "quest": "Corrupted Betrayal",
+  "level": 52,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "corrupted-betrayal",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hey, soldier! Yeah, you! Got some spare time to lend a hand?",
+      "ru": "Эй, солдат! Да-да, ты! Есть лишняя минутка помочь?",
+      "speaker": "Lanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "We've got a major issue with this old fortress. It keeps spewing out all these damned slimes, and their proximity to Troms is causing issues.",
+      "ru": "У нас тут большая проблема с этой старой крепостью. Из неё прут чёртовы слизни, и рядом с Тромсом от них одни неприятности.",
+      "speaker": "Lanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Soldiers are spending half their guard duty slicing the critters into sludge. Ideally we'd raid the cave, cut out the source, but...",
+      "ru": "Солдаты тратят половину дежурства только на то, чтобы рубить эту дрянь в кашу. По-хорошему надо бы вломиться в пещеру и прикончить источник, но...",
+      "speaker": "Lanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "This place has some history. Nasty stuff. I'd prefer not to head in blind, so I've been checking for any clues to what we might find inside.",
+      "ru": "У этого места есть история. И история мерзкая. Я бы не хотел лезть туда вслепую, так что пытаюсь найти хоть какие-то зацепки о том, что нас ждёт внутри.",
+      "speaker": "Lanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Haven't found much... except this verse, 'scribed into the wall over there. Go on, check it out and let me know what you think.",
+      "ru": "Много не нашёл... кроме вот этого стишка, нацарапанного на стене вон там. Сходи, глянь и скажи, что думаешь.",
+      "speaker": "Lanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "You lean in close to read the riddle inscribed on the ancient stone...",
+      "ru": "Ты наклоняешься ближе, чтобы прочесть загадку, высеченную на древнем камне...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Near a corrupted bridge, a ruin past its prime...",
+      "ru": "У моста, где Порча, средь руин глухих...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Lives a cursed sheep, with the color of lime...",
+      "ru": "Зелёный проклятый баран прячется от глаз чужих...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Lead it down the trail, headed to the slime...",
+      "ru": "По тропе к слизи его веди...",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Sacrifice its soul, in the blood and the grime.",
+      "ru": "Душу принеси в жертву, в крови и грязи.",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Nonsense, if you ask me. Most likely kids from Troms messing about. But we haven't found anything else, so... if you've got any time, fancy checking it out for me?",
+      "ru": "По мне так бредятина. Скорее всего, дети из Тромса баловались. Но больше у нас ничего нет, так что... если есть время, не проверишь это для меня?",
+      "speaker": "Lanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "The first line is obviously talking about the Great Bridge, but I've no clue what the rest means. Head over there, take a look around, and tell me if you find anything interesting.",
+      "ru": "Первая строка явно про Великий мост, а вот остальное я вообще не врубаюсь. Сходи туда, осмотрись и скажи, если найдёшь что-то интересное.",
+      "speaker": "Lanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "[+1 Mage's Riddle]",
+      "ru": "[+1 Mage's Riddle]",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Found anything interesting around the riddle yet? Do you need to hear it again?",
+      "ru": "Нашёл что-нибудь по этой загадке? Или ещё раз её повторить?",
+      "speaker": "Lanu",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Yes",
+      "ru": "Да",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "No",
+      "ru": "Нет",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "If you are heading towards the Great Bridge, be cautious in the plains around the jungle entrance.",
+      "ru": "Если идёшь к Великому мосту, будь осторожен на равнинах у входа в джунгли.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I have received reports of a strange cursed sheep taking refuge in one of the more fortified ruins around there.",
+      "ru": "Мне докладывали о странной проклятой овце, которая засела в одних из тамошних укреплённых руин.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "As far as I know, it is trapped in the ruins by some jungle growth, though if it was cut down it might escape...",
+      "ru": "Насколько я знаю, её там держат заросли джунглей, но если их срубить, она, возможно, выберется...",
+      "speaker": "Troms Guard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "You find a tattered journal on the ground in front of this slimy cave. You skim through some of the pages...",
+      "ru": "Ты находишь потрёпанный дневник на земле у входа в эту слизкую пещеру. Быстро пролистываешь несколько страниц...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "...this cave...for some reason it seems to erupt with fresh slime masses every minute...",
+      "ru": "...эта пещера... почему-то из неё каждую минуту прут новые массы слизи...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "...the bottom...has a weird pit...maybe used to sacrifice something...",
+      "ru": "...внизу... какая-то странная яма... может, её использовали для жертвоприношений...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "...maybe...if you bring a mob there...by letting it follow you... you can do something...dark...",
+      "ru": "...может... если заманить туда какое-нибудь существо... заставить идти за собой... можно сделать что-то... тёмное...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You seem to have fallen into an ancient ruin of some sort. Maybe the incantation is somewhere inside...",
+      "ru": "Похоже, ты провалился в какие-то древние руины. Может, нужное заклинание где-то внутри...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "In 831 AP, Troms was on its knees. Hordes of undead were crippling the army and castle.",
+      "ru": "В 831 году после основания Тромс стоял на коленях. Орды нежити подтачивали силы армии и оборону замка.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "The King sought the help of a shaman, Slykaar. Shamans use the life of sacrifices to inflict damage. Dark magic.",
+      "ru": "Король обратился за помощью к шаману по имени Сликаар. Шаманы используют жизнь жертв, чтобы наносить урон. Тёмная магия.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Slykaar defended Troms. At an immense cost. Slykaar loved the attention and power. He controlled the city.",
+      "ru": "Сликаар защищал Тромс. Но ценой жутких потерь. Ему нравились внимание и власть. Он держал город в кулаке.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Troms had suffered from the hordes and from the endless sacrifices of Slykaar for years.",
+      "ru": "Годами Тромс страдал и от орд, и от бесконечных жертвоприношений Сликаара.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Then... Bob appeared. The people of Troms instantly dropped their horrible shaman for the pure hero.",
+      "ru": "А потом... появился Боб. Люди Тромса сразу отвернулись от жестокого шамана и пошли за героем с чистыми помыслами.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Slykaar, bitter and humiliated, sunk underground to restart his demonic experiments for an army.",
+      "ru": "Озлобленный и униженный Сликаар ушёл под землю, чтобы возобновить демонические опыты и создать себе армию.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "ERROR",
+      "ru": "ОШИБКА",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Entry 1: Began collecting jungle animals of all types. Placed them in cages to ensure they won't escape. Will begin extracting DNA soon.",
+      "ru": "Запись 1: Начал собирать животных джунглей всех видов. Рассадил их по клеткам, чтобы не сбежали. Скоро начну извлекать ДНК.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Entry 2: All animal DNA has been extracted. Starting mutation of DNA; will collect results when finished.",
+      "ru": "Запись 2: ДНК всех животных извлечена. Начинаю мутацию ДНК, результаты соберу по завершении.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Entry 3: All animal DNA failed to mutate. Turned into a slimy mass upon completion of mutation process. Will continue testing to get better results.",
+      "ru": "Запись 3: Не удалось вызвать мутацию ДНК ни у одного животного. После завершения процесса всё превратилось в слизистую массу. Продолжу опыты, чтобы добиться лучших результатов.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Entry 4: Still not getting substantial results. I have found however that the undead produce slime masses closer to a successful mutation.",
+      "ru": "Запись 4: До сих пор нет нормальных результатов. Но я заметил, что нежить даёт слизистые массы, куда более близкие к удачной мутации.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Entry 5: Had the first successful mutation today. Achieved by combining two undead animals together. Very powerful; could be a good candidate for a soldier.",
+      "ru": "Запись 5: Сегодня впервые получил удачную мутацию. Добился этого, соединив двух животных-нежить. Очень сильное существо, может выйти отличный солдат.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Entry 6: I have discovered something darker. Stronger. If I can harness this power, I can bec̵͠͠o̴͜͞ḿ̡̡͝ę̡ ̀͞͞t̡̀h́͜͢é́͢ ̶҉̵G̕͟Ò̴͜D̕͟ ̸̨́͞ǫ̵͝f̷͘ ̷͘͠t̸̡̡̢h̸͡í̷͞s̷̢̕͝ ̕͞͝͠w̨̧̡̕o̵̡͢r̨͠͏̢l̸̡̨͘͞d̶̕͠.̨̕͘",
+      "ru": "Запись 6: Я нашёл нечто более тёмное. Более сильное. Если я подчиню эту силу, я смогу с̴т̴а̴т̴ь̴ Б̴О̴Г̴О̴М̴ э̴т̴о̴г̴о̴ м̴и̴р̴а̴.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "You find a chest filled with dusty vials of...something. You begin to read the labels...",
+      "ru": "Ты находишь сундук, набитый пыльными колбами с... чем-то. Ты начинаешь читать этикетки...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Jungle Ocelot DNA. Dire Wolf DNA. Even Jungle Fetish DNA? You begin to feel uncomfortable, but you keep looking.",
+      "ru": "ДНК джунглевого оцелота. ДНК лютого волка. Даже ДНК джунглевого фетиша? Тебе становится не по себе, но ты продолжаешь смотреть.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "You find a vial at the very bottom. It seems to have burned a hole of darkness right through the bottom of the chest...",
+      "ru": "На самом дне ты находишь колбу. Похоже, она прожгла в дне сундука дырку из самой тьмы...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "You try to read the label, but it strains your eyes just looking at it. All you can make out is \"Vial of De̢͏r҉n̷̡i̡͏̧͏͢c̕̕ ̶͝͏̡͡Ę̵̷͝s̶͟͜s̶͜ę̴͜ņ̶̛c̨͘e͢\"...",
+      "ru": "Ты пытаешься прочитать этикетку, но уже от одного взгляда режет глаза. Всё, что удаётся разобрать, это \"Флакон д̴е̴р̴н̴с̴к̴о̴й̴ э̴с̴с̴е̴н̴ц̴и̴и̴\"...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "...it's probably best to stop looking now.",
+      "ru": "...лучше, наверное, больше туда не смотреть.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "It appears the mutant contained the key for that door.",
+      "ru": "Похоже, у мутанта был ключ от той двери.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Perhaps the invitation will tell you where to go next.",
+      "ru": "Может, приглашение подскажет, куда идти дальше.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "By order of the city of Troms, I am here to keep other citizens from entering this house.",
+      "ru": "По приказу города Тромса я не пускаю других граждан в этот дом.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "From past experiences, everyone who has entered this house has vanished from existence...",
+      "ru": "До сих пор все, кто входил в этот дом, бесследно исчезали...",
+      "speaker": "Troms Guard",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I would advise not going inside unless you know what you are doing.",
+      "ru": "Так что я бы не советовал лезть внутрь, если ты не понимаешь, что делаешь.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "It's an old, dusty journal. It seems to be left open to a page. You begin to read it out of curiosity...",
+      "ru": "Это старый пыльный дневник. Он раскрыт на одной из страниц. Ты из любопытства начинаешь читать...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "...Troms is beginning to grow suspicious of me...some guy named Robert came into town...",
+      "ru": "...Тромс начинает что-то подозревать... какой-то тип по имени Роберт пришёл в город...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "...I know they will banish me...he is too good...too nice...",
+      "ru": "...я знаю, они меня изгонят... он слишком хороший... слишком правильный...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...I must open a portal...make a dimension to become more powerful...",
+      "ru": "...я должен открыть портал... создать измерение, чтобы стать сильнее...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "...the books...I have prepared well for this...",
+      "ru": "...книги... я хорошо к этому подготовился...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "...I will carve a hidden room...behind a visible wall...to create my world...my revenge...",
+      "ru": "...я выдолблю тайную комнату... за стеной, у всех на виду... чтобы создать свой мир... свою месть...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Well, I guess you must know who I am.",
+      "ru": "Ну, думаю, ты уже понял, кто я.",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Welcome to my domain. I am the hero of Troms, Slykaar.",
+      "ru": "Добро пожаловать в мои владения. Я герой Тромса, Сликаар.",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Well, I used to be. Banished by the very people who asked for my help. Pathetic.",
+      "ru": "Точнее, был им. Меня изгнали те самые люди, которые сами просили меня о помощи. Жалкие.",
+      "speaker": "Slykaar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "They couldn't give me a few peasants for their safety? Weak.",
+      "ru": "Неужели они не могли отдать мне пару крестьян ради собственной безопасности? Слабаки.",
+      "speaker": "Slykaar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "I experimented my shamanism for many years underground to create the perfect mix of monster.",
+      "ru": "Я годами экспериментировал со своим шаманизмом под землёй, пытаясь создать идеального монстра.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Most ended in horrific slimes. Aggressive and powerful, but alas, just slimes.",
+      "ru": "Большинство попыток заканчивались отвратительными слизнями. Агрессивными, сильными, но всё же просто слизнями.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Then I found this place. A dark land. A dark god. A source of power.",
+      "ru": "А потом я нашёл это место. Тёмную землю. Тёмного бога. Источник силы.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "You mediocre wielders of magic have no idea what this world holds.",
+      "ru": "Вы, жалкие маги, даже не представляете, что хранит этот мир.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You all strive to be that hero of heroes, \"Bob\", but here's the truth. He's lost. You're lost.",
+      "ru": "Вы все пыжитесь стать тем самым героем героев, \"Бобом\", но вот правда. Он потерян. И вы тоже.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "No one in the Wynn province is willing to make the sacrifices I am to gain power.",
+      "ru": "Никто во всей провинции Винн не готов на те жертвы, на которые иду я ради силы.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "If you want power, you have to give some. Sacrifice a few to save many.",
+      "ru": "Хочешь силы - отдай что-то взамен. Пожертвуй немногими, чтобы спасти многих.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "They were willing to give me a few peasants in 831, when the hordes crossed the bridge.",
+      "ru": "В 831 году, когда орды переходили мост, они ещё были готовы отдавать мне по нескольку крестьян.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "The king was happy to throw away lives to save his. But then the hero of Wynn waltzed in a few years later.",
+      "ru": "Король спокойно разменивал чужие жизни на свою. Но потом, через пару лет, вальяжно заявился герой Винна.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "They banished me like a rotten fruit. Their hero, their protector. So what if a few hundred nobodies died for it.",
+      "ru": "И меня вышвырнули, как гнилой фрукт. Их героя, их защитника. И что такого, если ради этого погибли несколько сотен никому не нужных людишек.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Looks like we have a Bob aspirer. Pale imitation.",
+      "ru": "Похоже, у нас тут подражатель Боба. Жалкая копия.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "So. Feel free to visit me down below, bring the entire might of the Troms army upon me. It will not be enough.",
+      "ru": "Ну что ж. Заходи ко мне вниз, тащи хоть всю армию Тромса. Этого всё равно не хватит.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "I am ready. Soon, Troms will be in ruins. And I shall have my revenge.",
+      "ru": "Я готов. Скоро Тромс станет руинами. И я отомщу.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Go have fun in while you can. It's not like you have much of a life to live, anyways.",
+      "ru": "Иди пока развлекайся, если хочешь. У тебя всё равно не то чтобы длинная жизнь впереди.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "You should head back to Lanu...",
+      "ru": "Надо вернуться к Лану...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Ah, you're back. Find anything interesting? I've just been knocking back the occasional slime that pops up out of this cave.",
+      "ru": "А, ты вернулся. Нашёл что-нибудь интересное? Я тут пока отмахивался от слизней, которые то и дело вылезают из этой пещеры.",
+      "speaker": "Lanu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "You... saw Slykaar? In another dimension?!",
+      "ru": "Ты... видел Сликаара? В другом измерении?!",
+      "speaker": "Lanu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "This is bad. If he can materialise outside of this cave, even psychoactively... he's getting stronger. It explains the slimes, the attacks on Troms...",
+      "ru": "Это плохо. Если он уже может проявляться за пределами этой пещеры, пусть даже через видения... значит, он становится сильнее. Это объясняет и слизней, и нападения на Тромс...",
+      "speaker": "Lanu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "He's an incredibly powerful shaman, <playername>. He has to be stopped, but it would take forever for Troms to mobile a force against him.",
+      "ru": "Он чертовски сильный шаман, <playername>. Его нужно остановить, но Тромс будет вечность собирать отряд против него.",
+      "speaker": "Lanu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "If you can, you should head in there and... finish him off. Gear up first, though, and find some friends watch your back.",
+      "ru": "Если сможешь, тебе стоит пойти туда и... добить его. Только сначала приоденься нормально и возьми с собой друзей, чтобы прикрывали спину.",
+      "speaker": "Lanu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "<playername>, how's it going? Run into another shaman hallucination at all?",
+      "ru": "<playername>, ну как оно? Ещё не натыкался на очередной шаманский глюк?",
+      "speaker": "Lanu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Anyway, good luck in the cave. If you choose to go in, be careful.",
+      "ru": "В любом случае удачи в пещере. Если решишься туда лезть - будь осторожен.",
+      "speaker": "Lanu",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "New Quest Started: Corrupted Betrayal",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Порченое предательство",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Near a corrupted bridge, a ruin past its prime..",
+      "ru": "У моста, где Порча, средь руин глухих...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Alrighty. Let me know what when you've got something then.",
+      "ru": "Ладненько. Дай знать, когда что-нибудь нароешь.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "You all strive to be that hero of heroes, “Bob”, but here's the truth. He's lost. You're lost.",
+      "ru": "Вы все рвётесь стать этим героем из героев, \"Бобом\", но вот вам правда. Он потерян. И вы потеряны.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 5"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Lanu at [-628, 74, -868].",
+      "ru": "Поговорить с Лану [-628, 74, -868].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Use the Mage's riddle to figure out where it leads",
+      "ru": "Разгадать загадку мага и понять, куда она ведёт.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Explore the temple for a way to break the barrier.",
+      "ru": "Исследовать храм и найти способ разрушить барьер.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Go to Slykaar's residence at [-732, 65, -974] to find out what is hidden there.",
+      "ru": "Отправиться в жилище Слайкаара и выяснить, что там скрыто [-732, 65, -974].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Journey through Slykaar's dimension.",
+      "ru": "Пройти через измерение Слайкаара.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Report back to Lanu about what you've learned.",
+      "ru": "Рассказать Лану о том, что удалось узнать.",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

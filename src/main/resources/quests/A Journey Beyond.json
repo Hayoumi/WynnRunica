@@ -1,0 +1,1816 @@
+{
+  "quest": "A Journey Beyond",
+  "level": 100,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "a-journey-beyond",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hmm, you might just be exactly what we're looking for. If you want to join a top secret mission, follow me.",
+      "ru": "Хм, а ты, похоже, как раз тот, кто нам нужен. Если хочешь участвовать в сверхсекретной миссии - иди за мной.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "... <playername>, is that you? Wow, it's been a while. Sorry, I don't have time to chat right now. We're preparing for a dangerous mission, and...",
+      "ru": "... Погоди, <playername>, это ты? Ничего себе, давно не виделись. Извини, сейчас вообще не до болтовни. Мы готовимся к опасной миссии, и...",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Well. Actually, we were looking for a fourth person to join us. And... you look like you fit the requirements for that position. If- if you'd like to join, that is.",
+      "ru": "Ну. Вообще-то мы как раз искали четвёртого в отряд. И... ты вроде подходишь. Если- если, конечно, сам хочешь.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "...Hm? Oh- uh, hello there. Sorry, we have this space reserved for...",
+      "ru": "...Хм? А, привет. Извини, это место мы заняли для...",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Wait. You might be just what we're looking for. You look like you're capable in combat. How would you like to join a dangerous top secret mission?",
+      "ru": "Погоди. Возможно, ты как раз тот, кто нам нужен. Видно, что ты умеешь сражаться. Как смотришь на участие в опасной сверхсекретной миссии?",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "...I could have phrased that better. Look, the point is- we need a fourth. Let me give you the briefing, and if you don't want to join us... then we'll find someone else. How does that sound? Alright, here, follow me.",
+      "ru": "...Могла бы сформулировать получше. Короче, суть в том, что нам нужен четвёртый. Сейчас введу в курс дела, а если не захочешь, то найдём кого-нибудь другого. Договорились? Ладно, пошли за мной.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Tell you what. I'll give you the briefing, and if you don't want to join us... then we'll find someone else. How does that sound? Alright, here, follow me.",
+      "ru": "Давай так. Я введу тебя в курс дела, и если не захочешь с нами идти... ну, найдём кого-то другого. Нормально звучит? Тогда пошли.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "And who's this? Did you really find a fourth? Come on, I told you we don't need one!",
+      "ru": "А это ещё кто? Ты реально нашла четвёртого? Да брось, я же говорил, нам он не нужен!",
+      "speaker": "Lucio",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "And we both keep telling you why you're wrong. This is... sorry. I didn't catch your name. <playername>? <playername>.",
+      "ru": "И мы оба всё время объясняем, почему ты не прав. Это... извини, я не расслышала твоего имени. <playername>? <playername>.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "And we both keep telling you why you're wrong. This is <playername>, we've worked together before.",
+      "ru": "А мы оба тебе уже говорили, почему ты не прав. Это <playername>, мы с ним раньше уже работали.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Anyway, I want to give them the briefing before we head-",
+      "ru": "Всё равно я хочу сначала ввести его в курс дела, а уже потом выдви-",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Elphie, I'm back! I finally managed to catch Aegis, but he's not... happy. He thinks we should-",
+      "ru": "Эльфи, я вернулся! Я наконец разыскал Аегиса, но он... не рад. Он считает, что нам надо-",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Oh. <playername>? What are you doing here? Gods, it's been a while, hasn't it?",
+      "ru": "О. <playername>? А ты что тут делаешь? Боги, сколько ж времени прошло, а?",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "They're our fourth. What were you saying about the Admiral?",
+      "ru": "Это наш четвёртый. Так что ты там говорил про адмирала?",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Nothing. If we have our fourth, we should be all set to go, shouldn't we?",
+      "ru": "Ничего. Раз у нас есть четвёртый, значит, можно уже идти, верно?",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Well... we are, but I'd like to brief <playername> on the details first. This is a dangerous mission, so... I think it's best to fill them in.",
+      "ru": "Ну... да, можно, но я бы сначала объяснила <playername> детали. Миссия опасная, так что... лучше пусть знает, во что лезет.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "So! You're aware of the Abandoned Mines, yes? Hundreds of years ago, mining operations took place to extract emeralds from the earth. Until, for some unknown reason, they were halted.",
+      "ru": "Итак! Ты ведь знаешь про Заброшенные Шахты, да? Сотни лет назад там добывали изумруды. А потом по какой-то причине всё резко свернули.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "We don't know everything, but... evidence suggests they broke through to an undiscovered section of the Wynn province. There, they found... something.",
+      "ru": "Мы знаем не всё, но... судя по найденным данным, шахтёры пробились в неизведанную часть провинции Винн. И там они нашли... кое-что.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "The land itself was said to be cursed. Not corrupted they were very clear on that.",
+      "ru": "Говорили, что сама земля там проклята. Не поражена Порчей - это особо подчёркивали.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Some other force makes its home in that place. The few reports we could find refer to it only as the Silent Expanse.",
+      "ru": "Там обитает какая-то другая сила. В тех немногих отчётах, что мы нашли, это место называют только так - Безмолвная Пустошь.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "The mines were sealed to prevent the spread of this new threat, but the cracks are beginning to show.",
+      "ru": "Шахты запечатали, чтобы эта новая угроза не выбралась наружу, но печать уже начинает трещать.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Strange and otherworldly creatures have begun to find their way through, threatening our province.",
+      "ru": "Странные, будто не из этого мира, твари уже начали просачиваться сюда и угрожать нашей провинции.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "The existence of this place has been kept on a strict need-to-know basis.",
+      "ru": "О существовании этого места сообщают только тем, кому необходимо знать.",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "That's where we come in! We're to battle our way through the mines, and scout out the potential danger level.",
+      "ru": "И тут вступаем мы! Наша задача - пробиться через шахты и оценить, насколько всё там опасно.",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "And we aren't going to be able to do it if we keep sitting around! The newbie's been briefed, let's get going already!",
+      "ru": "И мы точно этого не сделаем, если будем дальше сидеть без дела! Новенькому всё объяснили, так что пошли уже!",
+      "speaker": "Lucio",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "H-hey! What're you doing to my fine establishment!",
+      "ru": "Э-эй! Вы чего творите с моим прекрасным заведением?!",
+      "speaker": "Rusty Bartender",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "...Shoot. Forgot he was still here. Sorry, трактирщик! I'll fix it!",
+      "ru": "...Чёрт. Забыл, что он ещё тут. Прости, трактирщик! Я всё починю!",
+      "speaker": "Lucio",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Lucio, you can't keep... ugh, forget it. I'll gather our supplies... Aledar, can you get us to the mines?",
+      "ru": "Люцио, ты не можешь вечно... эх, ладно, забудь. Я соберу припасы... Аледар, доведёшь нас до шахт?",
+      "speaker": "Elphaba",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Yes, ma'am! <playername>, when you're ready, let's get going.",
+      "ru": "Да, мэм! <playername>, как будешь готов - выдвигаемся.",
+      "speaker": "Aledar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Everyone ready? I'll lead.",
+      "ru": "Все готовы? Я поведу.",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "It's a twist of fate that our paths have converged here, <playername>. We started our journey together and now...",
+      "ru": "Какой поворот судьбы: наши пути снова сошлись здесь, <playername>. Мы начали путь вместе, а теперь...",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Aledar...",
+      "ru": "Аледар...",
+      "speaker": "Elphaba",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "I hear them too.",
+      "ru": "Да, я тоже их слышу.",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Ah, no problem. I'll take care of these.",
+      "ru": "А, ерунда. Я с ними разберусь.",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "No more running for us, huh <playername>? Ah, we're here.",
+      "ru": "Больше нам не придётся убегать, да, <playername>? А, вот мы и пришли.",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "This is actually our second attempt. The first time, it didn't go too well.",
+      "ru": "Вообще-то это уже наша вторая попытка. В первый раз всё прошло так себе.",
+      "speaker": "Elphaba",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "We have more numbers now, Lucio and yourself should help us overpower it.",
+      "ru": "Теперь нас больше. С тобой и Люцио мы должны его одолеть.",
+      "speaker": "Elphaba",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Can't be that strong, bet I can take it myself.",
+      "ru": "Да не может оно быть таким сильным. Спорю, я и один справлюсь.",
+      "speaker": "Lucio",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "We managed to seal it in but with the 4 of us I'm sure we ca-",
+      "ru": "В прошлый раз мы хотя бы сумели его запереть, но теперь нас четверо, так что я уверена, мы смо-",
+      "speaker": "Elphaba",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Let's just do it!",
+      "ru": "Да давай уже!",
+      "speaker": "Lucio",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Wait... No!",
+      "ru": "Стой... Нет!",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Lucio! You FOOL!",
+      "ru": "Люцио! ДУРАК!",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "What's the big deal? You said yourself we can take it!",
+      "ru": "Да в чём проблема? Ты сам говорил, что мы справимся!",
+      "speaker": "Lucio",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Ouch...",
+      "ru": "Ай...",
+      "speaker": "Lucio",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "We need a PLAN.",
+      "ru": "Нам нужен ПЛАН.",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "The plan is attack!",
+      "ru": "Вот план - бить!",
+      "speaker": "Lucio",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Argh!",
+      "ru": "Аргх!",
+      "speaker": "Lucio",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Lucio!",
+      "ru": "Люцио!",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Ahh!",
+      "ru": "Ай!",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "No! Stop hurting them!",
+      "ru": "Нет! Хватит их калечить!",
+      "speaker": "Elphaba",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Ouch! This isn't working...",
+      "ru": "Ай! Так дело не пойдёт...",
+      "speaker": "Elphaba",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Is it just me or are our attacks doing NOTHING?",
+      "ru": "Мне кажется или наши атаки вообще НЕ ДЕЙСТВУЮТ?",
+      "speaker": "Lucio",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Lucio's right! Change of plan. Lucio, help me hold it in place.",
+      "ru": "Люцио прав! Меняем план. Люцио, помоги мне удержать эту тварь на месте.",
+      "speaker": "Elphaba",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Aledar, you know what to do.",
+      "ru": "Аледар, ты знаешь, что делать.",
+      "speaker": "Elphaba",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "<playername>, come with me! Cast a spell to block the cave's entrance so the monster can't leave.",
+      "ru": "<playername>, за мной! Завали вход в пещеру заклинанием, чтобы чудовище не выбралось.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "I'll block it from attacking, you block it up with a spell.",
+      "ru": "Я сдержу её атаки, а ты запечатаешь проход магией.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "They won't be able to hold it for long.",
+      "ru": "Они долго её не удержат.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Ready?! Cast any spell!",
+      "ru": "Готов?! Используй любое заклинание!",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Lucio, Elphaba! Run!",
+      "ru": "Люцио, Эльфаба! Бегом!",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "We all here? Where's Lucio?",
+      "ru": "Все здесь? А где Люцио?",
+      "speaker": "Elphaba",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Guys... Any help? I'm stuck!",
+      "ru": "Эй, народ... Может, поможете? Я застрял!",
+      "speaker": "Lucio",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Phew, here. Let me get you out.",
+      "ru": "Фух, вот ты где. Сейчас тебя вытащу.",
+      "speaker": "Elphaba",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "I'm sorry, team. I've never seen a monster like that before.",
+      "ru": "Простите, ребят. Я никогда не видел таких монстров.",
+      "speaker": "Lucio",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "It looks like our problem isn't fire power. It's something else. It's like our weapons just didn't affect it at all.",
+      "ru": "Похоже, дело не в силе удара. Тут что-то другое. Будто наше оружие вообще не могло его задеть.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "I know someone who might be able to help us. A blacksmith on Black Road.",
+      "ru": "Я знаю кое-кого, кто может нам помочь. Кузнец на Чёрной Дороге.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "<playername>, I've written the house's coordinates on your book. Meet us there.",
+      "ru": "<playername>, я записала координаты его дома тебе в книгу. Встретимся там.",
+      "speaker": "Elphaba",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Just in time. We're all here.",
+      "ru": "Как раз вовремя. Все уже в сборе.",
+      "speaker": "Elphaba",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "It looks like the Blacksmith knows what's wrong...",
+      "ru": "Похоже, кузнец знает, в чём проблема...",
+      "speaker": "Elphaba",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "So, Dren. Do you know why we can't damage the beast?",
+      "ru": "Ну что, Дрен. Ты знаешь, почему мы не можем ранить эту тварь?",
+      "speaker": "Elphaba",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Certainly! Your issue is elemental. As you know, there are 5 elements...",
+      "ru": "Разумеется! Проблема у вас в стихиях. Как вы знаете, всего есть 5 стихий...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Earth...",
+      "ru": "Земля...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Fire...",
+      "ru": "Огонь...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Air...",
+      "ru": "Воздух...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Water...",
+      "ru": "Вода...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "And Thunder...",
+      "ru": "И молния...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "But.. There is a hidden element, ❂Darkness..",
+      "ru": "Но... есть ещё скрытая стихия - ❂тьма...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "In order to damage a creature of Darkness, you must remove that influence from your soul.",
+      "ru": "Чтобы ранить существо тьмы, надо сперва снять её влияние со своей души.",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Some Dark creatures use a sort of synchronous barrier that prevents them being harmed by other creatures influenced with Darkness.",
+      "ru": "Некоторые тёмные твари используют что-то вроде синхронного барьера. Из-за него им не могут навредить другие существа, на которых тоже влияет тьма.",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "In order to purify you, I will need 2 powerful items.",
+      "ru": "Чтобы очистить вас, мне понадобятся 2 мощных предмета.",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Firstly, a shard from a Dernic Beast. There is one living in the depths of the Roots of Corruption.",
+      "ru": "Во-первых, осколок от дерникской твари. Одна такая обитает в глубинах Корней Порчи.",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "I will use this to reveal the darkness element in you all.",
+      "ru": "С его помощью я покажу стихию тьмы, скрытую в каждом из вас.",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "And then, of course, a Light item, to purify all of you...",
+      "ru": "А потом, само собой, нужен предмет света, чтобы вас всех очистить...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Wait... what do you mean a Light item?",
+      "ru": "Погоди... что значит предмет света?",
+      "speaker": "Lucio",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Something from any Light creature would work, you could get some dust from Gavel faries if you wanted...",
+      "ru": "Подойдёт что-нибудь от любого существа света. Можете хоть пыльцу гавелльских фей добыть, если захотите...",
+      "speaker": "Dren",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Alright. Aledar, you get the darkness item with <playername>, and I'll go get the Light item with Lucio.",
+      "ru": "Ладно. Аледар, вы с <playername> идёте за тёмным предметом, а я с Люцио добуду светлый.",
+      "speaker": "Elphaba",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Yes ma'am! Let's go <playername>!",
+      "ru": "Да, мэм! Пошли, <playername>!",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Here we are, the roots of Corruption. Let's go, <playername>!",
+      "ru": "Вот мы и у Корней Порчи. Пошли, <playername>!",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "We found that the caves around the roots are far more complex than we thought...",
+      "ru": "Мы выяснили, что пещеры вокруг корней куда запутаннее, чем казались...",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "There's one with far more powerful creatures... Somewhere... Here!",
+      "ru": "И одна из них кишит куда более сильными тварями... Где-то... вот тут!",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "What are you waiting for? Let's go!",
+      "ru": "Чего стоишь? Пошли!",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "I don't think we can spell our way across, <playername>! We need something like... Wings!",
+      "ru": "Не думаю, что заклинания помогут нам перебраться, <playername>! Нам нужно что-то вроде... крыльев!",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "[+1 Beastly Wings]",
+      "ru": "[+1 Beastly Wings]",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "I've never used wings like this before...",
+      "ru": "Я никогда раньше такими крыльями не пользовался...",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "I think if we just hold them and walk normally, it should help us glide across.",
+      "ru": "Думаю, если просто держать их в руках и идти как обычно, мы сможем спланировать на ту сторону.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Don't drop them and don't get hit by the lava geysers, obviously.",
+      "ru": "Только не урони их и не влети под лавовые гейзеры. Это, думаю, и так ясно.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Don't forget why we are here, we're looking for a creature of darkness. Shout for me if you find one.",
+      "ru": "И не забывай, зачем мы вообще сюда пришли. Мы ищем тварь тьмы. Если найдёшь - зови меня.",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "[-1 Beastly Wings]",
+      "ru": "[-1 Beastly Wings]",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "That's our target! Go after it!",
+      "ru": "Вот наша цель! За ней!",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Wait, why isn't it fighting us here? Careful! It might be trapped!",
+      "ru": "Стой, а почему она тут не нападает? Осторожно! Это может быть ловушка!",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Wow, I'm impressed <playername>. I honestly thought you would need my help.",
+      "ru": "Ого, впечатляет, <playername>. Если честно, я думал, что тебе понадобится моя помощь.",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Well, we got what we came for. Let's head back to Dren.",
+      "ru": "Ну, что хотели, то и добыли. Возвращаемся к Дрену.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Looks like we lucked out on this one. Did you get an item of darkness?",
+      "ru": "Похоже, вам тут повезло. Предмет тьмы добыли?",
+      "speaker": "Dren",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "[-1 Corrupt Pearl]",
+      "ru": "[-1 Corrupt Pearl]",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "That should do it. Let's see if this will work. Come here <playername>!",
+      "ru": "Этого должно хватить. Ну что, посмотрим, сработает ли. Иди сюда, <playername>!",
+      "speaker": "Dren",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "It's done! You ought to be free of the dark influence. You ought to be able to break through that barrier that was giving you trouble.",
+      "ru": "Готово! Теперь ты должен быть свободен от влияния тьмы. Значит, и тот барьер, что вам мешал, ты теперь пробьёшь.",
+      "speaker": "Dren",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Are you sure? I don't feel that different. Well... I guess there's only one way to find out.",
+      "ru": "Ты уверен? Я ничего особо не чувствую. Хотя... проверить можно только одним способом.",
+      "speaker": "Elphaba",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Everyone here? Great! Time to finish what I started!",
+      "ru": "Все на месте? Отлично! Пора закончить то, что я начал!",
+      "speaker": "Lucio",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Lucio! No! When will you learn?",
+      "ru": "Люцио! Нет! Когда ты уже научишься?",
+      "speaker": "Elphaba",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Right, yes. Sorry, what's the plan?",
+      "ru": "Ага, да. Извиняюсь. Какой план?",
+      "speaker": "Lucio",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "We don't want that thing to escape, it could cause widespread panic.",
+      "ru": "Нельзя дать этой твари сбежать: она может поднять панику во всей округе.",
+      "speaker": "Elphaba",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "We'll open up a small entrance to get in, and fight it once inside.",
+      "ru": "Мы откроем небольшой проход, залезем внутрь и уже там с ней разберёмся.",
+      "speaker": "Elphaba",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Fine...",
+      "ru": "Ладно...",
+      "speaker": "Lucio",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Let's go!",
+      "ru": "Погнали!",
+      "speaker": "Lucio",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "We... We actually did it!",
+      "ru": "Мы... Мы реально это сделали!",
+      "speaker": "Elphaba",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Thank grook for that. I was wondering if we'd ever be rid of this nightmare.",
+      "ru": "Слава груку. А то я уже начал думать, что мы никогда не избавимся от этого кошмара.",
+      "speaker": "Aledar.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "We have an extremely old map of the mines to help us, but we have no idea what's waiting for us.",
+      "ru": "У нас есть очень старая карта шахт, она хоть как-то поможет, но мы всё равно понятия не имеем, что ждёт нас дальше.",
+      "speaker": "Elphaba",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "I want to warn you, this may well be a one way ticket for all of us.",
+      "ru": "Сразу предупреждаю: это вполне может быть билет в один конец для нас всех.",
+      "speaker": "Aledar",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Yeah right! Check this out!",
+      "ru": "Ага, конечно! Смотри сюда!",
+      "speaker": "Lucio",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Rocks are one thing, Lucio. The creatures we're about to face require more than brute strength. You need force of mind.",
+      "ru": "Камни - это одно, Люцио. А твари, с которыми мы сейчас столкнёмся, требуют не только грубой силы. Тут головой тоже надо работать.",
+      "speaker": "Elphaba",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Oh my. Maybe this isn't the best idea.",
+      "ru": "Ой. Может, идея была и не лучшая.",
+      "speaker": "Lucio",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "It's too late now. We've got to finish this mission.",
+      "ru": "Уже поздно. Мы обязаны довести эту миссию до конца.",
+      "speaker": "Elphaba",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Remember the goal Elphie, we must reach the end of the expanse.",
+      "ru": "Помни о цели, Эльфи. Мы должны добраться до самого конца пустоши.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "It's still empty here. But it looks like they were here only yesterday.",
+      "ru": "Тут всё ещё пусто. Но выглядит так, будто люди были здесь буквально вчера.",
+      "speaker": "Elphaba",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "I thought you said the miners were here hundreds of years ago?",
+      "ru": "Ты же говорила, что шахтёры были тут сотни лет назад?",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "They were. I don't know why it would be so well presevered. It's as if nothing has touched it.",
+      "ru": "Так и было. Не знаю, почему всё так хорошо сохранилось. Будто это место вообще никто не трогал.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "According to the documents, we need to make our way to the end of the road.",
+      "ru": "Судя по документам, нам нужно просто идти до конца дороги.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Argh! Bugs! Get off!",
+      "ru": "Ай! Насекомые! Слезьте с меня!",
+      "speaker": "Elphaba",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "So much for nothing being here.",
+      "ru": "Ну да, конечно. А я уж подумала, тут и правда никого нет.",
+      "speaker": "Elphaba",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Why are they only going for me?",
+      "ru": "Почему они вообще только на меня лезут?",
+      "speaker": "Elphaba",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Aledar, how far is it to the end?",
+      "ru": "Аледар, долго нам ещё до конца?",
+      "speaker": "Elphaba",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "I read the same map as you. It didn't even have scale. There should be a bridge ahead, though.",
+      "ru": "Я читаю ту же карту, что и ты. Там даже масштаба нет. Но впереди вроде должен быть мост.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Uhh... A destroyed one. And it wasn't cause I blew it up this time!",
+      "ru": "Эм... разрушенный. И в этот раз это не я его взорвал, если что!",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "Hmm, well we will have to go around.",
+      "ru": "Хм, значит, придётся обходить.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "This doesn't really look like corruption, does it?",
+      "ru": "Это не очень-то похоже на Порчу, правда?",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "Uhhh... I'm not feeling very wel-... Aahhh!",
+      "ru": "Эм... Мне как-то нехоро-... Ааа!",
+      "speaker": "Elphaba",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Aaahhh! My liver! It took my liver!",
+      "ru": "Ааааа! Моя печень! Оно забрало мою печень!",
+      "speaker": "Elphaba",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Elphaba! No! It's an illusion!",
+      "ru": "Эльфаба! Нет! Это иллюзия!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "Where has she gone? ELPHABA?",
+      "ru": "Куда она делась? ЭЛЬФАБА?!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Aledar, maybe we should just double back now?",
+      "ru": "Аледар, может, нам уже просто развернуться назад?",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Elphaba is an extremely able warrior. We will fight on and find her.",
+      "ru": "Эльфаба - очень сильный воин. Мы продолжим путь и найдём её.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Do you really think it was just an illusion?",
+      "ru": "Ты реально думаешь, что это была просто иллюзия?",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "I'm not sure. I hope so.",
+      "ru": "Не уверен. Очень на это надеюсь.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "What if we're infected too? Shouldn't we just go back?",
+      "ru": "А если мы тоже заразились? Может, нам лучше вернуться?",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "We can't, Lucio! We have a mission as you very well know. We continue.",
+      "ru": "Не можем, Люцио! У нас есть задание, ты сам это прекрасно знаешь. Идём дальше.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "Besides, we might be carrying some of those things too. We can't risk them infesting Wynn.",
+      "ru": "И потом, мы уже могли притащить часть этой дряни на себе. Нельзя рисковать и выпускать её в Винн.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Looks like we need to go around to the right, here?",
+      "ru": "Похоже, нам тут надо обходить справа, да?",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "It feels like something is watching us...",
+      "ru": "У меня чувство, будто за нами кто-то наблюдает...",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "Aledar, what is this place? You didn't tell me there was a city here.",
+      "ru": "Аледар, что это за место? Ты не говорил, что тут есть город.",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "There is. A big one, too; there's more ahead. But it doesn't look like anyone's home . The map doesn't have a name for it either.",
+      "ru": "Да, и немаленький: дальше он ещё продолжается. Но, похоже, дома никого нет. Даже названия на карте нет.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "Wait a sec, is that one of the miners? Is she hurt? HEEEEY! YOU OVER THERE!",
+      "ru": "Погоди, это что, одна из шахтёров? Она ранена? ЭЭЭЙ! ТЫ ТАМ!",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Lucio, no! It's a trap!",
+      "ru": "Люцио, нет! Это ловушка!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "LUCIO! Don't get closer!",
+      "ru": "ЛЮЦИО! Не подходи!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Wait, what's going on? Why can't I move?",
+      "ru": "Стой, что происходит? Почему я не могу шевелиться?",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Please, you have to understand!",
+      "ru": "Пожалуйста, ты должен понять!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "It's so dangerous here!",
+      "ru": "Здесь слишком опасно!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "We can't live alone like this!",
+      "ru": "Мы не можем дальше жить здесь одни!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "It's too painful!",
+      "ru": "Это слишком больно!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Listen to me!",
+      "ru": "Послушай меня!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "You need to come with us!",
+      "ru": "Ты должен пойти с нами!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "It's the only way to keep you safe!",
+      "ru": "Только так ты будешь в безопасности!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "It's the only way to make you happy here!",
+      "ru": "Только так ты сможешь быть здесь счастлив!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "It's the only way to make us feel whole!",
+      "ru": "Только так мы снова станем целыми!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "IT'S THE ONLY WAY, DO YOU UNDERSTAND?!",
+      "ru": "ЭТО ЕДИНСТВЕННЫЙ СПОСОБ, ТЫ ПОНИМАЕШЬ?!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "AAAH! S-Stop screaming at me! I can't understand!!",
+      "ru": "ААА! Х-хватит на меня орать! Я ничего не понимаю!!",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "WHY CAN'T YOU UNDERSTAND?",
+      "ru": "ПОЧЕМУ ТЫ НЕ ПОНИМАЕШЬ?",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "AM I NOT SPEAKING CLEARLY?",
+      "ru": "Я ЧТО, НЕДОСТАТОЧНО ЯСНО ГОВОРЮ?",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "CAN'T YOU HEAR WHAT I'M SAYING?",
+      "ru": "ТЫ НЕ СЛЫШИШЬ, ЧТО Я ГОВОРЮ?",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "YOU STAY OUT OF THIS?",
+      "ru": "А ТЫ НЕ ЛЕЗЬ СЮДА!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "No! How did she disable my spell?!",
+      "ru": "Нет! Как она развеяла моё заклинание?!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "PLEASE, WE NEED THIS!",
+      "ru": "ПОЖАЛУЙСТА, НАМ ЭТО НУЖНО!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "YOU'LL BE SO MUCH HAPPIER IF YOU COME ALONG!",
+      "ru": "ТЕБЕ БУДЕТ КУДА ЛУЧШЕ, ЕСЛИ ПОЙДЁШЬ С НАМИ!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "YOU'LL NEVER HAVE TO WORRY AGAIN!",
+      "ru": "ТЕБЕ БОЛЬШЕ НИ О ЧЁМ НЕ ПРИДЁТСЯ ПЕРЕЖИВАТЬ!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "WE'LL KEEP YOU SAFE!",
+      "ru": "МЫ ТЕБЯ ЗАЩИТИМ!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "...aaaah... Stop talking... H-help...",
+      "ru": "...ааа... перестань говорить... по-помогите...",
+      "speaker": "Lucio",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Just please, stand still a little longer!",
+      "ru": "Просто постой ещё немного спокойно, пожалуйста!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "We'll bring you someplace warm!",
+      "ru": "Мы отведём тебя в тёплое место!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "You won't be hunted! We promise! No one hunts us!",
+      "ru": "На тебя больше никто не будет охотиться! Обещаем! На нас ведь не охотятся!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "You agree? YOU AGREE!",
+      "ru": "Ты согласен? ТЫ СОГЛАСЕН!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "THANK YOU! WE WILL GO TOGETHER!",
+      "ru": "СПАСИБО! МЫ ПОЙДЁМ ВМЕСТЕ!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "YOU'LL BE SAFE WITH US!",
+      "ru": "С НАМИ ТЫ БУДЕШЬ В БЕЗОПАСНОСТИ!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "NO MORE FEAR! NO MORE CONCERN!",
+      "ru": "БОЛЬШЕ НИКАКОГО СТРАХА! НИКАКИХ ТРЕВОГ!",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Foreeeever...",
+      "ru": "Навсееегда...",
+      "speaker": "Obsessor",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "No no no!! This is bad, really bad! We have to go <playername>! Quick!",
+      "ru": "Нет, нет, нет!! Плохо, очень плохо! Нам надо уходить, <playername>! Быстро!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "We can't stay here.",
+      "ru": "Нам нельзя тут оставаться.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Who's that?! Elphaba?! Lucio?!",
+      "ru": "Это кто ещё?! Эльфаба?! Люцио?!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Wait, you're just one of the miners. This doesn't feel like an illusion...",
+      "ru": "Погоди, ты просто один из шахтёров. Это уже не похоже на иллюзию...",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "Look, you need to get out of here. It's not safe- Wait, what's that noise...?",
+      "ru": "Слушай, тебе надо уходить отсюда. Тут небезопасно - стой, что это за звук...?",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "OURGURGH!",
+      "ru": "АУРГРХ!",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "AAHHHHHHH!",
+      "ru": "ААААААА!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "Is that the monster that captured Elphaba?!",
+      "ru": "Это то чудовище, которое схватило Эльфабу?!",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "You have to find a way of following them to the top!",
+      "ru": "Нужно найти способ последовать за ними наверх!",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "Right-clicking this Item emits sound connections with the Irtitacks...",
+      "ru": "Использование этого предмета правой кнопкой устанавливает звуковую связь с Иртитаками...",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "It's... Elphaba! Aledar might still be alive... Quick!",
+      "ru": "Это... Эльфаба! Аледар ещё может быть жив... Быстрее!",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "Is that the monster that captured Lucio?! Don't let it get away!",
+      "ru": "Это та самая тварь, что утащила Люцио?! Не дай ей уйти!",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "<playername>! She was completely right. You ought to come with us...",
+      "ru": "<playername>! Она была абсолютно права. Тебе тоже стоит пойти с нами...",
+      "speaker": "Lucio",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "<playername>! <playername>!",
+      "ru": "<playername>! <playername>!",
+      "speaker": "Aledar",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "I think my leg is broken. I have a potion to fix it, but I dropped it back up there.",
+      "ru": "Кажется, у меня сломана нога. У меня было зелье, чтобы это исправить, но я выронил его наверху.",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "I feel a bit better.. But something's still wrong.",
+      "ru": "Мне чуть полегчало... Но что-то всё равно не так.",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "Let's just get out of here, soldier on. There's only one way out.",
+      "ru": "Давай просто выбираться отсюда и идти дальше. Выход тут только один.",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Jump with me, come on!",
+      "ru": "Прыгай со мной, давай!",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "Aaaaaaaaaaahhhhhhh!!!",
+      "ru": "Ааааааааааааа!!!",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "Urrrgh. <playername>, this hasn't gone to plan. According to my map we aren't even half way.",
+      "ru": "Урргх. <playername>, всё идёт вообще не по плану. Судя по карте, мы ещё даже до половины не дошли.",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "I can't walk. But equally we can't stay here.",
+      "ru": "Я не могу идти. Но и оставаться здесь мы тоже не можем.",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "The mission must be carried out. The plan has changed, but it's imperative we get to the end of this expanse, together.",
+      "ru": "Миссию надо довести до конца. План изменился, но нам всё равно жизненно важно добраться до конца пустоши. Вместе.",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "There has to be a way.. Even if you have to push me in this thing!",
+      "ru": "Должен быть способ... Даже если тебе придётся везти меня в этой штуке!",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "No, I'm not joking. You guard the cart, I'll lead the way.",
+      "ru": "Нет, я не шучу. Ты охраняешь тележку, я веду.",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "According to the map, the miners started a town a little ahead.",
+      "ru": "Судя по карте, чуть дальше шахтёры когда-то основали городок.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "Who knows what's left, but it's got to be safer than here.",
+      "ru": "Кто знает, что там осталось, но это наверняка безопаснее, чем здесь.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "I think the Small Monsters will try to Kill me.",
+      "ru": "Думаю, мелкие твари будут пытаться убить меня.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "While the Big Monsters will try to Kill you.",
+      "ru": "А большие твари - тебя.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "It's going to be on you to make sure we both get through this.",
+      "ru": "Так что именно от тебя зависит, выберемся ли мы оба.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "The fate of the mission relies on the two of us working together.",
+      "ru": "Судьба всей миссии зависит от того, насколько слаженно мы с тобой сработаем.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "Are those... Eyes on the trees?",
+      "ru": "Это что... глаза на деревьях?",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "Look out, <playername>!",
+      "ru": "Берегись, <playername>!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "Watch out, the small monsters are coming for me! I can't fight in this thing!",
+      "ru": "Осторожно, мелочь лезет ко мне! В этой штуке я не могу драться!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "Another one's coming! Pay attention!",
+      "ru": "Ещё одна лезет! Не зевай!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "Great job! It looks like they've stopped coming. Let's keep going.",
+      "ru": "Отлично сработано! Похоже, они перестали лезть. Идём дальше.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "They're here again, <playername>!",
+      "ru": "Они опять здесь, <playername>!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "Let's keep going! Before they come back.",
+      "ru": "Пошли дальше! Пока они снова не полезли.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "A lot of those small ones are coming for me!",
+      "ru": "Ко мне лезет целая толпа этой мелочи!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "This one was close! We're getting close to the town.",
+      "ru": "Едва отбились! До города уже недалеко.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "We'll have to stop again! We can't go past so many monsters.",
+      "ru": "Надо снова остановиться! Через такую кучу монстров мы не пройдём.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "We're almost there! I can see the town from here!",
+      "ru": "Мы почти дошли! Я уже вижу город отсюда!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "Oh no!",
+      "ru": "О нет!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "Ouch! I got hit! Be careful, <playername>!",
+      "ru": "Ай! Меня задело! Осторожнее, <playername>!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "Finally, we've arrived... It's not exactly the town on the map.",
+      "ru": "Ну наконец-то, добрались... Хотя это вообще не очень похоже на тот город с карты.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "The lost miners are here... How? they must be hundreds of years old!",
+      "ru": "Пропавшие шахтёры тут... Как? Им же должны быть уже сотни лет!",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "What is this obelisk? It's.. oddly comforting. I recognise this feeling from my time in Gavel.",
+      "ru": "Что это за обелиск? От него... спокойно. Я узнаю это чувство, ещё с тех времён, когда был в Гавеле.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "Maybe.. It's been touched by the light? If so.. It could heal me.",
+      "ru": "Может... его коснулся свет? Если так... он может меня исцелить.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "Let's see if it does anything to me...",
+      "ru": "Сейчас проверим, подействует ли он на меня...",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "It worked... Kind of. I feel at least 70%. We still have a ways to go.",
+      "ru": "Сработало... Ну, вроде. Чувствую себя хотя бы процентов на 70... Но путь ещё долгий.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "Let's take some time to gather ourselves before we press on. I'll meet you on the other side of town.",
+      "ru": "Давай немного придём в себя перед тем, как идти дальше. Встретимся уже на другой стороне города.",
+      "speaker": "Aledar",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "You quickly escape the worm before it eats you...",
+      "ru": "Ты быстро ускользаешь от червя, прежде чем он тебя сожрёт...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "This pickaxe can only be used a few times as it's almost completely broken...",
+      "ru": "Этой киркой можно воспользоваться лишь несколько раз - она почти сломана...",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "Lucio's body appears out of the Enraptured Obsessor. He must have become one.",
+      "ru": "Тело Люцио появляется из Восхищённого одержимца. Должно быть, он стал одним из них.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "You must find Elphaba and Aledar before it's too late.",
+      "ru": "Ты должен найти Эльфабу и Аледара, пока не поздно.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "You should use the body parts to enter the worm and find Aledar...",
+      "ru": "Тебе стоит использовать части тел, чтобы проникнуть в червя и найти Аледара...",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "This is where Aledar was taken... Perhaps you can lure the worm somehow.",
+      "ru": "Сюда забрали Аледара... Возможно, червя можно как-то выманить.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "The stomach acid seems to rise and fall consistently.",
+      "ru": "Желудочная кислота, похоже, равномерно поднимается и опускается.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "Aledar must've fallen somewhere near the road too!",
+      "ru": "Аледар, должно быть, тоже упал где-то у дороги!",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "New Quest Started: A Journey Beyond",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Путешествие за грань",
+      "speaker": "",
+      "stage": "Stage 17"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Join Elphaba on a mission in Detlas at [419, 67, -1533].",
+      "ru": "Отправиться с Эльфабой на задание в Детласе [419, 67, -1533].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Follow your team towards the Silent Expanse's entrance.",
+      "ru": "Вместе с отрядом добраться до входа в Безмолвную Пустошь.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Defeat the Beast",
+      "ru": "Победить чудовище.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Plan a way of killing the beast.",
+      "ru": "Придумать, как убить чудовище.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Meet the other soldiers at [730, 61, -1434].",
+      "ru": "Встретиться с остальными солдатами [730, 61, -1434].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Get the Shard with Aledar.",
+      "ru": "Добыть осколок вместе с Аледаром.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Go deeper into the cave at [241, 39, -1225] for the Shard.",
+      "ru": "Углубиться в пещеру за осколком [241, 39, -1225].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Chase the beast for the Shard.",
+      "ru": "Догнать чудовище и забрать осколок.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Kill the Progenitors to open up the entrance.",
+      "ru": "Убить Прародителей, чтобы открыть вход.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Kill the Mangled Progeny for the [1 Corrupted Pearl].",
+      "ru": "Убить Изувеченное отродье и добыть [1 Corrupted Pearl].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Return to the Blacksmith with the Darkness Item.",
+      "ru": "Вернуться к кузнецу с предметом тьмы.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Re-open the closed entrance with the other warriors.",
+      "ru": "Вместе с остальными воинами вновь открыть заваленный вход.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Kill the Black Geist.",
+      "ru": "Убить Чёрного призрака.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Explore the Silent Expanse.",
+      "ru": "Исследовать Безмолвную Пустошь.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Find Aledar, Lucio and Elphaba in the Fallen City.",
+      "ru": "Найти Аледара, Люцио и Эльфабу в Павшем городе.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Find Aledar and Elphaba in the Fallen City.",
+      "ru": "Найти Аледара и Эльфабу в Павшем городе.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Find Aledar in the Fallen City.",
+      "ru": "Найти Аледара в Павшем городе.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Escort Aledar through the Eyeball Forest to Lutho at (685, -407).",
+      "ru": "Проводить Аледара через Лес глаз до Лутхо (685, -407).",
+      "stage": "Stage 18"
+    }
+  ],
+  "choices": []
+}

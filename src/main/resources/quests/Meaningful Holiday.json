@@ -1,0 +1,755 @@
+{
+  "quest": "Meaningful Holiday",
+  "level": 33,
+  "difficulty": "Easy",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "meaningful-holiday",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hello, dear. My name is Haily. Nice to meet you.",
+      "ru": "Привет, дорогой. Меня зовут Хэйли. Приятно познакомиться.",
+      "speaker": "Haily",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "This is the Almuj Charity center. We're looking for volunteers to help the homeless this year.",
+      "ru": "Это благотворительный центр Алмуджа. В этом году мы ищем волонтёров, чтобы помочь бездомным.",
+      "speaker": "Haily",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "If you want to help someone else this year, our boss Nick is already in the thick of it.",
+      "ru": "Если хочешь в этом году кому-нибудь помочь, наш начальник Ник уже вовсю этим занимается.",
+      "speaker": "Haily",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "He's a really special man. I'll write his location down for you in your book. Oh, remember this is charity work, so hopefully gratitude is a good enough reward for you.",
+      "ru": "Он правда особенный человек. Я запишу тебе его местоположение в книжку. И да, это благотворительность, так что надеюсь, одной благодарности тебе будет достаточно.",
+      "speaker": "Haily",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Oh. Oh... Oh dear. There's more people here than ever.",
+      "ru": "Ох. Ох... Боже. Людей здесь больше, чем когда-либо.",
+      "speaker": "Nick",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Hm, are you just passing through? Oh! A volunteer!",
+      "ru": "Хм, просто мимо проходишь? О! Волонтёр!",
+      "speaker": "Nick",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "You're the only one this year. Things have really changed. We used to have hundreds of volunteers this time of year.",
+      "ru": "Ты в этом году единственный. Всё сильно изменилось. Раньше в это время у нас были сотни волонтёров.",
+      "speaker": "Nick",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "The people here are starving. There's no two ways about it.",
+      "ru": "Люди здесь голодают. И от этого никуда не деться.",
+      "speaker": "Nick",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I don't know how we're going to feed everyone this year.",
+      "ru": "Я вообще не представляю, как мы всех прокормим в этом году.",
+      "speaker": "Nick",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "The man who runs the budget store used to be homeless... He knows the struggles they face.",
+      "ru": "Человек, который держит дешёвую лавку, сам раньше был бездомным... Он знает, через что они проходят.",
+      "speaker": "Nick",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "I'll look after things here. Can you go to the budget store? It's really close. Any food is gratefully received.",
+      "ru": "Я пока присмотрю за всем здесь. Сможешь сходить в ту лавку? Она совсем рядом. Любая еда сейчас будет очень кстати.",
+      "speaker": "Nick",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "'ello young lad.",
+      "ru": "Здорово, паренёк.",
+      "speaker": "Flodur",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "What can I do fer ye?",
+      "ru": "Чем помочь?",
+      "speaker": "Flodur",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "A food donation fer the 'omless?",
+      "ru": "Пожертвование еды для бездомных?",
+      "speaker": "Flodur",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I'm sorry but everyfin is sold out, everyone is preparing for Craftmas lad.",
+      "ru": "Извини, но всё распродано, паренёк. Все готовятся к Крафтмасу.",
+      "speaker": "Flodur",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I might have something in the attic, if you find anyfin, you can 'ave it. I know how difficult it gets.",
+      "ru": "Может, на чердаке что-то и завалялось. Если найдёшь хоть что-нибудь, можешь забрать. Я знаю, как тяжко бывает.",
+      "speaker": "Flodur",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Hm... This apple has seen betta days.",
+      "ru": "Хм... это яблоко явно уже не первой свежести.",
+      "speaker": "Flodur",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Looks like i'm fresh outta food. Barely got enough to feed myself.",
+      "ru": "Похоже, еды у меня вообще не осталось. Самому едва хватает.",
+      "speaker": "Flodur",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I wish I had something to give this year. I guess people are having a feast in the city.",
+      "ru": "Эх, жаль, что в этом году мне нечего отдать. Видать, в городе пир устраивают.",
+      "speaker": "Flodur",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Any news?",
+      "ru": "Ну что, есть новости?",
+      "speaker": "Nick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "I see. I was counting on him.",
+      "ru": "Понятно. А я на него рассчитывал.",
+      "speaker": "Nick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I can't be too upset. He donates so much the rest of the year.",
+      "ru": "Хотя злиться не могу. В остальное время года он и так очень много жертвует.",
+      "speaker": "Nick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "We may have to ask the farmers directly...",
+      "ru": "Похоже, придётся идти напрямую к фермерам...",
+      "speaker": "Nick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "I know someone in Ternaves with a kind heart.",
+      "ru": "Я знаю одного доброго человека в Тернейвсе.",
+      "speaker": "Nick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "We've fallen out before, seems he didn't understand what a donation was.",
+      "ru": "Раньше мы с ним уже поссорились - похоже, он не совсем понял, что такое \"пожертвование\".",
+      "speaker": "Nick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "There is a shortcut south from here, in a cave. Go through there.",
+      "ru": "К югу отсюда есть короткий путь, через пещеру. Иди туда.",
+      "speaker": "Nick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Oh, also, could you give this blanket to Margaret while you're down in the tunnel? Just follow the road behind me.",
+      "ru": "О, и ещё. Пока будешь в туннеле, можешь передать это одеяло Маргарет? Просто иди по дороге у меня за спиной.",
+      "speaker": "Nick",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Oh, please don't move me along. I have nowhere else to go!",
+      "ru": "Ох, пожалуйста, не прогоняйте меня. Мне больше некуда идти!",
+      "speaker": "Margaret",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Oh, a blanket for me? How sweet... From Nick, you say? He's always so kind... Thank you, as well.",
+      "ru": "Ой, это одеяло мне? Как мило... От Ника, говоришь? Он всегда такой добрый... И тебе тоже спасибо.",
+      "speaker": "Margaret",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "If you want to get to Ternaves quickly, just keep going through this tunnel. Some unfriendly homeless folks live around here too, so be careful. It's so sad, their state.",
+      "ru": "Если хочешь быстро попасть в Тернейвс, просто иди дальше через этот туннель. Тут ещё живут не самые дружелюбные бездомные, так что будь осторожен. Мне так жаль, что они оказались в таком положении.",
+      "speaker": "Margaret",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Welcome to my farm! Looking to buy some of my fresh crops?",
+      "ru": "Добро пожаловать на мою ферму! Хочешь купить свежего урожая?",
+      "speaker": "Reshad",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Well, it seems you're out of luck. I've just sold the last of them from this harvest.",
+      "ru": "Ну, тебе не повезло. Я только что продал остатки урожая.",
+      "speaker": "Reshad",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "It was all for that big Craftmas feast happening in Detlas. Wish I could help you out, but I'm fresh out of food to sell you.",
+      "ru": "Всё ушло на тот огромный пир на Крафтмас в Детласе. Я бы и рад помочь, но продавать уже просто нечего.",
+      "speaker": "Reshad",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Wait, I bet Nick sent you, didn't he? Well, he's coming up on your left. Remind him that this isn't a charity.",
+      "ru": "Погоди, тебя ведь Ник прислал, да? Он как раз подходит слева. Напомни ему, что это вообще-то не благотворительность.",
+      "speaker": "Reshad",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Hey, <playername>! Any luck?",
+      "ru": "Эй, <playername>! Ну что, как успехи?",
+      "speaker": "Nick",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "We can't get any food? We're running out of options here...",
+      "ru": "Вообще никак не достать еду? У нас уже почти не осталось вариантов...",
+      "speaker": "Nick",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Well, there's only one person left that we can appeal to at this time of year.",
+      "ru": "Ну, в это время года нам остаётся обратиться только к одному человеку.",
+      "speaker": "Nick",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Follow me.",
+      "ru": "Пошли за мной.",
+      "speaker": "Nick",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Heya! I just finished decorating this christmas tree!",
+      "ru": "Приветик! Я как раз закончила украшать эту ёлку!",
+      "speaker": "Elvura",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Oh, you're looking for Santa?",
+      "ru": "О, вы Санту ищете?",
+      "speaker": "Elvura",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "He is right down the stairs to the right.",
+      "ru": "Он внизу, справа по лестнице.",
+      "speaker": "Elvura",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Nick... You know the deal.",
+      "ru": "Ник... Ты знаешь правила.",
+      "speaker": "Santa",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "The council all have their areas to care for. Yours is Almuj. How you care for it is your responsibility.",
+      "ru": "У каждого в совете своя область, о которой надо заботиться. У тебя - Алмудж. Как о нём заботиться, решать тебе. И отвечаешь за это тоже ты.",
+      "speaker": "Santa",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "There's five times more homeless and hungry than last year!",
+      "ru": "Бездомных и голодных в пять раз больше, чем в прошлом году!",
+      "speaker": "Nick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Nick, I know times are tough there, but-",
+      "ru": "Ник, я знаю, там сейчас тяжёлые времена, но-",
+      "speaker": "Santa",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Tough?! It's impossible! What happened to people's good will? I had one volunteer this year! ONE!",
+      "ru": "Тяжёлые?! Да это безнадёга! Что стало с людской добротой? У меня в этом году был один волонтёр! ОДИН!",
+      "speaker": "Nick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I'm sorry Nick. You could go to Detlas and ask there, they have a feast big enough to feed an army!",
+      "ru": "Мне жаль, Ник. Можешь сходить в Детлас и попросить там. У них пир такой, что можно целую армию накормить!",
+      "speaker": "Santa",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Hmmm... Oh, sorry. I miscalculated your journey here. Good to see you.",
+      "ru": "Хммм... Ой, извини. Я не рассчитал, как быстро ты сюда доберёшься. Рад тебя видеть.",
+      "speaker": "Nick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "I suppose you heard Santa and I. Our next location is Detlas.",
+      "ru": "Наверное, ты слышал наш разговор с Сантой. Теперь нам нужно в Детлас.",
+      "speaker": "Nick",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Alright, that's settled then. Leave through the fireplace behind me, it will bring you directly to Detlas. Good luck, Nick.",
+      "ru": "Ну, значит решено. Выходите через камин у меня за спиной, он сразу перенесёт вас в Детлас. Удачи, Ник.",
+      "speaker": "Santa",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Wow. The people here live in such grandure. I wonder if they know people are starving to the east.",
+      "ru": "Ничего себе. Народ тут живёт в такой роскоши. Интересно, они вообще знают, что на востоке люди голодают?",
+      "speaker": "Nick",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Let's ask around for some donations.",
+      "ru": "Давай попросим у людей пожертвования.",
+      "speaker": "Nick",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "More importantly, let's hope they'll share a trifle of food.",
+      "ru": "А главное, надеюсь, они дадут нам хоть немного еды.",
+      "speaker": "Nick",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "What are you doing here?",
+      "ru": "Вы здесь что забыли?",
+      "speaker": "Server",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "This event is invite-only.",
+      "ru": "Это мероприятие только по приглашениям.",
+      "speaker": "Server",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "You aren't even in a formal dress.",
+      "ru": "Да вы даже не в парадной одежде.",
+      "speaker": "Server",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "What do you want?!",
+      "ru": "Чего вам надо?!",
+      "speaker": "Server",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Food? You want food? Does this look like a charity to you?",
+      "ru": "Еду? Вам нужна еда? Это, по-вашему, похоже на благотворительную столовую?",
+      "speaker": "Server",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Of course not! We have an obligation to feed our partygoers, not some poor scraps of men in the desert!",
+      "ru": "Конечно нет! Мы обязаны кормить гостей праздника, а не каких-то оборванцев из пустыни!",
+      "speaker": "Server",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Now get out of here before I call the security golems. And don't even think of stealing from the kitchen!",
+      "ru": "А теперь проваливайте, пока я не вызвал охранных големов. И даже не думайте что-то тащить с кухни!",
+      "speaker": "Server",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Were you able to get any food?",
+      "ru": "Удалось достать хоть какую-то еду?",
+      "speaker": "Nick",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You do?! I didn't expect them to be so generous, a whole crate?",
+      "ru": "Серьёзно?! Не думал, что они окажутся настолько щедрыми, целый ящик?",
+      "speaker": "Nick",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Nick",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Oh...",
+      "ru": "Ох...",
+      "speaker": "Nick",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Stealing is not in the christmas spirit... But I think I can make this work.",
+      "ru": "Воровство, конечно, не в духе праздника... Но, думаю, я смогу обратить это на пользу.",
+      "speaker": "Nick",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Go on ahead. I have a plan. Don't worry, I'll return all this food.",
+      "ru": "Иди вперёд. У меня есть план. Не переживай, я потом всё это верну.",
+      "speaker": "Nick",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Listen up everyone!",
+      "ru": "Все послушайте меня!",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "I know you are hungry. Because I am too.",
+      "ru": "Я знаю, что вы голодны. Потому что я тоже голоден.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "But your dinner will not be served tonight.",
+      "ru": "Но сегодня ужин вам не подадут.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "There will be no Craftmas feast this year!",
+      "ru": "В этом году никакого пира на Крафтмас не будет!",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "You can't do that!",
+      "ru": "Вы не можете так сделать!",
+      "speaker": "Guest",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "The food on the table isn't enough to feed everyone here!",
+      "ru": "Еды на столе и так не хватит на всех здесь!",
+      "speaker": "Guest",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "This one night, this one missed meal.",
+      "ru": "Это всего один вечер, всего один пропущенный ужин.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "This is how thousands of people live every day.",
+      "ru": "Так живут тысячи людей каждый день.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Hungry, wondering when the food will be available.",
+      "ru": "Голодные, не зная, когда вообще удастся поесть.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "And while you sit there with empty stomachs be thankful for what you have. Spare a thought for those who have not.",
+      "ru": "И пока вы сидите здесь голодными, будьте благодарны за то, что у вас есть. Подумайте о тех, у кого ничего нет.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Hundreds of men, women and children, just like you, will not eat tonight, at all.",
+      "ru": "Сотни мужчин, женщин и детей, таких же как вы, сегодня вообще не поедят.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "All because this enormous feast was not enough. Detlas bought all the food, cheap or expensive.",
+      "ru": "И всё потому, что этого огромного пира оказалось недостаточно. Детлас скупил всю еду - дешёвую и дорогую, без разницы.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "I'm here to remind you the real meaning of this day. To think of others..",
+      "ru": "Я здесь, чтобы напомнить вам настоящий смысл этого дня. Думать о других...",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "I will return your meal tonight, but while you eat it... I want you to remember every empty mouth it could have fed.",
+      "ru": "Я верну вам сегодняшний ужин, но, пока будете есть... вспомните обо всех голодных, которых эта еда могла бы накормить.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Share what you have, be thankful for what you are given.",
+      "ru": "Делитесь тем, что у вас есть, и цените то, что вам дано.",
+      "speaker": "Nick",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Well, looks like you came through yet again Nick.",
+      "ru": "Ну что ж, похоже, ты снова справился, Ник.",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "I came to see if I could help out. But it looks like you've done it.",
+      "ru": "Я пришёл посмотреть, не нужна ли помощь. Но, похоже, ты и сам справился.",
+      "speaker": "Santa",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Well, I guess there is only one thing left to do to complete this scene.",
+      "ru": "Что ж, тогда остаётся сделать только одно, чтобы завершить эту картину.",
+      "speaker": "Santa",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Hope you all have a merry craftmas. Ho-ho!",
+      "ru": "Весёлого вам всем Крафтмаса! Хо-хо!",
+      "speaker": "Santa",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "It looks like my little speech brought the rich back down to earth.",
+      "ru": "Похоже, моя небольшая речь всё-таки немного спустила богачей с небес на землю.",
+      "speaker": "Nick",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "They gave us half of their feast. Can you believe they still had leftovers?",
+      "ru": "Они отдали нам половину еды со своего пира. Представляешь, у них после этого ещё осталось!",
+      "speaker": "Nick",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "All of that food, going straight to waste.",
+      "ru": "Столько еды, и всё бы просто ушло в мусор.",
+      "speaker": "Nick",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "They have no idea what they have, compared to these poor folks.",
+      "ru": "Они и не понимают, как много у них есть по сравнению с этими беднягами.",
+      "speaker": "Nick",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "You might be wondering why I know Santa. Well, he's my brother.",
+      "ru": "Наверное, тебе интересно, откуда я знаю Санту. Ну, он мой брат.",
+      "speaker": "Nick",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Me and my siblings take care of people at Craftmas. My area is the Almuj desert. I guess you could call me Sanda Claus, heh.",
+      "ru": "Мы с братьями и сёстрами заботимся о людях на Крафтмас. Я отвечаю за пустыню Алмуджа. Можно сказать, я Санда Клаус, хех.",
+      "speaker": "Nick",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "It's people like you that keep the real meaning of this holiday alive. It gets harder every year as the meaning is distorted. Here is a personal gift from me. Thank you.",
+      "ru": "Именно такие люди, как ты, и сохраняют настоящий смысл этого праздника. С каждым годом это всё труднее, потому что смысл искажается. Держи мой личный подарок. Спасибо тебе.",
+      "speaker": "Nick",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "New Quest Started: Meaningful Holiday",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Осмысленный праздник",
+      "speaker": "",
+      "stage": "Stage 15"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Haily in Almuj at [929, 75, -1899]",
+      "ru": "Поговорить с Хэйли в Алмудже [929, 75, -1899].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Go talk to Haily's friend Nick at the poor area.",
+      "ru": "Поговорить с другом Хэйли, Ником, в бедном квартале.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Go to the budget store and ask for food.",
+      "ru": "Зайти в дешёвую лавку и попросить еды.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Look for food on the second floor.",
+      "ru": "Поискать еду на втором этаже.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Return to Nick and tell him the bad news.",
+      "ru": "Вернуться к Нику с плохими новостями.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Bring the blanket to the woman in the tunnel south of Nick.",
+      "ru": "Отнести одеяло женщине в туннеле к югу от Ника.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Continue the tunnel and find Nick's friend.",
+      "ru": "Пройти дальше по туннелю и найти друга Ника.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Explore the area and look for Santa.",
+      "ru": "Осмотреть окрестности и найти Санту.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Enter Santa's home and speak to him.",
+      "ru": "Войти в дом Санты и поговорить с ним.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Leave through the portal behind Santa.",
+      "ru": "Уйти через портал за Сантой.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Enter the ball room.",
+      "ru": "Войти в бальный зал.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Ask the guests for food.",
+      "ru": "Попросить у гостей еды.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Steal the food from the kitchen and talk to Nick.",
+      "ru": "Украсть еду на кухне и поговорить с Ником.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Escape the ball with Nick.",
+      "ru": "Сбежать с бала вместе с Ником.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Talk to Nick.",
+      "ru": "Поговорить с Ником.",
+      "stage": "Stage 15"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,1097 @@
+{
+  "quest": "Finding the Light",
+  "level": 71,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "finding-the-light",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Awaken! Your guidance is needed!",
+      "ru": "Пробудись! Нам нужен твой совет!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "...ah. <playername>. So you are needed here too, then?",
+      "ru": "...а. <playername>. Значит, ты и здесь нужен, да?",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I am... TRYING... To awaken the Guardian of the Forest to receive its guidance, but it refuses to budge! Even the voice of Orphion provides no reaction.",
+      "ru": "Я... ПЫТАЮСЬ... разбудить Хранителя Леса и получить его совет, но он даже не шевельнётся! Даже на голос Орфиона не реагирует.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I beg once more of you, awaken! Us two... Us two seek your wisdom!",
+      "ru": "Я снова прошу тебя, пробудись! Мы... мы оба ищем твоей мудрости!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I present you Orphion's barest light- Please, respond!",
+      "ru": "Я приношу тебе слабейший отблеск света Орфиона. Прошу, ответь!",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Urgh... See? Nothing is happening. I'm at a loss of what to do. Maybe you can affect some change, considering what you've done before.",
+      "ru": "Эх... Видишь? Ничего не происходит. Я уже не знаю, что делать. Может, у тебя получится что-то изменить. Раньше ведь получалось.",
+      "speaker": "Lari",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "My pulse, it is time. I shall shine my light upon the roots of the Guardian. You and she must learn now.",
+      "ru": "Мой пульс, пришло время. Я пролью свой свет на корни Хранителя. Ты и она должны узнать больше.",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "An inscription! That wasn't there before! It was... That was completely instant. How did you even...?",
+      "ru": "Надпись! Её тут раньше не было! Это... Это же появилось в один миг. Ты это вообще как...?",
+      "speaker": "Lari",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "But, still! I knew I could be useful, let me translate this for you! As a stranger to Gavel you wouldn't know High Gavellian...",
+      "ru": "Но всё равно! Я знала, что смогу пригодиться, дай я переведу это для тебя! Ты ведь чужак в Гавеле и верхнегавелльского не знаешь...",
+      "speaker": "Lari",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "It says... Secrets uncovered in the oldest of libraries in Cinfras.",
+      "ru": "Тут сказано... Тайны раскроются в старейшей библиотеке Синфраса.",
+      "speaker": "Lari",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "...of course. A place that Elves aren't allowed, but humans are. <playername>, you'll have to find this library on your own, it seems.",
+      "ru": "...ну конечно. Место, куда эльфам нельзя, а людям можно. Похоже, <playername>, эту библиотеку тебе придётся искать самому.",
+      "speaker": "Lari",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Do you reject the light of Orphion? Waken, please!",
+      "ru": "Ты отвергаешь свет Орфиона? Пожалуйста, пробудись!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Urgh... <playername>, please tell me you were able to make some progress. The Guardian still refuses... To... WAKE!",
+      "ru": "Эх... <playername>, скажи, что тебе хоть что-то удалось выяснить. Хранитель всё ещё отказывается... ПРО... СНУТЬСЯ!",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "What is this? A spell scroll- Of the Waking Forest?! In Cinfras, of all places? Where it would have been... Impossible for me to go...",
+      "ru": "Что это? Свиток заклинания... Леса Пробуждения?! И найден он именно в Синфрасе? В месте, куда мне было бы... невозможно попасть...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "So I am Orphion's chosen, yet I would not have been able to do what was asked of me. That... No, I can't dwell on that, let me see the scroll.",
+      "ru": "То есть я избранница Орфиона, но сама всё равно не смогла бы сделать то, чего от меня потребовали. Это... Нет, нельзя сейчас на этом зацикливаться, дай сюда свиток.",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "...hm. It says, The seeker must rest these words upon those of the Guardian.",
+      "ru": "...хм. Тут сказано: ищущий должен возложить эти слова поверх слов Хранителя.",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I suppose that means you need to place it by the inscription. So yet another task that you must finish...",
+      "ru": "Похоже, это значит, что тебе нужно положить его рядом с надписью. Значит, ещё одно дело, которое снова приходится заканчивать тебе...",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "...go on, then, do it. I'm just needed here to be a translator for you thusfar, it seems.",
+      "ru": "...тогда давай, сделай это. Похоже, пока я здесь нужна лишь как твой переводчик.",
+      "speaker": "Lari",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Let me go ahead and read this, too. This will be tedious, I fear...",
+      "ru": "Дай-ка я и это прочту. Боюсь, нам ещё придётся повозиться...",
+      "speaker": "Lari",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "It says... Awakening the Guardian of the Forest requires more than just magic. The home of the elves will house the answers and revelations...?",
+      "ru": "Тут сказано... Чтобы разбудить Хранителя Леса, одной магии недостаточно. Дом эльфов хранит ответы и откровения...?",
+      "speaker": "Lari",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "That... This is finally my time! I still have a hand in this!! Finally, I can do something more than just holding stasis here!",
+      "ru": "Это... Наконец-то мой черёд! Я ещё могу помочь!! Наконец-то я смогу не просто сохранять всё как есть!",
+      "speaker": "Lari",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Listen, <playername>. Achara... This is my time. I can finally help you more directly. I know the elders of Aldorei- They're sure to have answers!",
+      "ru": "Слушай, <playername>. Ачара... Настал мой черёд. Наконец-то я смогу помочь тебе сама. Я знаю старейшин Альдорея - у них наверняка есть ответы!",
+      "speaker": "Lari",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "You truly have been helpful, even through my own worries. I must thank you, but you can relax now! I will be the one this time!",
+      "ru": "Ты очень помог мне, несмотря на все мои тревоги. Спасибо тебе, но теперь можешь отдохнуть! На этот раз всё сделаю я!",
+      "speaker": "Lari",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You can continue doing...whatever else it is you need doing. I have seen you helping in various places- Concern yourself with those for now. I can handle this.",
+      "ru": "Можешь идти и заниматься... чем там тебе ещё надо заниматься. Я видела, как ты помогаешь в разных местах - вот этим пока и займись. Тут я сама справлюсь.",
+      "speaker": "Lari",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Pursue her, my pulse. She must take dire action- Alone, her light shall illuminate nothing. You must provide her direction.",
+      "ru": "Следуй за ней, мой пульс. Ей придётся пойти на крайние меры. Без тебя её свет ничего не озарит. Ты должен указать ей путь.",
+      "speaker": "???",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "W-What? You- Why did you follow me? I can handle this! I can finally be useful again! Do you...not trust me?",
+      "ru": "Ч-что? Ты... Зачем ты пошёл за мной? Я сама справлюсь! Я наконец-то снова могу быть полезной! Ты что... не доверяешь мне?",
+      "speaker": "Lari",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Please, just respect my wishes! If I need your help, I'll go find you- For now, just leave! You don't need to worry about this!",
+      "ru": "Пожалуйста, уважай моё решение! Если мне понадобится помощь, я сама тебя найду. А пока просто уйди! Тебе не о чем беспокоиться!",
+      "speaker": "Lari",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "...if this human has truly done what you have said, then why do you spurn their aid? It is unlike you.",
+      "ru": "...если этот человек правда сделал всё то, о чём ты говоришь, тогда почему ты отвергаешь его помощь? Это на тебя не похоже.",
+      "speaker": "Elder",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I know, I know. I just am in disbelief. They've been contacted by Orphion himself, allowed into the Taproot, they have a symbol of Orphion's blessing!!",
+      "ru": "Знаю, знаю. Я просто до сих пор не могу в это поверить. С ним связался сам Орфион, его впустили в Тапрут, у него есть знак благословения Орфиона!!",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "They just...walked up, after a thousand years of my putting my entire life into trying to save this province, and do everything I couldn't, in the span of weeks at most!",
+      "ru": "Он просто... появился. Я тысячу лет посвятила спасению этой провинции, а он сделал всё, чего не смогла я, всего за несколько недель!",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Do you understand how infuriating this is? Can you comprehend such a thing, not having been in my position yourself?",
+      "ru": "Ты вообще понимаешь, насколько это бесит? Можешь хоть примерно представить такое, если сам никогда не был на моём месте?",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "No. I cannot understand. But I also cannot understand how you are not grateful for this aid.",
+      "ru": "Нет. Я не могу этого понять. Но не могу понять и того, почему ты не благодарна за такую помощь.",
+      "speaker": "Elder",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "I know I should be! It's all I've been able to think about. I should be ecstatic! The light will be saved, it should be everything I've dreamed of...",
+      "ru": "Я знаю, что должна! Я только об этом и думаю. Я должна была бы быть счастлива! Свет будет спасён, это же именно то, о чём я мечтала...",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "But it makes me feel like a complete failure. Like everything I have done has been for naught, that I have somehow been doing everything wrong!",
+      "ru": "Но из-за этого я чувствую себя полной неудачницей. Как будто всё, что я делала, было впустую, и как будто всё это время я вообще делала всё не так!",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "I know I have made mistakes. Dullahan would still be... Still be himself, if I had taken faster action, but I can't have done nothing right. I can't accept that.",
+      "ru": "Я знаю, что ошибалась. Дуллахан всё ещё был бы... самим собой, если бы я действовала быстрее, но не может же быть, что я вообще ничего не сделала правильно. Я не могу это принять.",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "This is my chance to prove I can still be useful- that Orphion choosing me wasn't a fluke! Please, the inscription said you would know where to go!",
+      "ru": "Это мой шанс доказать, что я всё ещё чего-то стою - что выбор Орфиона не был случайностью! Прошу, в надписи ведь сказано, что вы знаете, куда идти!",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Elder",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "...even after a millennium, there is so very much for us all to learn. Fine then.",
+      "ru": "...даже спустя тысячелетие нам всем ещё так многому предстоит научиться. Хорошо.",
+      "speaker": "Elder",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "But promise me to accept the aid you receive. This opportunity cannot be wasted, Lari.",
+      "ru": "Но пообещай мне, что примешь помощь, которую тебе предлагают. Нельзя упустить этот шанс, Лари.",
+      "speaker": "Elder",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "...I have to do at least one thing right. I can't just keep up this holding pattern. I'll do whatever is necessary!",
+      "ru": "...Я обязана хоть что-то сделать как надо. Я не могу вечно топтаться на месте. Я сделаю всё, что потребуется!",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "You must seek the Canned Abis plant, then. It rests within a cavern shaded by giant fern leaves.",
+      "ru": "Тогда тебе нужно найти растение Каннед Абис. Оно растёт в пещере, укрытой гигантскими листьями папоротника.",
+      "speaker": "Elder",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Thank you. I can finally do what I was meant to do! I won't let anything stop me this time!!",
+      "ru": "Спасибо. Наконец-то я могу выполнить своё предназначение! На этот раз меня ничто не остановит!!",
+      "speaker": "Lari",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "...Human, I can see you. Consider yourself lucky that she did not. Come talk to me.",
+      "ru": "...Человек, я тебя вижу. Считай, тебе повезло, что она не заметила. Подойди, поговорим.",
+      "speaker": "Elder",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "So you are Orphion's new chosen, then. It is both surprising and not- Humans have an interesting reputation.",
+      "ru": "Значит, ты новый избранник Орфиона. Это и удивляет, и нет - у людей вообще любопытная репутация.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Often said as being able to get anything done, without limits, be it completing impossible tasks or breaking moral tenets.",
+      "ru": "Говорят, для вас нет преград. Вы способны на всё: и выполнить невозможное, и нарушить нравственные запреты.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "In this instance, however, you've both to do. Orphion has commanded it, has he not? And so you must, and for that I apologize.",
+      "ru": "Но в этом случае тебе придётся сделать и то, и другое. Орфион ведь приказал, так? Значит, ты должен. И за это я прошу прощения.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I have seen Lari's work- And she has done this land a priceless service. Alone, she has kept the Decay from creeping south, and thus the Guardian remains with us.",
+      "ru": "Я видел, что делала Лари - и она оказала этой земле бесценную услугу. В одиночку она сдерживала Гниль, не давая ей ползти дальше на юг, и именно поэтому Хранитель всё ещё с нами.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "However, her own morals prevent the situation from progressing. She cannot kill- And the source must be exterminated for light to once again fill the land.",
+      "ru": "Но её принципы не позволяют ей двигаться дальше. Она не может убивать, а источник бедствия необходимо уничтожить, чтобы свет вновь наполнил эту землю.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Orphion's circumstances are dire- And so you must come to understand something. He is above us, in terms of morals. Such concepts do not apply to him.",
+      "ru": "Положение Орфиона ужасно - и потому тебе нужно понять одну вещь. В вопросах морали он стоит выше нас. К нему такие понятия вообще не применимы.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "As the embodiment of Light itself, he has no sense of morals- Merely survival and stasis. What he asks of us, many will balk at.",
+      "ru": "Он - само воплощение Света. Ему чужда мораль, для него есть лишь выживание и неизменность. Многие ужаснутся тому, чего он требует от нас.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "It is a matter where morals must be set aside... And such a thing is one that Lari cannot abide by, for she has stubbornly clung to them for a thousand years.",
+      "ru": "Это тот случай, когда мораль нужно отложить в сторону... И именно этого Лари не может принять, потому что тысячу лет упорно цеплялась за неё.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "To break them... I will admit, I believe there to be some other way to solve these problems, but the fact of the matter is there simply is no time left.",
+      "ru": "Нарушить их... Признаюсь, я верю, что эти беды можно решить и как-то иначе. Но времени просто не осталось.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "She must use the extent of her powers, and while she retains her pacifism that will not happen. I must ask you to follow her, as Orphion would wish.",
+      "ru": "Она должна использовать всю свою силу. Пока она отказывается убивать, этого не произойдёт. Я прошу тебя следовать за ней, как того хотел бы Орфион.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "There is, unfortunately, no right to this. There is simply necessity- And there, you must push her to her limits. Seek the cave of the Canned Abis.",
+      "ru": "Увы, в этом нет ничего правильного. Есть только необходимость - и ради неё тебе придётся довести её до предела. Ищи пещеру Каннед Абис.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "It is north-east from here. The entrance is shaded by giant fern leaves. I only pray that this will be enough.",
+      "ru": "Она к северо-востоку отсюда. Вход укрыт гигантскими листьями папоротника. Молю, чтобы этого оказалось достаточно.",
+      "speaker": "Elder",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "...I can't believe this. What am I doing wrong? What is it? There has to be some reason, what IS it?!",
+      "ru": "...Я не могу в это поверить. Что я делаю не так? Что именно? Должна же быть причина, ТАК В ЧЁМ ОНА?!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "There's not another inscription...it's just the same words! What does it mean by ''dire actions?!'' I've done everything I can think of!",
+      "ru": "Тут нет новой надписи... тут всё те же слова! Что вообще значит \"крайние меры\"?! Я уже перепробовала всё, что только могла придумать!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Is- Is this not dire enough? Is poring over you and putting aside my role and pride to someone else not EXTREME enough?!",
+      "ru": "Р-Разве я не пошла на крайние меры? Я пытаюсь тебя понять, уступаю другому своё место и поступаюсь гордостью! Разве это не КРАЙНИЕ МЕРЫ?!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "...<playername>. I. I have to know. What did Orphion tell you, exactly? I can't stand not knowing any longer. Did he really replace me?",
+      "ru": "...<playername>. Я... Мне надо знать. Что именно сказал тебе Орфион? Я больше не могу жить в неведении. Он что, правда меня заменил?",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "I can't think of any other reason why everything for me has just...stopped working. Did he? Please, tell me-",
+      "ru": "Я не вижу другой причины, почему у меня всё просто... перестало работать. Это он? Пожалуйста, скажи-",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "...wait... You... You have Canned Abis on you!! Where did you get that?!",
+      "ru": "...стой... У тебя... У тебя при себе Каннед Абис!! Где ты его взял?!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You... There's no way you would've known that unless you... YOU! You eavesdropped on me!!",
+      "ru": "Ты... Ты бы не мог этого знать, если бы не... ТЫ! Ты меня подслушивал!!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "You FOLLOWED ME into the cave even after I asked not to! You... After everything I said!! After you heard all those private thoughts!",
+      "ru": "Ты ПОШЁЛ ЗА МНОЙ в пещеру, хотя я просила этого не делать! Ты... После всего, что я сказала!! После того как услышал мои сокровенные мысли!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "You STILL decided it was a good idea to come after me! What are you planning to accomplish like this?!",
+      "ru": "И ты ВСЁ РАВНО решил, что стоит пойти за мной! Чего ты вообще пытаешься добиться?!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "What, are you thinking ''oh, let's follow the funny elf girl and see her FAIL, OVER and OVER AGAIN!?'' IS THAT IT?!",
+      "ru": "Что, решил такой: \"О, а давай-ка пойдём за этой смешной эльфийкой и посмотрим, как она СНОВА И СНОВА ЛАЖАЕТСЯ!?\" ДА, ЧТО ЛИ?!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "You heard me then!! It's ALL out in the open! I can't succeed! You're there! You're doing everything I couldn't!",
+      "ru": "Ты всё слышал!! Теперь ВСЁ известно! Я не могу справиться! Ты здесь! Ты делаешь всё, чего не смогла я!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "I'm NOT a failure! I'm not! I won't be! I refuse to be! You don't GET to watch me flounder and flail!!",
+      "ru": "Я НЕ неудачница! Нет! И не стану ею! Не желаю! Ты НЕ БУДЕШЬ смотреть, как я беспомощно барахтаюсь!!",
+      "speaker": "Lari",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "'Lari: I DON'T CARE ANYMORE! STOP STEALING MY LIFE LIKE THIS!!! '",
+      "ru": "'Лари: МНЕ УЖЕ ПЛЕВАТЬ! ХВАТИТ ВОТ ТАК КРАСТЬ МОЮ ЖИЗНЬ!!! '",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "'Guardian of the Forest: YOU HAVE GONE FAR ENOUGH! '",
+      "ru": "'Хранитель Леса: ТЫ ЗАШЛА СЛИШКОМ ДАЛЕКО! '",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "'Guardian of the Forest: This is enough, Lari. I waken. And thus, your task is complete, <playername>. You have done as Orphion asked.'",
+      "ru": "'Хранитель Леса: Довольно, Лари. Я пробуждаюсь. А значит, твоя задача выполнена, <playername>. Ты сделал то, о чём просил Орфион.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Wha- I... What just... What did I...?",
+      "ru": "Чт- Я... Что сейчас... Что я...?",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "I j-just... I nearly...",
+      "ru": "Я т-только что... Я едва не...",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "...GRAAAAAUGH!! TELL ME HOW THIS IS ''ENOUGH!'' TELL ME, NOW!",
+      "ru": "...АААААААХ!! ОБЪЯСНИ МНЕ, КАК ЭТО МОЖЕТ БЫТЬ \"ДОСТАТОЧНО\"! ОБЪЯСНИ МНЕ, СЕЙЧАС ЖЕ!",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I-I NEARLY KILLED THEM! I JUST BROKE AND DEFILED EVERYTHING I'VE EVER STOOD FOR!!",
+      "ru": "Я-Я ЕДВА ЕГО НЕ УБИЛА! Я ТОЛЬКО ЧТО ПРЕДАЛА И РАСТОПТАЛА ВСЁ, ВО ЧТО ВЕРИЛА!!",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "TELL ME!! HOW COULD THIS POSSIBLY BE THE ANSWER?! HOW COULD THIS BE WHAT NEEDED TO HAPPEN?!",
+      "ru": "СКАЖИ МНЕ!! КАК ЭТО МОЖЕТ БЫТЬ ОТВЕТОМ?! КАК ЭТО МОГЛО БЫТЬ НЕОБХОДИМО?!",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "WHY WOULD I BE NEEDED TO... To...",
+      "ru": "ЗАЧЕМ НУЖНО БЫЛО, ЧТОБЫ Я... Чтобы...",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "'Guardian of The Forest: To do something ''dark,'' you are about to say, and to that I say you have not.'",
+      "ru": "'Хранитель Леса: Ты хочешь сказать - сделать нечто \"тёмное\". И я отвечу тебе: нет, не сделала.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "T-Trying to murder them because they did what I couldn't isn't dark? How can you possibly think that?!",
+      "ru": "П-Пытаться убить его за то, что он сделал то, чего не смогла я, - это не тьма? Как ты можешь так думать?!",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "What kind of guardian are you, permissing this kind of violence? How is anything I just did alright?",
+      "ru": "Что ты вообще за Хранитель такой, если допускаешь такое насилие? Как всё, что я сейчас сделала, может быть нормальным?",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "'Guardian of The Forest: For a thousand years or more of your own thoughts, I understand that you are conflicted.'",
+      "ru": "'Хранитель Леса: После тысячи лет твоих собственных мыслей я понимаю, как тебя разрывает изнутри.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "'Guardian of The Forest: However... You have, in that time, made a grave error. You have grown to realize an incorrect assumption.'",
+      "ru": "'Хранитель Леса: Но... за это время ты допустила серьёзную ошибку. Ты убедила себя в том, что неверно.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "'Guardian of The Forest: Dark and Light... They oppose. They clash. They create a cloying pox. But, allow me to ask.'",
+      "ru": "'Хранитель Леса: Тьма и Свет... Они противостоят друг другу. Сталкиваются. Оставляют после себя гнилую язву. Но позволь спросить.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "'Guardian of The Forest: Is the axe evil for chopping the tree? Is the wood evil for resisting the metal?'",
+      "ru": "'Хранитель Леса: Разве топор зол лишь потому, что рубит дерево? Разве дерево зло лишь потому, что сопротивляется металлу?'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "'Guardian of The Forest: Are the flames evil for burning up the leaves? Is the water evil for dousing the fire?'",
+      "ru": "'Хранитель Леса: Разве пламя зло лишь потому, что сжигает листья? Разве вода зла лишь потому, что тушит огонь?'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "'Guardian of The Forest: Is a victim evil for striking back against those that have struck them?'",
+      "ru": "'Хранитель Леса: Разве жертва творит зло, давая отпор тем, кто на неё напал?'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "'Guardian of The Forest: And most importantly... Are any of these things light, or dark?'",
+      "ru": "'Хранитель Леса: И главное... Можно ли вообще назвать что-то из этого Светом или Тьмой?'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "'Guardian of The Forest: What connection does a primordial force have with the moral leanings of mortals- or even immortals?'",
+      "ru": "'Хранитель Леса: Какое вообще отношение первозданная сила имеет к моральным взглядам смертных - или даже бессмертных?'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "...you. You can't possibly be saying that what I did was the right thing to do. I refuse to accept that.",
+      "ru": "...ты. Только не говори, что то, что я сделала, было правильным. Я этого не приму.",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "'Guardian of The Forest: I will not ask you to. You must understand that Orphion has no moral bearings- He simply needs action.'",
+      "ru": "'Хранитель Леса: И я не стану просить тебя это принять. Но ты должна понять: у Орфиона нет моральных ориентиров - ему просто нужно действие.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "'Guardian of The Forest: What you have done may not have been the right thing, by anyone's account. However, it was necessary. You have thrown off your bonds, in a sense.'",
+      "ru": "'Хранитель Леса: То, что ты сделала, может и не было правильным ни по чьим меркам. Но это было необходимо. В каком-то смысле ты сорвала с себя собственные цепи.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "...then... Shouldn't I feel... I don't know. Shouldn't I feel less restrained? Less afraid? More... More free?",
+      "ru": "...тогда... Разве я не должна чувствовать... ну, не знаю. Разве я не должна чувствовать себя менее зажатой? Менее испуганной? Более... более свободной?",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "If what I've done was what needed to happen, why do I feel like the scum of the earth? Why do I feel so terrible?!",
+      "ru": "Если то, что я сделала, и было тем, что нужно было сделать, почему я чувствую себя последней мразью на свете? Почему мне так мерзко?!",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "'Guardian of The Forest: I admit, such a thing is a conundrum. I agree that it is a tragedy to kill, in many instances.'",
+      "ru": "'Хранитель Леса: Признаю, это трудный вопрос. Убийство во многих случаях действительно становится трагедией.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "'Guardian of The Forest: Yet when such an action could save the lives of others, it becomes a conundrum with no answer. An impossible value to weigh.'",
+      "ru": "'Хранитель Леса: Но когда этим можно спасти жизни других, вопрос становится неразрешимым. Такое невозможно взвесить.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "'Guardian of The Forest: Despite the circumstances, you have done the best you could. I cannot fault you for your thoughts and morals.'",
+      "ru": "'Хранитель Леса: Несмотря ни на что, ты сделала всё, что могла. Я не могу винить тебя за твои мысли и за твою мораль.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "'Guardian of The Forest: And so... As you are now proven, as I am awoken, the gateway to the Light shall reveal itself to you. Lari... You must prepare for your journey to the Realm of Light.'",
+      "ru": "'Хранитель Леса: Итак... ты прошла испытание, я пробудился, и теперь тебе откроются врата к Свету. Лари... готовься к путешествию в Царство Света.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "...I... I need time to process this. I... Do you understand how difficult this is to hear? To bear?",
+      "ru": "...Я... Мне нужно время это переварить. Я... Ты вообще понимаешь, насколько тяжело такое услышать? Насколько тяжело это вынести?",
+      "speaker": "Lari",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "'Guardian of The Forest: I do not blame you for it. By the time you have composed yourself, your ally will be ready. Understand that they are as necessary as you are.'",
+      "ru": "'Хранитель Леса: Я не виню тебя за это. К тому моменту, как ты придёшь в себя, твой союзник будет готов. Пойми: он нужен не меньше, чем ты.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "'Guardian of The Forest: For now, <playername> must learn what you have learned, of the nature of realms. They must know what you know if they are to aid you fully.'",
+      "ru": "'Хранитель Леса: А пока <playername> должен узнать то же, что узнала ты, о природе миров. Чтобы он мог помочь тебе в полной мере, он должен знать то, что знаешь ты.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "'Guardian of The Forest: I must ask you to pay close attention. I shall present it simply- though the enormity of this cannot be understated.'",
+      "ru": "'Хранитель Леса: Я прошу тебя слушать очень внимательно. Я объясню это просто - хотя масштаб всего этого невозможно переоценить.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "'Guardian of the Forest: Allow me to show you our reality, <playername>. It is difficult to properly present its scale... So here is an approximation.'",
+      "ru": "'Хранитель Леса: Позволь показать тебе нашу реальность, <playername>. Её масштаб сложно передать как следует... Так что вот хотя бы примерная схема.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "'Guardian of the Forest: This is our world, the world we stand in right now. The physical plane of existence.'",
+      "ru": "'Хранитель Леса: Это наш мир, в котором мы сейчас находимся. Физический план бытия.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "'Guardian of the Forest: Only a select few are aware that there is more of the world than this. Even the astronomers and those who view the enormity of the sky cannot understand.'",
+      "ru": "'Хранитель Леса: Лишь немногие знают, что мир не ограничивается только этим. Даже астрономы и те, кто смотрит в необъятность неба, не способны этого понять.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "'Guardian of the Forest: For, you see, this realm, this plane- It is mirrored upon a second plane, as the embodiments of Realms clash.'",
+      "ru": "'Хранитель Леса: Этот мир, этот план, отражается на другом плане, где сталкиваются воплощения миров.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "'Guardian of the Forest: This is the Plane of Influence, comprised of many realms. There are three you must know- But only one you must pay attention to.'",
+      "ru": "'Хранитель Леса: Это План Влияния. Он состоит из множества миров. Тебе нужно знать о трёх, но обратить внимание лишь на один.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "'Guardian of the Forest: The Realms of Influence are connected to the physical plane, tied inexorably so to it. This is why even those gazing at the cosmos cannot grasp the enormity of it.'",
+      "ru": "'Хранитель Леса: Миры Влияния неразрывно связаны с физическим планом. Поэтому даже те, кто изучает космос, не могут постичь всего его размаха.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "'Guardian of the Forest: These realms are in a constant push and pull- Battles that could not be seen by those of this world, waged constantly.'",
+      "ru": "'Хранитель Леса: Эти миры непрерывно противоборствуют. Между ними вечно идут войны, незримые для жителей нашего мира.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "'Guardian of the Forest: However, they can be felt. Wide-scale changes to the balance of one realm or another are reflected on the physical plane.'",
+      "ru": "'Хранитель Леса: Но их можно ощутить. Значительные перемены в равновесии миров отражаются на физическом плане.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "'Guardian of the Forest: The Realms of Influence are, themselves, reflections of a Beast- They themselves, a physical manifestation of their realm, as their realm is a manifestation of them.'",
+      "ru": "'Хранитель Леса: Каждый Мир Влияния - отражение своего Зверя. Зверь - физическое воплощение этого мира, а сам мир - воплощение Зверя.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "'Guardian of the Forest: So surely, you must know- As Gavel has decayed, it must mean that the Realm of Light is in peril, and thus that Orphion is, as well.'",
+      "ru": "'Хранитель Леса: Значит, ты уже должен понимать: раз Гавель гниёт, то и Царство Света в опасности, а значит и Орфион тоже.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "'Guardian of the Forest: The Light is infected- That abominable parasite has breached the Realm of Light, and sought Orphion to leech away his light.'",
+      "ru": "'Хранитель Леса: Свет заражён. Мерзкий паразит прорвался в Царство Света и устремился к Орфиону, чтобы высосать его свет.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "'Guardian of the Forest: And so, as the sun is forced to set, the land of Gavel grows dark. As the dark parasites spread and devour the minds of those here, so too is Orphion subject to this torture.'",
+      "ru": "'Хранитель Леса: И потому, пока солнце вынуждают закатиться, земля Гавеля темнеет. Пока тёмные паразиты расползаются и пожирают разум живущих здесь, Орфион переживает ту же самую пытку.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "'Guardian of the Forest: The balance shifts, and Orphion grows weary. Angered, desperate. He called to you as a last plea- and you have done admirably, for what he has asked of you.'",
+      "ru": "'Хранитель Леса: Равновесие нарушается. Орфион слабеет, его охватывают гнев и отчаяние. Он воззвал к тебе с последней мольбой о помощи, и ты прекрасно выполнил всё, о чём он просил.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "'Guardian of the Forest: Now, you must enter the Realm of Light, and aid Lari in purging the parasite, before its work is finished and Orphion's mind is consumed.'",
+      "ru": "'Хранитель Леса: Теперь ты должен войти в Царство Света и помочь Лари уничтожить паразита, прежде чем он поглотит разум Орфиона.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "'Guardian of the Forest: You must ready yourself before this, of course. To venture to another realm is a lofty task.'",
+      "ru": "'Хранитель Леса: Разумеется, перед этим тебе нужно подготовиться. Путешествие в другой мир - не шутка.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "'Guardian of the Forest: I will bestow upon you two things that will surely aid you in this, however. First, I shall provide you the way to the Gateway to Light.'",
+      "ru": "'Хранитель Леса: Впрочем, я дам тебе две вещи, которые точно помогут. Во-первых, я покажу путь к Вратам Света.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "'Guardian of the Forest: Once you have reached it, I shall bestow upon you a personal blessing of mine, in the hopes that your path will become clear.'",
+      "ru": "'Хранитель Леса: Когда доберёшься туда, я благословлю тебя сам. Надеюсь, это поможет тебе найти свой путь.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "'Guardian of the Forest: Enter the portal, <playername>. I shall show you the Gateway to Light... And I shall wish you luck.'",
+      "ru": "'Хранитель Леса: Входи в портал, <playername>. Я покажу тебе Врата Света... И пожелаю удачи.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "My pulse, your light is brilliant... It has shone upon Lari, and soon her light will shine my way...",
+      "ru": "Мой пульс, твой свет ярок... Он уже коснулся Лари, и скоро её свет тоже дойдёт до меня...",
+      "speaker": "???",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Enter the roots, and witness the path to my realm. And then, prepare yourself. Muster your most blinding light...",
+      "ru": "Войди в корни и узри путь в мой мир. Затем приготовься. Собери всю силу своего ослепительного света...",
+      "speaker": "???",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "You must see.",
+      "ru": "Ты должен увидеть.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "There is more.",
+      "ru": "Есть нечто большее.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Invisible connections.",
+      "ru": "Невидимые связи.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Invisible wars.",
+      "ru": "Невидимые войны.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "As one, to another.",
+      "ru": "От одного - к другому.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Hear me, my pulse.",
+      "ru": "Слушай меня, мой пульс.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "It has found me.",
+      "ru": "Оно нашло меня.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "It burns and wracks me.",
+      "ru": "Оно жжёт и терзает меня.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "I cannot reach it.",
+      "ru": "Я не могу до него дотянуться.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "You are needed.",
+      "ru": "Ты нужен.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Save me.",
+      "ru": "Спаси меня.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "I covered over the way down to that giant archive like you asked. It shouldn't be reachable now.",
+      "ru": "Я завалил спуск к тому огромному архиву, как ты и просил. Теперь туда не добраться.",
+      "speaker": "добито по вики (нарратив/записки)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "It'd take something really heavy to crack open the foundation- Frankly, that gold church bell might do it if it's not maintained.",
+      "ru": "Чтобы проломить основание, нужно что-то очень тяжёлое. Пожалуй, тот золотой церковный колокол подойдёт, если за ним плохо следили.",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "...so it returned, asleep and unwakeable. The light has spoken of a time when the Guardian shall grace us with its presence once more...",
+      "ru": "...так он вернулся, погружённый в сон, от которого его невозможно пробудить. Свет возвестил, что однажды Хранитель вновь почтит нас своим присутствием...",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "...but such a time is centuries off, and will require great effort. The spell included is vital to the process.",
+      "ru": "...но этот день наступит лишь через несколько веков и потребует немалых усилий. Без приложенного заклинания не обойтись.",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "The light also warns- If the darkness should encroach and reach the Guardian's roots, it shall never wake... But it seems we will not have to worry of that.",
+      "ru": "Свет также предупреждает: если тьма подступит к корням Хранителя, он уже никогда не пробудится... Но, похоже, нам не о чем тревожиться.",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "This is enough, Lari. I waken. And thus, your task is complete, . You have done as Orphion asked.",
+      "ru": "Довольно, Лари. Я пробуждаюсь. Значит, твоя задача выполнена. Ты сделал то, о чём просил Орфион.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "For now, must learn what you have learned, of the nature of realms. They must know what you know if they are to aid you fully.",
+      "ru": "А пока нужно узнать то же, что узнала ты, о природе миров. Чтобы помогать тебе в полной мере, нужно знать то, что знаешь ты.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "Allow me to show you our reality, . It is difficult to properly present its scale... So here is an approximation.",
+      "ru": "Позволь показать тебе нашу реальность. Её масштаб трудно передать... Так что вот примерная схема.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Enter the portal, . I shall show you the Gateway to Light... And I shall wish you luck.",
+      "ru": "Входи в портал. Я покажу тебе Врата Света... И пожелаю удачи.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "New Quest Started: Finding the Light",
+      "ru": "§#FFAA00Новый квест: §#FFFF55В поисках Света",
+      "speaker": "",
+      "stage": "Stage 16"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find Lari in the Light Forest at [-1123, 46, -4771].",
+      "ru": "Найти Лари в Лесу света [-1123, 46, -4771].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Read the inscription at the bottom of the big tree.",
+      "ru": "Прочитать надпись у подножия большого дерева.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Find the Church Library in the city of Cinfras at [-469, 47, -4996].",
+      "ru": "Найти церковную библиотеку в Синфрасе [-469, 47, -4996].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find a way up to the church bell at the top of the church.",
+      "ru": "Найти путь к колоколу на вершине церкви.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Explore the secret library and find a way to wake up the tree.",
+      "ru": "Исследовать тайную библиотеку и узнать, как пробудить дерево.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return to Lari at [-1123, 46, -4771]",
+      "ru": "Вернуться к Лари [-1123, 46, -4771].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Use the spell on the inscription under the tree.",
+      "ru": "Применить заклинание к надписи под деревом.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Enter the portal Lari left behind",
+      "ru": "Войти в портал, оставленный Лари.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Go to the hut Lari entered.",
+      "ru": "Отправиться к хижине, в которую вошла Лари.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Find a way to sneak into the hut.",
+      "ru": "Найти способ тайком проникнуть в хижину.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Talk to the Elder at [-800, 88, -4553]",
+      "ru": "Поговорить со старейшиной [-800, 88, -4553].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Find the Canned Abis cave at [-744, 11, -4591]",
+      "ru": "Найти пещеру с Каннед Абисом [-744, 11, -4591].",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Find the plant inside the cave.",
+      "ru": "Найти растение в пещере.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Return to the Tree at [-1123, 46, -4771].",
+      "ru": "Вернуться к дереву [-1123, 46, -4771].",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Battle Lari",
+      "ru": "Сразиться с Лари.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Talk to the Guardian",
+      "ru": "Поговорить с Хранителем Леса.",
+      "stage": "Stage 16"
+    }
+  ],
+  "choices": []
+}

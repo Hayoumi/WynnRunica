@@ -1,0 +1,2242 @@
+{
+  "quest": "Fantastic Voyage",
+  "level": 90,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "fantastic-voyage",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Let's go, just you and me! On a grand voyage across the sea!",
+      "ru": "В путь, друг, отправимся вдвоём! Через моря в большое плаванье пойдём!",
+      "speaker": "Relend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "We'll go in search of a long-lost island, old chap! And here I have the guidance map!",
+      "ru": "Затерянный остров найдём, старина! И карта пути у меня припасена!",
+      "speaker": "Relend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "The map, oh so grand! Why, I have it here in my hand!",
+      "ru": "Чудесная карта! Лучше её не найти! Вот в моей руке, взгляни!",
+      "speaker": "Relend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "It's a map to a magical place! I sure hope it doesn't vanish without a tra-",
+      "ru": "К волшебному краю приведёт без труда! Надеюсь, не сгинет она без сле-",
+      "speaker": "Relend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Good grief! That raucous parrot is such a little thief!",
+      "ru": "Ах, какая беда! Этот шумный попугай - воришка хоть куда!",
+      "speaker": "Relend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "If we are to explore the ocean blue, that parrot you surely must pursue!",
+      "ru": "Коль хочешь по синему морю гулять, придётся тебе попугая догнать!",
+      "speaker": "Relend",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Oh... H-hello...",
+      "ru": "О... П-привет...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "C-Can I help you...?",
+      "ru": "Ч-чем могу помочь...?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Just saying hello. [EXIT]",
+      "ru": "Просто поздороваться. [ВЫХОД]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Ah... A-Alright...",
+      "ru": "А... Л-ладно...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Are you alright?",
+      "ru": "Ты в порядке?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Uh? O-oh, yes, sorry...",
+      "ru": "А? О-ой, да, извини...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I'm doing j-just fine... Just... I'm just fine...",
+      "ru": "У меня в-всё нормально... Просто... да, всё нормально...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I feel p-pretty good actually.",
+      "ru": "Вообще-то я д-довольно неплохо себя чувствую.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "What are you doing?",
+      "ru": "Что ты делаешь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Uh? I'm just... uh...",
+      "ru": "А? Я просто... эм...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I'm n-not sure... uh, actually...",
+      "ru": "Если честно, я с-сам не уверен...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "...w-what are you doing?",
+      "ru": "...а т-ты что делаешь?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "What's with Relend?",
+      "ru": "Что с Релендом?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Uh? R-Relend..? Rel and w-who...?",
+      "ru": "А? Р-Реленд..? Рел и к-кто...?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Uh... I-I'm sorry, I don't know who you m-mean...",
+      "ru": "Эм... п-прости, я не знаю, о ком ты...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "I'm, uh, well I'm, uh...",
+      "ru": "Я, эм, ну я...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "...sorry, I d-don't know...",
+      "ru": "...прости, я н-не знаю...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Have you seen a parrot around here?",
+      "ru": "Не видел тут попугая?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Uh? O-oh a parrot?",
+      "ru": "А? О-о, попугая?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "L-L-Like a b-bird?! I l-love birds!",
+      "ru": "Т-т-типа п-птицу?! Я о-обожаю птиц!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "I will look for it... Human...",
+      "ru": "Я поищу его... человек...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Y-you can count o-on me... I will find the bird.",
+      "ru": "М-можешь на меня р-рассчитывать... я найду птицу.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Welcome, welcome! How can I be of service to you, o' traveler?",
+      "ru": "Добро пожаловать, добро пожаловать! Чем могу служить тебе, о путник?",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "How can I be of service to you, o' traveler?",
+      "ru": "Чем могу служить тебе, о путник?",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Just here to say hi. [EXIT]",
+      "ru": "Просто зашёл поздороваться. [ВЫХОД]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Hello... hello! You have said... hello!",
+      "ru": "Привет... привет! Ты сказал... привет!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "What service do you provide?",
+      "ru": "Какие у тебя услуги?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Why, I am glad you asked, though I knew you would, of course!",
+      "ru": "О, как я рад, что ты спросил, хотя, разумеется, я и так это знал!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "For you see... I am gifted with foresight, the future's memories come to me like no other!",
+      "ru": "Понимаешь ли... мне даровано предвидение, воспоминания о будущем приходят ко мне, как ни к кому другому!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "For the low, low price of [1 LE], your future will be foretold!",
+      "ru": "Всего за скромную цену в [1 жидкий изумруд] твоё будущее будет раскрыто!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "What do you say? Ha-ha, I ask out of courtesy, for I know what you will choose.",
+      "ru": "Ну что скажешь? Ха-ха, спрашиваю лишь из вежливости, ведь я и так знаю, что ты выберешь.",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Can you tell me my fortune? [1 LE]",
+      "ru": "Можешь предсказать мою судьбу? [1 жидкий изумруд]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "-[1 LE]",
+      "ru": "-[1 жидкий изумруд]",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "A wise choice, though expected, o' traveler!",
+      "ru": "Мудрый выбор, хоть и вполне ожидаемый, о путник!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Now... I must consult the spirits...",
+      "ru": "Теперь... я должен обратиться к духам...",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "......",
+      "ru": "......",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "............",
+      "ru": "............",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "........................",
+      "ru": "........................",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Aha! O' traveler! Your fortune is as clear to me as the sky on a very clear day!",
+      "ru": "Ага! О путник! Твоя судьба ясна мне как небо в очень-очень ясный день!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "You...",
+      "ru": "Ты...",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "...are being watched!",
+      "ru": "...под наблюдением!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "...will grow a little bit older, very soon!",
+      "ru": "...совсем скоро станешь чуточку старше!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "...are really nice!",
+      "ru": "...вообще-то очень даже ничего!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...will feel disappointed!",
+      "ru": "...разочаруешься!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "...are going to lose [1 LE]!",
+      "ru": "...сейчас потеряешь [1 жидкий изумруд]!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "...should've watched your step!",
+      "ru": "...надо было смотреть под ноги!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "...were homeless!",
+      "ru": "...когда-то был бездомным!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "...are now breathing manually!",
+      "ru": "...теперь дышишь вручную!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "...will find prosperity!",
+      "ru": "...найдёшь достаток!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "...are going to be homeless!",
+      "ru": "...станешь бездомным!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "...enjoyed local cuisine!",
+      "ru": "...наслаждался местной кухней!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "...really like bread!",
+      "ru": "...очень любишь хлеб!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "...are going to get... a refund? What!? Oh, come on!",
+      "ru": "...сейчас получишь... возврат? Чего!? Да ну, серьёзно!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "[+1 LE]",
+      "ru": "[+1 жидкий изумруд]",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "I am afraid you do not have enough, o' traveler! Return with [1 LE] to hear your fortune!",
+      "ru": "Боюсь, у тебя не хватает денег, о путник! Возвращайся с [1 жидким изумрудом], и я предскажу твою судьбу!",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Relend! Oh, the spirits have much to say of that man...",
+      "ru": "Реленд! О, духи многое шепчут об этом человеке...",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "More than most, he has seen... More than perhaps most should...",
+      "ru": "Он повидал больше, чем многие... пожалуй, даже больше, чем стоило бы...",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Do not be fooled, o' traveler! Many a map has been snatched from his gnarled grasp...",
+      "ru": "Не дай себя провести, о путник! Немало карт выхватывали из его скрюченных рук...",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "...perhaps your fortune shall reveal more! Worth a shot, hey?",
+      "ru": "...может, твоё предсказание откроет больше! Почему бы не попробовать, а?",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Aha... another one who follows the winged reaper...",
+      "ru": "Ага... ещё один, кто гонится за крылатым жнецом...",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Yes... o' traveler... I have seen the parrot many a time... yes, indeed...",
+      "ru": "Да... о путник... я много раз видел этого попугая... да, ещё как...",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Today, however, the wraith flies a unique way, one my eyes have not glimpsed.",
+      "ru": "Но сегодня этот дух летит каким-то новым путём, которого мои глаза ещё не знали.",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "The keeper of the Tavern by my southern stall-mate will know its whereabouts...",
+      "ru": "Хозяин таверны у лавки к югу от меня знает, где он сейчас...",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "...be wary, o' traveler.",
+      "ru": "...будь начеку, о путник.",
+      "speaker": "Jofash Clairvoyant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Howdy, welcome to Jo's Tavern. What can I get for ya?",
+      "ru": "Здорово, добро пожаловать в таверну Джо. Чего налить?",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "What can I get for ya?",
+      "ru": "Чего тебе?",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I'm alright. [EXIT]",
+      "ru": "Мне ничего. [ВЫХОД]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "No worries, let me know if you need anythin'.",
+      "ru": "Без проблем, если что - свистни.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "How are you doing?",
+      "ru": "Как жизнь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Oh, me? I'm doing just fine, mate.",
+      "ru": "О, у меня? Да нормально всё, дружище.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "This place is pretty popular among sailors, so we get a decent amount a' traffic for such a small place.",
+      "ru": "Это место любят моряки, так что для такой маленькой таверны посетителей хватает.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "'s the only thing keeping me here, quite honestly. Lots'a crazies in this little town, it's nice to meet some normal folk, ya know?",
+      "ru": "Если честно, только это меня тут и держит. В этом городишке полно психов, так что встретить хоть кого-то нормального - уже радость.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Can I grab a Nemract Whiskey? [5 E]",
+      "ru": "Можно немрактский виски? [5 изумрудов]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "One Nemract Whiskey, comin' up!",
+      "ru": "Один немрактский виски, ща будет!",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Can I grab a Jofash Rum? [4 EB]",
+      "ru": "Можно джофашский ром? [4 изумрудных блока]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "One Jofash Rum, comin' up!",
+      "ru": "Один джофашский ром, ща будет!",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Can I grab a Llevigar Pinot? [6 EB]",
+      "ru": "Можно левигарское пино? [6 изумрудных блоков]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "One Llevigar Pinot, comin' up!",
+      "ru": "Одно левигарское пино, ща будет!",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Can I grab an Ahmsord Absinthe? [18 EB]",
+      "ru": "Можно амсордский абсент? [18 изумрудных блоков]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "One Ahmsord Absinthe, comin' up!",
+      "ru": "Один амсордский абсент, ща будет!",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "...you sure you like this stuff?",
+      "ru": "...ты точно любишь такую дрянь?",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "...Relend? That old guy out front?",
+      "ru": "...Реленд? Этот дед снаружи?",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Typical resident here, if you ask me, totally nuts.",
+      "ru": "Типичный местный, по-моему. Совсем рехнулся.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "'s a weird one for sure, always speakin' in his little rhymes. Somethin's really snapped up there.",
+      "ru": "Странный тип, это да. Вечно трещит своими рифмами. У него там наверху явно что-то щёлкнуло.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "I've had loads a' folk come in here real angry 'bout the guy.",
+      "ru": "Ко мне уже куча народу заходила злая именно из-за него.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "'pparently he takes 'em for joyrides 'round the sea and gets all sorts'a labor out of 'em, then just drops 'em back here.",
+      "ru": "Говорят, он таскает людей по морям в свои \"весёлые прогулки\", заставляет пахать, а потом просто возвращает обратно сюда.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Ha! Guess he knows how to get some free work done, I'll give 'im that. Maybe he ain't so insane after all, eh?",
+      "ru": "Ха! Ну, бесплатную рабочую силу он добывать умеет, тут не поспоришь. Может, он не такой уж и безумный, а?",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "...Oh, you're goin' out with Relend, hey? You sure?",
+      "ru": "...О, ты, выходит, собрался с Релендом в плаванье? Уверен?",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "You know he's nuts, right mate? Y'not gonna find any treasure or anythin'.",
+      "ru": "Ты же знаешь, что он псих, дружище? Ни сокровищ, ни чего-то ещё ты там не найдёшь.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Well, whatever, mate. Yeah, the parrot's out on the patio, to the right of me, last I checked.",
+      "ru": "Ну, как хочешь. Попугай, если что, был на террасе справа от меня, когда я в последний раз смотрел.",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Have a nice trip, mate, if ya can catch it, that is. Heh...",
+      "ru": "Ну, приятной поездки, если вообще сумеешь его поймать. Хех...",
+      "speaker": "Tavern Owner",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Zzzzzzzz...",
+      "ru": "Хррррр...",
+      "speaker": "Sleeping Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Hey-o, human! What can I do for ya?",
+      "ru": "Эй, привет, человек! Чем помочь?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "What can I do for you?",
+      "ru": "Чего тебе?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Just saying hi. [EXIT]",
+      "ru": "Просто поздороваться. [ВЫХОД]",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Aye!",
+      "ru": "Ага!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Oh, you know me, pal, just doin' the rounds.",
+      "ru": "Да сам знаешь, дружище, обычные дела.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Waterin' the pots, starin' at the water, potterin' the sta-",
+      "ru": "Поливаю горшки, смотрю на воду, горшкую смо-",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "...wait, scratch that last one.",
+      "ru": "...стоп, последнее вычеркни.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Favorite type of bread?",
+      "ru": "Какой хлеб любишь больше всего?",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "You know what, I'm glad you asked.",
+      "ru": "Знаешь что, я рад, что ты спросил.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Lots of people these days are going crazy for that 'all-natural, multiple grains, bred ethically' garbage.",
+      "ru": "Сейчас куча народу с ума сходит по этой чуши в духе \"полностью натуральный, из многих зёрен, выращен по совести\".",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Really, I wish some of those nutters sit down and take a good bite of some raw, authentic Rye, or a hearty whole-wheat.",
+      "ru": "Вот бы все эти чудики просто сели и нормально откусили настоящего ржаного хлеба, ну или добротного цельнозернового.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "That's the stuff that puts hairs on your chest, my pappy used to say. Good, strong, proper bread from out in the fields.",
+      "ru": "Вот от такого, как мой батя говорил, волосы на груди и растут. Хороший, крепкий, правильный хлеб прямо с полей.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "We used to be farmers, you know. Out near Maltic. WHEW! Glad I moved here though! Not many places serve better rum than good ol' Jofash!",
+      "ru": "Мы вообще-то раньше были фермерами, знаешь. Возле Малтика. ФУХ, как же хорошо, что я переехал сюда! Не так уж много мест, где ром лучше, чем в старом добром Джофаше!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Back to the point at hand, though, bread. Man oh man I feel like I could go on forever about this.",
+      "ru": "Но вернёмся к делу - к хлебу. Ох, да я об этом вечно могу говорить.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "You know what people always miss when talking about bread, the CONSISTENCY! The consistency is consistently the most im-",
+      "ru": "Знаешь, что вечно забывают, когда говорят о хлебе? ПЛОТНОСТЬ! Плотно сбитый мякиш - это самое ва-",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Oh, haha, 'consistently,' didn't even mean to do that. Heheh...",
+      "ru": "О, ха-ха, \"плотно\"! И ведь нечаянно так вышло. Хе-хе...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Bread.",
+      "ru": "Хлеб.",
+      "speaker": "CHOICE",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Ah, there you are! The ol' train of thought gets derailed sometimes, you see.",
+      "ru": "А, вот мы и вернулись! Мой поезд мыслей иногда сходит с рельсов, понимаешь.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "But I can tell that you're a real enthusiast for bread!",
+      "ru": "Но я вижу, ты настоящий ценитель хлеба!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Back to the topic at hand! Consistency! The consistency is consistently the most important part of any good loaf.",
+      "ru": "Снова к делу! Плотность! Плотно сбитый мякиш - самое главное в хорошей буханке.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Overusin' so-called \"refined\" grains is a sure and done way to get runny slop that's not fit for the pigs.",
+      "ru": "Если переборщить с так называемым \"очищенным\" зерном, получится жидкая дрянь, которую и свиньям-то стыдно давать.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Come to think, you shouldn't feed pigs refined grains anyway. It's hard on their digestion.",
+      "ru": "Хотя, если подумать, свиньям такое тоже лучше не давать. Для пищеварения вредно.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Of course! Digestion. A topic I'll get to later!",
+      "ru": "Точно! Пищеварение. До него я ещё дойду!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Anyway, whole grains are where the money's at! I'd swear it on these plants.",
+      "ru": "Короче, всё решает цельное зерно! Я бы в этом хоть этими растениями поклялся.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "What you want is a thick-crusted, chewy loaf that you can savor! Not some frail morsel that collapses under its own weight. Why, the things I've seen...",
+      "ru": "Нужен хлеб с толстой коркой и упругим мякишем, чтобы смаковать каждый кусок! А не жалкий ломтик, который разваливается под собственным весом. Ох, что мне только не попадалось...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "In particular, have you seen some of the scraps sold at Ahmsord? Ridiculous!",
+      "ru": "Особенно то, что продают в Амсорде. Смех один!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "I'll let you in on a little secret. The Sky's Kitchen is great and all, but what passes for bread there is intolerable. No substance at all!",
+      "ru": "Открою тебе секрет. Небесная кухня - место вроде неплохое, но то, что у них сходит за хлеб, это просто издевательство. Ни веса, ни души!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "What you'll want to do is get it straight from the fields, right from the soil! Well, not literally, but from the countryside! Leave breadmakin' to those who've been workin' with grain before they could walk on two legs!",
+      "ru": "Хлеб надо брать прямо с полей, прямо от земли! Ну, не буквально из грязи, конечно, а из деревни! Хлеб должны делать те, кто с зерном с детства возится.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Heck, I bet even I could do better than those snobby sauciers.",
+      "ru": "Да я, чёрт побери, уверен, что и сам сделал бы лучше, чем те выпендрёжные повара.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Right. Digestion. The fiber in whole-grain bread is a lifesaver.",
+      "ru": "Так. Пищеварение. Клетчатка в цельнозерновом хлебе - это спасение.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Did you know that whole-grain bread has four times the fiber of white bread? Now you do!",
+      "ru": "Ты знал, что в цельнозерновом хлебе клетчатки в четыре раза больше, чем в белом? Теперь знаешь!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Helps keep you full and fit. Want to avoid lookin' like a loaf of white bread yourself? Fiber's your man.",
+      "ru": "Она и сытость держит, и форму помогает не терять. Не хочешь сам выглядеть как батон белого? Тогда дружи с клетчаткой.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Nothin' beats a rich, fresh-ground fresh-baked loaf with a slab of flat-iron steak. Red meat and fiber make a real man, as my pappy once said.",
+      "ru": "Нет ничего лучше свежевыпеченного хлеба из свежесмолотой муки с добрым куском говядины. Красное мясо и клетчатка делают мужика мужиком, как мой батя говорил.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Oh, how time flies. Where was I? Right, white bread.",
+      "ru": "Ох, как время летит. На чём я остановился? Точно, белый хлеб.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "That stuff's poison, I tell you! Not a lick of nutritional value!",
+      "ru": "Это же яд, говорю тебе! Ни капли пользы!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "It's more milk and sugar than bread! Hardly somethin' you'd want to eat, never mind something for which you'd pay extra!",
+      "ru": "Там больше молока и сахара, чем самого хлеба! И это ещё за деньги покупать?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "Those hawkers can pretend that it's an upper-crust good all they want, but we all know that it's just a waste of dough.",
+      "ru": "Пусть торговцы сколько угодно делают вид, будто это хлеб для знати, но все знают - это просто пустая трата теста.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Heheh, I did it again! Sorry, sorry, I'll get the train back on track. Heh...",
+      "ru": "Хехех, опять пошло. Всё, всё, возвращаю поезд на рельсы. Хех...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Blendin' grains? Why jumble the flavors and textures? Just make two loaves of bread instead of one! Or several, if we're talkin' about more than two types of grain.",
+      "ru": "Смешивать зёрна? Зачем мешать вкусы и плотность мякиша? Лучше испеки две буханки вместо одной! Или несколько, если речь идёт больше чем о двух видах зерна.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "Say, that reminds me! Bread's probably the most versatile food. You can make it from just about any type of grain.",
+      "ru": "О, кстати! Хлеб - наверное, самая универсальная еда. Его можно сделать почти из любого зерна.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "But just because you can doesn't mean that you should. Who could stomach somethin' like \"Oatmeal-Bran Fusion Delight\"? WHO WOULD EVEN MAKE BREAD OUT OF OATS?!",
+      "ru": "Но только потому, что можно, не значит, что надо. Кто вообще станет жрать что-то вроде \"Овсяно-отрубного фьюжн-восторга\"? КТО, ВООБЩЕ, ДЕЛАЕТ ХЛЕБ ИЗ ОВСА?!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Just a waste of food, in my opinion. Sure, it may be like the hottest new culinary sensation now, but it'll die out like any other idiotic fad in just days. I'm positive that nobody's eatin' it for the taste, that's for sure. Like \"Seven Colors of the Grainbow,\" or \"Hearty Hemp-tastic,\" or...",
+      "ru": "По мне - только зря продукты переводить. Пусть сейчас это последний крик кулинарной моды, через несколько дней о ней забудут, как о любом другом дурацком поветрии. Уверен, ради вкуса это никто не ест. Вот как \"Семь цветов зерновой радуги\" или \"Конопляное объеденье\", или...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "...and don't get me started on \"Pain au Cinfras\"! But really, Oatmeal-Bran Fusion Delight is among the worst. Oh! That reminds me about a better use for oats.",
+      "ru": "...и даже не начинай про \"Пен о Синфрас\"! Но если серьёзно, \"Овсяно-отрубный фьюжн-восторг\" - одна из худших штук. О! Кстати, это напомнило мне о нормальном применении овса.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "If you want to avoid bein' three sheets to the wind after a busy night of Jofash Rum, then eat a hearty bowl of oatmeal.",
+      "ru": "Если не хочешь лежать в хлам после бурной ночи с джофашским ромом, съешь хорошую миску овсянки.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "Sounds crazy, I know. But it actually works. Take it from me; I've tried it!",
+      "ru": "Звучит дико, знаю. Но это реально работает. Я проверял!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "While anythin' made of grain helps, oats are particularly good at this.",
+      "ru": "Вообще помогает почти всё из зерна, но овёс в этом плане особенно хорош.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "And I'd bet my bread that you'd rather eat oatmeal than Oatmeal-Bran Fusion Delight, whatever that's supposed to be.",
+      "ru": "Готов поставить свой хлеб: ты скорее съешь овсянку, чем этот \"Овсяно-отрубный фьюжн-восторг\", что бы он ни означал.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Though, it seems like you can't just get a good loaf of bread nearby. Sure, there's sailin' biscuits, but that hardly qualifies!",
+      "ru": "Хотя, похоже, нормальный хлеб рядом не купить. Да, есть корабельные сухари, но это вообще не считается!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "I can't stomach the fancy stuff, so I just make my own. Not only is it cheaper, but it also tastes much better.",
+      "ru": "Я весь этот вычурный бред терпеть не могу, так что просто делаю хлеб сам. И дешевле, и вкуснее.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "It isn't too difficult. Besides the obvious, you'll just need some salt and yeast. Grab something to write with, y'hear? Take some notes!",
+      "ru": "Это не так уж сложно. Помимо очевидного, нужны только соль и дрожжи. Бери чем писать, слышишь? Записывай!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Ready? Right, let's get started! The less ingredients you use, the closer you'll be to makin' a real loaf! Not the wannabe poundcakes eaten by wannabe spendthrifts.",
+      "ru": "Готов? Ну всё, погнали! Чем меньше ингредиентов, тем ближе ты к настоящему хлебу! А не к этому притворному кексу для притворных богачей.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "There's a common misconception that you need sugar for the yeast to start risin'. Not true!",
+      "ru": "Многие ошибочно думают, что без сахара дрожжи не поднимут тесто. Неправда!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Give it some time, and bread without sugar will rise just as well. If you want somethin' good, you need to put in the time and effort for it!",
+      "ru": "Дай тесту время, и без сахара поднимется не хуже. Если хочешь что-то хорошее, придётся вложить время и старание!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Get it right, and you'll have the perfect taste and texture for nothin' more than a few hours of your time!",
+      "ru": "Сделаешь как надо - и получишь прекрасный вкус и мякиш всего за несколько часов работы!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Let me make it clear: you don't want sugar in your bread. It'll do a number on its taste and your teeth.",
+      "ru": "Скажу прямо: сахар в хлебе тебе не нужен. Он портит и вкус, и зубы.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "I'll cover the taste first. The sugar fights with the raw, savory flavors of an otherwise respectable loaf of bread.",
+      "ru": "Сначала про вкус. Сахар дерётся с тем самым простым, честным вкусом, который и делает хороший хлеб хорошим.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "It also fights with your teeth. Bread's quite sticky as it is, and the sugar doesn't do it any favors.",
+      "ru": "И с зубами он тоже дерётся. Хлеб сам по себе липкий, а сахар делает только хуже.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Why, I can still remember the time that I got a cavity. Cried my eyes out, I did.",
+      "ru": "Я до сих пор помню, как у меня появилась дырка в зубе. Рыдал как не в себя.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Eventually, my pappy had enough, and he went for the ol' string-on-a-doorknob trick. He got me good there, though it took him a few tries.",
+      "ru": "В итоге батя не выдержал и использовал старый трюк с ниткой и дверной ручкой. Правда, сработало у него не с первого раза.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Ah, it seems like I got distracted. Back to the topic at hand.",
+      "ru": "А, опять увлёкся. Ладно, обратно к теме.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "You aren't goin' to get quite as much of an effect on your digestion than coarse-ground whole-grain bread. It keeps most of the fiber intact, after all.",
+      "ru": "Для пищеварения ничего лучше грубого цельнозернового хлеба ты не найдёшь. В нём вся клетчатка на месте.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "You know how fruit juice contains next to no fiber because none of it goes into the juice? It's the same deal with white bread.",
+      "ru": "Знаешь, как в соке почти нет клетчатки, потому что в стакан она не попадает? С белым хлебом та же история.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Fruit juice was banned in my household. As my pappy liked to say, a real man only drinks hard spirits and the sweat runnin' down his face! Though I wasn't allowed to have the former, not yet at least! Heheh! So I drank milk instead.",
+      "ru": "Фруктовый сок у нас дома был под запретом. Как батя говорил, настоящий мужик пьёт только крепкий алкоголь и пот, стекающий с его лица! Правда, крепкое мне тогда ещё не разрешали, хех! Так что я пил молоко.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "Say, if you haven't done so already, try bread dipped in milk! Go on! There's nothin' quite like it. Don't accidentally drop the bread into the milk, of course.",
+      "ru": "Кстати, если ещё не пробовал - макни хлеб в молоко! Серьёзно! Ничего лучше нет. Только не урони его туда целиком, конечно.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "You'll end up with a bloated mess with the consistency of a sponge. And you should know by now that consistency is everythin'!",
+      "ru": "Иначе получится разбухшее месиво, рыхлое, как губка. А ты уже должен понимать, что плотность - это всё!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "While we're on the subject of milk, do you know some folks can't drink it? Oh, yes, they can try, but sooner or later their belly will protest.",
+      "ru": "Раз уж заговорили о молоке, знаешь, что некоторые его вообще не переносят? Пить-то могут, но живот потом восстанет.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "It's the same deal with bread! Stick with whole-grain, nothin' added. That way, you don't have to worry about surprise milk appearances and whatnot.",
+      "ru": "С хлебом всё так же! Держись цельного зерна и без лишнего. Тогда не придётся бояться всяких неожиданных молочных сюрпризов и прочего.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "You got that? Let me know when you're ready for more. Say, you know what? I oughta talk a bit slower to help you digest what I'm sayin'. Oh! \"Digest\"! I did it again! Heheh...",
+      "ru": "Понял? Скажи, когда будешь готов к продолжению. Хотя знаешь что? Мне бы, наверное, говорить помедленнее, чтобы ты успевал переваривать мои слова. О! \"Переваривать\"! Опять получилось! Хехех...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Right, then, somethin' that really peeves me is people who use bakin' powder. What's wrong with some good ol' yeast?",
+      "ru": "Так, дальше. Меня дико бесят люди, которые используют разрыхлитель. Чем вам старые добрые дрожжи не угодили?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Too little of it, and it'll go plum flat in the oven. Just a little too much of it, and your bread's going to be as bitter as wormwood!",
+      "ru": "Слишком мало - и хлеб в духовке ляжет пластом. Слишком много - и будет горчить как полынь.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "The only way to get a size that's just right is the long way! Wait until the yeast works its magic, and bake it right as it reaches its good size.",
+      "ru": "Нужный объём получается только долгим путём! Дай дрожжам сделать своё дело и пеки ровно тогда, когда тесто дошло как надо.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "There's also nothin' quite like the smell of yeast as it causes the dough to rise! Works up quite the appetite, it does.",
+      "ru": "И запах дрожжей, когда тесто поднимается, ни с чем не сравнить! Аппетит разгоняет так, что мама не горюй.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "Some people put the cart before the horse and think that yeast works like bakin' powder. Try that, and you'll end up with scorchin'-hot bricks in your oven.",
+      "ru": "Некоторые ставят телегу впереди лошади и думают, что дрожжи работают как разрыхлитель. Попробуешь так - получишь раскалённые кирпичи вместо хлеба.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "No, you have to do it right, and doin' it right means leavin' some of the work to the yeast.",
+      "ru": "Нет, делать надо правильно, а правильно - это дать дрожжам сделать часть работы за тебя.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Unless you like flat breads. I can't see why anyone would, though. Bread's supposed to be puffy and chewy, not some dough jerky!",
+      "ru": "Если только ты не любишь лепёшки. Хотя не понимаю, кому они нравятся. Хлеб должен быть пышным и упругим, а не вяленым куском теста!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "Though that may not be the case for other pastries. For one, I've never once heard of a pie with a chewy crust.",
+      "ru": "С другой выпечкой, правда, всё иначе. Не припомню, чтобы слышал о пироге с тугой коркой.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Really, the beauty in bread lies with it's simplicity! No complicated steps, no chances for the dough to rebel. Certainly not as fickle as somethin' like a cream puff.",
+      "ru": "Вообще, прелесть хлеба в его простоте! Никаких сложных действий, никаких шансов, что тесто взбунтуется. Не то что капризные заварные пирожные с кремом.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "If you treat the dough with respect, the bread will respect you in turn. It's simple stuff, really! No finnickin' around with stiff peaks, or needin' half a dozen bowls to mix in, or getting a flaky dough just right, or...",
+      "ru": "Относись к тесту с уважением, и хлеб ответит тем же. Всё просто! Не надо взбивать до устойчивых пиков, мешать в полудюжине мисок, добиваться идеального слоёного теста, или...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "...and not to mention that just about everythin' needs butter in some shape or form! Really, what's with it? It's not like the stuff grows on trees!",
+      "ru": "...а ещё почти для всего нужно масло в том или ином виде! Что в нём такого? Оно же не растёт на деревьях!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Makin' the pastry shiny. Makin' it taste rich. Makin' the dough thick. There's no end to it! Bread's so much simpler to handle.",
+      "ru": "То выпечку блестящей сделать, то вкус \"богаче\", то тесто гуще - и этому конца нет! С хлебом всё куда проще.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Though some people insist upon puttin' butter in the bread. Not just on it, but in it! There's more butter than bread at that point!",
+      "ru": "Хотя некоторые ещё и в хлеб масло пихают. Не намазывают сверху, а прям в тесто! Там уже масла больше, чем хлеба.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "I don't have anythin' against butter itself, mind you. It's great on toast! Just I think it oughta stay on the toast rather than in it.",
+      "ru": "Я не против масла как такового, заметь. На тосте оно шикарно! Просто ему место на хлебе, а не внутри него.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Not to mention that there's a time, place, and occasion for it. If you put butter on everythin', you're goin' to get sick of it real quickly. Eat it in moderation! Your tongue and your emerald pouch will thank you.",
+      "ru": "И вообще у него есть своё время, место и повод. Если пихать масло во всё подряд, оно тебе быстро осточертеет. Ешь в меру! И язык, и кошелёк тебе спасибо скажут.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Of course, there's always margarine, but why settle for somethin' inferior? You shouldn't settle for anythin' less than the quality you'd expect from your bread!",
+      "ru": "Ну и конечно, есть маргарин, но зачем соглашаться на что-то хуже? Никогда не соглашайся на качество ниже того, которое ждёшь от своего хлеба!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "Though, now that I look at it, bread does get a reputation for bein' a breakfast food. That's ridiculous! It's got a place in every meal of the day!",
+      "ru": "Хотя если подумать, хлебу почему-то приписали репутацию \"еды на завтрак\". Это же бред! Ему место в каждом приёме пищи!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Sandwiches? They've got bread in 'em. Casseroles? Any respectable one has it as a shell. Breadsticks? It's in the name for cryin' out loud!",
+      "ru": "Бутерброды? В них хлеб. Запеканки? У любой достойной он служит корочкой. Хлебные палочки? Да само название за себя говорит!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Done right, and it's also great as a side. I already mentioned having a fresh-ground fresh-baked loaf of whole-grain with a slab of flat-iron steak, but really, a well-sliced loaf and some dippin' butter can transform a family dinner into a banquet!",
+      "ru": "Если всё сделать как надо, хлеб ещё и как гарнир идеален. Я уже говорил про цельнозерновой батон с мясом, но вообще хорошо нарезанный хлеб и чуть-чуть масла для макания могут превратить обычный семейный ужин в пир.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "They're almost as versatile as potatoes! Actually, even more so, I'd say!",
+      "ru": "Он почти так же универсален, как картошка! А если честно, то даже универсальнее!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "As my pappy liked to say, a real man's got to earn his daily bread through his own toilin'. As you can see, I've taken his advice to heart!",
+      "ru": "Как мой батя любил говорить, настоящий мужик должен зарабатывать свой хлеб своим потом. Как видишь, я его совет принял близко к сердцу!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "...I feel that I'm missin' somethin' important that I wanted to discuss. Hang on for a bit, would you?",
+      "ru": "...Кажется, я упускаю что-то важное, о чём хотел сказать. Подожди секундочку, ладно?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Ah, of course! I can't believe that I forgot! I wanted to cover some thoughts about bread consistency.",
+      "ru": "А, точно! Как же я забыл? Хотел ещё поговорить о плотности хлеба.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "Namely, the two extremes: too chewy, and not chewy enough. I already spoke on hardly chewy bread plenty, but there's such a thing as too much of a good thing.",
+      "ru": "А именно о двух крайностях: слишком тугой и слишком рыхлый. О рыхлом хлебе я уже наговорился, но и хорошего бывает слишком много.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "And in this case, bread chewiness is a good thing. You don't want your bread to be too chewy, got it?",
+      "ru": "В данном случае упругий мякиш - это хорошо. Но слишком тугой хлеб тебе не нужен, понял?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "Too chewy's a step right towards bread that's outright rubbery. Your teeth'll bounce right off it!",
+      "ru": "Слишком тугой хлеб - уже почти резина. Зубы от него отскочат!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "Sure, too much give in the dough's awkward and sets you up for bitin' your own tongue, but too firm of a loaf can lead to much of the same.",
+      "ru": "Да, слишком мягкое тесто неудобное и можно язык прикусить, но слишком дубовый батон ведёт к тому же.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "They always say never bite off more than you could chew, but you oughta be careful not to bite off any less than that, either!",
+      "ru": "Все твердят \"не кусай больше, чем сможешь прожевать\", но и меньше нужного кусать тоже не стоит!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "No, just right and chewy's what you want. Don't settle for anything more or less!",
+      "ru": "Нет, нужен в меру упругий хлеб. Ни больше, ни меньше - на другое не соглашайся!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Hmm, come to think. You seem really interested in discussin' bread with me!",
+      "ru": "Хм, а ведь ты реально с интересом обсуждаешь со мной хлеб!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "Lean in for a second, would you? I've got somethin' important to say.",
+      "ru": "Подойди поближе на секунду, а? Мне нужно сказать кое-что важное.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "Listening? Right! Ah, sorry, I didn't mean to shout in your ear.",
+      "ru": "Слушаешь? Отлично! А, извини, не хотел орать тебе прямо в ухо.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "You're just about the only person that I've been able to have an honest conversation about bread with.",
+      "ru": "Ты, пожалуй, единственный, с кем мне удалось честно поговорить о хлебе.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Usually, bread gets brushed off as some kind of dull fodder. Dismissed as too borin' and too plain, I tell you! That's what leads to unnecessary excess as people try to make it into something that it's not.",
+      "ru": "Обычно хлеб все списывают как какую-то скучную еду. Мол, слишком простой, слишком унылый! И именно из-за этого люди потом начинают превращать его в то, чем он вообще не должен быть.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "But us? We're different, we're visionaries, and we know the truth about what really makes a good loaf!",
+      "ru": "А мы? Мы другие, мы видим дальше остальных и знаем, что делает буханку по-настоящему хорошей!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "Tell 'em off, I say! They can't follow the thoughts of bread enthusiasts like you and I otherwise!",
+      "ru": "Скажи им, что они ничего не понимают! Иначе им не разобраться в мыслях таких ценителей хлеба, как мы с тобой!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "Ah! Right, never did I get to answerin' your question. About my favorite type of bread, that is...",
+      "ru": "А! Точно, я ведь так и не ответил на твой вопрос. Про мой любимый хлеб, в смысле...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Plain ol' coarse-ground wheat.",
+      "ru": "Обычный старый добрый грубомолотый пшеничный.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "Sure, it may be simple, but if you were payin' any attention at all, you'd know for sure why that's everythin' that I'm lookin' for.",
+      "ru": "Да, он простой, но если ты вообще хоть немного слушал, то и сам уже понял, почему именно в нём для меня есть всё.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "And that just about sums up the basics! Let me know if you want to hear anythin' more.",
+      "ru": "Ну вот, в целом основы я и выдал! Если захочешь ещё - только скажи.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "Let's continue! Have you ever seen a baker wearin' a fancy hat? Have you ever wondered how that corresponds to how well they bake bread compared to somethin' else?",
+      "ru": "Продолжим! Видел когда-нибудь пекаря в нарядной шляпе? Задумывался, говорит ли она о том, хорошо он печёт хлеб или что-нибудь другое?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "Hah! That crazy coot, you're chattin' with that feller?",
+      "ru": "Ха! Ты реально болтаешь с тем чокнутым дедом?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "He's wack-o, y'know... Singing his songs all day, somethin's not right upstairs.",
+      "ru": "Он же ненормальный... Целыми днями поёт свои песни, явно не всё дома.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "You do you, buddy, but I'd steer clear.",
+      "ru": "Дело твоё, дружище, но я бы держался от него подальше.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "A parrot? You know where you are, right?",
+      "ru": "Попугай? Ты вообще понимаешь, где ты?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "I see plenty parrots every day, I don't keep track.",
+      "ru": "Я тут каждый день вижу кучу попугаев, не слежу за каждым.",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "I'll keep an eye or two out for one, though, sound peachy?",
+      "ru": "Но могу поглядывать одним глазком. Или обоими. Годится?",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "H-H-HUMAN!!!",
+      "ru": "Ч-Ч-ЧЕЛОВЕК!!!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "I-I-I SAW IT!!! THE B-BIRD!!!",
+      "ru": "Я-Я-Я ВИДЕЛ ЕГО!!! П-ПТИЦУ!!!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "IT'S IN T-THE TREE, HERE! IT'S HERE!!!",
+      "ru": "ОНА НА Д-ДЕРЕВЕ, ТУТ! ТУТ ОНА!!!",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "I f-found it... The bird...",
+      "ru": "Я н-нашёл её... Птицу...",
+      "speaker": "Jofash Resident",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "You have the map! Thank you for the assistance!",
+      "ru": "Карта у тебя! Спасибо, друг, выручил меня!",
+      "speaker": "Relend",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "Now let us set sail, and cover some distance!",
+      "ru": "Теперь пора по морю путь держать! Поднимем паруса, не будем ждать!",
+      "speaker": "Relend",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "I'm sorry, new friend, to be of haste!",
+      "ru": "Прости, новый друг, нет времени стоять!",
+      "speaker": "Relend",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "However I sense power in you, and we have no time to waste!",
+      "ru": "Я чувствую в тебе силу, нельзя время терять!",
+      "speaker": "Relend",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "So off we go, to find an old friend, that would be ideal.",
+      "ru": "Найти бы старого друга - вот к чему я плыву.",
+      "speaker": "Relend",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "I'll captain the ship up at the steering wheel.",
+      "ru": "А пока, как капитан, я встану к штурвалу.",
+      "speaker": "Relend",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "Welcome aboard, I suppose I can consider you my first mate. Although, it appears we now have a problem on our plate.",
+      "ru": "Добро пожаловать на борт! Тебе первым помощником быть. Но проблему уже нам придётся решить.",
+      "speaker": "Relend",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "You see those spikes all around my boat? Well, we're about to ram into them like a goat!",
+      "ru": "Видишь шипы - кругом острый кол! Мы сейчас в них боднёмся, словно козёл!",
+      "speaker": "Relend",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "I'd steer around them, but it appears the wheel is all smashed. I need you to craft a new one before we both get splashed!",
+      "ru": "Штурвал разбит, иначе я бы шипы обошёл! Новый сделай, пока корабль ко дну не пошёл!",
+      "speaker": "Relend",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "There's a Crafting Table at the front near all the crates. Now hurry up, else the ocean floor awaits!",
+      "ru": "Возле ящиков на носу верстак стоит. Быстрее, а то морское дно нас приютит!",
+      "speaker": "Relend",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "Ah, thank you for helping me in my time of need. Let's maneuver through these spikes at a steady speed!",
+      "ru": "Спасибо за помощь, не бросил в беде! Спокойно пройдём между шипов в воде!",
+      "speaker": "Relend",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "Although, at the last minute, there is something I have to confess. I have never captained a ship with any success.",
+      "ru": "Но напоследок должен тебе сказать: ещё не удавалось мне кораблём управлять!",
+      "speaker": "Relend",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "I think before we get into any real danger, we should turn around. Could you man the wheel and get us back to solid ground?",
+      "ru": "Пока не поздно, нам нужно в обратный путь! Возьми штурвал, помоги на сушу свернуть!",
+      "speaker": "Relend",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Now you're the captain, hope the sea's not making you nauseous. Steer this ship, but you'll have to be cautious!",
+      "ru": "Теперь ты капитан! Надеюсь, море не укачало. Веди осторожно: опасностей тут немало!",
+      "speaker": "Relend",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "Nice steering, although your maneuvers are a bit brash. Hey, watch out! I think we're about to-",
+      "ru": "Хорошо ведёшь, но слишком резок ход! Эй, осторожно! Кажется, мы сейчас-",
+      "speaker": "Relend",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "As you can see, my ship has become a shipwreck! Now please help me, I am trapped in the lower deck!",
+      "ru": "Корабль наш разбит, вот беда! Я на нижней палубе застрял, скорей сюда!",
+      "speaker": "Relend",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "Amazing work, seems you got below deck rather quickly! You're going to have to get through this wreckage to free me!",
+      "ru": "На нижнюю палубу ты быстро спустился! Пройди сквозь обломки, чтоб я освободился!",
+      "speaker": "Relend",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "Wow, so you managed to work your way through after all! Maybe to free me, you can use that cannonball?",
+      "ru": "Ты всё-таки пробрался, мой друг дорогой! Может, это ядро подарит свободу нам с тобой?",
+      "speaker": "Relend",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "Thank you for freeing me, now let's leave this mess! Although, I don't know how to do that, I have not even a guess.",
+      "ru": "Спасибо за помощь, отсюда бы уйти! Но как это сделать, не знаю, прости!",
+      "speaker": "Relend",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "When the ship crashed, it was buried beneath the sand! But the good news is that we're finally back on land!",
+      "ru": "Корабль разбился, его занесло в песок! Зато мы на суше, мой друг - вот итог!",
+      "speaker": "Relend",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "We should probably get of this place, it feels rather small. Perhaps you can try to break through that weak spot in the wall?",
+      "ru": "Тесно здесь, надо нам выйти скорей. В стене есть слабое место, попробуй пробей!",
+      "speaker": "Relend",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "It looks like we're going to be stuck here for a while. Come and speak to me so we can find a way off of this isle!",
+      "ru": "Похоже, придётся здесь долго торчать. Подойди - пора способ покинуть остров искать!",
+      "speaker": "Relend",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "Gateway Island... we've finally arrived. I'm just thankful that we survived.",
+      "ru": "Остров Врат... ну вот мы и добрались. Уже хорошо, что вообще живы остались.",
+      "speaker": "Relend",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "Well, all this adventuring has me hungry for stew. We'll need ingredients, whatever's on the island will have to do.",
+      "ru": "От приключений проголодался я опять! Всё, что годится для похлёбки, на острове нужно собрать!",
+      "speaker": "Relend",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "Meat is definitely something we need to reap, try and get [10 Raw Mutton] from those sheep.",
+      "ru": "Нам без мяса не сварить похлёбки отменной. Добудь [10 Raw Mutton] с тех овец непременно!",
+      "speaker": "Relend",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "And perhaps you could get [5 Edible Mushrooms] from the western cave, just make sure not to get the kind that will send me to my grave.",
+      "ru": "И [5 Edible Mushrooms] из западной пещеры бери. Лишь бы не те, что отправят в могилу, смотри!",
+      "speaker": "Relend",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "I feel like something is missing from this medley. Oh, how about you get [1 Coconut] from atop that tree?",
+      "ru": "Чего-то в этой смеси не хватает, вот вопрос. С верхушки дерева добудь мне [1 Coconut]!",
+      "speaker": "Relend",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "And if you could fetch [7 Berries], that would just make me merry!",
+      "ru": "Принеси ещё [7 Berries] скорей! С ними станет на душе веселей!",
+      "speaker": "Relend",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "Check your quest book if you ever need a recap. And to make sure you don't get lost, take this map.",
+      "ru": "В книгу заданий глянь, если нужно подсказку взять. И вот карта, чтобы дорогу не потерять!",
+      "speaker": "Relend",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "Well, this stew has a rather odd flavor. But any food we can get here I shall savor.",
+      "ru": "Похлёбка на вкус странновата, вот беда. Но здесь я рад любой еде всегда!",
+      "speaker": "Relend",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "What remains of my ship won't protect us very well. We'll need to find shelter, as you can clearly tell.",
+      "ru": "Обломки корабля нас не смогут укрыть. Придётся убежище нам раздобыть!",
+      "speaker": "Relend",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "To the east, I can just barely make out a tent. Go and look for my friend there. I'm simply hellbent!",
+      "ru": "На востоке палатка еле видна. Ищи там друга! Встреча с ним мне так нужна!",
+      "speaker": "Relend",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "This tent doesn't seem to have had any residents in a long time. Maybe Relend has other ideas.",
+      "ru": "Похоже, в этой палатке уже очень давно никто не жил. Может, у Реленда есть другие идеи.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "Dear Nilrem...",
+      "ru": "Дорогой Нилрем...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "So the tent was all empty and run-down? All of this bad news is making me frown.",
+      "ru": "Палатка пуста, всё пришло в запустенье? От таких новостей у меня огорченье.",
+      "speaker": "Relend",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "Allow me to borrow your map for a second. We'll have to find him somewhere else, I reckon.",
+      "ru": "На миг дай карту, взгляну ещё разок. Нам друга нужно искать в другом месте, дружок.",
+      "speaker": "Relend",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "I know we can come up with a solution using our wits. Perhaps we can use an explosive to blow that big rock to bits!",
+      "ru": "Смекалкой решим, сомнений тут нет! Взорвать ту скалу - похоже, вот наш ответ!",
+      "speaker": "Relend",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "Let's think of some materials we can get here. There isn't much on this island, I fear...",
+      "ru": "Подумаем, что остров может нам дать. Боюсь, негусто - почти нечего брать...",
+      "speaker": "Relend",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "First we're going to need [5 Gritty Sand]. Where to get it? Try the beach at the back of the island.",
+      "ru": "Сначала [5 Gritty Sand] нужно собрать. На пляже с обратной стороны острова поискать!",
+      "speaker": "Relend",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "Next up is [Sawdust], you'll need three. I think the best place to search would be the largest tree.",
+      "ru": "Ещё [опилки], три нужно найти. К самому большому дереву иди!",
+      "speaker": "Relend",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "Finally, [1 Black Powder], found in a place that is very unique. You'll have to brave your way to the volcano's peak.",
+      "ru": "И [1 Black Powder] бери, мой герой. На вершине вулкана он ждёт нас с тобой!",
+      "speaker": "Relend",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "You'll need those items you craft the bomb, I just told you where to look. If you forget what you need to find, check your quest book.",
+      "ru": "Из этих вещей ты сможешь бомбу собрать. Если список забыл, в книгу заданий загляни опять!",
+      "speaker": "Relend",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "Incredible, The explosive blew right through the stone!",
+      "ru": "Невероятно! Взрывом проломило скалу!",
+      "speaker": "Relend",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "Let us progress into this mysterious zone.",
+      "ru": "Идём в таинственный край, куда я тебя зову.",
+      "speaker": "Relend",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "For adventurers like us, an incredible cave, perfect to explore.",
+      "ru": "Для нас, искателей приключений, пещера - то что нужно, ручаюсь.",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "Surely where my old friend ventured - just as I swore!",
+      "ru": "Мой старый друг был тут, как я и говорил. Не сомневаюсь!",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "Long ago, a strong adventurer like yourself reached out to me for a wonderful sail. It truly is a gripping tale!",
+      "ru": "Давно такой же сильный искатель приключений, как ты, со мной хотел поплыть. Увлекательную историю могу тебе изложить!",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "We became best friends on our quest. But then he vanished, oh how he was the best.",
+      "ru": "В походе стали мы друзьями - лучших не найти. Но он пропал... Какого друга потерял я на пути!",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "And we've finally made it to where he'd been. I can't wait to see him again, I don't know where to begin!",
+      "ru": "Где побывал мой друг, смогли мы оказаться. С чего начать? Не терпится с ним повидаться!",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "A mystical portal! This must be where my old friend got lost!",
+      "ru": "Таинственный портал! Вот где мой старый друг пропал!",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "We must go through and find him, whatever the cost.",
+      "ru": "Мы должны туда пройти и друга отыскать. Неважно, что за это придётся отдать!",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "I can't believe it! I simply can't speak!",
+      "ru": "Не верю я, ни слова не сказать!",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "I always told the others I wasn't a freak. Old friend, I'll look for you until the bitter end!",
+      "ru": "Я всем твердил, что не чудак! Друг, до конца тебя буду искать!",
+      "speaker": "Relend",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "A foreign land filled with danger, to the brim...",
+      "ru": "Чужая земля, кругом опасность одна...",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "It must be where he vanished to, regardless of how grim.",
+      "ru": "Пусть всё так мрачно, но друга скрыла она.",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "My friend... Where do you think we are?",
+      "ru": "Друг мой... Что за край нам открылся сейчас?",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "Whatever it is, I feel that we're being overseen from afar.",
+      "ru": "Где бы мы ни были, чей-то дальний взгляд устремлён на нас.",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "With all this danger, I still hope my good friend is still okay.",
+      "ru": "Здесь опасно, но надеюсь: с другом всё в порядке.",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "My goodness! Keep your wits about, we may be in for a fray!",
+      "ru": "Боже мой! Будь начеку, нас ждут, похоже, схватки!",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "Aagh... New friend... are you there?",
+      "ru": "Ааах... Новый друг... Ты где?",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "Don't...give up... we must find him, I swear...",
+      "ru": "Не... сдавайся... Найдём его... клянусь тебе...",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "I promise I'll find him, I'll do it, without a single scar!",
+      "ru": "Обещаю, я его найду! Без единого шрама к нему приду!",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "AAARRGHHHHH!",
+      "ru": "АААРРРГХХХХ!",
+      "speaker": "Relend",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "He seems pretty comfortable, best not to disturb him.",
+      "ru": "Он выглядит вполне довольным, лучше его не беспокоить.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "He seems distracted. Best to walk away while you can...",
+      "ru": "Он выглядит отвлечённым. Лучше уйти, пока можешь...",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "He begins to list off a seemingly endless amount of examples.",
+      "ru": "Он начинает перечислять, кажется, бесконечное количество примеров.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "It looks like he’s nearly finished.",
+      "ru": "Похоже, он почти закончил.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "It seems like he’s lost in reminiscence.",
+      "ru": "Кажется, он погрузился в воспоминания.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "He doesn’t seem to be stopping anytime soon.",
+      "ru": "Похоже, останавливаться он в ближайшее время не собирается.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "It seems like he's waiting expectantly.",
+      "ru": "Кажется, он ждёт ответа.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "He’s thoughtfully rubbing his jaw. Best to leave him be.",
+      "ru": "Он задумчиво потирает подбородок. Лучше оставить его в покое.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "He’s beaming with pride.",
+      "ru": "Он сияет от гордости.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "He proceeds to rattle off several grievances about pastry making.",
+      "ru": "Он начинает тараторить о том, что ему не нравится в приготовлении выпечки.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "It seems like he’s deep in thought.",
+      "ru": "Кажется, он глубоко задумался.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "He’s waiting expectantly.",
+      "ru": "Он ждёт ответа.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "You don’t have the time for this.",
+      "ru": "У тебя нет на это времени.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "Looks like the parrot dropped the map! You should get this back to Relend.",
+      "ru": "Похоже, попугай обронил карту! Тебе стоит вернуть её Реленду.",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "This will probably work... You should show Relend.",
+      "ru": "Это, вероятно, сработает... Тебе стоит показать Реленду.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0297",
+      "en": "The Parrot drops a few scraps into your palm.",
+      "ru": "Попугай роняет несколько объедков тебе в ладонь.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0298",
+      "en": "This looks... edible. You should see what Relend thinks.",
+      "ru": "Выглядит... съедобно. Тебе стоит узнать, что думает Реленд.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0299",
+      "en": "The volcano is erupting!",
+      "ru": "Вулкан извергается!",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0300",
+      "en": "That looks dangerous! You should go blow open that boulder now.",
+      "ru": "Выглядит опасно! Тебе пора пойти и взорвать тот валун.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0301",
+      "en": "Relend looks to be waiting for you.",
+      "ru": "Похоже, Реленд тебя ждёт.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0302",
+      "en": "New Quest Started: Fantastic Voyage",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Фантастическое путешествие",
+      "speaker": "",
+      "stage": "Stage 18"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Relend.",
+      "ru": "Поговорить с Релендом.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Retrieve the map back from the parrot.",
+      "ru": "Отобрать карту у попугая.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Set sail aboard Relend’s ship.",
+      "ru": "Отплыть на корабле Реленда.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Speak to Captain Relend aboard the Little Wing.",
+      "ru": "Поговорить с капитаном Релендом на борту \"Малого крыла\".",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Bring a Wooden Board, a Center Piece, and a String to the Crafting Table.",
+      "ru": "Принести на верстак деревянную доску, центральную деталь и нить.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Bring the Steering Wheel to Captain Relend.",
+      "ru": "Принести штурвал капитану Реленду.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Man the wheel of the Little Wing.",
+      "ru": "Встать за штурвал \"Малого крыла\".",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Find Relend inside of the wreck of the Little Wing.",
+      "ru": "Найти Реленда среди обломков \"Малого крыла\".",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Save Relend inside of the wreck of the Little Wing.",
+      "ru": "Спасти Реленда из обломков \"Малого крыла\".",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Exit the shipwrecked Little Wing.",
+      "ru": "Выбраться из разбившегося \"Малого крыла\".",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Speak to Relend on the beach.",
+      "ru": "Поговорить с Релендом на берегу.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Give the Odd Stew to Relend.",
+      "ru": "Дать Реленду странную похлёбку.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Check out the tent to the east.",
+      "ru": "Осмотреть палатку на востоке.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Report back to Relend.",
+      "ru": "Вернуться к Реленду с новостями.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Bring 5 Gritty Sand, 3 Saw Dust, and 1 Black Powder to the Crafting Table.",
+      "ru": "Принести на верстак 5 горстей крупнозернистого песка, 3 горсти опилок и 1 порцию чёрного пороха.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Use the explosive on the boulder.",
+      "ru": "Взорвать валун.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Enter the cave.",
+      "ru": "Войти в пещеру.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Advance deeper into the cave.",
+      "ru": "Продвинуться вглубь пещеры.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Find Relend in the strange place",
+      "ru": "Найти Реленда в странном месте.",
+      "stage": "Stage 19"
+    }
+  ],
+  "choices": []
+}

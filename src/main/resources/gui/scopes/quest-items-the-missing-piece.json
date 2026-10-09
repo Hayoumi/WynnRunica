@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "quest-items-the-missing-piece",
+  "scopes": [
+    {
+      "id": "queue-ticket",
+      "match": {
+        "title": "Queue Ticket",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Queue Ticket",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "An ordinary ticket.",
+          "ru": "Обычный талон."
+        },
+        {
+          "id": "line-002",
+          "en": "Your number is: <num>",
+          "ru": "Ваш номер: <num>"
+        }
+      ]
+    },
+    {
+      "id": "mysterious-letter",
+      "match": {
+        "title": "Mysterious Letter",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Mysterious Letter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "It's addressed to 'the woman on the hill'.",
+          "ru": "Адресовано \"женщине на холме\"."
+        },
+        {
+          "id": "line-002",
+          "en": "You probably shouldn't open this without permission.",
+          "ru": "Пожалуй, не стоит открывать без разрешения."
+        }
+      ]
+    },
+    {
+      "id": "watering-can",
+      "match": {
+        "title": "Watering Can",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Watering Can",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "A rusty watering can.",
+          "ru": "Ржавая лейка."
+        },
+        {
+          "id": "line-002",
+          "en": "It has seen better days.",
+          "ru": "Она знавала лучшие дни."
+        }
+      ]
+    },
+    {
+      "id": "empty-bottle",
+      "match": {
+        "title": "Empty Bottle",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Empty Bottle",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Left-Click to Knock Out Guards",
+          "ru": "<em> ЛКМ - §#5454FCоглушить§r стражников"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click to aim",
+          "ru": "<em> ПКМ - прицелиться"
+        },
+        {
+          "id": "line-003",
+          "en": "<em> Right-Click again to throw",
+          "ru": "<em> Ещё раз ПКМ - бросить"
+        },
+        {
+          "id": "line-004",
+          "en": "A discarded bottle. Perhaps you can put it to better use.",
+          "ru": "Выброшенная бутылка. Возможно, вы найдёте ей лучшее применение."
+        },
+        {
+          "id": "line-005",
+          "en": "<em>Left-Click to Knock Out Guards",
+          "ru": "<em> ЛКМ - §#5454FCоглушить§r стражников"
+        },
+        {
+          "id": "line-006",
+          "en": "<em>Right-Click to aim",
+          "ru": "<em> ПКМ - прицелиться"
+        },
+        {
+          "id": "line-007",
+          "en": "<em>Right-Click again to throw",
+          "ru": "<em> Ещё раз ПКМ - бросить"
+        }
+      ]
+    },
+    {
+      "id": "grate-key",
+      "match": {
+        "title": "Grate Key",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Grate Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "It's a key.",
+          "ru": "Это ключ."
+        }
+      ]
+    },
+    {
+      "id": "maintenance-key",
+      "match": {
+        "title": "Maintenance Key",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Maintenance Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "It's a key.",
+          "ru": "Это ключ."
+        }
+      ]
+    },
+    {
+      "id": "emergency-shutdown-card",
+      "match": {
+        "title": "Emergency Shutdown Card",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Emergency Shutdown Card",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Just so I don't forget, the code to to initiate emergency shutdown is:",
+          "ru": "Чтобы не забыть: код запуска аварийного отключения:"
+        },
+        {
+          "id": "line-002",
+          "en": "Just so I don't forget, the code to initiate emergency shutdown is:",
+          "ru": "Чтобы не забыть: код запуска аварийного отключения:"
+        }
+      ]
+    },
+    {
+      "id": "vault-bread",
+      "match": {
+        "title": "Vault Bread",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Vault Bread",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Bread. It was perhaps harder to obtain than it should have been.",
+          "ru": "Хлеб. Пожалуй, достать его оказалось сложнее, чем должно было быть."
+        }
+      ]
+    },
+    {
+      "id": "brick",
+      "match": {
+        "title": "Brick",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Brick",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Right-Click to aim",
+          "ru": "<em> ПКМ - прицелиться"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click again to throw",
+          "ru": "<em> Ещё раз ПКМ - бросить"
+        },
+        {
+          "id": "line-003",
+          "en": "A brick.",
+          "ru": "Кирпич."
+        },
+        {
+          "id": "line-004",
+          "en": "<em>Right-Click to aim",
+          "ru": "<em> ПКМ - прицелиться"
+        },
+        {
+          "id": "line-005",
+          "en": "<em>Right-Click again to throw",
+          "ru": "<em> Ещё раз ПКМ - бросить"
+        }
+      ]
+    },
+    {
+      "id": "cracked-brick",
+      "match": {
+        "title": "Cracked Brick",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Cracked Brick",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "<em> Right-Click to aim",
+          "ru": "<em> ПКМ - прицелиться"
+        },
+        {
+          "id": "line-002",
+          "en": "<em> Right-Click again to throw",
+          "ru": "<em> Ещё раз ПКМ - бросить"
+        },
+        {
+          "id": "line-003",
+          "en": "A brick.",
+          "ru": "Кирпич."
+        },
+        {
+          "id": "line-004",
+          "en": "<em>Right-Click to aim",
+          "ru": "<em> ПКМ - прицелиться"
+        },
+        {
+          "id": "line-005",
+          "en": "<em>Right-Click again to throw",
+          "ru": "<em> Ещё раз ПКМ - бросить"
+        }
+      ]
+    },
+    {
+      "id": "innocence",
+      "match": {
+        "title": "Innocence",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Innocence",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Innocence flowers.",
+          "ru": "Цветы Innocence."
+        }
+      ]
+    },
+    {
+      "id": "daisy",
+      "match": {
+        "title": "Daisy",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Daisy",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "A daisy.",
+          "ru": "Ромашка."
+        }
+      ]
+    },
+    {
+      "id": "rose",
+      "match": {
+        "title": "Rose",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Rose",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "A rose. It smells bittersweet.",
+          "ru": "Роза. У неё сладкий аромат с горчинкой."
+        }
+      ]
+    }
+  ]
+}

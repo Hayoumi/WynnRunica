@@ -1,0 +1,917 @@
+{
+  "quest": "Purple and Blue",
+  "level": 77,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "purple-and-blue",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "W-Woah there, short nose! What are you doing, barging into my home?!",
+      "ru": "П-полегче, коротконосый! Ты зачем в мой дом врываешься?!",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Did Cinfras send you? Well, welcome to Lake Gylia! I could actually make use of some assistance.",
+      "ru": "Тебя из Синфраса прислали? Ну, добро пожаловать на озеро Гилия! Мне тут как раз не помешала бы помощь.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "The magic here in this place is so potent; you can actually see the mystical properties!",
+      "ru": "Магия тут настолько мощная, что её свойства можно буквально увидеть своими глазами!",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I've been a scientist for many years, but I have never seen anything like this lake.",
+      "ru": "Я уже много лет в науке, но такого озера ещё не встречал.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "That's why I set up a small laboratory and started living here to study the place. It's pretty rudimentary but it does the job done.",
+      "ru": "Поэтому я устроил здесь небольшую лабораторию и поселился рядом, чтобы изучать озеро. Всё довольно просто, но для работы хватает.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "The deeper into the lake you dive, the stronger the magical power becomes. I think something strange is happening at the heart of the lake. I believe a lot of answers lie inside.",
+      "ru": "Чем глубже ныряешь в озеро, тем сильнее становится магия. Думаю, в самом сердце озера творится что-то странное. И, похоже, там же лежит куча ответов.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Alright, that's enough context! You see, there's another... \"scientist\" across the lake. We're kind of rivals? The guy's awful, I hate him, AND... Well...",
+      "ru": "Ладно, хватит объяснений! На другом берегу живёт ещё один... \"учёный\". Мы вроде как соперники. Он невыносим, я его ненавижу, И... Ну...",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "He's been missing.",
+      "ru": "Он пропал.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "And while I somewhat hope he's gotten himself in trouble, he might've figured out something about the lake.",
+      "ru": "И хотя я отчасти надеюсь, что он сам влез в неприятности, он вполне мог раскопать что-то важное про озеро.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I suspect he's gone in to the heart of the lake... Come with me a moment, please.",
+      "ru": "Подозреваю, он полез в сердце озера... Пойдём со мной на минуту, пожалуйста.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Alright, this leads underwater where the heart is. How about you try and enter?",
+      "ru": "Вот, этот проход ведёт под воду, туда, где сердце. Попробуешь войти?",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "...just as I thought, you can't get in just like me. We'll need to gather more information.",
+      "ru": "...так и знал. Ты тоже не можешь пройти. Значит, нужно узнать больше.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Human, investigate Nikoler's house for me. It's north down the coast.",
+      "ru": "Человек, проверь для меня дом Николера. Он к северу вдоль берега.",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Where could he be... There's no way he found access to- Hey!",
+      "ru": "Да где его носит... Не может быть, чтобы он нашёл проход к- Эй!",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Don't just listen to me mumbling! Have you found Nikoler?!",
+      "ru": "Не стой и не слушай, как я тут себе под нос бормочу! Ты Николера нашёл?!",
+      "speaker": "Korun",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "There's a note here. You start reading it...",
+      "ru": "Тут лежит записка. Ты начинаешь читать...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "IMPORTANT NOTES: The map to the talisman is in the basement!! That fool Korun will never see all this coming.",
+      "ru": "ВАЖНЫЕ ЗАМЕТКИ: Карта к талисману в подвале!! Этот дурак Корун ни за что не догадается, что я задумал.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "If everything goes right, it should grant access to the heart of the mountain... I can't wait!",
+      "ru": "Если всё сработает как надо, это даст доступ к сердцу горы... Не могу дождаться!",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I needn't forget to input the total number of lit candles inside the house in order to get to the basement... That's why I made that tube! I'm so good at handling security!! No need for that blasted overpriced Corkian equipment!",
+      "ru": "Главное не забыть ввести общее число зажжённых свечей в доме, чтобы попасть в подвал... Поэтому я и сделал ту трубу! Я просто гений безопасности!! И без всякого этого проклятого дорогущего коркианского оборудования!",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "The stones should be in a few bags around here.",
+      "ru": "Камни должны лежать в нескольких мешках где-то тут.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "It looks like there are extra notes on the back. What should you do?",
+      "ru": "Похоже, сзади есть ещё записи. Что будешь делать?",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Leave, you have enough information",
+      "ru": "Уйти, информации уже хватает",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Read them",
+      "ru": "Прочитать",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You read what's behind the note...",
+      "ru": "Ты читаешь, что написано на обратной стороне...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I actually don't know if I'm making it out of this, but I absolutely have to find out what's inside the lake.",
+      "ru": "Вообще я не уверен, что выберусь оттуда, но я просто обязан узнать, что скрыто внутри озера.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "One part of me wants to bring Korun along. As much as we hate each other, it'd surely increase our chance of survival.",
+      "ru": "Всё-таки хочется взять Коруна с собой. Как бы мы ни ненавидели друг друга, вдвоём у нас куда больше шансов выжить.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "And, who knows, maybe the heart of the mountain is actually perfectly safe?",
+      "ru": "И кто знает, может, сердце горы вообще полностью безопасно?",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Though, I mustn't forget that three of the greatest minds of our time got lost to cosmic powers...",
+      "ru": "Хотя нельзя забывать, что три величайших ума нашего времени уже сгинули из-за космических сил...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "No matter what, if you really want to join me, I left you enough clues.",
+      "ru": "Как бы там ни было, если ты правда захочешь пойти за мной, я оставил тебе достаточно подсказок.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "See you later, Korun.",
+      "ru": "Увидимся позже, Корун.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "That's all there was.",
+      "ru": "Это всё.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "[+1 Gylia Treasure Map]",
+      "ru": "[+1 Gylia Treasure Map]",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "This map seems to lead to a particular location nearby...",
+      "ru": "Похоже, эта карта ведёт к какому-то месту неподалёку...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Some mechanisms can be heard... There's probably another lever to press.",
+      "ru": "Слышно, как где-то работают механизмы... Наверное, есть ещё один рычаг.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Upon touching the crystal, you notice a peculiar device...",
+      "ru": "Когда ты касаешься кристалла, замечаешь странное устройство...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "It begins to change shape!",
+      "ru": "Оно начинает менять форму!",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "The crystal finished forming something, you should retrieve it.",
+      "ru": "Кристалл что-то создал. Нужно это забрать.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "[+1 Cosmic Stone]",
+      "ru": "[+1 Cosmic Stone]",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Looks like you can leave this place now.",
+      "ru": "Похоже, теперь можно уходить отсюда.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "[+1 Impervious Talisman]",
+      "ru": "[+1 Impervious Talisman]",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Y-you've actually found a lead?! There was clues in his basement? And you found a... talisman? This must be it, then!",
+      "ru": "Т-ты и правда нашёл зацепку?! В его подвале были подсказки? И ты нашёл... талисман? Должно быть, это он!",
+      "speaker": "Korun",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "This might very well be the key to enter the heart, especially if it was as well-guarded with cosmic creatures as you say.",
+      "ru": "Вполне возможно, это и есть ключ ко входу в сердце, особенно если его и правда охраняли космические твари, как ты говоришь.",
+      "speaker": "Korun",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Alright then! This might be too dangerous for me, so I'm entrusting this task to you once more. Enter the tunnel in my basement, and explore as much as you can!",
+      "ru": "Тогда ладно! Для меня это уже может быть слишком опасно, так что я снова доверяю это тебе. Залезай в туннель в моём подвале и исследуй всё, что сможешь!",
+      "speaker": "Korun",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "If you can bring me samples of any kind, I'll try to reward you handsomely. However, if you find Nikoler alive... Please bring him back.",
+      "ru": "Если сможешь принести мне хоть какие-то образцы, я щедро отплачу. Но если найдёшь Николера живым... Пожалуйста, приведи его обратно.",
+      "speaker": "Korun",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "As for the talisman, make sure to hold it whilst in the tunnel. Be careful, you're in uncharted territory from now on.",
+      "ru": "Талисман обязательно держи в руке, пока идёшь по туннелю. Будь осторожен, дальше начинается неизведанная земля.",
+      "speaker": "Korun",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Good luck, human. Please bring me back Nikoler, or any sample you might find.",
+      "ru": "Удачи, человек. Пожалуйста, верни мне Николера. Ну или хотя бы какие-нибудь образцы.",
+      "speaker": "Korun",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "As Korun said, it's probably better to hold that talisman to traverse the tunnel...",
+      "ru": "Как и сказал Корун, талисман лучше держать в руке, пока идёшь через туннель...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "The drill should be ready by now... In just a little bit, I'll have single-handedly conquered the heart of the mountain...!",
+      "ru": "Бур уже должен быть готов... Ещё чуть-чуть, и я в одиночку покорю сердце горы...!",
+      "speaker": "???",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "A human!? W...What? Did you read the notes I left for Korun? I'll have you know that's theft!! I - you...!",
+      "ru": "Человек!? Ч-что? Ты читал записки, которые я оставил Коруну? Вообще-то это уже кража!! Я - ты...!",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Don't get any closer!! I'll destroy the path if I have to!!",
+      "ru": "Не подходи ближе!! Я и путь обрушу, если придётся!!",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "This is MY story! Don't you dare interfere!!",
+      "ru": "Это МОЯ история! Даже не смей лезть!!",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "You're... persistent. Are you trying to steal from these meteors I'VE found?! Do you have any idea how much research I did to get this far??",
+      "ru": "Ты... настырный. Хочешь что-то украсть из метеоров, КОТОРЫЕ НАШЁЛ Я?! Ты хоть представляешь, сколько исследований понадобилось, чтобы сюда добраться??",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "It's too late! I've already drilled a piece. Once I show Korun, I'll be known as the better researcher...",
+      "ru": "Слишком поздно! Я уже отколол кусок. Как только покажу его Коруну, все признают, что я лучший исследователь...",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Ah... how good this'll b-",
+      "ru": "Ах... вот это будет-",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "N-no!",
+      "ru": "Н-нет!",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "No no no no no no! This CAN'T be happening!",
+      "ru": "Нет нет нет нет нет нет! ЭТОГО НЕ МОЖЕТ БЫТЬ!",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Tampering with the meteors must be making the cave instable! I... I thought this'd happen and yet-",
+      "ru": "Должно быть, из-за того, что мы тронули метеоры, пещера начала рушиться! Я... Я знал, что так может случиться, и всё же-",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "This is all YOUR fault! Why'd you have to come and make me panic? We're both DOOMED!",
+      "ru": "Это всё ИЗ-ЗА ТЕБЯ! Ну зачем ты припёрся и заставил меня запаниковать? Мы оба ТРУПЫ!",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "No... I can't die here, I can't die now, what will he think...",
+      "ru": "Нет... Я не могу умереть здесь, не могу сейчас, что он тогда подумает...",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "I... We might have a shot at escaping... And then, human, I'll report you to the authorities!!",
+      "ru": "Я... У нас ещё может быть шанс выбраться... А потом, человек, я сдам тебя властям!!",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "I'm STUCK! Urgh... No... Not like this, please, not like this...",
+      "ru": "Я ЗАСТРЯЛ! Чёрт... Нет... Только не так, пожалуйста, только не так...",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "What should you do?",
+      "ru": "Что ты будешь делать?",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Save Nikoler",
+      "ru": "Спасти Николера",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Take the meteor shard",
+      "ru": "Забрать осколок метеора",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "[+1 Meteor Shard]",
+      "ru": "[+1 Meteor Shard]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Escape",
+      "ru": "Сбежать",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Time to hightail it out of here!",
+      "ru": "Пора уносить отсюда ноги!",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Rats! That dynamite went and backfired on us! Quick, try to run in to the rubble with me, we need to hurry!",
+      "ru": "Чёрт! Этот динамит всё только испортил! Быстро, беги вместе со мной к завалам! Надо спешить!",
+      "speaker": "Nikoler",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "AH-",
+      "ru": "АХ-",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Welcome back! I see you're completely drenched! How did things go? I assume you explored the place thoroughly.",
+      "ru": "С возвращением! Вижу, ты промок насквозь! Ну как всё прошло? Надеюсь, ты там всё как следует изучил.",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "YOU! Y-You're alive!!",
+      "ru": "ТЫ! Т-ты жив!!",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "...were you worrying about me? What a fool. This mountain could never do so much as scratch me!",
+      "ru": "...ты что, переживал за меня? Ну и дурак. Эта гора даже поцарапать меня не смогла бы!",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "This human right here actually saved me, right after endangering me. You don't mean to tell me you sent him for me?",
+      "ru": "Этот человек вообще-то спас меня, после того как сам же и подверг опасности. Только не говори, что ты реально послал его за мной?",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Well, it's very simple. Where's the fun in our rivalry if you just go off and die somewhere?",
+      "ru": "Ну, всё просто. Что за радость соперничать, если ты возьмёшь и где-нибудь помрёшь?",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "That aside, what did you find in there? What happened?",
+      "ru": "Но ладно, что вы там нашли? Что вообще случилось?",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "I found them, Korun. I found the meteors! The still seemed potent somehow, but the cave collapsed and...",
+      "ru": "Я нашёл их, Корун. Я нашёл метеоры! В них всё ещё оставалась сила, но потом пещера обрушилась и...",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "That's... fine. We can always go back and try clearing the rubble. There's always opportunities to take a hold of. Next time, please don't just go off on your own!",
+      "ru": "Это... ничего страшного. Ещё можно вернуться и попробовать разобрать завалы. Возможности будут. Но в следующий раз, пожалуйста, не уходи один!",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Human, you made the right choice... Without Nikoler, our efforts would have been in vain. I'll try to work with him a bit more, as it seems the logical course of action now. Thank you.",
+      "ru": "Человек, ты сделал правильный выбор... Без Николера все наши старания пропали бы даром. Пожалуй, стоит попробовать работать вместе с ним. Сейчас это самое разумное решение. Спасибо.",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "H-Hey! I never agreed to-",
+      "ru": "Э-Эй! Я вообще на такое не согла-",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "The meteor shard begins to shake...",
+      "ru": "Осколок метеора начинает дрожать...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "I see you're completely drenched! There's this odd aura around you... What happened?",
+      "ru": "Вижу, ты промок насквозь! И от тебя какая-то странная аура идёт... Что там случилось?",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Yes",
+      "ru": "Да",
+      "speaker": "CHOICE",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "No",
+      "ru": "Нет",
+      "speaker": "CHOICE",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "I see you're completely drenched, so I suppose you thoroughly explored the place. How did it go?",
+      "ru": "Вижу, ты промок насквозь. Значит, всё как следует изучил. Ну как прошло?",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "You found... Nothing? Really? And the meteors were too unstable to temper with?",
+      "ru": "Ты нашёл... ничего? Серьёзно? И метеоры были слишком нестабильны, чтобы к ним лезть?",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Actually, how would you know about tempering with the- wait...",
+      "ru": "Погоди, а откуда ты вообще знаешь про возню с метеорами... стоп...",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Did you find him? Please... please tell me you found him, there's no way he'd die just like that. I...",
+      "ru": "Ты нашёл его? Пожалуйста... пожалуйста, скажи, что нашёл. Не может быть, чтобы он вот так просто умер. Я...",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "W-what? The whole cave COLLAPSED on him? And you couldn't even save him?! N-no, it can't be your fault, I... I'm sorry.",
+      "ru": "Ч-что? На него ОБРУШИЛАСЬ вся пещера? И ты даже не смог его спасти?! Н-нет, это не может быть твоей виной, я... Прости.",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "This is all way too much to take in for me, but I suppose you've explored and served the purpose I gave you.",
+      "ru": "Мне трудно всё это осмыслить. Но ты, полагаю, исследовал пещеру и выполнил моё поручение.",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Here's your reward, then. Now please, just leave me be. There's a lot I have to think about.",
+      "ru": "Вот твоя награда. А теперь, пожалуйста, оставь меня одного. Мне надо многое обдумать.",
+      "speaker": "Korun",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "It's you! Glad to have crossed paths again!",
+      "ru": "Это ты! Рад снова встретиться!",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Since the incident, I've decided to start fishing as a hobby.",
+      "ru": "После того случая я увлёкся рыбалкой.",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Take this- for all I care, you can own this!",
+      "ru": "На, держи - забирай это хоть насовсем, мне без разницы!",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Nikoler hands you a crate of fish...",
+      "ru": "Николер вручает тебе ящик рыбы...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "[+24 Gylia Meat (Tier 1)]",
+      "ru": "[+24 Gylia Meat (Tier 1)]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "[+4 Gylia Meat (Tier 3)]",
+      "ru": "[+4 Gylia Meat (Tier 3)]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "[+4 Emerald Blocks]",
+      "ru": "[+4 изумрудных блока]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Thank you... for saving me.",
+      "ru": "Спасибо тебе... за то, что спас меня.",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Check up on Korun from time to time for me, will you?",
+      "ru": "Заглядывай иногда к Коруну, ладно? Ради меня.",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "I'm still taking a break from all the science stuff... But he definitely hasn't seen the last of me!",
+      "ru": "Я пока отдыхаю от науки... Но Корун от меня ещё не отделался!",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "After all, I'm the one who got to the heart of the mountain! I'm even able to sleep soundly knowing that I've won...",
+      "ru": "В конце концов, именно я добрался до сердца горы! И сплю я теперь спокойно, потому что знаю, что победил...",
+      "speaker": "Nikoler",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "You search the chest...",
+      "ru": "Ты обыскиваешь сундук...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "[+3 Emerald Blocks]",
+      "ru": "[+3 изумрудных блока]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "[+12 Nii Runes]",
+      "ru": "[+12 Nii Runes]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "[+4 Uth Runes]",
+      "ru": "[+4 Uth Runes]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "[+10 Magicule Samples]",
+      "ru": "[+10 Magicule Samples]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "[+5 Gylia Essences]",
+      "ru": "[+5 Gylia Essences]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "[+3 Astral Alloys]",
+      "ru": "[+3 Astral Alloys]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "New Quest Started: Purple and Blue",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Фиолетовый и синий",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "[Nikoler will be freed from the rubble.]",
+      "ru": "[Николера освободят из-под завала.]",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "You... Why? You came to get me? Not the... meteors?",
+      "ru": "Ты... Зачем? Ты пришёл за мной? А не за... метеорами?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "I... Fine then. Let's make a run for it, human!",
+      "ru": "Я... Ладно. Тогда бежим отсюда, человек!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "You... You actually found a meteor shard! That's amazing! That's... that's... um...",
+      "ru": "Ты... Ты правда нашёл осколок метеора! Это потрясающе! Это... это... эм...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Uh, what did you say j-just now? The cave collapsed and Nikoler d-died...?",
+      "ru": "Эм, что ты т-только что сказал? Пещера обвалилась, и Николер п-погиб...?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "That's, um, haha... That doesn't sound right, he can't die, he can't leave like that, he can't-",
+      "ru": "Это, эм, ха-ха... Как-то не верится. Он не может умереть, не может вот так уйти, не может-",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "S-Sorry. I'm just a little shocked is all. I do have to thank you for the shard...",
+      "ru": "И-извини. Я просто немного в шоке, вот и всё. За осколок я тебя всё же должен поблагодарить...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "A-at the very least, you saw this through... I have to commend you for that... I think.",
+      "ru": "П-по крайней мере, ты довёл дело до конца... За это тебя стоит похвалить... наверное.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Just take these, and go. I have much to think about.",
+      "ru": "Просто возьми это и иди. Мне есть о чём подумать.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "You explored thoroughly, and couldn't find a shard? Well, we still have much to discover I suppose.",
+      "ru": "Ты всё как следует изучил, а осколка не нашёл? Что ж, значит, нам ещё многое предстоит открыть.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Uh, what did you say j-just now? The cave collapsed and Nikoler d-died..?",
+      "ru": "Эм, что ты т-только что сказал? Пещера обвалилась, и Николер п-погиб..?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "S-Sorry. I'm just a little shocked is all. And you came back empty-handed... This was just a loss with everyone involved.",
+      "ru": "И-извини. Я просто немного в шоке, вот и всё. И ты вернулся ни с чем... Тут все остались в проигрыше.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Korun near Lake Gylia at [-236, 34, -5224].",
+      "ru": "Поговорить с Коруном возле озера Гилия [-236, 34, -5224].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Investigate Nikoler's house for clues at [-163, 29, -5388].",
+      "ru": "Осмотреть дом Николера в поисках зацепок [-163, 29, -5388].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Follow the hints in the cellar to the mysterious cave.",
+      "ru": "Следовать подсказкам в погребе к загадочной пещере.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Enter and explore the mysterious cave at [-286, 30, -5296].",
+      "ru": "Войти в загадочную пещеру и исследовать её [-286, 30, -5296].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Return to Korun in his home at [-236, 34, -5224].",
+      "ru": "Вернуться к Коруну в его дом [-236, 34, -5224].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Enter the heart of Gylia from under the lake.",
+      "ru": "Войти в Сердце Гилии из-под озера.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Explore the Heart of Gylia.",
+      "ru": "Исследовать Сердце Гилии.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Escape the Heart of Gylia.",
+      "ru": "Выбраться из Сердца Гилии.",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": [
+    {
+      "en": "Tell Korun about the meteor shard?",
+      "ru": "Рассказать Коруну об осколке метеора?",
+      "stage": "Stage 8",
+      "dialogueId": "dialogue-0108",
+      "id": "choice-0001"
+    }
+  ]
+}

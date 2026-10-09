@@ -1,0 +1,415 @@
+{
+  "quest": "Tempo Town Trouble",
+  "level": 25,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "tempo-town-trouble",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hey, excuse me! I'm in need of- ...yeah, just walk right by me. Maybe I shoulda gone to Detlas for help, these people here have enough problems...",
+      "ru": "Эй, извини! Мне бы нужна- ...ага, просто проходи мимо. Может, стоило пойти за помощью в Детлас? У местных и без меня проблем хватает...",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Don't suppose you'd be willing to help, huh? Bet you're busy- Wait, you've got spare time? Criminy, only took a week of asking! Good to meet ya.",
+      "ru": "Не хочешь, случаем, помочь, а? Наверняка занят- Стоп, у тебя есть время? Вот это да, всего-то неделю пришлось просить! Рад знакомству.",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Alright, My name is Tyko, and I got asked to find a capable soldier for- well, lemme explain. So, I'm from a place called Tempo Town, by Time Valley. It's a recent establishment.",
+      "ru": "Ладно, меня зовут Тайко, и меня попросили найти толкового солдата для- Впрочем, сейчас объясню. Я из Темпо-Тауна, что рядом с Долиной Времени. Поселение совсем новое.",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I'm buddies with the mayor- he set up Tempo Town as kind of a homeless shelter for people whose homes got ruined by corrupted attacks, since Time Valley doesn't seem corrupted.",
+      "ru": "Я дружу с мэром. Он основал Темпо-Таун, чтобы дать приют людям, чьи дома разрушили заражённые. В самой Долине Времени, похоже, Порчи нет.",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Some old guy with jaundice or something swings by, some kind of keeper- Says to set up on a ridge overlooking a lake. So, we did! Everything was going well for a bit.",
+      "ru": "Заглянул к нам какой-то старик, весь жёлтый, будто с желтухой. Вроде как хранитель. Велел селиться на гребне холма над озером. Ну мы и поселились! Сначала всё шло хорошо.",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "And then some freaky time monster starts showing up in the middle of the night and tries to bust down our doors! We were told that ridge was safe, but that was clearly a lie.",
+      "ru": "А потом среди ночи стал появляться жуткий временной монстр и ломиться в наши двери! Нам сказали, что на том холме безопасно, но это явно было враньё.",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "So, that's why I'm here. No one at Tempo Town is tough enough to kill that thing, so I ran over here to ask for some backup. Glad I ran into ya!",
+      "ru": "Вот поэтому я здесь. В Темпо-Тауне никто не может одолеть эту тварь, так что я прибежал сюда за подмогой. Хорошо, что тебя встретил!",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Lemme write down the coordinates for ya in your book. I'm gonna stick around and see if anyone else feels like helping.",
+      "ru": "Давай запишу тебе координаты в книгу. А сам пока останусь здесь. Вдруг ещё кто-нибудь захочет помочь.",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "The coordinates to where you need to go should be in your book. Help us out, yeah?",
+      "ru": "Координаты нужного места должны быть у тебя в книжке. Поможешь нам, да?",
+      "speaker": "Tyko",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Hello- Welcome to Tempo Town, friend! Established only two months ago, I'm proud to provide aid to those displaced by corrupted raids.",
+      "ru": "Здравствуй! Добро пожаловать в Темпо-Таун, друг! Поселению всего два месяца. Я горжусь тем, что могу дать приют людям, потерявшим дома из-за набегов заражённых.",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Come to think of it, you look like a Ragni representative... Can I bother you to deliver some paperwork to the castle about getting officially established here?",
+      "ru": "Кстати, ты похож на представителя Рагни... Не мог бы ты передать в замок бумаги? Хотим добиться официального признания нашего поселения.",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "...Repeat that? ...OH! Oh, no wonder you- Agh, my mind's all over the place from stress, I'm so relieved he found help finally!",
+      "ru": "...Повтори-ка? ...А! Вот почему ты- Ох, от тревог у меня голова кругом. Как же я рад, что он наконец нашёл помощь!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Alright, Tyko told you about the monster, right? We were told by that old man Martyn to settle on this ridge because there weren't any dangerous creatures here!",
+      "ru": "Так, Тайко ведь рассказал тебе про монстра? Старик Мартин посоветовал нам селиться на этом холме. Уверял, что опасных существ здесь нет!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Oh, not that kind of soldier? That's too bad... But- oh, this is a shot in the dark, but... maybe you'd be the type of soldier to take out a monster for us?",
+      "ru": "А, ты не по этой части?.. Жаль... Но- Я, конечно, надеюсь на удачу, но... может, ты сможешь убить монстра, который нам досаждает?",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "You- you would!? Oh, thank goodness you arrived when you did! You see- we were told by that old man Martyn to settle on this ridge because there apparently weren't any dangerous creatures here!",
+      "ru": "Т-ты согласен!? Ох, какое счастье, что ты пришёл именно сейчас! Понимаешь, старик Мартин посоветовал нам селиться на этом холме. Сказал, что опасных существ здесь вроде бы нет!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "But every night, the same monster emerges from one of the ruins, and tries to smash the buildings down! Every single night, at the same time!",
+      "ru": "Но каждую ночь одна и та же тварь выходит из руин и пытается разнести наши дома! Каждую ночь, в одно и то же время!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "The guards are getting run ragged, and I refuse to be responsible for any deaths when I'm trying to save these folks!",
+      "ru": "Стража уже выбилась из сил. Я пытаюсь спасти этих людей и не допущу, чтобы по моей вине кто-то погиб!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "We found the ruin it came out of, too- Er, one of the folks here, Doug, did! Here, let me write down the location for you- no, no, I insist, let me do it!",
+      "ru": "Мы даже нашли руины, откуда она выходит. Точнее, их нашёл один из местных, Даг! Давай запишу тебе, где они находятся. Нет-нет, я сам, настаиваю!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "There's the coordinates in case you forget, but it's in the temple just up the hill! Please, please hurry and take care of that horrible monster!",
+      "ru": "Вот координаты, если забудешь. Это храм на вершине холма! Пожалуйста, пожалуйста, поспеши и разберись с этим жутким монстром!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "The coordinates are in your book, but it's in the temple just up the hill! Please, please hurry and take care of that horrible monster!",
+      "ru": "Координаты у тебя в книге. Это храм на вершине холма! Пожалуйста, пожалуйста, поспеши и разберись с этим жутким монстром!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Grr... I KNOW I saw that beast go in here, where the heck is it?!",
+      "ru": "Грр... Я ТОЧНО видел, как эта тварь зашла сюда, да где она вообще?!",
+      "speaker": "Scout",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Hey soldier, does that disk look like some type of door to you?",
+      "ru": "Эй, солдат, тебе этот диск не кажется какой-то дверью?",
+      "speaker": "Scout",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "I saw some creature that I've been tracking for a few days disappear around here, and I think it's somewhere behind this disk...",
+      "ru": "Я тут несколько дней выслеживал одну тварь, и она пропала где-то здесь. Думаю, она за этим диском...",
+      "speaker": "Scout",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "There's probably some kind of wacky magic keeping it shut, since I can't get it open at all!",
+      "ru": "Наверное, его запечатали какой-то странной магией. Я никак не могу его открыть!",
+      "speaker": "Scout",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Hey, you're able to use magic, right? Maybe using one of your fancy spells on the disk will get it open?",
+      "ru": "Эй, ты ж магией умеешь пользоваться, да? Может, если шарахнуть по диску каким-нибудь своим заклинанием, он откроется?",
+      "speaker": "Scout",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Stand on the disk and cast any spell. That should probably get it open, then we can finally kill that freak of nature lurking inside of there!",
+      "ru": "Встань на диск и примени любое заклинание. Наверное, он откроется, и мы наконец-то сможем убить чудовище, что прячется внутри!",
+      "speaker": "Scout",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Let's see... What kind of secrets do these odd temples house?",
+      "ru": "Ну-ка посмотрим... Какие ещё секреты прячут эти странные храмы?",
+      "speaker": "Scout",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "What was going through your noggin, <playername>?",
+      "ru": "О чём ты вообще думал, <playername>?",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Do you have any idea what you were doing? Bashing around that room I just sealed off for good?",
+      "ru": "Ты хоть понимаешь, что делал? Громил комнату, которую я только что запечатал раз и навсегда?",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "You need to be careful, soldier! This Valley's secrets are NOT to be meddled with.",
+      "ru": "Тебе надо быть осторожнее, солдат! В тайны этой долины лезть НЕЛЬЗЯ.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "I assume the mayor of that place called Tempo Town sent you here. You are going to have to tell that lad that his problems just got worse.",
+      "ru": "Полагаю, тебя прислал мэр поселения под названием Темпо-Таун. Придётся сказать ему, что его проблемы только что стали ещё хуже.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "The monster you killed was known as a Time Trouble. They're odd creatures that were forced into a day-long temporal loop by some fools long ago.",
+      "ru": "Тварь, которую ты убил, называлась Временной проблемой. Это странные существа, которых какие-то идиоты много лет назад загнали в однодневную временную петлю.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "The only way to keep them at bay effectively is to seal them, like I just did here. But now, that stunt you just pulled sent ripples across the entire Valley. Now, every single Time Trouble is responding to this one's termination!",
+      "ru": "Надёжно сдерживать их можно только печатями. Именно это я здесь и сделал. Но твоя выходка отозвалась по всей долине. Теперь все Временные проблемы откликаются на гибель этой!",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Now, one Time Trouble I can handle, but this? I can't keep them all at bay... and now, you went and awakened every single one of those critters.",
+      "ru": "С одной Временной проблемой я справлюсь, но с этим?.. Всех мне не сдержать... А ты разбудил их всех до единой.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "I can fix this seal, so you'll have one less to deal with, but the rest of the Troubles will have to be taken down daily with brute force.",
+      "ru": "Эту печать я могу восстановить, так что одним чудовищем будет меньше. Но остальных Временных проблем придётся каждый день уничтожать силой.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "You're going to have to deal with those, soldier. I have far too much to take care of in this valley.",
+      "ru": "Разбираться с ними теперь придётся тебе, солдат. У меня и так тут в долине дел по горло.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "They'll have to be exterminated every single day. Now, I'm sure the work won't be thankless, perhaps you'll be rewarded by the townsfolk of Tempo Town for taking care of them.",
+      "ru": "Их придётся истреблять каждый день. Уверен, твой труд не останется без благодарности. Возможно, жители Темпо-Тауна будут вознаграждать тебя за помощь.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Now please, be careful in the Valley. I already have to look after one person, nevermind the mess of time that the Olm were so-",
+      "ru": "А теперь, пожалуйста, будь осторожен в долине. Мне и так уже приходится присматривать за одним человеком, не говоря уж о той временной каше, которую Олмы так-",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "...I digress, I'm just rambling again. Now, let me bring us back outside this temple, and you should head back to that shanty town.",
+      "ru": "...Впрочем, я опять заболтался. Сейчас выведу нас из храма, а ты возвращайся в тот городок лачуг.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "You're back! I heard some kind of weird chime coming from the temple on the hill- is that a good sign?",
+      "ru": "Ты вернулся! Я слышал какой-то странный звон из храма на холме - это хороший знак?",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "You did?! Oh, thank goodness... Honestly, Martyn told us he would deal with it, but then he just disappeared off into nowhere!",
+      "ru": "Ты справился?! Ну слава богу... Мартин обещал сам разобраться, но потом просто куда-то исчез!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Oh, he actually showed his face after you took care of that thing? What, did you beat him to the punch or something?",
+      "ru": "Он всё-таки объявился, когда ты уже разобрался с той тварью? Ты его опередил, что ли?",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Wait... What? He was... trying to seal the thing away, instead of killing it, and... you destroying it broke the seal?",
+      "ru": "Погоди... Что? Он... пытался запечатать эту штуку, а не убить, и... ты, получается, сломал печать, когда уничтожил её?",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "And now there's more of them? Why didn't he just tell us?! Now they'll need to be stopped every day to keep them in check!!",
+      "ru": "И теперь их стало больше? Почему же он нам не сказал?! Теперь их придётся сдерживать каждый день!!",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Gah, this is a disaster... It isn't your fault, you didn't know- Wait, what's that boxy thing you have? A [Time Fragment]? ...oh, so the monster dropped it.",
+      "ru": "Ох, это катастрофа... Ты не виноват, ты же не знал- Стоп, что это у тебя за коробочка? [Фрагмент времени]? ...А, он остался после монстра.",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Interesting... One of the townsfolk likes to collect those sorts of things! He's that Mysterious Merchant just behind me.",
+      "ru": "Интересно... Один из наших как раз собирает такие вещи! Вон тот Таинственный торговец за моей спиной.",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Go talk with him about those! He might give you something worth your while if you trade them with him.",
+      "ru": "Поговори с ним об этих фрагментах! Возможно, в обмен на них он предложит тебе что-нибудь ценное.",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "...also, while you were away, that strange magic stone up on the hill started glowing. We're not sure what to do with it, really! Might be worth your attention.",
+      "ru": "...и ещё, пока тебя не было, тот странный магический камень на холме начал светиться. Мы вообще не знаем, что с ним делать! Может, тебе стоит на него глянуть.",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "...though, this is a bit awkward- I don't have a reward ready for you. Making this place took a lot of money... Hopefully gratitude is enough- thank you, sincerely!",
+      "ru": "...правда, тут немного неловко - награды у меня для тебя не заготовлено. На постройку этого места ушла куча денег... Надеюсь, одной благодарности хватит - спасибо тебе, правда.",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Heya! Heard from the mayor that you helped out the town! Can't thank you enough for that.",
+      "ru": "Привет! Мэр рассказал, что ты помог городу! Даже не знаю, как тебя отблагодарить.",
+      "speaker": "Tyko",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Oh hey, it's you! I hope you've been keeping those Time Troubles at bay.",
+      "ru": "О, это ты! Надеюсь, тебе удаётся сдерживать Временные проблемы.",
+      "speaker": "Homeless Mayor",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Oh, hey! I hope that monster wasn't too difficult for you to defeat.",
+      "ru": "О, привет! Надеюсь, та тварь не слишком тяжело тебе далась.",
+      "speaker": "Scout",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "New Quest Started: Tempo Town Trouble",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Неприятности в Темпо-Тауне",
+      "speaker": "",
+      "stage": "Stage 5"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Tyko at [87, 39, -2199]",
+      "ru": "Поговорить с Тайко [87, 39, -2199].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Go to Tempo Town at [-298, 46, -1147]",
+      "ru": "Отправиться в Темпо-Таун [-298, 46, -1147].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Investigate the ruin at [-305, 73, -1231]",
+      "ru": "Осмотреть руины [-305, 73, -1231].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Use spells to break open the temple at [-305, 73, -1231]",
+      "ru": "Открыть вход в храм с помощью заклинаний [-305, 73, -1231].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Report back to the mayor in Tempo Town at [-298, 46, -1147]",
+      "ru": "Вернуться к мэру Темпо-Тауна [-298, 46, -1147].",
+      "stage": "Stage 5"
+    }
+  ],
+  "choices": []
+}

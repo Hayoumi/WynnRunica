@@ -1,0 +1,1493 @@
+{
+  "quest": "The Feathers Fly Part I",
+  "level": 91,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-feathers-fly-part-i",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh?! Hold on, is anyone there..!",
+      "ru": "О?! Постойте, здесь кто-то есть...?!",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Why hello there! Whatcha doin' here? I'm Ava!",
+      "ru": "О, приветик! Ты чего тут делаешь? Я Ава!",
+      "speaker": "Ava",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Want a quick job? How 'bout helpin' me out?! That was perfect timing!",
+      "ru": "Хочешь немного подзаработать? Поможешь мне?! Ты как раз вовремя!",
+      "speaker": "Ava",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Y'see, while the other Avos hate it, I just find electromagic so fascinating!",
+      "ru": "Понимаешь, остальные авосы электромагию терпеть не могут, а мне она ужасно интересна!",
+      "speaker": "Ava",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Look, I think I got a breakthrough invention. If it works... Oh man...",
+      "ru": "Слушай, кажется, я придумала что-то совершенно новое. Если это сработает... Ох...",
+      "speaker": "Ava",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I just need to harness some nature magic, and there's an amazing source in the chief's hut. Ya comin'?",
+      "ru": "Мне нужно лишь немного магии природы, а в хижине вождя есть прекрасный источник. Идёшь?",
+      "speaker": "Ava",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Don't you worry about rewards! I got you! See ya' there!",
+      "ru": "О награде не беспокойся! Я тебя не обижу! Увидимся там!",
+      "speaker": "Ava",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Hey! You showed up! Listen up, here's the plan...",
+      "ru": "О! Пришёл! Слушай, план такой...",
+      "speaker": "Ava",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "There's a small museum inside the hut with all kinds of trophies.",
+      "ru": "Внутри хижины есть маленький музей с кучей всяких трофеев.",
+      "speaker": "Ava",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Our chief is quite the talkative fella, and I can guarantee he'd love to tell you stories.",
+      "ru": "Наш вождь тот ещё болтун, зуб даю, он с радостью начнёт травить тебе истории.",
+      "speaker": "Ava",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "That should keep him and his guards busy. And that's where I come in!",
+      "ru": "Это займёт и его, и охрану. А вот тут в дело вступаю я!",
+      "speaker": "Ava",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "I'll take that chance to sneak behind the throne, where our sacred totem is. I'm not stealing it, don't worry!",
+      "ru": "Я воспользуюсь случаем и прошмыгну за трон, к нашему священному тотему. Не волнуйся, красть его я не собираюсь!",
+      "speaker": "Ava",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "I'm a little clumsy, but I'm sure I can count on ya'! No matter what, keep the chief busy!",
+      "ru": "Я немного неуклюжая, но уверена, что на тебя можно положиться! Что бы ни случилось, отвлекай вождя!",
+      "speaker": "Ava",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Greetings, human. Welcome back.",
+      "ru": "Приветствую, человек. Снова пожаловал.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "So, what brings you here, hm?",
+      "ru": "И что привело тебя сюда, м?",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Oh, you want to learn more about us... Of course, of course!",
+      "ru": "О, хочешь узнать о нас побольше... Ну конечно, конечно!",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "We have a room where I can show you some of our history.",
+      "ru": "У нас есть комната, где я могу показать тебе часть нашей истории.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "You're in luck, I'm in a good mood. Follow me then.",
+      "ru": "Тебе повезло, я сегодня в хорошем настроении. Тогда иди за мной.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Gah! What are you doing?!",
+      "ru": "Ай! Ты чего творишь?!",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "It's alright, these books aren't important... Be careful though.",
+      "ru": "Ладно, ничего, эти книги не особо важны... Но всё же поаккуратнее.",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Ah, our wisteria tree! Yes...",
+      "ru": "А, наша глициния! Да...",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "It's one of a kind! We planted it eons ago. It has never ever grown an inch. Or moved.",
+      "ru": "Она единственная в своём роде! Мы посадили её целую вечность назад. С тех пор она ни на дюйм не выросла. И вообще не сдвинулась.",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Never died or anything either. For all we know, it might predate your corruption too!",
+      "ru": "И не погибла, между прочим. Кто знает, может, она даже старше вашей Порчи!",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Oh, this is quite the important tome.",
+      "ru": "О, а вот это очень важный том.",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "This book has a signature from all Avos chiefs ever since we discovered ink!",
+      "ru": "В этой книге есть подписи всех вождей авосов с тех самых времён, как мы открыли чернила!",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Right, the feathery crate!",
+      "ru": "А, ящик с перьями!",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "It's a custom for every Avos chief to keep their feathers somewhere. I guess I left that here.",
+      "ru": "У каждого вождя авосов есть обычай где-то хранить свои перья. Видимо, я оставил их тут.",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "And here's some important history!",
+      "ru": "А вот тут у нас важная история!",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Though, we don't really have the time to sit down and read all of it, do we?",
+      "ru": "Хотя у нас вряд ли найдётся время сесть и прочитать всё это, верно?",
+      "speaker": "Avos Chief",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "What was that?! I'll check.",
+      "ru": "Что это было?! Сейчас проверю.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Someone broke in? But why? Anyone can use our totem...",
+      "ru": "Кто-то влез? Но зачем? Нашим тотемом и так может пользоваться любой...",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "I don't get it. They could've just asked...",
+      "ru": "Не понимаю. Могли бы просто попросить...",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Oh, hey! Thanks for earlier. You were a big help.",
+      "ru": "О, привет! Спасибо за помощь. Ты меня очень выручил.",
+      "speaker": "Ava",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Truth is, anyone can use that totem. They just don't like me very much.",
+      "ru": "На самом деле тотемом может пользоваться кто угодно. Просто меня тут не слишком любят.",
+      "speaker": "Ava",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Anyway, we got what we needed, and it's promising! Now onto the next part...",
+      "ru": "Но ладно, мы добыли что надо, и выглядит всё обнадёживающе! Теперь к следующей части...",
+      "speaker": "Ava",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Y'see, I managed to bottle up some of our magic, but I still need corkian stuff.",
+      "ru": "Понимаешь, я собрала немного нашей магии в бутылёк, но мне ещё кое-что нужно от коркианцев.",
+      "speaker": "Ava",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Fortunately for us, there's a shop outside the city. Though, things might get complicated...",
+      "ru": "К счастью, за городом есть магазин. Правда, тут могут возникнуть сложности...",
+      "speaker": "Ava",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "A bunch of Corkians aren't too fond of... Us. I just think you should come along with me, y'know?",
+      "ru": "Некоторые коркианцы не особо любят... нас. Так что, думаю, тебе лучше пойти со мной, ну ты понял?",
+      "speaker": "Ava",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Here, I wrote the coords into that book of yours. It's a bit far, so come on out and I'll give you a lift!",
+      "ru": "Вот, я записала координаты в твою книжку. Топать далековато, так что выходи наружу, я тебя подброшу!",
+      "speaker": "Ava",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Alright, if you want a lift, tell me, or you could just walk!",
+      "ru": "Если хочешь, чтобы я тебя подбросила, скажи. А можешь и пешком пойти!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Not sure why you'd do that when I'm right here though!",
+      "ru": "Правда, не понимаю, зачем тебе пешком, когда я вот тут стою!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Alright, buckle up, we're taking off!",
+      "ru": "Ну всё, держись крепче, взлетаем!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Still holding on? We're almost there!",
+      "ru": "Ещё держишься? Уже почти прилетели!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Here we are! Enjoyed the lift? I'm a great form of fast travel, right?!",
+      "ru": "Ну вот мы и на месте! Как тебе полёт? Со мной быстро добираться, правда?!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Well, this was my first time using this magic magnet on people, but...",
+      "ru": "Вообще-то я впервые использовала этот магический магнит на людях, но...",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "This is the shop! I think we can buy an Enhanced Potential Microchip here.",
+      "ru": "Вот этот магазин! Думаю, здесь можно купить улучшенный микрочип потенциала.",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I need you to accompany me.",
+      "ru": "Мне надо, чтобы ты пошёл со мной.",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "If I'm with a human, surely they'll sell one, right?",
+      "ru": "Если я буду с человеком, они же точно продадут его, да?",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "You go first, I'll follow you.",
+      "ru": "Ты заходи первым, а я следом.",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Or I guess you could just leave, that's cool too...",
+      "ru": "Ну или можешь просто свалить, тоже вариант...",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Ah, finally! I could've taken you there y'know!",
+      "ru": "А, наконец-то! Я ведь могла тебя туда подбросить!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Honestly, I just wanted to test something on you... Oh well!",
+      "ru": "Если честно, я просто хотела кое-что на тебе испытать... Ну да ладно!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Hmpf. What are you doing in here, Avo?!",
+      "ru": "Хмпф. Что ты тут забыла, аво?!",
+      "speaker": "Shopkeeper",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Hmph...",
+      "ru": "Хм...",
+      "speaker": "Shopkeeper",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "So-uh, I was, y'know, wonderin' if you had any-",
+      "ru": "Ну-э... Я тут хотела спросить, нет ли у вас-",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "So-uh, I was wonderin'...",
+      "ru": "Ну-э... Я хотела спросить...",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Huh?!",
+      "ru": "А?!",
+      "speaker": "Shopkeeper",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "There's NO WAY I'm selling anythin' to an Avo! Shoo! Get out!",
+      "ru": "Я НИ ЗА ЧТО ничего не продам какому-то аво! Кыш отсюда! Вон!",
+      "speaker": "Shopkeeper",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "But...!",
+      "ru": "Но...!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "'Shopkeeper: OUT!'",
+      "ru": "\"Торговец: ВОН!\"",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "I... can't believe this.",
+      "ru": "Я... не могу в это поверить.",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "I am NOT giving up! To hell with all this!",
+      "ru": "Я НЕ собираюсь сдаваться! Да к чёрту всё это!",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Here, go in yourself and ask. I'll cover the cost later.",
+      "ru": "Давай, зайди сам и спроси. Я потом всё оплачу.",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "I'll stand back. CLEARLY this guy is too STUCK up to- Ugh, I'm getting angry! Just go in again.",
+      "ru": "Я постою подальше. ЯСНО же, что этот тип слишком ЗАНОСЧИВЫЙ, чтобы- Уф, я уже злюсь! Просто зайди ещё раз.",
+      "speaker": "Ava",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Huh?! I made myself clear! You were with her!",
+      "ru": "А?! Я же ясно сказал! Ты был с ней!",
+      "speaker": "Shopkeeper",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "I'm closing for today, I cannot stand this! OUT!!",
+      "ru": "Я на сегодня закрываюсь, с меня хватит! ВОН!!",
+      "speaker": "Shopkeeper",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Oh, and don't even think about even approaching MY shop!",
+      "ru": "И даже не думай больше подходить к МОЕМУ магазину!",
+      "speaker": "Shopkeeper",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "So you did come back! Hang tight!",
+      "ru": "Так ты всё-таки вернулся! Подожди немного!",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Look, we need a plan. Talk to me.",
+      "ru": "Слушай, нам нужен план. Поговори со мной.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Urgh, this guy's nuts. Hmm...",
+      "ru": "Уф, этот тип вообще псих. Хмм...",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "I'm... surprised he kicked you out, too. Maybe he's a patriot?",
+      "ru": "Я... удивлена, что он и тебя выгнал. Может, он патриот?",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Well, anyway, we need a plan. I don't wanna wait this out.",
+      "ru": "Ладно, в любом случае нужен план. Я не хочу просто сидеть и ждать.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Look, this guy has to have a control panel somewhere. Maybe we can neutralize the robots.",
+      "ru": "Слушай, у этого типа где-то должна быть панель управления. Может, сможем вырубить роботов.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "That stuff hates water, y'know? So I'll go fetch some in the meantime.",
+      "ru": "Эта техника воду терпеть не может, если что. Так что я пока схожу за водой.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "I'd like to NOT get zapped by a forcefield, so I'll sneak inside once we're done with that.",
+      "ru": "Я бы НЕ хотела получить разряд от силового поля, так что проберусь внутрь, когда мы с этим разберёмся.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Got it? Find the control panel. It should be somewhere around the house. Talk to me once you're ready.",
+      "ru": "Понял? Найди панель управления. Она должна быть где-то вокруг дома. Как будешь готов, поговори со мной.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Good luck, then! I'll be back once you find the control panel!",
+      "ru": "Ну тогда удачи! Я вернусь, когда найдёшь панель!",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Here we are! Good job! Alright, let's see...",
+      "ru": "Ну вот! Хорошая работа! Так, давай глянем...",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Wait... Why are there... Buttons... Everywhere??",
+      "ru": "Погоди... Почему тут... кнопки... ВЕЗДЕ??",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "I feel like soaking everything would be quite the mistake.",
+      "ru": "Мне кажется, залить тут всё водой было бы большой ошибкой.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "And none of them are labelled! What is that?!",
+      "ru": "И ни одна не подписана! Это что вообще такое?!",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Look, your choice. What should we neutralize first?",
+      "ru": "Короче, выбирай ты. Что вырубаем первым?",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Left, huh? Well, let's see how that goes.",
+      "ru": "Левую, значит? Ну, сейчас глянем, что из этого выйдет.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Alright, let's soak this.",
+      "ru": "Ладно, поливаем вот это.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "TELEPORTATION?!",
+      "ru": "ТЕЛЕПОРТ?!",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Center... I guess the most important stuff could be here. In theory. I wouldn't count on it.",
+      "ru": "Центр... Наверное, самое важное может быть тут. В теории. Но я бы особо не надеялась.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Huh! This wasn't that bad. And... I see something poking out, hold on...",
+      "ru": "Хм! Не так уж плохо. И... оттуда что-то торчит, погоди...",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Haha!... Wait, that's not it. Urgh.",
+      "ru": "Ха-ха!... Стоп, не то. Блин.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Hey, I'll just give that to you. Though, you probably don't know how to use it, heh!",
+      "ru": "На, лучше отдам это тебе. Хотя ты, наверное, не знаешь, как этим пользоваться, хех!",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Looks like we got another shot. I still have some water left.",
+      "ru": "Похоже, у нас есть ещё попытка. У меня ещё осталась вода.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Haha! I think that's what we're looking for!",
+      "ru": "Ха! Кажется, вот это нам и нужно!",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Look, I still want to make it up to the guy. I really don't want to be the villain of his story.",
+      "ru": "Слушай, я всё-таки хочу загладить вину перед этим человеком. Я совсем не хочу стать злодейкой в его истории.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "I'll meet you back at the Workshop. You can go on ahead.",
+      "ru": "Встретимся у мастерской. Ты можешь идти вперёд.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Right, right. Stand back, just in case.",
+      "ru": "Ага, ага. Отойди назад, на всякий случай.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Oh wow. You got the right one, first try! How'd you know?",
+      "ru": "Ого. Ты выбрал правильную с первого раза! Да как ты вообще понял?",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Well, good job. I still want to make it up to the poor guy though.",
+      "ru": "Молодец. Хотя я всё равно хочу загладить вину перед бедолагой.",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Just meet me back at the Workshop, I'll be there!",
+      "ru": "Просто встретимся у мастерской, я буду там!",
+      "speaker": "Ava",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Ouch!",
+      "ru": "Ай!",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "Sorry about all the trouble I caused... I hope this makes it up to you.",
+      "ru": "Прости за все неприятности, которые я устроила... Надеюсь, это хоть немного их возместит.",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "I hope <playername>'s alright... I managed to find the microchip right away, after all.",
+      "ru": "Надеюсь, с <playername> всё нормально... Я ведь в итоге сразу нашла микрочип.",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "...Alright. Time to go. I'll wait for <playername>, I guess.",
+      "ru": "...Ладно. Пора идти. Подожду <playername>, наверное.",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "...Alright. Time to go.",
+      "ru": "...Ладно. Пора идти.",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Oh, there you are! I felt sad leaving you behind!",
+      "ru": "О, а вот ты где! Мне как-то грустно было тебя там оставлять!",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Say, if you need a lift, just tell me.",
+      "ru": "Если хочешь, чтобы я тебя подбросила, просто скажи.",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Alright then, buckle up!",
+      "ru": "Ну тогда держись крепче!",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Alright, I'm dropping you off! Stick the landing!",
+      "ru": "Ну всё, высаживаю! Только приземлись нормально!",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "I can't believe it! It's working! Look! Look at it!",
+      "ru": "Не могу поверить! Оно работает! Смотри! Смотри на это!",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "A Growth Accelerator... Can you imagine the possibilities?!",
+      "ru": "Ускоритель роста... Ты вообще представляешь, какие тут возможности?!",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "We'll be able to... I don't know, help the poor, that's nice, right?",
+      "ru": "Мы сможем... ну не знаю, помогать бедным, например. Это ведь круто, да?",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "But we're not done. Well, I'm not done. I'd still like your help.",
+      "ru": "Но мы ещё не закончили. Ну, точнее, я не закончила. Мне всё ещё нужна твоя помощь.",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "Look, let's try it out together, alright? Maybe I'll let you go afterwards?",
+      "ru": "Слушай, давай испытаем это вместе, ладно? Может, потом я тебя отпущу?",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "I'll join you outside. Once I'm sure this works, I'll be able to... Show it to them.",
+      "ru": "Я выйду к тебе наружу. Когда я точно пойму, что оно работает, смогу... показать это им.",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "In theory, it should be easy to operate... I'm trusting you. Again. Sorry 'bout that.",
+      "ru": "В теории управлять им должно быть легко... Я снова тебе доверяю. Извини уж.",
+      "speaker": "Ava",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Alright, it's just on the hill next to us, but I can bring you there if ya want!",
+      "ru": "Ладно, оно прямо на холме рядом, но если хочешь, я тебя и туда могу подбросить!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Just don't get too used to me, alright? Tell me when you're ready.",
+      "ru": "Только не привыкай ко мне слишком сильно, ладно? Скажи, когда будешь готов.",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Here we go!",
+      "ru": "Погнали!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Alright, this should be good. Talk to me and I'll explain!",
+      "ru": "Ну всё, тут нормально. Поговори со мной, и я объясню!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "I'll do a quick rundown of how to operate this. It's not automatic yet.",
+      "ru": "Я быстро объясню, как этим пользоваться. До автоматики оно ещё не доросло.",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "I'll give you a remote. You'll simply have to click in the right orders. You'll see!",
+      "ru": "Я дам тебе пульт. Нужно будет просто нажимать в правильном порядке. Сам увидишь!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "You have to be quick, though! You can't just take all the time you want.",
+      "ru": "Только действуй быстро! Тут нельзя медлить сколько вздумается.",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "I have no clue how stable all of this is, so we'll start slowly!",
+      "ru": "Я вообще без понятия, насколько вся эта штука стабильна, так что начнём потихоньку!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "I know this sounds a li'l scary, but you've shown yourself being capable.",
+      "ru": "Знаю, звучит немного страшно, но ты уже показал, на что способен.",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "Tell me when you're ready, I'll give you the remote then start the machine!",
+      "ru": "Скажи, когда будешь готов, я дам пульт и запущу машину!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Ready? Take this first.",
+      "ru": "Готов? Тогда сначала держи вот это.",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Think of it like... Casting one of your spells. You're used to that, right?",
+      "ru": "Представь, что ты... творишь одно из своих заклинаний. Ты ведь к этому привык, правда?",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Let's start slowly! You have 45 seconds to fully charge it up!",
+      "ru": "Начнём спокойно! У тебя 45 секунд, чтобы полностью её зарядить!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "And now, we observe!",
+      "ru": "А теперь смотрим!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Oh my... I- No way...",
+      "ru": "О боже... Я... Да не может быть...",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Do you have ANY idea what it is we've just done?",
+      "ru": "Ты хоть понимаешь, что мы сейчас вообще сделали?",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "I have to show that to the Chief. They WILL accept me! I cannot fail now!",
+      "ru": "Я должна показать это вождю. Они ТОЧНО меня примут! Сейчас нельзя ошибиться!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Tell you what, let's meet up at the Chief's hut. If you want me to take you there right now, you can just go ahead and tell me!",
+      "ru": "Короче, давай встретимся у хижины вождя. Если хочешь, я могу прямо сейчас тебя туда подбросить, просто скажи!",
+      "speaker": "Ava",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Alright, let's fly!",
+      "ru": "Ну всё, полетели!",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "It really is convenient being with me, huh?",
+      "ru": "Ну признай, со мной реально удобно, а?",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "On second thought... Isn't it too soon?",
+      "ru": "Хотя... А не рановато ли?",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "I-I think I want to turn back... I...",
+      "ru": "Я-я, кажется, хочу повернуть назад... Я...",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "You should approach the Chief first. It... won't work if I do it. I'll come by afterwards.",
+      "ru": "Тебе лучше самому подойти к вождю первым. У меня... это не сработает. Я подойду потом.",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Ah, human! Welcome back. Good timing...",
+      "ru": "А, человек! Снова ты. Очень вовремя...",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Did you happen to see... An oddly dressed Avo around here recently?",
+      "ru": "Ты, случаем, не видел тут недавно... странно одетую аво?",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "We kicked that girl from the tribe, and we do have our reasons.",
+      "ru": "Мы изгнали эту девушку из племени, и причины у нас были.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "I've heard reports of her snooping around recently. With a human, even.",
+      "ru": "До меня дошли слухи, что она опять тут шныряет. И даже с человеком.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "And I believe... That this is no coincidence you're here.",
+      "ru": "И я думаю... твоё появление тут совсем не случайность.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "I will be frank. You're with her, aren't you? I won't hurt you. I won't hurt her either.",
+      "ru": "Скажу прямо. Ты с ней, так ведь? Я не трону тебя. И её тоже не трону.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "She's not exactly welcome here. But she's never told you about that, did she?",
+      "ru": "Ей здесь, мягко говоря, не рады. Но она тебе ведь об этом не рассказывала, да?",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "And I have nothing to hide, Chief.",
+      "ru": "А мне и скрывать нечего, вождь.",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "STOP IT, you two! Let her talk!",
+      "ru": "ХВАТИТ, вы оба! Пусть она говорит!",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "You're all scared of change, and that's all there is to it. Now...",
+      "ru": "Вы все просто боитесь перемен, вот и всё. А теперь...",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "May I... Show you something?",
+      "ru": "Можно я... кое-что покажу?",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Hmpf. Let's see that broken atrocity of yours.",
+      "ru": "Хмпф. Ну давай посмотрим на твоё сломанное убожество.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "...It's time. Talk to me.",
+      "ru": "...Пора. Поговори со мной.",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "This is it. I can't fail now... I really hope I can trust you.",
+      "ru": "Вот и настал момент. Сейчас нельзя ошибиться... Очень надеюсь, что могу на тебя положиться.",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "You have no idea how important this is to me.",
+      "ru": "Ты даже не представляешь, насколько это для меня важно.",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "It'll be slightly more difficult than last time, so get ready.",
+      "ru": "На этот раз будет чуть сложнее, так что соберись.",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "I'll give you the remote once you're ready!",
+      "ru": "Как будешь готов, дам тебе пульт!",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Wait, are you sure this isn't dang-",
+      "ru": "Погоди, ты уверена, что это не опа-",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Don't worry 'bout that!",
+      "ru": "Не беспокойтесь!",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "That's it, I-",
+      "ru": "Всё, я-",
+      "speaker": "Avos Guard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Let's just give her a chance for now.",
+      "ru": "Дайте ей шанс. Пока что.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Why is she getting away with using such magic?!",
+      "ru": "Почему ей вообще сходит с рук такая магия?!",
+      "speaker": "Avos Guard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Oh I'm gonna charge this sapling like crazy!",
+      "ru": "О, сейчас я этот саженец заряжу так, что мама не горюй!",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "Hmm... Interesting...",
+      "ru": "Хм... Любопытно...",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "One last time soldier, and I'm counting on you to be quick!",
+      "ru": "Ещё один раз, солдат! Рассчитываю, что ты будешь действовать быстро!",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Stand back... Almost there!",
+      "ru": "Отойдите... Почти готово!",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "...Oh my!",
+      "ru": "...Боги мои!",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "Wait... That's it?? No, this isn't right...",
+      "ru": "Стоп... И это всё?? Нет, так не должно быть...",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "Let me just...",
+      "ru": "Сейчас я просто...",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "That's enough!",
+      "ru": "Хватит!",
+      "speaker": "Avos Guard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "'Avos Chieftain: WAIT!'",
+      "ru": "\"Вождь авосов: СТОЙ!\"",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Chief! Have you seen what she just did?!",
+      "ru": "Вождь! Вы вообще видели, что она только что натворила?!",
+      "speaker": "Avos Guard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "I-I didn't mean to! I told you to stand back!!",
+      "ru": "Я-я не хотела! Я же сказала отойти!!",
+      "speaker": "Ava",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "Under normal circumstances, I'd have sent you down the pit after cutting off your feathers.",
+      "ru": "При обычных обстоятельствах я бы уже обрезал тебе перья и скинул в яму.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "But these are not normal circumstances. Soldier, may you come over here as well?",
+      "ru": "Но сейчас обстоятельства особые. Солдат, подойди сюда и ты.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "So you fused OUR magic... With electromagic?",
+      "ru": "То есть ты смешала НАШУ магию... с электромагией?",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "I recognized extracts from the totem too. You're the one who stole from us, right?",
+      "ru": "Я ещё и вытяжку из тотема узнал. Это ты её у нас стащила, да?",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "I... might have done that.",
+      "ru": "Я... возможно, да.",
+      "speaker": "Ava",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "And on top of that, you used the Wynn warrior to fool us?",
+      "ru": "И вдобавок ко всему ты использовала воина Винна, чтобы нас одурачить?",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "And I'm sure you know why I did!",
+      "ru": "И вы прекрасно знаете, почему я это сделала!",
+      "speaker": "Ava",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Do you have any idea how unstable this wretched electromagic is?!",
+      "ru": "Ты вообще понимаешь, насколько нестабильна эта проклятая электромагия?!",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "I-I can control it!!",
+      "ru": "Я-я могу её контролировать!!",
+      "speaker": "Ava",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "And you should NOT! Don't you understand? This is too dangerous!",
+      "ru": "А ведь НЕ должна! Неужели не понимаешь? Это слишком опасно!",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Should we kill her on the spot?! We almost died!",
+      "ru": "Прикончить её прямо здесь?! Мы чуть не сдохли!",
+      "speaker": "Avos Guard",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "No, don't kill her. I want her and the soldier in my hut, now.",
+      "ru": "Нет, не убивайте её. Пусть она и солдат немедленно придут ко мне в хижину.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Ava. You can't keep going with this. Just stop. This is your final warning.",
+      "ru": "Ава. Ты не можешь и дальше этим заниматься. Просто остановись. Это твоё последнее предупреждение.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "What do you even hope to accomplish? You used to be such a brilliant kid.",
+      "ru": "Чего ты вообще пытаешься добиться? Раньше ты была такой способной девчонкой.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "I just... wanna help people. You know that, I'm sure you understand!",
+      "ru": "Я просто... хочу помогать людям. Вы же это знаете, вы же должны понимать!",
+      "speaker": "Ava",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Have you seen the Factory? They tried to help people, and instead they killed hundreds!",
+      "ru": "Ты видела Фабрику? Они тоже пытались помогать людям, а в итоге угробили сотни!",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Do you think you're able change the world?! Well, you can't, Ava! This is beyond you!",
+      "ru": "Ты думаешь, способна изменить мир?! Нет, Ава, не способна! Это тебе не по силам!",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "So, for the last time. Stop all of this. I might reconsider your banishment then.",
+      "ru": "Так что говорю в последний раз: прекрати всё это. Тогда, возможно, я пересмотрю решение о твоём изгнании.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "You... You're really serious about that, huh? You'll NEVER change, will you?!",
+      "ru": "Вы... Вы это серьёзно, да? Вы НИКОГДА не изменитесь, да?!",
+      "speaker": "Ava",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "Do you guys have ANY idea how archaic you all are?! A final warning??",
+      "ru": "Вы хоть понимаете, как безнадёжно отстали от жизни?! Последнее предупреждение??",
+      "speaker": "Ava",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "I can't believe you worked with her, soldier. Well, now you know to avoid her.",
+      "ru": "Не могу поверить, что ты связался с ней, солдат. Что ж, теперь знаешь, кого стоит обходить стороной.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "...It appears she left some device on the floor. You might as well take them. And here, take these. We haven't had the chance to thank you regarding the Factory.",
+      "ru": "...Похоже, она оставила на полу какое-то устройство. Можешь забрать. И вот, возьми ещё это. Мы так и не успели поблагодарить тебя за помощь с Фабрикой.",
+      "speaker": "Avos Chieftain",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "Looks like Ava left. She probably went back to the Workshop.",
+      "ru": "Похоже, Ава ушла. Наверное, вернулась в Мастерскую.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "[!] Safety teleportation sequence activated!",
+      "ru": "[!] Запущена аварийная телепортация!",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "Ava didn't get teleported with you! You're on your own!",
+      "ru": "Ава не телепортировалась вместе с тобой! Ты остался один!",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "[!] ERROR: Defense protocols shutdown!",
+      "ru": "[!] ОШИБКА: протоколы защиты отключены!",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "Looks like Ava is waiting for you in the square south from here. Maybe she'll give you a lift?",
+      "ru": "Похоже, Ава ждёт тебя на площади к югу отсюда. Может, она тебя подбросит?",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Gah! If I can't get myself to do it now, I'll never do it!",
+      "ru": "Ах! Если я не решусь сейчас, то не решусь уже никогда!",
+      "speaker": "Ава",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "To hell with this! I'll show everyone! I'll show how great we could be! You'll see, chief!",
+      "ru": "К чёрту всё это! Я всем покажу! Покажу, какими великими мы могли бы быть! Вот увидите, вождь!",
+      "speaker": "Ава",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "Enter the shop.",
+      "ru": "Войди в магазин.",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "The bar represents the chief's suspicion level. Make sure it doesn't fill up!",
+      "ru": "Полоса показывает уровень подозрения вождя. Не дай ей заполниться!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "New Quest Started: The Feathers Fly Part I",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Летят перья, часть I",
+      "speaker": "",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Visit the workshop at [-1731, 134, -3267] (Requires completion of The Envoy Part II)",
+      "ru": "Посетить мастерскую в [-1731, 134, -3267] (нужно завершить \"Посланник II\").",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Meet Ava at [-1840, 123, -3086]",
+      "ru": "Встретиться с Авой [-1840, 123, -3086].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Distract the Avos Chief at [-1819, 131, -3071]",
+      "ru": "Отвлечь вождя авосов [-1819, 131, -3071].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Report back to Ava in the Workshop at [-1731, 134, -3267]",
+      "ru": "Вернуться к Аве в мастерскую с новостями [-1731, 134, -3267].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Meet Ava near the Corkian shop at [-1463, 127, -3087]",
+      "ru": "Встретиться с Авой возле коркусской лавки [-1463, 127, -3087].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Ask for an Enhanced Microchip at [-1436, 134, -3109]",
+      "ru": "Попросить усовершенствованный микрочип [-1436, 134, -3109].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Find the control panel near the shop at [-1436, 134, -3109]",
+      "ru": "Найти панель управления возле лавки [-1436, 134, -3109].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Fight your way out of the shop at [-1436, 134, -3109]",
+      "ru": "Пробиться наружу из лавки [-1436, 134, -3109].",
+      "stage": "Stage 7.5"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Meet Ava in the workshop at [-1731, 134, -3267]",
+      "ru": "Встретиться с Авой в мастерской [-1731, 134, -3267].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Meet Ava outside of the Workshop and help her operate her machine at [-1719, 173, -3348]",
+      "ru": "Встретиться с Авой у мастерской и помочь ей управлять машиной [-1719, 173, -3348].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Operate the machine with Ava for the Avos Chief at [-1819, 131, -3071]",
+      "ru": "Вместе с Авой запустить машину для вождя авосов [-1819, 131, -3071].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Talk to the Avos Chief with Ava at [-1819, 131, -3071]",
+      "ru": "Вместе с Авой поговорить с вождём авосов [-1819, 131, -3071].",
+      "stage": "Stage 11"
+    }
+  ],
+  "choices": []
+}

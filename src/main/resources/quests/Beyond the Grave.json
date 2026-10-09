@@ -1,0 +1,1927 @@
+{
+  "quest": "Beyond the Grave",
+  "level": 87,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "beyond-the-grave",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Welcome to Bantisu Temple, traveler. We guide lost souls onwards, be they wandering men to town or spirits unable to exit the canyon.",
+      "ru": "Добро пожаловать в храм Бантису, путник. Мы помогаем заблудшим душам идти дальше - будь то потерявшиеся люди, ищущие дорогу в город, или духи, не способные выбраться из каньона.",
+      "speaker": "Irlok",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "However, recently, our job has become much more difficult. The canyon shakes, and changes. Often, long-buried creatures are released as the walls shift.",
+      "ru": "Но в последнее время наша работа стала куда тяжелее. Каньон трясёт, он меняется. Когда стены сдвигаются, наружу часто выбираются давно погребённые твари.",
+      "speaker": "Irlok",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "And unfortunately, the worst has come to pass, that one of these creatures is hostile. The Bantisu monks of old collapsed the entrance to its cave to seal it away...",
+      "ru": "И, к несчастью, случилось худшее - одна из этих тварей оказалась враждебной. Монахи Бантису в древности обрушили вход в её пещеру, чтобы запечатать её там...",
+      "speaker": "Irlok",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "...but the rubble has shifted, and the cave is open once more. We were not strong enough to defeat it then, and we are not strong enough to defeat it now.",
+      "ru": "...но завал сдвинулся, и пещера снова открыта. Тогда нам не хватило сил победить её, и сейчас тоже не хватит.",
+      "speaker": "Irlok",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Even trying to collapse the cave again has ended in failure, for the beast, Krolton, slays our mages and demolitionists in but an instant.",
+      "ru": "Даже попытка снова обрушить пещеру закончилась ничем - зверь по имени Кролтон убивает наших магов и подрывников почти мгновенно.",
+      "speaker": "Irlok",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "However, the word on the wind tells tales of humans doing the impossible as a matter of rote. Krolton must be dealt with before it leaves the cave- I beg your assistance!",
+      "ru": "Но ветер приносит рассказы о людях, для которых невозможное стало обыденным. С Кролтоном нужно покончить, пока он не выбрался из пещеры. Умоляю, помоги нам!",
+      "speaker": "Irlok",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "We've no time to spare. I will prepare a short spell to bring you to the cave- Please, wait outside, and prepare yourself.",
+      "ru": "Времени нет. Я быстро подготовлю заклинание, чтобы отправить тебя к пещере. Подожди снаружи и приготовься.",
+      "speaker": "Irlok",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I apologize for the suddenness of this, but you must understand the urgency. We have no way of knowing when Krolton will emerge.",
+      "ru": "Прости за спешку, но сам понимаешь, дело срочное. Мы не знаем, когда Кролтон выберется наружу.",
+      "speaker": "Irlok",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "We will pray for your safety, and that your spirit will not become among those we must guide out of the canyon.",
+      "ru": "Мы будем молиться за твою безопасность и за то, чтобы твоя душа не пополнила число тех, кого нам потом придётся выводить из каньона.",
+      "speaker": "Irlok",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Now, hold tight, and godspeed!!",
+      "ru": "Ну всё, держись крепче, и удачи тебе!!",
+      "speaker": "Irlok",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "IS MY MANSION SO DULL YOU WOULD RATHER GO ROCK CLIMBING?",
+      "ru": "МОЙ ОСОБНЯК НАСТОЛЬКО СКУЧНЫЙ, ЧТО ТЫ ПРЕДПОЧЁЛ ЛАЗАНЬЕ ПО СКАЛАМ?",
+      "speaker": "Death",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "IT SEEMS I HAVE A NEW GUEST. WELCOME.",
+      "ru": "ПОХОЖЕ, У МЕНЯ НОВЫЙ ГОСТЬ. ДОБРО ПОЖАЛОВАТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "MAKE YOURSELF COMFORTABLE. YOU'LL BE STAYING HERE FOR A WHILE.",
+      "ru": "УСТРАИВАЙСЯ ПОУДОБНЕЕ. ПОБУДЕШЬ ЗДЕСЬ НЕКОТОРОЕ ВРЕМЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "NOTHING IS STOPPING YOU FROM TAKING A LOOK AROUND. DON'T TOUCH ANYTHING THOUGH. AND TAKE OFF YOUR SHOES AS YOU ENTER.",
+      "ru": "МОЖЕШЬ ПОБРОДИТЬ И ОСМОТРЕТЬСЯ. ТОЛЬКО НИЧЕГО НЕ ТРОГАЙ. И ОБУВЬ СНИМАЙ ПРИ ВХОДЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "WHEN YOU FEEL LIKE IT, COME TO MY OFFICE UPSTAIRS. WE HAVE A LENGTHY TALK TO HAVE.",
+      "ru": "КАК БУДЕШЬ ГОТОВ, ПОДНИМАЙСЯ В МОЙ КАБИНЕТ НАВЕРХУ. НАМ ПРЕДСТОИТ ДОЛГИЙ РАЗГОВОР.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I SUGGEST YOU DON'T EAT ANYTHING THAT YOU ARE SERVED HERE, I HEARD IT IS TO DIE FOR.",
+      "ru": "СОВЕТУЮ НЕ ЕСТЬ НИЧЕГО, ЧЕМ ТЕБЯ ТУТ УГОСТЯТ. ГОВОРЯТ, ЭТО ПРЯМ СМЕРТЕЛЬНО ВКУСНО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "IF I HAD BOUGHT ANY WHEAT THIS MORNING, I'D OFFER A BISCUIT AS CONSOLATION FOR DYING.",
+      "ru": "ЕСЛИ БЫ Я СЕГОДНЯ УТРОМ КУПИЛ ПШЕНИЦЫ, Я БЫ ПРЕДЛОЖИЛ ТЕБЕ ПЕЧЕНЬКУ В УТЕШЕНИЕ ЗА СМЕРТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "IT'S A SHAME, REALLY. I'M TOLD I MAKE THE BEST LITTLE CHOCOLATE CHIP ONES.",
+      "ru": "А ЖАЛЬ. ГОВОРЯТ, НИКТО НЕ ПЕЧЁТ ПЕЧЕНЬЕ С ШОКОЛАДНОЙ КРОШКОЙ ЛУЧШЕ МЕНЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "THIS IS AN EMPTY ROOM.",
+      "ru": "ЭТО ПУСТАЯ КОМНАТА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "AROUND THE MANSION, THERE ARE MANY MORE EMPTY ROOMS.",
+      "ru": "В ОСОБНЯКЕ ЕЩЁ ПОЛНО ТАКИХ ЖЕ ПУСТЫХ КОМНАТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "FEET OFF THE TABLE PLEASE.",
+      "ru": "НОГИ СО СТОЛА, ПОЖАЛУЙСТА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "THESE ARE BUSHES. NOTHING YOU DON'T ALREADY KNOW.",
+      "ru": "ЭТО КУСТЫ. НИЧЕГО НОВОГО ДЛЯ ТЕБЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "THIS IS THE LIBRARY, WHERE MY GUESTS COME TO SPEND THEIR TIME.",
+      "ru": "ЭТО БИБЛИОТЕКА. ТУТ МОИ ГОСТИ ОБЫЧНО И УБИВАЮТ ВРЕМЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "FEEL FREE TO TAKE YOUR TIME AND READ UP. KNOWLEDGE IS POWER, AND ALL THAT.",
+      "ru": "МОЖЕШЬ НЕ СПЕШИТЬ И ПОЧИТАТЬ. ЗНАНИЕ - СИЛА, И ВСЁ ТАКОЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "YOU COULD READ ALL OF THEM IF YOU LIKE, BUT THEY ARE ALL IN LATIN, AND I HEARD THAT IS NOW A DEAD LANGUAGE.",
+      "ru": "МОЖЕШЬ ПРОЧИТАТЬ ИХ ВСЕ, ЕСЛИ ХОЧЕШЬ. ТОЛЬКО ОНИ НА ЛАТЫНИ, А Я СЛЫШАЛ, ЭТО ТЕПЕРЬ МЁРТВЫЙ ЯЗЫК.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "IT SEEMS YOU REALLY WANTED TO KNOW WHAT WAS BEHIND THIS DOOR.",
+      "ru": "ПОХОЖЕ, ТЕБЕ ПРЯМ ОЧЕНЬ ХОТЕЛОСЬ УЗНАТЬ, ЧТО ЗА ЭТОЙ ДВЕРЬЮ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "I GUESS YOU WILL GET WHAT YOU WANTED...",
+      "ru": "НУ ЧТО Ж, ПОЛУЧИШЬ, ЧЕГО ХОТЕЛ...",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "ANOTHER DOOR.",
+      "ru": "ЕЩЁ ОДНУ ДВЕРЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "DO YOU REALLY THINK IT WAS WORTH YOUR TIME?",
+      "ru": "ТЫ ПРАВДА ДУМАЕШЬ, ЧТО ЭТО СТОИЛО ТВОЕГО ВРЕМЕНИ?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "THESE HOURGLASSES SHOWS THE LIFESPAN OF HUMANS. WHEN ALL THE SAND HITS THE BOTTOM, I GET NEW GUEST.",
+      "ru": "ЭТИ ПЕСОЧНЫЕ ЧАСЫ ОТМЕРЯЮТ СРОК ЧЕЛОВЕЧЕСКОЙ ЖИЗНИ. КОГДА ВЕСЬ ПЕСОК ПЕРЕСЫПАЕТСЯ ВНИЗ, У МЕНЯ ПОЯВЛЯЕТСЯ НОВЫЙ ГОСТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "OH LOOK, HERE'S YOURS. IT SAYS YOU'VE BEEN HERE [Times of Death] TIMES IN THE LAST MONTHS. SORRY, [times of death + 1] NOW.",
+      "ru": "О, СМОТРИ, А ВОТ И ТВОИ. ТУТ НАПИСАНО, ЧТО ЗА ПОСЛЕДНИЕ МЕСЯЦЫ ТЫ БЫЛ ЗДЕСЬ [количество смертей] РАЗ. ПРОСТИ, ТЕПЕРЬ УЖЕ [количество смертей + 1].",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "MY MIND HAS SLIPPED, I FORGOT TO MENTION THE MASSIVE HOURGLASS. IT SHOWS HOW MUCH TIME THE WORLD HAS LEFT.",
+      "ru": "ЧУТЬ НЕ ЗАБЫЛ. ВОН ТЕ ГИГАНТСКИЕ ЧАСЫ. ОНИ ПОКАЗЫВАЮТ, СКОЛЬКО ВРЕМЕНИ ОСТАЛОСЬ У МИРА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "I'LL GIVE YOU THE TIME TO GET OVER WHAT YOU HAVE WITNESSED.",
+      "ru": "ДАМ ТЕБЕ ВРЕМЯ ПЕРЕВАРИТЬ ТО, ЧТО ТЫ ТОЛЬКО ЧТО УВИДЕЛ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "PLEASE DON'T TOUCH ANY JARS YOU FIND, ESPECIALLY MY JAR OF DIRT.",
+      "ru": "ПОЖАЛУЙСТА, НЕ ТРОГАЙ НИКАКИЕ БАНКИ, КОТОРЫЕ НАЙДЁШЬ. ОСОБЕННО МОЮ БАНКУ С ЗЕМЛЁЙ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "IF ANYONE ASKS, YES, I AM MARRIED. JUST BECAUSE I DON'T HAVE A HEART DOESN'T MEAN THAT I CAN'T LOVE.",
+      "ru": "ЕСЛИ КТО СПРОСИТ, ДА, Я ЖЕНАТ. ТО, ЧТО У МЕНЯ НЕТ СЕРДЦА, НЕ ЗНАЧИТ, ЧТО Я НЕ МОГУ ЛЮБИТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "THIS IS MY OFFICE. GUESS WHAT I DO HERE. HUH?",
+      "ru": "ЭТО МОЙ КАБИНЕТ. УГАДАЙ, ЧЕМ Я ТУТ ЗАНИМАЮСЬ. НУ?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I DIE OF BOREDOM.",
+      "ru": "ПОМИРАЮ СО СКУКИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "...REALLY? NOTHING? YOU HUMANS HAVE NO SENSE OF HUMOUR.",
+      "ru": "...СЕРЬЁЗНО? НИКАКОЙ РЕАКЦИИ? У ВАС, ЛЮДЕЙ, ВООБЩЕ НЕТ ЧУВСТВА ЮМОРА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "PLEASE TAKE A SEAT. LET'S REVIEW YOUR OPTIONS.",
+      "ru": "ПРИСАЖИВАЙСЯ. ДАВАЙ РАЗБЕРЁМ ТВОИ ВАРИАНТЫ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "I KNOW THIS SEEMS LIKE AN ODD PLACE TO BE. SITTING IN FRONT OF DEATH.",
+      "ru": "ЗНАЮ, СТРАННО ОКАЗАТЬСЯ В ТАКОМ ПОЛОЖЕНИИ. СИДЕТЬ НАПРОТИВ СМЕРТИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "THE TRUTH IS, YOU HAVE BEEN HERE MANY TIMES BEFORE.",
+      "ru": "ПРАВДА В ТОМ, ЧТО ТЫ БЫВАЛ ЗДЕСЬ УЖЕ МНОГО РАЗ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "THE CATCH IS, A MORTAL MAY NEVER BE ALLOWED TO SPEAK OF MY REALM.",
+      "ru": "НО СМЕРТНОМУ НЕЛЬЗЯ РАССКАЗЫВАТЬ О МОЁМ ЦАРСТВЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "SO I MAKE EVERYONE WHO VISITS...SIMPLY FORGET.",
+      "ru": "ПОЭТОМУ Я ДЕЛАЮ ТАК, ЧТО ВСЕ, КТО СЮДА ПОПАДАЮТ... ПРОСТО ЗАБЫВАЮТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "IT'S EASIER ON EVERYONE THAT WAY. YOU WOULDN'T WANT TO TELL PEOPLE ABOUT YOUR DEATH, THAT WOULD BE WEIRD.",
+      "ru": "ТАК ВСЕМ ПРОЩЕ. ТЫ ЖЕ НЕ ХОЧЕШЬ ХОДИТЬ И РАССКАЗЫВАТЬ ЛЮДЯМ О ТОМ, КАК УМЕР. БЫЛО БЫ СТРАННО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "THIS TIME, HOWEVER, I'LL JUST HAVE TO LET YOU REMEMBER YOUR JOURNEY HERE.",
+      "ru": "НО НА ЭТОТ РАЗ МНЕ ПРИДЁТСЯ ПОЗВОЛИТЬ ТЕБЕ ЗАПОМНИТЬ СВОЁ ПУТЕШЕСТВИЕ СЮДА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "WHY YOU ASK? OH, YOU WOULDN'T WANT TO FORGET THE JOURNEY OF A LIFETIME, RIGHT?",
+      "ru": "ПОЧЕМУ, СПРАШИВАЕШЬ? НУ, ТЫ ЖЕ НЕ ЗАХОЧЕШЬ ЗАБЫТЬ ПУТЕШЕСТВИЕ ВСЕЙ СВОЕЙ ЖИЗНИ, ВЕРНО?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "THAT, AND I RECEIVED SOME POSTAGE, SHALL WE SAY. SOMEONE IS INVESTED IN YOUR CONTINUED SURVIVAL.",
+      "ru": "И К ТОМУ ЖЕ Я ПОЛУЧИЛ, СКАЖЕМ ТАК, КОЕ-КАКУЮ ПОЧТУ. КОМУ-ТО ВАЖНО, ЧТОБЫ ТЫ И ДАЛЬШЕ ЖИЛ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "I ALWAYS ALLOW PEOPLE THE OPPORTUNITY TO RE-ENTER THE MORTAL PLANE ANYWAY.",
+      "ru": "Я ВСЕГДА ДАЮ ЛЮДЯМ ШАНС ВЕРНУТЬСЯ ОБРАТНО В МИР ЖИВЫХ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "CALL IT BARGAINING WITH DEATH IF YOU LIKE. TRUTH IS, I JUST GET A BIT BORED.",
+      "ru": "МОЖЕШЬ НАЗЫВАТЬ ЭТО СДЕЛКОЙ СО СМЕРТЬЮ, ЕСЛИ ХОЧЕШЬ. НА САМОМ ДЕЛЕ МНЕ ПРОСТО СКУЧНОВАТО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "IF YOU WISH TO RETURN TO LIFE, AND I CAN NEVER UNDERSTAND WHY PEOPLE DO, ALL YOU HAVE TO DO IS BEAT THAT WHICH SENT YOU HERE.",
+      "ru": "ЕСЛИ ХОЧЕШЬ ВЕРНУТЬСЯ К ЖИЗНИ, ХОТЯ Я НИКОГДА НЕ ПОНИМАЛ, ЗАЧЕМ ЛЮДЯМ ЭТО НУЖНО, ТЕБЕ ПРОСТО НУЖНО ОДОЛЕТЬ ТО, ЧТО ОТПРАВИЛО ТЕБЯ СЮДА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "IN YOUR CASE, IT IS THE CREATURE KNOWN AS KROLTON. I SIMPLY ASK YOU SPEND A BIT OF TIME HERE AND PLAY A SHORT GAME BEFORE YOU GO, IN THE OTHER UPSTAIRS ROOM.",
+      "ru": "В ТВОЁМ СЛУЧАЕ ЭТО СУЩЕСТВО ПО ИМЕНИ КРОЛТОН. Я ЛИШЬ ПРОШУ ТЕБЯ НЕМНОГО ПОБЫТЬ ЗДЕСЬ И СЫГРАТЬ В НЕБОЛЬШУЮ ИГРУ ПЕРЕД УХОДОМ. В ДРУГОЙ КОМНАТЕ НАВЕРХУ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "I DO ENJOY MY CHATS WITH HUMANS, THEY NEVER SAY ANYTHING.",
+      "ru": "МНЕ НРАВЯТСЯ РАЗГОВОРЫ С ЛЮДЬМИ. ОНИ НИКОГДА НИЧЕГО НЕ ГОВОРЯТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "WHICH IS ODD, BECAUSE OUT OF THE TWO OF US, THEY ARE THE ONES WITH VOCAL CHORDS.",
+      "ru": "ЧТО СТРАННО, ПОТОМУ ЧТО ИЗ НАС ДВОИХ ГОЛОСОВЫЕ СВЯЗКИ ЕСТЬ ИМЕННО У НИХ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "THE REMOTE'S FIDDLY. YOU NEED TO BE SITTING ON THE COUCH FOR IT TO WORK.",
+      "ru": "ПУЛЬТ КАПРИЗНЫЙ. ОН РАБОТАЕТ ТОЛЬКО ЕСЛИ ТЫ СИДИШЬ НА ДИВАНЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "IMPRESSIVE. HOWEVER, THAT WAS SIMPLY ROUND 1, OUT OF 20. EACH ONE WILL BE PROGRESSIVELY MORE DIFFICULT THAN THE LAST. READY?",
+      "ru": "ВПЕЧАТЛЯЕТ. НО ЭТО БЫЛ ТОЛЬКО 1 РАУНД ИЗ 20. КАЖДЫЙ СЛЕДУЮЩИЙ БУДЕТ СЛОЖНЕЕ ПРЕДЫДУЩЕГО. ГОТОВ?",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "...AH, THE LOOK ON YOUR FACE. PRICELESS. GIVEN HOW MY SKULL IS SOLID AND CANNOT EMOTE, I HAVE TO GET MY FILL OF MAKING FACES SOMEHOW.",
+      "ru": "...АХ, ВЫРАЖЕНИЕ ТВОЕГО ЛИЦА. БЕСЦЕННО. МОЙ ЧЕРЕП НЕ МОЖЕТ КОРЧИТЬ РОЖИ, ТАК ЧТО ПРИХОДИТСЯ КАК-ТО НАСЛАЖДАТЬСЯ ЧУЖИМИ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "I AM SATISFIED, AND THAT'S ALL I REALLY WANTED FROM YOU.",
+      "ru": "Я ДОВОЛЕН, А ЭТО, ПО СУТИ, И БЫЛО ВСЁ, ЧЕГО Я ОТ ТЕБЯ ХОТЕЛ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "NOW AS IS TYPICAL FOR WINNING A QUIZ GAME AGAINST A METAPHYSICAL ENTITY, I WILL DESTROY A WINDOW WITH A CANNONBALL SO YOU MAY GO ANY TIME.",
+      "ru": "ТЕПЕРЬ, КАК И ПОЛОЖЕНО ПОСЛЕ ПОБЕДЫ В ВИКТОРИНЕ ПРОТИВ МЕТАФИЗИЧЕСКОЙ СУЩНОСТИ, Я РАЗНЕСУ ОКНО ПУШЕЧНЫМ ЯДРОМ. МОЖЕШЬ УХОДИТЬ, КОГДА ПОЖЕЛАЕШЬ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "A TECHNOLOGICAL MARVEL- THE SCREEN TURNS OFF WHEN A GUEST RUDELY LEAVES IN THE MIDDLE OF A GAMESHOW. A NICHE FUNCTION, TO BE SURE, BUT A USEFUL ONE.",
+      "ru": "ЧУДО ТЕХНИКИ - ЭКРАН ВЫКЛЮЧАЕТСЯ, ЕСЛИ ГОСТЬ БЕЗ ЦЕРЕМОНИЙ УХОДИТ ПОСРЕДИ ТЕЛЕИГРЫ. РЕДКО ПРИГОДИТСЯ, КОНЕЧНО, НО ПОЛЕЗНАЯ ВЕЩЬ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "WELL, I SEE YOU ARE LEAVING.",
+      "ru": "НУ ЧТО Ж, ВИЖУ, ТЫ УХОДИШЬ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "IT WAS NICE TO HAVE YOU BACK AGAIN, I DO ENJOY YOUR VISITS.",
+      "ru": "БЫЛО ПРИЯТНО СНОВА ТЕБЯ ПОВИДАТЬ. МНЕ НРАВЯТСЯ ТВОИ ВИЗИТЫ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "TO RISE BACK TO LIFE, YOU MUST DEFEAT THE ONE WHO BROUGHT YOU TO MY HANDS.",
+      "ru": "ЧТОБЫ ВЕРНУТЬСЯ К ЖИЗНИ, ТЫ ДОЛЖЕН ПОБЕДИТЬ ТОГО, КТО ОТПРАВИЛ ТЕБЯ В МОИ ОБЪЯТИЯ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "YOU'VE MANAGED IT BEFORE SO I CAN'T SEE WHY YOU CAN'T MANAGE IT AGAIN. AFTERALL, YOU MANAGE TO KEEP DYING.",
+      "ru": "ТЫ УЖЕ ДЕЛАЛ ЭТО РАНЬШЕ, ТАК ЧТО НЕ ВИЖУ ПРИЧИН, ПОЧЕМУ СЕЙЧАС НЕ СМОЖЕШЬ. В КОНЦЕ КОНЦОВ, УМИРАТЬ У ТЕБЯ ПОЛУЧАЕТСЯ СТАБИЛЬНО.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "...OR YOU KNOW, DON'T. I DO ENJOY HAVING A LITTLE COLOUR AROUND THE MANSION.",
+      "ru": "...ИЛИ НЕ ДЕЛАЙ. МНЕ, ЕСЛИ ЧЕСТНО, НРАВИТСЯ, КОГДА В ОСОБНЯКЕ ЕСТЬ ХОТЬ КАКОЕ-ТО РАЗНООБРАЗИЕ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "...AND ANOTHER THING. GIVEN WHAT I SAID EARLIER, IT FEELS RIGHT TO LET YOU KNOW SOMETHING.",
+      "ru": "...И ЕЩЁ КОЕ-ЧТО. ПОСЛЕ МОИХ ПРЕЖНИХ СЛОВ БУДЕТ ЧЕСТНО КОЕ О ЧЁМ ТЕБЯ ПРЕДУПРЕДИТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "SO LONG AS THE BEAST THAT KILLED YOU DIES BY SOMETHING YOU CAUSE, YOU WILL RETURN TO LIFE. SO BE AS RECKLESS AS YOU WANT.",
+      "ru": "ЕСЛИ УБИВШИЙ ТЕБЯ ЗВЕРЬ ПОГИБНЕТ ИЗ-ЗА ТВОИХ ДЕЙСТВИЙ, ТЫ ВЕРНЁШЬСЯ К ЖИЗНИ. ТАК ЧТО МОЖЕШЬ РИСКОВАТЬ СКОЛЬКО УГОДНО.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "AND IF YOU ARE TOO RECKLESS, THAT WILL BE A VALUABLE LESSON TO YOU. SINCE KROLTON HAS NOTICED YOU AGAIN, I'LL LEAVE YOU TO IT.",
+      "ru": "А ЕСЛИ ПЕРЕБОРЩИШЬ, ЭТО БУДЕТ ЦЕННЫЙ УРОК. РАЗ КРОЛТОН ТЕБЯ СНОВА ЗАМЕТИЛ, ДАЛЬШЕ УЖЕ САМ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Oh, thank goodness. You've returned- not free of wear, but certainly alive. Did you need to flee from Krolton, or is he...?",
+      "ru": "О, слава богам. Ты вернулся - потрёпанный, но живой. Тебе пришлось бежать от Кролтона, или он...?",
+      "speaker": "Irlok",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Truly? The beast is dead?",
+      "ru": "Правда? Зверь мёртв?",
+      "speaker": "Irlok",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Gracious, I don't think I've ever been so relieved. Krolton was responsible for thousands of deaths long ago. You've prevented an oncoming massacre!",
+      "ru": "Ох, не припомню, чтобы когда-нибудь чувствовал такое облегчение. Давным-давно Кролтон погубил тысячи. Ты предотвратил новую бойню!",
+      "speaker": "Irlok",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Bantisu Temple owes you a great deal. Here then- a suitable reward.",
+      "ru": "Храм Бантису теперь у тебя в большом долгу. Вот, возьми достойную награду.",
+      "speaker": "Irlok",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "A powerful Bantisu artifact, as a reward for defeating a beast that menaced in antiquated times.",
+      "ru": "Могущественный артефакт Бантису - за победу над тварью, что несла ужас ещё в древние времена.",
+      "speaker": "Irlok",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Safe travels, human. Whether it was luck or strength that had you prevail, I pray it will not fail you in the future.",
+      "ru": "Счастливого пути, человек. Что бы ни помогло тебе победить - удача или сила, молюсь, чтобы и впредь оно тебя не подвело.",
+      "speaker": "Irlok",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "THIS BOOK IS SO BAD, EVEN THE LONG-WINDED AND PAINFUL DEATH OF SWEENEY S. GREENVILLE IS BETTER THAN THIS.",
+      "ru": "ЭТА КНИГА НАСТОЛЬКО ПЛОХА, ЧТО ДАЖЕ ДОЛГАЯ И МУЧИТЕЛЬНАЯ СМЕРТЬ СУИНИ С. ГРИНВИЛЯ ЛУЧШЕ ЭТОГО.",
+      "speaker": "Death",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "...something's gone wrong.",
+      "ru": "...что-то пошло не так.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "The roof is getting weaker.",
+      "ru": "Свод становится всё слабее.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "The cave is on the verge of collapse.",
+      "ru": "Пещера на грани обрушения.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "The cave-in is imminent!",
+      "ru": "Обвал неизбежен!",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "...just as Death said, Krolton was crushed by the falling cave...but you're just fine anyways.",
+      "ru": "...как и сказала Смерть, Кролтона раздавила обрушившаяся пещера... но ты всё равно цел и невредим.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "It's dead, for certain this time. Time to tell Irlok the good news...",
+      "ru": "На этот раз он точно мёртв. Пора сообщить Ирлоку хорошие новости...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "...though you decide to take Death's advice and avoid mentioning your death. That would be weird.",
+      "ru": "...хотя ты решаешь последовать совету Смерти и не упоминать о своей смерти. Это было бы странно.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "With Krolton dead, you make your way out of the cave.",
+      "ru": "Кролтон мёртв, и ты выбираешься из пещеры.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "*Drum rolls*",
+      "ru": "*Барабанная дробь*",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Walking through the door at the end of Death's realm takes you to a long bridge:'",
+      "ru": "",
+      "speaker": "НАРРАТИВ (без говорящего)",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "(Throw item to one of the spikes to open the doors.)",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "New Quest Started: Beyond the Grave",
+      "ru": "§#FFAA00Новый квест: §#FFFF55За гранью могилы",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Welcome to the Bantisu Temple, traveler. We guide lost souls onwards, be they wandering men to town or spirits unable to exit the canyon.",
+      "ru": "Добро пожаловать в храм Бантису, путник. Мы помогаем заблудшим душам идти дальше - будь то потерявшиеся люди, ищущие дорогу в город, или духи, не способные выбраться из каньона.",
+      "speaker": "Irlok",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "SO THAT IS YOUR FIRST INSTINCT? TO CLIMB THE VALLEY WALLS IN FRUITLESS SEARCH OF AN ESCAPE?",
+      "ru": "ТАК ВОТ ТВОЙ ПЕРВЫЙ ПОРЫВ? КАРАБКАТЬСЯ ПО СТЕНАМ ДОЛИНЫ В БЕСПЛОДНЫХ ПОИСКАХ ВЫХОДА?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "AMUSING. BUT THIS IS WHERE YOU MUST BE. TAKE ALL THE TIME YOU LIKE, THOUGH. I WILL WAIT FOR YOU TO COME TO MY MANOR.",
+      "ru": "ЗАБАВНО. НО ТЕБЕ ПОЛАГАЕТСЯ БЫТЬ ИМЕННО ЗДЕСЬ. ВПРОЧЕМ, НЕ СПЕШИ. Я БУДУ ЖДАТЬ ТЕБЯ В СВОЁМ ОСОБНЯКЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "SO MY MANSION IS DULL ENOUGH YOU'D RATHER GO ROCK CLIMBING?",
+      "ru": "НЕУЖЕЛИ МОЙ ОСОБНЯК ТАК СКУЧЕН, ЧТО ТЫ ПРЕДПОЧИТАЕШЬ СКАЛОЛАЗАНИЕ?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "OR DID I SIMPLY SCARE YOU OFF SAYING SUCH SERIOUS THINGS?",
+      "ru": "ИЛИ МОИ СЕРЬЁЗНЫЕ РЕЧИ ПРОСТО ТЕБЯ СПУГНУЛИ?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "NEVERTHELESS, YOU WILL BE BACK EVENTUALLY. THERE IS NOTHING FOR ANYONE OUT THERE.",
+      "ru": "ТАК ИЛИ ИНАЧЕ, ТЫ СО ВРЕМЕНЕМ ВЕРНЁШЬСЯ. ТАМ ДЛЯ ТЕБЯ И ОСТАЛЬНЫХ НИЧЕГО НЕТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "THIS IS WHERE I SERVE MEALS TO MY GUESTS. THEY GIVE SUCH GLOWING REVIEWS.",
+      "ru": "ЗДЕСЬ Я УГОЩАЮ СВОИХ ГОСТЕЙ. ОТЗЫВЫ ВСЕГДА САМЫЕ ВОСТОРЖЕННЫЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "AFTER ALL, IT IS SAID ONE'S LAST MEAL IS THE SWEETEST, SO HAVING ANOTHER AFTER THAT IS SURELY TO DIE FOR. AH HA HA.",
+      "ru": "ВЕДЬ ГОВОРЯТ, ПОСЛЕДНЯЯ ТРАПЕЗА СЛАЩЕ ВСЕХ. ТАК ЧТО РАДИ ЕЩЁ ОДНОЙ ПОСЛЕ НЕЁ СТОИТ И УМЕРЕТЬ. АХ-ХА-ХА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "IF I HAD BROUGHT ANY FLOUR THIS MORNING, I WOULD HAVE OFFERED A BISCUIT FOR DYING. I'M TOLD I MAKE THE BEST CHOCOLATE CHIP ONES.",
+      "ru": "ЕСЛИ БЫ У МЕНЯ С УТРА БЫЛА МУКА, Я БЫ УГОСТИЛ ТЕБЯ ПЕЧЕНЬЕМ ПО СЛУЧАЮ СМЕРТИ. ГОВОРЯТ, МОЁ ПЕЧЕНЬЕ С ШОКОЛАДНОЙ КРОШКОЙ НЕПРЕВЗОЙДЁННО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "BUT ALAS. WE WILL HAVE TO CONTENT OURSELVES WITH A LAST DRINK FOR THE DEPARTED INSTEAD. I'LL PUT THE KETTLE ON.",
+      "ru": "НО УВЫ. ПРИДЁТСЯ ДОВОЛЬСТВОВАТЬСЯ ПРОЩАЛЬНЫМ НАПИТКОМ ДЛЯ УСОПШЕГО. ПОСТАВЛЮ ЧАЙНИК.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "FEET OFF THE TABLE, PLEASE.",
+      "ru": "НОГИ СО СТОЛА, ПОЖАЛУЙСТА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "THIS SECTION OF THE MANSION IS UNDERGOING RENOVATIONS. FOR THE TIME BEING, IT GOES EMPTY.",
+      "ru": "В ЭТОЙ ЧАСТИ ОСОБНЯКА ИДЁТ РЕМОНТ. ПОКА ОНА ПУСТУЕТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "SOULS DO LINGER HERE. LINGERING EVER LONGER THAN BEFORE. AND WITH SO MANY ARRIVING...",
+      "ru": "ДУШИ ЗАДЕРЖИВАЮТСЯ ЗДЕСЬ. ВСЁ ДОЛЬШЕ, ЧЕМ ПРЕЖДЕ. А НОВЫХ ПРИБЫВАЕТ ТАК МНОГО...",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "IT IS, PERHAPS, A POINTLESS COMFORT TO GIVE. BUT I FEEL A GUEST ROOM WOULD BE APPRECIATED, UNDER THE CIRCUMSTANCES.",
+      "ru": "БЫТЬ МОЖЕТ, ЭТО ПУСТОЕ УТЕШЕНИЕ. НО, УЧИТЫВАЯ ОБСТОЯТЕЛЬСТВА, ГОСТЕВАЯ КОМНАТА ИМ БЫ ПРИШЛАСЬ ПО ДУШЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "PERHAPS GROWING THINGS IN A PLACE LIKE THIS IS A FOOL'S ERRAND.",
+      "ru": "ВОЗМОЖНО, ВЫРАЩИВАТЬ ЧТО-ЛИБО В ТАКОМ МЕСТЕ - ЗАТЕЯ ДЛЯ ШУТА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "IF IT IS, THEN I WILL MERRILY JINGLE MY BELLS AS I WATER THEM. IT IS FLEETING JOY TO CARE FOR THEM, BUT A JOY NONETHELESS.",
+      "ru": "ЕСЛИ ТАК, Я БУДУ ВЕСЕЛО ЗВЕНЕТЬ БУБЕНЦАМИ, ПОЛИВАЯ ИХ. ЗАБОТИТЬСЯ О НИХ - МИМОЛЁТНАЯ РАДОСТЬ, НО ВСЁ ЖЕ РАДОСТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "WELCOME TO MY LIBRARY. I FIND MY GUESTS ARE DRAWN TO HERE. PERHAPS IT IS BECAUSE KNOWLEDGE IS POWER, AS I HAVE BEEN TOLD.",
+      "ru": "ДОБРО ПОЖАЛОВАТЬ В МОЮ БИБЛИОТЕКУ. ГОСТЕЙ СЮДА ТАК И ТЯНЕТ. ВОЗМОЖНО, ПОТОМУ ЧТО ЗНАНИЕ - СИЛА, КАК МНЕ ГОВОРИЛИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "ALTHOUGH, GIVEN SO MANY OF MY BOOKS ARE WRITTEN IN DEAD LANGUAGES, THERE IS LITTLE POWER TO BE FOUND HERE.",
+      "ru": "ХОТЯ МНОГИЕ МОИ КНИГИ НАПИСАНЫ НА МЁРТВЫХ ЯЗЫКАХ, ТАК ЧТО СИЛЫ ЗДЕСЬ НАЙДЁТСЯ НЕМНОГО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "BUT I WILL NEVER BEGRUDGE A GUEST A REPRIEVE. HOWEVER MOMENTARY. MORTALITY CAN BE A HARSH LESSON.",
+      "ru": "НО Я НИКОГДА НЕ ОТКАЖУ ГОСТЮ В ПЕРЕДЫШКЕ. ПУСТЬ ДАЖЕ МИМОЛЁТНОЙ. СМЕРТНОСТЬ МОЖЕТ ПРЕПОДАТЬ ЖЕСТОКИЙ УРОК.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "AH, I SEE YOU HAVE DISCOVERED THE HOURGLASSES. I SUPPOSE IT IS ONLY NATURAL THEY WOULD DRAW YOUR ATTENTION.",
+      "ru": "А, ТЫ ОБНАРУЖИЛ ПЕСОЧНЫЕ ЧАСЫ. ДУМАЮ, ВПОЛНЕ ЕСТЕСТВЕННО, ЧТО ОНИ ПРИВЛЕКЛИ ТВОЁ ВНИМАНИЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "EACH ONE MEASURES THE LIFE OF A BEING. WHEN ALL THE SAND REACHES THE BOTTOM, I RECEIVE A NEW GUEST.",
+      "ru": "КАЖДЫЕ ОТМЕРЯЮТ ЖИЗНЬ ОДНОГО СУЩЕСТВА. КОГДА ВЕСЬ ПЕСОК ОКАЗЫВАЕТСЯ ВНИЗУ, КО МНЕ ПРИБЫВАЕТ НОВЫЙ ГОСТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "BUT A MEASURED LIFESPAN IS NOT A GUARANTEE. IT IS ONLY AN ESTIMATE. THE RATE OF THE HOURGLASS WILL SHIFT IN RESPONSE TO ANY NUMBER OF FACTORS.",
+      "ru": "НО ОТМЕРЕННЫЙ СРОК ЖИЗНИ НИЧЕГО НЕ ГАРАНТИРУЕТ. ЭТО ЛИШЬ ПРИБЛИЗИТЕЛЬНЫЙ РАСЧЁТ. СКОРОСТЬ ХОДА ЧАСОВ МЕНЯЕТСЯ ПОД ВЛИЯНИЕМ МНОЖЕСТВА ОБСТОЯТЕЛЬСТВ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "I AM SURE WE COULD FIND YOURS, IF WE SEARCHED HARD ENOUGH. BUT I FIND MOST VISITORS STRUGGLE TO GRAPPLE WITH SUCH A TANGIBLE DISPLAY.",
+      "ru": "УВЕРЕН, МЫ МОГЛИ БЫ НАЙТИ И ТВОИ, ЕСЛИ ХОРОШЕНЬКО ПОИСКАТЬ. НО БОЛЬШИНСТВУ ПОСЕТИТЕЛЕЙ ТРУДНО СМИРИТЬСЯ С ТАКИМ НАГЛЯДНЫМ ЗРЕЛИЩЕМ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "THIS ONE... IT IS SPECIAL. IT DISPLAYS SOMETHING FAR MORE IMPORTANT THAN INDIVIDUAL LIFESPANS.",
+      "ru": "А ЭТИ... ОСОБЕННЫЕ. ОНИ ПОКАЗЫВАЮТ НЕЧТО КУДА ВАЖНЕЕ, ЧЕМ СРОК ОТДЕЛЬНОЙ ЖИЗНИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "IT IS HERE TO MEASURE HOW MUCH TIME THE WORLD HAS LEFT.",
+      "ru": "ОНИ ОТМЕРЯЮТ ВРЕМЯ, ОСТАВШЕЕСЯ ЭТОМУ МИРУ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "AS WITH THE OTHERS, IT IS MERELY AN ESTIMATE. IT HAS BEEN SLOWED AND HALTED IN THE PAST.",
+      "ru": "КАК И ОСТАЛЬНЫЕ, ОНИ ЛИШЬ ПРИМЕРНО ОЦЕНИВАЮТ ЕГО. ПРЕЖДЕ ИХ ХОД ЗАМЕДЛЯЛИ И ДАЖЕ ОСТАНАВЛИВАЛИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "BUT I FEAR THE COMING END IS INEVITABLE. IT WAS SET IN MOTION LONG, LONG AGO, BY ACTORS BEYOND THE BOTH OF US.",
+      "ru": "НО, БОЮСЬ, ГРЯДУЩИЙ КОНЕЦ НЕИЗБЕЖЕН. ОН БЫЛ ЗАПУЩЕН ОЧЕНЬ, ОЧЕНЬ ДАВНО СИЛАМИ, ПРЕВОСХОДЯЩИМИ НАС ОБОИХ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "I KEEP IT AS A REMINDER, TO CHERISH WHAT STILL IS LEFT. BEFORE IT, TOO, IS LOST.",
+      "ru": "Я ХРАНЮ ИХ КАК НАПОМИНАНИЕ: НУЖНО ДОРОЖИТЬ ТЕМ, ЧТО ЕЩЁ ОСТАЛОСЬ. ПРЕЖДЕ ЧЕМ И ЭТО БУДЕТ УТРАЧЕНО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "PLEASE REFRAIN FROM TOUCHING ANY OF MY JARS. I KEEP THINGS VERY DEAR TO ME IN THEM.",
+      "ru": "ПОЖАЛУЙСТА, НЕ ТРОГАЙ МОИ БАНКИ. Я ХРАНЮ В НИХ ОЧЕНЬ ДОРОГИЕ МНЕ ВЕЩИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "PARTICULARLY MY JAR OF SOIL. THAT IS A SOUVENIR FROM VERY, VERY LONG AGO.",
+      "ru": "ОСОБЕННО БАНКУ С ЗЕМЛЁЙ. ЭТО СУВЕНИР ИЗ ОЧЕНЬ, ОЧЕНЬ ДАЛЁКОГО ПРОШЛОГО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "I HAVE NO NEED FOR SLEEP. SO, MY BEDROOM NOW SERVES MERELY A SYMBOLIC PURPOSE.",
+      "ru": "МНЕ НЕ НУЖЕН СОН. ПОЭТОМУ МОЯ СПАЛЬНЯ ТЕПЕРЬ ИМЕЕТ ЛИШЬ СИМВОЛИЧЕСКОЕ ЗНАЧЕНИЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "SYMBOLIC OF WHAT, YOU ASK? MY LOVING MARRIAGE. JUST BECAUSE I DO NOT HAVE A HEART, IT DOES NOT MEAN I CANNOT LOVE.",
+      "ru": "ЧТО ОНА СИМВОЛИЗИРУЕТ, СПРОСИШЬ ТЫ? МОЙ СЧАСТЛИВЫЙ БРАК. ОТСУТСТВИЕ СЕРДЦА ЕЩЁ НЕ ЗНАЧИТ, ЧТО Я НЕ МОГУ ЛЮБИТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "\"TIL DEATH DO US PART\" IS FOR QUITTERS, I SAY. I WILL LOVE HER BEYOND THE END OF TIME ITSELF.",
+      "ru": "\"ПОКА СМЕРТЬ НЕ РАЗЛУЧИТ НАС\" - СЛОВА ТЕХ, КТО ГОТОВ СДАТЬСЯ. Я БУДУ ЛЮБИТЬ ЕЁ ДАЖЕ ПОСЛЕ КОНЦА САМОГО ВРЕМЕНИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "THESE DAYS, THE CATS LAY CLAIM TO THE BED FOR THE MOST PART. AT LEAST SOMEONE IS GETTING USE OUT OF IT, IN THE END.",
+      "ru": "В ПОСЛЕДНЕЕ ВРЕМЯ КРОВАТЬ В ОСНОВНОМ ЗАНЯТА КОШКАМИ. ПО КРАЙНЕЙ МЕРЕ, ОНА ХОТЬ КОМУ-ТО ПРИГОДИЛАСЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "THIS IS THE DARK LORD, SNUGGLEBUNS. GREET HIM WITH RESPECT, WITH A PAT ON THE HEAD AND A SCRATCH UNDER THE CHIN.",
+      "ru": "ЭТО ТЁМНЫЙ ВЛАДЫКА СНАГГЛБАНС. ПРИВЕТСТВУЙ ЕГО С ПОЧТЕНИЕМ: ПОГЛАДЬ ПО ГОЛОВЕ И ПОЧЕШИ ПОД ПОДБОРОДКОМ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "HE IS A GUEST, MUCH LIKE YOURSELF. UNLIKE YOU, HOWEVER, HE HAS BEEN HERE A VERY LONG TIME.",
+      "ru": "ОН ГОСТЬ, КАК И ТЫ. НО, В ОТЛИЧИЕ ОТ ТЕБЯ, ОН ЗДЕСЬ УЖЕ ОЧЕНЬ ДАВНО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "HE IS ONE OF THE MORE STUBBORN BEASTS I HAVE ENCOUNTERED ACROSS THESE EONS. YOU SEE, HE IS WAITING FOR SOMEONE TO CROSS OVER. MUCH LIKE MYSELF, HE CAN BE VERY PATIENT.",
+      "ru": "ЗА ВСЕ ЭТИ ВЕКА Я ВСТРЕЧАЛ МАЛО СТОЛЬ УПРЯМЫХ ЗВЕРЕЙ. ВИДИШЬ ЛИ, ОН ЖДЁТ, ПОКА КОЕ-КТО ПЕРЕЙДЁТ НА ЭТУ СТОРОНУ. КАК И Я, ОН МОЖЕТ БЫТЬ ОЧЕНЬ ТЕРПЕЛИВ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "TOO PATIENT FOR HIS OWN GOOD, PERHAPS.",
+      "ru": "ВОЗМОЖНО, СЛИШКОМ ТЕРПЕЛИВ ДЛЯ СВОЕГО ЖЕ БЛАГА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "...I DO NOT HAVE THE HEART TO TELL HIM THE TRUTH. AND SO, AS THE YEARS PASS, HIS CLAIM ON MY HOME CONTINUES TO GROW.",
+      "ru": "...У МЕНЯ НЕ ХВАТАЕТ ДУХУ СКАЗАТЬ ЕМУ ПРАВДУ. И С ГОДАМИ ОН ЗАНИМАЕТ ВСЁ БОЛЬШЕ МЕСТА В МОЁМ ДОМЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "AND I ALLOW IT. I FIND HIS COMPANIONSHIP WORTH THE HASSLE.",
+      "ru": "А Я ЕМУ НЕ МЕШАЮ. ОБЩЕНИЕ С НИМ СТОИТ ЭТИХ ХЛОПОТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "IT MAY NOT SEEM AS SUCH FROM YOUR PERSPECTIVE. BUT LIFE IS LIMITED. STILL, SOULS PASS THROUGH THE CYCLE, AND THE WORLD KEEPS ON SPINNING.",
+      "ru": "С ТВОЕЙ ТОЧКИ ЗРЕНИЯ ВСЁ МОЖЕТ ВЫГЛЯДЕТЬ ИНАЧЕ. НО ЖИЗНЬ КОНЕЧНА. И ВСЁ ЖЕ ДУШИ ПРОХОДЯТ СВОЙ КРУГОВОРОТ, А МИР ПРОДОЛЖАЕТ ВРАЩАТЬСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "...THEY WERE NOT MEANT TO BE LOST. TO PASS BEYOND MY REACH, TO REACH AN END SOMEWHERE I CANNOT FIND THEM.",
+      "ru": "...ОНИ НЕ ДОЛЖНЫ БЫЛИ ТЕРЯТЬСЯ. УХОДИТЬ ТУДА, ГДЕ Я НЕ МОГУ ИХ ДОСТАТЬ, НАХОДИТЬ КОНЕЦ ТАМ, ГДЕ Я НЕ МОГУ ИХ ОТЫСКАТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "AND YET, THROUGH MEANS BEYOND MY CONTROL, THEY DO. THEY HAVE. WITH EACH AND EVERY ONE, I LOSE A PIECE OF MYSELF. IRREVERSIBLY.",
+      "ru": "И ВСЁ ЖЕ ПО ПРИЧИНАМ, ОТ МЕНЯ НЕ ЗАВИСЯЩИМ, ЭТО СЛУЧАЕТСЯ. УЖЕ СЛУЧАЛОСЬ. С КАЖДОЙ ТАКОЙ ДУШОЙ Я ТЕРЯЮ ЧАСТЬ СЕБЯ. БЕЗВОЗВРАТНО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "AND THE CYCLE MUST KEEP SPINNING, LESSENED EVEN AS IT MAY BE. BUT I STILL REMEMBER THEM, EACH LIFE THAT THEY LIVED.",
+      "ru": "А КРУГОВОРОТ ДОЛЖЕН ПРОДОЛЖАТЬСЯ, КАК БЫ ОН НИ ОСКУДЕВАЛ. НО Я ВСЁ ЕЩЁ ПОМНЮ ИХ И КАЖДУЮ ПРОЖИТУЮ ИМИ ЖИЗНЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "SOMEONE HAS TO, AFTER ALL.",
+      "ru": "ВЕДЬ КТО-ТО ДОЛЖЕН.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Takan",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "THIS ONE SHOULD BE FAMILIAR TO YOU.",
+      "ru": "ЭТОТ ДОЛЖЕН БЫТЬ ТЕБЕ ЗНАКОМ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "FEW EVER HAVE THE CHANCE TO COME FACE TO FACE WITH A LIFE THEY THEMSELVES HAVE BROUGHT TO AN END. I WONDER HOW YOU FEEL NOW.",
+      "ru": "НЕМНОГИМ ВЫПАДАЕТ ВОЗМОЖНОСТЬ ВСТРЕТИТЬСЯ ЛИЦОМ К ЛИЦУ С ТЕМ, ЧЬЮ ЖИЗНЬ ОНИ САМИ ОБОРВАЛИ. ИНТЕРЕСНО, ЧТО ТЫ СЕЙЧАС ЧУВСТВУЕШЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "HE WAS ONCE A GOOD MAN. BUT SUCH IS THE TRAVESTY OF THAT WAR-RAVAGED PROVINCE, THAT IT TWISTS THE MIND AND SPIRIT IN SUCH A WAY.",
+      "ru": "КОГДА-ТО ОН БЫЛ ХОРОШИМ ЧЕЛОВЕКОМ. НО ТАКОВА БЕДА ЭТОЙ ИСТЕРЗАННОЙ ВОЙНОЙ ПРОВИНЦИИ: ОНА ИСКАЖАЕТ РАЗУМ И ДУХ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "I WILL NOT PASS JUDGEMENT ON YOUR ACTIONS. BUT PERHAPS DEATH WAS A KINDER FATE THAN THE TURMOIL HE WAS DROWNING IN.",
+      "ru": "Я НЕ БУДУ СУДИТЬ ТВОИ ПОСТУПКИ. НО, ВОЗМОЖНО, СМЕРТЬ БЫЛА МИЛОСЕРДНЕЕ ТОГО СМЯТЕНИЯ, В КОТОРОМ ОН ТОНУЛ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "EVEN HERE, FREED OF ITS INFLUENCE, HE STRUGGLES TO RELEASE THAT ANGER THAT GRIPPED HIM SO TIGHTLY. HE REFUSES TO MOVE ON.",
+      "ru": "ДАЖЕ ЗДЕСЬ, ОСВОБОДИВШИСЬ ОТ ЭТОГО ВЛИЯНИЯ, ОН НЕ МОЖЕТ ОТПУСТИТЬ ГНЕВ, КОТОРЫЙ ТАК КРЕПКО ЕГО ДЕРЖАЛ. ОН ОТКАЗЫВАЕТСЯ ИДТИ ДАЛЬШЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "BUT HE WILL, EVENTUALLY. THEY ALL DO. IT IS ONLY A MATTER OF TIME.",
+      "ru": "НО СО ВРЕМЕНЕМ ОН ПОЙДЁТ. КАК И ВСЕ ОСТАЛЬНЫЕ. ЭТО ЛИШЬ ВОПРОС ВРЕМЕНИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "HE IS NOT THE FIRST TO HAVE SUFFERED SUCH A FATE. THAT BLIGHT HAS TAKEN HOLD OF OH SO MANY OVER THE YEARS.",
+      "ru": "ОН НЕ ПЕРВЫЙ, КОГО ПОСТИГЛА ТАКАЯ УЧАСТЬ. ЗА ЭТИ ГОДЫ ПОРЧА ЗАВЛАДЕЛА ОЧЕНЬ МНОГИМИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "A MILLENNIUM IS A RAINDROP IN THE SEA COMPARED TO MY EXISTENCE. SO WHY HAVE THESE YEARS FELT SO MUCH LONGER THAN EVER BEFORE?",
+      "ru": "ТЫСЯЧЕЛЕТИЕ - КАПЛЯ В МОРЕ ПО СРАВНЕНИЮ С МОИМ СУЩЕСТВОВАНИЕМ. ПОЧЕМУ ЖЕ ЭТИ ГОДЫ КАЖУТСЯ МНЕ КУДА ДОЛЬШЕ ВСЕХ ПРЕЖНИХ?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "IT IS FORTUNATE THAT IT ONLY TARGETS THE BODY, AND ONLY ONCE ITS SPARK FLICKERS OUT.",
+      "ru": "К СЧАСТЬЮ, ОНА ПОРАЖАЕТ ЛИШЬ ТЕЛО, И ТОЛЬКО КОГДА ЕГО ИСКРА УГАСАЕТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "WHAT IT DOES IS BAD ENOUGH ALREADY. IF IT WERE TO TAKE THE SOUL, AS WELL...",
+      "ru": "ТОГО, ЧТО ОНА ТВОРИТ, УЖЕ ДОСТАТОЧНО. ЕСЛИ БЫ ОНА ЗАБИРАЛА ЕЩЁ И ДУШУ...",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "AH HA HA. I WOULD RATHER NOT DWELL ON THAT ANY LONGER. IT ISN'T AS IF I COULD DO SOMETHING ABOUT IT, ANYWAY.",
+      "ru": "АХ-ХА-ХА. ПОЖАЛУЙ, ХВАТИТ ОБ ЭТОМ. ВСЁ РАВНО Я НИЧЕГО НЕ МОГУ С ЭТИМ ПОДЕЛАТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "WELCOME TO MY OFFICE. GO ON, TAKE A GUESS AT WHAT I DO HERE.",
+      "ru": "ДОБРО ПОЖАЛОВАТЬ В МОЙ КАБИНЕТ. ПОПРОБУЙ УГАДАТЬ, ЧЕМ Я ЗДЕСЬ ЗАНИМАЮСЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "...REALLY? NOTHING? PERHAPS I NEED SOME NEW MATERIAL.",
+      "ru": "...ПРАВДА? НИКАКОЙ РЕАКЦИИ? ВОЗМОЖНО, МНЕ ПОРА ПРИДУМАТЬ НОВЫЕ ШУТКИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "PLEASE TAKE A SEAT. LET US REVIEW YOUR OPTIONS.",
+      "ru": "ПОЖАЛУЙСТА, ПРИСАЖИВАЙСЯ. ОБСУДИМ ТВОИ ВОЗМОЖНОСТИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "PERHAPS SITTING IN FRONT OF DEATH MAY SEEM AN ODD PLACE TO BE. I APOLOGIZE FOR ANY DISCOMFORT.",
+      "ru": "СИДЕТЬ НАПРОТИВ СМЕРТИ, ПОЖАЛУЙ, ДОВОЛЬНО СТРАННО. ПРОШУ ПРОЩЕНИЯ ЗА ВОЗМОЖНЫЙ ДИСКОМФОРТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "NOW, BEFORE WE BEGIN IN EARNEST. LIVING BEINGS ARE NOT SUBTLE ABOUT HAVING QUESTIONS. I AM SURE YOU HAVE THEM.",
+      "ru": "НО ПРЕЖДЕ ЧЕМ МЫ ПРИСТУПИМ К ДЕЛУ. ЖИВЫЕ СУЩЕСТВА НЕ УМЕЮТ СКРЫВАТЬ СВОИ ВОПРОСЫ. УВЕРЕН, ОНИ ЕСТЬ И У ТЕБЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "GO ON. ASK THEM NOW. I DO NOT WANT TO BE INTERRUPTED LATER.",
+      "ru": "СПРАШИВАЙ СЕЙЧАС. НЕ ХОЧУ, ЧТОБЫ МЕНЯ ПЕРЕБИВАЛИ ПОТОМ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "SO IT WOULD SEEM.",
+      "ru": "ПОХОЖЕ НА ТО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "FEEL FREE TO TAKE A MOMENT TO COME TO TERMS WITH YOUR MORTALITY, IF YOU NEED IT. I HAVE TIME.",
+      "ru": "ЕСЛИ НУЖНО ВРЕМЯ, ЧТОБЫ СМИРИТЬСЯ С СОБСТВЕННОЙ СМЕРТНОСТЬЮ, НЕ СПЕШИ. ВРЕМЯ У МЕНЯ ЕСТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "ANYTHING ELSE?",
+      "ru": "ЧТО-НИБУДЬ ЕЩЁ?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "MANY, MANY, MANY TIMES. AS HAS EVERY OTHER LIVING BEING.",
+      "ru": "МНОГО, МНОГО, МНОГО РАЗ. КАК И ЛЮБОЕ ДРУГОЕ ЖИВОЕ СУЩЕСТВО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "ONCE A LIFE REACHES AN END, THE SOUL PASSES THROUGH THE VEIL, CROSSING OVER INTO DEATH.",
+      "ru": "КОГДА ЖИЗНЬ ЗАКАНЧИВАЕТСЯ, ДУША ПРОХОДИТ СКВОЗЬ ЗАВЕСУ, ПЕРЕХОДЯ В ЦАРСТВО СМЕРТИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "HERE, THEY LINGER. MEMORIES FADE WITH TIME, AND THE SOUL IS REDUCED TO THE ESSENTIALS. PREPARED TO RETURN TO THE CYCLE.",
+      "ru": "ЗДЕСЬ ОНИ ЗАДЕРЖИВАЮТСЯ. ВОСПОМИНАНИЯ СО ВРЕМЕНЕМ БЛЕКНУТ, И ОТ ДУШИ ОСТАЁТСЯ ЛИШЬ САМАЯ СУТЬ. ОНА ГОТОВИТСЯ ВЕРНУТЬСЯ В КРУГОВОРОТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "LIFE AND DEATH ARE NOT IN OPPOSITION, AS YOU MORTALS OFTEN ASSUME. THEY ARE TWO PARTS OF THE SAME WHOLE.",
+      "ru": "ЖИЗНЬ И СМЕРТЬ НЕ ПРОТИВОПОЛОЖНЫ ДРУГ ДРУГУ, КАК ЧАСТО ДУМАЮТ СМЕРТНЫЕ. ЭТО ДВЕ ЧАСТИ ЕДИНОГО ЦЕЛОГО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "YOU, THE ESSENCE AT THE CORE OF YOUR BEING, HAVE BEEN HERE MANY TIMES BEFORE. AND YOU WILL BE HERE MANY TIMES AGAIN.",
+      "ru": "ТВОЯ СУТЬ, СОКРЫТАЯ В САМОЙ ГЛУБИНЕ ТВОЕГО СУЩЕСТВА, УЖЕ БЫВАЛА ЗДЕСЬ МНОГО РАЗ. И ЕЩЁ МНОГО РАЗ СЮДА ВЕРНЁТСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "...OR, SO I WOULD HOPE. BUT I DIGRESS.",
+      "ru": "...ПО КРАЙНЕЙ МЕРЕ, Я НА ЭТО НАДЕЮСЬ. НО Я ОТВЛЁКСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "IT IS DEATH. IT MAY BE HARD TO BELIEVE, I KNOW. AH HA HA. BUT I HAVE BEEN EXCEEDINGLY CLEAR, HAVEN'T I?",
+      "ru": "ЭТО СМЕРТЬ. ПОНИМАЮ, В ЭТО ТРУДНО ПОВЕРИТЬ. АХ-ХА-ХА. НО РАЗВЕ Я ВЫРАЗИЛСЯ НЕДОСТАТОЧНО ЯСНО?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "BUT NOT EVERY SOUL WILL SEE IT THE SAME WAY. MOST LACK THE CAPACITY TO CONCEPTUALIZE IT AS ANYTHING MORE THAN A HAZE. A BLURRED STATE OF BEING.",
+      "ru": "НО НЕ ВСЕ ДУШИ ВИДЯТ ЕГО ОДИНАКОВО. БОЛЬШИНСТВО НЕ МОЖЕТ ОСМЫСЛИТЬ ЕГО ИНАЧЕ КАК ТУМАН. РАСПЛЫВЧАТОЕ СОСТОЯНИЕ БЫТИЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "IT IS RARE THAT I MAY HOST A GUEST WITH THE CLARITY OF MIND AND THE WILLPOWER REMAINING TO SEE THIS PLACE FOR WHAT IT TRULY IS.",
+      "ru": "РЕДКО КО МНЕ ПРИБЫВАЕТ ГОСТЬ, У КОТОРОГО ЕЩЁ ХВАТАЕТ ЯСНОСТИ УМА И СИЛЫ ВОЛИ, ЧТОБЫ УВИДЕТЬ ЭТО МЕСТО ТАКИМ, КАКОВО ОНО НА САМОМ ДЕЛЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "HOWEVER FLEETINGLY, I DO ENJOY WHEN IT HAPPENS. IT IS WORTH CELEBRATING. NOW IF ONLY I HAD SOME SPIRITS TO SHARE. AH HA HA.",
+      "ru": "ПУСТЬ ЭТО МИМОЛЁТНО, Я ВСЕГДА РАД ТАКИМ ВСТРЕЧАМ. ЭТО СТОИТ ОТМЕТИТЬ. ВОТ БЫ ЕЩЁ НАШЛОСЬ СПИРТНОЕ, ЧТОБЫ УГОСТИТЬ ТЕБЯ. АХ-ХА-ХА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "OH, IT CHANGES WITH THE TIMES. AND ACCORDING TO MY WHIMS.",
+      "ru": "О, ЕГО ОБЛИК МЕНЯЕТСЯ ВМЕСТЕ СО ВРЕМЕНЕМ. И ПО МОЕЙ ПРИХОТИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "IT HAS PREVIOUSLY BEEN A TOWER, A CASTLE, A FOREST, A CAVERN... I WAS IN A VERY UNDERGROUND PHASE OF MY EXISTENCE BACK THEN.",
+      "ru": "РАНЬШЕ ОН БЫЛ БАШНЕЙ, ЗАМКОМ, ЛЕСОМ, ПЕЩЕРОЙ... ТОГДА У МЕНЯ БЫЛ ВЕСЬМА ПОДЗЕМНЫЙ ПЕРИОД СУЩЕСТВОВАНИЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "FOR NOW, A MANOR SERVES ME WELL. I DO ADMIRE THE ARCHITECTURAL STYLE OF ITS TIME. VERY GOTHIC.",
+      "ru": "СЕЙЧАС ОСОБНЯК МЕНЯ ВПОЛНЕ УСТРАИВАЕТ. МНЕ НРАВИТСЯ АРХИТЕКТУРНЫЙ СТИЛЬ ТОЙ ЭПОХИ. ВЕСЬМА ГОТИЧЕСКИЙ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "CERTAINLY NOT. WHEREVER WOULD I FIND THE TIME?",
+      "ru": "РАЗУМЕЕТСЯ, НЕТ. ГДЕ БЫ Я НАШЁЛ СТОЛЬКО ВРЕМЕНИ?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "FOR MOST SOULS, THERE IS LITTLE NEED TO INTERVENE. THEY WILL LINGER, BUT GIVEN TIME, THEY WILL FIND THEIR WAY FORWARD.",
+      "ru": "БОЛЬШИНСТВУ ДУШ МОЁ ВМЕШАТЕЛЬСТВО НЕ НУЖНО. ОНИ МОГУТ ЗАДЕРЖАТЬСЯ, НО СО ВРЕМЕНЕМ САМИ НАХОДЯТ ПУТЬ ДАЛЬШЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "BUT ON OCCASION, AN ARRIVAL WILL DRAW MY INTEREST. ONE WHICH DEMANDS A PROPER WELCOME.",
+      "ru": "НО ИНОГДА НОВОПРИБЫВШИЙ ПРИВЛЕКАЕТ МОЁ ВНИМАНИЕ. И ЗАСЛУЖИВАЕТ ДОЛЖНОГО ПРИЁМА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "THIS MEETING IN MY OFFICE IS NOT TRULY NECESSARY. THE PAPERWORK IS JUST FOR SHOW. BUT I LIKE TO INDULGE, ON OCCASION.",
+      "ru": "ЭТА ВСТРЕЧА В КАБИНЕТЕ НА САМОМ ДЕЛЕ НЕ НУЖНА. ВСЕ БУМАГИ ЛИШЬ ДЛЯ ВИДА. НО ПОРОЙ МНЕ ХОЧЕТСЯ ПОТАКАТЬ СВОИМ СЛАБОСТЯМ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "THAT SHOULD BE EVERYTHING, THEN. PERHAPS IF I GAVE YOU MORE TIME, YOU COULD THINK OF MORE.",
+      "ru": "ДУМАЮ, НА ЭТОМ ВСЁ. МОЖЕТ, ДАЙ Я ТЕБЕ БОЛЬШЕ ВРЕМЕНИ, ТЫ ПРИДУМАЛ БЫ ЕЩЁ ВОПРОСЫ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "BUT IT IS BEST WE GET ON WITH OUR DISCUSSION, I WOULD SAY.",
+      "ru": "НО, ПО-МОЕМУ, НАМ ПОРА ПРОДОЛЖИТЬ НАШУ БЕСЕДУ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "LET US BEGIN WITH THE BASICS.",
+      "ru": "НАЧНЁМ С ОСНОВ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "CAUSE OF DEATH: SLAIN BY THE HORROR KNOWN AS KROLTON. ANOTHER ADD TO THE TALLY.",
+      "ru": "ПРИЧИНА СМЕРТИ: УБИТ ЧУДОВИЩЕМ ПО ИМЕНИ КРОЛТОН. ЕЩЁ ОДИН В ЕГО СПИСКЕ ЖЕРТВ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "SWIFT AND UNAVOIDABLE. THERE IS NO SHAME IN LOSING TO SUCH A FORE. YOU ARE NOT THE FIRST, AND YOU WILL LIKELY NOT BE THE LAST.",
+      "ru": "СТРЕМИТЕЛЬНО И НЕОТВРАТИМО. В ПОРАЖЕНИИ ТАКОМУ ВРАГУ НЕТ НИЧЕГО ПОСТЫДНОГО. ТЫ НЕ ПЕРВЫЙ И, ВЕРОЯТНО, НЕ ПОСЛЕДНИЙ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "THOUGH PERHAPS I FIND MYSELF HOPING SOMEONE DOES MANAGE TO SUCCEED IN PUTTING AN END TO IT. IT HAS LIVED WELL BEYOND ITS MEAN, AND PROVES A NUISANCE EVERY TIME IT RE-EMERGES...",
+      "ru": "ХОТЯ, ПРИЗНАЮСЬ, Я НАДЕЮСЬ, ЧТО КОМУ-НИБУДЬ УДАСТСЯ С НИМ ПОКОНЧИТЬ. ОНО ПРОЖИЛО КУДА ДОЛЬШЕ ПОЛОЖЕННОГО И ДОСТАВЛЯЕТ ХЛОПОТЫ КАЖДЫЙ РАЗ, КОГДА ПОЯВЛЯЕТСЯ ВНОВЬ...",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "BUT I DIGRESS. NEXT, LET US PERUSE YOUR LIFE'S RECORD. IT IS A FORMALITY, FOR THE MOST PART. ONLY APPLICABLE IF YOU WISH TO RETURN TO THE CYCLE.",
+      "ru": "НО Я ОТВЛЁКСЯ. ДАЛЕЕ РАССМОТРИМ ЗАПИСИ О ТВОЕЙ ЖИЗНИ. ПО БОЛЬШЕЙ ЧАСТИ ЭТО ФОРМАЛЬНОСТЬ. ОНИ ПОНАДОБЯТСЯ ЛИШЬ ЕСЛИ ТЫ ЗАХОЧЕШЬ ВЕРНУТЬСЯ В КРУГОВОРОТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "SELFISHLY, HOWEVER, I WOULD URGE YOU TO LINGER A WHILE. IT HAS BEEN SOME TIME SINCE I HAVE HAD GUEST. YOUR COMPANY WOULD NOT BE UNAPPRECIATED.",
+      "ru": "ОДНАКО ИЗ ЭГОИСТИЧНЫХ ПОБУЖДЕНИЙ Я БЫ ПОСОВЕТОВАЛ ТЕБЕ ЗАДЕРЖАТЬСЯ. ГОСТЕЙ У МЕНЯ ДАВНО НЕ БЫЛО. ТВОЁ ОБЩЕСТВО БЫЛО БЫ ВЕСЬМА КСТАТИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "...YOU HAVE TIME TO DECIDE. FOR NOW, WE MAY...",
+      "ru": "...У ТЕБЯ ЕСТЬ ВРЕМЯ РЕШИТЬ. А ПОКА МЫ МОЖЕМ...",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "HM. HOW VERY INTERESTING. THAT WOULD EXPLAIN SOME THINGS.",
+      "ru": "ХМ. КАК ЛЮБОПЫТНО. ЭТО КОЕ-ЧТО ОБЪЯСНЯЕТ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "SOMETHING HAS GONE WRONG. IT WOULD SEEM YOUR SPARK HAS PERSISTED EVEN THROUGH THE VEIL... EVEN THOUGH SUCH A THING SHOULD BE IMPOSSIBLE.",
+      "ru": "ЧТО-ТО ПОШЛО НЕ ТАК. ПОХОЖЕ, ТВОЯ ИСКРА СОХРАНИЛАСЬ ДАЖЕ ПО ТУ СТОРОНУ ЗАВЕСЫ... ХОТЯ ЭТО ДОЛЖНО БЫТЬ НЕВОЗМОЖНО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "IT HAS IMPRINTED ITSELF INTO YOUR VERY ESSENCE... HOW HAS THIS COME TO PASS? COULD IT HAVE BEEN...",
+      "ru": "ОНА ЗАПЕЧАТЛЕЛАСЬ В САМОЙ ТВОЕЙ СУТИ... КАК ЭТО МОГЛО ПРОИЗОЙТИ? НЕУЖЕЛИ ЭТО...",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "AH. I SEE... THIS COMPLICATES MATTERS.",
+      "ru": "А. ПОНИМАЮ... ЭТО ОСЛОЖНЯЕТ ДЕЛО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "I WOULD NOT WISH TO KEEP YOU HERE. IT WOULD NOT BE RIGHT. AND YET, I LACK THE MEANS TO RETURN YOU TO THE LIVING. SUCH AN ACT IS BEYOND MY OWN CAPABILITY.",
+      "ru": "Я НЕ ХОЧУ УДЕРЖИВАТЬ ТЕБЯ ЗДЕСЬ. ЭТО БЫЛО БЫ НЕПРАВИЛЬНО. И ВСЁ ЖЕ У МЕНЯ НЕТ ВОЗМОЖНОСТИ ВЕРНУТЬ ТЕБЯ К ЖИВЫМ. ПОДОБНОЕ ДЕЯНИЕ МНЕ НЕ ПОД СИЛУ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "WHAT TO DO, WHAT TO DO...",
+      "ru": "ЧТО ЖЕ ДЕЛАТЬ, ЧТО ЖЕ ДЕЛАТЬ...",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "A THOUGHT OCCURS TO ME. THOUGH I LACK THE MEANS MYSELF, THERE IS AN OPTION YET OPEN TO US. A THREAD I MAY REACH OUT AND GRASP.",
+      "ru": "МНЕ ПРИШЛА В ГОЛОВУ МЫСЛЬ. ПУСТЬ У МЕНЯ САМОГО НЕТ НУЖНЫХ СРЕДСТВ, ОДИН ВАРИАНТ НАМ ЕЩЁ ДОСТУПЕН. НИТЬ, ДО КОТОРОЙ Я МОГУ ДОТЯНУТЬСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "THE WRETCHED KROLTON. ITS SPARK IS STRONG, HAVING TAKEN SO MANY LIVES TO MAINTAIN IT. IF IT IS SLAIN, THAT STRENGTH WILL QUICKLY DISPERSE.",
+      "ru": "ПРОКЛЯТЫЙ КРОЛТОН. ЕГО ИСКРА СИЛЬНА: ОН ПОДПИТЫВАЛ ЕЁ МНОЖЕСТВОМ ОТНЯТЫХ ЖИЗНЕЙ. ЕСЛИ ЕГО УБИТЬ, ЭТА СИЛА БЫСТРО РАССЕЕТСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "BUT FOR ONE SHORT MOMENT, IT WILL BE WITHIN MY REACH. AND WITH IT, WE MAY REIGNITE YOUR OWN CRADLED SPARK.",
+      "ru": "НО НА ОДНО КОРОТКОЕ МГНОВЕНИЕ ОНА БУДЕТ В МОЕЙ ДОСЯГАЕМОСТИ. И С ЕЁ ПОМОЩЬЮ МЫ СНОВА РАЗОЖЖЁМ ТВОЮ СОХРАНЁННУЮ ИСКРУ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "...THIS IS NOT AN ACT I TAKE LIGHTLY. TO TWIST THE CYCLE IN SUCH A WAY... IT IS AGAINST MY VERY NATURE.",
+      "ru": "...Я НЕ ИДУ НА ЭТО ЛЕГКОМЫСЛЕННО. ТАК ИСКАЗИТЬ КРУГОВОРОТ... ЭТО ПРОТИВНО САМОЙ МОЕЙ ПРИРОДЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "BUT, SELFISHLY, I FIND MYSELF CARING LESS ABOUT SUCH THINGS AS OF LATE.",
+      "ru": "НО В ПОСЛЕДНЕЕ ВРЕМЯ ЭГОИЗМ ВСЁ ЧАЩЕ ЗАСТАВЛЯЕТ МЕНЯ ПРЕНЕБРЕГАТЬ ТАКИМИ ВЕЩАМИ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "SO IT IS DECIDED. I WILL GRANT YOU PASSAGE BACK BEYOND THE VEIL, WHERE YOU WILL RETURN TO THE BODY YOU HAD LEFT BEHIND.",
+      "ru": "ИТАК, РЕШЕНО. Я ОТКРОЮ ТЕБЕ ПУТЬ ОБРАТНО СКВОЗЬ ЗАВЕСУ, И ТЫ ВЕРНЁШЬСЯ В ПОКИНУТОЕ ТОБОЙ ТЕЛО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "THERE, WITH WHAT STRENGTH YOU HAVE, YOU WILL BRING AND END TO THAT HORROR. AND THROUGH THAT END, WE SHALL STAVE OFF YOUR OWN.",
+      "ru": "ТАМ, СОБРАВ ОСТАВШИЕСЯ СИЛЫ, ТЫ ПОКОНЧИШЬ С ЭТИМ ЧУДОВИЩЕМ. И ЕГО КОНЕЦ ПОЗВОЛИТ НАМ ОТВЕСТИ ТВОЙ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "IT WILL TAKE SOME TIME TO PREPARE. IN THE MEANTIME, YOU MAY EXPLORE THE MANSION FURTHER.",
+      "ru": "НА ПОДГОТОВКУ ПОТРЕБУЕТСЯ ВРЕМЯ. А ПОКА МОЖЕШЬ ЕЩЁ ОСМОТРЕТЬ ОСОБНЯК.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "THERE IS A GAME I HAD SET UP, IN THE OTHER UPSTAIRS ROOM. IT WAS MEANT TO BE A SURPRISE FOR YOU, BUT SINCE YOU WILL BE LEAVING, I SUPPOSE WE MAY PUSH IT FORWARD.",
+      "ru": "В ДРУГОЙ КОМНАТЕ НАВЕРХУ Я УСТРОИЛ ИГРУ. ХОТЕЛ СДЕЛАТЬ ТЕБЕ СЮРПРИЗ, НО РАЗ ТЫ СОБИРАЕШЬСЯ УХОДИТЬ, ПОЖАЛУЙ, МОЖНО НАЧАТЬ РАНЬШЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "YES? WHAT ELSE DO YOU NEED?",
+      "ru": "ДА? ЧТО ЕЩЁ ТЕБЕ НУЖНО?",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "HM.",
+      "ru": "ХМ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "WHY INDEED.",
+      "ru": "И ПРАВДА, ПОЧЕМУ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "I SUPPOSE I HAVE GROWN TIRED OF STANDING BY.",
+      "ru": "ДУМАЮ, МНЕ НАДОЕЛО СТОЯТЬ В СТОРОНЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "IT IS DIFFICULT, WATCHING THE WORLD'S FATE UNFOLD, UNABLE TO LIFT EVEN A SINGLE SKELETAL FINGER TO MAKE A DIFFERENCE.",
+      "ru": "ТЯЖЕЛО НАБЛЮДАТЬ, КАК РАЗВОРАЧИВАЕТСЯ СУДЬБА МИРА, НЕ В СИЛАХ ДАЖЕ ПОШЕВЕЛИТЬ КОСТЯНЫМ ПАЛЬЦЕМ, ЧТОБЫ ЧТО-ТО ИЗМЕНИТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "YOU DO NOT YET UNDERSTAND, I TAKE IT. FEW EVER WILL. IT IS SOMETHING FAR BEYOND ANY MORTAL'S CAPACITY TO COMPREHEND.",
+      "ru": "ПОЛАГАЮ, ТЫ ПОКА НЕ ПОНИМАЕШЬ. МАЛО КТО КОГДА-ЛИБО ПОЙМЁТ. ЭТО НЕЧТО ДАЛЕКО ЗА ПРЕДЕЛАМИ ПОНИМАНИЯ ЛЮБОГО СМЕРТНОГО.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "I SUSPECT YOU WILL SOMEDAY. I DO NOT BELIEVE IN DESTINY. BUT PERHAPS THIS IS CLOSE ENOUGH.",
+      "ru": "ДУМАЮ, КОГДА-НИБУДЬ ТЫ ПОЙМЁШЬ. Я НЕ ВЕРЮ В СУДЬБУ. НО, ВОЗМОЖНО, ЭТО НЕЧТО БЛИЗКОЕ К НЕЙ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "IN TRUTH, YOU ARE RATHER FORTUNATE. YOU HAVE FOUND YOURSELF IN THE EXACT SET OF CIRCUMSTANCES TO ALLOW ME TO INTERVENE.",
+      "ru": "ПО ПРАВДЕ, ТЕБЕ ОЧЕНЬ ПОВЕЗЛО. ТЫ ОКАЗАЛСЯ ИМЕННО В ТАКОМ СТЕЧЕНИИ ОБСТОЯТЕЛЬСТВ, КОТОРОЕ ПОЗВОЛЯЕТ МНЕ ВМЕШАТЬСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "IT WOULD NOT BE RIGHT TO LET THE OPPORTUNITY PASS ME BY.",
+      "ru": "БЫЛО БЫ НЕПРАВИЛЬНО УПУСТИТЬ ТАКУЮ ВОЗМОЖНОСТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "IN ANY OTHER CIRCUMSTANCE, I WOULD BE HAPPY TO OBLIGE. A LONG-TERM GUEST IS ALWAYS APPRECIATED IN THESE LONESOME TIMES.",
+      "ru": "ПРИ ЛЮБЫХ ДРУГИХ ОБСТОЯТЕЛЬСТВАХ Я БЫ ОХОТНО СОГЛАСИЛСЯ. В ЭТИ ОДИНОКИЕ ВРЕМЕНА Я ВСЕГДА РАД ГОСТЮ, ГОТОВОМУ ЗАДЕРЖАТЬСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "BUT I CAN NOT. I WILL NOT.",
+      "ru": "НО Я НЕ МОГУ. И НЕ СТАНУ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "...I HOPE YOU WILL UNDERSTAND.",
+      "ru": "...НАДЕЮСЬ, ТЫ ПОЙМЁШЬ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "...GO. DO NOT LINGER HERE ANY LONGER.",
+      "ru": "...ИДИ. НЕ ЗАДЕРЖИВАЙСЯ ЗДЕСЬ БОЛЬШЕ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "THE GAME IS IN THE OTHER UPSTAIRS ROOM, ON THE OTHER END OF THE MANSION. I THINK YOU WILL ENJOY IT.",
+      "ru": "ИГРА В ДРУГОЙ КОМНАТЕ НАВЕРХУ, НА ПРОТИВОПОЛОЖНОМ КОНЦЕ ОСОБНЯКА. ДУМАЮ, ТЕБЕ ПОНРАВИТСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "I CANNOT HELP BUT NOTICE YOU ARE STILL HERE. ARE YOU LOST? THE GAME IS READY FOR YOU IN THE OTHER UPSTAIRS ROOM, ON THE OTHER END OF THE MANSION.",
+      "ru": "НЕ МОГУ НЕ ЗАМЕТИТЬ, ЧТО ТЫ ВСЁ ЕЩЁ ЗДЕСЬ. ЗАБЛУДИЛСЯ? ИГРА ЖДЁТ ТЕБЯ В ДРУГОЙ КОМНАТЕ НАВЕРХУ, НА ПРОТИВОПОЛОЖНОМ КОНЦЕ ОСОБНЯКА.",
+      "speaker": "Death",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "WELL, I DID SAY YOU NEED TO BE SITTING ON THE COUCH. THE SCREEN TURNS OFF IF YOU MOVE TOO FAR AWAY. YOU'LL HAVE TO START OVER.",
+      "ru": "Я ВЕДЬ СКАЗАЛ, ЧТО НУЖНО СИДЕТЬ НА ДИВАНЕ. ЭКРАН ВЫКЛЮЧАЕТСЯ, ЕСЛИ ОТОЙТИ СЛИШКОМ ДАЛЕКО. ПРИДЁТСЯ НАЧАТЬ ЗАНОВО.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "...AH, THE LOOK ON YOUR FACE. PRICELESS. GIVEN HOW MY SKULL IS SOLID, MY GUESTS HAVE TO MEET MY FILL OF MAKING FACES FOR ME.",
+      "ru": "...АХ, ТВОЁ ВЫРАЖЕНИЕ ЛИЦА. БЕСЦЕННО. ПОСКОЛЬКУ МОЙ ЧЕРЕП НЕПОДВИЖЕН, ГОСТЯМ ПРИХОДИТСЯ КОМПЕНСИРОВАТЬ МОЮ НЕСПОСОБНОСТЬ СТРОИТЬ РОЖИ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "SEEING AS YOU NEED TO LEAVE SOON, I HAVE ELECTED TO CUT THE QUIZ SHOW SHORT. FOR NOW, WE WILL PICK BACK UP WHERE WE LEFT OFF ONCE YOU INEVITABLY RETURN.",
+      "ru": "РАЗ ТЕБЕ СКОРО УХОДИТЬ, Я РЕШИЛ СОКРАТИТЬ ВИКТОРИНУ. ПОКА ЧТО. КОГДА ТЫ НЕИЗБЕЖНО ВЕРНЁШЬСЯ, МЫ ПРОДОЛЖИМ С ТОГО МЕСТА, ГДЕ ОСТАНОВИЛИСЬ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "...WAS IT ENJOYABLE? I HAD PUT A GREAT DEAL OF WORK INTO IT.",
+      "ru": "...ТЕБЕ ПОНРАВИЛОСЬ? Я ПОТРАТИЛ НА НЕЁ НЕМАЛО СИЛ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "I AM GLAD. I PUT A LOT OF TIME IN ENSURING MY GUESTS ARE ENTERTAINED HERE.",
+      "ru": "Я РАД. Я УДЕЛЯЮ МНОГО ВРЕМЕНИ ТОМУ, ЧТОБЫ ГОСТЯМ ЗДЕСЬ НЕ БЫЛО СКУЧНО.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "I SEE. VERY WELL. YOUR FEEDBACK IS APPRECIATED. I WILL HAVE TO MAKE SOME REVISIONS.",
+      "ru": "ПОНИМАЮ. ЧТО Ж, СПАСИБО ЗА ОТЗЫВ. ПРИДЁТСЯ ВНЕСТИ КОЕ-КАКИЕ ИЗМЕНЕНИЯ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "THEN THAT IS ALL. IF ONLY YOU COULD STAY LONGER- I DO ENJOY ACTIVITIES WITH LUCID GUESTS. COOK CLUBS, LITTLE PARADES... BUT IT WILL HAVE TO WAIT.",
+      "ru": "ТОГДА НА ЭТОМ ВСЁ. ЕСЛИ БЫ ТЫ МОГ ОСТАТЬСЯ ПОДОЛЬШЕ! МНЕ НРАВИТСЯ ПРОВОДИТЬ ВРЕМЯ С ГОСТЯМИ, СОХРАНИВШИМИ ЯСНОСТЬ УМА. КУЛИНАРНЫЕ КЛУБЫ, МАЛЕНЬКИЕ ПАРАДЫ... НО ЭТО ПОДОЖДЁТ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "NOW. THIS MANOR HASN'T GOT A BACK DOOR, SO I WILL NEED TO MAKE ONE FOR YOU TO EXIT. EXCUSE THE NOISE FOR MOMENT, AND TAKE THE NEW EXIT ANY TIME YOU LIKE.",
+      "ru": "ИТАК. В ЭТОМ ОСОБНЯКЕ НЕТ ЗАДНЕЙ ДВЕРИ, ПОЭТОМУ Я СДЕЛАЮ ТЕБЕ НОВЫЙ ВЫХОД. ПРОСТИ ЗА ШУМ И ВЫХОДИ, КОГДА ЗАХОЧЕШЬ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "SO, THERE YOU GO, WALKING BACK INTO THE LONG DREAM OF LIFE.",
+      "ru": "ВОТ ТЫ И УХОДИШЬ, ВОЗВРАЩАЯСЬ В ДОЛГИЙ СОН ЖИЗНИ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "IT WAS A SHORT STAY. BUT, I DID ENJOY HAVING YOU HERE. I ALWAYS DO LIKE THE GUESTS WHO CAN SEE ME FOR WHAT I AM.",
+      "ru": "ТВОЁ ПРЕБЫВАНИЕ БЫЛО КОРОТКИМ. НО Я БЫЛ РАД ТЕБЕ. МНЕ ВСЕГДА НРАВЯТСЯ ГОСТИ, СПОСОБНЫЕ УВИДЕТЬ МЕНЯ ТАКИМ, КАКОВ Я ЕСТЬ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "THE CIRCUMSTANCES HAVE NEVER ALIGNED FOR A GUEST TO LEAVE THIS WAY. TYPICALLY, THEY WILL MOVE ON AND EVENTUALLY RETURN TO THE CYCLE.",
+      "ru": "РАНЬШЕ ОБСТОЯТЕЛЬСТВА НИКОГДА НЕ СКЛАДЫВАЛИСЬ ТАК, ЧТОБЫ ГОСТЬ МОГ УЙТИ ЭТИМ ПУТЁМ. ОБЫЧНО ОНИ ДВИЖУТСЯ ДАЛЬШЕ И СО ВРЕМЕНЕМ ВОЗВРАЩАЮТСЯ В КРУГОВОРОТ.",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "SO IN A WAY, THIS CANNOT BE CALLED A \"GOODBYE.\" AH HA HA. NO, INSTEAD IT IS A \"SEE YOU SOON.\"",
+      "ru": "ТАК ЧТО ЭТО НЕЛЬЗЯ НАЗВАТЬ \"ПРОЩАНИЕМ\". АХ-ХА-ХА. СКОРЕЕ, ЭТО \"ДО СКОРОЙ ВСТРЕЧИ\".",
+      "speaker": "Death",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "...ONE LAST THING. YOU HAVE NOT YET ENTIRELY REINTEGRATED INTO YOUR BODY.",
+      "ru": "...ЕЩЁ ОДНО. ТЫ ПОКА НЕ ДО КОНЦА ВЕРНУЛСЯ В СВОЁ ТЕЛО.",
+      "speaker": "Death",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "AS SUCH, FOR THE TIME BEING, MORTALITY IS MERELY A SUGGESTION. SO BE AS RECKLESS AS YOU WANT.",
+      "ru": "ТАК ЧТО ПОКА СМЕРТНОСТЬ ДЛЯ ТЕБЯ - НЕ БОЛЕЕ ЧЕМ РЕКОМЕНДАЦИЯ. РИСКУЙ СКОЛЬКО ДУШЕ УГОДНО.",
+      "speaker": "Death",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "SO LONG AS THE HORROR DIES, NOT MATTER THE CAUSE, IT WILL BE ENOUGH FOR OUR NEEDS. REMEMBER THAT.",
+      "ru": "ЕСЛИ ЧУДОВИЩЕ УМРЁТ, ПРИЧИНА НЕВАЖНА: ЭТОГО БУДЕТ ДОСТАТОЧНО. ПОМНИ ОБ ЭТОМ.",
+      "speaker": "Death",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "[+1 Krolton's Remains]",
+      "ru": "[+1 Krolton's Remains]",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "AND THERE SHALL I DECLARE IT BE DONE. THE HORROR'S SPARK UNWOVEN.. AND YOU, BODY, SOUL, SPARK, KNITTED BACK TOGETHER. A NEW PATCH FOR THE TAPESTRY OF YOUR LIFE.",
+      "ru": "НА ЭТОМ Я ОБЪЯВЛЯЮ ДЕЛО ЗАВЕРШЁННЫМ. ИСКРА ЧУДОВИЩА РАСПЛЕТЕНА... А ТВОИ ТЕЛО, ДУША И ИСКРА СНОВА СПЛЕТЕНЫ ВОЕДИНО. НОВАЯ ЗАПЛАТА НА ГОБЕЛЕНЕ ТВОЕЙ ЖИЗНИ.",
+      "speaker": "Death",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "IT WAS NICE TO SEE THIS PLACE IN PERSON AGAIN, EVEN IF I WAS ONLY VISITING FOR A MOMENT. BUT NOW I MUST RETURN TO MY OWN BUSINESS.",
+      "ru": "ПРИЯТНО БЫЛО СНОВА УВИДЕТЬ ЭТО МЕСТО ЛИЧНО, ПУСТЬ Я И ЗАГЛЯНУЛ ЛИШЬ НА МГНОВЕНИЕ. НО ТЕПЕРЬ МНЕ ПОРА ВЕРНУТЬСЯ К СВОИМ ДЕЛАМ.",
+      "speaker": "Death",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "THIS MEANS FAREWELL, FOR THE TIME BEING. WHEN WE NEXT MEET, YOU WILL HAVE REACHED YOUR FINAL END.",
+      "ru": "А ЗНАЧИТ, ПОРА ПРОЩАТЬСЯ. КОГДА МЫ ВСТРЕТИМСЯ СНОВА, ТВОЯ ЖИЗНЬ ОКОНЧАТЕЛЬНО ЗАВЕРШИТСЯ.",
+      "speaker": "Death",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "TIL THEN, TREASURE YOUR LIFE AS YOU LIVE IT TO THE FULLEST. I LOOK FORWARD TO SHARING STORIES OVER TEA, AH HA HA.",
+      "ru": "А ПОКА ДОРОЖИ ЖИЗНЬЮ И ЖИВИ ЕЮ СПОЛНА. БУДУ ЖДАТЬ НАШИХ ИСТОРИЙ ЗА ЧАШКОЙ ЧАЯ. АХ-ХА-ХА.",
+      "speaker": "Death",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "...",
+      "ru": "...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "You feel... alive again. Everything feels just as it did before you died.",
+      "ru": "Вы чувствуете... что снова живы. Всё точно так же, как было до вашей смерти.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "...did all of that actually just happen?",
+      "ru": "...Неужели всё это и правда произошло?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Well, the job is done. You should tell Irlok the good news...",
+      "ru": "Что ж, работа сделана. Надо сообщить Ирлоку хорошую новость...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "...though, maybe you'll avoid mentioning your death. That would be weird.",
+      "ru": "...Только о своей смерти, пожалуй, лучше промолчать. Это было бы странно.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "REVISITING OLD MEMORIES, ARE WE?",
+      "ru": "ПЕРЕБИРАЕМ СТАРЫЕ ВОСПОМИНАНИЯ?",
+      "speaker": "Death",
+      "stage": "Post-Quest Interactions"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Irlok in the Bantisu Air Temple at [499, 155, -4778].",
+      "ru": "Поговорить с Ирлоком в храме воздуха Бантису [499, 155, -4778].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Seek out the creature in the mines at [367, 30, -4923].",
+      "ru": "Найти существо в шахтах [367, 30, -4923].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Explore the strange realm and bargain with Death.",
+      "ru": "Исследовать странный мир и договориться со Смертью.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find a way to exit the strange realm by looking around the mansion.",
+      "ru": "Осмотреть особняк и найти выход из странного мира.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Defeat Krolton to earn your way back to the living.",
+      "ru": "Победить Кролтона, чтобы вернуться в мир живых.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Take proof of Krolton's demise to Irlok at [499, 155, -4778]",
+      "ru": "Принести Ирлоку доказательство гибели Кролтона [499, 155, -4778].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": [
+    {
+      "en": "More questions",
+      "ru": "§#AA0000§lЕщё вопросы§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0001"
+    },
+    {
+      "en": "Chocolate chip biscuit",
+      "ru": "§#00AA00§lПеченье с шоколадной крошкой§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0002"
+    },
+    {
+      "en": "New car",
+      "ru": "§#00AAAA§lНовая машина§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0003"
+    },
+    {
+      "en": "Gold sticker",
+      "ru": "§#AA00AA§lЗолотая наклейка§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0004"
+    },
+    {
+      "en": "Dorothy",
+      "ru": "§#00AAAA§lДороти§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0005"
+    },
+    {
+      "en": "Colossal",
+      "ru": "§#AA0000§lКолоссальный§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0006"
+    },
+    {
+      "en": "About yay-long",
+      "ru": "§#00AA00§lВот такущей длины§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0007"
+    },
+    {
+      "en": "Pretty big",
+      "ru": "§#00AAAA§lДовольно большой§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0008"
+    },
+    {
+      "en": "Unusually-sized",
+      "ru": "§#AA00AA§lНеобычного размера§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0009"
+    },
+    {
+      "en": "Sayleros' Brother",
+      "ru": "§#00AA00§lБрат Сайлероса§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0010"
+    },
+    {
+      "en": "Bandit #37",
+      "ru": "§#00AAAA§lБандит №37§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0011"
+    },
+    {
+      "en": "Yansur",
+      "ru": "§#AA00AA§lЯнсур§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0012"
+    },
+    {
+      "en": "Rodoroc",
+      "ru": "§#AA0000§lРодорок§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0013"
+    },
+    {
+      "en": "Thesead",
+      "ru": "§#00AA00§lТесеад§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0014"
+    },
+    {
+      "en": "Thanos",
+      "ru": "§#AA00AA§lТанос§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0075",
+      "id": "choice-0015"
+    },
+    {
+      "id": "choice-0016",
+      "en": "I'm dead?",
+      "ru": "Я умер?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0149"
+    },
+    {
+      "id": "choice-0017",
+      "en": "Have I been here before?",
+      "ru": "Я уже бывал здесь раньше?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0152"
+    },
+    {
+      "id": "choice-0018",
+      "en": "What is this place?",
+      "ru": "Что это за место?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0158"
+    },
+    {
+      "id": "choice-0019",
+      "en": "Why a mansion?",
+      "ru": "Почему особняк?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0162"
+    },
+    {
+      "id": "choice-0020",
+      "en": "Do you talk to everyone?",
+      "ru": "Вы разговариваете со всеми?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0165"
+    },
+    {
+      "id": "choice-0021",
+      "en": "We can move on.",
+      "ru": "Можно продолжать.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0169"
+    },
+    {
+      "id": "choice-0022",
+      "en": "Why are you doing this for me?",
+      "ru": "Почему вы делаете это ради меня?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0194"
+    },
+    {
+      "id": "choice-0023",
+      "en": "What if I want to stay?",
+      "ru": "А если я захочу остаться?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0202"
+    },
+    {
+      "id": "choice-0024",
+      "en": "Darth",
+      "ru": "§#AA0000§lДарт§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0025",
+      "en": "Death",
+      "ru": "§#00AA00§lСмерть§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0026",
+      "en": "Joe.",
+      "ru": "§#AA00AA§lДжо.§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0027",
+      "en": "You",
+      "ru": "§#AA0000§lТы§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0028",
+      "en": "Irlok",
+      "ru": "§#AA00AA§lИрлок§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0029",
+      "en": "Qira",
+      "ru": "§#AA0000§lКира§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0030",
+      "en": "Quira",
+      "ru": "§#00AA00§lКуира§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0031",
+      "en": "Gale",
+      "ru": "§#00AAAA§lГейл§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0032",
+      "en": "Eltom",
+      "ru": "§#00AAAA§lЭлтом§r",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0209"
+    },
+    {
+      "id": "choice-0033",
+      "en": "It was!",
+      "ru": "Да!",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0212"
+    },
+    {
+      "id": "choice-0034",
+      "en": "Needs some work.",
+      "ru": "Нужно кое-что доработать.",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0213"
+    }
+  ]
+}

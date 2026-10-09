@@ -3,7 +3,7 @@
   "id": "wynn_runica",
   "version": "${version}",
   "name": "WynnRunica",
-  "description": "Полноценный русский перевод диалогов Wynncraft. Кириллица нарисована вручную в стиле оригинала.",
+  "description": "Русский перевод Wynncraft: диалоги, квесты, интерфейс и чат. Кириллица нарисована вручную в стиле оригинала.",
   "authors": ["shiiu"],
   "contact": {
     "homepage": "https://modrinth.com/mod/wynnrunica",
@@ -16,6 +16,9 @@
   "entrypoints": {
     "client": [
       "com.WynnRunica.WynnRunicaClient"
+    ],
+    "modmenu": [
+      "com.WynnRunica.gui.ModMenuIntegration"
     ]
   },
   "mixins": [

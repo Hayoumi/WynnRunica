@@ -1,0 +1,1098 @@
+{
+  "quest": "King's Recruit",
+  "level": 1,
+  "difficulty": "Easy",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "king-s-recruit",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Agh!",
+      "ru": "Ай!",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Hey, <playername>! You alright in there? Looks like we hit something.",
+      "ru": "Эй, <playername>! Ты там живой? Похоже, мы во что-то влетели.",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Hm... I swear I hit this same darn boulder every time I make this trip. Sorry folks.",
+      "ru": "Хм... Клянусь, я в этот чёртов булыжник врезаюсь каждый раз, когда еду этим путём. Простите, народ.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Ah. Does this mean we have to walk all the way to Ragni from here?",
+      "ru": "А. Это значит, что теперь нам пешком топать до самого Рагни?",
+      "speaker": "Tasim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Unfortunately so. Luckily, it's not that far from here. Just a straight path forward.",
+      "ru": "К сожалению, да. Но, к счастью, отсюда уже недалеко. Просто прямо по дороге.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Well, nothing to do but keep moving! Tasim, <playername>, I'll race you to the gate!",
+      "ru": "Ну, делать нечего, надо идти дальше! Тасим, <playername>, наперегонки до ворот!",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Wait, don't!",
+      "ru": "Стой, не надо!",
+      "speaker": "Tasim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "... He's already gone. We'll have to catch up to him. <playername>, lead the way.",
+      "ru": "... Он уже умчался. Придётся догонять. <playername>, веди.",
+      "speaker": "Tasim",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I don't suppose you know much about Wynn either, do you?",
+      "ru": "Полагаю, ты тоже не особо много знаешь про Винн, да?",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Of course, the King of Ragni's been recruiting Fruma soldiers, but...",
+      "ru": "Ну, мы-то знаем, что король Рагни набирает солдат из Фрумы, но...",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "That war of theirs must be getting pretty bad if they need this much support.",
+      "ru": "Должно быть, дела на войне идут совсем плохо, раз им нужно столько подкреплений.",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Oh, there's Aledar! And the gate, by the looks of it.",
+      "ru": "О, вон и Аледар! И ворота, вроде бы.",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "There you two are! You'll have to be faster than that if you want to stand a chance against the undead.",
+      "ru": "А вот и вы двое! Если хотите выстоять против нежити, придётся двигаться быстрее.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Yes, yes, we'll be faster next time.",
+      "ru": "Да-да, в следующий раз будем быстрее.",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "It looks like it, yep! Are you two ready for the start of our new lives?",
+      "ru": "Похоже на то, ага! Ну что, готовы начать новую жизнь?",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "<playername>, why don't you do the honors? Go ahead and open that gate.",
+      "ru": "<playername>, давай ты. §bОткрывай ворота§r.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Well, what are we waiting for? Let's go ahead and explore this province.",
+      "ru": "Ну и чего мы ждём? Пошли знакомиться с этой провинцией.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "So this is Wynn we've all been hearing about... It's beautiful.",
+      "ru": "Значит, вот он какой, этот Винн, про который все столько говорили... Красиво тут.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I guess the war hasn't made it this far. This is what we'll be fighting to protect.",
+      "ru": "Похоже, война сюда пока не добралась. Вот это мы и будем защищать.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Hey, recruits! Come over here, I have something to tell you.",
+      "ru": "Эй, новобранцы! Подойдите, мне нужно кое-что вам сказать.",
+      "speaker": "Soldier",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "A soldier? What are you doing all the way out here?",
+      "ru": "Солдат? А ты что здесь забыл, так далеко от города?",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "There's a bit of trouble up ahead. They sent me out here to intercept new recruits.",
+      "ru": "Впереди неспокойно. Меня отправили сюда встречать новобранцев.",
+      "speaker": "Soldier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "If you want to survive out here, you're going to need this.",
+      "ru": "Если хотите тут выжить, вам понадобится вот это.",
+      "speaker": "Soldier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "[+1 Oak Wood Weapon]",
+      "ru": "[+1 Oak Wood Weapon]",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "And for you two.",
+      "ru": "И для вас двоих тоже.",
+      "speaker": "Soldier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Woah, awesome!",
+      "ru": "Ого, круто!",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Hopefully we won't have to use these just yet.",
+      "ru": "Надеюсь, применять это прямо сейчас всё же не придётся.",
+      "speaker": "Tasim",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Good luck out there, recruits! Just follow this path, and there will be a bridge up ahead.",
+      "ru": "Удачи там, новобранцы! Просто §bидите по дороге§r, впереди будет мост.",
+      "speaker": "Soldier",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Ah, this must be the bridge the soldier was talking about. But it certainly looks very...",
+      "ru": "А, значит, вот и мост, о котором он говорил. Только выглядит он как-то очень...",
+      "speaker": "Tasim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Well, let's not keep the King of Ragni waiting!",
+      "ru": "Ну, давайте не заставлять короля Рагни ждать!",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "No, wait!",
+      "ru": "Нет, стой!",
+      "speaker": "Tasim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Aledar!",
+      "ru": "Аледар!",
+      "speaker": "Tasim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "That sure was close!",
+      "ru": "Едва пронесло!",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "That's what I was trying to warn you about! Let's just get off this bridge before the rest of it collapses...",
+      "ru": "Вот об этом я и пытался предупредить! Давайте уйдём с моста, пока он не рухнул окончательно...",
+      "speaker": "Tasim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Well, how are we meant to get to the other side of this ravine now? Ugh. Another thing gone wrong, just like-...",
+      "ru": "И как нам теперь перебраться на другую сторону этого ущелья? Ух. Вечно всё идёт не по плану, совсем как-...",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "... Aledar? What's wrong?",
+      "ru": "... Аледар? Ты чего?",
+      "speaker": "Tasim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "That's... weird. I was just thinking about something from before Wynn, but... it's gone. I can't remember.",
+      "ru": "Это... странно. Я только что думал о чём-то из жизни до Винна, но... всё. Не помню.",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Hm. I can't remember anything from Fruma either... <playername>, how about you?",
+      "ru": "Хм. Я тоже ничего не могу вспомнить про Фруму... <playername>, а у тебя как?",
+      "speaker": "Tasim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Nothing. It can't be a coincidence we all lost our memories at the same time, right?",
+      "ru": "Ничего. Не может же быть совпадением, что мы все потеряли память одновременно, да?",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "No, but... We can worry about that later. For now, we need to find a way past this ravine. Aledar, <playername>, you should look for a way across. I'll keep looking here.",
+      "ru": "Нет, но... об этом подумаем позже. Сейчас нам нужно перебраться через ущелье. Аледар, <playername>, §bпоищите путь на ту сторону§r. Я пока осмотрюсь здесь.",
+      "speaker": "Tasim",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Alright! Let's go, <playername>.",
+      "ru": "Ладно! Пошли, <playername>.",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Woah! That sure did the trick, <playername>. Good thinking!",
+      "ru": "Ого! Вот это сработало, <playername>. Хорошо придумал!",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Hey, Tasim! Come over here, <playername> found a way over!",
+      "ru": "Эй, Тасим! Иди сюда, <playername> нашёл путь!",
+      "speaker": "Aledar",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Phew! We made it over safely this time at least.",
+      "ru": "Фух! На этот раз перебрались хотя бы без происшествий.",
+      "speaker": "Tasim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "If we just continue forward, we should make it to Ragni in no time!",
+      "ru": "Если просто идти дальше, до Рагни доберёмся совсем скоро!",
+      "speaker": "Aledar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Hmm? What's that guard doing here? We should probably talk to them if we want to pass through.",
+      "ru": "Хмм? А чего этот стражник тут делает? Наверное, стоит поговорить с ним, если хотим пройти дальше.",
+      "speaker": "Tasim",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Halt, recruits!",
+      "ru": "Стоять, новобранцы!",
+      "speaker": "Guard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "What? What's going on?",
+      "ru": "Что? Что случилось?",
+      "speaker": "Tasim",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "A group of corrupted have sieged this underpass. I can't let you enter without any armour.",
+      "ru": "Отряд заражённых осадил этот проход. Без брони я не могу вас туда пустить.",
+      "speaker": "Guard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Then what do we do? We have to get to Ragni!",
+      "ru": "И что нам тогда делать? Нам нужно попасть в Рагни!",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Do you see that cave over there? Caves such as those often contain useful loot that can help keep you alive.",
+      "ru": "Видите вон ту пещеру? В таких местах часто можно найти полезные вещи, которые помогут вам выжить.",
+      "speaker": "Guard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "If you enter the cave, you should be able to find some armour to protect you. After that return to me.",
+      "ru": "Если §bзайдёте туда§r, должны §bнайти какую-нибудь броню§r для защиты. Потом возвращайтесь ко мне.",
+      "speaker": "Guard",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "What do you say <playername>? Let's go see what's in that cave.",
+      "ru": "Ну что, <playername>? Пошли глянем, что там в пещере.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "We should return to the guard to see if he'll let us through now!",
+      "ru": "Надо вернуться к стражнику и узнать, пустит ли он нас теперь!",
+      "speaker": "Aledar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "So you found some armor, huh?",
+      "ru": "Значит, броню нашли, да?",
+      "speaker": "Guard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Yes, a helmet! Will you let us pass now?",
+      "ru": "Да, шлем! Теперь пропустишь нас?",
+      "speaker": "Aledar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Hold on there, recruit. Before you can equip a piece of armour you first have to identify it.",
+      "ru": "Погоди-ка, новобранец. Прежде чем надеть броню, её §#55FFFFнужно опознать§r.",
+      "speaker": "Guard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "And how do we do that?",
+      "ru": "И как это делается?",
+      "speaker": "Tasim",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "You can identify items at Item Identifiers. They exist in every city across the whole world, and we keep one here for convenience.",
+      "ru": "Опознавать предметы можно у <em> §dопознавателей предметов§f. Они есть в каждом городе мира, и один такой стоит здесь для удобства.",
+      "speaker": "Guard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Identify your helmet at the Item Identifier and then return to me with it equipped. After you've done that I'll let you pass.",
+      "ru": "Опознай шлем у <em> §dопознавателя предметов§f, надень его и §bвернись ко мне в надетом шлеме§f. После этого я тебя пропущу.",
+      "speaker": "Guard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "I see you have your helmet on. Fantastic, you may now pass. Let me open this door for you.",
+      "ru": "Вижу, шлем на тебе. Отлично, теперь можешь проходить. Сейчас открою дверь.",
+      "speaker": "Guard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Good luck in there recruits! Even with your armour it won't be so easy!",
+      "ru": "Удачи там, рекруты! Даже в броне будет непросто!",
+      "speaker": "Guard",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Wow, that guard wasn't joking. This place is crawling with the corrupt.",
+      "ru": "Ничего себе, стражник не шутил. Здесь кишат заражённые.",
+      "speaker": "Tasim",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Well, we've got no choice but to make it through! Finally time for us to use these weapons we got. Let's go, <playername>.",
+      "ru": "Ну, выбора у нас нет, надо прорываться! Пора наконец пустить в ход оружие, что нам дали. Пошли, <playername>.",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "<playername>, you take the skeleton in the front. We'll handle the two zombies in the back!",
+      "ru": "<playername>, ты берёшь скелета спереди. Мы разберёмся с двумя зомби сзади!",
+      "speaker": "Aledar",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "We did it!",
+      "ru": "Мы сделали это!",
+      "speaker": "Aledar",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "This path opened up, let's continue through the underpass.",
+      "ru": "Путь свободен, продолжим через подземный проход.",
+      "speaker": "Tasim",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Over here! You're just what I needed!",
+      "ru": "Сюда! Ваша помощь как раз кстати!",
+      "speaker": "Lieutenant",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Finally, some backup! Wait a second... you're straight from Fruma aren't you?",
+      "ru": "Наконец-то, хоть какое-то подкрепление! Стоп... вы ведь прямо из Фрумы, да?",
+      "speaker": "Lieutenant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Oh well, this area should be clear by now. Ragni is just up ahead, after all.",
+      "ru": "Ну и ладно, здесь уже должно быть чисто. Да и до Рагни уже рукой подать.",
+      "speaker": "Lieutenant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Lieutenant, watch out behind you!",
+      "ru": "Лейтенант, сзади!",
+      "speaker": "Tasim",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Quick, you have to use an ability!",
+      "ru": "Быстро, используй способность!",
+      "speaker": "Lieutenant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Unlock your first Ability by using your compass and opening the Ability Tree on your left.",
+      "ru": "Разблокируй свою первую §b§lспособность§r через §lкомпас§r, открыв §b§lдерево способностей§r слева.",
+      "speaker": "",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Now cast your spell!",
+      "ru": "А теперь используй заклинание!",
+      "speaker": "Lieutenant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Now cast your spell with your weapon!",
+      "ru": "§#49EB28А теперь используй заклинание своим оружием!§r",
+      "speaker": "Lieutenant",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Great job, <playername>!",
+      "ru": "Отлично сработано, <playername>!",
+      "speaker": "Tasim",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Wait, it's running away! We have to save the Lieutenant!",
+      "ru": "Стой, оно удирает! Надо спасти лейтенанта!",
+      "speaker": "Aledar",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "... That was close. Thanks for the save, recruits!",
+      "ru": "... Едва пронесло. Спасибо, что спасли, новобранцы!",
+      "speaker": "Lieutenant",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "I think you three are going to make good soldiers - not many can handle themselves like you just did.",
+      "ru": "Думаю, из вас троих выйдут отличные солдаты - не каждый умеет так держаться в бою.",
+      "speaker": "Lieutenant",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "It seems that beast dropped something, you should check it out before heading to Ragni.",
+      "ru": "Похоже, эта тварь §bчто-то уронила§r. Подбери это, прежде чем идти в Рагни.",
+      "speaker": "Lieutenant",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "That item looks rare! Maybe there's an identifier around here.",
+      "ru": "Похоже, это редкая вещь! Может, поблизости есть опознаватель предметов.",
+      "speaker": "Tasim",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Onward to Ragni! We're almost there.",
+      "ru": "Вперёд, в Рагни! Мы уже почти дошли.",
+      "speaker": "Aledar",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "We... we made it! We really made it! Sure was a close call at the end.",
+      "ru": "Мы... мы добрались! И правда добрались! Под конец еле уцелели.",
+      "speaker": "Aledar",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "... Still think those corrupted don't stand a chance against you?",
+      "ru": "...Ну что, всё ещё думаешь, что заражённым с тобой не справиться?",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Ha ha. Very funny. Ah, <playername>, there seems to be an identifier here for you to identify that rare helmet.",
+      "ru": "Ха-ха, очень смешно... А, <playername>, здесь как раз есть §dОпознаватель Предметов§r. Можешь §bопознать тот редкий шлем§r.",
+      "speaker": "Aledar",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "And a blacksmith too, you can sell your old helmet there for some emeralds.",
+      "ru": "И кузнец тоже есть. Ему можно продать старый шлем за несколько изумрудов.",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "There's a blacksmith here too, you could sell your old helmet there for some emeralds.",
+      "ru": "Здесь есть и кузнец. Ему §bможно продать старый шлем§r за несколько изумрудов.",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Here it is, the end of our journey.",
+      "ru": "Ну вот и всё, конец нашего пути.",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "The end of one adventure, but the beginning of another! Let's go inside and talk to the King!",
+      "ru": "Конец одного приключения, но начало другого! Пошли внутрь, поговорим с королём!",
+      "speaker": "Aledar",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Ah, you must be the last recruit. Please come over here and speak to me.",
+      "ru": "А, должно быть, ты последний рекрут. Подойди сюда и поговори со мной.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Hello! Your friends just left. They told me quite the story about what happened to you three on the way here.",
+      "ru": "Приветствую! Твои друзья только что ушли. Они уже успели рассказать мне, что с вами тремя приключилось по пути сюда.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Welcome to the Wynn Province!",
+      "ru": "Добро пожаловать в провинцию Винн!",
+      "speaker": "Ragni's King",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "This is the noble fort of Ragni, one of the oldest and most influential cities in the province!",
+      "ru": "Перед тобой славная крепость Рагни, один из старейших и самых влиятельных городов провинции!",
+      "speaker": "Ragni's King",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Your job as a soldier of Wynn is to stop the growth of the monsters that are ravaging the province.",
+      "ru": "Твой долг как солдата Винна - сдерживать натиск чудовищ, разоряющих провинцию.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "You might want to train a little more before hand, though. Many lives are lost everyday...",
+      "ru": "Хотя перед этим тебе, пожалуй, стоит ещё немного потренироваться. Каждый день гибнет очень много людей...",
+      "speaker": "Ragni's King",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "... Anyway, good luck! If you are lost, use map.wynncraft.com as it is very useful if you don't know where to go.",
+      "ru": "... Что ж, удачи! Если собьёшься с пути, воспользуйся картой map.wynncraft.com. Она поможет понять, куда идти.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Take this [Ragni Teleportation Scroll] to aid you in your journey. Upon use, it will instantly bring you back to this city, wherever you may be.",
+      "ru": "Возьми этот §#00AAAA[Свиток телепортации в Рагни]§r - он поможет тебе в пути. При использовании он мгновенно вернёт тебя в этот город, где бы ты ни находился.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "...oh, <playername>! Over here. Aledar's gone on ahead, but I figured I'd stay back and wait for you to be done.",
+      "ru": "...о, <playername>! Сюда. Аледар уже ушёл вперёд, а я решил подождать тебя.",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "So! Wynn, huh? It's pretty exciting to finally be here. I'm going to head off in the direction of Detlas soon, but I wanted to tell you about something first.",
+      "ru": "Ну что! Винн, да? Здорово наконец здесь оказаться. Скоро я отправлюсь в сторону Детласа, но сначала хочу кое-что тебе рассказать.",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "There's this handy item we were all given on our way here- the Content Book. It displays most things you can do in this world- quests, caves, and more.",
+      "ru": "По дороге сюда нам всем выдали полезную вещь - книгу контента. В ней можно найти почти всё, чем стоит заняться в этом мире: квесты, пещеры и многое другое.",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "It also lets you track any content you want, which will create a beacon you can follow. Here, why don't you try it out? Use your content book, and click on the highlighted quest.",
+      "ru": "А ещё в ней можно выбрать, куда отправиться. Тогда появится маяк, который укажет путь. Попробуй: открой книгу контента и выбери подсвеченный квест.",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Well, there you go! I'm going to head off to the end of the Emerald Trail, to the entrance of the Nivla Woods. You should meet me there once you've gotten a little stronger.",
+      "ru": "Вот и разобрались! Я отправлюсь к концу Изумрудной тропы, ко входу в лес Нивла. Встретимся там, когда ты станешь немного сильнее.",
+      "speaker": "Tasim",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Welcome to the Province of Wynn! By your ragged appearance, I gather your journey here must have been quite the adventure.",
+      "ru": "Добро пожаловать в провинцию Винн! Судя по вашему потрёпанному виду, путь сюда выдался для вас тем ещё приключением.",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "This, recruits, is the noble fort of Ragni, one of the great cities of our province!",
+      "ru": "Это, новобранцы, славная крепость Рагни, один из великих городов нашей провинции!",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "As soldiers of Wynn, it is your duty to stem the tide of corrupted monsters ravaging this land.",
+      "ru": "Как солдаты Винна, вы обязаны сдерживать натиск чудовищ, поражённых Порчей, что разоряют эту землю.",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Although, you may want to gain some experience beforehand. Many lives are tragically lost every day...",
+      "ru": "Хотя, возможно, сперва вам стоит набраться опыта. Каждый день трагически обрывается множество жизней...",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "With that, I must bid you farewell, more recruits may arrive at any time. Good luck out there, soldiers of Wynn!",
+      "ru": "На этом я вынужден с вами проститься, в любой момент могут прибыть новые рекруты. Удачи вам там, солдаты Винна!",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "So! Wynn, huh? It's pretty exciting to finally be here.",
+      "ru": "Ну что! Винн, да? Здорово наконец здесь оказаться.",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "I can't wait to discover what it looks like for myself!",
+      "ru": "Жду не дождусь увидеть всё своими глазами!",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Ha, well, I think I'm going to head in the direction of Detlas soon, although there seems to be something called Nivla Woods on the way...",
+      "ru": "Ха, ну, я, наверное, скоро двину в сторону Детласа, хотя по пути вроде есть что-то под названием лес Нивла...",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Enough talking already! Let's get out there and help some people!",
+      "ru": "Хватит уже болтать! Пошли наружу, поможем людям!",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "And he's gone again... Well, I'm sure we'll be seeing him soon enough. For now, let's just see what Wynn really is like.",
+      "ru": "И снова он умчался... Ну, уверен, скоро его увидим. А пока давай просто посмотрим, что из себя представляет Винн.",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "It also lets you track any content you want, which will create beacons for you to follow.",
+      "ru": "А ещё в ней можно выбрать, куда отправиться. Тогда появятся маяки, которые укажут путь.",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "There you go! I'm going to head towards Nivla Woods, at the end of the Emerald Trail.",
+      "ru": "Ну вот! А я двину к лесу Нивла, в конце Изумрудной тропы.",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "New Quest Started: King's Recruit",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Королевский новобранец",
+      "speaker": "",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Sorry folks, you'll have to make the rest of the journey by yourselves...",
+      "ru": "Простите, ребят, дальше вам придётся добираться самим...",
+      "speaker": "Caravan Driver",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Cast your Bash Spell by clicking RIGHT - LEFT - RIGHT while holding your Spear",
+      "ru": "Примените §lЗаклинание \"Баш\"§r, нажав\n<em> §#FF55FF§lПКМ - §r<em> §#FF55FF§lЛКМ - §r<em> §#FF55FF§lПКМ§r,\nпока держите в руках §lКопьё",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Cast your Meteor Spell by clicking RIGHT - LEFT - LEFT while holding your Wand",
+      "ru": "Примените §lЗаклинание \"Метеор\"§r, нажав\n<em> §#FF55FF§lПКМ - §r<em> §#FF55FF§lЛКМ - §r<em> §#FF55FF§lЛКМ§r,\nпока держите в руках §lПосох",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Cast your Arrow Bomb Spell by clicking LEFT - RIGHT - RIGHT while holding your Bow",
+      "ru": "Примените §lЗаклинание \"Взрывная Стрела\"§r, нажав\n<em> §#FF55FF§lЛКМ - §r<em> §#FF55FF§lПКМ - §r<em> §#FF55FF§lПКМ§r,\nпока держите в руках §lЛук",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Cast your Spin Attack Spell by clicking RIGHT - LEFT - RIGHT while holding your Dagger",
+      "ru": "Примените §lЗаклинание \"Вихревая Атака\"§r, нажав\n<em> §#FF55FF§lПКМ - §r<em> §#FF55FF§lЛКМ - §r<em> §#FF55FF§lПКМ§r,\nпока держите в руках §lКинжал",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Cast your Totem Spell by clicking RIGHT - LEFT - RIGHT while holding your Relik",
+      "ru": "Примените §lЗаклинание \"Тотем\"§r, нажав\n<em> §#FF55FF§lПКМ - §r<em> §#FF55FF§lЛКМ - §r<em> §#FF55FF§lПКМ§r,\nпока держите в руках §lРелик",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "dialogue-0122",
+      "speaker": "",
+      "en": "[+1 Ragni Teleportation Scroll]",
+      "ru": "[+1 Ragni Teleportation Scroll]",
+      "stage": ""
+    },
+    {
+      "id": "audit-4948a9352fe01096",
+      "en": "<playername>, why don't you do the honours? Go ahead and open that gate.",
+      "ru": "<playername>, давай ты. §bОткрывай ворота§r.",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "audit-64d5bc575cfa9f4f",
+      "en": "No, but... We can worry about that later. For now, we need to find a way past this ravine. Aledar, <playername>, you should look around for a way across. I'll keep looking here.",
+      "ru": "Нет, но... об этом подумаем позже. Сейчас нам нужно перебраться через ущелье. Аледар, <playername>, §bпоищите путь на ту сторону§r. Я пока осмотрюсь здесь.",
+      "speaker": "Tasim",
+      "stage": ""
+    },
+    {
+      "id": "audit-6223ec23ba879dc7",
+      "en": "Unlock your first Ability by using your Compass and opening the Ability Tree on the left.",
+      "ru": "Разблокируй свою первую §b§lспособность§r через §lкомпас§r, открыв §b§lдерево способностей§r слева.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "audit-e4292868e7806bd4",
+      "en": "It seems that beast dropped something, you should pick it up before heading to Ragni.",
+      "ru": "Похоже, эта тварь §bчто-то уронила§r. Подбери это, прежде чем идти в Рагни.",
+      "speaker": "Lieutenant",
+      "stage": ""
+    },
+    {
+      "id": "audit-f840772064db5a79",
+      "en": "Ha ha, very funny... Oh, <playername>, there seems to be an Item Identifier here for you to  identify that rare helmet.",
+      "ru": "Ха-ха, очень смешно... А, <playername>, здесь как раз есть §dОпознаватель Предметов§r. Можешь §bопознать тот редкий шлем§r.",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "audit-00c66369c53889ae",
+      "en": "So, this is the gate marking the border between Wynn and Fruma?",
+      "ru": "Значит, эти ворота стоят на границе Винна и Фрумы?",
+      "speaker": "Tasim",
+      "stage": ""
+    },
+    {
+      "id": "audit-61e5084752d30ac7",
+      "en": "Looks like it, yep! Are you two ready for the start of our new lives?",
+      "ru": "Похоже на то, ага! Ну что, вы двое готовы начать новую жизнь?",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "audit-5afd96970d3db321",
+      "en": "[+1 Oak Wood Spear]",
+      "ru": "[+1 Oak Wood Spear]",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "audit-369bc2764682913c",
+      "en": "That sure was close... Thanks for the save, <playername>!",
+      "ru": "Вот это мы едва успели... Спасибо, что спас, <playername>!",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "audit-f9bdbd1e888c79d6",
+      "en": "You can identify items at Item Identifiers. They're found in towns across the whole world, but we have one here for recruits such as yourselves.",
+      "ru": "Предметы можно опознавать у §dОпознавателей Предметов§r. Они есть в городах по всему миру, но один стоит и здесь, для таких новобранцев, как вы.",
+      "speaker": "Guard",
+      "stage": ""
+    },
+    {
+      "id": "audit-7594e37e85c37583",
+      "en": "That guard wasn't kidding. This place is crawling with the corrupt.",
+      "ru": "Стражник не шутил. Здесь §#00EB34кишат§r заражённые.",
+      "speaker": "Tasim",
+      "stage": ""
+    },
+    {
+      "id": "audit-87163a5369c933d6",
+      "en": "Finally, time for us to use these weapons we got!",
+      "ru": "Наконец-то пора пустить в дело выданное нам оружие!",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "audit-bc00a09261b3792d",
+      "en": "This, recruits, is the noble fort of Ragni, one of the great cities of our vast province!",
+      "ru": "Это, новобранцы, славная крепость Рагни, один из великих городов нашей обширной провинции!",
+      "speaker": "King of Ragni",
+      "stage": ""
+    },
+    {
+      "id": "audit-d475f9d1f4230394",
+      "en": "Although, you might want to gain some experience beforehand. Many lives are tragically lost every day...",
+      "ru": "Хотя сперва вам, пожалуй, стоит набраться опыта. Каждый день трагически обрывается множество жизней...",
+      "speaker": "King of Ragni",
+      "stage": ""
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Awaken",
+      "ru": "Проснуться.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Exit the caravan and talk to the Caravan Driver at [-1574, 54, -1625].",
+      "ru": "Выйти из повозки и поговорить с возницей [-1574, 54, -1625].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Walk down the path towards the gate to the Wynn Province at [-1529, 54, -1539].",
+      "ru": "Идти по тропе к воротам провинции Винн [-1529, 54, -1539].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Enter the Province of Wynn at [-1472, 51, -1538].",
+      "ru": "Войти в провинцию Винн [-1472, 51, -1538].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Continue through the Wynn Province to the castle",
+      "ru": "Продолжить путь по Винну к замку.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Talk to the Soldier at [-1457, 54, -1531].",
+      "ru": "Поговорить с солдатом [-1457, 54, -1531].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Cross the bridge at [-1376, 53, -1529].",
+      "ru": "Перейти мост [-1376, 53, -1529].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Search for another way across the ravine at [-1394, 54, -1553].",
+      "ru": "Найти другой путь через ущелье [-1394, 54, -1553].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Continue onwards to [-1298, 53, -1584].",
+      "ru": "Продолжить путь к [-1298, 53, -1584].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Talk to the Guard at [-1298, 53, -1584].",
+      "ru": "Поговорить со стражником [-1298, 53, -1584].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Enter the cave and find some armour at [-1301, 52, -1560].",
+      "ru": "Войти в пещеру и найти доспехи [-1301, 52, -1560].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Talk to the Guard at [-1298, 53, -1584].",
+      "ru": "Поговорить со стражником [-1298, 53, -1584].",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Enter the underpass at [-1288, 52, -1584].",
+      "ru": "Войти в подземный проход [-1288, 52, -1584].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Continue through the underpass to [-1042, 67, -21517].",
+      "ru": "Пройти по подземному проходу до [-1042, 67, -21517].",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Defeat the Skeleton!",
+      "ru": "Победить скелета!",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Continue through the underpass to [-1001, 67, -21554].",
+      "ru": "Пройти по подземному проходу до [-1001, 67, -21554].",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Talk to the Lieutenant at [-1001, 67, -21554].",
+      "ru": "Поговорить с лейтенантом [-1001, 67, -21554].",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Chase the Goliath to [-914, 69, -21552]!",
+      "ru": "Догнать Голиафа в [-914, 69, -21552]!",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Defeat the Goliath and free the Lieutenant.",
+      "ru": "Победить Голиафа и освободить лейтенанта.",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "objective-0020",
+      "en": "Pick up the loot dropped by the Goliath.",
+      "ru": "Забрать добычу, выпавшую из Голиафа.",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "objective-0021",
+      "en": "Enter the castle at [-764, 70, -21560].",
+      "ru": "Войти в замок [-764, 70, -21560].",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-0022",
+      "en": "Talk to Ragni's King at [-939, 70, -1567].",
+      "ru": "Поговорить с королём Рагни [-939, 70, -1567].",
+      "stage": "Stage 22"
+    }
+  ],
+  "choices": []
+}

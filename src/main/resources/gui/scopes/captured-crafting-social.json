@@ -1,0 +1,2142 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "captured-crafting-social",
+  "scopes": [
+    {
+      "id": "craft-social-cfb479e702ec545a",
+      "match": {
+        "title": "Empty Augment Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Empty Augment Slot",
+        "ru": "Пустая Ячейка Улучшения"
+      },
+      "lines": [
+        {
+          "id": "line-cfb479e702ec545a",
+          "en": "Empty Augment Slot",
+          "ru": "Пустая Ячейка Улучшения"
+        },
+        {
+          "id": "line-6973c96708c7d8d4",
+          "en": "§8Click an augment to equip",
+          "ru": "§8Нажмите на улучшение, чтобы"
+        },
+        {
+          "id": "line-6bb9cd3831819a1d",
+          "en": "§8and use it while identifying",
+          "ru": "§8применить его при опознании."
+        },
+        {
+          "id": "line-d551ed5e8ced5044",
+          "en": "§8Compatible Augments:",
+          "ru": "§8Совместимые Улучшения:"
+        },
+        {
+          "id": "line-41d6548e0cfe8b40",
+          "en": "§7§7- Insulator",
+          "ru": "§7§7- Изолятор"
+        },
+        {
+          "id": "line-f4063c1fce8a491c",
+          "en": "§7§7- Simulator",
+          "ru": "§7§7- Симулятор"
+        },
+        {
+          "id": "line-122aa6fc9c8d9cf9",
+          "en": "§7§7- Amplifier",
+          "ru": "§7§7- Усилитель"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-45131ec935e0a5f3",
+      "match": {
+        "title": "§b§lCorkian Augments",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lCorkian Augments",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-226f54fde3904d51",
+          "en": "§7Corkian augments provides",
+          "ru": "§7Коркианские улучшения"
+        },
+        {
+          "id": "line-62dc306c2ef85bb3",
+          "en": "§7augments while identifying",
+          "ru": "§7помогают при опознании"
+        },
+        {
+          "id": "line-af449e5f82c44b0a",
+          "en": "§7a single item",
+          "ru": "§7одного предмета."
+        }
+      ]
+    },
+    {
+      "id": "craft-social-a87118fe89217412",
+      "match": {
+        "title": "󏀀Glacial Anomaly󏀀",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "󏀀Glacial Anomaly󏀀",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-94fdc43cfb9e2647",
+          "en": "<em>Glacial Anomaly<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-52e9c7d5c15c09e7",
+          "en": "<em><em><em><em><em>Glacial Anomaly",
+          "ru": ""
+        },
+        {
+          "id": "line-5015615c933e6ab8",
+          "en": "<em><num> Crafting Level",
+          "ru": "<em>§#7DC97D<num>§#FFFFFF Уровень Ремесла"
+        },
+        {
+          "id": "line-fba7061741ab5a43",
+          "en": "<em><em>󏿾 Woodworking󐀄 󐀁<em>󏿿 Alchemism󐀌",
+          "ru": "<em><em>󏿾 Обработка Дерева󐀄 󐀁<em>󏿿 Алхимия󐀌"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-1df7aab3ff531883",
+      "match": {
+        "title": "󏀀Permafrost Anomaly󏀀",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "󏀀Permafrost Anomaly󏀀",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b15469d3e358cb35",
+          "en": "<em>Permafrost Anomaly<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-929d12ea7b8bc915",
+          "en": "<em><em><em><em><em>Permafrost Anomaly",
+          "ru": ""
+        },
+        {
+          "id": "line-5015615c933e6ab8",
+          "en": "<em><num> Crafting Level",
+          "ru": "<em>§#7DC97D<num>§#FFFFFF Уровень Ремесла"
+        },
+        {
+          "id": "line-cb56a42e3c3f2647",
+          "en": "<em>󐀁<em>󏿿 Armouring󐀄 <em> Tailoring󐀅",
+          "ru": "<em>󐀁<em>󏿿 Бронное Дело󐀄 <em> Портняжное Дело󐀅"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-ebad7c88a55632f5",
+      "match": {
+        "title": "Uncraftable Potion",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Uncraftable Potion",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1a65b651a601644a",
+          "en": "§7Unlocks the §6Guild Crown§7",
+          "ru": "§7Открывает §6Корону Гильдии§7"
+        },
+        {
+          "id": "line-d7afd4234e0ec628",
+          "en": "§7cosmetic until §f<num>",
+          "ru": "§7как косметику до §f<num>"
+        },
+        {
+          "id": "line-2043d670a73bf605",
+          "en": "§7§a✔ §7Current Position: §f<num>",
+          "ru": "§a✔ §7Текущее Место: §f<num>"
+        },
+        {
+          "id": "line-f28d64133d56ce36",
+          "en": "§7§c✖ §7Finish on §fTop <num>",
+          "ru": "§c✖ §7Завершите Сезон в §fТоп-<num>"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-09bc04b7a76aeac7",
+      "match": {
+        "title": "§a§lRecruit a Friend",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lRecruit a Friend",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-7d24812f7861dbf2",
+          "en": "§7Enter the name of a friend",
+          "ru": "§7Введите имя друга, которого"
+        },
+        {
+          "id": "line-dd7cc3b0562cbbdd",
+          "en": "§7you want to recruit and get rewards!",
+          "ru": "§7хотите пригласить, и получайте награды!"
+        },
+        {
+          "id": "line-298a6ce5410bc73f",
+          "en": "§bFriends can only be recruited if:",
+          "ru": "§bПригласить друга можно, только если:"
+        },
+        {
+          "id": "line-e006b1bd57e71ea7",
+          "en": "§b- §7They first joined Wynncraft less than <num> days ago, or...",
+          "ru": "§b- §7Он впервые зашёл на Wynncraft менее <num> дней назад или..."
+        },
+        {
+          "id": "line-aaa54576f9a4d8b5",
+          "en": "§b- §7They haven't logged in to Wynncraft in a long time",
+          "ru": "§b- §7Он давно не заходил на Wynncraft"
+        },
+        {
+          "id": "line-3c3283eb37a3c1f5",
+          "en": "§7You and your recruitees will gain §d<num>%§7 XP",
+          "ru": "§7Вы и приглашённые друзья получите §d<num>%§7 опыта"
+        },
+        {
+          "id": "line-de57b1185253f4a6",
+          "en": "§7while in a party together. You will also",
+          "ru": "§7сверх обычного, играя в одной группе. Вы также"
+        },
+        {
+          "id": "line-2b7905755081f3f3",
+          "en": "§7automatically be added as friends",
+          "ru": "§7автоматически добавите друг друга в друзья."
+        },
+        {
+          "id": "line-f0b399d9fc263e5d",
+          "en": "§aClick to recruit a friend!",
+          "ru": "§aНажмите, чтобы пригласить друга!"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-7f57e9e049faf75b",
+      "match": {
+        "title": "§c§lIncomplete Recipe",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§c§lIncomplete Recipe",
+        "ru": "§c§lНеполный Рецепт"
+      },
+      "lines": [
+        {
+          "id": "line-7f57e9e049faf75b",
+          "en": "§c§lIncomplete Recipe",
+          "ru": "§c§lНеполный Рецепт"
+        },
+        {
+          "id": "line-39e9c01e7316d39f",
+          "en": "§6§lRing Recipes:",
+          "ru": "§6§lРецепты Колец:"
+        },
+        {
+          "id": "line-0736641eaa61e95f",
+          "en": "§7<em>✔ Lv. <num>: <em><num> Copper Gem Ⓑ",
+          "ru": "<em>§a✔ Ур. <num>: §7<em>§f<num> §7Copper Gem §fⒷ"
+        },
+        {
+          "id": "line-f92304250cd36955",
+          "en": "§7<em> <em><num> Gudgeon Oil Ⓚ",
+          "ru": "<em> <em>§f<num>§7 Gudgeon Oil §fⓀ"
+        },
+        {
+          "id": "line-fdad29f4dec73f0b",
+          "en": "§7<em>✖ Lv. <num>: <em><num> Granite Gem Ⓑ",
+          "ru": "<em>§c✖ Ур. <num>: §7<em>§f<num> §7Granite Gem §fⒷ"
+        },
+        {
+          "id": "line-8f630203988e3e93",
+          "en": "§7<em> <em><num> Trout Oil Ⓚ",
+          "ru": "<em> <em>§f<num>§7 Trout Oil §fⓀ"
+        },
+        {
+          "id": "line-212c1f141a8be399",
+          "en": "§7<em>✖ Lv. <num>: <em><num> Gold Gem Ⓑ",
+          "ru": "<em>§c✖ Ур. <num>: §7<em>§f<num> §7Золотой Самоцвет §fⒷ"
+        },
+        {
+          "id": "line-946bd80dd08002ec",
+          "en": "§7<em> <em><num> Salmon Oil Ⓚ",
+          "ru": "<em> <em>§f<num>§7 Лососевый Жир §fⓀ"
+        },
+        {
+          "id": "line-938e8d79d273f083",
+          "en": "§6§lBracelet Recipes:",
+          "ru": "§6§lРецепты Браслетов:"
+        },
+        {
+          "id": "line-11140b998934992a",
+          "en": "§6§lNecklace Recipes:",
+          "ru": "§6§lРецепты Ожерелий:"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-8d5c646db78b14df",
+      "match": {
+        "title": "§7Crafted Item Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Crafted Item Slot",
+        "ru": "§7Ячейка Готового Предмета"
+      },
+      "lines": [
+        {
+          "id": "line-8d5c646db78b14df",
+          "en": "§7Crafted Item Slot",
+          "ru": "§7Ячейка Готового Предмета"
+        },
+        {
+          "id": "line-e1f88c19186d9f3b",
+          "en": "§8Items you craft",
+          "ru": "§8Созданные предметы"
+        },
+        {
+          "id": "line-95e0dc5e0344c7fa",
+          "en": "§8will show up here",
+          "ru": "§8появятся здесь."
+        }
+      ]
+    },
+    {
+      "id": "craft-social-485aa0fc18b6bb19",
+      "match": {
+        "title": "§fⓁ§l Craft §rⓁ",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§fⓁ§l Craft §rⓁ",
+        "ru": "§fⓁ§l Создать §rⓁ"
+      },
+      "lines": [
+        {
+          "id": "line-485aa0fc18b6bb19",
+          "en": "§fⓁ§l Craft §rⓁ",
+          "ru": "§fⓁ§l Создать §rⓁ"
+        },
+        {
+          "id": "line-1334991d52961b75",
+          "en": "§a✔ Left-Click §7to craft:",
+          "ru": "§a✔ ЛКМ §7- создать:"
+        },
+        {
+          "id": "line-fc55e61372f16b8e",
+          "en": "§7 - §fPotion §7[Lv. <num> to <num>]",
+          "ru": "§7 - §fЗелье §7[Ур. <num>-<num>]"
+        },
+        {
+          "id": "line-5dcbad6a4721757d",
+          "en": "§7Crafting Time: §f<num>s",
+          "ru": "§7Время создания: §f<num>с"
+        },
+        {
+          "id": "line-d717d0449019a5ec",
+          "en": "§fShift-Click§7 to craft non-stop",
+          "ru": "§fShift + клик§7 - создавать непрерывно"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-f6acdee83e7d4ec6",
+      "match": {
+        "title": "1x Wynncraft Crate T2",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "1x Wynncraft Crate T2",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e1dd5e456e8ac04a",
+          "en": "<num>x Wynncraft Crate T<num>",
+          "ru": ""
+        },
+        {
+          "id": "line-3f1e6dbbb54161ef",
+          "en": "Opens a regular crate that",
+          "ru": "Открывает обычный сундук"
+        },
+        {
+          "id": "line-895381bcd14ddb49",
+          "en": "contains the original",
+          "ru": "с предметами из первой"
+        },
+        {
+          "id": "line-ff887a538cb71d80",
+          "en": "Wynncraft collection",
+          "ru": "коллекции Wynncraft"
+        },
+        {
+          "id": "line-72872845296f954b",
+          "en": "<em>Owned Cosmetics",
+          "ru": "<em>Полученная Косметика"
+        },
+        {
+          "id": "line-e3d97fbacb2ded7e",
+          "en": "§7<em> Left-Click to Use",
+          "ru": "§7<em> §*ЛКМ - Использовать"
+        },
+        {
+          "id": "line-c05f6f79686a5e7b",
+          "en": "§7<em> Right-Click to Preview",
+          "ru": "<em> ПКМ - Предпросмотр"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-210ab0794f3d542a",
+      "match": {
+        "title": "§fⒾ§l Craft §rⒾ",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§fⒾ§l Craft §rⒾ",
+        "ru": "§fⒾ§l Создать §rⒾ"
+      },
+      "lines": [
+        {
+          "id": "line-210ab0794f3d542a",
+          "en": "§fⒾ§l Craft §rⒾ",
+          "ru": "§fⒾ§l Создать §rⒾ"
+        },
+        {
+          "id": "line-1334991d52961b75",
+          "en": "§a✔ Left-Click §7to craft:",
+          "ru": "§a✔ ЛКМ §7- создать:"
+        },
+        {
+          "id": "line-d903033013cba295",
+          "en": "§7 - §fBow §7[Lv. <num> to <num>]",
+          "ru": "§7 - §fЛук §7[Ур. <num>-<num>]"
+        },
+        {
+          "id": "line-5dcbad6a4721757d",
+          "en": "§7Crafting Time: §f<num>s",
+          "ru": "§7Время создания: §f<num>с"
+        },
+        {
+          "id": "line-d717d0449019a5ec",
+          "en": "§fShift-Click§7 to craft non-stop",
+          "ru": "§fShift + клик§7 - создавать непрерывно"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-9ce3156c3061e60f",
+      "match": {
+        "title": "󐁠Archer",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "󐁠Archer",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-426ea2034d96d4df",
+          "en": "<em>Archer",
+          "ru": "<em>Лучник"
+        },
+        {
+          "id": "line-1afd609b22f1a5c7",
+          "en": "Precision is the key to victory. The archer",
+          "ru": "Точность - ключ к победе. Лучник"
+        },
+        {
+          "id": "line-573188bbf5a08e2c",
+          "en": "sits comfortably at range to decimate their",
+          "ru": "держится на расстоянии и поражает"
+        },
+        {
+          "id": "line-849dcf5e89d4cd54",
+          "en": "enemies with powerful projectiles. Evading",
+          "ru": "врагов мощными снарядами. Уклонение"
+        },
+        {
+          "id": "line-980d2323f092cf69",
+          "en": "and dodging enemies attacks is crucial to",
+          "ru": "от вражеских атак играет ключевую"
+        },
+        {
+          "id": "line-d4042bf9c32d1b7d",
+          "en": "the playstyle of this class. Archers dish",
+          "ru": "роль в игре за этот класс. Лучники"
+        },
+        {
+          "id": "line-e93179f664cad560",
+          "en": "out huge amounts of damage, but aren’t so",
+          "ru": "наносят огромный урон, но плохо"
+        },
+        {
+          "id": "line-a67bc7a35c89816b",
+          "en": "adept at defending themselves",
+          "ru": "защищаются от атак"
+        },
+        {
+          "id": "line-e75ed314fda797c2",
+          "en": "<em>Archetypes",
+          "ru": "<em>Архетипы"
+        },
+        {
+          "id": "line-55c022eab08cf168",
+          "en": "§7Boltslinger: Close range burst damage",
+          "ru": "§7§#DAE069§lСтрелок:§7 Взрывной урон вблизи"
+        },
+        {
+          "id": "line-76c9126caa749c4b",
+          "en": "§7Trapper: Mass damage with traps and beasts",
+          "ru": "§7§#87DD47§lЛовчий:§7 Массовый урон ловушками и зверями"
+        },
+        {
+          "id": "line-328a1e290eb86288",
+          "en": "§7Sharpshooter: Aimed power shots",
+          "ru": "§7§#EB3DFE§lСнайпер:§7 Мощные прицельные выстрелы"
+        },
+        {
+          "id": "line-e8d7175e40514d4e",
+          "en": "<em>Learn about all abilities at:",
+          "ru": "<em>Все способности описаны на:"
+        },
+        {
+          "id": "line-bb8bab979c277428",
+          "en": "<em>(Click to visit)",
+          "ru": "<em>(Нажмите, чтобы перейти)"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-7804b67133a3b6ce",
+      "match": {
+        "title": "󐁡Hunter",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "󐁡Hunter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-05b37778aac72c78",
+          "en": "<em>Hunter",
+          "ru": "<em>Охотник"
+        },
+        {
+          "id": "line-1afd609b22f1a5c7",
+          "en": "Precision is the key to victory. The archer",
+          "ru": "Точность - ключ к победе. Лучник"
+        },
+        {
+          "id": "line-573188bbf5a08e2c",
+          "en": "sits comfortably at range to decimate their",
+          "ru": "держится на расстоянии и поражает"
+        },
+        {
+          "id": "line-849dcf5e89d4cd54",
+          "en": "enemies with powerful projectiles. Evading",
+          "ru": "врагов мощными снарядами. Уклонение"
+        },
+        {
+          "id": "line-980d2323f092cf69",
+          "en": "and dodging enemies attacks is crucial to",
+          "ru": "от вражеских атак играет ключевую"
+        },
+        {
+          "id": "line-d4042bf9c32d1b7d",
+          "en": "the playstyle of this class. Archers dish",
+          "ru": "роль в игре за этот класс. Лучники"
+        },
+        {
+          "id": "line-e93179f664cad560",
+          "en": "out huge amounts of damage, but aren’t so",
+          "ru": "наносят огромный урон, но плохо"
+        },
+        {
+          "id": "line-a67bc7a35c89816b",
+          "en": "adept at defending themselves",
+          "ru": "защищаются от атак"
+        },
+        {
+          "id": "line-e75ed314fda797c2",
+          "en": "<em>Archetypes",
+          "ru": "<em>Архетипы"
+        },
+        {
+          "id": "line-55c022eab08cf168",
+          "en": "§7Boltslinger: Close range burst damage",
+          "ru": "§7§#DAE069§lСтрелок:§7 Взрывной урон вблизи"
+        },
+        {
+          "id": "line-76c9126caa749c4b",
+          "en": "§7Trapper: Mass damage with traps and beasts",
+          "ru": "§7§#87DD47§lЛовчий:§7 Массовый урон ловушками и зверями"
+        },
+        {
+          "id": "line-328a1e290eb86288",
+          "en": "§7Sharpshooter: Aimed power shots",
+          "ru": "§7§#EB3DFE§lСнайпер:§7 Мощные прицельные выстрелы"
+        },
+        {
+          "id": "line-e8d7175e40514d4e",
+          "en": "<em>Learn about all abilities at:",
+          "ru": "<em>Все способности описаны на:"
+        },
+        {
+          "id": "line-bb8bab979c277428",
+          "en": "<em>(Click to visit)",
+          "ru": "<em>(Нажмите, чтобы перейти)"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-56e462384d12537b",
+      "match": {
+        "title": "§7 Hardcore",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7 Hardcore",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d97a317db79eddef",
+          "en": "§7<em> Hardcore",
+          "ru": "<em> Хардкор"
+        },
+        {
+          "id": "line-6f420128ae8a1ab9",
+          "en": "§7Most of your items will drop",
+          "ru": "§7При смерти выпадает большая"
+        },
+        {
+          "id": "line-e0e171ad76154d76",
+          "en": "§7upon death and your icon",
+          "ru": "§7часть предметов, а ваш значок"
+        },
+        {
+          "id": "line-fc1fbca02add35ae",
+          "en": "§7will be changed to gray",
+          "ru": "§7становится серым"
+        },
+        {
+          "id": "line-eb5f8c93e430920b",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§a✔ §7Персонаж Ур. <num>+"
+        },
+        {
+          "id": "line-41001f23f4d9eae7",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-ea987c0c592bf9fb",
+          "en": "§7- Enabled",
+          "ru": "- Включено"
+        },
+        {
+          "id": "line-3c863c357adebd35",
+          "en": "§7<em> Click to Toggle",
+          "ru": "<em> Нажмите, чтобы Переключить"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-ab1e59546609c31c",
+      "match": {
+        "title": "§7 Ultimate Ironman",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7 Ultimate Ironman",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d0fb7bfbb158386d",
+          "en": "§7<em> Ultimate Ironman",
+          "ru": "<em> Абсолютный Айронмен"
+        },
+        {
+          "id": "line-4b492a9263072b41",
+          "en": "§7You will not be able to trade",
+          "ru": "§7Вы не сможете торговать"
+        },
+        {
+          "id": "line-0188540158a58c3c",
+          "en": "§7with other players, including",
+          "ru": "§7с другими игроками, в том числе"
+        },
+        {
+          "id": "line-2cba9e0ac6e92e3c",
+          "en": "§7the trade market",
+          "ru": "§7на торговом рынке"
+        },
+        {
+          "id": "line-31b34e89c1f2d5d5",
+          "en": "§7The Character and Account banks",
+          "ru": "§7Банки персонажа и аккаунта"
+        },
+        {
+          "id": "line-06b44376ff1a27b6",
+          "en": "§7are inaccessible",
+          "ru": "§7недоступны"
+        },
+        {
+          "id": "line-eb5f8c93e430920b",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§a✔ §7Персонаж Ур. <num>+"
+        },
+        {
+          "id": "line-41001f23f4d9eae7",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-b31a9f720d1f00d1",
+          "en": "§7- Ironman",
+          "ru": "- Айронмен"
+        },
+        {
+          "id": "line-089a0e2f4499eb13",
+          "en": "§7- Ultimate Ironman",
+          "ru": "- Абсолютный Айронмен"
+        },
+        {
+          "id": "line-3c863c357adebd35",
+          "en": "§7<em> Click to Toggle",
+          "ru": "<em> Нажмите, чтобы Переключить"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-59a45e029f0548db",
+      "match": {
+        "title": "§7 Hunted",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7 Hunted",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-7f32ec3b1cc09339",
+          "en": "§7<em> Hunted",
+          "ru": "<em> Режим Охоты"
+        },
+        {
+          "id": "line-b172b70bb1d480ce",
+          "en": "§7You will be in permanent",
+          "ru": "§7Вы будете постоянно находиться"
+        },
+        {
+          "id": "line-ac649c5b651df5f2",
+          "en": "§7hunted mode (PvP on)",
+          "ru": "§7в режиме Охоты (PvP включено)"
+        },
+        {
+          "id": "line-ba255fe2f8127a24",
+          "en": "§7§a✔ §7Quest: A Hunter's Calling",
+          "ru": "§a✔ §7Квест: Призвание охотника"
+        },
+        {
+          "id": "line-41001f23f4d9eae7",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-ea987c0c592bf9fb",
+          "en": "§7- Enabled",
+          "ru": "- Включено"
+        },
+        {
+          "id": "line-3c863c357adebd35",
+          "en": "§7<em> Click to Toggle",
+          "ru": "<em> Нажмите, чтобы Переключить"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-b8833b435c99da2d",
+      "match": {
+        "title": "§7 Craftsman",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7 Craftsman",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c8b141f84fc4aa1e",
+          "en": "§7<em> Craftsman",
+          "ru": "<em> Ремесленник"
+        },
+        {
+          "id": "line-c55c2a7eb1039c65",
+          "en": "§7You will only be allowed",
+          "ru": "§7Вы сможете использовать"
+        },
+        {
+          "id": "line-a58446ed6548e74c",
+          "en": "§7to use crafted items",
+          "ru": "§7только созданные предметы"
+        },
+        {
+          "id": "line-eb5f8c93e430920b",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§a✔ §7Персонаж Ур. <num>+"
+        },
+        {
+          "id": "line-41001f23f4d9eae7",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-ea987c0c592bf9fb",
+          "en": "§7- Enabled",
+          "ru": "- Включено"
+        },
+        {
+          "id": "line-3c863c357adebd35",
+          "en": "§7<em> Click to Toggle",
+          "ru": "<em> Нажмите, чтобы Переключить"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-9f855084bedea867",
+      "match": {
+        "title": "§7 Ironman",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7 Ironman",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-ad3e8e3b2b740fd6",
+          "en": "§7<em> Ironman",
+          "ru": "<em> Айронмен"
+        },
+        {
+          "id": "line-4b492a9263072b41",
+          "en": "§7You will not be able to trade",
+          "ru": "§7Вы не сможете торговать"
+        },
+        {
+          "id": "line-0188540158a58c3c",
+          "en": "§7with other players, including",
+          "ru": "§7с другими игроками, в том числе"
+        },
+        {
+          "id": "line-2cba9e0ac6e92e3c",
+          "en": "§7the trade market",
+          "ru": "§7на торговом рынке"
+        },
+        {
+          "id": "line-4bfe249434d88327",
+          "en": "§7The Account bank is inaccessible",
+          "ru": "§7Банк аккаунта недоступен"
+        },
+        {
+          "id": "line-eb5f8c93e430920b",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§a✔ §7Персонаж Ур. <num>+"
+        },
+        {
+          "id": "line-41001f23f4d9eae7",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-b31a9f720d1f00d1",
+          "en": "§7- Ironman",
+          "ru": "- Айронмен"
+        },
+        {
+          "id": "line-089a0e2f4499eb13",
+          "en": "§7- Ultimate Ironman",
+          "ru": "- Абсолютный Айронмен"
+        },
+        {
+          "id": "line-3c863c357adebd35",
+          "en": "§7<em> Click to Toggle",
+          "ru": "<em> Нажмите, чтобы Переключить"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-b89a6a1689077fde",
+      "match": {
+        "title": "Class Reskin",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Class Reskin",
+        "ru": "Облик Класса"
+      },
+      "lines": [
+        {
+          "id": "line-b89a6a1689077fde",
+          "en": "Class Reskin",
+          "ru": "Облик Класса"
+        },
+        {
+          "id": "line-97f3faeb4987e233",
+          "en": "§7The reskin of a class changes",
+          "ru": "§7Облик класса меняет его"
+        },
+        {
+          "id": "line-3e2aab59955eb33b",
+          "en": "§7its name and how specific spells",
+          "ru": "§7название и внешний вид части"
+        },
+        {
+          "id": "line-09a497e1412af071",
+          "en": "§7and abilities look",
+          "ru": "§7заклинаний и способностей."
+        },
+        {
+          "id": "line-35822b7f87ee0d30",
+          "en": "§8- Classic",
+          "ru": "§8- Классический"
+        },
+        {
+          "id": "line-1d8eefbed6eec496",
+          "en": "§e- Hunter§3 [VIP+]",
+          "ru": "§e- Охотник§3 [VIP+]"
+        },
+        {
+          "id": "line-20ad85646ac2426b",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> Нажмите, чтобы переключить"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-9a91ba693437e543",
+      "match": {
+        "title": "Guild Raid Available",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Guild Raid Available",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-956660688f896ea2",
+          "en": "§7<em>- <num> SR",
+          "ru": "<em>§d- §f<num> §7Сезонного Рейтинга"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-6eefa0678452de0b",
+      "match": {
+        "title": "Nest of the Grootslangs",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Nest of the Grootslangs",
+        "ru": "Гнездо Грутслангов"
+      },
+      "lines": [
+        {
+          "id": "line-6eefa0678452de0b",
+          "en": "Nest of the Grootslangs",
+          "ru": "Гнездо Грутслангов"
+        },
+        {
+          "id": "line-3eaaf6eb497a1c61",
+          "en": "Homes ravaged by Decay, the",
+          "ru": "Гниль разорила подземные"
+        },
+        {
+          "id": "line-f4d5e3ac14148a2d",
+          "en": "subterranean Grootslangs",
+          "ru": "жилища грутслангов, и теперь"
+        },
+        {
+          "id": "line-2776debf467587a0",
+          "en": "search frantically for a",
+          "ru": "они отчаянно ищут"
+        },
+        {
+          "id": "line-d5e6f96169e49a6f",
+          "en": "better habitat. Though they",
+          "ru": "новый дом. Хотя злого умысла"
+        },
+        {
+          "id": "line-6ebd66859a8412d2",
+          "en": "harbor no ill intent, they",
+          "ru": "у них нет, они представляют"
+        },
+        {
+          "id": "line-b2832a1a28420aaf",
+          "en": "pose a significant risk for",
+          "ru": "серьёзную опасность для"
+        },
+        {
+          "id": "line-87f1ea414e3c7a2c",
+          "en": "the people of Olux, and",
+          "ru": "жителей Олукса, а возможно,"
+        },
+        {
+          "id": "line-4b4fe1f831f932e8",
+          "en": "perhaps for all of Gavel.",
+          "ru": "и для всего Гавеля."
+        },
+        {
+          "id": "line-925cbaa0e97b5ceb",
+          "en": "§7> Estimated Time: §eMedium (EU)",
+          "ru": "§7> Ожидание: §eСреднее §8(EU)"
+        },
+        {
+          "id": "line-7a980ddf73f43c13",
+          "en": "§aClick to Open",
+          "ru": "§aНажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-caf0d5a7c4751d81",
+      "match": {
+        "title": "§7Server Region",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Server Region",
+        "ru": "Регион Сервера"
+      },
+      "lines": [
+        {
+          "id": "line-caf0d5a7c4751d81",
+          "en": "§7Server Region",
+          "ru": "Регион Сервера"
+        },
+        {
+          "id": "line-e4dabb02127744a9",
+          "en": "§7Filters the world list to show",
+          "ru": "§7Показывает в списке только миры"
+        },
+        {
+          "id": "line-e15447ffa4e2879a",
+          "en": "§7only those in the selected region",
+          "ru": "§7из выбранного региона."
+        },
+        {
+          "id": "line-b5e1d4be4fcb2418",
+          "en": "§7* Recommended Region",
+          "ru": "* Рекомендуемый Регион"
+        },
+        {
+          "id": "line-75d0fbcec20ab910",
+          "en": "§6- North America (NA)",
+          "ru": "§6- §rСеверная Америка (NA)"
+        },
+        {
+          "id": "line-82c1fa2b955b0789",
+          "en": "§6- Europe (EU)*",
+          "ru": "§6- §rЕвропа (EU)*"
+        },
+        {
+          "id": "line-55df10313d0c1443",
+          "en": "§6- Asia (AS)",
+          "ru": "§6- §rАзия (AS)"
+        },
+        {
+          "id": "line-997df4f06bd29c19",
+          "en": "§6- Any",
+          "ru": "§6- §rЛюбой"
+        },
+        {
+          "id": "line-1c62033e85d63486",
+          "en": "§7Left-Click to go forward",
+          "ru": "ЛКМ - вперёд"
+        },
+        {
+          "id": "line-96db51e8033710ff",
+          "en": "§7Right-Click to go backward",
+          "ru": "ПКМ - назад"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-c8a4e3f2d39426a5",
+      "match": {
+        "title": "The Nameless Anomaly",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "The Nameless Anomaly",
+        "ru": "Безымянная Аномалия"
+      },
+      "lines": [
+        {
+          "id": "line-c8a4e3f2d39426a5",
+          "en": "The Nameless Anomaly",
+          "ru": "Безымянная Аномалия"
+        },
+        {
+          "id": "line-2a4617b45b2ef0de",
+          "en": "Void Holes are strange... Are",
+          "ru": "Странные эти провалы в Пустоту..."
+        },
+        {
+          "id": "line-74d4dccd322e8191",
+          "en": "they natural? Or are they",
+          "ru": "Возникли сами собой или"
+        },
+        {
+          "id": "line-4d05d953d9a88837",
+          "en": "artificial? What makes them?",
+          "ru": "их кто-то создал? Что их порождает?"
+        },
+        {
+          "id": "line-24d2e1060c954304",
+          "en": "What happens to the matter",
+          "ru": "Куда исчезает материя,"
+        },
+        {
+          "id": "line-7895e9f1895efc62",
+          "en": "which they replace? A",
+          "ru": "которую они поглощают? Один"
+        },
+        {
+          "id": "line-64e533283b5ca058",
+          "en": "particularly large Void Hole",
+          "ru": "особенно огромный провал"
+        },
+        {
+          "id": "line-c7e9446bdbab2702",
+          "en": "rests within the centre of",
+          "ru": "находится в самом сердце"
+        },
+        {
+          "id": "line-584b0d5b48d82f05",
+          "en": "the Silent Expanse, perhaps",
+          "ru": "Безмолвной Пустоши. Быть может,"
+        },
+        {
+          "id": "line-4a01ae49d5849ee7",
+          "en": "it holds the answer to these",
+          "ru": "там и скрываются ответы"
+        },
+        {
+          "id": "line-c41efeaa54e0792a",
+          "en": "questions...",
+          "ru": "на эти вопросы..."
+        },
+        {
+          "id": "line-925cbaa0e97b5ceb",
+          "en": "§7> Estimated Time: §eMedium (EU)",
+          "ru": "§7> Ожидание: §eСреднее §8(EU)"
+        },
+        {
+          "id": "line-7a980ddf73f43c13",
+          "en": "§aClick to Open",
+          "ru": "§aНажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-ab462a04417c28c9",
+      "match": {
+        "title": "Orphion's Nexus of Light",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Orphion's Nexus of Light",
+        "ru": "Узел Света Орфиона"
+      },
+      "lines": [
+        {
+          "id": "line-ab462a04417c28c9",
+          "en": "Orphion's Nexus of Light",
+          "ru": "Узел Света Орфиона"
+        },
+        {
+          "id": "line-8bd6014e2c5b1b5d",
+          "en": "The source of the Decay",
+          "ru": "Источник Гнили, разрушающей"
+        },
+        {
+          "id": "line-3af01083df83dc11",
+          "en": "tearing apart Gavel lies",
+          "ru": "Гавель, скрывается в великом"
+        },
+        {
+          "id": "line-3ce39fffe837401c",
+          "en": "within the great Nexus at the",
+          "ru": "Узле, что находится в самом"
+        },
+        {
+          "id": "line-d499b3e9ccb7dfdc",
+          "en": "heart of the Realm of Light.",
+          "ru": "сердце Царства Света."
+        },
+        {
+          "id": "line-7ab3e0c0b67752ea",
+          "en": "The Light itself is fading.",
+          "ru": "Сам Свет угасает."
+        },
+        {
+          "id": "line-60bdf69ffe69df0a",
+          "en": "Its embodiment is suffering.",
+          "ru": "Его воплощение страдает."
+        },
+        {
+          "id": "line-31af327da680e2d6",
+          "en": "Save Him.",
+          "ru": "Спасите Его."
+        },
+        {
+          "id": "line-925cbaa0e97b5ceb",
+          "en": "§7> Estimated Time: §eMedium (EU)",
+          "ru": "§7> Ожидание: §eСреднее §8(EU)"
+        },
+        {
+          "id": "line-7a980ddf73f43c13",
+          "en": "§aClick to Open",
+          "ru": "§aНажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-f27606b997d2d985",
+      "match": {
+        "title": "§7Queue Type",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Queue Type",
+        "ru": "Тип Очереди"
+      },
+      "lines": [
+        {
+          "id": "line-f27606b997d2d985",
+          "en": "§7Queue Type",
+          "ru": "Тип Очереди"
+        },
+        {
+          "id": "line-c98943581a2be9dc",
+          "en": "§7Filter queues based",
+          "ru": "§7Отбирает очереди"
+        },
+        {
+          "id": "line-6192df3081cc28ce",
+          "en": "§7on its type.",
+          "ru": "§7по их типу."
+        },
+        {
+          "id": "line-22ad1fad0d6d1680",
+          "en": "§7§3- Dungeons",
+          "ru": "- Подземелья"
+        },
+        {
+          "id": "line-eff319d292aa60df",
+          "en": "§7§3- Raids",
+          "ru": "- Рейды"
+        },
+        {
+          "id": "line-8ec0fbbee556f438",
+          "en": "§7§3- Minigames",
+          "ru": "- Мини-Игры"
+        },
+        {
+          "id": "line-9d21d343cb9d059f",
+          "en": "§7§3- Others",
+          "ru": "- Прочее"
+        },
+        {
+          "id": "line-4335119063155a55",
+          "en": "<em> Shift Right-Click to reset",
+          "ru": "<em> Shift + ПКМ - сбросить"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-5f7a4a2031cb08fc",
+      "match": {
+        "title": "Party Queue",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Party Queue",
+        "ru": "Поиск Группы"
+      },
+      "lines": [
+        {
+          "id": "line-5f7a4a2031cb08fc",
+          "en": "Party Queue",
+          "ru": "Поиск Группы"
+        },
+        {
+          "id": "line-e7282843b45108fe",
+          "en": "§7Quickly find parties",
+          "ru": "§7Быстро найдите группу"
+        },
+        {
+          "id": "line-cc09e31e779df11f",
+          "en": "§7for raids and others!",
+          "ru": "§7для рейдов и других занятий!"
+        },
+        {
+          "id": "line-eb33b556b7f78838",
+          "en": "<em> Click to Open",
+          "ru": "<em> Нажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-9fc5001cb6e54023",
+      "match": {
+        "title": "Corkian Simulator",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corkian Simulator",
+        "ru": "Коркианский Симулятор"
+      },
+      "lines": [
+        {
+          "id": "line-9fc5001cb6e54023",
+          "en": "Corkian Simulator",
+          "ru": "Коркианский Симулятор"
+        },
+        {
+          "id": "line-5cace7978c9b7e1e",
+          "en": "§7§7Blocks the roll count from",
+          "ru": "§7§7Не даёт счётчику переопознаний"
+        },
+        {
+          "id": "line-f05720bec3a0e68d",
+          "en": "§7§7§fincreasing§7 while rerolling",
+          "ru": "§fрасти§7 при повторном опознании"
+        },
+        {
+          "id": "line-e953b1378b571754",
+          "en": "§7§7an item",
+          "ru": "§7§7предмета."
+        },
+        {
+          "id": "line-e7b2abef13a741b6",
+          "en": "§7§8Incompatible with §7Insulators",
+          "ru": "§8Несовместим с §7Изоляторами"
+        },
+        {
+          "id": "line-24db8f5a7e316e6a",
+          "en": "§7§7Mythic Corkian Augment",
+          "ru": "Мифическое Коркианское Улучшение"
+        },
+        {
+          "id": "line-3e0427e1229da5e4",
+          "en": "§7§8Corkian Augments can be applied",
+          "ru": "§7§8Коркианские Улучшения можно"
+        },
+        {
+          "id": "line-cda8b0a35db37474",
+          "en": "§7§8while identifying an item through",
+          "ru": "§7§8применить при опознании"
+        },
+        {
+          "id": "line-4613dd1381a1029a",
+          "en": "§7§8the Item Identifier",
+          "ru": "§7§8предмета у Опознавателя."
+        },
+        {
+          "id": "line-2544a43413cf3612",
+          "en": "§7Blocks the roll count from",
+          "ru": "§7Не даёт счётчику переопознаний"
+        },
+        {
+          "id": "line-a9430da793d671f4",
+          "en": "§7§fincreasing§7 while rerolling",
+          "ru": "§fрасти§7 при повторном опознании"
+        },
+        {
+          "id": "line-b24055089f9d7e5a",
+          "en": "§7an item",
+          "ru": "§7предмета."
+        },
+        {
+          "id": "line-b6fbfc1d895fb271",
+          "en": "§8Incompatible with §7Insulators",
+          "ru": "§8Несовместим с §7Изоляторами"
+        },
+        {
+          "id": "line-7210372ba550fde0",
+          "en": "§7Mythic Corkian Augment",
+          "ru": "Мифическое Коркианское Улучшение"
+        },
+        {
+          "id": "line-8e1ce5e9068f05f8",
+          "en": "§8Corkian Augments can be applied",
+          "ru": "§8Коркианские Улучшения можно"
+        },
+        {
+          "id": "line-53bbb66dc2761f06",
+          "en": "§8while identifying an item through",
+          "ru": "§8применить при опознании"
+        },
+        {
+          "id": "line-82787a79b5177f40",
+          "en": "§8the Item Identifier",
+          "ru": "§8предмета у Опознавателя."
+        }
+      ]
+    },
+    {
+      "id": "craft-social-d557916b7ca95596",
+      "match": {
+        "title": "Corkian Insulator",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corkian Insulator",
+        "ru": "Коркианский Изолятор"
+      },
+      "lines": [
+        {
+          "id": "line-d557916b7ca95596",
+          "en": "Corkian Insulator",
+          "ru": "Коркианский Изолятор"
+        },
+        {
+          "id": "line-b95d82f4a9c83a21",
+          "en": "§7§7Locks an identification from",
+          "ru": "§7§7Не даёт одному из параметров"
+        },
+        {
+          "id": "line-4fef44495d79527f",
+          "en": "§7§7being §frolled§7 while rerolling",
+          "ru": "§fизмениться§7 при переопознании"
+        },
+        {
+          "id": "line-e953b1378b571754",
+          "en": "§7§7an item",
+          "ru": "§7§7предмета."
+        },
+        {
+          "id": "line-f880639632eae854",
+          "en": "§7§8Incompatible with §7Simulators",
+          "ru": "§8Несовместим с §7Симуляторами"
+        },
+        {
+          "id": "line-24db8f5a7e316e6a",
+          "en": "§7§7Mythic Corkian Augment",
+          "ru": "Мифическое Коркианское Улучшение"
+        },
+        {
+          "id": "line-3e0427e1229da5e4",
+          "en": "§7§8Corkian Augments can be applied",
+          "ru": "§7§8Коркианские Улучшения можно"
+        },
+        {
+          "id": "line-cda8b0a35db37474",
+          "en": "§7§8while identifying an item through",
+          "ru": "§7§8применить при опознании"
+        },
+        {
+          "id": "line-4613dd1381a1029a",
+          "en": "§7§8the Item Identifier",
+          "ru": "§7§8предмета у Опознавателя."
+        }
+      ]
+    },
+    {
+      "id": "craft-social-d2d7c4215390f3de",
+      "match": {
+        "title": "§b§lAbout",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lAbout",
+        "ru": "§b§lОписание"
+      },
+      "lines": [
+        {
+          "id": "line-d2d7c4215390f3de",
+          "en": "§b§lAbout",
+          "ru": "§b§lОписание"
+        },
+        {
+          "id": "line-e904989b9f1da568",
+          "en": "§7§cTitle Required",
+          "ru": "§7§cНужно Название"
+        },
+        {
+          "id": "line-6e44cfd91caa208f",
+          "en": "§7A short title and description",
+          "ru": "§7Короткое название и описание"
+        },
+        {
+          "id": "line-b70d65f9f0ad4459",
+          "en": "§7about this loadout.",
+          "ru": "§7этого набора."
+        },
+        {
+          "id": "line-cc8486c1fe6fed61",
+          "en": "§bCurrent Title:",
+          "ru": "§bТекущее Название:"
+        },
+        {
+          "id": "line-599fb6fc802f4a65",
+          "en": "§bCurrent Description:",
+          "ru": "§bТекущее Описание:"
+        },
+        {
+          "id": "line-13df101ebaebf867",
+          "en": "§3None",
+          "ru": "§3Нет"
+        },
+        {
+          "id": "line-430ba4f05c491c9e",
+          "en": "§aLeft-Click to set Title",
+          "ru": "§aЛКМ - задать название"
+        },
+        {
+          "id": "line-33efb32492f31e62",
+          "en": "§aRight-Click to set Description",
+          "ru": "§aПКМ - задать описание"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-9fb6289008d216fc",
+      "match": {
+        "title": "§fⒽ§l Craft §rⒽ",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§fⒽ§l Craft §rⒽ",
+        "ru": "§fⒽ§l Создать §rⒽ"
+      },
+      "lines": [
+        {
+          "id": "line-9fb6289008d216fc",
+          "en": "§fⒽ§l Craft §rⒽ",
+          "ru": "§fⒽ§l Создать §rⒽ"
+        },
+        {
+          "id": "line-1334991d52961b75",
+          "en": "§a✔ Left-Click §7to craft:",
+          "ru": "§a✔ ЛКМ §7- создать:"
+        },
+        {
+          "id": "line-16dd0227228362c3",
+          "en": "§7 - §fHelmet §7[Lv. <num> to <num>]",
+          "ru": "§7 - §fШлем §7[Ур. <num>-<num>]"
+        },
+        {
+          "id": "line-5dcbad6a4721757d",
+          "en": "§7Crafting Time: §f<num>s",
+          "ru": "§7Время создания: §f<num>с"
+        },
+        {
+          "id": "line-d717d0449019a5ec",
+          "en": "§fShift-Click§7 to craft non-stop",
+          "ru": "§fShift + клик§7 - создавать непрерывно"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-72b050bf3e663610",
+      "match": {
+        "title": "§7Use Items<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Use Items<em>",
+        "ru": "Использовать Предметы<em>"
+      },
+      "lines": [
+        {
+          "id": "line-72b050bf3e663610",
+          "en": "§7Use Items<em>",
+          "ru": "Использовать Предметы<em>"
+        },
+        {
+          "id": "line-fc21e25379d246e9",
+          "en": "§7Use or equip all owned",
+          "ru": "§7Используйте или наденьте"
+        },
+        {
+          "id": "line-2266bc899ec362e3",
+          "en": "§7store items",
+          "ru": "§7купленные в магазине предметы."
+        },
+        {
+          "id": "line-498ae13e01e03da3",
+          "en": "- Weapon Skins",
+          "ru": "§#FFD750- §rОблики Оружия"
+        },
+        {
+          "id": "line-953a5e1c3516a41b",
+          "en": "- Boots Style",
+          "ru": "§#FFD750- §rВид Обуви"
+        },
+        {
+          "id": "line-c126abc381279278",
+          "en": "- Disguises",
+          "ru": "§#FFD750- §rМаскировки"
+        },
+        {
+          "id": "line-2e8b80db8bfa6666",
+          "en": "- Mount Skins",
+          "ru": "§#FFD750- §rОблики Скакунов"
+        },
+        {
+          "id": "line-5289890e76d10fbf",
+          "en": "- Pets",
+          "ru": "§#FFD750- §rПитомцы"
+        },
+        {
+          "id": "line-110578310eecc90f",
+          "en": "- Leggings Style",
+          "ru": "§#FFD750- §rВид Поножей"
+        },
+        {
+          "id": "line-7216c8c4f8892fa2",
+          "en": "§7<em> Click to Expand",
+          "ru": "<em> Нажмите, чтобы Раскрыть"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-3602686c37d1108c",
+      "match": {
+        "title": "Party Type",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Party Type",
+        "ru": "Цель Группы"
+      },
+      "lines": [
+        {
+          "id": "line-3602686c37d1108c",
+          "en": "Party Type",
+          "ru": "Цель Группы"
+        },
+        {
+          "id": "line-e200425c60e497d8",
+          "en": "§7Defines the goal of your",
+          "ru": "§7Выберите, для чего собирается"
+        },
+        {
+          "id": "line-125601bac3b24a03",
+          "en": "§7public party",
+          "ru": "§7ваша открытая группа."
+        },
+        {
+          "id": "line-a9d4103bf9787d49",
+          "en": "§7§3- Grinding Mobs",
+          "ru": "- Фарм Мобов"
+        },
+        {
+          "id": "line-edf1b7114a13e0fd",
+          "en": "§7§3- Grinding Professions",
+          "ru": "- Прокачка Профессий"
+        },
+        {
+          "id": "line-26ae4f636e9dc06a",
+          "en": "§7§3- Boss Altars",
+          "ru": "- Алтари Боссов"
+        },
+        {
+          "id": "line-a4ac026a25c786ec",
+          "en": "§7§3- Quests",
+          "ru": "- Квесты"
+        },
+        {
+          "id": "line-76df2f9b5c8bdcd0",
+          "en": "§7§3- Guild Recruitment",
+          "ru": "- Набор в Гильдию"
+        },
+        {
+          "id": "line-491a457267668489",
+          "en": "§7§b- Social",
+          "ru": "- Общение"
+        },
+        {
+          "id": "line-3936cfa62a37f49a",
+          "en": "§7§3- World Events",
+          "ru": "- События Мира"
+        },
+        {
+          "id": "line-9d21d343cb9d059f",
+          "en": "§7§3- Others",
+          "ru": "- Прочее"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-fd6e5a6bd98d340f",
+      "match": {
+        "title": "Min Combat Level",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Min Combat Level",
+        "ru": "Минимальный Боевой Уровень"
+      },
+      "lines": [
+        {
+          "id": "line-fd6e5a6bd98d340f",
+          "en": "Min Combat Level",
+          "ru": "Минимальный Боевой Уровень"
+        },
+        {
+          "id": "line-b596d0a9ad929476",
+          "en": "§7Minimum combat level",
+          "ru": "§7Минимальный боевой уровень"
+        },
+        {
+          "id": "line-e63c86605cca204a",
+          "en": "§7required for joining",
+          "ru": "§7для вступления"
+        },
+        {
+          "id": "line-a3637ee29ec46212",
+          "en": "§7your party.",
+          "ru": "§7в вашу группу."
+        },
+        {
+          "id": "line-1d814f07e647b5b8",
+          "en": "§7§3Current Value: §b<num>",
+          "ru": "§3Текущее Значение: §b<num>"
+        },
+        {
+          "id": "line-435484a2c92ec762",
+          "en": "<em> Left-Click to increase by <num>",
+          "ru": "<em> ЛКМ - увеличить на §#55FF55<num>§#55FF55"
+        },
+        {
+          "id": "line-f8cc1003a6fb82ae",
+          "en": "<em> Right-Click to decrease by <num>",
+          "ru": "<em> ПКМ - уменьшить на §#FF5555<num>§#FF5555"
+        },
+        {
+          "id": "line-86e4b3e3ef82d85a",
+          "en": "§7§c§lTIP: §7Holding §fshift§7 while",
+          "ru": "§c§l§lСОВЕТ: §7Удерживайте §fShift§7,"
+        },
+        {
+          "id": "line-9661ebd74bf5a436",
+          "en": "§7clicking increase/decrease",
+          "ru": "§7чтобы при нажатии менять"
+        },
+        {
+          "id": "line-e1a3d81865cd4c08",
+          "en": "§7by <num>.",
+          "ru": "§7значение сразу на <num>."
+        }
+      ]
+    },
+    {
+      "id": "craft-social-325b619d662cdc95",
+      "match": {
+        "title": "Max Player Count",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Max Player Count",
+        "ru": "Максимум Участников"
+      },
+      "lines": [
+        {
+          "id": "line-325b619d662cdc95",
+          "en": "Max Player Count",
+          "ru": "Максимум Участников"
+        },
+        {
+          "id": "line-fa275334860f13af",
+          "en": "§7Maximum amount of",
+          "ru": "§7Максимальное число"
+        },
+        {
+          "id": "line-d6342b5acf78b41f",
+          "en": "§7players that will be",
+          "ru": "§7игроков, которые смогут"
+        },
+        {
+          "id": "line-503a90ea26738ed2",
+          "en": "§7able to join your party.",
+          "ru": "§7вступить в вашу группу."
+        },
+        {
+          "id": "line-1d814f07e647b5b8",
+          "en": "§7§3Current Value: §b<num>",
+          "ru": "§3Текущее Значение: §b<num>"
+        },
+        {
+          "id": "line-435484a2c92ec762",
+          "en": "<em> Left-Click to increase by <num>",
+          "ru": "<em> ЛКМ - увеличить на §#55FF55<num>§#55FF55"
+        },
+        {
+          "id": "line-f8cc1003a6fb82ae",
+          "en": "<em> Right-Click to decrease by <num>",
+          "ru": "<em> ПКМ - уменьшить на §#FF5555<num>§#FF5555"
+        },
+        {
+          "id": "line-86e4b3e3ef82d85a",
+          "en": "§7§c§lTIP: §7Holding §fshift§7 while",
+          "ru": "§c§l§lСОВЕТ: §7Удерживайте §fShift§7,"
+        },
+        {
+          "id": "line-9661ebd74bf5a436",
+          "en": "§7clicking increase/decrease",
+          "ru": "§7чтобы при нажатии менять"
+        },
+        {
+          "id": "line-e1a3d81865cd4c08",
+          "en": "§7by <num>.",
+          "ru": "§7значение сразу на <num>."
+        }
+      ]
+    },
+    {
+      "id": "craft-social-e1dd5e456e8ac04a",
+      "match": {
+        "title": "<num>x Wynncraft Crate T<num>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Wynncraft Crate T<num>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e1dd5e456e8ac04a",
+          "en": "<num>x Wynncraft Crate T<num>",
+          "ru": ""
+        },
+        {
+          "id": "line-3f1e6dbbb54161ef",
+          "en": "Opens a regular crate that",
+          "ru": "Открывает обычный сундук"
+        },
+        {
+          "id": "line-895381bcd14ddb49",
+          "en": "contains the original",
+          "ru": "с предметами из первой"
+        },
+        {
+          "id": "line-ff887a538cb71d80",
+          "en": "Wynncraft collection",
+          "ru": "коллекции Wynncraft"
+        },
+        {
+          "id": "line-72872845296f954b",
+          "en": "<em>Owned Cosmetics",
+          "ru": "<em>Полученная Косметика"
+        },
+        {
+          "id": "line-e3d97fbacb2ded7e",
+          "en": "§7<em> Left-Click to Use",
+          "ru": "§7<em> §*ЛКМ - Использовать"
+        },
+        {
+          "id": "line-c05f6f79686a5e7b",
+          "en": "§7<em> Right-Click to Preview",
+          "ru": "<em> ПКМ - Предпросмотр"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-9a00b7f442a51714",
+      "match": {
+        "title": "Change Raid",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Change Raid",
+        "ru": "Сменить Рейд"
+      },
+      "lines": [
+        {
+          "id": "line-9a00b7f442a51714",
+          "en": "Change Raid",
+          "ru": "Сменить Рейд"
+        },
+        {
+          "id": "line-386e71533dc9da5f",
+          "en": "§8Click to view other raid",
+          "ru": "§8Нажмите, чтобы посмотреть"
+        },
+        {
+          "id": "line-dd25ab035779c707",
+          "en": "§8chest rewards!",
+          "ru": "§8награды сундуков других рейдов!"
+        },
+        {
+          "id": "line-800d98e96fbbe22c",
+          "en": "§7- §7Nest of the Grootslangs",
+          "ru": "§6- §rГнездо Грутслангов"
+        },
+        {
+          "id": "line-8c8ea379d12eaf08",
+          "en": "§7- §7Orphion's Nexus of Light",
+          "ru": "§6- §rУзел Света Орфиона"
+        },
+        {
+          "id": "line-6d3f9d217c602e1f",
+          "en": "§7- §7The Canyon Colossus",
+          "ru": "§6- §rКаньонный Колосс"
+        },
+        {
+          "id": "line-bf3a1cdc222d780b",
+          "en": "§7- §fThe Nameless Anomaly",
+          "ru": "§6- §rБезымянная Аномалия"
+        },
+        {
+          "id": "line-c46e5839012cb0ed",
+          "en": "§7- §7The Wartorn Palace",
+          "ru": "§6- §rДворец, Истерзанный Войной"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-a91b4fc06160e44d",
+      "match": {
+        "title": "Confirm Scrapping",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Confirm Scrapping",
+        "ru": "Подтвердить Переработку"
+      },
+      "lines": [
+        {
+          "id": "line-a91b4fc06160e44d",
+          "en": "Confirm Scrapping",
+          "ru": "Подтвердить Переработку"
+        },
+        {
+          "id": "line-a9eeed13a81a9627",
+          "en": "You are scrapping <num> cosmetics",
+          "ru": "Предметов косметики на переработку: §#555555<num>§#555555"
+        },
+        {
+          "id": "line-edd38e189c7591dd",
+          "en": "- Magic Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-d264b9365a9ffa87",
+          "en": "- Wet Drip Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-ecb43d747ec34a16",
+          "en": "- Cow Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-ca15ebc05a3c5c13",
+          "en": "For",
+          "ru": "В обмен на"
+        },
+        {
+          "id": "line-ee5c66b22de54e49",
+          "en": "- <num>x <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿦<em><em><em><em>󐀂 Cosmetic",
+          "ru": "§#FF55FF- §r<num>x <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿦<em><em><em><em>󐀂 §#DD55FF§#DD55FF§#DD55FFпредмет косметики§7§7§7"
+        },
+        {
+          "id": "line-4fb32655cbeb201c",
+          "en": "<em>of the same collection",
+          "ru": "<em>из §fтой же коллекции"
+        },
+        {
+          "id": "line-f9cbe68c66810510",
+          "en": "§8This action is permanent",
+          "ru": "§8Отменить это действие"
+        },
+        {
+          "id": "line-0672c058f380d57f",
+          "en": "§8and irreversible",
+          "ru": "§8будет невозможно."
+        },
+        {
+          "id": "line-e022bc3ddc5be628",
+          "en": "§7<em> Click to Confirm",
+          "ru": "<em> Нажмите, чтобы Подтвердить"
+        }
+      ]
+    },
+    {
+      "id": "craft-social-4c3a9568dea98672",
+      "match": {
+        "title": "Waiting for an Augment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Waiting for an Augment",
+        "ru": "Ожидание Улучшения"
+      },
+      "lines": [
+        {
+          "id": "line-4c3a9568dea98672",
+          "en": "Waiting for an Augment",
+          "ru": "Ожидание Улучшения"
+        },
+        {
+          "id": "line-a438420b8d620815",
+          "en": "§8Click on a corkian augment in your",
+          "ru": "§8Нажмите на коркианское улучшение"
+        },
+        {
+          "id": "line-3cfa656361ceb3f4",
+          "en": "§8inventory to add it",
+          "ru": "§8в инвентаре, чтобы добавить его."
+        }
+      ]
+    },
+    {
+      "id": "craft-social-5c573660fc872692",
+      "match": {
+        "title": "Create a Party",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Create a Party",
+        "ru": "Создать Группу"
+      },
+      "lines": [
+        {
+          "id": "line-5c573660fc872692",
+          "en": "Create a Party",
+          "ru": "Создать Группу"
+        },
+        {
+          "id": "line-4e9ea5f25e06f22a",
+          "en": "§7Create and display your",
+          "ru": "§7Создайте группу и добавьте её"
+        },
+        {
+          "id": "line-44612f49e9929221",
+          "en": "§7party on the public list",
+          "ru": "§7в общий список."
+        },
+        {
+          "id": "line-cd1fd85bf13fa3d6",
+          "en": "<em> Click to Create",
+          "ru": "<em> Нажмите, чтобы Создать"
+        }
+      ]
+    }
+  ]
+}

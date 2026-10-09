@@ -1,0 +1,498 @@
+{
+  "quest": "Out of my Mind",
+  "level": 63,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "out-of-my-mind",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Did ye two hear about some guy wandering around town? I've heard strange rumours about him...",
+      "ru": "Эй, вы двое, слышали про какого-то типа, который шатается по городу? Про него какие-то странные слухи ходят...",
+      "speaker": "Prentiss",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Of course I have, he's the talk of the town! I heard he only brushes his teeth once a day and that he enjoys books about gardening!",
+      "ru": "Да конечно слышал, о нём весь город трещит! Я слышал, он зубы чистит всего раз в день и обожает книжки про садоводство!",
+      "speaker": "Todd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I don't know, you guys, all these rumors seem a little far-fetched. What next? Will he suddenly turn out to be a mad scientist?",
+      "ru": "Не знаю, ребят, по-моему, эти слухи слишком уж надуманные. Что дальше? Окажется, что он безумный учёный?",
+      "speaker": "Viola",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Oh shush you, we're not living inside some storybook! Besides, if he *was* a mad scientist, wouldn't he be trying to take over the city like all mad scientists in stories do?",
+      "ru": "Да тихо ты, мы не в сказке живём! И вообще, если бы он *и правда* был безумным учёным, разве не пытался бы захватить город, как все безумные учёные в историях?",
+      "speaker": "Prentiss",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "To me that doesn't sound all that strange compared to these other things I've been hearing, anyway... Something about labs and a \"hermit\".",
+      "ru": "Да на фоне всего остального, что я слышал, это вообще не так уж странно... Там ещё что-то было про лаборатории и какого-то \"отшельника\".",
+      "speaker": "Todd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I think that's a type of crab or something. Adults are right old weirdos sometimes.",
+      "ru": "Мне кажется, это краб такой или что-то вроде. Взрослые иногда такие чудаки.",
+      "speaker": "Prentiss",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Hey, a stranger! How long have you been listening to us? Didn't your mom teach you any manners?",
+      "ru": "Эй, чужак! И давно ты нас подслушиваешь? Тебя мама манерам не учила?",
+      "speaker": "Viola",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Wait Viola, this is our chance! This stranger sure seems like they could tackle anything, even evil hermit crabs! We could just ask them to see if these rumours are true!",
+      "ru": "Погоди, Виола, это же наш шанс! Этот чужак явно выглядит так, будто может справиться с чем угодно, даже со злыми крабами-отшельниками! Мы можем просто попросить его проверить, правда ли все эти слухи!",
+      "speaker": "Prentiss",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Ignore my friends over there, they're always like that, but what Prentiss said was true. This might be our only chance to really know who this mystery man really is!",
+      "ru": "Не обращай внимания на моих друзей, они всегда такие, но Прентисс прав. Это, может, наш единственный шанс узнать, кто этот загадочный тип на самом деле!",
+      "speaker": "Todd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "It might be a good idea to look at that weird house next to those spooky ruins just south-east of the city. We found this key you could try out, but if you lose it there are some spares in our base.",
+      "ru": "Стоит проверить тот странный дом рядом с жуткими руинами к юго-востоку от города. Мы нашли вот этот ключ, можешь попробовать им открыть, а если потеряешь - у нас на базе есть запасные.",
+      "speaker": "Todd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Hello stranger! Welcome to my humble wooden abode. Comfy, isn't it? I bet you'd like a cup of this coff-",
+      "ru": "Привет, незнакомец! Добро пожаловать в мою скромную деревянную обитель. Уютно же, а? Держу пари, ты бы не отказался от чашечки этого коф-",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Oh yes, I am the affable Ariodo, friendly neighbourhood neighbour. What do you need me for?",
+      "ru": "О да, я приветливый Ариодо, ваш дружелюбный сосед! Чем обязан?",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Kidnappings? Poaching? Not brushing my teeth?! Who is the lowly person you're talking about... they don't seem like a nice fellow such as myself.",
+      "ru": "Похищения? Браконьерство? Не чищу зубы?! О каком негодяе ты говоришь... Он совсем не похож на такого славного человека, как я.",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Lets go, I'll take you to the exit so that I don't waste your time any longer!",
+      "ru": "Пойдём, я провожу тебя к выходу, чтобы не тратить твоё время ещё больше!",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "This is the room you came from. I call it the \"Vivarium\", creative name I came up with, right? It keeps my pets that aren't quite ready.",
+      "ru": "Вот комната, откуда ты пришёл. Я назвал её \"Вивариум\". Здорово придумал, правда? Здесь живут мои питомцы, которые ещё не совсем готовы.",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Ready for what? Well that would ruin the surprise, wouldn't it? Can't have anyone finding out before the big event!",
+      "ru": "Готовы к чему? Ну, если я скажу, это испортит сюрприз! Нельзя никому узнать о нём до большого события!",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Let us go now, time is precious.",
+      "ru": "Пошли дальше, время - штука ценная.",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "So you must be thinking, how have you never met a fine fellow such as myself until now? To be quite honest, you must have been terribly unlucky, I used to travel the world, you know!",
+      "ru": "Ты наверняка думаешь: как же тебе раньше не встречался такой славный человек, как я? Честно говоря, тебе ужасно не везло. Я ведь когда-то путешествовал по всему миру!",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Oh, the places I've been were wonderful! From the depths of the jungle to the lesser depths of the jungle to even my back garden, I've done my fair share of exploring, if I do say so myself!",
+      "ru": "Ох, в каких чудесных местах я бывал! В самой глубине джунглей, не так глубоко в джунглях и даже в собственном саду за домом! Осмелюсь сказать, немало я повидал!",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "You are the first normal person I've seen recently, {PlayerName}. I went out recently and was met with some very rude remarks by some very rude townsfolk!",
+      "ru": "Ты первый нормальный человек, которого я встретил за последнее время, {PlayerName}. Недавно я вышел в город, и какие-то невоспитанные горожане наговорили мне ужасных грубостей!",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "The last time I visited the town it was all empty too, but I could feel people were hiding in their homes, even on such a lovely day as then. There was no one even to hide from! Strange people.",
+      "ru": "Когда я в последний раз заходил в город, там тоже было пусто, но я прям чувствовал, как люди прячутся по домам, хотя день был просто чудесный. И ведь даже прятаться-то было не от кого! Странные люди.",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I'm just a normal guy, so why can't anyone appreciate me for once? I'm sure you do, right?",
+      "ru": "Я же обычный парень, так почему меня никто не может просто взять и оценить по достоинству? Ты-то уж наверняка понимаешь, да?",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Here we are, the library! I could spend years in here, but who has time for that? I could talk about books hours too! Here's one right now.",
+      "ru": "Вот и библиотека! Я бы тут годами сидел, но у кого сейчас есть на это время? Я вообще могу часами про книги болтать! Вот, например, одна.",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "This is 'The Long-Winded and Painful Death of Sweeney S. Greenville' and I must say it is a hidden gem among books! One day it just suddenly appeared in here so I couldn't resist reading it. So it starts off with Sweeney S. Greenville...",
+      "ru": "Это \"Долгая и мучительная смерть Суини С. Гринвилла\", настоящая жемчужина, о которой мало кто знает! Однажды книга вдруг появилась здесь, и я не смог удержаться и не прочитать её. Начинается она с Суини С. Гринвилла...",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "We're here now! Take the exit right in front of you, don't mind the corridor to the right, it's only decoration!",
+      "ru": "Ну вот, пришли! Выход прямо перед тобой, а на коридор справа не обращай внимания, он чисто для красоты!",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Maybe you can come back some day for a tea or coffee and a long talk about books, since I noticed you were very interested in my long-winded review! Have fun out there and don't forget, I'm always here for you!",
+      "ru": "Может, как-нибудь ещё зайдёшь на чай или кофе и поболтаешь со мной о книгах? Я заметил, как тебе понравился мой обстоятельный пересказ! Хорошо тебе провести время, и помни: я всегда к твоим услугам!",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "The ground is shaking... I thought that was supposed to happen later! Come back, friend, I can't do this alone!",
+      "ru": "Земля трясётся... Я думал, это случится позже! Вернись, друг, я один с этим не справлюсь!",
+      "speaker": "Ariodo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Help me keep this door shut, or else my surprise will be ruined!",
+      "ru": "Помоги держать дверь закрытой, а то мой сюрприз накроется!",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Just keep to the sides, it's safer that way.",
+      "ru": "Держись по краям, так безопаснее.",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Just stay here for one more momen...",
+      "ru": "Постой тут ещё один момен...",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Oh my, a ghost? Wait, is this just you, my trusty friend, playing a prank on me? No? Well that certainly is a problem!",
+      "ru": "Ой, призрак? Погоди, это ты, мой верный друг, меня разыгрываешь? Нет? Что ж, вот это неприятность!",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "If you remember, we were talking about keeping the door shut when suddenly something heavy fell off a shell hitting you square in the head!",
+      "ru": "Если помнишь, мы говорили о том, как удержать дверь закрытой, и тут что-то тяжёлое свалилось тебе прямо на голову!",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "I think I heard something about fighting fire with fire, so I think I have a way to get you back! You are a bit too heavy for me, so we need to think of a workaround.",
+      "ru": "Я слышал поговорку \"клин клином вышибают\". Кажется, я знаю, как тебя вернуть! Ты для меня тяжеловат, так что придётся придумать другой способ.",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "During the shaking, some of my machines broke apart, but we could use these to build something capable of dropping someting heavier on your head for the second time.",
+      "ru": "От тряски некоторые мои машины развалились, но из этих деталей мы можем собрать устройство, которое снова уронит тебе на голову что-нибудь потяжелее.",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Surely by that logic everything has to go well, you know. Now let me explain how we can do this. First, choose what part you want to use to make our machine, then choose where you want it to go and face.",
+      "ru": "Ну по такой логике всё должно сработать как надо, сам понимаешь. Сейчас объясню, как это сделать. Сначала выбери, какую часть хочешь поставить в нашу машину, потом выбери, куда её поставить и в какую сторону повернуть.",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "The [Cart] can carry the coconut from one end of the platform to another for a few tiles, while the [Fan] can push the coconut even further.",
+      "ru": "[Тележка] может прокатить кокос по платформе на несколько клеток, а [Вентилятор] толкает кокос ещё дальше.",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "The [Hammer] is able to knock the coconut over a one space gap while the [Cannon] can shoot the coconut one grid up diagonally in the direction it is facing.",
+      "ru": "[Молот] перебрасывает кокос через промежуток в одну клетку, а [Пушка] выстреливает им по диагонали вверх на одну клетку в ту сторону, куда направлена.",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "I think I hit my head too, so I'll need your help deciding where to place each part. You want to get the coconut across to the green tile, remember?",
+      "ru": "Кажется, я тоже головой приложился, так что мне нужна твоя помощь, чтобы понять, куда ставить каждую деталь. Тебе же надо доставить кокос до зелёной клетки, помнишь?",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "You're back! To be quite honest, I didn't think that would work, but I'm glad it did!",
+      "ru": "Ты вернулся! Честно говоря, я не думал, что это сработает, но очень рад, что ошибся!",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Quick, head through the large door and stop the cause of all this shaking!",
+      "ru": "Быстро, беги через большую дверь и разберись с причиной всей этой тряски!",
+      "speaker": "Ariodo",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Oh no no, this is not good! If I had known that my little pet has grown so much I would have rushed you out sooner. Now it is wilted...",
+      "ru": "Ой-ой, вот это уже плохо! Если бы я знал, что мой маленький питомец так вымахал, я бы выпихнул тебя отсюда гораздо раньше. А теперь он завял...",
+      "speaker": "Ariodo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "You did what you had to, though. I am sorry to say this friend, but I think I'll stay inside a little longer. Sorry, my only friend.",
+      "ru": "Но ты сделал то, что должен был. Прости, друг, но, пожалуй, я ещё немного посижу внутри. Прости... мой единственный друг.",
+      "speaker": "Ariodo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "We'll surely meet again in the future, so don't be sad. I'll still be the one and only friendly neighbourhood neighbour when that moment comes, I promise. Goodbye now!",
+      "ru": "Мы непременно ещё встретимся, так что не грусти. И я всё так же буду твоим единственным и неповторимым дружелюбным соседом, обещаю. До встречи!",
+      "speaker": "Ariodo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "You're back! You were gone for ages too, and what happened to your head? Who did the mystery man turn out to be?",
+      "ru": "Ты вернулся! Тебя, кстати, очень долго не было, и что у тебя с головой? Кем в итоге оказался этот загадочный тип?",
+      "speaker": "Todd",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "That sounds ridiculous! Who could ever belie-",
+      "ru": "Да это звучит как полный бред! Кто вообще в такое пове-",
+      "speaker": "Viola",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Wow that sounded just like in the stories, but it came from you, so it must be true!",
+      "ru": "Вау, это звучит прям как в историях, но раз ты сам это говоришь, значит, всё правда!",
+      "speaker": "Prentiss",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "I don't know about you, Todd, but I fell like we should make them our honorary club member for finding such amazing things!",
+      "ru": "Не знаю, как ты, Тодд, а я думаю, что за такие удивительные открытия его стоит сделать почётным членом нашего клуба!",
+      "speaker": "Prentiss",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Why do I even try... You two would believe anything.",
+      "ru": "Вот зачем я вообще стараюсь... Вы двое поверите вообще во что угодно.",
+      "speaker": "Viola",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "I'm pretty sure they mentioned something about being hit by coconut crabs, and just look at their head. One... two... two huge bumps!",
+      "ru": "Я почти уверен, что там было что-то про удары кокосовыми крабами, и ты только посмотри на его голову. Один... два... две здоровенные шишки!",
+      "speaker": "Prentiss",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Oh fine... whatever you say, Prentiss. I'm sure they'll bring you on some wacky adventures next time around!",
+      "ru": "Ну ладно... как скажешь, Прентисс. Уверена, в следующий раз он и тебя прихватит на какую-нибудь безумную авантюру!",
+      "speaker": "Viola",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Ignore Viola, she's acting up today, probably because you're got the spotlight this time. However, I agree with Prentiss.",
+      "ru": "Не слушай Виолу, она сегодня капризничает. Наверное, потому что на этот раз всё внимание досталось тебе. А я согласен с Прентиссом.",
+      "speaker": "Todd",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Thanks to you, we solved the case of the mystery man as well as the mystery house! For this I'd like to...",
+      "ru": "Благодаря тебе мы раскрыли тайну и загадочного мужика, и загадочного дома! За это я хочу...",
+      "speaker": "Todd",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Welcome you to the club, new member! Here is your shiny new badge that you can parade around town to show off how cool you are to the other with style.",
+      "ru": "Добро пожаловать в клуб, новый участник! Держи свой блестящий значок. Теперь можешь ходить с ним по городу и красоваться перед остальными!",
+      "speaker": "Todd",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Also since all the adults do it, we'll give you some emeralds that you rightly deserve for such an achievement. We all pitched in!",
+      "ru": "И ещё, раз уж взрослые так делают, мы дадим тебе изумрудов. Ты их заслужил за такой подвиг! Все скинулись!",
+      "speaker": "Prentiss",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "What is that noise coming from the room to the right? Perhaps it is best to go there first.",
+      "ru": "Что это за шум из комнаты справа? Пожалуй, лучше сначала сходить туда.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "As Ariodo continues to tell every excruciating detail of the book, you start to notice some of the library's residents.",
+      "ru": "Пока Ариодо до утомления подробно пересказывает книгу, ты начинаешь замечать некоторых обитателей библиотеки.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "'Painting By Numbers for Children'?'Alchemical Circles for Dummies'? This person isn't the ordinary chap he made himself out to be!",
+      "ru": "\"Рисование по номерам для детей\"? \"Алхимические круги для чайников\"? Этот человек не такой обычный, каким хотел казаться!",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Perhaps it is best to stay quiet until the exit.",
+      "ru": "Пожалуй, лучше помолчать до самого выхода.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "As you are about to leave the lab, an issue arises.",
+      "ru": "Когда ты уже собираешься покинуть лабораторию, возникает проблема.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "The entrance has been cleared. What could lay behind it?",
+      "ru": "Вход расчищен. Что же там за ним?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "After whatever that was, nothing could possibly surprise you. Time to get back to the Troms Kids before things go awry again.",
+      "ru": "После всего этого тебя уже ничем не удивить. Пора возвращаться к детям из Тромса, пока снова что-нибудь не пошло не так.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You tell the group of kids your experiences of strange creatures, even stranger men as well as a hazy memory about... a coconut?",
+      "ru": "Ты рассказываешь детям о своих встречах со странными существами, ещё более странными людьми и смутном воспоминании о... кокосе?",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Keep near me, we can't have a lost guest!",
+      "ru": "Держись рядом, нельзя же дать гостю заблудиться!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "New Quest Started: Out of my Mind",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Не в своём уме",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak with the Troms children in the treehouse.",
+      "ru": "Поговорить с детьми Тромса в домике на дереве.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find the hidden door next to the gate near the Undergrowth Ruins outside Troms",
+      "ru": "Найти скрытую дверь возле ворот у Заросших руин за пределами Тромса.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Find a way inside the house at [-705,59,-817]",
+      "ru": "Найти способ попасть в дом [-705,59,-817].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Explore the hidden lab in search of information",
+      "ru": "Исследовать тайную лабораторию в поисках сведений.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Build a machine to hit your head and get back to normal",
+      "ru": "Собрать машину, которая ударит тебя по голове и вернёт в нормальное состояние.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find a way to destroy the plant monster, then return to the group in Troms at [-830,75,-979] to report your findings",
+      "ru": "Найти способ уничтожить растительное чудовище, затем вернуться к ребятам в Тромс [-830,75,-979] и рассказать о находках.",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": []
+}

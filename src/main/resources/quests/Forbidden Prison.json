@@ -1,0 +1,1412 @@
+{
+  "quest": "Forbidden Prison",
+  "level": 72,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "forbidden-prison",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hey, hey, humie! Yeah, I'm talkin' to ya here..",
+      "ru": "Эй, эй, человечек! Да-да, это я тебе говорю...",
+      "speaker": "Merchant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Y'see, I got a few things here... look around for a bit, they're all very rare...",
+      "ru": "Видишь ли, у меня тут кое-что есть... осмотрись пока, всё очень редкое...",
+      "speaker": "Merchant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I see that look in yer eyes... Ya interested in something here? It's all 'fa sale...",
+      "ru": "Вижу этот взгляд... Приглянулось что-то? Тут всё продаётся...",
+      "speaker": "Merchant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "..Say, humie... I ain't mean to alarm ya, but do ya know who that guy sneakin' up behind 'ye is?",
+      "ru": "...Слушай, человечек... не хочу тебя пугать, но ты вообще знаешь, кто это там подкрадывается у тебя за спиной?",
+      "speaker": "Merchant",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "OI! Wake up, you damned miscreant!",
+      "ru": "ЭЙ! Просыпайся, проклятый мерзавец!",
+      "speaker": "???",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Took ya long enough.. Alright, listen up, maggot!",
+      "ru": "Долго же ты приходил в себя... Ладно, слушай сюда, червяк!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "We found ya outside of Gelibord, passed out near some dead body, and... Well, we had to arrest someone for that merchant's death!",
+      "ru": "Мы нашли тебя у Гелиборда, в отключке рядом с каким-то трупом, и... Ну, короче, надо же было кого-то посадить за смерть того торговца!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "So, welcome to the Lexdale Federal Prison. You're in here for the rest of your life, short-nose, so no use complaining about it.",
+      "ru": "Так что добро пожаловать в федеральную тюрьму Лексдейла. Сидеть тебе тут до конца жизни, коротконосый, так что даже не скули.",
+      "speaker": "Prison Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "And don't think you get to just lounge around all day in your cell. You gotta do work here, or you're getting thrown in the hole.",
+      "ru": "И даже не думай, что будешь просто валяться весь день в камере. Здесь все работают, иначе полетишь в яму.",
+      "speaker": "Prison Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "But for now, you're stayin' in your cell, understood? Now, stay here, and take a look around your cell. You'll know when it's time to work..",
+      "ru": "Но пока что ты сидишь в своей камере, понял? Так что стой тут и оглядись вокруг. Когда придёт время пахать, ты это поймёшь..",
+      "speaker": "Prison Guard",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "GWAH! Who the hell are you?",
+      "ru": "ГВАХ! Ты ещё кто такой, чёрт возьми?",
+      "speaker": "Old Prisoner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Oh, thank grook, you're just another prisoner... So young, too...",
+      "ru": "Ох, слава груку, ты всего лишь ещё один зэк... И такой молодой...",
+      "speaker": "Old Prisoner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "You just got here, right? Well... I can tell you're innocent... Just like almost everyone else in this forsaken prison...",
+      "ru": "Ты только что сюда попал, да? Ну... я сразу вижу, что ты невиновен... как и почти все остальные в этой проклятой тюрьме...",
+      "speaker": "Old Prisoner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Listen, human... This prison... You couldn't have come to a more horrific prison in the entire world! This place is hellish!!",
+      "ru": "Слушай, человек... Эта тюрьма... Хуже места во всём мире ты бы просто не нашёл! Тут настоящий ад!!",
+      "speaker": "Old Prisoner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "The guards here, they're sadistic! They'll pluck random prisoners out of their cells, and nobody ever sees them again! They're trying to kill us all in here!",
+      "ru": "Охрана тут просто садисты! Они вытаскивают случайных заключённых из камер, и больше их никто не видит! Они хотят нас тут всех перебить!",
+      "speaker": "Old Prisoner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "I'm being serious, human! If you stay here, they'll kill you, too! You HAVE to escape this place, whatever it t-",
+      "ru": "Я серьёзно, человек! Если останешься тут, они и тебя прикончат! Ты ОБЯЗАН свалить отсюда, чего бы это ни сто-",
+      "speaker": "Old Prisoner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Oi, filth! You're comin' with us. Get out of your cell, NOW!",
+      "ru": "Эй, отброс! Пойдёшь с нами. ВЫЛЕЗАЙ из камеры, СЕЙЧАС!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Are you sure, uh, sir? I don't think I'm supposed to be anywhere today...",
+      "ru": "Вы уверены, эм, сэр? Мне вроде сегодня никуда не нужно было...",
+      "speaker": "Old Prisoner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Oh, ya think you're smart, trying to resist?? Oi, Jon, block the entrance!",
+      "ru": "Ах ты, значит, решил поумничать и сопротивляться?? Эй, Джон, перекрой выход!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "H-HEY! WHAT ARE YOU- GET OFF- AAAAAHH!! SOMEONE!! HELP ME!!! PLEASE!!!!",
+      "ru": "Э-ЭЙ! ЧТО ВЫ- ОТСТАНЬТЕ- АААААХ!! КТО-НИБУДЬ!! ПОМОГИТЕ!!! ПОЖАЛУЙСТА!!!!",
+      "speaker": "Prisoner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "OI! Quit starin' off into space, maggot! Come over to your cell's bars.",
+      "ru": "ЭЙ! Хватит глазеть в пустоту, червяк! Подойди к решётке своей камеры.",
+      "speaker": "Prison Guard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "It's work time, filth. I'll escort you to the hallways. Once you're there, someone will tell you what to do. Do as they say, and you might come back tonight.",
+      "ru": "Время работы, мразь. Я отведу тебя в коридоры. Там тебе скажут, что делать. Сделаешь как велят - может, к вечеру и вернёшься.",
+      "speaker": "Prison Guard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "You got that, wretch? Alright, now get out of your cell!",
+      "ru": "Усвоил, отброс? Тогда вылезай из камеры!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Guess you're the one on cleanin' duty, huh? Alright. Listen up, scum!",
+      "ru": "Значит, сегодня ты на уборке, да? Ладно. Слушай сюда, отброс!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Take this sponge, and look around the hallways. If you see a mess, use the sponge to clean it up. Someone will escort you back to the cells once you're done.",
+      "ru": "Бери эту губку и шастай по коридорам. Увидишь грязь - оттираешь. Как закончишь, тебя отведут обратно в камеры.",
+      "speaker": "Prison Guard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Got it? Alright. Now, get to work!",
+      "ru": "Понял? Отлично. Тогда за работу!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "You're done cleaning? Alright, it's time for rollcall. You're being escorted back to the cell block. Follow me, and don't move.",
+      "ru": "Закончил убираться? Ладно, теперь перекличка. Тебя ведут обратно в блок. Иди за мной и не рыпайся.",
+      "speaker": "Prison Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Well, well, well... Looks like the dross of society is here on time!",
+      "ru": "Ну-ну-ну... Гляди-ка, отбросы общества сегодня пришли вовремя!",
+      "speaker": "The Warden",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Alright. Stay in line, and don't move, maggots! It's time for roll call...",
+      "ru": "Так. Стоять в строю и не дёргаться, черви! Начинаем перекличку...",
+      "speaker": "The Warden",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "...",
+      "ru": "...",
+      "speaker": "The Warden",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "You're all here... Ha! That's a surprise, you outcasts can actually follow orders!",
+      "ru": "Все на месте... Ха! Ну надо же, оказывается, вы, отбросы, всё-таки умеете выполнять приказы!",
+      "speaker": "The Warden",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "...Hm... Looks like we've got a new arrival too.. Don't worry, peon... your soul will be well secure here for the rest of eternity.",
+      "ru": "...Хм... Похоже, у нас ещё и новенький появился... Не переживай, ничтожество... твоя душа будет надёжно заперта здесь до конца вечности.",
+      "speaker": "The Warden",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Alright. That's it for now, you worthless menaces. It's meal time. Head to the cafeteria, and pray that we're not giving you your last meal.",
+      "ru": "Ладно. На этом пока всё, бесполезные паразиты. Время жратвы. Двигайте в столовую и молитесь, чтобы вас кормили не в последний раз.",
+      "speaker": "The Warden",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Hi... Say, could you... do something for me...?",
+      "ru": "Привет... Слушай, можешь... кое-что для меня сделать...?",
+      "speaker": "Starving Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "I'm... starving to death here... those blasted guards won't... let me get any food...",
+      "ru": "Я... тут с голоду дохну... эти проклятые охранники не дают мне... добраться до еды...",
+      "speaker": "Starving Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Please... to my right... There's some food sitting there, if you could get it for me, I'd be... eternally grateful...",
+      "ru": "Пожалуйста... справа от меня... Там лежит еда, если сможешь принести её мне, я буду... вечно благодарен...",
+      "speaker": "Starving Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Is this... it's... Food!!",
+      "ru": "Это... Это же... ЕДА!!",
+      "speaker": "Starving Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "I... I can't thank you enough, human... I should be able to keep going with this...",
+      "ru": "Я... Я даже не знаю, как тебя благодарить, человек... С этим я ещё смогу продержаться...",
+      "speaker": "Starving Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Say... if you ever get out of this slaughterhouse... could you go to Lexdale... and try and talk with my family, there? Let them know that I'm still alive...? I'd appreciate that....",
+      "ru": "Слушай... если ты когда-нибудь выберешься из этой бойни... можешь сходить в Лексдейл... и поговорить там с моей семьёй? Скажи им, что я всё ещё жив... Я был бы очень благодарен....",
+      "speaker": "Starving Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Hey.. It's alright, you can sit here, don't worry.",
+      "ru": "Эй... Всё нормально, можешь сесть здесь, не парься.",
+      "speaker": "Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "So... you're new here, right? Hah... Guessing you're innocent, just like the rest of us... and I mean that...",
+      "ru": "Значит... ты новенький, да? Хах... Думаю, ты невиновен, как и все мы тут... и я сейчас не шучу...",
+      "speaker": "Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "He's tellin' the truth, new guy. Most of us here are just average civilians. I worked at a transportation company in Cinfras, and was delivering some crates to Gelibord when they snatched me just out of town.",
+      "ru": "Он не врёт, новенький. Большинство из нас тут обычные мирные люди. Я работал в транспортной компании в Синфрасе, вёз ящики в Гелиборд, а меня схватили прямо за городом.",
+      "speaker": "Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Me too! I don't even know why I was put here at all! I wasn't even given a trial in court, or anything! They just plucked me off the streets and threw me in here!",
+      "ru": "И я тоже! Я вообще не знаю, за что меня сюда запихнули! Даже суда не было! Просто схватили на улице и кинули сюда!",
+      "speaker": "Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "They wanna kill you, that's why. Did ya hear about Revan? He got taken away a couple of days ago, after he accidentally stumbled during roll call. Nobody's heard or seen 'em since.",
+      "ru": "Они просто хотят тебя убить, вот почему. Слышал про Ревана? Его утащили пару дней назад после того, как он случайно споткнулся на перекличке. С тех пор его никто не видел и не слышал.",
+      "speaker": "Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I... you're probably right... I just dont understand any of this anymore... I just want to escape this damn place for good...",
+      "ru": "Я... наверное, ты прав... Я уже вообще ничего не понимаю... Я просто хочу навсегда свалить из этого проклятого места...",
+      "speaker": "Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "...Good luck with that.. Only way out is through that exit door, and even then you gotta get into the Control Room, as well. It's...just impossible, y'know?",
+      "ru": "...Ну удачи тебе с этим... Единственный выход - через ту дверь, но даже тогда нужно ещё как-то попасть в комнату управления. Это... это просто нереально, понимаешь?",
+      "speaker": "Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Alright, meal time's over! Get to your cells, filth!",
+      "ru": "Всё, жратва закончилась! По камерам, мразь!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "...Well... That's this place in a nutshell for you, human. Just try not to get in anyone's way or step out of line, and you should be alright until they end up taking you.",
+      "ru": "...Ну вот, собственно, и вся суть этого места, человек. Просто старайся никому не мешать и не высовываться, и тогда, может, протянешь до того момента, как они всё-таки доберутся и до тебя.",
+      "speaker": "Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Oi, who's this guy right 'ere? We don't know ya. Move it!",
+      "ru": "Эй, это кто тут такой? Мы тебя не знаем. Проваливай!",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "'Ey, 'ey, let it rest, Don. They're not hurtin' nobody.",
+      "ru": "Эй, эй, успокойся, Дон. Он никому не мешает.",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...Got it, boss... Sorry...",
+      "ru": "...Понял, босс... Извини...",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Don't worry about it. So... You know who we are, novello?",
+      "ru": "Да не парься. Ну что... Ты вообще знаешь, кто мы такие, новичок?",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "We're part of the Placido Crime Family. We do business across the entire world; all parts of it, you know what I'm saying?",
+      "ru": "Мы из преступной семьи Плачидо. Делаем бизнес по всему миру, во всех его уголках, понимаешь, о чём я?",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Almost all of us at this table got caught for running with the family-... Ah, bet you're surprised to hear that there are some guilty people up in this slaughterhouse, yeah?",
+      "ru": "Почти все за этим столом попали сюда именно за дела семьи... Ха, наверное, ты удивлён, что в этой бойне всё-таки есть и реально виновные, да?",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "It's alright, you don't have to worry about us getting plucked and killed like those other piacevole here. Guards keep on sayin' something about \"our souls are too tainted\", whatever they mean.",
+      "ru": "Да расслабься, нас тут не вытаскивают и не режут, как остальных бедолаг. Охрана всё талдычит, что \"наши души слишком испорчены\", что бы это ни значило.",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Hah! Maybe you'll get the same treatment too, novello. I saw it the minute I laid eyes on ya. You're a killer too, ain't ya? Hey, gotta be one to know you're dealin' with one..",
+      "ru": "Ха! Может, и к тебе будет то же отношение, новичок. Я это в тебе сразу увидел. Ты ведь тоже убийца, да? Ну, убийца убийцу чует сразу..",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "..Anyways... You thinkin' about staying in this prison, fratello? Word of advice: Don't. If you can, you gotta escape. You might think it's impossible for someone to escape here, or whatnot...",
+      "ru": "...Короче... Думаешь остаться в этой тюрьме, брат? Совет один: не надо. Если есть хоть шанс, беги отсюда. Может, тебе кажется, что отсюда невозможно выбраться, и всё такое...",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "But no, you're different. I can see it in those eyes. You just gotta find a way into that Control Room, somehow. And hey, if you do get outta here, go and raise some hell in the Letvus Black Market for us, yeah?",
+      "ru": "Но нет, ты другой. Это по глазам видно. Тебе просто надо как-то пробраться в комнату управления. И эй, если всё-таки выберешься, наведи шороху на чёрном рынке Летвуса за нас, а?",
+      "speaker": "Mafia Prisoner",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Alright, look straight, scum! Morning rollcall is about to start.",
+      "ru": "Так, смотрим прямо, мразь! Сейчас начнётся утренняя перекличка.",
+      "speaker": "The Warden",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Let's see here...",
+      "ru": "Ну-ка посмотрим...",
+      "speaker": "The Warden",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "...you're all here...? Hm... Disappointing, honestly. Rollcall is over. All of you, head to wherever your job is, and get to work!",
+      "ru": "...все на месте...? Хм... Если честно, даже разочаровывает. Перекличка окончена. Все марш по своим работам и пашите!",
+      "speaker": "The Warden",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You're done? Alright, now follow me. Rollcall is about to start.",
+      "ru": "Закончил? Ладно, теперь за мной. Сейчас перекличка начнётся.",
+      "speaker": "Prison Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "What with you all, showing up late like this?? It's time for rollcall!",
+      "ru": "Вы что вообще творите, чего все опаздываете?? Время переклички!",
+      "speaker": "The Warden",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "You're all here, huh? Alright then, head on to dinn-",
+      "ru": "Все тут, да? Ладно тогда, двигайте на уж-",
+      "speaker": "The Warden",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Oi! Quit steppin' on my shoes, cretino!",
+      "ru": "Эй! Хватит мне на ботинки наступать, кретин!",
+      "speaker": "Prisoner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Hey! What the hell are you talkin' about, making up something like that! I didn't do anythin'!",
+      "ru": "Эй! Ты что вообще несёшь, чего ты это выдумываешь! Я ничего не делал!",
+      "speaker": "Prisoner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Shut it, fat-nose! You know what you were doin'! Now stay out of my way!",
+      "ru": "Заткнись, толстоносый! Ты прекрасно знаешь, что делал! И теперь не путайся у меня под ногами!",
+      "speaker": "Prisoner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "OI! Are you blind, or something?!? Get those lowlifes under control, guards!",
+      "ru": "ЭЙ! Вы что, слепые, что ли?!? Утихомирьте этих отбросов, живо!",
+      "speaker": "The Warden",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "You two got some damn nerve, fightin' during rollcall!",
+      "ru": "Ну и наглость у вас двоих, устроить драку прямо во время переклички!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "'Prisoner: Don't touch me!'",
+      "ru": "'Заключённый: Не трогай меня!'",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "W-Woah, HEY! This maggot has a shank! Back up!!!",
+      "ru": "О-Ого, ЭЙ! У этого червя заточка! Назад!!!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "LOCKDOWN! LOCKDOWN! ALL OF YOU, IN YOUR CELLS, NOW!",
+      "ru": "ЗАПЕРЕТЬ БЛОК! ЗАПЕРЕТЬ БЛОК! ВСЕМ ПО КАМЕРАМ, СЕЙЧАС ЖЕ!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "You two really are stupid, huh? Fighting in the midst of all of these guards? And you got a shank, too...",
+      "ru": "Ну вы двое и дебилы, а? Подраться прямо среди всей охраны? Ещё и с заточкой...",
+      "speaker": "The Warden",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Well, looks like it's game over for you two outcasts. You're heading straight to the hole!",
+      "ru": "Ну всё, похоже, игра для вас двоих закончена. Прямиком в яму!",
+      "speaker": "The Warden",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "You, take these two cretins to the hole, and you, go to my office and get one of the spare control room keys. Now, LIGHTS OUT!",
+      "ru": "Ты, веди этих двух кретинов в яму, а ты - быстро в мой кабинет за запасным ключом от комнаты управления. А теперь ОТБОЙ!",
+      "speaker": "The Warden",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Alright, everyone get in line, and stand straight! Don't move, or it's game over for you!",
+      "ru": "Так, все в строй и стоять ровно! Шаг в сторону, и для вас всё кончено!",
+      "speaker": "The Warden",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "H-hey! Stop pushing me, mate! Seriou-",
+      "ru": "Э-эй! Хватит меня толкать, приятель! Я серь-",
+      "speaker": "Prisoner",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Well, well, well... Another peon thought it was wise to step off course..",
+      "ru": "Ну-ну-ну... Ещё одно ничтожество решило, что можно выйти из строя...",
+      "speaker": "The Warden",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "W-wait a minute, miss! Someone pushed me out of line! I swear!",
+      "ru": "П-подождите, мисс! Меня вытолкнули из строя! Клянусь!",
+      "speaker": "Prisoner",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "BE QUIET! I didn't say you could speak, filth!",
+      "ru": "МОЛЧАТЬ! Я не разрешала тебе открывать рот, мразь!",
+      "speaker": "The Warden",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Get back in line! Once this is over, you're out, slime!",
+      "ru": "Обратно в строй! Как всё закончится, тебе конец, слизняк!",
+      "speaker": "The Warden",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Alright, now, the rest of you, get to work! Rollcall is over for you all!",
+      "ru": "Так, а остальные марш по работам! Для вас перекличка окончена!",
+      "speaker": "The Warden",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Huh, what's that noise?",
+      "ru": "Хм, что это за шум?",
+      "speaker": "Prison Guard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Oh, thank the bovine! There's a friendly face around here..",
+      "ru": "О, слава быку! Хоть одно нормальное лицо тут появилось..",
+      "speaker": "Prisoner",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Listen, human, you gotta get me out of here! They've been killin' people in here all day! If you don't help me out, I'll be next!",
+      "ru": "Слушай, человек, ты должен вытащить меня отсюда! Они тут людей весь день режут! Если не поможешь, следующим буду я!",
+      "speaker": "Prisoner",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "Look, next to my cell, on that desk! There's a key! Grab it and hand it to me!",
+      "ru": "Смотри, рядом с моей камерой, на том столе! Там ключ! Хватай его и давай сюда!",
+      "speaker": "Prisoner",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Yes, perfect, PERFECT! That's the key, hand it to me!",
+      "ru": "Да, отлично, ОТЛИЧНО! Это он, давай его сюда!",
+      "speaker": "Prisoner",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "I can't explain the debt I owe you, human... You have no idea how grateful I am..",
+      "ru": "Я даже не могу объяснить, как много тебе теперь должен, человек... Ты не представляешь, насколько я тебе благодарен..",
+      "speaker": "Prisoner",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Say, what's your name, human? <playername>? Alright, my name's Kaetan. Go on ahead and get out of here, I'll catch up. If you do get out of this chop-shop, meet me in Cinfras, I want to give you something there.",
+      "ru": "Слушай, как тебя зовут, человек? <playername>? Ладно, меня зовут Каэтан. Дуй вперёд и выбирайся отсюда, я догоню. Если вылезешь из этой мясорубки, встретимся в Синфрасе, я хочу кое-что тебе там отдать.",
+      "speaker": "Prisoner",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Hh-h-hel-p-pp-p.... m-me-ee-e.. pl-ea-s-sE!",
+      "ru": "П-п-помо-ги-и.... М-мне-е... п-пожа-луйста!",
+      "speaker": "Prisoner",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Huh...? Oh- HEY! The table caught on fire, someone get over 'ere and help me put it out!",
+      "ru": "А...? О- ЭЙ! Стол загорелся, кто-нибудь быстро сюда и помогите потушить!",
+      "speaker": "Prison Guard",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Who are you? Can I help you, human?",
+      "ru": "Кто ты такой? Я могу чем-то помочь, человек?",
+      "speaker": "Lexdale Citizen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "WHAT?? Taron, he-he's alive?? And you... made sure he didn't starve in that prison...?",
+      "ru": "ЧТО?? Тарон, о-он жив?? И ты... проследил, чтобы он там в тюрьме не умер с голоду...?",
+      "speaker": "Lexdale Citizen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "I... human, I can't thank you enough. Even if he doesn't get out of there, just knowing he's alive is... please, I know it's not a lot, but take this.",
+      "ru": "Я... человек, я даже не знаю, как тебя благодарить. Даже если он не выберется оттуда, уже одно то, что он жив... пожалуйста, я знаю, что это немного, но возьми.",
+      "speaker": "Lexdale Citizen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Good evening. Can I help you with anything?",
+      "ru": "Добрый вечер. Я могу вам чем-нибудь помочь?",
+      "speaker": "Gelibord Citizen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "M-my son? He's alive?!? Oh, sweet baby bovine, that's...! Where is he??",
+      "ru": "М-мой сын? Он жив?!? О, святой телёночек, это...! Где он??",
+      "speaker": "Gelibord Citizen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "...the prison, huh? Well... It's good to know that he'll be able to hold on a little longer... Thank you so much, human. Here, take this!",
+      "ru": "...в тюрьме, значит? Ну... хорошо хотя бы знать, что он сможет продержаться ещё немного... Спасибо тебе огромное, человек. Вот, держи!",
+      "speaker": "Gelibord Citizen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "It's a vent.",
+      "ru": "Это вентиляционное отверстие.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "You attempt to pull off the vent cover...",
+      "ru": "Ты пытаешься сорвать вентиляционную решётку...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "It won't budge.",
+      "ru": "Она не поддаётся.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "It's a water bowl.",
+      "ru": "Это миска с водой.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "There's a horrific smell coming from the water...",
+      "ru": "От воды исходит жуткий запах...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "It'd probably be best to not touch it..",
+      "ru": "Лучше, наверное, её не трогать..",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Looks like you've cleaned up all the messes! You should return to the Guard at the entrance of the hallways to tell him that you're done.",
+      "ru": "Похоже, ты всё прибрал! Вернись к стражнику у входа в коридоры и скажи ему, что закончил.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "You're escorted to the cafeteria by the guards...",
+      "ru": "Стражники сопровождают тебя в столовую...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "This looks like the cafeteria. You should look for a place to sit down..",
+      "ru": "Похоже, это столовая. Тебе стоит найти, куда присесть..",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Right-click again to sit at this table.",
+      "ru": "Кликни правой кнопкой ещё раз, чтобы сесть за этот стол.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "You decide to sit down at this table...",
+      "ru": "Ты решаешь сесть за этот стол...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "You're escorted out of the cafeteria and back to your cell...",
+      "ru": "Тебя выводят из столовой обратно в камеру...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Looks like that's the end of today... Your top priority tomorrow should be to devise a plan to escape the prison. Finding a guard outfit could be helpful, as well..",
+      "ru": "Похоже, на сегодня всё... Завтра прежде всего нужно придумать план побега. Раздобыть форму стражника тоже не помешало бы...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "Alright! Everyone, get up! Out of your cells, NOW! It's time for rollcall!",
+      "ru": "Так! Все встали! Из камер, ЖИВО! Время переклички!",
+      "speaker": "???",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "You vaguely remember the rat that had ran by here yesterday...",
+      "ru": "Ты смутно припоминаешь крысу, что пробежала здесь вчера...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "The rat squeaks at you in gratitude.",
+      "ru": "Крыса благодарно попискивает тебе.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Time to take stock of the situation. You need to get out of here, and you might just have found enough out to do it.",
+      "ru": "Пора оценить положение. Тебе нужно отсюда выбраться, и, кажется, ты разузнал достаточно, чтобы это сделать.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "The only way to escape is by heading through the exit door. You'll need to access the control room in order to open it...",
+      "ru": "Единственный путь к побегу - через выходную дверь. Чтобы открыть её, тебе нужно попасть в комнату управления...",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "The Warden mentioned during rollcall that there's spare control room keys in her office. You'll have to find a way into her office during work time in order to access the control room.",
+      "ru": "Начальница тюрьмы упомянула на перекличке, что запасные ключи от комнаты управления лежат в её кабинете. Тебе придётся найти способ пробраться в её кабинет во время работ, чтобы попасть в комнату управления.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "You're back in the hallways... You should head to the Warden's office as soon as possible to get the Control Room key.",
+      "ru": "Ты снова в коридорах... Тебе стоит как можно скорее направиться к кабинету начальницы, чтобы добыть ключ от комнаты управления.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Looks like the Warden isn't here today, and there aren't any guards near her office.. You might be able to get through the door without being noticed..",
+      "ru": "Похоже, начальницы сегодня нет, и у её кабинета нет стражников.. Возможно, тебе удастся пройти через дверь незамеченным..",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "The door is locked.. There has to be another way into the office nearby.",
+      "ru": "Дверь заперта.. Где-то рядом должен быть другой путь в кабинет.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Now that the guard isn't standing here, you can more closely inspect this vent...",
+      "ru": "Теперь, когда стражник ушёл, ты можешь получше осмотреть вентиляционное отверстие...",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "It looks quite old, and the vent grates appear to be splitting at their seams... it shouldn't take to much effort to just...?",
+      "ru": "Решётка совсем старая и, похоже, уже расходится по швам... Наверное, достаточно просто...?",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Perfect! With the grate off, it’s relatively easy to squeeze through the vent opening.",
+      "ru": "Отлично! Без решётки протиснуться в вентиляционный ход совсем несложно.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "One of these vents has to lead to the warden's office..",
+      "ru": "Один из этих ходов точно ведёт в кабинет начальницы..",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "It's a dead end. You shouldn't stick around here.",
+      "ru": "Тупик. Не стоит тут задерживаться.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "It's a dead end. It looks like something's going on in the room outside of the vent, though...",
+      "ru": "Тупик. Хотя, похоже, в комнате за вентиляцией что-то происходит...",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "You're inside the warden's office... You need to find the Control Room Key and use it to open the Control Room.",
+      "ru": "Ты в кабинете начальницы... Нужно найти ключ от комнаты управления и отпереть её.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "These papers on the desk appear to be directed to the Warden.",
+      "ru": "Эти бумаги на столе, похоже, адресованы начальнице.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "The papers appear to be asking the Warden for...? A quota of souls...",
+      "ru": "В бумагах, похоже, у начальницы требуют...? Квоту душ...",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "The signature at the end simply reads the letter D.",
+      "ru": "Подпись в конце - просто буква \"Д\".",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "There are some books stacked up in piles right here.",
+      "ru": "Прямо здесь сложены стопки книг.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "The subject of these books range from the history of the Decay, spirit magic and... Soul extraction.",
+      "ru": "Темы этих книг - от истории Гнили и магии духов до... извлечения душ.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "It'd probably be best to stop looking through these.",
+      "ru": "Лучше, наверное, прекратить их листать.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "There are some papers here...",
+      "ru": "Здесь какие-то бумаги...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "It's just instructions on how to operate electromagical appliances.",
+      "ru": "Это всего лишь инструкции по обращению с электромагическими приборами.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "There are a few rusted axe heads in here. The sharp edges are stained with dried blood...",
+      "ru": "Здесь лежат несколько ржавых топоров без рукоятей. На лезвиях засохла кровь...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "The screen appears to show a map of the entire prison! It looks like after you head through the exit door, you'll have to sneak through a large portion of the prison to escape.",
+      "ru": "Похоже, на экране показана карта всей тюрьмы! Видимо, после того как ты пройдёшь через выходную дверь, тебе придётся прокрасться через большую часть тюрьмы, чтобы сбежать.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "Near the back of the prison, there appears to be a room that holds almost all of the records about the prison... You might be able to destroy your criminal record if you reach it!",
+      "ru": "Ближе к задней части тюрьмы, похоже, есть комната, где хранятся почти все записи о тюрьме... Если доберёшься до неё, возможно, тебе удастся уничтожить своё уголовное дело!",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "This screen appears to show some information about guard patrols and placements in the second half of the prison...",
+      "ru": "Похоже, на этом экране показаны сведения о патрулях и расстановке стражи во второй половине тюрьмы...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "...The entire area is going to be crawling with guards. You're going to have to sneak through them all in order to escape the prison for good.",
+      "ru": "...Вся эта зона будет кишеть стражниками. Тебе придётся прокрасться мимо всех них, чтобы окончательно сбежать из тюрьмы.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "There's some extremely dark looking metal inside of this closet. You can't tell what it's used for...",
+      "ru": "В этом шкафу лежит какой-то очень тёмный металл. Непонятно, для чего он нужен...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "There are some papers here about the prison's history...",
+      "ru": "Здесь какие-то бумаги об истории тюрьмы...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "The papers say that it was constructed in 823 AP, and was reserved for Gavel's worst criminals...",
+      "ru": "В бумагах сказано, что она была построена в 823 ПП и предназначалась для худших преступников Гавела...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "It's also the largest prison in all of Gavel, and receives an enormous amount of funding in order to maintain captivity of their inmates...",
+      "ru": "Это ещё и крупнейшая тюрьма Гавеля. На содержание заключённых под стражей ей выделяют огромные средства...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "There's a lever on this control panel that is labeled with the words UNLOCK EXIT DOOR.",
+      "ru": "На этой панели управления есть рычаг с подписью ОТКРЫТЬ ВЫХОДНУЮ ДВЕРЬ.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "You can hear the sound of a door opening in the distance... the exit door must have just opened!",
+      "ru": "Вдалеке слышен звук открывающейся двери... должно быть, выходная дверь только что открылась!",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "There isn't much time left! Get to the exit door so you can escape!",
+      "ru": "Времени осталось немного! Доберись до выходной двери, чтобы сбежать!",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "You can hear screams coming from the hallway just ahead...",
+      "ru": "Из коридора прямо впереди доносятся крики...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "The prisoner's body begins to go limp..",
+      "ru": "Тело заключённого обмякает...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "The guard that was blocking the hallway has been distracted...",
+      "ru": "Стражника, что перекрывал коридор, отвлекли...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "The guard was knocked out...",
+      "ru": "Стражник вырублен...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "You've finally made it to the Records Room. You need to find your criminal records and destroy them before leaving.",
+      "ru": "Ты наконец добрался до архива. Прежде чем уйти, нужно найти своё уголовное дело и уничтожить его.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "This box has a few criminal records in here. The first one has your name on it... At least you didn’t need to search very long to find it.",
+      "ru": "В этом ящике несколько уголовных дел. На первом - твоё имя... По крайней мере, искать пришлось недолго.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "There should be something nearby you can use to destroy it.",
+      "ru": "Где-то рядом должно быть чем его уничтожить.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "You toss your criminal records into the fire. Good riddance.",
+      "ru": "Ты бросаешь своё уголовное дело в огонь. Скатертью дорога.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Your record has been destroyed, for now. You can finally leave the prison for good.",
+      "ru": "Твоё дело уничтожено, пока что. Теперь ты наконец можешь покинуть тюрьму навсегда.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "This cabinet has a number of letters between Gavel's government and the Prison.",
+      "ru": "В этом шкафу хранится переписка правительства Гавеля с тюрьмой.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "The Prison appears to be lying about almost everything they do to the government, and they appear to buy into it, despite all the rumors about this place.",
+      "ru": "Похоже, тюрьма врёт правительству почти обо всём, что здесь происходит. А оно верит, несмотря на все слухи об этом месте.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "The government must not care about the lives of anyone who lives in Gavel's northern forests enough to condemn the prison for all of this slaughter.",
+      "ru": "Должно быть, правительству не настолько дороги жизни обитателей северных лесов Гавеля, чтобы осудить тюрьму за всю эту бойню.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "This cabinet has a few records on the Warden...but they all seem incomplete.",
+      "ru": "В этом шкафу несколько записей о начальнице... но все они, похоже, неполны.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "Hardly any of the information is actually filled out, No age, career history, family, or any other information. She appears to be a complete un-person.",
+      "ru": "Почти ни одно поле не заполнено. Ни возраста, ни послужного списка, ни семьи, ни других сведений. Словно такого человека вообще не существует.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "It's as if she popped into existence for the sole purpose of being this prison's warden.",
+      "ru": "Будто она возникла из небытия с единственной целью - быть начальницей этой тюрьмы.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "These cabinets have some criminal records on a lot of the prisoners here...",
+      "ru": "В этих шкафах - уголовные дела на многих здешних заключённых...",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "Most of these files are virtually empty, save for a select few that had committed petty thefts some time ago.",
+      "ru": "Большинство этих дел почти пусты. Лишь в нескольких есть записи о мелких кражах, совершённых когда-то давно.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "It's a small fireplace.",
+      "ru": "Это небольшой камин.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "It's still a small fireplace.",
+      "ru": "Это всё ещё небольшой камин.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Maybe it's an average sized fireplace?",
+      "ru": "Может, это камин среднего размера?",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "That would make it just a fireplace.",
+      "ru": "Тогда это просто камин.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "So it's just a fireplace..",
+      "ru": "Значит, это просто камин..",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "It's just a fireplace.",
+      "ru": "Это просто камин.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "... You begin to inspect the fireplace.",
+      "ru": "... Ты начинаешь осматривать камин.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "The fire begins to die down as you think that, and turns a darker orange.",
+      "ru": "Пока ты об этом думаешь, огонь начинает угасать и становится тёмно-оранжевым.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "Maybe you should use your time on something other than this fireplace.",
+      "ru": "Может, тебе стоит потратить время на что-нибудь кроме этого камина.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "No. This fireplace is far too interesting...",
+      "ru": "Нет. Этот камин слишком уж интересный...",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "You begin to wonder what would happen in you threw something in the fireplace.",
+      "ru": "Ты начинаешь гадать, что было бы, если бросить что-нибудь в камин.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "You don't have anything to throw in it, though. Shame.",
+      "ru": "Вот только бросить тебе нечего. Жаль.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "You return to inspecting the fireplace.",
+      "ru": "Ты возвращаешься к осмотру камина.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "You inspect the fireplace again..",
+      "ru": "Ты снова осматриваешь камин..",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "And again.",
+      "ru": "И снова.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "You wonder if you'll ever stop staring at this fireplace..",
+      "ru": "Ты гадаешь, перестанешь ли ты когда-нибудь пялиться на этот камин..",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "... It soon dawns on you how much time you've wasted staring at this fireplace.",
+      "ru": "... Вскоре до тебя доходит, сколько времени ты потратил, пялясь на этот камин.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "You begin to question your sanity.. Did spending 3 days in this slaughterhouse of a prison really break you down that much?",
+      "ru": "Ты начинаешь сомневаться в своём рассудке.. Неужели три дня в этой тюрьме-бойне настолько тебя сломали?",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "You decide to put an end to this charade of yours..",
+      "ru": "Ты решаешь положить конец этому своему балагану..",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "You've stared at this fireplace enough. Find something better to do.",
+      "ru": "Ты достаточно попялился на этот камин. Найди себе занятие получше.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "Aaahh, that's better... Thank you, human... You probably just saved my life there!",
+      "ru": "Ааах, уже лучше... Спасибо, человек... Ты, наверное, только что спас мне жизнь!",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "..You're gettin out of 'ere, huh? Well, if you do get out of this hellhole, could you head to Gelibord and let my 'pops know I'm still alive in here? I'd appreciate that...",
+      "ru": "...Ты собираешься выбраться отсюда, да? Если вылезешь из этого ада, можешь сходить в Гелиборд и сказать моему папаше, что я ещё жив? Я был бы очень благодарен...",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "New Quest Started: Forbidden Prison",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Запретная тюрьма",
+      "speaker": "",
+      "stage": "Stage 15"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to the Merchant at [-963, 47, -5280]",
+      "ru": "Поговорить с торговцем [-963, 47, -5280].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Explore your cell",
+      "ru": "Осмотреть свою камеру.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Get your instructions from the guard",
+      "ru": "Получить указания у стражника.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Search the hallways for messes to clean up",
+      "ru": "Найти в коридорах места, где нужна уборка.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Report to the prison guard at [-12177, 24, 4127]",
+      "ru": "Доложить тюремному стражнику [-12177, 24, 4127].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find a place to sit in the cafeteria",
+      "ru": "Найти место в столовой.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Attend morning rollcall",
+      "ru": "Прийти на утреннюю перекличку.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Search the hallways for possible escape routes, and find a guard outfit",
+      "ru": "Осмотреть коридоры в поисках путей побега и найти форму стражника.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Report to the Prison Guard at [-12177, 24, 3572]",
+      "ru": "Доложить тюремному стражнику [-12177, 24, 3572].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Attend morning rollcall",
+      "ru": "Прийти на утреннюю перекличку.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Steal the key from the warden's office, and head to the control room",
+      "ru": "Украсть ключ из кабинета начальницы тюрьмы и отправиться в комнату управления.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Find a way to open the exit door",
+      "ru": "Найти способ открыть выходную дверь.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Head through the exit door at [-12177, 24, 3658]",
+      "ru": "Пройти через выходную дверь [-12177, 24, 3658].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Sneak past the guards and find a way to the Records Room",
+      "ru": "Прокрасться мимо стражников и попасть в архив.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Find and destroy your criminal records",
+      "ru": "Найти и уничтожить своё уголовное дело.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Leave the prison",
+      "ru": "Покинуть тюрьму.",
+      "stage": "Stage 16"
+    }
+  ],
+  "choices": []
+}

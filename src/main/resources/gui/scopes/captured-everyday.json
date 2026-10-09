@@ -1,0 +1,5424 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "captured-everyday",
+  "scopes": [
+    {
+      "id": "menu-bf8a82ede33617",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Chestplate Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Chestplate Slot",
+        "ru": "Ячейка Нагрудника"
+      },
+      "lines": [
+        {
+          "id": "line-bf8a82ede3361759",
+          "en": "Chestplate Slot",
+          "ru": "Ячейка Нагрудника"
+        }
+      ]
+    },
+    {
+      "id": "menu-0f8572b5e41349",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§7Back to Character Info",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Back to Character Info",
+        "ru": "§7Назад к Сведениям о Персонаже"
+      },
+      "lines": [
+        {
+          "id": "line-0f8572b5e4134948",
+          "en": "§7Back to Character Info",
+          "ru": "§7Назад к Сведениям о Персонаже"
+        }
+      ]
+    },
+    {
+      "id": "menu-47328ecc24f5c5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Avo Paper<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Avo Paper<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-47328ecc24f5c5fa",
+          "en": "<em>Avo Paper<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-3a9e6030ffc1d11e",
+          "en": "<em><em><em><em><em>Avo Paper",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-0e80d1f2f1266754",
+          "en": "<em> 󐀁<em>󏿿 Woodcutting Level󏾛󐂏<num>",
+          "ru": "<em> 󐀁<em>󏿿 Уровень: Лесорубство󏾛󐂏§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-7ad5bb11c34f435d",
+          "en": "<em>Altitude and Boost",
+          "ru": "<em>§#BC8F62Высоту§7 и §#BC8F62Рывок"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-8b749c1a70696233",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-ea467d4254436b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Store & Wardrobe",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Store & Wardrobe",
+        "ru": "Магазин и Гардероб"
+      },
+      "lines": [
+        {
+          "id": "line-eb33b556b7f78838",
+          "en": "<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "menu-d97fee7195b348",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Granite Gem<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Granite Gem<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d97fee7195b348eb",
+          "en": "<em>Granite Gem<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-03d335ae38481bf4",
+          "en": "<em><em><em><em><em>Granite Gem",
+          "ru": ""
+        },
+        {
+          "id": "line-bc395b4f84fe7cb5",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂐<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂐§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-2fadea79fc567e39",
+          "en": "<em>Training, Speed and Energy",
+          "ru": "<em>§#BC8F62Выучку§7,§#BC8F62 Скорость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-947183bd36d894f2",
+          "en": "<em>Housing, or to craft 󐀁<em>󏿾 Rings, 󐀁<em>󏿾",
+          "ru": "<em>участка§7 или изготовить 󐀁<em>󏿾 §fкольца, 󐀁<em>󏿾"
+        },
+        {
+          "id": "line-84996ea3a1319e1f",
+          "en": "<em>Bracelets & 󐀁<em>󏿾 Necklaces",
+          "ru": "<em>Браслеты и 󐀁<em>󏿾 Ожерелья"
+        }
+      ]
+    },
+    {
+      "id": "menu-5e8f1825f69139",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Granite Ingot<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Granite Ingot<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5e8f1825f6913902",
+          "en": "<em>Granite Ingot<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-4ad4491b966ce85a",
+          "en": "<em><em><em><em><em>Granite Ingot",
+          "ru": ""
+        },
+        {
+          "id": "line-bc395b4f84fe7cb5",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂐<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂐§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d8c348aababcdf56",
+          "en": "<em>Toughness and Energy",
+          "ru": "<em>§#BC8F62Стойкость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-457c44589f93f20d",
+          "en": "<em>Housing, or to craft <em>󏿿 Spears, <em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿿 §fкопья, <em>󏿿"
+        },
+        {
+          "id": "line-9a05a6980f02a42b",
+          "en": "<em>Daggers, <em> Boots, <em> Leggings, 󐀁<em>󏿿",
+          "ru": "<em>Кинжалы, <em> Ботинки, <em> Поножи, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-72d9dc44655208",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Gudgeon Oil<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Gudgeon Oil<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-72d9dc446552082b",
+          "en": "<em>Gudgeon Oil<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-dc492c03f216f658",
+          "en": "<em><em><em><em><em>Gudgeon Oil",
+          "ru": ""
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d37549f558dd050a",
+          "en": "<em>Handling, Training and Altitude",
+          "ru": "<em>§#BC8F62Управляемость§7,§#BC8F62 Выучку§7 и §#BC8F62Высоту"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-dc9ae3d756a53d5f",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿾",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿾"
+        },
+        {
+          "id": "line-5c00b21c1b88efc6",
+          "en": "<em>Rings, 󐀁<em>󏿾 Bracelets, 󐀁<em>󏿾 Necklaces, 󐀁<em>󏿿",
+          "ru": "<em>Кольца, 󐀁<em>󏿾 Браслеты, 󐀁<em>󏿾 Ожерелья, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-4bb7c51c883b7bf1",
+          "en": "<em>Potions & <em>󏿾 Reliks",
+          "ru": "<em>Зелья и <em>󏿾 Реликты"
+        }
+      ]
+    },
+    {
+      "id": "menu-b386c815660a1e",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Copper Gem<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Copper Gem<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b386c815660a1ef0",
+          "en": "<em>Copper Gem<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-fa1bbd7ca2200e45",
+          "en": "<em><em><em><em><em>Copper Gem",
+          "ru": ""
+        },
+        {
+          "id": "line-a0dbd02d66b743ca",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂕<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂕§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-2fadea79fc567e39",
+          "en": "<em>Training, Speed and Energy",
+          "ru": "<em>§#BC8F62Выучку§7,§#BC8F62 Скорость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-947183bd36d894f2",
+          "en": "<em>Housing, or to craft 󐀁<em>󏿾 Rings, 󐀁<em>󏿾",
+          "ru": "<em>участка§7 или изготовить 󐀁<em>󏿾 §fкольца, 󐀁<em>󏿾"
+        },
+        {
+          "id": "line-84996ea3a1319e1f",
+          "en": "<em>Bracelets & 󐀁<em>󏿾 Necklaces",
+          "ru": "<em>Браслеты и 󐀁<em>󏿾 Ожерелья"
+        }
+      ]
+    },
+    {
+      "id": "menu-0725aacab74a50",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Copper Ingot<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Copper Ingot<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0725aacab74a5097",
+          "en": "<em>Copper Ingot<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-bf2120ccbb3a6d4a",
+          "en": "<em><em><em><em><em>Copper Ingot",
+          "ru": ""
+        },
+        {
+          "id": "line-a0dbd02d66b743ca",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂕<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂕§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d8c348aababcdf56",
+          "en": "<em>Toughness and Energy",
+          "ru": "<em>§#BC8F62Стойкость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-457c44589f93f20d",
+          "en": "<em>Housing, or to craft <em>󏿿 Spears, <em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿿 §fкопья, <em>󏿿"
+        },
+        {
+          "id": "line-9a05a6980f02a42b",
+          "en": "<em>Daggers, <em> Boots, <em> Leggings, 󐀁<em>󏿿",
+          "ru": "<em>Кинжалы, <em> Ботинки, <em> Поножи, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-a4a53e558c824a",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Trout Oil<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Trout Oil<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a4a53e558c824a18",
+          "en": "<em>Trout Oil<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-fed4f827345512cf",
+          "en": "<em><em><em><em><em>Trout Oil",
+          "ru": ""
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d37549f558dd050a",
+          "en": "<em>Handling, Training and Altitude",
+          "ru": "<em>§#BC8F62Управляемость§7,§#BC8F62 Выучку§7 и §#BC8F62Высоту"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-dc9ae3d756a53d5f",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿾",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿾"
+        },
+        {
+          "id": "line-5c00b21c1b88efc6",
+          "en": "<em>Rings, 󐀁<em>󏿾 Bracelets, 󐀁<em>󏿾 Necklaces, 󐀁<em>󏿿",
+          "ru": "<em>Кольца, 󐀁<em>󏿾 Браслеты, 󐀁<em>󏿾 Ожерелья, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-4bb7c51c883b7bf1",
+          "en": "<em>Potions & <em>󏿾 Reliks",
+          "ru": "<em>Зелья и <em>󏿾 Реликты"
+        }
+      ]
+    },
+    {
+      "id": "menu-63cc13ec4f5db0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Gold Ingot<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Gold Ingot<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-63cc13ec4f5db045",
+          "en": "<em>Gold Ingot<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-109fa13ca378677d",
+          "en": "<em><em><em><em><em>Gold Ingot",
+          "ru": ""
+        },
+        {
+          "id": "line-9cd089f7e27ec150",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂏<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂏§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d8c348aababcdf56",
+          "en": "<em>Toughness and Energy",
+          "ru": "<em>§#BC8F62Стойкость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-457c44589f93f20d",
+          "en": "<em>Housing, or to craft <em>󏿿 Spears, <em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿿 §fкопья, <em>󏿿"
+        },
+        {
+          "id": "line-9a05a6980f02a42b",
+          "en": "<em>Daggers, <em> Boots, <em> Leggings, 󐀁<em>󏿿",
+          "ru": "<em>Кинжалы, <em> Ботинки, <em> Поножи, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-43a8d8aaf15f80",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Birch Paper<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Birch Paper<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-43a8d8aaf15f80b2",
+          "en": "<em>Birch Paper<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-fef31f9e543bdb6c",
+          "en": "<em><em><em><em><em>Birch Paper",
+          "ru": ""
+        },
+        {
+          "id": "line-4bbef2fa37fe9e60",
+          "en": "<em> 󐀁<em>󏿿 Woodcutting Level󏾛󐂐<num>",
+          "ru": "<em> 󐀁<em>󏿿 Уровень: Лесорубство󏾛󐂐§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-7ad5bb11c34f435d",
+          "en": "<em>Altitude and Boost",
+          "ru": "<em>§#BC8F62Высоту§7 и §#BC8F62Рывок"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-8b749c1a70696233",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-2b5821e29e9f8f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Oak Paper<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Oak Paper<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2b5821e29e9f8fba",
+          "en": "<em>Oak Paper<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-8a4e876b4ce6623e",
+          "en": "<em><em><em><em><em>Oak Paper",
+          "ru": ""
+        },
+        {
+          "id": "line-511eb5688fb91706",
+          "en": "<em> 󐀁<em>󏿿 Woodcutting Level󏾛󐂕<num>",
+          "ru": "<em> 󐀁<em>󏿿 Уровень: Лесорубство󏾛󐂕§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-7ad5bb11c34f435d",
+          "en": "<em>Altitude and Boost",
+          "ru": "<em>§#BC8F62Высоту§7 и §#BC8F62Рывок"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-8b749c1a70696233",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-a90c9a7d4c437f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Leggings<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Leggings<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a90c9a7d4c437fd1",
+          "en": "<em><em><em>Unidentified Leggings<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-8992361c5dfc1abb",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-f4908591047340",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Spear<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Spear<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-f490859104734033",
+          "en": "<em><em><em>Unidentified Spear<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-17855067921876f3",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Spear",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-6c0b6a5006590f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Wand<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Wand<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6c0b6a5006590f14",
+          "en": "<em><em><em>Unidentified Wand<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-750f9eac8ee4c9b8",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Wand",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-632ad9c80e282f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Reward Pulls",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Reward Pulls",
+        "ru": "Пуллы Наград"
+      },
+      "lines": [
+        {
+          "id": "line-632ad9c80e282fe9",
+          "en": "Reward Pulls",
+          "ru": "Пуллы Наград"
+        },
+        {
+          "id": "line-24225efdbc40c5c6",
+          "en": "§7You have gained <num>",
+          "ru": "§7Получено: §f<num>§7"
+        },
+        {
+          "id": "line-33290881b7394b4b",
+          "en": "§7Reward Pulls",
+          "ru": "Пуллы Наград"
+        }
+      ]
+    },
+    {
+      "id": "menu-81cad2dd0e1e74",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Reward Sacrifices",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Reward Sacrifices",
+        "ru": "Пожертвования Наград"
+      },
+      "lines": [
+        {
+          "id": "line-81cad2dd0e1e7417",
+          "en": "Reward Sacrifices",
+          "ru": "Пожертвования Наград"
+        },
+        {
+          "id": "line-24225efdbc40c5c6",
+          "en": "§7You have gained <num>",
+          "ru": "§7Получено: §f<num>§7"
+        },
+        {
+          "id": "line-42e2b186350dbca5",
+          "en": "§7Reward Sacrifices",
+          "ru": "Пожертвования Наград"
+        }
+      ]
+    },
+    {
+      "id": "menu-1cc79b2f6198c0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Chests Opened",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Chests Opened",
+        "ru": "Открытые Сундуки"
+      },
+      "lines": [
+        {
+          "id": "line-1cc79b2f6198c083",
+          "en": "Chests Opened",
+          "ru": "Открытые Сундуки"
+        },
+        {
+          "id": "line-865f6f272779f891",
+          "en": "§7You have opened <num>",
+          "ru": "§7Открыто сундуков: §f<num>§7"
+        },
+        {
+          "id": "line-6d9517df4c05b994",
+          "en": "§7chests during this run",
+          "ru": "§7за этот лутран"
+        }
+      ]
+    },
+    {
+      "id": "menu-d640a4ef77ea1a",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Relik<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Relik<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d640a4ef77ea1a71",
+          "en": "<em><em><em>Unidentified Relik<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-98916d624015a78b",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Relik",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-64d150236087de",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Dagger<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Dagger<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-64d150236087de65",
+          "en": "<em><em><em>Unidentified Dagger<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-7ce9f3fa852dbac3",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Dagger",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-8ebfd1d154634b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Boots<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Boots<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-8ebfd1d154634b33",
+          "en": "<em><em><em>Unidentified Boots<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-bd94ed50b093f480",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Boots",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-b23063b40941f4",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Helmet<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Helmet<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b23063b40941f422",
+          "en": "<em><em><em>Unidentified Helmet<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-7c4afb5b3c120cad",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Helmet",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-368b6e2fcbb4ed",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Misprinted Newspaper<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Misprinted Newspaper<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-368b6e2fcbb4ed07",
+          "en": "<em>Misprinted Newspaper<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-40413851f0278b01",
+          "en": "<em><em><em><em><em>Misprinted Newspaper",
+          "ru": ""
+        },
+        {
+          "id": "line-5015615c933e6ab8",
+          "en": "<em><num> Crafting Level",
+          "ru": "<em>Уровень Ремесла: §#7DC97D<num>§7"
+        },
+        {
+          "id": "line-85c861fbd0ff243d",
+          "en": "<em><em>󏿾 Scribing󐀄󐀱",
+          "ru": "<em><em>󏿾 Писарство󐀄󐀱"
+        }
+      ]
+    },
+    {
+      "id": "menu-621b0f19d47d1d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Tempered Titanium Chestplate<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Tempered Titanium Chestplate<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2806a4ccb386f91c",
+          "en": "<em> Combat Level󏾻󐂜<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂜§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-2c1f21ab776fff",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Necklace<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Necklace<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2c1f21ab776fffce",
+          "en": "<em><em><em>Unidentified Necklace<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-f480478cde5e76cc",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Necklace",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-6e726ed4cef55c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Bracelet<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Bracelet<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6e726ed4cef55c1b",
+          "en": "<em><em><em>Unidentified Bracelet<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-9c50159922c26e5b",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Bracelet",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-5d42a02b95718d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Chestplate<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Chestplate<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5d42a02b95718d9f",
+          "en": "<em><em><em>Unidentified Chestplate<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-b79e18a33cd424c9",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Chestplate",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-e0b7be92d63fe7",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Ring<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Ring<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e0b7be92d63fe7d8",
+          "en": "<em><em><em>Unidentified Ring<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-3f3741d55a533286",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Ring",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-50678cdc67edd6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§c§lClose Chest",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§c§lClose Chest",
+        "ru": "§c§lЗакрыть Сундук"
+      },
+      "lines": [
+        {
+          "id": "line-50678cdc67edd633",
+          "en": "§c§lClose Chest",
+          "ru": "§c§lЗакрыть Сундук"
+        },
+        {
+          "id": "line-c856bcdaa72e70f4",
+          "en": "§7By closing your chest",
+          "ru": "§7Если закрыть сундук,"
+        },
+        {
+          "id": "line-6c80c48f6c065b50",
+          "en": "§7all the remaining rewards",
+          "ru": "§7все оставшиеся в нём награды"
+        },
+        {
+          "id": "line-0bb3c3e71d3030e0",
+          "en": "§7inside of it will be lost",
+          "ru": "§7будут потеряны"
+        },
+        {
+          "id": "line-a5781784004b6b8a",
+          "en": "§7<em> Click to close",
+          "ru": "§7<em> §aНажмите, чтобы закрыть"
+        }
+      ]
+    },
+    {
+      "id": "menu-bf86274f4c0d93",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§e§lReroll Rewards",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§e§lReroll Rewards",
+        "ru": "§e§lПеребросить Награды"
+      },
+      "lines": [
+        {
+          "id": "line-bf86274f4c0d938e",
+          "en": "§e§lReroll Rewards",
+          "ru": "§e§lПеребросить Награды"
+        },
+        {
+          "id": "line-41f0a2517152deed",
+          "en": "§7Rerolling your rewards",
+          "ru": "§7Переброс уничтожит"
+        },
+        {
+          "id": "line-0a76443e41716293",
+          "en": "§7will scrap your current",
+          "ru": "§7текущие награды"
+        },
+        {
+          "id": "line-8def343abb13b3cf",
+          "en": "§7ones and pull new ones",
+          "ru": "§7и заменит их новыми"
+        },
+        {
+          "id": "line-227ee796102da8ca",
+          "en": "§7§a✔ §7Remaining Rerolls: §f<num>",
+          "ru": "§7§a✔ §7Осталось Перебросов: §f<num>§7"
+        },
+        {
+          "id": "line-b71fc90bd6881ea0",
+          "en": "§7<em> Click to Reroll",
+          "ru": "§7<em> §aНажмите, чтобы Перебросить"
+        }
+      ]
+    },
+    {
+      "id": "menu-6aa893d3ac4407",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Unidentified Bow<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Unidentified Bow<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6aa893d3ac440773",
+          "en": "<em><em><em>Unidentified Bow<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-ea1521342ead2cb3",
+          "en": "<em><em><em><em><em><em>󐀂Unidentified Bow",
+          "ru": ""
+        },
+        {
+          "id": "line-f6cb9b47fb69112d",
+          "en": "<num><num> Level Range",
+          "ru": "<num><num> Диапазон Уровней"
+        }
+      ]
+    },
+    {
+      "id": "menu-e733259f0d54b2",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Succulent Crab Meat<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Succulent Crab Meat<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e733259f0d54b2c7",
+          "en": "<em>Succulent Crab Meat<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-8ad408f76c9054e5",
+          "en": "<em><em><em><em><em>Succulent Crab Meat",
+          "ru": ""
+        },
+        {
+          "id": "line-5015615c933e6ab8",
+          "en": "<em><num> Crafting Level",
+          "ru": "<em>Уровень Ремесла: §#7DC97D<num>§7"
+        },
+        {
+          "id": "line-522be46240977c17",
+          "en": "<em><em>󏿾 Cooking󐀄󐀯",
+          "ru": "<em><em>󏿾 Кулинария󐀄󐀯"
+        }
+      ]
+    },
+    {
+      "id": "menu-49b62d94cd6038",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Angelic Gem<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Angelic Gem<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-49b62d94cd603854",
+          "en": "<em>Angelic Gem<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-a932ff293cb0a503",
+          "en": "<em><em><em><em><em>Angelic Gem",
+          "ru": ""
+        },
+        {
+          "id": "line-5015615c933e6ab8",
+          "en": "<em><num> Crafting Level",
+          "ru": "<em>Уровень Ремесла: §#7DC97D<num>§7"
+        },
+        {
+          "id": "line-dd896aa26a80efe7",
+          "en": "<em>󐀁<em>󏿾 Jeweling󐀄󐀴",
+          "ru": "<em>󐀁<em>󏿾 Ювелирное Дело󐀄󐀴"
+        }
+      ]
+    },
+    {
+      "id": "menu-c488311acfc4f7",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§c§lCombat Information",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§c§lCombat Information",
+        "ru": "§c§lБоевая Информация"
+      },
+      "lines": [
+        {
+          "id": "line-714d29b9c0747867",
+          "en": "§bElemental Defences:",
+          "ru": "§bЗащита от Стихий:"
+        },
+        {
+          "id": "line-f916699206f722c1",
+          "en": "§7§b- <em> Earth§7 Defence: §f<num>",
+          "ru": "§b- <em> §2Земля§7 - Защита: §f<num>"
+        },
+        {
+          "id": "line-ffa45a1f26faaa66",
+          "en": "§7§b- <em> Thunder§7 Defence: §f<num>",
+          "ru": "§b- <em> §eМолния§7 - Защита: §f<num>"
+        },
+        {
+          "id": "line-0b15eff1449c32ef",
+          "en": "§7§b- <em> Water§7 Defence: §f<num>",
+          "ru": "§b- <em> §bВода§7 - Защита: §f<num>"
+        },
+        {
+          "id": "line-ee1e7f7a308fe4ec",
+          "en": "§7§b- <em> Fire§7 Defence: §f<num>",
+          "ru": "§b- <em> §cОгонь§7 - Защита: §f<num>"
+        },
+        {
+          "id": "line-462c6b21df2df407",
+          "en": "§7§b- <em> Air§7 Defence: §f<num>",
+          "ru": "§b- <em> §fВоздух§7 - Защита: §f<num>"
+        },
+        {
+          "id": "line-21450deb87b18f91",
+          "en": "§7§cMain Attack Damage:",
+          "ru": "§7§cУрон Основной Атаки:"
+        }
+      ]
+    },
+    {
+      "id": "menu-4ffeddabf9efb0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Heather String<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Heather String<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4ffeddabf9efb0c7",
+          "en": "<em>Heather String<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-2c13b6abe26f0988",
+          "en": "<em><em><em><em><em>Heather String",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-5707ee84b00e8bb6",
+          "en": "<em> <em> Farming Level󏾭󐂌<num>",
+          "ru": "<em> <em> Уровень: Фермерство󏾭󐂌§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-f99401e493cd0cbe",
+          "en": "<em>Boost, Handling and Acceleration",
+          "ru": "<em>§#BC8F62Рывок§7,§#BC8F62 Управляемость§7 и §#BC8F62Ускорение"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-75b68ecf0c276066",
+          "en": "<em>Housing, or to craft <em> Boots, <em>",
+          "ru": "<em>участка§7 или изготовить <em> §fBoots, <em>"
+        },
+        {
+          "id": "line-b1dbf9c12d1b3736",
+          "en": "<em>Leggings, <em>󏿾 Bows & <em>󏿾 Wands",
+          "ru": "<em>Поножи, <em>󏿾 Луки и <em>󏿾 Жезлы"
+        }
+      ]
+    },
+    {
+      "id": "menu-a354c38ac5303f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§b§lLeaderboard Rewards",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lLeaderboard Rewards",
+        "ru": "§b§lНаграды за Место в Рейтинге"
+      },
+      "lines": [
+        {
+          "id": "line-a354c38ac5303fd6",
+          "en": "§b§lLeaderboard Rewards",
+          "ru": "§b§lНаграды за Место в Рейтинге"
+        },
+        {
+          "id": "line-941bc7ecc68e1d55",
+          "en": "§7Rewards that are obtained",
+          "ru": "§7Награды, которые выдаются"
+        },
+        {
+          "id": "line-f281d21fc7f785d5",
+          "en": "§7at the end of a season",
+          "ru": "§7в конце сезона"
+        },
+        {
+          "id": "line-8e63882f947aba83",
+          "en": "§7based on your leaderboard",
+          "ru": "§7в зависимости от вашего"
+        },
+        {
+          "id": "line-cbd27ab9ab5d985d",
+          "en": "§7position.",
+          "ru": "§7места в рейтинге."
+        },
+        {
+          "id": "line-f14e62079ba8e2d1",
+          "en": "§7§a✔ §7Runica's Position: §f<num>",
+          "ru": "§7§a✔ §7Место Runica в рейтинге: §f<num>§7"
+        },
+        {
+          "id": "line-b944673660ff651e",
+          "en": "§aClick to see all Rewards",
+          "ru": "§aНажмите, чтобы посмотреть награды"
+        }
+      ]
+    },
+    {
+      "id": "menu-2ef1517d5621e4",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§d§lRating Rewards",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lRating Rewards",
+        "ru": "§d§lНаграды за Сезонный Рейтинг"
+      },
+      "lines": [
+        {
+          "id": "line-2ef1517d5621e4f0",
+          "en": "§d§lRating Rewards",
+          "ru": "§d§lНаграды за Сезонный Рейтинг"
+        },
+        {
+          "id": "line-941bc7ecc68e1d55",
+          "en": "§7Rewards that are obtained",
+          "ru": "§7Награды, которые выдаются"
+        },
+        {
+          "id": "line-df398449f18c1afa",
+          "en": "§7by having certain amounts",
+          "ru": "§7за достижение определённого"
+        },
+        {
+          "id": "line-35b2bb25cdfa1685",
+          "en": "§7of SR.",
+          "ru": "§7сезонного рейтинга (SR)."
+        },
+        {
+          "id": "line-65f5395ca74480a2",
+          "en": "§7§a✔ §7Runica's Season Rating: §f<num>",
+          "ru": "§7§a✔ §7Сезонный рейтинг Runica: §f<num>§7"
+        },
+        {
+          "id": "line-c6c34525744aa282",
+          "en": "§6Next Rewards:",
+          "ru": "§6Следующие Награды:"
+        },
+        {
+          "id": "line-fd5e6a23a1fe7609",
+          "en": "§6- §7<num>x Public Guild Bank Slots",
+          "ru": "§6- §7<num>§7x Общая ячейка банка гильдии"
+        },
+        {
+          "id": "line-630045b33369710c",
+          "en": "§6- §7<num>x Guild Tome",
+          "ru": "§6- §7<num>§7x Гильдейский том"
+        },
+        {
+          "id": "line-b944673660ff651e",
+          "en": "§aClick to see all Rewards",
+          "ru": "§aНажмите, чтобы посмотреть награды"
+        }
+      ]
+    },
+    {
+      "id": "menu-26083bf6d76352",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§eWybeel Pet",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§eWybeel Pet",
+        "ru": "§eПитомец Wybeel"
+      },
+      "lines": [
+        {
+          "id": "line-26083bf6d76352c9",
+          "en": "§eWybeel Pet",
+          "ru": "§eПитомец Wybeel"
+        },
+        {
+          "id": "line-a2b102bc20285d2b",
+          "en": "§7Invite <num> friends to receive",
+          "ru": "§7Пригласите <num> друзей и получите"
+        },
+        {
+          "id": "line-b2bcec0ec2186664",
+          "en": "§7an exclusive Wybeel pet. Pets",
+          "ru": "§7особого питомца Wybeel. Питомцы"
+        },
+        {
+          "id": "line-319355431d5800d0",
+          "en": "§7can level up and fight mobs",
+          "ru": "§7растут в уровне и сражаются с мобами"
+        },
+        {
+          "id": "line-33388def366941ae",
+          "en": "§7for you (Type /pets to open",
+          "ru": "§7за вас (команда /pets откроет"
+        },
+        {
+          "id": "line-7a359758f52db54e",
+          "en": "§7the pet menu)",
+          "ru": "§7меню питомцев)"
+        },
+        {
+          "id": "line-cb18205d728902ac",
+          "en": "§7§c✖ §7Recruit Players: §f<num>§7/<num>",
+          "ru": "§7§c✖ §7Приглашено Игроков: §f<num>§7/§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-d0770d3ad01f15",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Horse Saddle<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Horse Saddle<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d0770d3ad01f1599",
+          "en": "<em>Horse Saddle<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-c4ac55c7cd22485d",
+          "en": "<em><em><em><em><em>Horse Saddle",
+          "ru": ""
+        },
+        {
+          "id": "line-fe88df2558f32a37",
+          "en": "<em><num> Potential",
+          "ru": "<em>Потенциал: §#E0E0E0<num>§7"
+        },
+        {
+          "id": "line-c9bdb097a3168d69",
+          "en": "<em><em>󐀅Energy <num>",
+          "ru": "<em><em>󐀅Энергия §7<num>§7"
+        },
+        {
+          "id": "line-0ff1f50a125dad52",
+          "en": "<em> Combat Level󏾻󐁫<num>",
+          "ru": "<em> Боевой Уровень󏾻󐁫§7<num>§7"
+        },
+        {
+          "id": "line-fa430dd8d2888f83",
+          "en": "Speed<em><em><num> <em><em><em><em>",
+          "ru": "Скорость<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-0af8023257a34153",
+          "en": "Acceleration<em><em><num> <em><em><em><em>",
+          "ru": "Ускорение<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-3d613c5629fbd581",
+          "en": "Jump Height<em><em><num> <em><em><em><em>",
+          "ru": "Высота Прыжка<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-9543bc0e10dc668d",
+          "en": "Energy<em><em><num> <em><em><em><em>",
+          "ru": "Энергия<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-d3b73dda4d6f2d1c",
+          "en": "Handling<em><em><num> <em><em><em><em>",
+          "ru": "Управляемость<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-8b569423f3facf60",
+          "en": "Toughness<em><em><num> <em><em><em><em>",
+          "ru": "Стойкость<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-904fc77efee185bc",
+          "en": "Boost<em><em><num> <em><em><em><em>",
+          "ru": "Рывок<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-3cc5525ea6eed935",
+          "en": "Training<em><em><num> <em><em><em><em>",
+          "ru": "Выучка<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-c34bae66a45b90aa",
+          "en": "<em>Must be placed into an",
+          "ru": "<em>Для использования поместите"
+        },
+        {
+          "id": "line-5bec7f496a0b37eb",
+          "en": "<em>enclosure to use",
+          "ru": "<em>в загон"
+        }
+      ]
+    },
+    {
+      "id": "menu-6584b81a8e7a0c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Oak Plank<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Oak Plank<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6584b81a8e7a0c3d",
+          "en": "<em>Oak Plank<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-97b9716b7b1807bd",
+          "en": "<em><em><em><em><em>Oak Plank",
+          "ru": ""
+        },
+        {
+          "id": "line-cbc774c25dea9b36",
+          "en": "<em> 󐀁<em>󏿿 Woodcutting Level󏾛󐂢<num>",
+          "ru": "<em> 󐀁<em>󏿿 Уровень: Лесорубство󏾛󐂢§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-bd0d9c5d4828004d",
+          "en": "<em>Acceleration, Toughness and Speed",
+          "ru": "<em>§#BC8F62Ускорение§7,§#BC8F62 Стойкость§7 и §#BC8F62Скорость"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-457c44589f93f20d",
+          "en": "<em>Housing, or to craft <em>󏿿 Spears, <em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿿 §fкопья, <em>󏿿"
+        },
+        {
+          "id": "line-9b1b3acb56cb39b0",
+          "en": "<em>Daggers, <em>󏿾 Bows, <em>󏿾 Reliks & <em>󏿾 Wands",
+          "ru": "<em>Кинжалы, <em>󏿾 Луки, <em>󏿾 Реликты и <em>󏿾 Жезлы"
+        }
+      ]
+    },
+    {
+      "id": "menu-0c651501f296da",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Wheat Grains<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Wheat Grains<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0c651501f296da29",
+          "en": "<em>Wheat Grains<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-7874964e85a2ff51",
+          "en": "<em><em><em><em><em>Wheat Grains",
+          "ru": ""
+        },
+        {
+          "id": "line-d93119e3e30c40cb",
+          "en": "<em> <em> Farming Level󏾭󐂘<num>",
+          "ru": "<em> <em> Уровень: Фермерство󏾭󐂘§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-e3a6eea53b570a89",
+          "en": "<em>Speed and Altitude",
+          "ru": "<em>§#BC8F62Скорость§7 и §#BC8F62Высоту"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-e856bc3ae5cd5dde",
+          "en": "<em>Housing, or to craft 󐀁<em>󏿿 Potions & <em>󏿾",
+          "ru": "<em>участка§7 или изготовить 󐀁<em>󏿿 §fзелья & <em>󏿾"
+        },
+        {
+          "id": "line-8379da3ddc627964",
+          "en": "<em>Food",
+          "ru": "<em>Еду"
+        }
+      ]
+    },
+    {
+      "id": "menu-2644e04867ee91",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§cCrafting...",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§cCrafting...",
+        "ru": "§cИзготовление..."
+      },
+      "lines": [
+        {
+          "id": "line-2644e04867ee9125",
+          "en": "§cCrafting...",
+          "ru": "§cИзготовление..."
+        },
+        {
+          "id": "line-302cb9daa7c8da96",
+          "en": "§cClick to cancel",
+          "ru": "§cНажмите, чтобы отменить"
+        }
+      ]
+    },
+    {
+      "id": "menu-3c4fc263452e66",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Wheat String<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Wheat String<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-3c4fc263452e6665",
+          "en": "<em>Wheat String<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-8faf254aa1876b1e",
+          "en": "<em><em><em><em><em>Wheat String",
+          "ru": ""
+        },
+        {
+          "id": "line-b0916982eda6b6c3",
+          "en": "<em> <em> Farming Level󏾭󐂕<num>",
+          "ru": "<em> <em> Уровень: Фермерство󏾭󐂕§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-f99401e493cd0cbe",
+          "en": "<em>Boost, Handling and Acceleration",
+          "ru": "<em>§#BC8F62Рывок§7,§#BC8F62 Управляемость§7 и §#BC8F62Ускорение"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-75b68ecf0c276066",
+          "en": "<em>Housing, or to craft <em> Boots, <em>",
+          "ru": "<em>участка§7 или изготовить <em> §fBoots, <em>"
+        },
+        {
+          "id": "line-b1dbf9c12d1b3736",
+          "en": "<em>Leggings, <em>󏿾 Bows & <em>󏿾 Wands",
+          "ru": "<em>Поножи, <em>󏿾 Луки и <em>󏿾 Жезлы"
+        }
+      ]
+    },
+    {
+      "id": "menu-3effb8dbfca9ed",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§7<- Material Slots",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7<- Material Slots",
+        "ru": "§7<- Ячейки Материалов"
+      },
+      "lines": [
+        {
+          "id": "line-3effb8dbfca9ed37",
+          "en": "§7<- Material Slots",
+          "ru": "§7<- Ячейки Материалов"
+        },
+        {
+          "id": "line-9628ab8119399711",
+          "en": "§7Ingredient Slots ->",
+          "ru": "§7Ячейки Ингредиентов ->"
+        }
+      ]
+    },
+    {
+      "id": "menu-1dbd1d98a79505",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§7Material Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Material Slot",
+        "ru": "§7Ячейка Материала"
+      },
+      "lines": [
+        {
+          "id": "line-1dbd1d98a79505c6",
+          "en": "§7Material Slot",
+          "ru": "§7Ячейка Материала"
+        }
+      ]
+    },
+    {
+      "id": "menu-88fe5ca35b24b1",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§bCharacter Info",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§bCharacter Info",
+        "ru": "§bСведения о Персонаже"
+      },
+      "lines": [
+        {
+          "id": "line-bf8cb52f17b6695f",
+          "en": "§7<em> Click to Open",
+          "ru": "§7<em> §aНажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "menu-051597de7e4562",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Saltpetre<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Saltpetre<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-051597de7e456223",
+          "en": "<em>Saltpetre<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-a4a885cdfd2984fd",
+          "en": "<em><em><em><em><em>Saltpetre",
+          "ru": ""
+        },
+        {
+          "id": "line-5015615c933e6ab8",
+          "en": "<em><num> Crafting Level",
+          "ru": "<em>Уровень Ремесла: §#7DC97D<num>§7"
+        },
+        {
+          "id": "line-eccb7a9d52ec806f",
+          "en": "<em><em>󏿿 Weaponsmithing󐀄 <em>󏿾 Woodworking󐀋",
+          "ru": "<em><em>󏿿 Оружейное Дело󐀄 <em>󏿾 Обработка Дерева󐀋"
+        },
+        {
+          "id": "line-cf920e5f288e7cae",
+          "en": "<em>󐀁<em>󏿿 Alchemism󐀄󐀹",
+          "ru": "<em>󐀁<em>󏿿 Алхимия󐀄󐀹"
+        }
+      ]
+    },
+    {
+      "id": "menu-84a28150aeed21",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Titanium Ingot<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Titanium Ingot<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-84a28150aeed21ab",
+          "en": "<em>Titanium Ingot<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-6766d049d7f02dff",
+          "en": "<em><em><em><em><em>Titanium Ingot",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-5cdc069f197dfada",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂌<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂌§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d8c348aababcdf56",
+          "en": "<em>Toughness and Energy",
+          "ru": "<em>§#BC8F62Стойкость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-457c44589f93f20d",
+          "en": "<em>Housing, or to craft <em>󏿿 Spears, <em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿿 §fкопья, <em>󏿿"
+        },
+        {
+          "id": "line-9a05a6980f02a42b",
+          "en": "<em>Daggers, <em> Boots, <em> Leggings, 󐀁<em>󏿿",
+          "ru": "<em>Кинжалы, <em> Ботинки, <em> Поножи, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-4100eeed339513",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Hemp Grains<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Hemp Grains<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4100eeed3395139f",
+          "en": "<em>Hemp Grains<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-b10de2f49f6e9a25",
+          "en": "<em><em><em><em><em>Hemp Grains",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-23eda216fa705804",
+          "en": "<em> <em> Farming Level󏾭󐂎<num>",
+          "ru": "<em> <em> Уровень: Фермерство󏾭󐂎§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-e3a6eea53b570a89",
+          "en": "<em>Speed and Altitude",
+          "ru": "<em>§#BC8F62Скорость§7 и §#BC8F62Высоту"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-e856bc3ae5cd5dde",
+          "en": "<em>Housing, or to craft 󐀁<em>󏿿 Potions & <em>󏿾",
+          "ru": "<em>участка§7 или изготовить 󐀁<em>󏿿 §fзелья & <em>󏿾"
+        },
+        {
+          "id": "line-8379da3ddc627964",
+          "en": "<em>Food",
+          "ru": "<em>Еду"
+        }
+      ]
+    },
+    {
+      "id": "menu-d2465ab11fc55b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Cinnabar Ingot<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Cinnabar Ingot<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d2465ab11fc55b74",
+          "en": "<em>Cinnabar Ingot<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-e089b47380578645",
+          "en": "<em><em><em><em><em>Cinnabar Ingot",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-5cdc069f197dfada",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂌<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂌§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d8c348aababcdf56",
+          "en": "<em>Toughness and Energy",
+          "ru": "<em>§#BC8F62Стойкость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-457c44589f93f20d",
+          "en": "<em>Housing, or to craft <em>󏿿 Spears, <em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿿 §fкопья, <em>󏿿"
+        },
+        {
+          "id": "line-9a05a6980f02a42b",
+          "en": "<em>Daggers, <em> Boots, <em> Leggings, 󐀁<em>󏿿",
+          "ru": "<em>Кинжалы, <em> Ботинки, <em> Поножи, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-8c5b874e7c367c",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Gemini<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Gemini<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-98564ebb437a77dd",
+          "en": "<em> Combat Level󏾻󐂌<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂌§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-42774f2a29603b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Loyalty Rewards",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Loyalty Rewards",
+        "ru": "Награды за Верность"
+      },
+      "lines": [
+        {
+          "id": "line-42774f2a29603b93",
+          "en": "Loyalty Rewards",
+          "ru": "Награды за Верность"
+        },
+        {
+          "id": "line-8e7bdaf19978ab19",
+          "en": "§8Time-based rewards granted as",
+          "ru": "§8Награды за время подписки"
+        },
+        {
+          "id": "line-0beec2a623c0d414",
+          "en": "§8a token of appreciation for",
+          "ru": "§8в благодарность"
+        },
+        {
+          "id": "line-d5fd2b2def1eb80e",
+          "en": "§8supporting Wynncraft",
+          "ru": "§8за поддержку Wynncraft"
+        },
+        {
+          "id": "line-494717b9845941f8",
+          "en": "§7<em> Silverbull Subscribers receive",
+          "ru": "<em> Подписчики Silverbull получают"
+        },
+        {
+          "id": "line-6d6e8ff9d12102da",
+          "en": "§7double the rewards!",
+          "ru": "вдвое больше наград!"
+        },
+        {
+          "id": "line-dfa3c51472b5766d",
+          "en": "§7<em> Daily T<num> Crate in <num> hours",
+          "ru": "§f<em> Ежедневный ящик T<num> §7через §f<num> ч."
+        }
+      ]
+    },
+    {
+      "id": "menu-4808f48c2977b0",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§e§lUnlock Rewards",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§e§lUnlock Rewards",
+        "ru": "§e§lОткрыть Награды"
+      },
+      "lines": [
+        {
+          "id": "line-4808f48c2977b09c",
+          "en": "§e§lUnlock Rewards",
+          "ru": "§e§lОткрыть Награды"
+        },
+        {
+          "id": "line-f92e7d2be1dd19e5",
+          "en": "§7You must first unlock",
+          "ru": "§7Сначала откройте доступ"
+        },
+        {
+          "id": "line-5e2060abf37ac2f0",
+          "en": "§7your rewards in order",
+          "ru": "§7к наградам,"
+        },
+        {
+          "id": "line-9276dccc25a6633c",
+          "en": "§7to retrieve them.",
+          "ru": "§7чтобы их забрать."
+        }
+      ]
+    },
+    {
+      "id": "menu-d73785b0c4f5a8",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Daily Bonus Boosts",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Daily Bonus Boosts",
+        "ru": "Усиления Ежедневного Бонуса"
+      },
+      "lines": [
+        {
+          "id": "line-cc18ee098a11904f",
+          "en": "Daily Bonus for this Raid.",
+          "ru": "Ежедневный бонус этого Рейда."
+        }
+      ]
+    },
+    {
+      "id": "menu-cb751e9893a115",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Gathering Speed gspeed <num> [<num>]<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Gathering Speed gspeed <num> [<num>]<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-3df3fb2b4e178c40",
+          "en": "<em> <num>m <num>s Duration",
+          "ru": "<em> §7Длительность:§f <num>м <num>с"
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-e6f10a7ebc6d40e7",
+          "en": "<em> Combat Level󏾻󐂑<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂑§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-58592291363119",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§a§lProfession Info",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lProfession Info",
+        "ru": "§a§lПрофессии"
+      },
+      "lines": [
+        {
+          "id": "line-58592291363119a2",
+          "en": "§a§lProfession Info",
+          "ru": "§a§lПрофессии"
+        },
+        {
+          "id": "line-21c5f254699cd14d",
+          "en": "§7your character's professions",
+          "ru": "§7о профессиях персонажа"
+        },
+        {
+          "id": "line-6792e116bacf439d",
+          "en": "§b- §7Raiding Master§8 [<num>%]",
+          "ru": "§b- §7Мастер Рейдов§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-2f50d50221c940fb",
+          "en": "§6- §7Ⓒ Lv. <num> Woodcutting§8 [<num>%]",
+          "ru": "§6- §7Ⓒ Ур. §7<num>§7 Лесорубство§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-cc84e748df77a3b3",
+          "en": "§6- §7Ⓑ Lv. <num> Mining§8 [<num>%]",
+          "ru": "§6- §7Ⓑ Ур. §7<num>§7 Горное Дело§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-1bbbd1599a0e7b86",
+          "en": "§6- §7Ⓙ Lv. <num> Farming§8 [<num>%]",
+          "ru": "§6- §7Ⓙ Ур. §7<num>§7 Фермерство§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-6119f191a05730b4",
+          "en": "§6- §7Ⓓ Lv. <num> Jeweling§8 [<num>%]",
+          "ru": "§6- §7Ⓓ Ур. §7<num>§7 Ювелирное Дело§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-8236aa0b7132f2cd",
+          "en": "§6- §7Ⓐ Lv. <num> Cooking§8 [<num>%]",
+          "ru": "§6- §7Ⓐ Ур. §7<num>§7 Кулинария§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-8a780e615df560a8",
+          "en": "§6- §7Ⓖ Lv. <num> Weaponsmithing§8 [<num>%]",
+          "ru": "§6- §7Ⓖ Ур. §7<num>§7 Оружейное Дело§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-8fdb12831d099a65",
+          "en": "§6- §7Ⓕ Lv. <num> Tailoring§8 [<num>%]",
+          "ru": "§6- §7Ⓕ Ур. §7<num>§7 Портняжное Дело§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-0df6cb9de5c8f0b0",
+          "en": "§6- §7Ⓘ Lv. <num> Woodworking§8 [<num>%]",
+          "ru": "§6- §7Ⓘ Ур. §7<num>§7 Обработка Дерева§8 [§8<num>%§7]"
+        },
+        {
+          "id": "line-57307ef885a1a9ec",
+          "en": "§6- §7Ⓗ Lv. <num> Armouring§8 [<num>%]",
+          "ru": "§6- §7Ⓗ Ур. §7<num>§7 Бронное Дело§8 [§8<num>%§7]"
+        }
+      ]
+    },
+    {
+      "id": "menu-65f56c4cd1699a",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Diamond Ingot<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Diamond Ingot<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-65f56c4cd1699a6d",
+          "en": "<em>Diamond Ingot<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-aa6adbd0c342f0b8",
+          "en": "<em><em><em><em><em>Diamond Ingot",
+          "ru": ""
+        },
+        {
+          "id": "line-9cd089f7e27ec150",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂏<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂏§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d8c348aababcdf56",
+          "en": "<em>Toughness and Energy",
+          "ru": "<em>§#BC8F62Стойкость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-457c44589f93f20d",
+          "en": "<em>Housing, or to craft <em>󏿿 Spears, <em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿿 §fкопья, <em>󏿿"
+        },
+        {
+          "id": "line-9a05a6980f02a42b",
+          "en": "<em>Daggers, <em> Boots, <em> Leggings, 󐀁<em>󏿿",
+          "ru": "<em>Кинжалы, <em> Ботинки, <em> Поножи, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-e32c416a9fde64",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Scrap Cosmetics",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Scrap Cosmetics",
+        "ru": "Разобрать Косметику"
+      },
+      "lines": [
+        {
+          "id": "line-e32c416a9fde64f7",
+          "en": "Scrap Cosmetics",
+          "ru": "Разобрать Косметику"
+        },
+        {
+          "id": "line-a9eeed13a81a9627",
+          "en": "You are scrapping <num> cosmetics",
+          "ru": "Вы разбираете косметику: §8<num>§7"
+        },
+        {
+          "id": "line-edd38e189c7591dd",
+          "en": "- Magic Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-d264b9365a9ffa87",
+          "en": "- Wet Drip Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-ecb43d747ec34a16",
+          "en": "- Cow Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-ca15ebc05a3c5c13",
+          "en": "For",
+          "ru": "Взамен:"
+        },
+        {
+          "id": "line-ee5c66b22de54e49",
+          "en": "- <num>x <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿦<em><em><em><em>󐀂 Cosmetic",
+          "ru": "- §7<num>§7x <em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿿<em>󏿦<em><em><em><em>󐀂 §#DD55FFКосметика"
+        },
+        {
+          "id": "line-4fb32655cbeb201c",
+          "en": "<em>of the same collection",
+          "ru": "<em>из §fтой же коллекции"
+        },
+        {
+          "id": "line-f9cbe68c66810510",
+          "en": "§8This action is permanent",
+          "ru": "§8Это действие нельзя"
+        },
+        {
+          "id": "line-0672c058f380d57f",
+          "en": "§8and irreversible",
+          "ru": "§8отменить"
+        },
+        {
+          "id": "line-e022bc3ddc5be628",
+          "en": "§7<em> Click to Confirm",
+          "ru": "<em> Нажмите, чтобы Подтвердить"
+        }
+      ]
+    },
+    {
+      "id": "menu-b50166265591fe",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§c§lSacrifice Rewards",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§c§lSacrifice Rewards",
+        "ru": "§c§lПожертвовать Наградами"
+      },
+      "lines": [
+        {
+          "id": "line-b50166265591fef8",
+          "en": "§c§lSacrifice Rewards",
+          "ru": "§c§lПожертвовать Наградами"
+        },
+        {
+          "id": "line-32e6b42294b20018",
+          "en": "§7Sacrificing your rewards",
+          "ru": "§7Пожертвуйте наградами,"
+        },
+        {
+          "id": "line-5d775a32eddfcc39",
+          "en": "§7will add a percentage of your",
+          "ru": "§7чтобы перенести часть пуллов"
+        },
+        {
+          "id": "line-88c241f23f969847",
+          "en": "§7pulls into your next lootrun",
+          "ru": "§7в следующий лутран"
+        },
+        {
+          "id": "line-d1d3ff90553840db",
+          "en": "§8A higher amount of sacrifices",
+          "ru": "§8Чем больше пожертвований,"
+        },
+        {
+          "id": "line-3c9e876b2cd08c01",
+          "en": "§8increases the amount of pulls",
+          "ru": "§8тем больше пуллов сохранится"
+        },
+        {
+          "id": "line-123ea2f7d7d30237",
+          "en": "§8saved for your next run",
+          "ru": "§8для следующего лутрана"
+        },
+        {
+          "id": "line-0409c25d1b6d5294",
+          "en": "§7§a✔ §7Reward Sacrifices: §f<num>",
+          "ru": "§7§a✔ §7Пожертвования Наград: §f<num>§7"
+        },
+        {
+          "id": "line-f6578cc20ab8a4aa",
+          "en": "§7§a✔ §7Saved Pulls: §f<num> (<num>%)",
+          "ru": "§7§a✔ §7Сохранено Пуллов: §f<num>§7 (§8<num>%§7)"
+        },
+        {
+          "id": "line-dadfbc165119c4e0",
+          "en": "§7<em> Click to Sacrifice",
+          "ru": "§7<em> §aНажмите, чтобы Пожертвовать"
+        }
+      ]
+    },
+    {
+      "id": "menu-2b7b575d562ec6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Smoky Diamond Chestplate<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Smoky Diamond Chestplate<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-7d59e5170a837813",
+          "en": "<em> Combat Level󏾻󐂍<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂍§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-cd6e7364dda1eb",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>ascendancy chestplate<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>ascendancy chestplate<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-812201965eac954b",
+          "en": "<em> Combat Level󏾻󐂉<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂉§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-cd85913b77e695",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em><em><em>Petulance<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em><em><em>Petulance<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a17a77ce37b061a3",
+          "en": "<em> Class Type󏿄󐁚Assassin/Ninja",
+          "ru": "<em> Класс󏿄󐁚§7Ассасин/Ниндзя§7"
+        },
+        {
+          "id": "line-31f064a3c0f31fe5",
+          "en": "<em> Combat Level󏾻󐂋<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂋§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-992124f5eb6339",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Horse Whistle<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Horse Whistle<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-992124f5eb63394d",
+          "en": "<em>Horse Whistle<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-67fd5f57cbeac9fc",
+          "en": "<em><em><em><em><em>Horse Whistle",
+          "ru": ""
+        },
+        {
+          "id": "line-fe88df2558f32a37",
+          "en": "<em><num> Potential",
+          "ru": "<em>Потенциал: §#E0E0E0<num>§7"
+        },
+        {
+          "id": "line-c9bdb097a3168d69",
+          "en": "<em><em>󐀅Energy <num>",
+          "ru": "<em><em>󐀅Энергия §7<num>§7"
+        },
+        {
+          "id": "line-0ff1f50a125dad52",
+          "en": "<em> Combat Level󏾻󐁫<num>",
+          "ru": "<em> Боевой Уровень󏾻󐁫§7<num>§7"
+        },
+        {
+          "id": "line-fa430dd8d2888f83",
+          "en": "Speed<em><em><num> <em><em><em><em>",
+          "ru": "Скорость<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-0af8023257a34153",
+          "en": "Acceleration<em><em><num> <em><em><em><em>",
+          "ru": "Ускорение<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-3d613c5629fbd581",
+          "en": "Jump Height<em><em><num> <em><em><em><em>",
+          "ru": "Высота Прыжка<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-9543bc0e10dc668d",
+          "en": "Energy<em><em><num> <em><em><em><em>",
+          "ru": "Энергия<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-d3b73dda4d6f2d1c",
+          "en": "Handling<em><em><num> <em><em><em><em>",
+          "ru": "Управляемость<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-8b569423f3facf60",
+          "en": "Toughness<em><em><num> <em><em><em><em>",
+          "ru": "Стойкость<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-904fc77efee185bc",
+          "en": "Boost<em><em><num> <em><em><em><em>",
+          "ru": "Рывок<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-3cc5525ea6eed935",
+          "en": "Training<em><em><num> <em><em><em><em>",
+          "ru": "Выучка<em><em><num> <em><em><em><em>"
+        },
+        {
+          "id": "line-91d7044aa880edd7",
+          "en": "<em><em> Right-Click to Summon",
+          "ru": "<em><em> ПКМ: Призвать"
+        },
+        {
+          "id": "line-1516d9c462f3f633",
+          "en": "<em><em> Drop to Destroy",
+          "ru": "<em><em> Выбросить: Уничтожить"
+        }
+      ]
+    },
+    {
+      "id": "menu-0310932478f7e5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Petal Blade<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Petal Blade<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4856d63a07c87356",
+          "en": "<em> Class Type󏿄󐁗Assassin/Ninja",
+          "ru": "<em> Класс󏿄󐁗§7Ассасин/Ниндзя§7"
+        },
+        {
+          "id": "line-6f46be7fe1587099",
+          "en": "<em> Combat Level󏾻󐂈<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂈§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-057e21b068656b",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Petal Wristlet<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Petal Wristlet<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6f46be7fe1587099",
+          "en": "<em> Combat Level󏾻󐂈<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂈§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-bc7685172b9550",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Champion Chestplate<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Champion Chestplate<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-38ce7c572d9a0d27",
+          "en": "<em> Combat Level󏾻󐂞<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂞§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-8aac789a1951af",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<num>x Scrap Hammer",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Scrap Hammer",
+        "ru": "§#DD55FF<num>§7x Молот из хлама"
+      },
+      "lines": [
+        {
+          "id": "line-8aac789a1951afa8",
+          "en": "<num>x Scrap Hammer",
+          "ru": "§#DD55FF<num>§7x Молот из хлама"
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-33236f4c3f9fc5f8",
+          "en": "Scrap flair",
+          "ru": "вид оружия из хлама"
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§7§a✔ §7Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "§7<em> §aНажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menu-1d8f8a8d542dd2",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Scrap Hammer",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Scrap Hammer",
+        "ru": "Молот из Хлама"
+      },
+      "lines": [
+        {
+          "id": "line-1d8f8a8d542dd25b",
+          "en": "Scrap Hammer",
+          "ru": "Молот из Хлама"
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-33236f4c3f9fc5f8",
+          "en": "Scrap flair",
+          "ru": "вид оружия из хлама"
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§7§a✔ §7Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-df734412d1fe27be",
+          "en": "§7<em> Click to Equip",
+          "ru": "§7<em> §*Нажмите, чтобы Надеть"
+        }
+      ]
+    },
+    {
+      "id": "menu-ae27c2dcc98795",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<num>x Chainmail Chestplate",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Chainmail Chestplate",
+        "ru": "§#DD55FF<num>§7x Кольчужный нагрудник"
+      },
+      "lines": [
+        {
+          "id": "line-ae27c2dcc9879592",
+          "en": "<num>x Chainmail Chestplate",
+          "ru": "§#DD55FF<num>§7x Кольчужный нагрудник"
+        },
+        {
+          "id": "line-46235243fb7d33ee",
+          "en": "Disguise your chestplate as a",
+          "ru": "Заменяет вид вашего нагрудника на"
+        },
+        {
+          "id": "line-b52ee35519ce8ba5",
+          "en": "Chainmail Chestplate",
+          "ru": "Кольчужный Нагрудник"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "§7<em> §aНажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menu-5e21571e45712d",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Willow Paper<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Willow Paper<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5e21571e45712dd4",
+          "en": "<em>Willow Paper<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-7951093b8363062a",
+          "en": "<em><em><em><em><em>Willow Paper",
+          "ru": ""
+        },
+        {
+          "id": "line-0e80d1f2f1266754",
+          "en": "<em> 󐀁<em>󏿿 Woodcutting Level󏾛󐂏<num>",
+          "ru": "<em> 󐀁<em>󏿿 Уровень: Лесорубство󏾛󐂏§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-7ad5bb11c34f435d",
+          "en": "<em>Altitude and Boost",
+          "ru": "<em>§#BC8F62Высоту§7 и §#BC8F62Рывок"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-8b749c1a70696233",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-a4323d8844f465",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Dernic Grains<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Dernic Grains<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a4323d8844f4657c",
+          "en": "<em>Dernic Grains<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-a795409a61aa5422",
+          "en": "<em><em><em><em><em>Dernic Grains",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-23eda216fa705804",
+          "en": "<em> <em> Farming Level󏾭󐂎<num>",
+          "ru": "<em> <em> Уровень: Фермерство󏾭󐂎§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-e3a6eea53b570a89",
+          "en": "<em>Speed and Altitude",
+          "ru": "<em>§#BC8F62Скорость§7 и §#BC8F62Высоту"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-e856bc3ae5cd5dde",
+          "en": "<em>Housing, or to craft 󐀁<em>󏿿 Potions & <em>󏿾",
+          "ru": "<em>участка§7 или изготовить 󐀁<em>󏿿 §fзелья & <em>󏿾"
+        },
+        {
+          "id": "line-8379da3ddc627964",
+          "en": "<em>Food",
+          "ru": "<em>Еду"
+        }
+      ]
+    },
+    {
+      "id": "menu-a481e2b9ed7310",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Redwood Paper<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Redwood Paper<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a481e2b9ed7310f5",
+          "en": "<em>Redwood Paper<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-de2a6562bc85cc8f",
+          "en": "<em><em><em><em><em>Redwood Paper",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-91dce0f1445c6238",
+          "en": "<em> 󐀁<em>󏿿 Woodcutting Level󏾛󐂌<num>",
+          "ru": "<em> 󐀁<em>󏿿 Уровень: Лесорубство󏾛󐂌§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-7ad5bb11c34f435d",
+          "en": "<em>Altitude and Boost",
+          "ru": "<em>§#BC8F62Высоту§7 и §#BC8F62Рывок"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-8b749c1a70696233",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-9eebd2874009ad",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Bass Oil<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Bass Oil<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9eebd2874009ad0a",
+          "en": "<em>Bass Oil<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-31cd0515df03eb55",
+          "en": "<em><em><em><em><em>Bass Oil",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d37549f558dd050a",
+          "en": "<em>Handling, Training and Altitude",
+          "ru": "<em>§#BC8F62Управляемость§7,§#BC8F62 Выучку§7 и §#BC8F62Высоту"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-dc9ae3d756a53d5f",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿾",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿾"
+        },
+        {
+          "id": "line-5c00b21c1b88efc6",
+          "en": "<em>Rings, 󐀁<em>󏿾 Bracelets, 󐀁<em>󏿾 Necklaces, 󐀁<em>󏿿",
+          "ru": "<em>Кольца, 󐀁<em>󏿾 Браслеты, 󐀁<em>󏿾 Ожерелья, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-4bb7c51c883b7bf1",
+          "en": "<em>Potions & <em>󏿾 Reliks",
+          "ru": "<em>Зелья и <em>󏿾 Реликты"
+        }
+      ]
+    },
+    {
+      "id": "menu-5fac28b3a42440",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Sky Paper<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Sky Paper<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5fac28b3a42440eb",
+          "en": "<em>Sky Paper<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-5969c7ef79c71951",
+          "en": "<em><em><em><em><em>Sky Paper",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-875d34ac19c8cc39",
+          "en": "<em> 󐀁<em>󏿿 Woodcutting Level󏾛󐂋<num>",
+          "ru": "<em> 󐀁<em>󏿿 Уровень: Лесорубство󏾛󐂋§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-7ad5bb11c34f435d",
+          "en": "<em>Altitude and Boost",
+          "ru": "<em>§#BC8F62Высоту§7 и §#BC8F62Рывок"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-8b749c1a70696233",
+          "en": "<em>Housing, or to craft <em>󏿾 Scrolls, 󐀁<em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿾 §fсвитки, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-98ed2d23233cf8",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Brilliant Diamond Chestplate<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Brilliant Diamond Chestplate<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e6f10a7ebc6d40e7",
+          "en": "<em> Combat Level󏾻󐂑<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂑§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-a879448f0fffc5",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Sandstone Ingot<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Sandstone Ingot<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a879448f0fffc5a3",
+          "en": "<em>Sandstone Ingot<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-d3722d97de21aa28",
+          "en": "<em><em><em><em><em>Sandstone Ingot",
+          "ru": ""
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-9cd089f7e27ec150",
+          "en": "<em> <em>󏿾 Mining Level󏾵󐂏<num>",
+          "ru": "<em> <em>󏿾 Уровень: Горное Дело󏾵󐂏§7<num>§7"
+        },
+        {
+          "id": "line-5f2731787c1dcb29",
+          "en": "<em>Feed to your Mount to upgrade its",
+          "ru": "<em>§7Корм для §#BC8F62Ездового Животного§7: улучшает"
+        },
+        {
+          "id": "line-d8c348aababcdf56",
+          "en": "<em>Toughness and Energy",
+          "ru": "<em>§#BC8F62Стойкость§7 и §#BC8F62Энергию"
+        },
+        {
+          "id": "line-292e64f13d40f5c5",
+          "en": "<em>Can be used to purchase blocks in",
+          "ru": "<em>Подходит для покупки блоков на"
+        },
+        {
+          "id": "line-457c44589f93f20d",
+          "en": "<em>Housing, or to craft <em>󏿿 Spears, <em>󏿿",
+          "ru": "<em>участка§7 или изготовить <em>󏿿 §fкопья, <em>󏿿"
+        },
+        {
+          "id": "line-9a05a6980f02a42b",
+          "en": "<em>Daggers, <em> Boots, <em> Leggings, 󐀁<em>󏿿",
+          "ru": "<em>Кинжалы, <em> Ботинки, <em> Поножи, 󐀁<em>󏿿"
+        },
+        {
+          "id": "line-e5b5014fa36ed4c7",
+          "en": "<em>Helmets, & 󐀁<em>󏿿 Chestplates",
+          "ru": "<em>Шлемы и 󐀁<em>󏿿 Нагрудники"
+        }
+      ]
+    },
+    {
+      "id": "menu-f7de47882d0f9e",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>Pigman Meat<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Pigman Meat<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-f7de47882d0f9e49",
+          "en": "<em>Pigman Meat<em>",
+          "ru": ""
+        },
+        {
+          "id": "line-b7b678e859c67452",
+          "en": "<em><em><em><em><em>Pigman Meat",
+          "ru": ""
+        },
+        {
+          "id": "line-5015615c933e6ab8",
+          "en": "<em><num> Crafting Level",
+          "ru": "<em>Уровень Ремесла: §#7DC97D<num>§7"
+        },
+        {
+          "id": "line-6f5a5f0818ecff8e",
+          "en": "<em>󐀁<em>󏿿 Alchemism󐀄 <em>󏿾 Cooking󐀊",
+          "ru": "<em>󐀁<em>󏿿 Алхимия󐀄 <em>󏿾 Кулинария󐀊"
+        }
+      ]
+    },
+    {
+      "id": "menu-bd5ede9002b7c7",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "<em>anni war xp gxp gathering xp [<num>]<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>anni war xp gxp gathering xp [<num>]<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-3df3fb2b4e178c40",
+          "en": "<em> <num>m <num>s Duration",
+          "ru": "<em> §7Длительность:§f <num>м <num>с"
+        },
+        {
+          "id": "line-98ada2474c664156",
+          "en": "<em>󏿼<em>󏿿<em>󏿾 Price",
+          "ru": "<em>󏿼<em>󏿿<em>󏿾 Цена"
+        },
+        {
+          "id": "line-7907b26c0efd9bf5",
+          "en": "<em> Combat Level󏾻󐂝<num>",
+          "ru": "<em> Боевой Уровень󏾻󐂝§7<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-e2004009b17641",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Emerald Pouch [Tier <num>]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Emerald Pouch [Tier <num>]",
+        "ru": "Сумка Изумрудов [Уровень §2<num>§7]"
+      },
+      "lines": [
+        {
+          "id": "line-e2004009b1764142",
+          "en": "Emerald Pouch [Tier <num>]",
+          "ru": "Сумка Изумрудов [Уровень §2<num>§7]"
+        },
+        {
+          "id": "line-540a1e180514988d",
+          "en": "§7§7Empty",
+          "ru": "§7Пусто"
+        },
+        {
+          "id": "line-11620898453b4f86",
+          "en": "<em><em> Right-Click to view contents",
+          "ru": "<em><em> §fПКМ - Посмотреть Содержимое"
+        },
+        {
+          "id": "line-d31f63fba8566b2a",
+          "en": "§7- <num> Row §8(<num>stx Total)",
+          "ru": "§7- Рядов: <num> §8(всего <num>stx)"
+        },
+        {
+          "id": "line-e1855ac9f51c5a5b",
+          "en": "§7- Converts up to §fLiquid Emeralds",
+          "ru": "§7- Объединяет изумруды до §fжидких изумрудов"
+        },
+        {
+          "id": "line-ae0a086234e0db36",
+          "en": "§7- <num> Rows §8(<num>stx Total)",
+          "ru": "§7- Рядов: <num> §8(всего <num>stx)"
+        },
+        {
+          "id": "line-ec095e3b914a804b",
+          "en": "§7§7§7Empty",
+          "ru": "§7Пусто"
+        },
+        {
+          "id": "line-99d408b7339d5619",
+          "en": "§7<em><em> Right-Click to view contents",
+          "ru": "§7<em><em> §fПКМ - Посмотреть Содержимое"
+        },
+        {
+          "id": "line-63b97a88c2b4510d",
+          "en": "§7§7- <num> Row §8(<num>stx Total)",
+          "ru": "§7- Рядов: <num> §8(всего <num>stx)"
+        },
+        {
+          "id": "line-5e1a1715982d0adb",
+          "en": "§7§7- Converts up to §fLiquid Emeralds",
+          "ru": "§7- Объединяет изумруды до §fжидких изумрудов"
+        },
+        {
+          "id": "line-775e6c50ad99423b",
+          "en": "§7§7- <num> Rows §8(<num>stx Total)",
+          "ru": "§7- Рядов: <num> §8(всего <num>stx)"
+        },
+        {
+          "id": "line-61e094100141c051",
+          "en": "§a- <num>x Emerald Pouch [Tier <num>]",
+          "ru": "- §7<num>§7x Сумка изумрудов [Уровень §2<num>§7]"
+        },
+        {
+          "id": "line-5b2d6b2372e9b450",
+          "en": "§a- <num>² (<num>¼² <num>²½ <num>²) each",
+          "ru": "§a- §f<num>§7² §8(<num>¼² <num>²½ <num>²) §fза штуку"
+        },
+        {
+          "id": "line-c4eedf801bdc8998",
+          "en": "§a- <num>² (<num>¼² <num>²½ <num>²) total",
+          "ru": "§a- §f<num>§7² §8(<num>¼² <num>²½ <num>²) §fвсего"
+        }
+      ]
+    },
+    {
+      "id": "menu-38496d888079d2",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§6Ingredient Pouch",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Ingredient Pouch",
+        "ru": "§6Сумка для Ингредиентов"
+      },
+      "lines": [
+        {
+          "id": "line-38496d888079d26e",
+          "en": "§6Ingredient Pouch",
+          "ru": "§6Сумка для Ингредиентов"
+        },
+        {
+          "id": "line-400ec0eaa30d9306",
+          "en": "§7(Your pouch is empty)",
+          "ru": "§7(В сумке пока пусто)"
+        },
+        {
+          "id": "line-2ca984360b979a71",
+          "en": "§fLeft-Click§7 to view contents",
+          "ru": "§fЛКМ§7: посмотреть содержимое"
+        },
+        {
+          "id": "line-e1d5065321808fb5",
+          "en": "§fShift Right-Click§7 to sell (§a<num>§7-§a<num>§2²§7)",
+          "ru": "§fShift + ПКМ§7: продать (§a<num>§7-§a<num>§7§2²§7)"
+        },
+        {
+          "id": "line-c8af3b3df0a98b47",
+          "en": "<num> x Glacial Anomaly",
+          "ru": ""
+        },
+        {
+          "id": "line-8ac4cb1f74e16d12",
+          "en": "<num> x Gravitation Crystal",
+          "ru": ""
+        },
+        {
+          "id": "line-7e9e83509cb9add9",
+          "en": "<num> x Engraved Tablet",
+          "ru": ""
+        },
+        {
+          "id": "line-a0846244bd280743",
+          "en": "<num> x Succulent Crab Meat",
+          "ru": ""
+        },
+        {
+          "id": "line-32d419890773d71b",
+          "en": "<num> x Fiberglass Frame",
+          "ru": ""
+        },
+        {
+          "id": "line-ce54d436e216a1a2",
+          "en": "<num> x Old Explosives",
+          "ru": ""
+        },
+        {
+          "id": "line-381dbe5066a028c2",
+          "en": "<num> x Sought-After Ore",
+          "ru": ""
+        },
+        {
+          "id": "line-28fb43dc9c709ffc",
+          "en": "<num> x Hydrofluoric Acid",
+          "ru": ""
+        },
+        {
+          "id": "line-c9d3d848a6eb93af",
+          "en": "<num> x Lost Spirit",
+          "ru": ""
+        },
+        {
+          "id": "line-cfe70df36a604a80",
+          "en": "<num> x Elephant Toenail",
+          "ru": ""
+        },
+        {
+          "id": "line-1608cbf37501cdf5",
+          "en": "<num> x Vile Stone",
+          "ru": ""
+        },
+        {
+          "id": "line-87395fd49f6b7af4",
+          "en": "<num> x Evaporated Aspect",
+          "ru": ""
+        },
+        {
+          "id": "line-d1d4fcccab1042b5",
+          "en": "<num> x Golden Avia Feather",
+          "ru": ""
+        },
+        {
+          "id": "line-a65a9854750e7800",
+          "en": "<num> x Calmed Thunder",
+          "ru": ""
+        },
+        {
+          "id": "line-b4c55416a5e038a8",
+          "en": "<num> x Dark Energy",
+          "ru": ""
+        },
+        {
+          "id": "line-451ebcef91b9e780",
+          "en": "<num> x Hardened Mandible",
+          "ru": ""
+        },
+        {
+          "id": "line-8d1b87624e955fec",
+          "en": "<num> x Cyclops Eye",
+          "ru": ""
+        },
+        {
+          "id": "line-1711d024361006d7",
+          "en": "<num> x Bamboo",
+          "ru": ""
+        },
+        {
+          "id": "line-54193f7ab1550ad6",
+          "en": "<num> x Voidstone Sample",
+          "ru": ""
+        },
+        {
+          "id": "line-de85134d4028ca72",
+          "en": "<num> x Stolen Goods",
+          "ru": ""
+        },
+        {
+          "id": "line-7ec9ff0d658f2a88",
+          "en": "<num> x Congealed Slime",
+          "ru": ""
+        },
+        {
+          "id": "line-1b3cae5fcb0d65f8",
+          "en": "<num> x Terra Steel",
+          "ru": ""
+        },
+        {
+          "id": "line-78d7f708bf2f409b",
+          "en": "<num> x Fiery Aura",
+          "ru": ""
+        },
+        {
+          "id": "line-366947506dcba12e",
+          "en": "<num> x Watery Aura",
+          "ru": ""
+        },
+        {
+          "id": "line-83617794c36b7fda",
+          "en": "<num> x Enhanced Behaviour Microchip",
+          "ru": ""
+        },
+        {
+          "id": "line-800bb4f3200a6375",
+          "en": "<num> x Defective Circuits",
+          "ru": "<num> x §#20AA20Неисправные схемы"
+        },
+        {
+          "id": "line-46d8b98146069904",
+          "en": "<num> x Strong Flesh",
+          "ru": ""
+        },
+        {
+          "id": "line-8343f48e090724c4",
+          "en": "<num> x Insulated Wiring",
+          "ru": "<num> x §#20AA20Изолированные провода"
+        },
+        {
+          "id": "line-39c45d6ed88c32e0",
+          "en": "<num> x Victim's Skull",
+          "ru": "<num> x §#20AA20Череп жертвы"
+        },
+        {
+          "id": "line-3242293e6da8b4a3",
+          "en": "<num> x Forest Web",
+          "ru": ""
+        },
+        {
+          "id": "line-9b40cf79cf7b070e",
+          "en": "<num> x Protective Fabric",
+          "ru": "<num> x §#20AA20Защитная ткань"
+        },
+        {
+          "id": "line-5c22a4794e40436a",
+          "en": "<num> x Robot Antenna",
+          "ru": ""
+        },
+        {
+          "id": "line-24b68db101a38e61",
+          "en": "<num> x Filched Purse",
+          "ru": ""
+        },
+        {
+          "id": "line-c962ed4542856839",
+          "en": "<num> x Demonic Blood",
+          "ru": ""
+        },
+        {
+          "id": "line-ee794cccc600bb66",
+          "en": "<num> x Acidic Remains",
+          "ru": ""
+        },
+        {
+          "id": "line-615aead17a902634",
+          "en": "<num> x Red Mercury",
+          "ru": ""
+        },
+        {
+          "id": "line-3b32a2580c1e6e2e",
+          "en": "<num> x Grook Feather",
+          "ru": "<num> x §#20AA20Перо грука"
+        },
+        {
+          "id": "line-f65d52342496cef1",
+          "en": "<num> x Mucoid Matter",
+          "ru": "<num> x §#20AA20Слизистая масса"
+        },
+        {
+          "id": "line-d30b47c615795834",
+          "en": "<num> x Egg",
+          "ru": ""
+        },
+        {
+          "id": "line-940ccc6245a8382a",
+          "en": "<num> x Maple Bark",
+          "ru": "<num> x §#20AA20Кора клёна"
+        },
+        {
+          "id": "line-51a5dbf4b7535f9d",
+          "en": "<num> x Torn Fabric",
+          "ru": ""
+        },
+        {
+          "id": "line-e8a7ed2e7c7c7214",
+          "en": "<num> x Adamastor's Faceplate",
+          "ru": "<num> x §#20AA20Лицевая пластина Адамастора"
+        },
+        {
+          "id": "line-146fb58d9557f738",
+          "en": "<num> x Fluid Light",
+          "ru": "<num> x §#20AA20Текучий свет"
+        },
+        {
+          "id": "line-3a3a077163abfc06",
+          "en": "<num> x Giant Petal",
+          "ru": "<num> x §#20AA20Гигантский лепесток"
+        },
+        {
+          "id": "line-037425afb70b9dfb",
+          "en": "<num> x Noble Ribbon",
+          "ru": ""
+        },
+        {
+          "id": "line-da52c69ccb5891bb",
+          "en": "<num> x Sandy Loam",
+          "ru": ""
+        },
+        {
+          "id": "line-24f8563b22c0e971",
+          "en": "<num> x Exquisite Marsh Scale",
+          "ru": ""
+        },
+        {
+          "id": "line-ad72a91dc9165660",
+          "en": "<num> x Spiky Vine",
+          "ru": ""
+        },
+        {
+          "id": "line-fc2a04b267d3947f",
+          "en": "<num> x Chaotic Embers",
+          "ru": "<num> x §#20AA20Угли хаоса"
+        },
+        {
+          "id": "line-7a510071b164a2af",
+          "en": "<num> x Scorching Horn",
+          "ru": ""
+        },
+        {
+          "id": "line-4f0cd4b5243a019c",
+          "en": "<num> x Fox Coat",
+          "ru": ""
+        },
+        {
+          "id": "line-4ecd7a0a47f42c6b",
+          "en": "<num> x Barbed Stinger",
+          "ru": ""
+        },
+        {
+          "id": "line-47b483e3e5f04ace",
+          "en": "<num> x Saltpetre",
+          "ru": ""
+        },
+        {
+          "id": "line-d4622474656280c9",
+          "en": "<num> x Rotten Flesh",
+          "ru": ""
+        },
+        {
+          "id": "line-761b65c7a9256eb8",
+          "en": "<num> x Thin Quill",
+          "ru": ""
+        },
+        {
+          "id": "line-bdcc7664f3500e7f",
+          "en": "<num> x Rare Potato",
+          "ru": ""
+        },
+        {
+          "id": "line-39a4cf51c7d22cde",
+          "en": "<num> x Corruption Shard",
+          "ru": ""
+        },
+        {
+          "id": "line-090834be3cbd29ed",
+          "en": "<num> x Royal Cake Slice",
+          "ru": ""
+        },
+        {
+          "id": "line-89b7f45405caab04",
+          "en": "<num> x Bob's Tear",
+          "ru": ""
+        },
+        {
+          "id": "line-bc585ed782b8e4a4",
+          "en": "<num> x Mega Fern",
+          "ru": ""
+        },
+        {
+          "id": "line-6d44159c287870bc",
+          "en": "<num> x Cursed Wings",
+          "ru": "<num> x §#20AA20Проклятые крылья"
+        },
+        {
+          "id": "line-bd0d4ed492c41c1e",
+          "en": "<num> x Cat's Ears",
+          "ru": "<num> x §#20AA20Кошачьи уши"
+        },
+        {
+          "id": "line-3c4795d6690e0157",
+          "en": "<num> x Infernal Flesh",
+          "ru": ""
+        },
+        {
+          "id": "line-b5e6e7fedab341ab",
+          "en": "<num> x Sky Snail Shell",
+          "ru": ""
+        },
+        {
+          "id": "line-a13672c5de78c237",
+          "en": "<num> x Ghostly Plume",
+          "ru": ""
+        },
+        {
+          "id": "line-46c9eef7ff3f9c6f",
+          "en": "<num> x Pirate Beard",
+          "ru": ""
+        },
+        {
+          "id": "line-3927746756a13fcc",
+          "en": "<num> x Remedial Paste",
+          "ru": ""
+        },
+        {
+          "id": "line-8e02fb894498719c",
+          "en": "<num> x Forgotten Pickaxe",
+          "ru": ""
+        },
+        {
+          "id": "line-6587d8b393444304",
+          "en": "<num> x Haphazard Serum",
+          "ru": ""
+        },
+        {
+          "id": "line-465aba0a2c56e53b",
+          "en": "<num> x Enhanced Dynamics Microchip",
+          "ru": ""
+        },
+        {
+          "id": "line-6a9f7a89bd14dfe7",
+          "en": "<num> x Lotus Seedpod",
+          "ru": ""
+        },
+        {
+          "id": "line-3541a388066b1977",
+          "en": "<num> x Harpy Wing",
+          "ru": ""
+        },
+        {
+          "id": "line-787e32b8e0e00c93",
+          "en": "<num> x Insanity Star",
+          "ru": ""
+        },
+        {
+          "id": "line-a355673c76ff424e",
+          "en": "<num> x Angelic Gem",
+          "ru": ""
+        },
+        {
+          "id": "line-b0a1315583c0d884",
+          "en": "<num> x Razor-Sharp Tooth",
+          "ru": ""
+        },
+        {
+          "id": "line-fa4fd4b53cb6454a",
+          "en": "<num> x Enhanced Potential Microchip",
+          "ru": ""
+        },
+        {
+          "id": "line-ba50804e14efc72d",
+          "en": "<num> x Stone Plating",
+          "ru": ""
+        },
+        {
+          "id": "line-87324db93c4453ad",
+          "en": "<num> x Enhanced Post-Processing Microchip",
+          "ru": ""
+        },
+        {
+          "id": "line-8a8535da2ff80ac0",
+          "en": "<num> x Gylia Essence",
+          "ru": ""
+        },
+        {
+          "id": "line-77a7e05c8551e89a",
+          "en": "<num> x Piercing Talons",
+          "ru": ""
+        },
+        {
+          "id": "line-f412f2730bea0839",
+          "en": "<num> x Dragon Aura",
+          "ru": ""
+        },
+        {
+          "id": "line-80e09dee715a2758",
+          "en": "<num> x Diseased Fluids",
+          "ru": ""
+        },
+        {
+          "id": "line-75bca2e820cd4a34",
+          "en": "<num> x Dense Void Hole Chunk",
+          "ru": ""
+        },
+        {
+          "id": "line-570278d5ac1681e6",
+          "en": "<num> x Ivory Tusk",
+          "ru": ""
+        },
+        {
+          "id": "line-3e7a57f61587ac06",
+          "en": "<num> x Soulbound Cinders",
+          "ru": ""
+        },
+        {
+          "id": "line-b782a10eab5770f8",
+          "en": "<num> x Lactic Acid Crystal",
+          "ru": ""
+        },
+        {
+          "id": "line-905a478a86110602",
+          "en": "<num> x Energetic Aura",
+          "ru": ""
+        },
+        {
+          "id": "line-b72ea3623cd2c926",
+          "en": "<num> x Windy Aura",
+          "ru": ""
+        },
+        {
+          "id": "line-95c5cdd92ca1213d",
+          "en": "<num> x Sentient Shadow",
+          "ru": ""
+        },
+        {
+          "id": "line-d7e8172d29695d3c",
+          "en": "<num> x Ocea Steel",
+          "ru": ""
+        },
+        {
+          "id": "line-2a27685dcdce0e24",
+          "en": "<num> x Rock-Hard Beak",
+          "ru": ""
+        },
+        {
+          "id": "line-ac1981248b6e56b3",
+          "en": "<num> x Ancient Currency",
+          "ru": ""
+        },
+        {
+          "id": "line-f7502105a0d9c26e",
+          "en": "<num> x Vortex Expulsion",
+          "ru": ""
+        },
+        {
+          "id": "line-7cbc411e54fb351e",
+          "en": "<num> x Major's Badge",
+          "ru": ""
+        },
+        {
+          "id": "line-85c9bff78a1701aa",
+          "en": "<num> x Tender Pork Fillet",
+          "ru": ""
+        },
+        {
+          "id": "line-06cca0f190e93fec",
+          "en": "<num> x Wind Ornament",
+          "ru": ""
+        },
+        {
+          "id": "line-137ac44df774427a",
+          "en": "<num> x Optic Lens",
+          "ru": ""
+        },
+        {
+          "id": "line-600a91a55af0638e",
+          "en": "<num> x Crystalline Growth",
+          "ru": ""
+        },
+        {
+          "id": "line-3cb9ac03af922440",
+          "en": "<num> x Volatile Light",
+          "ru": ""
+        },
+        {
+          "id": "line-125c273772a16501",
+          "en": "<num> x Shiny Pebble",
+          "ru": ""
+        },
+        {
+          "id": "line-f116bda0b073cd3f",
+          "en": "<num> x Pig's Skull",
+          "ru": ""
+        },
+        {
+          "id": "line-0f07a0e246bdde76",
+          "en": "<num> x Flameheart",
+          "ru": ""
+        },
+        {
+          "id": "line-8a2815044eef6536",
+          "en": "<num> x High Explosive",
+          "ru": ""
+        },
+        {
+          "id": "line-e1b4b79a9ad81056",
+          "en": "<num> x Discarded Junk",
+          "ru": ""
+        },
+        {
+          "id": "line-0e6ba65e31308428",
+          "en": "<num> x Retinal Barbs",
+          "ru": ""
+        },
+        {
+          "id": "line-78e110f10c707699",
+          "en": "<num> x Rigid Fin",
+          "ru": ""
+        },
+        {
+          "id": "line-32c9bc36d3403b8f",
+          "en": "<num> x Shrieker's Head",
+          "ru": ""
+        },
+        {
+          "id": "line-a5b0a91ce8ada7f1",
+          "en": "<num> x Plutonium Waste",
+          "ru": ""
+        },
+        {
+          "id": "line-e6bdfcd600331b0b",
+          "en": "<num> x Deceptively Large Bag",
+          "ru": ""
+        },
+        {
+          "id": "line-422cd09baacfce64",
+          "en": "<num> x Misprinted Newspaper",
+          "ru": ""
+        },
+        {
+          "id": "line-e634dedbbd6e19e6",
+          "en": "<num> x Cavitated Bone",
+          "ru": ""
+        },
+        {
+          "id": "line-44e2cb5162bea73f",
+          "en": "<num> x Thorny Shoot",
+          "ru": ""
+        },
+        {
+          "id": "line-cbdbb18095693c6b",
+          "en": "<num> x Peacock Plume",
+          "ru": ""
+        },
+        {
+          "id": "line-e3e68af61e35c9e7",
+          "en": "<num> x Plane of Nonexistence",
+          "ru": ""
+        },
+        {
+          "id": "line-7b775720b93b9f71",
+          "en": "<num> x Infected Mass",
+          "ru": ""
+        },
+        {
+          "id": "line-80ccd113457924b4",
+          "en": "<num> x Granite Maul",
+          "ru": ""
+        },
+        {
+          "id": "line-1b739e8a9b83517d",
+          "en": "<num> x Condensed Darkness",
+          "ru": ""
+        },
+        {
+          "id": "line-9acbdc6d47a4336e",
+          "en": "<num> x Preserved Relic",
+          "ru": ""
+        },
+        {
+          "id": "line-34a53e12648fbe34",
+          "en": "<num> x Defender's Stone",
+          "ru": ""
+        },
+        {
+          "id": "line-61ee22844ee821d7",
+          "en": "<num> x Nivlan Honey",
+          "ru": ""
+        },
+        {
+          "id": "line-2ede8cd3f91f406a",
+          "en": "<num> x Nivlan Honeycomb",
+          "ru": ""
+        },
+        {
+          "id": "line-8531540615630679",
+          "en": "<num> x Earthly Pebble",
+          "ru": ""
+        },
+        {
+          "id": "line-c4f4b050813f6057",
+          "en": "<num> x Corrupted Ichor",
+          "ru": "<num> x §#20AA20Сукровица Порчи"
+        },
+        {
+          "id": "line-1b2b58588a6e1894",
+          "en": "<num> x Toxic Spores",
+          "ru": ""
+        },
+        {
+          "id": "line-31018c9160c6c2a1",
+          "en": "<num> x Poisonous Spider Eye",
+          "ru": ""
+        },
+        {
+          "id": "line-f8bd210b403cd2e8",
+          "en": "<num> x Zombie Brain",
+          "ru": ""
+        },
+        {
+          "id": "line-d4683b6de1565a47",
+          "en": "<num> x Charred Bone",
+          "ru": ""
+        },
+        {
+          "id": "line-f34bf5a7bc9b7177",
+          "en": "<num> x Mooshroom Ear",
+          "ru": ""
+        },
+        {
+          "id": "line-e67ebbacacfcab08",
+          "en": "<num> x Pigman Meat",
+          "ru": ""
+        },
+        {
+          "id": "line-daed163d41290b4a",
+          "en": "<num> x Spider Fang",
+          "ru": ""
+        },
+        {
+          "id": "line-2d3afe1269a2de8d",
+          "en": "<num> x Sheep Hoof",
+          "ru": ""
+        },
+        {
+          "id": "line-f2885c534238cfe5",
+          "en": "<num> x Rotten Bone",
+          "ru": ""
+        },
+        {
+          "id": "line-36e082710a28d2df",
+          "en": "<num> x Brown Mushroom",
+          "ru": ""
+        },
+        {
+          "id": "line-80d10567a81a4673",
+          "en": "<num> x Digestible Fungi",
+          "ru": ""
+        },
+        {
+          "id": "line-893873e0487abc70",
+          "en": "<num> x Corrupt Chain",
+          "ru": ""
+        },
+        {
+          "id": "line-af2960ea92445fa6",
+          "en": "<num> x Dead Bee",
+          "ru": ""
+        },
+        {
+          "id": "line-cdc1ed0a1d9ea271",
+          "en": "<num> x Webbed Offshoot",
+          "ru": ""
+        },
+        {
+          "id": "line-6eddc98d12a7ad72",
+          "en": "<num> x Red Mushroom",
+          "ru": ""
+        },
+        {
+          "id": "line-29a7f50582fd4a23",
+          "en": "<num> x Bone Ash",
+          "ru": "<num> x §#20AA20Костяной пепел"
+        },
+        {
+          "id": "line-8f9e537450634eed",
+          "en": "<num> x Old Bone",
+          "ru": ""
+        }
+      ]
+    },
+    {
+      "id": "menu-89becfef48be97",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Green Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Green Beacon",
+        "ru": "Зелёный Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-89becfef48be97df",
+          "en": "Green Beacon",
+          "ru": "Зелёный Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: §f<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-b0537c95b78fa6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Orange Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Orange Beacon",
+        "ru": "Оранжевый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-b0537c95b78fa607",
+          "en": "Orange Beacon",
+          "ru": "Оранжевый Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: §f<num>§7"
+        },
+        {
+          "id": "line-9e610a21cf8800f2",
+          "en": "§7Choices: <num>",
+          "ru": "§7Варианты: §f<num>§7"
+        },
+        {
+          "id": "line-62714f22dcb4bdc2",
+          "en": "§7Decay: <num> Challenges",
+          "ru": "§7Ослабление: §f<num> Испытани<pl:е|я|й>"
+        }
+      ]
+    },
+    {
+      "id": "menu-9d4020d23a49f6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Red Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Red Beacon",
+        "ru": "Красный Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-9d4020d23a49f6a9",
+          "en": "Red Beacon",
+          "ru": "Красный Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: §f<num>§7"
+        },
+        {
+          "id": "line-a74882f457fae82a",
+          "en": "§7Active: <num> Challenges",
+          "ru": "§7Действует: §f<num> Испытани<pl:е|я|й>"
+        }
+      ]
+    },
+    {
+      "id": "menu-a33becc5f2b442",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Aqua Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Aqua Beacon",
+        "ru": "Бирюзовый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-a33becc5f2b44271",
+          "en": "Aqua Beacon",
+          "ru": "Бирюзовый Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: §f<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-37ee6c940fd874",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Crimson Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Crimson Beacon",
+        "ru": "Багровый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-37ee6c940fd874d7",
+          "en": "Crimson Beacon",
+          "ru": "Багровый Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: <num>"
+        }
+      ]
+    },
+    {
+      "id": "menu-a7ca31c01af595",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Pink Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Pink Beacon",
+        "ru": "Розовый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-a7ca31c01af59507",
+          "en": "Pink Beacon",
+          "ru": "Розовый Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: §f<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-d2213b7039ee54",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Dark Grey Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Dark Grey Beacon",
+        "ru": "Тёмно-Серый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-d2213b7039ee54ce",
+          "en": "Dark Grey Beacon",
+          "ru": "Тёмно-Серый Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: <num>"
+        }
+      ]
+    },
+    {
+      "id": "menu-b4b4e58ab14506",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "White Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "White Beacon",
+        "ru": "Белый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-b4b4e58ab14506b9",
+          "en": "White Beacon",
+          "ru": "Белый Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: <num>"
+        }
+      ]
+    },
+    {
+      "id": "menu-eba3a3a06375c6",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Rainbow Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Rainbow Beacon",
+        "ru": "Радужный Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-eba3a3a06375c61b",
+          "en": "Rainbow Beacon",
+          "ru": "Радужный Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: §f<num>§7"
+        },
+        {
+          "id": "line-a74882f457fae82a",
+          "en": "§7Active: <num> Challenges",
+          "ru": "§7Действует: §f<num> Испытани<pl:е|я|й>"
+        }
+      ]
+    },
+    {
+      "id": "menu-8793bad239db4f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Purple Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Purple Beacon",
+        "ru": "Фиолетовый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-8793bad239db4fbd",
+          "en": "Purple Beacon",
+          "ru": "Фиолетовый Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: §f<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-81e2044336a36f",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Blue Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Blue Beacon",
+        "ru": "Синий Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-81e2044336a36f8d",
+          "en": "Blue Beacon",
+          "ru": "Синий Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: <num>"
+        }
+      ]
+    },
+    {
+      "id": "menu-0d658d81137300",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Yellow Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Yellow Beacon",
+        "ru": "Жёлтый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: §f<num>§7"
+        }
+      ]
+    },
+    {
+      "id": "menu-dd80734b6e2777",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Grey Beacon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Grey Beacon",
+        "ru": "Серый Маяк"
+      },
+      "lines": [
+        {
+          "id": "line-dd80734b6e27774f",
+          "en": "Grey Beacon",
+          "ru": "Серый Маяк"
+        },
+        {
+          "id": "line-1f926d57dec0dba3",
+          "en": "§7Offered: <num>",
+          "ru": "§7Предложено: §f<num>§7"
+        },
+        {
+          "id": "line-969ae815a9919581",
+          "en": "§7Chosen: <num>",
+          "ru": "§7Выбрано: <num>"
+        }
+      ]
+    },
+    {
+      "id": "menu-2fe15f1b901f28",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "§7The Cursed One [Quest]",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Cursed One [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0856665c2e61852b",
+          "en": "<em>- <num> XP",
+          "ru": "<em>- §7<num>§7 Опыта"
+        }
+      ]
+    },
+    {
+      "id": "remaining-guild-season-status-32",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Season 32 Status",
+        "anchors": [
+          "at the end of a season will"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lSeason 32 Status",
+        "ru": "§d§lСтатус Сезона 32"
+      },
+      "lines": [
+        {
+          "id": "control",
+          "en": "§dEach territory you control",
+          "ru": "§dКаждая территория под вашим"
+        },
+        {
+          "id": "end",
+          "en": "§dat the end of a season will ",
+          "ru": "§dконтролем в конце сезона"
+        }
+      ]
+    },
+    {
+      "id": "remaining-guild-season-status-33",
+      "match": {
+        "screen": "",
+        "itemId": "",
+        "title": "Season 33 Status",
+        "anchors": [
+          "at the end of a season will"
+        ],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lSeason 33 Status",
+        "ru": "§d§lСтатус Сезона 33"
+      },
+      "lines": [
+        {
+          "id": "control",
+          "en": "§dEach territory you control",
+          "ru": "§dКаждая территория под вашим"
+        },
+        {
+          "id": "end",
+          "en": "§dat the end of a season will ",
+          "ru": "§dконтролем в конце сезона"
+        }
+      ]
+    },
+    {
+      "id": "item-description-ffbd0a0eebd77d",
+      "match": {
+        "title": "§7Leggings Glint",
+        "anchors": [
+          "§7Glints alters the visual of the"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-ffbd0a0eebd77d-title",
+        "en": "§7Leggings Glint",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-ffbd0a0eebd77d-0",
+          "en": "§7Glints alters the visual of the",
+          "ru": "§7Блеск меняет внешний вид"
+        },
+        {
+          "id": "item-description-ffbd0a0eebd77d-1",
+          "en": "§7current equipped gear at this slot",
+          "ru": "§7снаряжения в этой ячейке"
+        }
+      ]
+    },
+    {
+      "id": "item-description-df07a3c6ab420a",
+      "match": {
+        "title": "§7Red",
+        "anchors": [
+          "Adds a red tint to your gear."
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-df07a3c6ab420a-title",
+        "en": "§7Red",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-df07a3c6ab420a-0",
+          "en": "Adds a red tint to your gear.",
+          "ru": "Придаёт снаряжению красный оттенок."
+        }
+      ]
+    },
+    {
+      "id": "item-description-3738512c6fe079",
+      "match": {
+        "title": "§7Blue",
+        "anchors": [
+          "Adds a blue tint to your gear."
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-3738512c6fe079-title",
+        "en": "§7Blue",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-3738512c6fe079-0",
+          "en": "Adds a blue tint to your gear.",
+          "ru": "Придаёт снаряжению синий оттенок."
+        }
+      ]
+    },
+    {
+      "id": "item-description-488084fd0714df",
+      "match": {
+        "title": "§7Cyan",
+        "anchors": [
+          "Adds a cyan tint to your gear."
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-488084fd0714df-title",
+        "en": "§7Cyan",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-488084fd0714df-0",
+          "en": "Adds a cyan tint to your gear.",
+          "ru": "Придаёт снаряжению бирюзовый оттенок."
+        }
+      ]
+    },
+    {
+      "id": "item-description-e984bfc42860cc",
+      "match": {
+        "title": "§7Pink",
+        "anchors": [
+          "Adds a pink tint to your gear."
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-e984bfc42860cc-title",
+        "en": "§7Pink",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-e984bfc42860cc-0",
+          "en": "Adds a pink tint to your gear.",
+          "ru": "Придаёт снаряжению розовый оттенок."
+        }
+      ]
+    },
+    {
+      "id": "item-description-7a05b1b67e6300",
+      "match": {
+        "title": "§7Purple",
+        "anchors": [
+          "Adds a purple tint to your"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-7a05b1b67e6300-title",
+        "en": "§7Purple",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-7a05b1b67e6300-0",
+          "en": "Adds a purple tint to your",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "item-description-7a05b1b67e6300-1",
+          "en": "gear.",
+          "ru": "фиолетовый оттенок."
+        }
+      ]
+    },
+    {
+      "id": "item-description-33dfabc1133590",
+      "match": {
+        "title": "§7Orange",
+        "anchors": [
+          "Adds a orange tint to your"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-33dfabc1133590-title",
+        "en": "§7Orange",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-33dfabc1133590-0",
+          "en": "Adds a orange tint to your",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "item-description-33dfabc1133590-1",
+          "en": "gear.",
+          "ru": "оранжевый оттенок."
+        }
+      ]
+    },
+    {
+      "id": "item-description-883dd2378b441c",
+      "match": {
+        "title": "§7Yellow",
+        "anchors": [
+          "Adds a yellow tint to your"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-883dd2378b441c-title",
+        "en": "§7Yellow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-883dd2378b441c-0",
+          "en": "Adds a yellow tint to your",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "item-description-883dd2378b441c-1",
+          "en": "gear.",
+          "ru": "жёлтый оттенок."
+        }
+      ]
+    },
+    {
+      "id": "item-description-fd676970940ba4",
+      "match": {
+        "title": "§7Chrome",
+        "anchors": [
+          "Adds a bright chrome shine to"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-fd676970940ba4-title",
+        "en": "§7Chrome",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-fd676970940ba4-0",
+          "en": "Adds a bright chrome shine to",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "item-description-fd676970940ba4-1",
+          "en": "your gear.",
+          "ru": "яркий хромовый блеск."
+        }
+      ]
+    },
+    {
+      "id": "item-description-6edf41e0a3c3a5",
+      "match": {
+        "title": "§7Reflection",
+        "anchors": [
+          "Adds a glossy reflection to"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-6edf41e0a3c3a5-title",
+        "en": "§7Reflection",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-6edf41e0a3c3a5-0",
+          "en": "Adds a glossy reflection to",
+          "ru": "Добавляет снаряжению"
+        },
+        {
+          "id": "item-description-6edf41e0a3c3a5-1",
+          "en": "your gear.",
+          "ru": "глянцевые отражения."
+        }
+      ]
+    },
+    {
+      "id": "item-description-d7b1f735cad458",
+      "match": {
+        "title": "§7Rainbow",
+        "anchors": [
+          "Gives your gear a shifting"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-d7b1f735cad458-title",
+        "en": "§7Rainbow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-d7b1f735cad458-0",
+          "en": "Gives your gear a shifting",
+          "ru": "Снаряжение переливается"
+        },
+        {
+          "id": "item-description-d7b1f735cad458-1",
+          "en": "rainbow glow.",
+          "ru": "цветами радуги."
+        }
+      ]
+    },
+    {
+      "id": "item-description-f2cf264c61f2fa",
+      "match": {
+        "title": "§7Glitch",
+        "anchors": [
+          "Makes your gear flicker with"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-f2cf264c61f2fa-title",
+        "en": "§7Glitch",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-f2cf264c61f2fa-0",
+          "en": "Makes your gear flicker with",
+          "ru": "Снаряжение мерцает,"
+        },
+        {
+          "id": "item-description-f2cf264c61f2fa-1",
+          "en": "a glitchy effect.",
+          "ru": "словно с графическими сбоями."
+        }
+      ]
+    },
+    {
+      "id": "item-description-96084d43918bf4",
+      "match": {
+        "title": "§7Invert",
+        "anchors": [
+          "Inverts your item's colours"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-96084d43918bf4-title",
+        "en": "§7Invert",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-96084d43918bf4-0",
+          "en": "Inverts your item's colours",
+          "ru": "Инвертирует цвета предмета,"
+        },
+        {
+          "id": "item-description-96084d43918bf4-1",
+          "en": "for a bold new look.",
+          "ru": "придавая ему необычный вид."
+        }
+      ]
+    },
+    {
+      "id": "item-description-a10d5f305aa0dc",
+      "match": {
+        "title": "§7Aurora",
+        "anchors": [
+          "Adds a soft, flowing aurora"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-a10d5f305aa0dc-title",
+        "en": "§7Aurora",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-a10d5f305aa0dc-0",
+          "en": "Adds a soft, flowing aurora",
+          "ru": "Снаряжение мягко переливается,"
+        },
+        {
+          "id": "item-description-a10d5f305aa0dc-1",
+          "en": "effect to your gear.",
+          "ru": "словно северное сияние."
+        }
+      ]
+    },
+    {
+      "id": "item-description-eba845937471e3",
+      "match": {
+        "title": "§7Ripple",
+        "anchors": [
+          "Makes your gear shimmer with"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-eba845937471e3-title",
+        "en": "§7Ripple",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-eba845937471e3-0",
+          "en": "Makes your gear shimmer with",
+          "ru": "Снаряжение мерцает"
+        },
+        {
+          "id": "item-description-eba845937471e3-1",
+          "en": "rippling light.",
+          "ru": "волнами света."
+        }
+      ]
+    },
+    {
+      "id": "item-description-e71c6f24584d99",
+      "match": {
+        "title": "§7Distort",
+        "anchors": [
+          "Warps your gear with a"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-e71c6f24584d99-title",
+        "en": "§7Distort",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-e71c6f24584d99-0",
+          "en": "Warps your gear with a",
+          "ru": "Вид снаряжения искажается,"
+        },
+        {
+          "id": "item-description-e71c6f24584d99-1",
+          "en": "twisting distortion effect.",
+          "ru": "словно оно скручивается."
+        }
+      ]
+    },
+    {
+      "id": "item-description-2d7148bb451801",
+      "match": {
+        "title": "1x Witch Brew Effect",
+        "anchors": [
+          "Give your character a Witch"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-2d7148bb451801-title",
+        "en": "1x Witch Brew Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-2d7148bb451801-0",
+          "en": "Give your character a Witch",
+          "ru": "Добавляет персонажу эффект"
+        },
+        {
+          "id": "item-description-2d7148bb451801-1",
+          "en": "Brew effect",
+          "ru": "Witch Brew."
+        }
+      ]
+    },
+    {
+      "id": "item-description-9d17f13e9917c5",
+      "match": {
+        "title": "1x Zombie Disguise",
+        "anchors": [
+          "Disguise yourself as a Zombie"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-9d17f13e9917c5-title",
+        "en": "1x Zombie Disguise",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-9d17f13e9917c5-0",
+          "en": "Disguise yourself as a Zombie",
+          "ru": "Примите облик зомби."
+        }
+      ]
+    },
+    {
+      "id": "item-description-10c81cd153ab6f",
+      "match": {
+        "title": "1x Mule",
+        "anchors": [
+          "Disguise your horse as a mule"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-10c81cd153ab6f-title",
+        "en": "1x Mule",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-10c81cd153ab6f-0",
+          "en": "Disguise your horse as a mule",
+          "ru": "Придайте лошади облик мула."
+        },
+        {
+          "id": "item-description-10c81cd153ab6f-1",
+          "en": "This cosmetic is temporarily",
+          "ru": "Эта косметика временно"
+        },
+        {
+          "id": "item-description-10c81cd153ab6f-2",
+          "en": "disabled and will be",
+          "ru": "отключена и станет"
+        },
+        {
+          "id": "item-description-10c81cd153ab6f-3",
+          "en": "available at a later date.",
+          "ru": "доступна позже."
+        }
+      ]
+    },
+    {
+      "id": "item-description-9f8945032e13db",
+      "match": {
+        "title": "1x Knockout Emote",
+        "anchors": [
+          "Play the knockout emote to"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-9f8945032e13db-title",
+        "en": "1x Knockout Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-9f8945032e13db-0",
+          "en": "Play the knockout emote to",
+          "ru": "Включите эмоцию Knockout,"
+        },
+        {
+          "id": "item-description-9f8945032e13db-1",
+          "en": "see stars",
+          "ru": "чтобы увидеть звёзды."
+        }
+      ]
+    },
+    {
+      "id": "item-description-1d352bad049282",
+      "match": {
+        "title": "2x Liff Beetle Disguises",
+        "anchors": [
+          "Disguise yourself as a Liff"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-1d352bad049282-title",
+        "en": "2x Liff Beetle Disguises",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-1d352bad049282-0",
+          "en": "Disguise yourself as a Liff",
+          "ru": "Примите облик"
+        },
+        {
+          "id": "item-description-1d352bad049282-1",
+          "en": "Beetle",
+          "ru": "жука Liff."
+        }
+      ]
+    },
+    {
+      "id": "item-description-f4970b8a85e2ee",
+      "match": {
+        "title": "Bone Wings Effect",
+        "anchors": [
+          "Give your character a Bone"
+        ],
+        "priority": 0
+      },
+      "title": {
+        "id": "item-description-f4970b8a85e2ee-title",
+        "en": "Bone Wings Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-f4970b8a85e2ee-0",
+          "en": "Give your character a Bone",
+          "ru": "Добавляет персонажу эффект"
+        },
+        {
+          "id": "item-description-f4970b8a85e2ee-1",
+          "en": "Wings effect",
+          "ru": "Bone Wings."
+        }
+      ]
+    }
+  ]
+}

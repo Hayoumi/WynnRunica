@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-service-messages",
+  "scopes": [
+    {
+      "id": "service-8caf566b416ba6dc",
+      "match": {
+        "title": "§7Effects<em>",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Effects<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-8caf566b416ba6dc",
+          "en": "§7Effects<em>",
+          "ru": "Эффекты<em>"
+        },
+        {
+          "id": "service-7d6c13b6e31ae6d9",
+          "en": "§7Equip your Effects",
+          "ru": "§7Выберите свои эффекты"
+        },
+        {
+          "id": "line-c82bb3ceb08e5f7e",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-def5b1e7f8b79ecf",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "service-448daae7cb3e87d0",
+      "match": {
+        "title": "Sort Cosmetics",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "Sort Cosmetics",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-448daae7cb3e87d0",
+          "en": "Sort Cosmetics",
+          "ru": "Сортировка Косметики"
+        },
+        {
+          "id": "line-ae1e129850999e3b",
+          "en": "§6- Copies",
+          "ru": "§6- §rПо Количеству Копий"
+        },
+        {
+          "id": "line-1498bea8fb172cc9",
+          "en": "§6- Most Recent",
+          "ru": "§6- §rСначала Новые"
+        },
+        {
+          "id": "line-7ede8aacb96bc18b",
+          "en": "§6- Alphabetical",
+          "ru": "§6- §rПо Алфавиту"
+        },
+        {
+          "id": "line-3425252aa7fc734f",
+          "en": "§6- Collection",
+          "ru": "§6- §rПо Коллекции"
+        },
+        {
+          "id": "line-21f2174abd256033",
+          "en": "§6- Tier",
+          "ru": "§6- §rПо Редкости"
+        },
+        {
+          "id": "line-cratetier06102026",
+          "en": "§6- Crate Tier",
+          "ru": "§6- §rПо Уровню Ящика"
+        },
+        {
+          "id": "line-001",
+          "en": "§7<em> Left-Click to go forward",
+          "ru": "<em> ЛКМ - вперёд"
+        },
+        {
+          "id": "line-002",
+          "en": "§7<em> Right-Click to go backward",
+          "ru": "<em> ПКМ - назад"
+        },
+        {
+          "id": "service-47ff84bb427e6209",
+          "en": "§6- Pet Level",
+          "ru": "§6- §fУровень Питомца"
+        }
+      ]
+    },
+    {
+      "id": "service-402f470ccbf71f72",
+      "match": {
+        "title": "<em> Sponsored by Silverbull",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "<em> Sponsored by Silverbull",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-8310f54899ff1fec",
+          "en": "§8As a Silverbull Subscriber, this",
+          "ru": "§8Подписчикам Silverbull эта ячейка"
+        },
+        {
+          "id": "service-712ae808df845470",
+          "en": "§8slot is sponsored and filled by",
+          "ru": "§8предоставляется и заполняется"
+        },
+        {
+          "id": "service-142c461ce54767b8",
+          "en": "§8the Silverbull Trading Company",
+          "ru": "§8торговой компанией Silverbull"
+        }
+      ]
+    },
+    {
+      "id": "service-8a6930437a56a571",
+      "match": {
+        "title": "Ability Shard",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "Ability Shard",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7§7Use this to reset your",
+          "ru": "§7Используется в городе для"
+        },
+        {
+          "id": "line-002",
+          "en": "§7§fAbility Tree §7while in a town.",
+          "ru": "§7сброса §fДерева способностей§7."
+        },
+        {
+          "id": "line-003",
+          "en": "§7§a✔ §7§7Quest Req: §fRecover the Past§7 [Lv. <num>]",
+          "ru": "§7§a✔ §7Треб. Квест: §fВозвращение Прошлого§7 [Ур. <num>]"
+        },
+        {
+          "id": "service-8c7ecab4d1be23eb",
+          "en": "§7A shard is already",
+          "ru": "§7В этой ячейке уже"
+        },
+        {
+          "id": "service-c0cfa55b7b78aab1",
+          "en": "§7present on this socket",
+          "ru": "§7установлен осколок"
+        }
+      ]
+    },
+    {
+      "id": "service-3047af6455f9b6db",
+      "match": {
+        "title": "§7Auto Open",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Auto Open",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-47f2e789e07fdb31",
+          "en": "§7Automatically opens this menu when",
+          "ru": "§7Автоматически открывает это меню"
+        },
+        {
+          "id": "service-267cb63b2b778795",
+          "en": "§7switching characters, as long as",
+          "ru": "§7при смене персонажа, если вы уже"
+        },
+        {
+          "id": "service-cf087c9553994f59",
+          "en": "§7you've entered a world at least once.",
+          "ru": "§7хотя бы раз вошли в игровой мир."
+        },
+        {
+          "id": "service-8fa76ec2383c626f",
+          "en": "§8- Enabled",
+          "ru": "- Включено"
+        },
+        {
+          "id": "service-cc4e5060a4b9ca38",
+          "en": "§e- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "service-e75135050a7f7e56",
+          "en": "§e- Enabled",
+          "ru": "- Включено"
+        },
+        {
+          "id": "service-8594041ecfc592d2",
+          "en": "§8- Disabled",
+          "ru": "- Выключено"
+        }
+      ]
+    },
+    {
+      "id": "service-bad8fa542f7f4295",
+      "match": {
+        "title": "Rune of Acceleration",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "Rune of Acceleration",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-c163d4035fb757ab",
+          "en": "§7§7Grants §fSpeed I §7for §f<num> minutes§7.",
+          "ru": "§7Даёт §fСкорость I §7на §f<num> мин.§7."
+        },
+        {
+          "id": "service-a581c449535eae64",
+          "en": "§7§7The §fspeed §7bonus will start at its",
+          "ru": "§7Бонус §fскорости §7начинается с"
+        },
+        {
+          "id": "service-f5c380b3d568bad0",
+          "en": "§7§7lowest value, and will increase",
+          "ru": "§7минимального значения и растёт"
+        },
+        {
+          "id": "service-af1a0b8738ea4827",
+          "en": "§7§7over the effect's duration.",
+          "ru": "§7в течение действия эффекта."
+        },
+        {
+          "id": "service-6f633edf23d6a96b",
+          "en": "§7§7This item's effects will be §fhalved",
+          "ru": "§7Эффекты этого предмета §fвдвое слабее"
+        },
+        {
+          "id": "service-0f248f8f64e343a5",
+          "en": "§7§7outside of Festival of the Bonfire§7.",
+          "ru": "§7вне §#FE7A03Фестиваля Костра§7."
+        },
+        {
+          "id": "service-7691038096d6e286",
+          "en": "§7§c<num>% §7to §a<num>% §7Walk Speed",
+          "ru": "§c<num>% §7до §a<num>% §7Скорости Передвижения"
+        },
+        {
+          "id": "service-79004606fac4be68",
+          "en": "§7Rare Mobility Trinket",
+          "ru": "§dРедкий Аксессуар Подвижности"
+        },
+        {
+          "id": "service-3cf21ff2c0f60b02",
+          "en": "§7Festival of the Bonfire",
+          "ru": "§#FE7A03Фестиваль Костра"
+        },
+        {
+          "id": "service-fd1be33afe64ece7",
+          "en": "§7§8Ignite your veins with blazing speed,",
+          "ru": "§8Зажгите свои вены огненной скоростью,"
+        },
+        {
+          "id": "service-a07ce7c45fa685c7",
+          "en": "§7§8run until you can't run longer.",
+          "ru": "§8бегите, пока ещё хватает сил."
+        }
+      ]
+    },
+    {
+      "id": "service-f1d44bc722689356",
+      "match": {
+        "title": "Rubber Duck",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "Rubber Duck",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-ab5c2548335fdf36",
+          "en": "§7Effect:",
+          "ru": "§4Эффект:"
+        },
+        {
+          "id": "service-83da58f2826f5d72",
+          "en": "§7A plushie of a Rubber Duck.",
+          "ru": "§7Мягкая игрушка §fRubber Duck§7."
+        },
+        {
+          "id": "service-fd74f18d7b95a15a",
+          "en": "§7If used while active, resets the",
+          "ru": "§7Повторное использование обновляет"
+        },
+        {
+          "id": "service-abf215fb81ccc375",
+          "en": "§7duration, and moves the plushie.",
+          "ru": "§7длительность и перемещает игрушку."
+        },
+        {
+          "id": "service-1db6c894949b0cf2",
+          "en": "§7Legendary Vanity Trinket",
+          "ru": "§bЛегендарный Декоративный Аксессуар"
+        },
+        {
+          "id": "service-4f793ed5b2672757",
+          "en": "§7A squeaky rubber duck, colored with a",
+          "ru": "§8Пищащая резиновая уточка, окрашенная"
+        },
+        {
+          "id": "service-e5dce22a276b545b",
+          "en": "§7vibrant yellow paint. It's one of the few",
+          "ru": "§8в яркий жёлтый цвет. Один из немногих"
+        },
+        {
+          "id": "service-52a24f0b2e965f15",
+          "en": "§7bright objects in a place like Timasca.",
+          "ru": "§8ярких предметов в таком месте, как Тимаска."
+        }
+      ]
+    },
+    {
+      "id": "service-688eeeb11d52f243",
+      "match": {
+        "title": "§8Emblem of the Spirits",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "§8Emblem of the Spirits",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-39dde6375d0ca0ba",
+          "en": "§8§o\"As time moves on, those who once",
+          "ru": "§8§o\"С течением времени те, кто когда-то"
+        },
+        {
+          "id": "service-c699007fbc3291c8",
+          "en": "§8§ofelt tied to this land drift from",
+          "ru": "§8§oчувствовал связь с этой землёй,"
+        },
+        {
+          "id": "service-cba998a24c23c943",
+          "en": "§8§oit. It's only natural, after all.",
+          "ru": "§8§oотдаляются от неё. Это естественно."
+        },
+        {
+          "id": "service-18d929c9aa3c4e4a",
+          "en": "§8§oOne can't live forever.\"",
+          "ru": "§8§oНикто не живёт вечно.\""
+        },
+        {
+          "id": "service-91ed331ae4f33cbb",
+          "en": "§8Thank you for participating in",
+          "ru": "§8Спасибо за участие в"
+        },
+        {
+          "id": "service-3b9212f6b1268193",
+          "en": "§8the <num> Festival of the Spirits!",
+          "ru": "§8Фестивале Духов <num> года!"
+        }
+      ]
+    },
+    {
+      "id": "service-b187480ef699f16b",
+      "match": {
+        "title": "Guiding Flare",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "Guiding Flare",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-3782fd91015470c7",
+          "en": "§7Launches a burning flare",
+          "ru": "§7Запускает §fгорящую ракету"
+        },
+        {
+          "id": "service-8ba5a7bfa8daebcd",
+          "en": "§7into the sky, which can be",
+          "ru": "§7в небо, где её можно"
+        },
+        {
+          "id": "service-82c2835aafdefc02",
+          "en": "§7seen from a distance.",
+          "ru": "§7видно издалека."
+        },
+        {
+          "id": "service-00326b429059bfdf",
+          "en": "§7Rare Vanity Trinket",
+          "ru": "§dРедкий Декоративный Аксессуар"
+        },
+        {
+          "id": "service-3cf21ff2c0f60b02",
+          "en": "§7Festival of the Bonfire",
+          "ru": "§#FE7A03Фестиваль Костра"
+        },
+        {
+          "id": "service-4dca249727f957d2",
+          "en": "§7When in need, the best course",
+          "ru": "§8В трудную минуту лучше всего"
+        },
+        {
+          "id": "service-a653523ec4b93e6a",
+          "en": "§7of action is to call for aid.",
+          "ru": "§8позвать на помощь."
+        }
+      ]
+    },
+    {
+      "id": "service-854e62d551798723",
+      "match": {
+        "title": "§eChunk of Scrap",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "§eChunk of Scrap",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-f164c64bcb5b2440",
+          "en": "§7Use this item to continue your",
+          "ru": "§7Используйте этот предмет, чтобы"
+        },
+        {
+          "id": "service-2d5a83fa81dce730",
+          "en": "§7progress in the §rFallen Factory",
+          "ru": "§7продолжить прохождение §5Fallen Factory"
+        }
+      ]
+    },
+    {
+      "id": "service-dfe88d0178da920a",
+      "match": {
+        "title": "Hearthflame Memory",
+        "anchors": [],
+        "priority": 4700
+      },
+      "title": {
+        "id": "title",
+        "en": "Hearthflame Memory",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "service-e43518d8a6721a23",
+          "en": "§7§7Summons a floating §fhearthflame",
+          "ru": "§7Призывает парящий §fфонарь"
+        },
+        {
+          "id": "service-6619533410fd1c88",
+          "en": "§7§flantern §7to light the way forward.",
+          "ru": "§fдомашнего огня§7, освещающий путь."
+        },
+        {
+          "id": "service-1db6c894949b0cf2",
+          "en": "§7Legendary Vanity Trinket",
+          "ru": "§bЛегендарный Декоративный Аксессуар"
+        },
+        {
+          "id": "service-3cf21ff2c0f60b02",
+          "en": "§7Festival of the Bonfire",
+          "ru": "§#FE7A03Фестиваль Костра"
+        },
+        {
+          "id": "service-441e05c8af07a64b",
+          "en": "§7§8§o\"I remember those carefree days, long",
+          "ru": "§8§o\"Помню те беззаботные дни, задолго"
+        },
+        {
+          "id": "service-54891ddffb210de1",
+          "en": "§7§8§obefore we lost it all. Lighting the bonfire",
+          "ru": "§8§oдо того, как мы всё потеряли. Разжигая"
+        },
+        {
+          "id": "service-f2395a110ce48a76",
+          "en": "§7§8§ooutside our humble home... It made me feel",
+          "ru": "§8§oкостёр у нашего скромного дома... Я верил,"
+        },
+        {
+          "id": "service-cddf4a7457f8e363",
+          "en": "§7§8§othat maybe, for once, all would be well.\"",
+          "ru": "§8§oчто, может быть, хоть раз всё будет хорошо.\""
+        }
+      ]
+    }
+  ]
+}

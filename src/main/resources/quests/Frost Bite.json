@@ -1,0 +1,495 @@
+{
+  "quest": "Frost Bite",
+  "level": 48,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "frost-bite",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Maybe we should get more destructive... The demolition expert, Rhudya, is further down the cave.",
+      "ru": "Может, попробуем что-нибудь помощнее... Рудья разбирается в подрывах. Найдёшь его дальше в пещере.",
+      "speaker": "Eppo",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "In those times there used to be a group of naturally gifted individuals called the Twains. They defended us all with elemental magic.",
+      "ru": "В те времена существовала группа людей с врождённым даром, которых называли Твейнами. Они защищали нас всех при помощи стихийной магии.",
+      "speaker": "Eppo",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Let's give it another try!",
+      "ru": "Давай попробуем ещё разок!",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Ready the drill, men!",
+      "ru": "Готовьте бур, ребята!",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Darn. The drill just won't start.",
+      "ru": "Чёрт. Бур никак не заводится.",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Hey, Guard! Do you know anything about Electromagic? Come up here to the drill, maybe you can take a look?",
+      "ru": "Эй, стражник! Ты что-нибудь смыслишь в электромагии? Поднимись сюда к буру, может, глянешь?",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Oh! Never mind, it lit up, back up!",
+      "ru": "О! Неважно, он заработал, отойди!",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "For the love of Bob... Why won't you just break?",
+      "ru": "Бобом заклинаю... Ну почему ты никак не расколешься?",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "This ice was created by Theorick, a Twain who defended this area many many years ago.",
+      "ru": "Этот лёд создал Теорик, Твейн, что защищал эти края много-много лет назад.",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "When the corruption got too much... He froze everything, including the people. Do you see them in there?",
+      "ru": "Когда Порча слишком разрослась... Он заморозил всё, включая людей. Видишь их там внутри?",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "We've tried desperately to get them out, but we've tried all the equipment we had, including this Corkian drill.",
+      "ru": "Мы отчаянно пытались их вытащить и перепробовали всё оборудование, что у нас было, включая этот бур из Коркуса.",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "It's a long shot, but worth a try. Would you be able to get it while I clear this space?",
+      "ru": "Шансов мало, но попытаться стоит. Не мог бы ты его раздобыть, пока я расчищаю это место?",
+      "speaker": "Эппо",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Whup! You're on private property, y'know! Oh, Eppo sent ya? That's fair enough.",
+      "ru": "Опа! Это частная собственность, между прочим! О, тебя Эппо прислал? Ну, тогда ладно.",
+      "speaker": "Рудья",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "You'll be needing this TNT then, make sure not to drop it though, whup!",
+      "ru": "Тогда тебе понадобится вот эта взрывчатка, только смотри не урони её, опа!",
+      "speaker": "Рудья",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Just travel through this cave and you'll be returned to Eppo easy-peasy!",
+      "ru": "Просто пройди через эту пещеру и окажешься у Эппо. Проще простого!",
+      "speaker": "Рудья",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Very nice, this might do the trick.",
+      "ru": "Очень неплохо, это может сработать.",
+      "speaker": "Эппо",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Back up, I'll ignite the explosive.",
+      "ru": "Отойди, я подожгу взрывчатку.",
+      "speaker": "Эппо",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Эппо",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "NOTHING? Not even a scratch. I don't understand Theoricks ice.. It's not real.",
+      "ru": "НИЧЕГО? Ни царапины. Не понимаю, что это за лёд у Теорика... Такого просто не бывает.",
+      "speaker": "Эппо",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "I'm not sure what else we can do then...",
+      "ru": "Тогда я не знаю, что ещё мы можем сделать...",
+      "speaker": "Эппо",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "HEY. Eppo, over here! Near the cave!",
+      "ru": "ЭЙ. Эппо, сюда! У пещеры!",
+      "speaker": "Рудья",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Did the explosive not work? I found this old mineshaft on the way back from the cave, it leads to an old lava cavern.",
+      "ru": "Взрывчатка не помогла? Я нашёл старую шахту на обратном пути из пещеры, она ведёт к старой лавовой пещере.",
+      "speaker": "Рудья",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Might be a long shot, but this lava looks different. Why not give it a try?",
+      "ru": "Шансов мало, но эта лава выглядит иначе. Почему бы не попробовать?",
+      "speaker": "Рудья",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You should return to Eppo with the lava after you've completed the puzzle.",
+      "ru": "Тебе стоит вернуться к Эппо с лавой после того, как решишь головоломку.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I don't understand how you can hold lava in a bucket.. But here we are.",
+      "ru": "Не понимаю, как можно носить лаву в ведре... Но у тебя ведь получилось.",
+      "speaker": "Эппо",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Truth is.. We're not retrieving these bodies for no reason.",
+      "ru": "По правде говоря... мы достаём эти тела не просто так.",
+      "speaker": "Эппо",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "We believe one of these people worked for Theorick, and has a key to his mansion",
+      "ru": "Мы полагаем, что один из этих людей работал на Теорика и носит при себе ключ от его особняка.",
+      "speaker": "Эппо",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "We in Nesaak think Theorick has a lot to answer for. We want to redistribute his wealth among those he hurt.",
+      "ru": "Мы в Несааке считаем, что Теорику есть за что ответить. Хотим раздать его богатства тем, кто от него пострадал.",
+      "speaker": "Эппо",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Right, I've dipped this stick in the magical lava. Just hold the rod and walk into the ice to melt it.",
+      "ru": "Так, я обмакнул эту палку в волшебную лаву. Просто держи её в руке и иди прямо в лёд, чтобы растопить его.",
+      "speaker": "Эппо",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Look for the corpse with a key, it might be above you. Good luck!",
+      "ru": "Ищи труп с ключом, он может быть над тобой. Удачи!",
+      "speaker": "Эппо",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Is that the right one? You got it? Brilliant! Now come back down.",
+      "ru": "Это тот самый? Достал? Великолепно! Теперь спускайся вниз.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Now you've obtained the key, you can enter Theoricks mansion",
+      "ru": "Теперь, когда ключ у тебя, ты можешь войти в особняк Теорика.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Lets travel to the mansion together. Here, lets take my horse.",
+      "ru": "Давай отправимся к особняку вместе. Вот, поедем на моей лошади.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "While we ride, let me explain a little more about what we're doing. Let's go.",
+      "ru": "Пока едем, позволь мне рассказать немного больше о том, что мы делаем. Поехали.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Many years before Bob was around, Wynn was in ruins due to the corruption war.",
+      "ru": "За много лет до появления Боба Винн лежал в руинах из-за войны с Порчей.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Theorick was one of those Twains. He harnessed unnaturally powerful ice based magic. He used it to protect the land surrounding the mansion.",
+      "ru": "Теорик был одним из тех Твейнов. Он владел неестественно мощной ледяной магией. Он использовал её, чтобы защищать земли вокруг особняка.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Theorick.. Wasn't like the other Twains. He wanted the people he protected to pay and feed him as way of thanks.",
+      "ru": "Теорик... был не таким, как другие Твейны. Он хотел, чтобы люди, которых он защищал, платили ему и кормили его в знак благодарности.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "After years, Theorick was rich while the people he protected lived in poverty and fear - not only of the monsters, but in fear of Theorick himself.",
+      "ru": "Спустя годы Теорик был богат, а люди, которых он защищал, жили в нищете и страхе - не только перед монстрами, но и перед самим Теориком.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "He punished those who disobeyed his curfews and would get angry if anyone tried to move away. The people felt trapped.",
+      "ru": "Он наказывал тех, кто нарушал его комендантский час, и приходил в ярость, если кто-то пытался уехать. Люди чувствовали себя в ловушке.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Eventually, just like the other Twains - Theorick fell to the corruption. Not before he had the last word.",
+      "ru": "В конце концов Теорик, как и другие Твейны, поддался Порче. Но успел сказать последнее слово.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "He froze the land entirely, killing almost everything and everyone left outside in it. Hundreds of lives were lost.",
+      "ru": "Он заморозил всю землю, погубив почти всё живое, что осталось снаружи. Погибли сотни людей.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "It turns out the ice slowed the spread of corruption across the land to almost a standstill. It's been this way ever since.",
+      "ru": "Оказалось, что лёд почти остановил распространение Порчи по этим землям. С тех пор ничего не изменилось.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Now that we can get in his mansion we hope to uncover the secrets of his ice magic so we may undo it, and share the wealth he hoarded from the people. Ah, we're here.",
+      "ru": "Теперь, когда мы можем попасть в его особняк, надеемся раскрыть тайны его ледяной магии и снять заклятие. А ещё вернуть людям богатство, которое он у них отнял. А, мы на месте.",
+      "speaker": "Эппо",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "This place looks frozen in time.. The grandure.. Well he did just take and take from everyone around him.",
+      "ru": "Это место будто застыло во времени... Какая роскошь... Ещё бы, он ведь только и делал, что обирал всех вокруг.",
+      "speaker": "Эппо",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "So, I'm not sure where to start, but I'm guessing he has some protection in place.",
+      "ru": "Итак, я не уверен, с чего начать, но, полагаю, у него тут есть какая-то защита.",
+      "speaker": "Эппо",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "This is unbelievable.. He was such a greedy- AAAAH.",
+      "ru": "Невероятно... Каким же он был жадным- АААА.",
+      "speaker": "Эппо",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "... I don't think we should insult him..",
+      "ru": "...По-моему, нам не стоит его оскорблять...",
+      "speaker": "Эппо",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Oof! Wasn't expecting that. That just proves everything I said about him. Punishing people who insult him.",
+      "ru": "Уф! Такого я не ожидал. Это лишь подтверждает всё, что я о нём говорил. Наказывает тех, кто его оскорбляет.",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Anyway, we should look around for some kind of secret entrance.",
+      "ru": "В любом случае, нам стоит поискать какой-нибудь тайный вход.",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Trust Theorick to booby trap his own house the paranoid frozen gro-",
+      "ru": "Ну конечно, Теорик утыкал ловушками собственный дом, мороженый параноик и старый ворчу-",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "That really isn't fun at all. I can't see a thing. Where are we now, a dead end?",
+      "ru": "Это совсем не весело. Я ничего не вижу. И где мы теперь, в тупике?",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Well we know that insults result in punishment. Maybe a compliment will make him happy?",
+      "ru": "Что ж, за оскорбления здесь наказывают. Может, похвала его порадует?",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Oh Theorick, strongest of all the Twains, you really are a hero.",
+      "ru": "О Теорик, сильнейший из всех Твейнов, ты воистину герой.",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Maybe n-",
+      "ru": "Может, не-",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Looks like we finally found his private quarters, look at that vault door.",
+      "ru": "Похоже, мы наконец нашли его личные покои, взгляни на эту дверь хранилища.",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "There must be a way to open it. Look around and see what you can find.",
+      "ru": "Должен быть способ её открыть. Осмотрись и посмотри, что найдёшь.",
+      "speaker": "Эппо",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "The water is freezing to ice, maybe it opens something?",
+      "ru": "Вода замерзает... Может, это что-то открывает?",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Grab a little for yourself, too, we wouldn't have been able to get here without you.",
+      "ru": "Прихвати немного и для себя, без тебя мы бы сюда не добрались.",
+      "speaker": "Эппо",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Wait, look at this. It seems to be a piece of Theoricks armour.",
+      "ru": "Постой, взгляни на это. Похоже, это часть доспеха Теорика.",
+      "speaker": "Эппо",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Surprised it even managed to fit over his fat head.",
+      "ru": "Удивительно, что он вообще налезал на его жирную башку.",
+      "speaker": "Эппо",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "New Quest Started: Frost Bite",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Морозный укус",
+      "speaker": "",
+      "stage": "Stage 9"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find Eppo at [-207, 37, -531]. The entrance to his cave can be found at [-198, 37, -520].",
+      "ru": "Найти Эппо [-207, 37, -531]. Вход в его пещеру находится в [-198, 37, -520].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Go deeper into the cave and speak to Rhudya.",
+      "ru": "Углубиться в пещеру и поговорить с Рудьей.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Return to Eppo with the tnt.",
+      "ru": "Вернуться к Эппо с динамитом.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Travel to the lava springs through the mineshaft.",
+      "ru": "Пройти через шахту к лавовым источникам.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Complete the puzzle and bring the lava back to Eppo.",
+      "ru": "Решить головоломку и принести лаву Эппо.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Melt the ice and find the Servant's corpse.",
+      "ru": "Растопить лёд и найти тело слуги.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Enter Theorick's Mansion.",
+      "ru": "Войти в особняк Теорика.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Find the riches in Theorick's mansion.",
+      "ru": "Найти сокровища в особняке Теорика.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find your way into the vault.",
+      "ru": "Найти путь в хранилище.",
+      "stage": "Stage 9"
+    }
+  ],
+  "choices": []
+}

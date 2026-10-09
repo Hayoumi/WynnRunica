@@ -1,0 +1,469 @@
+{
+  "quest": "The Canyon Guides",
+  "level": 84,
+  "difficulty": "Easy",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-canyon-guides",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Welcome to Bantisu Temple, wandering human. We aid travelers such as yourself in navigating the capricious canyon walls.",
+      "ru": "Добро пожаловать в храм Бантису, странствующий человек. Мы помогаем таким путникам, как ты, найти дорогу среди изменчивых скал каньона.",
+      "speaker": "Gana",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "We commune with the wind, and she gives us her sight. Wherever the breeze blows, we may see.",
+      "ru": "Мы говорим с ветром, и он позволяет нам видеть своими глазами. Всюду, где он веет, простирается наш взор.",
+      "speaker": "Gana",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "You appear to be quite strong, and well-kept by your wits. Might we ask you to aid us, then?",
+      "ru": "Ты, похоже, силён и не раз выручал себя смекалкой. Можно попросить тебя о помощи?",
+      "speaker": "Gana",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "You see, a lost man is staking out in a camp on the nearby cliff faces. It pains us to see him, but we are unable to reach him.",
+      "ru": "Понимаешь, неподалёку на скалах застрял потерявшийся человек. Нам больно смотреть на это, но добраться до него мы не можем.",
+      "speaker": "Gana",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "The canyon creatures there are ruthless, and we are not suited to physical combat. We would be able to reach him, but we would be stranded ourselves.",
+      "ru": "Существа каньона беспощадны, а мы не обучены сражаться. Мы смогли бы добраться до него, но тогда и сами оказались бы в ловушке.",
+      "speaker": "Gana",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "We ask you to guide Seluc to us. We shall send you to him, and you will bring him here. If you wish to help, you will be rewarded for your time.",
+      "ru": "Просим тебя привести к нам Селука. Мы отправим тебя к нему, а ты проводишь его сюда. Если согласишься помочь, мы вознаградим тебя за потраченное время.",
+      "speaker": "Gana",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Who's that? Am I finally being rescued!?",
+      "ru": "Кто там? Меня наконец-то спасают!?",
+      "speaker": "Seluc",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Wait, a human! Ugh, I shouldn't have gotten my hopes up. What did you do, take a day off cliff diving?",
+      "ru": "Постой, человек! Уф, зря я обнадёжился. Ты что, решил денёк отдохнуть от прыжков со скал?",
+      "speaker": "Seluc",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "If you really did intend to rescue me, you've assuredly wasted both our time.",
+      "ru": "Если ты и правда собирался меня спасать, то наверняка лишь зря потратил наше время.",
+      "speaker": "Seluc",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "If you really want to make yourself useful, get a Bantisu monk over here! You're good at that, right? Fetching things and people?",
+      "ru": "Если уж так хочешь быть полезным, притащи сюда монаха Бантису! У вас, людей, это же хорошо получается, нет? Бегать за вещами и людьми?",
+      "speaker": "Seluc",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "WHY YOU-",
+      "ru": "ДА ТЫ-",
+      "speaker": "Seluc",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "You're trying to kill me, aren't you?! What, can't take hearing the truth? Now my coat is drenched, and! AND!",
+      "ru": "Ты пытаешься меня убить, да?! Что, не выносишь правды? Теперь моё пальто промокло насквозь, и! И!",
+      "speaker": "Seluc",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "These Jinko are going to pounce any second now!! I haven't got a weapon, were you expecting me to rush off and get into a rumble?!",
+      "ru": "Эти Джинко сейчас на меня набросятся!! У меня вообще нет оружия, ты что, ждал, что я сам полезу в драку?!",
+      "speaker": "Seluc",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Kill them! Kill then now! And get me OUT OF HERE! You got me into this mess, now get me out!!",
+      "ru": "Убей их! Убей сейчас же! И ВЫТАЩИ МЕНЯ ОТСЮДА! Ты втянул меня в эту передрягу, тебе и вытаскивать!!",
+      "speaker": "Seluc",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Ugh, all that danger got me flustered. I'm sweating in this coat...and it's all soaked already. Let me just...",
+      "ru": "Уф, от всех этих опасностей я совсем переволновался. Весь вспотел в этом пальто... да оно и так насквозь мокрое. Дай-ка я...",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "...set that aside. Congratulations, human! I'm probably never getting that coat back, and it cost me a pretty sum. Thanks for nothing.",
+      "ru": "...отложу его. Поздравляю, человек! Я, наверное, больше не увижу это пальто, а оно стоило немало. Спасибо, удружил.",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "All this walking...I'm taking a break here. You forced me to jump off a cliff, I get to force you to slow down. It's only fair! Besides that...",
+      "ru": "Сколько можно идти... Я здесь отдохну. Ты заставил меня прыгнуть со скалы, теперь я заставлю тебя сбавить шаг. Всё справедливо! К тому же...",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "I only even came here just to see the view. At least that can't be ruined. Still, some vacation this turned out to be...",
+      "ru": "Я вообще пришёл сюда просто посмотреть на виды. Хоть это-то уже не испортить. Хотя отпуск, конечно, вышел тот ещё...",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Wait, what in the world- What's going on?!",
+      "ru": "Погоди, это ещё что за- Что происходит?!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "GAH! NOT AGAIN!!!",
+      "ru": "ГАХ! ТОЛЬКО НЕ СНОВА!!!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "NO ONE TELLS ME ANYTHING! The brochure didn't mention earthquakes, YOU didn't tell me either, but what was I expecting from a human anyways?!",
+      "ru": "МНЕ НИКТО НИЧЕГО НЕ ГОВОРИТ! В буклете не было ни слова о землетрясениях, ТЫ тоже не сказал, хотя чего ещё ждать от человека?!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "I'm not a carrot! You'd better get me out of h- ...wait, wait, those...",
+      "ru": "Я тебе не морковка! А ну быстро вытащи меня отсю- ...погоди, погоди, это что...",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "H-Hobgoblins. Hobgoblins HOBGOBLINS THERE'S HOBGOBLINS!! KILL THEM! AAAAH! AAH! AAAAAAH!",
+      "ru": "Х-хобгоблины. Хобгоблины ХОБГОБЛИНЫ ТУТ ХОБГОБЛИНЫ!! УБЕЙ ИХ! АААА! АА! АААААА!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Sweet baby bovine I just saw my life flash before my eyes. Ugh...now pull me up. I'm stuck. But easy on the goods, I'm NOT a carrot I'll remind you!",
+      "ru": "Святые коровки, у меня вся жизнь перед глазами пронеслась. Уф... теперь вытащи меня. Я застрял. Только со мной поосторожнее: напоминаю, Я НЕ МОРКОВКА!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Great. I'm SO grateful to be covered in mud and hobgoblin blood, and to be lacking my coat, AND to be stuck with a human.",
+      "ru": "Отлично. Я ТАК благодарен за грязь и кровь хобгоблинов, которыми весь покрыт, за потерянное пальто И за компанию человека.",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Just get me out of here already. See, if an actual Bantisu monk had come down I'd probably be at home already, sipping tea by the fire!",
+      "ru": "Просто вытащи меня уже отсюда. Если бы за мной пришёл настоящий монах Бантису, я бы, наверное, уже сидел дома и пил чай у огня!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "I know you humans are reckless, but I'd have expected you to have SOME concern, since you supposedly wanted to rescue me.",
+      "ru": "Знаю, вы, люди, безрассудны, но я ожидал хоть НЕМНОГО заботы, раз уж ты якобы пришёл меня спасать.",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Ugh, my feet are killing me. Maybe this hike wouldn't be so bad if SOMEONE hadn't knocked me into the lake and made me lose my shoes!",
+      "ru": "Уф, ноги просто отваливаются. Может, идти было бы не так мучительно, если бы КТО-ТО не столкнул меня в озеро, где я потерял обувь!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "More earthquakes...? Wait-",
+      "ru": "Опять землетрясения...? Стой-",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "The ridge is collapsing!!",
+      "ru": "Гряда обрушивается!!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "RUN!",
+      "ru": "БЕГИ!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "...perfect. Just GREAT! The only available path to the temple, and now it's blocked off! Just my luck!!",
+      "ru": "...прекрасно. Просто ЗАМЕЧАТЕЛЬНО! Единственный путь к храму, и теперь он завален! Ну и везёт же мне!!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "...wait. You're reckless and willing to endanger your life, right? There's no way that I could possibly use them, but I see some ledges.",
+      "ru": "...постой. Ты ведь безрассуден и готов рисковать жизнью, да? Мне туда ни за что не забраться, но я вижу уступы.",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "See, just to the side of the rockslide? There's some ledges to jump around on.",
+      "ru": "Видишь, сбоку от завала? Там есть уступы, по которым можно пропрыгать.",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "...of course it's a ladder. I'm going to be feeling this climb for weeks...",
+      "ru": "...ну конечно, лестница. Я после этого подъёма ещё несколько недель буду приходить в себя...",
+      "speaker": "Seluc",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Huff...puff... Well...huff... Wait, there's...there's no way down to the other side! Huff...what a waste!!",
+      "ru": "Уф... фух... Ну... уф... Постой, тут... тут нет спуска на другую сторону! Фух... зря мы лезли!!",
+      "speaker": "Seluc",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Can you do ANYTHING right?! There's no way I'm jumping down there, you maniac!",
+      "ru": "Ты вообще МОЖЕШЬ хоть что-то сделать нормально?! Я туда прыгать не собираюсь, псих!",
+      "speaker": "Seluc",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "YOU-!",
+      "ru": "ТЫ-!",
+      "speaker": "Seluc",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "You...had better count yourself lucky I haven't broken any bones over this. Agh...but that doesn't mean I'm not aching all over!!",
+      "ru": "Считай... тебе повезло, что я ничего не сломал. Ах... но это не значит, что у меня не болит всё тело!!",
+      "speaker": "Seluc",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "When I said you were reckless, I was hoping that maybe you'd keep that side of yourself away from other people!!",
+      "ru": "Когда я назвал тебя безрассудным, я надеялся, что хотя бы других ты не будешь подвергать опасности!!",
+      "speaker": "Seluc",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "At least we're nearly at the temple now. Come on Seluc, silver linings, silver linings. You're nearly away from this freak...",
+      "ru": "Ну хоть до храма уже почти дошли. Давай, Селук, ищи хорошее, ищи хорошее. Ты почти отделался от этого психа...",
+      "speaker": "Seluc",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Okay, you know what? No. You've put me through QUITE a lot here, human, so you're going to do me a favor and I'm not going to move another step til it's done.",
+      "ru": "Так, знаешь что? Нет. Из-за тебя я здесь НЕМАЛО натерпелся, человек. Теперь окажешь мне услугу, и до тех пор я не сделаю ни шагу.",
+      "speaker": "Seluc",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "I paid two weeks wages for that coat you soaked. I'm not leaving here without it, and I'm way too tired to walk back down.",
+      "ru": "За это пальто, которое ты промочил, я отдал заработок за две недели. Без него я отсюда не уйду, а возвращаться самому я слишком устал.",
+      "speaker": "Seluc",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "So you're going back down to the bottom of the ridge, and you're going to get me my coat. It's the least you could do.",
+      "ru": "Так что спускайся к подножию гряды и принеси моё пальто. Это самое малое, что ты можешь сделать.",
+      "speaker": "Seluc",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "And be quick about it! I feel like these quakes are going to make the whole mountain collapse. That looks like it opened up a hole straight to the bottom!",
+      "ru": "И давай быстрее! У меня чувство, что эти толчки скоро обрушат всю гору. Вон там, похоже, вообще дыра прямо до самого низа открылась!",
+      "speaker": "Seluc",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Took you long enough, coat-fetcher! I'm practically frostbitten up here!",
+      "ru": "Долго же ты возился, носильщик пальто! Я тут уже почти обморозился!",
+      "speaker": "Seluc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "You see, I was just speaking to Gana about your dirt-poor imitation of their job! You ought to be ashamed- I had to get up here all on my own!",
+      "ru": "Я как раз рассказывал Гане о твоей убогой пародии на их работу! Тебе должно быть стыдно - мне пришлось самому сюда добираться!",
+      "speaker": "Seluc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "...hm. I will say, there are many lost around the canyon, Seluc- it may have been a long time before we were able to help you.",
+      "ru": "...хм. Скажу только, что в каньоне потерявшихся хватает, Селук. Возможно, до тебя мы бы добрались ещё очень нескоро.",
+      "speaker": "Gana",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Anyway! Give me that coat. The monks here are going to provide me some hospitality then guide me out of these wretched canyon walls.",
+      "ru": "Ладно! Давай моё пальто. Монахи меня приютят, а потом выведут из этого проклятого каньона.",
+      "speaker": "Seluc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "This is goodbye then, human, I won't be missing you. Shoo!",
+      "ru": "Значит, на этом прощаемся, человек. Скучать по тебе я не буду. Кыш!",
+      "speaker": "Seluc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...He did not really guide himself here. Did he.",
+      "ru": "...Он ведь не сам нашёл сюда дорогу. Правда?",
+      "speaker": "Gana",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "It was me who guided him.",
+      "ru": "Это я его сюда довёл.",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "...uh. ...dang it, why you gotta did that.",
+      "ru": "...эм. ...Да чтоб тебя, ну зачем ты это сказал.",
+      "speaker": "Seluc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Let this be a lesson to you, Seluc. You cannot lie to those who see with the wind. Now show your gratitude towards this kind human.",
+      "ru": "Пусть это станет тебе уроком, Селук. Нельзя лгать тем, кто видит глазами ветра. А теперь поблагодари этого доброго человека.",
+      "speaker": "Gana",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "He's being sincere.",
+      "ru": "Он искренен.",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "That's right! See, Gana? After all that, at least the human isn't a liar.",
+      "ru": "Вот именно! Видишь, Гана? После всех его выходок человек хотя бы не лжёт.",
+      "speaker": "Seluc",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "...Well, 'coat fetcher', getting this man his coat is still a fine deed. And for that, you shall be rewarded.",
+      "ru": "...Что ж, вернуть этому путнику пальто - тоже доброе дело. За это ты получишь награду, \"носильщик пальто\".",
+      "speaker": "Gana",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "As thanks, we will also grant you access to our Bantisu Air Boosters. Magical clouds of air found around the canyon. I hope they are of assistance to you.",
+      "ru": "В благодарность мы также дадим тебе доступ к воздушным ускорителям Бантису - магическим облакам воздуха по всему каньону. Надеюсь, они помогут тебе в пути.",
+      "speaker": "Gana",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "New Quest Started: The Canyon Guides",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Проводники каньона",
+      "speaker": "",
+      "stage": "Stage 7"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Gana at [426, 101, -4829].",
+      "ru": "Поговорить с Ганой [426, 101, -4829].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Seluc in his camp at [551, 52, -5032].",
+      "ru": "Найти Селука в его лагере [551, 52, -5032].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Escort Seluc back to Gana.",
+      "ru": "Проводить Селука обратно к Гане.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find a way to get Seluc past the blockage.",
+      "ru": "Найти способ провести Селука мимо преграды.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Escort Seluc back to Gana.",
+      "ru": "Проводить Селука обратно к Гане.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Retrieve the coat Seluc left behind at [486, 32, -4950].",
+      "ru": "Забрать пальто, оставленное Селуком [486, 32, -4950].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Talk to Gana and Seluc.",
+      "ru": "Поговорить с Ганой и Селуком.",
+      "stage": "Stage 7"
+    }
+  ],
+  "choices": []
+}

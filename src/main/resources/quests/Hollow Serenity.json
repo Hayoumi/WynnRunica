@@ -1,0 +1,3279 @@
+{
+  "quest": "Hollow Serenity",
+  "level": 73,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "hollow-serenity",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Eileen, Eileen... That girl never listens to me! Her own mother!",
+      "ru": "Эйлин, Эйлин... Эта девчонка меня вообще не слушает! Родную мать!",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Every day, I find books sticking out of the bookshelves! And each one of them has a letter colored in red...",
+      "ru": "Каждый день нахожу книги, торчащие из полок! И в каждой из них одна буква выделена красным...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "I can't comprehend her reasons for doing that... Can't she come up with something that's less of a nuisance for the maids?",
+      "ru": "Не понимаю, зачем она это делает... Неужели нельзя придумать что-нибудь, от чего у служанок будет меньше хлопот?",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "\"A Dying Light\" - Pawel Chewak",
+      "ru": "\"Умирающий свет\" - Павел Чевак",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "\"The Littlest Villager\" - Karea Tokkiel",
+      "ru": "\"Самый маленький житель\" - Кареа Токкиель",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "\"Dwarves vs. Doguns: The Final Flame\" - Daarin Thundershield",
+      "ru": "\"Дварфы против догунов: Последнее пламя\" - Даарин Громощит",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "\"The Elephelk And The Skyraider\" - Clifford Stein",
+      "ru": "\"Элефелк и небесный налётчик\" - Клиффорд Стайн",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "\"Morton Fears a Hoo\" - Bill Rivest",
+      "ru": "\"Мортон боится Ху\" - Билл Ривест",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "D",
+      "ru": "D",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "R",
+      "ru": "R",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "V",
+      "ru": "V",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "A",
+      "ru": "A",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "One of the other letters.",
+      "ru": "Одна из других букв.",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Katarin's Log: Entry 51",
+      "ru": "Журнал Катарин: запись 51",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Garvan... he worries me more and more by the day. My sweet, beloved Garvan.",
+      "ru": "Гарван... с каждым днём он тревожит меня всё сильнее. Мой милый, любимый Гарван.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Over time... Well, I suppose love can corrupt. How else would I have...",
+      "ru": "Со временем... Что ж, полагаю, любовь может развратить. Иначе как бы я...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Fallen in love with Garvan and forsook my own marriage under the nose of my husband and my beloved daughter-",
+      "ru": "Влюбилась в Гарвана и нарушила супружескую клятву прямо под носом у мужа и моей любимой дочери-",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Besides, if he ever gets too bad, he lives just east of the manor. I can be there for him if I need to, right?",
+      "ru": "К тому же, если ему станет совсем плохо, он живёт прямо к востоку от поместья. Я ведь смогу быть рядом, если понадобится, да?",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "...",
+      "ru": "...",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Do not trust that man.",
+      "ru": "Не доверяй этому человеку.",
+      "speaker": "???",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Hello soldier! Welcome to this... hick village. I presume the neighbor's kid has been stealing apples again, hmm?",
+      "ru": "Привет, солдат! Добро пожаловать в эту... деревенскую дыру. Полагаю, соседский пацан опять яблоки тырил, а?",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Oh, Ann... Your voice is so delicate, so soothing that- Ah, soldier! Are you here for something... or someone?",
+      "ru": "О, Энн... Твой голос такой нежный, такой успокаивающий, что- А, солдат! Ты здесь за чем-то... или за кем-то?",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "What do you need?",
+      "ru": "Что тебе нужно?",
+      "speaker": "Ann & Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Goodbye.",
+      "ru": "Пока.",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Who are you?",
+      "ru": "Кто вы?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "My name is Ann!",
+      "ru": "Меня зовут Энн!",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "I'm Qunit.",
+      "ru": "Я Кунит.",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "We're the best couple in the entire forest! Nobody can match our love!",
+      "ru": "Мы лучшая пара во всём лесу! Нашу любовь никому не переплюнуть!",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Do you have someone special to you like we are, human? A handsome little man? Or a pretty little woman? Or... neither? We won't judge.",
+      "ru": "А у тебя есть кто-то особенный, человек? Красивый паренёк? Или милая девушка? Или... ни то, ни другое? Мы не осуждаем.",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Are you married?",
+      "ru": "Вы женаты?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Absolutely we're married! Everyone finds it very hard to believe, but I don't blame them! It's a tough would... we... live in, yes!",
+      "ru": "Конечно, женаты! Всем в это почему-то сложно поверить, но я их не виню! Непростой мир... в котором мы... живём, да!",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Four years it has been, since we kissed under the starry sky amidst the blossoming fields near Aldorei. I can still see it in my dreams...",
+      "ru": "Прошло уже четыре года с тех пор, как мы поцеловались под звёздным небом среди цветущих полей у Альдорея. Я до сих пор вижу это во снах...",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Yeah, what Qunit said! We've been married for 4 years! And soon that number is gonna go up to infinity!",
+      "ru": "Да, как Кунит сказал! Мы женаты уже 4 года! И скоро эта цифра вырастет до бесконечности!",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Why do you live in this town?",
+      "ru": "Почему вы живёте в этом городке?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Be quiet.",
+      "ru": "Замолчи.",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Oh! Sorry about Qunit, he doesn't like thinking about our... circumstances.",
+      "ru": "Ой! Извини за Кунита, он не любит думать о наших... обстоятельствах.",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "We're in heavy debt to the government. We can't afford to live anywhere else.",
+      "ru": "Мы по уши в долгах перед правительством. Жить где-то ещё нам не по карману.",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "This forest is also safe from their prying eyes, which has inarguably caused certain... opinions to fester here...",
+      "ru": "Этот лес ещё и укрыт от их любопытных глаз. Без сомнения, именно поэтому здесь укоренились некоторые... взгляды...",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Yeah, yeah! It doesn't matter why we're here, soldier! Haha! We're here, and we love each other! That's all that matters. Yes.",
+      "ru": "Да-да! Неважно, почему мы здесь, солдат! Ха-ха! Мы тут, и мы любим друг друга! Вот что важно. Да.",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Have you heard of any rumors lately?",
+      "ru": "Слышали какие-нибудь слухи в последнее время?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Yes, actually. There's something dark to the north. There are parasites in it. It's dangerous.",
+      "ru": "Да, вообще-то. На севере есть что-то тёмное. Внутри паразиты. Это опасно.",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "O-oh! Don't worry about what Qunit's saying. He's been having this recurring dream of a big worm creature laying dark eggs inside of a weird cave. He won't let it go, either!",
+      "ru": "О-ой! Не обращай внимания на слова Кунита. Ему всё время снится один и тот же сон, будто огромный червь откладывает тёмные яйца в странной пещере. И он всё не может от него отвязаться!",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "It's not a fantasy, Ann. I've told you this.",
+      "ru": "Это не фантазия, Энн. Я уже говорил.",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Shh, honey... we'll talk about this later, not in front of the soldier... Who probably has much more important things to do, hah!",
+      "ru": "Тсс, милый... потом об этом поговорим, не при солдате... У него, наверное, дела поважнее, ха!",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Do you know anyone by the name of Garvan?",
+      "ru": "Вы знаете кого-нибудь по имени Гарван?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Nope.",
+      "ru": "Неа.",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "No.",
+      "ru": "Нет.",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "See? We're both on the same wavelength! Neither of us have met this person! We're... so in love, darling...",
+      "ru": "Видишь? Мы на одной волне! Никто из нас этого человека не знает! Мы... так любим друг друга, милый...",
+      "speaker": "Ann",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Yes...",
+      "ru": "Да...",
+      "speaker": "Qunit",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "An outsider? Here? We don't get many of you people often...",
+      "ru": "Чужак? Здесь? Таких, как ты, тут нечасто увидишь...",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "What do you want?",
+      "ru": "Чего хочешь?",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "The name's Aunoa. I'm a farmer. Not much else to say.",
+      "ru": "Меня зовут Ауноа. Я фермер. Больше и сказать нечего.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "I've got a kid, but he doesn't live here. His mother took him away to live in Cinfras a while back. Don't have any other family.",
+      "ru": "У меня есть ребёнок, но он тут не живёт. Его мать увезла его в Синфрас некоторое время назад. Больше семьи у меня нет.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "This village is the only family I have.",
+      "ru": "Эта деревня - единственная семья, что у меня осталась.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "What do you think about this village?",
+      "ru": "Что ты думаешь об этой деревне?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "It's my home. The people I know and trust live here. It's a dump, but it's still my damn home.",
+      "ru": "Это мой дом. Здесь живут люди, которых я знаю и которым доверяю. Дыра дырой, но это всё равно мой чёртов дом.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Wish I could leave, though. This forest is awful. The crops are in horrible condition. Government doesn't give a damn about us either.",
+      "ru": "Хотел бы я отсюда выбраться. Лес ужасный. Урожай в отвратительном состоянии. А правительству на нас вообще плевать.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Apparently the House of Talor has a massive crypt somewhere underneath its floors. Rich people used to be buried there.",
+      "ru": "Говорят, под домом Талор есть огромный склеп. Раньше там хоронили богачей.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "There's probably some rare artifacts down there. Go take a look if you want, but everyone here has tried and failed to find it.",
+      "ru": "Наверняка там внизу лежат редкие артефакты. Хочешь - поищи, но тут уже все пытались и ничего не нашли.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Do you mind if I go inside of your house?",
+      "ru": "Ты не против, если я зайду к тебе в дом?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Yes, I do. But I probably can't stop you. Humans like you have a thing for invading privacy whenever you feel like it.",
+      "ru": "Против. Но вряд ли смогу тебя остановить. Люди вроде тебя любят влезать в чужую жизнь, когда им вздумается.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "And I'm too weak to stop you. You've got all of that strong gear on you, and I barely know a lick of magic. We're not on equal footing.",
+      "ru": "И я слишком слаб, чтобы тебя остановить. На тебе вон какое снаряжение, а я в магии почти ни черта не смыслю. Мы не в равных условиях.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "So... don't go in, but I won't stop you if you do anyways.",
+      "ru": "Так что... не заходи. Но если всё равно зайдёшь, я тебя не остановлю.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "No clue who that is. If someone like that lived here, then they're dead.",
+      "ru": "Без понятия, кто это. Если такой человек и жил здесь, то уже сдох.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Ask someone else about him if you want; I don't really care about this Garvan guy you're looking for.",
+      "ru": "Если хочешь, спрашивай о нём у других. Мне на этого Гарвана, которого ты ищешь, вообще плевать.",
+      "speaker": "Aunoa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Hey, you! Got any money? If you give me 5000 Liquified Emeralds, I'll give you a spot of dust from the underside of my floorboards!",
+      "ru": "Эй, ты! Деньги есть? Дашь мне 5000 жидких изумрудов - я отсыплю тебе щепотку пыли из-под своих половиц!",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "No? Awww... that sucks.",
+      "ru": "Нет? Ааа... облом.",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Whatcha need?",
+      "ru": "Чего надо?",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "I'm Bip! Yeah, Bip! The greatest guy to ever grace the entertainment industry!",
+      "ru": "Я Бип! Да, Бип! Величайший мужик, который вообще появлялся в индустрии развлечений!",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Oh... I was... Man, I miss my glory days! I used to be a big time man, you know? I was living it up in Cinfras, but now I have to live in this dump!",
+      "ru": "Ох... когда-то я... Чёрт, как же я скучаю по временам славы! Я был важной шишкой, знаешь? Жил на полную в Синфрасе, а теперь вынужден торчать в этой дыре!",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Damn this world! I blame them for all of this! Everything has been nothing but trouble after trouble. Now everyone can't see how much of an honest guy I am!",
+      "ru": "Да к чёрту этот мир! Это всё из-за них! Одни беды за другими. А теперь никто не видит, какой я честный мужик!",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Do you live here?",
+      "ru": "Ты тут живёшь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "B-BE QUIET! I don't like living here, so don't remind me!",
+      "ru": "З-ЗАТКНИСЬ! Мне не нравится тут жить, так что не напоминай!",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I don't even truly have my own place! I've gotta live with some crony who owns the house I'm staying in right now.",
+      "ru": "У меня даже нет своего угла по-настоящему! Приходится жить с каким-то типом, которому принадлежит дом, где я сейчас сижу.",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "One day, I'll get out of here, though! I'll be a big time man again, and I'll reclaim my status in society, just you wait!",
+      "ru": "Но однажды я отсюда выберусь! Снова стану важной шишкой и верну себе положение в обществе, вот увидишь!",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Rumors? Do I look like a gossiper to you??",
+      "ru": "Слухи? Я что, похож на сплетника??",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Well, human... I'm an honest entertainer, so don't worry. Good 'ole Bip will tell you a bit of something!",
+      "ru": "Ну, человек... я честный артист, так что не переживай. Старина Бип кое-что тебе расскажет!",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "So, apparently there's a WITCH... living in LEXDALE! OOOOOO, spooky...",
+      "ru": "Короче, говорят, в ЛЕКСДЕЙЛЕ живёт ВЕДЬМА! УУУУУ, жуть...",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "But the thing is, she's causing... the Decay... dun dun DUUUN!!! Uhh... I don't know, her house is decaying, or something.",
+      "ru": "Но фишка в том, что это она вызывает... Гниль... па-па-ПАААМ!!! Эм... не знаю, у неё дом гниёт или типа того.",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "So now, she's gonna die. The end! Didja like that story, human? Every relation to in-real life people was 100% intentional, 'cuz this is actually happening.",
+      "ru": "Так что теперь она умрёт. Конец! Ну как тебе история, человек? Все совпадения с реальными людьми тут на 100% намеренные, потому что это и правда происходит.",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Oh yeah! That's the name of the guy who FIRED ME! DAMMIT!!!-",
+      "ru": "А, точно! Так звали типа, который МЕНЯ УВОЛИЛ! ДА ЧТОБ ЕГО!!!-",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "...Oh, wait, no. Sorry human, I was thinking about Gavin. I don't know who this Garvan guy is! Ask someone else; I can't entertain you with that knowledge.",
+      "ru": "...Ой, стоп, нет. Извини, человек, я думал про Гэвина. Не знаю я этого Гарвана! Спроси кого-нибудь другого, рассказом про него я тебя не развлеку.",
+      "speaker": "Bip",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Hey.",
+      "ru": "Эй.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Welcome to my home.",
+      "ru": "Добро пожаловать в мой дом.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "What is it?",
+      "ru": "Чего?",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "I'm Runo. I live here.",
+      "ru": "Я Руно. Живу тут.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Not much else to say.",
+      "ru": "Больше и сказать нечего.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "How long have you lived in this village?",
+      "ru": "Как давно ты живёшь в этой деревне?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Since I was born.",
+      "ru": "С рождения.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "Yes, I grew up here.",
+      "ru": "Да, я тут вырос.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "The Forgery apparently has something hidden inside of it.",
+      "ru": "В Форджери, похоже, что-то спрятано.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "The chains have something to do with it.",
+      "ru": "Цепи как-то с этим связаны.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "I dunno what else to say.",
+      "ru": "Не знаю, что ещё сказать.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "You don't speak much...",
+      "ru": "Ты не особо разговорчив...",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "...You know what? Neither do you! You've said, like, 5 sentences in the last 3 minutes!",
+      "ru": "...Знаешь что? Ты тоже! Ты за последние три минуты сказал от силы пять предложений!",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "I just don't like talking, sheesh! My voice gets way more tense if I don't keep my words short. And it hurts.",
+      "ru": "Я просто не люблю много говорить, блин! Когда фразы длинные, приходится сильно напрягать голос. И это больно.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "What, are you offended? Well, I am, too! You'd be mad if some random human walked into your village and egged you into damaging your vocal chords!",
+      "ru": "Что, обиделся? Ну а я тоже! Ты бы тоже взбесился, если бы какой-то случайный человек припёрся в твою деревню и заставлял тебя убивать свои голосовые связки!",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "...You don't have a house?",
+      "ru": "...У тебя нет дома?",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "...You poor soul. Go buy one. Unless you're one of those guys who owns those flying land bits.",
+      "ru": "...Бедолага. Купи себе дом. Если, конечно, ты не из тех типов, у кого летающий кусок земли.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "No. Ask the old man.",
+      "ru": "Нет. Спроси старика.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "He knows most of the things here.",
+      "ru": "Он тут почти всё знает.",
+      "speaker": "Runo",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Huh, weird. Whatcha doing all the way out here, human? We don't see a lot of your kind often.",
+      "ru": "Хм, странно. Что ты вообще тут забыл, человек? Таких, как ты, тут редко увидишь.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Got anything you wanna say?",
+      "ru": "Есть что сказать?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "My name's Vera. I'm a farmer, but you probably already guessed that. That's all this damn village is good for anyways.",
+      "ru": "Меня зовут Вера. Я фермер, но ты, наверное, уже догадался. Эта чёртова деревня только на это и годится.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "I also deal with getting supplies from other towns! Pretty cool, huh?",
+      "ru": "Ещё я таскаю припасы из других городов! Круто, да?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "How long have you lived here?",
+      "ru": "Как давно ты тут живёшь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Uhh... all my life, actually! Too damn poor to go anywhere else, so I've just hunkered down here and decided to stick it out until I'm dead.",
+      "ru": "Эээ... всю жизнь, вообще-то! Я слишком бедная, чтобы куда-то уехать, так что просто засела тут и решила дотянуть до самой смерти.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "It's bad, living out here, but once you get used to it some of the edge is taken off. This village is all I've really known, and I owe it to everyone here to stick around, you know what I mean?",
+      "ru": "Жить тут тяжко, но со временем привыкаешь, и становится чуть полегче. Я ведь ничего, кроме этой деревни, толком не знаю. И я в долгу перед всеми здешними, поэтому не хочу их бросать, понимаешь?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Still... adventuring sounds like fun, sometimes... the furthest I've ever gone from here is halfway through Cinfras County.",
+      "ru": "Но всё равно... иногда мне кажется, что приключения - это здорово... дальше середины округа Синфраса я отсюда никогда не выбиралась.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "I bet you have some pretty good stories to tell from adventuring, ain't that right human?",
+      "ru": "Небось тебе есть что рассказать о своих приключениях, да, человек?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "You know the massive prison near Gelibord? Yeah, the Lexdale Penitentiary.",
+      "ru": "Знаешь огромную тюрьму возле Гелиборда? Да, Лексдейлскую тюрьму.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "So, apparently... the place is actually really corrupt. They arrest innocent people every other day, and they never come back out.",
+      "ru": "Так вот, говорят... это место на самом деле насквозь гнилое. Они хватают невинных чуть ли не через день, и обратно никто не выходит.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Gavel's government hasn't done anything about it, but everyone in the forest knows damn well something shady is going on there. I'd watch myself around that place if I were you!",
+      "ru": "Правительство Гавеля ничего с этим не делает, но все в лесу прекрасно знают: там творится что-то неладное. Я бы на твоём месте держала ухо востро!",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Say nothing.",
+      "ru": "Промолчать.",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "I recently escaped the Lexdale Pentitentiary.",
+      "ru": "Я недавно сбежал из Лексдейлской тюрьмы.",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "...Hold on, WHAT?",
+      "ru": "...Стоп, ЧТО?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Get to talking, human! You can't just leave off like that! Tell me, are the rumors about that place true?",
+      "ru": "Ну-ка рассказывай, человек! Нельзя вот так обрывать разговор! Скажи, слухи про это место правдивы?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Are the rumors true??",
+      "ru": "Так слухи правдивы??",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Yes, the prison is a slaughterhouse that harvests souls.",
+      "ru": "Да, эта тюрьма - бойня, где собирают души.",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "...You're serious? Y-you are?",
+      "ru": "...Ты серьёзно? П-правда?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Oh my word... and you saw it with your own eyes?",
+      "ru": "О боже... и ты видел это своими глазами?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Human... thanks for letting me know. You gotta tell more people about this, though! You could probably publish a book about it once you spread the word! You'd be rich!",
+      "ru": "Человек... спасибо, что рассказал. Тебе надо рассказать об этом другим! Когда молва разойдётся, ты даже книгу сможешь издать! Разбогатеешь!",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "No, the prison has done nothing wrong.",
+      "ru": "Нет, тюрьма ничего плохого не делает.",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "...Well, I'm not gonna believe you if you're saying it all forced like that, you know.",
+      "ru": "...Ну, если ты говоришь это так натужно, я тебе не поверю.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "I won't push it, though; it was probably just too awful to talk about, right? You don't have to go into detail if you don't wanna.",
+      "ru": "Но давить не буду. Наверное, это просто слишком ужасно, чтобы об этом говорить, да? Не обязан вдаваться в детали, если не хочешь.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Just stay well away from that place, and make sure nobody else goes near there, alright?",
+      "ru": "Просто держись подальше от того места и следи, чтобы никто больше туда не совался, ладно?",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Uh... no. That doesn't ring a single bell.",
+      "ru": "Эм... нет. Вообще ничего не говорит.",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "You could probably ask some other people, though! I'm only the youngest guy in the village, so the older people here would probably know who this Garvan guy is!",
+      "ru": "Но можешь спросить других! Я здесь моложе всех, так что старшие, наверное, знают, кто такой этот Гарван!",
+      "speaker": "Vera",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "S-Sheesh! You scared me, human! Don't you know that you shouldn't walk into people's houses out of nowhere?",
+      "ru": "О-ох! Ты меня напугал, человек! Разве не знаешь, что нельзя вот так просто вваливаться в чужие дома?",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "You know there are creepy guys out here who rob people like that? You should be more careful!",
+      "ru": "Ты в курсе, что тут водятся жуткие типы, которые именно так людей и грабят? Осторожнее надо быть!",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "How can I help you?",
+      "ru": "Чем помочь?",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "I'm nobody. No, I'm serious, I literally don't have a name. Parents just didn't bother to name me.",
+      "ru": "Я никто. Нет, серьёзно, у меня буквально нет имени. Родители просто не стали меня называть.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "Apparently that's considered sacrilegious around here, so I was taken away from them and I now work for Pastor Arwes.",
+      "ru": "Здесь это считается чуть ли не святотатством, так что меня у них забрали, и теперь я работаю на пастора Арвеса.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "What do the others call me? Uhh... Big-nosed girl. Yeah, I know, a bit on the nose–",
+      "ru": "Как меня зовут остальные? Эээ... Носатая девчонка. Да, знаю, не в бровь, а в нос-",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "...That sailed right over my head. But it's true, though! I have the biggest nose in the village.",
+      "ru": "...Шутка мимо меня пролетела. Но это правда! У меня самый большой нос во всей деревне.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "What should you call me? Hm... I don't know... maybe... Eua?",
+      "ru": "Как тебе меня называть? Хм... Не знаю... может... Эуа?",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "I know it won't matter anymore, but sure. Call me Eua. That sounds like a nice name.",
+      "ru": "Знаю, что скоро это уже ничего не будет значить, но ладно. Зови меня Эуа. Звучит мило.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "This one's not necessarily a rumor, but... have you ever heard of someone that they call the Wanderer?",
+      "ru": "Это даже не совсем слух, но... ты слышал о том, кого зовут Скиталец?",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "He's a weird guy who just... wanders. He's completely despondent, and doesn't really interact with anyone. Even a lot of the dangerous creatures around here just tend to ignore his presence. He's almost like... a ghost.",
+      "ru": "Это странный тип, который просто... бродит. Совсем убитый, почти ни с кем не общается. Даже многие опасные твари тут просто игнорируют его присутствие. Он почти как... призрак.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "You've probably seen him before in the forest. Hooded guy, doesn't talk at all? That's who they call the Wanderer.",
+      "ru": "Ты, наверное, уже видел его в лесу. Парень в капюшоне, вообще не разговаривает? Вот это и есть Скиталец.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Well, he doesn't really hurt anyone, so I don't really worry about him too much, but still... it's spooky...",
+      "ru": "Ну, он никому особо не вредит, так что я не слишком о нём переживаю, но всё равно... жутковато...",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "Have you ever been to the manor west of here?",
+      "ru": "Ты бывала в поместье к западу отсюда?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Wait, THAT manor? Nah. No one goes near there anymore, not since it was abandoned. What, do you not know what happened there?",
+      "ru": "Стоп, В ТО САМОЕ поместье? Не-а. С тех пор как его забросили, туда никто не суётся. Что, ты не знаешь, что там случилось?",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "It used to be owned by a family of nobles called the Faltachs. Big, important people in the forest, very rich.",
+      "ru": "Раньше оно принадлежало знатной семье Фалтач. Важные люди в лесу, очень богатые.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "Well... a lot of stuff happened with them. The mistress of the family supposedly went insane and killed her husband at some point, or something like that...",
+      "ru": "Ну... с ними много всякого случилось. Госпожа вроде как сошла с ума и в какой-то момент убила мужа, ну или что-то в этом духе...",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "There's a lot to unpack there, human. And you honestly shouldn't unpack it.",
+      "ru": "Там много всего, человек. И, если честно, тебе лучше в это не лезть.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Hmm... No, can't say I have. Whoever this person is, they certainly don't live here.",
+      "ru": "Хм... Нет, не могу сказать, что слышала. Кто бы это ни был, здесь он точно не живёт.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "And nah, it's not me, either, even if I don't have a real name. I wouldn't even be here if my parents had named me something manly like Garvan anyways.",
+      "ru": "И нет, это не я, даже если у меня нет настоящего имени. Да я бы тут вообще не оказалась, если бы родители назвали меня чем-то таким мужественным, как Гарван.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "Ask around, though! I'm sure others probably know him.",
+      "ru": "Но поспрашивай ещё! Уверена, кто-нибудь его знает.",
+      "speaker": "Villager",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "You're new... we don't see a lot of youngsters around these days... especially humans.",
+      "ru": "Ты новенький... молодёжь нынче у нас редко увидишь... особенно людей.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "What's your name?",
+      "ru": "Как тебя зовут?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Very on the nose, whippersnapper. My name is Lokno. I'm what's left of this town during its olden days...",
+      "ru": "Вопрос в лоб, юнец. Меня зовут Локно. Я всё, что осталось от старых времён этого городка...",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Mhm. This village... has definitely seen better days. This Decay stuff has ruined us, just take a look around! Nothing here has been suitable for living for over 50 years...",
+      "ru": "Мгм. Эта деревня... точно переживала дни получше. Эта Гниль нас добила, оглянись вокруг! Тут уже больше 50 лет ничего толком не пригодно для жизни...",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "What's this village like?",
+      "ru": "Расскажешь об этой деревне?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Hah... well, right now, it's a crowd of shacks, but before the Decay came along, we used to do great...",
+      "ru": "Ха... ну, сейчас это просто куча лачуг, но до прихода Гнили у нас всё было отлично...",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "We always had enough food to go around, we could sell off what we didn't need to eat, and everything was thriving.",
+      "ru": "Еды всегда хватало, лишнее можно было продавать, и всё процветало.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "My great-grandmother, Aki, always told me stories about this place. Our little village. I wish I could have been around to live in it then.",
+      "ru": "Моя прабабка Аки всё время рассказывала мне истории об этом месте. О нашей маленькой деревне. Жаль, я не застал те времена.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "She was always convinced though... that if the rightful rulers of Gavel returned, all of these issues could easily be squashed.",
+      "ru": "Но она всегда была уверена... что, если законные правители Гавеля вернутся, все эти проблемы легко решатся.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "To be honest... I believe the same. The government has abandoned us. So... why not bring back the old one?",
+      "ru": "Честно говоря... я думаю так же. Правительство нас бросило. Так что... почему бы не вернуть старое?",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "I may not be the most religious villager around here, but it would feel more right to be ruled by someone who has the heavens' approval.",
+      "ru": "Я, может, и не самый набожный житель здесь, но мне кажется, правильнее, когда нами правит тот, кому благоволят небеса.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Do you have any rumors to share?",
+      "ru": "Есть какие-нибудь слухи?",
+      "speaker": "CHOICE",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Nope. I don't deal with that kind of stuff, bahaha! Sorry human; you're out of luck.",
+      "ru": "Неа. Я таким не занимаюсь, бахаха! Извини, человек, сегодня тебе не повезло.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "G... Garvan... yes. I know that name.",
+      "ru": "Г... Гарван... да. Я знаю это имя.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "He isn't here, though. I don't know his whereabouts, what he's doing, or if he's even alive. He's... just nonexistant.",
+      "ru": "Но его здесь нет. Я не знаю, где он, чем занимается и жив ли вообще. Он... как будто просто перестал существовать.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "I don't know why you're chasing after him, but... if you want a place to start, look at the abandoned laboratory on top of that hill, just west to the of here.",
+      "ru": "Не знаю, зачем ты за ним гоняешься, но... если хочешь с чего-то начать, загляни в заброшенную лабораторию на вершине того холма, к западу отсюда.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Fair warning, though... My great-grandmother is the only reason I know about him, and even then... she was always put off by him, and told me to stay away from him. I'd be wary, if I were you.",
+      "ru": "Но сразу предупреждаю... Я знаю о нём только благодаря прабабке, и даже она... всегда его недолюбливала и велела мне держаться подальше. Я бы на твоём месте был осторожен.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Or don't. He sounds like a nice man. You're strong, as well. I'm sure you'll be fine.",
+      "ru": "А можешь и не осторожничать. Он вроде приятный человек. Да и ты не слабак. Наверняка всё будет нормально.",
+      "speaker": "Old Man",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "The Decay is interesting, to say the least. I've never seen anything like this before in all my years.",
+      "ru": "Гниль - явление интересное, мягко говоря. За всю жизнь я ничего подобного не видел.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "Simple plant life appears to wither even when given proper nutrients and conditions to grow. What little magic they usually contain appears to be sapped as well...",
+      "ru": "Обычные растения вянут, даже если дать им все нужные условия и питание. И та малая магия, которая в них обычно есть, похоже, тоже высасывается...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "It's odd. The Decay doesn't violently alter whatever it touches, like a pestilence would... It appears to be removing something in a coordinated manner. Almost as if a living creature was doing this.",
+      "ru": "Странно. Гниль не уродует всё, к чему прикасается, как какая-нибудь чума... Она будто целенаправленно что-то убирает. Почти как если бы это делало живое существо.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "But what organism could be removing magic from the plant?",
+      "ru": "Но какое существо может вытягивать магию из растений?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "I've been trying to expose this piece of Kanderstone to different types of magical energy to see if I could reverse the effects of the Decay upon it.",
+      "ru": "Я пробовал воздействовать на этот кусок кандерстоуна разными видами магической энергии, чтобы понять, смогу ли обратить влияние Гнили вспять.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "If I can just find whatever energy the Decay is sapping from the forests, then in all probability... this Kanderstone will revert to Cobalt, the mineral that was found in this forest before it began its decline.",
+      "ru": "Если я просто найду, какую именно энергию Гниль высасывает из лесов, тогда, скорее всего... этот кандерстоун снова станет кобальтом, минералом, который находили в этом лесу до начала его упадка.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "...What could it be, though?",
+      "ru": "...Но что это может быть?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "I've tried every sort of magic I can think of. Nothing is reversing the effects of the Decay.",
+      "ru": "Я перепробовал все виды магии, какие смог придумать. Ничто не обращает действие Гнили вспять.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "I'm certain of it. The Decay is caused by the removal of magical energy. I just can't pinpoint what exactly though...",
+      "ru": "Я уверен. Гниль вызвана тем, что из всего вытягивают магическую энергию. Просто не могу понять, какую именно...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Eheheheheheeh... I've found it. I've found it I've found it I've found it I've found it I've found it I've found it I've found it",
+      "ru": "Хехехехехех... Я нашёл. Я нашёл, я нашёл, я нашёл, я нашёл, я нашёл, я нашёл, я нашёл.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "The source of the Decay.",
+      "ru": "Источник Гнили.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Throughout the forest, especially in caves, one can find strange, parasitic creatures that specialize in living underneath the earth.",
+      "ru": "По всему лесу, особенно в пещерах, можно найти странных паразитических существ, приспособленных к жизни под землёй.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "When I touched one of these creatures after capturing it... It was as if my skin began to shrival. It... siphoned energy from my hand.",
+      "ru": "Когда я коснулся одного из этих существ после поимки... моя кожа будто начала сохнуть и сморщиваться. Оно... вытягивало энергию из моей руки.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "I gave the thing access to a few fresh plants from the Light Forest, and watched with awe. Within a few minutes, it rendered the plant into a state identical to that of Decay-afflicted life.",
+      "ru": "Я подпустил эту тварь к нескольким свежим растениям из Леса Света и с изумлением наблюдал. Через несколько минут растение выглядело точно так же, как всё поражённое Гнилью.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "I was right. I was right I was right I was right I was right I was right.",
+      "ru": "Я был прав. Я был прав, я был прав, я был прав, я был прав, я был прав.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "These parasites are what are causing the Decay. This is no otherworldly force or pestilence, no. This is an assault created solely by magical creatures. I... should thank my new friends for this discovery.",
+      "ru": "Эти паразиты и вызывают Гниль. Это не потусторонняя сила и не чума, нет. Это атака, устроенная магическими существами. Я... должен поблагодарить своих новых друзей за это открытие.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "I've decided to try and talk a little more with the villagers just down the hill. They're quite interesting...",
+      "ru": "Я решил побольше пообщаться с жителями деревни у подножия холма. Они довольно интересные...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "It's odd, though... Most of them keep glaring at me every time I return from my business in Cinfras. This one farmer kept asking me what are my thoughts on the Gerten War and the government's involvement with it...",
+      "ru": "Хотя странно... Большинство из них продолжает коситься на меня каждый раз, когда я возвращаюсь из Синфраса. Один фермер всё спрашивал, что я думаю о Гертенской войне и участии в ней правительства...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "I just explained I was a scientist researching the effects of the Decay. I might have lied a little and said I was almost about to find a cure. One of them seemed interested in that...",
+      "ru": "Я просто объяснил, что я учёный, исследующий последствия Гнили. Может, немного соврал и сказал, что почти нашёл лекарство. Одного из них это, похоже, заинтересовало...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "The rest of the page as well as the next few pages have had their contents furiously crossed out.",
+      "ru": "Остальной текст на этой странице и на нескольких следующих яростно зачёркнут.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "Huh?",
+      "ru": "А?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "What lies. Lies lies lies lies lies lies lies lies lies lies. I don't really mind those people.",
+      "ru": "Какая ложь. Ложь, ложь, ложь, ложь, ложь, ложь, ложь, ложь, ложь, ложь. Ничего я против этих людей не имею.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "I quite like them. Yes. Yes yes yes yes yes. They're trustworthy. I should have believed them from the start.",
+      "ru": "Они мне даже очень нравятся. Да. Да-да-да-да-да. Им можно доверять. Надо было верить им с самого начала.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "...What the hell is my wife THINKING?? Defending Garvan, as much of a lunatic as he is??",
+      "ru": "...О чём вообще ДУМАЕТ моя жена?? Защищать Гарвана, такого психа??",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "The man's made so little progress in the past few years. At this point, it's just a waste of our wealth...",
+      "ru": "За последние годы он добился так мало. Теперь это просто пустая трата наших денег...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "Unless... No. That is impossible. She is not... like that. Damn it, I might be in the need for some well-deserved sleep...",
+      "ru": "Если только... Нет. Это невозможно. Она не... такая. Чёрт, похоже, мне бы не помешал заслуженный сон...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "Hmmm... Odd. There's a lot to take in here about Gavel's deceased monarchy. It is quite interesting, though there is nothing about the Gerten War.",
+      "ru": "Хммм... Странно. Здесь много сведений о павшей монархии Гавеля. Очень интересно, хотя о Гертенской войне ничего нет.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "There are a few philosophical books that dive deep into the divide that the Cinfrasian Uprising has caused within the province. Very... strong opinions, indeed.",
+      "ru": "Есть несколько философских книг, подробно разбирающих раскол в провинции после Синфрасского восстания. Очень... категоричные суждения, надо сказать.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "The Decay has certainly drowned out that conflict. I myself have never heard of any of this! Though again, I never was a lover of history in the first place.",
+      "ru": "Из-за Гнили тот конфликт отошёл на второй план. Я сам обо всём этом вообще никогда не слышал! Хотя, с другой стороны, я и историю никогда особо не любил.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Huh. One of the more recent books suggests something resurfaced in Kander. Villagers are ordered to keep an eye on their neighbors...",
+      "ru": "Хм. В одной из более свежих книг говорится, что в Кандере снова что-то объявилось. Жителям велено следить за соседями...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "I should ask Katarin about this. She'd likely know more than I about any remaining royal politics, no?",
+      "ru": "Надо спросить Катарин. Она наверняка больше меня знает о том, что осталось от королевской власти, не так ли?",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "It's more clear. Day by day. This pestilence. Clear. Clear.",
+      "ru": "Всё становится яснее. День за днём. Эта зараза. Ясно. Ясно.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "The creatures that cause this, and their wellspring... and their wellspring... are sent by something beyond my comprehension.",
+      "ru": "Существа, вызывающие это, и их источник... и их источник... посланы чем-то непостижимым для меня.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Yes. Yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes yes. The Decay has been... brought here by divine intervention.",
+      "ru": "Да. Да-да-да-да-да-да-да-да-да-да-да-да-да-да-да-да. Гниль была... принесена сюда божественным вмешательством.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "Then... I will use the divine's sentries to cure this, just as they suggested.",
+      "ru": "Тогда... я использую стражей божества, чтобы исцелить всё это, как они и предложили.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "I will begin my research in that stone city of Lexdale. I'll bring her there.",
+      "ru": "Я начну исследования в каменном городе Лексдейле. И приведу её туда.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "And all of this will finally end. By a cure.",
+      "ru": "И всему этому наконец придёт конец. Благодаря лекарству.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Did you open this door?",
+      "ru": "Это ты открыл дверь?",
+      "speaker": "CHOICE",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "Dammit, Katarin! I'm not dealing with that loonie anymore! It's been years since I hired that scientist, and he STILL has nothing! If he doesn't find a cure soon, then I'll just get rid of him!",
+      "ru": "Чёрт побери, Катарин! Я больше не собираюсь возиться с этим психом! С тех пор как я нанял этого учёного, прошли годы, а у него до сих пор НИЧЕГО! Если он скоро не найдёт лекарство, я просто избавлюсь от него!",
+      "speaker": "Yorman",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "Y-Yorman, you can't be serious! What we're asking him to do is heavily unresearched, firing him for taking time on that wouldn't be a good idea!",
+      "ru": "Й-Йорман, ты же не серьёзно! То, о чём мы его просим, почти никто не изучал. Уволить его лишь потому, что это требует времени, было бы неразумно!",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "Woman, have you SEEN the state that cretin is in?? Even if it does take long, he's in no damn shape to deal with it! Now, stop arguing with me, and help me get rid of him-",
+      "ru": "Женщина, ты ВООБЩЕ видела, в каком состоянии этот кретин?? Даже если работа и правда требует времени, он совершенно не в состоянии ею заниматься! А теперь хватит спорить и помоги мне от него избавиться-",
+      "speaker": "Yorman",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "NO!",
+      "ru": "НЕТ!",
+      "speaker": "Katarin",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "This is too far, Yorman! Garvan MUST stay! You will do this if you still love me!",
+      "ru": "Это уже слишком, Йорман! Гарван ДОЛЖЕН остаться! Ты уступишь, если всё ещё любишь меня!",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "...Why do you even care so much?? Some lunatic scientist like him isn't good for anybody! We both know that we'd save more time and money by letting him run off!",
+      "ru": "...Да почему тебя это так волнует?? От такого учёного-психа нет никакой пользы! Мы оба знаем, что сэкономили бы время и деньги, просто выгнав его!",
+      "speaker": "Yorman",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "I still have faith in him, unlike you! I'll talk to him to see what's going on if I must, but I will NOT tolerate you throwing him out simply because you're too eager for results!",
+      "ru": "Я всё ещё верю в него, в отличие от тебя! Если надо, я сама поговорю с ним и выясню, что происходит, но я НЕ позволю тебе выгнать его только потому, что тебе не терпится получить результат!",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "Fine. But know this; I will see it to MYSELF that his head is taken off of his shoulders if that man continues to waste my time, understand??",
+      "ru": "Ладно. Но знай: если этот человек продолжит тратить моё время, я ЛИЧНО позабочусь, чтобы его голова слетела с плеч, поняла??",
+      "speaker": "Yorman",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "...I'm leaving to take care of some matters in Gelibord. Ask one of the maids to make sure that Eileen goes to bed. I'll be back before midnight.",
+      "ru": "...Я уезжаю по делам в Гелиборд. Попроси одну из служанок проследить, чтобы Эйлин легла спать. Я вернусь до полуночи.",
+      "speaker": "Yorman",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "...That... was close... I can't have him getting between us anymore.",
+      "ru": "...Чуть... не попались... Я не могу позволить ему и дальше вставать между нами.",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "I-I am here, Katarin. You wished to s- speak with me...?",
+      "ru": "Я-я здесь, Катарин. Ты хотела п- поговорить со мной...?",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "Yes, love. Yorman is becoming suspicious of you. He thinks you're not making any progress on the cure and wasting his time. Any more of this, and he may attempt to get rid of you.",
+      "ru": "Да, любовь моя. Йорман начинает тебя подозревать. Он думает, что поиски лекарства не продвигаются и ты только тратишь его время. Если так пойдёт и дальше, он может попытаться избавиться от тебя.",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "I just wanted to check on you, love. Are... you doing alright? Is your work coming along well?",
+      "ru": "Я просто хотела узнать, как ты, любимый. Ты... в порядке? Работа продвигается?",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "I... I am...",
+      "ru": "Я... я...",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "P̸̳̼̕͠Ḷ̵̭̌É̴͔̣̉A̸͍͗S̶̰̆̃E̸̠̐ ̷̧̝̊̑Ḩ̷͝E̵̼͛̋L̶̠̒̌P̶̠̘̈́̚ ̷̟̀͌M̶̨̰̉E̵̚͜",
+      "ru": "П̸̳̼̕͠О̵̭̌М̴͔̣̉О̸͍͗Г̶̰̆̃И̸̠̐ ̷̧̝̊̑М̷͝Н̵̼͛̋Е̶̠̒̌",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "F-Fine. I am fine. I appreciate the concern, but... It truly is u-unwarranted. I'm q-quite close to finding a cure to the disease, y-yes.",
+      "ru": "В-всё хорошо. Я в порядке. Ценю твою заботу, но... Она и правда н-не нужна. Я д-довольно близок к тому, чтобы найти лекарство от болезни, д-да.",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "Ah! That is good to hear. Now then... How are things? We haven't had many chances to catch up recently.",
+      "ru": "Ах! Это приятно слышать. Ну и... как у тебя дела? У нас давно не было шанса нормально поговорить.",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "...Wonderful. I've met... many peers. Recently. They give me the strength I need to advance my progress. Now... how is our daughter, Eileen?",
+      "ru": "...Чудесно. Я встретил... много единомышленников. Недавно. Они дают мне силы продолжать исследования. А теперь... как наша дочь, Эйлин?",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "She's doing great. She takes a lot after you, actually. Intelligent, beautiful, an inquisitive mind. I just hope this Decay can be dealt with and we don't need to live in fear any longer.",
+      "ru": "У неё всё хорошо. Вообще-то она во многом похожа на тебя. Умная, красивая, любознательная. Я просто надеюсь, что с этой Гнилью удастся разобраться и нам больше не придётся жить в страхе.",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "Wonderful. And... is our eternal bond safe? The gemstone? Has... Yorman found out about it?",
+      "ru": "Прекрасно. А... наша вечная связь в безопасности? Самоцвет? Йорман... не узнал о нём?",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "Yes, it has stayed hidden. As long as it's kept intact, our souls will stay bound to it. You just need to take care of your little project and we'll ride into the sunset, just like you said, mhm?",
+      "ru": "Да, он по-прежнему спрятан. Пока он цел, наши души останутся привязаны к нему. Тебе просто нужно закончить свой маленький проект, и мы уедем навстречу закату, как ты и обещал, м?",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "...And what about our daughter?",
+      "ru": "...А что насчёт нашей дочери?",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "We... I will not risk her life for our love. She has a future in Cinfras, Garvan! She isn't a part of this, and I don't think she-",
+      "ru": "Мы... я не стану рисковать её жизнью ради нашей любви. У неё есть будущее в Синфрасе, Гарван! Это её не касается, и я не думаю, что она-",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "Eileen... She is a shining star in this world. Her noble blood and natural talent makes her something truly special.",
+      "ru": "Эйлин... Она сияющая звезда этого мира. Благородная кровь и врождённый талант делают её по-настоящему особенной.",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "Do you realize, Katarin? Our daughter is a gift from the heavens! Once she has matured, she will accomplish things that Gavel has never seen! Bring back the holy and royal that was lost-",
+      "ru": "Ты понимаешь, Катарин? Наша дочь - дар небес! Когда она вырастет, она совершит то, чего Гавел ещё не видел! Вернёт святое и царственное, что было утрачено-",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "...Forgive me, I-I'm rambling once more. I... must leave now, research calls. Goodbye, my love. Great things will happen, sooner or later.",
+      "ru": "...Прости, я-я снова заговариваюсь. Мне... пора идти, исследования зовут. Прощай, любовь моя. Великое случится, рано или поздно.",
+      "speaker": "Garvan",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "I truly hope so...",
+      "ru": "Очень на это надеюсь...",
+      "speaker": "Katarin",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "Unbeknownst to the Faltach family, Yorman's hunch was correct all along. Their hired scientist had indeed moved away from his original goal.",
+      "ru": "Семья Фалтач этого не знала, но догадка Йормана с самого начала была верна. Нанятый ими учёный и правда отступил от первоначальной цели.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "During his research, Garvan had come too close into contact with the forest villagers... and was thoroughly broken into subserviance.",
+      "ru": "Во время исследований Гарван слишком тесно сошёлся с лесными жителями... и его полностью сломали, превратив в покорного слугу.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "Their goals were unclear, but they seemed uninterested in having Garvan continue to truly cure the Decay. Instead, they suggested something far more sinister.",
+      "ru": "Их цели были неясны, но, похоже, им не нужно было, чтобы Гарван действительно нашёл лекарство от Гнили. Вместо этого они подтолкнули его к чему-то куда более жуткому.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "Ah... N-now you're finally here. I... need you, my darling. We- no... I can cure this Decay with you.",
+      "ru": "Ах... Т-теперь ты наконец здесь. Ты... нужна мне, дорогая. Мы- нет... Я смогу победить эту Гниль с твоей помощью.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "W-What do you mean...? I-I don't like this... I-I w-wanna go home. It's getting late and mother-",
+      "ru": "Ч-что ты имеешь в виду...? М-мне это не нравится... Я-я х-хочу домой. Уже поздно, и мама-",
+      "speaker": "Eileen",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "Ssshhh... This will only take a moment.",
+      "ru": "Тссс... Это займёт всего минутку.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "W-What is that thing?? M-Mister Garvan, I-I don't understand...",
+      "ru": "Ч-что это такое?? М-мистер Гарван, я-я не понимаю...",
+      "speaker": "Eileen",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "Hush, my daughter. I-I'm doing this for your s-sake... You'll t-thank me later, once it... g-grows acclimated to you.",
+      "ru": "Тише, дочь моя. Я-я делаю это р-ради тебя... Потом п-поблагодаришь меня, когда оно... п-привыкнет к тебе.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "Now then... Hold still.",
+      "ru": "А теперь... стой смирно.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "Hello, my love. I-It's... been a while.",
+      "ru": "Здравствуй, любовь моя. Д-давно... не виделись.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "You... G-Garvan... Why are you here? And what's happened to Eileen? She has been sick for days!",
+      "ru": "Ты... Г-Гарван... Зачем ты пришёл? И что случилось с Эйлин? Она болеет уже несколько дней!",
+      "speaker": "Katarin",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "Mmmm... I... Ha-a-have a bit of a... how should I phrase this... a confession to make.",
+      "ru": "Мммм... Я... У м-меня есть... как бы это сказать... одно признание.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "W-Well... I-I've done... I've...done Eileen a great service... she will live forever, just like we do. Thanks to what I have done.",
+      "ru": "Н-ну... Я-я сделал... Я... оказал Эйлин великую услугу... Она будет жить вечно, как и мы. Благодаря тому, что я сделал.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "Y-you... Bound her soul?? Garvan, no, I told you she wasn't part of this!! WHY??",
+      "ru": "Т-ты... привязал её душу?? Гарван, нет, я же говорила, что она к этому не причастна!! ПОЧЕМУ??",
+      "speaker": "Katarin",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "No, no no no no. I've done much b-b-better. She has something now. In her brain... Don't worry about the s-sorry state she's in now. The parasite will need time to acclimate to her flesh.",
+      "ru": "Нет, нет-нет-нет-нет. Я сделал нечто н-н-намного лучше. Теперь у неё кое-что есть. В мозгу... Не беспокойся о её нынешнем ж-жалком состоянии. Паразиту нужно время, чтобы прижиться в её теле.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "I-I realized... a cure. My work is done, love... Eileen will be cured. The Decay can be s-stopped. It's wonderful-",
+      "ru": "Я-я нашёл... лекарство. Моя работа окончена, любовь моя... Эйлин будет исцелена. Гниль можно о-остановить. Это чудесно-",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "WHAT DID YOU DO TO MY DAUGHTER?? WHAT IS WRONG WITH YOU??",
+      "ru": "ЧТО ТЫ СДЕЛАЛ С МОЕЙ ДОЧЕРЬЮ?? ЧТО С ТОБОЙ НЕ ТАК??",
+      "speaker": "Katarin",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "Aaaahhhmmmm... True... I might have stepped out of line. But it's for the best.",
+      "ru": "Аааахммм... Да... Возможно, я немного перегнул. Но это к лучшему.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "OUT OF LINE?? This is too far, Garvan! What even happened to you?? You've been acting like this for so, so long! I-I can't take it anymore!",
+      "ru": "ПЕРЕГНУЛ?? Это уже слишком, Гарван! Что с тобой вообще случилось?? Ты ведёшь себя так уже очень, очень давно! Я-я больше так не могу!",
+      "speaker": "Katarin",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "You've changed, Garvan! I-I can't even recognize you anymore!! I'm... I'm DONE! GET OUT! STAY AWAY FROM MY FAMILY!",
+      "ru": "Ты изменился, Гарван! Я-я тебя больше даже не узнаю!! Всё... С МЕНЯ ХВАТИТ! УБИРАЙСЯ! ДЕРЖИСЬ ПОДАЛЬШЕ ОТ МОЕЙ СЕМЬИ!",
+      "speaker": "Katarin",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "You again... W-What do you want from me this time...? You've... already ruined me.",
+      "ru": "Снова вы... Ч-чего вы ещё хотите от меня...? Вы... уже сломали меня.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "It doesn't matter. You've accomplished what we've planned for, and that is perfect. The girl will grow into a suitale leader... Now then, we have some questions for you.",
+      "ru": "Это неважно. Ты сделал то, чего мы добивались, и это прекрасно. Из девочки вырастет достойная предводительница... А теперь у нас есть к тебе вопросы.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "Tell me Garvan... Where is the heir?",
+      "ru": "Скажи, Гарван... Где наследница?",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "I... will not tell you. I have lost Eileen and my love thanks to you. If I am to lose her... then you shall lose her as well.",
+      "ru": "Я... не скажу вам. Из-за вас я потерял Эйлин и свою любовь. Если я её лишусь... вы тоже её лишитесь.",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "...Lunatic. You; take him in. Keep him alive.",
+      "ru": "...Псих. Ты - забирай его. Оставить в живых.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "NO, DON'T TOUCH ME!",
+      "ru": "НЕТ, НЕ ТРОГАЙТЕ МЕНЯ!",
+      "speaker": "Garvan",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "Garvan. Garvan, Garvan. I think there's a misunderstanding here. You are in no place to defy us.",
+      "ru": "Гарван. Гарван, Гарван. Думаю, тут вышло недопонимание. Ты не в том положении, чтобы нам перечить.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "Now then... You will tell us where the rightful heir to the throne is... No matter the cost.",
+      "ru": "А теперь... ты скажешь нам, где законная наследница престола... чего бы это ни стоило.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "It seems you've arrived. F-Forgive me... I-I'm not quite used to talking anymore. It's been quite a while.",
+      "ru": "Похоже, ты добрался. П-прости... Я-я уже отвык разговаривать. Столько времени прошло.",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "...Nevermind. I d-don't want your forgiveness in particular. In fact, w-why do you even care? The forest has died, generations have lived on... and yet... You just had to tear the scar open, didn't you?",
+      "ru": "...Неважно. Мне т-твоё прощение, вообще-то, не нужно. И вообще, з-зачем тебе это? Лес умер, поколения сменились... и всё же... тебе обязательно было разбередить эту старую рану, да?",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "My sins... You do not need to see them... all the things I've done wrong. H-How I destroyed the bonds tying me and my love together.",
+      "ru": "Мои грехи... Тебе не нужно их видеть... всё, что я натворил. К-как я разрушил узы, связывавшие меня с любимой.",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "...Y-Yes... I mean her. Katarin. She's watching us as we speak, no? A-and with that, I suppose it's obvious what lies under this veil.",
+      "ru": "...Д-да... Я о ней. О Катарин. Она смотрит на нас прямо сейчас, да? И-и, думаю, после этого уже ясно, кто скрывается под этим покровом.",
+      "speaker": "???",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "Greetings... I-I'm s-sure you're well acquainted with me, by now. I-It was me all along. Quite the- well, it was a predictable twist, I suppose...",
+      "ru": "Приветствую... Я-я у-уверен, ты уже хорошо меня знаешь. Э-это всё время был я. Вот это- ну, довольно предсказуемый поворот, полагаю...",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "...B-But... I take it you don't have the full story. So... so so so so so so... Let me explain to you, human... The bitter end to our shared tale.",
+      "ru": "...Н-но... Похоже, всей истории ты не знаешь. Так что... так-так-так-так-так-так... Позволь объяснить тебе, человек... горький конец нашей общей истории.",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "AAAAAAAGGGHHH!!!! F-FINE! I-I'll tell you... I-I'll tell y-you where Eileen is...",
+      "ru": "АААААААГГГХХХ!!!! Л-ЛАДНО! Я-я скажу... Я-я скажу в-вам, где Эйлин...",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "S-She... is with her mother. At the Faltach Manor. T-That is all. Just s-stop...",
+      "ru": "О-Она... с матерью. В поместье Фалтач. Э-Это всё. Просто п-прекратите...",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "...Good. This had better not be a lie. You; tell the others that we are heading there now. Kill everyone at the manor and any witnesses; leave the heir alive.",
+      "ru": "...Хорошо. Лучше бы это не было ложью. Ты - скажи остальным, что мы идём туда сейчас. Убить всех в поместье и всех свидетелей. Наследницу оставить в живых.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "W-WHAT?",
+      "ru": "Ч-ЧТО?",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "N-NO! GET BACK HERE! DON'T YOU DARE HARM THEM! I'LL KILL YOU!! DO YOU HEAR ME???",
+      "ru": "Н-НЕТ! ВЕРНИТЕСЬ! НЕ СМЕЙТЕ ТРОГАТЬ ИХ! Я УБЬЮ ВАС!! СЛЫШИТЕ МЕНЯ???",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "...M-Mother... why d-do I have to stay here?",
+      "ru": "...М-мама... почему я д-должна сидеть тут?",
+      "speaker": "Eileen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "It's for your own good dear. Now, remember to stay put. Garvan won't be able to use you if you're kept inside of here...",
+      "ru": "Это для твоего же блага, милая. И помни: сиди тихо. Гарван не сможет использовать тебя, если ты останешься запертой здесь...",
+      "speaker": "Katarin",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "I-I miss Dad...",
+      "ru": "Я-я скучаю по папе...",
+      "speaker": "Eileen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "Yorman won't be bothering us anymore, sweetheart. He wouldn't understand, so... J- just don't worry about what happened to him. It's irrelevant-",
+      "ru": "Йорман нас больше не побеспокоит, милая. Он бы всё равно не понял, так что... П-просто не думай о том, что с ним случилось. Это уже неважно-",
+      "speaker": "Katarin",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "L-LADY KATARIN! T-THERE ARE INTRUDERS- AAAAAAHHHHHH!!!",
+      "ru": "Л-ЛЕДИ КАТАРИН! В-В ДОМ ВОРВАЛИСЬ- ААААААААА!!!",
+      "speaker": "Servant",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "...Who the hell are you all?",
+      "ru": "...Кто вы, чёрт возьми, такие?",
+      "speaker": "Katarin",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "Step aside, Katarin Faltach. This will be much simpler if you just stand down and tell us where your daughter is.",
+      "ru": "Отойди, Катарин Фалтач. Всё будет куда проще, если ты спокойно скажешь нам, где твоя дочь.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "...Come again? No. YOU WON'T TOUCH HER! GET OUT OF MY SIGHT-",
+      "ru": "...Что, прости? Нет. ВЫ ЕЁ НЕ ТРОНЕТЕ! С ГЛАЗ МОИХ ДОЛОЙ-",
+      "speaker": "Katarin",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "You're not the one making demands here... You all, search the house and find the child.",
+      "ru": "Здесь не ты ставишь условия... Все, обыскать дом и найти ребёнка.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "There she is. Hmm... it seems that the parasite injection worked well. Garvan wasn't so useless after all.",
+      "ru": "Вот она. Хм... Похоже, введение паразита прошло удачно. Гарван оказался не таким уж бесполезным.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "Oh? Too terrified to speak? Worry not, Eileen Faltach. You won't be harmed... too much. You're quite important to us, you see.",
+      "ru": "О? Слишком напугана, чтобы говорить? Не бойся, Эйлин Фалтач. Тебе не навредят... слишком сильно. Видишь ли, ты очень важна для нас.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "N-NO! STAY AWAY FROM MY DAUGHTER!",
+      "ru": "Н-НЕТ! ПРОЧЬ ОТ МОЕЙ ДОЧЕРИ!",
+      "speaker": "Katarin",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "You have little choice in the matter, Miss Faltach. Stand your ground.",
+      "ru": "У вас почти нет выбора, мисс Фалтач. Стойте на месте.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "GET AWAY FROM HER, DO YOU HEAR ME??? RAAAAAAAAAAAAAAAAGGGGGGGGHHHHHH!!!!",
+      "ru": "ПРОЧЬ ОТ НЕЁ, СЛЫШИШЬ??? РААААААААААГГГГГХХХХ!!!!",
+      "speaker": "Katarin",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "Tch... Some people will never understand what we do for the world. Thank you for protecting us from her, Aki.",
+      "ru": "Тц... Некоторые никогда не поймут, что мы делаем ради мира. Спасибо, что защитила нас от неё, Аки.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "I will deal with the heir myself. You all can head back to our village. Thank you for your help today.",
+      "ru": "С наследницей я разберусь сам. Все остальные можете возвращаться в деревню. Спасибо за помощь.",
+      "speaker": "Mysterious Leader",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "...I should have known. I-I... my love... y-you're gone.",
+      "ru": "...Я должен был понять. Я-я... любовь моя... т-тебя больше нет.",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "DAMN IT! DAMN IT DAMN IT DAMN IT AAAAALLLL!!!!",
+      "ru": "ЧЁРТ! ЧЁРТ, ЧЁРТ, К ЧЁРТУ ВСЁ-Ё-Ё!!!!",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "This is... W-why did this have to happen? ...I-I can't... this can't end like this...",
+      "ru": "Это... П-почему всё это случилось? ...Я-я не могу... это не может так закончиться...",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "T-This will be enough. You have a wonderful grave, m-my love...",
+      "ru": "Э-Этого хватит. У тебя будет прекрасная могила, м-моя любимая...",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "W-We won't be separated, though. I-I will leave our true selves here, as well.",
+      "ru": "Н-Но мы не разлучимся. Я-я оставлю здесь и наши настоящие сущности.",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "My soul... and y-yours.",
+      "ru": "Мою душу... и т-твою.",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "T-This is our final act of love, K-Katarin... This stone will keep us here. Eternal, and in bliss.",
+      "ru": "Э-Это наш последний поступок во имя любви, К-Катарин... Этот камень удержит нас здесь. Навеки, в блаженстве.",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "I-It's like nothing ever h-happened, right?",
+      "ru": "Б-Будто ничего и не случилось, да?",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "But that changes now.",
+      "ru": "Но теперь всё меняется.",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0297",
+      "en": "N-Now you understand. T-this is... all my fault. I have ruined everything. E-everything I touched, I destroyed.",
+      "ru": "Т-Теперь ты понимаешь. Э-Это... всё моя вина. Я всё разрушил. В-всё, к чему я прикасался, я губил.",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0298",
+      "en": "Have I not repented enough? Have I not suffered enough for decades in this god-forsaken forest?? And why did you have to-",
+      "ru": "Разве я мало каялся? Разве я мало страдал десятилетиями в этом проклятом лесу?? И зачем тебе надо было-",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0299",
+      "en": "No... You know too much. B-But I can't kill, not again. I-I can make things right. I-I'm going to fix this. I'm going to fix this. I'm going to I'm going to I'm going to I'm going to I'm going to...",
+      "ru": "Нет... Ты знаешь слишком много. Н-но я не могу убивать, только не снова. Я-я могу всё наладить. Я-я собираюсь всё исправить. Я собираюсь всё исправить. Я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь...",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0300",
+      "en": "I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to I'm going to-",
+      "ru": "Я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь, я собираюсь-",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0301",
+      "en": "KATARIIIIINNNNNN!!!!!",
+      "ru": "КАТАРИИИИИННННН!!!!!",
+      "speaker": "Garvan",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0302",
+      "en": "K-Katarin! My l-love... is that you?",
+      "ru": "К-Катарин! Моя л-любовь... это ты?",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0303",
+      "en": "My word... I-It is you! I missed you, love... and I'm s-so sorry... for all of this!",
+      "ru": "Боже... Э-Это и правда ты! Я скучал, любовь моя... и мне т-так жаль... что всё это произошло!",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0304",
+      "en": "I realize n-now, thanks to this h-human's efforts. What I've done has t-torn us apart... I hurt you and our l-little girl so much...",
+      "ru": "Я т-теперь понял, благодаря усилиям этого ч-человека. Мои поступки р-разлучили нас... Я так сильно ранил тебя и нашу м-маленькую девочку...",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0305",
+      "en": "I-I'm so sorry, Katarin! P-Please, forgive me! Let us f-fix all of thi-",
+      "ru": "М-Мне так жаль, Катарин! П-Пожалуйста, прости меня! Давай всё это и-исправим-",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0306",
+      "en": "H-huh? Why c-can't I...?",
+      "ru": "А-ах? Почему я н-не могу...?",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0307",
+      "en": "K-Katarin...?",
+      "ru": "К-Катарин...?",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0308",
+      "en": "For.. For... give... ness...?",
+      "ru": "Про... Про... ще... ние...?",
+      "speaker": "Katarin",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0309",
+      "en": "What... What do you mean?? Speak, my love! I don't understand.",
+      "ru": "Что... Что ты имеешь в виду?? Говори, любовь моя! Я не понимаю.",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0310",
+      "en": "...Forgiveness...? You... beg for me... to forgive... you?",
+      "ru": "...Прощение...? Ты... умоляешь меня... простить... тебя?",
+      "speaker": "Katarin",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0311",
+      "en": "I... Yes, yes! P-Please, my love! I-I know I've have spent the last century and a half running away from u-us, but...",
+      "ru": "Я... Да, да! П-Пожалуйста, любовь моя! Я-я знаю, что последние полтора века бегал от н-нас, но...",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0312",
+      "en": "It was all my fault, from the beginning! I was wrong! W-We can fix this...! We can make everything go back to normal, j-just like it was before!",
+      "ru": "С самого начала во всём был виноват я! Я был неправ! М-Мы можем всё исправить...! Мы можем вернуть всё как было, к-как раньше!",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0313",
+      "en": "Please, Katarin! A-all I ask is that you forgive me!",
+      "ru": "Пожалуйста, Катарин! В-всё, о чём я прошу, - это прощение!",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0314",
+      "en": "...You... You must really have a deathwish-",
+      "ru": "...Ты... Ты и правда жить не хочешь-",
+      "speaker": "Katarin",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0315",
+      "en": "...Maybe I can... Forgive this. But I need something from you, as well...",
+      "ru": "...Может, я и смогу... Простить это. Но мне тоже кое-что от тебя нужно...",
+      "speaker": "Katarin",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0316",
+      "en": "...Where is the gemstone? I'd... I'd like to know. And then... I could... forgive... this.",
+      "ru": "...Где самоцвет? Я бы... Я бы хотела знать. И тогда... я могла бы... простить... это.",
+      "speaker": "Katarin",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0317",
+      "en": "O-Oh! Is that all? Of course, my love, I can tell you!",
+      "ru": "О-О! Только и всего? Конечно, любовь моя, я скажу!",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0318",
+      "en": "I-I placed it in the catacombs, right next to where-",
+      "ru": "Я-я положил его в катакомбах, прямо рядом с тем местом, где-",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0319",
+      "en": "W-What... W-WHAT I-IS THISS?? I-I C-CAN'T B-BREATHE! P-PLEASE!!",
+      "ru": "Ч-Что... Ч-ЧТО Э-ЭТО ТАКОЕ?? Я-Я Н-НЕ МОГУ Д-ДЫШАТЬ! П-ПОЖАЛУЙСТА!!",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0320",
+      "en": "NO!! NO, NO NO NO NO. HUMAN, H-HELP ME!! KATARIN... K-KATARIIIIINNNNN!!!!",
+      "ru": "НЕТ!! НЕТ, НЕТ НЕТ НЕТ НЕТ. ЧЕЛОВЕК, П-ПОМОГИ!! КАТАРИН... К-КАТАРИИИИИНННН!!!!",
+      "speaker": "Garvan",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0321",
+      "en": "YOU... TOOK... HER... FROM... ME.",
+      "ru": "ТЫ... ОТНЯЛ... ЕЁ... У... МЕНЯ.",
+      "speaker": "Katarin",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0322",
+      "en": "YOU... POISONED... HER...!",
+      "ru": "ТЫ... ОТРАВИЛ... ЕЁ...!",
+      "speaker": "Katarin",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0323",
+      "en": "YOU... RUINED... EVERYTHING!!",
+      "ru": "ТЫ... ВСЁ... РАЗРУШИЛ!!",
+      "speaker": "Katarin",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0324",
+      "en": "WHERE IS IT?!?!?!?!",
+      "ru": "ГДЕ ОН?!?!?!?!",
+      "speaker": "Katarin",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0325",
+      "en": "TELL ME WHERE IT IS, GARVAN! I KNOW YOU'RE STILL LISTENING!",
+      "ru": "СКАЖИ МНЕ, ГДЕ ОН, ГАРВАН! Я ЗНАЮ, ЧТО ТЫ ВСЁ ЕЩЁ СЛЫШИШЬ!",
+      "speaker": "Katarin",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0326",
+      "en": "You knew where it was- Hmm... what did Garvan call you things...?",
+      "ru": "Ты знал, где он- Хм... Как Гарван вас там называл...?",
+      "speaker": "Katarin",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0327",
+      "en": "Right, a human. You knew... that it was just beneath this rubble?",
+      "ru": "Точно, человек. Ты знал... что он прямо под этими обломками?",
+      "speaker": "Katarin",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0328",
+      "en": "There it is... Thank you... Now this eternal hell will finally end. After so long...",
+      "ru": "Вот он... Спасибо... Теперь этот вечный ад наконец закончится. Спустя столько времени...",
+      "speaker": "Katarin",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0329",
+      "en": "Do you hear that? It's the ocean waves... The heavens... They're calling for me-",
+      "ru": "Ты это слышишь? Это шум океанских волн... Небеса... Они зовут меня-",
+      "speaker": "Katarin",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0330",
+      "en": "'???: YOU WON'T ESCAPE.'",
+      "ru": "'???: ТЫ НЕ УЙДЁШЬ.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0331",
+      "en": "...Hm?",
+      "ru": "...Хм?",
+      "speaker": "Katarin",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0332",
+      "en": "'Garvan: OUR LOVE WAS MEANT TO LAST FOREVER.'",
+      "ru": "'Гарван: НАША ЛЮБОВЬ ДОЛЖНА БЫЛА ДЛИТЬСЯ ВЕЧНО.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0333",
+      "en": "'Garvan: YOU.'",
+      "ru": "'Гарван: ТЫ.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0334",
+      "en": "'Garvan: INTRUDER. YOU MADE THE WRONG CHOICE.'",
+      "ru": "'Гарван: ЧУЖАК. ТЫ СДЕЛАЛ НЕ ТОТ ВЫБОР.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0335",
+      "en": "'Garvan: IF YOU REFUSE TO FORGIVE ME, THEN I WILL SIMPLY ERASE ANY PROOF THAT WE EVER EXISTED.'",
+      "ru": "'Гарван: ЕСЛИ ТЫ ОТКАЖЕШЬСЯ ПРОСТИТЬ МЕНЯ, Я ПРОСТО СОТРУ ВСЕ СЛЕДЫ НАШЕГО СУЩЕСТВОВАНИЯ.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0336",
+      "en": "'Garvan: AND NOTHING WILL REMEMBER YOU ONCE YOU DISAPPEAR.'",
+      "ru": "'Гарван: И ПОСЛЕ ТВОЕГО ИСЧЕЗНОВЕНИЯ НИЧТО НЕ СОХРАНИТ ПАМЯТЬ О ТЕБЕ.'",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0337",
+      "en": "'Garvan: STAY AWAY FROM ME!'",
+      "ru": "'Гарван: ДЕРЖИСЬ ОТ МЕНЯ ПОДАЛЬШЕ!'",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0338",
+      "en": "'Garvan: WHY WON'T YOU FORGIVE ME?!?!'",
+      "ru": "'Гарван: ПОЧЕМУ ТЫ НЕ ХОЧЕШЬ ПРОСТИТЬ МЕНЯ?!?!'",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0339",
+      "en": "'Garvan: DON'T DO IT.'",
+      "ru": "'Гарван: НЕ ДЕЛАЙ ЭТОГО.'",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0340",
+      "en": "'Garvan: DON'T DESTROY THE GEM.'",
+      "ru": "'Гарван: НЕ ЛОМАЙ САМОЦВЕТ.'",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0341",
+      "en": "'Garvan: I CAN'T LET YOU!'",
+      "ru": "'Гарван: Я НЕ МОГУ ЭТОГО ДОПУСТИТЬ!'",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0342",
+      "en": "'Garvan: FORGIVE ME.'",
+      "ru": "'Гарван: ПРОСТИ МЕНЯ.'",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0343",
+      "en": "'Garvan: DON'T YOU DARE.'",
+      "ru": "'Гарван: ТОЛЬКО ПОПРОБУЙ.'",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0344",
+      "en": "'Garvan: NO NO NO NO NO NO'",
+      "ru": "'Гарван: НЕТ НЕТ НЕТ НЕТ НЕТ НЕТ'",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0345",
+      "en": "He's gone... All of this will finally be done...",
+      "ru": "Его больше нет... Теперь всё наконец закончится...",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0346",
+      "en": "Thank you, stranger. Thank you for... everything.",
+      "ru": "Спасибо тебе, чужак. Спасибо за... всё.",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0347",
+      "en": "Now I'm... finally free. But... I suppose I still have unfinished business. Before I leave, I must know something.",
+      "ru": "Теперь я... наконец свободна. Но... похоже, одно дело у меня ещё осталось. Прежде чем уйти, я должна кое-что узнать.",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0348",
+      "en": "...What has become of my daughter, Eileen? Has she suffered any more? Or did she escape?",
+      "ru": "...Что стало с моей дочерью, Эйлин? Она так и продолжала мучиться? Или всё-таки сумела спастись?",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0349",
+      "en": "I must know. Is she okay?",
+      "ru": "Я должна знать. С ней всё хорошо?",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0350",
+      "en": "Yes, Eileen is fine.",
+      "ru": "Да, с Эйлин всё в порядке.",
+      "speaker": "CHOICE",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0351",
+      "en": "...I see. That is... wonderful news. Thank you, human.",
+      "ru": "...Понимаю. Это... замечательная новость. Спасибо тебе, человек.",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0352",
+      "en": "I must... leave... The pain...",
+      "ru": "Мне нужно... уйти... Эта боль...",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0353",
+      "en": "...The pain is receding... The heavens are calling... for the final time...",
+      "ru": "...Боль уходит... Небеса зовут... в последний раз...",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0354",
+      "en": "Goodbye... Thank you human, from the bottom of my heart.",
+      "ru": "Прощай... Спасибо тебе, человек, от всего сердца.",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0355",
+      "en": "...No, Eileen is suffering.",
+      "ru": "...Нет, Эйлин всё ещё страдает.",
+      "speaker": "CHOICE",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0356",
+      "en": "...What?",
+      "ru": "...Что?",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0357",
+      "en": "NO NO NO NO NO NO NO NOOOOO!!!!!!",
+      "ru": "НЕТ НЕТ НЕТ НЕТ НЕТ НЕТ НЕТ НЕЕЕЕЕЕТ!!!!!!",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0358",
+      "en": "TRAITOR!! I WILL MAKE YOU ALL SUFFFEEERRRR!!! (In High Gavellian)",
+      "ru": "ПРЕДАТЕЛЬ!! Я ЗАСТАВЛЮ ВАС ВСЕХ СТРАДАААААТЬ!!! (На высшем гавелльском)",
+      "speaker": "Katarin",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0359",
+      "en": "This bookshelf sure seems like an interesting one! You find books of various kinds.",
+      "ru": "Эта книжная полка кажется довольно интересной! Ты находишь книги на самые разные темы.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0360",
+      "en": "There’s one about the ancient tales of Gylia, another regarding Remikas’ victory... and even a book about dreaming?",
+      "ru": "Одна о древних сказаниях Гилии, другая о победе Ремикаса... и даже книга о снах?",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0361",
+      "en": "A bunch of notes are scribbled on all of them.",
+      "ru": "На всех них нацарапано множество заметок.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0362",
+      "en": "You find a book about the philosophical nature of all that exists...",
+      "ru": "Ты находишь книгу о философской природе всего сущего...",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0363",
+      "en": "...and immediately decide to put it back.",
+      "ru": "...и тут же решаешь поставить её обратно.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0364",
+      "en": "There appears to be a bunch of books dedicated to magic... and especially necromancy?",
+      "ru": "Похоже, тут целая куча книг, посвящённых магии... и особенно некромантии?",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0365",
+      "en": "You see a few books regarding the histories of Gelibord and Lexdale, but not much else noteworthy.",
+      "ru": "Ты видишь несколько книг по истории Гелиборда и Лексдейла, но больше ничего особо примечательного.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0366",
+      "en": "How many bookshelves does this manor have!?",
+      "ru": "Да сколько вообще тут книжных полок!?",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0367",
+      "en": "A cold touch shivers down your spine...",
+      "ru": "От холодного прикосновения по твоей спине пробегают мурашки...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0368",
+      "en": "You begin to read the letters inside of the drawer...",
+      "ru": "Ты начинаешь читать письма, лежащие в ящике...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0369",
+      "en": "She told me that those are her favorite books, and the red letters make up the password to the chest that Yorman gave her.",
+      "ru": "Она сказала мне, что это её любимые книги, а красные буквы составляют пароль к сундуку, который ей подарил Йорман.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0370",
+      "en": "It's a pile of charred letters... You can still make out some of the words, though.",
+      "ru": "Это кипа обгоревших писем... Хотя некоторые слова ещё можно разобрать.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0371",
+      "en": "G-r---... I cannot ignore it --- longer...",
+      "ru": "Г-р---... Я больше не могу это игнорировать---...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0372",
+      "en": "...love you too much... -- tired of Yorman...",
+      "ru": "...слишком сильно люблю тебя... -- устала от Йормана...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0373",
+      "en": "...doesn't have to know. We can -- happy together... y--r's truly, -----in...",
+      "ru": "...ему незачем знать. Мы можем -- счастливы вместе... искренне тво--, -----ин...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0374",
+      "en": "One of the books pops out quite claringly. You decide to check it out...",
+      "ru": "Одна из книг заметно выпирает. Ты решаешь её проверить...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0375",
+      "en": "It's a book detailing one of the greatest board games of all time. It sounds quite fun.",
+      "ru": "Это книга об одной из лучших настольных игр всех времён. Кажется, играть в неё довольно весело.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0376",
+      "en": "This appears to be a letter describing who the Faltachs are...",
+      "ru": "Похоже, это письмо, описывающее, кто такие Фалтачи...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0377",
+      "en": "According to the text, the Faltachs are a family of nobles that have been a part of the forest for decades, more or less having personal control of the area.",
+      "ru": "Согласно письму, Фалтачи - дворянская семья, которая десятилетиями жила в этом лесу и почти единолично им управляла.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0378",
+      "en": "They collected taxes from the residents of the forest, and were an integral part of the region's politics... But considering the state of this manor, that isn't the case anymore.",
+      "ru": "Они собирали налоги с жителей леса и играли важную роль в политике края... Но, судя по состоянию этого особняка, теперь это уже не так.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0379",
+      "en": "As of 832 AP, the family consisted of Yorman Faltach, Katarin Faltach, and their infant daughter Eileen.",
+      "ru": "В 832 ПП семья состояла из Йормана Фалтача, Катарин Фалтач и их дочери Эйлин, тогда ещё младенца.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0380",
+      "en": "There's a book sticking out of here with the number '1' drawn on it...",
+      "ru": "Отсюда торчит книга с нарисованной цифрой \"1\"...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0381",
+      "en": "It's a touching story... but you don't read it. It's not nice to ignore someone who's looking at you.",
+      "ru": "Это трогательная история... но ты её не читаешь. Невежливо игнорировать того, кто на тебя смотрит.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0382",
+      "en": "There's a book sticking out of here with the number '2' drawn on it...",
+      "ru": "Отсюда торчит книга с нарисованной цифрой \"2\"...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0383",
+      "en": "It's a grossly overexaggerated novel about the Molten Heights war.",
+      "ru": "Это роман о войне в Раскалённых высотах, где всё преувеличено до нелепости.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0384",
+      "en": "There's a book sticking out of here with the number '3' drawn on it...",
+      "ru": "Отсюда торчит книга с нарисованной цифрой \"3\"...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0385",
+      "en": "Elephelks don't exist... right?",
+      "ru": "Слонолосей не существует... верно?",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0386",
+      "en": "There's a book sticking out of here with the number '4' drawn on it...",
+      "ru": "Отсюда торчит книга с нарисованной цифрой \"4\"...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0387",
+      "en": "It's apparently about a boy who's scared by the sound of an owl hooting.",
+      "ru": "Похоже, она о мальчике, которого пугает уханье совы.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0388",
+      "en": "The chest is tightly locked. The lock itself appears to require a combination of four letters, all in a specific order...",
+      "ru": "Сундук крепко заперт. Похоже, замок отпирается кодом из четырёх букв, которые нужно ввести в определённом порядке...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0389",
+      "en": "Pick the first letter of the passcode:",
+      "ru": "Выбери первую букву пароля:",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0390",
+      "en": "Pick the second letter of the passcode:",
+      "ru": "Выбери вторую букву пароля:",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0391",
+      "en": "Pick the third letter of the passcode:",
+      "ru": "Выбери третью букву пароля:",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0392",
+      "en": "Pick what's obviously the fourth letter of the passcode:",
+      "ru": "Выбери очевидную четвёртую букву пароля:",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0393",
+      "en": "That was incorrect, despite the fact that the last letter was obviously R... It looks like you need to start over again.",
+      "ru": "Неверно, несмотря на то что последняя буква очевидно была R... Похоже, придётся начать заново.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0394",
+      "en": "That was incorrect... It looks like you need to start over again.",
+      "ru": "Неверно... Похоже, придётся начать заново.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0395",
+      "en": "It's an old letter. The edges are stained with some strange, dark liquid...",
+      "ru": "Это старое письмо. Края запятнаны какой-то странной тёмной жидкостью...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0396",
+      "en": "I remember, at the beginning... Yorman had hired Garvan out of concern for this 'Decay' plaguing the land. We told him that he must find a cure for the Decay before it subjugated the entire forest.",
+      "ru": "Я помню, в самом начале... Йорман нанял Гарвана, обеспокоенный этой \"Гнилью\", которая губила землю. Мы сказали ему, что он должен найти лекарство от Гнили, прежде чем она поглотит весь лес.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0397",
+      "en": "But I digress. Garvan's done great research on this Decay, but...recently, he's changed. Something's wrong with him.",
+      "ru": "Но я отвлеклась. Гарван отлично справлялся с исследованием Гнили, но... в последнее время он изменился. С ним что-то не так.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0398",
+      "en": "His eyes are glazed and dull. His tone of voice is... disturbing. He's made very little progress on the cure we tasked him with, and... I don't know what to do.",
+      "ru": "Его глаза остекленели и потускнели. От его голоса... не по себе. В поисках лекарства, которое мы попросили его найти, он почти не продвинулся, и... я не знаю, что делать.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0399",
+      "en": "That was... unsettling. Nevertheless, you should head east of the manor for any sign of where this Garvan person might live. You recall there being a village around there...",
+      "ru": "Это было... жутковато. Но всё же нужно выяснить, где живёт этот Гарван. Поищи к востоку от особняка. Ты припоминаешь, что где-то там была деревня...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0400",
+      "en": "That was... odd. Who was that? ...Regardless, you shouldn't stray away from heading to the village.",
+      "ru": "Это было... странно. Кто это был? ...Как бы то ни было, тебе не стоит отклоняться от пути к деревне.",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0401",
+      "en": "Ann slowly whispers to you...",
+      "ru": "Энн медленно шепчет тебе...",
+      "speaker": "Энн",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0402",
+      "en": "Garvan's Log: 830 AP",
+      "ru": "Журнал Гарвана: 830 ПП",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0403",
+      "en": "I have been hired by Yorman and Katarin Faltach to study and hopefully cure this \"Decay\" that's appeared recently. I'm quite excited to get to the bottom of this.",
+      "ru": "Меня наняли Йорман и Катарин Фалтач, чтобы я изучил недавно появившуюся \"Гниль\" и, если удастся, нашёл от неё лекарство. Мне не терпится докопаться до сути.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0404",
+      "en": "It looks like I've finally settled in. The Faltach Family has been quite kind with giving me this laboratory to study in.",
+      "ru": "Похоже, я наконец-то обустроился. Семья Фалтач любезно предоставила мне эту лабораторию для исследований.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0405",
+      "en": "Where to start... where to start...",
+      "ru": "С чего бы начать... с чего бы начать...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0406",
+      "en": "Garvan's Log - 840 AP",
+      "ru": "Журнал Гарвана - 840 ПП",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0407",
+      "en": "I went to the secret study inside of the Faltach's basement to look at some texts about the war and the government out of curiousity. I believe those people were just freaks. I should stay away from them-",
+      "ru": "Из любопытства я зашёл в тайный кабинет в подвале Фалтачей, чтобы взглянуть на тексты о войне и власти. По-моему, те люди были просто чудиками. Мне стоит держаться от них подальше-",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0408",
+      "en": "Huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh huh?",
+      "ru": "Хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах хах?",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0409",
+      "en": "They'll help me.",
+      "ru": "Они мне помогут.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0410",
+      "en": "...Whatever made that scream, it... sounds like it's getting closer to the laboratory-",
+      "ru": "...Что бы ни издало этот вопль, оно... похоже, приближается к лаборатории-",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0411",
+      "en": "Find somewhere to hide in the laboratory. Now.",
+      "ru": "Найди, где спрятаться в лаборатории. Сейчас же.",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0412",
+      "en": "This shrubbery seems like the best spot to hide in...",
+      "ru": "Эти кусты кажутся лучшим местом, чтобы спрятаться...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0413",
+      "en": "It looks like that figure left. It should be safe to leave.",
+      "ru": "Похоже, та фигура ушла. Теперь можно спокойно выйти.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0414",
+      "en": "...That journal mentioned a secret study hidden away in the manor's basement. It might be worth checking out for more clues.",
+      "ru": "...В том дневнике упоминался тайный кабинет, спрятанный в подвале особняка. Возможно, стоит его осмотреть в поисках новых улик.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0415",
+      "en": "This must be the study. There should be something worth investigating nearby.",
+      "ru": "Должно быть, это и есть кабинет. Нужно осмотреться - наверняка здесь найдётся что-нибудь важное.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0416",
+      "en": "Upon closer inspection, this bookshelf actually appears to be a false panel. You can see a room behind it, as well.",
+      "ru": "Если присмотреться, это не книжная полка, а замаскированная панель. За ней даже видна комната.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0417",
+      "en": "It's an excerpt from Yorman's Journal...",
+      "ru": "Это отрывок из дневника Йормана...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0418",
+      "en": "Why is she defending HIM?? She's always been like that, so hopeful and defensive of the scientist... what could she POSSIBLY see in him?",
+      "ru": "Почему она защищает ЕГО?? Она всегда так верила в этого учёного, всегда вставала на его сторону... Что она вообще могла в нём найти?",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0419",
+      "en": "It's a small notes page that Garvan appeared to have written...",
+      "ru": "Это маленький листок с заметками, которые, похоже, написал Гарван...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0420",
+      "en": "There's some sort of riddle etched onto the door's surface...",
+      "ru": "На поверхности двери высечена какая-то загадка...",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0421",
+      "en": "\"You died at 6 o-clock that night. Only 4 people came to your funeral.",
+      "ru": "\"Ты умер в 6 часов той ночью. Лишь 4 человека пришли на твои похороны.\"",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0422",
+      "en": "You've successfully completed the puzzle! The door has now been opened.",
+      "ru": "Ты успешно решил головоломку! Дверь теперь открыта.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0423",
+      "en": "So there's a research outpost in what you assume is now Old Lexdale...? It might be worth it to go investigate that outpost for anything useful.",
+      "ru": "Значит, исследовательская база находится в том месте, которое теперь, похоже, зовётся Старым Лексдейлом...? Стоит осмотреть её - вдруг найдётся что-нибудь полезное.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0424",
+      "en": "...It seems that the exit has been opened up.",
+      "ru": "...Похоже, выход открылся.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0425",
+      "en": "This apparition before you isn't doing anything, though. Maybe you could try talking to it?",
+      "ru": "Но призрак перед тобой ничего не делает. Может, попробуешь с ним заговорить?",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0426",
+      "en": "That spirit didn't open the door? Then... what did? Or... who did?",
+      "ru": "Этот дух не открывал дверь? Тогда... что её открыло? Или... кто?",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0427",
+      "en": "You need to leave the study.",
+      "ru": "Тебе нужно покинуть кабинет.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0428",
+      "en": "You were knocked out...",
+      "ru": "Тебя вырубили...",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0429",
+      "en": "As you fall deeper into unconsciousness, a vision of the past begins to form in your mind...",
+      "ru": "Ты всё глубже проваливаешься в беспамятство, и в твоём сознании возникает видение прошлого...",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0430",
+      "en": "It seems like someone brought you back to the forest village. You should probably head to Garvan's research outpost in Old Lexdale.",
+      "ru": "Похоже, кто-то перенёс тебя обратно в лесную деревню. Наверное, стоит отправиться на исследовательскую базу Гарвана в Старом Лексдейле.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0431",
+      "en": "In order to progress, you must gather pieces of evidence that are surrounded by green particles. You can do this by right-clicking on them.",
+      "ru": "Чтобы продвинуться дальше, собери улики, окружённые зелёными частицами. Нажимай на них правой кнопкой мыши.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0432",
+      "en": "Occasionally, a wandering intruder will approach you in the outpost, and will catch you if it sees you. You will have to hide by right-clicking the closets covered in blue particles.",
+      "ru": "По базе время от времени бродит незваный гость. Если он увидит тебя, то схватит. Чтобы спрятаться, нажимай правой кнопкой мыши на шкафы, окружённые синими частицами.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0433",
+      "en": "You managed to gather all the evidence in the research outpost! You should review the material you gathered and figure out what Garvan was up to.",
+      "ru": "Тебе удалось собрать все улики на исследовательской базе! Изучи находки и выясни, чем занимался Гарван.",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0434",
+      "en": "As you begin to sift through your findings, a visualization of what you're reading forms in your mind...",
+      "ru": "Когда ты начинаешь перебирать свои находки, в твоём сознании складывается образ того, что ты читаешь...",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0435",
+      "en": "...If Eileen was given eternal life, then... She's most likely still alive. You should check around the manor for any clues as to where she might be right now.",
+      "ru": "...Если Эйлин даровали вечную жизнь, то... Скорее всего, она до сих пор жива. Тебе стоит осмотреть особняк в поисках любых зацепок о том, где она может быть сейчас.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0436",
+      "en": "And so it ends here. At the same time, it begins my desparate attempts to flee from my past.",
+      "ru": "И вот здесь всё кончается. И в то же время здесь начинаются мои отчаянные попытки сбежать от своего прошлого.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0437",
+      "en": "I tried to forget. I tried to forget everything, even my own name. I ignored Katarin's spirit calling out to me, demanding I return to her.",
+      "ru": "Я пытался забыть. Я пытался забыть всё, даже собственное имя. Я не слушал дух Катарин, что взывал ко мне, требуя, чтобы я вернулся к ней.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0438",
+      "en": "I became... nothing. A nobody. I had no purpose. I wandered the forest, pretending that nothing had ever gone wrong... Indeed, I had become a Wanderer.",
+      "ru": "Я стал... ничем. Никем. У меня не было цели. Я бродил по лесу, делая вид, будто ничего дурного не случилось... Да, я стал Скитальцем.",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0439",
+      "en": "It seems Garvan went in the direction to the master bedroom...",
+      "ru": "Похоже, Гарван направился в сторону хозяйской спальни...",
+      "speaker": "",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0440",
+      "en": "...the catacombs! Katarin must have fled to the catacombs in the basement! You need to follow her there.",
+      "ru": "...катакомбы! Должно быть, Катарин бежала в катакомбы в подвале! Тебе нужно последовать за ней туда.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0441",
+      "en": "Katarin seems furious. Does she not know exactly where the gemstone is?",
+      "ru": "Катарин, кажется, в ярости. Неужели она не знает точно, где самоцвет?",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0442",
+      "en": "... You know where it is. You need to show her where the gemstone is before she brings this room down on your head.",
+      "ru": "... Ты знаешь, где он. Тебе нужно показать ей, где самоцвет, прежде чем она обрушит эту комнату тебе на голову.",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0443",
+      "en": "The gemstone must be underneath this rubble, right?",
+      "ru": "Самоцвет, должно быть, под этими обломками, верно?",
+      "speaker": "",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0444",
+      "en": "...This is finally the end.",
+      "ru": "...Наконец-то всё закончилось.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0445",
+      "en": "It... doesn't feel right leaving everything as is. Perhaps you should give Garvan and Katarin a proper burial.",
+      "ru": "Как-то... неправильно оставлять всё как есть. Возможно, тебе стоит достойно похоронить Гарвана и Катарин.",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0446",
+      "en": "New Quest Started: Hollow Serenity",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Пустая безмятежность",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0447",
+      "en": "Correct! V is the first letter of the passcode!",
+      "ru": "Верно! V - первая буква кода!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0448",
+      "en": "Correct! D is the second letter of the passcode!",
+      "ru": "Верно! D - вторая буква кода!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0449",
+      "en": "Correct! A is the third letter of the passcode!",
+      "ru": "Верно! A - третья буква кода!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Something seems off in the abandoned manor at [-826, 45, -5145]",
+      "ru": "Выяснить, что не так с заброшенным особняком [-826, 45, -5145].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Investigate the Faltach Manor.",
+      "ru": "Осмотреть особняк Фалтач.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Investigate the Master Bedroom.",
+      "ru": "Осмотреть хозяйскую спальню.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Head to the forest village east of the manor at [-620, 43, -5166] and ask its residents about a man named Garvan.",
+      "ru": "Отправиться в лесную деревню к востоку от особняка [-620, 43, -5166] и расспросить жителей о Гарване.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Investigate the contents of the abandoned laboratory at [-691, 69, -5151]",
+      "ru": "Осмотреть заброшенную лабораторию [-691, 69, -5151].",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Hide.",
+      "ru": "Спрятаться.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Return to the Faltach Manor and find the entrance to the secret study at [-842, 36, -5122].",
+      "ru": "Вернуться в особняк Фалтач и найти вход в тайный кабинет [-842, 36, -5122].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Uncover the secrets of the study.",
+      "ru": "Раскрыть тайны кабинета.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Investigate the unlocked room in the study.",
+      "ru": "Осмотреть открывшуюся комнату в кабинете.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Get out of the study.",
+      "ru": "Выбраться из кабинета.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Make your way to Garvan's old research outpost at [-350, 50, -5574].",
+      "ru": "Добраться до старой исследовательской базы Гарвана [-350, 50, -5574].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Gather as much pieces of evidence as you can in the research outpost.",
+      "ru": "Собрать как можно больше улик на исследовательской базе.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Investigate your findings.",
+      "ru": "Изучить находки.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Return to the Manor and search for any clues as to Eileen's whereabouts at [-842, 45, -5145].",
+      "ru": "Вернуться в особняк и поискать следы Эйлин [-842, 45, -5145].",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Get to the Master Bedroom at [-878, 67, -5146].",
+      "ru": "Добраться до хозяйской спальни [-878, 67, -5146].",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Head to the Manor's catacombs at [-836, 36, -5134].",
+      "ru": "Спуститься в катакомбы особняка [-836, 36, -5134].",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Defeat Garvan.",
+      "ru": "Победить Гарвана.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Shatter the gemstone.",
+      "ru": "Разбить самоцвет.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Bury Garvan's body in Katarin's incomplete grave.",
+      "ru": "Похоронить Гарвана в недокопанной могиле Катарин.",
+      "stage": "Stage 19"
+    }
+  ],
+  "choices": [
+    {
+      "en": "...Should you tell him about the prison?",
+      "ru": "...Стоит ли рассказать ему о тюрьме?",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0401",
+      "id": "choice-0001"
+    }
+  ]
+}

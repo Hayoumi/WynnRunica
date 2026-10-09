@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "quest-items-celebrations-in-smoke",
+  "scopes": [
+    {
+      "id": "green-fox",
+      "match": {
+        "title": "Green Fox",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Green Fox",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "support-question",
+          "en": "Do you support the gregarious green fox?",
+          "ru": "Будешь болеть за общительную зелёную лису?"
+        }
+      ]
+    },
+    {
+      "id": "blue-fox",
+      "match": {
+        "title": "Blue Fox",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Blue Fox",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "support-question",
+          "en": "Do you support the bashful blue fox?",
+          "ru": "Будешь болеть за застенчивую синюю лису?"
+        }
+      ]
+    },
+    {
+      "id": "purple-fox",
+      "match": {
+        "title": "Purple Fox",
+        "anchors": [],
+        "priority": 700
+      },
+      "title": {
+        "id": "title",
+        "en": "Purple Fox",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "support-question",
+          "en": "Do you support the prideful purple fox?",
+          "ru": "Будешь болеть за горделивую фиолетовую лису?"
+        }
+      ]
+    }
+  ]
+}

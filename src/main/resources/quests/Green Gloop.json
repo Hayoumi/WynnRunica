@@ -1,0 +1,241 @@
+{
+  "quest": "Green Gloop",
+  "level": 31,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "green-gloop",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Oh, hey! You, adventurer over there! Would you mind helping me?",
+      "ru": "О, эй! Ты, приключенец вон там! Не поможешь мне?",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "You see, this cave behind me has been troubling me for the past while now.",
+      "ru": "Видишь ли, эта пещера у меня за спиной уже какое-то время не даёт мне покоя.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "There are special slimes that live in there, and they drop a certain goo that is quite a delicacy when brewed into a drink!",
+      "ru": "Там живут особые слаймы. Из их слизи варят напиток - настоящий деликатес!",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "They are called Gooey Slimes, and should be at the very back. A friend of mine drinks the stuff like water, and he refuses to work without it.",
+      "ru": "Они называются липкие слаймы и сидят в самой глубине. Один мой друг хлещет эту штуку как воду и без неё вообще отказывается работать.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "However, the slimes have gotten stronger about a month ago. I'm unable to retrieve it any more, I've come close to getting killed a few times!",
+      "ru": "Но примерно месяц назад слаймы стали сильнее. Я больше не могу сам добывать слизь, пару раз меня там чуть не прикончили!",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "You, however, seem much better equipped than I. Hopefully you can do it.",
+      "ru": "А вот ты выглядишь куда лучше снаряжённым, чем я. Надеюсь, у тебя получится.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "If you decide to help me, you'll need to obtain a special device for retrieving it, as the slime will dry up quickly in the air.",
+      "ru": "Если решишь помочь, тебе понадобится специальная штука для сбора, потому что слизь быстро высыхает на воздухе.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "A...less fickle glassblower, Yodbon, can make it for you. He should be living in a house in front of the Almuj bank.",
+      "ru": "Один... менее капризный стеклодув, Йодбон, может её тебе сделать. Он живёт в доме напротив банка Алмуджа.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I'll need [8 Slimey Goo] since we'll need a big batch of drinks. If you help, I'll be sure to tell my friend, and he'll probably let you into his shop.",
+      "ru": "Мне нужно [8 Slimey Goo], потому что понадобится большая партия напитка. Если поможешь, я замолвлю словечко перед другом, и он, скорее всего, пустит тебя в свою лавку.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Welcome to Yodbon's Glass Blowery, what can I do f-",
+      "ru": "Добро пожаловать в стеклодувню Йодбона, чем могу по-",
+      "speaker": "Yodbon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Oh, another stinkin' adventurer, eh...",
+      "ru": "О, ещё один вонючий приключенец, а...",
+      "speaker": "Yodbon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "So many've been coming up to me recently, askin' for a bloody Slime Scooper...",
+      "ru": "В последнее время дофига народу ко мне прётся за этим чёртовым слизесборником...",
+      "speaker": "Yodbon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Izzat brother o' mine stopped workin' again? I swear, he's addicted to that slop...",
+      "ru": "Это что, мой братец опять работать перестал? Клянусь, он уже зависим от этой бурды...",
+      "speaker": "Yodbon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Anyways, for me to make you a scooper you'll need to get [5 Soft Sand].",
+      "ru": "Короче, чтобы я сделал тебе сборник, принеси [5 Soft Sand].",
+      "speaker": "Yodbon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Come back to me once you've gotten ahold of it. You can dig it up from those sand piles 'round the desert.",
+      "ru": "Вернёшься, когда добудешь. Копай вон те песчаные кучи по пустыне.",
+      "speaker": "Yodbon",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "You've returned, I see.",
+      "ru": "Вернулся, значит.",
+      "speaker": "Yodbon",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "A'ight, fork 'em over and I'll make you the scooper.",
+      "ru": "Ну давай, сыпь сюда, и я сделаю тебе сборник.",
+      "speaker": "Yodbon",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "..There you go. No idea why he wants that stuff though. Maybe it's an acquired taste...",
+      "ru": "...Вот, держи. Без понятия, зачем ему эта дрянь. Может, это просто на любителя...",
+      "speaker": "Yodbon",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "G'luck on whatever you're doing.",
+      "ru": "Удачи тебе с твоими делами.",
+      "speaker": "Yodbon",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Oh, you're back! Good to see you were able to get through there. Have you got a full Slime Scooper?",
+      "ru": "О, ты вернулся! Хорошо, что сумел там пробиться. Полный слизесборник у тебя?",
+      "speaker": "Eluzterp",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Hmm, yes, everything seems to be in order. Perfect!",
+      "ru": "Хмм, да, всё вроде как надо. Идеально!",
+      "speaker": "Eluzterp",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Thank you very much. Finally, I'll be able to get him in gear again... Why are all Villagers so fickle like that?",
+      "ru": "Спасибо тебе огромное. Наконец-то он снова возьмётся за работу... Почему все жители такие капризные, а?",
+      "speaker": "Eluzterp",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Well, I suppose that's beside the point. I'll be sure to let him know you got him his most recent fix.",
+      "ru": "Ладно, неважно. Я обязательно скажу ему, что это ты добыл ему свежую дозу.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "He hangs around in a little black stall in the bazaar, there's a basement to it. He should let you inside now.",
+      "ru": "Он сидит в маленькой чёрной лавке на базаре. Там ещё подвал есть. Теперь он должен пустить тебя внутрь.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "And, for your troubles, a little something from me as well.",
+      "ru": "И за хлопоты - вот тебе ещё кое-что от меня.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Ah, hello again. This latest batch of drinks apparently really revitalized him. He said he's looking to make some great craft.",
+      "ru": "А, снова привет. Последняя партия напитка, похоже, и вправду вернула ему силы. Говорит, собирается смастерить что-то особенное.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Those Villagers are a little bit crazy though... I have no idea what kind of material it is that he insists he needs for it.",
+      "ru": "Хотя эти жители всё-таки с чудинкой... Понятия не имею, что это за материал ему так понадобился.",
+      "speaker": "Eluzterp",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Oh, it's you again. Yes, my brother there just loves makin' his little trinkets. He oughta make somethin' useful out of his glass instead...",
+      "ru": "О, опять ты. Да, мой братец обожает клепать свои безделушки. Лучше бы сделал из стекла что-то реально полезное...",
+      "speaker": "Yodbon",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "New Quest Started: Green Gloop",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Зелёная слизь",
+      "speaker": "",
+      "stage": "Stage 4"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Eluzterp at [1172, 80, -2027]",
+      "ru": "Поговорить с Элузтерпом [1172, 80, -2027].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Yodbon near the Almuj Bank at [985, 86, -1946]",
+      "ru": "Найти Йодбона у банка Алмуджа [985, 86, -1946].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Bring [5 Soft Sand] from enemies in the desert to Yodbon at [985, 86, -1946]",
+      "ru": "Принести Йодбону [5 Soft Sand] с врагов в пустыне [985, 86, -1946].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Fetch [8 Slimey Goo] for Eluzterp from the cave at [1162, 79, -2034]",
+      "ru": "Добыть для Элузтерпа [8 Slimey Goo] в пещере [1162, 79, -2034].",
+      "stage": "Stage 4"
+    }
+  ],
+  "choices": []
+}

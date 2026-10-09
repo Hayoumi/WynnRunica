@@ -1,0 +1,1573 @@
+{
+  "quest": "The Canary Calls",
+  "level": 85,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-canary-calls",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Phew... Everyone make it out alright? That was...one hell of a sprint. I'm absolutely knackered.",
+      "ru": "Фух... Все целы? Это был... адский забег. Я совершенно вымотался.",
+      "speaker": "Daffyd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I'm not sure, mate. I left a bunch of my stuff down there. Who knows if I'll get it back.",
+      "ru": "Не уверен, дружище. Я кучу своих вещей там внизу оставил. Кто знает, верну ли их вообще.",
+      "speaker": "Micho",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Forget about that, what are we gonna tell the chief? That chopsy old fool is gonna kill us if he sees us not working.",
+      "ru": "Да забудь ты об этом, что мы начальнику скажем? Этот ворчливый старый дурак нас убьёт, если увидит без дела.",
+      "speaker": "Daffyd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Oi, you! Listen, there was some kind of explosion down in the mines. We're not sure what it is or where it came from, but it surely didn't sound good.",
+      "ru": "Эй, ты! Слушай, внизу в шахтах прогремел какой-то взрыв. Мы не знаем, что взорвалось и где, но звук был очень недобрый.",
+      "speaker": "Daffyd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "The four of us were the only blokes down in the mines, so everyone should be out safely. But I reckon we can't go back if the issue isn't resolved.",
+      "ru": "В шахтах были только мы четверо, так что все должны были выбраться. Но, думаю, обратно нам нельзя, пока проблему не решат.",
+      "speaker": "Daffyd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "You must go to the chief and tell him about the situation. Head down this mineshaft and turn left, and he should be there.",
+      "ru": "Тебе надо сходить к начальнику и рассказать ему, что случилось. Спустись по этой шахте и поверни налево, он должен быть там.",
+      "speaker": "Daffyd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Just, uh... Make sure not to mention us by name. Now, if you'll excuse us, we'll...be on our way.",
+      "ru": "Только, эм... Не называй нас по именам. А теперь, если не возражаешь, мы... пойдём отсюда.",
+      "speaker": "Daffyd",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "That's right, keep it moving! The whole of Thesead is going to run out of coal at this pace!",
+      "ru": "Вот так, шевелитесь! Такими темпами весь Тесеад останется без угля!",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Eh? What do you want? Only registered miners are allowed beyond this point. Speak up or get off the premises.",
+      "ru": "А? Чего тебе? Дальше пускают только тех, кто записан в шахтёры. Говори или уходи отсюда.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "...An explosion? In the mines? Just now?",
+      "ru": "...Взрыв? В шахтах? Прямо сейчас?",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "EMERGENCY BREAK TIME, YOU GERBILS! EVERYONE COME AND MEET ME BY THE ENTRANCE! NOW!!!",
+      "ru": "СРОЧНЫЙ ПЕРЕРЫВ, ПЕСЧАНКИ! ВСЕМ СОБРАТЬСЯ У МЕНЯ У ВХОДА! ЖИВО!!!",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Alright, you lot better listen bloody carefully. An explosion has been reported in the mines. You all know what that means, yes?",
+      "ru": "Так, слушайте сюда очень внимательно, чёрт побери. В шахтах прогремел взрыв. Все знаете, что это значит, да?",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Early dismissal?",
+      "ru": "Раньше домой?",
+      "speaker": "Coal Miner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Month-long vacation?",
+      "ru": "Отпуск на месяц?",
+      "speaker": "Coal Miner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Paid leave?!",
+      "ru": "Оплачиваемый отпуск?!",
+      "speaker": "Coal Miner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "...Am I getting fired?",
+      "ru": "...Меня увольняют?",
+      "speaker": "Coal Miner",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "No, you bunch of ingrates! One of you needs to take the ol' canary down to the mines and see whatever the hell's going on.",
+      "ru": "Нет, неблагодарные вы люди! Кому-то из вас нужно взять старую канарейку, спуститься в шахты и выяснить, что там, чёрт побери, происходит.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Now, which one of you blokes would be willing to-",
+      "ru": "Так, кто из вас, ребята, готов-",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "NOT IT!",
+      "ru": "ТОЛЬКО НЕ Я!",
+      "speaker": "Coal Miners",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Right then. I guess that leaves you, young lad. What do you say? Want a job?",
+      "ru": "Ну ладно. Похоже, остаёшься ты, парень. Что скажешь? Хочешь работёнку?",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "I'm in!",
+      "ru": "Я в деле!",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Very good! Come on then, let me introduce you to our little feathered mascot.",
+      "ru": "Отлично! Тогда пошли, познакомлю тебя с нашим маленьким пернатым талисманом.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "No thanks.",
+      "ru": "Нет, спасибо.",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "You sure? I'll pay a lot, and it won't be dangerous. Even if it is, you've got all that armor on you!",
+      "ru": "Уверен? Я хорошо заплачу, и это не опасно. А даже если опасно, на тебе вон сколько брони!",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "You're right. I'll do it.",
+      "ru": "Ты прав. Я сделаю это.",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "That's the spirit! Come on then, let me introduce you to our little feathered mascot.",
+      "ru": "Вот это настрой! Тогда пошли, познакомлю тебя с нашим маленьким пернатым талисманом.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Still no.",
+      "ru": "Всё равно нет.",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "You'll get a bloody mountain of emeralds, god damn it! This is a once in a lifetime opportunity! Do you want it or not?",
+      "ru": "Ты получишь целую гору изумрудов, чёрт побери! Такой шанс раз в жизни выпадает! Берёшься или нет?",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Okay, fine.",
+      "ru": "Ладно, хорошо.",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Good. Now, hurry up and follow me.",
+      "ru": "Хорошо. А теперь быстро за мной.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "No, I don't care.",
+      "ru": "Нет, мне плевать.",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "You know what? This is ridiculous. The whole of Thesead is at danger, and you're playing games with ME?! I know you can do it. Follow me. Now.",
+      "ru": "Знаешь что? Это уже нелепо. Весь Тесеад в опасности, а ты вздумал играть со МНОЙ?! Я знаю, ты справишься. За мной. Сейчас же.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "...",
+      "ru": "...",
+      "speaker": "CHOICE",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Scared speechless, eh? Don't worry, it'll be an easy job. Come on, follow me to the canary's cage.",
+      "ru": "От страха дар речи потерял, а? Не переживай, работа лёгкая. Давай, иди за мной к клетке канарейки.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Meet our canary! She's such a beaut.",
+      "ru": "Знакомься, наша канарейка! Ну красотка же.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "You see, whenever we hear news of an explosion we always bring our canary with us to check it out. They can detect potential gases much earlier than we can.",
+      "ru": "Видишь ли, когда мы слышим о взрыве, мы всегда берём с собой канарейку проверить обстановку. Они чувствуют опасные газы гораздо раньше нас.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Let me just get the key and-",
+      "ru": "Сейчас только ключ достану и-",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "WAIT, WHAT? WHERE'S THE BLOODY KEY? WHICH ONE OF YOUR LOT IS RESPONSIBLE?! I SWEAR I'M GONNA...",
+      "ru": "СТОП, ЧТО? ГДЕ ЧЁРТОВ КЛЮЧ? КТО ИЗ ВАС ЗА ЭТО ОТВЕЧАЕТ?! КЛЯНУСЬ, Я СЕЙЧАС...",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "...Listen up, lad. Take this toothpick I've been chewing on. I need you to pick the cage's lock. It's a little wet, but it should do the trick. Understood? Good, now hurry up!",
+      "ru": "...Слушай, парень. Возьми эту зубочистку, я её тут жевал. Надо вскрыть замок клетки. Она немного мокрая, но сработать должна. Понял? Отлично, теперь быстрее!",
+      "speaker": "Chief Clight",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Doing just fine, lad. Almost there...",
+      "ru": "Хорошо получается, парень. Ещё чуть-чуть...",
+      "speaker": "Chief Clight",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Little old birdie is getting quite excited! Keep it up.",
+      "ru": "Старая птичка уже вся в нетерпении! Продолжай.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Right then, lad! It's time to begin the-",
+      "ru": "Ну что, парень! Пора начинать-",
+      "speaker": "Chief Clight",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "OW! Bloody hell! Those are some freakishly sharp claws! What are you playing at-",
+      "ru": "АЙ! Чёрт возьми! Да у неё когти как ножи! Ты что творишь-",
+      "speaker": "Chief Clight",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Well, I think she likes you, lad. Doesn't like me, apparently.",
+      "ru": "Ну, похоже, ты ей нравишься, парень. А я, видимо, нет.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I was going to feed her, but I suppose you can do the honors. Or not, seeing as she's been particularly troublesome...",
+      "ru": "Я собирался её покормить, но пусть эта честь достанется тебе. Хотя можешь и не кормить, раз она так вредничает...",
+      "speaker": "Chief Clight",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Anyway, do as you please. I'll be waiting by the elevator in the mineshaft. Hurry up, and don't make me wait!",
+      "ru": "Короче, делай как хочешь. Я буду ждать у лифта в шахте. Поторопись и не заставляй меня ждать!",
+      "speaker": "Chief Clight",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Right then, lad! I suppose you might want to know more about this job.",
+      "ru": "Ну что, парень! Думаю, тебе стоит узнать побольше об этой работе.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "As I said before, when unknown explosions occur in the mines, that's usually a sign that something bad happened.",
+      "ru": "Как я уже говорил, если в шахтах непонятно от чего что-то взрывается, обычно это значит, что стряслось что-то плохое.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Most of the time, an awfully putrid gas appears. This is where our canary comes in. Once she verifies that a gas is present, we decide whether or not to temporarily close the mine.",
+      "ru": "Чаще всего появляется газ с жутким запахом. Вот тут и нужна наша канарейка. Когда она показывает, что газ есть, мы решаем, нужно ли временно закрыть шахту.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "I presume you met Daffyd and his group, correct? Thankfully, they were the only ones down in the mines.",
+      "ru": "Полагаю, ты уже встретил Даффида и его компанию, верно? К счастью, в шахтах были только они.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "...Wait, where the hell even are they? Did I not tell them to...",
+      "ru": "...Стоп, а где они вообще, чёрт возьми? Разве я не сказал им...",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Eh, doesn't matter. Lad, point is, I want you to check whether the gas is still there, if at all.",
+      "ru": "Эх, неважно. Парень, суть в том, что ты должен проверить, есть ли там ещё газ, если он вообще был.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "We'll use the elevator behind me to get down to the mines. Just let me pull this here lever to activate it...",
+      "ru": "Мы спустимся в шахты на лифте позади меня. Сейчас только дёрну этот рычаг, чтобы его запустить...",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "...WHY ISN'T THIS BLOODY CONTRAPTION WORKING??! WORK, WORK, GOD DAMN IT!!",
+      "ru": "...ПОЧЕМУ ЭТА ЧЁРТОВА ШТУКОВИНА НЕ РАБОТАЕТ?! РАБОТАЙ, РАБОТАЙ, ЧТОБ ТЕБЯ!!",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Must've been Daffyd and his group... No worries, lad. I've got, uh... a last resort, so to speak.",
+      "ru": "Наверняка Даффид со своими постарался... Не переживай, парень. У меня есть, эм... запасной вариант, так сказать.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "You'll need to ride a minecart down into the mines. Thing is, we haven't used them to transport people in...years.",
+      "ru": "Тебе придётся спуститься в шахты на вагонетке. Проблема в том, что мы не использовали их для перевозки людей уже... много лет.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Why? Erm, well... See for yourself.",
+      "ru": "Почему? Эм, ну... Сам увидишь.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Our transporter minecarts are manual. Miners around here prefer automatic.",
+      "ru": "У наших вагонеток ручное управление. А местные шахтёры предпочитают автоматическое.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "For you, it should be no issue controlling it. There's instructions attached to the gear stick.",
+      "ru": "Но ты без труда с ним справишься. Инструкция прикреплена к рычагу переключения передач.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Now then, go into the mineshaft, following the rails behind me. You'll be able to summon a minecart there.",
+      "ru": "А теперь иди в шахту по рельсам за моей спиной. Там сможешь вызвать вагонетку.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Otherworldly voices linger around you...",
+      "ru": "Вокруг тебя витает потусторонний шёпот...",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Hello.",
+      "ru": "Привет.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Forgive my interference.",
+      "ru": "Прости за вмешательство.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "I am but a figment of your imagination. To you, I am not real.",
+      "ru": "Я всего лишь плод твоего воображения. Для тебя я нереальна.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "The mysterious force that brought death upon me... It changed me.",
+      "ru": "Та загадочная сила, что принесла мне смерть... изменила меня.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "So too will it change you. I will make that happen. Just for you.",
+      "ru": "Она изменит и тебя. Я прослежу, чтобы так и случилось. Специально для тебя.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "No need to thank me. It is the least I can do.",
+      "ru": "Не благодари. Это меньшее, что я могу сделать.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Moments like these are cherished. Savor the moment with me. Would you like to die with me?",
+      "ru": "Такие мгновения бесценны. Насладись этим мигом вместе со мной. Хочешь умереть со мной?",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "No, I won't go that easily.",
+      "ru": "Нет, так легко я не сдамся.",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "I see. So you want to make this an unforgettable experience. I appreciate the thoughtfulness.",
+      "ru": "Понимаю. Значит, ты хочешь, чтобы это запомнилось навсегда. Как заботливо с твоей стороны.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Let's have some fun.",
+      "ru": "Давай повеселимся.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Yes, but make it quick...",
+      "ru": "Да, но давай быстро...",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "I was hoping we could stay for a little longer. If that is your choice, then so be it.",
+      "ru": "Я надеялась, что мы побудем здесь подольше. Но если это твой выбор, пусть будет так.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "See you on the other side.",
+      "ru": "Увидимся на той стороне.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Yes, but lets do it slowly.",
+      "ru": "Да, но давай медленно.",
+      "speaker": "CHOICE",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "I would be more than glad to. Sit back and relax.",
+      "ru": "С огромной радостью. Устраивайся поудобнее и расслабься.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "How was your day today?",
+      "ru": "Как прошёл твой день?",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Mine could have been better. Cramped up in a cage all day, then suddenly witnessing my death in front of an incompetent human.",
+      "ru": "Мой мог бы быть и лучше. Весь день в тесной клетке, а потом вдруг увидеть собственную смерть на глазах у человека, который ни на что не способен.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "You couldn't even save me. How pathetic.",
+      "ru": "Ты даже не смог меня спасти. Как жалко.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "So, anyway, do you come here often?",
+      "ru": "Ну так что, часто здесь бываешь?",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Oh, wait. This is your first time. As well as your last time. That's very poetic. Do you want to become a poet?",
+      "ru": "Ой, стоп. Ты здесь впервые. И в последний раз. Очень поэтично. Хочешь стать поэтом?",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "I know a good poem. Want to hear it?",
+      "ru": "Я знаю хороший стих. Хочешь послушать?",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "You don't die often,",
+      "ru": "Ты умираешь нечасто,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "You have maximum soul points,",
+      "ru": "Все очки души при тебе,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "That's about to change.",
+      "ru": "Скоро это изменится.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "You mess up sometimes,",
+      "ru": "Ты иногда ошибаешься,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Mistakes are part of Life,",
+      "ru": "Ошибки - часть жизни,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Death is a part too.",
+      "ru": "И смерть - тоже.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Your soul points are low,",
+      "ru": "Очков души мало,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "You will lose a lot of things,",
+      "ru": "Ты многое потеряешь,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Better not get killed.",
+      "ru": "Лучше не умирай.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "You're a casual,",
+      "ru": "Ты играешь ради отдыха,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "You likely hate professions,",
+      "ru": "Наверное, профессий не любишь,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "At least you're with me.",
+      "ru": "Зато ты со мной.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "You are well-rounded,",
+      "ru": "Ты многое умеешь,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "You are skilled at everything,",
+      "ru": "И во всём ты хорош,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "The jack of all trades.",
+      "ru": "Мастер на все руки.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Your level is maxed,",
+      "ru": "Твой уровень на пределе,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "You spend hours getting that,",
+      "ru": "Ты потратил на это часы,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Don't know why you're here.",
+      "ru": "Не знаю, зачем ты здесь.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "You love professions,",
+      "ru": "Ты любишь профессии,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "Love that cannot be defined,",
+      "ru": "Любовь не описать словами,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Please go take a break.",
+      "ru": "Пожалуйста, отдохни.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "You are average,",
+      "ru": "Ты ничем не выделяешься,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "The most average Joe I've seen,",
+      "ru": "Обычнее всех, кого я видела,",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "What more can I say.",
+      "ru": "Что ещё тут сказать.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "How was that? It was beautiful, wasn't it?",
+      "ru": "Ну как? Красиво же, правда?",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Silence is bliss. You must not have very many friends.",
+      "ru": "Молчание - блаженство. Друзей у тебя, наверное, не особо много.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "That's okay. I am your friend. Am I your friend? Please say yes. I'm very lonely.",
+      "ru": "Ничего страшного. Я твой друг. Я ведь твой друг? Пожалуйста, скажи да. Мне очень одиноко.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "I had friends too, once. They were all taken by a bunch of selfish coal miners. Then died to their incompetence.",
+      "ru": "У меня тоже когда-то были друзья. Всех забрали эгоистичные шахтёры. А потом погубили их своим неумением.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "But you are different. You are not like the others. I like you. I love you. I love you so much.",
+      "ru": "Но ты другой. Ты не такой, как остальные. Ты мне нравишься. Я люблю тебя. Я так сильно тебя люблю.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Love is patient.",
+      "ru": "Любовь терпелива.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Love is kind.",
+      "ru": "Любовь добра.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "Love does not envy.",
+      "ru": "Любовь не завидует.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Love does not boast.",
+      "ru": "Любовь не хвастается.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Love is not arrogant.",
+      "ru": "Любовь не надменна.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Love is not rude.",
+      "ru": "Любовь не груба.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Love is not irritable.",
+      "ru": "Любовь не раздражительна.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "Love is not resentful.",
+      "ru": "Любовь не злопамятна.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "Ḯ̸̫̦͘t bears a̴̝̚ll thin̶̹͒̄ͅgs.",
+      "ru": "О̸̫̦͘на всё т̴̝̚е̶̹͒̄ͅрпит.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "I̷͚͈̋̑t̵̏͂ͅ hopes a̸̯̔l̸̛̠͉l thin̶̹͒̄ͅg̶̙̣͂s̷̲͎͐.̵̫̿̆",
+      "ru": "О̷͚͈̋̑на н̵̏͂ͅа̸̯̔д̸̛̠͉еется н̶̹͒̄ͅа в̶̙̣͂с̷̲͎͐ё.̵̫̿̆",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "I̷͚͈̋̑t̵̏͂ͅ endures a̶̗̍l̷̡̢̚l̴̤͉̓ th̸͓͓́̓ì̸̠́n̸̡̖̽gs.",
+      "ru": "О̷͚͈̋̑на в̵̏͂ͅы̶̗̍н̷̡̢̚о̴̤͉̓сит в̸͓͓́̓с̸̠́ё̸̡̖̽.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "I̸͚̎̆t̶̳̼͌ ̷͕̀́í̷̙͂s̷͉̹͂ everlasting.",
+      "ru": "О̸͚̎̆на в̶̳̼͌ѐ̷͕́ч̷̙͂н̷͉̹͂а.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Goodbye.",
+      "ru": "Прощай.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Hello again.",
+      "ru": "И снова привет.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "I will give you another chance to redeem yourself.",
+      "ru": "Я дам тебе ещё один шанс искупить вину.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "So kindly, I will tell you again.",
+      "ru": "По доброте своей скажу ещё раз.",
+      "speaker": "Canary",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "Let's do a little warm-up, shall we?",
+      "ru": "Давай немного разомнёмся, хорошо?",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Liked the dance party? Those moves were so utterly terrible, I may as well dub them 'The <playername>'.",
+      "ru": "Понравилась танцевальная вечеринка? Движения были настолько ужасны, что я, пожалуй, назову их \"танец <playername>\".",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "Let's do something I like to call, 'The Canary'.",
+      "ru": "Давай станцуем то, что я называю \"Канарейкой\".",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Hands off those, if you would be so kind.",
+      "ru": "Не трогай это, будь добр.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Amazing... That really hit different.",
+      "ru": "Потрясающе... Это совсем другое ощущение.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "It fẽ̵̻̗̤̠̦͋ͯlt nice the fi̶̘͇͓̮̙̲̯ͮͅrst time, but no̠̪͓̙͚̻ͮ̕w it's...diffẽ̵̻̗̤̠̦͋ͯrent.",
+      "ru": "В пẽ̵̻̗̤̠̦͋ͯервый р̶̘͇͓̮̙̲̯ͮͅаз было приятно, но с̠̪͓̙͚̻ͮ̕ейчас это...иначẽ̵̻̗̤̠̦͋ͯ.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "Serǐ̱̟͓̲͈͇̱ͦͤͭ̀o̡͈̭̙͍̭̎̊ͅusly... Enou̅̏̒̏͏̬̘̞͈̹gh is enȍ̝̺̥̮̝̇ͪ͂͘u͇̱̭̘̣̺ͣ͘gh.",
+      "ru": "Серǐ̱̟͓̲͈͇̱ͦͤͭ̀ь̡͈̭̙͍̭̎̊ͅёзно... Хва̅̏̒̏͏̬̘̞͈̹тит, знȍ̝̺̥̮̝̇ͪ͂͘а͇̱̭̘̣̺ͣ͘чит хватит.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "Okay, w̵̥̟͎̖̤̺͚̞̿ͩͧͩh̼̟̥̤̺͑ͪ̀o̶͖͇̝̦͉ͯͅ e̲̖̘̹̰͉̦̓̏̚͜v͉͙̤͈̝̏͝en put thḛ͉ͤ̓͝sͨ̋ͨ͏̟̝ͅe there in the fi͛҉̬̬͕͙r̬̖̦̬̞͈̜̠ͤ̇̽͝s̭̞͎ͯ̓́ͅt place?",
+      "ru": "Ладно, к̵̥̟͎̖̤̺͚̞̿ͩͧͩт̼̟̥̤̺͑ͪ̀о̶͖͇̝̦͉ͯͅ в̲̖̘̹̰͉̦̓̏̚͜о͉͙̤͈̝̏͝обще пḛ͉ͤ̓͝оͨ̋ͨ͏̟̝ͅставил это т͛҉̬̬͕͙у̬̖̦̬̞͈̜̠ͤ̇̽͝т̭̞͎ͯ̓́ͅ?",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "I'm alr̡̺̬̯̺̄̒̋ͦe͊͏͕̫̲̬̘̼̙ady dead, hò̬̯̺̄͡w͉̲̙̮̭̆̿̆͠ ̧͔͍̃̿̾ͯi̮̻͙̝̼ͧ̐̆̀s̡̼̰̱̓̚ ̔̿̏̃͏̗̗̙͇͖̹̗t͎̤̯̣͓̋̋͡ĥ̷̰͉̍̿̋is even pos̢̺̥̝̞̘̥̭ͦ̋ͦş̬̩̣̜̀̑ͪͯible?",
+      "ru": "Я уже̡̺̬̯̺̄̒̋ͦ м͊͏͕̫̲̬̘̼̙ертва, кò̬̯̺̄͡ӑ͉̲̙̮̭̿̆͠к ̧͔͍̃̿̾ͯэ̮̻͙̝̼ͧ̐̆̀т̡̼̰̱̓̚о ̔̿̏̃͏̗̗̙͇͖̹̗в͎̤̯̣͓̋̋͡о̷̰͉̍̿̋обще воз̢̺̥̝̞̘̥̭ͦ̋ͦмş̬̩̣̜̀̑ͪͯожно?",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "I'm no͈̬̞̜̗̯̻̥ͨ̎̇ͣ͡t ḛ͉̳̖̝̪̫̫̏̐͞v̵̮͇̘͗̉ͪ̉ë̷̥̹̲̞ñͮ̍ͯ͏̘͙̖̗̺ REAL!",
+      "ru": "Я д͈̬̞̜̗̯̻̥ͨ̎̇ͣ͡аже нḛ͉̳̖̝̪̫̫̏̐͞е̵̮͇̘͗̉ͪ̉ н̷̥̹̲̞аͮ̍ͯ͏̘͙̖̗̺стоящая!",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "Indeed, you are the one who can destroy the Colossus. (In High Gavellian)",
+      "ru": "Воистину, ты тот, кто может уничтожить Колосса. (На высшем гавелльском)",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "I suppose this is it.",
+      "ru": "Полагаю, вот и всё.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "It's been fun, kid.",
+      "ru": "Было весело, малыш.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "Alas, time runs short.",
+      "ru": "Увы, время на исходе.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "You are about to enter the cruel, real world.",
+      "ru": "Скоро ты войдёшь в жестокий реальный мир.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "Kill me now, so we can spend our final moments together in bliss.",
+      "ru": "Убей меня сейчас, чтобы мы провели последние мгновения вместе в блаженстве.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "Very well.",
+      "ru": "Хорошо.",
+      "speaker": "CHOICE",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "Fantastic. You are the pinnacle of humankind.",
+      "ru": "Великолепно. Ты лучший представитель человечества.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "Have fun.",
+      "ru": "Повеселись.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "No, I will not.",
+      "ru": "Нет, не буду.",
+      "speaker": "CHOICE",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Kill me. Now.",
+      "ru": "Убей меня. Сейчас.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "No.",
+      "ru": "Нет.",
+      "speaker": "CHOICE",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Kill me now or you'll live to regret it.",
+      "ru": "Убей меня сейчас, иначе пожалеешь.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "Kill me now or I'll destroy Thesead.",
+      "ru": "Убей меня сейчас, или я уничтожу Тесеад.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Kill me now or I'll destroy Gavel.",
+      "ru": "Убей меня сейчас, или я уничтожу Гавел.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Kill me now or I'll ruin every single province.",
+      "ru": "Убей меня сейчас, или я разрушу каждую провинцию.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "Kill me now or I'll destroy the world.",
+      "ru": "Убей меня сейчас, или я уничтожу мир.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "Okay so you don't care about the world. In that case, kill me now or I'll kill your friends.",
+      "ru": "Ладно, значит, тебе плевать на мир. Тогда убей меня сейчас, или я убью твоих друзей.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "Kill me now or I'll kill everyone in {Your Guild}.",
+      "ru": "Убей меня сейчас, или я убью всех в {твоей гильдии}.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Kill me now or I'll do LITERALLY ANYTHING!",
+      "ru": "Убей меня сейчас, или я сделаю БУКВАЛЬНО ЧТО УГОДНО!",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "No no. No no no no no. No. It's too late.",
+      "ru": "Нет-нет. Нет-нет-нет-нет-нет. Нет. Слишком поздно.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "I just wanted to play again. Oh well.",
+      "ru": "Я просто хотела снова поиграть. Ну ладно.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "At least I'll be in your memories. Forever. And ever.",
+      "ru": "Зато я останусь в твоих воспоминаниях. Навсегда. На веки вечные.",
+      "speaker": "Canary",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "...Hey! They're waking up!",
+      "ru": "...Эй! Он приходит в себя!",
+      "speaker": "???",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Keep performing CPR, they're almost awake!",
+      "ru": "Не прекращай реанимацию, он почти очнулся!",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "No way! I actually did it! I saved their life!",
+      "ru": "Не может быть! У меня получилось! Я спас ему жизнь!",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "We better get a raise for this!",
+      "ru": "Нам за это лучше бы подняли зарплату!",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "What the?! Who the hell let you in my house?",
+      "ru": "Какого?! Кто вас, чёрт возьми, пустил в мой дом?",
+      "speaker": "Chief Clight",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Boss! I can explain!",
+      "ru": "Начальник! Я могу объяснить!",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "No, you can't. Get outta here before I start lowering your salary.",
+      "ru": "Нет, не можешь. Вали отсюда, пока я не начал урезать тебе зарплату.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "But, boss! I saved-",
+      "ru": "Но, начальник! Я спас-",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "GO!!",
+      "ru": "ВОН!!",
+      "speaker": "Chief Clight",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "Well then, lad! Despite their incompetence, they still managed to save your skin.",
+      "ru": "Ну что, парень! Хоть они толком ничего и не умеют, твою шкуру всё же спасли.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "Come speak to me for a quick debriefing.",
+      "ru": "Подойди ко мне, быстро обсудим, что случилось.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "I sent my miners down to save you as soon as we felt that earthquake. It was so strong that I genuinely thought the world was ending.",
+      "ru": "Я отправил шахтёров спасать тебя, как только мы почувствовали землетрясение. Оно было таким сильным, что я всерьёз подумал: настал конец света.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "I'm jolly sorry for forcing you to take on this job. This whole situation was completely unexpected.",
+      "ru": "Мне очень жаль, что я заставил тебя взяться за эту работу. Никто не ожидал, что всё так обернётся.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Typically, gases are cleared up almost instantly. This time, however, it seemed to have been a lot more potent... But how?",
+      "ru": "Обычно газ почти сразу рассеивается. Но на этот раз он, похоже, действовал куда сильнее... Почему?",
+      "speaker": "Chief Clight",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "...The Colossus. It stirs once more. That thing... It has already caused too much hardship for this area to handle.",
+      "ru": "...Колосс. Он снова шевелится. Эта штука... Она уже принесла этому краю больше бед, чем он способен вынести.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "It must be destroyed, once and for all. How will that happen, I do not know. But you...",
+      "ru": "Его нужно уничтожить раз и навсегда. Как это случится, я не знаю. Но ты...",
+      "speaker": "Chief Clight",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "...No, it's nothing. Until that thing is dealt with, deeper parts of this mine must be closed down. The supply of coal will decrease, but it must be done.",
+      "ru": "...Нет, ничего. Пока с этой штукой не разберутся, глубокие выработки шахты придётся закрыть. Добыча угля упадёт, но иначе нельзя.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "Tell you what, lad! I'll give you, and only you, permission to access parts of the mine, right where we mine our world-famous Thesead coal.",
+      "ru": "Знаешь что, парень! Я дам тебе, и только тебе, доступ к тем частям шахты, где мы добываем наш всемирно известный тесеадский уголь.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Consider yourself a part-time Thesead coal miner. You've earned it, lad.",
+      "ru": "Считай себя шахтёром Тесеада на полставки. Ты заслужил, парень.",
+      "speaker": "Chief Clight",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Can't hit me with that.",
+      "ru": "Этим меня не достанешь.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "That tickles.",
+      "ru": "Щекотно.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Is this the height of your skill?",
+      "ru": "Это всё, на что ты способен?",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Try harder.",
+      "ru": "Старайся лучше.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "Are you even playing the game?",
+      "ru": "Ты вообще в игру играешь?",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Go ahead. Run right into it.",
+      "ru": "Давай, беги прямо под удар.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Was that you, or will you blame that on lag?",
+      "ru": "Сам ошибся или свалишь всё на лаги?",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Feels nice, doesn't it?",
+      "ru": "Приятно, правда?",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "Even a snail could dodge that.",
+      "ru": "Даже улитка бы увернулась.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "You can't escape your doom.",
+      "ru": "От своей гибели не убежишь.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Nice going bozo, you fell off.",
+      "ru": "Молодец, болван, ты свалился.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "Interesting tactic! Do it again.",
+      "ru": "Интересная тактика! Повтори.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "Nice try, but that won't work.",
+      "ru": "Неплохая попытка, но не сработает.",
+      "speaker": "Canary",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "Hey up! Aren't you that Wynn soldier we've heard about? You look proper tough, is all.",
+      "ru": "О, привет! Ты ведь тот солдат Винна, о котором мы слышали? Просто уж очень ты грозно выглядишь.",
+      "speaker": "Thesead Coal Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "No, this is definitely them! The name's <playername>, right?",
+      "ru": "Нет, это точно он! Тебя зовут <playername>, верно?",
+      "speaker": "Thesead Coal Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "Woah, this kid's a soldier? I wish I had that kind of job... I'd imagine it's much better than this crap.",
+      "ru": "Ого, этот парень - солдат? Вот бы мне такую работу... Наверняка она гораздо лучше этой паршивой работы.",
+      "speaker": "Thesead Coal Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "Yeah, I really hate this job, man. That and the chief makes me pull my hair out... In fact, I already went bald because of it!",
+      "ru": "Да, я терпеть не могу эту работу, приятель. А начальник так доводит, что хочется волосы рвать... Я, собственно, уже из-за этого облысел!",
+      "speaker": "Thesead Coal Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Dude, the chief scares the crap out of me. I'm surprised that I still have this job. Looks like we might lose it if the mines ain't restored fast enough.",
+      "ru": "Приятель, начальник меня до смерти пугает. Я удивлён, что всё ещё здесь работаю. Похоже, мы можем лишиться работы, если шахты быстро не восстановят.",
+      "speaker": "Thesead Coal Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "I-I don't want to lose this job, man! I've got a wife and two goldfish!",
+      "ru": "Я-я не хочу терять эту работу, приятель! У меня жена и две золотые рыбки!",
+      "speaker": "Thesead Coal Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "Easy, Ryan. We won't lose it. We're in this together. <playername> will take care of it.",
+      "ru": "Спокойно, Райан. Мы её не потеряем. Мы все в одной лодке. <playername> разберётся.",
+      "speaker": "Thesead Coal Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "Our very lives are in your hands, soldier. Good luck, and be careful. The mines are quite treacherous even for people like you.",
+      "ru": "Наши жизни в твоих руках, солдат. Удачи и будь осторожен. Шахты довольно коварны даже для таких, как ты.",
+      "speaker": "Thesead Coal Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "We still can't believe we found you. I'm proper shocked.",
+      "ru": "Мы до сих пор не верим, что нашли тебя. Я просто потрясён.",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "We had to use that blasted archaic minecart system because the elevator was still busted.",
+      "ru": "Нам пришлось пользоваться этой проклятой древней системой вагонеток, потому что лифт всё ещё был сломан.",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "Everyone was exhausted from it. But just when all hope was seemingly lost, we found you laying on the ground.",
+      "ru": "Все вымотались. Но когда надежды почти не осталось, мы нашли тебя лежащим на земле.",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "You were violently twitching about, as if you were possessed by something. It was scary.",
+      "ru": "Тебя жутко трясло, будто в тебя что-то вселилось. Было страшно.",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Whatever the effects of that gas are, we want absolutely none of it. I'm never stepping foot inside of that bloody mine ever again.",
+      "ru": "Что бы этот газ ни делал, нам такого точно не надо. Больше ни ногой в эту чёртову шахту.",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "For the sake of our jobs and Thesead, the Colossus must be stopped.",
+      "ru": "Чтобы сохранить наши рабочие места и спасти Тесеад, Колосса нужно остановить.",
+      "speaker": "Thesead Miner",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "It seems that your spells are severely weakened by the gas. You should follow the rail tracks to find a way out of the mine.",
+      "ru": "Похоже, газ сильно ослабляет твои заклинания. Тебе стоит следовать вдоль рельсов, чтобы найти выход из шахты.",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "You hear a door opening in the distance...",
+      "ru": "Вдалеке слышно, как открывается дверь...",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "The Canary fires a pellet at you.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "The Canary fires 5 pellets at once at you.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "The Canary will mark an area on the arena that will deal damage to whoever is in it.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "The Canary will glide across the ground, similar to the pellets in phase 1.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "A large Ender Crystal-like object appears in the middle of the arena before bursting into pellets and causing the pellets to rain down from the sky. The pellets leave damaging areas which slow upon hit.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "A Xenoglyph will appear in the middle of the arena. Destroy it immediately or you will receive a fatal blow.",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "New Quest Started: The Canary Calls",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Канарейка зовёт",
+      "speaker": "",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find out what's happening at the Thesead coal mine at [677, 78, -5017].",
+      "ru": "Выяснить, что происходит в угольной шахте Тесеада [677, 78, -5017].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Turn left from the mine's entrance and speak to the chief at [734, 104, -4996].",
+      "ru": "Повернуть налево от входа в шахту и поговорить с начальником [734, 104, -4996].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Unlock the canary's cage at [737, 102, -5012]",
+      "ru": "Открыть клетку канарейки [737, 102, -5012].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Head to the mine elevator at [670, 78, -4982].",
+      "ru": "Отправиться к шахтному подъёмнику [670, 78, -4982].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Use the rails to get to the gas leakage.",
+      "ru": "Проехать по рельсам к месту утечки газа.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Follow the rail tracks and find a way to escape the mine",
+      "ru": "Идти вдоль рельсов и найти выход из шахты.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Continue further in the mine to find a way out.",
+      "ru": "Продвинуться дальше по шахте в поисках выхода.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Fight the Canary.",
+      "ru": "Сразиться с канарейкой.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Talk to Chief Clight.",
+      "ru": "Поговорить с вождём Клайтом.",
+      "stage": "Stage 9"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,7012 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "captured-cosmetics-dungeons",
+  "scopes": [
+    {
+      "id": "menus-cosmetics-c4588244e833ddef",
+      "match": {
+        "title": "Leggings Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Leggings Slot",
+        "ru": "Ячейка Поножей"
+      },
+      "lines": [
+        {
+          "id": "line-c4588244e833ddef",
+          "en": "Leggings Slot",
+          "ru": "Ячейка Поножей"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-8efe6c56769971c3",
+      "match": {
+        "title": "Mysticism Tome Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Mysticism Tome Slot",
+        "ru": "Ячейка Тома Мистицизма"
+      },
+      "lines": [
+        {
+          "id": "line-8efe6c56769971c3",
+          "en": "Mysticism Tome Slot",
+          "ru": "Ячейка Тома Мистицизма"
+        },
+        {
+          "id": "line-804276bc97113715",
+          "en": "§6Requirements: ",
+          "ru": "§6Требования: "
+        },
+        {
+          "id": "line-957b4ebd7032df41",
+          "en": "§7§a✔ §7Lv. Min: <num>",
+          "ru": "§a✔ §fМин. Уровень: §7<num>"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-9056f775af32eb76",
+      "match": {
+        "title": "Syndicate Tome Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Syndicate Tome Slot",
+        "ru": "Ячейка Тома Синдиката"
+      },
+      "lines": [
+        {
+          "id": "line-9056f775af32eb76",
+          "en": "Syndicate Tome Slot",
+          "ru": "Ячейка Тома Синдиката"
+        },
+        {
+          "id": "line-804276bc97113715",
+          "en": "§6Requirements: ",
+          "ru": "§6Требования: "
+        },
+        {
+          "id": "line-957b4ebd7032df41",
+          "en": "§7§a✔ §7Lv. Min: <num>",
+          "ru": "§a✔ §fМин. Уровень: §7<num>"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-7c49e5183fcd9926",
+      "match": {
+        "title": "§7Dark Wizard Abilities",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Dark Wizard Abilities",
+        "ru": "Способности Тёмного Мага"
+      },
+      "lines": [
+        {
+          "id": "line-7c49e5183fcd9926",
+          "en": "§7Dark Wizard Abilities",
+          "ru": "Способности Тёмного Мага"
+        },
+        {
+          "id": "line-2ee4a15fa7482195",
+          "en": "§7Unlock abilities for your",
+          "ru": "§#AAAAAAОткрывайте способности своего"
+        },
+        {
+          "id": "line-3e12d9cad11036a4",
+          "en": "§7class and become stronger",
+          "ru": "§#AAAAAAкласса и становитесь сильнее."
+        },
+        {
+          "id": "line-21c44d5dfc4e56ad",
+          "en": "§7Currently Selected",
+          "ru": "Выбрано"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-19b794f156228fc6",
+      "match": {
+        "title": "§7Knight Abilities",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Knight Abilities",
+        "ru": "Способности Рыцаря"
+      },
+      "lines": [
+        {
+          "id": "line-19b794f156228fc6",
+          "en": "§7Knight Abilities",
+          "ru": "Способности Рыцаря"
+        },
+        {
+          "id": "line-2ee4a15fa7482195",
+          "en": "§7Unlock abilities for your",
+          "ru": "§#AAAAAAОткрывайте способности своего"
+        },
+        {
+          "id": "line-3e12d9cad11036a4",
+          "en": "§7class and become stronger",
+          "ru": "§#AAAAAAкласса и становитесь сильнее."
+        },
+        {
+          "id": "line-21c44d5dfc4e56ad",
+          "en": "§7Currently Selected",
+          "ru": "Выбрано"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-14628fd5add76609",
+      "match": {
+        "title": "§7Reset your Tree",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Reset your Tree",
+        "ru": "Сбросить Дерево Навыков"
+      },
+      "lines": [
+        {
+          "id": "line-14628fd5add76609",
+          "en": "§7Reset your Tree",
+          "ru": "Сбросить Дерево Навыков"
+        },
+        {
+          "id": "line-b0cb6e554eae53c0",
+          "en": "§7Use Ability Shards to reset",
+          "ru": "§#AAAAAAИспользуйте Осколки Способностей,"
+        },
+        {
+          "id": "line-d37b53adec113abe",
+          "en": "§7and modify your Ability Tree",
+          "ru": "§#AAAAAAчтобы сбросить и изменить дерево."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-adad6967532a8c30",
+      "match": {
+        "title": "§7Aspects",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Aspects",
+        "ru": "Аспекты"
+      },
+      "lines": [
+        {
+          "id": "line-adad6967532a8c30",
+          "en": "§7Aspects",
+          "ru": "Аспекты"
+        },
+        {
+          "id": "line-a5e591526bba6692",
+          "en": "§7View and equip collected Aspects",
+          "ru": "§#AAAAAAПросмотрите и выберите Аспекты,"
+        },
+        {
+          "id": "line-e36aa792edeb86c9",
+          "en": "§7that buff your abilities",
+          "ru": "§#AAAAAAусиливающие ваши способности."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-72f2e70566db9bc5",
+      "match": {
+        "title": "Waiting for an item",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Waiting for an item",
+        "ru": "Ожидание предмета"
+      },
+      "lines": [
+        {
+          "id": "line-72f2e70566db9bc5",
+          "en": "Waiting for an item",
+          "ru": "Ожидание предмета"
+        },
+        {
+          "id": "line-b49da6e0d4a645f5",
+          "en": "§8Click on an item in your inventory",
+          "ru": "§8Нажмите на предмет в инвентаре,"
+        },
+        {
+          "id": "line-7b4a796af970ecc4",
+          "en": "§8to be identified",
+          "ru": "§8который хотите опознать."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-4a4c98c24f9ab99a",
+      "match": {
+        "title": "Change Camp",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Change Camp",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b30b350482963ee3",
+          "en": "§7- §7Canyon of the Lost Excursion (South)",
+          "ru": "§6- §rЭкскурсия в Каньон Потерянных (Юг)"
+        },
+        {
+          "id": "line-6eb4401784768f3c",
+          "en": "§7- §7The Corkus Traversal",
+          "ru": "§6- §rПутешествие по Коркусу"
+        },
+        {
+          "id": "line-8ca8e8f11ebf84b1",
+          "en": "§7- §7Molten Heights Hike",
+          "ru": "§6- §rПрогулка по Раскалённым Высотам"
+        },
+        {
+          "id": "line-19427bf16f11a8ed",
+          "en": "§7- §7Sky Islands Exploration",
+          "ru": "§6- §rИсследование Небесных Островов"
+        },
+        {
+          "id": "line-51848b93c135f711",
+          "en": "§7- §7Silent Expanse Expedition",
+          "ru": "§6- §rЭкспедиция в Безмолвную Пустошь"
+        },
+        {
+          "id": "line-7064bc4f48ea5fca",
+          "en": "§7- §7The Fruma Foray (West)",
+          "ru": "§6- §rВылазка во Фруму (Запад)"
+        },
+        {
+          "id": "line-6e9f431158190dfb",
+          "en": "§7- §fThe Fruma Foray (East)",
+          "ru": "§6- §rВылазка во Фруму (Восток)"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-db1e6ae7cfac0c4b",
+      "match": {
+        "title": "§b§lView Recruited Friends",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lView Recruited Friends",
+        "ru": "§#55FFFF§lПриглашённые Друзья"
+      },
+      "lines": [
+        {
+          "id": "line-db1e6ae7cfac0c4b",
+          "en": "§b§lView Recruited Friends",
+          "ru": "§#55FFFF§lПриглашённые Друзья"
+        },
+        {
+          "id": "line-6260f4910b69f580",
+          "en": "§7Recruit more friends to",
+          "ru": "§#AAAAAAПриглашайте больше друзей,"
+        },
+        {
+          "id": "line-028e19368963ce4f",
+          "en": "§7get more rewards!",
+          "ru": "§#AAAAAAчтобы получить больше наград!"
+        },
+        {
+          "id": "line-2df65c1a1e816040",
+          "en": "§a- §7You have not recruited anyone",
+          "ru": "§a- §7Вы ещё никого не пригласили"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-8fecfd3baa488337",
+      "match": {
+        "title": "§6<num> Mob Totems",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6<num> Mob Totems",
+        "ru": "§#FFAA00<num>§#FFAA00 Тотемов Существ"
+      },
+      "lines": [
+        {
+          "id": "line-8fecfd3baa488337",
+          "en": "§6<num> Mob Totems",
+          "ru": "§#FFAA00<num>§#FFAA00 Тотемов Существ"
+        },
+        {
+          "id": "line-631c4ca3367c2616",
+          "en": "§7Invite <num> friends to receive <num>",
+          "ru": "§7Пригласите <num> друзей и получите <num>"
+        },
+        {
+          "id": "line-cfde6557e3aca27b",
+          "en": "§7Mob Totems. Mob Totems",
+          "ru": "§7Тотема Мобов. Эти тотемы"
+        },
+        {
+          "id": "line-191f3ca6ae3d4dcf",
+          "en": "§7dramatically increase the",
+          "ru": "§7значительно увеличивают"
+        },
+        {
+          "id": "line-2a5e4f0269f3ad45",
+          "en": "§7spawn rate of mobs nearby",
+          "ru": "§7частоту появления мобов поблизости"
+        },
+        {
+          "id": "line-cb18205d728902ac",
+          "en": "§7§c✖ §7Recruit Players: §f<num>§7/<num>",
+          "ru": "§c✖ §7Приглашено Игроков: §f<num>§7/<num>"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-448daae7cb3e87d0",
+      "match": {
+        "title": "Sort Cosmetics",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Sort Cosmetics",
+        "ru": "Сортировка Косметики"
+      },
+      "lines": [
+        {
+          "id": "line-448daae7cb3e87d0",
+          "en": "Sort Cosmetics",
+          "ru": "Сортировка Косметики"
+        },
+        {
+          "id": "line-ae1e129850999e3b",
+          "en": "§6- Copies",
+          "ru": "§6- §rПо Количеству Копий"
+        },
+        {
+          "id": "line-1498bea8fb172cc9",
+          "en": "§6- Most Recent",
+          "ru": "§6- §rСначала Новые"
+        },
+        {
+          "id": "line-7ede8aacb96bc18b",
+          "en": "§6- Alphabetical",
+          "ru": "§6- §rПо Алфавиту"
+        },
+        {
+          "id": "line-3425252aa7fc734f",
+          "en": "§6- Collection",
+          "ru": "§6- §rПо Коллекции"
+        },
+        {
+          "id": "line-21f2174abd256033",
+          "en": "§6- Tier",
+          "ru": "§6- §rПо Редкости"
+        },
+        {
+          "id": "line-cratetier06102026",
+          "en": "§6- Crate Tier",
+          "ru": "§6- §rПо Уровню Ящика"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-fd4cc688273ad5e0",
+      "match": {
+        "title": "§7Apply Gamemodes",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Apply Gamemodes",
+        "ru": "Применить Режимы"
+      },
+      "lines": [
+        {
+          "id": "line-fd4cc688273ad5e0",
+          "en": "§7Apply Gamemodes",
+          "ru": "Применить Режимы"
+        },
+        {
+          "id": "line-4fa0332fdab4f9a5",
+          "en": "§7Your character will be created",
+          "ru": "§#AAAAAAПерсонаж будет создан"
+        },
+        {
+          "id": "line-36f8c03790d89a08",
+          "en": "§7with the following gamemodes",
+          "ru": "§#AAAAAAсо следующими режимами:"
+        },
+        {
+          "id": "line-6e680f6ede07cc0e",
+          "en": "§c<em> Craftsman",
+          "ru": "<em> Ремесленник"
+        },
+        {
+          "id": "line-5c9b6ff4ff826e83",
+          "en": "<em>§8Can only use crafted items",
+          "ru": "§#555555<em>Доступны только созданные предметы"
+        },
+        {
+          "id": "line-e165d184fc6368fb",
+          "en": "§7<em> Click to Apply",
+          "ru": "<em> Нажмите, чтобы Применить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-02d7220a915bdc55",
+      "match": {
+        "title": "Cancel and Return",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Cancel and Return",
+        "ru": "Отменить и Вернуться"
+      },
+      "lines": [
+        {
+          "id": "line-02d7220a915bdc55",
+          "en": "Cancel and Return",
+          "ru": "Отменить и Вернуться"
+        },
+        {
+          "id": "line-bf7fc1100728a289",
+          "en": "§7Cancel the creation of this",
+          "ru": "§#AAAAAAОтменить создание персонажа"
+        },
+        {
+          "id": "line-842378944bc490f0",
+          "en": "§7character and return to the",
+          "ru": "§#AAAAAAи вернуться к выбору"
+        },
+        {
+          "id": "line-764bd8d97925dfd1",
+          "en": "§7class selection",
+          "ru": "§#AAAAAAкласса."
+        },
+        {
+          "id": "line-487f4f5124644f04",
+          "en": "§7<em> Click to Cancel",
+          "ru": "<em> Нажмите, чтобы Отменить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-3d1fd8acf3cf85ef",
+      "match": {
+        "title": "Character Gamemodes",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Character Gamemodes",
+        "ru": "Режимы Персонажа"
+      },
+      "lines": [
+        {
+          "id": "line-3d1fd8acf3cf85ef",
+          "en": "Character Gamemodes",
+          "ru": "Режимы Персонажа"
+        },
+        {
+          "id": "line-2983f44ecb86291b",
+          "en": "§7Gamemodes are gameplay modifications",
+          "ru": "§#AAAAAAРежимы меняют условия игры"
+        },
+        {
+          "id": "line-e293eba6cd947341",
+          "en": "§7that spice up the difficulty for",
+          "ru": "§#AAAAAAи усложняют её для тех,"
+        },
+        {
+          "id": "line-f776344b279d38ae",
+          "en": "§7determined players",
+          "ru": "§#AAAAAAкто готов к испытаниям."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-6e34485973735c6d",
+      "match": {
+        "title": "Edit Nickname",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Edit Nickname",
+        "ru": "Изменить Псевдоним"
+      },
+      "lines": [
+        {
+          "id": "line-6e34485973735c6d",
+          "en": "Edit Nickname",
+          "ru": "Изменить Псевдоним"
+        },
+        {
+          "id": "line-7326599c28faf8e3",
+          "en": "§7Nicknames represents how your",
+          "ru": "§#AAAAAAПсевдоним заменяет имя"
+        },
+        {
+          "id": "line-dce925706533f7ac",
+          "en": "§7character will be referenced in game",
+          "ru": "§#AAAAAAвашего персонажа в игре"
+        },
+        {
+          "id": "line-2cfd391e9eb0131a",
+          "en": "§7and also how your name will show in",
+          "ru": "§#AAAAAAи отображается в чате, когда"
+        },
+        {
+          "id": "line-cf64883c2f736d98",
+          "en": "§7chat while using this character",
+          "ru": "§#AAAAAAвы играете этим персонажем."
+        },
+        {
+          "id": "line-1cbf3bdb0332ede3",
+          "en": "§eCurrent: None",
+          "ru": "§eСейчас: §fНет"
+        },
+        {
+          "id": "line-99b753c9ec6db402",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта возможность доступна"
+        },
+        {
+          "id": "line-383e2fe6fb813242",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с привилегией §dHERO+§8 и выше."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-86ff280d3d37064a",
+      "match": {
+        "title": "Edit Icon",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Edit Icon",
+        "ru": "Изменить Значок"
+      },
+      "lines": [
+        {
+          "id": "line-86ff280d3d37064a",
+          "en": "Edit Icon",
+          "ru": "Изменить Значок"
+        },
+        {
+          "id": "line-bb707181dd688621",
+          "en": "§7Customize the color of the icon",
+          "ru": "§#AAAAAAВыберите цвет значка"
+        },
+        {
+          "id": "line-d0bfb44b039f876a",
+          "en": "§7for this character on the character",
+          "ru": "§#AAAAAAэтого персонажа в меню"
+        },
+        {
+          "id": "line-e5ce7c94974687e5",
+          "en": "§7selector",
+          "ru": "§#AAAAAAвыбора персонажа."
+        },
+        {
+          "id": "line-8190029953bbf7ca",
+          "en": "§7Current Color: Vivid Orange",
+          "ru": "§dТекущий Цвет: §#FF892FЯрко-Оранжевый"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-96a395b049bcd65c",
+      "match": {
+        "title": "Search Parties",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Search Parties",
+        "ru": "Поиск Групп"
+      },
+      "lines": [
+        {
+          "id": "line-96a395b049bcd65c",
+          "en": "Search Parties",
+          "ru": "Поиск Групп"
+        },
+        {
+          "id": "line-0b36f1c2d26359e7",
+          "en": "§7Filter and search through",
+          "ru": "§#AAAAAAНаходите подходящие группы"
+        },
+        {
+          "id": "line-f5a4f835af093360",
+          "en": "§7all available parties",
+          "ru": "§#AAAAAAс помощью фильтров."
+        },
+        {
+          "id": "line-eb33b556b7f78838",
+          "en": "<em> Click to Open",
+          "ru": "<em> Нажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-3019d0fc89c811b6",
+      "match": {
+        "title": "Waiting for Others...",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Waiting for Others...",
+        "ru": "Ждём Остальных..."
+      },
+      "lines": [
+        {
+          "id": "line-3019d0fc89c811b6",
+          "en": "Waiting for Others...",
+          "ru": "Ждём Остальных..."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-1c93743999e16d39",
+      "match": {
+        "title": "Waiting for Others..",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Waiting for Others..",
+        "ru": "Ждём Остальных.."
+      },
+      "lines": [
+        {
+          "id": "line-1c93743999e16d39",
+          "en": "Waiting for Others..",
+          "ru": "Ждём Остальных.."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-44b50551a28a3ee1",
+      "match": {
+        "title": "Waiting for Others.",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Waiting for Others.",
+        "ru": "Ждём Остальных."
+      },
+      "lines": [
+        {
+          "id": "line-44b50551a28a3ee1",
+          "en": "Waiting for Others.",
+          "ru": "Ждём Остальных."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-c617ae278d257402",
+          "en": "- <num> Raiding Experience",
+          "ru": "§b- §f<num> §7Рейдового Опыта"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-d630402ec8864872",
+      "match": {
+        "title": "Name Filter",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Name Filter",
+        "ru": "Фильтр по Названию"
+      },
+      "lines": [
+        {
+          "id": "line-d630402ec8864872",
+          "en": "Name Filter",
+          "ru": "Фильтр по Названию"
+        },
+        {
+          "id": "line-219dc6f85cb43c6b",
+          "en": "§7Filter based on the",
+          "ru": "§#AAAAAAФильтрация по названию"
+        },
+        {
+          "id": "line-4b34ee3126e4f1f6",
+          "en": "§7content name",
+          "ru": "§#AAAAAAзанятия."
+        },
+        {
+          "id": "line-321378c265f58b20",
+          "en": "§bCurrent Value:",
+          "ru": "§bТекущее Значение:"
+        },
+        {
+          "id": "line-13df101ebaebf867",
+          "en": "§3None",
+          "ru": "§#00AAAAНет"
+        },
+        {
+          "id": "line-781697b86a9ae6ff",
+          "en": "<em> Left-Click to Modify",
+          "ru": "<em> ЛКМ - Изменить"
+        },
+        {
+          "id": "line-10d7e15e9dac1e31",
+          "en": "<em> Right-Click to reset",
+          "ru": "<em> ПКМ - сбросить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-e7c5b42fc1def4cd",
+      "match": {
+        "title": "Set Price",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Set Price",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-f031fd49c9f149c6",
+          "en": "§7Defines the price you are",
+          "ru": "§#AAAAAAЦена, которую вы готовы"
+        },
+        {
+          "id": "line-7d20554fa7127456",
+          "en": "§7willing to pay for each unit",
+          "ru": "§#AAAAAAзаплатить за одну штуку"
+        },
+        {
+          "id": "line-9e9ecbcd3291ef7f",
+          "en": "§7of this item",
+          "ru": "§#AAAAAAэтого предмета."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-1a23bb192c5ff311",
+      "match": {
+        "title": "Level Filter",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Level Filter",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-33e6d2c216ca1e85",
+          "en": "§6- Lv. <num><num>",
+          "ru": "§6- §rУр. <num><num>"
+        },
+        {
+          "id": "line-6ca05e31cbfd00ee",
+          "en": "§6- Lv. <num>+",
+          "ru": "§6- §rУр. <num>+"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-a403662a64c0aa79",
+      "match": {
+        "title": "Ability Points",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Ability Points",
+        "ru": "Очки Способностей"
+      },
+      "lines": [
+        {
+          "id": "line-a403662a64c0aa79",
+          "en": "Ability Points",
+          "ru": "Очки Способностей"
+        },
+        {
+          "id": "line-6f7d02f4173672b2",
+          "en": "§7Ability Points are used",
+          "ru": "§#AAAAAAОчки Способностей нужны"
+        },
+        {
+          "id": "line-8dc510a36c5ab909",
+          "en": "§7to unlock new abilities",
+          "ru": "§#AAAAAAдля открытия новых навыков."
+        },
+        {
+          "id": "line-a857ce8548f6cac3",
+          "en": "§7<num> early points from <em>",
+          "ru": "§#A0C84B<num>§#A0C84B очков заранее от <em>"
+        },
+        {
+          "id": "line-075b11e2a7b93833",
+          "en": "§6Next Ability Points:",
+          "ru": "§6Следующие Очки Способностей:"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-2c0575904f8549d3",
+      "match": {
+        "title": "§b§lAbility Tree",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lAbility Tree",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1487c7495aa1bc39",
+          "en": "§7Spend your Ability Points",
+          "ru": "§#AAAAAAТратьте Очки Способностей"
+        },
+        {
+          "id": "line-1acaf704cd66b6e7",
+          "en": "§7and unlock new abilities!",
+          "ru": "§#AAAAAAи открывайте новые навыки!"
+        },
+        {
+          "id": "line-a857ce8548f6cac3",
+          "en": "§7<num> early points from <em>",
+          "ru": "§#A0C84B<num>§#A0C84B очков заранее от <em>"
+        },
+        {
+          "id": "line-075b11e2a7b93833",
+          "en": "§6Next Ability Points:",
+          "ru": "§6Следующие Очки Способностей:"
+        },
+        {
+          "id": "line-eb33b556b7f78838",
+          "en": "<em> Click to Open",
+          "ru": "<em> Нажмите, чтобы Открыть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-c3a682f2e45f339e",
+      "match": {
+        "title": "Ready Up!",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Ready Up!",
+        "ru": "Подтвердить Готовность"
+      },
+      "lines": [
+        {
+          "id": "line-c3a682f2e45f339e",
+          "en": "Ready Up!",
+          "ru": "Подтвердить Готовность"
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-c617ae278d257402",
+          "en": "- <num> Raiding Experience",
+          "ru": "§b- §f<num> §7Рейдового Опыта"
+        },
+        {
+          "id": "line-eaab79e1c0481abc",
+          "en": "§8There is an insufficient amount of",
+          "ru": "§8Для запуска рейда не хватает"
+        },
+        {
+          "id": "line-ab6f82628d0ffbb4",
+          "en": "§8players to start the raid. Once all",
+          "ru": "§8игроков. Когда все будут готовы,"
+        },
+        {
+          "id": "line-f498ce97c5adeac3",
+          "en": "§8are ready, more will be matched via",
+          "ru": "§8поиск группы подберёт"
+        },
+        {
+          "id": "line-134650e9e3588574",
+          "en": "§8the party finder",
+          "ru": "§8недостающих участников."
+        },
+        {
+          "id": "line-4739970f3a453ff1",
+          "en": "<em> Click to Ready Up",
+          "ru": "<em> Нажмите, чтобы Подтвердить Готовность"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-404bf9fe35ca830f",
+      "match": {
+        "title": "Looking for Players..",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Looking for Players..",
+        "ru": "Поиск Игроков.."
+      },
+      "lines": [
+        {
+          "id": "line-404bf9fe35ca830f",
+          "en": "Looking for Players..",
+          "ru": "Поиск Игроков.."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-c617ae278d257402",
+          "en": "- <num> Raiding Experience",
+          "ru": "§b- §f<num> §7Рейдового Опыта"
+        },
+        {
+          "id": "line-a92ca4346994bf4b",
+          "en": "§eLooking for players..",
+          "ru": "Поиск игроков.."
+        },
+        {
+          "id": "line-cba496fe31debae0",
+          "en": "§7§e- §7Region: §fEU",
+          "ru": "§e- §7Регион: §fEU"
+        },
+        {
+          "id": "line-5edcf18fa8f93d26",
+          "en": "§7§e- §7Elapsed Time: §f<num>:<num>",
+          "ru": "§e- §7Прошло Времени: §f<num>:<num>"
+        },
+        {
+          "id": "line-3bb0709f36b3d3e8",
+          "en": "§7§e- §7Time Estimate: §bVery Fast",
+          "ru": "§e- §7Ожидание: §bОчень Быстро"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-f576052c3c61bd4d",
+      "match": {
+        "title": "<num>x Redstone Swirl Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Redstone Swirl Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-f576052c3c61bd4d",
+          "en": "<num>x Redstone Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-1cb33fdabe2172e9",
+          "en": "Give your character a",
+          "ru": "Добавляет вашему персонажу"
+        },
+        {
+          "id": "line-f0f96b780fb657a5",
+          "en": "Redstone effect",
+          "ru": "эффект красного камня"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-6ebfac63e5665042",
+      "match": {
+        "title": "<num>x Peach Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Peach Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6ebfac63e5665042",
+          "en": "<num>x Peach Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-f637b8d756ba112e",
+          "en": "Summon the Peach Wybel to",
+          "ru": "Призовите Персикового Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-3d982d27e80b5b5d",
+      "match": {
+        "title": "<num>x Gilded Spear",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Gilded Spear",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-3d982d27e80b5b5d",
+          "en": "<num>x Gilded Spear",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-4ef5e859a66ab905",
+          "en": "Gilded flair",
+          "ru": "позолоченный вид"
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§a✔ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-76a688add2b9a83c",
+      "match": {
+        "title": "<num>x Banana Sword",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Banana Sword",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-76a688add2b9a83c",
+          "en": "<num>x Banana Sword",
+          "ru": ""
+        },
+        {
+          "id": "line-de19e839d29ba7d6",
+          "en": "Disguise your dagger with a",
+          "ru": "Придаёт вашему кинжалу"
+        },
+        {
+          "id": "line-75503c3e75e4829a",
+          "en": "Banana flair",
+          "ru": "банана."
+        },
+        {
+          "id": "line-ec7ae87beaabd6e7",
+          "en": "§7§c✖ §7Class Req: §fAssassin/Ninja",
+          "ru": "§c✖ §7Требуется Класс: §fАссасин/Ниндзя"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-bb93f470979d7516",
+      "match": {
+        "title": "Banana Sword",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Banana Sword",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-bb93f470979d7516",
+          "en": "Banana Sword",
+          "ru": ""
+        },
+        {
+          "id": "line-de19e839d29ba7d6",
+          "en": "Disguise your dagger with a",
+          "ru": "Придаёт вашему кинжалу"
+        },
+        {
+          "id": "line-75503c3e75e4829a",
+          "en": "Banana flair",
+          "ru": "банана."
+        },
+        {
+          "id": "line-ec7ae87beaabd6e7",
+          "en": "§7§c✖ §7Class Req: §fAssassin/Ninja",
+          "ru": "§c✖ §7Требуется Класс: §fАссасин/Ниндзя"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-5a4b24ae94bdc8c3",
+      "match": {
+        "title": "<num>x Broccoli Relik",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Broccoli Relik",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5a4b24ae94bdc8c3",
+          "en": "<num>x Broccoli Relik",
+          "ru": ""
+        },
+        {
+          "id": "line-1d44b55b13a32c32",
+          "en": "Disguise your relik with a",
+          "ru": "Придаёт вашему реликту облик"
+        },
+        {
+          "id": "line-ad452644c2678101",
+          "en": "Food flair",
+          "ru": "еды."
+        },
+        {
+          "id": "line-d5116388bd9f967c",
+          "en": "§7§c✖ §7Class Req: §fShaman/Skyseer",
+          "ru": "§c✖ §7Требуется Класс: §fШаман/Провидец"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-0e9e342d17a726bd",
+      "match": {
+        "title": "<num>x Futuristic Spear",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Futuristic Spear",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0e9e342d17a726bd",
+          "en": "<num>x Futuristic Spear",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-871fdfb30089c990",
+          "en": "Futuristic flair",
+          "ru": "футуристический вид"
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§a✔ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-7d0be114856c2261",
+          "en": "§7<em> Click to Remove",
+          "ru": "<em> Нажмите, чтобы Убрать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-65872d1c4d5599ba",
+      "match": {
+        "title": "<num>x Chainmail Leggings",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Chainmail Leggings",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-65872d1c4d5599ba",
+          "en": "<num>x Chainmail Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-0a0995daed6d3467",
+          "en": "Disguise your leggings as",
+          "ru": "Заменяет вид ваших поножей на"
+        },
+        {
+          "id": "line-39a45a1f5dcb72dc",
+          "en": "Chainmail Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-7d0be114856c2261",
+          "en": "§7<em> Click to Remove",
+          "ru": "<em> Нажмите, чтобы Убрать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-948b4274396f7417",
+      "match": {
+        "title": "<num>x Wave Emote",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Wave Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-948b4274396f7417",
+          "en": "<num>x Wave Emote",
+          "ru": ""
+        },
+        {
+          "id": "line-097b787de3a091d8",
+          "en": "Play the wave emote and say",
+          "ru": "Помашите рукой, чтобы"
+        },
+        {
+          "id": "line-2cf24dba5fb0a30e",
+          "en": "hello",
+          "ru": "поприветствовать других"
+        },
+        {
+          "id": "line-5d92a8c11b6d4bb6",
+          "en": "§7Command: /emote wave",
+          "ru": "§aКоманда: §7/emote §fwave"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-472252d8e6776a73",
+      "match": {
+        "title": "<num>x Futuristic Wand",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Futuristic Wand",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-472252d8e6776a73",
+          "en": "<num>x Futuristic Wand",
+          "ru": ""
+        },
+        {
+          "id": "line-f607a42215ff63aa",
+          "en": "Disguise your wand with a",
+          "ru": "Придаёт вашему жезлу"
+        },
+        {
+          "id": "line-871fdfb30089c990",
+          "en": "Futuristic flair",
+          "ru": "футуристический вид"
+        },
+        {
+          "id": "line-725b8f608c9e7941",
+          "en": "§7§c✖ §7Class Req: §fMage/Dark Wizard",
+          "ru": "§c✖ §7Требуется Класс: §fМаг/Тёмный Маг"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-41a8c1a46d4c7018",
+      "match": {
+        "title": "<num>x Wave Emotes",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Wave Emotes",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-41a8c1a46d4c7018",
+          "en": "<num>x Wave Emotes",
+          "ru": ""
+        },
+        {
+          "id": "line-097b787de3a091d8",
+          "en": "Play the wave emote and say",
+          "ru": "Помашите рукой, чтобы"
+        },
+        {
+          "id": "line-2cf24dba5fb0a30e",
+          "en": "hello",
+          "ru": "поприветствовать других"
+        },
+        {
+          "id": "line-5d92a8c11b6d4bb6",
+          "en": "§7Command: /emote wave",
+          "ru": "§aКоманда: §7/emote §fwave"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-1b1344ed81f4db6c",
+      "match": {
+        "title": "<num>x Water Aura Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Water Aura Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1b1344ed81f4db6c",
+          "en": "<num>x Water Aura Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-4233b5186309f5e3",
+          "en": "Give your character a Water",
+          "ru": "Добавляет персонажу эффект"
+        },
+        {
+          "id": "line-c8916fc070c726ec",
+          "en": "Aura effect",
+          "ru": "эффект Огненной Ауры"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-0b80063d7c2f7afc",
+      "match": {
+        "title": "<num>x Futuristic Wands",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Futuristic Wands",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0b80063d7c2f7afc",
+          "en": "<num>x Futuristic Wands",
+          "ru": ""
+        },
+        {
+          "id": "line-f607a42215ff63aa",
+          "en": "Disguise your wand with a",
+          "ru": "Придаёт вашему жезлу"
+        },
+        {
+          "id": "line-871fdfb30089c990",
+          "en": "Futuristic flair",
+          "ru": "футуристический вид"
+        },
+        {
+          "id": "line-725b8f608c9e7941",
+          "en": "§7§c✖ §7Class Req: §fMage/Dark Wizard",
+          "ru": "§c✖ §7Требуется Класс: §fМаг/Тёмный Маг"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-046b3b2b07f6bd49",
+      "match": {
+        "title": "<num>x Futuristic Bow",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Futuristic Bow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-046b3b2b07f6bd49",
+          "en": "<num>x Futuristic Bow",
+          "ru": ""
+        },
+        {
+          "id": "line-f5cb8293bd2f2cf7",
+          "en": "Disguise your bow with a",
+          "ru": "Придаёт вашему луку"
+        },
+        {
+          "id": "line-871fdfb30089c990",
+          "en": "Futuristic flair",
+          "ru": "футуристический вид"
+        },
+        {
+          "id": "line-d11d52e36dacf078",
+          "en": "§7§a✔ §7Class Req: §fArcher/Hunter",
+          "ru": "§a✔ §7Требуется Класс: §fЛучник/Охотник"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-1b1099ecbe16b3d2",
+      "match": {
+        "title": "§7Shadow",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Shadow",
+        "ru": "Тень"
+      },
+      "lines": [
+        {
+          "id": "line-1b1099ecbe16b3d2",
+          "en": "§7Shadow",
+          "ru": "Тень"
+        },
+        {
+          "id": "line-6e861c549c94e73e",
+          "en": "Adds a sleek black shine to",
+          "ru": "Придаёт снаряжению"
+        },
+        {
+          "id": "line-49ae24060e454b46",
+          "en": "your gear.",
+          "ru": "чёрный блеск."
+        },
+        {
+          "id": "line-0e6be4a9ccaf79d0",
+          "en": "§7§c✖ §7Active Silverbull Subscription",
+          "ru": "§c✖ §7Активная Подписка Silverbull"
+        },
+        {
+          "id": "line-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§c✖ §7Подписка Silverbull: §f<num> нед. <num> дн. §8(всего)"
+        },
+        {
+          "id": "line-b39c71bdd160edd0",
+          "en": "Unmet Requirements",
+          "ru": "Требования не Выполнены"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-d2f13141576a1e8a",
+      "match": {
+        "title": "§7Black",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Black",
+        "ru": "Чёрный"
+      },
+      "lines": [
+        {
+          "id": "line-d2f13141576a1e8a",
+          "en": "§7Black",
+          "ru": "Чёрный"
+        },
+        {
+          "id": "line-901418cbf5c83bb4",
+          "en": "Adds a black tint to your",
+          "ru": "Окрашивает ваше снаряжение"
+        },
+        {
+          "id": "line-1e570596cee22626",
+          "en": "gear.",
+          "ru": "в чёрный цвет."
+        },
+        {
+          "id": "line-0e6be4a9ccaf79d0",
+          "en": "§7§c✖ §7Active Silverbull Subscription",
+          "ru": "§c✖ §7Активная Подписка Silverbull"
+        },
+        {
+          "id": "line-583eccad07c36a9f",
+          "en": "§7§c✖ §7Silverbull Member: <num> weeks <num> days (in total)",
+          "ru": "§c✖ §7Подписка Silverbull: §f<num> нед. <num> дн. §8(всего)"
+        },
+        {
+          "id": "line-b39c71bdd160edd0",
+          "en": "Unmet Requirements",
+          "ru": "Требования не Выполнены"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-0b8de3d8b976405e",
+      "match": {
+        "title": "§7Disguises<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Disguises<em>",
+        "ru": "Маскировки<em>"
+      },
+      "lines": [
+        {
+          "id": "line-0b8de3d8b976405e",
+          "en": "§7Disguises<em>",
+          "ru": "Маскировки<em>"
+        },
+        {
+          "id": "line-04993bb1db5fdd1a",
+          "en": "§7Transform into a",
+          "ru": "§#AAAAAAПревратитесь в существо"
+        },
+        {
+          "id": "line-75e4512a96cb60e4",
+          "en": "§7creature or prop",
+          "ru": "§#AAAAAAили предмет."
+        },
+        {
+          "id": "line-c82bb3ceb08e5f7e",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-def5b1e7f8b79ecf",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-95554602cb9cd6a3",
+      "match": {
+        "title": "§7Weapon Glint",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Weapon Glint",
+        "ru": "Блеск Оружия"
+      },
+      "lines": [
+        {
+          "id": "line-95554602cb9cd6a3",
+          "en": "§7Weapon Glint",
+          "ru": "Блеск Оружия"
+        },
+        {
+          "id": "line-1253247ebf582f69",
+          "en": "§7Glints alters the visual of the",
+          "ru": "§#AAAAAAБлеск меняет внешний вид"
+        },
+        {
+          "id": "line-fa06d254e3ecd184",
+          "en": "§7current equipped gear at this slot",
+          "ru": "§#AAAAAAснаряжения в этой ячейке."
+        },
+        {
+          "id": "line-79f311d908b69adf",
+          "en": "Active Glint: None",
+          "ru": "Активный Блеск: §fНет"
+        },
+        {
+          "id": "line-d96a73dfe9eb4eee",
+          "en": "§7<em> Click to Change",
+          "ru": "<em> Нажмите, чтобы Изменить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-b770632231f3cfba",
+      "match": {
+        "title": "Gilded Spear",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Gilded Spear",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b770632231f3cfba",
+          "en": "Gilded Spear",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-4ef5e859a66ab905",
+          "en": "Gilded flair",
+          "ru": "позолоченный вид"
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§a✔ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-df734412d1fe27be",
+          "en": "§7<em> Click to Equip",
+          "ru": "§7<em> §*Нажмите, чтобы Надеть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-cc9fb75adecbbbd8",
+      "match": {
+        "title": "Zombie Bronco",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Zombie Bronco",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-cc9fb75adecbbbd8",
+          "en": "Zombie Bronco",
+          "ru": ""
+        },
+        {
+          "id": "line-c58d4797f2a9fa4a",
+          "en": "Disguise your horse as a",
+          "ru": "Придаёт вашему коню"
+        },
+        {
+          "id": "line-e1683360138aff69",
+          "en": "zombified beast",
+          "ru": "ожившего мертвеца."
+        },
+        {
+          "id": "line-52e7b79818da4fc6",
+          "en": "This cosmetic is temporarily",
+          "ru": "Эта косметика временно"
+        },
+        {
+          "id": "line-4f70d636608c7bf5",
+          "en": "disabled and will be",
+          "ru": "отключена и станет"
+        },
+        {
+          "id": "line-c56156746adabd5c",
+          "en": "available at a later date.",
+          "ru": "доступна позже."
+        },
+        {
+          "id": "line-3bdc56d18c02efb0",
+          "en": "Temporarily Disabled",
+          "ru": "Временно Недоступно"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-db3095596563ee02",
+      "match": {
+        "title": "Seagull Disguise",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Seagull Disguise",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-db3095596563ee02",
+          "en": "Seagull Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-8d2f7ce76113d459",
+          "en": "Disguise yourself as a Seagull",
+          "ru": "Превратитесь в Чайку"
+        },
+        {
+          "id": "line-df734412d1fe27be",
+          "en": "§7<em> Click to Equip",
+          "ru": "§7<em> §*Нажмите, чтобы Надеть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-3f160505e31b1b9d",
+      "match": {
+        "title": "Liff Beetle Disguise",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Liff Beetle Disguise",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-3f160505e31b1b9d",
+          "en": "Liff Beetle Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-b1336d220e12440a",
+          "en": "Disguise yourself as a Liff",
+          "ru": "Превратитесь в жука"
+        },
+        {
+          "id": "line-a96987b25e038bd9",
+          "en": "Beetle",
+          "ru": "Лиффа."
+        },
+        {
+          "id": "line-df734412d1fe27be",
+          "en": "§7<em> Click to Equip",
+          "ru": "§7<em> §*Нажмите, чтобы Надеть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-8caf566b416ba6dc",
+      "match": {
+        "title": "§7Effects<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Effects<em>",
+        "ru": "Эффекты<em>"
+      },
+      "lines": [
+        {
+          "id": "line-8caf566b416ba6dc",
+          "en": "§7Effects<em>",
+          "ru": "Эффекты<em>"
+        },
+        {
+          "id": "line-7d6c13b6e31ae6d9",
+          "en": "§7Equip your Effects",
+          "ru": "§#AAAAAAВыберите Свои Эффекты."
+        },
+        {
+          "id": "line-c82bb3ceb08e5f7e",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-def5b1e7f8b79ecf",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-77f53f171b4ba16a",
+      "match": {
+        "title": "§7Boots Glint",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Boots Glint",
+        "ru": "Блеск Обуви"
+      },
+      "lines": [
+        {
+          "id": "line-77f53f171b4ba16a",
+          "en": "§7Boots Glint",
+          "ru": "Блеск Обуви"
+        },
+        {
+          "id": "line-1253247ebf582f69",
+          "en": "§7Glints alters the visual of the",
+          "ru": "§#AAAAAAБлеск меняет внешний вид"
+        },
+        {
+          "id": "line-fa06d254e3ecd184",
+          "en": "§7current equipped gear at this slot",
+          "ru": "§#AAAAAAснаряжения в этой ячейке."
+        },
+        {
+          "id": "line-79f311d908b69adf",
+          "en": "Active Glint: None",
+          "ru": "Активный Блеск: §fНет"
+        },
+        {
+          "id": "line-d96a73dfe9eb4eee",
+          "en": "§7<em> Click to Change",
+          "ru": "<em> Нажмите, чтобы Изменить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-29813c8d5eee942e",
+      "match": {
+        "title": "§7Leggings Style<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Leggings Style<em>",
+        "ru": "Вид Поножей<em>"
+      },
+      "lines": [
+        {
+          "id": "line-29813c8d5eee942e",
+          "en": "§7Leggings Style<em>",
+          "ru": "Вид Поножей<em>"
+        },
+        {
+          "id": "line-6fe9888c85ee2a97",
+          "en": "§7Change your leggings'",
+          "ru": "§#AAAAAAИзмените внешний вид"
+        },
+        {
+          "id": "line-2886c0771f5a2082",
+          "en": "§7appearance",
+          "ru": "§#AAAAAAсвоих поножей."
+        },
+        {
+          "id": "line-c82bb3ceb08e5f7e",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-def5b1e7f8b79ecf",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-2e50dd3b5d6282ea",
+      "match": {
+        "title": "Quartz Leggings",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Quartz Leggings",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2e50dd3b5d6282ea",
+          "en": "Quartz Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-0a0995daed6d3467",
+          "en": "Disguise your leggings as",
+          "ru": "Заменяет вид ваших поножей на"
+        },
+        {
+          "id": "line-df734412d1fe27be",
+          "en": "§7<em> Click to Equip",
+          "ru": "§7<em> §*Нажмите, чтобы Надеть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-0077b96ce1b64b78",
+      "match": {
+        "title": "Steampunk Spear",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Steampunk Spear",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0077b96ce1b64b78",
+          "en": "Steampunk Spear",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-f5e94cbaae35b898",
+          "en": "Steampunk flair",
+          "ru": "в стиле стимпанк."
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§a✔ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-df734412d1fe27be",
+          "en": "§7<em> Click to Equip",
+          "ru": "§7<em> §*Нажмите, чтобы Надеть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-277d09b65878d48c",
+      "match": {
+        "title": "Futuristic Spear",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Futuristic Spear",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-277d09b65878d48c",
+          "en": "Futuristic Spear",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-871fdfb30089c990",
+          "en": "Futuristic flair",
+          "ru": "футуристический вид"
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§a✔ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-df734412d1fe27be",
+          "en": "§7<em> Click to Equip",
+          "ru": "§7<em> §*Нажмите, чтобы Надеть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-2711be528e7a882f",
+      "match": {
+        "title": "Icicle Mace",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Icicle Mace",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2711be528e7a882f",
+          "en": "Icicle Mace",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-23528c2dce6a01e7",
+          "en": "Icicle flair",
+          "ru": "ледяной вид"
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§a✔ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-df734412d1fe27be",
+          "en": "§7<em> Click to Equip",
+          "ru": "§7<em> §*Нажмите, чтобы Надеть"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-088ee4c333f9944f",
+      "match": {
+        "title": "§7Empty Cosmetic Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Empty Cosmetic Slot",
+        "ru": "Пустая Ячейка Косметики"
+      },
+      "lines": [
+        {
+          "id": "line-088ee4c333f9944f",
+          "en": "§7Empty Cosmetic Slot",
+          "ru": "Пустая Ячейка Косметики"
+        },
+        {
+          "id": "line-317cc815d141880b",
+          "en": "§7You can obtain cosmetics",
+          "ru": "§#AAAAAAКосметику можно получить,"
+        },
+        {
+          "id": "line-f07da0022d92952e",
+          "en": "§7by opening crates",
+          "ru": "§#AAAAAAоткрывая ящики."
+        },
+        {
+          "id": "line-d96a73dfe9eb4eee",
+          "en": "§7<em> Click to Change",
+          "ru": "<em> Нажмите, чтобы Изменить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-7e38845f8a9ed514",
+      "match": {
+        "title": "<num>x Steampunk Bow",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Steampunk Bow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-7e38845f8a9ed514",
+          "en": "<num>x Steampunk Bow",
+          "ru": ""
+        },
+        {
+          "id": "line-f5cb8293bd2f2cf7",
+          "en": "Disguise your bow with a",
+          "ru": "Придаёт вашему луку"
+        },
+        {
+          "id": "line-f5e94cbaae35b898",
+          "en": "Steampunk flair",
+          "ru": "в стиле стимпанк."
+        },
+        {
+          "id": "line-d84e3ed291903b88",
+          "en": "§7§c✖ §7Class Req: §fArcher/Hunter",
+          "ru": "§c✖ §7Требуется Класс: §fЛучник/Охотник"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-09c7a98d4c2673a6",
+      "match": {
+        "title": "<num>x Steampunk Spear",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Steampunk Spear",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-09c7a98d4c2673a6",
+          "en": "<num>x Steampunk Spear",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-f5e94cbaae35b898",
+          "en": "Steampunk flair",
+          "ru": "в стиле стимпанк."
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§a✔ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-2ca22e8f31b2059d",
+      "match": {
+        "title": "<num>x Chicken Leg",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Chicken Leg",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2ca22e8f31b2059d",
+          "en": "<num>x Chicken Leg",
+          "ru": ""
+        },
+        {
+          "id": "line-de19e839d29ba7d6",
+          "en": "Disguise your dagger with a",
+          "ru": "Придаёт вашему кинжалу"
+        },
+        {
+          "id": "line-ad452644c2678101",
+          "en": "Food flair",
+          "ru": "еды."
+        },
+        {
+          "id": "line-ec7ae87beaabd6e7",
+          "en": "§7§c✖ §7Class Req: §fAssassin/Ninja",
+          "ru": "§c✖ §7Требуется Класс: §fАссасин/Ниндзя"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-c354fa5c4ade123d",
+      "match": {
+        "title": "<num>x Candle Staff",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Candle Staff",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c354fa5c4ade123d",
+          "en": "<num>x Candle Staff",
+          "ru": ""
+        },
+        {
+          "id": "line-2f1461730c77a6a5",
+          "en": "Disguise your staff with a",
+          "ru": "Придаёт вашему посоху"
+        },
+        {
+          "id": "line-7e9461dc1c67692f",
+          "en": "Candle flair",
+          "ru": "вид свечи"
+        },
+        {
+          "id": "line-725b8f608c9e7941",
+          "en": "§7§c✖ §7Class Req: §fMage/Dark Wizard",
+          "ru": "§c✖ §7Требуется Класс: §fМаг/Тёмный Маг"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-0cf80aecebd92e2d",
+      "match": {
+        "title": "<num>x Violet Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Violet Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-0cf80aecebd92e2d",
+          "en": "<num>x Violet Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-1bb3ccaa7d9bda61",
+          "en": "Summon the Violet Wybel to",
+          "ru": "Призовите Фиолетового Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-2ff2a0db296fdcd6",
+      "match": {
+        "title": "<num>x Zombie Broncos",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Zombie Broncos",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2ff2a0db296fdcd6",
+          "en": "<num>x Zombie Broncos",
+          "ru": ""
+        },
+        {
+          "id": "line-c58d4797f2a9fa4a",
+          "en": "Disguise your horse as a",
+          "ru": "Придаёт вашему коню"
+        },
+        {
+          "id": "line-e1683360138aff69",
+          "en": "zombified beast",
+          "ru": "ожившего мертвеца."
+        },
+        {
+          "id": "line-52e7b79818da4fc6",
+          "en": "This cosmetic is temporarily",
+          "ru": "Эта косметика временно"
+        },
+        {
+          "id": "line-4f70d636608c7bf5",
+          "en": "disabled and will be",
+          "ru": "отключена и станет"
+        },
+        {
+          "id": "line-c56156746adabd5c",
+          "en": "available at a later date.",
+          "ru": "доступна позже."
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-234d106869ef592b",
+      "match": {
+        "title": "<num>x Futuristic Spears",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Futuristic Spears",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-234d106869ef592b",
+          "en": "<num>x Futuristic Spears",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-871fdfb30089c990",
+          "en": "Futuristic flair",
+          "ru": "футуристический вид"
+        },
+        {
+          "id": "line-bb01baedcd9b0265",
+          "en": "§7§a✔ §7Class Req: §fWarrior/Knight",
+          "ru": "§a✔ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-9ee975417b877ee9",
+      "match": {
+        "title": "<num>x Pink Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Pink Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9ee975417b877ee9",
+          "en": "<num>x Pink Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-5a017da620b77370",
+          "en": "Summon the Pink Wybel to",
+          "ru": "Призовите Розового Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-df3edabfdeda9970",
+      "match": {
+        "title": "<num>x Steampunk Relik",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Steampunk Relik",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-df3edabfdeda9970",
+          "en": "<num>x Steampunk Relik",
+          "ru": ""
+        },
+        {
+          "id": "line-1d44b55b13a32c32",
+          "en": "Disguise your relik with a",
+          "ru": "Придаёт вашему реликту облик"
+        },
+        {
+          "id": "line-f5e94cbaae35b898",
+          "en": "Steampunk flair",
+          "ru": "в стиле стимпанк."
+        },
+        {
+          "id": "line-d5116388bd9f967c",
+          "en": "§7§c✖ §7Class Req: §fShaman/Skyseer",
+          "ru": "§c✖ §7Требуется Класс: §fШаман/Провидец"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-e617c4c73786a80f",
+      "match": {
+        "title": "<num>x Mint Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Mint Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e617c4c73786a80f",
+          "en": "<num>x Mint Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-146512c358cf348f",
+          "en": "Summon the Mint Wybel to",
+          "ru": "Призовите Мятного Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-d9d30114486f663a",
+      "match": {
+        "title": "<num>x Seagull Disguise",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Seagull Disguise",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-d9d30114486f663a",
+          "en": "<num>x Seagull Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-8d2f7ce76113d459",
+          "en": "Disguise yourself as a Seagull",
+          "ru": "Превратитесь в Чайку"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-75f89097a9e3e2b1",
+      "match": {
+        "title": "<num>x Frying Pan",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Frying Pan",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-75f89097a9e3e2b1",
+          "en": "<num>x Frying Pan",
+          "ru": ""
+        },
+        {
+          "id": "line-fff99644106f705d",
+          "en": "Diguise your dagger with a",
+          "ru": "Придаёт вашему кинжалу"
+        },
+        {
+          "id": "line-aa2fd372fdfdd22b",
+          "en": "Frying Pan flair",
+          "ru": "вид сковороды"
+        },
+        {
+          "id": "line-ec7ae87beaabd6e7",
+          "en": "§7§c✖ §7Class Req: §fAssassin/Ninja",
+          "ru": "§c✖ §7Требуется Класс: §fАссасин/Ниндзя"
+        },
+        {
+          "id": "line-7d0be114856c2261",
+          "en": "§7<em> Click to Remove",
+          "ru": "<em> Нажмите, чтобы Убрать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-eeff8c5eb66b8859",
+      "match": {
+        "title": "<num>x Frying Pans",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Frying Pans",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-eeff8c5eb66b8859",
+          "en": "<num>x Frying Pans",
+          "ru": ""
+        },
+        {
+          "id": "line-fff99644106f705d",
+          "en": "Diguise your dagger with a",
+          "ru": "Придаёт вашему кинжалу"
+        },
+        {
+          "id": "line-aa2fd372fdfdd22b",
+          "en": "Frying Pan flair",
+          "ru": "вид сковороды"
+        },
+        {
+          "id": "line-ec7ae87beaabd6e7",
+          "en": "§7§c✖ §7Class Req: §fAssassin/Ninja",
+          "ru": "§c✖ §7Требуется Класс: §fАссасин/Ниндзя"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-81c7426ead446ee2",
+      "match": {
+        "title": "<num>x Orange Cybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Orange Cybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-81c7426ead446ee2",
+          "en": "<num>x Orange Cybel",
+          "ru": ""
+        },
+        {
+          "id": "line-d79df2af139609a4",
+          "en": "Summon the Orange Cybel to",
+          "ru": "Призовите Оранжевого Сайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-541dbe40bd8b6cda",
+      "match": {
+        "title": "<num>x Phoenix Wings Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Phoenix Wings Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-541dbe40bd8b6cda",
+          "en": "<num>x Phoenix Wings Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-e1093e43b7c7972a",
+          "en": "Give your character a Phoenix",
+          "ru": "Добавляет персонажу фениксовый"
+        },
+        {
+          "id": "line-c4d197e3a1f27e1e",
+          "en": "Wings effect",
+          "ru": "эффект крыльев"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-120784787e079baf",
+      "match": {
+        "title": "<num>x Angel Wings Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Angel Wings Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-120784787e079baf",
+          "en": "<num>x Angel Wings Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-c9c66124bd18c17b",
+          "en": "Give your character an Angel",
+          "ru": "Добавляет персонажу ангельский"
+        },
+        {
+          "id": "line-c4d197e3a1f27e1e",
+          "en": "Wings effect",
+          "ru": "эффект крыльев"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-901af52ff667719f",
+      "match": {
+        "title": "<num>x Sunny Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Sunny Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-901af52ff667719f",
+          "en": "<num>x Sunny Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-be5e964fba905df7",
+          "en": "Summon the Sunny Wybel to",
+          "ru": "Призовите Солнечного Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-8bb32662cca637dc",
+      "match": {
+        "title": "Frying Pan",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Frying Pan",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-8bb32662cca637dc",
+          "en": "Frying Pan",
+          "ru": ""
+        },
+        {
+          "id": "line-fff99644106f705d",
+          "en": "Diguise your dagger with a",
+          "ru": "Придаёт вашему кинжалу"
+        },
+        {
+          "id": "line-aa2fd372fdfdd22b",
+          "en": "Frying Pan flair",
+          "ru": "вид сковороды"
+        },
+        {
+          "id": "line-ec7ae87beaabd6e7",
+          "en": "§7§c✖ §7Class Req: §fAssassin/Ninja",
+          "ru": "§c✖ §7Требуется Класс: §fАссасин/Ниндзя"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-b319f61c671c888e",
+      "match": {
+        "title": "Violet Wybel",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Violet Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b319f61c671c888e",
+          "en": "Violet Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-1bb3ccaa7d9bda61",
+          "en": "Summon the Violet Wybel to",
+          "ru": "Призовите Фиолетового Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-89170b282be1a8da",
+      "match": {
+        "title": "<num>x Sheep Disguise",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Sheep Disguise",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-89170b282be1a8da",
+          "en": "<num>x Sheep Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-c4b1e75b486de3f7",
+          "en": "Disguise yourself as a Sheep",
+          "ru": "Превратитесь в Овцу"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-b949a7a2a6b85e3f",
+      "match": {
+        "title": "<num>x Golden Leggings",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Golden Leggings",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b949a7a2a6b85e3f",
+          "en": "<num>x Golden Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-0a0995daed6d3467",
+          "en": "Disguise your leggings as",
+          "ru": "Заменяет вид ваших поножей на"
+        },
+        {
+          "id": "line-70f6f8427ad79c58",
+          "en": "Golden Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-3235fe9ed6d166dd",
+      "match": {
+        "title": "<num>x Leather Helmet",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Leather Helmet",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-3235fe9ed6d166dd",
+          "en": "<num>x Leather Helmet",
+          "ru": ""
+        },
+        {
+          "id": "line-0f7d0afa81e202a4",
+          "en": "Disguise your helmet as a",
+          "ru": "Заменяет вид вашего шлема на"
+        },
+        {
+          "id": "line-00d84765511c7c92",
+          "en": "Leather Helmet",
+          "ru": ""
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-996cbc19d8b28915",
+      "match": {
+        "title": "<num>x Letters Swirl Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Letters Swirl Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-996cbc19d8b28915",
+          "en": "<num>x Letters Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-26a5cbc618ffd498",
+          "en": "Give your character a Letters",
+          "ru": "Добавляет персонажу буквенный"
+        },
+        {
+          "id": "line-dcb576426a17b7df",
+          "en": "effect",
+          "ru": "эффект"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-adb29fdb4726770e",
+      "match": {
+        "title": "<num>x Music Swirl Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Music Swirl Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-adb29fdb4726770e",
+          "en": "<num>x Music Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-74b14ee9bb0cdfb0",
+          "en": "Give your character a Music",
+          "ru": "Добавляет персонажу музыкальный"
+        },
+        {
+          "id": "line-dcb576426a17b7df",
+          "en": "effect",
+          "ru": "эффект"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-7f1eac8b9baee21e",
+      "match": {
+        "title": "<num>x Skeleton Disguise",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Skeleton Disguise",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-7f1eac8b9baee21e",
+          "en": "<num>x Skeleton Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-1f4803d76b375d45",
+          "en": "Disguise yourself as a",
+          "ru": "Превратитесь"
+        },
+        {
+          "id": "line-ea5f6bdc79b884c3",
+          "en": "Skeleton",
+          "ru": "В Скелета."
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-777e13c2eaecccc3",
+      "match": {
+        "title": "<num>x Donkey",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Donkey",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-777e13c2eaecccc3",
+          "en": "<num>x Donkey",
+          "ru": ""
+        },
+        {
+          "id": "line-c58d4797f2a9fa4a",
+          "en": "Disguise your horse as a",
+          "ru": "Придаёт вашему коню"
+        },
+        {
+          "id": "line-d22f115abd6b44f9",
+          "en": "donkey",
+          "ru": "вид осла"
+        },
+        {
+          "id": "line-52e7b79818da4fc6",
+          "en": "This cosmetic is temporarily",
+          "ru": "Эта косметика временно"
+        },
+        {
+          "id": "line-4f70d636608c7bf5",
+          "en": "disabled and will be",
+          "ru": "отключена и станет"
+        },
+        {
+          "id": "line-c56156746adabd5c",
+          "en": "available at a later date.",
+          "ru": "доступна позже."
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-bc4c391887a4e3f2",
+      "match": {
+        "title": "<num>x Cloud Swirl Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Cloud Swirl Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-bc4c391887a4e3f2",
+          "en": "<num>x Cloud Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-5e014129e1c2147d",
+          "en": "Give your character a Cloud",
+          "ru": "Добавляет персонажу облачный"
+        },
+        {
+          "id": "line-dcb576426a17b7df",
+          "en": "effect",
+          "ru": "эффект"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-5074c4c88978765c",
+      "match": {
+        "title": "Mint Wybel",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Mint Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5074c4c88978765c",
+          "en": "Mint Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-146512c358cf348f",
+          "en": "Summon the Mint Wybel to",
+          "ru": "Призовите Мятного Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-72b3bc15c067475a",
+      "match": {
+        "title": "<num>x Chocolate Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Chocolate Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-72b3bc15c067475a",
+          "en": "<num>x Chocolate Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-692f1451cd205918",
+          "en": "Summon the Chocolate Wybel to",
+          "ru": "Призовите Шоколадного Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-be52fc8469f05f89",
+      "match": {
+        "title": "<num>x Chicken Disguise",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Chicken Disguise",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-be52fc8469f05f89",
+          "en": "<num>x Chicken Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-5405a556c425d4a0",
+          "en": "Disguise yourself as a Chicken",
+          "ru": "Превратитесь в Курицу"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-fcf018a65b2f5831",
+      "match": {
+        "title": "<num>x Icicle Mace",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Icicle Mace",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-fcf018a65b2f5831",
+          "en": "<num>x Icicle Mace",
+          "ru": ""
+        },
+        {
+          "id": "line-6b9e79894ffff8cc",
+          "en": "Disguise your spear with a",
+          "ru": "Придаёт вашему копью"
+        },
+        {
+          "id": "line-23528c2dce6a01e7",
+          "en": "Icicle flair",
+          "ru": "ледяной вид"
+        },
+        {
+          "id": "line-104424d26faa8dae",
+          "en": "§7§c✖ §7Class Req: §fWarrior/Knight",
+          "ru": "§c✖ §7Требуется Класс: §fВоин/Рыцарь"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-8d59915c6fe4a2a6",
+      "match": {
+        "title": "<num>x Carbon Fiber Cybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Carbon Fiber Cybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-8d59915c6fe4a2a6",
+          "en": "<num>x Carbon Fiber Cybel",
+          "ru": ""
+        },
+        {
+          "id": "line-6517b0e4595d3f2a",
+          "en": "Summon the Carbon Fiber Cybel",
+          "ru": "Призовите Углеволоконного Сайбела,"
+        },
+        {
+          "id": "line-93eef1da760c38a6",
+          "en": "to follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-6159070eb9219112",
+      "match": {
+        "title": "<num>x Gilded Bow",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Gilded Bow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-6159070eb9219112",
+          "en": "<num>x Gilded Bow",
+          "ru": ""
+        },
+        {
+          "id": "line-f5cb8293bd2f2cf7",
+          "en": "Disguise your bow with a",
+          "ru": "Придаёт вашему луку"
+        },
+        {
+          "id": "line-4ef5e859a66ab905",
+          "en": "Gilded flair",
+          "ru": "позолоченный вид"
+        },
+        {
+          "id": "line-d11d52e36dacf078",
+          "en": "§7§a✔ §7Class Req: §fArcher/Hunter",
+          "ru": "§a✔ §7Требуется Класс: §fЛучник/Охотник"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-a9fe8657c43e8206",
+      "match": {
+        "title": "<num>x Beachcomber Bonnet",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Beachcomber Bonnet",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a9fe8657c43e8206",
+          "en": "<num>x Beachcomber Bonnet",
+          "ru": ""
+        },
+        {
+          "id": "line-10484b5d590f2532",
+          "en": "Disguise your helmet as the",
+          "ru": "Заменяет вид вашего шлема на"
+        },
+        {
+          "id": "line-79ea18a1906eb396",
+          "en": "Beachcomber Bonnet",
+          "ru": ""
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-5c764f70099310d5",
+      "match": {
+        "title": "<num>x Quartz Leggings",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Quartz Leggings",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5c764f70099310d5",
+          "en": "<num>x Quartz Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-0a0995daed6d3467",
+          "en": "Disguise your leggings as",
+          "ru": "Заменяет вид ваших поножей на"
+        },
+        {
+          "id": "line-2e50dd3b5d6282ea",
+          "en": "Quartz Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-7d0be114856c2261",
+          "en": "§7<em> Click to Remove",
+          "ru": "<em> Нажмите, чтобы Убрать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-b49b1aad78b6d8b6",
+      "match": {
+        "title": "<num>x Shark Attack",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Shark Attack",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b49b1aad78b6d8b6",
+          "en": "<num>x Shark Attack",
+          "ru": ""
+        },
+        {
+          "id": "line-10484b5d590f2532",
+          "en": "Disguise your helmet as the",
+          "ru": "Заменяет вид вашего шлема на"
+        },
+        {
+          "id": "line-b18a2fdbd6408f68",
+          "en": "Shark Attack",
+          "ru": ""
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-e81293303da8b02f",
+      "match": {
+        "title": "Not Enough Cosmetics",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Not Enough Cosmetics",
+        "ru": "Недостаточно Косметики"
+      },
+      "lines": [
+        {
+          "id": "line-e81293303da8b02f",
+          "en": "Not Enough Cosmetics",
+          "ru": "Недостаточно Косметики"
+        },
+        {
+          "id": "line-309bc54e865e9afb",
+          "en": "§8You need to add <num> cosmetics",
+          "ru": "§8Добавьте <num> предметов косметики"
+        },
+        {
+          "id": "line-e89ff4d629568987",
+          "en": "§8of the same tier and collection",
+          "ru": "§8одной редкости и коллекции,"
+        },
+        {
+          "id": "line-faa5c95de3851f36",
+          "en": "§8in order to scrap them",
+          "ru": "§8чтобы переработать их."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-e32615524e53263d",
+      "match": {
+        "title": "<num>x Rocky Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Rocky Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e32615524e53263d",
+          "en": "<num>x Rocky Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-7b32081c61fdbbed",
+          "en": "Summon the Rocky Wybel to",
+          "ru": "Призовите Каменного Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-9077b28946f8b24b",
+      "match": {
+        "title": "<num>x Lavender Bow",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Lavender Bow",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9077b28946f8b24b",
+          "en": "<num>x Lavender Bow",
+          "ru": ""
+        },
+        {
+          "id": "line-10484b5d590f2532",
+          "en": "Disguise your helmet as the",
+          "ru": "Заменяет вид вашего шлема на"
+        },
+        {
+          "id": "line-ed2d6f07e81513cc",
+          "en": "Lavender Bow",
+          "ru": ""
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-4d33a7fb7e92d0a1",
+      "match": {
+        "title": "<num>x Chainmail Leggingss",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Chainmail Leggingss",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4d33a7fb7e92d0a1",
+          "en": "<num>x Chainmail Leggingss",
+          "ru": ""
+        },
+        {
+          "id": "line-0a0995daed6d3467",
+          "en": "Disguise your leggings as",
+          "ru": "Заменяет вид ваших поножей на"
+        },
+        {
+          "id": "line-39a45a1f5dcb72dc",
+          "en": "Chainmail Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-4160e2acae6bf897",
+      "match": {
+        "title": "<num>x Bamboo Machete",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Bamboo Machete",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4160e2acae6bf897",
+          "en": "<num>x Bamboo Machete",
+          "ru": ""
+        },
+        {
+          "id": "line-de19e839d29ba7d6",
+          "en": "Disguise your dagger with a",
+          "ru": "Придаёт вашему кинжалу"
+        },
+        {
+          "id": "line-da4ae2a78753ef29",
+          "en": "Bamboo flair",
+          "ru": "бамбуковый вид"
+        },
+        {
+          "id": "line-ec7ae87beaabd6e7",
+          "en": "§7§c✖ §7Class Req: §fAssassin/Ninja",
+          "ru": "§c✖ §7Требуется Класс: §fАссасин/Ниндзя"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-bd3b8cacaffd3a4e",
+      "match": {
+        "title": "<num>x Quartz Leggingss",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Quartz Leggingss",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-bd3b8cacaffd3a4e",
+          "en": "<num>x Quartz Leggingss",
+          "ru": ""
+        },
+        {
+          "id": "line-0a0995daed6d3467",
+          "en": "Disguise your leggings as",
+          "ru": "Заменяет вид ваших поножей на"
+        },
+        {
+          "id": "line-2e50dd3b5d6282ea",
+          "en": "Quartz Leggings",
+          "ru": ""
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-bfa559b89a55b397",
+      "match": {
+        "title": "<num>x Orange Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Orange Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-bfa559b89a55b397",
+          "en": "<num>x Orange Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-4fde93e5db70e573",
+          "en": "Summon the Orange Wybel to",
+          "ru": "Призовите Оранжевого Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-41f39afdca378b40",
+      "match": {
+        "title": "<num>x Chicken Legs",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Chicken Legs",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-41f39afdca378b40",
+          "en": "<num>x Chicken Legs",
+          "ru": ""
+        },
+        {
+          "id": "line-de19e839d29ba7d6",
+          "en": "Disguise your dagger with a",
+          "ru": "Придаёт вашему кинжалу"
+        },
+        {
+          "id": "line-ad452644c2678101",
+          "en": "Food flair",
+          "ru": "еды."
+        },
+        {
+          "id": "line-ec7ae87beaabd6e7",
+          "en": "§7§c✖ §7Class Req: §fAssassin/Ninja",
+          "ru": "§c✖ §7Требуется Класс: §fАссасин/Ниндзя"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-2bd16bfc7cc8ace8",
+      "match": {
+        "title": "<num>x Candle Staffs",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Candle Staffs",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2bd16bfc7cc8ace8",
+          "en": "<num>x Candle Staffs",
+          "ru": ""
+        },
+        {
+          "id": "line-2f1461730c77a6a5",
+          "en": "Disguise your staff with a",
+          "ru": "Придаёт вашему посоху"
+        },
+        {
+          "id": "line-7e9461dc1c67692f",
+          "en": "Candle flair",
+          "ru": "вид свечи"
+        },
+        {
+          "id": "line-725b8f608c9e7941",
+          "en": "§7§c✖ §7Class Req: §fMage/Dark Wizard",
+          "ru": "§c✖ §7Требуется Класс: §fМаг/Тёмный Маг"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-570bdfefea95f90f",
+      "match": {
+        "title": "Futuristic Wand",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Futuristic Wand",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-570bdfefea95f90f",
+          "en": "Futuristic Wand",
+          "ru": ""
+        },
+        {
+          "id": "line-f607a42215ff63aa",
+          "en": "Disguise your wand with a",
+          "ru": "Придаёт вашему жезлу"
+        },
+        {
+          "id": "line-871fdfb30089c990",
+          "en": "Futuristic flair",
+          "ru": "футуристический вид"
+        },
+        {
+          "id": "line-725b8f608c9e7941",
+          "en": "§7§c✖ §7Class Req: §fMage/Dark Wizard",
+          "ru": "§c✖ §7Требуется Класс: §fМаг/Тёмный Маг"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-5e556e4266c1fcda",
+      "match": {
+        "title": "<num>x Wet Drip Effects",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Wet Drip Effects",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-5e556e4266c1fcda",
+          "en": "<num>x Wet Drip Effects",
+          "ru": ""
+        },
+        {
+          "id": "line-3e6faf44c7c16897",
+          "en": "Give your character a Wet",
+          "ru": "Добавляет персонажу эффект"
+        },
+        {
+          "id": "line-a8d23eb8a7eab25b",
+          "en": "Drip effect",
+          "ru": "падающих капель"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-46db06f86a570a68",
+      "match": {
+        "title": "<num>x Cow Disguise",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Cow Disguise",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-46db06f86a570a68",
+          "en": "<num>x Cow Disguise",
+          "ru": ""
+        },
+        {
+          "id": "line-163a0617304f638c",
+          "en": "Disguise yourself as a Cow",
+          "ru": "Превратитесь в Корову"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-2ddab1fb830b3412",
+      "match": {
+        "title": "<num>x Wet Drip Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Wet Drip Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2ddab1fb830b3412",
+          "en": "<num>x Wet Drip Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-3e6faf44c7c16897",
+          "en": "Give your character a Wet",
+          "ru": "Добавляет персонажу эффект"
+        },
+        {
+          "id": "line-a8d23eb8a7eab25b",
+          "en": "Drip effect",
+          "ru": "падающих капель"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-4a8d3c3d73044d9a",
+      "match": {
+        "title": "<num>x Cream Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Cream Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-4a8d3c3d73044d9a",
+          "en": "<num>x Cream Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-099a3076dcf70b7e",
+          "en": "Summon the Cream Wybel to",
+          "ru": "Призовите Кремового Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-dcc01b0fff19c48f",
+      "match": {
+        "title": "<num>x Cow Disguises",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Cow Disguises",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-dcc01b0fff19c48f",
+          "en": "<num>x Cow Disguises",
+          "ru": ""
+        },
+        {
+          "id": "line-163a0617304f638c",
+          "en": "Disguise yourself as a Cow",
+          "ru": "Превратитесь в Корову"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-318f00744e43b1df",
+      "match": {
+        "title": "<num>x Emerald Swirl Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Emerald Swirl Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-318f00744e43b1df",
+          "en": "<num>x Emerald Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-1cb848ab15780743",
+          "en": "Give your character a Emerald",
+          "ru": "Добавляет персонажу изумрудный"
+        },
+        {
+          "id": "line-dcb576426a17b7df",
+          "en": "effect",
+          "ru": "эффект"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-9de12bf446a0e1f2",
+      "match": {
+        "title": "<num>x Leather Boots",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Leather Boots",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9de12bf446a0e1f2",
+          "en": "<num>x Leather Boots",
+          "ru": ""
+        },
+        {
+          "id": "line-087f47927535969f",
+          "en": "Disguise your boots as",
+          "ru": "Заменяет вид ваших ботинок на"
+        },
+        {
+          "id": "line-f8e3c289cecfe95e",
+          "en": "Leather Boots",
+          "ru": ""
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-9ea91939c59c303c",
+      "match": {
+        "title": "<num>x Chicken Disguises",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Chicken Disguises",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-9ea91939c59c303c",
+          "en": "<num>x Chicken Disguises",
+          "ru": ""
+        },
+        {
+          "id": "line-5405a556c425d4a0",
+          "en": "Disguise yourself as a Chicken",
+          "ru": "Превратитесь в Курицу"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-987ecaeba4d41e68",
+      "match": {
+        "title": "<num>x Fire Swirl Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Fire Swirl Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-987ecaeba4d41e68",
+          "en": "<num>x Fire Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-d88026f34c0d6c37",
+          "en": "Give your character a Fire",
+          "ru": "Добавьте своему персонажу"
+        },
+        {
+          "id": "line-dcb576426a17b7df",
+          "en": "effect",
+          "ru": "эффект"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-7ed034f1ef0b0b25",
+      "match": {
+        "title": "<num>x Magic Swirl Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Magic Swirl Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-7ed034f1ef0b0b25",
+          "en": "<num>x Magic Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-b5db1d0088b17c50",
+          "en": "Give your character a Magic",
+          "ru": "Добавляет персонажу магический"
+        },
+        {
+          "id": "line-dcb576426a17b7df",
+          "en": "effect",
+          "ru": "эффект"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-29cc55c3dd1d4447",
+      "match": {
+        "title": "Looking for Players.",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Looking for Players.",
+        "ru": "Поиск Игроков."
+      },
+      "lines": [
+        {
+          "id": "line-29cc55c3dd1d4447",
+          "en": "Looking for Players.",
+          "ru": "Поиск Игроков."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-c617ae278d257402",
+          "en": "- <num> Raiding Experience",
+          "ru": "§b- §f<num> §7Рейдового Опыта"
+        },
+        {
+          "id": "line-ce41792ff4232a9f",
+          "en": "§eLooking for players.",
+          "ru": "Поиск игроков."
+        },
+        {
+          "id": "line-cba496fe31debae0",
+          "en": "§7§e- §7Region: §fEU",
+          "ru": "§e- §7Регион: §fEU"
+        },
+        {
+          "id": "line-5edcf18fa8f93d26",
+          "en": "§7§e- §7Elapsed Time: §f<num>:<num>",
+          "ru": "§e- §7Прошло Времени: §f<num>:<num>"
+        },
+        {
+          "id": "line-3bb0709f36b3d3e8",
+          "en": "§7§e- §7Time Estimate: §bVery Fast",
+          "ru": "§e- §7Ожидание: §bОчень Быстро"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-d7ae80edfa0ba471",
+      "match": {
+        "title": "Looking for Players...",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Looking for Players...",
+        "ru": "Поиск Игроков..."
+      },
+      "lines": [
+        {
+          "id": "line-d7ae80edfa0ba471",
+          "en": "Looking for Players...",
+          "ru": "Поиск Игроков..."
+        },
+        {
+          "id": "line-dde56954495a50f6",
+          "en": "§7Starting a Raid will",
+          "ru": "§#AAAAAAПри запуске Рейда игра"
+        },
+        {
+          "id": "line-c617ae278d257402",
+          "en": "- <num> Raiding Experience",
+          "ru": "§b- §f<num> §7Рейдового Опыта"
+        },
+        {
+          "id": "line-48f7a01a3ef28bbf",
+          "en": "§eLooking for players...",
+          "ru": "Поиск игроков..."
+        },
+        {
+          "id": "line-cba496fe31debae0",
+          "en": "§7§e- §7Region: §fEU",
+          "ru": "§e- §7Регион: §fEU"
+        },
+        {
+          "id": "line-5edcf18fa8f93d26",
+          "en": "§7§e- §7Elapsed Time: §f<num>:<num>",
+          "ru": "§e- §7Прошло Времени: §f<num>:<num>"
+        },
+        {
+          "id": "line-3bb0709f36b3d3e8",
+          "en": "§7§e- §7Time Estimate: §bVery Fast",
+          "ru": "§e- §7Ожидание: §bОчень Быстро"
+        },
+        {
+          "id": "line-ca962db6d85db4db",
+          "en": "<em> Click to unmark as ready!",
+          "ru": "<em> Нажмите, чтобы отменить готовность"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-e71e941c5741fbff",
+      "match": {
+        "title": "§7Preferred Currency",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Preferred Currency",
+        "ru": "Выбор Валюты"
+      },
+      "lines": [
+        {
+          "id": "line-e71e941c5741fbff",
+          "en": "§7Preferred Currency",
+          "ru": "Выбор Валюты"
+        },
+        {
+          "id": "line-c77ae0e66dd92045",
+          "en": "§8Some packages are available",
+          "ru": "§8Некоторые наборы можно купить"
+        },
+        {
+          "id": "line-6a57bed9cb88127a",
+          "en": "§8only on specific currencies",
+          "ru": "§8только за определённую валюту."
+        },
+        {
+          "id": "line-80c3dbaa4c12378c",
+          "en": "- Silverbull Shares",
+          "ru": "§b- §rАкции Silverbull"
+        },
+        {
+          "id": "line-d137df9fc732848a",
+          "en": "- Cash",
+          "ru": "§b- §rДеньги"
+        },
+        {
+          "id": "line-9da09d07e45dabb6",
+          "en": "<em> Left-Click to go forward",
+          "ru": "<em> ЛКМ - вперёд"
+        },
+        {
+          "id": "line-c177942b6fc81a36",
+          "en": "<em> Right-Click to go backward",
+          "ru": "<em> ПКМ - назад"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-ed16e942257d3eac",
+      "match": {
+        "title": "Knockout Emote",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Knockout Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-ed16e942257d3eac",
+          "en": "Knockout Emote",
+          "ru": ""
+        },
+        {
+          "id": "line-15b2b061ced35ca2",
+          "en": "Play the knockout emote to",
+          "ru": "Покажите эмоцию нокаута:"
+        },
+        {
+          "id": "line-c9a14900b2725c14",
+          "en": "see stars",
+          "ru": "искры из глаз!"
+        },
+        {
+          "id": "line-e7e49ae810c232b1",
+          "en": "§7Command: /emote knockout",
+          "ru": "§aКоманда: §7/emote §fknockout"
+        },
+        {
+          "id": "line-481579838cc90b71",
+          "en": "Must be touching ground",
+          "ru": "Нужно стоять на земле"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-28ee0856b7c1e733",
+      "match": {
+        "title": "Wave Emote",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Wave Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-28ee0856b7c1e733",
+          "en": "Wave Emote",
+          "ru": ""
+        },
+        {
+          "id": "line-097b787de3a091d8",
+          "en": "Play the wave emote and say",
+          "ru": "Помашите рукой, чтобы"
+        },
+        {
+          "id": "line-2cf24dba5fb0a30e",
+          "en": "hello",
+          "ru": "поприветствовать других"
+        },
+        {
+          "id": "line-5d92a8c11b6d4bb6",
+          "en": "§7Command: /emote wave",
+          "ru": "§aКоманда: §7/emote §fwave"
+        },
+        {
+          "id": "line-481579838cc90b71",
+          "en": "Must be touching ground",
+          "ru": "Нужно стоять на земле"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-bd6a612b1b028c87",
+      "match": {
+        "title": "§e§lKeyboard Mode",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§e§lKeyboard Mode",
+        "ru": "§#FFFF55§lРежим Клавиатуры"
+      },
+      "lines": [
+        {
+          "id": "line-bd6a612b1b028c87",
+          "en": "§e§lKeyboard Mode",
+          "ru": "§#FFFF55§lРежим Клавиатуры"
+        },
+        {
+          "id": "line-5b83b679d8469f7e",
+          "en": "§7Keyboard mode allows you to",
+          "ru": "§#AAAAAAИграйте ноты и аккорды"
+        },
+        {
+          "id": "line-ffb143bd7ab08fb5",
+          "en": "§7use your keyboard to play notes",
+          "ru": "§#AAAAAAс помощью клавиатуры"
+        },
+        {
+          "id": "line-1a0bb426353cd6b6",
+          "en": "§7and chords",
+          "ru": "§#AAAAAAв этом режиме."
+        },
+        {
+          "id": "line-8e697b844e3b3ccf",
+          "en": "§eHow to Play:",
+          "ru": "§eКак Играть:"
+        },
+        {
+          "id": "line-a15f56411a230920",
+          "en": "§e- §fHover§7 this item",
+          "ru": "§e- §fНаведите курсор§7 на этот предмет"
+        },
+        {
+          "id": "line-5899ed7ca1a7b52b",
+          "en": "§e- §7Press §f<num><num>§7 on your keyboard",
+          "ru": "§e- §7Нажимайте §f<num><num>§7 на клавиатуре"
+        },
+        {
+          "id": "line-3221bcf2d60d5c96",
+          "en": "§e- §7Press §f<num>§7 to switch octaves",
+          "ru": "§e- §7Нажмите §f<num>§7 для смены октавы"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-f09d5e8964f59329",
+      "match": {
+        "title": "§2§lSwitch Modes",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§2§lSwitch Modes",
+        "ru": "§#00AA00§lПереключить Лад"
+      },
+      "lines": [
+        {
+          "id": "line-f09d5e8964f59329",
+          "en": "§2§lSwitch Modes",
+          "ru": "§#00AA00§lПереключить Лад"
+        },
+        {
+          "id": "line-09dd9b7d53d4d8cf",
+          "en": "§7Allows easy switch from",
+          "ru": "§#AAAAAAПереключение между"
+        },
+        {
+          "id": "line-583bf9d04ef42377",
+          "en": "§7major and minor scales",
+          "ru": "§#AAAAAAмажором и минором."
+        },
+        {
+          "id": "line-516253a9b79cdfee",
+          "en": "§2- Major",
+          "ru": "§2- Мажор"
+        },
+        {
+          "id": "line-c38fe02f979cacf9",
+          "en": "§8- Minor",
+          "ru": "§8- Минор"
+        },
+        {
+          "id": "line-f7d6dbf5ff40b5eb",
+          "en": "§aClick to switch",
+          "ru": "§#55FF55Нажмите, чтобы переключить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-526e0087cc3f254d",
+      "match": {
+        "title": "Description",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Description",
+        "ru": "Описание"
+      },
+      "lines": [
+        {
+          "id": "line-526e0087cc3f254d",
+          "en": "Description",
+          "ru": "Описание"
+        },
+        {
+          "id": "line-52a62a2e3865ad60",
+          "en": "§7§cRequired",
+          "ru": "§#FF5555Обязательно"
+        },
+        {
+          "id": "line-d35c1e8bd18cbb95",
+          "en": "§7A short description of",
+          "ru": "§#AAAAAAКраткое описание"
+        },
+        {
+          "id": "line-7865011d78d3177d",
+          "en": "§7your party goal.",
+          "ru": "§#AAAAAAцели вашей группы."
+        },
+        {
+          "id": "line-321378c265f58b20",
+          "en": "§bCurrent Value:",
+          "ru": "§bТекущее Значение:"
+        },
+        {
+          "id": "line-f45c844b24044d89",
+          "en": "<em> Click to modify",
+          "ru": "<em> Нажмите, чтобы изменить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-a444fbe83b99dd2c",
+      "match": {
+        "title": "<num>x Bluerose Lyre",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Bluerose Lyre",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-a444fbe83b99dd2c",
+          "en": "<num>x Bluerose Lyre",
+          "ru": ""
+        },
+        {
+          "id": "line-1d44b55b13a32c32",
+          "en": "Disguise your relik with a",
+          "ru": "Придаёт вашему реликту облик"
+        },
+        {
+          "id": "line-4c6a075ca2c05bae",
+          "en": "Bluerose flair",
+          "ru": "синей розы."
+        },
+        {
+          "id": "line-d5116388bd9f967c",
+          "en": "§7§c✖ §7Class Req: §fShaman/Skyseer",
+          "ru": "§c✖ §7Требуется Класс: §fШаман/Провидец"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-dc534da5f60bf4c2",
+      "match": {
+        "title": "§7Emotes<em>",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Emotes<em>",
+        "ru": "Эмоции<em>"
+      },
+      "lines": [
+        {
+          "id": "line-dc534da5f60bf4c2",
+          "en": "§7Emotes<em>",
+          "ru": "Эмоции<em>"
+        },
+        {
+          "id": "line-c82bb3ceb08e5f7e",
+          "en": "You have new items",
+          "ru": "В этой категории есть"
+        },
+        {
+          "id": "line-def5b1e7f8b79ecf",
+          "en": "in this category!",
+          "ru": "новые предметы!"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-21dd79a797f2592a",
+      "match": {
+        "title": "§7§b§lMatch Found",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7§b§lMatch Found",
+        "ru": "§#55FFFF§lГруппа Найдена"
+      },
+      "lines": [
+        {
+          "id": "line-21dd79a797f2592a",
+          "en": "§7§b§lMatch Found",
+          "ru": "§#55FFFF§lГруппа Найдена"
+        },
+        {
+          "id": "line-525d642f1d310d58",
+          "en": "§7§7You have §e<num>:<num>§7 seconds",
+          "ru": "§7У вас осталось §e<num>:<num>§7 секунд,"
+        },
+        {
+          "id": "line-7b9b7c6072f7dd38",
+          "en": "§7§7left to accept",
+          "ru": "§7чтобы принять приглашение."
+        },
+        {
+          "id": "line-12d8b383ab7c8858",
+          "en": "<em> Left-Click to Accept",
+          "ru": "<em> ЛКМ - Принять"
+        },
+        {
+          "id": "line-50316f598ee28f12",
+          "en": "<em> Right-Click to Deny",
+          "ru": "<em> ПКМ - Отклонить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-9cfa159734e2fc82",
+      "match": {
+        "title": "§7§a§lWaiting for others",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§7§a§lWaiting for others",
+        "ru": "§#55FF55§lОжидание остальных"
+      },
+      "lines": [
+        {
+          "id": "line-9cfa159734e2fc82",
+          "en": "§7§a§lWaiting for others",
+          "ru": "§#55FF55§lОжидание остальных"
+        },
+        {
+          "id": "line-525d642f1d310d58",
+          "en": "§7§7You have §e<num>:<num>§7 seconds",
+          "ru": "§7У вас осталось §e<num>:<num>§7 секунд,"
+        },
+        {
+          "id": "line-7b9b7c6072f7dd38",
+          "en": "§7§7left to accept",
+          "ru": "§7чтобы принять приглашение."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-88bf8df8de1a683e",
+      "match": {
+        "title": "§6Empty Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Empty Slot",
+        "ru": "Пустая Ячейка"
+      },
+      "lines": [
+        {
+          "id": "line-88bf8df8de1a683e",
+          "en": "§6Empty Slot",
+          "ru": "Пустая Ячейка"
+        },
+        {
+          "id": "line-1e6a383ec81d29d8",
+          "en": "§8Slot Locked",
+          "ru": "§8Ячейка Заблокирована"
+        },
+        {
+          "id": "line-d3ac13ce5620a8b8",
+          "en": "§7§c✖ §7Guild Lv. Min: §f<num>",
+          "ru": "§c✖ §7Мин. Уровень Гильдии: §f<num>"
+        },
+        {
+          "id": "line-538fa806ad263f5d",
+          "en": "§cNot high level enough",
+          "ru": "§#FF5555Недостаточный уровень"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-f8e3c289cecfe95e",
+      "match": {
+        "title": "Leather Boots",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Leather Boots",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-f8e3c289cecfe95e",
+          "en": "Leather Boots",
+          "ru": ""
+        },
+        {
+          "id": "line-e880e067d1f2f43e",
+          "en": "When on Feet:",
+          "ru": "На Ногах:"
+        },
+        {
+          "id": "line-665285a54f841e6f",
+          "en": "<num> Armor",
+          "ru": "§#5555FF<num>§#5555FF Брони"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-756dd8d828de746c",
+      "match": {
+        "title": "<num>x Fire Aura Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Fire Aura Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-756dd8d828de746c",
+          "en": "<num>x Fire Aura Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-d88026f34c0d6c37",
+          "en": "Give your character a Fire",
+          "ru": "Добавьте своему персонажу"
+        },
+        {
+          "id": "line-c8916fc070c726ec",
+          "en": "Aura effect",
+          "ru": "эффект Огненной Ауры"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-b2cd1190a1486185",
+      "match": {
+        "title": "<num>x Smoke Swirl Effect",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Smoke Swirl Effect",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b2cd1190a1486185",
+          "en": "<num>x Smoke Swirl Effect",
+          "ru": ""
+        },
+        {
+          "id": "line-59e0b2e63d351f4f",
+          "en": "Give your character a Smoke",
+          "ru": "Добавьте своему персонажу"
+        },
+        {
+          "id": "line-dcb576426a17b7df",
+          "en": "effect",
+          "ru": "эффект"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-44fc6afbc7a4cf33",
+      "match": {
+        "title": "<num>x White Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x White Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-44fc6afbc7a4cf33",
+          "en": "<num>x White Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-8eb54b109e815878",
+          "en": "Summon the White Wybel to",
+          "ru": "Призовите Белого Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-8d54356a7875f110",
+      "match": {
+        "title": "<num>x Gray Wybel",
+        "anchors": [],
+        "priority": 210
+      },
+      "title": {
+        "id": "title",
+        "en": "<num>x Gray Wybel",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-8d54356a7875f110",
+          "en": "<num>x Gray Wybel",
+          "ru": ""
+        },
+        {
+          "id": "line-5e4f35f4fdfa65d4",
+          "en": "Summon the Gray Wybel to",
+          "ru": "Призовите Серого Вайбела,"
+        },
+        {
+          "id": "line-961d1e302050950f",
+          "en": "follow you throughout your",
+          "ru": "который будет сопровождать вас"
+        },
+        {
+          "id": "line-6e1b1cacb6fc00cc",
+          "en": "adventures",
+          "ru": "во всех приключениях."
+        },
+        {
+          "id": "line-bbf15cd0435ed3f7",
+          "en": "<em>Level <num>",
+          "ru": "<em>Уровень §#FFAA00<num>§#FFAA00"
+        },
+        {
+          "id": "line-814424f83fd84608",
+          "en": "§7<em> Click to Add",
+          "ru": "<em> Нажмите, чтобы Добавить"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-953da887e0f13bce",
+      "match": {
+        "title": "§a§lClick to Update",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lClick to Update",
+        "ru": "§#55FF55§lНажмите, чтобы Обновить"
+      },
+      "lines": [
+        {
+          "id": "line-953da887e0f13bce",
+          "en": "§a§lClick to Update",
+          "ru": "§#55FF55§lНажмите, чтобы Обновить"
+        },
+        {
+          "id": "line-e7b995a6d7a26d7d",
+          "en": "§7Accepting the changes",
+          "ru": "§#AAAAAAПодтвердите изменения,"
+        },
+        {
+          "id": "line-597230a1cdfed1d1",
+          "en": "§7will update this loadout",
+          "ru": "§#AAAAAAчтобы обновить настройки"
+        },
+        {
+          "id": "line-ba7b0d07bdf6a98c",
+          "en": "§7configurations.",
+          "ru": "§#AAAAAAэтого набора."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-1698566d12a814f6",
+      "match": {
+        "title": "Weapon Tome Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Weapon Tome Slot",
+        "ru": "Ячейка Оружейного Тома"
+      },
+      "lines": [
+        {
+          "id": "line-1698566d12a814f6",
+          "en": "Weapon Tome Slot",
+          "ru": "Ячейка Оружейного Тома"
+        },
+        {
+          "id": "line-804276bc97113715",
+          "en": "§6Requirements: ",
+          "ru": "§6Требования: "
+        },
+        {
+          "id": "line-957b4ebd7032df41",
+          "en": "§7§a✔ §7Lv. Min: <num>",
+          "ru": "§a✔ §fМин. Уровень: §7<num>"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-a420ac2833ffd6f3",
+      "match": {
+        "title": "Allegiance Tome Slot",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Allegiance Tome Slot",
+        "ru": "Ячейка Тома Верности"
+      },
+      "lines": [
+        {
+          "id": "line-a420ac2833ffd6f3",
+          "en": "Allegiance Tome Slot",
+          "ru": "Ячейка Тома Верности"
+        },
+        {
+          "id": "line-804276bc97113715",
+          "en": "§6Requirements: ",
+          "ru": "§6Требования: "
+        },
+        {
+          "id": "line-957b4ebd7032df41",
+          "en": "§7§a✔ §7Lv. Min: <num>",
+          "ru": "§a✔ §fМин. Уровень: §7<num>"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-f1589bff5eee5933",
+      "match": {
+        "title": "§fLetter to Korzim",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§fLetter to Korzim",
+        "ru": "Письмо Корзиму"
+      },
+      "lines": [
+        {
+          "id": "line-f1589bff5eee5933",
+          "en": "§fLetter to Korzim",
+          "ru": "Письмо Корзиму"
+        },
+        {
+          "id": "line-46e2ae093a1ab12e",
+          "en": "§7The letter is made out of stone.",
+          "ru": "§#AAAAAAЭто письмо высечено на камне."
+        },
+        {
+          "id": "line-75440f38e011afa4",
+          "en": "§cQuest Item",
+          "ru": "§#FF5555Квестовый Предмет"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-e8803d8f187700de",
+      "match": {
+        "title": "§6Infested Pit Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Infested Pit Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-e8803d8f187700de",
+          "en": "§6Infested Pit Key",
+          "ru": ""
+        },
+        {
+          "id": "line-8ef7b3c500d88c72",
+          "en": "§7§fInfested Pit§7 once",
+          "ru": "§fПаучьей яме§7 один раз."
+        },
+        {
+          "id": "line-d26cad8c01b13a4b",
+          "en": "§7§aDungeon Info:",
+          "ru": "§#55FF55О Подземелье:"
+        },
+        {
+          "id": "line-be76af2db24c7581",
+          "en": "§7§a- §7Coordinates: §f<num>, <num>",
+          "ru": "§a- §7Координаты: §f<num>, <num>"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-91e620580de934b8",
+      "match": {
+        "title": "Broken IceÀÀÀBarrows Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken IceÀÀÀBarrows Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-91e620580de934b8",
+          "en": "Broken IceÀÀÀBarrows Key",
+          "ru": ""
+        },
+        {
+          "id": "line-ee1a4a17fbf4b390",
+          "en": "§7Use this item at the",
+          "ru": "§#AAAAAAИспользуйте этот предмет"
+        },
+        {
+          "id": "line-c815ccb537cd1c34",
+          "en": "§7Forgery to craft a",
+          "ru": "§7в §fКузнице§7, чтобы создать"
+        },
+        {
+          "id": "line-72c912998eef910d",
+          "en": "§7IceÀÀÀBarrows Key",
+          "ru": ""
+        },
+        {
+          "id": "line-433b08434b3448fd",
+          "en": "§7Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-5e3c3a0b7c659cbf",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-b899e2c2b1695de2",
+      "match": {
+        "title": "Broken CorruptedÀÀÀLostÀÀÀSanctuary Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken CorruptedÀÀÀLostÀÀÀSanctuary Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-b899e2c2b1695de2",
+          "en": "Broken CorruptedÀÀÀLostÀÀÀSanctuary Key",
+          "ru": ""
+        },
+        {
+          "id": "line-ee1a4a17fbf4b390",
+          "en": "§7Use this item at the",
+          "ru": "§#AAAAAAИспользуйте этот предмет"
+        },
+        {
+          "id": "line-c815ccb537cd1c34",
+          "en": "§7Forgery to craft a",
+          "ru": "§7в §fКузнице§7, чтобы создать"
+        },
+        {
+          "id": "line-d5dcf118bad2ff7b",
+          "en": "§7CorruptedÀÀÀLostÀÀÀSanctuary Key",
+          "ru": ""
+        },
+        {
+          "id": "line-433b08434b3448fd",
+          "en": "§7Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-5e3c3a0b7c659cbf",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-98d2d5843690c1f4",
+      "match": {
+        "title": "FallenÀÀÀFactory Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "FallenÀÀÀFactory Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-98d2d5843690c1f4",
+          "en": "FallenÀÀÀFactory Key",
+          "ru": ""
+        },
+        {
+          "id": "line-596200f9bac2c19a",
+          "en": "FallenÀÀÀFactory Dungeon once",
+          "ru": "§fЗаброшенной фабрике§7 один раз."
+        },
+        {
+          "id": "line-dcf2cb54d00c3763",
+          "en": "Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-e541b6d22ddeb087",
+          "en": "- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-aed5823765e3b54b",
+      "match": {
+        "title": "§6Lumbermill Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Lumbermill Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-aed5823765e3b54b",
+          "en": "§6Lumbermill Key",
+          "ru": ""
+        },
+        {
+          "id": "line-b2fcc262ca484ad2",
+          "en": "§7Probably unlocks something",
+          "ru": "§#AAAAAAНаверняка что-нибудь открывает"
+        },
+        {
+          "id": "line-4f4db5c91321a78d",
+          "en": "§7around the lumbermill...",
+          "ru": "§#AAAAAAгде-то возле лесопилки..."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-1957b782bf037205",
+      "match": {
+        "title": "Galleon'sÀÀÀGraveyard Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Galleon'sÀÀÀGraveyard Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1957b782bf037205",
+          "en": "Galleon'sÀÀÀGraveyard Key",
+          "ru": ""
+        },
+        {
+          "id": "line-028659a524ff555e",
+          "en": "§7Galleon'sÀÀÀGraveyard Dungeon",
+          "ru": "§fКладбищу галеонов"
+        },
+        {
+          "id": "line-b344245e68afc8e5",
+          "en": "§7once",
+          "ru": "§7один раз."
+        },
+        {
+          "id": "line-433b08434b3448fd",
+          "en": "§7Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-5e3c3a0b7c659cbf",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-449142660647040a",
+      "match": {
+        "title": "Corrupted Slykaar's Heart",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Slykaar's Heart",
+        "ru": "Заражённое сердце Сликаара"
+      },
+      "lines": [
+        {
+          "id": "line-449142660647040a",
+          "en": "Corrupted Slykaar's Heart",
+          "ru": "Заражённое сердце Сликаара"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-0edd834e6af5531d",
+          "en": "§7the Corrupted Undergrowth",
+          "ru": "§7магазине §fзаражённых"
+        },
+        {
+          "id": "line-d46f087cc180df1f",
+          "en": "§7Ruins Dungeon Shop",
+          "ru": "§fЗаросших Руин."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-2ec420cbf2260875",
+      "match": {
+        "title": "§6Corroded Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Corroded Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-2ec420cbf2260875",
+          "en": "§6Corroded Key",
+          "ru": ""
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-51df6117542157bb",
+      "match": {
+        "title": "Corrupted Arakadicus' Eye",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Arakadicus' Eye",
+        "ru": "Заражённый Глаз Аракадикуса"
+      },
+      "lines": [
+        {
+          "id": "line-51df6117542157bb",
+          "en": "Corrupted Arakadicus' Eye",
+          "ru": "Заражённый Глаз Аракадикуса"
+        },
+        {
+          "id": "line-d84ca1041beb87e9",
+          "en": "§7Can be exchanged for items at the",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-b98f53dbb5f1fe34",
+          "en": "§7Corrupted Infested Pit Dungeon",
+          "ru": "§fМагазине Заражённой"
+        },
+        {
+          "id": "line-03f8bb91fa93841b",
+          "en": "§7Shop",
+          "ru": "§fПаучьей Ямы."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-32bc1cefbf9bbfa0",
+          "en": "§7The fractal visions of countless",
+          "ru": "Бесчисленные видения путей:"
+        },
+        {
+          "id": "line-5f27f8bdf321cc50",
+          "en": "§7branching paths, each decision",
+          "ru": "каждое решение порождает"
+        },
+        {
+          "id": "line-20924257c870423d",
+          "en": "§7splitting further and further and",
+          "ru": "новые развилки, а те снова"
+        },
+        {
+          "id": "line-8aee3af3414e820d",
+          "en": "§7further. The multitudes make your",
+          "ru": "ветвятся без конца. От их обилия"
+        },
+        {
+          "id": "line-657711a10215a304",
+          "en": "§7head spin- impossible to comprehend",
+          "ru": "кружится голова. Охватить всё"
+        },
+        {
+          "id": "line-6f744ebc4250e734",
+          "en": "§7in their entirety.",
+          "ru": "это разумом невозможно."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-fc45b2924a0568f8",
+      "match": {
+        "title": "Corrupted Infested Pit Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Infested Pit Fragment",
+        "ru": "Фрагмент Заражённой Паучьей Ямы"
+      },
+      "lines": [
+        {
+          "id": "line-fc45b2924a0568f8",
+          "en": "Corrupted Infested Pit Fragment",
+          "ru": "Фрагмент Заражённой Паучьей Ямы"
+        },
+        {
+          "id": "line-d84ca1041beb87e9",
+          "en": "§7Can be exchanged for items at the",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-b98f53dbb5f1fe34",
+          "en": "§7Corrupted Infested Pit Dungeon",
+          "ru": "§fМагазине Заражённой"
+        },
+        {
+          "id": "line-03f8bb91fa93841b",
+          "en": "§7Shop",
+          "ru": "§fПаучьей Ямы."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-618eed1faf775880",
+      "match": {
+        "title": "Silver Legendary Token",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Silver Legendary Token",
+        "ru": "Серебряный Легендарный Жетон"
+      },
+      "lines": [
+        {
+          "id": "line-618eed1faf775880",
+          "en": "Silver Legendary Token",
+          "ru": "Серебряный Легендарный Жетон"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы"
+        },
+        {
+          "id": "line-4f82c9a64f4c8111",
+          "en": "§7Legendary Island",
+          "ru": "На Легендарном Острове."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-b358104e946b38fa",
+          "en": "§7This Legendary-stamped silver",
+          "ru": "Серебряный жетон Легендарного"
+        },
+        {
+          "id": "line-12118e99faa8f7be",
+          "en": "§7victory token can upgrade basic,",
+          "ru": "испытания улучшает обычные"
+        },
+        {
+          "id": "line-67f69c62e5ae68bb",
+          "en": "§7modular accessories.",
+          "ru": "модульные аксессуары."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-872a791b2a73c79e",
+      "match": {
+        "title": "Bronze Legendary Token",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Bronze Legendary Token",
+        "ru": "Бронзовый Легендарный Жетон"
+      },
+      "lines": [
+        {
+          "id": "line-872a791b2a73c79e",
+          "en": "Bronze Legendary Token",
+          "ru": "Бронзовый Легендарный Жетон"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы"
+        },
+        {
+          "id": "line-4f82c9a64f4c8111",
+          "en": "§7Legendary Island",
+          "ru": "На Легендарном Острове."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-4891951f2f6cfa93",
+          "en": "§7This Legendary-stamped brass",
+          "ru": "Латунный жетон Легендарного"
+        },
+        {
+          "id": "line-22bb1aa700164eb5",
+          "en": "§7victory token can earn you basic,",
+          "ru": "испытания даёт доступ к обычным"
+        },
+        {
+          "id": "line-67f69c62e5ae68bb",
+          "en": "§7modular accessories.",
+          "ru": "модульные аксессуары."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-5e09691051d40b88",
+      "match": {
+        "title": "Arakadicus' Eye",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Arakadicus' Eye",
+        "ru": "Глаз Аракадикуса"
+      },
+      "lines": [
+        {
+          "id": "line-5e09691051d40b88",
+          "en": "Arakadicus' Eye",
+          "ru": "Глаз Аракадикуса"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-c0a00c31452b6a38",
+          "en": "§7the Infested Pit Dungeon Shop",
+          "ru": "§7магазине §fПаучьей ямы§7."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-a993597db0e07976",
+          "en": "§7Weirdly, it's warm to the touch.",
+          "ru": "Как ни странно, он тёплый на ощупь."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-94b844e5de59601c",
+      "match": {
+        "title": "Infested Pit Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Infested Pit Fragment",
+        "ru": "Фрагмент Паучьей Ямы"
+      },
+      "lines": [
+        {
+          "id": "line-94b844e5de59601c",
+          "en": "Infested Pit Fragment",
+          "ru": "Фрагмент Паучьей Ямы"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-c0a00c31452b6a38",
+          "en": "§7the Infested Pit Dungeon Shop",
+          "ru": "§7магазине §fПаучьей ямы§7."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-8c1c01197f741374",
+      "match": {
+        "title": "DecrepitÀÀÀSewers Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "DecrepitÀÀÀSewers Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-8c1c01197f741374",
+          "en": "DecrepitÀÀÀSewers Key",
+          "ru": ""
+        },
+        {
+          "id": "line-b141bf6c6f3f79b4",
+          "en": "DecrepitÀÀÀSewers Dungeon once",
+          "ru": "§fВетхим канализациям§7 один раз."
+        },
+        {
+          "id": "line-dcf2cb54d00c3763",
+          "en": "Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-e541b6d22ddeb087",
+          "en": "- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-e345da137e5dc63a",
+      "match": {
+        "title": "Corrupted Hashr's Crown",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Hashr's Crown",
+        "ru": "Заражённая корона Хашра"
+      },
+      "lines": [
+        {
+          "id": "line-e345da137e5dc63a",
+          "en": "Corrupted Hashr's Crown",
+          "ru": "Заражённая корона Хашра"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-5a3d8f71f1b6c47e",
+          "en": "§7the Corrupted Sand-Swept Tomb",
+          "ru": "§7магазине §fзаражённой"
+        },
+        {
+          "id": "line-0879645d62a64fbe",
+          "en": "§7Dungeon Shop",
+          "ru": "§fЗанесённой Песком Гробницы."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-a88a9ba5a04f775b",
+      "match": {
+        "title": "Corrupted Sand-Swept Tomb Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Sand-Swept Tomb Fragment",
+        "ru": "Фрагмент Заражённой Занесённой Песком Гробницы"
+      },
+      "lines": [
+        {
+          "id": "line-a88a9ba5a04f775b",
+          "en": "Corrupted Sand-Swept Tomb Fragment",
+          "ru": "Фрагмент Заражённой Занесённой Песком Гробницы"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-5a3d8f71f1b6c47e",
+          "en": "§7the Corrupted Sand-Swept Tomb",
+          "ru": "§7магазине §fзаражённой"
+        },
+        {
+          "id": "line-0879645d62a64fbe",
+          "en": "§7Dungeon Shop",
+          "ru": "§fЗанесённой Песком Гробницы."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-60bc10301fd28aa5",
+      "match": {
+        "title": "Corrupted Galleon's Graveyard Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Galleon's Graveyard Fragment",
+        "ru": "Фрагмент заражённого Кладбища галеонов"
+      },
+      "lines": [
+        {
+          "id": "line-60bc10301fd28aa5",
+          "en": "Corrupted Galleon's Graveyard Fragment",
+          "ru": "Фрагмент заражённого Кладбища галеонов"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-aeb51e2e3c3675d8",
+          "en": "§7the Corrupted Galleon's",
+          "ru": "§7магазине §fзаражённого"
+        },
+        {
+          "id": "line-9f34eb1409847af3",
+          "en": "§7Graveyard Dungeon Shop",
+          "ru": "§fКладбища Галеонов."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-af0e5a71aaf1c50e",
+      "match": {
+        "title": "Corrupted Lost Sanctuary Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Lost Sanctuary Fragment",
+        "ru": "Фрагмент Заражённого Затерянного Святилища"
+      },
+      "lines": [
+        {
+          "id": "line-af0e5a71aaf1c50e",
+          "en": "Corrupted Lost Sanctuary Fragment",
+          "ru": "Фрагмент Заражённого Затерянного Святилища"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-164f54a636b36c18",
+          "en": "§7the Corrupted Lost Sanctuary",
+          "ru": "§7магазине §fзаражённого"
+        },
+        {
+          "id": "line-0879645d62a64fbe",
+          "en": "§7Dungeon Shop",
+          "ru": "§fЗатерянного Святилища."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-15b10621f24371db",
+      "match": {
+        "title": "Diamond Legendary Token",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Diamond Legendary Token",
+        "ru": "Алмазный Легендарный Жетон"
+      },
+      "lines": [
+        {
+          "id": "line-15b10621f24371db",
+          "en": "Diamond Legendary Token",
+          "ru": "Алмазный Легендарный Жетон"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы"
+        },
+        {
+          "id": "line-4f82c9a64f4c8111",
+          "en": "§7Legendary Island",
+          "ru": "На Легендарном Острове."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-e2976aedf13794c4",
+          "en": "§7This Legendary-stamped diamond",
+          "ru": "Алмазный жетон Легендарного"
+        },
+        {
+          "id": "line-7dc73aac4e27042c",
+          "en": "§7victory token can upgrade",
+          "ru": "испытания улучшает"
+        },
+        {
+          "id": "line-df29cefcfadbd63b",
+          "en": "§7advanced elemental accessories.",
+          "ru": "продвинутые стихийные аксессуары."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-41c75d75e9b9b3aa",
+      "match": {
+        "title": "Corrupted Garoth's Breath",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Garoth's Breath",
+        "ru": "Заражённое дыхание Гарота"
+      },
+      "lines": [
+        {
+          "id": "line-41c75d75e9b9b3aa",
+          "en": "Corrupted Garoth's Breath",
+          "ru": "Заражённое дыхание Гарота"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-164f54a636b36c18",
+          "en": "§7the Corrupted Lost Sanctuary",
+          "ru": "§7магазине §fзаражённого"
+        },
+        {
+          "id": "line-0879645d62a64fbe",
+          "en": "§7Dungeon Shop",
+          "ru": "Магазине Подземелья."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-c42a419af4ec3961",
+          "en": "§7A reflection of a past that never",
+          "ru": "Отражение прошлого, которого"
+        },
+        {
+          "id": "line-28eab8d347c7b116",
+          "en": "§7was, a twisting of truth and lies",
+          "ru": "не было. Правда и ложь сплетаются"
+        },
+        {
+          "id": "line-765165ce27e85412",
+          "en": "§7into something entirely new. With",
+          "ru": "в нечто совсем иное. Один вздох,"
+        },
+        {
+          "id": "line-4282fa3daa0454fe",
+          "en": "§7a sigh, it vanishes; ephemeral to",
+          "ru": "и оно исчезает, так и оставшись"
+        },
+        {
+          "id": "line-9f6efb5dfce7da51",
+          "en": "§7the end.",
+          "ru": "неуловимым."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-c8f547e488e57270",
+      "match": {
+        "title": "UndergrowthÀÀÀRuins Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "UndergrowthÀÀÀRuins Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c8f547e488e57270",
+          "en": "UndergrowthÀÀÀRuins Key",
+          "ru": ""
+        },
+        {
+          "id": "line-c20e07f16e53a9de",
+          "en": "UndergrowthÀÀÀRuins Dungeon",
+          "ru": "§fЗаросшим Руинам"
+        },
+        {
+          "id": "line-200651a8b2d5912f",
+          "en": "once",
+          "ru": "§7один раз."
+        },
+        {
+          "id": "line-dcf2cb54d00c3763",
+          "en": "Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-e541b6d22ddeb087",
+          "en": "- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-e4337c3339a97b9d",
+      "match": {
+        "title": "Ice Barrows Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Ice Barrows Fragment",
+        "ru": "Фрагмент Ледяных Курганов"
+      },
+      "lines": [
+        {
+          "id": "line-e4337c3339a97b9d",
+          "en": "Ice Barrows Fragment",
+          "ru": "Фрагмент Ледяных Курганов"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-e738b2433ce539e3",
+          "en": "§7the Ice Barrows Dungeon Shop",
+          "ru": "§7магазине §fЛедяных курганов§7."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-c19fe2ab5736f028",
+      "match": {
+        "title": "IceÀÀÀBarrows Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "IceÀÀÀBarrows Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c19fe2ab5736f028",
+          "en": "IceÀÀÀBarrows Key",
+          "ru": ""
+        },
+        {
+          "id": "line-eae828d8dac45661",
+          "en": "IceÀÀÀBarrows Dungeon once",
+          "ru": "§fЛедяным курганам§7 один раз."
+        },
+        {
+          "id": "line-dcf2cb54d00c3763",
+          "en": "Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-e541b6d22ddeb087",
+          "en": "- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-223caf2a72c41a98",
+      "match": {
+        "title": "Gold Legendary Token",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Gold Legendary Token",
+        "ru": "Золотой Легендарный Жетон"
+      },
+      "lines": [
+        {
+          "id": "line-223caf2a72c41a98",
+          "en": "Gold Legendary Token",
+          "ru": "Золотой Легендарный Жетон"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы"
+        },
+        {
+          "id": "line-4f82c9a64f4c8111",
+          "en": "§7Legendary Island",
+          "ru": "На Легендарном Острове."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-8a24250251773c34",
+          "en": "§7This Legendary-stamped gold",
+          "ru": "Золотой жетон Легендарного"
+        },
+        {
+          "id": "line-89d8addcb44cb18f",
+          "en": "§7victory token can upgrade basic",
+          "ru": "испытания улучшает обычные"
+        },
+        {
+          "id": "line-797e49811762ee25",
+          "en": "§7elemental accessories.",
+          "ru": "стихийные аксессуары."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-186ea81c165d9581",
+      "match": {
+        "title": "Corrupted Charon's Soul",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Charon's Soul",
+        "ru": "Заражённая душа Харона"
+      },
+      "lines": [
+        {
+          "id": "line-186ea81c165d9581",
+          "en": "Corrupted Charon's Soul",
+          "ru": "Заражённая душа Харона"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-c35427d5fea6fdf8",
+          "en": "§7the Corrupted Underworld Crypt",
+          "ru": "§7магазине §fзаражённого"
+        },
+        {
+          "id": "line-0879645d62a64fbe",
+          "en": "§7Dungeon Shop",
+          "ru": "§fСклепа Подземного Мира."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-eb02e7a6886d1f95",
+      "match": {
+        "title": "Corrupted Underworld Crypt Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Underworld Crypt Fragment",
+        "ru": "Фрагмент Заражённого Склепа Подземного Мира"
+      },
+      "lines": [
+        {
+          "id": "line-eb02e7a6886d1f95",
+          "en": "Corrupted Underworld Crypt Fragment",
+          "ru": "Фрагмент Заражённого Склепа Подземного Мира"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-c35427d5fea6fdf8",
+          "en": "§7the Corrupted Underworld Crypt",
+          "ru": "§7магазине §fзаражённого"
+        },
+        {
+          "id": "line-0879645d62a64fbe",
+          "en": "§7Dungeon Shop",
+          "ru": "§fСклепа Подземного Мира."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-100a2dcf22168a60",
+      "match": {
+        "title": "Corrupted Theorick's Permafrost",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Theorick's Permafrost",
+        "ru": "Заражённая вечная мерзлота Теорика"
+      },
+      "lines": [
+        {
+          "id": "line-100a2dcf22168a60",
+          "en": "Corrupted Theorick's Permafrost",
+          "ru": "Заражённая вечная мерзлота Теорика"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-84eb4b713d18a5e3",
+          "en": "§7the Corrupted Ice Barrows",
+          "ru": "§7магазине §fзаражённых"
+        },
+        {
+          "id": "line-0879645d62a64fbe",
+          "en": "§7Dungeon Shop",
+          "ru": "§fЛедяных Курганов."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-3a02669b5d318d4a",
+          "en": "§7A still image, a glance at something",
+          "ru": "Застывший образ того, что ещё"
+        },
+        {
+          "id": "line-4b11d9eb43520ecd",
+          "en": "§7not-yet-passed which cannot be",
+          "ru": "не случилось, но чего уже"
+        },
+        {
+          "id": "line-76dd843edb7ba043",
+          "en": "§7averted. A future frozen in place,",
+          "ru": "не избежать. Будущее замерло,"
+        },
+        {
+          "id": "line-66409493d77a4973",
+          "en": "§7the weight of inevitability pressing",
+          "ru": "придавленное тяжестью"
+        },
+        {
+          "id": "line-2820f3befdadecd1",
+          "en": "§7down.",
+          "ru": "неизбежного."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-90b8e3406b7135bd",
+      "match": {
+        "title": "Fire Voucher",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Fire Voucher",
+        "ru": "Талон Огня"
+      },
+      "lines": [
+        {
+          "id": "line-90b8e3406b7135bd",
+          "en": "Fire Voucher",
+          "ru": "Талон Огня"
+        },
+        {
+          "id": "line-e9f95054665a8e41",
+          "en": "§7Can be exchanged for",
+          "ru": "Можно обменять на"
+        },
+        {
+          "id": "line-93fe7050237d93e1",
+          "en": "§7items at the Hive Shop",
+          "ru": "§7предметы в §fмагазине Улья§7."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-6d5bd2bbd85ee684",
+          "en": "§7For defying the challenge",
+          "ru": "За преодоление испытания."
+        },
+        {
+          "id": "line-0fa970100360e7dc",
+          "en": "§7set forth. Softly sizzles",
+          "ru": "В нём тихо потрескивает"
+        },
+        {
+          "id": "line-11b47f59dd40448d",
+          "en": "§7with plasmatic energy.",
+          "ru": "энергия плазмы."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-df0613285ec3f229",
+      "match": {
+        "title": "Air Voucher",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Air Voucher",
+        "ru": "Талон Воздуха"
+      },
+      "lines": [
+        {
+          "id": "line-df0613285ec3f229",
+          "en": "Air Voucher",
+          "ru": "Талон Воздуха"
+        },
+        {
+          "id": "line-e9f95054665a8e41",
+          "en": "§7Can be exchanged for",
+          "ru": "Можно обменять на"
+        },
+        {
+          "id": "line-93fe7050237d93e1",
+          "en": "§7items at the Hive Shop",
+          "ru": "§7предметы в §fмагазине Улья§7."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-6d5bd2bbd85ee684",
+          "en": "§7For defying the challenge",
+          "ru": "За преодоление испытания."
+        },
+        {
+          "id": "line-1663ee2478c78523",
+          "en": "§7set forth. Quietly howls",
+          "ru": "В нём тихо завывает"
+        },
+        {
+          "id": "line-088b9e6e4c0499af",
+          "en": "§7with cyclonic energy.",
+          "ru": "энергия вихря."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-d3c29f2fd3935696",
+      "match": {
+        "title": "Theorick's Permafrost",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Theorick's Permafrost",
+        "ru": "Вечная мерзлота Теорика"
+      },
+      "lines": [
+        {
+          "id": "line-d3c29f2fd3935696",
+          "en": "Theorick's Permafrost",
+          "ru": "Вечная мерзлота Теорика"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-e738b2433ce539e3",
+          "en": "§7the Ice Barrows Dungeon Shop",
+          "ru": "§7магазине §fЛедяных курганов§7."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-9c1077345d100724",
+          "en": "§7Bitterly, bitingly cold. It reflects",
+          "ru": "Обжигающий, лютый холод. В нём"
+        },
+        {
+          "id": "line-824bb6f0c9e5731b",
+          "en": "§7Theorick's anger, both outward",
+          "ru": "гнев Теорика, обращённый к миру"
+        },
+        {
+          "id": "line-66c04c81e7c7fe79",
+          "en": "§7and inward.",
+          "ru": "и к самому себе."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-dbf87c7599a9fde8",
+      "match": {
+        "title": "CorruptedÀÀÀUndergrowthÀÀÀRuins Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀUndergrowthÀÀÀRuins Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-dbf87c7599a9fde8",
+          "en": "CorruptedÀÀÀUndergrowthÀÀÀRuins Key",
+          "ru": ""
+        },
+        {
+          "id": "line-e3bd48b620a0f195",
+          "en": "§7CorruptedÀÀÀUndergrowthÀÀÀRuin",
+          "ru": "§fЗаражённым Заросшим Руинам"
+        },
+        {
+          "id": "line-21a7ec3e5ba22ae3",
+          "en": "§7s Dungeon once",
+          "ru": "§7один раз."
+        },
+        {
+          "id": "line-433b08434b3448fd",
+          "en": "§7Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-5e3c3a0b7c659cbf",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-984010892ab0fde9",
+      "match": {
+        "title": "CorruptedÀÀÀGalleon'sÀÀÀGraveyard Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀGalleon'sÀÀÀGraveyard Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-984010892ab0fde9",
+          "en": "CorruptedÀÀÀGalleon'sÀÀÀGraveyard Key",
+          "ru": ""
+        },
+        {
+          "id": "line-1b18c04b0b1381b3",
+          "en": "§7CorruptedÀÀÀGalleon'sÀÀÀGravey",
+          "ru": "§fзаражённому Кладбищу галеонов"
+        },
+        {
+          "id": "line-2d0426cb1e0e8fd0",
+          "en": "§7ard Dungeon once",
+          "ru": "§7один раз."
+        },
+        {
+          "id": "line-433b08434b3448fd",
+          "en": "§7Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-5e3c3a0b7c659cbf",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-02c853afadaf240a",
+      "match": {
+        "title": "Broken UnderworldÀÀÀCrypt Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken UnderworldÀÀÀCrypt Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-02c853afadaf240a",
+          "en": "Broken UnderworldÀÀÀCrypt Key",
+          "ru": ""
+        },
+        {
+          "id": "line-ee7e0b848b2584d5",
+          "en": "§7§7Use this item at the",
+          "ru": "§#AAAAAAИспользуйте этот предмет"
+        },
+        {
+          "id": "line-620f2d33792aa26f",
+          "en": "§7§7Forgery to craft a",
+          "ru": "§7в §fКузнице§7, чтобы создать"
+        },
+        {
+          "id": "line-874e12d91ca5ec05",
+          "en": "§7§7UnderworldÀÀÀCrypt Key",
+          "ru": ""
+        },
+        {
+          "id": "line-cafa16dd317e55d8",
+          "en": "§7§7Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-b6da3f366c31ab6e",
+          "en": "§7§7- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-c675aac06f0f4d06",
+      "match": {
+        "title": "Broken UndergrowthÀÀÀRuins Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken UndergrowthÀÀÀRuins Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-c675aac06f0f4d06",
+          "en": "Broken UndergrowthÀÀÀRuins Key",
+          "ru": ""
+        },
+        {
+          "id": "line-ee1a4a17fbf4b390",
+          "en": "§7Use this item at the",
+          "ru": "§#AAAAAAИспользуйте этот предмет"
+        },
+        {
+          "id": "line-c815ccb537cd1c34",
+          "en": "§7Forgery to craft a",
+          "ru": "§7в §fКузнице§7, чтобы создать"
+        },
+        {
+          "id": "line-71f242bc4d63a989",
+          "en": "§7UndergrowthÀÀÀRuins Key",
+          "ru": ""
+        },
+        {
+          "id": "line-433b08434b3448fd",
+          "en": "§7Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-5e3c3a0b7c659cbf",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-284ba6161212af56",
+      "match": {
+        "title": "Corrupted Ice Barrows Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Ice Barrows Fragment",
+        "ru": "Фрагмент Заражённых Ледяных Курганов"
+      },
+      "lines": [
+        {
+          "id": "line-284ba6161212af56",
+          "en": "Corrupted Ice Barrows Fragment",
+          "ru": "Фрагмент Заражённых Ледяных Курганов"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-84eb4b713d18a5e3",
+          "en": "§7the Corrupted Ice Barrows",
+          "ru": "§7магазине §fзаражённых"
+        },
+        {
+          "id": "line-0879645d62a64fbe",
+          "en": "§7Dungeon Shop",
+          "ru": "§fЛедяных Курганов."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-65a0acee9857335d",
+      "match": {
+        "title": "Corrupted Undergrowth Ruins Fragment",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Undergrowth Ruins Fragment",
+        "ru": "Фрагмент Заражённых Заросших Руин"
+      },
+      "lines": [
+        {
+          "id": "line-65a0acee9857335d",
+          "en": "Corrupted Undergrowth Ruins Fragment",
+          "ru": "Фрагмент Заражённых Заросших Руин"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-0edd834e6af5531d",
+          "en": "§7the Corrupted Undergrowth",
+          "ru": "§7магазине §fзаражённых"
+        },
+        {
+          "id": "line-d46f087cc180df1f",
+          "en": "§7Ruins Dungeon Shop",
+          "ru": "§fЗаросших Руин."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-ce4b668ff764cade",
+      "match": {
+        "title": "Corrupted Redbeard's Hair",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Corrupted Redbeard's Hair",
+        "ru": "Заражённый волос Рыжеборода"
+      },
+      "lines": [
+        {
+          "id": "line-ce4b668ff764cade",
+          "en": "Corrupted Redbeard's Hair",
+          "ru": "Заражённый волос Рыжеборода"
+        },
+        {
+          "id": "line-4932de95e0d5c2c9",
+          "en": "§7Can be exchanged for items at",
+          "ru": "Можно обменять на предметы в"
+        },
+        {
+          "id": "line-aeb51e2e3c3675d8",
+          "en": "§7the Corrupted Galleon's",
+          "ru": "§7магазине §fзаражённого"
+        },
+        {
+          "id": "line-9f34eb1409847af3",
+          "en": "§7Graveyard Dungeon Shop",
+          "ru": "§fКладбища Галеонов."
+        },
+        {
+          "id": "line-4e4d03bcdcee28c2",
+          "en": "§7Untradable",
+          "ru": "Нельзя Передать"
+        },
+        {
+          "id": "line-33abed27a4ec2557",
+          "en": "§7The shifting of the tide. A raging",
+          "ru": "Переменчивый прилив. Бушующее"
+        },
+        {
+          "id": "line-ee68fbf5fee1fc62",
+          "en": "§7sea of long-passed and yet-to-",
+          "ru": "море минувшего и грядущего"
+        },
+        {
+          "id": "line-2f79436b622f055b",
+          "en": "§7come that threatens to drag you",
+          "ru": "грозит утянуть вас"
+        },
+        {
+          "id": "line-baac89e6daa31898",
+          "en": "§7down into its depths.",
+          "ru": "в свои глубины."
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-889d60714d5de742",
+      "match": {
+        "title": "Broken DecrepitÀÀÀSewers Key",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken DecrepitÀÀÀSewers Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-889d60714d5de742",
+          "en": "Broken DecrepitÀÀÀSewers Key",
+          "ru": ""
+        },
+        {
+          "id": "line-ee1a4a17fbf4b390",
+          "en": "§7Use this item at the",
+          "ru": "§#AAAAAAИспользуйте этот предмет"
+        },
+        {
+          "id": "line-c815ccb537cd1c34",
+          "en": "§7Forgery to craft a",
+          "ru": "§7в §fКузнице§7, чтобы создать"
+        },
+        {
+          "id": "line-7a06099b85c6e24f",
+          "en": "§7DecrepitÀÀÀSewers Key",
+          "ru": ""
+        },
+        {
+          "id": "line-433b08434b3448fd",
+          "en": "§7Dungeon Info:",
+          "ru": "О Подземелье:"
+        },
+        {
+          "id": "line-5e3c3a0b7c659cbf",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "- Координаты: §#FFFFFF<num>§#AAAAAA §#FFFFFF<num>§#AAAAAA"
+        }
+      ]
+    },
+    {
+      "id": "menus-cosmetics-7b17f937b8322d0d",
+      "match": {
+        "title": "Steel Feather Ticket",
+        "anchors": [],
+        "priority": 200
+      },
+      "title": {
+        "id": "title",
+        "en": "Steel Feather Ticket",
+        "ru": "Билет Стального Пера"
+      },
+      "lines": [
+        {
+          "id": "line-7b17f937b8322d0d",
+          "en": "Steel Feather Ticket",
+          "ru": "Билет Стального Пера"
+        },
+        {
+          "id": "line-5249130b46e01e7c",
+          "en": "§7§7Can be exchanged for items in the",
+          "ru": "Можно обменять на товары"
+        },
+        {
+          "id": "line-9dfe8069489caeb1",
+          "en": "§7§fSteel Feather §7convenience store.",
+          "ru": "§7в магазине §fСтального Пера§7."
+        }
+      ]
+    },
+    {
+      "id": "batch22-scope-59063ead44adf323",
+      "match": {
+        "title": "1x Skeleton Disguise",
+        "anchors": [
+          "Disguise yourself as a",
+          "Skeleton"
+        ],
+        "priority": 300
+      },
+      "title": {
+        "id": "title",
+        "en": "1x Skeleton Disguise",
+        "ru": "1x Skeleton Disguise"
+      },
+      "lines": [
+        {
+          "id": "batch22-line-1f4803d76b375d45",
+          "en": "Disguise yourself as a",
+          "ru": "Превратитесь"
+        },
+        {
+          "id": "batch22-line-ea5f6bdc79b884c3",
+          "en": "Skeleton",
+          "ru": "в Скелета"
+        }
+      ]
+    },
+    {
+      "id": "batch22-scope-37d094f4ca7068fa",
+      "match": {
+        "title": "1x Smoke Swirl Effect",
+        "anchors": [
+          "effect"
+        ],
+        "priority": 300
+      },
+      "title": {
+        "id": "title",
+        "en": "1x Smoke Swirl Effect",
+        "ru": "1x Smoke Swirl Effect"
+      },
+      "lines": [
+        {
+          "id": "batch22-line-dcb576426a17b7df",
+          "en": "effect",
+          "ru": "эффект Дыма"
+        }
+      ]
+    }
+  ]
+}

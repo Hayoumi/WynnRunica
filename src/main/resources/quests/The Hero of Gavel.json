@@ -1,0 +1,1465 @@
+{
+  "quest": "The Hero of Gavel",
+  "level": 99,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-hero-of-gavel",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hmm... I might have just enough for one tier 3... Why are you standing there?",
+      "ru": "Хм... Кажется, мне как раз хватает на один предмет 3-го уровня... Чего встал?",
+      "speaker": "Excited Fan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "What all these people are here for? Don't tell me you don't know about the Siegfried contest.",
+      "ru": "Не понимаешь, чего тут столько людей? Только не говори, что ты не знаешь про конкурс Зигфрида.",
+      "speaker": "Excited Fan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Are you SERIOUS?! It's the biggest thing happening since the last contest last month!",
+      "ru": "Ты СЕРЬЁЗНО?! Это вообще главное событие со времён прошлого конкурса в прошлом месяце!",
+      "speaker": "Excited Fan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Whoever wins the big scavenger hunt gets to go on an adventure with Siegfried himself.",
+      "ru": "Кто победит в большой охоте за сокровищами, тот отправится в приключение с самим Зигфридом.",
+      "speaker": "Excited Fan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "This year, I think I even have a good chance to win!",
+      "ru": "В этом году, кажется, у меня неплохие шансы выиграть!",
+      "speaker": "Excited Fan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Huh? Oh, you want this ticket? No way, this one's mine. Go get your own at that little shop.",
+      "ru": "А? О, тебе этот билет нужен? Неа, этот мой. Иди бери себе свой вон в той лавке.",
+      "speaker": "Excited Fan",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Hey, that's the mug I dropped!",
+      "ru": "Эй, это кружка, которую я уронил!",
+      "speaker": "Siegfried Fan 1",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "No, this is mine.",
+      "ru": "Нет, она моя.",
+      "speaker": "Siegfried Fan 2",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "THIEF! GIVE IT BACK!",
+      "ru": "ВОР! ОТДАЙ ОБРАТНО!",
+      "speaker": "Siegfried Fan 1",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Ow! Fine, take it!",
+      "ru": "Ай! Ладно, забирай!",
+      "speaker": "Siegfried Fan 2",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "How can I win an adventure now?",
+      "ru": "И как мне теперь выиграть это приключение?",
+      "speaker": "Siegfried Fan 2",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "SIEGFRIED!!",
+      "ru": "ЗИГФРИД!!",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "It's SIEGFRIED!",
+      "ru": "ЭТО ЗИГФРИД!",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "It's him!",
+      "ru": "ЭТО ОН!",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "SIEGFRIED PICK MEEE!",
+      "ru": "ЗИГФРИД ВЫБЕРИ МЕНЯЯЯ!",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "SIEEEGGFRIEED!",
+      "ru": "ЗИИИГФРИИИД!",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Stay back!",
+      "ru": "Назад!",
+      "speaker": "Siegfried Agent",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Finally!",
+      "ru": "Наконец-то!",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I better win, I bought his mug!",
+      "ru": "Я обязан выиграть, я вообще-то его кружку купил!",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Maybe I'll win this time?",
+      "ru": "Может, хоть в этот раз повезёт?",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "THE HUMAN?!",
+      "ru": "ЧЕЛОВЕК?!",
+      "speaker": "Siegfried Fan",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Take THIS!",
+      "ru": "ПОЛУЧАЙ!",
+      "speaker": "Siegfried",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "You should jump in after him.",
+      "ru": "Прыгни за ним следом.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "He's unconscious. Perhaps there's something around here to wake him up?",
+      "ru": "Он без сознания. Может, тут найдётся что-то, чем его можно привести в чувство?",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Supplies are limited, excavation yielding little success.",
+      "ru": "Запасов мало, а раскопки почти ничего не дают.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "We've attempted going around the portcullis, but the beast in the only way past it killed one of our crew.",
+      "ru": "Мы пытались обойти решётку, но тварь на единственном пути дальше убила одного из наших.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Apart from the portcullis, there are no signs of villagers or of the town itself. The team is beginning to doubt its existence.",
+      "ru": "Кроме этой решётки, тут вообще нет ни следов жителей, ни самого города. Команда уже начинает сомневаться, что он вообще существует.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "The return crew is lowering the crane tomorrow, so it's unlikely we can find anything before then. Logs will be left for use of any future excavations.",
+      "ru": "Завтра возвращающийся отряд опустит кран, так что до этого мы вряд ли успеем что-то найти. Записи оставим для будущих раскопок.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "This should wake Siegfried.",
+      "ru": "Этого должно хватить, чтобы разбудить Зигфрида.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "'Siegfried: MY ARM! IT HIT MY ARM!'",
+      "ru": "'Зигфрид: МОЯ РУКА! ПО РУКЕ ПОПАЛО!'",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "The cage fell! You should go help Siegfried out.",
+      "ru": "Клетка упала! Надо вытащить оттуда Зигфрида.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Siegfried has died in the cage. You'll have to find your way out yourself.",
+      "ru": "Зигфрид умер в клетке. Теперь тебе придётся самому искать выход.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "There's some small caves around here.. Maybe there'll be something edible there?",
+      "ru": "Тут рядом есть мелкие пещерки... может, там найдётся что-то съедобное?",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "... These look disgusting.",
+      "ru": "... Выглядит отвратно.",
+      "speaker": "Siegfried",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "I guess... I'll eat it, if it's the only food around.",
+      "ru": "Ну... если другой еды тут нет, придётся это съесть.",
+      "speaker": "Siegfried",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Let's see... How do i even eat these?",
+      "ru": "Так... И как это вообще есть?",
+      "speaker": "Siegfried",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Ugh... These are awful.",
+      "ru": "Фу... Какая же гадость.",
+      "speaker": "Siegfried",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "This area seems like a good place to rest before moving on. Siegfried would have been overjoyed to see this.",
+      "ru": "Похоже, здесь можно передохнуть, прежде чем идти дальше. Зигфрид был бы в восторге, увидев это место.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Those lines of silk from the big web are holding it up. If you cut all three, it might break.",
+      "ru": "Эти нити от большой паутины её и держат. Если перерезать все три, она может рухнуть.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "'Gurix: Let's head onwards, I don't want to deal with any more spiders.'",
+      "ru": "'Гурикс: Погнали дальше, я больше не хочу связываться с пауками.'",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Maybe that web would fall if you cut the ones supporting it?",
+      "ru": "Может, та паутина рухнет, если перерезать нити, что её держат?",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "The Big Web has been cleared!",
+      "ru": "Большая паутина убрана!",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "W-what's going on here? You can't replace me!",
+      "ru": "Ч-что тут происходит? Вы не можете меня заменить!",
+      "speaker": "Gurix",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "This way, please.",
+      "ru": "Сюда, пожалуйста.",
+      "speaker": "???",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Wait, wha-",
+      "ru": "Стой, что за-",
+      "speaker": "Gurix",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Hello there, human! It is I, Siegfried! You must have just missed how I expertly ended the threat of this monster-ridden cave!",
+      "ru": "Приветствую, человек! Это я, Зигфрид! Ты, похоже, чуть-чуть опоздал и пропустил, как я мастерски избавил эту пещеру от чудовищ!",
+      "speaker": "Siegfried",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Wait!",
+      "ru": "Стой!",
+      "speaker": "???",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "*inaudible*",
+      "ru": "*неразборчиво*",
+      "speaker": "???",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "<playername>, I'm glad to see you managed to get out alive. That must have been quite a fall into the chasm.",
+      "ru": "<playername>, рад видеть, что ты всё-таки выбрался живым. Наверное, в ту пропасть ты летел знатно.",
+      "speaker": "Siegfried",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Of course, I got out easily using my spells and great knowledge of caves! Well, I must be off now. Maybe we may meet again if you win the next scavenger hunt!",
+      "ru": "Ну а я, само собой, выбрался легко - с помощью своих заклинаний и великого знания пещер! Ладно, мне уже пора. Может, ещё увидимся, если выиграешь следующую охоту за предметами!",
+      "speaker": "Siegfried",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "As compensation for your unfortunate accident, Siegfried will return you the emeralds spent on purchasing scavenger hunt items.",
+      "ru": "В качестве компенсации за этот неприятный случай Зигфрид вернёт тебе изумруды, которые ты потратил на предметы для охоты.",
+      "speaker": "???",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "That should amount to... 5 Liquid Emeralds. We apologize for the difficulties you encountered during your adventure with Siegfried!",
+      "ru": "Итого выходит... 5 жидких изумрудов. Приносим извинения за трудности, с которыми ты столкнулся во время приключения с Зигфридом!",
+      "speaker": "???",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Tickets for sale! You! Would you like to join the great Siegfried Scavenger Hunt?",
+      "ru": "Продаю билеты! Эй, ты! Не желаешь поучаствовать в великой охоте за сокровищами Зигфрида?",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Entry is completely free, and if you win, you'll get to adventure with Siegfried himself!",
+      "ru": "Вход совершенно бесплатный, а если победишь, отправишься в приключение с самим Зигфридом!",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "You're interested? Great! Here, it's all quite simple.",
+      "ru": "Заинтересовался? Отлично! Слушай, всё довольно просто.",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "The ticket shows what items you need to find. It's split into three tiers.",
+      "ru": "На билете указано, какие предметы нужно найти. Они разделены на три уровня.",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Heh, you can even bring all three and you're practically guaranteed to win!",
+      "ru": "Хех, можешь даже принести все три - и победа тебе практически гарантирована!",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Here, take the ticket. Come back with your items and you'll be entered into the draw.",
+      "ru": "Вот, возьми билет. Возвращайся с предметами и сможешь участвовать в розыгрыше.",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "You're back! Let me see your items.",
+      "ru": "Ты вернулся! Покажи-ка свои предметы.",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "This... Wow, all of them? Let me take a look at these...",
+      "ru": "Это... Ого, все сразу? Дай-ка взгляну на них...",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "They're all authentic! You must be ri-I mean, you must be a huge fan of Siegfried!",
+      "ru": "Все подлинные! Ты, должно быть, бога- то есть, должно быть, ты огромный фанат Зигфрида!",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Give me a moment here...",
+      "ru": "Дай мне минутку...",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Okay, I've entered you into the draw. The event's taking place at the Golden Eagle Theatre.",
+      "ru": "Так, теперь ты участвуешь в розыгрыше. Всё пройдёт в театре \"Золотой орёл\".",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Just turn toward the bank and follow the signs, the winner will be selected when everyone gets there.",
+      "ru": "Просто поверни к банку и иди по указателям, победителя выберут, когда все соберутся.",
+      "speaker": "Сборщик билетов",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Welcome, welcome everyone! We're only waiting on a few more people before we begin.",
+      "ru": "Добро пожаловать! Приветствую всех! Ждём ещё нескольких человек и начнём.",
+      "speaker": "Ведущий",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Ah, there we go! I believe we're all set now.",
+      "ru": "А, вот и они! Полагаю, теперь всё готово.",
+      "speaker": "Ведущий",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Welcome everyone, to the monthly SIEGFRIED FESTIVAL SCAVENGER HUNT!",
+      "ru": "Приветствую всех на ежемесячной ОХОТЕ ЗА СОКРОВИЩАМИ ФЕСТИВАЛЯ ЗИГФРИДА!",
+      "speaker": "Ведущий",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Today, we are once again celebrating the heroic deeds of Siegfried!",
+      "ru": "Сегодня мы вновь чествуем героические деяния Зигфрида!",
+      "speaker": "Ведущий",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "All of you, my fellow gavellians, have adventured far and wide to gather rare items across the province.",
+      "ru": "Все вы, мои собратья-гавелльцы, странствовали вдоль и поперёк, собирая редкие предметы по всей провинции.",
+      "speaker": "Ведущий",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "And yet, I cannot announce the winner...",
+      "ru": "И всё же объявить победителя я не могу...",
+      "speaker": "Ведущий",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "BECAUSE SIEGFRIED WILL!",
+      "ru": "ПОТОМУ ЧТО ЭТО СДЕЛАЕТ ЗИГФРИД!",
+      "speaker": "Ведущий",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Hello, Citizens of Gavel!",
+      "ru": "Здравствуйте, граждане Гавеля!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Thank you all for participating in this fantastic scavenger hunt around Gavel!",
+      "ru": "Благодарю всех за участие в этой потрясающей охоте за сокровищами по всему Гавелю!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "The winner of this hunt will have the privilege of going on a once-in-a-lifetime, fully authentic, adventure with me!",
+      "ru": "Победитель этой охоты удостоится чести отправиться со мной в подлинное приключение, какое выпадает раз в жизни!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Now, without further ado: I shall announce the winner!",
+      "ru": "Итак, без лишних слов: я объявляю победителя!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "And the winner is...",
+      "ru": "И победитель...",
+      "speaker": "Зигфрид",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "<playername>!! Congratulations!",
+      "ru": "<playername>!! Поздравляю!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "<playername>, please head to the backstage area to my right for your adventure. Thank you everyone!!",
+      "ru": "<playername>, прошу, пройди за кулисы справа от меня, чтобы отправиться в приключение. Спасибо всем!!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Welcome <playername>! Congratulations on winning the scavenger hunt!",
+      "ru": "Добро пожаловать, <playername>! Поздравляю с победой в охоте за сокровищами!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Today, you'll be going with me on one of my glorious adventures.",
+      "ru": "Сегодня ты отправишься со мной в одно из моих славных приключений.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "And to get there, we'll ride in the great Siegfried Airship!",
+      "ru": "А чтобы добраться туда, мы полетим на великом дирижабле Зигфрида!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "It's up at the airship docks – I'll teleport us there!",
+      "ru": "Он у причалов дирижаблей - я телепортирую нас туда!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "MAGICAL MAGICKY MAGIC MAGICSPELL. Teleport!",
+      "ru": "ВОЛШЕБНОЕ ВОЛШЕБНЕНЬКОЕ ВОЛШЕБСТВО ВОЛШЕБЗАКЛИНАНИЕ. Телепорт!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "TELEPORT!",
+      "ru": "ТЕЛЕПОРТ!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Here, follow me onto the airship!",
+      "ru": "Так, за мной на дирижабль!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "And away we go!",
+      "ru": "И мы полетели!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Impressed by my piloting skills? Dodging these islands isn't a challenge at all for the mighty Siegfried!",
+      "ru": "Впечатлён моим мастерством пилота? Для могучего Зигфрида облететь эти острова - пара пустяков!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "I rode an airship much like this one when I saved Ahmsord from the dragon.",
+      "ru": "Я летал на очень похожем воздушном корабле, когда спас Амсорд от дракона.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Right now we're heading to a cave on the far east of the region.",
+      "ru": "Прямо сейчас мы направляемся к пещере на дальнем востоке региона.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "We'll have to navigate its treacherous corridors and defeat terrible beasts to get to the treasure at the end.",
+      "ru": "Нам придётся пройти по её коварным коридорам и одолеть ужасных тварей, чтобы добраться до сокровища в конце.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Why don't you go get my map from the upper level of the airship, and we'll get ready for our adventure.",
+      "ru": "Сходи за моей картой на верхний уровень дирижабля, и будем готовиться к приключению.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "*whistling*",
+      "ru": "*насвистывает*",
+      "speaker": "Пилот Зигфрида",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "How much lon- Oh, you brought the map!",
+      "ru": "Ну сколько ещё жда- О, ты принёс карту!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "We'll need to use this map to navigate the dangerous cave we're going to.",
+      "ru": "Эта карта понадобится нам, чтобы ориентироваться в опасной пещере, куда мы направляемся.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "How did I get this? Well-er- I always prepare before my adventures!",
+      "ru": "Откуда она у меня? Ну- э- я всегда готовлюсь перед своими приключениями!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Anyway, we're about to land now – be careful not to fall off!",
+      "ru": "В общем, мы сейчас приземляемся - осторожно, не свались!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Here we are, the great Cave of Treasure-Hoarding Evil Creatures!",
+      "ru": "Вот и она, великая Пещера Злобных Тварей, Хранящих Сокровища!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Speak to me when you're fully prepared for this dangerous adventure.",
+      "ru": "Поговори со мной, когда полностью подготовишься к этому опасному приключению.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "This cave is exceedingly dangerous, so make sure to follow my instructions.",
+      "ru": "Эта пещера чрезвычайно опасна, так что обязательно следуй моим указаниям.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "I've got decades of experience bravely adventuring in these caves, so I know what I'm doing.",
+      "ru": "Я уже не первое десятилетие отважно исследую такие пещеры, так что знаю, что делаю.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "Onwards! <playername>, stay right behind me!",
+      "ru": "Вперёд! <playername>, держись прямо за мной!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "You sure took your time getting here! No matter.",
+      "ru": "Ну и долго же ты добирался! Неважно.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "I adventure in caves such as these often to get rid of the evil beasts dwelling within.",
+      "ru": "Я часто хожу в такие пещеры, чтобы избавиться от злобных тварей, что обитают внутри.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "If it wasn't for me defeating them before they could even--",
+      "ru": "Если бы я не расправлялся с ними прежде, чем они успеют хоть что-то--",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "Woah, stop! This might look like a harmless decoration, but it's a trap!",
+      "ru": "Эй, стой! На вид безобидное украшение, но это ловушка!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Stay behind me, I'll open it with my magic spell. OPEN!",
+      "ru": "Держись за мной, я открою это своим волшебным заклинанием. ОТКРОЙСЯ!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "Aha! I'll protect you from the guardian, you deal with the rat!",
+      "ru": "Ага! Я защищу тебя от стража, а ты разберись с крысой!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Ow- I mean, hah! That was easier than swatting a fly for the mighty Siegfried!",
+      "ru": "Ай- то есть, ха! Для могучего Зигфрида это было проще, чем прихлопнуть муху!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "Seems like we're done here! That must have been a very difficult fight for you.",
+      "ru": "Похоже, тут мы закончили! Для тебя это, должно быть, был очень трудный бой.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "The caves I adventure in are filled with terrifying beasts similar to those.",
+      "ru": "Пещеры, куда я хожу, полны ужасающих тварей вроде этих.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "WAIT! Don't move, that boulder is about to fall!",
+      "ru": "СТОЙ! Не двигайся, этот валун вот-вот рухнет!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Wow, that was close! Of course, I saw that coming and had no risk at all.",
+      "ru": "Ух, пронесло! Разумеется, я это предвидел и совсем ничем не рисковал.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "You might say that we can't go further, as it's blocking our way. But I can fix that!",
+      "ru": "Думаешь, дальше не пройти, раз этот валун перекрыл нам дорогу? Но я всё исправлю!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "And no more boulder! Only one as powerful as I can do that.",
+      "ru": "И валуна больше нет! Лишь такой могучий герой, как я, способен на это.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "All we must do now is cross a perilous bridge over the Endless Chasm.",
+      "ru": "Теперь нам осталось лишь пересечь опасный мост над Бесконечной Бездной.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Aa, why did- Woah, careful! It looks like the bridge fell.",
+      "ru": "Аа, почему же- Эй, осторожно! Похоже, мост обрушился.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "But this is not such an obstacle as you might think, for I can, uh, jump over this chasm!",
+      "ru": "Но это не такое уж препятствие, как ты думаешь, ведь я могу, э-э, перепрыгнуть эту бездну!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Here I go!",
+      "ru": "Ну, поехали!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "The spell--",
+      "ru": "Заклинание--",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "AAAAAAAAAAAAAH!",
+      "ru": "АААААААААААААА!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "It's an old mining expedition's log:",
+      "ru": "Это журнал старой экспедиции шахтёров:",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "The rest of the log lists geological information about the cave and a supply manifest.",
+      "ru": "В остальной части журнала перечислены геологические сведения о пещере и опись припасов.",
+      "speaker": "",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "AAAAAAGH!",
+      "ru": "ААААААА!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Aaaaggggh my LEGS MY LEGS AAAGGH SO COLD!",
+      "ru": "Аааааа мои НОГИ МОИ НОГИ АААА ТАК ХОЛОДНО!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "SO COLD so PAINFUL...",
+      "ru": "ТАК ХОЛОДНО так БОЛЬНО...",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Why couldn't I THINK when I signed that STUPID CONTRACT that I'd end up here!?",
+      "ru": "Почему я не ПОДУМАЛ, что окажусь здесь, когда подписывал тот ДУРАЦКИЙ КОНТРАКТ!?",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "...Well, this is it.",
+      "ru": "...Что ж, вот и всё.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "They aren't gonna come rescue us, you know. We're on our own.",
+      "ru": "Знаешь, никто не придёт нас спасать. Мы сами по себе.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Why are you so calm? DON'T YOU SEE?!",
+      "ru": "Почему ты так спокоен? ТЫ ЧТО, НЕ ПОНИМАЕШЬ?!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "WE'RE ON OUR OWN! This is REAL now! No coming back after 'dying', no more obvious traps, no more Siegfried. If I die here, I DIE! No coming back!",
+      "ru": "МЫ САМИ ПО СЕБЕ! Теперь всё ПО-НАСТОЯЩЕМУ! Больше не вернёшься после \"гибели\", больше нет очевидных ловушек, больше нет Зигфрида. Если я здесь погибну, то УМРУ! И уже не вернусь!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "I.. I can't do this. We'll just starve here, in this cave... where nobody will ever find our bodies.",
+      "ru": "Я... я не могу. Мы умрём с голоду здесь, в этой пещере... и никто никогда не найдёт наши тела.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Stop looking at me! You figure out how to get us out of here, I'm just a worthless actor! Tell me if you find anything, I- I need a moment alone.",
+      "ru": "Хватит на меня пялиться! Сам придумай, как нам отсюда выбраться, я всего лишь никчёмный актёришка! Скажи, если что-нибудь найдёшь, мне- мне нужно немного побыть одному.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "You found something? Ok. I'll... follow you then.",
+      "ru": "Ты что-то нашёл? Ладно. Тогда я... пойду за тобой.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "WHAT WAS THAT SOUND?! A- are you sure we should go into there?",
+      "ru": "ЧТО ЭТО БЫЛ ЗА ЗВУК?! Т- ты уверен, что нам стоит туда идти?",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "... I think I can manage.. OW!",
+      "ru": "... Думаю, я справлюсь... АЙ!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "You.. You got us out of there!",
+      "ru": "Ты... ты вытащил нас оттуда!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "I didn't think we'd ever find a way out of there...",
+      "ru": "Я не думал, что мы вообще найдём оттуда выход...",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "... Well, I guess we should keep going. M- Maybe there's a way out?",
+      "ru": "... Что ж, наверное, надо идти дальше. М- может, есть выход?",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "L- Look! There's plants and light up ahead! A WAY OUT!",
+      "ru": "С- смотри! Впереди растения и свет! ВЫХОД!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "Come on, follow me!",
+      "ru": "Давай, за мной!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "AAAH!",
+      "ru": "АААА!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "W- What just happened?! I'm trapped in here!",
+      "ru": "Ч- что только что случилось?! Я тут в ловушке!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "... It's... some sort of trap. I can feel the ground heating up!!",
+      "ru": "... Это... какая-то ловушка. Я чувствую, как земля раскаляется!!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "T-That was terrifying... Y-you saved my life. Thank you ... I wasn't prepared for real danger like this.",
+      "ru": "Э-это было жутко... Т-ты спас мне жизнь. Спасибо тебе... Я не был готов к настоящей опасности вроде этой.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "...What? Houses, and a well? All the way down here?",
+      "ru": "...Что? Дома и колодец? Так глубоко внизу?",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "It's... empty. And the houses sure don't look like anyone's lived here for.. centuries.",
+      "ru": "Тут... пусто. Судя по домам, здесь уже... столетиями никто не живёт.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "OW! MY LEGS! And my arms, too! E- Everything hurts so much.. I need to sit down. I think I turned my arm the wrong way.",
+      "ru": "АЙ! МОИ НОГИ! И руки тоже! В-всё так сильно болит... Надо присесть. Кажется, я вывернул руку.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "I'll just.. rest here a bit. W- would you mind taking a look around for something we can eat? I can.. hardly move.",
+      "ru": "Я просто... немного передохну здесь. Н-не мог бы ты осмотреться - вдруг найдётся что-нибудь съедобное? Я... едва могу шевелиться.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "It barely has any resemblance to one.",
+      "ru": "Оно едва ли на него похоже.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Well... I doubt there's anything better around here. I- I'll take it.",
+      "ru": "Что ж... вряд ли тут найдётся что получше. Л- ладно, возьму.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "OW!! I think I broke my teeth! This is like eating stone!",
+      "ru": "АЙ!! Кажется, я зубы сломал! Это всё равно что есть камень!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "... I th-ow-ink I'm ready to- ow- move on. Let's get go-oow-ing.",
+      "ru": "... Д-ай-умаю, я готов- ай- идти дальше. Давай п-ай-ойдём.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "I guess it's... the best that could be found here. You say you cooked it yourself?",
+      "ru": "Похоже, это... лучшее, что тут можно было найти. Говоришь, сам это приготовил?",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "I'll give it a try, then. Doubt there's anything better around here.",
+      "ru": "Тогда попробую. Сомневаюсь, что тут есть что-то получше.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "These are... amazing!",
+      "ru": "Это... потрясающе!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "Thank you, <playername>! I feel much better. I can head deeper as soon as you're ready.",
+      "ru": "Спасибо, <playername>! Мне намного лучше. Я готов идти глубже, как только будешь готов ты.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "You know... my name is actually Gurix.",
+      "ru": "Знаешь... на самом деле меня зовут Гурикс.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "Sound extremely Corkian, I know. They made me use Siegfried because it sounds less foreign, I suppose.",
+      "ru": "Очень уж по-коркиански звучит, знаю. Меня заставили взять имя Зигфрид - оно, видимо, кажется не таким чужеземным.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "AAAH! Get away!",
+      "ru": "АААА! Отстань!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "OW! <playername>, I think this web is poisoned! Quick, get me out with one of your spells!",
+      "ru": "АЙ! <playername>, кажется, эта паутина отравлена! Скорее, вытащи меня одним из своих заклинаний!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Thank you <playername>. I'll.. I'll follow you from now on. Clearly you're more prepared than I am.",
+      "ru": "Спасибо, <playername>. Я... я теперь пойду за тобой. Ты явно лучше меня подготовлен.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "<playername>? I think that giant web there is being held up by the platforms on the walls.",
+      "ru": "<playername>? Кажется, ту гигантскую паутину держат площадки на стенах.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "I think... Maybe you can cut them down? I'll stay here, I think it's the safest place. I'll call for you if a spider webs me again.",
+      "ru": "Я думаю... Может, ты сможешь их обрубить? Я останусь здесь, по-моему, это самое безопасное место. Позову тебя, если паук снова меня опутает.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "You did it! The web fell!",
+      "ru": "У тебя получилось! Паутина упала!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "Hey, wait up! Thanks for saving me there.",
+      "ru": "Эй, погоди! Спасибо, что выручил меня там.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "Woah... This is enormous! Who knows what this used to be?",
+      "ru": "Ого... Какая громадина! Интересно, что здесь было раньше?",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "The path seems to be across those yellow shards, maybe we can reach them?",
+      "ru": "Похоже, путь лежит через те жёлтые осколки, может, до них получится добраться?",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Another town? Or another part of the same one? I'm not sure..",
+      "ru": "Ещё один город? Или другая часть того же? Не уверен...",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "This one even seems to have a forge and a tailor.. It was a full, proper village!",
+      "ru": "Тут, похоже, даже есть кузница и портной... Настоящая, полноценная деревня!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "That.. is that sunlight?",
+      "ru": "Это... это солнечный свет?",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "<playername>, look! I can see the sky from here! M- maybe there's a way to get up!",
+      "ru": "<playername>, смотри! Отсюда видно небо! М- может, есть способ подняться!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "I think.. what if we can this geyser somehow? It looks dormant, but I feel like we can activate it again.",
+      "ru": "Думаю... а что, если как-нибудь запустить этот гейзер? Сейчас он спит, но, кажется, его можно снова пробудить.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "You take a look around, I'll be resting a little. I don't think I've ever walked this much in my life...",
+      "ru": "Ты осмотрись, а я немного отдохну. По-моему, я в жизни столько не ходил...",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Woah! The geyser's active!",
+      "ru": "Ого! Гейзер заработал!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "W-Wait.. that'll be quite a long fall after we get launched up. Can you try making some safety equipment, like a parachute or some really soft boots?",
+      "ru": "П-постой... Когда нас подбросит, падать придётся с большой высоты. Можешь смастерить что-нибудь для безопасного приземления? Например, парашют или очень мягкие ботинки?",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "You've already made something? Let me see.",
+      "ru": "Ты уже что-то смастерил? Покажи.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "This looks... usable? It's something, at least.",
+      "ru": "Это... должно сработать? Лучше, чем ничего.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "Probably the best we'll get down here. Are you sure you don't need anything for yourself? No? Okay.",
+      "ru": "Наверное, лучшего здесь, внизу, не найти. Ты точно ничего не хочешь смастерить для себя? Нет? Ладно.",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "I can't wait to see the look on their faces when we get back. We've just saved the legacy of Siegfried!",
+      "ru": "Жду не дождусь увидеть их лица, когда мы вернёмся. Мы только что спасли наследие Зигфрида!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Woah! The parachute worked!",
+      "ru": "Ого! Парашют сработал!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "W-we made it? ...<playername>, WE DID IT! WE'RE BACK! HAHAAA! I'M ALIVE!",
+      "ru": "М-мы выбрались? ...<playername>, У НАС ПОЛУЧИЛОСЬ! МЫ ВЕРНУЛИСЬ! ХАХАА! Я ЖИВ!",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Hello there! It is I, Siegfried, and I just stopped the threat that was this cave!",
+      "ru": "Привет всем! Это я, Зигфрид! Я только что избавил вас от опасностей этой пещеры!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Hah, that's a great costume you have there! Looks just like me!",
+      "ru": "Ха, отличный у тебя костюм! Прямо как я!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "What? I- I've been REPLACED?",
+      "ru": "Что? М- меня ЗАМЕНИЛИ?",
+      "speaker": "Гурикс",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Hah, don't mind the jokester over there. He does have an impressive costume though!",
+      "ru": "Ха, не обращайте внимания на того шутника. Хотя костюм у него и впрямь впечатляющий!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Look over there! Those must be fireworks to celebrate my victory!",
+      "ru": "Гляньте туда! Это, должно быть, фейерверк в честь моей победы!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "Well, anyways! You had a really bad fall in that cave there. I carried you out myself, you must've had some wild hallucinations.",
+      "ru": "Ну так вот! Ты очень неудачно упал в той пещере. Я сам тебя вынес. Наверное, у тебя были самые невероятные галлюцинации.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "I must return to Ahmsord for the celebration now. Perhaps we will meet again at the next scavenger hunt!",
+      "ru": "Теперь мне пора вернуться в Амсорд на торжество. Быть может, мы снова встретимся на следующей охоте за сокровищами!",
+      "speaker": "Зигфрид",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "The first two, they're for the common folk. But if you REALLY want to win, you need a tier 3 item.",
+      "ru": "Первые два - для простого народа. Но если ты ДЕЙСТВИТЕЛЬНО хочешь выиграть, тебе нужен предмет 3-го уровня.",
+      "speaker": "Зигфрид",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "[+1 Scavenger Hunt Ticket]",
+      "ru": "[+1 Scavenger Hunt Ticket]",
+      "speaker": "Зигфрид",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "New Quest Started: The Hero of Gavel",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Герой Гавеля",
+      "speaker": "",
+      "stage": "Stage 2"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Find out what's happening in the center of Ahmsord at [1028, 112, -4544]",
+      "ru": "Выяснить, что происходит в центре Амсорда [1028, 112, -4544].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Get a Siegfried Scavenger Hunt ticket in the center of Ahmsord at [1034, 115, -4533]",
+      "ru": "Получить билет на поиски сокровищ Зигфрида в центре Амсорда [1034, 115, -4533].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Bring all three limited Siegfried Collection items to the merchant in Ahmsord Center at [1034, 115, -4533]",
+      "ru": "Принести все три редких предмета из коллекции Зигфрида торговцу в центре Амсорда [1034, 115, -4533].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Go to the Golden Eagle Theatre behind the Bank in Ahmsord at [1119, 124, -4555] for the winners to be announced.",
+      "ru": "Отправиться в театр \"Золотой орёл\" за банком Амсорда, где объявят победителей [1119, 124, -4555].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Meet Siegfried backstage in the Golden Eagle Theatre to go on your adventure!",
+      "ru": "Встретиться с Зигфридом за кулисами театра \"Золотой орёл\" и отправиться в приключение!",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Travel with Siegfried on his airship at the Ahmsord airship docks at [1101, 129,-4513]",
+      "ru": "Отправиться с Зигфридом на его дирижабле от причалов Амсорда [1101, 129,-4513].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Enter the perilous cave on the eastern edge of the Sky Islands with Siegfried at [1493, 104, -4805]",
+      "ru": "Войти с Зигфридом в опасную пещеру на восточном краю Небесных островов [1493, 104, -4805].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Follow Siegfried through the cave on the eastern edge of the Sky Islands at [1493, 104, -4805]",
+      "ru": "Следовать за Зигфридом через пещеру на восточном краю Небесных островов [1493, 104, -4805].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Jump after Siegfried into the pit at the end of the cave.",
+      "ru": "Прыгнуть за Зигфридом в яму в конце пещеры.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Find a way to wake Siegfried.",
+      "ru": "Найти способ разбудить Зигфрида.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Venture deeper into the cave with Siegfried.",
+      "ru": "Продвинуться вглубь пещеры вместе с Зигфридом.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Rescue Siegfried from the trap OR leave him there.",
+      "ru": "Спасти Зигфрида из ловушки ИЛИ оставить его там.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Rest before continuing through the cave.",
+      "ru": "Отдохнуть перед дальнейшим походом по пещере.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Venture deeper into the cave.",
+      "ru": "Продвинуться вглубь пещеры.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Find your way through the spider burrows.",
+      "ru": "Найти путь через паучьи норы.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Venture deeper into the cave.",
+      "ru": "Продвинуться вглубь пещеры.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Find a way to escape through the skylight at the end of the cave.",
+      "ru": "Найти способ выбраться через отверстие в потолке в конце пещеры.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Escape the cave!",
+      "ru": "Выбраться из пещеры!",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-0019",
+      "en": "???",
+      "ru": "???",
+      "stage": "Stage 22"
+    }
+  ],
+  "choices": []
+}

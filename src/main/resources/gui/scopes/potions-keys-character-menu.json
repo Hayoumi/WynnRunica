@@ -1,0 +1,3287 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "potions-keys-character-menu",
+  "scopes": [
+    {
+      "id": "potion-strength-1-2",
+      "match": {
+        "title": "Potion of <em> Strength [1/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Strength [1/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Strength",
+          "ru": "§2- §7Эффект: §f<num> §2<em> Сила"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-strength-2-2",
+      "match": {
+        "title": "Potion of <em> Strength [2/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Strength [2/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Strength",
+          "ru": "§2- §7Эффект: §f<num> §2<em> Сила"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-dexterity-1-2",
+      "match": {
+        "title": "Potion of <em> Dexterity [1/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Dexterity [1/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Dexterity",
+          "ru": "§2- §7Эффект: §f<num> §e<em> Ловкость"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-dexterity-2-2",
+      "match": {
+        "title": "Potion of <em> Dexterity [2/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Dexterity [2/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Dexterity",
+          "ru": "§2- §7Эффект: §f<num> §e<em> Ловкость"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-intelligence-1-2",
+      "match": {
+        "title": "Potion of <em> Intelligence [1/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Intelligence [1/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Intelligence",
+          "ru": "§2- §7Эффект: §f<num> §b<em> Интеллект"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-intelligence-2-2",
+      "match": {
+        "title": "Potion of <em> Intelligence [2/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Intelligence [2/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Intelligence",
+          "ru": "§2- §7Эффект: §f<num> §b<em> Интеллект"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-defence-1-2",
+      "match": {
+        "title": "Potion of <em> Defence [1/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Defence [1/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Defence",
+          "ru": "§2- §7Эффект: §f<num> §c<em> Защита"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-defence-2-2",
+      "match": {
+        "title": "Potion of <em> Defence [2/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Defence [2/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Defence",
+          "ru": "§2- §7Эффект: §f<num> §c<em> Защита"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-agility-1-2",
+      "match": {
+        "title": "Potion of <em> Agility [1/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Agility [1/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Agility",
+          "ru": "§2- §7Эффект: §f<num> §f<em> Проворство"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-agility-2-2",
+      "match": {
+        "title": "Potion of <em> Agility [2/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of <em> Agility [2/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§2- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> <em> Agility",
+          "ru": "§2- §7Эффект: §f<num> §f<em> Проворство"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§2- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§2- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§2- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§2- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num> Health",
+          "ru": "§2- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num>% Health",
+          "ru": "§2- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num> XP",
+          "ru": "§2- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Effect: <num>% XP",
+          "ru": "§2- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-015",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§2- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-016",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§2- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-mana-1-2",
+      "match": {
+        "title": "Potion of Mana [1/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of Mana [1/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§3- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§3- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§3- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§3- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§3- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§3- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§3- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§3- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num> Health",
+          "ru": "§3- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num>% Health",
+          "ru": "§3- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num> XP",
+          "ru": "§3- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num>% XP",
+          "ru": "§3- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§3- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-015",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§3- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-mana-2-2",
+      "match": {
+        "title": "Potion of Mana [2/2]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of Mana [2/2]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§3- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§3- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§3- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§3- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§3- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§3- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§3- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§3- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num> Health",
+          "ru": "§3- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num>% Health",
+          "ru": "§3- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num> XP",
+          "ru": "§3- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num>% XP",
+          "ru": "§3- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§3- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-015",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§3- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-healing-1-3",
+      "match": {
+        "title": "Potion of Healing [1/3]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of Healing [1/3]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§4- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§4- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§4- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§4- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§4- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§4- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num> Health",
+          "ru": "§4- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num>% Health",
+          "ru": "§4- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num> XP",
+          "ru": "§4- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num>% XP",
+          "ru": "§4- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§4- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-015",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§4- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-healing-2-3",
+      "match": {
+        "title": "Potion of Healing [2/3]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of Healing [2/3]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§4- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§4- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§4- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§4- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§4- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§4- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num> Health",
+          "ru": "§4- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num>% Health",
+          "ru": "§4- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num> XP",
+          "ru": "§4- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num>% XP",
+          "ru": "§4- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§4- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-015",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§4- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-healing-3-3",
+      "match": {
+        "title": "Potion of Healing [3/3]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of Healing [3/3]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§4- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§4- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§4- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§4- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§4- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§4- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num> Health",
+          "ru": "§4- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num>% Health",
+          "ru": "§4- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num> XP",
+          "ru": "§4- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num>% XP",
+          "ru": "§4- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§4- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-015",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§4- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "potion-wisdom-single",
+      "match": {
+        "title": "Potion of Wisdom",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Potion of Wisdom",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффекты:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§6- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Second",
+          "ru": "§6- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Effect: <num> Main Attack Damage",
+          "ru": "§6- §7Эффект: §f<num> Урон Основной Атаки"
+        },
+        {
+          "id": "line-005",
+          "en": "- Effect: <num>% Main Attack Damage",
+          "ru": "§6- §7Эффект: §f<num>% Урон Основной Атаки"
+        },
+        {
+          "id": "line-006",
+          "en": "- Effect: <num> Spell Damage",
+          "ru": "§6- §7Эффект: §f<num> Урон Заклинаний"
+        },
+        {
+          "id": "line-007",
+          "en": "- Effect: <num>% Spell Damage",
+          "ru": "§6- §7Эффект: §f<num>% Урон Заклинаний"
+        },
+        {
+          "id": "line-008",
+          "en": "- Effect: <num> Walk Speed",
+          "ru": "§6- §7Эффект: §f<num> Скорость Передвижения"
+        },
+        {
+          "id": "line-009",
+          "en": "- Effect: <num>% Walk Speed",
+          "ru": "§6- §7Эффект: §f<num>% Скорость Передвижения"
+        },
+        {
+          "id": "line-010",
+          "en": "- Effect: <num> Health",
+          "ru": "§6- §7Эффект: §f<num> Здоровье"
+        },
+        {
+          "id": "line-011",
+          "en": "- Effect: <num>% Health",
+          "ru": "§6- §7Эффект: §f<num>% Здоровье"
+        },
+        {
+          "id": "line-012",
+          "en": "- Effect: <num> XP",
+          "ru": "§6- §7Эффект: §f<num> Опыт"
+        },
+        {
+          "id": "line-013",
+          "en": "- Effect: <num>% XP",
+          "ru": "§6- §7Эффект: §f<num>% Опыт"
+        },
+        {
+          "id": "line-014",
+          "en": "- Mana: §f<num>§b ✺",
+          "ru": "§6- §7Мана: §f<num>§b ✺"
+        },
+        {
+          "id": "line-015",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§6- §7Лечение: §f<num>§c ❤"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-723fbf261bbd",
+      "match": {
+        "title": "§6Infested Pit Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Infested Pit Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7§fInfested Pit§7 once",
+          "ru": "§7§fInfested Pit§7 один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7§aDungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7§a- §7Combat Lv: §f<num>",
+          "ru": "§7§a- §7Боевой Уровень: §f<num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7§a- §7Coordinates: §f<num>, <num>",
+          "ru": "§7§a- §7Координаты: §f<num>, <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-b899e2c2b169",
+      "match": {
+        "title": "Broken CorruptedÀÀÀLostÀÀÀSanctuary Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken CorruptedÀÀÀLostÀÀÀSanctuary Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Use this item at the",
+          "ru": "Используйте этот предмет в"
+        },
+        {
+          "id": "line-002",
+          "en": "§7Forgery to craft a",
+          "ru": "Кузнице, чтобы изготовить"
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-91e620580de9",
+      "match": {
+        "title": "Broken IceÀÀÀBarrows Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken IceÀÀÀBarrows Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Use this item at the",
+          "ru": "Используйте этот предмет в"
+        },
+        {
+          "id": "line-002",
+          "en": "§7Forgery to craft a",
+          "ru": "Кузнице, чтобы изготовить"
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-1957b782bf03",
+      "match": {
+        "title": "Galleon'sÀÀÀGraveyard Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Galleon'sÀÀÀGraveyard Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7once",
+          "ru": "Один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-98d2d5843690",
+      "match": {
+        "title": "FallenÀÀÀFactory Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "FallenÀÀÀFactory Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "FallenÀÀÀFactory Dungeon once",
+          "ru": "FallenÀÀÀFactory один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "- Combat Lv: <num>",
+          "ru": "- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "- Coordinates: <num> <num>",
+          "ru": "- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-8c1c01197f74",
+      "match": {
+        "title": "DecrepitÀÀÀSewers Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "DecrepitÀÀÀSewers Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7DecrepitÀÀÀSewers Dungeon once",
+          "ru": "§7DecrepitÀÀÀSewers один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-c675aac06f0f",
+      "match": {
+        "title": "Broken UndergrowthÀÀÀRuins Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken UndergrowthÀÀÀRuins Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Use this item at the",
+          "ru": "Используйте этот предмет в"
+        },
+        {
+          "id": "line-002",
+          "en": "§7Forgery to craft a",
+          "ru": "Кузнице, чтобы изготовить"
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-c8f547e488e5",
+      "match": {
+        "title": "UndergrowthÀÀÀRuins Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "UndergrowthÀÀÀRuins Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7once",
+          "ru": "Один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-889d60714d5d",
+      "match": {
+        "title": "Broken DecrepitÀÀÀSewers Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken DecrepitÀÀÀSewers Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7§7Use this item at the",
+          "ru": "Используйте этот предмет в"
+        },
+        {
+          "id": "line-002",
+          "en": "§7§7Forgery to craft a",
+          "ru": "Кузнице, чтобы изготовить"
+        },
+        {
+          "id": "line-003",
+          "en": "§7§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7§7- Combat Lv: <num>",
+          "ru": "§7§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7§7- Coordinates: <num> <num>",
+          "ru": "§7§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-02c853afadaf",
+      "match": {
+        "title": "Broken UnderworldÀÀÀCrypt Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken UnderworldÀÀÀCrypt Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7§7Use this item at the",
+          "ru": "Используйте этот предмет в"
+        },
+        {
+          "id": "line-002",
+          "en": "§7§7Forgery to craft a",
+          "ru": "Кузнице, чтобы изготовить"
+        },
+        {
+          "id": "line-003",
+          "en": "§7§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7§7- Combat Lv: <num>",
+          "ru": "§7§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7§7- Coordinates: <num> <num>",
+          "ru": "§7§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-c19fe2ab5736",
+      "match": {
+        "title": "IceÀÀÀBarrows Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "IceÀÀÀBarrows Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7IceÀÀÀBarrows Dungeon once",
+          "ru": "§7IceÀÀÀBarrows один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-984010892ab0",
+      "match": {
+        "title": "CorruptedÀÀÀGalleon'sÀÀÀGraveyard Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀGalleon'sÀÀÀGraveyard Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7ard Dungeon once",
+          "ru": "§7ard один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-dbf87c7599a9",
+      "match": {
+        "title": "CorruptedÀÀÀUndergrowthÀÀÀRuins Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀUndergrowthÀÀÀRuins Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7s Dungeon once",
+          "ru": "§7s один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-9f79ae1d2dba",
+      "match": {
+        "title": "CorruptedÀÀÀInfestedÀÀÀPit Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀInfestedÀÀÀPit Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7Dungeon once",
+          "ru": "§7Один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-9b3660586b63",
+      "match": {
+        "title": "UnderworldÀÀÀCrypt Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "UnderworldÀÀÀCrypt Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7once",
+          "ru": "Один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-248f33ec1b53",
+      "match": {
+        "title": "Broken Sand-SweptÀÀÀTomb Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken Sand-SweptÀÀÀTomb Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7§7Use this item at the",
+          "ru": "Используйте этот предмет в"
+        },
+        {
+          "id": "line-002",
+          "en": "§7§7Forgery to craft a",
+          "ru": "Кузнице, чтобы изготовить"
+        },
+        {
+          "id": "line-003",
+          "en": "§7§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7§7- Combat Lv: <num>",
+          "ru": "§7§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7§7- Coordinates: <num> <num>",
+          "ru": "§7§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-36165a6d9e4a",
+      "match": {
+        "title": "CorruptedÀÀÀDecrepitÀÀÀSewers Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀDecrepitÀÀÀSewers Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7Dungeon once",
+          "ru": "§7Один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-ae90d7bf3c94",
+      "match": {
+        "title": "CorruptedÀÀÀUnderworldÀÀÀCrypt Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀUnderworldÀÀÀCrypt Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7 Dungeon once",
+          "ru": "§7 один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-792ca23b876d",
+      "match": {
+        "title": "CorruptedÀÀÀLostÀÀÀSanctuary Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀLostÀÀÀSanctuary Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7Dungeon once",
+          "ru": "§7Один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-436a11c4d141",
+      "match": {
+        "title": "Broken InfestedÀÀÀPit Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Broken InfestedÀÀÀPit Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7§7Use this item at the",
+          "ru": "Используйте этот предмет в"
+        },
+        {
+          "id": "line-002",
+          "en": "§7§7Forgery to craft a",
+          "ru": "Кузнице, чтобы изготовить"
+        },
+        {
+          "id": "line-003",
+          "en": "§7§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7§7- Combat Lv: <num>",
+          "ru": "§7§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7§7- Coordinates: <num> <num>",
+          "ru": "§7§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-key-e913d9f38ef3",
+      "match": {
+        "title": "CorruptedÀÀÀIceÀÀÀBarrows Key",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "CorruptedÀÀÀIceÀÀÀBarrows Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Grants access to the",
+          "ru": "Позволяет войти в подземелье"
+        },
+        {
+          "id": "line-002",
+          "en": "§7Dungeon once",
+          "ru": "§7Один раз."
+        },
+        {
+          "id": "line-003",
+          "en": "§7Dungeon Info:",
+          "ru": "Сведения о Подземелье:"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Combat Lv: <num>",
+          "ru": "§7- Боевой Уровень: <num>"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Coordinates: <num> <num>",
+          "ru": "§7- Координаты: <num> <num>"
+        }
+      ]
+    },
+    {
+      "id": "character-edit-icon",
+      "match": {
+        "title": "Edit Icon",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Edit Icon",
+        "ru": "Изменить Значок"
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Customize the color of the icon",
+          "ru": "§7Выберите цвет значка этого"
+        },
+        {
+          "id": "line-002",
+          "en": "§7for this character on the character",
+          "ru": "§7персонажа в меню выбора"
+        },
+        {
+          "id": "line-003",
+          "en": "§7selector",
+          "ru": "§7персонажей."
+        },
+        {
+          "id": "line-004",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        },
+        {
+          "id": "line-005",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> §aНажмите, чтобы переключить"
+        },
+        {
+          "id": "line-006",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-007",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-008",
+          "en": "§7Current Color: Gray",
+          "ru": "Текущий Цвет: §*Серый"
+        },
+        {
+          "id": "line-009",
+          "en": "§7Current Color: Light Gray",
+          "ru": "Текущий Цвет: §*Светлый Серый"
+        },
+        {
+          "id": "line-010",
+          "en": "§7Current Color: Pale Gray",
+          "ru": "Текущий Цвет: §*Бледный Серый"
+        },
+        {
+          "id": "line-011",
+          "en": "§7Current Color: Vivid Gray",
+          "ru": "Текущий Цвет: §*Насыщенный Серый"
+        },
+        {
+          "id": "line-012",
+          "en": "§7Current Color: Deep Gray",
+          "ru": "Текущий Цвет: §*Глубокий Серый"
+        },
+        {
+          "id": "line-013",
+          "en": "§7Current Color: Dark Gray",
+          "ru": "Текущий Цвет: §*Тёмный Серый"
+        },
+        {
+          "id": "line-014",
+          "en": "§7Current Color: Red",
+          "ru": "Текущий Цвет: §*Красный"
+        },
+        {
+          "id": "line-015",
+          "en": "§7Current Color: Light Red",
+          "ru": "Текущий Цвет: §*Светлый Красный"
+        },
+        {
+          "id": "line-016",
+          "en": "§7Current Color: Pale Red",
+          "ru": "Текущий Цвет: §*Бледный Красный"
+        },
+        {
+          "id": "line-017",
+          "en": "§7Current Color: Vivid Red",
+          "ru": "Текущий Цвет: §*Насыщенный Красный"
+        },
+        {
+          "id": "line-018",
+          "en": "§7Current Color: Deep Red",
+          "ru": "Текущий Цвет: §*Глубокий Красный"
+        },
+        {
+          "id": "line-019",
+          "en": "§7Current Color: Dark Red",
+          "ru": "Текущий Цвет: §*Тёмный Красный"
+        },
+        {
+          "id": "line-020",
+          "en": "§7Current Color: Orange",
+          "ru": "Текущий Цвет: §*Оранжевый"
+        },
+        {
+          "id": "line-021",
+          "en": "§7Current Color: Light Orange",
+          "ru": "Текущий Цвет: §*Светлый Оранжевый"
+        },
+        {
+          "id": "line-022",
+          "en": "§7Current Color: Pale Orange",
+          "ru": "Текущий Цвет: §*Бледный Оранжевый"
+        },
+        {
+          "id": "line-023",
+          "en": "§7Current Color: Vivid Orange",
+          "ru": "Текущий Цвет: §*Насыщенный Оранжевый"
+        },
+        {
+          "id": "line-024",
+          "en": "§7Current Color: Deep Orange",
+          "ru": "Текущий Цвет: §*Глубокий Оранжевый"
+        },
+        {
+          "id": "line-025",
+          "en": "§7Current Color: Dark Orange",
+          "ru": "Текущий Цвет: §*Тёмный Оранжевый"
+        },
+        {
+          "id": "line-026",
+          "en": "§7Current Color: Yellow",
+          "ru": "Текущий Цвет: §*Жёлтый"
+        },
+        {
+          "id": "line-027",
+          "en": "§7Current Color: Light Yellow",
+          "ru": "Текущий Цвет: §*Светлый Жёлтый"
+        },
+        {
+          "id": "line-028",
+          "en": "§7Current Color: Pale Yellow",
+          "ru": "Текущий Цвет: §*Бледный Жёлтый"
+        },
+        {
+          "id": "line-029",
+          "en": "§7Current Color: Vivid Yellow",
+          "ru": "Текущий Цвет: §*Насыщенный Жёлтый"
+        },
+        {
+          "id": "line-030",
+          "en": "§7Current Color: Deep Yellow",
+          "ru": "Текущий Цвет: §*Глубокий Жёлтый"
+        },
+        {
+          "id": "line-031",
+          "en": "§7Current Color: Dark Yellow",
+          "ru": "Текущий Цвет: §*Тёмный Жёлтый"
+        },
+        {
+          "id": "line-032",
+          "en": "§7Current Color: Green",
+          "ru": "Текущий Цвет: §*Зелёный"
+        },
+        {
+          "id": "line-033",
+          "en": "§7Current Color: Light Green",
+          "ru": "Текущий Цвет: §*Светлый Зелёный"
+        },
+        {
+          "id": "line-034",
+          "en": "§7Current Color: Pale Green",
+          "ru": "Текущий Цвет: §*Бледный Зелёный"
+        },
+        {
+          "id": "line-035",
+          "en": "§7Current Color: Vivid Green",
+          "ru": "Текущий Цвет: §*Насыщенный Зелёный"
+        },
+        {
+          "id": "line-036",
+          "en": "§7Current Color: Deep Green",
+          "ru": "Текущий Цвет: §*Глубокий Зелёный"
+        },
+        {
+          "id": "line-037",
+          "en": "§7Current Color: Dark Green",
+          "ru": "Текущий Цвет: §*Тёмный Зелёный"
+        },
+        {
+          "id": "line-038",
+          "en": "§7Current Color: Blue",
+          "ru": "Текущий Цвет: §*Синий"
+        },
+        {
+          "id": "line-039",
+          "en": "§7Current Color: Light Blue",
+          "ru": "Текущий Цвет: §*Светлый Синий"
+        },
+        {
+          "id": "line-040",
+          "en": "§7Current Color: Pale Blue",
+          "ru": "Текущий Цвет: §*Бледный Синий"
+        },
+        {
+          "id": "line-041",
+          "en": "§7Current Color: Vivid Blue",
+          "ru": "Текущий Цвет: §*Насыщенный Синий"
+        },
+        {
+          "id": "line-042",
+          "en": "§7Current Color: Deep Blue",
+          "ru": "Текущий Цвет: §*Глубокий Синий"
+        },
+        {
+          "id": "line-043",
+          "en": "§7Current Color: Dark Blue",
+          "ru": "Текущий Цвет: §*Тёмный Синий"
+        },
+        {
+          "id": "line-044",
+          "en": "§7Current Color: Dark Blue",
+          "ru": "Текущий Цвет: §*Тёмно-Синий"
+        },
+        {
+          "id": "line-045",
+          "en": "§7Current Color: Light Dark Blue",
+          "ru": "Текущий Цвет: §*Светлый Тёмно-Синий"
+        },
+        {
+          "id": "line-046",
+          "en": "§7Current Color: Pale Dark Blue",
+          "ru": "Текущий Цвет: §*Бледный Тёмно-Синий"
+        },
+        {
+          "id": "line-047",
+          "en": "§7Current Color: Vivid Dark Blue",
+          "ru": "Текущий Цвет: §*Насыщенный Тёмно-Синий"
+        },
+        {
+          "id": "line-048",
+          "en": "§7Current Color: Deep Dark Blue",
+          "ru": "Текущий Цвет: §*Глубокий Тёмно-Синий"
+        },
+        {
+          "id": "line-049",
+          "en": "§7Current Color: Dark Dark Blue",
+          "ru": "Текущий Цвет: §*Тёмный Тёмно-Синий"
+        },
+        {
+          "id": "line-050",
+          "en": "§7Current Color: Purple",
+          "ru": "Текущий Цвет: §*Фиолетовый"
+        },
+        {
+          "id": "line-051",
+          "en": "§7Current Color: Light Purple",
+          "ru": "Текущий Цвет: §*Светлый Фиолетовый"
+        },
+        {
+          "id": "line-052",
+          "en": "§7Current Color: Pale Purple",
+          "ru": "Текущий Цвет: §*Бледный Фиолетовый"
+        },
+        {
+          "id": "line-053",
+          "en": "§7Current Color: Vivid Purple",
+          "ru": "Текущий Цвет: §*Насыщенный Фиолетовый"
+        },
+        {
+          "id": "line-054",
+          "en": "§7Current Color: Deep Purple",
+          "ru": "Текущий Цвет: §*Глубокий Фиолетовый"
+        },
+        {
+          "id": "line-055",
+          "en": "§7Current Color: Dark Purple",
+          "ru": "Текущий Цвет: §*Тёмный Фиолетовый"
+        },
+        {
+          "id": "line-056",
+          "en": "§7Current Color: Pink",
+          "ru": "Текущий Цвет: §*Розовый"
+        },
+        {
+          "id": "line-057",
+          "en": "§7Current Color: Light Pink",
+          "ru": "Текущий Цвет: §*Светлый Розовый"
+        },
+        {
+          "id": "line-058",
+          "en": "§7Current Color: Pale Pink",
+          "ru": "Текущий Цвет: §*Бледный Розовый"
+        },
+        {
+          "id": "line-059",
+          "en": "§7Current Color: Vivid Pink",
+          "ru": "Текущий Цвет: §*Насыщенный Розовый"
+        },
+        {
+          "id": "line-060",
+          "en": "§7Current Color: Deep Pink",
+          "ru": "Текущий Цвет: §*Глубокий Розовый"
+        },
+        {
+          "id": "line-061",
+          "en": "§7Current Color: Dark Pink",
+          "ru": "Текущий Цвет: §*Тёмный Розовый"
+        }
+      ]
+    },
+    {
+      "id": "character-edit-nickname",
+      "match": {
+        "title": "Edit Nickname",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Edit Nickname",
+        "ru": "Изменить Псевдоним"
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Nicknames represents how your",
+          "ru": "§7Псевдоним заменяет имя этого"
+        },
+        {
+          "id": "line-002",
+          "en": "§7character will be referenced in game",
+          "ru": "§7персонажа в игре"
+        },
+        {
+          "id": "line-003",
+          "en": "§7and also how your name will show in",
+          "ru": "§7и ваше имя в чате,"
+        },
+        {
+          "id": "line-004",
+          "en": "§7chat while using this character",
+          "ru": "§7когда вы играете за него."
+        },
+        {
+          "id": "line-005",
+          "en": "§eCurrent: None",
+          "ru": "§eТекущий: §fНе задан"
+        },
+        {
+          "id": "line-006",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        },
+        {
+          "id": "line-007",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> §aНажмите, чтобы переключить"
+        },
+        {
+          "id": "line-008",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-009",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        }
+      ]
+    },
+    {
+      "id": "character-class-reskin",
+      "match": {
+        "title": "Class Reskin",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Class Reskin",
+        "ru": "Облик Класса"
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7The reskin of a class changes",
+          "ru": "§7Облик класса меняет его имя"
+        },
+        {
+          "id": "line-002",
+          "en": "§7its name and how specific spells",
+          "ru": "§7и внешний вид некоторых"
+        },
+        {
+          "id": "line-003",
+          "en": "§7and abilities look",
+          "ru": "§7заклинаний и способностей."
+        },
+        {
+          "id": "line-004",
+          "en": "§8- Classic",
+          "ru": "§8- Классический"
+        },
+        {
+          "id": "line-005",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        },
+        {
+          "id": "line-006",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> §aНажмите, чтобы переключить"
+        },
+        {
+          "id": "line-007",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-008",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-009",
+          "en": "§e- Hunter§3 [VIP+]",
+          "ru": "§e- Охотник§3 [VIP+]"
+        },
+        {
+          "id": "line-010",
+          "en": "§e- Knight§3 [VIP]",
+          "ru": "§e- Рыцарь§3 [VIP]"
+        },
+        {
+          "id": "line-011",
+          "en": "§e- Dark Wizard§3 [VIP]",
+          "ru": "§e- Тёмный Маг§3 [VIP]"
+        },
+        {
+          "id": "line-012",
+          "en": "§e- Ninja§3 [VIP]",
+          "ru": "§e- Ниндзя§3 [VIP]"
+        },
+        {
+          "id": "line-013",
+          "en": "§e- Skyseer§3 [HERO]",
+          "ru": "§e- Провидец§3 [HERO]"
+        }
+      ]
+    },
+    {
+      "id": "character-mode-hardcore",
+      "match": {
+        "title": "§7<em> Hardcore",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "§7<em> Hardcore",
+        "ru": "<em> Хардкор"
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7Most of your items will drop",
+          "ru": "При смерти выпадет большая"
+        },
+        {
+          "id": "line-002",
+          "en": "§7upon death and your icon",
+          "ru": "часть ваших предметов,"
+        },
+        {
+          "id": "line-003",
+          "en": "§7will be changed to gray",
+          "ru": "а значок станет серым."
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Enabled",
+          "ru": "- Включено"
+        },
+        {
+          "id": "line-006",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        },
+        {
+          "id": "line-007",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> §aНажмите, чтобы переключить"
+        },
+        {
+          "id": "line-008",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-009",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-010",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§7§a✔ §7Персонаж <num>+ уровня"
+        },
+        {
+          "id": "line-011",
+          "en": "§7§c✖ §7Lv. <num>+ Character",
+          "ru": "§7§c✖ §7Персонаж <num>+ уровня"
+        }
+      ]
+    },
+    {
+      "id": "character-mode-ironman",
+      "match": {
+        "title": "§7<em> Ironman",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "§7<em> Ironman",
+        "ru": "<em> Айронмен"
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7You will not be able to trade",
+          "ru": "Вы не сможете торговать"
+        },
+        {
+          "id": "line-002",
+          "en": "§7with other players, including",
+          "ru": "с другими игроками, в том числе"
+        },
+        {
+          "id": "line-003",
+          "en": "§7the trade market",
+          "ru": "на Торговом Рынке."
+        },
+        {
+          "id": "line-004",
+          "en": "§7The Account bank is inaccessible",
+          "ru": "Банк аккаунта недоступен."
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-006",
+          "en": "§7- Ironman",
+          "ru": "- Айронмен"
+        },
+        {
+          "id": "line-007",
+          "en": "§7- Ultimate Ironman",
+          "ru": "- Абсолютный Айронмен"
+        },
+        {
+          "id": "line-008",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        },
+        {
+          "id": "line-009",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> §aНажмите, чтобы переключить"
+        },
+        {
+          "id": "line-010",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-011",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-012",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§7§a✔ §7Персонаж <num>+ уровня"
+        },
+        {
+          "id": "line-013",
+          "en": "§7§c✖ §7Lv. <num>+ Character",
+          "ru": "§7§c✖ §7Персонаж <num>+ уровня"
+        }
+      ]
+    },
+    {
+      "id": "character-mode-ultimate-ironman",
+      "match": {
+        "title": "§7<em> Ultimate Ironman",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "§7<em> Ultimate Ironman",
+        "ru": "<em> Абсолютный Айронмен"
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7You will not be able to trade",
+          "ru": "Вы не сможете торговать"
+        },
+        {
+          "id": "line-002",
+          "en": "§7with other players, including",
+          "ru": "с другими игроками, в том числе"
+        },
+        {
+          "id": "line-003",
+          "en": "§7the trade market",
+          "ru": "на Торговом Рынке."
+        },
+        {
+          "id": "line-004",
+          "en": "§7The Character and Account banks",
+          "ru": "Банки персонажа и аккаунта"
+        },
+        {
+          "id": "line-005",
+          "en": "§7are inaccessible",
+          "ru": "недоступны."
+        },
+        {
+          "id": "line-006",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-007",
+          "en": "§7- Ironman",
+          "ru": "- Айронмен"
+        },
+        {
+          "id": "line-008",
+          "en": "§7- Ultimate Ironman",
+          "ru": "- Абсолютный Айронмен"
+        },
+        {
+          "id": "line-009",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        },
+        {
+          "id": "line-010",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> §aНажмите, чтобы переключить"
+        },
+        {
+          "id": "line-011",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-012",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-013",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§7§a✔ §7Персонаж <num>+ уровня"
+        },
+        {
+          "id": "line-014",
+          "en": "§7§c✖ §7Lv. <num>+ Character",
+          "ru": "§7§c✖ §7Персонаж <num>+ уровня"
+        }
+      ]
+    },
+    {
+      "id": "character-mode-craftsman",
+      "match": {
+        "title": "§7<em> Craftsman",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "§7<em> Craftsman",
+        "ru": "<em> Ремесленник"
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7You will only be allowed",
+          "ru": "Вы сможете использовать"
+        },
+        {
+          "id": "line-002",
+          "en": "§7to use crafted items",
+          "ru": "только изготовленные предметы."
+        },
+        {
+          "id": "line-003",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Enabled",
+          "ru": "- Включено"
+        },
+        {
+          "id": "line-005",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        },
+        {
+          "id": "line-006",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> §aНажмите, чтобы переключить"
+        },
+        {
+          "id": "line-007",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-008",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-009",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§7§a✔ §7Персонаж <num>+ уровня"
+        },
+        {
+          "id": "line-010",
+          "en": "§7§c✖ §7Lv. <num>+ Character",
+          "ru": "§7§c✖ §7Персонаж <num>+ уровня"
+        }
+      ]
+    },
+    {
+      "id": "character-mode-hunted",
+      "match": {
+        "title": "§7<em> Hunted",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "§7<em> Hunted",
+        "ru": "<em> Режим Охоты"
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "§7You will be in permanent",
+          "ru": "Для вас постоянно включён"
+        },
+        {
+          "id": "line-002",
+          "en": "§7hunted mode (PvP on)",
+          "ru": "Режим Охоты (PvP включено)."
+        },
+        {
+          "id": "line-003",
+          "en": "§7§a✔ §7Quest: A Hunter's Calling",
+          "ru": "§7§a✔ §7Квест: A Hunter's Calling"
+        },
+        {
+          "id": "line-004",
+          "en": "§7- Disabled",
+          "ru": "- Выключено"
+        },
+        {
+          "id": "line-005",
+          "en": "§7- Enabled",
+          "ru": "- Включено"
+        },
+        {
+          "id": "line-006",
+          "en": "§7<em> Click to Open",
+          "ru": "<em> §aНажмите, чтобы открыть"
+        },
+        {
+          "id": "line-007",
+          "en": "§7<em> Click to toggle",
+          "ru": "<em> §aНажмите, чтобы переключить"
+        },
+        {
+          "id": "line-008",
+          "en": "§8This feature is only available",
+          "ru": "§8Эта функция доступна только"
+        },
+        {
+          "id": "line-009",
+          "en": "§8to §dHERO+§8 or higher",
+          "ru": "§8с рангом §dHERO+§8 или выше"
+        },
+        {
+          "id": "line-010",
+          "en": "§7§a✔ §7Lv. <num>+ Character",
+          "ru": "§7§a✔ §7Персонаж <num>+ уровня"
+        },
+        {
+          "id": "line-011",
+          "en": "§7§c✖ §7Lv. <num>+ Character",
+          "ru": "§7§c✖ §7Персонаж <num>+ уровня"
+        }
+      ]
+    },
+    {
+      "id": "crafted-basic-healing-1-3",
+      "match": {
+        "title": "Basic Beverage of Healing [1/3]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Basic Beverage of Healing [1/3]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффект:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§4- §7Лечение: §f<num>§c ❤"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Duration: <num> Second",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-005",
+          "en": "Crafted Potion",
+          "ru": "Созданное Зелье"
+        }
+      ]
+    },
+    {
+      "id": "crafted-basic-healing-2-3",
+      "match": {
+        "title": "Basic Beverage of Healing [2/3]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Basic Beverage of Healing [2/3]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффект:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§4- §7Лечение: §f<num>§c ❤"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Duration: <num> Second",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-005",
+          "en": "Crafted Potion",
+          "ru": "Созданное Зелье"
+        }
+      ]
+    },
+    {
+      "id": "crafted-basic-healing-3-3",
+      "match": {
+        "title": "Basic Beverage of Healing [3/3]",
+        "anchors": [],
+        "priority": 900
+      },
+      "title": {
+        "id": "title",
+        "en": "Basic Beverage of Healing [3/3]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-001",
+          "en": "Effect:",
+          "ru": "Эффект:"
+        },
+        {
+          "id": "line-002",
+          "en": "- Heal: §f<num>§c ❤",
+          "ru": "§4- §7Лечение: §f<num>§c ❤"
+        },
+        {
+          "id": "line-003",
+          "en": "- Duration: <num> Seconds",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-004",
+          "en": "- Duration: <num> Second",
+          "ru": "§4- §7Длительность: §f<num> <pl:секунда|секунды|секунд>"
+        },
+        {
+          "id": "line-005",
+          "en": "Crafted Potion",
+          "ru": "Созданное Зелье"
+        }
+      ]
+    }
+  ]
+}

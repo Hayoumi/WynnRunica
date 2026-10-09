@@ -1,0 +1,464 @@
+{
+  "quest": "Infested Plants",
+  "level": 4,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "infested-plants",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "...well. Goodbye!",
+      "ru": "...что ж. Бывайте!",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "You can, uh, go speak to the mayor! He can cover my expenses!",
+      "ru": "Можете, э-э, поговорить с мэром! Он всё заплатит за меня!",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Oh, I- eheh, it... I... uh, it's n-none of your business, actually.",
+      "ru": "Ой, я... хе-хе, это... Я... ух, вообще-то это н-не твоё дело.",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Come to think of it... I don't think you ever mentioned what you needed it for.",
+      "ru": "Если подумать... ты, кажется, так и не сказал, для чего она тебе нужна.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Well... we came to Wynn to help out, after all. So... we can get you that herb!",
+      "ru": "Что ж... в конце концов, мы ведь прибыли в Винн как раз для того, чтобы помогать. Так что... мы достанем тебе эту траву!",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "And, y'know, I- I'm no soldier! Can't just go in there and get it myself! So, I was hoping you could help me out.",
+      "ru": "И, знаешь, я... я ведь не солдат! Не могу просто пойти туда и забрать её сам! Так что я надеялся, ты сможешь мне помочь.",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I... uh... so, there's this rare medicinal herb that grows in these woods, right? And it's important. But the only place I know to find it is an infested cave, filled with creepy crawly spiders.",
+      "ru": "Я... э... в общем, в этих лесах растёт одна редкая целебная трава, понимаешь? И она очень важна. Но единственное место, о котором я знаю, - это пещера, доверху набитая мерзкими пауками.",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Right... okay. That makes sense. What did you need help with?",
+      "ru": "Ясно... ладно. Звучит логично. С чем тебе нужна помощь?",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "I'm Ope! And the undead... eh, there's not as many of them around here. The spiders aren't picky 'bout who they go for.",
+      "ru": "Я Опе! А нежить... э-э, здесь её не так уж много. Паукам-то без разницы, на кого бросаться.",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Well, sure- but who are you? Why are you out on your own, isn't it dangerous? Aren't the undead...",
+      "ru": "Ну, да... но кто ты вообще такой? Почему ты бродишь один, разве это не опасно? Разве нежить не...",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Oh, <playername>! There you are. It's good to see you. I'd say we should keep heading towards Detlas, but...",
+      "ru": "О, <playername>! Вот ты где. Рад тебя видеть. Я бы сказал, что нам стоит продолжить путь к Детласу, но...",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "It looks like we'll need to pass through the Nivla Woods first. I've heard the forest is crawling with spiders... and the undead are a danger, as always... but between you and me, we should be-",
+      "ru": "Похоже, сперва придётся пройти через лес Нивлы. Слыхал, там пауков как грязи... да и нежить, как всегда, не дремлет... Но уж мы-то с тобой должны-",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "H-hey! You two! You're soldiers, right?",
+      "ru": "Э-эй! Вы двое! Вы ж солдаты, да?",
+      "speaker": "???",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "It only grows in an infested cave filled with creepy crawlies. And I'm clearly in no condition to go get it myself!",
+      "ru": "Она растёт только в заражённой пещере, где полно этой ползучей мерзости. А я, как видно, сам туда уже не полезу!",
+      "speaker": "Ope",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Great. Great! I'll bring you to the cave, and you can do the rest from there. Follow me!",
+      "ru": "Отлично. Отлично! Я отведу вас к пещере, а дальше вы уже сами. За мной, солдаты!",
+      "speaker": "Ope",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Well, here we are! That's the cave right over there- just climb up the rocks and jump into it. It's safe! Uh, probably.",
+      "ru": "Ну вот и пришли! Пещера вон там - залезь по скалам и спрыгни внутрь. Это безопасно! Эм, наверное.",
+      "speaker": "Ope",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "...eek. There's a lot of spiders even up here... hey, since there's two of you- one of you can go get the herb, and the other can, uh... protect me from the crawly spiders?",
+      "ru": "...Ой-ой. Тут даже наверху полно пауков... Эй, раз уж вас двое - один из вас может сходить за травой, а другой, эм... защитит меня от этих ползучих пауков?",
+      "speaker": "Ope",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "That works for me. <playername>, you go into the cave , and I'll defend Ope up here while you do that.",
+      "ru": "Меня устраивает. <playername>, ты §#55FFFFиди в пещеру§r, а я останусь наверху и защищу Опе.",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Yep... good! Good, good! Good, uh, luck up there! Try not to get bitten too much by the spiders!",
+      "ru": "Ага... отлично! Хорошо, хорошо! Уда... эм, удачи там! Постарайся только не дать паукам себя слишком сильно покусать!",
+      "speaker": "Ope",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "...ah- there you are!! What took you so long, it feels like we've been waiting for hours!",
+      "ru": "А, вот ты где! Такое чувство, будто мы тебя тут уже сто лет ждём.",
+      "speaker": "Ope",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "It... really hasn't been that long. Maybe ten minutes at most.",
+      "ru": "Да... не так уж и долго. Минут десять, максимум.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "It-... mm. A-anyway! Do you have the herb? It's very important, yep.",
+      "ru": "Это-... мм. В-в любом случае! Трава у тебя? Она очень важна, ага.",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "[-1 Saccharum Plant]",
+      "ru": "§#FF55FF[-1 Saccharum Plant]§r",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "I- I thank you kindly for your work, soldiers! Now, about your payment... let's see, what do I have...",
+      "ru": "Я... я премного благодарен вам за работу, солдаты! А теперь насчёт вашей платы... так, поглядим, что у меня есть...",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Oh. I seem to be out of emeralds. Well- then, I- I can offer some advice! There's lots to find in this forest. Plenty of other caves with valuables to explore! Might be worth your time!",
+      "ru": "Ой. А изумруды у меня, похоже, кончились. Ну- могу, э, дать совет! В этом лесу много чего можно найти. Полно других пещер с ценными вещами! Может, стоит заглянуть!",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Wait, what? Hey, are you seriously not going to-",
+      "ru": "Погоди, что? Эй, ты серьёзно даже не собираешься-",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "I'm going to go on ahead. I'll meet you in Alekin Village, it's just down the main road to the east.",
+      "ru": "Я пойду вперёд. Встретимся в деревне Алекин, это прямо по главной дороге на восток.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Well. Goodbye!",
+      "ru": "Ну. Бывайте!",
+      "speaker": "Ope",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "That's... frustrating. I really did just want to know... well. What's done is done. Let's just go talk to that mayor he mentioned.",
+      "ru": "Вот же... досадно. Я ведь просто хотел узнать... что ж. Что сделано, то сделано. Пойдём поговорим с мэром, которого он упомянул.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Ah, recruits... welcome to our humble forest town. Have you come to stay, or are you simply passing through?",
+      "ru": "Ах, новобранцы... добро пожаловать в наш скромный лесной городок. Вы к нам надолго или просто проходите мимо?",
+      "speaker": "Mayor Alvin",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Just passing through, our destination is Detlas. Though... we ran into a man named Ope, who directed us to speak with you.",
+      "ru": "Мы только проходим, направляемся в Детлас. Но... встретили человека по имени Опе. Он посоветовал нам обратиться к вам.",
+      "speaker": "Tasim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Oh, Ope... I take it your meeting with him went poorly? I must apologize for him, he is... a tough man to deal with sometimes.",
+      "ru": "Ох, Опе... Похоже, встреча с ним прошла не очень? Прошу за него прощения, с ним... тяжко иметь дело.",
+      "speaker": "Mayor Alvin",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Here, I may offer you a small sum of emeralds as an apology. I hope he has not soured your opinion of our small town, here...",
+      "ru": "Вот, могу предложить вам немного изумрудов в качестве извинения. Надеюсь, он не испортил вам впечатление о нашем городке...",
+      "speaker": "Mayor Alvin",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Oh... Thank you. That's very kind of you. We'll probably stay for a while, before we continue towards Detlas.",
+      "ru": "О... спасибо. Очень мило с вашей стороны. Мы, наверное, немного задержимся тут, а потом уже двинем дальше к Детласу.",
+      "speaker": "Tasim",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Then feel free to make yourselves at home! We welcome all travelers here, no matter how long their stay is.",
+      "ru": "Тогда чувствуйте себя как дома! Мы рады всем путникам, неважно, насколько вы тут задержитесь.",
+      "speaker": "Mayor Alvin",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Uh- yes, we are, but-",
+      "ru": "Э- да, всё так, но-",
+      "speaker": "добито по логу захвата",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "New Quest Started: Infested Plants",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Infested Plants",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Oh, <playername>! There you are. It's good to see you. Are you ready to continue on towards Detlas?",
+      "ru": "О, <playername>! Вот и ты. Рад тебя видеть. Готов двигаться дальше, к Детласу?",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "It seems we'll need to pass through the Nivla Woods first. I've heard the forest is crawling with spiders... But between you and me, we should be-",
+      "ru": "Похоже, сперва придётся пройти через лес Нивла. Говорят, там кишат пауки... Но уж мы-то с тобой должны-",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Yep, I could tell from your weird fashion sense! You folk are supposed to help people, right? So. Help!",
+      "ru": "Да, по вашему странному наряду видно. Вам вроде как положено помогать людям! Так что. Помогайте!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Hm... There's two of you. Good! One of your can climb up into that cave, and the other can protect me from the crawly spiders down here!",
+      "ru": "Хм... Вас двое. Отлично! Один из вас может §#55FFFFзалезть вон в ту пещеру§r, а другой защитит меня здесь от ползучих пауков!",
+      "speaker": "Ope",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "H-hey! You two! You're soldiers, right? I can tell from your weird fashion sense. You folk are supposed to help people! So. Help!",
+      "ru": "Э-эй! Вы двое! Вы ведь солдаты, да? Видно по вашим странным нарядам. Вы должны помогать людям! Так что. Помогайте!",
+      "stage": "Stage 1",
+      "speaker": "???"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Huh? Oh- yes, of course! What's your name? What do you need help with?",
+      "ru": "А? О, да... конечно! Как тебя зовут? С чем тебе нужна помощь?",
+      "stage": "Stage 1",
+      "speaker": "Tasim"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I'm Ope! I was recently... uh... bit by a spider! And now I need your help to get a rare medicinal herb to heal me!",
+      "ru": "Я Опе! Меня недавно... э... укусил паук! Теперь мне нужна ваша помощь: достаньте редкую целебную траву, чтобы меня вылечить!",
+      "stage": "Stage 1",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Well, alright! We're here to help, after all, so... We'll get you that herb!",
+      "ru": "Что ж, ладно! Мы ведь здесь, чтобы помогать, так что... Мы достанем тебе эту траву!",
+      "stage": "Stage 1",
+      "speaker": "Tasim"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Perfect. I'll bring you to the cave, and you can do the rest from there. Follow me, soldiers!",
+      "ru": "Отлично. Я отведу вас к пещере, а дальше вы уже сами. §#55FFFFЗа мной§r, солдаты!",
+      "stage": "Stage 1",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Well, here we are! The cave's right over there - just climb up the rocks and jump into it.",
+      "ru": "Ну вот и пришли! Пещера вон там - залезьте по скалам и спрыгните внутрь.",
+      "stage": "Stage 2",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Alright! <playername>, you can go into the cave, and I can defend Ope here while you do that.",
+      "ru": "Ладно! <playername>, ты §#55FFFFиди в пещеру§r, а я пока останусь здесь и защищу Опе.",
+      "stage": "Stage 2",
+      "speaker": "Tasim"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Good, good. Well, good luck up there! Try not to get bitten too much by the spiders!",
+      "ru": "Хорошо, хорошо. Удачи там наверху! Постарайся не дать паукам себя слишком сильно покусать!",
+      "stage": "Stage 2",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "There you are! It feels like we've been waiting for hours.",
+      "ru": "Вот и ты! Такое чувство, будто мы ждали тебя несколько часов.",
+      "stage": "Stage 4",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Well-... Anyway! Do you have the herb? It's very- uh, important! To cure me. Yep.",
+      "ru": "Ну... В общем! Трава у тебя? Она очень... э... важна! Чтобы меня вылечить. Ага.",
+      "stage": "Stage 4",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "There it is! Eheh. Thank you kindly for your work, soldiers! Now, about your payment...Let's see, what do I have...",
+      "ru": "Вот она! Хе-хе. Большое спасибо за работу, солдаты! Теперь насчёт вашей платы... Посмотрим, что у меня есть...",
+      "stage": "Stage 4",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Oh. I seem to be out of emeralds. Well- I can, uh, offer some advice! There's lots to find in this forest. Plenty of caves with valuables to explore! Might be worth your time.",
+      "ru": "Ой. Похоже, изумруды у меня кончились. Ну... я могу, э... дать совет! В этом лесу много чего можно найти. Полно пещер с ценными вещами! Возможно, стоит туда заглянуть.",
+      "stage": "Stage 4",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Wait, are you seriously not going to-",
+      "ru": "Погоди, ты серьёзно не собираешься...",
+      "stage": "Stage 4",
+      "speaker": "Tasim"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "It has been a time, soldiers, but I truly must be going! We're near Alekin Village, you should stop on by! Just keep going east down the main road! Go and speak to the mayor! He can cover my expenses!",
+      "ru": "Приятно было провести с вами время, солдаты, но мне и правда пора! Мы возле деревни Алекин, стоит туда заглянуть! Просто идите на §#55FFFFвосток§r по §#55FFFFглавной дороге§r! Поговорите с мэром! Он всё оплатит за меня!",
+      "stage": "Stage 4",
+      "speaker": "Ope"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "That's... frustrating. He seemed shady from the start, I should have-... Well. What's done is done. Let's go speak to that mayor.",
+      "ru": "Вот же... досадно. Он с самого начала выглядел подозрительно, мне стоило... Ладно. Что сделано, то сделано. Пойдём поговорим с этим мэром.",
+      "stage": "Stage 4",
+      "speaker": "Tasim"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Ah, travelers... welcome to our humble forest town. Have you come to stay, or are you simply passing through?",
+      "ru": "А, путники... Добро пожаловать в наш скромный лесной городок. Вы приехали погостить или просто проходите мимо?",
+      "stage": "Stage 5",
+      "speaker": "Mayor Alvin"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Probably the latter. Though, we ran into a man named Ope, who directed us to speak with you.",
+      "ru": "Скорее второе. Правда, мы встретили человека по имени Опе, который отправил нас поговорить с вами.",
+      "stage": "Stage 5",
+      "speaker": "Tasim"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Oh, Ope... I take it your meeting with him went poorly? I must apologize for him, he is... a tough man to deal with.",
+      "ru": "Ох, Опе... Полагаю, встреча с ним прошла не лучшим образом? Прошу за него прощения, с ним... непросто иметь дело.",
+      "stage": "Stage 5",
+      "speaker": "Mayor Alvin"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Meet up with Tasim at the entrance to Nivla Woods at [-424, 71, -1595].",
+      "ru": "Встретиться с Тасимом у входа в лес Нивла [-424, 71, -1595].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Follow Ope to the cave at [-322, 71, -1565].",
+      "ru": "Следовать за Опе к пещере [-322, 71, -1565].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Locate the medicine in the spider cave behind Ope at [-322, 75, -1565].",
+      "ru": "Найти лекарство в паучьей пещере за Опе [-322, 75, -1565].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Exit the cave at [-322, 71, -1565] with the medicinal herb.",
+      "ru": "Выйти из пещеры с лекарственной травой [-322, 71, -1565].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Speak to Mayor Alvin in Alekin Village at [-181, 71, -1615].",
+      "ru": "Поговорить с мэром Элвином в деревне Алекин [-181, 71, -1615].",
+      "stage": "Stage 5"
+    }
+  ],
+  "choices": []
+}

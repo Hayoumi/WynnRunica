@@ -1,0 +1,116 @@
+{
+  "quest": "Clearing the Camps",
+  "level": 39,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "clearing-the-camps",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Aha, another Ragni soldier, eh? Well, a warm welcome to you.",
+      "ru": "Ага, ещё один солдат из Рагни, а? Ну что ж, добро пожаловать.",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Did you hear about the requests from the Villagers we've gotten? They say these \"Orcs\" and \"Goblins\" are threatening their towns and cities.",
+      "ru": "Слышал о просьбах, которые мы получили от вилладжеров? Говорят, эти \"орки\" и \"гоблины\" угрожают их городам и деревням.",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Primitive, brutal creatures, apparently little better than the zombies we're used to, at least according to the Llevigar military.",
+      "ru": "Примитивные, жестокие существа. По словам военных Ллевигара, они немногим лучше зомби, к которым мы привыкли.",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "So, we figure if might makes right with them, then defeating their leaders should scare them into submission.",
+      "ru": "Мы решили: раз они признают только силу, то, победив их вождей, заставим остальных подчиниться.",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Our scouts have identified three \"chief\" orcs in the area- Elisu, Ceifko and Veltu. Though, strangely Veltu is always surrounded by goblins...",
+      "ru": "Наши разведчики обнаружили трёх орочьих \"вождей\" в округе - Элису, Сейфко и Велту. Правда, странно, что Велту всегда окружён гоблинами...",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Well, whatever the case, we're needed to defend Llevigar here. Can you handle the chiefs? They seem to hide in the camps with green flags- search the plains, return once they're dealt with!",
+      "ru": "Как бы там ни было, мы должны защищать Ллевигар. Справишься с вождями? Похоже, они прячутся в лагерях с зелёными флагами. Обыщи равнины и возвращайся, когда разберёшься с ними!",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Ah, the soldier from earlier! You're back, I see. Any luck defeating those- ...yeesh. Are those their heads?",
+      "ru": "А, тот самый солдат! Смотрю, вернулся. Ну что, удалось победить тех- ...Ё-моё. Это что, их головы?",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "That's...harsher than I intended, but it works... Not like the Villagers care if they're dead of alive, as long as they're dealt with. I have your share of the reward here.",
+      "ru": "Это... жёстче, чем я рассчитывал, но сработало... Вилладжерам ведь без разницы, мёртвые они или живые, лишь бы больше не мешали. Вот твоя доля награды.",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "This kind of surgical strike should help prevent an all-out war with the Orcs. Not sure we'd want a full-scale war to deal with in each province, hah!",
+      "ru": "Такой точечный удар должен помочь не допустить полномасштабной войны с орками. Нам только войны в каждой провинции не хватало, ха!",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "You saw that the creatures in Gavel aren't akin to Wynnic fare while you were out, yes? They're a bit, ah...livelier than usual. Better get used to it.",
+      "ru": "Ты уже заметил, что твари в Гавеле не совсем такие, как обычная виннская живность, да? Они, эм... поживее обычного. Привыкай.",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "The next major settlement is Olux, in the swamp up north, but I hear the swamp ogres are a lot tougher than the plains' fare. I'd stick around here and train up, first.",
+      "ru": "Следующее крупное поселение - Олукс, в болоте на севере. Но я слышал, болотные огры куда опаснее тех, кто водится на равнинах. Я бы сперва задержался здесь и поднабрался сил.",
+      "speaker": "Captain Kymer",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "New Quest Started: Clearing the Camps",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Зачистка лагерей",
+      "speaker": "",
+      "stage": "Stage 3"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Captain Kymer outside Llevigar at [-1991, 34, -4658]",
+      "ru": "Поговорить с капитаном Кимером за пределами Ллевигара [-1991, 34, -4658].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find and kill Orc Chieftains Elisu, Veltu, and Ceifko in the camps around Llevigar- look for green flags",
+      "ru": "Найти и убить вождей орков Элису, Велту и Сейфко в лагерях вокруг Ллевигара. Ориентир - зелёные флаги.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Report back to Captain Kymer once you have the three heads.",
+      "ru": "Принести капитану Кимеру три головы.",
+      "stage": "Stage 3"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,94 @@
+{
+  "quest": "Lost Tower",
+  "level": 24,
+  "difficulty": "Easy",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "lost-tower",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Hey adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.",
+      "ru": "Эй, искатель приключений! Не поможешь мне на минутку? У меня тут небольшая проблема.",
+      "speaker": "Laen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "A while ago, before Ancient Nemract was destroyed, my family used to own quite an interesting book, that held knowledge of places and beings of great power.",
+      "ru": "Давным-давно, ещё до разрушения Древнего Немракта, у моей семьи была весьма интересная книга, в которой содержались знания о местах и существах великой силы.",
+      "speaker": "Laen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Unfortunately, a creature stole it from them during the attack that led to the destruction of Ancient Nemract, and no one has seen it since.",
+      "ru": "К сожалению, во время нападения, уничтожившего Древний Немракт, книгу похитило какое-то существо. С тех пор её никто не видел.",
+      "speaker": "Laen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "If you are willing to help, bring me [1 Book of the Bones], I believe this book is now between the hands of skeletons, in an old tower in Ancient Nemract.",
+      "ru": "Если хочешь помочь, принеси мне [1 Book of the Bones]. Думаю, эта книга теперь в руках скелетов, в старой башне Древнего Немракта.",
+      "speaker": "Laen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "See if you can find this tower, one of the skeletons probably has the book somewhere in there.",
+      "ru": "Постарайся найти эту башню. Скорее всего, книга где-то там у одного из скелетов.",
+      "speaker": "Laen",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "The book should be in here, you should find it and bring it to Laen.",
+      "ru": "Книга должна быть где-то здесь. Найди её и принеси Лаэну.",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Great! This will be very interesting to read, thank you!",
+      "ru": "Отлично! Не терпится её прочесть. Спасибо!",
+      "speaker": "Laen",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "New Quest Started: Lost Tower",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Затерянная башня",
+      "speaker": "",
+      "stage": "Stage 4"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Laen in Nemract at [24, 41, -2199].",
+      "ru": "Поговорить с Лаэном в Немракте [24, 41, -2199].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find the lost tower in Ancient Nemract at [177, 51, -1883].",
+      "ru": "Найти затерянную башню в Древнем Немракте [177, 51, -1883].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Find the book in the tower, and bring it back to Laen.",
+      "ru": "Найти книгу в башне и принести её Лаэну.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Bring back the book to Laen.",
+      "ru": "Принести книгу Лаэну.",
+      "stage": "Stage 4"
+    }
+  ],
+  "choices": []
+}

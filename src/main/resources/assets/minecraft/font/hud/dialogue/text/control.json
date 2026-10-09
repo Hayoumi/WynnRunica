@@ -1,0 +1,59 @@
+{
+  "providers": [
+    {
+      "id": "space",
+      "type": "reference"
+    },
+    {
+      "advances": {
+        " ": 4,
+        "‌": 0
+      },
+      "type": "space"
+    },
+    {
+      "ascent": -38,
+      "chars": [
+        "—!\"#$%&'()*+,-./",
+        "0123456789:;<=>?",
+        "@ABCDEFGHIJKLMNO",
+        "PQRSTUVWXYZ[\\]^_",
+        "`abcdefghijklmno",
+        "pqrstuvwxyz{|}~\u0000"
+      ],
+      "file": "font/hud/dialogue/text/wynncraft.png",
+      "height": 128,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -32,
+      "chars": [
+        ""
+      ],
+      "file": "font/hud/dialogue/text/shift.png",
+      "height": 16,
+      "type": "bitmap"
+    },
+    {
+      "ascent": -33,
+      "chars": [
+        ""
+      ],
+      "file": "font/hud/dialogue/text/scroll.png",
+      "height": 16,
+      "type": "bitmap"
+    },
+    {
+      "type": "bitmap",
+      "file": "wynnrunica:font/hud/dialogue/text/cyrillic.png",
+      "ascent": -35,
+      "height": 128,
+      "chars": [
+        "АБВГДЕЁЖЗИЙКЛМНОП",
+        "РСТУФХЦЧШЩЪЫЬЭЮЯ\u0000",
+        "абвгдеёжзийклмноп",
+        "рстуфхцчшщъыьэюя\u0001"
+      ]
+    }
+  ]
+}

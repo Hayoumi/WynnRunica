@@ -1,0 +1,513 @@
+{
+  "quest": "Dearly Departed",
+  "level": 2,
+  "difficulty": "Easy",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "dearly-departed",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ah, looks like a fresh recruit! Did you see my posting? Good, good.",
+      "ru": "А, гляжу, новый рекрут! Объявление моё видел? Хорошо, хорошо.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "You see, my dear father-in-law recently passed, and I had to bury him hastily out back. Couldn't get a priest here in time to bury him all properly...",
+      "ru": "Видишь ли, мой дорогой тесть недавно скончался, и мне пришлось быстро похоронить его за домом. Священник не успел приехать, чтобы отпеть его как положено...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Unfortunately, it so happens that my wedding ring might have slipped off as I was putting him to rest...",
+      "ru": "К несчастью, видимо, пока я укладывал его в могилу, с моего пальца могло соскользнуть обручальное кольцо...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "I need you to go back there and, well, recover the ring.",
+      "ru": "Сходи туда ещё раз и, ну... верни кольцо.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "It's nothing I couldn't handle myself, of course, but the wife already suspects something, and with her dear father passing so recently...",
+      "ru": "Я бы, конечно, и сам справился, но жена уже что-то подозревает, а после недавней смерти её дорогого отца...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Well, you see the situation I'm in? Help a poor fellow out, just go and grab that [Muddy Shovel] over there, and then come back to me.",
+      "ru": "Ну, теперь понимаешь, в каком я положении? Выручи бедолагу: §#55FFFFвозьми§r вон ту §#00AAAA[Muddy Shovel]§r и возвращайся ко мне.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "The [Muddy Shovel] is just over there. I'd really appreciate the help, recruit.",
+      "ru": "§#00AAAA[Muddy Shovel]§r вон там. Буду очень благодарен за помощь, рекрут.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "You've got the shovel? Great! You've got some sturdy armour and a weapon too, I presume?",
+      "ru": "Лопата у тебя? Отлично! Надеюсь, крепкая броня и оружие тоже при тебе?",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Good, good. Better safe than sorry... As I always say! Always, ha ha...",
+      "ru": "Хорошо, хорошо. Бережёного бог бережёт... Так я всегда говорю! Всегда, ха-ха...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Oh, no reason really! Just making sure, ha ha... Should be perfectly safe back there, perfectly safe.",
+      "ru": "О, да так, без причины! Просто решил убедиться, ха-ха... Там совершенно безопасно, совершенно.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "You've used your Skill Points too, right? They come in handy, should something happen.",
+      "ru": "Ты ведь уже распределил §#00AA00§l§nочки навыков§r? Они пригодятся, если вдруг что случится.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Well, they're Skill Points! You gain them as you level up, then you can assign them to get bonuses in combat. Look, I'm no soldier, but even I know you really should be using them...",
+      "ru": "Ну, это §2§lОчки Навыков§r! Ты получаешь их с повышением уровня, а затем распределяешь, чтобы усилить себя в бою. Слушай, я не солдат, но даже я знаю, что ими стоит пользоваться...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "There's five of them. Strength, Dexterity, Intelligence, Defence, and Agility, each with different bonuses.",
+      "ru": "Всего их пять: §2<em> Сила§f, §e<em> Ловкость§f, §b<em> Интеллект§f, §c<em> Защита §fи <em> Проворство§f. Каждая даёт свои бонусы.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "You get it, or do you want me to tell you what they are?",
+      "ru": "Понял, или рассказать, что это такое?",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Strength is handy if you're having a tough time taking down enemies. It makes your attacks hit harder, simple as.",
+      "ru": "<em> §#00AA00Сила §rпригодится, если тебе тяжело расправляться с врагами. Она делает твои атаки мощнее, всё просто.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Dexterity's a bit of a tricky one. The more of it you've got, the higher the likelihood is that your attacks will deal double damage. Neat, right?",
+      "ru": "С <em> §#FFFF55Ловкостью§r всё немного сложнее. Чем её больше, тем выше шанс, что твои атаки нанесут двойной урон. Здорово, правда?",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Intelligence is for the spellcasters, it lowers the cost to cast spells and increases your max amount of mana.",
+      "ru": "<em> §#55FFFFИнтеллект §rпригодится заклинателям: он снижает затраты маны на заклинания и увеличивает её максимальный запас.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Defence is your best bet if you're struggling with staying alive. Decreases the damage you take, 's about all.",
+      "ru": "<em> §#FF5555Защита §r- лучший выбор, если тебе тяжело оставаться в живых. Она уменьшает получаемый урон, вот и всё.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Agility, now that one is for the risktakers. The more you have, the likelier you are to dodge incoming attacks, negating most of their damage.",
+      "ru": "А вот <em> Проворство подойдёт тем, кто любит рисковать. Чем его больше, тем выше шанс уклониться от вражеской атаки и избежать большей части урона.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Best part is, you can combine them however you want, no matter your class or style of fighting.",
+      "ru": "А самое лучшее - ты можешь сочетать их как угодно, независимо от своего класса или стиля боя.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Just open your compass to assign your Skill Points. Then, when you're ready, head in there and get my ring.",
+      "ru": "Просто §#55FFFFоткрой компас §rи распредели §#00AA00§lочки навыков§r. А когда будешь готов, отправляйся туда и верни мне кольцо.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Go on then, soldier! Show us the might of Ragni's army! Uh, I mean... get me that ring!",
+      "ru": "Вперёд, солдат! Покажи им мощь армии Рагни! Эм, то есть... §#55FFFFпринеси мне кольцо§r!",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Dig up the grave?",
+      "ru": "Раскопать могилу?",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "There you go...",
+      "ru": "Вот так...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Now to see if you can find that ring Cevalus mentioned...",
+      "ru": "Теперь посмотрим, сумеешь ли ты найти кольцо, о котором говорил Севалус...",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "What's going on in there, soldier? Have you found the ring yet?",
+      "ru": "Что там у тебя происходит, солдат? Ты уже нашёл кольцо?",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "You really should hurry, before... nevermind! Just find the ring and get out of there!",
+      "ru": "Тебе лучше поторопиться, пока... а, неважно! Просто найди кольцо и выбирайся оттуда!",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Holy Bovine! It's... it's... he's back! Kill it, quickly!",
+      "ru": "Святая Корова! Это... это... он вернулся! Быстрее, убей его!",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "You manage to pry the ring off the monster's finger...",
+      "ru": "Тебе удаётся сорвать кольцо с пальца чудовища...",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "[+1 Golden Ring]",
+      "ru": "§#FF55FF[+1 Golden Ring]§r",
+      "speaker": "",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "You did it! Come back here now, so I can finally get my ring back.",
+      "ru": "У тебя получилось! Возвращайся ко мне, чтобы я наконец забрал своё кольцо обратно.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Goodness, that was a little more exciting than I anticipated, hmph. Still, good work! I'm glad we were able to get rid of that monster...",
+      "ru": "Ух, всё вышло куда опаснее, чем я рассчитывал. Но ты молодец! Рад, что нам удалось избавиться от этого чудовища...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "I mean... poor father-in-law! I don't know how I'll explain this to the wife...",
+      "ru": "То есть... бедный тесть! Даже не знаю, как я объясню это жене...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "I'll take the ring now, it's rather precious to me...",
+      "ru": "А теперь отдай мне кольцо, оно мне очень дорого...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Anyhow, take this well-deserved reward for the, well, actions you took today. Perhaps, if you keep it up, you could even become a hero like Ragnar one day.",
+      "ru": "Как бы то ни было, прими эту заслуженную награду за... скажем так, сегодняшние подвиги. Если продолжишь в том же духе, однажды и сам сможешь стать героем, как Рагнар.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Hello there, stranger. Was there something you wanted to speak to me about?",
+      "ru": "Здравствуй, незнакомец. Хотел о чём-то поговорить со мной?",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "I should be angry but... I can't pretend to be surprised. He's always been such a forgetful oaf.",
+      "ru": "Мне бы рассердиться, но... Не могу сказать, что я удивлена. Он всегда был таким забывчивым увальнем.",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "But, it explains a lot... He's been acting weird lately, ever since dad passed. That must've been what happened, so thank you for telling me.",
+      "ru": "Зато это многое объясняет... Он странно себя ведёт с тех пор, как папа умер. Видимо, всё дело было в этом. Спасибо, что рассказал.",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "That's right. The one and only, ha ha...",
+      "ru": "Верно. Единственная и неповторимая, ха-ха...",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "We're just simple farmers, trying to get by. We were taking care of my dad until... well... yeah...",
+      "ru": "Мы простые фермеры, стараемся свести концы с концами. Мы ухаживали за моим папой, пока... ну... сам понимаешь...",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Thank you... It all happened so suddenly. On the day I left for Detlas, dad was as healthy as ever, but when I came back he was already buried. The sickness must have come so fast...",
+      "ru": "Спасибо... Всё случилось так внезапно. Когда я уезжала в Детлас, папа был совершенно здоров, а к моему возвращению его уже похоронили. Наверное, болезнь развилась очень быстро...",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "But at his age, I'm not surprised... It's just regrettable that we couldn't get a priest out here in time, dad was such a pious man.",
+      "ru": "Но в его возрасте это неудивительно... Жаль только, что священник не успел приехать. Папа был таким набожным человеком.",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Dad... Above all, he was kind and always generous. He left us this entire farm. And very pious too, a true believer. Maybe that's why he lived so long...",
+      "ru": "Папа... Прежде всего, он был добрым и всегда щедрым. Он оставил нам всю эту ферму. И очень набожным, истинным верующим. Может, поэтому и прожил так долго...",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Oh, dear... If I don't stop, I'm gonna start crying again.",
+      "ru": "Ох... Если я сейчас не остановлюсь, снова начну плакать.",
+      "speaker": "Farmer Kelri",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "[-1 Golden Ring]",
+      "ru": "§#FF55FF[-1 Golden Ring]§r",
+      "speaker": "",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "New Quest Started: Dearly Departed",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Dearly Departed",
+      "speaker": "",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "[+1 Muddy Shovel]",
+      "ru": "[+1 Muddy Shovel]",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "You've used your Skill Points too, right? They could come in handy, should something happen.",
+      "ru": "Ты ведь и §2§lОчки Навыков §rраспределил, верно? Они могут пригодиться, если вдруг что-то случится.",
+      "speaker": "Farmer Cevalus",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Thank you dearly for your help, soldier. You really saved me... Don't know what I would have told the wife, ha ha...",
+      "ru": "Огромное тебе спасибо за помощь, солдат. Ты меня действительно спас... Даже не представляю, что бы я сказал жене, ха-ха...",
+      "speaker": "Farmer Cevalus",
+      "stage": "Post-Quest"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Goodness, that was a little more exciting than I anticipated. Still, good work! I'm glad we were able to get rid of that monster...",
+      "ru": "Батюшки, всё вышло куда опаснее, чем я рассчитывал. Но ты молодец! Рад, что нам удалось избавиться от этого чудовища...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 6"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Farmer Cevalus at [-751, 70, -1666]",
+      "ru": "Поговорить с фермером Севалусом [-751, 70, -1666].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Pick up the shovel at [-748, 68, -1672].",
+      "ru": "Подобрать лопату [-748, 68, -1672].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Return to Farmer Cevalus at [-751, 70, -1666]",
+      "ru": "Вернуться к фермеру Севалусу [-751, 70, -1666].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Dig up the grave at [-769, 71, -1680].",
+      "ru": "Раскопать могилу [-769, 71, -1680].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Kill the Corrupted Father-in-Law!",
+      "ru": "Убить Порченого Тестя!",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Return to Farmer Cevalus at [-751, 70, -1666]",
+      "ru": "Вернуться к фермеру Севалусу [-751, 70, -1666].",
+      "stage": "Stage 6"
+    }
+  ],
+  "choices": [
+    {
+      "id": "choice-0001",
+      "en": "Yes.",
+      "ru": "Да.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0008"
+    },
+    {
+      "id": "choice-0002",
+      "en": "Why are you asking me that?",
+      "ru": "А почему ты это спрашиваешь?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0009"
+    },
+    {
+      "id": "choice-0003",
+      "en": "What are Skill Points?",
+      "ru": "Что за очки навыков?",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0011"
+    },
+    {
+      "id": "choice-0004",
+      "en": "I got it.",
+      "ru": "§#FF55FFПонял.§r",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0014"
+    },
+    {
+      "id": "choice-0005",
+      "en": "About Strength.",
+      "ru": "Расскажи про §#00AA00Силу§r.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0014"
+    },
+    {
+      "id": "choice-0006",
+      "en": "About Dexterity.",
+      "ru": "Расскажи про §#FFFF55Ловкость§r.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0014"
+    },
+    {
+      "id": "choice-0007",
+      "en": "About Intelligence.",
+      "ru": "Расскажи про §#55FFFFИнтеллект§r.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0014"
+    },
+    {
+      "id": "choice-0008",
+      "en": "About Defence.",
+      "ru": "Расскажи про §#FF5555Защиту§r.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0014"
+    },
+    {
+      "id": "choice-0009",
+      "en": "About Agility.",
+      "ru": "Расскажи про §#FFFFFFПроворство§r.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0014"
+    },
+    {
+      "id": "choice-0010",
+      "en": "Yes.",
+      "ru": "Да.",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0023"
+    },
+    {
+      "id": "choice-0011",
+      "en": "Not yet...",
+      "ru": "Пока нет...",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0023"
+    },
+    {
+      "id": "choice-0012",
+      "en": "Cevalus lost his ring.",
+      "ru": "Севалус потерял кольцо.",
+      "stage": "Post-Quest",
+      "dialogueId": "dialogue-0036"
+    },
+    {
+      "id": "choice-0013",
+      "en": "Are you Cevalus' wife?",
+      "ru": "Вы жена Севалуса?",
+      "stage": "Post-Quest",
+      "dialogueId": "dialogue-0036"
+    },
+    {
+      "id": "choice-0014",
+      "en": "Sorry for your loss.",
+      "ru": "Соболезную вашей утрате.",
+      "stage": "Post-Quest",
+      "dialogueId": "dialogue-0036"
+    },
+    {
+      "id": "choice-0015",
+      "en": "What was your dad like?",
+      "ru": "Каким был ваш отец?",
+      "stage": "Post-Quest",
+      "dialogueId": "dialogue-0036"
+    },
+    {
+      "id": "choice-0016",
+      "en": "Goodbye.",
+      "ru": "До свидания.",
+      "stage": "Post-Quest",
+      "dialogueId": "dialogue-0036"
+    }
+  ]
+}

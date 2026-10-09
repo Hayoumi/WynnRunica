@@ -1,0 +1,629 @@
+{
+  "quest": "Deja Vu",
+  "level": 27,
+  "difficulty": "Easy",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "deja-vu",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Well well well, look who decided to come back with their tail between their legs.",
+      "ru": "Ну надо же, кто это решил приползти обратно с поджатым хвостом.",
+      "speaker": "Asher",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Two weeks now and you still haven't found it? Ugh, I can't believe I ever trusted you with such a simple task.",
+      "ru": "Уже две недели прошло, а ты его так и не нашёл? Тьфу, не могу поверить, что вообще доверил тебе такую простую задачу.",
+      "speaker": "Asher",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Who am I? WHAT DO YOU MEAN WHO AM I? You offered to help find my shovel, and I've been waiting two weeks!",
+      "ru": "Кто я? В СМЫСЛЕ, кто я? Ты сам вызвался помочь найти мою лопату, а я тут уже две недели жду!",
+      "speaker": "Asher",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Forget about your payment. Unless you either pay me back or get my shovel right now!",
+      "ru": "Про оплату забудь. Либо возмести мне ущерб, либо сейчас же принеси лопату!",
+      "speaker": "Asher",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "My shovel? That's why I sent you out in the first place! It's somewhere in Time Valley. I lost it while following a trail of flowers.",
+      "ru": "Мою лопату? Да за ней я тебя с самого начала и послал! Она где-то в Долине Времени. Я потерял её, пока шёл по следу из цветов.",
+      "speaker": "Asher",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "I think it was south west of the large ruined gate. Now go get it!",
+      "ru": "Кажется, это было к юго-западу от больших разрушенных ворот. Всё, дуй за ней!",
+      "speaker": "Asher",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Whatever that odd feeling was, it's over now. And there's Asher's shovel! Better return this to him.",
+      "ru": "Какое бы странное чувство это ни было, оно прошло. И вот лопата Ашера! Лучше вернуть её ему.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Well hello there, stranger! Welcome to Time Valley! Always nice to see a new face around here.",
+      "ru": "Ну привет, незнакомец! Добро пожаловать в Долину Времени! Всегда приятно видеть тут новое лицо.",
+      "speaker": "Asher",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Mad at you? Why would I be mad at you? We've never met.",
+      "ru": "Злюсь на тебя? С чего бы мне на тебя злиться? Мы же вообще не знакомы.",
+      "speaker": "Asher",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I know this a bit forward, but I need to ask for your help with-",
+      "ru": "Понимаю, мы только встретились, но мне нужна твоя помощь с-",
+      "speaker": "Asher",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Wait, is that-? It is! You've found my shovel! I recognize those markings anywhere.",
+      "ru": "Стой, это-? Она! Ты нашёл мою лопату! Я бы где угодно узнал эти отметины.",
+      "speaker": "Asher",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "But why is it so rusty? Ah, no matter. Give that to me and I'll head inside to get you a nice reward.",
+      "ru": "Но почему она такая ржавая? А, неважно. Давай её сюда, а я зайду внутрь и принесу тебе хорошую награду.",
+      "speaker": "Asher",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "[-1 Rusty Shovel]",
+      "ru": "[-1 Rusty Shovel]",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Thank you. Now, about that reward-",
+      "ru": "Спасибо. А теперь насчёт награды-",
+      "speaker": "Asher",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Wha- What's happening?",
+      "ru": "Ч- Что происходит?",
+      "speaker": "Asher",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Oh dear, there he goes again. Poor fool ignored my warnings and touched that shovel.",
+      "ru": "Ох, опять. Бедный дурак не послушал моих предупреждений и тронул эту лопату.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "He's gone and got himself stuck in a loop.",
+      "ru": "И застрял в петле.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Head inside, soldier, and I'll explain what's happening here.",
+      "ru": "Заходи внутрь, солдат, я объясню, что здесь происходит.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Without Asher, his house has vanished from time.",
+      "ru": "Без Ашера его дом просто выпал из времени.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Let me explain why Asher disappeared...",
+      "ru": "Сейчас объясню, почему Ашер исчез...",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Time Valley was built many years ago by a long-lost civilization.",
+      "ru": "Долину Времени много лет назад создала цивилизация, давно канувшая в прошлое.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "They had odd powers. They ended up distorting time itself.",
+      "ru": "У них были странные силы. В итоге они исказили само время.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "The tools they used to make these structures are imbued with their power.",
+      "ru": "Инструменты, которыми они строили всё это, пропитаны их силой.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Asher found one of these tools: the shovel.",
+      "ru": "Ашер нашёл один из таких инструментов - лопату.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "The shovel is tethering its time of influence to today. It keeps sending Asher back.",
+      "ru": "Временная сила лопаты привязана к сегодняшнему дню. Она снова и снова отправляет Ашера в прошлое.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "The issue is, Asher died in the past. This creates a paradox.",
+      "ru": "Проблема в том, что Ашер умер в прошлом. Из-за этого возникает парадокс.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "We can save him if I send you back to prevent his death. Go through this rift to join him in the past.",
+      "ru": "Мы можем его спасти. Я отправлю тебя в прошлое, чтобы ты предотвратил его смерть. Пройди через разлом к Ашеру.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Huh? Where is everyone?",
+      "ru": "А? А где все?",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Usually this place is filled with workers.",
+      "ru": "Обычно тут полно рабочих.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "But no one's here. And this place is clearly not done.",
+      "ru": "А сейчас никого. И место явно ещё не достроено.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Whatever the case, I should probably find my shovel.",
+      "ru": "Как бы там ни было, мне, наверное, надо найти свою лопату.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "If I were a shovel, where would I be?",
+      "ru": "Если бы я был лопатой, где бы я был?",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Hmmm. Not around here.",
+      "ru": "Хммм. Не тут.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "This place... There's so much going on but no one here.",
+      "ru": "Это место... тут столько всего происходит, но при этом никого нет.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "What I don't understand, though, is why this place looks brand new.",
+      "ru": "Вот только я не понимаю, почему это место выглядит совсем новым.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "This place looks like it's just being built!",
+      "ru": "Да тут всё выглядит так, будто его только строят!",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "This must be something to do with the valley's magic. Wouldn't be the first time.",
+      "ru": "Это точно связано с магией долины. И не в первый раз уже.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Heh, time.",
+      "ru": "Хех, время.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "In fact, whenever I hold that shovel, this kind of stuff seems to happen.",
+      "ru": "Вообще, когда я держу эту лопату, подобная чертовщина и начинается.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Maybe it's sent me way back. Back to the construction of this place.",
+      "ru": "Может, она закинула меня далеко назад. Прямо во времена строительства этого места.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Then why is no one here?",
+      "ru": "Тогда почему тут никого нет?",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Woah, that tree looks like it might fall over!",
+      "ru": "Ого, это дерево вот-вот упадёт!",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "That was a close one!",
+      "ru": "Фух, пронесло!",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Uhf! How do they have a cannon? These guys must be super advanced.",
+      "ru": "Уф! Откуда у них пушка? Должно быть, они многое умели.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "I think I'm close now. I can just feel that shovel close by.",
+      "ru": "Кажется, я уже близко. Я чувствую, что лопата где-то рядом.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Wait, what's that-?",
+      "ru": "Стой, это ещё что-?",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "My my, a crushing defeat to be sure. You'll have to find a way to stop that.",
+      "ru": "Ох, какое сокрушительное поражение. Придётся найти способ это предотвратить.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Go back through the rift and make sure Asher doesn't become a pancake this time.",
+      "ru": "Возвращайся через разлом и проследи, чтобы в этот раз Ашер не превратился в лепёшку.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Well that was quite the explosive end to our friend there. There must be a way to prevent that.",
+      "ru": "Ну и взрывной же был у нашего друга конец. Должен быть способ это предотвратить.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Head back in there. This time with less explosions.",
+      "ru": "Возвращайся туда. Только пусть на этот раз будет поменьше взрывов.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Oh, so close on that try. Who could've guessed that was how our friend met his end?",
+      "ru": "О, ну почти получилось. Кто бы мог подумать, что наш друг именно так и закончит?",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "I'm sure you'll nail it this time. Not sure how you will stop a cosmic event, though.",
+      "ru": "Уверен, в этот раз ты справишься. Правда, как именно ты остановишь космическое событие, я сам не знаю.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Oh there it is! My shovel!",
+      "ru": "О, вот она! Моя лопата!",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "I'm surprised it took me back this far this time.",
+      "ru": "Удивительно, что в этот раз меня так далеко назад закинуло.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Well, time to head on back-",
+      "ru": "Ну что, пора возвращаться-",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Wait, Martyn?",
+      "ru": "Погоди, Мартин?",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Ow! What was that for?",
+      "ru": "Ай! За что это?",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Asher, you remember when I allowed you to live in the valley, I told you not to touch any odd objects.",
+      "ru": "Ашер, помнишь, когда я разрешил тебе жить в долине, я говорил не трогать всякие странные вещи.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "I... Might recall it.",
+      "ru": "Я... вроде припоминаю.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "You got yourself stuck hundreds of years ago. If it wasn't for this guard, you'd be removed from existence.",
+      "ru": "Ты застрял на сотни лет в прошлом. Если бы не этот страж, тебя бы больше не существовало.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Oh... So that's where I am. I am so sorry Martyn. Please don't kick me out of the valley.",
+      "ru": "Ох... Так вот где я оказался. Прости, Мартин. Только не выгоняй меня из долины, пожалуйста.",
+      "speaker": "Asher",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "I know time travel can be tempting. But it's far more dangerous than you can ever understand.",
+      "ru": "Я знаю, путешествия во времени манят. Но они куда опаснее, чем ты вообще можешь себе представить.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "The valley is banned for most citizens. I watch over this timeline because of poor souls like Asher.",
+      "ru": "Большинству жителей вход в долину запрещён. Я слежу за этой временной линией, чтобы помогать таким бедолагам, как Ашер.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Holy Bovine!",
+      "ru": "Святая Корова!",
+      "speaker": "Asher",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Ah, we're back.",
+      "ru": "А, вернулись.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "How did you get these powers? Are you even human?",
+      "ru": "Откуда у тебя такие силы? Ты вообще человек?",
+      "speaker": "Asher",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Oh you know. I've read a book or two in my time.",
+      "ru": "Ну, знаешь. Прочитал пару книжек за свою жизнь.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "<playername>, I'm sorry I got you dragged into this. I wish I could have done it myself.",
+      "ru": "<playername>, прости, что втянул тебя во всё это. Хотелось бы мне самому с этим разобраться.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "I probably could have gotten myself out...",
+      "ru": "Я, наверное, и сам бы как-нибудь выбрался...",
+      "speaker": "Asher",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "You died in the past. Multiple times.",
+      "ru": "Ты умер в прошлом. И не один раз.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "I did?",
+      "ru": "Я что?",
+      "speaker": "Asher",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "Yes. In some surprising ways too.",
+      "ru": "Да. Причём весьма неожиданными способами.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "<playername>, I'm sure we will meet again... in time.",
+      "ru": "<playername>, уверен, мы ещё встретимся... со временем.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "See you around.",
+      "ru": "Ещё увидимся.",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Uh, you're still here.",
+      "ru": "Эм, ты всё ещё тут.",
+      "speaker": "Asher",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Am I?",
+      "ru": "Разве?",
+      "speaker": "Old Man Martyn",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "I don't understand Martyn. He seems to know everything about the past. Here, come closer, I want to whisper something.",
+      "ru": "Не понимаю я Мартина. Он будто знает всё о прошлом. Подойди ближе, хочу кое-что тебе шепнуть.",
+      "speaker": "Asher",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "I think he might have known Bob. I saw some letters in his house.",
+      "ru": "Мне кажется, он мог знать Боба. Я видел какие-то письма у него в доме.",
+      "speaker": "Asher",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Weird, right? Bob was a hard guy to know.",
+      "ru": "Странно, правда? Не каждому удавалось познакомиться с Бобом.",
+      "speaker": "Asher",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Anyway, take this. It's the least I can do to pay you for saving me.",
+      "ru": "В общем, держи. Это самое меньшее, чем я могу отблагодарить тебя за спасение.",
+      "speaker": "Asher",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "New Quest Started: Deja Vu",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Дежавю",
+      "speaker": "",
+      "stage": "Stage 8"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Asher near Time Valley at [-449, 72, -1153].",
+      "ru": "Поговорить с Ашером возле Долины Времени [-449, 72, -1153].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find Asher's Shovel near [-572, 72, -1103]",
+      "ru": "Найти лопату Ашера поблизости от [-572, 72, -1103].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Return Asher's Shovel to Asher.",
+      "ru": "Вернуть Ашеру его лопату.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Enter Asher's house.",
+      "ru": "Войти в дом Ашера.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Talk to Old Man Martyn.",
+      "ru": "Поговорить со стариком Мартином.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find a way to save Asher from his death.",
+      "ru": "Найти способ спасти Ашера от гибели.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Listen to Old Man Martyn.",
+      "ru": "Выслушать старика Мартина.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Talk to Asher.",
+      "ru": "Поговорить с Ашером.",
+      "stage": "Stage 8"
+    }
+  ],
+  "choices": []
+}

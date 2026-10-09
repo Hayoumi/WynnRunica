@@ -1,0 +1,583 @@
+{
+  "quest": "The Ultimate Weapon",
+  "level": 75,
+  "difficulty": "Medium",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-ultimate-weapon",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "I'm glad you came along, I could do with a little help if you're not too busy.",
+      "ru": "Хорошо, что ты пришёл, мне бы не помешала небольшая помощь, если ты не слишком занят.",
+      "speaker": "Dodegar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "I'm Dodegar Bandysnoot, the world famous Hobbit swordsmith! Perhaps you've heard of me?",
+      "ru": "Я Додегар Бэндиснут, всемирно известный хоббит, мастер мечей! Может, слышал обо мне?",
+      "speaker": "Dodegar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "No? Oh... Well, I've had an idea about how I could make the best weapon that the world has ever seen!",
+      "ru": "Нет? Ох... Ну, у меня появилась идея, как сделать лучшее оружие, которое только видел этот мир!",
+      "speaker": "Dodegar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "But, I need some help getting the special resources to make it.",
+      "ru": "Только мне нужна помощь с добычей особых материалов для него.",
+      "speaker": "Dodegar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "You'll help?! Excellent! We shall gather enough resources to make one for each of us!",
+      "ru": "Поможешь?! Великолепно! Тогда соберём материалов на два таких оружия - по одному для каждого из нас!",
+      "speaker": "Dodegar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "So firstly, I need some living wood for the handle, [1 Enchanted Stick] should be enough.",
+      "ru": "Итак, сначала мне нужна живая древесина для рукояти, [1 Enchanted Stick] должно хватить.",
+      "speaker": "Dodegar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "The wood sprites located across the river to the west, in a big tree trunk, have magical properties! The handle can then mold to the user's hand! One shouldn't be too hard to come across!",
+      "ru": "За рекой на западе, в большом стволе дерева, живут лесные духи. Они обладают магическими свойствами! Рукоять сможет подстроиться под руку владельца! Одного такого духа найти будет нетрудно!",
+      "speaker": "Dodegar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I hope you are prepared, this will be your best quest yet!",
+      "ru": "Надеюсь, ты готов, это будет лучший квест в твоей жизни!",
+      "speaker": "Dodegar",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Wow! You got the wood I needed, thanks!",
+      "ru": "Ого! Ты добыл нужную мне древесину, спасибо!",
+      "speaker": "Dodegar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "While I'm making the handle, could you help me with the blade?",
+      "ru": "Пока я делаю рукоять, не поможешь с клинком?",
+      "speaker": "Dodegar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Since we want this weapon to be as good as possible we need to find some sacred Hobbit metal!",
+      "ru": "Чтобы сделать самое лучшее оружие, нам нужен священный хоббитский металл!",
+      "speaker": "Dodegar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "The hobbit village, The Shiar, is really close! Follow the southern road. My brother Gogedar should be there!",
+      "ru": "Деревня хоббитов, Шиар, совсем рядом! Иди по южной дороге. Там должен быть мой брат Гогедар!",
+      "speaker": "Dodegar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "My brother you say... Trying to create a weapon...",
+      "ru": "Мой брат, говоришь... Пытается сделать оружие...",
+      "speaker": "Gogedar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Hmmm...",
+      "ru": "Хммм...",
+      "speaker": "Gogedar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Oh he needs Sacred Hobbit Metal!?",
+      "ru": "О, ему нужен священный хоббитский металл!?",
+      "speaker": "Gogedar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Hmm...!",
+      "ru": "Хмм...!",
+      "speaker": "Gogedar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "Sorry can't help you. I don't really know what that is.",
+      "ru": "Извини, не помогу. Я вообще не особо понимаю, что это такое.",
+      "speaker": "Gogedar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Maybe ask our cousin, Togedar?",
+      "ru": "Может, спросишь нашего кузена, Тогедара?",
+      "speaker": "Gogedar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Dodegar? Does not really ring a bell I'm afraid.",
+      "ru": "Додегар? Если честно, имя вообще ничего не говорит.",
+      "speaker": "Togedar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Oh! Gogedar's brother, why didn't you tell me that.",
+      "ru": "А! Брат Гогедара! Что ж ты сразу не сказал?",
+      "speaker": "Togedar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Sacred Hobbit Metal... This is a metal forged by master blacksmith hobbits within our village. It is a bit expensive to get by but holds great potential, if used properly.",
+      "ru": "Священный хоббитский металл... Его куют хоббиты, лучшие кузнецы нашей деревни. Стоит он недёшево, но в умелых руках на многое способен.",
+      "speaker": "Togedar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Oh. You need a piece?",
+      "ru": "О. Тебе нужен кусок?",
+      "speaker": "Togedar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "I don't have any. Maybe ask my nephew's brother Alegdar?",
+      "ru": "У меня нет. Может, спросишь брата моего племянника, Алегдара?",
+      "speaker": "Togedar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Oh?",
+      "ru": "О?",
+      "speaker": "Alegdar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I actually don't know much about... anything.",
+      "ru": "Вообще-то я мало что знаю о... чём бы то ни было.",
+      "speaker": "Alegdar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "I kind of just... stand around here.",
+      "ru": "Я как бы просто... стою тут.",
+      "speaker": "Alegdar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Everyone I have ever met just calls me annoying and useless. So I decided to stop trying.",
+      "ru": "Все, кого я встречал, говорят, что я надоедливый и бесполезный. Вот я и решил больше не стараться.",
+      "speaker": "Alegdar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "You know, life is hard. We all just have to fight through, and then eventually, we might become happy.",
+      "ru": "Знаешь, жизнь тяжёлая штука. Нам всем остаётся только как-то продираться через неё, и, может быть, когда-нибудь мы станем счастливы.",
+      "speaker": "Alegdar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "Right sorry... Ask Balegar for any information. He is way smarter.",
+      "ru": "Да, извини... Расспроси Балегара. Он куда умнее.",
+      "speaker": "Alegdar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "My cousin's nephew's dad has had a rough year... I feel bad for him.",
+      "ru": "У отца племянника моего кузена выдался тяжёлый год... Жалко его.",
+      "speaker": "Balegar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Oh well!",
+      "ru": "Ну да ладно!",
+      "speaker": "Balegar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "I have nooooo clue about that metal. I heard it was just a valuable as a normal rock.",
+      "ru": "Я вообщееее без понятия насчёт этого металла. Слышал только, что он ценен примерно как обычный камень.",
+      "speaker": "Balegar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Maybe my cousin Reyoretrsed knows anything about it.",
+      "ru": "Может, мой кузен Рейоретурсед что-то знает.",
+      "speaker": "Balegar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Reyoretrsed? That's me!",
+      "ru": "Рейоретурсед? Это я!",
+      "speaker": "Reyoretrsed",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "You are wondering how my name is pronounced? What a rude question.",
+      "ru": "Тебя интересует, как произносится моё имя? Какая грубость.",
+      "speaker": "Reyoretrsed",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Ray-ore-tree-sed, obviously. What is a human doing here?",
+      "ru": "Рэй-ор-три-сед, очевидно. Что тут вообще делает человек?",
+      "speaker": "Reyoretrsed",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "You are wondering if I have Sacred whatever metal?",
+      "ru": "Ты спрашиваешь, есть ли у меня священный... как его там... металл?",
+      "speaker": "Reyoretrsed",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "I'm 7. Now if you excuse me, I am busy standing still. Go bother Richard or something.",
+      "ru": "Мне 7. А теперь, если не возражаешь, я занят тем, что стою на месте. Иди доставай Ричарда или кого-нибудь ещё.",
+      "speaker": "Reyoretrsed",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "I've been trying to tell you that I have what you need.",
+      "ru": "Я вообще-то уже пытался сказать тебе, что у меня есть то, что тебе нужно.",
+      "speaker": "Richard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "You humans really need to practice your communication skills, please.",
+      "ru": "Вам, людям, стоило бы научиться слушать собеседника. Правда.",
+      "speaker": "Richard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Anyway, here. Take it! This metal is just a scam anyway, nothing special with it.",
+      "ru": "Короче, держи. Этот металл вообще развод какой-то, ничего особенного в нём нет.",
+      "speaker": "Richard",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I hope it wasn't too much of an issue to get!",
+      "ru": "Надеюсь, достать его было не слишком трудно!",
+      "speaker": "Dodegar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "... I forgot a step. I can't attach a blade without a binder material.",
+      "ru": "... Я забыл кое-что. Без связующего материала клинок не закрепить.",
+      "speaker": "Dodegar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "I need the nectar of a native flower of the forest to attach it. [1 Diplacus Aurantiacus] would do the trick.",
+      "ru": "Мне нужен нектар местного лесного цветка, чтобы всё скрепить. [1 Diplacus Aurantiacus] подойдёт.",
+      "speaker": "Dodegar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Finding the flower can be rather difficult, here's a riddle on how to find it.",
+      "ru": "Найти этот цветок бывает непросто, вот тебе загадка, как его отыскать.",
+      "speaker": "Dodegar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "On the side of a hut, hidden inside a hole. Resting in a forest of light, without plight. Whatever that would mean.",
+      "ru": "Сбоку от хижины, спрятан в дыре. Покоится в лесу света, без беды и вреда. Что бы это вообще ни значило.",
+      "speaker": "Dodegar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Hold up! This feels waaay, toooo easy.",
+      "ru": "Погоди! Что-то всё идёт слииишком уж легко.",
+      "speaker": "Dodegar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "If I'm going to give you this amazingly, incredible, showstopping, crazy item particulary for free, you need to at least work for it!",
+      "ru": "Раз уж я отдаю тебе это невероятное, восхитительное, сногсшибательное, безумное оружие, да ещё и даром, ты должен хотя бы потрудиться ради него!",
+      "speaker": "Dodegar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Give me that!",
+      "ru": "А ну дай сюда!",
+      "speaker": "Dodegar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Let me just...",
+      "ru": "Сейчас я только...",
+      "speaker": "Dodegar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "This looks so much better! Anyway, bring me that flower now!",
+      "ru": "Вот так уже намного лучше! Ладно, тащи мне теперь этот цветок!",
+      "speaker": "Dodegar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Took you a while, did it not?",
+      "ru": "Долго же ты возился, а?",
+      "speaker": "Dodegar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "It's starting to look pretty amazing! Just like it's supposed to I'm sure!",
+      "ru": "Уже выглядит просто великолепно! Как и должно, я уверен!",
+      "speaker": "Dodegar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Maybe this will actually work out. Either way, last ingredient we need!",
+      "ru": "Может, у нас это и правда получится. В любом случае остался последний ингредиент!",
+      "speaker": "Dodegar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "So to finalize and apply some magical properties to this uniquely amazing item we need something known as Luster Blood.",
+      "ru": "Чтобы завершить это дивное оружие и наделить его магическими свойствами, нам понадобится так называемая сияющая кровь.",
+      "speaker": "Dodegar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "The only known creature in the west, probably in the whole world, if I'm being frank, is known as the Glow Dust Leaf Beetle of the Underworld, not sure where the name comes from.",
+      "ru": "На западе её добывают лишь из подземного светопыльного листоеда. Наверное, и во всём мире тоже, если честно. Не знаю, откуда такое название.",
+      "speaker": "Dodegar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "I happen to know that this beetle lives in a cave in the eastern ravine thingy! If you walk straight east, you should stumble upon it, I promise!",
+      "ru": "Знаю, что этот жук живёт в пещере, в том овраге на востоке! Иди прямо на восток и обязательно наткнёшься, обещаю!",
+      "speaker": "Dodegar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Oh! Almost forgot to mention, about 2000 Luster Blood is probably enough.",
+      "ru": "О! Чуть не забыл сказать, примерно 2000 сияющей крови должно хватить.",
+      "speaker": "Dodegar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Do not step any closer... Or I will be forced to obliterate you!",
+      "ru": "Не подходи ни на шаг ближе... Иначе мне придётся уничтожить тебя!",
+      "speaker": "???",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "The final component! It is finally here!",
+      "ru": "Последний компонент! Наконец-то он здесь!",
+      "speaker": "Dodegar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Oh my Orphion!",
+      "ru": "О, мой Орфион!",
+      "speaker": "Dodegar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Do you see how it's glowing, sparkling and... and radiating!",
+      "ru": "Видишь, как оно светится, искрится и... и сияет!",
+      "speaker": "Dodegar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "You don't? Uhm... maybe you need glasses humie.",
+      "ru": "Не видишь? Эм... может, тебе очки нужны, человечек.",
+      "speaker": "Dodegar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "As promised! Here you go! Always happy to practice the art of weapon creation.",
+      "ru": "Как и обещал! Держи! Я всегда рад попрактиковаться в искусстве создания оружия.",
+      "speaker": "Dodegar",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "These must be the Wood Sprites Dodegar was talking about...",
+      "ru": "Это, должно быть, те самые Лесные Духи, о которых говорил Додегар...",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Dodegar carefully grabs the piece of wood and begins carving.",
+      "ru": "Додегар осторожно берёт кусок дерева и начинает его строгать.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Dodegar takes the piece of metal and starts welding it.",
+      "ru": "Додегар берёт кусок металла и начинает его сваривать.",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "Since when do Beetles talk...",
+      "ru": "С каких это пор жуки разговаривают...",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "You should return to Dodegar with the blood, he should be nearby.",
+      "ru": "Стоит вернуться к Додегару с кровью, он должен быть где-то рядом.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Dodegar smears the weapon with the glowing blood.",
+      "ru": "Додегар смазывает оружие светящейся кровью.",
+      "speaker": "",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "New Quest Started: The Ultimate Weapon",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Совершенное оружие",
+      "speaker": "",
+      "stage": "Stage 12"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Speak to Dodegar Bandysnoot at [-987, 42, -4593].",
+      "ru": "Поговорить с Додегаром Бандиснутом [-987, 42, -4593].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Collect [1 Enchanted Stick] from Wood Sprites at [-1073, 47, -4619] and return them to Dodegar",
+      "ru": "Добыть [1 Enchanted Stick] у лесных духов в [-1073, 47, -4619] и принести Додегару.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Dodegar needs [1 Sacred Hobbit Metal] from the Shiar at [-937, 46, -4540]",
+      "ru": "Добыть для Додегара [1 Sacred Hobbit Metal] в Шиаре [-937, 46, -4540].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Find Togedar in the Shiar.",
+      "ru": "Найти Тогедара в Шиаре.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Find Alegdar in the Shiar.",
+      "ru": "Найти Алегдара в Шиаре.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Find Balegar in the Shiar.",
+      "ru": "Найти Балегара в Шиаре.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Find Reyoretrsed in the Shiar.",
+      "ru": "Найти Реёрертседа в Шиаре.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Find Richard in the Shiar.",
+      "ru": "Найти Ричарда в Шиаре.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Return to Dodegar with the metal.",
+      "ru": "Вернуться к Додегару с металлом.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Find the Diplacus Aurantiacus by following the riddle to [-980, 38, -4571].",
+      "ru": "Разгадать загадку и найти Диплакус Аурантиакус в [-980, 38, -4571].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Talk to Dodegar with the Diplacus Aurantiacus.",
+      "ru": "Принести Диплакус Аурантиакус Додегару.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Find the cave at [-834, 27, -4628] and bring back [2000 Luster Blood] and bring it back to Dodegar.",
+      "ru": "Найти пещеру в [-834, 27, -4628], собрать [2000 Luster Blood] и принести Додегару.",
+      "stage": "Stage 12"
+    }
+  ],
+  "choices": []
+}

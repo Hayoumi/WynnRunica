@@ -1,0 +1,895 @@
+{
+  "quest": "WynnExcavation Site D",
+  "level": 70,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "wynnexcavation-site-d",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "His majesty Lord King of Troms is indisposed at this moment.",
+      "ru": "Его величество, король Тромса, сейчас не может вас принять.",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "He recieved a message and made his way frantically down to the panic room, which is somewhere inside of this throne room.",
+      "ru": "Он получил какое-то сообщение и в панике ушёл в убежище, которое находится где-то внутри этого тронного зала.",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "He hasn't been seen since. Only the King knows how to get into the panic room, but I've had my suspicions about it for a while now.",
+      "ru": "С тех пор его никто не видел. Только король знает, как попасть в убежище, но у меня уже давно были свои подозрения насчёт того, где оно.",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "He seemed to be expecting someone, but I'm fed up of waiting.",
+      "ru": "Похоже, он кого-то ждал, но мне уже надоело просто стоять и ждать.",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "I managed to hear a few things he was muttering to himself just before he disappeared, though.",
+      "ru": "Но прямо перед тем как исчезнуть, я всё же успел услышать, что он там себе под нос бормотал.",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "He mentioned something about a fourth crystal... a green one.",
+      "ru": "Он упоминал какой-то четвёртый кристалл... зелёный.",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "And then he said \"The order of the crystals will open the way\".Maybe it's a clue as to how to find him?",
+      "ru": "А потом сказал: \"Порядок кристаллов откроет путь\". Может, это подсказка, как его найти?",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Please, we need to find him, I'm sick of telling everyone he's indisposed!",
+      "ru": "Прошу, нам надо его найти! Я устал всем повторять, что его величество никого не принимает!",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Oh my, a secret passage has opened up beneath the throne! Quickly, head inside!",
+      "ru": "Ого, под троном открылся тайный проход! Быстро, иди внутрь!",
+      "speaker": "Royal Advisor Carlos",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "I am impressed you managed to find me. Someone of my intellect is not normally found when he hasn't the intention of being so.",
+      "ru": "Впечатляет, что тебе удалось меня найти. Человека моего ума обычно не находят, если он сам того не хочет.",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "I suppose I at least owe you the truth for getting this far, not that it matters.",
+      "ru": "Думаю, раз ты зашёл так далеко, я хотя бы должен сказать тебе правду. Хотя теперь это уже не особо важно.",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "WynnExcavation, the Gavel company is a fake, a facade. It's not real....",
+      "ru": "ВиннРаскопки, эта гавельская компания - фальшивка, всего лишь ширма...",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "It's actually a secret society run by the high and mighty of Gavel.",
+      "ru": "На самом деле это тайное общество, которым управляют самые влиятельные шишки Гавеля.",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "They have one goal, complete control.",
+      "ru": "У них одна цель - полная власть.",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "You can't compete with them, kid. I tried to at first, but they had turned my inner circle before getting to me.",
+      "ru": "Тебе с ними не тягаться, малой. Я сначала тоже пытался сопротивляться, но они переманили моё ближайшее окружение ещё до того, как добрались до меня.",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Though I cannot admit I fought hard, their ideals are admirable.",
+      "ru": "Хоть и не скажу, что я бился до последнего, их идеалы всё же внушают уважение.",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "So I hope you will forgive me, I act only for the greater good of the world.",
+      "ru": "Так что надеюсь, ты меня простишь. Я действую только ради высшего блага этого мира.",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "As you will not be leaving the city, I wish you a fond farewell. When you leave, you will be accused of treason and will be hunted. It is the only way...",
+      "ru": "Раз уж город ты всё равно не покинешь, остаётся лишь попрощаться. Когда выйдешь, тебя объявят изменником и начнут охоту. Иного пути нет...",
+      "speaker": "King of Troms",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Time is short, so I'll have to spare you the details, but let's just say I'm on your side.",
+      "ru": "Времени мало, так что без подробностей - просто знай, я на твоей стороне.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "The King just placed you under arrest for treason. They've locked down the entire city.",
+      "ru": "Король только что приказал арестовать тебя за измену. Весь город закрыт.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Both the front gate and the Passage are closed down. So we've created another exit for you.",
+      "ru": "И главные ворота, и Проход перекрыты. Так что мы сделали для тебя другой выход.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Just follow the path to your left around the city. Keep going until you see a villager next to a tunnel. We'll clear your name once you've escaped.",
+      "ru": "Иди по тропе слева, вокруг города, пока не увидишь жителя у туннеля. Когда выберешься, мы снимем с тебя обвинения.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "You'll pass through the army headquarters on your way, so be prepared for a fight. I'm the only guard here to help you.",
+      "ru": "По дороге тебе придётся пройти через штаб армии, так что готовься к драке. Я тут единственный стражник, кто тебе помогает.",
+      "speaker": "Troms Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Now run! We don't have another moment to waste!",
+      "ru": "А теперь беги! У нас нет ни секунды лишней!",
+      "speaker": "Troms Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "Hey, psst. Come here!",
+      "ru": "Эй, псс. Иди сюда!",
+      "speaker": "???",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Take this, and run! You need to get out!",
+      "ru": "Держи это и беги! Тебе надо выбираться!",
+      "speaker": "???",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Head to those coordinates, there is no time to explain, now go! I'll close the tunnel behind you.",
+      "ru": "Иди по этим координатам, объяснять некогда, шевелись! Я закрою туннель за тобой.",
+      "speaker": "???",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "I'VE FOUND THE TRAITOR! THEY'RE OVER HERE!",
+      "ru": "Я НАШЁЛ ПРЕДАТЕЛЯ! ОН ЗДЕСЬ!",
+      "speaker": "???",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I'm sorry, I can't let you in there.",
+      "ru": "Прости, но я не могу тебя туда пустить.",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "I can't let you in there, not until you have proven you are truly on our side.",
+      "ru": "Я не пущу тебя внутрь, пока ты не докажешь, что реально за нас.",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "We never know who to believe anymore. Unfortunately there is no way for you to prove your loyalty.",
+      "ru": "Мы уже давно не знаем, кому вообще можно верить. К сожалению, доказать свою преданность у тебя сейчас никак не выйдет.",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Now if you would excuse me, I have to hunt for the lost map fragments of Dernel. I'm sure these eyes have something to do with it...",
+      "ru": "А теперь извини, мне надо искать потерянные фрагменты карты Дернела. Уверен, эти глаза как-то с этим связаны...",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "I can't let you in, we're busy looking for an important document, I'm sure these eyes have something to do with it...",
+      "ru": "Не могу тебя пустить, мы заняты поиском важного документа. Уверен, эти глаза не просто так тут торчат...",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Is that... The map fragments? You found them!",
+      "ru": "Это что... Фрагменты карты? Ты их нашёл!",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Oh my, you better come in.",
+      "ru": "Ого. Тогда тебе лучше зайти.",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "There's not enough time! We need to combine those fragments with ours!",
+      "ru": "Времени нет! Надо срочно объединить эти фрагменты с нашими!",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Hurry, get in the hideout!",
+      "ru": "Быстро, заходи в убежище!",
+      "speaker": "Traitor Thomas",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Welcome, friend. I knew you would figure it all out.",
+      "ru": "Добро пожаловать, друг. Я знал, что ты во всём разберёшься.",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "You must be surprised to see me. The excavation crew at site C tried very hard to kill me.",
+      "ru": "Наверное, удивлён меня видеть. Команда раскопок на участке C очень старалась меня прикончить.",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "They didn't succeed though. I got away, and I swiped a fragment of a map, and I found out what it's for.",
+      "ru": "Но у них не вышло. Я сбежал, стянул кусок карты и понял, для чего она нужна.",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "If you made it this far, you know Wynn Excavation are not what they seem. They want to harness Wynn's ancient power.",
+      "ru": "Если ты дошёл досюда, то уже понял, что ВиннРаскопки совсем не те, за кого себя выдают. Они хотят прибрать к рукам древнюю силу Винна.",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "They control our governments, authorities and seem to be 3 steps ahead of any of us that oppose them.",
+      "ru": "Они контролируют правительства, власти и будто всегда на три шага впереди всех, кто пытается им помешать.",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "That is, unless we're able to beat the excavationists to the last crystal.",
+      "ru": "Если только мы не опередим этих землекопов и не доберёмся до последнего кристалла раньше них.",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "They cannot use a single shard of power without combining them all.",
+      "ru": "Они не смогут использовать ни один осколок силы, пока не соберут всё вместе.",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Here, I've combined the map fragments behind me. It looks it's deep in the jungle, I wonder where...",
+      "ru": "Вот, я уже сложил фрагменты карты у себя за спиной. Похоже, это где-то глубоко в джунглях... интересно, где именно...",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "WynnExcavation have done really horrible things, and I used to help...",
+      "ru": "ВиннРаскопки творили реально жуткие вещи... и я когда-то им в этом помогал...",
+      "speaker": "Traitor Buice",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "WynnExcavation will be destroyed, no matter what!",
+      "ru": "ВиннРаскопки будут уничтожены, чего бы это ни стоило!",
+      "speaker": "Traitor Jaynar",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Oh my. It's you. I can't say I'm surprised to see you, we thought you might be stupid enough to come here.",
+      "ru": "Надо же. Это ты. Не скажу, что удивлён - мы как раз думали, что ты окажешься достаточно тупым, чтобы припереться сюда.",
+      "speaker": "Excavator Admin Uci",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Stupid enough to come here, yet, smart enough to make it.",
+      "ru": "Настолько тупой, чтобы прийти, и при этом достаточно умный, чтобы реально добраться.",
+      "speaker": "Excavator Admin Uci",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "You were at every site, taking shards and attempting to thwart us.",
+      "ru": "Ты был на каждом участке, забирал осколки и пытался нам всё запороть.",
+      "speaker": "Excavator Admin Uci",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "This time we won, and you lost.",
+      "ru": "Но на этот раз победили мы, а проиграл ты.",
+      "speaker": "Excavator Admin Uci",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "What do your shards mean to us when we have all four crystals?",
+      "ru": "И что нам твои осколки, если у нас уже есть все четыре кристалла?",
+      "speaker": "Excavator Admin Uci",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Nothing, that's what.",
+      "ru": "Да ничего.",
+      "speaker": "Excavator Admin Uci",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "The boss wants to speak to you, I don't recommend keeping him waiting, he's not a patient man.",
+      "ru": "Начальник хочет с тобой поговорить. Не советую заставлять его ждать, он человек нетерпеливый.",
+      "speaker": "Excavator Admin Uci",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "He'll be waiting for you, head through that door.",
+      "ru": "Он ждёт тебя за той дверью. Иди.",
+      "speaker": "Excavator Admin Uci",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "My boss Uci is a bit of a mean guy, but hey the perks of minionship aren't bad!",
+      "ru": "Мой начальник Уси тот ещё грубиян, но у работы на побегушках есть свои преимущества!",
+      "speaker": "Excavator Sean",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "This leads deeper into this dungeon, but it seems like it has to be activated from the other side.",
+      "ru": "Этот проход ведёт вглубь подземелья, но, похоже, открыть его можно только с другой стороны.",
+      "speaker": "WynnExcavation Scientist Azure",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Well, well. Looks like you've finally made it.",
+      "ru": "Ну надо же. Всё-таки добрался.",
+      "speaker": "WynnExcavation Leader Amadel",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "You might be a little shocked to see me here...",
+      "ru": "Наверное, ты слегка в шоке, увидев меня здесь...",
+      "speaker": "WynnExcavation Leader Amadel",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Everything was planned you see...",
+      "ru": "Всё было спланировано, понимаешь...",
+      "speaker": "WynnExcavation Leader Amadel",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "You finding that old fool in the desert, you surviving that fall.",
+      "ru": "То, как ты нашёл того старого дурака в пустыне, как пережил то падение.",
+      "speaker": "WynnExcavation Leader Amadel",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "You finding that notebook, and eventually meeting me.",
+      "ru": "То, как ты нашёл тот блокнот и в итоге вышел на меня.",
+      "speaker": "WynnExcavation Leader Amadel",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Everything that you have done has been planned by the mastermind behind this organisation, me.",
+      "ru": "Всё, что ты делал, задумал тот, кто стоит во главе этой организации. Я.",
+      "speaker": "WynnExcavation Leader Amadel",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "You don't get it, do you? We needed you. The otherworldly crystals are a powerful magic, but a dangerous one at that.",
+      "ru": "Ты всё ещё не понял, да? Ты был нам нужен. Потусторонние кристаллы - это мощнейшая магия, но и крайне опасная.",
+      "speaker": "WynnExcavation Leader Amadel",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "We needed you, an unaware human with some form of pure intent to bring empowered shards here. Anyone else would have ran off with the shards, and turned against us. It's just how it all works. I don't expect you to understand.. Now. Enough talking.",
+      "ru": "Нам нужен был ты - ни о чём не подозревающий человек с чистыми намерениями, который принесёт сюда заряженные осколки. Любой другой сбежал бы с ними и обернулся против нас. Так всё устроено. Не жду, что ты поймёшь... А теперь хватит разговоров.",
+      "speaker": "WynnExcavation Leader Amadel",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "The crystals combine the power of the stars themselves.. an ultimate power... the power to reign over the entire WORLD!",
+      "ru": "Кристаллы соединяют в себе силу самих звёзд... абсолютную силу... силу, чтобы править всем МИРОМ!",
+      "speaker": "Corrupted Amadel",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "'Amadel: DID YOU REALLY THINK YOU COULD WIN?!?! YOU ARE NOTHING COMPARED TO ME! NOTHING!! I WILL EXTERMINATE ALL LIFE, STARTING WITH YOU!! NOW, PERISH!!!'",
+      "ru": "'Амадель: ТЫ СЕРЬЁЗНО ДУМАЛ, ЧТО МОЖЕШЬ ПОБЕДИТЬ?!?! ТЫ НИЧТО ПО СРАВНЕНИЮ СО МНОЙ! НИЧТО!! Я ИСТРЕБЛЮ ВСЮ ЖИЗНЬ, НАЧАВ С ТЕБЯ!! А ТЕПЕРЬ СДОХНИ!!!'",
+      "speaker": "",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "The Corners Hold The Key",
+      "ru": "Углы хранят ключ",
+      "speaker": "",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Many incomprehensible powers exist in this world. Forces such as Light, Darkness, or even the stars themselves..",
+      "ru": "В этом мире существует множество непостижимых сил. Свет, Тьма и даже сами звёзды...",
+      "speaker": "",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Light, and Darkness. Two unfathomably powerful forces. Two sides of the same coin. Though they grew close, they very rarely touched...",
+      "ru": "Свет и Тьма. Две невообразимо могущественные силы. Две стороны одной монеты. Хоть они и сблизились, соприкасались крайне редко...",
+      "speaker": "",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "At least, not on a conceptual level. They use this world as a battleground for their senseless, eternal squabble, in an attempt to claim dominance over the other.",
+      "ru": "По крайней мере, не сами по себе. Они используют этот мир как поле битвы в своей бессмысленной вечной вражде, пытаясь подчинить друг друга.",
+      "speaker": "",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "When the two do clash due to this violent exchange, it is not twilight that is formed, but a violent, aggressive pestilence. A force known to many as the Corruption...",
+      "ru": "Когда эти силы всё же сходятся в битве, рождаются не сумерки, а свирепая, разрушительная зараза. Сила, известная многим как Порча...",
+      "speaker": "",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "In order to escape the grasp of the Darkness itself in this eternal battle, the Olm harnessed the power of the stars themselves, in the form of multiple crystals. It is said that whoever may reunite these crystals will have the power to reshape the world.",
+      "ru": "Чтобы вырваться из хватки самой Тьмы в этой вечной битве, олмы заключили силу звёзд в нескольких кристаллах. Говорят, тот, кто вновь соединит их, получит власть изменить мир.",
+      "speaker": "",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I see you have finally shown up.",
+      "ru": "Я вижу, ты наконец-то явился.",
+      "speaker": "Помощник Амадела",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "There is no chance someone as weak as you can beat Amadel!",
+      "ru": "Такому слабаку, как ты, ни за что не одолеть Амаделя!",
+      "speaker": "Помощник Амадела",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "That was a mere fluke..",
+      "ru": "Тебе просто повезло...",
+      "speaker": "Помощник Амадела",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Amadel is unbeatable!",
+      "ru": "Амадель непобедим!",
+      "speaker": "Помощник Амадела",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "I- I- I feel... unstoppable.. this power... will not aļ͢͠͠͡l̶̀͜͏͏ów me to lớ̀͠͝se..!!!",
+      "ru": "Я- я- я чувствую... меня не остановить... эта сила... не позволит мне проиграть...!!!",
+      "speaker": "Теневой Амадел",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "He's simply warming up...",
+      "ru": "Он просто разминается...",
+      "speaker": "Помощник Амадела",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "THIS ISN'T EVEN HIS FINAL FORM!",
+      "ru": "ЭТО ДАЖЕ НЕ ЕГО ФИНАЛЬНАЯ ФОРМА!",
+      "speaker": "Помощник Амадела",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "I, I can't believe you beat him...",
+      "ru": "Я, я не верю, что ты его одолел...",
+      "speaker": "Помощник Амадела",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Amadel was a god... He was going to save the province...",
+      "ru": "Амадель был богом... Он собирался спасти провинцию...",
+      "speaker": "Помощник Амадела",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "You... hmm... Ahh yes! I remember you. You're one of the recruits I accepted long ago..",
+      "ru": "Ты... хм... А, да! Помню тебя. Ты один из новобранцев, которых я принял давным-давно...",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "I'm no mage, but what you have there may just be one of the most destructive forces in the entire world.",
+      "ru": "Я не маг, но то, что у тебя в руках, возможно, одна из самых разрушительных сил во всём мире.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "I remember being told something by my adoptive father, and he was a king of Ragni himself!",
+      "ru": "Я помню, как мой приёмный отец кое-что мне рассказал, а ведь он и сам был королём Рагни!",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "He told me that the Wynn province will never find solace. I never truly understood why, until now.",
+      "ru": "Он сказал мне, что провинция Винн никогда не обретёт покоя. Я по-настоящему не понимал почему - до этого мгновения.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "You see, many forces are at work on our lands that we cannot physically see, but the outcome of the influences cannot be ignored.",
+      "ru": "Видишь ли, на наших землях действует множество невидимых сил. Но последствия их влияния невозможно не заметить.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Creatures that you can find in Wynn may not exist in Gavel. In Gavel, there are many magical beings. Creatures influenced by forces other than the Corruption. Not all of them are friendly, mind.",
+      "ru": "Не все существа, обитающие в Винне, водятся и в Гавеле. Там много волшебных созданий, на которых влияют совсем другие силы, не Порча. Учти, не все они дружелюбны.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "This could be people, species, or anything, really. And I think the same thing can be said for the energy that resonate in those crystals you have there.",
+      "ru": "Они влияют на людей, на целые народы, да на что угодно. Думаю, то же можно сказать об энергии, заключённой в твоих кристаллах.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "I think those crystals represent a force far beyond what we can grasp, and if that power can turn one man into what you fought back there, I shudder to think what else it could do.",
+      "ru": "Думаю, эти кристаллы воплощают силу, далеко превосходящую наше понимание, и если эта сила способна превратить человека в то, с чем ты там сразился, мне страшно представить, на что ещё она способна.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "The Olm in the jungle clearly knew of this, too, as they met their eventual demise. Their desperation most likely led to them attempting to harness that power, as well.",
+      "ru": "Олмы в джунглях тоже знали об этих силах, но это не спасло их от гибели. Скорее всего, отчаяние и заставило их попытаться обуздать эту мощь.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "These are things that the mages of the ocean have studied in secret for centuries. We may never know, and rather, I think we never should know.",
+      "ru": "Маги океана веками изучали всё это втайне. Возможно, мы так никогда и не узнаем правды. И, пожалуй, нам лучше её не знать.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "If Amadel taught us anything, it's that we can never be trusted with power. Here, put that crystal into the lava. Let it burn and never be used. The king places the crystals in the lava, and watches them sink.",
+      "ru": "Если Амадель чему и научил нас, так это тому, что нам нельзя доверять такую силу. Брось этот кристалл в лаву. Пусть сгорит, чтобы никто им больше не воспользовался. Король опускает кристаллы в лаву и смотрит, как они тонут.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "Though it contains some of the most concentrated magical power ever, it is still limited to its container. Let it burn.",
+      "ru": "Пусть в нём и заключена небывалая магическая мощь, она всё равно ограничена своей оболочкой. Пусть горит.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "I do not know the severity of the Excavation's integration into the powers of Gavel, but I bet we haven't seen the last of them.",
+      "ru": "Не знаю, насколько глубоко ВиннРаскопки проникли во власть Гавеля, но уверен, мы ещё о них услышим.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "You have done this province an unspeakable service. I believe that even Bob is smiling down on you, today. I'm sure that if he were here with us, he would crown you worthy.",
+      "ru": "Ты оказал нашей провинции неоценимую услугу. Думаю, сегодня даже Боб улыбается тебе с небес. Будь он здесь, он признал бы тебя достойным.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "As a token of our city's eternal gratitude, I wish for you to take this. It has no value to anyone except you.",
+      "ru": "Прими это в знак вечной благодарности нашего города. Для других оно ничего не стоит, но тебе пригодится.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "You might want to hold onto it, a merchant in Cinfras has arrived and you will be able to trade it for the item that I wish I could bestow upon you now.",
+      "ru": "Сбереги его. В Синфрас прибыл торговец, у которого ты сможешь обменять его на то, что я хотел бы вручить тебе сейчас.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "You truly are one of the greatest warriors to ever step foot in these lands. I hereby knight you as Wynn's true protector for your deeds today. I hope we meet again, young master.",
+      "ru": "Ты один из величайших воинов, когда-либо ступавших на эти земли. За твои сегодняшние деяния посвящаю тебя в рыцари и провозглашаю истинным защитником Винна. Надеюсь, мы ещё встретимся, юный рыцарь.",
+      "speaker": "Король Рагни",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "But rarely do you see the undead in such numbers. You know, there is a fundamental law of our land, when two forces collide, there is war.",
+      "ru": "Но редко где встретишь столько нежити. Знаешь, у нашего мира есть непреложный закон: там, где сталкиваются две силы, начинается война.",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "New Quest Started: WynnExcavation Site D",
+      "ru": "§#FFAA00Новый квест: §#FFFF55ВиннРаскопки, участок D",
+      "speaker": "",
+      "stage": "Stage 27"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Royal Advisor Carlos in Troms Castle at [-848, 98, -789] (Requires shard from Site C)",
+      "ru": "Поговорить с королевским советником Карлосом в замке Тромса в [-848, 98, -789] (нужен осколок с участка C).",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Find the secret passageway inside of the throne room",
+      "ru": "Найти тайный проход в тронном зале.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Explore the secrets beneath Troms Castle",
+      "ru": "Раскрыть тайны под замком Тромса.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Talk to the King",
+      "ru": "Поговорить с королём.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Exit the King's room",
+      "ru": "Покинуть комнату короля.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Escape Troms",
+      "ru": "Сбежать из Тромса.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Head to the location on the note",
+      "ru": "Отправиться к месту, указанному в записке.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Speak to Traitor Thomas",
+      "ru": "Поговорить с предателем Томасом.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Find the three map fragments by following the eyes and return to Thomas.",
+      "ru": "Найти три обрывка карты, следуя за глазами, и вернуться к Томасу.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Enter the traitor camp",
+      "ru": "Войти в лагерь предателей.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Speak to Rebel Leader Amadel",
+      "ru": "Поговорить с предводителем мятежников Амаделем.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Go to Site D [-874, 22, -349]",
+      "ru": "Отправиться на участок D [-874, 22, -349].",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Solve the puzzle",
+      "ru": "Решить головоломку.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Search the excavation site",
+      "ru": "Осмотреть место раскопок.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Talk to Excavator Admin Uci.",
+      "ru": "Поговорить с управляющим раскопками Уси.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Enter The Ancient Dungeon",
+      "ru": "Войти в древнее подземелье.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Complete the parkour",
+      "ru": "Пройти паркур.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Solve The Yellow Puzzle",
+      "ru": "Решить жёлтую головоломку.",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Solve The Purple Puzzle",
+      "ru": "Решить фиолетовую головоломку.",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "objective-0020",
+      "en": "Solve The Red Puzzle",
+      "ru": "Решить красную головоломку.",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "objective-0021",
+      "en": "Escape The Green Room",
+      "ru": "Выбраться из зелёной комнаты.",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-0022",
+      "en": "Talk to Excavator Amadel",
+      "ru": "Поговорить с землекопом Амаделем.",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "objective-0023",
+      "en": "Teleport to the Ancient City",
+      "ru": "Перенестись в Древний город.",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "objective-0024",
+      "en": "Explore The Ancient City",
+      "ru": "Исследовать Древний город.",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "objective-0025",
+      "en": "Speak to Amadel's Assistant",
+      "ru": "Поговорить с помощником Амаделя.",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "objective-0026",
+      "en": "Kill Corrupted Amadel",
+      "ru": "Убить Заражённого Амаделя.",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "objective-0027",
+      "en": "Kill Shadow Amadel",
+      "ru": "Убить Теневого Амаделя.",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "objective-0028",
+      "en": "Kill Amadel",
+      "ru": "Убить Амаделя.",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "objective-0029",
+      "en": "Talk to The King of Ragni",
+      "ru": "Поговорить с королём Рагни.",
+      "stage": "Stage 29"
+    }
+  ],
+  "choices": []
+}

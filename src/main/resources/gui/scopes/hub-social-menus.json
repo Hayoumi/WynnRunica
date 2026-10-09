@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-social-menus",
+  "scopes": [
+    {
+      "id": "hub-social-d73785b0c4f5a8cf",
+      "match": {
+        "title": "Daily Bonus Boosts",
+        "anchors": [],
+        "priority": 3000
+      },
+      "title": {
+        "id": "title",
+        "en": "Daily Bonus Boosts",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-cc18ee098a11904f",
+          "en": "Daily Bonus for this Raid.",
+          "ru": "Ежедневный бонус этого Рейда."
+        },
+        {
+          "id": "line-001",
+          "en": "Daily Bonus Boosts",
+          "ru": "Усиления Ежедневного Бонуса"
+        },
+        {
+          "id": "line-002",
+          "en": "Use a token to refresh your",
+          "ru": "Используйте жетон, чтобы обновить"
+        },
+        {
+          "id": "line-003",
+          "en": "Can be stacked.",
+          "ru": "Можно складывать."
+        },
+        {
+          "id": "line-004",
+          "en": "The Silverbull Subscription",
+          "ru": "Подписка Silverbull"
+        },
+        {
+          "id": "line-005",
+          "en": "doubles your Daily Bonus!",
+          "ru": "удваивает ежедневный бонус!"
+        },
+        {
+          "id": "line-006",
+          "en": "<em> Click to see the Shop",
+          "ru": "<em> §aНажмите, чтобы открыть магазин"
+        },
+        {
+          "id": "hub-social-02a494cf570b16af",
+          "en": "Daily Bonus for this Lootrun.",
+          "ru": "ежедневный бонус этого лутрана."
+        }
+      ]
+    },
+    {
+      "id": "hub-social-1669fb2f6c5b9141",
+      "match": {
+        "title": "§d§lBonus",
+        "anchors": [],
+        "priority": 3000
+      },
+      "title": {
+        "id": "title",
+        "en": "§d§lBonus",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-1669fb2f6c5b9141",
+          "en": "§d§lBonus",
+          "ru": "§d§lУлучшения"
+        },
+        {
+          "id": "line-123070604fbdf2f1",
+          "en": "§d- §7Stronger Minions§8 [Lv. <num>]",
+          "ru": "§d- §7Усиление Прислужников§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-946328459a12d5f0",
+          "en": "§d- §7Tower Multi-Attacks§8 [Lv. <num>]",
+          "ru": "§d- §7Цели Башни§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-863bf88ec789e0fc",
+          "en": "§d- §7Tower Aura§8 [Lv. <num>]",
+          "ru": "§d- §7Аура Башни§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-ba33db2b91f7fab5",
+          "en": "§d- §7Tower Volley§8 [Lv. <num>]",
+          "ru": "§d- §7Залп Башни§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-822cf0cece1ad1a1",
+          "en": "§d- §7XP Seeking§8 [Lv. <num>]",
+          "ru": "§d- §7Опыт Гильдии§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-a864f4c268963f17",
+          "en": "§d- §7Larger Resource Storage§8 [Lv. <num>]",
+          "ru": "§d- §7Хранилище Ресурсов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-cacafd2f1d4d0eec",
+          "en": "§d- §7Larger Emerald Storage§8 [Lv. <num>]",
+          "ru": "§d- §7Хранилище Изумрудов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-68b075436d392b63",
+          "en": "§d- §7Efficient Resources§8 [Lv. <num>]",
+          "ru": "§d- §7Добыча Ресурсов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-be7d336c81a37f70",
+          "en": "§d- §7Efficient Emeralds§8 [Lv. <num>]",
+          "ru": "§d- §7Добыча Изумрудов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-f6ef04af8f7071c6",
+          "en": "§d- §7Resource Rate§8 [Lv. <num>]",
+          "ru": "§d- §7Частота Добычи Ресурсов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-654124746446790e",
+          "en": "§d- §7Emerald Rate§8 [Lv. <num>]",
+          "ru": "§d- §7Частота Добычи Изумрудов§8 [Ур. §8<num>§7]"
+        },
+        {
+          "id": "line-86067202dc32fbd6",
+          "en": "§aBonus Cost (per hour):",
+          "ru": "§aРасходы улучшений за час:"
+        },
+        {
+          "id": "line-b1b60db9c1d10b63",
+          "en": "§a- §7<num> Emeralds§8 (<num>%)",
+          "ru": "§a- §7Изумруды: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-7ef3004f5d3daae1",
+          "en": "§a- §7Ⓑ <num> Ore§8 (<num>%)",
+          "ru": "§a- §7Ⓑ Руда: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-564d2debb95704d0",
+          "en": "§a- §7Ⓒ <num> Wood§8 (<num>%)",
+          "ru": "§a- §7Ⓒ Древесина: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-bd4eed1c180e407e",
+          "en": "§a- §7Ⓚ <num> Fish§8 (<num>%)",
+          "ru": "§a- §7Ⓚ Рыба: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-257f61f099cd43b6",
+          "en": "§a- §7Ⓙ <num> Crops§8 (<num>%)",
+          "ru": "§a- §7Ⓙ Урожай: §7<num>§7§8 (§8<num>%§7)"
+        },
+        {
+          "id": "line-adf85767b94510bf",
+          "en": "§aClick to Upgrade",
+          "ru": "§aНажмите, чтобы Улучшить"
+        },
+        {
+          "id": "hub-social-cf3370f7b34ecd88",
+          "en": "§7No bonuses active",
+          "ru": "§7§rНет активных бонусов"
+        }
+      ]
+    },
+    {
+      "id": "hub-social-90b3e8c4215b9764",
+      "match": {
+        "title": "§f§lGuild Output",
+        "anchors": [],
+        "priority": 3000
+      },
+      "title": {
+        "id": "title",
+        "en": "§f§lGuild Output",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "line-90b3e8c4215b9764",
+          "en": "§f§lGuild Output",
+          "ru": "§f§lДобыча Гильдии"
+        },
+        {
+          "id": "line-b9ca137f8d6a066e",
+          "en": "§7You do not own any",
+          "ru": "§7У вашей гильдии пока нет"
+        },
+        {
+          "id": "line-cba0f6a71245d911",
+          "en": "§7territories to view",
+          "ru": "§7подконтрольных территорий"
+        },
+        {
+          "id": "hub-social-9debe0cde4e89ecc",
+          "en": "§7Total resource output",
+          "ru": "§7§rОбщее производство ресурсов"
+        },
+        {
+          "id": "hub-social-b8ec7ea67e0c8a4a",
+          "en": "§7and overall costs",
+          "ru": "§7§rи суммарные затраты"
+        }
+      ]
+    },
+    {
+      "id": "hub-social-d47f94cfa27e2207",
+      "match": {
+        "title": "<em>CHAMPION Rank<em>",
+        "anchors": [],
+        "priority": 3000
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>CHAMPION Rank<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-social-4c7167d48fa2e4e0",
+          "en": "<em>Unlock permanent perks  ",
+          "ru": "<em>Откройте постоянные преимущества  "
+        },
+        {
+          "id": "hub-social-af73a204428e7a80",
+          "en": "<em>to bolster your journey  ",
+          "ru": "<em>для развития персонажа  "
+        },
+        {
+          "id": "hub-social-788ebbf541abbb1d",
+          "en": "<em>and stand out.",
+          "ru": "<em>и выделяйтесь среди других."
+        },
+        {
+          "id": "hub-social-6e15852eb76b876d",
+          "en": "<em>Permanent Perks:",
+          "ru": "<em>Постоянные преимущества:"
+        },
+        {
+          "id": "hub-social-dddf7eff3277e8c1",
+          "en": "*Grants late-game ability  <em>",
+          "ru": "*Позволяет раньше получить очки  <em>"
+        },
+        {
+          "id": "hub-social-8680842fa62df4ed",
+          "en": "points early. More info +  <em>",
+          "ru": "способностей высоких уровней.  <em>"
+        },
+        {
+          "id": "hub-social-e8f56cf5f2539f36",
+          "en": "perks: wynn.gg/store <em>",
+          "ru": "Подробности и бонусы: wynn.gg/store <em>"
+        }
+      ]
+    },
+    {
+      "id": "hub-social-552a8bde39122324",
+      "match": {
+        "title": "<em>HERO+ Rank",
+        "anchors": [],
+        "priority": 3000
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>HERO+ Rank",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-social-4c7167d48fa2e4e0",
+          "en": "<em>Unlock permanent perks  ",
+          "ru": "<em>Откройте постоянные преимущества  "
+        },
+        {
+          "id": "hub-social-af73a204428e7a80",
+          "en": "<em>to bolster your journey  ",
+          "ru": "<em>для развития персонажа  "
+        },
+        {
+          "id": "hub-social-788ebbf541abbb1d",
+          "en": "<em>and stand out.",
+          "ru": "<em>и выделяйтесь среди других."
+        },
+        {
+          "id": "hub-social-6e15852eb76b876d",
+          "en": "<em>Permanent Perks:",
+          "ru": "<em>Постоянные преимущества:"
+        },
+        {
+          "id": "hub-social-dddf7eff3277e8c1",
+          "en": "*Grants late-game ability  <em>",
+          "ru": "*Позволяет раньше получить очки  <em>"
+        },
+        {
+          "id": "hub-social-8680842fa62df4ed",
+          "en": "points early. More info +  <em>",
+          "ru": "способностей высоких уровней.  <em>"
+        },
+        {
+          "id": "hub-social-e8f56cf5f2539f36",
+          "en": "perks: wynn.gg/store <em>",
+          "ru": "Подробности и бонусы: wynn.gg/store <em>"
+        }
+      ]
+    },
+    {
+      "id": "hub-social-ffbd0a0eebd77dc3",
+      "match": {
+        "title": "§7Leggings Glint",
+        "anchors": [],
+        "priority": 3000
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Leggings Glint",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "item-description-ffbd0a0eebd77d-0",
+          "en": "§7Glints alters the visual of the",
+          "ru": "§7Блеск меняет внешний вид"
+        },
+        {
+          "id": "item-description-ffbd0a0eebd77d-1",
+          "en": "§7current equipped gear at this slot",
+          "ru": "§7снаряжения в этой ячейке"
+        },
+        {
+          "id": "hub-social-d96a73dfe9eb4eee",
+          "en": "§7<em> Click to Change",
+          "ru": "§7<em> §rНажмите, чтобы изменить"
+        }
+      ]
+    },
+    {
+      "id": "hub-social-13d0d167726be160",
+      "match": {
+        "title": "§7Chestplate Glint",
+        "anchors": [],
+        "priority": 3000
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Chestplate Glint",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-social-1253247ebf582f69",
+          "en": "§7Glints alters the visual of the",
+          "ru": "§7§rМеняет эффект свечения"
+        },
+        {
+          "id": "hub-social-fa06d254e3ecd184",
+          "en": "§7current equipped gear at this slot",
+          "ru": "§7§rэкипировки в этой ячейке"
+        },
+        {
+          "id": "hub-social-d96a73dfe9eb4eee",
+          "en": "§7<em> Click to Change",
+          "ru": "§7<em> §rНажмите, чтобы изменить"
+        }
+      ]
+    },
+    {
+      "id": "hub-social-2e055281fb4f5db1",
+      "match": {
+        "title": "§7Helmet Glint",
+        "anchors": [],
+        "priority": 3000
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Helmet Glint",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-social-1253247ebf582f69",
+          "en": "§7Glints alters the visual of the",
+          "ru": "§7§rМеняет эффект свечения"
+        },
+        {
+          "id": "hub-social-fa06d254e3ecd184",
+          "en": "§7current equipped gear at this slot",
+          "ru": "§7§rэкипировки в этой ячейке"
+        },
+        {
+          "id": "hub-social-d96a73dfe9eb4eee",
+          "en": "§7<em> Click to Change",
+          "ru": "§7<em> §rНажмите, чтобы изменить"
+        }
+      ]
+    }
+  ]
+}

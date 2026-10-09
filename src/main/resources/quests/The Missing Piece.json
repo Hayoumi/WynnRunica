@@ -1,0 +1,5421 @@
+{
+  "quest": "The Missing Piece",
+  "level": 111,
+  "difficulty": "Medium",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-missing-piece",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "You've come to collect something?",
+      "ru": "Вы пришли что-то получить?",
+      "stage": "Stage 1",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Don't you see I'm busy!? Take a ticket and wait in line as you're supposed to! i don't care if no one else is here, follow protocol!",
+      "ru": "Не видите, что я занят!? Возьмите талон и ждите своей очереди, как положено! Мне всё равно, что здесь больше никого нет, соблюдайте порядок!",
+      "stage": "Stage 1",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Printing...",
+      "ru": "Печать...",
+      "stage": "Stage 2",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "[+1 Queue Ticket]",
+      "ru": "§#AA00AA[+1 Queue Ticket]§r",
+      "stage": "Stage 2",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "You should probably take your place at the front of the line.",
+      "ru": "Пожалуй, вам стоит встать в начало очереди.",
+      "stage": "Stage 2",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "You have to take a ticket, just like everyone else!",
+      "ru": "Вы должны взять талон, как и все остальные!",
+      "stage": "Stage 2",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "Don't skip in line!",
+      "ru": "Не лезьте без очереди!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Printing...",
+      "ru": "Печать...",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "[+1 Queue Ticket]",
+      "ru": "§#AA00AA[+1 Queue Ticket]§r",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "You take another ticket, not caring for whomever comes next. Either way, you should probably take your place at the front of the line.",
+      "ru": "Вы берёте ещё один талон, не заботясь о тех, кто придёт после вас. Как бы то ни было, пора встать в начало очереди.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "A third ticket, your greed knows no bounds.",
+      "ru": "Третий талон. Ваша жадность не знает границ.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Yet another ticket is brought forth on your command. Is it out of avarice or... perhaps, you covet a sense of authority?",
+      "ru": "По вашему велению появляется ещё один талон. Что движет вами: алчность или... жажда власти?",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Behold! The ticket is thus presented to you. May thy struggles be great and thy glories yet greater!",
+      "ru": "Узрите! Талон предстаёт перед вами. Да будут велики ваши испытания, а слава - ещё величественнее!",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "The machine has run out of tickets. This is entirely you fault.",
+      "ru": "В автомате закончились талоны. Это целиком ваша вина.",
+      "stage": "Stage 3",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I'll be with you in one second! Gosh, so impatient these days...",
+      "ru": "Я подойду через секунду! Боже, какие все нынче нетерпеливые...",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Tired of waiting already? Well, someone decided to leave this place a mess for when I returned!",
+      "ru": "Уже устали ждать? Ну так §oкое-кто§r решил оставить здесь полный разгром к моему возвращению!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "I come back to the office yesterday from a well-deserved, brief, eighteen week, vacation. And this is how I'm thanked?!",
+      "ru": "Вчера я вернулся в отделение из заслуженного, короткого, восемнадцатинедельного отпуска. И §oвот как§r меня благодарят?!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "Do you see the mess my substitute left this place in? And now I have to clean it up, or the Royal Inspector will have my head!",
+      "ru": "Видите, какой бардак оставил мой заместитель? А теперь §oмне§r всё это убирать, иначе Королевский Инспектор мне голову оторвёт!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "I'll have you know I graduated with honours from the Royal University of Aelumia.",
+      "ru": "Чтоб вы знали, я с отличием окончил Королевский Университет Аэлумии.",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Frankly, it's demeaning they stuck me out here with the... ugh... peasants! Oh, and don't even get me started on the smell!",
+      "ru": "Честно говоря, унизительно, что меня сослали сюда, к... фу... простолюдинам! А уж про запах я вообще молчу!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "But anyway, that is all besides the point. What did you want again?",
+      "ru": "Но это всё к делу не относится. Что вы там хотели?",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "It's you! You're the one I left in charge over my vacation, you scoundrel!",
+      "ru": "Это вы! Это вас я оставил за главного на время отпуска, негодяй!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "I knew it! A university graduate like me couldn't possibly be wrong!",
+      "ru": "Я так и знал! Выпускник университета вроде меня просто не может ошибаться!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "Don't try to weasel your way out of it! A university graduate like me couldn't possibly be wrong!",
+      "ru": "Не пытайтесь выкрутиться! Выпускник университета вроде меня просто не может ошибаться!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "But thinking about it...",
+      "ru": "Но если подумать...",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "I have a proposal.",
+      "ru": "У меня есть предложение.",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "It's not just me who's going to be in trouble when the inspection comes, surely you realize that?",
+      "ru": "Когда придёт инспекция, неприятности будут не только у меня. Вы ведь это понимаете?",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "But...",
+      "ru": "Но...",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "If you fix this mess you made... Then no one ever has to hear a word of what happened.",
+      "ru": "Если вы исправите устроенный вами бардак... Никому не придётся узнать о случившемся.",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "You don't get in trouble, the Royal Inspector is happy, I'm happy. Everyone is happy!",
+      "ru": "Вы избежите неприятностей, Королевский Инспектор будет доволен, я буду доволен. Все будут довольны!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "How's that sound?",
+      "ru": "Как вам такое?",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Great!",
+      "ru": "Прекрасно!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Then I'll have you sorting post like your life depends on it, scoundrel!",
+      "ru": "Тогда будете сортировать почту так, будто от этого зависит ваша жизнь, негодяй!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "Because it does.",
+      "ru": "Потому что так оно и есть.",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Follow me!",
+      "ru": "За мной!",
+      "stage": "Stage 3",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Sorting is so easy even someone like you should be able to do it.",
+      "ru": "Сортировать так просто, что даже такой, как вы, справится.",
+      "stage": "Stage 4",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "All you do is take the packages from the conveyor over there.",
+      "ru": "Просто берёте посылки с того конвейера.",
+      "stage": "Stage 4",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "And put them where they're supposed to go over there.",
+      "ru": "И кладёте их туда, куда положено.",
+      "stage": "Stage 4",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Highlands packages to the Highlands, Auburn packages to the Auburn Forest, and so on.",
+      "ru": "Посылки для Нагорья - в Нагорье, посылки для Аубёрна - в Аубёрнский лес, и так далее.",
+      "stage": "Stage 4",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "Got it?",
+      "ru": "Понятно?",
+      "stage": "Stage 4",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Fantastic! Just don't make a mess of it, okay?",
+      "ru": "Замечательно! Только ничего не напутайте, хорошо?",
+      "stage": "Stage 4",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "I'm turning on the conveyor!",
+      "ru": "Включаю конвейер!",
+      "stage": "Stage 4",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Oh, you actually did it...",
+      "ru": "О, вы и правда справились...",
+      "stage": "Stage 5",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Well, that was just the warmup! There's more to come, so don't go slacking off now!",
+      "ru": "Ну, это была только разминка! Впереди ещё работа, так что не вздумайте бездельничать!",
+      "stage": "Stage 5",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Hmm... You did fine this time, but watch out, because these last packages come fast!",
+      "ru": "Хм... В этот раз неплохо, но будьте начеку: последние посылки идут быстро!",
+      "stage": "Stage 5",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "Don't think you're somebody just because you can sort some packages!",
+      "ru": "Не зазнавайтесь только потому, что умеете сортировать какие-то посылки!",
+      "stage": "Stage 5",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "What are you doing over there!?",
+      "ru": "Что вы там делаете!?",
+      "stage": "Stage 5",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "Agh! Try again, but you better do it right this time!",
+      "ru": "Аргх! Попробуйте ещё раз, и лучше на этот раз всё сделать правильно!",
+      "stage": "Stage 5",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Don't bother me while I'm working! I didn't go to university just to slack off with people like you!",
+      "ru": "Не мешайте мне работать! Я не для того учился в университете, чтобы бездельничать с такими, как вы!",
+      "stage": "Stage 5",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Ah, perfect! You sorted the packages!",
+      "ru": "А, прекрасно! Вы рассортировали посылки!",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "But wait, what's this then? Why are there so many packages to the Industrial District?",
+      "ru": "Но подождите, это ещё что? Почему так много посылок в Промышленный Район?",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "Did you mess up the sorting, you fool!?",
+      "ru": "Вы напутали с сортировкой, дурень!?",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "What's up with these packages! They're filled with letters?",
+      "ru": "Что с этими посылками! В них одни письма?",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "Hmph... all of them to the woman on the hill... Whatever that means!",
+      "ru": "Хмпф... все §oженщине на холме§r... Что бы это ни значило!",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "Hey you, scoundrel. This is part of your duty too, you know!",
+      "ru": "Эй, негодяй. Это тоже входит в ваши обязанности!",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Go deliver these letters! Or... or I'll tell the Royal Inspector about what you did! That's right, don't mess with me!",
+      "ru": "Идите и доставьте эти письма! Иначе... иначе я расскажу Королевскому Инспектору, что вы натворили! Вот так, со мной шутки плохи!",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "How should I know! That's your job to figure out. See, it says here 'to the woman on the hill', that should be enough shouldn't it?",
+      "ru": "Откуда мне знать! Выяснять это - §oваша§r работа. Смотрите, тут написано \"женщине на холме\", разве этого недостаточно?",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Oh, but you are! I have very many friends, in very high places! Met them in university, makes sure to remember that!",
+      "ru": "Нет уж, доставите! У меня очень много друзей на очень высоких постах! Познакомился с ними в университете, запомните это!",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "[+1 Mysterious Package]",
+      "ru": "§#AA00AA[+1 Mysterious Package]§r",
+      "stage": "Stage 6",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "Great! Now with that settled I can finally go back to my very important work.",
+      "ru": "Прекрасно! Теперь, когда с этим разобрались, я наконец могу вернуться к своей очень важной работе.",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Oh, yes. Very important. University graduate, did I mention that?",
+      "ru": "О да. Очень важной. Я выпускник университета, уже говорил?",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "Now now, off you go. And don't come back crying if you can't find this mysterious woman!",
+      "ru": "Ну-ну, ступайте. И не прибегайте сюда в слезах, если не найдёте эту таинственную женщину!",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "But if you lose the letter I can always give you another, they seem to be practically infinite anyhow!",
+      "ru": "Но если потеряете письмо, я всегда могу дать другое. Их тут, кажется, бесконечно много!",
+      "stage": "Stage 6",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Are you trying to slack off? You still have the letter on you, go deliver it!",
+      "ru": "Пытаетесь увильнуть? Письмо всё ещё у вас, идите и доставьте его!",
+      "stage": "Stage 7",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Can't you see I'm busy!?",
+      "ru": "Не видите, что я занят!?",
+      "stage": "Stage 7",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "Hmm, you lost the letter? Already!?",
+      "ru": "Хм, потеряли письмо? Уже!?",
+      "stage": "Stage 7",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Don't think you're getting out of this! I have spares!",
+      "ru": "Не думайте, что так избавитесь от работы! У меня есть ещё!",
+      "stage": "Stage 7",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "[+1 Mysterious Letter]",
+      "ru": "§#AA00AA[+1 Mysterious Letter]§r",
+      "stage": "Stage 7",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Now go on and sort this out for me, won't you? I have enough to worry about as is without you bungling about!",
+      "ru": "Ну же, идите и разберитесь с этим за меня, а? Мне и без ваших выкрутасов хватает забот!",
+      "stage": "Stage 7",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "Keep it short, I'm busy.",
+      "ru": "Говори коротко, я занят.",
+      "stage": "Stage 7",
+      "speaker": "Vagabond"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Looking for someone, huh? 'round these parts it's usually the tin cans who do that.",
+      "ru": "Кое-кого ищешь, а? У нас этим обычно жестянки занимаются.",
+      "stage": "Stage 7",
+      "speaker": "Vagabond"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "A visit from one of those and you get an all-expenses-paid vacation on the Crown, if you catch my drift.",
+      "ru": "Одна такая заглянет - и тебе обеспечен отпуск за счёт Короны, если понимаешь, о чём я.",
+      "stage": "Stage 7",
+      "speaker": "Vagabond"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "Safe to say, if it were Lars you were looking for I'd be happy to rat him out, but you haven't told me who it is yet.",
+      "ru": "Скажем так, если ищешь Ларса, я бы с радостью его сдал. Но ты пока не сказал, кто тебе нужен.",
+      "stage": "Stage 7",
+      "speaker": "Vagabond"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "I have to deliver a letter to 'the woman on the hill'. Do you know where she lives?",
+      "ru": "Мне нужно доставить письмо \"женщине на холме\". Знаешь, где она живёт?",
+      "stage": "Stage 7",
+      "speaker": "Player"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "PLenty of hills 'round these parts, women too. But they're in the factories, slaving away, not on any hills 'sfar as I'm aware.",
+      "ru": "Холмов тут хватает, женщин тоже. Только они на заводах пашут, а не на холмах сидят, насколько я знаю.",
+      "stage": "Stage 7",
+      "speaker": "Vagabond"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Sorry bud, don't think I can help you with this one. Try asking Lars, he's usually hogging the fire in the alley here behind me. Hate that guy...",
+      "ru": "Прости, приятель, тут я тебе не помогу. Спроси Ларса: он обычно греется у костра в переулке за моей спиной. Ненавижу этого типа...",
+      "stage": "Stage 7",
+      "speaker": "Vagabond"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "Fine with me.",
+      "ru": "Как скажешь.",
+      "stage": "Stage 7",
+      "speaker": "Vagabond"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "Already told you everythin', didn't I? Go harass Lars instead, I have nothing more to say.",
+      "ru": "Я уже всё сказал, разве нет? Иди приставай к Ларсу, мне больше нечего добавить.",
+      "stage": "Stage 7",
+      "speaker": "Vagabond"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Whatcha want?",
+      "ru": "Чего тебе?",
+      "stage": "Stage 7",
+      "speaker": "Vagrant"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "I'm looking for someone called 'the woman on the hill'. I have a letter I need to deliver to her.",
+      "ru": "Я ищу \"женщину на холме\". Мне нужно доставить ей письмо.",
+      "stage": "Stage 7",
+      "speaker": "Vagrant"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "A letter? Don't know nuthin' about no woman on the hill, but maybe Bush over there would know.",
+      "ru": "Письмо? Ни о какой женщине на холме не знаю, но, может, вон Куст знает.",
+      "stage": "Stage 7",
+      "speaker": "Vagrant"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "He usually knows things... He's a knower.",
+      "ru": "Он обычно всё знает... Он у нас знающий.",
+      "stage": "Stage 7",
+      "speaker": "Vagrant"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "Don't talk to him for too long though, or he'll start putting strange ideas in your head...",
+      "ru": "Только долго с ним не болтай, а то начнёт тебе голову странными мыслями забивать...",
+      "stage": "Stage 7",
+      "speaker": "Vagrant"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "Right...",
+      "ru": "Ну ладно...",
+      "stage": "Stage 7",
+      "speaker": "Vagrant"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "Ask Bush. I told you I don't know nuthin'.",
+      "ru": "Спроси Куста. Я ж сказал: ничего не знаю.",
+      "stage": "Stage 7",
+      "speaker": "Vagrant"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "I'm Bush, nice to meet you. Is there something you wish to know?",
+      "ru": "Я Куст, приятно познакомиться. Есть что-то, что ты хочешь знать?",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "Oh, yes, her... This bush knows her all too well!",
+      "ru": "О да, её... Этот куст знает её очень хорошо!",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Without her this bush would wilt! Yes, a bush requires water to grow. I know, I know!",
+      "ru": "Без неё этот куст завянет! Да, кусту нужна вода, чтобы расти. Я знаю, я знаю!",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "But first, I must know why you must know! Do you know?",
+      "ru": "Но сначала я должен знать, зачем тебе это знать! Ты знаешь?",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "A letter! If only this Bush could know its contents... Alas, it would be rude to know...",
+      "ru": "Письмо! Если бы этот Куст мог узнать его содержимое... Но знать было бы невежливо...",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "The mail-deliverer, truly a noble profession. I will share with you her location, but in exchange you must tell her: her friend is back in town.",
+      "ru": "Почтальон - поистине благородное ремесло. Я скажу, где она живёт, но взамен передай ей: её друг снова в городе.",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "Here, let me write it down for you!",
+      "ru": "Вот, я запишу для тебя!",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Now you know! Now you know!",
+      "ru": "Теперь ты знаешь! Теперь ты знаешь!",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "To know why I must know? Not even I know... All I know is that I must know!",
+      "ru": "Знать, почему я должен знать? Даже я не знаю... Я знаю лишь то, что должен знать!",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "Again, tell me why you must know.",
+      "ru": "Ещё раз: скажи, зачем тебе это знать.",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "Nothing? That such people existed, I did not know! Now I know, now I know!",
+      "ru": "Ничего? Я и не знал, что такие люди существуют! Теперь я знаю, теперь я знаю!",
+      "stage": "Stage 7",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "Now you know! Now you know!",
+      "ru": "Теперь ты знаешь! Теперь ты знаешь!",
+      "stage": "Stage 8",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Who's there?",
+      "ru": "Кто там?",
+      "stage": "Stage 8",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "I have some letters that are addressed to you.",
+      "ru": "У меня несколько писем, адресованных вам.",
+      "stage": "Stage 8",
+      "speaker": "Player"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "Post? You must be at the wrong house, dear.",
+      "ru": "Почта? Должно быть, домом ошиблись, дорогой.",
+      "stage": "Stage 8",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "No one is sending me any of that...",
+      "ru": "Мне никто ничего такого не присылает...",
+      "stage": "Stage 8",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "It says it's for 'the woman on the hill'.",
+      "ru": "Написано, что это для \"женщины на холме\".",
+      "stage": "Stage 8",
+      "speaker": "Player"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "Well, if it says so on the letter...",
+      "ru": "Ну, раз так написано на письме...",
+      "stage": "Stage 8",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Come in and we'll talk about it.",
+      "ru": "Заходите, поговорим об этом.",
+      "stage": "Stage 8",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "I don't usually get a lot of visitors up on the hill.",
+      "ru": "Не так уж часто ко мне на холм заходят гости.",
+      "stage": "Stage 9",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "Here, follow me.",
+      "ru": "Вот, идите за мной.",
+      "stage": "Stage 9",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "So about those letters?",
+      "ru": "Так что там с письмами?",
+      "stage": "Stage 10",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "Oh, my...",
+      "ru": "Ох, боже...",
+      "stage": "Stage 12",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "I think I'll need a closer look at this.",
+      "ru": "Думаю, мне стоит получше это рассмотреть.",
+      "stage": "Stage 12",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "Please, have a seat. I'll make you something to drink.",
+      "ru": "Пожалуйста, присаживайтесь. Я приготовлю вам что-нибудь попить.",
+      "stage": "Stage 12",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "You don't look like you're from around these parts, do you?",
+      "ru": "Вы ведь не похожи на здешнего, правда?",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Hmm? Well, I shouldn't pry into my guest's secrets. Better to let the unexplained rest, ha. Wouldn't you agree?",
+      "ru": "Хм? Ну, не стоит лезть в тайны гостя. Пусть неизвестное остаётся неизвестным, ха. Согласны?",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Here in the Roughworks, we don't have any secrets. At least that's what Her Majesty wants to believe, ha.",
+      "ru": "Здесь, в Роухворксе, у нас нет секретов. По крайней мере, Её Величество хочет в это верить, ха.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "That's why I chose to live here. In the neighborhoods, the walls are thinner than paper. Nothing goes unheard.",
+      "ru": "Вот почему я решила жить здесь. В жилых кварталах стены тоньше бумаги. Всё слышно.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "Up here on the hill, it's much more peaceful. As long as the Water Authority doesn't come knocking, ha.",
+      "ru": "Здесь, на холме, гораздо спокойнее. Пока Управление Водоснабжения не постучится, ха.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "Well, if you're already here, why don't we have a little chat? Not a lot of people to talk to up here!",
+      "ru": "Ну, раз уж вы здесь, почему бы не поболтать? На холме мне не с кем особо поговорить!",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Oh, yes! The letters. Silly me, I almost forgot.",
+      "ru": "Ах да! Письма. Глупая я, чуть не забыла.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Hm... There's no sender... Are these all from the same person?",
+      "ru": "Хм... Отправитель не указан... Они все от одного человека?",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "The handwriting seems familiar. But, it doesn't say much...",
+      "ru": "Почерк кажется знакомым. Но это мало о чём говорит...",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "How strange... I feel like I should know who this is from... and yet, I don't.",
+      "ru": "Как странно... Мне кажется, я должна знать, от кого это... и всё же не знаю.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "Hm. I said I wouldn't pry, but... You don't work for the post, do you? I know your type.",
+      "ru": "Хм. Я сказала, что не буду расспрашивать, но... Вы ведь не работаете на почте? Я знаю таких, как вы.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "Ha! Why should I care?",
+      "ru": "Ха! А мне-то что?",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "But... you have piqued my curiosity with these letters...",
+      "ru": "Но... этими письмами вы §oи вправду§r пробудили моё любопытство...",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Say, 'mail deliverer', won't you be a dearie and water my plants while I read the rest of these letters? Maybe there is something else I can glean from reading them.",
+      "ru": "Скажите, \"почтальон\", не будете ли так любезны полить мои растения, пока я читаю остальные письма? Может, узнаю из них что-нибудь ещё.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "I have 3 plants outside and 3 pots inside. Just be sure not to overwater them! The watering can is just outside in the garden.",
+      "ru": "У меня §#55FFFF3 растения снаружи§r и §#55FFFF3 горшка внутри§r. Только не заливайте их! §#55FFFFЛейка снаружи, в саду.§r",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "Don't be afraid to ask if you're wondering anything! I don't bite, ha!",
+      "ru": "Если что-то хотите узнать, не стесняйтесь спрашивать! Я не кусаюсь, ха!",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "In the Roughworks? My whole life, ha. I'm only fifty... fifty-two, you know. Or maybe it was fifty-three.",
+      "ru": "В Роухворксе? Всю жизнь, ха. Мне всего пятьдесят... пятьдесят два. А может, пятьдесят три.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "... Which year is it again? I seem to have lost track.",
+      "ru": "...Какой сейчас год? Я, кажется, сбилась со счёта.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "So... goodness, longer than I expected. It must have been... Oh, by Her Grace! What does it matter, the years pass quicker for every one that goes.",
+      "ru": "Значит... боже, дольше, чем я думала. Должно быть... Ох, милостью Её Величества! Да какая разница, с каждым годом время летит всё быстрее.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0130",
+      "en": "That's what a life in the Roughworks does to you! Worked my whole life, I have. Ha, for no benefit either.",
+      "ru": "Вот что делает жизнь в Роухворксе! Работала всю жизнь. Ха, и без всякого толку.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0131",
+      "en": "Still as poor as the day I was born! But I have a home... and sometimes even good company. That's enough for silly old me.",
+      "ru": "Всё такая же бедная, как в день своего рождения! Но у меня есть дом... и порой даже хорошая компания. Глупой старушке вроде меня этого достаточно.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0132",
+      "en": "Ha! But that's why I moved here!",
+      "ru": "Ха! Так я потому сюда и переехала!",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0133",
+      "en": "In the apartments you can never be alone. No time to think, only to work. No dear, it's much better up here.",
+      "ru": "В квартирах никогда не побудешь одна. Думать некогда, только работать. Нет, дорогой, здесь гораздо лучше.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0134",
+      "en": "Lived my whole childhood in one of the towers. I was born there. That was until... until... Well, I've forgotten the reason, ha!",
+      "ru": "Всё детство прожила в одной из башен. Там и родилась. Пока... пока... Ну, забыла причину, ха!",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0135",
+      "en": "My memory isn't so good these days. It must have been twenty-five or so years ago.",
+      "ru": "Память нынче подводит. Должно быть, это было лет двадцать пять назад.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0136",
+      "en": "But I had a reason... a good one! Ha, it's funny isn't it? At the time it probably seemed like the most important thing in the world.",
+      "ru": "Но причина была... веская! Ха, забавно, правда? Тогда она, наверное, казалась самым важным на свете.",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0137",
+      "en": "But now, well, I've gone and forgotten the whole thing, haven't I?",
+      "ru": "А теперь, что ж, взяла и совсем о ней забыла, да?",
+      "stage": "Stage 13",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0138",
+      "en": "You take a sip.",
+      "ru": "Вы делаете глоток.",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0139",
+      "en": "You take another sip.",
+      "ru": "Вы делаете ещё один глоток.",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0140",
+      "en": "You slurp up the remaining tea leaves on the bottom of the cup.",
+      "ru": "Вы с хлюпаньем допиваете чай вместе с чаинками на дне чашки.",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0141",
+      "en": "You've run out of tea...",
+      "ru": "Чай закончился...",
+      "stage": "Stage 13",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0142",
+      "en": "The watering can is just outside in the garden. There are three plants inside and three plants outside.",
+      "ru": "Лейка снаружи, в саду. Нужно полить §#55FFFFтри растения внутри§r и §#55FFFFтри растения снаружи.§r",
+      "stage": "Stage 14",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0143",
+      "en": "[+1 Watering Can]",
+      "ru": "§#AA00AA[+1 Watering Can]§r",
+      "stage": "Stage 14",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0144",
+      "en": "Elise has probably finished reading those letters by now. You should return to her in the kitchen.",
+      "ru": "Элиза, наверное, уже закончила читать письма. §#55FFFFВернитесь к ней на кухню.§r",
+      "stage": "Stage 15",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0145",
+      "en": "Oh, what a mess... trying to make sense of this is making my head hurt.",
+      "ru": "Ох, какая путаница... От попыток во всём этом разобраться уже голова болит.",
+      "stage": "Stage 16",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0146",
+      "en": "So many letters, over so many years... who would possibly be so insistent on reaching me?",
+      "ru": "Столько писем, за столько лет... Кто мог так упорно пытаться со мной связаться?",
+      "stage": "Stage 16",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0147",
+      "en": "Hm? Oh, you finished watering the plants already? That was quick!",
+      "ru": "Хм? О, уже закончили поливать растения? Вот это быстро!",
+      "stage": "Stage 16",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0148",
+      "en": "Well, I certainly won't make any progress like this, and it seems we both are in need of a break.",
+      "ru": "Ну, так я точно ни в чём не разберусь, и, похоже, нам обоим не помешает передышка.",
+      "stage": "Stage 16",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0149",
+      "en": "Oh, it's such a lovely day today... Why don't we go outside and enjoy the garden for a bit?",
+      "ru": "О, сегодня такой чудесный день... Почему бы не выйти и не полюбоваться садом?",
+      "stage": "Stage 16",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0150",
+      "en": "Please, have a seat.",
+      "ru": "Пожалуйста, присаживайтесь.",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0151",
+      "en": "It really is beautiful today, isn't it?",
+      "ru": "Сегодня и правда чудесно, не так ли?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0152",
+      "en": "Ah... freshly watered flowers. Nothing beats that smell.",
+      "ru": "Ах... Только что политые цветы. Нет ничего лучше этого запаха.",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0153",
+      "en": "Hm. Do you see that tree over there?",
+      "ru": "Хм. Видите то дерево?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0154",
+      "en": "It's the only one of its kind in the whole of the Roughworks. Isn't it beautiful?",
+      "ru": "Во всём Роухворксе больше такого нет. Красивое, правда?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0155",
+      "en": "It was a gift, but from who... It's another thing I've forgotten.",
+      "ru": "Это был подарок, но от кого... Этого я тоже не помню.",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0156",
+      "en": "It's frustrating, so frustrating... All these precious memories...",
+      "ru": "Как же это досадно, так досадно... Все эти дорогие воспоминания...",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0157",
+      "en": "Where did they all go...",
+      "ru": "Куда они все делись...",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0158",
+      "en": "It isn't much now, that is for certain.",
+      "ru": "Пока оно невелико, это точно.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0159",
+      "en": "Well. It's beautiful already, don't you think?",
+      "ru": "Ну, оно уже красивое, тебе не кажется?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0160",
+      "en": "It will grow.",
+      "ru": "Оно вырастет.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0161",
+      "en": "Ha! Of course it will, it's a tree!",
+      "ru": "Ха! Конечно вырастет, это же дерево!",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0162",
+      "en": "Oh, you know I didn't mean it like that.",
+      "ru": "О, ты знаешь, я не это имела в виду.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0163",
+      "en": "For each year that passes... this tree will grow taller, and ever more beautiful.",
+      "ru": "С каждым годом... это дерево будет становиться выше и всё прекраснее.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0164",
+      "en": "It'll have to weather many storms, and on some days it might even have to go without water. And still, it will continue growing.",
+      "ru": "Ему придётся пережить немало бурь, а в некоторые дни, может, и вовсе остаться без воды. И всё равно оно будет расти.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0165",
+      "en": "So philosophical...",
+      "ru": "Как философски...",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0166",
+      "en": "And then in ten, fifteen, maybe even twenty-five years... we'll finally be able to rest in its shade.",
+      "ru": "А через десять, пятнадцать, может, даже двадцать пять лет... мы наконец сможем отдохнуть в его тени.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0167",
+      "en": "Twenty-five years!? We'll be old by then!",
+      "ru": "Двадцать пять лет!? Мы же к тому времени состаримся!",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0168",
+      "en": "Oh, I know! We could have a picnic underneath its canopy Doesn't that sound nice, tZoEsb?",
+      "ru": "О, я знаю! Мы могли бы устроить пикник под его кроной. Здорово было бы, tZoEsb?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0169",
+      "en": "... It does. It does sound nice, Elise. Perhaps we could.",
+      "ru": "...Да. Было бы здорово, Элиза. Возможно, так и сделаем.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0170",
+      "en": "Go on, give it some more water. Or it'll never grow an inch!",
+      "ru": "Давай, полей его ещё немного. А то ни на дюйм не вырастет!",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0171",
+      "en": "Fine, fine!",
+      "ru": "Ладно, ладно!",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0172",
+      "en": "Elise...",
+      "ru": "Элиза...",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0173",
+      "en": "What is it, RxmCQz?",
+      "ru": "Что такое, RxmCQz?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0174",
+      "en": "Nevermind. It's nothing...",
+      "ru": "Неважно. Ничего...",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0175",
+      "en": "I was just thinking... If I were to die some day, I'd like to be buried here, under the tree.",
+      "ru": "Я просто подумала... Если когда-нибудь умру, я бы хотела, чтобы меня похоронили здесь, под деревом.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0176",
+      "en": "Huh? What could possibly make you think about such silly things? We still have a long life left ahead of us, don't we?",
+      "ru": "А? С чего тебе вообще думать о таких глупостях? У нас ведь ещё вся жизнь впереди, правда?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0177",
+      "en": "Of course, you're right. I'm sorry, I'm just not used to this...",
+      "ru": "Конечно, ты права. Прости, я просто к этому не привыкла...",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0178",
+      "en": "To what?",
+      "ru": "К чему?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0179",
+      "en": "Being happy.",
+      "ru": "Быть счастливой.",
+      "stage": "Stage 17",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0180",
+      "en": "Let's just enjoy the sun, for a bit. There's still work tomorrow.",
+      "ru": "Давай просто немного понежимся на солнце. Завтра ещё работать.",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0181",
+      "en": "Ah... Hah, what just happened...?",
+      "ru": "Ах... Ха, что это сейчас было...?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0182",
+      "en": "Who... Who was she...?",
+      "ru": "Кто... Кто она была...?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0183",
+      "en": "Hm. I shall leave the worrying for another day, I think. Today is a good day... not a day for worrying.",
+      "ru": "Хм. Думаю, оставлю тревоги на другой день. Сегодня хороший день... не для тревог.",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0184",
+      "en": "In fact, today is too nice a day to waste it... by not going anywhere, that is. Wouldn't you agree?",
+      "ru": "Вообще-то день слишком хорош, чтобы его упускать... то есть никуда не идти. Согласны?",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0185",
+      "en": "Here, follow me.",
+      "ru": "Вот, идите за мной.",
+      "stage": "Stage 17",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0186",
+      "en": "Ah... Do you see that factory off that way? I used to work there, back when I was younger...",
+      "ru": "Ах... Видите тот завод? Я работала там в молодости...",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0187",
+      "en": "We mass-produced bread for the higher regions... Tedious work, and thankless too.",
+      "ru": "Мы пекли хлеб для верхних районов... Утомительная работа, да ещё и неблагодарная.",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0188",
+      "en": "I'm sure you have noticed, but things around here aren't too easy. Some people even go as far as stealing when times are tough...",
+      "ru": "Вы наверняка заметили, что жизнь здесь нелёгкая. Когда совсем тяжело, некоторые даже начинают воровать...",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0189",
+      "en": "Fortunately... I never had to. They would let us take some home, every once in a while.",
+      "ru": "К счастью... мне не пришлось. Иногда нам разрешали взять немного домой.",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0190",
+      "en": "Those were good days. On those occasions, we'd go and have ourselves a picnic, me and- hm. Just me, I suppose.",
+      "ru": "Это были хорошие дни. Тогда мы шли на пикник, я и... хм. Наверное, только я.",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0191",
+      "en": "A shame it's so hard to come by... the thefts became a real problem, you know. The Crown ended up building a vault down under the factory to keep it all secure!",
+      "ru": "Жаль, что его так трудно достать... кражи стали настоящей проблемой. Корона даже построила §#55FFFFхранилище под заводом§r, чтобы всё уберечь!",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0192",
+      "en": "How long, since I last had some? Years, surely... not like any of that bread ever makes it to us poor folk, ha!",
+      "ru": "Как давно я его не ела? Наверняка много лет... Не то чтобы этот хлеб доставался нам, беднякам, ха!",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0193",
+      "en": "But it'd be nice to have some again, I suppose... reminisce on old times.",
+      "ru": "Но, пожалуй, было бы славно снова его попробовать... вспомнить старые времена.",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0194",
+      "en": "Well, if you're running errands for me already... mind seeing if you can get your hands on a loaf or two?",
+      "ru": "Ну, раз уж вы и так выполняете мои поручения... не попробуете достать одну-две буханки?",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0195",
+      "en": "It's expensive, but for the right price... I'm sure you could get ahold of some. You don't seem the sort to struggle with that kind of thing, do you, letter carrier?",
+      "ru": "Он дорогой, но за хорошую плату... уверена, вы сможете его достать. Не похожи вы на человека, которому это трудно, почтальон.",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0196",
+      "en": "Ha! Well, do your best, either way. Once you come back, I have a plan for what we can do today. How's that sound?",
+      "ru": "Ха! В любом случае постарайтесь. Когда вернётесь, у меня уже есть план на сегодня. Как вам?",
+      "stage": "Stage 18",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0197",
+      "en": "Oh, no... You know! You know! Speak to that constable first, and perhaps, I'll tell you more.",
+      "ru": "О нет... Ты знаешь! Ты знаешь! §#55FFFFСначала поговори с тем констеблем§r, и, возможно, я расскажу тебе больше.",
+      "stage": "Stage 19",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0198",
+      "en": "If you've come to beg, you might as well leave.",
+      "ru": "Если пришёл попрошайничать, можешь сразу уходить.",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0199",
+      "en": "Huh? Alright, bud. We all do.",
+      "ru": "А? Ну да, приятель. Всем нам нужен.",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0200",
+      "en": "Was there something else?",
+      "ru": "Что-то ещё?",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0201",
+      "en": "Do I look like a vending machine to you? Go find somewhere else. We just make bread here, we don't sell it.",
+      "ru": "Я тебе на торговый автомат похож? Иди куда-нибудь ещё. Мы здесь только печём хлеб, не продаём.",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0202",
+      "en": "Get out of here pal, you shouldn't be loitering around under a Constable's watch.",
+      "ru": "Уходи, приятель. Нечего слоняться под надзором констебля.",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0203",
+      "en": "But my friend worked here, and...",
+      "ru": "Но моя подруга здесь работала, и...",
+      "stage": "Stage 19",
+      "speaker": "Player"
+    },
+    {
+      "id": "dialogue-0204",
+      "en": "But, but, but! No buts. Don't make me have to do something! The paperwork is always such a hassle...",
+      "ru": "Но, но, но! Никаких \"но\". Не заставляй меня принимать меры! Потом с бумагами такая морока...",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0205",
+      "en": "Last chance, bud.",
+      "ru": "Последний шанс, приятель.",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0206",
+      "en": "Can I at least get a look inside...?",
+      "ru": "Можно хотя бы заглянуть внутрь...?",
+      "stage": "Stage 19",
+      "speaker": "Player"
+    },
+    {
+      "id": "dialogue-0207",
+      "en": "Obviously not... We have enough problems as it is, what with that stolen barrel last week... And the production quotas...",
+      "ru": "Конечно нет... Нам и так проблем хватает: бочка, украденная на прошлой неделе... планы по выпуску продукции...",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0208",
+      "en": "Don't you have something better to do anyway?",
+      "ru": "У тебя что, больше дел нет?",
+      "stage": "Stage 19",
+      "speaker": "Constable"
+    },
+    {
+      "id": "dialogue-0209",
+      "en": "Doesn't look like you're going to get anything out of this guy...",
+      "ru": "Похоже, от этого типа ничего не добьёшься...",
+      "stage": "Stage 19",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0210",
+      "en": "Psst!",
+      "ru": "Псст!",
+      "stage": "Stage 19",
+      "speaker": "???"
+    },
+    {
+      "id": "dialogue-0211",
+      "en": "Over here, friend of a friend!",
+      "ru": "Сюда, друг моего друга!",
+      "stage": "Stage 19",
+      "speaker": "???"
+    },
+    {
+      "id": "dialogue-0212",
+      "en": "He looks to be half asleep...",
+      "ru": "Он, кажется, наполовину спит...",
+      "stage": "Stage 20",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0213",
+      "en": "Did you know? Did you know? There is more than one way to enter any building.",
+      "ru": "Ты знал? Ты знал? В любое здание есть больше одного входа.",
+      "stage": "Stage 20",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0214",
+      "en": "I'll tell you! But, stealing is unethical, you must know!",
+      "ru": "Я расскажу! Но ты должен знать: воровать нехорошо!",
+      "stage": "Stage 20",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0215",
+      "en": "As long as she doesn't know! She won't know! Do you understand?",
+      "ru": "Только пусть она не знает! Она не узнает! Понимаешь?",
+      "stage": "Stage 20",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0216",
+      "en": "It's just around the corner, you see. A pipe! Now you know! Now you know!",
+      "ru": "§#55FFFFПрямо за углом§r, видишь. §#55FFFFТруба!§r Теперь ты знаешь! Теперь ты знаешь!",
+      "stage": "Stage 20",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0217",
+      "en": "It's just around the corner, you see. A pipe! Now you know! Now you know!",
+      "ru": "§#55FFFFПрямо за углом§r, видишь. §#55FFFFТруба!§r Теперь ты знаешь! Теперь ты знаешь!",
+      "stage": "Stage 21",
+      "speaker": "Bush"
+    },
+    {
+      "id": "dialogue-0218",
+      "en": "This must be the pipe Bush was talking about...",
+      "ru": "Должно быть, это та труба, о которой говорил Куст...",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0219",
+      "en": "Enter the pipe?",
+      "ru": "Войти в трубу?",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0220",
+      "en": "In order to steal the bread, you must stay hidden.",
+      "ru": "Чтобы украсть хлеб, §#55FFFFнужно оставаться незамеченным.§r",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0221",
+      "en": "When close to workers, SNEAK to remain hidden.",
+      "ru": "Рядом с рабочими <em> §lКРАДИТЕСЬ§r, чтобы оставаться незамеченным.",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0222",
+      "en": "You could knock out the workers with this...",
+      "ru": "Этим можно §#55FFFFоглушить рабочих§r...",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0223",
+      "en": "When close to workers, LEFT-CLICK with Bottle to knock out.",
+      "ru": "Рядом с рабочими нажмите <em> §lЛКМ§r с §#55FF55§lBottle§r в руке, чтобы оглушить их.",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0224",
+      "en": "After knocking them out, RIGHT-CLICK to search workers.",
+      "ru": "Оглушив рабочих, нажмите <em> §lПКМ§r, чтобы §#55FFFFобыскать их.§r",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0225",
+      "en": "You rustle through their pockets...",
+      "ru": "Вы шарите по их карманам...",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0226",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0227",
+      "en": "[+1 Grate Key]",
+      "ru": "§#AA00AA[+1 Grate Key]§r",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0228",
+      "en": "With this, you can open the grate to the pipe and progress.",
+      "ru": "Теперь можно §#55FFFFоткрыть решётку трубы и пройти дальше.§r",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0229",
+      "en": "[-1 Pipe Key]",
+      "ru": "§#AA00AA[-1 Pipe Key]§r",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0230",
+      "en": "To stay out of sight of workers, use Bottles to distract them.",
+      "ru": "Чтобы рабочие вас не заметили, используйте §#55FF55§lBottles§r и §#55FFFFотвлекайте их.§r",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0231",
+      "en": "Throw a Bottle by RIGHT-CLICKING to aim and then RIGHT-CLICKING again to throw.",
+      "ru": "Чтобы бросить §#55FF55§lBottle§r, нажмите <em> §lПКМ§r для прицеливания, затем ещё раз <em> §lПКМ§r §#55FFFFдля броска.§r",
+      "stage": "Stage 21",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0232",
+      "en": "Wait! Who are you!?",
+      "ru": "Стой! Ты кто!?",
+      "stage": "Stage 22",
+      "speaker": "Worker"
+    },
+    {
+      "id": "dialogue-0233",
+      "en": "What was that?",
+      "ru": "§oЧто это было?§r",
+      "stage": "Stage 22",
+      "speaker": "Worker"
+    },
+    {
+      "id": "dialogue-0234",
+      "en": "Oh well...",
+      "ru": "§oНу и ладно...§r",
+      "stage": "Stage 22",
+      "speaker": "Worker"
+    },
+    {
+      "id": "dialogue-0235",
+      "en": "Hmm?",
+      "ru": "§oХм?§r",
+      "stage": "Stage 22",
+      "speaker": "Worker"
+    },
+    {
+      "id": "dialogue-0236",
+      "en": "You rustle through their pockets...",
+      "ru": "Вы шарите по их карманам...",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0237",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0238",
+      "en": "There's nothing worth taking.",
+      "ru": "Здесь нечего взять.",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0239",
+      "en": "Activate EMERGENCY SHUTDOWN by inputting the activation code.",
+      "ru": "Запустите §#AA0000АВАРИЙНОЕ ОТКЛЮЧЕНИЕ§r, введя §#AA00AAкод активации.§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0240",
+      "en": "Someone around here has to have the code to this...",
+      "ru": "У кого-то поблизости должен быть код...",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0241",
+      "en": "EMERGENCY SHUTDOWN code successfully inputted. Press Activation Button to initiate.",
+      "ru": "Код §#AA0000АВАРИЙНОГО ОТКЛЮЧЕНИЯ§r принят. §#55FFFFНажмите кнопку активации для запуска.§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0242",
+      "en": "After initiating emergency shutdown, you will have 30 seconds to make it to the vault. Do you want to press the button?",
+      "ru": "После аварийного отключения у вас будет §#55FFFF30 секунд§r, чтобы попасть в хранилище. Нажать кнопку?",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0243",
+      "en": "Initiating EMERGENCY SHUTDOWN...",
+      "ru": "Запуск §#AA0000АВАРИЙНОГО ОТКЛЮЧЕНИЯ§r...",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0244",
+      "en": "[+1 Empty Bottle]",
+      "ru": "§#AA00AA[+1 Empty Bottle]§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0245",
+      "en": "The bottle is too high up to reach...",
+      "ru": "Бутылка слишком высоко, не достать...",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0246",
+      "en": "You are already carrying a bottle.",
+      "ru": "У вас уже есть бутылка.",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0247",
+      "en": "That must be the way in to the vault Elise mentioned.",
+      "ru": "Должно быть, это вход в хранилище, о котором говорила Элиза.",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0248",
+      "en": "Now to find a way inside without being caught...",
+      "ru": "Теперь нужно §#55FFFFнайти способ попасть внутрь и не попасться...§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0249",
+      "en": "The door is locked. A note is plastered on the front.",
+      "ru": "Дверь заперта. На ней приклеена записка.",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0250",
+      "en": "Hey, I left the key in the break room if you need it. Be careful though! Get the Supervisor to disable the oven first, or you'll be toast!",
+      "ru": "Эй, я оставил §#55FFFFключ в комнате отдыха§r, если понадобится. Только осторожно! Попроси Начальника §#55FFFFсначала выключить печь§r, а то поджаришься!",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0251",
+      "en": "Haha... get it? Nevermind...",
+      "ru": "Ха-ха... дошло? Неважно...",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0252",
+      "en": "Who's there?",
+      "ru": "Кто там?",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0253",
+      "en": "Uhh? That's not an answer! Now, tell me who you are or I'll have a look for myself! And I never forget faces, keep that in mind!",
+      "ru": "Э-э? Это не ответ! Говори, кто ты, или я сам посмотрю! И учти: я никогда не забываю лиц!",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0254",
+      "en": "What's a worker doing in my office!? Now, tell me who you are or I'll have a look for myself! And I never forget faces, keep that in mind!",
+      "ru": "Что рабочий делает в моём кабинете!? Говори, кто ты, или я сам посмотрю! И учти: я никогда не забываю лиц!",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0255",
+      "en": "A slacker you say?",
+      "ru": "Бездельника, говоришь?",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0256",
+      "en": "Well, thank you for bringing this to my attention! I will investigate the matter immediately!",
+      "ru": "Что ж, спасибо, что сообщили! Я немедленно разберусь!",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0257",
+      "en": "Aaaaaaghh!!",
+      "ru": "А-а-а-аргх!!",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0258",
+      "en": "You're supposed to be working!",
+      "ru": "§oТы должен работать!§r",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0259",
+      "en": "Stop pretending you're asleep...",
+      "ru": "§oХватит притворяться спящим...§r",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0260",
+      "en": "This is being deducted from your pay!",
+      "ru": "§oЭто вычтут из твоей зарплаты!§r",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0261",
+      "en": "Stop being so dramatic!",
+      "ru": "§oХватит устраивать спектакль!§r",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0262",
+      "en": "You're being written down.",
+      "ru": "§oЯ это запишу.§r",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0263",
+      "en": "Do something!",
+      "ru": "§oДелай хоть что-нибудь!§r",
+      "stage": "Stage 22",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0264",
+      "en": "[+1 Password Card]",
+      "ru": "§#AA00AA[+1 Password Card]§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0265",
+      "en": "They really ought to improve their security around here...",
+      "ru": "Им бы стоило усилить охрану...",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0266",
+      "en": "Deactivating oven...",
+      "ru": "Отключение печи...",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0267",
+      "en": "Now, to find the Maintenance Key...",
+      "ru": "Теперь §#55FFFFнайти бы Maintenance Key...§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0268",
+      "en": "Perfect, you should be able to enter the maintenance door now.",
+      "ru": "Отлично, теперь можно §#55FFFFоткрыть дверь для обслуживания§r.",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0269",
+      "en": "[+1 Maintenance Key]",
+      "ru": "§#AA00AA[+1 Maintenance Key]§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0270",
+      "en": "A maintenance key. With this you could unlock the maintenance entrance to the oven.",
+      "ru": "Ключ для обслуживания. Им можно §#55FFFFоткрыть служебный вход к печи.§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0271",
+      "en": "[-1 Maintenance Key]",
+      "ru": "§#AA00AA[-1 Maintenance Key]§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0272",
+      "en": "Too hot!",
+      "ru": "§#FF5555Слишком горячо!§r",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0273",
+      "en": "Too hot! You can't enter here without first turning the oven off.",
+      "ru": "§#FF5555Слишком горячо!§r Сначала нужно §#55FFFFвыключить печь§r, иначе сюда не войти.",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0274",
+      "en": "Do you want to infiltrate the Bread Vault through this method?",
+      "ru": "Хотите проникнуть в хлебное хранилище этим способом?",
+      "stage": "Stage 22",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0275",
+      "en": "This hallway looks heavily guarded. Maybe there's a different path you could take.",
+      "ru": "Этот коридор хорошо охраняется. Может, есть §#55FFFFдругой путь§r.",
+      "stage": "Stage 23",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0276",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 24",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0277",
+      "en": "There must be a way to get to that balcony above.",
+      "ru": "Должен быть способ §#55FFFFдобраться до того балкона§r наверху.",
+      "stage": "Stage 24",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0278",
+      "en": "Now, how to get up from here...",
+      "ru": "Теперь бы подняться отсюда...",
+      "stage": "Stage 24",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0279",
+      "en": "Maybe if you hit those bottles, it will move the beam.",
+      "ru": "Возможно, если §#55FFFFпопасть в те бутылки, балка сдвинется§r.",
+      "stage": "Stage 24",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0280",
+      "en": "You could get across this gap by arranging the suspended beams into a path.",
+      "ru": "Можно преодолеть этот разрыв, если §#55FFFFвыстроить подвешенные балки в дорожку§r.",
+      "stage": "Stage 27",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0281",
+      "en": "Move an rotate the selected beam using the directional buttons.",
+      "ru": "§#55FFFFПеремещайте и поворачивайте выбранную балку§r §#FFAA00кнопками направлений§r.",
+      "stage": "Stage 27",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0282",
+      "en": "Switch between selected beams using the switch button.",
+      "ru": "§#55FFFFМеняйте выбранную балку§r §#FFAA00кнопкой переключения§r.",
+      "stage": "Stage 27",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0283",
+      "en": "They're having a discussion you can just barely make out...",
+      "ru": "Они о чём-то разговаривают, но слова едва можно разобрать...",
+      "stage": "Stage 28",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0284",
+      "en": "...and in accordance with our protocols, we will require a detailed record of this former employee. Years of employment, known associates, work performance... all of it.",
+      "ru": "...и в соответствии с нашими правилами нам потребуется подробное досье на эту бывшую сотрудницу. Годы работы, известные связи, качество работы... всё.",
+      "stage": "Stage 28",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0285",
+      "en": "Naturally, I will comply to the best of my ability, blessed be Her Grace. But to think that the mere theft of one crate would reach this high a level...",
+      "ru": "Разумеется, я сделаю всё, что в моих силах, благословенна Её Милость. Но подумать только, что кража всего одного ящика привлечёт внимание на таком высоком уровне...",
+      "stage": "Stage 28",
+      "speaker": "Vault Chief"
+    },
+    {
+      "id": "dialogue-0286",
+      "en": "The crate is not relevant. It is the employee who is of interest. Further measures may be necessary, but the records will do well to begin with.",
+      "ru": "Ящик не имеет значения. Нас интересует сотрудница. Возможно, потребуются дальнейшие меры, но для начала хватит и записей.",
+      "stage": "Stage 28",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0287",
+      "en": "...only the employee? Pardon my questions, but I do not understand why she is of interest to you.",
+      "ru": "...только сотрудница? Простите за вопросы, но я не понимаю, почему она вас интересует.",
+      "stage": "Stage 28",
+      "speaker": "Vault Chief"
+    },
+    {
+      "id": "dialogue-0288",
+      "en": "That is for us to know, and for you to comply. But it pertains to a potential security breach which we are investigating.",
+      "ru": "Нам это знать, а вам - подчиняться. Однако дело касается возможного нарушения безопасности, которое мы расследуем.",
+      "stage": "Stage 28",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0289",
+      "en": "At my factory? What are you implying!?",
+      "ru": "На моём заводе? На что вы намекаете!?",
+      "stage": "Stage 28",
+      "speaker": "Vault Chief"
+    },
+    {
+      "id": "dialogue-0290",
+      "en": "I imply nothing. Must you be reminded of your position? It is by Her Majesty's will that I am here today. Do you truly wish to stand against it?",
+      "ru": "Я ни на что не намекаю. Вам напомнить о вашем положении? Сегодня я здесь по воле Её Величества. Вы действительно хотите ей противиться?",
+      "stage": "Stage 28",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0291",
+      "en": "I... I humbly apologize... I didn't mean-",
+      "ru": "Я... я покорно прошу прощения... Я не хотел-",
+      "stage": "Stage 28",
+      "speaker": "Vault Chief"
+    },
+    {
+      "id": "dialogue-0292",
+      "en": "The records?",
+      "ru": "Записи?",
+      "stage": "Stage 28",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0293",
+      "en": "Y-yes, of course. But, still, I had thought that matter was settled years ago! What connection could it possibly have to-",
+      "ru": "Д-да, конечно. Но я всё же думал, что тот вопрос был решён много лет назад! Как он вообще может быть связан с-",
+      "stage": "Stage 28",
+      "speaker": "Vault Chief"
+    },
+    {
+      "id": "dialogue-0294",
+      "en": "Enough aimless rambling. My time is limited. Pull up those records on this Elise, immediately.",
+      "ru": "Хватит пустой болтовни. Моё время ограничено. Немедленно принесите записи об этой §#AA0000Элизе§r.",
+      "stage": "Stage 28",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0295",
+      "en": "U-understood, ma'am... I'll get them right away.",
+      "ru": "П-понял, госпожа... Сейчас принесу.",
+      "stage": "Stage 28",
+      "speaker": "Vault Chief"
+    },
+    {
+      "id": "dialogue-0296",
+      "en": "...What was that about?",
+      "ru": "...О чём это они?",
+      "stage": "Stage 28",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0297",
+      "en": "It would be best to get the bread and get out of this place quickly.",
+      "ru": "Лучше §#55FFFFпоскорее взять хлеб и выбраться отсюда§r.",
+      "stage": "Stage 28",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0298",
+      "en": "Finally... The bread you've been looking for.",
+      "ru": "Наконец-то... Хлеб, который вы искали.",
+      "stage": "Stage 30",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0299",
+      "en": "[+1 Vault Bread]",
+      "ru": "§#AA00AA[+1 Vault Bread]§r",
+      "stage": "Stage 30",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0300",
+      "en": "Now all you have to do is get out of this place somehow...",
+      "ru": "Теперь осталось как-нибудь выбраться отсюда...",
+      "stage": "Stage 30",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0301",
+      "en": "Well, well, well... it would seem the rats aren't the only plague to infest this place.",
+      "ru": "Так-так-так... Похоже, крысы - не единственная зараза, проникшая сюда.",
+      "stage": "Stage 32",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0302",
+      "en": "And here I had thought this particular lead was dead end! Only years-old records which tell us nothing we did not already know... always a risk, but worth checking regardless.",
+      "ru": "А я-то думала, что этот след никуда не ведёт! Старые записи, в которых нет ничего нового... Такое бывает, но проверить всё равно стоило.",
+      "stage": "Stage 32",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0303",
+      "en": "But here you are. One of the province's most wanted criminals. What a strange coincidence, finding you here.",
+      "ru": "Но вот и ты. Один из самых разыскиваемых преступников провинции. Какое странное совпадение - встретить тебя здесь.",
+      "stage": "Stage 32",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0304",
+      "en": "I must wonder... for what reason are you here?",
+      "ru": "Любопытно... зачем ты сюда пришёл?",
+      "stage": "Stage 32",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0305",
+      "en": "I know better than to expect an answer. But it does not matter, in the end. We will get it out of you eventually.",
+      "ru": "Я знаю, что ответа ждать не стоит. Но в итоге это не имеет значения. Рано или поздно мы его из тебя выбьем.",
+      "stage": "Stage 32",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0306",
+      "en": "Constables! Capture them!",
+      "ru": "Констебли! Схватить их!",
+      "stage": "Stage 32",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0307",
+      "en": "Not so fast!",
+      "ru": "Не так быстро!",
+      "stage": "Stage 33",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0308",
+      "en": "It seems like Elise has visitors...",
+      "ru": "Похоже, у Элизы гости...",
+      "stage": "Stage 36",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0309",
+      "en": "You could either confront them or talk to Elise about what to do.",
+      "ru": "Можно §#55FFFFдать им отпор§r или §#55FFFFобсудить с Элизой, что делать.§r",
+      "stage": "Stage 36",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0310",
+      "en": "Open up!",
+      "ru": "Открывайте!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0311",
+      "en": "What will you do?",
+      "ru": "Что будете делать?",
+      "stage": "Stage 36",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0312",
+      "en": "Oh, it's the Water Authority! I don't know why they're here... but it can't be for any good reason.",
+      "ru": "О, это Управление Водоснабжения! Не знаю, зачем они здесь... но точно не с добрыми намерениями.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0313",
+      "en": "Open up already! We know you're in there!",
+      "ru": "Открывайте уже! Мы знаем, что вы там!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0314",
+      "en": "Really, you should hide. It's okay, I've dealt with their type before. I'll send them away.",
+      "ru": "Вам лучше спрятаться. Ничего, я уже имела дело с такими. Я их выпровожу.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0315",
+      "en": "What will you do?",
+      "ru": "Что будете делать?",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0316",
+      "en": "Good. Quick, find somewhere to hide!",
+      "ru": "Хорошо. Скорее, найдите укрытие!",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0317",
+      "en": "Wait one second! I'll hide behind the plant!",
+      "ru": "Подождите секунду! Я спрячусь за растением!",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0318",
+      "en": "Halt!",
+      "ru": "Стоять!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0319",
+      "en": "Who are you!?",
+      "ru": "Ты кто!?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0320",
+      "en": "A friend, you say? Then you should be able to tell me why she's not answering the door!",
+      "ru": "Друг, говоришь? Тогда ты должен знать, почему она не открывает дверь!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0321",
+      "en": "Why would that be, 'friend'?",
+      "ru": "Почему же, \"друг\"?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0322",
+      "en": "Someone like me!? What's that supposed to mean?",
+      "ru": "Таким, как я!? Что это должно значить?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0323",
+      "en": "Oh, you'll pay for this insult! We have authority to enforce our orders with force, you know! We can do anything we want!",
+      "ru": "О, ты заплатишь за это оскорбление! Мы вправе принуждать к исполнению приказов силой! Мы можем делать §oвсё§r, что захотим!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0324",
+      "en": "Not at home, you say? How convenient. Just as the inspection comes around they're not at home to greet us!",
+      "ru": "Не дома, говоришь? Как удобно. Как только приходит инспекция, их нет дома, чтобы нас встретить!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0325",
+      "en": "It's almost like someone tipped them off, don't you think?",
+      "ru": "Как будто их кто-то предупредил, не думаешь?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0326",
+      "en": "Say friend, did you tip off the subject that we were coming?",
+      "ru": "Скажи, друг, это ты предупредил подданную о нашем приходе?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0327",
+      "en": "Very well, then. But we will still need to get in to conduct the search.",
+      "ru": "Ну хорошо. Но нам всё равно нужно войти, чтобы провести обыск.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0328",
+      "en": "If you won't be of any use, then you better get out of our way!",
+      "ru": "Если от тебя никакого толку, лучше уйди с дороги!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0329",
+      "en": "At the bread factory? That's none of our concern, we're the Water Authority, not the Bread Authority!",
+      "ru": "На хлебозаводе? Это не наше дело, мы Управление Водоснабжения, а не Хлебоснабжения!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0330",
+      "en": "A massive water spillage, you say!?",
+      "ru": "Огромная утечка воды, говоришь!?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0331",
+      "en": "And you're not making this up? We don't take easily to liars, you should know.",
+      "ru": "И ты это не выдумал? Учти, мы не жалуем лжецов.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0332",
+      "en": "Inspector, there seems to be some commotion coming from the Bread Factory.",
+      "ru": "Инспектор, с хлебозавода, кажется, доносится какой-то шум.",
+      "stage": "Stage 36",
+      "speaker": "Sentinel"
+    },
+    {
+      "id": "dialogue-0333",
+      "en": "Hmm... Well, in that case, we'll have to check it out. Thank you for the information, citizen.",
+      "ru": "Хм... Ну, тогда нам нужно это проверить. Спасибо за сведения, гражданин.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0334",
+      "en": "Passing by! As if! Did you really think I would believe that story?",
+      "ru": "Проходил мимо! Как бы не так! Ты правда думал, что я поверю этой сказке?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0335",
+      "en": "We are here to execute a search. Your water usage levels have exceeded your authorized allotment.",
+      "ru": "Мы пришли провести обыск. Ваш расход воды превысил разрешённую норму.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0336",
+      "en": "Step aside, subject. Now.",
+      "ru": "В сторону, подданный. Сейчас же.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0337",
+      "en": "You are alone. Correct?",
+      "ru": "Ты один. Верно?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0338",
+      "en": "Very well. We will now conduct an inspection of your property. Step out of the way, subject.",
+      "ru": "Хорошо. Теперь мы осмотрим твою собственность. Отойди, подданный.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0339",
+      "en": "What's this? No wonder you're exceeding your water limit when you've been keeping illicit plants!",
+      "ru": "Это что? Неудивительно, что вы превышаете лимит воды: держите запрещённые растения!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0340",
+      "en": "Wait a second... There's someone hiding behind there! You said you were alone!",
+      "ru": "Подождите... Там кто-то прячется! Ты сказал, что один!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0341",
+      "en": "You're under arrest!",
+      "ru": "Ты арестован!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0342",
+      "en": "Noooooooo, Alphonse! How... How could you do this!?",
+      "ru": "Нееееет, Альфонс! Как... Как ты мог это сделать!?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0343",
+      "en": "You'll pay for this, you rat! In the name of Her Majesty!",
+      "ru": "Ты за это заплатишь, крыса! Именем Её Величества!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0344",
+      "en": "Are you alright!? I heard a commotion, and—",
+      "ru": "Вы в порядке!? Я услышала шум, и-",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0345",
+      "en": "...oh, dear. What a scene...",
+      "ru": "...ох, боже. Что здесь творится...",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0346",
+      "en": "You may as well come inside, dearie.",
+      "ru": "Лучше заходите внутрь, дорогой.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0347",
+      "en": "Are you alright!?",
+      "ru": "Вы в порядке!?",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0348",
+      "en": "But how strange... The authorities have never bothered me before... Oh, let's just get inside for now.",
+      "ru": "Но как странно... Власти меня раньше никогда не беспокоили... Ох, давайте пока зайдём внутрь.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0349",
+      "en": "Hide inside the dresser?",
+      "ru": "Спрятаться в комоде?",
+      "stage": "Stage 36",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0350",
+      "en": "There you go. Now, what business could Her Majesty's authorities possibly have with little old me?",
+      "ru": "Ну вот. Так какое дело у властей Её Величества к старушке вроде меня?",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0351",
+      "en": "We are here to execute a search. You water usage levels have exceeded you authorized allotment.",
+      "ru": "Мы пришли провести обыск. Ваш расход воды превысил разрешённую норму.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0352",
+      "en": "Well, I don't see-",
+      "ru": "Ну, я не вижу-",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0353",
+      "en": "You are alone, correct?",
+      "ru": "Вы одна, верно?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0354",
+      "en": "That's correct. Is that all?",
+      "ru": "Верно. Это всё?",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0355",
+      "en": "We'll be done here after we've finished our inspection.",
+      "ru": "Мы закончим, когда завершим осмотр.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0356",
+      "en": "Say, would you prefer us searching the lower or upper floor first?",
+      "ru": "Скажите, какой этаж вы предпочли бы обыскать первым: нижний или верхний?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0357",
+      "en": "How kind of you to ask... but as there is nothing of interest anywhere, I would suggest you start by finding a reason to get out of my home.",
+      "ru": "Как мило с вашей стороны спросить... Но здесь нигде нет ничего интересного, так что советую для начала найти причину покинуть мой дом.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0358",
+      "en": "I wouldn't want to waste your time, is all.",
+      "ru": "Просто не хочу тратить ваше время.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0359",
+      "en": "The lower floor then. Thank you for your cooperation.",
+      "ru": "Тогда нижний этаж. Спасибо за содействие.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0360",
+      "en": "Out of my way, subject.",
+      "ru": "С дороги, подданная.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0361",
+      "en": "Fine.",
+      "ru": "Ладно.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0362",
+      "en": "Oh what's the matter with you!?",
+      "ru": "Да что с вами такое!?",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0363",
+      "en": "I've worked my whole life in the factories! Can't I have some flowers to keep me company in my old age?",
+      "ru": "Я всю жизнь работала на заводах! Неужели нельзя на старости лет завести себе цветы?",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0364",
+      "en": "Inspector. A message from the Authority.",
+      "ru": "Инспектор. Сообщение из Управления.",
+      "stage": "Stage 36",
+      "speaker": "Sentinel"
+    },
+    {
+      "id": "dialogue-0365",
+      "en": "What's this now?",
+      "ru": "Это ещё что?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0366",
+      "en": "Hide under the bed?",
+      "ru": "Спрятаться под кроватью?",
+      "stage": "Stage 36",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0367",
+      "en": "How kind of you to ask... but as the upper floor is my bedroom, I would prefer it if you didn't inspect my bedsheets.",
+      "ru": "Как мило с вашей стороны спросить... Но наверху моя спальня, и я бы предпочла, чтобы вы не осматривали мои простыни.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0368",
+      "en": "The upper floor then. Thank you for your cooperation.",
+      "ru": "Тогда верхний этаж. Спасибо за содействие.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0369",
+      "en": "How quaint. Doesn't it get lonely, living up here all by your lonesome?",
+      "ru": "Как мило. Разве не одиноко жить здесь совсем одной?",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0370",
+      "en": "I get by.",
+      "ru": "Справляюсь.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0371",
+      "en": "Anyhow, I am required to inform you that you are in breach of the ordinance on water usage and will have to-",
+      "ru": "Как бы то ни было, я обязан сообщить, что вы нарушили постановление о расходе воды и должны будете-",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0372",
+      "en": "Hide inside the wardrobe?",
+      "ru": "Спрятаться в шкафу?",
+      "stage": "Stage 36",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0373",
+      "en": "What are you mumbling about?",
+      "ru": "Что вы там бормочете?",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0374",
+      "en": "Well, seems you're in luck this time, subject.",
+      "ru": "Ну что ж, в этот раз вам повезло, подданная.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0375",
+      "en": "Some higher authority has overruled our command... we're being recalled.",
+      "ru": "Вышестоящие отменили наш приказ... нас отзывают.",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0376",
+      "en": "But don't be mistaken. We'll be back!",
+      "ru": "Но не обольщайтесь. Мы вернёмся!",
+      "stage": "Stage 36",
+      "speaker": "Inspector"
+    },
+    {
+      "id": "dialogue-0377",
+      "en": "Well, you won't be welcome next time!",
+      "ru": "И в следующий раз вам здесь тоже будут не рады!",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0378",
+      "en": "Nuisances, all of them... Well, it worked out in the end, didn't it?",
+      "ru": "Надоедливые, все до одного... Ну, в итоге всё обошлось, правда?",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0379",
+      "en": "They're gone, you can come out now.",
+      "ru": "Они ушли, можете выходить.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0380",
+      "en": "Come, let's sit down and have a talk.",
+      "ru": "Идёмте, сядем и поговорим.",
+      "stage": "Stage 36",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0381",
+      "en": "Please, have a seat.",
+      "ru": "Пожалуйста, присаживайтесь.",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0382",
+      "en": "Right! The bread! So forgetful these days...",
+      "ru": "Точно! §oХлеб!§r Такая я нынче забывчивая...",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0383",
+      "en": "Well? How did it go? Did you get any? I hope it wasn't too much trouble...",
+      "ru": "Ну? Как всё прошло? Достали? Надеюсь, это было не слишком трудно...",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0384",
+      "en": "Oh, wonderful. Thank you. That should be everything we need...",
+      "ru": "О, чудесно. Спасибо. Теперь у нас должно быть всё необходимое...",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0385",
+      "en": "Well, if there was no other way... If the Authority is going to stomp in here looking for plants, taking a loaf of bread in return seems like a fair deal!",
+      "ru": "Ну, если иначе было никак... Если Управление может вломиться сюда за растениями, взять взамен буханку хлеба кажется вполне справедливым!",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0386",
+      "en": "Ha... Well, what's another crime added to the tally? It seems we've become real hardened bandits, haven't we?",
+      "ru": "Ха... Что нам ещё одно преступление? Похоже, мы стали настоящими матёрыми бандитами, да?",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0387",
+      "en": "Here, I'll take it.",
+      "ru": "Вот, давайте его сюда.",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0388",
+      "en": "[-1 Vault Bread]",
+      "ru": "§#AA00AA[-1 Vault Bread]§r",
+      "stage": "Stage 37",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0389",
+      "en": "Ah... How nostalgic. It really does bring me back to those good old days.",
+      "ru": "Ах... Какой знакомый вкус. И правда возвращает в старые добрые времена.",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0390",
+      "en": "There was one time though... We... No, I bought it... Argh, why can't I remember!",
+      "ru": "Но однажды... Мы... Нет, я купила его... Аргх, почему я не могу вспомнить!",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0391",
+      "en": "How strange... Again, this feeling... As if- as if there's something I should be remembering... but can't.",
+      "ru": "Как странно... Снова это чувство... Как будто- будто я должна что-то помнить... но не могу.",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0392",
+      "en": "If only I could remember...",
+      "ru": "Если бы только я могла вспомнить...",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0393",
+      "en": "Do you remember how we first me? All those years ago?",
+      "ru": "Помнишь, как мы впервые встретились? Много лет назад?",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0394",
+      "en": "Of course I do! But... thinking about it now, maybe I was a bit... cold.",
+      "ru": "Конечно помню! Но... теперь, когда думаю об этом, возможно, я была немного... холодна.",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0395",
+      "en": "You were fine! You were the only one who...",
+      "ru": "Ты была прекрасна! Ты единственная, кто...",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0396",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0397",
+      "en": "You were the only one who even noticed I was there.",
+      "ru": "Ты единственная, кто вообще заметил, что я там.",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0398",
+      "en": "Ah- hello. I'm TZoEsb, I'm new here. Nice to meet you.",
+      "ru": "А- здравствуй. Я TZoEsb, я здесь новенькая. Приятно познакомиться.",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0399",
+      "en": "The name's Elise, do a good job and I'm sure we'll get along.",
+      "ru": "Меня зовут Элиза. Работай как следует, и, уверена, мы поладим.",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0400",
+      "en": "Right, yes. Of course... I'll try my best!",
+      "ru": "Да, верно. Конечно... Я постараюсь!",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0401",
+      "en": "... You know what, have this. It'll help you get through the day.",
+      "ru": "...Знаешь что, возьми. Поможет продержаться до конца дня.",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0402",
+      "en": "Oh... okay, thank you!",
+      "ru": "О... хорошо, спасибо!",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0403",
+      "en": "Get back to work!",
+      "ru": "За работу!",
+      "stage": "Stage 37",
+      "speaker": "Supervisor"
+    },
+    {
+      "id": "dialogue-0404",
+      "en": "Ha... those were good days...",
+      "ru": "Ха... Это были хорошие дни...",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0405",
+      "en": "Really? I was only working there for a month!",
+      "ru": "Правда? Я проработала там всего месяц!",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0406",
+      "en": "Oh, sure... but it was a good month, wasn't it?",
+      "ru": "О, конечно... но это был хороший месяц, правда?",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0407",
+      "en": "And even after you were transferred away... I had something to look forward to at the end of my shifts.",
+      "ru": "И даже когда тебя перевели... мне было чего ждать в конце смены.",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0408",
+      "en": "Ah... well... now you have something to look forward to when you come home, as well.",
+      "ru": "Ах... ну... теперь тебе и дома есть чего ждать.",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0409",
+      "en": "Ha! I guess I do, don't I...",
+      "ru": "Ха! Пожалуй, да...",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0410",
+      "en": "But it all seems so small from up here... doesn't it? Just look at the view!",
+      "ru": "Но сверху всё кажется таким маленьким... правда? Только посмотри на вид!",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0411",
+      "en": "It really is beautiful... up here, it's like nothing else matters except for us.",
+      "ru": "И правда прекрасно... Здесь наверху словно ничего не имеет значения, кроме нас.",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0412",
+      "en": "...I wish we could stay like this forever...",
+      "ru": "...Хотела бы я, чтобы так было всегда...",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0413",
+      "en": "...oh. So do I, Elise... so do I...",
+      "ru": "...ох. Я тоже, Элиза... я тоже...",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0414",
+      "en": "Ha, but why do you sound so sad?",
+      "ru": "Ха, но почему ты говоришь так грустно?",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0415",
+      "en": "Elise, I...",
+      "ru": "Элиза, я...",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0416",
+      "en": "It's nothing... we'll stay like this... forever. I promise.",
+      "ru": "Ничего... мы останемся такими... навсегда. Обещаю.",
+      "stage": "Stage 37",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0417",
+      "en": "Her, again... Who is she? Why am I remembering these things?",
+      "ru": "Снова §oона§r... Кто она? Почему я вспоминаю всё это?",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0418",
+      "en": "Ha...",
+      "ru": "Ха...",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0419",
+      "en": "Well, there's nothing that can be done about it now, is there? Say, why don't we head out?",
+      "ru": "Ну, сейчас с этим ничего не поделать, правда? Скажите, почему бы нам не прогуляться?",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0420",
+      "en": "Oh, dear. Did I forget to tell you? The bread is for a picnic!",
+      "ru": "Ох, дорогой. Разве я не сказала? Хлеб для пикника!",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0421",
+      "en": "I know the perfect place... in fact, you reminded me of it. It has a view over the entire Roughworks, can you believe that?",
+      "ru": "Я знаю прекрасное место... Вы, кстати, мне о нём напомнили. Оттуда виден весь Роухворкс, представляете?",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0422",
+      "en": "Although... thinking about it, it's abit far... I don't know if my old legs will carry me all the way there, ha!",
+      "ru": "Хотя... если подумать, далековато... Не знаю, донесут ли меня туда мои старые ноги, ха!",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0423",
+      "en": "Really? Oh, well thank you!",
+      "ru": "Правда? О, спасибо вам!",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0424",
+      "en": "Well, what do you say, then? Just talk to me when you want to head out.",
+      "ru": "Ну, что скажете? §#55FFFFПросто поговорите со мной, когда захотите идти.§r",
+      "stage": "Stage 37",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0425",
+      "en": "Well, what do you say? Shall we head out?",
+      "ru": "Ну, что скажете? Пойдём?",
+      "stage": "Stage 38",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0426",
+      "en": "Let's go, then!",
+      "ru": "Тогда идём!",
+      "stage": "Stage 38",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0427",
+      "en": "Oh, you can really see a lot from up here... Let's go!",
+      "ru": "О, отсюда столько всего видно... Идём!",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0428",
+      "en": "Where to? I know just the place for this! Let's see, it's...",
+      "ru": "Куда? Я знаю самое подходящее место! Так, оно...",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0429",
+      "en": "Hm... I think... Forward! Yes, I think it was straight forward from here. Although, my memory might be a little hazy...",
+      "ru": "Хм... Кажется... Вперёд! Да, отсюда, кажется, прямо вперёд. Хотя я могу не совсем точно помнить...",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0430",
+      "en": "Ah, hm... I think we turn left here...",
+      "ru": "А, хм... Кажется, здесь §oналево§r...",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0431",
+      "en": "No, wait... It's right, we definitely have to turn right!",
+      "ru": "Нет, подождите... §oНаправо§r, точно нужно направо!",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0432",
+      "en": "That house feels familiar... I think... yes, turn right here!",
+      "ru": "Этот дом кажется знакомым... Думаю... да, здесь направо!",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0433",
+      "en": "Stop! Hmm... I don't think it's across this bridge, at least. Then that must mean...",
+      "ru": "Стойте! Хм... По крайней мере, не через этот мост. Значит...",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0434",
+      "en": "Oh, what's the matter! We'll find it eventually, right? I'm pretty sure it's to the left!",
+      "ru": "О, что такого! В конце концов найдём, правда? Почти уверена, что налево!",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0435",
+      "en": "Yes, this is it! It's just around this corner, I'm sure of it!",
+      "ru": "Да, вот оно! Прямо за этим углом, я уверена!",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0436",
+      "en": "Here! I remember now... it's in here!",
+      "ru": "Здесь! Теперь помню... сюда!",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0437",
+      "en": "I don't remember it being so overgrown, though...",
+      "ru": "Только не помню, чтобы здесь всё так заросло...",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0438",
+      "en": "How long has it been? I can't recall the last time I was here...",
+      "ru": "Сколько же прошло времени? Не могу вспомнить, когда была здесь последний раз...",
+      "stage": "Stage 39",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0439",
+      "en": "Ah, it's blocked... Well. I didn't want to bring it up, but it seems we're out of options.",
+      "ru": "А, проход завален... Ну, я не хотела об этом говорить, но, похоже, выбора не осталось.",
+      "stage": "Stage 40",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0440",
+      "en": "Oh, there's no need to pretend anymore. I know what you are. You're one of them, aren't you?",
+      "ru": "О, больше не нужно притворяться. Я знаю, кто вы. Вы один из них, правда?",
+      "stage": "Stage 40",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0441",
+      "en": "The cursed, as the Crown calls them. Not that I care!",
+      "ru": "Из §oпроклятых§r, как их называет Корона. Мне-то всё равно!",
+      "stage": "Stage 40",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0442",
+      "en": "Why should I? I'm old! I have enough to worry about as is...",
+      "ru": "А почему нет? Я старая! Мне и так хватает забот...",
+      "stage": "Stage 40",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0443",
+      "en": "Besides, it's certainly useful in situations like this, isn't it? Be a dearie and do one of your little tricks, won't you?",
+      "ru": "К тому же в таких случаях это очень полезно, правда? Будьте добры, §#55FFFFпокажите один из своих фокусов§r, а?",
+      "stage": "Stage 40",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0444",
+      "en": "That's it... Let me down now, I can walk the rest of the way myself.",
+      "ru": "Вот так... Теперь опустите меня, дальше я могу идти сама.",
+      "stage": "Stage 41",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0445",
+      "en": "It's a little more... well, deserted, than I remember. But that's fine.",
+      "ru": "Здесь немного... ну, §oпустыннее§r, чем я помню. Но ничего.",
+      "stage": "Stage 42",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0446",
+      "en": "We can take this elevator to the top. You'll have to find a way into the control room though... It shouldn't be too hard to reach!",
+      "ru": "На этом лифте можно подняться наверх. Только вам нужно найти путь в комнату управления... Добраться до неё должно быть нетрудно!",
+      "stage": "Stage 42",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0447",
+      "en": "It's that thing over there. The tunnel on the right will get you to it.",
+      "ru": "Она вон там. Туннель справа приведёт вас к ней.",
+      "stage": "Stage 42",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0448",
+      "en": "Can you hear me? I'm down here!",
+      "ru": "Вы меня слышите? Я здесь, внизу!",
+      "stage": "Stage 43",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0449",
+      "en": "Use the controls to get me up! You know how it works, right?",
+      "ru": "Поднимите меня с помощью пульта! Вы ведь знаете, как он работает?",
+      "stage": "Stage 43",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0450",
+      "en": "Agh!! What was that!?",
+      "ru": "Аргх!! Что это было!?",
+      "stage": "Stage 44",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0451",
+      "en": "It must have gotten stuck...",
+      "ru": "Должно быть, застрял...",
+      "stage": "Stage 44",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0452",
+      "en": "Maybe if... oh, I know. Put something on the up button, then you can clear the blockage... and we'll go up.",
+      "ru": "Может, если... О, я знаю. Положите что-нибудь на кнопку подъёма, потом уберёте помеху... и мы поднимемся.",
+      "stage": "Stage 44",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0453",
+      "en": "[+1 Cracked Brick]",
+      "ru": "§#AA00AA[+1 Cracked Brick]§r",
+      "stage": "Stage 44",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0454",
+      "en": "You are already carrying a brick.",
+      "ru": "У вас уже есть кирпич.",
+      "stage": "Stage 44",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0455",
+      "en": "[-1 Cracked Brick]",
+      "ru": "§#AA00AA[-1 Cracked Brick]§r",
+      "stage": "Stage 44",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0456",
+      "en": "Perfect! Now it will move, if only we can get it unstuck...",
+      "ru": "Прекрасно! Теперь он поедет, осталось только освободить его...",
+      "stage": "Stage 44",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0457",
+      "en": "If you could get up there, somehow...",
+      "ru": "Если бы вам удалось как-нибудь туда забраться...",
+      "stage": "Stage 44",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0458",
+      "en": "Agh!",
+      "ru": "Аргх!",
+      "stage": "Stage 44",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0459",
+      "en": "Oh well, this place seems abandoned anyhow! Who cares about a little destruction?",
+      "ru": "Ну, это место всё равно заброшено! Кого волнует небольшой погром?",
+      "stage": "Stage 44",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0460",
+      "en": "Go up there and see if you can find a way to get this thing going again.",
+      "ru": "Поднимитесь туда и посмотрите, как снова заставить эту штуку двигаться.",
+      "stage": "Stage 44",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0461",
+      "en": "How's it going? Can you see anything?",
+      "ru": "Как дела? Что-нибудь видно?",
+      "stage": "Stage 46",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0462",
+      "en": "Quickly, hop on!",
+      "ru": "Скорее, запрыгивайте!",
+      "stage": "Stage 46",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0463",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 47",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0464",
+      "en": "Did it work?",
+      "ru": "Получилось?",
+      "stage": "Stage 47",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0465",
+      "en": "We're here.",
+      "ru": "Мы на месте.",
+      "stage": "Stage 48",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0466",
+      "en": "Ah, isn't this place nice. The breeze, the view, everything.",
+      "ru": "Ах, какое приятное место. Ветерок, вид, всё.",
+      "stage": "Stage 49",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0467",
+      "en": "You can even see the trees of the Auburn Forest swaying from up here...",
+      "ru": "Отсюда даже видно, как качаются деревья Аубёрнского леса...",
+      "stage": "Stage 49",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0468",
+      "en": "And finally! A place to sit! I'm sorely in need of some relaxation after this eventful day.",
+      "ru": "И наконец-то! Есть где сесть! После такого насыщенного дня мне очень нужен отдых.",
+      "stage": "Stage 49",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0469",
+      "en": "Please, let's sit down and enjoy the view for a bit.",
+      "ru": "Пожалуйста, давайте сядем и немного полюбуемся видом.",
+      "stage": "Stage 49",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0470",
+      "en": "Hm. It's strange. All day, I've been... reminiscing, I suppose. And now, seeing this view... it fills me with that same nostalgic feeling.",
+      "ru": "Хм. Странно. Весь день я... вспоминала прошлое, наверное. А теперь этот вид... снова наполняет меня тем же чувством.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0471",
+      "en": "All day, I've been having these visions of the past. Of these things I can't recall ever happening.",
+      "ru": "Весь день мне являются картины прошлого. События, о которых я ничего не помню.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0472",
+      "en": "And I... well, truthfully, I'm not sure how to feel about it...",
+      "ru": "И я... честно говоря, не знаю, как к этому относиться...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0473",
+      "en": "But I know- I know in my heart, that there's something missing... a piece that would make it all fit.",
+      "ru": "Но я знаю- §oсердцем чувствую§r: чего-то не хватает... одной части, с которой всё §oвстанет на свои места§r.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0474",
+      "en": "Who is she?",
+      "ru": "§oКто§r она?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0475",
+      "en": "In every dream she's there beside me... but I don't even remember her name. I can't even recall her face...",
+      "ru": "В каждом сне она рядом... Но я даже имени её не помню. Даже лица не могу вспомнить...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0476",
+      "en": "If she was this important to me... then how could I forget?",
+      "ru": "Если она была так важна для меня... как я могла забыть?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0477",
+      "en": "How could I forget...",
+      "ru": "Как я могла забыть...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0478",
+      "en": "Wait!",
+      "ru": "Подождите!",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0479",
+      "en": "Hurgh... hurgh... One second, I need to catch my breath.",
+      "ru": "Ух... ух... Секунду, мне нужно отдышаться.",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0480",
+      "en": "Hm... Do you know this person? They're not an inspector... are they?",
+      "ru": "Хм... Вы знаете этого человека? Это ведь не инспектор... правда?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0481",
+      "en": "So, as I was going to say-",
+      "ru": "Так вот, как я собирался сказать-",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0482",
+      "en": "Okay, fine! I'll get straight to the point.",
+      "ru": "Ладно, хорошо! Сразу к делу.",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0483",
+      "en": "I found more letters to deliver, and I was on my way to deliver them when I saw you two running out! Can you imagine how shocked I was?",
+      "ru": "Я нашёл ещё письма для доставки и шёл их доставить, когда увидел, как вы двое выбежали! Представляете моё удивление?",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0484",
+      "en": "That being that, I naturally decided to follow you, the good postmaster that I am. You sure didn't make it easy though! I barely managed to make it up here... It's a nice spot, by the way.",
+      "ru": "Поэтому я, как хороший почтмейстер, разумеется, пошёл за вами. Но вы сильно усложнили мне задачу! Я едва сюда забрался... Кстати, приятное место.",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0485",
+      "en": "But... how could you have possibly made it up here...?",
+      "ru": "Но... как вам вообще удалось сюда забраться...?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0486",
+      "en": "Getting up here is nothing to a university graduate like me!",
+      "ru": "Для выпускника университета вроде меня это пустяк!",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0487",
+      "en": "Here, your letter.",
+      "ru": "Вот ваше письмо.",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0488",
+      "en": "Thank you...?",
+      "ru": "Спасибо...?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0489",
+      "en": "Well, that was all that I came for I suppose. So...",
+      "ru": "Ну, пожалуй, это всё, зачем я пришёл. Так что...",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0490",
+      "en": "You came all this way just for that!? At least have a piece of bread, or something...!",
+      "ru": "Вы проделали такой путь только ради этого!? Хотя бы съешьте кусочек хлеба или что-нибудь...!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0491",
+      "en": "No, no. I couldn't possibly! Duty calls, the post isn't going to sort itself, and all that... Oh, by Her Majesty, the backlog...",
+      "ru": "Нет-нет. Никак не могу! Долг зовёт, почта сама себя не рассортирует, и всё такое... О, именем Её Величества, сколько накопилось...",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0492",
+      "en": "Right! You! I hate to admit it, but it seems you've done your job well enough.",
+      "ru": "§oТочно!§r Вы! Не хочется признавать, но, похоже, вы достаточно хорошо выполнили работу.",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0493",
+      "en": "I happened to double check the records and it seems like my substitute, well, may have been someone else entirely!",
+      "ru": "Я перепроверил записи, и, кажется, моим заместителем, ну, мог быть совсем другой человек!",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0494",
+      "en": "No harm, no foul, right? The work's already done! No takesies-backsies! Okay?",
+      "ru": "Ничего страшного ведь не случилось, правда? Работа уже сделана! Назад не заберёте! Хорошо?",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0495",
+      "en": "So... What do you say?",
+      "ru": "Так... что скажете?",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0496",
+      "en": "Huh, what was that? I couldn't hear you! Okay, bye!",
+      "ru": "А, что? Не расслышал! Ну, пока!",
+      "stage": "Stage 50",
+      "speaker": "Postmaster"
+    },
+    {
+      "id": "dialogue-0497",
+      "en": "What a strange person...",
+      "ru": "Какой странный человек...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0498",
+      "en": "But it was certainly nice of them to deliver this letter. Let me take a look.",
+      "ru": "Но как мило с его стороны доставить это письмо. Дайте взглянуть.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0499",
+      "en": "Hmm...",
+      "ru": "Хм...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0500",
+      "en": "Oh, I don't understand... What would she have to apologize for?",
+      "ru": "О, не понимаю... За что ей извиняться?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0501",
+      "en": "Please... tZoEsb, take a breath. You're shaking.",
+      "ru": "Пожалуйста... tZoEsb, отдышись. Ты дрожишь.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0502",
+      "en": "Elise...",
+      "ru": "Элиза...",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0503",
+      "en": "Getting caught in a storm like that... really, I could have waited a few hours! You didn't need to push yourself to get here.",
+      "ru": "Попасть в такую бурю... Право, я могла подождать несколько часов! Не нужно было так надрываться, чтобы добраться сюда.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0504",
+      "en": "You... don't understand...",
+      "ru": "Ты... не понимаешь...",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0505",
+      "en": "Yes, I know the weather's bad now... but eventually, it'll get better again. The clouds will clear and the sun will shine again. Right?",
+      "ru": "Да, сейчас погода плохая... Но рано или поздно всё снова наладится. Тучи разойдутся, и солнце снова засияет. Правда?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0506",
+      "en": "I...",
+      "ru": "Я...",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0507",
+      "en": "You know, it's not so bad with rain once in a while. Means we don't have to water the flowers, at least! And nothing beats the smell of wet grass after rain, don't you agree?",
+      "ru": "Знаешь, дождь время от времени - это неплохо. Хотя бы цветы поливать не нужно! И нет ничего лучше запаха мокрой травы после дождя, согласна?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0508",
+      "en": "We could do something after it clears up. It's been a while since you visited, so why not go to our spot? I should still have some leftover bread lying around...",
+      "ru": "Когда распогодится, можно что-нибудь придумать. Ты давно не приходила, почему бы не сходить в наше место? У меня ещё должен быть хлеб...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0509",
+      "en": "Elise. You're- please, forgive me- you're in danger. I-",
+      "ru": "§oЭлиза§r. Ты- §oпожалуйста, прости меня§r- ты в опасности. Я-",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0510",
+      "en": "I'm in danger? I'm just an ordinary worker, what reason would anyone have to harm me? I'll be fine.",
+      "ru": "§oЯ§r в опасности? Я обычная работница, зачем кому-то причинять мне вред? Со мной всё будет хорошо.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0511",
+      "en": "RxmCQz, you're the one pushing herself through this weather, clearly panicking...",
+      "ru": "RxmCQz, это §oты§r пробираешься сквозь такую погоду, §oявно§r в панике...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0512",
+      "en": "I barely get to see you anymore. And now, out of nowhere, you're here in this state... What's going on? Please, just talk to me.",
+      "ru": "Я тебя почти не вижу. А теперь вдруг ты здесь, в таком состоянии... Что происходит? Пожалуйста, просто поговори со мной.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0513",
+      "en": "...ha. I- I haven't been truthful with you, Elise, and- I can explain later. We need to get out of here, before they-",
+      "ru": "...ха. Я- я была с тобой неискренна, Элиза, и- объясню потом. Нам нужно уйти отсюда, прежде чем они-",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0514",
+      "en": "...no. No... no, no, no...",
+      "ru": "...нет. Нет... нет, нет, нет...",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0515",
+      "en": "tZoEsb... what's happening?",
+      "ru": "tZoEsb... что происходит?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0516",
+      "en": "Why would they... no, this doesn't make any sense...",
+      "ru": "Зачем они... Нет, это бессмыслица...",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0517",
+      "en": "Hm. Well, then maybe it's nothing. I'll go see who it is.",
+      "ru": "Хм. Ну, может, ничего страшного. Пойду посмотрю, кто там.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0518",
+      "en": "As if one wasn't enough... who could possibly be foolish enough to brave a storm just to come visit this little place? Whatever it is, it can wait.",
+      "ru": "Как будто одного гостя мало... Кто ещё настолько глуп, чтобы выйти в такую бурю ради визита сюда? Что бы ни случилось, подождёт.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0519",
+      "en": "Yes, yes. I'm coming!",
+      "ru": "Да-да. Уже иду!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0520",
+      "en": "...what? No...",
+      "ru": "...что? Нет...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0521",
+      "en": "No... No... What are you... Why are you-",
+      "ru": "Нет... Нет... Что вы... Почему вы-",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0522",
+      "en": "Apologies for the disturbance, madam. But I'm afraid we have business to attend to.",
+      "ru": "Простите за беспокойство, мадам. Но, боюсь, у нас есть дела.",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0523",
+      "en": "What... RxmCQz... what's going on?",
+      "ru": "Что... RxmCQz... что происходит?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0524",
+      "en": "tZoEsb, tZoEsb, why are they here? Why... why won't you answer me...?",
+      "ru": "tZoEsb, tZoEsb, почему они здесь? Почему... почему ты мне не отвечаешь...?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0525",
+      "en": "What have you done? I... Please, just explain... I- I...",
+      "ru": "§oЧто ты сделала?§r Я... Пожалуйста, просто объясни... Я- я...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0526",
+      "en": "I... how did I overlook this...?",
+      "ru": "Я... как я это упустила...?",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0527",
+      "en": "Seems you're not quite the strategic mastermind you though yourself, Lioness.",
+      "ru": "Похоже, ты не такой великий стратег, каким себя считала, Львица.",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0528",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0529",
+      "en": "Elise... if you... if you just cooperate...",
+      "ru": "Элиза... если ты... если ты просто будешь сотрудничать...",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0530",
+      "en": "Then... everything will be fine. It... it will.",
+      "ru": "Тогда... всё будет хорошо. Будет... будет.",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0531",
+      "en": "I promise...",
+      "ru": "Обещаю...",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0532",
+      "en": "I...",
+      "ru": "Я...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0533",
+      "en": "She... What did she do? Why did she wrap me up in it?",
+      "ru": "Она... Что она сделала? Зачем втянула меня в это?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0534",
+      "en": "Everything I remember... it just leaves me with more questions than answers. Why can't I remember her...? Why!?",
+      "ru": "Всё, что я вспоминаю... оставляет больше вопросов, чем ответов. Почему я не могу её вспомнить...? Почему!?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0535",
+      "en": "I- I'm just an ordinary factory worker! I woke up early, worked late, slept late... then did it all over again the next day.",
+      "ru": "Я- я обычная работница завода! Рано вставала, допоздна работала, поздно ложилась... и на следующий день всё сначала.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0536",
+      "en": "I've never said a word about the Crown! Why would they possibly care about... me...?",
+      "ru": "Я никогда и слова не сказала против Короны! Почему им есть дело до... меня...?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0537",
+      "en": "They... they took everything from me. My youth, my body, my time, and... and I never demanded anything in return.",
+      "ru": "Они... они забрали у меня всё. Молодость, тело, время, и... и я никогда ничего не требовала взамен.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0538",
+      "en": "So, why... why can't I just have this? This one little thing? Why can't I remember her...?",
+      "ru": "Так почему... почему нельзя оставить мне это? Одну мелочь? Почему я не могу её вспомнить...?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0539",
+      "en": "...oh, it might sound sad... but, looking back at it all like this...",
+      "ru": "...ох, наверное, это звучит печально... но когда вот так оглядываюсь назад...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0540",
+      "en": "My life doesn't seem all that great, does it? Ha. Toiling away in a factory for someone else's bread...",
+      "ru": "Моя жизнь не кажется такой уж прекрасной, правда? Ха. Горбатиться на заводе ради чужого хлеба...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0541",
+      "en": "But I can feel her. Even if... even if I can't remember her face, or her name, or her touch... I still feel her. Lingering in my heart. Shining.",
+      "ru": "Но я чувствую её. Даже если... даже если не помню её лица, имени, прикосновений... я всё ещё чувствую её. В своём сердце. Сияющую.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0542",
+      "en": "...it's all some sort of sick joke, isn't it?",
+      "ru": "...это ведь какая-то больная шутка, правда?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0543",
+      "en": "They weren't content with all I sacrificed... they had to take even my memories? Is that it...?",
+      "ru": "Им мало было всех моих жертв... нужно было забрать даже воспоминания? Так...?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0544",
+      "en": "Ha...",
+      "ru": "Ха...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0545",
+      "en": "Wherever you are now... whatever you did... whatever secrets you kept... I hope it was worth it.",
+      "ru": "Где бы ты ни была... что бы ты ни сделала... какие бы тайны ни скрывала... надеюсь, оно того стоило.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0546",
+      "en": "I hope you burn this entire place to the ground.",
+      "ru": "Надеюсь, ты сожжёшь всё это место дотла.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0547",
+      "en": "I just wish... we could have spent more time together.",
+      "ru": "Мне только жаль... что мы не провели больше времени вместе.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0548",
+      "en": "For a long time, I went along the path that had been laid before me. I did what was right.",
+      "ru": "Долгое время я шла по пути, который мне указали. Делала то, что §oправильно§r.",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0549",
+      "en": "But then... I met you, Elise.",
+      "ru": "Но потом... встретила тебя, Элиза.",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0550",
+      "en": "I... I don't know what to say, tZoEsb...",
+      "ru": "Я... я не знаю, что сказать, tZoEsb...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0551",
+      "en": "Close your eyes.",
+      "ru": "Закрой глаза.",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0552",
+      "en": "What do you see?",
+      "ru": "Что ты видишь?",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0553",
+      "en": "I see... A bird. A pigeon, it's old and gray. Its wings no longer work like they used to...",
+      "ru": "Я вижу... птицу. Старого серого голубя. Крылья уже не работают, как раньше...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0554",
+      "en": "It wants to fly, but it can't... It's struggling...",
+      "ru": "Он хочет лететь, но не может... Он пытается...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0555",
+      "en": "What is it doing, Elise?",
+      "ru": "Что он делает, Элиза?",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0556",
+      "en": "No, I can't! It's too sad...",
+      "ru": "Нет, не могу! Это слишком грустно...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0557",
+      "en": "Try.",
+      "ru": "Попробуй.",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0558",
+      "en": "It's sitting beneath the shade of a canopy, singing. Like a cry, almost, mourning.",
+      "ru": "Он сидит в тени кроны и поёт. Почти плачет, скорбит.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0559",
+      "en": "The clouds, dark clouds are gathering. A storm is coming. The bird is looking around, frantically searching. It's scared.",
+      "ru": "Тучи, тёмные тучи собираются. Идёт буря. Птица оглядывается, отчаянно ищет. Ей страшно.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0560",
+      "en": "It... It calls out, for something... or someone...",
+      "ru": "Она... Она зовёт что-то... или кого-то...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0561",
+      "en": "Who is it calling for, Elise?",
+      "ru": "Кого она зовёт, Элиза?",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0562",
+      "en": "I... I don't know!",
+      "ru": "Я... я не знаю!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0563",
+      "en": "Who is it looking for?",
+      "ru": "Кого она ищет?",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0564",
+      "en": "I... I-I can't remember!",
+      "ru": "Я... я-я не помню!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0565",
+      "en": "Who did you forget?",
+      "ru": "Кого ты забыла?",
+      "stage": "Stage 50",
+      "speaker": "?̵̗̀?̴̭͑?̵̳̫͘?̷̲̳̌̊?̵̆ͅ?̵͔͎́"
+    },
+    {
+      "id": "dialogue-0566",
+      "en": "I won't forget! I won't forget! I won't! I promised! I promised I'd never forget you!",
+      "ru": "Я не забуду! Не забуду! Ни за что! Я обещала! Обещала, что никогда тебя не забуду!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0567",
+      "en": "Open your eyes.",
+      "ru": "Открой глаза.",
+      "stage": "Stage 50",
+      "speaker": "???"
+    },
+    {
+      "id": "dialogue-0568",
+      "en": "No... No... Wh-Where is this?",
+      "ru": "Нет... Нет... Г-где это?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0569",
+      "en": "You are an ordinary worker from the Roughworks. You work an ordinary job, and lead an ordinary but solitary life.",
+      "ru": "Ты обычная работница из Роухворкса. У тебя обычная работа и обычная, но одинокая жизнь.",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0570",
+      "en": "I'm... No, I'm me!",
+      "ru": "Я... Нет, я - это я!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0571",
+      "en": "She is nothing to you. You have never met her. You will never meet her.",
+      "ru": "Она для тебя никто. Ты никогда её не встречала. Никогда её не встретишь.",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0572",
+      "en": "I won't forget!",
+      "ru": "Я не забуду!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0573",
+      "en": "Silence!",
+      "ru": "Тихо!",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0574",
+      "en": "You are nothing to her! She is nothing to you! Soon you'll forget she ever existed.",
+      "ru": "Ты для неё никто! Она для тебя никто! Скоро ты забудешь, что она вообще существовала.",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0575",
+      "en": "No, I will never forget! She was everything to me! She is everything to me! I will never forget her!",
+      "ru": "Нет, я никогда не забуду! Она была для меня всем! Она для меня всё! Я никогда её не забуду!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0576",
+      "en": "You do not know her face, nor her voice, nor her touch.",
+      "ru": "Ты не знаешь ни её лица, ни голоса, ни прикосновений.",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0577",
+      "en": "No... I... won't...",
+      "ru": "Нет... я... не...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0578",
+      "en": "She is nothing to you. You have never met her. You will never meet her. You have always been ordinary, you will always be ordinary.",
+      "ru": "Она для тебя никто. Ты никогда её не встречала. Никогда её не встретишь. Ты всегда была обычной и всегда будешь обычной.",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0579",
+      "en": "Understood?",
+      "ru": "Понятно?",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0580",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0581",
+      "en": "I will ask once more. Is your directive understood?",
+      "ru": "Спрошу ещё раз. Указание понятно?",
+      "stage": "Stage 50",
+      "speaker": "Inquisitor"
+    },
+    {
+      "id": "dialogue-0582",
+      "en": "I'll never forget her!",
+      "ru": "Я никогда её не забуду!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0583",
+      "en": "S-Syndra!",
+      "ru": "С-Синдра!",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0584",
+      "en": "Syndra! Syndra!?",
+      "ru": "Синдра! Синдра!?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0585",
+      "en": "Where... Where are you... I...",
+      "ru": "Где... Где ты... Я...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0586",
+      "en": "Syndra...",
+      "ru": "Синдра...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0587",
+      "en": "Hm? What is it, Elise?",
+      "ru": "Хм? Что такое, Элиза?",
+      "stage": "Stage 50",
+      "speaker": "Syndra"
+    },
+    {
+      "id": "dialogue-0588",
+      "en": "No... Nothing... I just...",
+      "ru": "Нет... Ничего... Я просто...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0589",
+      "en": "It's just...",
+      "ru": "Просто...",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0590",
+      "en": "I remembered I love you.",
+      "ru": "Я вспомнила, что люблю тебя.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0591",
+      "en": "And I'll never forget it, Elise.",
+      "ru": "А я никогда этого не забуду, Элиза.",
+      "stage": "Stage 50",
+      "speaker": "Syndra"
+    },
+    {
+      "id": "dialogue-0592",
+      "en": "My legs... feel funny... I think... I think I'm in need of some rest. A long, long rest... I deserve that... don't I?",
+      "ru": "Ноги... какие-то странные... Думаю... думаю, мне нужно отдохнуть. Долго-долго... Я заслужила... правда?",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0593",
+      "en": "You'll take me home... won't you? I want to see it, at least once more... The tree.",
+      "ru": "Вы отнесёте меня домой... правда? Я хочу увидеть его хотя бы ещё раз... Дерево.",
+      "stage": "Stage 50",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0594",
+      "en": "Pick up Elise?",
+      "ru": "Поднять Элизу?",
+      "stage": "Stage 51",
+      "speaker": ""
+    },
+    {
+      "id": "dialogue-0595",
+      "en": "Ah... there it is.",
+      "ru": "Ах... вот оно.",
+      "stage": "Stage 52",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0596",
+      "en": "It's grown so tall... and so beautiful. Hasn't it, Syndra...?",
+      "ru": "Оно стало таким высоким... и таким красивым. Правда, Синдра...?",
+      "stage": "Stage 52",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0597",
+      "en": "If... If only... you could have seen it... like this...",
+      "ru": "Если бы... Если бы только... ты могла увидеть его... таким...",
+      "stage": "Stage 52",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0598",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 52",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0599",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 53",
+      "speaker": "Elise"
+    },
+    {
+      "id": "dialogue-0600",
+      "en": "New Quest Started: The Missing Piece",
+      "ru": "§#FFAA00Новый квест: §#FFFF55The Missing Piece",
+      "stage": "Stage 1",
+      "speaker": ""
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Pick up your post in the Post Office at [-2156, 30, -944].",
+      "ru": "Заберите свою почту в почтовом отделении [-2156, 30, -944].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Take a ticket from the Ticket Machine at [-2159, 30, -947].",
+      "ru": "Возьмите талон в автомате [-2159, 30, -947].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Return to the Post Office at [-2156, 30, -944].",
+      "ru": "Вернитесь в почтовое отделение [-2156, 30, -944].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Wait in line at [-2156, 30, -952]",
+      "ru": "Ждите своей очереди [-2156, 30, -952].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Follow the Postmaster to [-2138, 31, -956].",
+      "ru": "Следуйте за Почтмейстером к [-2138, 31, -956].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Sort the post!",
+      "ru": "Рассортируйте почту!",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Listen to the Postmaster's instructions.",
+      "ru": "Выслушайте указания Почтмейстера.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Find out about the woman on the hill around [-1995, 38, -878].",
+      "ru": "Узнайте о женщине на холме около [-1995, 38, -878].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Knock on the door at [-1910, 54, -851].",
+      "ru": "Постучите в дверь [-1910, 54, -851].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Go inside the woman's home.",
+      "ru": "Войдите в дом женщины.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Return to the house at [-1905, 52, -851].",
+      "ru": "Вернитесь к дому [-1905, 52, -851].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Follow the woman inside to [-1899, 55, -852].",
+      "ru": "Следуйте за женщиной внутрь к [-1899, 55, -852].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Place the letters on the table at [-1897, 53, -853].",
+      "ru": "Положите письма на стол [-1897, 53, -853].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Continue the conversation with Elise",
+      "ru": "Продолжите разговор с Элизой.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Take a seat at [-1897, 53, -852].",
+      "ru": "Сядьте [-1897, 53, -852].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Pick up the Watering Can outside at [-1895, 51, -845].",
+      "ru": "Возьмите лейку снаружи [-1895, 51, -845].",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Water Elise's plants while she reads the letters.",
+      "ru": "Поливайте растения Элизы, пока она читает письма.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Speak with Elise at [-1898, 54, -854].",
+      "ru": "Поговорите с Элизой [-1898, 54, -854].",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0019",
+      "en": "Follow Elise outside and take a seat at [-1901, 52, -847].",
+      "ru": "Выйдите вслед за Элизой и сядьте [-1901, 52, -847].",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0020",
+      "en": "Follow Elise to the roof at [-1902, 66, -850].",
+      "ru": "Следуйте за Элизой на крышу [-1902, 66, -850].",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-0021",
+      "en": "Try to enter the Bread Factory at [-1979, 32, -798].",
+      "ru": "Попробуйте войти на хлебозавод [-1979, 32, -798].",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "objective-0022",
+      "en": "Speak with Bush at [-1986, 32, -795].",
+      "ru": "Поговорите с Кустом [-1986, 32, -795].",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "objective-0023",
+      "en": "Enter the Bread Factory through the pipe at [-1931, 43, -828].",
+      "ru": "Войдите на хлебозавод через трубу [-1931, 43, -828].",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-0024",
+      "en": "Reenter the Bread Factory at [-1931, 43, -828].",
+      "ru": "Снова войдите на хлебозавод [-1931, 43, -828].",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-0025",
+      "en": "Find a way to enter the Bread Vault through the elevator at [-1947, 29, -785].",
+      "ru": "Найдите способ попасть в хлебное хранилище через лифт [-1947, 29, -785].",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "objective-0026",
+      "en": "Make your way through the Bread Vault to [-13051, 52, -2988].",
+      "ru": "Пройдите через хлебное хранилище к [-13051, 52, -2988].",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "objective-0027",
+      "en": "Find a way up to [-13060, 60, -2976].",
+      "ru": "Найдите путь наверх к [-13060, 60, -2976].",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "objective-0028",
+      "en": "Hit the bottles at [-13068, 68, -2992] with a Bottle.",
+      "ru": "Попадите бутылкой в бутылки [-13068, 68, -2992].",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "objective-0029",
+      "en": "Continue through the Bread Vault to [-13042, 65, -2966].",
+      "ru": "Пройдите дальше через хлебное хранилище к [-13042, 65, -2966].",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "objective-0030",
+      "en": "Use the beams to make it across to [-12989, 65, -2966].",
+      "ru": "Переберитесь по балкам к [-12989, 65, -2966].",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "objective-0031",
+      "en": "Overhear the meeting at [-12985, 64, -2949].",
+      "ru": "Подслушайте разговор [-12985, 64, -2949].",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "objective-0032",
+      "en": "Use the beams to make it across to [-13011, 66, -2932].",
+      "ru": "Переберитесь по балкам к [-13011, 66, -2932].",
+      "stage": "Stage 29"
+    },
+    {
+      "id": "objective-0033",
+      "en": "Acquire the bread from the barrel at [-13025, 65, -2925].",
+      "ru": "Возьмите хлеб из бочки [-13025, 65, -2925].",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "objective-0034",
+      "en": "Continue through the Bread Vault to [-13037, 53, -2933].",
+      "ru": "Пройдите дальше через хлебное хранилище к [-13037, 53, -2933].",
+      "stage": "Stage 31"
+    },
+    {
+      "id": "objective-0035",
+      "en": "Find the way out of the Bread Vault at [-13000, 52, -2905].",
+      "ru": "Найдите выход из хлебного хранилища [-13000, 52, -2905].",
+      "stage": "Stage 32"
+    },
+    {
+      "id": "objective-0036",
+      "en": "Run!",
+      "ru": "Бегите!",
+      "stage": "Stage 33"
+    },
+    {
+      "id": "objective-0037",
+      "en": "Return to the Roughworks through the pipe at [-1953, 6, -911].",
+      "ru": "Вернитесь в Роухворкс через трубу [-1953, 6, -911].",
+      "stage": "Stage 34"
+    },
+    {
+      "id": "objective-0038",
+      "en": "Return to the house at [-1905, 52, -851].",
+      "ru": "Вернитесь к дому [-1905, 52, -851].",
+      "stage": "Stage 35"
+    },
+    {
+      "id": "objective-0039",
+      "en": "Confront the inspection or talk to Elise at [-1898, 54, -854].",
+      "ru": "Дайте отпор инспекции или поговорите с Элизой [-1898, 54, -854].",
+      "stage": "Stage 36"
+    },
+    {
+      "id": "objective-0040",
+      "en": "Deal with the inspection.",
+      "ru": "Разберитесь с инспекцией.",
+      "stage": "Stage 36"
+    },
+    {
+      "id": "objective-0041",
+      "en": "Fight the inspection!",
+      "ru": "Сразитесь с инспекцией!",
+      "stage": "Stage 36"
+    },
+    {
+      "id": "objective-0042",
+      "en": "Return to the house at [-1905, 52, -851].",
+      "ru": "Вернитесь к дому [-1905, 52, -851].",
+      "stage": "Stage 36"
+    },
+    {
+      "id": "objective-0043",
+      "en": "Find somewhere to hide in Elise's house!",
+      "ru": "Найдите укрытие в доме Элизы!",
+      "stage": "Stage 36"
+    },
+    {
+      "id": "objective-0044",
+      "en": "Hide!",
+      "ru": "Спрячьтесь!",
+      "stage": "Stage 36"
+    },
+    {
+      "id": "objective-0045",
+      "en": "Take a seat at [-1897, 53, -852].",
+      "ru": "Сядьте [-1897, 53, -852].",
+      "stage": "Stage 37"
+    },
+    {
+      "id": "objective-0046",
+      "en": "Speak with Elise at [-1898, 54, -854].",
+      "ru": "Поговорите с Элизой [-1898, 54, -854].",
+      "stage": "Stage 38"
+    },
+    {
+      "id": "objective-0047",
+      "en": "Carry Elise to [-1927, 51, -851].",
+      "ru": "Донесите Элизу до [-1927, 51, -851].",
+      "stage": "Stage 39"
+    },
+    {
+      "id": "objective-0048",
+      "en": "Carry Elise to [-1958, 40, -864].",
+      "ru": "Донесите Элизу до [-1958, 40, -864].",
+      "stage": "Stage 39"
+    },
+    {
+      "id": "objective-0049",
+      "en": "Carry Elise to [-1857, 30, -859].",
+      "ru": "Донесите Элизу до [-1857, 30, -859].",
+      "stage": "Stage 39"
+    },
+    {
+      "id": "objective-0050",
+      "en": "Carry Elise to [-1870, 29, -801].",
+      "ru": "Донесите Элизу до [-1870, 29, -801].",
+      "stage": "Stage 39"
+    },
+    {
+      "id": "objective-0051",
+      "en": "Carry Elise to [-1826, 33, -791].",
+      "ru": "Донесите Элизу до [-1826, 33, -791].",
+      "stage": "Stage 39"
+    },
+    {
+      "id": "objective-0052",
+      "en": "Carry Elise to [-1805, 42, -823].",
+      "ru": "Донесите Элизу до [-1805, 42, -823].",
+      "stage": "Stage 39"
+    },
+    {
+      "id": "objective-0053",
+      "en": "Go into the overgrowth to [-1787, 42, -824].",
+      "ru": "Пройдите через заросли к [-1787, 42, -824].",
+      "stage": "Stage 40"
+    },
+    {
+      "id": "objective-0054",
+      "en": "Cast a spell.",
+      "ru": "Примените заклинание.",
+      "stage": "Stage 41"
+    },
+    {
+      "id": "objective-0055",
+      "en": "Enter the cave at [-1771, 40, -824].",
+      "ru": "Войдите в пещеру [-1771, 40, -824].",
+      "stage": "Stage 42"
+    },
+    {
+      "id": "objective-0056",
+      "en": "Reach the control panel at [-1753, 57, -824].",
+      "ru": "Доберитесь до пульта управления [-1753, 57, -824].",
+      "stage": "Stage 43"
+    },
+    {
+      "id": "objective-0057",
+      "en": "Use the controls at [-1753, 57, -824] to bring Elise up.",
+      "ru": "Используйте пульт управления [-1753, 57, -824], чтобы поднять Элизу.",
+      "stage": "Stage 44"
+    },
+    {
+      "id": "objective-0058",
+      "en": "Make it to [-1771, 69, -824].",
+      "ru": "Доберитесь до [-1771, 69, -824].",
+      "stage": "Stage 45"
+    },
+    {
+      "id": "objective-0059",
+      "en": "Throw a brick at the blockage at [-1765, 80, -824].",
+      "ru": "Бросьте кирпич в помеху [-1765, 80, -824].",
+      "stage": "Stage 46"
+    },
+    {
+      "id": "objective-0060",
+      "en": "Jump on the elevator!",
+      "ru": "Запрыгните на лифт!",
+      "stage": "Stage 47"
+    },
+    {
+      "id": "objective-0061",
+      "en": "Speak with Elise at [-1898, 54, -854].",
+      "ru": "Поговорите с Элизой [-1898, 54, -854].",
+      "stage": "Stage 48"
+    },
+    {
+      "id": "objective-0062",
+      "en": "Follow Elise to the cliff at [-1796, 88, -824].",
+      "ru": "Следуйте за Элизой к обрыву [-1796, 88, -824].",
+      "stage": "Stage 49"
+    },
+    {
+      "id": "objective-0063",
+      "en": "Sit down at [-1794, 86, -825].",
+      "ru": "Сядьте [-1794, 86, -825].",
+      "stage": "Stage 50"
+    },
+    {
+      "id": "objective-0064",
+      "en": "Pick up Elise at [-1799, 88, -824].",
+      "ru": "Поднимите Элизу [-1799, 88, -824].",
+      "stage": "Stage 51"
+    },
+    {
+      "id": "objective-0065",
+      "en": "Bring Elise home to [-1898, 52, -844].",
+      "ru": "Отнесите Элизу домой [-1898, 52, -844].",
+      "stage": "Stage 52"
+    },
+    {
+      "id": "objective-0066",
+      "en": "Pick some of Elise's flowers around her house at [-1899, 54, -854].",
+      "ru": "Соберите цветы вокруг дома Элизы [-1899, 54, -854].",
+      "stage": "Stage 53"
+    },
+    {
+      "id": "objective-0067",
+      "en": "Bury Elise at [-1898, 52, -843].",
+      "ru": "Похороните Элизу [-1898, 52, -843].",
+      "stage": "Stage 54"
+    },
+    {
+      "id": "objective-template-0001",
+      "en": "Pick up your post in the Post Office at [<num>, <num>, <num>].",
+      "ru": "Заберите свою почту в почтовом отделении [<num>, <num>, <num>].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-template-0002",
+      "en": "Take a ticket from the Ticket Machine at [<num>, <num>, <num>].",
+      "ru": "Возьмите талон в автомате [<num>, <num>, <num>].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-template-0003",
+      "en": "Return to the Post Office at [<num>, <num>, <num>].",
+      "ru": "Вернитесь в почтовое отделение [<num>, <num>, <num>].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-template-0004",
+      "en": "Wait in line at [<num>, <num>, <num>]",
+      "ru": "Ждите своей очереди [<num>, <num>, <num>].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-template-0005",
+      "en": "Follow the Postmaster to [<num>, <num>, <num>].",
+      "ru": "Следуйте за Почтмейстером к [<num>, <num>, <num>].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-template-0006",
+      "en": "Find out about the woman on the hill around [<num>, <num>, <num>].",
+      "ru": "Узнайте о женщине на холме около [<num>, <num>, <num>].",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-template-0007",
+      "en": "Knock on the door at [<num>, <num>, <num>].",
+      "ru": "Постучите в дверь [<num>, <num>, <num>].",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-template-0008",
+      "en": "Return to the house at [<num>, <num>, <num>].",
+      "ru": "Вернитесь к дому [<num>, <num>, <num>].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-template-0009",
+      "en": "Follow the woman inside to [<num>, <num>, <num>].",
+      "ru": "Следуйте за женщиной внутрь к [<num>, <num>, <num>].",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-template-0010",
+      "en": "Place the letters on the table at [<num>, <num>, <num>].",
+      "ru": "Положите письма на стол [<num>, <num>, <num>].",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-template-0011",
+      "en": "Take a seat at [<num>, <num>, <num>].",
+      "ru": "Сядьте [<num>, <num>, <num>].",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-template-0012",
+      "en": "Pick up the Watering Can outside at [<num>, <num>, <num>].",
+      "ru": "Возьмите лейку снаружи [<num>, <num>, <num>].",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-template-0013",
+      "en": "Speak with Elise at [<num>, <num>, <num>].",
+      "ru": "Поговорите с Элизой [<num>, <num>, <num>].",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-template-0014",
+      "en": "Follow Elise outside and take a seat at [<num>, <num>, <num>].",
+      "ru": "Выйдите вслед за Элизой и сядьте [<num>, <num>, <num>].",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-template-0015",
+      "en": "Follow Elise to the roof at [<num>, <num>, <num>].",
+      "ru": "Следуйте за Элизой на крышу [<num>, <num>, <num>].",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "objective-template-0016",
+      "en": "Try to enter the Bread Factory at [<num>, <num>, <num>].",
+      "ru": "Попробуйте войти на хлебозавод [<num>, <num>, <num>].",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "objective-template-0017",
+      "en": "Speak with Bush at [<num>, <num>, <num>].",
+      "ru": "Поговорите с Кустом [<num>, <num>, <num>].",
+      "stage": "Stage 20"
+    },
+    {
+      "id": "objective-template-0018",
+      "en": "Enter the Bread Factory through the pipe at [<num>, <num>, <num>].",
+      "ru": "Войдите на хлебозавод через трубу [<num>, <num>, <num>].",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-template-0019",
+      "en": "Reenter the Bread Factory at [<num>, <num>, <num>].",
+      "ru": "Снова войдите на хлебозавод [<num>, <num>, <num>].",
+      "stage": "Stage 21"
+    },
+    {
+      "id": "objective-template-0020",
+      "en": "Find a way to enter the Bread Vault through the elevator at [<num>, <num>, <num>].",
+      "ru": "Найдите способ попасть в хлебное хранилище через лифт [<num>, <num>, <num>].",
+      "stage": "Stage 22"
+    },
+    {
+      "id": "objective-template-0021",
+      "en": "Make your way through the Bread Vault to [<num>, <num>, <num>].",
+      "ru": "Пройдите через хлебное хранилище к [<num>, <num>, <num>].",
+      "stage": "Stage 23"
+    },
+    {
+      "id": "objective-template-0022",
+      "en": "Find a way up to [<num>, <num>, <num>].",
+      "ru": "Найдите путь наверх к [<num>, <num>, <num>].",
+      "stage": "Stage 24"
+    },
+    {
+      "id": "objective-template-0023",
+      "en": "Hit the bottles at [<num>, <num>, <num>] with a Bottle.",
+      "ru": "Попадите бутылкой в бутылки [<num>, <num>, <num>].",
+      "stage": "Stage 25"
+    },
+    {
+      "id": "objective-template-0024",
+      "en": "Continue through the Bread Vault to [<num>, <num>, <num>].",
+      "ru": "Пройдите дальше через хлебное хранилище к [<num>, <num>, <num>].",
+      "stage": "Stage 26"
+    },
+    {
+      "id": "objective-template-0025",
+      "en": "Use the beams to make it across to [<num>, <num>, <num>].",
+      "ru": "Переберитесь по балкам к [<num>, <num>, <num>].",
+      "stage": "Stage 27"
+    },
+    {
+      "id": "objective-template-0026",
+      "en": "Overhear the meeting at [<num>, <num>, <num>].",
+      "ru": "Подслушайте разговор [<num>, <num>, <num>].",
+      "stage": "Stage 28"
+    },
+    {
+      "id": "objective-template-0027",
+      "en": "Acquire the bread from the barrel at [<num>, <num>, <num>].",
+      "ru": "Возьмите хлеб из бочки [<num>, <num>, <num>].",
+      "stage": "Stage 30"
+    },
+    {
+      "id": "objective-template-0028",
+      "en": "Find the way out of the Bread Vault at [<num>, <num>, <num>].",
+      "ru": "Найдите выход из хлебного хранилища [<num>, <num>, <num>].",
+      "stage": "Stage 32"
+    },
+    {
+      "id": "objective-template-0029",
+      "en": "Return to the Roughworks through the pipe at [<num>, <num>, <num>].",
+      "ru": "Вернитесь в Роухворкс через трубу [<num>, <num>, <num>].",
+      "stage": "Stage 34"
+    },
+    {
+      "id": "objective-template-0030",
+      "en": "Confront the inspection or talk to Elise at [<num>, <num>, <num>].",
+      "ru": "Дайте отпор инспекции или поговорите с Элизой [<num>, <num>, <num>].",
+      "stage": "Stage 36"
+    },
+    {
+      "id": "objective-template-0031",
+      "en": "Carry Elise to [<num>, <num>, <num>].",
+      "ru": "Донесите Элизу до [<num>, <num>, <num>].",
+      "stage": "Stage 39"
+    },
+    {
+      "id": "objective-template-0032",
+      "en": "Go into the overgrowth to [<num>, <num>, <num>].",
+      "ru": "Пройдите через заросли к [<num>, <num>, <num>].",
+      "stage": "Stage 40"
+    },
+    {
+      "id": "objective-template-0033",
+      "en": "Enter the cave at [<num>, <num>, <num>].",
+      "ru": "Войдите в пещеру [<num>, <num>, <num>].",
+      "stage": "Stage 42"
+    },
+    {
+      "id": "objective-template-0034",
+      "en": "Reach the control panel at [<num>, <num>, <num>].",
+      "ru": "Доберитесь до пульта управления [<num>, <num>, <num>].",
+      "stage": "Stage 43"
+    },
+    {
+      "id": "objective-template-0035",
+      "en": "Use the controls at [<num>, <num>, <num>] to bring Elise up.",
+      "ru": "Используйте пульт управления [<num>, <num>, <num>], чтобы поднять Элизу.",
+      "stage": "Stage 44"
+    },
+    {
+      "id": "objective-template-0036",
+      "en": "Make it to [<num>, <num>, <num>].",
+      "ru": "Доберитесь до [<num>, <num>, <num>].",
+      "stage": "Stage 45"
+    },
+    {
+      "id": "objective-template-0037",
+      "en": "Throw a brick at the blockage at [<num>, <num>, <num>].",
+      "ru": "Бросьте кирпич в помеху [<num>, <num>, <num>].",
+      "stage": "Stage 46"
+    },
+    {
+      "id": "objective-template-0038",
+      "en": "Follow Elise to the cliff at [<num>, <num>, <num>].",
+      "ru": "Следуйте за Элизой к обрыву [<num>, <num>, <num>].",
+      "stage": "Stage 49"
+    },
+    {
+      "id": "objective-template-0039",
+      "en": "Sit down at [<num>, <num>, <num>].",
+      "ru": "Сядьте [<num>, <num>, <num>].",
+      "stage": "Stage 50"
+    },
+    {
+      "id": "objective-template-0040",
+      "en": "Pick up Elise at [<num>, <num>, <num>].",
+      "ru": "Поднимите Элизу [<num>, <num>, <num>].",
+      "stage": "Stage 51"
+    },
+    {
+      "id": "objective-template-0041",
+      "en": "Bring Elise home to [<num>, <num>, <num>].",
+      "ru": "Отнесите Элизу домой [<num>, <num>, <num>].",
+      "stage": "Stage 52"
+    },
+    {
+      "id": "objective-template-0042",
+      "en": "Pick some of Elise's flowers around her house at [<num>, <num>, <num>].",
+      "ru": "Соберите цветы вокруг дома Элизы [<num>, <num>, <num>].",
+      "stage": "Stage 53"
+    },
+    {
+      "id": "objective-template-0043",
+      "en": "Bury Elise at [<num>, <num>, <num>].",
+      "ru": "Похороните Элизу [<num>, <num>, <num>].",
+      "stage": "Stage 54"
+    }
+  ],
+  "choices": [
+    {
+      "id": "choice-0001",
+      "en": "Sure, it was me.",
+      "ru": "Да, это был я.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0022"
+    },
+    {
+      "id": "choice-0002",
+      "en": "You're mistaken...",
+      "ru": "Вы ошиблись...",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0023"
+    },
+    {
+      "id": "choice-0003",
+      "en": "Okay, deal.",
+      "ru": "Хорошо, договорились.",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0031"
+    },
+    {
+      "id": "choice-0004",
+      "en": "But...",
+      "ru": "Но...",
+      "stage": "Stage 3",
+      "dialogueId": "dialogue-0031"
+    },
+    {
+      "id": "choice-0005",
+      "en": "Yes.",
+      "ru": "Да.",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0040"
+    },
+    {
+      "id": "choice-0006",
+      "en": "Um, no...",
+      "ru": "Эм, нет...",
+      "stage": "Stage 4",
+      "dialogueId": "dialogue-0040"
+    },
+    {
+      "id": "choice-0007",
+      "en": "Fine, but to who?",
+      "ru": "Ладно, но кому?",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0056"
+    },
+    {
+      "id": "choice-0008",
+      "en": "No.",
+      "ru": "Нет.",
+      "stage": "Stage 6",
+      "dialogueId": "dialogue-0057"
+    },
+    {
+      "id": "choice-0009",
+      "en": "I'm looking for someone.",
+      "ru": "Я кое-кого ищу.",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0070"
+    },
+    {
+      "id": "choice-0010",
+      "en": "Nevermind...",
+      "ru": "Неважно...",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0076"
+    },
+    {
+      "id": "choice-0011",
+      "en": "Nothing...",
+      "ru": "Ничего...",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0083"
+    },
+    {
+      "id": "choice-0012",
+      "en": "I'm searching for someone.",
+      "ru": "Я кое-кого ищу.",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0086"
+    },
+    {
+      "id": "choice-0013",
+      "en": "A letter.",
+      "ru": "Письмо.",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0089"
+    },
+    {
+      "id": "choice-0014",
+      "en": "Why?",
+      "ru": "Почему?",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0093"
+    },
+    {
+      "id": "choice-0015",
+      "en": "No, not really...",
+      "ru": "Нет, не особо...",
+      "stage": "Stage 7",
+      "dialogueId": "dialogue-0095"
+    },
+    {
+      "id": "choice-0016",
+      "en": "It's for you.",
+      "ru": "Это вам.",
+      "stage": "Stage 8",
+      "dialogueId": "dialogue-0101"
+    },
+    {
+      "id": "choice-0017",
+      "en": "Perhaps I don't.",
+      "ru": "Возможно, и нет.",
+      "stage": "Stage 13",
+      "dialogueId": "dialogue-0111"
+    },
+    {
+      "id": "choice-0018",
+      "en": "I am, originally.",
+      "ru": "Я родом отсюда.",
+      "stage": "Stage 13",
+      "dialogueId": "dialogue-0111"
+    },
+    {
+      "id": "choice-0019",
+      "en": "Letters.",
+      "ru": "Письма.",
+      "stage": "Stage 13",
+      "dialogueId": "dialogue-0116"
+    },
+    {
+      "id": "choice-0020",
+      "en": "How long?",
+      "ru": "Как давно?",
+      "stage": "Stage 13",
+      "dialogueId": "dialogue-0126"
+    },
+    {
+      "id": "choice-0021",
+      "en": "120 IA, I think?",
+      "ru": "120 IA, кажется?",
+      "stage": "Stage 13",
+      "dialogueId": "dialogue-0128"
+    },
+    {
+      "id": "choice-0022",
+      "en": "Isn't it lonely?",
+      "ru": "Вам не одиноко?",
+      "stage": "Stage 13",
+      "dialogueId": "dialogue-0131"
+    },
+    {
+      "id": "choice-0023",
+      "en": "Sip tea.",
+      "ru": "Отпить чаю.",
+      "stage": "Stage 13",
+      "dialogueId": "dialogue-0137"
+    },
+    {
+      "id": "choice-0024",
+      "en": "Sure.",
+      "ru": "Ладно.",
+      "stage": "Stage 18",
+      "dialogueId": "dialogue-0196"
+    },
+    {
+      "id": "choice-0025",
+      "en": "I need bread.",
+      "ru": "Мне нужен хлеб.",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0198"
+    },
+    {
+      "id": "choice-0026",
+      "en": "Nevermind...",
+      "ru": "Неважно...",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0198"
+    },
+    {
+      "id": "choice-0027",
+      "en": "I can pay.",
+      "ru": "Я могу заплатить.",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0200"
+    },
+    {
+      "id": "choice-0028",
+      "en": "But...",
+      "ru": "Но...",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0202"
+    },
+    {
+      "id": "choice-0029",
+      "en": "Alright...",
+      "ru": "Ладно...",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0202"
+    },
+    {
+      "id": "choice-0030",
+      "en": "But can I...",
+      "ru": "Но можно мне...",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0205"
+    },
+    {
+      "id": "choice-0031",
+      "en": "Fine...",
+      "ru": "Хорошо...",
+      "stage": "Stage 19",
+      "dialogueId": "dialogue-0205"
+    },
+    {
+      "id": "choice-0032",
+      "en": "Yes.",
+      "ru": "Да.",
+      "stage": "Stage 21",
+      "dialogueId": "dialogue-0219"
+    },
+    {
+      "id": "choice-0033",
+      "en": "No.",
+      "ru": "Нет.",
+      "stage": "Stage 21",
+      "dialogueId": "dialogue-0219"
+    },
+    {
+      "id": "choice-0034",
+      "en": "Yes.",
+      "ru": "Да.",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0242"
+    },
+    {
+      "id": "choice-0035",
+      "en": "No.",
+      "ru": "Нет.",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0243"
+    },
+    {
+      "id": "choice-0036",
+      "en": "Uhh...",
+      "ru": "Э-э...",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0252"
+    },
+    {
+      "id": "choice-0037",
+      "en": "A worker...",
+      "ru": "Рабочий...",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0253"
+    },
+    {
+      "id": "choice-0038",
+      "en": "I saw a slacker!",
+      "ru": "Я видел бездельника!",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0254"
+    },
+    {
+      "id": "choice-0039",
+      "en": "Yes",
+      "ru": "Да",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0274"
+    },
+    {
+      "id": "choice-0040",
+      "en": "No",
+      "ru": "Нет",
+      "stage": "Stage 22",
+      "dialogueId": "dialogue-0274"
+    },
+    {
+      "id": "choice-0041",
+      "en": "Open it.",
+      "ru": "Открыть.",
+      "stage": "Stage 30",
+      "dialogueId": "dialogue-0298"
+    },
+    {
+      "id": "choice-0042",
+      "en": "Confront.",
+      "ru": "Дать отпор.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0311"
+    },
+    {
+      "id": "choice-0043",
+      "en": "Other options...",
+      "ru": "Другие варианты...",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0311"
+    },
+    {
+      "id": "choice-0044",
+      "en": "I'll hide.",
+      "ru": "Я спрячусь.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0315"
+    },
+    {
+      "id": "choice-0045",
+      "en": "Deal.",
+      "ru": "Разобраться с ними.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0316"
+    },
+    {
+      "id": "choice-0046",
+      "en": "I'm her friend.",
+      "ru": "Я её друг.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0319"
+    },
+    {
+      "id": "choice-0047",
+      "en": "I won't answer you.",
+      "ru": "Я не буду вам отвечать.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0321"
+    },
+    {
+      "id": "choice-0048",
+      "en": "She's away.",
+      "ru": "Её нет.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0323"
+    },
+    {
+      "id": "choice-0049",
+      "en": "I had no idea.",
+      "ru": "Я ничего не знал.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0326"
+    },
+    {
+      "id": "choice-0050",
+      "en": "It was the Bread Factory! (Lie)",
+      "ru": "Это был хлебозавод! (Ложь)",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0328"
+    },
+    {
+      "id": "choice-0051",
+      "en": "Can't handle some bread?",
+      "ru": "С хлебом не справитесь?",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0329"
+    },
+    {
+      "id": "choice-0052",
+      "en": "There's a water spillage! (Lie)",
+      "ru": "Там утечка воды! (Ложь)",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0329"
+    },
+    {
+      "id": "choice-0053",
+      "en": "I lied.",
+      "ru": "Я соврал.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0331"
+    },
+    {
+      "id": "choice-0054",
+      "en": "It's real!",
+      "ru": "Это правда!",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0331"
+    },
+    {
+      "id": "choice-0055",
+      "en": "I'll fight you.",
+      "ru": "Я буду с вами сражаться.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0333"
+    },
+    {
+      "id": "choice-0056",
+      "en": "Of course.",
+      "ru": "Конечно.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0333"
+    },
+    {
+      "id": "choice-0057",
+      "en": "Just passing by.",
+      "ru": "Просто проходил мимо.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0333"
+    },
+    {
+      "id": "choice-0058",
+      "en": "Yes.",
+      "ru": "Да.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0337"
+    },
+    {
+      "id": "choice-0059",
+      "en": "No.",
+      "ru": "Нет.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0338"
+    },
+    {
+      "id": "choice-0060",
+      "en": "Hide.",
+      "ru": "Спрятаться.",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0349"
+    },
+    {
+      "id": "choice-0061",
+      "en": "Look elsewhere...",
+      "ru": "Поискать другое место...",
+      "stage": "Stage 36",
+      "dialogueId": "dialogue-0349"
+    },
+    {
+      "id": "choice-0062",
+      "en": "I got it.",
+      "ru": "Я его достал.",
+      "stage": "Stage 37",
+      "dialogueId": "dialogue-0383"
+    },
+    {
+      "id": "choice-0063",
+      "en": "I stole it.",
+      "ru": "Я его украл.",
+      "stage": "Stage 37",
+      "dialogueId": "dialogue-0384"
+    },
+    {
+      "id": "choice-0064",
+      "en": "I stole it.",
+      "ru": "Я его украл.",
+      "stage": "Stage 37",
+      "dialogueId": "dialogue-0385"
+    },
+    {
+      "id": "choice-0065",
+      "en": "Head out?",
+      "ru": "Прогуляться?",
+      "stage": "Stage 37",
+      "dialogueId": "dialogue-0419"
+    },
+    {
+      "id": "choice-0066",
+      "en": "I'll carry you.",
+      "ru": "Я вас понесу.",
+      "stage": "Stage 37",
+      "dialogueId": "dialogue-0422"
+    },
+    {
+      "id": "choice-0067",
+      "en": "Let's go.",
+      "ru": "Пойдём.",
+      "stage": "Stage 38",
+      "dialogueId": "dialogue-0425"
+    },
+    {
+      "id": "choice-0068",
+      "en": "Later...",
+      "ru": "Позже...",
+      "stage": "Stage 38",
+      "dialogueId": "dialogue-0426"
+    },
+    {
+      "id": "choice-0069",
+      "en": "But where?",
+      "ru": "Но куда?",
+      "stage": "Stage 39",
+      "dialogueId": "dialogue-0427"
+    },
+    {
+      "id": "choice-0070",
+      "en": "You're just guessing!?",
+      "ru": "Вы просто гадаете!?",
+      "stage": "Stage 39",
+      "dialogueId": "dialogue-0433"
+    },
+    {
+      "id": "choice-0071",
+      "en": "Of what?",
+      "ru": "Из кого?",
+      "stage": "Stage 40",
+      "dialogueId": "dialogue-0440"
+    },
+    {
+      "id": "choice-0072",
+      "en": "You don't?",
+      "ru": "Правда?",
+      "stage": "Stage 40",
+      "dialogueId": "dialogue-0441"
+    },
+    {
+      "id": "choice-0073",
+      "en": "What are you doing here?",
+      "ru": "Что вы здесь делаете?",
+      "stage": "Stage 50",
+      "dialogueId": "dialogue-0481"
+    },
+    {
+      "id": "choice-0074",
+      "en": "...",
+      "ru": "...",
+      "stage": "Stage 50",
+      "dialogueId": "dialogue-0495"
+    },
+    {
+      "id": "choice-0075",
+      "en": "Pay me.",
+      "ru": "Заплатите мне.",
+      "stage": "Stage 50",
+      "dialogueId": "dialogue-0495"
+    },
+    {
+      "id": "choice-0076",
+      "en": "Yes.",
+      "ru": "Да.",
+      "stage": "Stage 51",
+      "dialogueId": "dialogue-0594"
+    },
+    {
+      "id": "choice-0077",
+      "en": "No.",
+      "ru": "Нет.",
+      "stage": "Stage 51",
+      "dialogueId": "dialogue-0594"
+    },
+    {
+      "id": "choice-0078",
+      "en": "Elise?",
+      "ru": "Элиза?",
+      "stage": "Stage 52",
+      "dialogueId": "dialogue-0598"
+    }
+  ]
+}

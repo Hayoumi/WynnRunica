@@ -1,0 +1,766 @@
+{
+  "quest": "Flight in Distress",
+  "level": 75,
+  "difficulty": "Hard",
+  "length": "Long",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "flight-in-distress",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Good day, soldier! Will you be flying with us today?",
+      "ru": "Добрый день, солдат! Полетите с нами сегодня?",
+      "speaker": "Airship Clerk",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "May I see your passport please?",
+      "ru": "Можно ваш паспорт?",
+      "speaker": "Airship Clerk",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "It's a bit dusty! It looks very old, but the picture looks like you.",
+      "ru": "Пыльноватый! Выглядит очень старым, но на фото вы.",
+      "speaker": "Airship Clerk",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "Well everything seems to be in order, climb aboard and I hope you have a pleasant journey.",
+      "ru": "Что ж, всё в порядке. Поднимайтесь на борт, желаю приятного полёта.",
+      "speaker": "Airship Clerk",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Please remain seated, passengers. We'll be taking off in a moment!",
+      "ru": "Пассажиры, пожалуйста, оставайтесь на местах. Мы взлетаем через минуту!",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Attention passengers. There has been a missing person reported aboard. If there are any volunteers to help search for them, please report to the bridge and speak to the captain.",
+      "ru": "Внимание, пассажиры. На борту пропал человек. Если есть желающие помочь с поисками, подойдите на мостик и поговорите с капитаном.",
+      "speaker": "Broadcast",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "This area is off limits to passengers during take off. Climb up to the passenger decks, there will be an attendee waiting at your cabin.",
+      "ru": "Во время взлёта пассажирам сюда нельзя. Поднимайтесь на пассажирские палубы, у каюты вас встретит стюард.",
+      "speaker": "Ship Crew",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "I hope I do not get nauseous...",
+      "ru": "Надеюсь, меня не укачает...",
+      "speaker": "Passenger Jeremy",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Greetings, young adventurer. You haven't seen my glasses, have you?",
+      "ru": "Приветствую, юный авантюрист. Ты случайно не видел мои очки?",
+      "speaker": "Baron Axol",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "The interior of this ship is beautiful!",
+      "ru": "Внутри корабль просто шикарный!",
+      "speaker": "Passenger John",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Good day to you, soldier! This will be your quarters for the flight. I wish you a pleasant trip with us!",
+      "ru": "Добрый день, солдат! Вот ваша каюта на время полёта. Желаю приятного путешествия!",
+      "speaker": "Attendant",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "You can sleep through your journey here if you have nothing else to do!",
+      "ru": "Если больше нечем заняться, можете проспать здесь весь полёт!",
+      "speaker": "Attendant",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "The food they serve here is dreadful! As if it were meant for beasts they transport below deck.",
+      "ru": "Еда тут отвратительная! Будто её не нам подают, а тем тварям, которых возят внизу под палубой.",
+      "speaker": "Passenger Casula",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "*Sniff*... Have you seen my child? We were in our cabin, and then he just disappeared!",
+      "ru": "*Шмыг*... Вы не видели моего ребёнка? Мы были в каюте, а потом он просто исчез!",
+      "speaker": "Passenger Nancy",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "I heard that a big ship was approaching from north. I saw it from the entrance deck. I wonder what they are doing.",
+      "ru": "Слышал, что с севера приближается большой корабль. Видел его с посадочной палубы. Интересно, что они задумали.",
+      "speaker": "Sub-engineer Akot",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "Are you here to volunteer to search for the missing child?",
+      "ru": "Ты пришёл добровольцем искать пропавшего ребёнка?",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "We only just to set off and there is already an incident.",
+      "ru": "Мы только-только вылетели, а уже проблемы.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "His mother informed us that her son disappeared soon after boarding.",
+      "ru": "Его мать сказала, что сын исчез почти сразу после посадки.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "Poor parenting, if you ask me. Alas, we must find the lad.",
+      "ru": "Плохо она за ним смотрит, как по мне. Но что поделаешь, мальчишку надо найти.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "Since we don't have any leads, it might be best to ask some of the passengers for information.",
+      "ru": "Так как зацепок у нас ноль, лучше поспрашивать пассажиров.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Most of them will be in the dining area or in the lounge.",
+      "ru": "Большинство сейчас в столовой или в салоне.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "Thank you so much for your help; I hope you find the lad soon.",
+      "ru": "Спасибо тебе за помощь. Надеюсь, быстро его найдёшь.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Hey! Look at that ship over in the distance. It has been following the ship almost since we left off.",
+      "ru": "Эй! Смотри, вон тот корабль вдали. Он почти с самого вылета идёт за нами.",
+      "speaker": "Missing Child",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "I know I shouldn't be down here but...",
+      "ru": "Я знаю, что мне нельзя было сюда лезть, но...",
+      "speaker": "Missing Child",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "I love airships, and I have never seen one like that.",
+      "ru": "Я обожаю дирижабли и такого ещё ни разу не видел.",
+      "speaker": "Missing Child",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Oh, my mummy wants me?",
+      "ru": "Ой, мама меня ищет?",
+      "speaker": "Missing Child",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Okay then, I will head back right now!",
+      "ru": "Ладно, тогда я сразу возвращаюсь!",
+      "speaker": "Missing Child",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "Thank you so much for finding my child! He will not be leaving my side for the rest of the trip.",
+      "ru": "Огромное спасибо, что нашли моего ребёнка! До конца полёта он от меня больше ни на шаг не отойдёт.",
+      "speaker": "Passenger Nancy",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "I'm sorry I caused such a worry earlier...",
+      "ru": "Простите, что заставил всех так переживать...",
+      "speaker": "Found Child",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "Hello again, did you find him?",
+      "ru": "Снова здравствуй. Нашёл его?",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "How did he get down there?! There is supposed to be someone on duty!",
+      "ru": "Как он вообще туда пролез?! Там же должен кто-то дежурить!",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "Thank you so much for finding him. You were the only volunteer.",
+      "ru": "Спасибо тебе, что нашёл его. Ты был единственным добровольцем.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Hopefully that is the only hiccup in the journey.",
+      "ru": "Надеюсь, это единственная неприятность за весь полёт.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "What in good heavens was that? Crew, report!",
+      "ru": "Какого чёрта это было? Экипаж, докладывать!",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "Sir! One of our engines blew out! We've lost all thrust on that side.",
+      "ru": "Сэр! Один из двигателей рванул! С той стороны у нас теперь вообще нет тяги.",
+      "speaker": "Airship Crewmember",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Blast it all! We are sitting dead in the water without both engines.",
+      "ru": "Проклятье! Без двух работающих двигателей мы далеко не улетим.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Go check on the condition of the passengers.",
+      "ru": "Проверь, как там пассажиры.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "Soldier, go report to the Engineer in the engine room and see if there is anything you can do to help us get moving once again.",
+      "ru": "Солдат, иди к инженеру в машинное отделение и узнай, чем можно помочь, чтобы мы снова полетели.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "You must be the 'uman the captain done told me.",
+      "ru": "Ты, должно быть, тот самый человек, про которого капитан говорил.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "We sure are havin' quite the situation down 'ere.",
+      "ru": "Дела у нас тут, прямо скажем, скверные.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "I hafta stay here and man the 'ngines, else she might damage 'erself.",
+      "ru": "Мне надо оставаться тут и держать движки под контролем, а то корабль сам себя доконает.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "If ye wanna help 'uman, go on up the riggin' and take a gander at the props.",
+      "ru": "Хочешь помочь, человек - полезай наверх по снастям и глянь на винты.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "Ye can get to 'em through the access 'atches in the bridge.",
+      "ru": "До них можно добраться через технические люки на мостике.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "If'n they're stopped, just hit the breakers that are off.",
+      "ru": "Если они встали, просто вруби выключенные рубильники.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Come back here when ye done. I need ta stay here and keep her cool.",
+      "ru": "Как закончишь, возвращайся сюда. Мне надо оставаться тут и следить, чтобы старушка не перегрелась.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "In event of shut-down, maitenence must be performed.",
+      "ru": "При остановке требуется техобслуживание.",
+      "speaker": "Engine Instructions",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "Worker must restart all wooden switches before engine overheats.",
+      "ru": "Работник должен перезапустить все деревянные переключатели до перегрева двигателя.",
+      "speaker": "Engine Instructions",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "DO NOT PRESS THE STONE SWITCHES",
+      "ru": "НЕ НАЖИМАТЬ КАМЕННЫЕ ПЕРЕКЛЮЧАТЕЛИ",
+      "speaker": "Engine Instructions",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "Thank ye! The 'ngines are back up and running!",
+      "ru": "Спасибо тебе! Движки снова работают!",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "I couldn't have dun this without ye.",
+      "ru": "Без тебя я бы не справился.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "You go back to yer quarters and get some rest. A passen'er like yerself shouldn' have to help the crew.",
+      "ru": "Иди обратно в каюту и отдохни. Пассажир вроде тебя вообще не должен вкалывать за экипаж.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "I hope the rest of yer journey is good. I'll let the cap'n know so he can turn her up ta max and get us movin' again.",
+      "ru": "Надеюсь, остаток полёта пройдёт спокойно. Я скажу капитану, чтобы выжал из неё максимум и снова разогнал нас.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Thanks 'uman.",
+      "ru": "Спасибо, человек.",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "muffled yelling",
+      "ru": "приглушённые крики",
+      "speaker": "Airship Crew",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "All staff report to stations! This is not a drill! All staff report to stations!",
+      "ru": "Весь персонал по местам! Это не учебная тревога! Весь персонал по местам!",
+      "speaker": "Broadcast",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "Hol' togetha old girl, ye got this!",
+      "ru": "Держись, старушка, давай, ты сможешь!",
+      "speaker": "Engineer Eric",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "Men, hold her steady. We can still survive this! We just need to stop them following us.",
+      "ru": "Парни, держите курс ровно. Мы ещё можем пережить это! Нужно только оторваться от них.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "Look here girls, the meat has come to us!",
+      "ru": "Гляньте-ка, девочки, мясо само к нам прилетело!",
+      "speaker": "Sky Raider",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "Send more in! They can't get all of us!",
+      "ru": "Шлите ещё! Всех нас они не перебьют!",
+      "speaker": "Sky Raider",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "The rest of you all, get in here!",
+      "ru": "Остальные, все сюда!",
+      "speaker": "Sky Raider",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "I heard fighting? Is someone there? I am in the jail cell!",
+      "ru": "Я слышал драку! Тут кто-нибудь есть? Я в тюремной камере!",
+      "speaker": "Captured Prisoner",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "I heard fighting above, well done! Any chance to see those raiders get what's coming warms my old heart.",
+      "ru": "Слышал бой наверху. Молодец! Когда эти налётчики получают по заслугам, у меня на душе теплеет.",
+      "speaker": "Captured Prisoner",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "I used to be the greatest locksmith in all of Gavel! I was known all over, unfortunately.",
+      "ru": "Когда-то я был лучшим мастером замков во всём Гавеле! Меня знали повсюду, к сожалению.",
+      "speaker": "Captured Prisoner",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "These fiends captured me, years ago, and made me create hundreds of keys for their raids.",
+      "ru": "Эти твари схватили меня много лет назад и заставили делать сотни ключей для своих налётов.",
+      "speaker": "Captured Prisoner",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "I am much too old now, but I would love to see them taken down before I leave this world.",
+      "ru": "Я уже слишком стар для всего этого, но очень хотел бы увидеть, как их наконец прижмут, прежде чем я покину этот мир.",
+      "speaker": "Captured Prisoner",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "My key making gear is stored down the hall, behind the staircase. You can use them to craft a way inside the Queen's quarters.",
+      "ru": "Мои инструменты для изготовления ключей лежат дальше по коридору, за лестницей. С ними ты сможешь сделать ключ от покоев королевы.",
+      "speaker": "Captured Prisoner",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "Just look into the keyhole to see how to make them. Good luck!",
+      "ru": "Просто загляни в замочную скважину, чтобы понять, какой ключ нужен. Удачи!",
+      "speaker": "Captured Prisoner",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "So you think you can just come on my ship, huh?",
+      "ru": "Думаешь, можешь вот так просто вломиться на мой корабль, а?",
+      "speaker": "Skyraider Queen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Kill my crew? Interrupt my plunder?",
+      "ru": "Перебить мой экипаж? Сорвать мой налёт?",
+      "speaker": "Skyraider Queen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "I know how to deal with 'problems' like you!",
+      "ru": "Я знаю, как решать такие \"проблемы\", как ты!",
+      "speaker": "Skyraider Queen",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Wow, You single handedly took out a skyraider invasion.",
+      "ru": "Ничего себе. Ты в одиночку отбил нападение небесных налётчиков.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "And you're a passenger! It's a good job you did...",
+      "ru": "И ведь ты всего лишь пассажир! Сработал ты отлично...",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "We have no defense on this ship. We are a civilian carrier.",
+      "ru": "Наш корабль беззащитен. Мы возим мирных пассажиров.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "What is this? A ring from the queen? It looks valuable. You should keep it.",
+      "ru": "Это что? Кольцо королевы? Выглядит ценным. Оставь себе.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "I still do not know how to thank you... We owe you so much.",
+      "ru": "Я до сих пор не знаю, как тебя благодарить... Мы тебе очень многим обязаны.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Wait! I know! You can have free travel from Detlas to Cinfras!",
+      "ru": "Стой! Придумал! Будешь летать бесплатно из Детласа в Синфрас!",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "A private airship owner called Calo owes me big.",
+      "ru": "Владелец частного дирижабля по имени Кало мне многим обязан.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "I will tell him the deal. All you have to do is enter his ship and he'll take you back and forth!",
+      "ru": "Я ему всё передам. Тебе останется только сесть на его корабль, и он будет возить тебя туда-сюда!",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "Oh, and you will also be rewarded kindly monetarily. I will also personally send him the ring, so that it doesn't get damaged on the way, and you will receive it there.",
+      "ru": "А, и деньгами тебя тоже не обидим. Кольцо я тоже лично передам ему, чтобы оно не повредилось в пути, а уже там ты его получишь.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Just head down to the entrance deck, and we are about to arrive at Detlas Airbase now.",
+      "ru": "Спускайся на посадочную палубу. Мы уже подлетаем к авиабазе Детласа.",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "Thanks for helping us, really!",
+      "ru": "Спасибо, что выручил нас, серьёзно!",
+      "speaker": "Captain Ackbar",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "Hey there. You must be the Human Ackbar told me about.",
+      "ru": "Эй, привет. Ты, должно быть, тот человек, о котором мне говорил Акбар.",
+      "speaker": "Calo",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "I heard what you did on the ship, very admirable. Fortunately for you, I owe Ackbar.",
+      "ru": "Я слышал, что ты устроил на том корабле. Впечатляет. Тебе повезло, что я должен Акбару.",
+      "speaker": "Calo",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "I'll take you from Detlas to Cinfras or vice versa whenever you want.",
+      "ru": "Буду возить тебя из Детласа в Синфрас и обратно, когда захочешь.",
+      "speaker": "Calo",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "All you have to do is board my ship. Oh, this was also from Ackbar.",
+      "ru": "Тебе нужно только сесть на мой корабль. А, и вот ещё кое-что от Акбара.",
+      "speaker": "Calo",
+      "stage": "Stage 18"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "The bear seems hungry...",
+      "ru": "Медведь, похоже, голоден...",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "The bear really liked the cod!",
+      "ru": "Медведю очень понравилась треска!",
+      "speaker": "",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "That fixed the engine, better get back to the Engineer now.",
+      "ru": "Двигатель починен, пора вернуться к Инженеру.",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "Maybe you can see what's going on in the loading bay...",
+      "ru": "Может, удастся посмотреть, что происходит в трюме...",
+      "speaker": "",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "That should be enough of them gone. The way to the lower deck is open.",
+      "ru": "С налётчиками разобрались. Путь на нижнюю палубу открыт.",
+      "speaker": "",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "It looks like the way out is open.",
+      "ru": "Похоже, выход открыт.",
+      "speaker": "",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "New Quest Started: Flight in Distress",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Полёт в беде",
+      "speaker": "",
+      "stage": "Stage 15"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Bring your Gavellian Passport to the Airship Clerk at [-172, 108, -4946].",
+      "ru": "Показать паспорт Гавела служащему у дирижабля [-172, 108, -4946].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Enter the airship.",
+      "ru": "Войти в дирижабль.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Speak to Captain Ackbar regarding the missing child.",
+      "ru": "Поговорить с капитаном Акбаром о пропавшем ребёнке.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Try and find out where the missing child is located by speaking to the passengers.",
+      "ru": "Расспросить пассажиров и выяснить, где пропавший ребёнок.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Return back to the Captain.",
+      "ru": "Вернуться к капитану.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Look if the engineer has something for you to do in order to help.",
+      "ru": "Узнать у инженера, чем можно помочь.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Go find and fix the issue with the airship's engines. They are located on top of the balloon through the bridge.",
+      "ru": "Найти и устранить неполадку в двигателях дирижабля. Они находятся над воздушным баллоном, пройти к ним можно через мостик.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Report to Engineer Eric that you fixed the engines.",
+      "ru": "Сообщить инженеру Эрику, что двигатели починены.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Return back to your cabin.",
+      "ru": "Вернуться в свою каюту.",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Explore the lower deck and find out what caused the explosion.",
+      "ru": "Осмотреть нижнюю палубу и выяснить причину взрыва.",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "objective-0011",
+      "en": "Get to the other ship.",
+      "ru": "Перебраться на другой корабль.",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "objective-0012",
+      "en": "Head below deck.",
+      "ru": "Спуститься под палубу.",
+      "stage": "Stage 12"
+    },
+    {
+      "id": "objective-0013",
+      "en": "Speak to the prisoner.",
+      "ru": "Поговорить с пленником.",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "objective-0014",
+      "en": "Make the key to reach the Skyraider Queen.",
+      "ru": "Изготовить ключ, чтобы добраться до королевы небесных налётчиков.",
+      "stage": "Stage 14"
+    },
+    {
+      "id": "objective-0015",
+      "en": "Fight the Skyraider Queen and take one of her personal treasures with you.",
+      "ru": "Победить королеву небесных налётчиков и забрать одно из её сокровищ.",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "objective-0016",
+      "en": "Escape the ship and speak to Captain Ackbar.",
+      "ru": "Сбежать с корабля и поговорить с капитаном Акбаром.",
+      "stage": "Stage 16"
+    },
+    {
+      "id": "objective-0017",
+      "en": "Head down to the entrance deck, and get off.",
+      "ru": "Спуститься на посадочную палубу и сойти с корабля.",
+      "stage": "Stage 17"
+    },
+    {
+      "id": "objective-0018",
+      "en": "Speak to Calo next to the little ship at the Detlas docks.",
+      "ru": "Поговорить с Кало у маленького корабля в порту Детласа.",
+      "stage": "Stage 18"
+    }
+  ],
+  "choices": []
+}

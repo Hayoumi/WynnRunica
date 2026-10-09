@@ -1,0 +1,7 @@
+# Файлы перевода хранятся байт в байт: по ним считаются контрольные суммы обновления,
+# и подмена переводов строк ломает проверку у игроков.
+src/main/resources/quests/** -text
+src/main/resources/gui/** -text
+src/main/resources/npc/** -text
+src/main/resources/chat/** -text
+src/main/resources/translations-manifest.json -text

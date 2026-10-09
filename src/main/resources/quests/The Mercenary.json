@@ -1,0 +1,977 @@
+{
+  "quest": "The Mercenary",
+  "level": 30,
+  "difficulty": "Hard",
+  "length": "Medium",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "the-mercenary",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Ho, soldier! Soldier! Ahem...",
+      "ru": "Эй, солдат! Солдат! Кхм...",
+      "speaker": "Military Scout",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Admiral Amerigo of the Almuji Army requests the aid of able-bodied and unmoored soldiers from around the Province of Wynn.",
+      "ru": "Адмирал Америго из армии Алмуджа просит помощи у всех крепких и свободных солдат по всей провинции Винн.",
+      "speaker": "Military Scout",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "To put it bluntly... they've run into a predicament over there. Almuj's standing army has been taken captive, and the desert barracks overtaken.",
+      "ru": "Если без лишних слов... там у них серьёзная беда. Регулярную армию Алмуджа взяли в плен, а пустынные казармы захвачены.",
+      "speaker": "Military Scout",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "The Admiral has sent scouts round to gather any free-moving soldiers to help him... remedy the situation.",
+      "ru": "Адмирал разослал разведчиков собрать всех свободных солдат, чтобы помочь ему... разобраться с этим.",
+      "speaker": "Military Scout",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "... If you ask me, I reckon he'd like this taken care of quietly and discreetly. I don't blame the man, really, given the circumstances.",
+      "ru": "... Если спросишь меня, он явно хочет, чтобы всё это уладили тихо и без лишнего шума. И я его, честно говоря, понимаю.",
+      "speaker": "Military Scout",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "Anyhow, if you can, travel on over that way. Almuj is the desert city to the east of Detlas, if you've never seen it.",
+      "ru": "Короче, если можешь, двигай туда. Алмудж - это пустынный город к востоку от Детласа, если вдруг не знаешь.",
+      "speaker": "Military Scout",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "With that, I'm off! There are many more soldiers to find. Good luck, if you choose to heed the summons!",
+      "ru": "Ну а мне пора! Нужно найти ещё много солдат. Удачи тебе, если решишь откликнуться на зов!",
+      "speaker": "Military Scout",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "Anyhow, if you can, head on over to the Admiral's office. It's just by the bank, you can't miss it.",
+      "ru": "Если пойдёшь, сразу дуй в кабинет адмирала. Он прямо возле банка, мимо не пройдёшь.",
+      "speaker": "Military Scout",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "Ugh, for crying out loud- I'm busy, can't you see that? I don't have time to...",
+      "ru": "Уф, да сколько можно- Я занят, не видно, что ли? У меня нет времени на...",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Ah. You're a soldier. Good, that's one more to add to the list. You met the scout, I'm sure.",
+      "ru": "А. Ты солдат. Хорошо, ещё один в список. С разведчиком уже пересёкся, я так понимаю.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "Not as many of you lot as I would have hoped for, but it'll have to do. Come down here, the others are in the briefing room already.",
+      "ru": "Вас собралось меньше, чем я рассчитывал, но сойдёт. Спускайся сюда, остальные уже в комнате для инструктажа.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "Hmph. I suppose this is as many soldiers as we'll be able to get. Very well!",
+      "ru": "Хмф. Похоже, больше солдат мы уже не соберём. Ладно!",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "To begin with - the situation. Commander Takan of Nemract has abandoned his post, and has taken the lead of a group of local bandits.",
+      "ru": "Для начала - ситуация. Командир Такан из Немракта бросил свой пост и возглавил группу местных бандитов.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "Under his command, they were able to strike our forces in the dead of night, and have taken over the barracks to the northeast.",
+      "ru": "Под его руководством они ударили по нашим войскам глубокой ночью и захватили казармы на северо-востоке.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Our entire military force, captured or killed! What a disgrace. We've sent messengers to Detlas, and they have promised their support...",
+      "ru": "Вся наша армия - либо в плену, либо мертва! Позор. Мы уже отправили гонцов в Детлас, и они пообещали поддержку...",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0016",
+      "en": "But I would like this dealt with quickly and quietly. That's where you five come in.",
+      "ru": "Но я бы предпочёл, чтобы всё закончилось быстро и без лишнего шума. Именно для этого нужны вы пятеро.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0017",
+      "en": "You will attack and infiltrate the barracks, and assassinate our treasonous commander. I will leave the strategizing to you, as there is much I still must handle here.",
+      "ru": "Вы должны атаковать казармы, проникнуть внутрь и устранить командира-предателя. План придумывайте сами, у меня и так тут дел по горло.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0018",
+      "en": "A question, if I may. Do we know the commander's reasoning for this attack? It seems out of character.",
+      "ru": "Можно вопрос? Мы знаем, почему командир вообще на это пошёл? Это на него не похоже.",
+      "speaker": "Lanu",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0019",
+      "en": "...No. There is nothing that I can recall that would motivate such an attack. Will that be all?",
+      "ru": "...Нет. Я не припоминаю ничего, что могло бы толкнуть его на такое. Это всё?",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0020",
+      "en": "...I suppose.",
+      "ru": "...Пожалуй.",
+      "speaker": "Lanu",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0021",
+      "en": "Then I must be off! Good luck, soldiers. I hope for a swift end to this disaster.",
+      "ru": "Тогда я пошёл. Удачи, солдаты. Надеюсь, этот кошмар закончится быстро.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0022",
+      "en": "...Well, darn. Bandits sound like trouble. Do we know what sort?",
+      "ru": "...Мда. Бандиты - это уже неприятно. Мы хоть знаем, какие именно?",
+      "speaker": "Mel",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0023",
+      "en": "Does it matter? We'll probably be fighting them no matter what kind they are.",
+      "ru": "А есть разница? Нам их всё равно бить, кто бы они ни были.",
+      "speaker": "Linton",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0024",
+      "en": "It might, actually... Some bandit groups are stronger than others. If we know which group we're dealing with ahead of time, it might-",
+      "ru": "Вообще-то есть... Одни банды опаснее других. Если мы заранее поймём, с кем имеем дело, это может-",
+      "speaker": "Lanu",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0025",
+      "en": "We've been standing around here for too long. Come on, let's make our way closer to the barracks. We can come up with a plan there.",
+      "ru": "Мы тут уже слишком долго топчемся. Пошли ближе к казармам. Там и придумаем план.",
+      "speaker": "Aledar",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0026",
+      "en": "Looks like the others have gone ahead. You should rendezvous with them closer to the barracks.",
+      "ru": "Похоже, остальные уже ушли вперёд. Тебе стоит догнать их ближе к казармам.",
+      "speaker": "",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0027",
+      "en": "Well, darn. The place is swarming with bandits...",
+      "ru": "Мда уж. Тут всё кишит бандитами...",
+      "speaker": "Mel",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0028",
+      "en": "I don't see how that's a problem! We can just launch explosives into the crowd, and boom, problem solved.",
+      "ru": "Вообще не вижу тут проблемы! Можно просто закинуть в толпу взрывчатку, и бум - вопрос закрыт.",
+      "speaker": "Linton",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0029",
+      "en": "...What?",
+      "ru": "...Чего?",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0030",
+      "en": "We can't do that. You'd almost certainly damage the structure in the process!",
+      "ru": "Так нельзя. Ты почти наверняка повредишь само здание!",
+      "speaker": "Lanu",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0031",
+      "en": "Ah, true. Can't forget about the historical value. Good catch.",
+      "ru": "А, точно. Нельзя забывать об исторической ценности. Подмечено верно.",
+      "speaker": "Linton",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0032",
+      "en": "...Right. Well, anyway, I don't think we can get through those bandits with brute force. We'll have to try to find a way around them...",
+      "ru": "...Ага. Ладно, в любом случае напролом через этих бандитов не пройти. Придётся искать обходной путь...",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0033",
+      "en": "Well, if I may interject- I reckon I won't be of much use in proper combat! Injured leg, 'n all. Makes moving a little hard!",
+      "ru": "Ну, если позволите влезть - в нормальном бою от меня толку будет немного! Нога травмирована и всё такое. Двигаться тяжеловато!",
+      "speaker": "Mel",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0034",
+      "en": "So, if we think goin' right in won't work, I could try to create a distraction? I've got the magic for it, and I'd be of much more use out here.",
+      "ru": "Так что если в лоб идти не вариант, я могу попробовать устроить отвлекающий манёвр. Магия у меня для этого есть, да и снаружи от меня пользы будет больше.",
+      "speaker": "Mel",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0035",
+      "en": "It could work... if I join you, we'd be able to draw attention towards us while the others sneak in from a different angle.",
+      "ru": "Это может сработать... если я пойду с тобой, мы сможем привлечь внимание к себе, пока остальные незаметно проберутся с другой стороны.",
+      "speaker": "Lanu",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0036",
+      "en": "Good idea. But, how do we get in? I don't think there is another entrance, other than that one in front.",
+      "ru": "Хорошая мысль. Но как нам внутрь попасть? Я, кроме главного входа, другого не вижу.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0037",
+      "en": "Ahem. If you'll allow me-",
+      "ru": "Кхм. Если позволите-",
+      "speaker": "Linton",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0038",
+      "en": "This had better not be going where I think it is, Linton.",
+      "ru": "Только не говори, что ты опять хочешь предложить именно то, о чём я сейчас подумал, Линтон.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0039",
+      "en": "Okay, maybe it is. But, listen! We don't have any entrances, right? What if we made our own... by blowing a hole through a wall?",
+      "ru": "Ладно, может, именно это. Но послушай! У нас нет входа, так? А что если мы сделаем свой... взрывом пробьём дыру в стене?",
+      "speaker": "Linton",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0040",
+      "en": "...Alright, fine. That sounds like it could work.",
+      "ru": "...Ладно, допустим. Вполне может сработать.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0041",
+      "en": "Exactly! You need to have more faith in the experts, Aledar.",
+      "ru": "Вот! Надо больше доверять профессионалам, Аледар.",
+      "speaker": "Linton",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0042",
+      "en": "Hm. No, I don't think I do. Either way, that sounds like a plan. <playername>, Linton, and I will break into the barracks then.",
+      "ru": "Хм. Нет, вот как раз не надо. Но ладно, план есть план. <playername>, Линтон, мы втроём пробиваемся в казармы.",
+      "speaker": "Aledar",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0043",
+      "en": "And Lanu and I can distract 'em while you do so. Sounds like a plan! Let's get goin'.",
+      "ru": "А мы с Лану отвлечём их, пока вы этим занимаетесь. Вот и план! Пошли.",
+      "speaker": "Mel",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0044",
+      "en": "Well, well. This looks like a good place to break our way in, wouldn't you say, Aledar?",
+      "ru": "Ну что ж. По-моему, отличное место, чтобы пробить себе вход, а, Аледар?",
+      "speaker": "Linton",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0045",
+      "en": "Yes, Linton, it looks fine. <playername>, we'll be looking for Takan. I think the two of us could take him out.",
+      "ru": "Да, Линтон, сойдёт. <playername>, мы будем искать Такана. Думаю, вдвоём мы справимся.",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0046",
+      "en": "And I'll be looking for the captured soldiers! I stole a map of the barracks from Amerigo's desk, so I'll be able to find them easily enough!",
+      "ru": "А я займусь пленными солдатами! Я спёр карту казарм со стола Америго, так что найти их будет несложно!",
+      "speaker": "Linton",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0047",
+      "en": "You-... nevermind, I don't care. Just do your job, please?",
+      "ru": "Ты-... а, ладно, плевать. Просто сделай свою работу, хорошо?",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0048",
+      "en": "On it, boss!",
+      "ru": "Есть, босс!",
+      "speaker": "Linton",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0049",
+      "en": "See you two on the other side!",
+      "ru": "Увидимся на той стороне!",
+      "speaker": "Linton",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0050",
+      "en": "Alright, let's get to work!",
+      "ru": "Ладно, за дело!",
+      "speaker": "Aledar",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0051",
+      "en": "Damn it... damn it, damn it, damn it ALL! Couldn't give me a MOMENT of peace, could he, that rat Amerigo...",
+      "ru": "Чёрт... чёрт, чёрт, чёрт бы всё побрал! Он даже МИНУТЫ покоя мне не мог дать, этот крысёныш Америго...",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0052",
+      "en": "...do I really need to do everything myself?! It's almost as though-",
+      "ru": "...мне что, вообще всё самому приходится делать?! Такое чувство, будто-",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0053",
+      "en": "Oh, I see. I see what's going on. More of Amerigo's dogs, here to take care of his business, huh?! Get out here where I can see you.",
+      "ru": "А, ясно. Ясно, что происходит. Ещё шавки Америго пришли делать за него грязную работу, да?! А ну выйдите, чтобы я вас видел.",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0054",
+      "en": "You look new... haven't been around long enough to really see the face of War up close and personal yet, have you?",
+      "ru": "Выглядишь зелёным... ещё не успел по-настоящему увидеть лицо войны вблизи, да?",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0055",
+      "en": "You think this is right? You think it's right that those DAMNED admirals get all the wealth and fame, when WE'RE the ones out fighting in the trenches?!",
+      "ru": "Ты считаешь это правильным? Считаешь нормальным, что эти ПРОКЛЯТЫЕ адмиралы гребут все богатства и славу, пока МЫ сражаемся в окопах?!",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0056",
+      "en": "I've seen soldiers fall and fall and fall, then rise back up again. I've lived through the chaos and death of battle more times than I could count.",
+      "ru": "Я видел, как солдаты падали, падали и падали, а потом вставали уже не людьми. Я пережил хаос и смерть на поле боя столько раз, что уже не сосчитать.",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0057",
+      "en": "And these IDIOTS think they deserve their power? Their authority?!",
+      "ru": "И эти ИДИОТЫ думают, что заслуживают своей власти? Имеют право нами командовать?!",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0058",
+      "en": "...You've killed dozens, and you're keeping dozens more captured.",
+      "ru": "...Ты убил десятки людей, и ещё десятки держишь в плену.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0059",
+      "en": "And I'd do all that and more, just to prove my point! They think they hold power?! I'll show them power...",
+      "ru": "И я сделал бы ещё больше, лишь бы доказать своё! Они думают, что власть у них?! Я им покажу, что такое сила...",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0060",
+      "en": "I suppose I'll start with you. What are two more compared to dozens?",
+      "ru": "Пожалуй, начну с вас. Что ещё двое по сравнению с десятками?",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0061",
+      "en": "Step aside, Shadow Spears. I'd like to deal with these dogs myself.",
+      "ru": "Отойдите, Теневые Копья. С этими псами я разберусь сам.",
+      "speaker": "Takan",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0062",
+      "en": "...We won't make it easy for you.",
+      "ru": "...Легко тебе не будет.",
+      "speaker": "Aledar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "dialogue-0063",
+      "en": "Hrrk-...",
+      "ru": "Хррк-...",
+      "speaker": "Takan",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0064",
+      "en": "Y-you won't-... Stay back!",
+      "ru": "В-вы не-... Не подходите!",
+      "speaker": "Takan",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0065",
+      "en": "Damn it, he's getting away!",
+      "ru": "Чёрт, он уходит!",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0066",
+      "en": "This tower can only go up... Come on, we need to chase after him! We can't let him get away!",
+      "ru": "Из этой башни путь только наверх... Пошли, надо за ним! Нельзя дать ему уйти!",
+      "speaker": "Aledar",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0067",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Shadow Spears Leader",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "dialogue-0068",
+      "en": "No need to be hasty.",
+      "ru": "Не надо так спешить.",
+      "speaker": "Shadow Spears Leader",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0069",
+      "en": "Look, it's obvious we've lost here. Even if that idiot escapes, you military folk will find him.",
+      "ru": "Слушай, тут и так ясно, что мы уже проиграли. Даже если этот идиот сбежит, вы, военные, всё равно его найдёте.",
+      "speaker": "Shadow Spears Leader",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0070",
+      "en": "So, I surrender! Don't see the point in fightin' a pointless battle. Not like we're gonna be paid after this mess, anyhow.",
+      "ru": "Так что я сдаюсь! Незачем драться, когда толку всё равно не будет. Нам после этого бардака всё равно уже никто не заплатит.",
+      "speaker": "Shadow Spears Leader",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0071",
+      "en": "Here, take the key to the tower. A sign of good faith. Do what you will with him, I really don't care.",
+      "ru": "Вот, держи ключ от башни. В знак доброй воли. Делайте с ним что хотите, мне уже плевать.",
+      "speaker": "Shadow Spears Leader",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0072",
+      "en": "I always preferred his brother anyway. Much quieter.",
+      "ru": "Я вообще всегда больше уважал его брата. Тот хотя бы потише был.",
+      "speaker": "Shadow Spears Leader",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0073",
+      "en": "[+1 Tower Key]",
+      "ru": "[+1 Tower Key]",
+      "speaker": "",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0074",
+      "en": "Ugh, more bandits... I'll hold them off here.",
+      "ru": "Уф, ещё бандиты... Я задержу их тут.",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0075",
+      "en": "Keep going after Takan! I'll be fine!",
+      "ru": "Догоняй Такана! Со мной всё будет в порядке!",
+      "speaker": "Aledar",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "dialogue-0076",
+      "en": "Urgh... Why did I even come up here?! There's nowhere for me to-",
+      "ru": "Тьфу... Зачем я вообще сюда полез?! Отсюда ведь некуда-",
+      "speaker": "Takan",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0077",
+      "en": "...Oh. L-listen. We can talk this out-",
+      "ru": "...Ох. С-слушай. Мы можем договориться-",
+      "speaker": "Takan",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0078",
+      "en": "N-no... not- l-like... this...",
+      "ru": "Н-нет... не... т-так...",
+      "speaker": "Takan",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0079",
+      "en": "[+1 Takan's Badge]",
+      "ru": "[+1 Takan's Badge]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0080",
+      "en": "Takan is dead. You should regroup with the others outside the barracks.",
+      "ru": "Такан мёртв. Тебе стоит собраться с остальными снаружи казарм.",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0081",
+      "en": "...and so then, I had to free them somehow! So I shouted at them to brace for it, and-",
+      "ru": "...и тогда мне пришлось как-то их освобождать! Я заорал им, чтобы пригнулись, и-",
+      "speaker": "Linton",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0082",
+      "en": "<playername>! There you are! I'm glad you made it out safely. It looks like the bandits are dispersing.",
+      "ru": "<playername>! Вот ты где! Рад, что ты выбрался целым. Похоже, бандиты уже разбегаются.",
+      "speaker": "Aledar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0083",
+      "en": "And so is my train of thought for my story. So! Did you get him?",
+      "ru": "А я потерял нить своего рассказа. Так! Ты с ним разобрался?",
+      "speaker": "Linton",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0084",
+      "en": "He's dead. I have his badge.",
+      "ru": "Он мёртв. У меня его знак.",
+      "speaker": "CHOICE",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0085",
+      "en": "That's good to hear. At least something good came of this whole situation...",
+      "ru": "Это хорошо. Хоть что-то хорошее вышло из всей этой истории...",
+      "speaker": "Lanu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0086",
+      "en": "I'm glad we managed to take him out after all. The things he was saying... he seemed like a dangerous man.",
+      "ru": "Я рад, что мы всё-таки его убрали. То, что он нёс... он явно был очень опасным человеком.",
+      "speaker": "Aledar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0087",
+      "en": "I caught a few of the things he was shoutin' from outside. It didn't sound very pleasant.",
+      "ru": "Я кое-что слышал снаружи из того, что он там орал. Звучало это совсем не по-доброму.",
+      "speaker": "Mel",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0088",
+      "en": "Well, I didn't hear a thing. Probably on account of the ringing in my ears. It seems to me we're done here, though, right?",
+      "ru": "А я вообще ничего не слышал. Наверное, из-за звона в ушах. Но по-моему, мы тут закончили, да?",
+      "speaker": "Linton",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0089",
+      "en": "It looks like it, yes. I think I'll stay behind to help the soldiers clear out the remaining bandits.",
+      "ru": "Похоже на то. Думаю, я останусь и помогу солдатам разобраться с оставшимися бандитами.",
+      "speaker": "Lanu",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0090",
+      "en": "I figure I'll stick around too. Don't got anythin' better to do right now, anyway!",
+      "ru": "Я, пожалуй, тоже пока здесь задержусь. Всё равно прямо сейчас заняться особо нечем!",
+      "speaker": "Mel",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0091",
+      "en": "Well, I'm out of here. I've got places to be! Things to do! Explosives to return! Goodbye!",
+      "ru": "Ну а я сваливаю. У меня дела! Места, куда надо успеть! Взрывчатку вернуть! Бывайте!",
+      "speaker": "Linton",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0092",
+      "en": "<playername>, I guess that leaves the two of us to return to Almuj with the news! Let's get going.",
+      "ru": "<playername>, значит, нам вдвоём и возвращаться в Алмудж с новостями! Пошли.",
+      "speaker": "Aledar",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0093",
+      "en": "Soldiers! Report! Don't tell me you're the only two survivors, damn it all...",
+      "ru": "Солдаты! Доклад! Только не говорите, что вы двое - единственные выжившие, чёрт побери...",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0094",
+      "en": "No, sir, the mission was a success. Takan is dead.",
+      "ru": "Нет, сэр, задание выполнено. Такан мёртв.",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0095",
+      "en": "You're certain of this? You have his badge, surely...?",
+      "ru": "Вы уверены? Его знак у вас при себе, я надеюсь...?",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0096",
+      "en": "[-1 Takan's Badge]",
+      "ru": "[-1 Takan's Badge]",
+      "speaker": "",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "dialogue-0097",
+      "en": "I see... satisfactory work, soldiers. You two, and the others, have Almuj's gratitude.",
+      "ru": "Понятно... работа выполнена удовлетворительно, солдаты. Вы двое и остальные заслужили благодарность Алмуджа.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0098",
+      "en": "Admiral, sir. Some of what Takan is saying, it was-",
+      "ru": "Адмирал, сэр. То, что говорил Такан... это-",
+      "speaker": "Aledar",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0099",
+      "en": "I wouldn't put too much stock in those traitor's words. People like him, who spit vitriol with no merit, riling up the masses against the order we hold.",
+      "ru": "Я бы не стал придавать большого значения словам предателя. Такие, как он, только и умеют без всяких оснований плеваться ядом и поднимать народ против порядка, который мы поддерживаем.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0100",
+      "en": "He is an angry man holding a grudge for an imagined wrongdoing. There is nothing more to it than that. I would suggest putting it out of your mind.",
+      "ru": "Он просто злобный человек, который зациклился на выдуманной обиде. Ничего больше. Советую вам выкинуть его слова из головы.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0101",
+      "en": "You will all be well-compensated for your work today. Now, run along. I have to collect my honorary badge for taking out Ex-Commander Takan.",
+      "ru": "За сегодняшнюю работу вы все получите достойную награду. А теперь свободны. Мне ещё нужно забрать свой почётный знак за устранение бывшего командира Такана.",
+      "speaker": "Admiral Amerigo",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "dialogue-0102",
+      "en": "I'm starting to see why Takan hated him so much.",
+      "ru": "Кажется, я начинаю понимать, почему Такан его так ненавидел.",
+      "speaker": "Aledar",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0103",
+      "en": "I'll... probably try to speak to Admiral Aegis about that the next time I'm in Detlas.",
+      "ru": "Я... наверное, попробую поговорить об этом с адмиралом Аегисом, когда в следующий раз буду в Детласе.",
+      "speaker": "Aledar",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0104",
+      "en": "Anyway! What an adventure, right? I can't wait to tell Tasim about it.",
+      "ru": "Ладно! Ну и приключение вышло, а? Не терпится рассказать об этом Тасиму.",
+      "speaker": "Aledar",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0105",
+      "en": "He went off to Gavel, I think.",
+      "ru": "Кажется, он ушёл в Гавел.",
+      "speaker": "CHOICE",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0106",
+      "en": "I... haven't heard from him either.",
+      "ru": "Я... тоже о нём ничего не слышал.",
+      "speaker": "CHOICE",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0107",
+      "en": "482, 67, -1584",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0108",
+      "en": "155, 40, -2180",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0109",
+      "en": "-311, 53, -1165",
+      "ru": "",
+      "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0110",
+      "en": "New Quest Started: The Mercenary",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Наёмник",
+      "speaker": "",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0111",
+      "en": "Not a bad idea.",
+      "ru": "Неплохая мысль.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0112",
+      "en": "Fine by me!",
+      "ru": "Меня устраивает!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0113",
+      "en": "Suppose that works.",
+      "ru": "Пожалуй, сойдёт.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0114",
+      "en": "...Didn't we just say we wouldn't-",
+      "ru": "...Мы же только что сказали, что не будем-",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0115",
+      "en": "We all need to make sacrifices, Lanu.",
+      "ru": "Всем нам приходится чем-то жертвовать, Лану.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "dialogue-0116",
+      "en": "I suppose.",
+      "ru": "Пожалуй.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "dialogue-0117",
+      "en": "Oh, not this again. You're still on that?",
+      "ru": "О нет, только не это снова. Ты всё ещё об этом?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0118",
+      "en": "Some of us care about history, Mel.",
+      "ru": "Кое-кому из нас история небезразлична, Мел.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "dialogue-0119",
+      "en": "...Speaking of. Have you heard from him recently? I can't seem to get ahold of him at all.",
+      "ru": "...Кстати о нём. От него давно что-нибудь слышно? У меня вообще не выходит с ним связаться.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0120",
+      "en": "It's weird. Last I heard, he was at Elkurn, but he's not there anymore.",
+      "ru": "Странно. По последним вестям он был в Элкёрне, но там его больше нет.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0121",
+      "en": "He- what? Really? And he didn't even tell me...",
+      "ru": "Он- что? Серьёзно? И даже мне не сказал...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0122",
+      "en": "...I guess it must have slipped his mind. That's alright. We're all busy around here, right?",
+      "ru": "...Наверное, просто вылетело из головы. Ничего страшного. У всех тут дел по горло, верно?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0123",
+      "en": "A general location is useful, though. I'll see if I can get any letters to him. Thanks for telling me.",
+      "ru": "Хорошо хоть я примерно знаю, где он. Попробую отправить ему письма. Спасибо, что сказал.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0124",
+      "en": "Yeah, that makes two of us...",
+      "ru": "Да, нас таких уже двое...",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0125",
+      "en": "Well, it's probably fine. I'm sure he'll pop up eventually! We just need to wait.",
+      "ru": "Ну, наверное, всё нормально. Уверен, рано или поздно он объявится! Просто надо подождать.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0126",
+      "en": "I wonder where he's gone off to? Some kind of assignment in Troms, maybe? Or could he have gone off to Gavel...?",
+      "ru": "Интересно, куда его занесло? Может, задание какое-то в Тромсе? Или он вообще уехал в Гавел...?",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0127",
+      "en": "Well, whatever. It was good to see you again! Even if... well. Even if it was strange.",
+      "ru": "Ладно, неважно. Рад был снова тебя увидеть! Пусть... ну. Пусть и странно вышло.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0128",
+      "en": "I'll see you around, <playername>.",
+      "ru": "Ещё увидимся, <playername>.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    },
+    {
+      "id": "dialogue-0129",
+      "en": "Well, I guess I'm going to head off. I'll see you around, <playername>!",
+      "ru": "Ну, я, пожалуй, пойду. Ещё увидимся, <playername>!",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Epilogue"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to the Scout in Detlas at [482, 70, -1585] or find one in another town.",
+      "ru": "Поговорить с разведчиком в Детласе в [482, 70, -1585] или найти разведчика в другом городе.",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Talk to Amerigo in Almuj at [979, 85, -1971].",
+      "ru": "Поговорить с Америго в Алмудже [979, 85, -1971].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Rendezvous near the barracks at [1371, 95, -2152].",
+      "ru": "Встретиться с отрядом возле казарм [1371, 95, -2152].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Storm the barracks at [1348, 78, -2267].",
+      "ru": "Взять казармы штурмом [1348, 78, -2267].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "objective-0005",
+      "en": "Continue through the barracks.",
+      "ru": "Продолжить путь через казармы.",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "objective-0006",
+      "en": "Defeat Takan.",
+      "ru": "Победить Такана.",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "objective-0007",
+      "en": "Continue up the stairs in the barracks.",
+      "ru": "Продолжить подъём по лестнице в казармах.",
+      "stage": "Stage 7"
+    },
+    {
+      "id": "objective-0008",
+      "en": "Head up the tower and take out Takan.",
+      "ru": "Подняться на башню и устранить Такана.",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "objective-0009",
+      "en": "Regroup with your companions at [1374, 84, -2179].",
+      "ru": "Встретиться со спутниками [1374, 84, -2179].",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "objective-0010",
+      "en": "Bring Takan's badge to Amerigo at [978, 86, -1973].",
+      "ru": "Принести знак Такана Америго [978, 86, -1973].",
+      "stage": "Stage 10"
+    }
+  ],
+  "choices": []
+}

@@ -1,0 +1,143 @@
+{
+  "quest": "Dwelling Walls",
+  "level": 22,
+  "difficulty": "Medium",
+  "length": "Short",
+  "schemaVersion": 2,
+  "domain": "quest",
+  "id": "dwelling-walls",
+  "dialogues": [
+    {
+      "id": "dialogue-0001",
+      "en": "Let's see here... mother's old vase... check!",
+      "ru": "Так, посмотрим... мамина старая ваза... на месте!",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0002",
+      "en": "Dining room table... got it here, check!",
+      "ru": "Стол из столовой... ага, тоже тут!",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0003",
+      "en": "Finally, the journal. It's out here somewhere, I assume. I'll look around.",
+      "ru": "И наконец дневник. Наверное, он где-то тут снаружи. Пойду поищу.",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0004",
+      "en": "...",
+      "ru": "...",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0005",
+      "en": "Hold on, what? The journal! I must have forgotten it inside the mansion!",
+      "ru": "Погоди, что? Дневник! Должно быть, я забыла его в особняке!",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0006",
+      "en": "You there! Would you mind doing me a deed?",
+      "ru": "Эй, ты! Не окажешь мне одну услугу?",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0007",
+      "en": "I left a very precious journal inside this mansion, a hell within walls. It was my great grandfather's!",
+      "ru": "Я оставила в этом особняке очень ценный дневник. Сам особняк - настоящий ад в четырёх стенах! Дневник принадлежал моему прадеду!",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0008",
+      "en": "The mansion was designed by a Corkian architect, and I was scammed into buying it.",
+      "ru": "Этот особняк спроектировал коркианский архитектор, а меня обманом уговорили купить его.",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0009",
+      "en": "If you step inside the mansion just for a few moments, you'll understand why the sellers had to trick someone into investing in their god forsaken real estate!",
+      "ru": "Зайди в этот особняк хотя бы на минуту, и сразу поймёшь, почему продать этот проклятый дом удалось только обманом!",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0010",
+      "en": "Navigating from room to room is nearly impossible, the rooms move around. I've only been in this mansion for a week and I'm already packing my bags and moving to Detlas.",
+      "ru": "Пройти из комнаты в комнату почти невозможно: они всё время перемещаются. Я прожила в этом особняке всего неделю, а уже собираю вещи и переезжаю в Детлас.",
+      "speaker": "Leucsaa",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-0011",
+      "en": "The journal! You outsmarted the mansion!",
+      "ru": "Дневник! Ты перехитрил этот особняк!",
+      "speaker": "Leucsaa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0012",
+      "en": "I must thank you, that journal was priceless to my family.",
+      "ru": "Спасибо тебе, правда. Этот дневник для моей семьи был бесценен.",
+      "speaker": "Leucsaa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0013",
+      "en": "Let this be a life lesson to you. Never buy a house from a Corkian architect.",
+      "ru": "Пусть тебе это будет уроком на всю жизнь. Никогда не покупай дом у коркианского архитектора.",
+      "speaker": "Leucsaa",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0014",
+      "en": "New Quest Started: Dwelling Walls",
+      "ru": "§#FFAA00Новый квест: §#FFFF55Обжитые стены",
+      "speaker": "",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "dialogue-0015",
+      "en": "Navigating from room to room is nearly impossible, the rooms move around. I've only been in the mansion for a week and I'm already packing my bags and moving to Detlas.",
+      "ru": "Пройти из комнаты в комнату почти невозможно, они всё время перемещаются. Я в этом особняке всего неделю, а уже собираю вещи и переезжаю в Детлас.",
+      "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
+      "stage": "Stage 1"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "objective-0001",
+      "en": "Talk to Leucsaa at [196, 41, -2172]",
+      "ru": "Поговорить с Леуксаа [196, 41, -2172].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "objective-0002",
+      "en": "Enter the mansion",
+      "ru": "Войти в особняк.",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "objective-0003",
+      "en": "Navigate the mansion to the room holding the journal",
+      "ru": "Найти в особняке комнату с дневником.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "objective-0004",
+      "en": "Talk to Leucsaa",
+      "ru": "Поговорить с Леуксаа.",
+      "stage": "Stage 4"
+    }
+  ],
+  "choices": []
+}
