@@ -76,14 +76,10 @@ public final class TooltipStyleTest {
         expect(TranslationLoader.loadAll(java.nio.file.Path.of("src/main/resources")) == 0,
                 "Updated translation catalogs load");
         TranslationManager.reloadGuiPatterns();
-        // 08.10: диапазон «21-25» это одно значение, подпись после него меняется отдельно,
-        // и цифры остаются в своём крупном шрифте.
         var range = TranslationManager.findGuiLabelTranslation("21-25 Level Range", "<num><num> Диапазон Уровней");
         if (range == null || !range.source().equals("Level Range") || !range.translation().equals("Диапазон Уровней")) {
             throw new AssertionError("08.10: a label after a number range is replaced on its own: " + range);
         }
-        // 08.10: в диапазоне второе число приходит со своим минусом. Перевод с дефисом и без
-        // дефиса дают одно и то же, двойного дефиса не бывает.
         var range2 = java.util.List.of("61", "-70");
         if (!TranslationManager.fillTemplate("Только Уровни <num>-<num>", range2).equals("Только Уровни 61-70")
                 || !TranslationManager.fillTemplate("Только Уровни <num><num>", range2).equals("Только Уровни 61-70")
@@ -91,8 +87,6 @@ public final class TooltipStyleTest {
                 || !TranslationManager.fillTemplate("Урон: <num>", java.util.List.of("-5")).equals("Урон: -5")) {
             throw new AssertionError("08.10: a range never gets a doubled dash, a real minus stays");
         }
-        // 08.10: строка цены на рынке переводится при любом составе разбивки суммы, и вне своей
-        // подсказки тоже: эти шаблоны лежат в общем каталоге.
         String[][] prices = {
                 {"§a- 98,500² (24¼² 3²½ 4²) each", "§a- §f98,500§7² §8(24¼² 3²½ 4²) §fза штуку"},
                 {"§a- 103,425² (25¼² 16²½ 1²) total", "§a- §f103,425§7² §8(25¼² 16²½ 1²) §fвсего"},
@@ -101,7 +95,6 @@ public final class TooltipStyleTest {
                 {"§a- 896² (14²½) each", "§a- §f896§7² §8(14²½) §fза штуку"},
                 {"§a- 940² (14²½ 44²) total", "§a- §f940§7² §8(14²½ 44²) §fвсего"},
                 {"§a- 13,252² ✮ 12,999² (3¼² 11²½ 7²) each", "§a- §f13,252§7² §b✮ 12,999§3² §8(3¼² 11²½ 7²) §7за штуку"},
-                // 09.10: разбивка суммы любого состава подходит под одну запись своего вида строки
                 {"§a- 542² ✮ 532² (8²½ 20²) each (taxed)", "§a- §f542§7² §b✮ 532§3² §8(8²½ 20²) §fза штуку (с налогом)"},
                 {"§a- 56,368² ✮ 55,328² (13¼² 32²½ 32²) total", "§a- §f56,368§7² §b✮ 55,328§3² §8(13¼² 32²½ 32²) §fвсего"},
                 {"§a- 7² (7²) total (taxed)", "§a- §f7§7² §8(7²) §fвсего (с налогом)"},
@@ -110,14 +103,10 @@ public final class TooltipStyleTest {
                 {"󏿼<em>󐀆 945,000² ✮ 927,000² (3stx 34.32¼²) each",
                         "󏿼<em>󐀆 §#FFFFFF945,000§#AAAAAA² §#55FFFF✮ 927,000§#00AAAA² §#555555(3stx 34.32¼²)§#FFAA00 за штуку"},
         };
-        // 09.10: строка класса в выборе персонажа переводится в любой подсказке (её заголовок это
-        // имя персонажа, у каждого игрока своё), со значком режима игры и без него.
         String[][] classLines = {
                 {"§6- Class: <em> Ninja", "§6- §7Класс: <em> §fНиндзя"},
                 {"§6- Class: Ninja", "§6- §7Класс: §fНиндзя"},
                 {"§7- Class: <em> Dark Wizard", "§6- §7Класс: <em> §fТёмный Маг"},
-                // 09.10: у персонажа с именем заголовок не название класса, остальные строки
-                // карточки тоже должны находиться без привязки к заголовку.
                 {"§7- Time Played: 28.5 hours", "§6- §7Время игры: §f28.5 ч."},
                 {"§7- Level: 120 (1.62%)", "§6- §7Уровень: §f120 §8(1.62%)"},
                 {"§7<em> Right-Click to Edit", "<em> §aПКМ - Изменить"},
@@ -129,14 +118,12 @@ public final class TooltipStyleTest {
             String shown = TranslationManager.getGuiTranslation(line[0], null);
             if (!shown.equals(line[1])) throw new AssertionError("09.10: class line: " + line[0] + " -> " + shown);
         }
-        // 09.10: ежедневное задание находится в «квесте» Daily Objectives.
         String daily = TranslationManager.getTranslationInContext("Gather Crops", ObjectiveTranslator.DAILY, "objective");
         if (!"Соберите Урожай".equals(daily)) throw new AssertionError("09.10: daily objective -> " + daily);
         daily = TranslationManager.getTranslationInContext("Slay Lv. 80+ Mobs", ObjectiveTranslator.DAILY, "objective");
         if (!"Уничтожьте Монстров Ур. 80+".equals(daily)) throw new AssertionError("09.10: daily objective -> " + daily);
         daily = TranslationManager.getTranslationInContext("Open T3+ Chests", ObjectiveTranslator.DAILY, "objective");
         if (!"Откройте Сундуки T3+".equals(daily)) throw new AssertionError("09.10: daily objective -> " + daily);
-        // 09.10: строки табло лутрана с числами.
         String[][] board = {
                 {"Slay! Wave 1 - 3 Mobs Left!", "§6Волна 1 - осталось мобов: §f3§6!"},
                 {"Defend for 35s!", "§6Обороняйтесь: §f35 с§6!"},
@@ -162,8 +149,6 @@ public final class TooltipStyleTest {
         checkCatalogSelector("Sort Cosmetics", "Copies", 0xFFAA00, 0xAAAAAA, false, false);
         checkCatalogSelector("Sort Results", "Most Recent", 0xFFAA00, 0xAAAAAA, false, false);
         checkCatalogSelector("Level Filter", "Lv. 100+", 0xFFAA00, 0xAAAAAA, false, false);
-        // 10.10: полоса прогресса аспекта («Tier I >>>>>>>>>> Tier II [7/14]») в переводе
-        // сохраняет цвета оригинала знак в знак: пройденные стрелки зелёные, остальные тёмные.
         Text barSource = Text.literal("Tier I ").setStyle(Style.EMPTY.withColor(0xAAAAAA))
                 .append(Text.literal(">>>>>").setStyle(Style.EMPTY.withColor(0x55FF55)))
                 .append(Text.literal(">>>>>").setStyle(Style.EMPTY.withColor(0x555555)))
@@ -177,20 +162,16 @@ public final class TooltipStyleTest {
         expect(colorAt(barResult, 10) == 0x55FF55 && colorAt(barResult, 14) == 0x55FF55, "10.10: passed arrows are green");
         expect(colorAt(barResult, 15) == 0x555555 && colorAt(barResult, 19) == 0x555555, "10.10: remaining arrows are dark");
         expect(colorAt(barResult, 0) == 0xAAAAAA && colorAt(barResult, 21) == 0xFF5555, "10.10: words keep their colours");
-        // Полоса другой длины не трогается.
         Text shortBar = Text.literal("Уровень I >>>>> Уровень II").setStyle(Style.EMPTY.withColor(0xAAAAAA));
         expect(TooltipNumberColors.preserve(barSource, shortBar) == shortBar, "10.10: different bar is left alone");
 
-        // 10.10: ответы игрока из квеста The Cursed One записаны как варианты выбора.
         String answer = ChoiceTranslator.findFullTranslation("I have!", "The Cursed One");
         expect("Я уже!".equals(answer), "10.10: choice stored as dialogue -> " + answer);
         answer = ChoiceTranslator.findFullTranslation("What's the main event?", "The Cursed One");
         expect("Что за главное событие?".equals(answer), "10.10: choice stored as dialogue -> " + answer);
-        // Реплика персонажа за ответ игрока не выдаётся, даже если текст совпал слово в слово.
         answer = ChoiceTranslator.findFullTranslation("Thank you, Rex.", "The Cursed One");
         expect(answer == null, "10.10: NPC line must not be used as a choice -> " + answer);
 
-        // 09.10: описание рун одинаковое у всех пяти, «входа в Рейды» стоит во второй строке.
         String[][] runeLines = {
                 {"Use this item to enter Raids", "§7Используйте этот предмет для"},
                 {"or craft a Corrupted Dungeon", "§7входа в §fРейды §7или создания"},
@@ -253,8 +234,6 @@ public final class TooltipStyleTest {
         Text emphasis = Text.empty().append(Text.literal("Main ").setStyle(Style.EMPTY.withUnderline(true)))
                 .append(Text.literal("Attack").setStyle(Style.EMPTY));
         expect(!GuiTranslator.hasUniformLabelStyle(emphasis, "Main Attack"), "Formatting differences also prevent flattening");
-        // Ряд иконок требований: сервер ставит его по центру распорками с двух сторон, отступ бывает
-        // всего 2 px. После перевода подсказка шире, и ряд обязан переехать на половину прироста.
         TextEmojiUtils.width = text -> {
             int total = 0;
             for (int point : text.getString().codePoints().toArray()) total += point >= 0xD0000 ? point - 0xD0000 : 6;
@@ -315,7 +294,6 @@ public final class TooltipStyleTest {
         }
     }
 
-    // Цвет знака с номером index в готовом тексте.
     private static int colorAt(Text text, int index) {
         int[] position = {0};
         int[] found = {-1};

@@ -21,8 +21,6 @@ public class TextEmojiUtils {
     private static final StyleSpriteSource.Font SPACE_FONT =
             new StyleSpriteSource.Font(Identifier.of("minecraft", "space"));
 
-    // Ширина текста в пикселях игры. В игре её считает шрифт Minecraft, а проверка вёрстки
-    // без игры (TooltipLayoutCheck) подставляет сюда таблицу ширин из ресурспака.
     static java.util.function.ToIntFunction<Text> width =
             text -> MinecraftClient.getInstance().textRenderer.getWidth(text);
 
@@ -260,8 +258,6 @@ public class TextEmojiUtils {
                 int localStart = overlapStart - nodeStart;
                 int localEnd = overlapEnd - nodeStart;
                 result = Text.literal(value.substring(0, localStart)).setStyle(node.getStyle());
-                // Код цвета вида §7 действует только внутри своего куска текста,
-                // поэтому вставленному переводу и хвосту строки его надо повторить.
                 String legacy = activeLegacyCodes(value.substring(0, localStart));
 
                 if (!inserted[0]) {
@@ -293,8 +289,6 @@ public class TextEmojiUtils {
         return result;
     }
 
-    // Код «§*» в переводе означает «цвет выделенного слова оригинала». Нужен там, где цвет
-    // зависит от предмета (например, от его редкости) и заранее в перевод не пишется.
     static String accentCode(Text original) {
         List<TextColor> colors = new ArrayList<>();
         original.visit((style, value) -> {
@@ -381,8 +375,6 @@ public class TextEmojiUtils {
             }
 
             char c = translated.charAt(i);
-            // Текст в квадратных скобках в диалоге розовый, как в игре. Если переводчик сам задал
-            // цвет перед скобкой или внутри неё, остаётся его цвет.
             if (dialogue && c == '[' && !ownColor) {
                 int end = translated.indexOf(']', i);
                 if (end >= 0 && translated.indexOf('§', i) > end || end >= 0 && translated.indexOf('§', i) < 0) {

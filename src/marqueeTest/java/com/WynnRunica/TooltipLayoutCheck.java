@@ -22,10 +22,6 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
-// Проверка вёрстки подсказок без игры. Берёт захваченные из игры подсказки, переводит их тем же
-// кодом, что и мод, и смотрит, не уехали ли строки. Ширины букв берутся из шрифтов ресурспака
-// (fignya/WynnRunica-tools/font-widths.json, делает export_font_widths.py).
-// Запуск: gradlew checkTooltipLayout
 public final class TooltipLayoutCheck {
     private static final Map<String, Map<Integer, Integer>> WIDTHS = new HashMap<>();
     private static final Set<String> UNKNOWN = new HashSet<>();
@@ -50,8 +46,6 @@ public final class TooltipLayoutCheck {
         int total = 0;
         int translated = 0;
         for (String row : Files.readAllLines(captures, StandardCharsets.UTF_8)) {
-            // Проверяются пиксельные подсказки предметов. Обычные подсказки кнопок мод раскладывает
-            // другим кодом (GuiTranslator.translateStack), сюда они не относятся.
             if (row.isBlank() || !row.contains(only)) continue;
             JsonObject capture = JsonParser.parseString(row).getAsJsonObject();
             List<Text> tooltip = new ArrayList<>();
@@ -112,19 +106,16 @@ public final class TooltipLayoutCheck {
             now.add(layout(text));
             newWidth = Math.max(newWidth, now.getLast().width());
         }
-        // Код цвета не должен попадать на экран текстом («F53291Ящики»).
         for (Text text : after) {
             if (text.getString().matches(".*(?<![0-9A-Za-z#])[0-9A-Fa-f]{6}[А-Яа-яЁё].*")) {
                 add(problems, "код цвета показан текстом", title + " | «" + text.getString() + "»");
             }
         }
-        // Служебная метка не должна попадать на экран.
         for (Text text : after) {
             if (text.getString().contains("<center>") || text.getString().contains("<em>")) {
                 add(problems, "в переводе осталась служебная метка", title + " | «" + text.getString() + "»");
             }
         }
-        // Полоса прогресса («>>>>>>>>>>») в переводе должна остаться покрашенной по знакам, как в оригинале.
         for (int i = 0; i < before.size() && before.size() == after.size(); i++) {
             List<String> fresh = bars(after.get(i));
             for (String bar : bars(before.get(i))) {
@@ -138,8 +129,6 @@ public final class TooltipLayoutCheck {
                 }
             }
         }
-        // Ряд значений под рядом иконок («0 0 0 0 125» под STR DEX INT DEF AGI): обе строки не
-        // переводятся и должны сдвинуться одинаково, иначе значения уезжают из-под иконок.
         for (int i = 1; i < was.size() && was.size() == now.size(); i++) {
             Line row = was.get(i);
             if (row.indent() < 3 || !row.text().equals(now.get(i).text())) continue;
@@ -154,9 +143,7 @@ public final class TooltipLayoutCheck {
                 add(problems, "ряд значений уехал из-под ряда иконок", title + " | сдвиг " + moved + ", у ряда выше " + movedAbove);
             }
         }
-        // Шапка: иконка и название с отрицательным отступом и плашки под названием с общим отступом.
         int bodyStart = 0;
-        // Над шапкой бывают чужие строки без отступа («From <игрок>» от Wynntils).
         int headerStart = 0;
         while (headerStart < was.size() && was.get(headerStart).indent() == 0) headerStart++;
         boolean itemHeader = headerStart < was.size() && was.get(headerStart).indent() < 0;
@@ -168,7 +155,6 @@ public final class TooltipLayoutCheck {
                     && was.get(bodyStart).indent() == beside) bodyStart++;
         }
 
-        // Правая вертикаль таблицы статов в оригинале и после перевода.
         int oldColumns = 0;
         for (int i = bodyStart; i < was.size(); i++) {
             if (was.get(i).indent() == 0 && biggestGap(was.get(i)) >= 8) oldColumns = Math.max(oldColumns, was.get(i).lastVisibleEnd());
@@ -189,7 +175,6 @@ public final class TooltipLayoutCheck {
                 add(problems, "буквы наезжают друг на друга", where + " | наезд " + overlap(n) + " px");
             }
 
-            // Строка без перевода и без табличного разрыва обязана остаться той же длины.
             if (sameText && biggestGap(o) < 8 && n.lastVisibleEnd() - n.firstVisible() != o.lastVisibleEnd() - o.firstVisible()) {
                 add(problems, "непереведённая строка растянулась", where + " | было " + (o.lastVisibleEnd() - o.firstVisible())
                         + ", стало " + (n.lastVisibleEnd() - n.firstVisible()));
@@ -202,8 +187,6 @@ public final class TooltipLayoutCheck {
                 continue;
             }
 
-            // Строка из ячеек на общих осях с соседней («Сейчас / Станет» над числами):
-            // после перевода середины ячеек обязаны совпадать так же, как совпадали.
             int axes = 0;
             for (int other : new int[]{i - 1, i + 1}) {
                 if (other < 0 || other >= Math.min(was.size(), now.size())) continue;
@@ -226,13 +209,10 @@ public final class TooltipLayoutCheck {
             }
             if (axes >= 2 && o.indent() > 0 && Math.abs(o.indent() - (oldWidth - o.lastVisibleEnd())) <= 8) continue;
 
-            // Строка, которую сервер поставил по центру распорками с двух сторон (ряд иконок требований),
-            // обязана остаться по центру. Правило от геометрии оригинала, от логики мода не зависит.
             boolean tail = !o.glyphs().isEmpty() && !o.glyphs().getLast().visible() && o.width() > o.lastVisibleEnd();
             if (i >= bodyStart && o.indent() > 0 && tail && Math.abs(o.indent() - (oldWidth - o.width())) <= 1) {
                 int left = n.firstVisible();
                 int right = newWidth - n.lastVisibleEnd();
-                // Сравнивается с перекосом самого оригинала: у ряда значений хвост справа длиннее.
                 int was0 = o.firstVisible() - (oldWidth - o.lastVisibleEnd());
                 if (Math.abs(left - right - was0) > 2) {
                     add(problems, "ряд с распорками по краям ушёл с середины", where + " | слева " + left + ", справа " + right);
@@ -240,8 +220,6 @@ public final class TooltipLayoutCheck {
                 continue;
             }
 
-            // Строки разной длины с общей серединой (ряд иконок, значения под ним, разделитель)
-            // после перевода обязаны остаться на общей оси, куда бы она ни переехала.
             boolean sharedAxis = false;
             for (int other = bodyStart; other < Math.min(was.size(), now.size()) && o.indent() >= 3; other++) {
                 Line old = was.get(other);
@@ -257,7 +235,6 @@ public final class TooltipLayoutCheck {
             }
             if (sharedAxis) continue;
 
-            // Два правила ниже не зависят от того, как мод понял выравнивание строки.
             if (sameText && newWidth == oldWidth && n.firstVisible() != o.firstVisible()) {
                 add(problems, "строку не переводили и ширина та же, а она сдвинулась",
                         where + " | " + o.firstVisible() + " -> " + n.firstVisible());
@@ -309,14 +286,12 @@ public final class TooltipLayoutCheck {
                     add(problems, "строка справа: не прижата к правому краю", where + " | конец " + n.lastVisibleEnd() + ", ширина " + newWidth);
                 }
             } else if (sameText && Math.abs(n.firstVisible() - o.firstVisible() - (newWidth - oldWidth) / 2) <= 1) {
-                // Строка переехала вместе с серединой подсказки (точки страниц внизу): так и задумано.
             } else if (n.firstVisible() != o.firstVisible()) {
                 add(problems, "обычная строка: левый край сдвинулся", where + " | " + o.firstVisible() + " -> " + n.firstVisible());
             }
         }
     }
 
-    // Ширина абзаца из нескольких центрированных строк подряд, в который входит строка i. 0, если абзаца нет.
     private static int paragraphWidth(List<Line> lines, int i, int bodyStart) {
         int first = i;
         while (first > bodyStart && lines.get(first - 1).firstVisible() >= 0 && lines.get(first - 1).glyphs().getFirst().advance() >= 0
@@ -340,7 +315,6 @@ public final class TooltipLayoutCheck {
         return width;
     }
 
-    // Ячейки строки: {левый край, правый край} каждого куска текста между распорками.
     private static List<int[]> cells(Line line) {
         List<int[]> cells = new ArrayList<>();
         int[] cell = null;
@@ -373,7 +347,6 @@ public final class TooltipLayoutCheck {
         return gap;
     }
 
-    // На сколько пикселей видимая буква заходит на предыдущую (в оригинале такого нет).
     private static int overlap(Line line) {
         int worst = 0;
         int end = Integer.MIN_VALUE;
@@ -393,7 +366,6 @@ public final class TooltipLayoutCheck {
         return positions;
     }
 
-    // Полосы прогресса в строке: отрезки из четырёх и более одинаковых знаков с цветом каждого знака.
     private static List<String> bars(Text text) {
         StringBuilder chars = new StringBuilder();
         List<Integer> colors = new ArrayList<>();

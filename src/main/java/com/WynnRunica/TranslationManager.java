@@ -31,12 +31,8 @@ public class TranslationManager {
     public static final Map<String, List<GuiScope>> scopes = new HashMap<>();
     public static final Map<String, String> archetypes = new HashMap<>();
     private static final List<GuiPattern> guiPatterns = new ArrayList<>();
-    // Названия статов для подсказок предметов из gui/items/stat-names.json:
-    // английское название -> {перевод, перевод после числа («+50 Здоровья»)}.
     static final HashMap<String, String[]> statNames = new HashMap<>();
 
-    // Строка файла выглядит как обычный перевод: «Fire Defence <num>» -> «Защита от Огня <num>»,
-    // а для формы после числа «<num> Fire Defence» -> «<num> Защиты от Огня».
     static void addStatName(String en, String ru) {
         String name = structuralPixelLabel(en);
         String translated = structuralPixelLabel(ru);
@@ -68,9 +64,6 @@ public class TranslationManager {
     }
 
     private static final String COLOR_CODE = "(?:§#[0-9a-fA-F]{6}|§[0-9a-fA-FklmnorKLMNOR])";
-    // Разбивка суммы на рынке «(1stx 3¼² 12²)» бывает любого состава: от одной валюты до четырёх.
-    // В ключе и в переводе она сворачивается в один <num>, а при поиске на это место подходит
-    // разбивка целиком. Так одной записи перевода хватает на все составы.
     static final String COINS_VALUE = "\\((?:\\d+(?:[.,]\\d+)*(?:stx|¼²|²½|²) ?)+\\)";
     private static final Pattern COINS_TEMPLATE = Pattern.compile(
             "\\((?:" + COLOR_CODE + "*<num>" + COLOR_CODE + "*(?:stx|¼²|²½|²)" + COLOR_CODE + "* ?)+\\)");
@@ -183,7 +176,6 @@ public class TranslationManager {
         String bestKey = null;
         double bestScore = 0.0;
         for (String candidate : questKeys) {
-            // При такой разнице длин сходство заведомо ниже порога 0.82, считать незачем.
             int longer = Math.max(key.length(), candidate.length());
             if (Math.abs(key.length() - candidate.length()) > longer * 0.18) continue;
             double score = Epstein.similarity(key, candidate);
@@ -317,8 +309,6 @@ public class TranslationManager {
         if (!label.matches()) return null;
         String name = cleanName(label.group(2));
         if (!archetypes.containsKey(name)) return null;
-        // Цвет и жирность не задаются: строка наследует их от оригинала, сервер присылает
-        // подпись архетипа уже своим цветом, а у закрытого архетипа серой.
         return "Архетип: " + archetypes.get(name);
     }
 
@@ -481,8 +471,6 @@ public class TranslationManager {
                     out.append("<num>");
                 } else {
                     if (number.startsWith("§")) removeTrailingColor(out);
-                    // В диапазоне «61-70» второе число приходит как «-70». Если переводчик уже
-                    // поставил дефис перед <num>, минус числа и есть этот дефис: второй не нужен.
                     if (number.startsWith("-") && DASH_BEFORE_NUMBER.matcher(out).find()) number = number.substring(1);
                     out.append(number);
                 }
@@ -544,7 +532,6 @@ public class TranslationManager {
         if (isAfterNumber(text) && known[1] != null) name = known[1];
         if (name == null) name = known[1];
 
-        // «3 Пулл<pl:|а|ов>» -> «3 Пулла»: форма берётся по числу из самой строки.
         Matcher number = NUMBER_OR_TOKEN.matcher(pixelPlainText(text));
         String value = number.find() && !number.group().equals("<num>") ? number.group() : null;
         Matcher token = PLURAL_TOKEN.matcher(name);
@@ -573,7 +560,6 @@ public class TranslationManager {
         Matcher number = NUMBER_OR_TOKEN.matcher(clean);
         if (!number.find()) return null;
         String before = clean.substring(0, number.start()).trim();
-        // Диапазон «21-25» это одно значение из двух чисел: подпись начинается после последнего.
         int end = number.end();
         while (number.find() && !hasLetter(clean.substring(end, number.start()))) end = number.end();
         String after = clean.substring(end).trim();

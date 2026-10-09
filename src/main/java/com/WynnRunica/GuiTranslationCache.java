@@ -8,9 +8,6 @@ import net.minecraft.text.Text;
 import java.util.Map;
 import java.util.WeakHashMap;
 
-// Предметы, которые прислал сервер, мод не трогает: по их английским названиям работают
-// Wynntils и другие моды (кнопки рынка, поиск по предмету). Переводится копия предмета,
-// и показывается она только в подсказке.
 public class GuiTranslationCache {
 
     private record Shown(ItemStack copy, Text name, LoreComponent lore) {}

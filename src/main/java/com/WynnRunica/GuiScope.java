@@ -17,7 +17,6 @@ public class GuiScope {
     private final List<String> anchors;
     private final Map<String, String> lines = new HashMap<>();
     private final List<TranslationManager.GuiPattern> patterns = new ArrayList<>();
-    // Оригинал каждой строки с кодами цвета: по нему видно, для какого состояния записан перевод.
     private final Map<String, String> sources = new HashMap<>();
     private static final Pattern COLOR = Pattern.compile("§#[0-9a-fA-F]{6}|§[0-9a-fA-F]");
 
@@ -46,7 +45,6 @@ public class GuiScope {
         if (orig.equalsIgnoreCase(trans)) return;
         if (!TranslationLoader.hasCyrillic(trans)) return;
 
-        // Разбивка суммы в скобках сворачивается в один <num> и в ключе, и в переводе.
         orig = TranslationManager.foldCoins(orig);
         trans = TranslationManager.foldCoins(trans);
         String sk = toSkeleton(orig);
@@ -103,9 +101,6 @@ public class GuiScope {
         return translated;
     }
 
-    // Строка ищется без учёта цвета, а цветом игра показывает состояние: выбранный пункт белый,
-    // остальные серые. Перевод записан для одного состояния, поэтому его цвета меняются так же,
-    // как поменялись цвета оригинала: «§8- Classic» -> «§e- Classic» даёт «§e- Классический».
     static String recolor(String stored, String actual, String translated) {
         if (stored == null) return translated;
         List<String> was = colors(stored);
@@ -129,7 +124,6 @@ public class GuiScope {
             }
             String old = code.group().toLowerCase(java.util.Locale.ROOT);
             String replacement = null;
-            // Перевод повторяет цвета оригинала по порядку: меняем по порядку.
             if (own.equals(was)) replacement = now.get(index);
             else if (!unclear.contains(old)) replacement = swap.get(old);
             index++;
@@ -138,7 +132,6 @@ public class GuiScope {
         return code.appendTail(out).toString();
     }
 
-    // Коды цвета по порядку. Из нескольких кодов подряд действует только последний.
     private static List<String> colors(String text) {
         List<String> result = new ArrayList<>();
         Matcher code = COLOR.matcher(text);

@@ -27,14 +27,10 @@ public final class TranslationUpdater {
     private static final HttpClient CLIENT = HttpClient.newBuilder()
             .followRedirects(HttpClient.Redirect.NORMAL).build();
 
-    // Выключатель автообновления перевода. В своей сборке ставится false, чтобы запуск игры
-    // не заменял локальные правки версией с GitHub. В сборке для игроков должен быть true.
     private static boolean isUpdate = true;
 
     private TranslationUpdater() {}
 
-    // Сверяет перевод на диске со списком на GitHub и докачивает только то, что изменилось.
-    // Возвращает true, если файлы на диске поменялись и перевод надо перечитать.
     public static boolean update() {
         if (isUpdate == false) return false;
         return update(GITHUB, FabricLoader.getInstance().getConfigDir().resolve("WynnRunica"));
@@ -49,7 +45,6 @@ public final class TranslationUpdater {
                 throw new IOException("translation manifest is empty");
             }
 
-            // Файл на диске с той же контрольной суммой качать незачем.
             List<String> folders = new ArrayList<>();
             List<String> changed = new ArrayList<>();
             for (JsonElement element : files) {
@@ -74,8 +69,6 @@ public final class TranslationUpdater {
                     && java.util.Arrays.equals(Files.readAllBytes(currentManifest), manifestBytes);
             if (changed.isEmpty() && sameManifest) return false;
 
-            // Новый каталог собирается рядом и подменяет старый целиком: изменившиеся файлы
-            // приходят с GitHub, остальные копируются с диска.
             deleteFolder(staging);
             for (JsonElement element : files) {
                 JsonObject row = element.getAsJsonObject();

@@ -57,7 +57,6 @@ public class GuiTranslator {
                         && titleScope.nameRu != null && !titleScope.nameRu.isBlank();
                 String translated;
                 if (unlockAbility) {
-                    // §* = цвет названия способности в оригинале: сервер красит его по виду узла.
                     translated = "§a" + TranslationManager.getGuiTranslation("Unlock Ability") + " §*§l" + titleScope.nameRu;
                 } else if (titleScope != null && titleScope.nameRu != null && !titleScope.nameRu.isBlank()) {
                     translated = titleScope.nameRu;
@@ -397,17 +396,10 @@ public class GuiTranslator {
     private static String widenedKey;
     private static List<Text> widenedValue;
 
-    // Отступ в пару пикселей есть и у обычных строк подсказки. Центрированной или прижатой вправо
-    // считается только строка с заметным отступом.
     private static final int MIN_ALIGN_INDENT = 8;
 
-    // Раскладывает переведённую подсказку заново. Сначала по оригиналу определяется, как стояла
-    // каждая строка: таблица «название ... значение», по центру подсказки, абзац по центру,
-    // прижата вправо или обычная. Потом считается одна общая ширина новой подсказки, и каждая
-    // строка ставится в ней так же, как стояла в оригинале.
     public static List<Text> widenColumns(List<Text> input, List<Text> output) {
         if (input == output) return output;
-        // В ключ входит и оформление: выбранный пункт списка отличается от невыбранного только цветом.
         StringBuilder key = new StringBuilder();
         for (List<Text> lines : List.of(input, output)) {
             for (Text line : lines) {
@@ -429,13 +421,7 @@ public class GuiTranslator {
             width = Math.max(width, advance(glyphs, 0, glyphs.size()));
         }
 
-        // У пиксельной подсказки предмета шапка стоит рядом с иконкой и не выравнивается: это строки
-        // с отрицательным отступом (иконка, название) и следующие за ними строки с одним и тем же
-        // отступом (плашки редкости и типа). Шапка кончается на первой строке с другим отступом:
-        // у руны, например, сразу под плашкой идёт разделитель, и он уже обычная строка.
         int bodyStart = 0;
-        // Над шапкой бывают чужие строки без отступа: Wynntils пишет над предметом из письма
-        // «From <игрок>». Шапка начинается с первой строки с отступом, если он отрицательный.
         int headerStart = 0;
         while (headerStart < before.size() && leadEnd(before.get(headerStart)) == 0) headerStart++;
         boolean itemHeader = headerStart < before.size() && indent(before.get(headerStart)) < 0;
@@ -447,15 +433,11 @@ public class GuiTranslator {
                     && indent(before.get(bodyStart)) == beside) bodyStart++;
         }
 
-        // Сколько строк держат ширину подсказки. Если такая строка одна, то она сама и есть ширина:
-        // её конец совпадает с правым краем всегда, и выравниванием вправо это не считается.
         int widest = 0;
         for (List<Glyph> glyphs : before) {
             if (advance(glyphs, 0, glyphs.size()) == width) widest++;
         }
 
-        // Общая ось: ряд иконок, значения под ним и разделитель стоят на одной середине, даже когда
-        // отступ у них маленький. Строки с такой общей серединой считаются центрированными.
         int axis = sharedAxis(before, bodyStart, count);
 
         Align[] align = new Align[count];
@@ -466,12 +448,7 @@ public class GuiTranslator {
             align[i] = Align.NONE;
             paragraph[i] = -1;
         }
-        // Таблица статов: строки без отступа, где значение отнесено вправо, и все значения
-        // кончаются на одной вертикали. Эта вертикаль не обязана совпадать с краем подсказки:
-        // подсказку может делать шире другая строка.
         int columnsRight = 0;
-        // Самый большой разрыв между названием и значением. Пара пикселей после иконки («- [замок]
-        // Unidentified Boots») таблицей не считается: в таблице хотя бы у одной строки разрыв заметный.
         int columnsGap = 0;
         for (int i = bodyStart; i < count; i++) {
             List<Glyph> glyphs = before.get(i);
@@ -504,22 +481,17 @@ public class GuiTranslator {
             }
             for (int k = i; k <= last; k++) {
                 List<Glyph> line = before.get(k);
-                // Строка из нескольких ячеек, стоящих по центру над ячейками соседней строки
-                // («Сейчас / Станет» над числами): ячейки перевода встают на те же оси.
                 if (axes != null && cells(line).size() >= 2) {
                     align[k] = Align.CELLS;
                     cellLines.put(k, placeCells(cells(line), glyphs(output.get(k)), axes));
                     continue;
                 }
-                // Соседняя строка с тем же отступом, но другой длины: это список с общим левым краем.
-                // Одна из его строк может случайно оказаться посередине подсказки, двигать её нельзя.
                 boolean listed = k > i && sharesLeftEdge(line, before.get(k - 1))
                         || k < last && sharesLeftEdge(line, before.get(k + 1));
                 boolean holdsWidth = widest == 1 && advance(line, 0, line.size()) == width;
                 if (block) {
                     align[k] = Align.PARAGRAPH;
                     paragraph[k] = i;
-                    // Абзац во всю ширину подсказки стоял по её центру, а не по центру самого себя.
                     if (blockWidth >= width - 2) wideParagraphs.add(i);
                 } else if (listed) {
                     continue;
@@ -527,7 +499,6 @@ public class GuiTranslator {
                         || isExactlyCentered(line, width)
                         || isPaddedCenter(line, width)
                         || axis >= 0 && Math.abs(indent(line) + visibleEnd(line) - axis) <= 2) {
-                    // Заголовок по центру бывает почти во всю ширину, поэтому отступ у него может быть маленьким.
                     align[k] = Align.CENTER;
                 } else if (indent(line) >= MIN_ALIGN_INDENT && visibleEnd(line) == width && !holdsWidth) {
                     align[k] = Align.RIGHT;
@@ -536,9 +507,6 @@ public class GuiTranslator {
             i = last + 1;
         }
 
-        // Значения под рядом иконок («0 0 0 0 125» под STR DEX INT DEF AGI) стоят под своими иконками,
-        // но сами не по центру подсказки. Такой ряд сдвигается вместе с рядом над ним. Узнаётся он по
-        // распорке в хвосте и по тем же краям, что у ряда выше (между ними бывает пустая строка).
         for (int k = bodyStart + 1; k < count; k++) {
             List<Glyph> line = before.get(k);
             if (align[k] != Align.NONE || !hasLead(line)) continue;
@@ -553,7 +521,6 @@ public class GuiTranslator {
             }
         }
 
-        // Строки перевода; у выравниваемых строк старый отступ снимается.
         List<List<Glyph>> after = new ArrayList<>();
         java.util.HashSet<Integer> untouched = new java.util.HashSet<>();
         for (int i = 0; i < output.size(); i++) {
@@ -570,26 +537,19 @@ public class GuiTranslator {
             after.add(glyphs);
         }
 
-        // Таблице нужен зазор между названием и значением не меньше, чем был в оригинале (но хватит 8).
-        // Ширина остальных строк новой подсказки.
         int newWidth = 0;
         for (int i = 0; i < after.size(); i++) {
             if (i < count && align[i] == Align.COLUMN) continue;
             if (i < count && align[i] == Align.RIGHT) newWidth = Math.max(newWidth, visibleEnd(after.get(i)));
             else if (i < count && align[i] == Align.CELLS) {
-                // Ячейки сдвинутся на половину прироста ширины и обязаны поместиться с обеих сторон.
                 newWidth = Math.max(newWidth, Math.max(2 * visibleEnd(after.get(i)) - width, width - 2 * indent(after.get(i))));
             } else newWidth = Math.max(newWidth, advance(after.get(i), 0, after.get(i).size()));
         }
 
-        // Таблице нужен зазор между названием и значением не меньше, чем был в оригинале (но хватит 8).
-        // Поле справа от значений остаётся таким же, как в оригинале, если подсказку держит другая строка.
         int normalGap = Integer.MAX_VALUE;
         for (int i = 0; i < count; i++) {
             if (align[i] == Align.COLUMN) normalGap = Math.min(normalGap, columnGap(before.get(i)));
         }
-        // Общая правая вертикаль значений: по строке, которой нужно больше всего места
-        // (название + зазор + значение), но не левее, чем была в оригинале.
         int newColumns = columnsRight;
         if (normalGap != Integer.MAX_VALUE) {
             int targetGap = Math.min(normalGap, COLUMN_GAP);
@@ -609,7 +569,6 @@ public class GuiTranslator {
         List<Text> result = new ArrayList<>(output);
         boolean changed = false;
         for (int i = 0; i < count; i++) {
-            // Ширина подсказки не изменилась, строку не переводили: она остаётся ровно там, где была.
             if (newWidth == width && newColumns == columnsRight && before.get(i).equals(glyphs(output.get(i)))) continue;
             List<Glyph> glyphs = after.get(i);
             int at = 0;
@@ -620,9 +579,6 @@ public class GuiTranslator {
                 at = jump[1];
                 shift = newColumns - visibleEnd(glyphs);
             } else if (align[i] == Align.CENTER && untouched.contains(i)) {
-                // Строку не переводили: она сдвигается на половину прироста ширины и остаётся относительно
-                // середины там же, где её поставил сервер. Мерить её саму нельзя: у ряда иконок справа
-                // невидимый хвост, а в строке со страницами значок клавиши стоит сбоку от точек.
                 shift = (newWidth - width) / 2;
             } else if (align[i] == Align.CENTER) {
                 shift = (newWidth - visibleEnd(glyphs)) / 2;
@@ -636,7 +592,6 @@ public class GuiTranslator {
             } else if (align[i] == Align.RIGHT) {
                 shift = newWidth - visibleEnd(glyphs);
             } else if (align[i] == Align.CELLS) {
-                // Ячейки стояли вокруг середины подсказки: вместе с ней и сдвигаются.
                 shift = indent(glyphs) + (newWidth - width) / 2;
                 glyphs = new ArrayList<>(glyphs.subList(leadEnd(glyphs), glyphs.size()));
             } else {
@@ -655,7 +610,6 @@ public class GuiTranslator {
         return result;
     }
 
-    // Ячейка: кусок текста между распорками. {первая буква, за последней буквой, левый край, правый край}.
     private static List<int[]> cells(List<Glyph> glyphs) {
         List<int[]> cells = new ArrayList<>();
         int[] cell = null;
@@ -677,9 +631,6 @@ public class GuiTranslator {
         return cells;
     }
 
-    // Две колонки по центру: в нескольких строках подряд первые ячейки стоят на одной оси, последние
-    // на другой, и оси симметричны относительно середины подсказки («Сейчас / Станет» над числами).
-    // Возвращает удвоенные координаты осей или null, если блок не такой.
     private static int[] columnAxes(List<List<Glyph>> before, List<Text> output, int first, int last, int width) {
         List<Integer> left = new ArrayList<>();
         List<Integer> right = new ArrayList<>();
@@ -692,7 +643,6 @@ public class GuiTranslator {
             right.add(cells.getLast()[2] + cells.getLast()[3]);
             edges.add(cells.getFirst()[2]);
         }
-        // Общий левый край у всех строк: это колонки, выровненные влево, их двигать не нужно.
         if (left.size() < 2 || edges.size() == 1) return null;
         List<Integer> sortedLeft = new ArrayList<>(left);
         List<Integer> sortedRight = new ArrayList<>(right);
@@ -701,15 +651,12 @@ public class GuiTranslator {
         int leftAxis = sortedLeft.get(sortedLeft.size() / 2);
         int rightAxis = sortedRight.get(sortedRight.size() / 2);
         for (int i = 0; i < left.size(); i++) {
-            // Сервер сам ставит ячейки с погрешностью в несколько пикселей.
             if (Math.abs(left.get(i) - leftAxis) > 10 || Math.abs(right.get(i) - rightAxis) > 10) return null;
         }
         if (Math.abs(leftAxis + rightAxis - 2 * width) > 12) return null;
         return new int[]{leftAxis, rightAxis};
     }
 
-    // Ставит ячейки перевода на оси колонок: первую на левую, последнюю на правую.
-    // Ячейки между ними (стрелки) остаются там, где была их середина.
     private static List<Glyph> placeCells(List<int[]> was, List<Glyph> translated, int[] axes) {
         List<int[]> now = cells(translated);
         List<Glyph> result = new ArrayList<>();
@@ -729,8 +676,6 @@ public class GuiTranslator {
         return result;
     }
 
-    // Сумма левого и правого края, общая для двух и более строк с отступом и разной длиной.
-    // Одинаковая середина у строк разной длины случайной не бывает. Возвращает -1, если такой нет.
     private static int sharedAxis(List<List<Glyph>> lines, int from, int to) {
         int best = -1;
         int bestCount = 1;
@@ -756,7 +701,6 @@ public class GuiTranslator {
     }
 
     private static boolean sharesLeftEdge(List<Glyph> line, List<Glyph> neighbour) {
-        // У строк по центру одинаковый отступ бывает только при почти одинаковой длине.
         return hasLead(neighbour) && indent(neighbour) == indent(line)
                 && Math.abs(visibleEnd(neighbour) - visibleEnd(line)) > 4;
     }
@@ -787,18 +731,12 @@ public class GuiTranslator {
         return end;
     }
 
-    // По центру стоит строка, у которой поля слева и справа от видимого текста равны.
     private static boolean isCentered(List<Glyph> glyphs, int width) {
         int left = indent(glyphs);
         int right = width - visibleEnd(glyphs);
         return Math.abs(left - right) <= 2;
     }
 
-    // Ряд иконок или строка во всю ширину стоят по центру с отступом в несколько пикселей.
-    // Такой строке верим, только если поля слева и справа равны с точностью до пикселя. Края считаются
-    // по самым левым и самым правым видимым знакам: в строке бывают сдвиги назад.
-    // Сервер ставит ряд иконок по центру распорками с двух сторон: отступ слева и такой же хвост
-    // справа. Хвост в конце строки и равные поля надёжнее любого порога на размер отступа.
     private static boolean isPaddedCenter(List<Glyph> glyphs, int width) {
         if (!hasLead(glyphs)) return false;
         Glyph last = glyphs.getLast();
@@ -811,7 +749,6 @@ public class GuiTranslator {
         return extent[1] > extent[0] && extent[0] >= 3 && Math.abs(extent[0] - (width - extent[1])) <= 1;
     }
 
-    // Левый и правый край видимых знаков строки.
     private static int[] extent(List<Glyph> glyphs) {
         int x = 0;
         int left = Integer.MAX_VALUE;
@@ -869,7 +806,6 @@ public class GuiTranslator {
     private static List<Glyph> glyphs(Text line) {
         List<Glyph> glyphs = new ArrayList<>();
         line.visit((style, value) -> {
-            // Коды цвета вида §7 внутри текста места на экране не занимают.
             boolean code = false;
             for (int codePoint : value.codePoints().toArray()) {
                 if (code || codePoint == '§') {
@@ -972,8 +908,6 @@ public class GuiTranslator {
                 continue;
             }
 
-            // Метка «по центру» здесь не нужна: строку держит по центру её же распорка в начале,
-            // а ширину распорки под новый текст подгоняет widenColumns.
             if (translated.startsWith(CENTER_MARKER)) {
                 translated = translated.substring(CENTER_MARKER.length());
                 if (extracted.key.startsWith("<em>") && !translated.contains("<em>")) translated = "<em>" + translated;
@@ -1049,7 +983,6 @@ public class GuiTranslator {
             addPiece(pieces, piece);
         }
 
-        // Куски без букв (одиночный код цвета перед значком) колонками не считаются.
         pieces.removeIf(text -> !text.codePoints().anyMatch(Character::isLetter));
         if (pieces.isEmpty()) return null;
         Text result = line;
@@ -1057,8 +990,6 @@ public class GuiTranslator {
             String ru = TranslationManager.guiTranslations.get(pieces.get(i));
             if (ru == null) continue;
             boolean rightColumn = i > 0 && i == pieces.size() - 1;
-            // Здесь меняется только слово внутри готовой строки, цвет остаётся её собственный.
-            // Коды цвета из перевода сюда нельзя: они показались бы текстом («F53291Ящики»).
             String label = COLOR_CODES.matcher(pieces.get(i)).replaceAll("");
             String word = COLOR_CODES.matcher(ru).replaceAll("");
             result = TextEmojiUtils.replaceFirstPixelLabel(result, label, word, rightColumn);

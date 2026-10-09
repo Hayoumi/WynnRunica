@@ -11,8 +11,6 @@ import java.util.ArrayList;
 import java.util.HexFormat;
 import java.util.List;
 
-// Обновление перевода на маленьком поддельном «GitHub»: качается только изменившееся,
-// битый файл не портит каталог на диске.
 public final class TranslationUpdaterTest {
     private static final List<String> requested = new ArrayList<>();
 
@@ -60,7 +58,6 @@ public final class TranslationUpdaterTest {
                             && Files.readString(root.resolve("quests/A.json")).contains("quests/A.json"),
                     "08.10: the changed file is replaced, the others stay");
 
-            // Список обещает одно, а сервер отдаёт другое: каталог на диске должен остаться прежним.
             writeManifest(remote, names);
             write(remote.resolve("gui/shared.json"), "{\"schemaVersion\": 2, \"name\": \"broken\"}\n");
             Files.delete(root.resolve("gui/shared.json"));

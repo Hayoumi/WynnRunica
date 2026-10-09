@@ -47,7 +47,6 @@ public abstract class NpcNameRendererMixin implements TranslationManager.NpcRefr
         if (text == null) return;
         if (Config.isEnabled("Отправка строк") && text != wr$lastCapture) {
             wr$lastCapture = text;
-            // Известная табличка, к которой добавилась строка эффектов, новой строкой не считается.
             Text[] parts = NameplateStyler.splitTail(text);
             if (parts == null || NpcNameResolver.resolveNameplate(parts[0].getString()) == null) {
                 NpcNameplateCapture.record(text);
@@ -85,8 +84,6 @@ public abstract class NpcNameRendererMixin implements TranslationManager.NpcRefr
         if (text == null) return null;
         Text whole = translateWhole(text);
         if (whole != text) return whole;
-        // Целиком табличка не нашлась. Если внизу есть строки без слов (полоса здоровья, яд,
-        // проклятие), перевод ищется по табличке без них, а сами строки возвращаются как были.
         Text[] parts = NameplateStyler.splitTail(text);
         if (parts == null) return text;
         Text name = translateWhole(parts[0]);

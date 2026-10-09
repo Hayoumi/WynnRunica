@@ -37,7 +37,6 @@ public final class NpcNameplateTest {
                 "08.10: a mob name is separated from the health bar and the effect line, styles kept");
         expect(NameplateStyler.splitTail(source) == null,
                 "08.10: a nameplate whose last line has words is not split");
-        // Манекен из отчёта тестера: полосы здоровья нет, под «Average DPS» висит яд.
         var dummy = Text.empty().append(Text.literal("Combat Dummy").styled(s -> s.withColor(0xFFFF55)))
                 .append(Text.literal("\nNPC")).append(Text.literal("\nAverage DPS: 23493 / 24929"))
                 .append(Text.literal("\n§5☠ §78.4k"));
@@ -49,7 +48,6 @@ public final class NpcNameplateTest {
         String dummyRu = NpcNameResolver.resolveNameplate(dummyParts[0].getString());
         expect(dummyRu != null && dummyRu.contains("Манекен") && dummyRu.contains("23493"),
                 "08.10: the poisoned dummy finds its translation without the poison line: " + dummyRu);
-        // Акции магазина: время приходит в разном составе, перевод есть на каждый.
         for (String offer : new String[]{"Crate Offer\n2d 5h 30m\n\n20% OFF Crates", "Crate Offer\n59s\n\n10% OFF Crates",
                 "Token Offer\n2d 59m\n\n30% OFF Tokens", "Crate Offer\n\n\n10% OFF Crates",
                 "Rank Offer\n3d 1h 54m\n\n30% OFF Ranks\n\nExtra Bonus:\nGet 5 Tradable Shares FREE"}) {

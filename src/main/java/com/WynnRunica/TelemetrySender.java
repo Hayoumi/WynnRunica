@@ -99,8 +99,6 @@ public final class TelemetrySender {
 
     private TelemetrySender() {}
 
-    // Строки собираются только на Wynncraft. На другом сервере и в одиночной игре мод
-    // ничего не отправляет: там подсказки и чат к переводу не относятся и могут быть личными.
     static boolean allowed() {
         return Config.isEnabled("Отправка строк") && ServerNotificationTranslator.onWynncraft();
     }
@@ -510,7 +508,6 @@ public final class TelemetrySender {
         return segments;
     }
 
-    // Ник игрока на сайт не уходит: в кусках реплики он заменяется тем же <playername>, что и в ключе.
     private static List<Segment> dialogueSegments(Text text) {
         String name = MinecraftClient.getInstance().getSession().getUsername();
         List<Segment> result = new ArrayList<>();
@@ -623,8 +620,6 @@ public final class TelemetrySender {
 
     private static final Pattern QUEST_TIMER = Pattern.compile("\\s*\\((?:\\d+\\s*[dhms]\\s*)+left\\)\\s*$");
 
-    // У мировых событий в названии идёт обратный отсчёт: «Prelude to Annihilation (8m 40s left)».
-    // Без него событие остаётся одним квестом, а не новым каждую секунду.
     static String questName(String raw) {
         return QUEST_TIMER.matcher(singleLine(raw)).replaceFirst("");
     }

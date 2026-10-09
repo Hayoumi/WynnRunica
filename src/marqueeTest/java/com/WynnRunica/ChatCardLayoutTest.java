@@ -67,7 +67,6 @@ public final class ChatCardLayoutTest {
         Text iconRu = Text.empty().append(shift(46)).append(Text.literal(new String(Character.toChars(0xC0001))).setStyle(icon))
                 .append(Text.literal("Описание"));
         check(ChatReflow.recenter(iconRu, withIcon, ChatCardLayoutTest::width).getString().contains(new String(Character.toChars(0xC0001))), "an icon is not mistaken for indentation");
-        // Награды за квест: сервер шлёт их отдельными сообщениями с одним отступом 50.
         Text rewards = Text.empty().append(shift(50)).append(Text.literal("Rewards:"));
         Text points = Text.empty().append(shift(50)).append(Text.literal("- +3300 Experience Points"));
         Text pointsRu = Text.empty().append(shift(50)).append(Text.literal("- +3300 Очков Опыта"));
@@ -77,8 +76,6 @@ public final class ChatCardLayoutTest {
         check(columns(ChatReflow.recenter(pointsRu, points, ChatCardLayoutTest::width)).getFirst().left() == 50
                         && columns(ChatReflow.recenter(emeraldsRu, emeralds, ChatCardLayoutTest::width)).getFirst().left() == 50,
                 "08.10: reward lines that share an indent keep their left edge after translation");
-        // 09.10: две строки карточек маяков с одинаковым отступом. Это не список: правая колонка
-        // обязана остаться на своей середине, когда левая в переводе стала длиннее.
         String[][] cardRows = {{"Purple Beacon", "Blue Beacon", "Фиолетовый Маяк", "Синий Маяк"},
                 {"+4 Curses,End", "Choose a Boon", "+4 Проклятия, +4 Пулла", "Выберите Дар с"}};
         for (String[] row : cardRows) {

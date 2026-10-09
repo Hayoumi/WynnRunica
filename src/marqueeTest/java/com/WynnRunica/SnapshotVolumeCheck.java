@@ -13,8 +13,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
-// Сколько снимков подсказок ушло бы на хаб по нынешним правилам мода. Берёт снимки, уже лежащие
-// на хабе, и пересчитывает их так же, как TooltipCaptureLogger. Запуск: gradlew checkSnapshotVolume
 public final class SnapshotVolumeCheck {
     public static void main(String[] args) throws Exception {
         TranslationLoader.loadAll(Path.of(args[1]));

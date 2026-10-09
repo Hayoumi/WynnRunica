@@ -8,7 +8,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-// Трекер ежедневных и гильдейских заданий Wynntils: обе его панели рисуют эту строку.
 @Pseudo
 @Mixin(targets = "com.wynntils.models.objectives.WynnObjective", remap = false)
 public abstract class WynntilsObjectiveMixin {

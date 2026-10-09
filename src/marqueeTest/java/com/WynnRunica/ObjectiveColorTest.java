@@ -1,13 +1,11 @@
 package com.WynnRunica;
 
-// Цвет скобок в задании квеста берётся у оригинала, а не назначается модом.
 public final class ObjectiveColorTest {
     private static void expect(String actual, String expected, String message) {
         if (!actual.equals(expected)) throw new AssertionError(message + ": " + actual);
     }
 
     public static void run() {
-        // 09.10: цель ежедневного задания на табло и в трекере Wynntils.
         expect(ObjectiveTranslator.scoredGoal("- Slay Lv. 20+ Mobs: 8/140"), "Slay Lv. 20+ Mobs", "09.10: цель на табло");
         expect(ObjectiveTranslator.scoredGoal("★ Craft Items: 0/6"), "Craft Items", "09.10: цель в трекере со звездой");
         expect(ObjectiveTranslator.scoredGoal("Trade 24² with Lv. 1-10 Newbie: 0/1"), "Trade 24² with Lv. 1-10 Newbie", "09.10: цель из двух строк");

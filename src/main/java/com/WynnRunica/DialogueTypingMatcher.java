@@ -31,8 +31,6 @@ public final class DialogueTypingMatcher {
         previous = observed;
 
         if (lockedSource != null && isAnotherLine(observed, lockedSource, settled)) clearLock();
-        // Поиск по всем репликам квеста дорогой, поэтому для одного и того же текста он идёт один раз,
-        // а не на каждом кадре.
         if (lockedSource == null && !observed.equals(missed)) {
             lockedSource = findCandidate(observed, quest, translations, questTranslations, questToKeys,
                     recentCompletedSource());
@@ -158,8 +156,6 @@ public final class DialogueTypingMatcher {
         double secondScore = 0.0;
         for (String candidate : candidates) {
             if (!translations.containsKey(candidate)) continue;
-            // Похожая реплика начинается почти так же: из первых трёх букв совпадают хотя бы две.
-            // Это отсекает почти все чужие реплики до дорогого сравнения.
             int same = 0;
             for (int i = 0; i < 3 && i < candidate.length(); i++) {
                 if (candidate.charAt(i) == observed.charAt(i)) same++;
@@ -194,8 +190,6 @@ public final class DialogueTypingMatcher {
     }
 
     private static Alignment alignPrefix(String observed, String source) {
-        // Начало реплики длиннее набранного в полтора раза уже не может быть на него похоже
-        // (сходство ниже любого порога), поэтому дальше этой длины строка не сравнивается.
         int sourceLength = Math.min(source.length(), observed.length() * 3 / 2 + 4);
         int[] previousRow = new int[sourceLength + 1];
         int[] currentRow = new int[sourceLength + 1];

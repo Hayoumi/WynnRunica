@@ -7,14 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-// Цвета в дереве навыков мод не хранит: сервер сам присылает название способности и подпись
-// архетипа нужным цветом, перевод его только наследует.
 public final class AbilityStyleTest {
     private static void expect(boolean condition, String message) {
         if (!condition) throw new AssertionError(message);
     }
 
-    // Стиль каждого непустого куска текста по порядку.
     private static List<Style> styles(Text text) {
         List<Style> result = new ArrayList<>();
         text.visit((style, value) -> {
@@ -31,8 +28,6 @@ public final class AbilityStyleTest {
     }
 
     public static void run() {
-        // Заголовок «Unlock Counter ability» в том виде, в каком его присылает игра: слово Unlock
-        // зелёным кодом, название способности отдельным куском со своим цветом.
         for (int color : new int[]{0xFFE14D, 0xFFFFFF, 0xE14DFF}) {
             Text original = unlockTitle("Counter", color);
             var extracted = TextEmojiUtils.extractTooltip(original);
@@ -45,8 +40,6 @@ public final class AbilityStyleTest {
                     "08.10: the ability name takes the colour the server gave it: " + Integer.toHexString(color));
         }
 
-        // Подпись архетипа: открытый приходит своим цветом, закрытый серым. Перевод без кодов цвета
-        // наследует и то, и другое.
         String label = TranslationManager.getGuiTranslation("Paladin Archetype");
         expect(TranslationLoader.hasCyrillic(label) && !label.contains("§"),
                 "08.10: an archetype label is translated and sets no colour of its own: " + label);

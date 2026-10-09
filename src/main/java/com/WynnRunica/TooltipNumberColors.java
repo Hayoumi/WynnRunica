@@ -54,7 +54,6 @@ public final class TooltipNumberColors {
         return result;
     }
 
-    // Числа перевода получают цвета чисел оригинала. Если числа не совпали, ничего не меняется.
     private static void numberColors(StyledString source, StyledString target, List<Replacement> out) {
         var before = NUMBER.matcher(source.text);
         var after = NUMBER.matcher(target.text);
@@ -74,8 +73,6 @@ public final class TooltipNumberColors {
         out.addAll(found);
     }
 
-    // Полосу прогресса («>>>>>>>>>>», «■■■■■■■») сервер красит по знакам: сколько пройдено,
-    // столько зелёных. В переводе та же полоса получает цвета оригинала знак в знак.
     private static void barColors(StyledString source, StyledString target, List<Replacement> out) {
         int from = 0;
         int start = 0;
@@ -96,14 +93,12 @@ public final class TooltipNumberColors {
         }
     }
 
-    // Конец отрезка из одинаковых знаков, который начинается в start.
     private static int runEnd(String text, int start) {
         int end = start + 1;
         while (end < text.length() && text.charAt(end) == text.charAt(start)) end++;
         return end;
     }
 
-    // Начало отрезка из знака sign ровно такой длины, не раньше from. Если такого нет, -1.
     private static int findRun(String text, char sign, int length, int from) {
         int start = from;
         while (start < text.length()) {

@@ -73,15 +73,12 @@ public final class ObjectiveTranslator {
         return translated;
     }
 
-    // Цель ежедневного или гильдейского задания: «- Slay Lv. 20+ Mobs: 8/140» на табло,
-    // «★ Slay Lv. 20+ Mobs: 8/140» в трекере Wynntils. Если строка не задание, вернёт null.
     static String scoredGoal(String clean) {
         Matcher scored = SCORED.matcher(clean);
         if (!scored.matches()) return null;
         return scored.group(1);
     }
 
-    // Своего квеста у этих заданий нет, их перевод лежит в «квесте» с названием DAILY.
     private static String translateGoal(String goal) {
         String translated = TranslationManager.getTranslationInContext(goal, DAILY, "objective");
         if (translated == null) TelemetrySender.recordObjective(goal, DAILY, "", null);
@@ -121,7 +118,6 @@ public final class ObjectiveTranslator {
 
             if (clean.length() >= 5 && Character.isUpperCase(clean.charAt(0))
                     && !clean.startsWith("Quest:") && !clean.startsWith("Tracking:")
-                    // Заголовки разделов табло («World Event:», «Party: [Lv. 120]») заданиями не являются.
                     && !clean.endsWith(":") && !clean.startsWith("Party:")
                     && !clean.equalsIgnoreCase("Wynncraft") && !clean.contains("wynncraft.com")) {
                 TelemetrySender.recordObjective(clean, quest.name(), quest.stage(), line);
@@ -141,14 +137,10 @@ public final class ObjectiveTranslator {
             String common = TranslationManager.getTranslation(text, false);
             if (common != null && !common.equals(text)) translated = common;
         }
-        // Строки табло лутранов и событий с числами («Slay! Wave 1 - 3 Mobs Left!») лежат в общем файле.
         if (translated == null) translated = TranslationManager.getTranslationInContext(text, BOARD, "objective");
         return translated;
     }
 
-    // Цвет каждой пары квадратных скобок берётся у оригинала: сервер красит координаты одним
-    // цветом, а подсказки другим. Скобки сопоставляются по порядку. Скобка, перед которой
-    // переводчик сам поставил код цвета, остаётся его цвета.
     static String bracketColors(String original, String translated) {
         List<String> opens = new ArrayList<>();
         List<String> closes = new ArrayList<>();
@@ -169,7 +161,6 @@ public final class ObjectiveTranslator {
                 i = end - 1;
                 continue;
             }
-            // Цвет после скобки известен только на первом знаке за ней.
             if (closed) {
                 closes.add(active);
                 closed = false;
@@ -185,7 +176,6 @@ public final class ObjectiveTranslator {
             }
             shown = active;
         }
-        // Скобка в самом конце: дальше идёт цвет текста, который был до неё.
         if (closed) closes.add(outer);
 
         Matcher matcher = BRACKETS.matcher(translated);
@@ -213,7 +203,6 @@ public final class ObjectiveTranslator {
         return result.append(translated.substring(last)).toString();
     }
 
-    // Строка табло с цветами в виде кодов §: сервер присылает их стилями, а не кодами.
     private static String coded(Text line) {
         StringBuilder result = new StringBuilder();
         line.visit((style, value) -> {

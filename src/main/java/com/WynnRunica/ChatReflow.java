@@ -18,8 +18,6 @@ public final class ChatReflow {
     private record Cell(int codePoint, Style style) {}
     private record Column(List<Cell> body, int center) {}
 
-    // Чат по умолчанию шириной 320, сервер центрирует строки вокруг 160. Строка считается
-    // центрированной, если у неё есть заметный отступ и её середина лежит рядом с серединой чата.
     private static final int CHAT_CENTER = 160;
     private static final int CENTER_TOLERANCE = 30;
     private static final int CARD_CENTER_TOLERANCE = 40;
@@ -146,18 +144,13 @@ public final class ChatReflow {
                 || Math.abs(center - CHAT_CENTER * 3 / 2) <= tolerance;
     }
 
-    // Сервер ставит строку по центру чата отступом, рассчитанным на английский текст.
-    // Здесь отступ пересчитывается под ширину перевода, чтобы середина строки осталась на месте.
     public static Text recenter(Text translated, Text original, ToIntBiFunction<String, Style> width) {
         List<List<Cell>> ru = lines(translated);
         List<List<Cell>> en = lines(original);
         if (ru.size() != en.size()) return translated;
 
-        // Отступ и длина текста каждой строки оригинала.
         int[] leads = new int[en.size()];
         int[] bodies = new int[en.size()];
-        // Строка из одной колонки. В списке колонка всегда одна, а строка карточек маяков
-        // состоит из двух и списком не бывает, даже если отступ у соседних строк совпал.
         boolean[] single = new boolean[en.size()];
         for (int i = 0; i < en.size(); i++) {
             List<Cell> line = en.get(i);
@@ -174,10 +167,6 @@ public final class ChatReflow {
             if (i > 0) result.append(Text.literal("\n"));
             List<Cell> ruLine = ru.get(i);
             List<Cell> enLine = en.get(i);
-            // Список: соседние строки с одним и тем же отступом и разной длиной стоят по левому краю
-            // (награды за квест). По центру две строки разной длины с одинаковым отступом стоять
-            // не могут. Сервер шлёт такие строки отдельными сообщениями, поэтому сосед берётся
-            // и из предыдущего сообщения.
             boolean listed = leads[i] > 0 && single[i]
                     && (i > 0 && single[i - 1] && leads[i - 1] == leads[i] && bodies[i - 1] != bodies[i]
                     || i + 1 < leads.length && single[i + 1] && leads[i + 1] == leads[i] && bodies[i + 1] != bodies[i]
@@ -224,7 +213,6 @@ public final class ChatReflow {
         return result;
     }
 
-    // Последняя строка прошлого сообщения: по ней узнаётся список, идущий отдельными сообщениями.
     private static int lastLineLead = -1;
     private static int lastLineBody;
     private static boolean lastLineSingle;
@@ -320,8 +308,6 @@ public final class ChatReflow {
         return rows;
     }
 
-    // Для журнала вёрстки: где стояла каждая строка оригинала и где встала строка перевода.
-    // Числа в пикселях игры: левый край и середина.
     public static String describeLayout(Text translated, Text original) {
         MinecraftClient client = MinecraftClient.getInstance();
         ToIntBiFunction<String, Style> width =
@@ -359,7 +345,6 @@ public final class ChatReflow {
         return lines;
     }
 
-    // Отступ в начале строки: пробелы, глифы-сдвиги и цветовые коды между ними.
     private static int leadEnd(List<Cell> line) {
         int end = 0;
         while (end < line.size()) {

@@ -17,8 +17,6 @@ public class Config {
     private static final Path configFile = FabricLoader.getInstance().getConfigDir()
             .resolve("WynnRunica").resolve("WynnRunica.json");
     private static final String MASTER_KEY = "Перевод";
-    // Отладочные журналы (вёрстка чата, показ диалогов) пишутся только с ключом запуска
-    // -Dwynnrunica.debug=true. У игроков мод на диск ничего лишнего не пишет.
     public static final boolean DEBUG = Boolean.getBoolean("wynnrunica.debug");
     public static final List<Feature> features = new ArrayList<>();
     private static volatile boolean translationOn = true;
@@ -34,7 +32,6 @@ public class Config {
         translation("Задачи квестов", "Задачи квестов", "Цели на экране и в трекере", "quests", 0xFFE9B0CF);
 
         tool("Быстрый диалог", "Пропуск печати", "Реплика появляется сразу целиком", "fast", 0xFFF0C869);
-        // Пропуск печати по умолчанию выключен: его включают сами в настройках.
         features.getLast().setEnabled(false);
         tool("Общий чат", "Общий чат", "Переписка между игроками с модом", "chat", 0xFF8FC3F0);
         tool("Отправка строк", "Помогать переводу", "Отправлять новые тексты авторам перевода", "help", 0xFFE9B0CF);

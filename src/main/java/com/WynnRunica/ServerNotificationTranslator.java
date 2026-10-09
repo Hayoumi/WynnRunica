@@ -99,8 +99,6 @@ public final class ServerNotificationTranslator {
         return result;
     }
 
-    // Журнал вёрстки чата: config/WynnRunica/chat-layout.log. По нему видно, совпало ли
-    // положение перевода с оригиналом, без скриншотов «до и после».
     private static void logLayout(Text result, Text original) {
         if (!Config.DEBUG) return;
         try {
@@ -338,7 +336,6 @@ public final class ServerNotificationTranslator {
         return normalizeNumbers(hideNames(ChatMessageCatalog.normalizeLayout(text), names));
     }
 
-    // Ники игроков с сервера на хаб не уходят: вместо ника в захвате стоит <actor>.
     static String hideNames(String text, List<String> names) {
         for (String name : names) {
             if (name.length() < 3 || !text.contains(name)) continue;
@@ -350,7 +347,6 @@ public final class ServerNotificationTranslator {
     public static String normalizeNumbers(String text) {
         return NUMBER_OR_CODE.matcher(text).replaceAll(match -> {
             if (match.group("number") == null) return match.group();
-            // Цифра внутри слова, которое начинается с буквы (ник Hardt4chno), числом не считается.
             int word = match.start();
             while (word > 0 && (Character.isLetterOrDigit(text.charAt(word - 1)) || text.charAt(word - 1) == '_')) word--;
             boolean insideWord = word < match.start() && Character.isLetter(text.charAt(word))

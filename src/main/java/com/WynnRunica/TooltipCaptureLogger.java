@@ -135,7 +135,6 @@ public final class TooltipCaptureLogger {
             String resolved = TranslationManager.getGuiTranslation(key, scope);
             String translation = resolved.equals(key) ? null : resolved;
             boolean market = isMarketLine(text);
-            // Строка стата переводится по словарю названий, а не целиком: непереведённой она не считается.
             boolean missing = useful && !market && translation == null
                     && TranslationManager.findGuiLabelTranslation(key, null) == null;
             if (missing) anyMissing = true;
@@ -145,11 +144,9 @@ public final class TooltipCaptureLogger {
             lines.add(new TooltipLine(text, key, saveKey, translation, missing,
                     segments, displayedSegments));
         }
-        // Подсказка, в которой всё переведено, никому не нужна.
         if (!anyMissing) return;
 
         boolean abilityTree = isAbilityTree(screen, lines);
-        // Ники игроков на хаб не уходят: в названии экрана, предмета и в строках вместо ника <actor>.
         List<String> names = ServerNotificationTranslator.knownNames();
         screen = ServerNotificationTranslator.hideNames(screen, names);
         scopeTitle = ServerNotificationTranslator.hideNames(scopeTitle, names);
@@ -167,8 +164,6 @@ public final class TooltipCaptureLogger {
         String tooltipStyleId = tooltipStyle == null ? "minecraft:default" : tooltipStyle.toString();
         String familyId = sha256(itemId + "\u001e" + scopeTitle
                 + "\u001e" + tooltipStyleId + "\u001e" + String.join("\u001f", anchors));
-        // Один снимок на набор непереведённых строк. Тот же предмет с другими числами, цветами
-        // или ценой даёт тот же снимок, иначе каждый ролл статов занимал бы на хабе место.
         String fingerprint = sha256(familyId + "\u001e" + String.join("\u001f", missingKeys));
         String itemName = ServerNotificationTranslator.hideNames(tooltip.getFirst().getString(), names);
         String source = abilityTree ? "ability_tree" : "interface";
@@ -214,10 +209,6 @@ public final class TooltipCaptureLogger {
 
     private static final java.util.Set<String> dumpedFinal = new java.util.HashSet<>();
 
-    // Отладка вёрстки (ключ запуска -Dwynnrunica.debug=true). Подсказка записывается ровно в том
-    // виде, в каком приходит на отрисовку, то есть после Wynntils и других модов, и рядом то, что
-    // из неё сделал наш мод, с настоящими ширинами строк. По этому файлу проверка вёрстки видит
-    // то же, что игрок на экране: config/WynnRunica/tooltip-final-debug.jsonl.
     static void dumpFinal(List<Text> tooltip, List<Text> result) {
         StringBuilder id = new StringBuilder();
         for (Text line : tooltip) id.append(line.getString().replaceAll("\\d+", "0")).append('\n');
@@ -255,7 +246,6 @@ public final class TooltipCaptureLogger {
         return array;
     }
 
-    // Стиль куска с таким же текстом в исходной строке: нужен, чтобы измерить его настоящую ширину.
     private static net.minecraft.text.Style styleOf(Text line, Segment segment) {
         return line.visit((style, text) -> text.equals(segment.text())
                 ? java.util.Optional.of(style) : java.util.Optional.<net.minecraft.text.Style>empty(),

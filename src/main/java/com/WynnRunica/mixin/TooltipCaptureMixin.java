@@ -25,15 +25,12 @@ public abstract class TooltipCaptureMixin {
     @Shadow
     protected abstract List<Text> getTooltipFromItem(ItemStack stack);
 
-    // Подсказка строится по переведённой копии предмета, сам предмет остаётся английским.
     @ModifyVariable(method = "getTooltipFromItem", at = @At("HEAD"), argsOnly = true)
     private ItemStack wynnrunica$showTranslatedCopy(ItemStack stack) {
         if (wynnrunica$readingOriginal.get()) return stack;
         return GuiTranslationCache.shownFor(stack);
     }
 
-    // Для переведённой копии читается и английская подсказка настоящего предмета. По ней строки
-    // перевода ставятся так же, как стояли в оригинале (по центру, вправо), и она же уходит в захват.
     @Inject(method = "getTooltipFromItem", at = @At("RETURN"), cancellable = true)
     private void wynnrunica$layoutAndCapture(ItemStack stack, CallbackInfoReturnable<List<Text>> callback) {
         if (wynnrunica$readingOriginal.get()) return;

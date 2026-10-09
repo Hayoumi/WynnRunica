@@ -58,7 +58,7 @@ public class ChatManager {
     }
 
     public static void sendMessage(String text) {
-        if (text == null || text.isBlank()) return;
+        if (text == null || text.isBlank() || !joined) return;
         MinecraftClient client = MinecraftClient.getInstance();
         if (client.player == null) return;
 
@@ -88,9 +88,6 @@ public class ChatManager {
         });
     }
 
-    // Подтверждает личность так же, как при входе на сервер Minecraft: игра сообщает Mojang
-    // случайный код от хаба, хаб сверяет его у Mojang и выдаёт пропуск в общий чат.
-    // Токен аккаунта уходит только в Mojang, на хаб он не попадает.
     private static boolean authenticate() {
         MinecraftClient client = MinecraftClient.getInstance();
         var session = client.getSession();
@@ -128,7 +125,7 @@ public class ChatManager {
 
     public static void pollMessages() {
         MinecraftClient client = MinecraftClient.getInstance();
-        if (client.player == null || !Config.isEnabled("Общий чат")) return;
+        if (client.player == null || !joined || !Config.isEnabled("Общий чат")) return;
         if (!IS_POLLING.compareAndSet(false, true)) return;
 
         try {
@@ -164,7 +161,7 @@ public class ChatManager {
 
                 Text formatted = formatMessage(msgObj);
                 client.execute(() -> {
-                    if (client.player != null && Config.isEnabled("Общий чат")) {
+                    if (client.player != null && joined && Config.isEnabled("Общий чат")) {
                         client.inGameHud.getChatHud().addMessage(formatted);
                     }
                 });
@@ -185,8 +182,12 @@ public class ChatManager {
         return root.append(Text.literal("§7: §f" + content));
     }
 
+    public static boolean available() {
+        return joined;
+    }
+
     public static void join(MinecraftClient client) {
-        joined = true;
+        joined = ServerNotificationTranslator.onWynncraft();
         SCHEDULER.execute(ChatManager::sendPresence);
     }
 
@@ -206,7 +207,6 @@ public class ChatManager {
         SEEN_IDS.clear();
     }
 
-    // Чужой текст показывается без цветовых кодов и переносов строк.
     private static String plain(String value) {
         return value.replaceAll("§.?", "").replaceAll("\\p{Cntrl}", " ");
     }

@@ -126,7 +126,6 @@ public class GuiScreen extends Screen {
         ctx.enableScissor(x, y, side, y + h);
         round(ctx, x + 1, y + 1, side - x + 16, h - 2, 2, SIDEBAR);
         ctx.disableScissor();
-        // Мягкий свет в левом верхнем углу. Скругление угла окна уже вырезано в самой текстуре.
         ctx.drawTexture(RenderPipelines.GUI_TEXTURED, SIDEBAR_GLOW, x + 1, y + 1, 0, 0, side - x - 1, Math.min(90, h - 2),
                 298, 180, 298, 180, tint(LIME, 0x29));
         ctx.fill(side, y + 1, side + 1, y + h - 1, EDGE);
@@ -184,15 +183,11 @@ public class GuiScreen extends Screen {
     @Override
     public boolean shouldPause() { return false; }
 
-    // Тонкая внутренняя рамка окна и утопленное поле под списком, того же тона, что фон. Текстуры делает fignya/WynnRunica-tools/render_settings_textures.mjs.
     private void decorate(DrawContext ctx, int x, int y, int w, int h, int side) {
-        // Утопленное поле под списком.
         int fieldX = side + 9;
         int fieldY = y + 45;
         nine(ctx, FIELD, fieldX, fieldY, x + w - 9 - fieldX, y + h - 10 - fieldY);
 
-        // Внешняя пиксельная рамка с фигурными углами, как у подсказок предметов. Она шире окна:
-        // линия рамки ложится на его край, а углы выступают наружу. Углы 24 на 24 не тянутся.
         int fx = x - 7;
         int fy = y - 3;
         int fw = w + 14;
@@ -212,7 +207,6 @@ public class GuiScreen extends Screen {
         }
     }
 
-    // Рамка из девяти частей: углы 12 на 12 не тянутся, стороны и середина тянутся.
     private static void nine(DrawContext ctx, Identifier texture, int x, int y, int w, int h) {
         int c = 12;
         if (w < 2 * c || h < 2 * c) return;
@@ -261,7 +255,6 @@ public class GuiScreen extends Screen {
             ctx.drawTexture(RenderPipelines.GUI_TEXTURED, texture, x, y, u, v, w, h, uw, vh, 64, 64, color);
     }
 
-    // Свечение от левого края: слева скруглено как карточка, вправо гаснет.
     private static void glow(DrawContext ctx, int x, int y, int w, int h, int r, int color) {
         slice(ctx, GLOW, x, y, r, r, 0, 0, 24, 24, color);
         slice(ctx, GLOW, x, y + r, r, h - 2 * r, 0, 24, 24, 16, color);
@@ -514,7 +507,6 @@ public class GuiScreen extends Screen {
         void renderRow(DrawContext ctx) {
             String key = binding.isUnbound() ? "не задана" : binding.getBoundKeyLocalizedText().getString();
             int chip = textRenderer.getWidth(key) + 12;
-            // Клавишу нельзя включить или выключить, поэтому строка без зелёной подсветки «включено».
             drawCard(ctx, Section.KEYS.icon, LIME, false, true, binding.getId(), "Меняется в управлении Minecraft", chip + 16);
             int cx = getRight() - 10 - chip;
             round(ctx, cx, getY() + 9, chip, 14, 4, EDGE);

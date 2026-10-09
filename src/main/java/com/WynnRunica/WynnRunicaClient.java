@@ -53,8 +53,6 @@ public class WynnRunicaClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         HadesRelay.removeOldFiles();
-        // Игра запускается на переводе с диска. Обновление идёт в фоне и не задерживает запуск;
-        // если что-то докачалось, перевод перечитывается.
         TranslationManager.reload();
         Thread updater = new Thread(() -> {
             if (TranslationUpdater.update()) {
@@ -192,7 +190,7 @@ public class WynnRunicaClient implements ClientModInitializer {
         ChatManager.init();
 
         ClientSendMessageEvents.ALLOW_CHAT.register(message -> {
-            if (message.startsWith("!")) {
+            if (message.startsWith("!") && ChatManager.available()) {
                 if (Config.isEnabled("Общий чат")) {
                     String text = message.startsWith("! ") ? message.substring(2) : message.substring(1);
                     ChatManager.sendMessage(text);
@@ -212,7 +210,11 @@ public class WynnRunicaClient implements ClientModInitializer {
         ClientCommandRegistrationCallback.EVENT.register((dispatcher, registryAccess) -> {
             Command<FabricClientCommandSource> chatCommand = ctx -> {
                 String message = StringArgumentType.getString(ctx, "message");
-                if (Config.isEnabled("Общий чат")) {
+                if (!ChatManager.available()) {
+                    ctx.getSource().sendFeedback(
+                            Text.literal("[§3Wynn§fRunica] §cОбщий чат работает только на Wynncraft.")
+                    );
+                } else if (Config.isEnabled("Общий чат")) {
                     ChatManager.sendMessage(message);
                 } else {
                     ctx.getSource().sendFeedback(

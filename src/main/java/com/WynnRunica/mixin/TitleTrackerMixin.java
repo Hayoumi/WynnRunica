@@ -362,9 +362,6 @@ public class TitleTrackerMixin {
         String translation = TranslationManager.npcTranslations.get(parts.speaker());
         if (translation == null) return false;
 
-        // Сервер ставит имя на плашку сдвигами по бокам от него. Сдвиги бывают отдельными кусками
-        // рядом, а бывают внутри того же куска, что и имя. Меняется только само имя, всё вокруг
-        // остаётся как было, иначе имя уезжает с плашки.
         Text originalSibling = copy.getSiblings().get(parts.speakerIndex());
         String speaker = parts.speaker();
         MutableText replacement = Text.literal("");

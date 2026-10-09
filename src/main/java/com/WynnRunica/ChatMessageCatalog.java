@@ -190,7 +190,6 @@ final class ChatMessageCatalog {
         return out.append(plural(line.ru.substring(at), number)).toString();
     }
 
-    // <pl:попытка|попытки|попыток> выбирает форму по числу, которое стоит в переводе перед ним.
     private static String plural(String piece, String number) {
         Matcher token = PLURAL.matcher(piece);
         StringBuilder out = new StringBuilder();

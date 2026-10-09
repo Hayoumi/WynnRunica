@@ -38,8 +38,6 @@ public final class NpcNameplateCapture {
                 if (!segment.text().isBlank() && segment.italic()) italicName = true;
             }
         }
-        // У моба под именем идут полоса здоровья и строка эффектов («☠ 662», «✹ 12s»). Эффекты
-        // меняются каждую секунду, переводить в них нечего: в захват идёт только первая строка с именем.
         if (healthBar && body.indexOf("\n") >= 0) body.setLength(body.indexOf("\n"));
         String key = NpcNameResolver.normalizeKey(body.toString());
         return key.length() > 2000 || NpcNameplateCapture.reject(key, italicName, badges.toString()) ? null : key;

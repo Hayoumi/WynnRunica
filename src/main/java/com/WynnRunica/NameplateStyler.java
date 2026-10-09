@@ -83,9 +83,6 @@ public final class NameplateStyler {
 
     private static final Pattern HAS_WORD = Pattern.compile("\\p{L}{2,}");
 
-    // Под названием таблички бывают строки без слов: полоса здоровья моба, эффекты («☠ 8.4k»,
-    // «✹ 12s»). Они меняются каждую секунду и в каталоге вместе с названием не лежат.
-    // Возвращает табличку без таких строк в конце и сами эти строки, или null, если их нет.
     public static Text[] splitTail(Text text) {
         String whole = text.getString();
         int cut = whole.length();
@@ -229,7 +226,6 @@ public final class NameplateStyler {
     }
 
     private static Result spread(String raw, int[] styles, String en, List<Integer> rawIndex, String ru) {
-        // Строки из одних значков в начале (плашка над табличкой) остаются как есть.
         int headerEnd = 0;
         int lineStart = 0;
         while (lineStart < en.length()) {
@@ -286,8 +282,6 @@ public final class NameplateStyler {
         out.copyCodes(headerEnd == 0 ? 0 : rawIndex.get(headerEnd), enWords.getFirst()[0]);
         int reached = 0;
         for (int j = 0; j < ruWords.size(); j++) {
-            // Слово перевода берёт цвет слова оригинала из той же строки и того же рода:
-            // число у числа, обычное слово у обычного слова.
             List<Integer> enSame = new ArrayList<>();
             List<Integer> ruSame = new ArrayList<>();
             for (int i = 0; i < enWords.size(); i++) {
