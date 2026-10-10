@@ -17,7 +17,7 @@
     {
       "id": "dialogue-0002",
       "en": "Follow me- we have a conversation to have in my office. It's on the top floor of the barracks.",
-      "ru": "Иди за мной - надо кое-что обсудить у меня в кабинете. Он на верхнем этаже казарм.",
+      "ru": "§#FFFFFFИди за мной - надо кое-что обсудить у меня в кабинете. Он §#55FFFFна верхнем этаже казарм§r§#FFFFFF.",
       "speaker": "Admiral Aegis",
       "stage": "Stage 1"
     },
@@ -36,6 +36,13 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-d5fc0160b87b",
+      "en": "Our preparations are complete, and it's time for the assault on the spider den! With you here, we'll just need to wait for-...",
+      "ru": "Подготовка закончена, и пришло время штурма паучьего логова! Раз ты здесь, нам остаётся только дождаться-...",
+      "speaker": "Admiral Aegis",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0005",
       "en": "Admiral- we're here! Sorry we're late, we were sparring in the training room and lost track of time...",
       "ru": "Адмирал - мы тут! Простите, что опоздали, мы устроили учебный бой в тренировочном зале и потеряли счёт времени...",
@@ -45,6 +52,13 @@
     {
       "id": "dialogue-0006",
       "en": "If <playername> is here, I take it that means today is the day we strike at the spiders?",
+      "ru": "Если <playername> уже здесь, значит, сегодня мы всё-таки идём на пауков?",
+      "speaker": "Tasim",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "claude-dialogue-66da31e62331",
+      "en": "If <playername> is here, I take it that means today's the day we strike at the spiders?",
       "ru": "Если <playername> уже здесь, значит, сегодня мы всё-таки идём на пауков?",
       "speaker": "Tasim",
       "stage": "Stage 1"
@@ -171,6 +185,13 @@
     {
       "id": "dialogue-0024",
       "en": "Ah, good! You can see the pickle we're in, hmm? We've tried everything to get those poor souls out, but the damned web is like glue!",
+      "ru": "А, отлично! Ну вы и сами видите, в какое положение мы попали. Мы уже всё перепробовали, чтобы вытащить бедолаг, но эта чёртова паутина как клей!",
+      "speaker": "Captain Enduyn",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "claude-dialogue-46adb98dfa22",
+      "en": "Ah, good! You can see the pickle we're in, hmm? We've tried everything to get these poor souls out, but the damnned web is like glue!",
       "ru": "А, отлично! Ну вы и сами видите, в какое положение мы попали. Мы уже всё перепробовали, чтобы вытащить бедолаг, но эта чёртова паутина как клей!",
       "speaker": "Captain Enduyn",
       "stage": "Stage 3"
@@ -755,6 +776,33 @@
       "ru": "Если нужна цель, то следующее место, куда стоит заглянуть - Немрактские болота, на севере. Загляни туда, когда доберёшься до 20 уровня.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 3"
+    },
+    {
+      "id": "player-b7ada8a4fee96832",
+      "en": "Cob filled you in on my reasoning, yes? We need to get through these webs somehow... and, well, this seemed simpler than the other option.",
+      "ru": "Коб объяснил тебе, почему я так решил? Нам нужно как-то пробраться через эту паутину... и, ну, этот способ показался проще другого.",
+      "speaker": "Captain Enduyn",
+      "stage": ""
+    },
+    {
+      "id": "player-e13beee374c5922c",
+      "en": "...Hm. That's not good.",
+      "ru": "...Хм. Это плохо.",
+      "speaker": "Captain Enduyn",
+      "stage": ""
+    },
+    {
+      "id": "player-03f96ada5fd413a7",
+      "en": "The mountain is infested with spiders, even more so than Nivla Woods. Our few attempts at scouting it out have been met with extreme hostility.",
+      "ru": "Гора кишит пауками, ещё сильнее, чем лес Нивла. Все наши немногочисленные попытки разведать местность встречали яростное сопротивление.",
+      "speaker": "Captain Enduyn",
+      "stage": ""
+    },
+    {
+      "id": "claude-dialogue-8be0dcd0ec37",
+      "speaker": "Captain Enduyn",
+      "en": "So, you've taken out their queen! Well done, soldier. I'll have to let the nearby village know.",
+      "ru": "Так ты покончил с их королевой! Отличная работа, солдат. Надо будет сообщить в ближайшую деревню."
     }
   ],
   "objectives": [
@@ -793,6 +841,24 @@
       "en": "Return to Captain Enduyn with the flame at [-192, 44, -1822].",
       "ru": "Вернуться к капитану Эндуину с пламенем [-192, 44, -1822].",
       "stage": "Stage 5"
+    },
+    {
+      "id": "hub-objective-1ad8bacb3575",
+      "en": "Speak to Private Cob in the Savannah at [<num>, <num>, <num>] to receive supplies",
+      "ru": "Поговорить с рядовым Кобом в саванне и получить припасы [<num>, <num>, <num>].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "hub-objective-066628929c01",
+      "en": "Bring the supplies to Captain Enduyn at [<num>, <num>, <num>]",
+      "ru": "Доставить припасы капитану Эндуину [<num>, <num>, <num>].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "hub-objective-dc8fe9b85b13",
+      "en": "Enter Mount Wynn and reach the summit through the cave at [<num>, <num>, <num>]",
+      "ru": "Войти в пещеру горы Винн и добраться до вершины [<num>, <num>, <num>].",
+      "stage": "Stage 4"
     }
   ],
   "choices": []

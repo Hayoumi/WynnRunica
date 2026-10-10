@@ -47,6 +47,13 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-c07339f684a7",
+      "en": "I'm sure you've noticed, but there is a tribe camp not far from here.",
+      "ru": "Наверняка ты уже заметил, тут неподалёку стоит лагерь племени.",
+      "speaker": "Ildan",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0007",
       "en": "They used to have a powerful chief, but he eventually died in battle.",
       "ru": "Когда-то у них был могучий вождь, но он погиб в бою.",
@@ -77,7 +84,7 @@
     {
       "id": "dialogue-0011",
       "en": "You can access the tomb from a sacrificial shrine, I've heard, but I'm not sure how. There are probably hints nearby the shrine.",
-      "ru": "Слышал, попасть в гробницу можно через жертвенное святилище, но как именно - не знаю. Наверное, рядом со святилищем есть подсказки.",
+      "ru": "§#FFFFFFСлышал, попасть в гробницу можно §#55FFFFчерез жертвенное святилище§r§#FFFFFF, но как именно - не знаю. Наверное, §#55FFFFрядом со святилищем есть подсказки§r§#FFFFFF.",
       "speaker": "Ildan",
       "stage": "Stage 1"
     },
@@ -91,7 +98,7 @@
     {
       "id": "dialogue-0013",
       "en": "I've marked the direction to the shrine in your book. Remember, there should be hints right nearby the shrine. Good luck.",
-      "ru": "Я отметил направление к святилищу у тебя в книге. Не забудь, подсказки должны быть прямо рядом с ним. Удачи.",
+      "ru": "§#FFFFFFЯ отметил направление к святилищу у тебя в книге. Не забудь, §#55FFFFподсказки должны быть прямо рядом с ним§r§#FFFFFF. Удачи.",
       "speaker": "Ildan",
       "stage": "Stage 1"
     },
@@ -157,8 +164,30 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Проход",
       "speaker": "",
       "stage": "Stage 1"
+    },
+    {
+      "id": "hub-dialogue-f754d8dd18cf",
+      "en": "Well... I'm glad it worked out for you.",
+      "ru": "Что ж... Рад, что у тебя всё получилось.",
+      "speaker": "Wirt"
     }
   ],
   "choices": [],
-  "objectives": []
+  "objectives": [
+    {
+      "id": "hub-objective-644220a136fa",
+      "en": "Talk to Wirt in Troms at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Виртом в Тромсе [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-objective-fcb12ac7e930",
+      "en": "Find Ildan in Troms at [<num>, <num>, <num>] and ask to be a member of the town",
+      "ru": "Найти Илдана в Тромсе [<num>, <num>, <num>] и попросить разрешения стать жителем города."
+    },
+    {
+      "id": "hub-objective-26dabc848d0a",
+      "en": "Search for clues near [<num>, <num>, <num>] and bring back [<num> Antic Bead] to Ildan.",
+      "ru": "Поискать зацепки возле [<num>, <num>, <num>] и принести Илдану [<num> Antic Bead]."
+    }
+  ]
 }

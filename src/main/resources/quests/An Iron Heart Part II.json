@@ -59,7 +59,7 @@
     {
       "id": "dialogue-0008",
       "en": "Can you try to get some information from him? You can find his hut west from here. Next to that Elven girl's camp.",
-      "ru": "Можешь попробовать что-нибудь у него выведать? Его хижина к западу отсюда. Рядом с лагерем той эльфийки.",
+      "ru": "§#FFFFFFМожешь попробовать что-нибудь у него выведать? §#55FFFFЕго хижина к западу отсюда. Рядом с лагерем той эльфийки§r§#FFFFFF.",
       "speaker": "Detective Hart",
       "stage": "Stage 1"
     },
@@ -220,7 +220,7 @@
     {
       "id": "dialogue-0031",
       "en": "Go on, search through my house. See if you can find anything.",
-      "ru": "Давай, обыщи мой дом. Посмотрим, найдёшь ли ты хоть что-то.",
+      "ru": "§#FFFFFFДавай, §#55FFFFобыщи мой дом§r§#FFFFFF. Посмотрим, найдёшь ли ты хоть что-то.",
       "speaker": "Urelix",
       "stage": "Stage 4"
     },
@@ -304,7 +304,7 @@
     {
       "id": "dialogue-0043",
       "en": "I'll give you some time to consider my proposition. Take from my chest if you wish to take up my offer, otherwise get out of here and do not return.",
-      "ru": "Я дам тебе немного времени подумать над моим предложением. Возьми из сундука, если хочешь принять мою сделку, а если нет - убирайся отсюда и не возвращайся.",
+      "ru": "§#FFFFFFЯ дам тебе немного времени подумать над моим предложением. §#55FFFFВозьми из сундука, если хочешь принять мою сделку, а если нет - убирайся отсюда§r§#FFFFFF и не возвращайся.",
       "speaker": "Dr. Urelix",
       "stage": "Stage 7"
     },
@@ -325,6 +325,13 @@
     {
       "id": "dialogue-0046",
       "en": "Enjoy your armor and money, and please escort yourself to the exit.",
+      "ru": "Наслаждайся своей бронёй и деньгами. А теперь будь добр проследовать к выходу.",
+      "speaker": "Dr. Urelix",
+      "stage": "Stage 8"
+    },
+    {
+      "id": "claude-dialogue-78a1a5d07c25",
+      "en": "Enjoy your armour and money, and please escort yourself to the exit.",
       "ru": "Наслаждайся своей бронёй и деньгами. А теперь будь добр проследовать к выходу.",
       "speaker": "Dr. Urelix",
       "stage": "Stage 8"
@@ -412,6 +419,40 @@
       "ru": "Может, выложишь дорожку из изумрудов и заманишь жителя обратно на фабрику?",
       "speaker": "Leni",
       "stage": "Stage 8"
+    },
+    {
+      "id": "player-style-533ab02dab84",
+      "en": "BZZT. [ERROR] ...? Mad elei ne...?",
+      "ru": "§#FFFFFFБЗЗТ. §#FFFFFF[ОШИБКА]§r§#FFFFFF ...? Мадлен...?",
+      "speaker": "Guard Golem",
+      "stage": ""
+    },
+    {
+      "id": "player-86e24ba07127938f",
+      "en": "Duvale mentioned rumors about an illegal factory in the swamp... If Daxe's criminal past had to do with this, maybe the [Mechanical Reactor] will cause him to react. Duvale mentioned he had spares, should they be needed.",
+      "ru": "§#AAAAAAДюваль упоминал слухи о незаконной фабрике в болоте... Если преступное прошлое Дакса связано с ней, возможно, §#FF55FF[Mechanical Reactor]§r§#AAAAAA заставит его заговорить. §#55FFFFДюваль говорил, что у него есть запасные§r§#AAAAAA, если понадобятся.",
+      "speaker": "Daxe",
+      "stage": ""
+    },
+    {
+      "id": "player-31a1c4c855df6bbd",
+      "en": "So go on. I don't have anything to tell you.",
+      "ru": "Ну, иди. Мне нечего тебе сказать.",
+      "speaker": "Daxe",
+      "stage": ""
+    },
+    {
+      "id": "player-c823b1bdbd0d6fc2",
+      "en": "Innovation is the key to great wealth. I'm no criminal, just an innovator.",
+      "ru": "Новаторство открывает путь к большому богатству. Я не преступник, просто новатор.",
+      "speaker": "Dr. Urelix",
+      "stage": ""
+    },
+    {
+      "id": "hub-dialogue-da3162f57d70",
+      "en": "...I hope you always do the right thing.",
+      "ru": "...Надеюсь, ты всегда будешь поступать правильно.",
+      "speaker": "Detective Hart"
     }
   ],
   "objectives": [
@@ -462,6 +503,17 @@
       "en": "Either take the bribe or return to Detective Hart",
       "ru": "Принять взятку или вернуться к детективу Харту.",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-objective-b526f7665300",
+      "en": "Find a way to deactivate the Guard Golem.",
+      "ru": "Найти способ отключить голема-стража.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "hub-objective-735856f8e2a5",
+      "en": "Find the way into the factory in Urelix's house.",
+      "ru": "Найти вход на фабрику в доме Уреликса."
     }
   ],
   "choices": []

@@ -50,6 +50,13 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-06a1a7bfb0c5",
+      "en": "He is located directly at the bottom of this cave, go speak to him, go on now! Off you go!",
+      "ru": "Он находится прямо внизу пещеры, иди к нему. Давай-давай, шевелись!",
+      "speaker": "Excavator Lykron",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0007",
       "en": "We know what you stole from us in the desert! Take THIS! You won't be escaping this dead end any time soon!",
       "ru": "Мы знаем, что ты украл у нас в пустыне! Вот тебе! Из этого тупика ты ещё нескоро выберешься!",
@@ -115,7 +122,7 @@
     {
       "id": "dialogue-0016",
       "en": "The scriptures also say something about hidden within the rocks... But we removed them all!",
-      "ru": "В письменах ещё сказано что-то про \"скрытое в камнях\"... Но мы же все камни убрали!",
+      "ru": "§#FFFFFFВ письменах ещё сказано §#55FFFFчто-то про \"скрытое в камнях\"§r§#FFFFFF... Но мы же все камни убрали!",
       "speaker": "WynnExcavation Archaeologist",
       "stage": "Stage 4"
     },
@@ -188,6 +195,13 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55ВиннРаскопки, участок B",
       "speaker": "",
       "stage": "Stage 5"
+    },
+    {
+      "id": "player-10ccfb38f2038255",
+      "en": "And don't come back!",
+      "ru": "И не возвращайся!",
+      "speaker": "Excavator Lykron",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -220,6 +234,11 @@
       "en": "Talk to Excavator Lykron",
       "ru": "Поговорить с землекопом Ликроном.",
       "stage": "Stage 5"
+    },
+    {
+      "id": "hub-objective-9d8572e2a067",
+      "en": "Bring the Yellow Crystal Shard to Excavator Lykron at [<num>, <num>, <num>]",
+      "ru": "Принести Yellow Crystal Shard землекопу Ликрону [<num>, <num>, <num>]."
     }
   ],
   "choices": []

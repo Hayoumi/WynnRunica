@@ -29,6 +29,13 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-eff079ad8952",
+      "en": "Do you...not have any manners at all?! Just running into my parents' house like that! Jeez!",
+      "ru": "У тебя... манер вообще нет?! Просто так врываться в дом моих родителей! Ну капец!",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0004",
       "en": "I oughta... Hm. Well... maybe...",
       "ru": "Я бы тебя... Хм. Хотя... может...",
@@ -43,8 +50,22 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-bdc016714d07",
+      "en": "Oh, I know! Here, go into my room real fast, and grab the letter in there.",
+      "ru": "О, придумал! Быстро сходи в мою комнату и забери там письмо.",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0006",
       "en": "Bring it back to me when you do, I wanna make sure it's the right one.",
+      "ru": "Принеси его мне, когда найдёшь. Хочу убедиться, что это то самое.",
+      "speaker": "Seasum",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "claude-dialogue-8afa515a9af9",
+      "en": "Bring it to me when you do, I wanna make sure it's the right one.",
       "ru": "Принеси его мне, когда найдёшь. Хочу убедиться, что это то самое.",
       "speaker": "Seasum",
       "stage": "Stage 1"
@@ -59,6 +80,13 @@
     {
       "id": "dialogue-0008",
       "en": "My parents were super exited when that letter flew into my room, but magical school sounds so boring...",
+      "ru": "Мои родители жутко обрадовались, когда это письмо залетело ко мне в комнату, но учиться в школе магии - наверное, такая скукотища...",
+      "speaker": "Seasum",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "claude-dialogue-6430b6433a24",
+      "en": "My parents were super excited when that letter flew into my room, but magical school sounds so boring...",
       "ru": "Мои родители жутко обрадовались, когда это письмо залетело ко мне в комнату, но учиться в школе магии - наверное, такая скукотища...",
       "speaker": "Seasum",
       "stage": "Stage 2"
@@ -178,7 +206,7 @@
     {
       "id": "dialogue-0025",
       "en": "You can find everything here around the docks. Choosing your materials is very important, so buy the ones that speak to you!",
-      "ru": "Всё найдёте здесь, у причалов. Выбор материалов очень важен, так что берите те, к которым душа лежит!",
+      "ru": "§#FFFFFFВсё найдёте здесь, у причалов. Выбор материалов §#FFFFFF§lочень важен§r§#FFFFFF, так что берите те, к которым душа лежит!",
       "speaker": "Cidre",
       "stage": "Stage 6"
     },
@@ -1422,6 +1450,13 @@
       "stage": "Stage 15"
     },
     {
+      "id": "claude-dialogue-32db8ee75332",
+      "en": "There is a reason I've called you up first, you know. Recall what I said about old hats earlier? Don't think we didn't notice the armour, or the weapon, or the grim countenance.",
+      "ru": "Есть причина, почему я позвал тебя первым. Помнишь, что я говорил про бывалых? Не думай, что мы не заметили броню, оружие и этот мрачный вид.",
+      "speaker": "Headmaster",
+      "stage": "Stage 15"
+    },
+    {
       "id": "dialogue-0203",
       "en": "But no need to worry. Those who truly have the drive to become learned in the ways of magic, no matter who they are, will always find their way here, and be accepted.",
       "ru": "Но волноваться не нужно. Каждый, кто по-настоящему стремится овладеть магией, найдёт сюда дорогу. И мы примем его, кем бы он ни был.",
@@ -1469,6 +1504,26 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Орден Грука",
       "speaker": "",
       "stage": "Stage 8"
+    },
+    {
+      "id": "player-5497088db89f0a86",
+      "en": "Students, please gather your school material and start your day! One wand and one tome.",
+      "ru": "Ученики, соберите учебные принадлежности и приступайте к занятиям! Одна палочка и один том.",
+      "speaker": "Cidre",
+      "stage": ""
+    },
+    {
+      "id": "player-428c6c5e95805a9e",
+      "en": "Make sure to bring your School Supplies with you before entering!",
+      "ru": "§#AAAAAAНе забудьте взять §#55FFFFУчебные Принадлежности§r§#AAAAAA, прежде чем входить!",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-dialogue-56de7d8ed065",
+      "en": "They found you out! Which means my mommy will know I skipped school...",
+      "ru": "Тебя раскрыли! Значит, мама узнает, что я прогулял школу...",
+      "speaker": "Seasum"
     }
   ],
   "objectives": [
@@ -1543,6 +1598,31 @@
       "en": "Go to the ceremony room for the Headmaster's closing speech.",
       "ru": "Отправиться в зал церемоний и выслушать заключительную речь директора.",
       "stage": "Stage 15"
+    },
+    {
+      "id": "hub-objective-e1cf9256cac5",
+      "en": "Talk to Seasum on Mage Island at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Сисумом на Острове магов [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-objective-c42b4ac285e2",
+      "en": "Return to Seasum with the letter.",
+      "ru": "Вернуться к Сисуму с письмом."
+    },
+    {
+      "id": "hub-objective-6c9e73e5817f",
+      "en": "Find the magical school boat at [<num>, <num>, <num>]",
+      "ru": "Найти школьный корабль [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-objective-9a7d9066f3c9",
+      "en": "Buy a wand and a magical book from the nearby shops and enter Grookwarts.",
+      "ru": "Купить палочку и волшебную книгу в ближайших лавках и войти в Груквартс."
+    },
+    {
+      "id": "hub-objective-210d019376ff",
+      "en": "Choose your schedule and attend your classes.",
+      "ru": "Выбрать расписание и посетить занятия."
     }
   ],
   "choices": []

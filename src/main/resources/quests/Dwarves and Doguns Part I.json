@@ -24,7 +24,7 @@
     {
       "id": "dialogue-0003",
       "en": "The entry cost is [1 Emerald Block]",
-      "ru": "Вход стоит [1 изумрудный блок]",
+      "ru": "§#FFFFFFВход стоит §#00AAAA[1 изумрудный блок]§r§#FFFFFF",
       "speaker": "Lozeg",
       "stage": "Stage 1"
     },
@@ -1074,9 +1074,16 @@
     {
       "id": "dialogue-0153",
       "en": "If you want a ticket you'll have to pay me [1 Emerald Block].",
-      "ru": "Если хочешь билет, придётся заплатить мне [1 Изумрудный блок].",
+      "ru": "§#FFFFFFЕсли хочешь билет, придётся заплатить мне §#00AAAA[1 Изумрудный блок]§r§#FFFFFF.",
       "speaker": "Lozeg",
       "stage": "Stage 6"
+    },
+    {
+      "id": "player-09041f3e615c34d7",
+      "en": "Questline Started: Dwarves and Doguns",
+      "ru": "§#FFFF55§#FFAA00§lНачата Цепочка Квестов:§r§#FFFF55 §#FFFF55§lDwarves and Doguns§r§#FFFF55",
+      "speaker": "Lozeg",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -1169,6 +1176,16 @@
       "en": "Talk to Plario.",
       "ru": "Поговорить с Пларио.",
       "stage": "Stage 15"
+    },
+    {
+      "id": "hub-objective-0060ecb0d0da",
+      "en": "Find out what's happening at the theatre at [<num>, <num>, <num>]",
+      "ru": "Выяснить, что происходит в театре [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-objective-4414bbe528d5",
+      "en": "Make your way to the Dogun festival at [<num>, <num>, <num>] by following the red banners outside Rodoroc.",
+      "ru": "Добраться до праздника догунов [<num>, <num>, <num>], ориентируясь на красные знамёна за пределами Родорока."
     }
   ],
   "choices": []

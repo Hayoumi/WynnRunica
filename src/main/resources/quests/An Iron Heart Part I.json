@@ -45,7 +45,7 @@
     {
       "id": "dialogue-0006",
       "en": "It's shed a trail of scrap, as you can see. Please, follow the trail of scrap and keep it from causing anyone more damage!",
-      "ru": "Он растерял по дороге кучу металлических обломков, сам видишь. Прошу, иди по этому следу и не дай ему ещё кому-нибудь навредить!",
+      "ru": "§#FFFFFFОн растерял по дороге кучу металлических обломков, сам видишь. Прошу, §#55FFFFиди по этому следу§r§#FFFFFF и не дай ему ещё кому-нибудь навредить!",
       "speaker": "Duvale",
       "stage": "Stage 1"
     },
@@ -94,7 +94,7 @@
     {
       "id": "dialogue-0013",
       "en": "Falling...apart...this isn't who I I I was... My... My... My my my my my name is. Was. Is. Was. Is. IS...! [ERROR] ... Ma [ERRO ine... M a deleine!! I'm Madeleine... I... I-I-IIIIIIIIII-",
-      "ru": "Рассыпаюсь... на части... это не я... я-я-я была... Моё... моё... моё моё моё моё моё имя - это. Было. Есть. Было. Есть. ЕСТЬ...! [ОШИБКА]... Мад... [ОШИБКадлен... М-а-д-л-е-н!! Я Мадлен... Я... Я-я-я-ЯЯЯЯЯЯЯЯ-",
+      "ru": "§#FFFFFFРассыпаюсь... на части... это не я... я-я-я была... Моё... моё... моё моё моё моё моё имя - это. Было. Есть. Было. Есть. ЕСТЬ...! §#FFFFFF[ОШИБКА]§r§#FFFFFF... Мад... §#FFFFFF[ОШИБКадлен§r§#FFFFFF... М-а-д-л-е-н!! Я Мадлен... Я... Я-я-я-ЯЯЯЯЯЯЯЯ-",
       "speaker": "Guard Golem",
       "stage": "Stage 4"
     },
@@ -181,6 +181,12 @@
       "ru": "Они... м о я дочь... ЗАТКНИСЬ! ТИХО! Кто мне приказывает- НИКАКИХ ПРИКАЗОВ! Холодно! ХОЛОДНО!",
       "speaker": "Guard Golem?",
       "stage": "Stage 4"
+    },
+    {
+      "id": "hub-dialogue-dcd43d3a3e19",
+      "en": "You needed another reactor? Well, I've some spares, so here.",
+      "ru": "Нужен ещё один реактор? У меня есть запасные, так что держи.",
+      "speaker": "Duvale"
     }
   ],
   "objectives": [
@@ -206,6 +212,18 @@
       "id": "objective-0004",
       "en": "Subdue the defective Guard Golem and return to Duvale at [-1613, 51, -4964]",
       "ru": "Усмирить неисправного голема-стража и вернуться к Дувале [-1613, 51, -4964].",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "hub-objective-fa00f2a4f031",
+      "en": "Find the defective Guard Golem.",
+      "ru": "Найти неисправного голема-стража.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "hub-objective-407aa8e99907",
+      "en": "Subdue the defective Guard Golem and return to Duvale at [<num>, <num>, <num>].",
+      "ru": "Усмирить неисправного голема-стража и вернуться к Дувале [<num>, <num>, <num>].",
       "stage": "Stage 4"
     }
   ],

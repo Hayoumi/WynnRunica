@@ -43,6 +43,13 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-c5ca852948bc",
+      "en": "Break into *cough* the emerald storage, but don't take anything... come back to me immediately after, if you make it out alive, heheh...",
+      "ru": "Вломись *кхе* в хранилище изумрудов, только ничего не бери... и сразу возвращайся ко мне, если вообще выберешься оттуда живым, хехех...",
+      "speaker": "Worid",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0006",
       "en": "Oh, uh... I mean *cough* *cough*",
       "ru": "Ой, э... я хотел сказать *кхе* *кхе*",
@@ -73,6 +80,13 @@
     {
       "id": "dialogue-0010",
       "en": "We'll have to change our strategy, we won't ask for permission. It's to help me after all.",
+      "ru": "Придётся сменить тактику, разрешения мы спрашивать не будем. Всё-таки это ради моего спасения.",
+      "speaker": "Worid",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "claude-dialogue-3e9a037a1bc1",
+      "en": "We'll have to change our strategy, we don't ask for permission. It's to help me after all.",
       "ru": "Придётся сменить тактику, разрешения мы спрашивать не будем. Всё-таки это ради моего спасения.",
       "speaker": "Worid",
       "stage": "Stage 3"
@@ -115,7 +129,7 @@
     {
       "id": "dialogue-0016",
       "en": "You see, Almuj has a very well guarded emerald vault named \"The Emerald Labyrinth\".",
-      "ru": "Видишь ли, в Алмудже есть очень хорошо охраняемое хранилище изумрудов под названием \"Изумрудный лабиринт\".",
+      "ru": "§#FFFFFFВидишь ли, §#55FFFFв Алмудже есть очень хорошо охраняемое хранилище изумрудов§r§#FFFFFF под названием \"Изумрудный лабиринт\".",
       "speaker": "Worid",
       "stage": "Stage 4"
     },
@@ -195,6 +209,13 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Тропическая лихорадка",
       "speaker": "",
       "stage": "Stage 6"
+    },
+    {
+      "id": "player-0ef9c08dc27d96ef",
+      "en": "You've proven your ability of stealth and strength by breaking into this storage, we can start the real thing now.",
+      "ru": "Ты доказал свою ловкость и силу, пробравшись в это хранилище. Теперь можем перейти к настоящему делу.",
+      "speaker": "Worid",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -233,6 +254,16 @@
       "en": "Talk to Worid at [956, 75, -1960].",
       "ru": "Поговорить с Воридом [956, 75, -1960].",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-objective-42660df94773",
+      "en": "Speak to Worid inside Detlas' Emerald Stash",
+      "ru": "Поговорить с Воридом в изумрудном хранилище Детласа."
+    },
+    {
+      "id": "hub-objective-3e97949163a3",
+      "en": "Talk back to Worid at [<num>, <num>, <num>]",
+      "ru": "Снова поговорить с Воридом [<num>, <num>, <num>]."
     }
   ],
   "choices": []

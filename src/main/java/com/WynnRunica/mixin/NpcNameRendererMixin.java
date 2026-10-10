@@ -52,7 +52,7 @@ public abstract class NpcNameRendererMixin implements TranslationManager.NpcRefr
                 NpcNameplateCapture.record(text);
             }
         }
-        if (!Config.isEnabled(wr$aboveCreature() ? "Имена NPC" : "Надписи в мире")) return;
+        if (!Config.isEnabled(NameplateStyler.isMob(text) || wr$aboveCreature() ? "Имена NPC" : "Надписи в мире")) return;
         if (text != wr$translationSource) {
             wr$translationSource = text;
             wr$translationResult = translateText(text);

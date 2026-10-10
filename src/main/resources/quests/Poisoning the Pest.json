@@ -248,7 +248,7 @@
     {
       "id": "dialogue-0035",
       "en": "Anyhow, take this well-deserved reward for the, well, actions you took today. Perhaps, if you keep it up, you could even become a hero like Ragnar one day.",
-      "ru": "Как бы то ни было, прими эту заслуженную награду за... скажем так, сегодняшние подвиги. Если продолжишь в том же духе, однажды и сам сможешь стать героем, как Рагнар.",
+      "ru": "§#FFFFFFКак бы то ни было, прими эту заслуженную награду за... скажем так, сегодняшние §#00EB34подвиги§r§#FFFFFF. Если продолжишь в том же духе, однажды и сам сможешь стать героем, как Рагнар.",
       "speaker": "Farmer Cevalus",
       "stage": "Stage 6"
     },
@@ -394,6 +394,16 @@
       "en": "Return to Farmer Cevalus at [-751, 70, -1666]",
       "ru": "Вернуться к фермеру Севалусу [-751, 70, -1666].",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-event-objective-a0a1b96c60ec",
+      "en": "Pick up the shovel at [<num>, <num>, <num>]",
+      "ru": "Подобрать лопату [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-event-objective-70d697e47957",
+      "en": "Dig up the grave at [<num>, <num>, <num>]",
+      "ru": "Раскопать могилу [<num>, <num>, <num>]."
     }
   ],
   "choices": [

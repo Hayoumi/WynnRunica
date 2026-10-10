@@ -168,6 +168,14 @@ public class TranslationManager {
             return exact;
         }
 
+        List<String> numbers = new ArrayList<>();
+        Matcher number = NUMBER.matcher(text);
+        while (number.find()) numbers.add(number.group());
+        if (!numbers.isEmpty()) {
+            String template = translations.get(lookupKey(NUMBER.matcher(text).replaceAll("<num>")));
+            if (template != null) return fillTemplate(template, numbers);
+        }
+
         if (currentQuest == null) return text;
         if (key.equals(fuzzyText) && currentQuest.equals(fuzzyQuest)) return fuzzyResult;
         List<String> questKeys = questToKeys.get(currentQuest);
@@ -193,6 +201,7 @@ public class TranslationManager {
                 result = translations.get(bestKey);
             }
         }
+        result = fillTemplate(result, numbers);
         fuzzyText = key;
         fuzzyQuest = currentQuest;
         fuzzyResult = result;
@@ -215,7 +224,6 @@ public class TranslationManager {
 
         String exact = lines.get(lookupKey(text));
         if (exact != null) return exact;
-        if (!kind.equals("objective")) return null;
 
         List<String> numbers = new ArrayList<>();
         Matcher number = NUMBER.matcher(text);

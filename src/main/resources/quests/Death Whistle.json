@@ -70,7 +70,7 @@
     {
       "id": "dialogue-0010",
       "en": "Uhm... Excuse me? What do you want, elf girl? We're in the middle of a deal here?",
-      "ru": "Эм... Прошу прощения? Тебе чего, эльфийка? Мы тут вообще-то о сделке договариваемся!",
+      "ru": "§#FFFFFFЭм... Прошу прощения? §#FFFFFF§lТебе§r§#FFFFFF чего, эльфийка? Мы тут вообще-то о сделке договариваемся!",
       "speaker": "Voer",
       "stage": "Stage 1"
     },
@@ -145,8 +145,22 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-5c9e6062d5e9",
+      "en": "Oh, thank goodness! You got there in time. She's a regular of mine- and a bit of a looker, too. That Lari was right, to some extent, at least...",
+      "ru": "Ох, слава богу! Ты успел вовремя. Она у меня постоянная клиентка - и, между прочим, очень даже ничего. Эта Лари была права... ну, хотя бы частично.",
+      "speaker": "Voer",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0021",
       "en": "I did take her book, and I should be more careful in the future, regarding this... but I can't just quit selling the herbs.",
+      "ru": "Да, я и правда взял её книгу, и впредь мне стоит быть осторожнее с такими вещами... но бросить торговлю травами я не могу.",
+      "speaker": "Voer",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "claude-dialogue-e92aa0c93f87",
+      "en": "I did take her book, and I should be more careful in the future, regarding this...but I can't just quit selling these herbs.",
       "ru": "Да, я и правда взял её книгу, и впредь мне стоит быть осторожнее с такими вещами... но бросить торговлю травами я не могу.",
       "speaker": "Voer",
       "stage": "Stage 1"
@@ -166,8 +180,22 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-a9f550fb8d4d",
+      "en": "And how dare she just walk away like that! It's a good thing you were around, human, otherwise...well, I'd rather not think about it.",
+      "ru": "И вообще, как она посмела просто взять и уйти! Хорошо, что ты оказался рядом, человек, иначе... в общем, лучше об этом не думать.",
+      "speaker": "Voer",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0024",
       "en": "Regardless, you helped me greatly. Got me my supplies and saved the life of a regular of mine, so I've got a gift for you!",
+      "ru": "Как бы то ни было, ты мне очень помог. Добыл припасы и спас мою постоянную клиентку. За это у меня есть подарок!",
+      "speaker": "Voer",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "claude-dialogue-c9695d0d3945",
+      "en": "Regardless, you've helped me greatly. Got me my supplies and saved the life of a regular of mine, so I've got a gift for you!",
       "ru": "Как бы то ни было, ты мне очень помог. Добыл припасы и спас мою постоянную клиентку. За это у меня есть подарок!",
       "speaker": "Voer",
       "stage": "Stage 1"
@@ -180,13 +208,43 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-0db463630f6a",
+      "en": "I'll offer you a sampler of my stock. Everything in here is pre-primed to be safe for brewing, so there won't be any mishaps like today!",
+      "ru": "Дам тебе немного разных трав из моих запасов. Всё уже обработано и годится для зелий. Ничего подобного сегодняшнему больше не случится!",
+      "speaker": "Voer",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0026",
       "en": "New Quest Started: Death Whistle",
       "ru": "§#FFAA00Новый квест: §#FFFF55Свисток смерти",
       "speaker": "",
       "stage": "Stage 1"
+    },
+    {
+      "id": "hub-dialogue-a5255419bb4a",
+      "en": "I've got to sharpen up these old eyes of mine. Can't make a mistake like that again.",
+      "ru": "Надо смотреть внимательнее, хоть глаза уже и старые. Нельзя снова так ошибиться.",
+      "speaker": "Voer"
+    },
+    {
+      "id": "hub-dialogue-caa601e3db53",
+      "en": "Still, that Lari girl... I have to wonder what her problem is.",
+      "ru": "Но эта девушка, Лари... Всё гадаю, что с ней не так.",
+      "speaker": "Voer"
     }
   ],
   "choices": [],
-  "objectives": []
+  "objectives": [
+    {
+      "id": "hub-objective-339733d0c552",
+      "en": "Follow the path of residue to the buyer's cave",
+      "ru": "Проследовать по следам сока к пещере покупательницы."
+    },
+    {
+      "id": "hub-objective-db82833e434f",
+      "en": "Remove the flower from the woman in the cave",
+      "ru": "Снять цветок с женщины в пещере."
+    }
+  ]
 }

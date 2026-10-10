@@ -107,7 +107,8 @@ public final class TranslationLoader {
 
         HashMap<String, String> sameKind = mapFor(TranslationManager.questTranslationsByKind, quest, kind);
         sameKind.put(key, ru);
-        if (objective) sameKind.putIfAbsent(withNumbers, ru);
+        boolean template = objective || en.contains("<num>");
+        if (template) sameKind.putIfAbsent(withNumbers, ru);
 
         if (kind.equals("dialogue")) {
             mapFor(TranslationManager.questTranslations, quest).put(key, ru);
@@ -118,6 +119,7 @@ public final class TranslationLoader {
         }
 
         TranslationManager.translations.putIfAbsent(key, ru);
+        if (en.contains("<num>")) TranslationManager.translations.putIfAbsent(withNumbers, ru);
         String firstQuest = TranslationManager.keyToQuest.putIfAbsent(key, quest);
         if (firstQuest != null && !firstQuest.equals(quest)) TranslationManager.ambiguousKeys.add(key);
     }

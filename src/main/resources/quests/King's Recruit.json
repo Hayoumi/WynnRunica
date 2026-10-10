@@ -561,6 +561,20 @@
       "stage": "Stage 19"
     },
     {
+      "id": "claude-dialogue-a36409dc64ce",
+      "en": "Well, what are we waiting for?",
+      "ru": "Ну и чего мы ждём?",
+      "speaker": "Tasim",
+      "stage": "Stage 19"
+    },
+    {
+      "id": "claude-dialogue-245508182430",
+      "en": "I think you three are going to make fine soldiers, not many can handle themselves like you just did.",
+      "ru": "Думаю, из вас троих выйдут отличные солдаты - не каждый умеет так держаться в бою.",
+      "speaker": "Lieutenant",
+      "stage": "Stage 19"
+    },
+    {
       "id": "dialogue-0080",
       "en": "It seems that beast dropped something, you should check it out before heading to Ragni.",
       "ru": "Похоже, эта тварь §bчто-то уронила§r. Подбери это, прежде чем идти в Рагни.",
@@ -778,6 +792,13 @@
       "stage": "Epilogue"
     },
     {
+      "id": "claude-dialogue-6ec31963be02",
+      "en": "Ha, well, I think I'm going to head in the direction of Detlas soon, although there appears to be something called Nivla Woods on the way...",
+      "ru": "Ха, ну, я, наверное, скоро двину в сторону Детласа, хотя по пути вроде есть что-то под названием лес Нивла...",
+      "speaker": "King's Recruit (добавлено с вики)",
+      "stage": "Epilogue"
+    },
+    {
       "id": "dialogue-0110",
       "en": "Enough talking already! Let's get out there and help some people!",
       "ru": "Хватит уже болтать! Пошли наружу, поможем людям!",
@@ -958,6 +979,52 @@
       "ru": "Хотя сперва вам, пожалуй, стоит набраться опыта. Каждый день трагически обрывается множество жизней...",
       "speaker": "King of Ragni",
       "stage": ""
+    },
+    {
+      "id": "player-2ff6fd804e3ceb21",
+      "en": "You three are going to make fine soldiers. Now, go on to Ragni , the King is awaiting your arrival.",
+      "ru": "§#FFFFFFИз вас троих выйдут отличные солдаты. А теперь §#55FFFFотправляйтесь в Рагни§r§#FFFFFF, король ждёт вас.",
+      "speaker": "Lieutenant",
+      "stage": ""
+    },
+    {
+      "id": "claude-dialogue-a3b592afe752",
+      "speaker": "Aledar",
+      "en": "Nothing. It can't be a coincidence we've all lost our memories at the same time, right?",
+      "ru": "Ничего. Не может же быть совпадением, что мы все потеряли память одновременно, да?"
+    },
+    {
+      "id": "claude-dialogue-58466badf91a",
+      "speaker": "Guard",
+      "en": "So you found some armour, huh?",
+      "ru": "Значит, броню нашли, да?"
+    },
+    {
+      "id": "claude-dialogue-044fc0a88a8e",
+      "speaker": "Guard",
+      "en": "I see you have your helmet on. Fantastic, you may now pass. Let me open this for you.",
+      "ru": "Вижу, шлем на тебе. Отлично, теперь можешь проходить. Сейчас открою дверь."
+    },
+    {
+      "id": "fresh-source-6fad01de87a079a4",
+      "en": "Good luck in there, recruits! Even with your armour it won't be so easy!",
+      "ru": "§r§#FFFFFFУдачи вам там, рекруты! Даже в доспехах вам придётся нелегко!",
+      "speaker": "Guard",
+      "stage": ""
+    },
+    {
+      "id": "fresh-source-2897cdda0953661d",
+      "en": "Finally some backup! Wait a second... You're straight from Fruma aren't you?",
+      "ru": "§r§#FFFFFFНаконец-то подмога! Погоди-ка... Вы ведь прямиком из Фрумы?",
+      "speaker": "Lieutenant",
+      "stage": ""
+    },
+    {
+      "id": "fresh-source-ccb43899ff7bc9f6",
+      "en": "Oh well, this area should be clear by now. Ragni is just up ahead after all.",
+      "ru": "§r§#FFFFFFНу и ладно, здесь уже должно быть чисто. Да и до Рагни уже рукой подать.",
+      "speaker": "Lieutenant",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -1092,6 +1159,17 @@
       "en": "Talk to Ragni's King at [-939, 70, -1567].",
       "ru": "Поговорить с королём Рагни [-939, 70, -1567].",
       "stage": "Stage 22"
+    },
+    {
+      "id": "hub-objective-4f029ca6c8ff",
+      "en": "Exit the caravan and talk to the Caravan Driver at [<num>, <num>, <num>]",
+      "ru": "Выйти из повозки и поговорить с возницей [<num>, <num>, <num>].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "hub-objective-c4e784da75eb",
+      "en": "Cross the ravine to the other side at [<num>, <num>, <num>]",
+      "ru": "Перебраться через ущелье на другую сторону [<num>, <num>, <num>]."
     }
   ],
   "choices": []

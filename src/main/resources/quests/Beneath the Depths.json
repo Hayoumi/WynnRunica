@@ -66,7 +66,7 @@
     {
       "id": "dialogue-0009",
       "en": "Me old hideout's hidden inside that there skull at the entrance to our mighty fine establishment, Bring me that map, lad!",
-      "ru": "Мой старый тайник спрятан внутри того черепа у входа в наше славное заведение. Принеси мне ту карту, парень!",
+      "ru": "§#FFFFFFМой старый тайник спрятан §#55FFFFвнутри того черепа у входа§r§#FFFFFF в наше славное заведение. Принеси мне ту карту, парень!",
       "speaker": "Javier",
       "stage": "Stage 1"
     },
@@ -206,7 +206,7 @@
     {
       "id": "dialogue-0029",
       "en": "Give me [5 Emerald Blocks], that should cover the cost.",
-      "ru": "Дай мне [5 изумрудных блоков], этого хватит на оплату.",
+      "ru": "§#55FFFF§#55FFFFДай мне§r§#55FFFF §#00AAAA[5 изумрудных блоков]§r§#55FFFF, §#55FFFFэтого хватит на оплату§r§#55FFFF.",
       "speaker": "Dalben",
       "stage": "Stage 3"
     },
@@ -221,6 +221,13 @@
       "id": "dialogue-0031",
       "en": "We only hope that the treasure will never fall into the hands of that pirate again, we'd much rather they fall into yours.",
       "ru": "Мы лишь надеемся, что сокровище больше никогда не попадёт в руки того пирата. Уж лучше пусть оно достанется тебе.",
+      "speaker": "Dalben",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "claude-dialogue-182684f487c0",
+      "en": "We only hope that the boots will never fall into the hands of that pirate again, we'd much rather they fall into yours.",
+      "ru": "Мы лишь надеемся, что сапоги больше никогда не попадут в руки того пирата. Уж лучше пусть они достанутся тебе.",
       "speaker": "Dalben",
       "stage": "Stage 4"
     },
@@ -265,6 +272,13 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Ниже глубин",
       "speaker": "",
       "stage": "Stage 6"
+    },
+    {
+      "id": "player-4821c3a6476dbc79",
+      "en": "I'm sorry, that's not enough money. Magic doesn't come cheap! Come back when you have [5 Emerald Blocks] and we will aid you. Make sure to bring the [1 Faded Map] too.",
+      "ru": "§#FFFFFFИзвини, денег недостаточно. Магия недёшево обходится! Возвращайся с §#00AAAA[5 Emerald Blocks]§r§#FFFFFF, и мы поможем. И не забудь принести §#00AAAA[1 Faded Map]§r§#FFFFFF.",
+      "speaker": "Dalben",
+      "stage": ""
     }
   ],
   "objectives": [

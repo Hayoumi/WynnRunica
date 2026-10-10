@@ -42,14 +42,14 @@
     {
       "id": "dialogue-0006",
       "en": "B-But, if, perchance, you were to, um...happen to find my supplier, Phief, who hasn't come around in weeks the bas-",
-      "ru": "Н-Но, если вы вдруг, совершенно случайно, эм... встретите моего поставщика Фифа, который уже несколько недель не появляется, этот негод-",
+      "ru": "§#FFFFFFН-Но, если вы вдруг, совершенно случайно, эм... встретите моего поставщика §#55FFFFФифа§r§#FFFFFF, который уже несколько недель не появляется, этот негод-",
       "speaker": "Zhight",
       "stage": "Stage 1"
     },
     {
       "id": "dialogue-0007",
       "en": "I! I mean! Nothing, nothing! Just, ehm, our extra reliable supplier often stops by Mage Island for supplies...",
-      "ru": "Я! Я хотел сказать! Ничего, ничего! Просто, эм, наш исключительно надёжный поставщик часто бывает на Острове магов за припасами...",
+      "ru": "§#FFFFFFЯ! Я хотел сказать! Ничего, ничего! Просто, эм, наш исключительно надёжный поставщик часто §#55FFFFбывает на Острове магов за припасами§r§#FFFFFF...",
       "speaker": "Zhight",
       "stage": "Stage 1"
     },
@@ -175,14 +175,14 @@
     {
       "id": "dialogue-0025",
       "en": "My father took a paddleboat back to Maro Peaks to gather supplies. He took the cargo the ship had with him.",
-      "ru": "Мой отец на лодке с вёслами вернулся на Пики Маро за припасами. И весь груз с корабля тоже забрал с собой.",
+      "ru": "§#FFFFFFМой отец на лодке с вёслами вернулся §#55FFFFна Пики Маро§r§#FFFFFF за припасами. И весь груз с корабля тоже забрал с собой.",
       "speaker": "Tirt",
       "stage": "Stage 1"
     },
     {
       "id": "dialogue-0026",
       "en": "If you need that, you should go talk to him. His name is Czytash.",
-      "ru": "Если тебе нужен именно груз, поговори с ним. Его зовут Читаш.",
+      "ru": "§#FFFFFFЕсли тебе нужен именно груз, поговори с ним. §#55FFFFЕго зовут Читаш§r§#FFFFFF.",
       "speaker": "Tirt",
       "stage": "Stage 1"
     },
@@ -325,8 +325,41 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Остров Зайт",
       "speaker": "",
       "stage": "Stage 1"
+    },
+    {
+      "id": "player-5ef2c5f7a75f2c0b",
+      "en": "Maybe you can help me with that. The ship should still be stuck, due north of here, it has a red and white sail. I'd love to get my sea legs back.",
+      "ru": "§#FFFFFFМожет, ты мне поможешь. Корабль всё ещё должен быть на мели §#55FFFFпрямо к северу отсюда, у него красно-белый парус§r§#FFFFFF. Я бы с радостью снова вышел в море.",
+      "speaker": "Phief",
+      "stage": ""
     }
   ],
   "choices": [],
-  "objectives": []
+  "objectives": [
+    {
+      "id": "hub-objective-dd98bf237132",
+      "en": "Talk to Zhight of Zhight Island at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Зайтом на острове Зайт [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-objective-f89d9f4afbc9",
+      "en": "Look for Phief at Mage Island",
+      "ru": "Найти Фифа на Острове магов."
+    },
+    {
+      "id": "hub-objective-deea2eb66054",
+      "en": "Find Phief's ship at [<num>, <num>, <num>], and return it to its rightful owner",
+      "ru": "Найти корабль Фифа [<num>, <num>, <num>] и вернуть его законному владельцу."
+    },
+    {
+      "id": "hub-objective-30ecb7b14117",
+      "en": "Get Zhight's supplies from Czytash at Maro Peaks around [<num>, <num>, <num>]",
+      "ru": "Забрать припасы Зайта у Читаша на вершинах Маро [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-objective-caa4a0794dd2",
+      "en": "Give Zhight his supplies",
+      "ru": "Передать Зайту его припасы."
+    }
+  ]
 }

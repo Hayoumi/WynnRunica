@@ -59,7 +59,7 @@
     {
       "id": "dialogue-0008",
       "en": "I hope this clears everything up between us and we can both move our separate ways, now if you'll excuse me, I have a meeting to attend.",
-      "ru": "Надеюсь, теперь между нами всё прояснилось, и каждый сможет дальше идти своей дорогой. А теперь, если позволишь, у меня встреча.",
+      "ru": "§#FFFFFFНадеюсь, теперь между нами всё прояснилось, и каждый сможет дальше идти своей дорогой. А теперь, если позволишь, §#55FFFFу меня встреча§r§#FFFFFF.",
       "speaker": "Excavator Placardus",
       "stage": "Stage 1"
     },
@@ -183,6 +183,13 @@
       "stage": "Stage 6"
     },
     {
+      "id": "claude-dialogue-6b9bcc8c1a8a",
+      "en": "They've been on to me for some time. I can't tell you everything here, but first, you must gather parts of the crystal, like you did with the others. If we wish to stop them, then it's an essential step.",
+      "ru": "Они давно на меня вышли. Я не могу рассказать тебе всё прямо здесь, но сначала ты должен забрать части кристалла, как уже делал раньше с остальными. Без этого их не остановить.",
+      "speaker": "Traitor Amadel",
+      "stage": "Stage 6"
+    },
+    {
       "id": "dialogue-0026",
       "en": "The crystal is in the cave just inside the volcano past the base. Hurry, they are all off duty at the moment, the cave to the heart of the volcano is clear. Act swiftly, and good luck.",
       "ru": "Кристалл находится в пещере внутри вулкана, сразу за базой. Поторопись, сейчас у них смена закончилась, путь в сердце вулкана свободен. Действуй быстро, и удачи.",
@@ -244,6 +251,34 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55ВиннРаскопки, участок C",
       "speaker": "",
       "stage": "Stage 9"
+    },
+    {
+      "id": "player-0c70e83399591992",
+      "en": "I hope all of our troubles have been settled. Now if you'll excuse me, I have a meeting to attend.",
+      "ru": "Надеюсь, все наши неприятности позади. А теперь, если позволишь, мне пора на встречу.",
+      "speaker": "Excavator Placardus",
+      "stage": ""
+    },
+    {
+      "id": "player-a90636e88ceebb66",
+      "en": "I can't let you through without a pass.",
+      "ru": "Без пропуска я тебя не пущу.",
+      "speaker": "Guard Klerodor",
+      "stage": ""
+    },
+    {
+      "id": "player-6921c9c80b524b3f",
+      "en": "Many different empires and societies in the province have held at least one of them since they were uncovered 2000 years ago deep within Wynn's southern border, though none have ever combined all four.",
+      "ru": "Разные империи и народы этой провинции владели хотя бы одним из них с тех пор, как их обнаружили 2000 лет назад у южной границы Винна. Но никто ещё не собирал все четыре вместе.",
+      "speaker": "Traitor Amadel",
+      "stage": ""
+    },
+    {
+      "id": "player-7021ad93f6974b73",
+      "en": "The ancient desert empire, the Twain brothers, and an unknown party that cast this volcano's crystal into the ocean are among those who have guarded even one of these Crystals over the years. Their value is nothing short of immeasurable.",
+      "ru": "Древняя империя пустыни, братья Твейн и неизвестные, бросившие кристалл этого вулкана в океан, все они в разные годы хранили хотя бы один из этих Кристаллов. Их ценность просто неизмерима.",
+      "speaker": "Traitor Amadel",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -300,6 +335,11 @@
       "en": "Report back to Excavator Placardus with a [Red Crystal Shard]",
       "ru": "Принести землекопу Плакардусу [Красный осколок кристалла].",
       "stage": "Stage 9"
+    },
+    {
+      "id": "hub-objective-8e1e4ab8608b",
+      "en": "Infiltrate the Excavation Meeting",
+      "ru": "Проникнуть на собрание землекопов."
     }
   ],
   "choices": []

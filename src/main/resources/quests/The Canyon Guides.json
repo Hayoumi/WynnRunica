@@ -164,7 +164,7 @@
     {
       "id": "dialogue-0023",
       "en": "H-Hobgoblins. Hobgoblins HOBGOBLINS THERE'S HOBGOBLINS!! KILL THEM! AAAAH! AAH! AAAAAAH!",
-      "ru": "Х-хобгоблины. Хобгоблины ХОБГОБЛИНЫ ТУТ ХОБГОБЛИНЫ!! УБЕЙ ИХ! АААА! АА! АААААА!",
+      "ru": "§#FFFFFFХ-хобгоблины. Хобгоблины ХОБГОБЛИНЫ ТУТ ХОБГОБЛИНЫ!! §#55FFFFУБЕЙ ИХ!§r§#FFFFFF АААА! АА! АААААА!",
       "speaker": "Seluc",
       "stage": "Stage 3"
     },
@@ -199,6 +199,13 @@
     {
       "id": "dialogue-0028",
       "en": "Ugh, my feet are killing me. Maybe this hike wouldn't be so bad if SOMEONE hadn't knocked me into the lake and made me lose my shoes!",
+      "ru": "Уф, ноги просто отваливаются. Может, идти было бы не так мучительно, если бы КТО-ТО не столкнул меня в озеро, где я потерял обувь!",
+      "speaker": "Seluc",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "claude-dialogue-3a911d198b69",
+      "en": "Ugh, my feet are killing me. Maybe this hike wouldn't be so bad if SOMEONE hadn't knocked me into a lake and made me lose my shoes!",
       "ru": "Уф, ноги просто отваливаются. Может, идти было бы не так мучительно, если бы КТО-ТО не столкнул меня в озеро, где я потерял обувь!",
       "speaker": "Seluc",
       "stage": "Stage 3"
@@ -260,6 +267,13 @@
       "stage": "Stage 4"
     },
     {
+      "id": "claude-dialogue-9fe9e8fd9997",
+      "en": "Huff...puff... Well...huff... Wait, there's...there's no way down the other side! Huff...what a waste!!",
+      "ru": "Уф... фух... Ну... уф... Постой, тут... тут нет спуска на другую сторону! Фух... зря мы лезли!!",
+      "speaker": "Seluc",
+      "stage": "Stage 4"
+    },
+    {
       "id": "dialogue-0037",
       "en": "Can you do ANYTHING right?! There's no way I'm jumping down there, you maniac!",
       "ru": "Ты вообще МОЖЕШЬ хоть что-то сделать нормально?! Я туда прыгать не собираюсь, псих!",
@@ -276,6 +290,13 @@
     {
       "id": "dialogue-0039",
       "en": "You...had better count yourself lucky I haven't broken any bones over this. Agh...but that doesn't mean I'm not aching all over!!",
+      "ru": "Считай... тебе повезло, что я ничего не сломал. Ах... но это не значит, что у меня не болит всё тело!!",
+      "speaker": "Seluc",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "claude-dialogue-c9187b02e2c0",
+      "en": "You...had better count yourself lucky I haven't broken any bones from this. Agh...but that doesn't mean I'm not aching all over!!",
       "ru": "Считай... тебе повезло, что я ничего не сломал. Ах... но это не значит, что у меня не болит всё тело!!",
       "speaker": "Seluc",
       "stage": "Stage 4"
@@ -311,14 +332,14 @@
     {
       "id": "dialogue-0044",
       "en": "So you're going back down to the bottom of the ridge, and you're going to get me my coat. It's the least you could do.",
-      "ru": "Так что спускайся к подножию гряды и принеси моё пальто. Это самое малое, что ты можешь сделать.",
+      "ru": "§#FFFFFFТак что спускайся к подножию гряды и §#55FFFFпринеси моё пальто§r§#FFFFFF. Это самое малое, что ты можешь сделать.",
       "speaker": "Seluc",
       "stage": "Stage 5"
     },
     {
       "id": "dialogue-0045",
       "en": "And be quick about it! I feel like these quakes are going to make the whole mountain collapse. That looks like it opened up a hole straight to the bottom!",
-      "ru": "И давай быстрее! У меня чувство, что эти толчки скоро обрушат всю гору. Вон там, похоже, вообще дыра прямо до самого низа открылась!",
+      "ru": "§#FFFFFFИ давай быстрее! У меня чувство, что эти толчки скоро обрушат всю гору. Вон там, похоже, вообще дыра §#55FFFFпрямо до самого низа§r§#FFFFFF открылась!",
       "speaker": "Seluc",
       "stage": "Stage 5"
     },
@@ -414,11 +435,39 @@
       "stage": "Stage 7"
     },
     {
+      "id": "claude-dialogue-6cdd77565db6",
+      "en": "As thanks, we will also grant you access to the Bantisu Air Boosters found around the canyon. I hope they are of assistance to you.",
+      "ru": "В благодарность мы также дадим тебе доступ к воздушным ускорителям Бантису, что стоят по всему каньону. Надеюсь, они помогут тебе в пути.",
+      "speaker": "Gana",
+      "stage": "Stage 7"
+    },
+    {
       "id": "dialogue-0059",
       "en": "New Quest Started: The Canyon Guides",
       "ru": "§#FFAA00Новый квест: §#FFFF55Проводники каньона",
       "speaker": "",
       "stage": "Stage 7"
+    },
+    {
+      "id": "player-8700b1b5789014ca",
+      "en": "Oh, be still my beating heart. YOU'RE back. You ran off someplace, so I came back up here, where there's a modicum of safety.",
+      "ru": "Ох, успокойся, сердце. ТЫ вернулся. Ты куда-то сбежал, вот я и вернулся сюда, где хоть немного безопаснее.",
+      "speaker": "Seluc",
+      "stage": ""
+    },
+    {
+      "id": "player-e28ea8c53406f5ec",
+      "en": "Maybe you think anything's possible for you since you're a soldier, but I'm just a guy from Olux! I hardly know anything about the canyon outside of what the brochures say!",
+      "ru": "Может, ты и думаешь, что тебе всё по плечу, раз ты солдат, но я всего лишь парень из Олукса! Я почти ничего не знаю о каньоне, кроме того, что пишут в брошюрах!",
+      "speaker": "Seluc",
+      "stage": ""
+    },
+    {
+      "id": "player-fb50a4ee06e25f38",
+      "en": "Should you tell Gana the truth?",
+      "ru": "Стоит ли рассказать Гане правду?",
+      "speaker": "Gana",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -463,6 +512,29 @@
       "en": "Talk to Gana and Seluc.",
       "ru": "Поговорить с Ганой и Селуком.",
       "stage": "Stage 7"
+    },
+    {
+      "id": "hub-objective-1aa1780f7721",
+      "en": "Escort Seluc back to Gana",
+      "ru": "Проводить Селука обратно к Гане.",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "hub-objective-53569085105e",
+      "en": "Find a way to get Seluc past the blockage",
+      "ru": "Найти способ провести Селука мимо преграды.",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "hub-objective-c811591fde49",
+      "en": "Retrieve the coat Seluc left behind at [<num>, <num>, <num>]",
+      "ru": "Забрать пальто, оставленное Селуком [<num>, <num>, <num>].",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "hub-objective-1863bb265111",
+      "en": "Return to Seluc at [<num>, <num>, <num>]",
+      "ru": "Вернуться к Селуку [<num>, <num>, <num>]."
     }
   ],
   "choices": []

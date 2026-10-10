@@ -142,8 +142,16 @@ public final class ServerNotificationTranslator {
         if (client == null) return false;
         var server = client.getCurrentServerEntry();
         if (server == null) return false;
-        String host = server.address.toLowerCase(Locale.ROOT).split(":", 2)[0];
-        return host.equals("wynncraft.com") || host.endsWith(".wynncraft.com");
+        return isWynncraftHost(server.address);
+    }
+
+    static boolean isWynncraftHost(String address) {
+        String host = address.toLowerCase(Locale.ROOT).split(":", 2)[0];
+        if (host.endsWith(".")) host = host.substring(0, host.length() - 1);
+        for (String zone : new String[] {"wynncraft.com", "wynncraft.net", "wynncraft.org"}) {
+            if (host.equals(zone) || host.endsWith("." + zone)) return true;
+        }
+        return false;
     }
 
     private static boolean fromPlayer(Text node) {

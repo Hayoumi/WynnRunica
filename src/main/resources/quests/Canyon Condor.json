@@ -66,7 +66,7 @@
     {
       "id": "dialogue-0009",
       "en": "I hope you are able to find the beast, and if you do, could you bring me back [1 Beast Egg] as evidence?",
-      "ru": "Надеюсь, у тебя получится найти эту тварь. А если найдёшь, не мог бы ты принести мне [1 Beast Egg] в качестве доказательства?",
+      "ru": "§#FFFFFFНадеюсь, у тебя получится найти эту тварь. А если найдёшь, не мог бы ты принести мне §#00AAAA[1 Beast Egg]§r§#FFFFFF в качестве доказательства?",
       "speaker": "Svin",
       "stage": "Stage 1"
     },
@@ -108,7 +108,7 @@
     {
       "id": "dialogue-0015",
       "en": "Go fetch me [5 Gold Chunks] from the end of the shaft and I'll tell ye where ye need to go next.",
-      "ru": "Сгоняй и принеси мне [5 Gold Chunks] из конца шахты, и тогда я скажу, куда тебе дальше идти.",
+      "ru": "§#FFFFFFСгоняй §#55FFFFи принеси мне§r§#FFFFFF §#00AAAA[5 Gold Chunks]§r§#FFFFFF §#55FFFFиз конца шахты§r§#FFFFFF, §#00AAAAи тогда я скажу, куда тебе дальше идти§r§#FFFFFF.",
       "speaker": "Jankan",
       "stage": "Stage 2"
     },
@@ -136,7 +136,7 @@
     {
       "id": "dialogue-0019",
       "en": "I think ye can find him up the mountain and across the canyon abyss, he ain' a friendly fella, I can tell yer that much.",
-      "ru": "Думаю, найдёшь его выше в горах, по ту сторону пропасти. Парень он совсем не дружелюбный, это я тебе точно скажу.",
+      "ru": "§#FFFFFFДумаю, найдёшь его §#55FFFFвыше в горах, по ту сторону пропасти§r§#FFFFFF. Парень он совсем не дружелюбный, это я тебе точно скажу.",
       "speaker": "Jankan",
       "stage": "Stage 3"
     },
@@ -185,14 +185,14 @@
     {
       "id": "dialogue-0026",
       "en": "It is found on top of one of the stacks in the mesa, it shouldn't be too hard to find.",
-      "ru": "Растёт он на вершине одного из каменных столбов в месе, найти не должно быть слишком сложно.",
+      "ru": "§#FFFFFFРастёт он §#55FFFFна вершине одного из каменных столбов в месе§r§#FFFFFF, найти не должно быть слишком сложно.",
       "speaker": "Hermit",
       "stage": "Stage 4"
     },
     {
       "id": "dialogue-0027",
       "en": "Bring me [1 Rare Rose] and I shall let you pass on to the creature of the mesa.",
-      "ru": "Принеси мне [1 Rare Rose], и я пропущу тебя к твари месы.",
+      "ru": "§#FFFFFFПринеси мне §#00AAAA[1 Rare Rose]§r§#FFFFFF, и я пропущу тебя к твари месы.",
       "speaker": "Hermit",
       "stage": "Stage 4"
     },
@@ -272,6 +272,13 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Каньонский кондор",
       "speaker": "",
       "stage": "Stage 6"
+    },
+    {
+      "id": "player-970c18de9b1105a0",
+      "en": "How is the search going, traveler? I do hope you return to me with [1 Beast Egg] .",
+      "ru": "§#FFFFFFКак идут поиски, путник? Надеюсь, ты вернёшься ко мне с §#00AAAA[1 Beast Egg]§r§#FFFFFF.",
+      "speaker": "Svin",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -310,6 +317,30 @@
       "en": "Defeat the Cockatrice at [1378, 111, -1351] and collect an egg for Svin",
       "ru": "Победить кокатриса и добыть яйцо для Свина [1378, 111, -1351].",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-objective-1cf32962803e",
+      "en": "Talk to Svin in Rymek at [<num>, <num>, <num>]",
+      "ru": "Поговорить со Свином в Римеке [<num>, <num>, <num>].",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "hub-objective-cfe4f8ca8c52",
+      "en": "Talk to Jankan east from Rymek at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Джанканом к востоку от Римека [<num>, <num>, <num>].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "hub-objective-06cac226c1cd",
+      "en": "Collect [<num> Gold Chunks] for Jankan in the mineshaft at [<num>, <num>, <num>]",
+      "ru": "Собрать для Джанкана [<num> Gold Chunks] в шахте [<num>, <num>, <num>].",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "hub-objective-bd35a8daf811",
+      "en": "Take the canyon elevator up to the Hermit at [<num>, <num>, <num>]",
+      "ru": "Подняться на подъёмнике из каньона к отшельнику [<num>, <num>, <num>].",
+      "stage": "Stage 4"
     }
   ],
   "choices": []

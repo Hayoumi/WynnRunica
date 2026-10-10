@@ -35,6 +35,16 @@ public final class NpcNameplateTest {
                         && TelemetrySender.serialize(parts[0]).getFirst().color().equals("#55FF55")
                         && TelemetrySender.serialize(parts[1]).get(1).font().equals("minecraft:nameplate/default"),
                 "08.10: a mob name is separated from the health bar and the effect line, styles kept");
+        var pill = Style.EMPTY.withFont(new StyleSpriteSource.Font(Identifier.of("minecraft", "banner/pill")));
+        expect(NameplateStyler.isMob(Text.empty().append(Text.literal("Sentient Forge ")).append(Text.literal("").setStyle(pill))
+                        .append(Text.literal(" ").setStyle(pill))),
+                "10.10: a name with a level badge is a mob even when its body is a model");
+        expect(NameplateStyler.isMob(Text.empty().append(Text.literal("Barkeep ")).append(Text.literal("").setStyle(pill))),
+                "10.10: a name with the NPC badge is an NPC");
+        expect(NameplateStyler.isMob(poisoned), "10.10: a name with a health bar is a mob");
+        expect(!NameplateStyler.isMob(Text.empty().append(Text.literal("Lovers' Cavern ")).append(Text.literal("").setStyle(pill))),
+                "10.10: a cave label has a badge too, but it is not a mob");
+        expect(!NameplateStyler.isMob(Text.literal("Event Rewards")), "10.10: a label in the air is not a mob");
         expect(NameplateStyler.splitTail(source) == null,
                 "08.10: a nameplate whose last line has words is not split");
         var dummy = Text.empty().append(Text.literal("Combat Dummy").styled(s -> s.withColor(0xFFFF55)))

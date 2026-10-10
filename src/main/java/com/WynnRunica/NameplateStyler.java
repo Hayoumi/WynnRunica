@@ -2,6 +2,7 @@ package com.WynnRunica;
 
 import net.minecraft.text.MutableText;
 import net.minecraft.text.Style;
+import net.minecraft.text.StyleSpriteSource;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 
@@ -82,6 +83,21 @@ public final class NameplateStyler {
     }
 
     private static final Pattern HAS_WORD = Pattern.compile("\\p{L}{2,}");
+
+    private static final String LEVEL_BADGE = "";
+    private static final String NPC_BADGE = "";
+
+    public static boolean isMob(Text text) {
+        return text.visit((style, value) -> {
+            if (style.getFont() instanceof StyleSpriteSource.Font font) {
+                String id = font.id().toString();
+                if (id.startsWith("minecraft:nameplate/")) return Optional.of(true);
+                if (id.equals("minecraft:banner/pill") && (value.startsWith(LEVEL_BADGE) || value.startsWith(NPC_BADGE)))
+                    return Optional.of(true);
+            }
+            return Optional.empty();
+        }, Style.EMPTY).isPresent();
+    }
 
     public static Text[] splitTail(Text text) {
         String whole = text.getString();

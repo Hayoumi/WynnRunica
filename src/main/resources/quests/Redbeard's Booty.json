@@ -43,6 +43,13 @@
       "stage": "Stage 1"
     },
     {
+      "id": "claude-dialogue-fcb343ead7a9",
+      "en": "I ventured 'round, spied some fine jacks at the island, and I collected a crew to join me on a grand, fantastic voyage!",
+      "ru": "Я там пошатался, приметил на острове пару толковых ребят и собрал команду для моего великого, шикарного плавания!",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
       "id": "dialogue-0006",
       "en": "O' course, there always be room for another! Ye joinin'?",
       "ru": "А для ещё одного матроса место всегда найдётся! Идёшь?",
@@ -52,7 +59,14 @@
     {
       "id": "dialogue-0007",
       "en": "Aye! Let find the booty and bring back some doubloons! Here be that map I snagged. Swim or whatever you landlubbers do to get to Pirate Cove. It'll be the first house to the right when ye arrive.",
-      "ru": "Ага! Найдём клад и вернёмся с дублонами! Вот карта, что я урвал. Плыви - ну или как вы, сухопутники, до Пиратской Бухты добираетесь. Когда придёшь, тебе нужен первый дом справа.",
+      "ru": "§#FFFFFFАга! Найдём клад и вернёмся с дублонами! Вот карта, что я урвал. Плыви - ну или как вы, сухопутники, §#55FFFFдо Пиратской Бухты§r§#FFFFFF добираетесь. Когда придёшь, §#55FFFFтебе нужен первый дом справа§r§#FFFFFF.",
+      "speaker": "Marston",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "claude-dialogue-9f0d0500209d",
+      "en": "Aye! Let's find the booty and bring back some doubloons! Here be that map I snagged. Swim or whatever ye landlubbers do to get to Pirate Cove. It'll be the first house to the right when ye arrive.",
+      "ru": "§#FFFFFFАга! Найдём клад и вернёмся с дублонами! Вот карта, что я урвал. Плыви - ну или как вы, сухопутники, §#55FFFFдо Пиратской Бухты§r§#FFFFFF добираетесь. Когда придёшь, §#55FFFFтебе нужен первый дом справа§r§#FFFFFF.",
       "speaker": "Marston",
       "stage": "Stage 1"
     },
@@ -115,6 +129,13 @@
     {
       "id": "dialogue-0016",
       "en": "How's about we wait uo fer him? He's the one who's givin us the opportunity fer this hunt, anyways.",
+      "ru": "Может, всё-таки подождём его? Всё ж это он дал нам шанс поживиться кладом, как ни крути.",
+      "speaker": "Martim",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "claude-dialogue-fb777aec7be4",
+      "en": "How's about we wait up fer him? He's the one who's givin us the opportunity fer this hunt, anyways.",
       "ru": "Может, всё-таки подождём его? Всё ж это он дал нам шанс поживиться кладом, как ни крути.",
       "speaker": "Martim",
       "stage": "Stage 4"
@@ -207,6 +228,13 @@
       "id": "dialogue-0029",
       "en": "Arright! We might be able to bring Redbeard 'imself back to life... He will strike terror in the seas again, and we will be his crew!",
       "ru": "Ладно! Может, у нас даже получится вернуть самого Рыжеборода к жизни... Он снова наведёт ужас на моря, а мы будем его командой!",
+      "speaker": "Karkun",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "claude-dialogue-8f0aae810acb",
+      "en": "Arright! This key... We might be able to bring Redbeard 'imself back to life... He'll strike terror in the seas again, and we will be 'is crew!",
+      "ru": "Ладно! Этот ключ... Может, у нас даже получится вернуть самого Рыжеборода к жизни... Он снова наведёт ужас на моря, а мы будем его командой!",
       "speaker": "Karkun",
       "stage": "Stage 4"
     },
@@ -307,6 +335,69 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Клад Рыжеборода",
       "speaker": "",
       "stage": "Stage 5"
+    },
+    {
+      "id": "player-6b00220838dcf801",
+      "en": "O' course, there always be room for another! Ye joinin'? We could use another hand.",
+      "ru": "Конечно, для ещё одного место всегда найдётся! Ты с нами? Лишние руки нам не помешают.",
+      "speaker": "Marston",
+      "stage": ""
+    },
+    {
+      "id": "player-40985043d335916f",
+      "en": "Do ye remember where to go?",
+      "ru": "Помнишь, куда идти?",
+      "speaker": "Marston",
+      "stage": ""
+    },
+    {
+      "id": "player-166b169e3d24f0bd",
+      "en": "No? The crew be loiterin' at Pirate Cove. I'll be along soon, don't ye worry!",
+      "ru": "Нет? Команда болтается в Пиратской Бухте. Я скоро подойду, не переживай!",
+      "speaker": "Marston",
+      "stage": ""
+    },
+    {
+      "id": "player-49d7f2936dba3e12",
+      "en": "Can't say I expected all that... Those dogs are quick, eh?",
+      "ru": "Не ожидал я такого... Шустрые эти псы, а?",
+      "speaker": "Marston",
+      "stage": ""
+    },
+    {
+      "id": "player-cd1abfc8f589b0c6",
+      "en": "Speakin' of, what'n the name o' Davy Jones' Locket happened out there?!",
+      "ru": "Кстати, ради медальона Дэви Джонса, что там вообще случилось?!",
+      "speaker": "Marston",
+      "stage": ""
+    },
+    {
+      "id": "player-39a3d6496f15ee87",
+      "en": "Ye look a bit bruised! Reckon ye ran aground o' trouble with 'em too, eh?",
+      "ru": "Выглядишь побитым! Ты тоже с ними в неприятности влип, а?",
+      "speaker": "Marston",
+      "stage": ""
+    },
+    {
+      "id": "player-02097d94838aba29",
+      "en": "What? Another clue! This be just a wild grook hunt, where be the real booty?! No one ever got rich off a heap o' keys!! Maybe this 'ere jewel attached will sell...",
+      "ru": "Что? Ещё одна подсказка! Да это просто погоня за груком, где настоящий клад?! На куче ключей ещё никто не разбогател! Может, хоть этот камушек на нём продать...",
+      "speaker": "Karkun",
+      "stage": ""
+    },
+    {
+      "id": "player-a4d000e588805c11",
+      "en": "Wait, there be a clue on the key! Presented to the ruined Galleon, a true path forward will arise.",
+      "ru": "Погодите, на ключе подсказка! Поднесите его к разрушенному галеону, и откроется верный путь вперёд.",
+      "speaker": "Martim",
+      "stage": ""
+    },
+    {
+      "id": "player-7c69fc0adb88469d",
+      "en": "Well, lad! Methinks ye oughta go in after 'em! We may be a rowdy lot, but a mutiny's somethin' ye don't tolerate.",
+      "ru": "Ну, парень! Думаю, тебе стоит пойти за ними! Мы, конечно, народ шумный, но мятеж спускать с рук нельзя.",
+      "speaker": "Marston",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -345,6 +436,17 @@
       "en": "Talk to Marston about his crew at [-570, 43, -3543].",
       "ru": "Поговорить с Марстоном о его команде [-570, 43, -3543].",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-objective-73a52806c7c8",
+      "en": "Find Marston's crew on Pirate Cove at [<num>, <num>, <num>].",
+      "ru": "Найти команду Марстона в Пиратской бухте [<num>, <num>, <num>].",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "hub-objective-e858dd39f225",
+      "en": "Talk with Marston in the ocean at [<num>, <num>, <num>].",
+      "ru": "Поговорить с Марстоном в океане [<num>, <num>, <num>]."
     }
   ],
   "choices": []
