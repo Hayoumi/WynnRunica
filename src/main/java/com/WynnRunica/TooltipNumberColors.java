@@ -18,11 +18,16 @@ public final class TooltipNumberColors {
     private TooltipNumberColors() {}
 
     public static Text preserve(Text original, Text translated) {
+        return preserve(original, translated, true);
+    }
+
+    static Text preserve(Text original, Text translated, boolean symbols) {
         StyledString source = collect(original, true);
         StyledString target = collect(translated, false);
         List<Replacement> replacements = new ArrayList<>();
         if (hasNumber(target.text)) numberColors(source, target, replacements);
         barColors(source, target, replacements);
+        if (symbols) symbolColors(source, target, replacements);
         if (replacements.isEmpty()) return translated;
         replacements.sort((first, second) -> Integer.compare(first.position, second.position));
         MutableText result = Text.empty();
@@ -91,6 +96,33 @@ public final class TooltipNumberColors {
             }
             start = end;
         }
+    }
+
+    private static void symbolColors(StyledString source, StyledString target, List<Replacement> out) {
+        List<Integer> before = symbols(source.text);
+        List<Integer> after = symbols(target.text);
+        if (before.size() != after.size()) return;
+        for (int i = 0; i < before.size(); i++) {
+            if (source.text.charAt(before.get(i)) != target.text.charAt(after.get(i))) return;
+        }
+        boolean[] taken = new boolean[target.text.length()];
+        for (Replacement change : out) taken[change.position] = true;
+        for (int i = 0; i < before.size(); i++) {
+            int position = after.get(i);
+            int expected = source.colors[before.get(i)];
+            if (!taken[position] && target.colors[position] != expected) out.add(new Replacement(position, expected));
+        }
+    }
+
+    private static List<Integer> symbols(String text) {
+        List<Integer> found = new ArrayList<>();
+        for (int i = 0; i < text.length(); i++) {
+            char c = text.charAt(i);
+            boolean bracket = "()[]{}*".indexOf(c) >= 0;
+            boolean sign = c > 0x7F && !Character.isLetterOrDigit(c) && !Character.isWhitespace(c);
+            if (bracket || sign) found.add(i);
+        }
+        return found;
     }
 
     private static int runEnd(String text, int start) {

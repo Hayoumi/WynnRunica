@@ -25,6 +25,7 @@ import java.util.Set;
 public final class TooltipLayoutCheck {
     private static final Map<String, Map<Integer, Integer>> WIDTHS = new HashMap<>();
     private static final Set<String> UNKNOWN = new HashSet<>();
+    private static final Set<String> SYMBOLS = new java.util.TreeSet<>();
 
     private record Glyph(int codePoint, int x, int advance, boolean visible) {}
 
@@ -64,6 +65,7 @@ public final class TooltipLayoutCheck {
             String title = capture.has("itemName") ? capture.get("itemName").getAsString() : "?";
             if (!only.isEmpty() && translated <= 2) dump(title, tooltip, result);
             check(title, tooltip, result, problems);
+            symbolCheck(title, capture.has("itemId") ? capture.get("itemId").getAsString() : "", tooltip, problems);
         }
 
         int count = 0;
@@ -76,10 +78,37 @@ public final class TooltipLayoutCheck {
             count += kind.getValue().size();
         }
         System.out.println();
+        Files.write(Path.of("build/symbol-colors.txt"), SYMBOLS, StandardCharsets.UTF_8);
         System.out.println("подсказок разных: " + total + ", с переводом: " + translated + ", замечаний: " + count);
         if (!UNKNOWN.isEmpty()) {
             System.out.println("букв без ширины в таблице: " + UNKNOWN.size() + ", например " + UNKNOWN.stream().limit(8).toList());
         }
+    }
+
+    private static void symbolCheck(String title, String itemId, List<Text> tooltip, Map<String, List<String>> problems) {
+        List<String> keys = new ArrayList<>();
+        for (int i = 1; i < tooltip.size(); i++) keys.add(TextEmojiUtils.extract(tooltip.get(i)).key);
+        GuiScope scope = TranslationManager.findScopeByTitle(TextEmojiUtils.extractTooltip(tooltip.get(0)).key, keys, "", itemId);
+        for (Text line : tooltip) {
+            if (TextEmojiUtils.findWynncraftPixelStyle(line) != null) continue;
+            var ex = TextEmojiUtils.extractTooltip(line);
+            String first = TranslationManager.getGuiTranslation(ex.key, scope);
+            if (first.equals(ex.key) || first.startsWith("<center>")) continue;
+            Text shown = TooltipNumberColors.preserve(line, TextEmojiUtils.rebuild(first.replace("§*", TextEmojiUtils.accentCode(line)), ex.icons,
+                    ex.contentStyle == null ? net.minecraft.text.Style.EMPTY : ex.contentStyle, ex.key), false);
+            if (TooltipNumberColors.preserve(line, shown, true) != shown) {
+                add(problems, "скобка или значок другого цвета, чем в оригинале", title + " | " + ex.key + "  =>  " + first);
+                SYMBOLS.add(ex.key + "	" + first + "	" + colors(line) + "	" + colors(shown));
+            }
+        }
+    }
+
+    private static String colors(Text text) {
+        StringBuilder out = new StringBuilder();
+        for (TelemetrySender.Segment segment : TelemetrySender.serialize(text)) {
+            out.append('<').append(segment.color()).append('>').append(segment.text());
+        }
+        return out.toString();
     }
 
     private static void dump(String title, List<Text> before, List<Text> after) {
@@ -90,6 +119,13 @@ public final class TooltipLayoutCheck {
             System.out.println(String.format("%2d было: отступ %4d, с %4d по %4d, вся %4d | стало: отступ %4d, с %4d по %4d, вся %4d | %s -> %s",
                     i, o.indent(), o.firstVisible(), o.lastVisibleEnd(), o.width(),
                     n.indent(), n.firstVisible(), n.lastVisibleEnd(), n.width(), o.text(), n.text()));
+            System.out.println("      цвета было:  " + colors(before.get(i)));
+            System.out.println("      цвета стало: " + colors(after.get(i)));
+            var ex = TextEmojiUtils.extractTooltip(before.get(i));
+            String first = TranslationManager.getGuiTranslation(ex.key, null);
+            if (!first.equals(ex.key)) System.out.println("      шаг 1:       " + colors(TooltipNumberColors.preserve(before.get(i),
+                    TextEmojiUtils.rebuild(first, ex.icons, ex.contentStyle == null ? net.minecraft.text.Style.EMPTY : ex.contentStyle, ex.key)))
+                    + "   ключ: " + ex.key + "   шаблон: " + first);
         }
     }
 

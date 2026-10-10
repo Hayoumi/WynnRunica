@@ -330,7 +330,7 @@
     {
       "id": "rule-0055",
       "en": "§7§5[<num>%] §dSpell Damage",
-      "ru": "§7§5[§5<num>%§7] §dУрон Заклинаний",
+      "ru": "§7§5[§5<num>%§5] §dУрон Заклинаний",
       "match": "template"
     },
     {
@@ -1668,7 +1668,7 @@
     {
       "id": "rule-tooltip-af09c8a67aec22f0",
       "en": "Potion of <em> Agility [<num>]",
-      "ru": "§aЗелье §f<em> Проворства §2[§2<num>§7]",
+      "ru": "§aЗелье §f<em> Проворства §2[§2<num>§2]",
       "match": "template"
     },
     {
@@ -1680,7 +1680,7 @@
     {
       "id": "rule-tooltip-2469c20cd527a9e5",
       "en": "Potion of <em> Strength [<num>]",
-      "ru": "§aЗелье §2<em> Силы §2[§2<num>§7]",
+      "ru": "§aЗелье §2<em> Силы §2[§2<num>§2]",
       "match": "template"
     },
     {
@@ -1692,7 +1692,7 @@
     {
       "id": "rule-tooltip-bddb69f7d552827d",
       "en": "Potion of <em> Intelligence [<num>]",
-      "ru": "§aЗелье §b<em> Интеллекта §2[§2<num>§7]",
+      "ru": "§aЗелье §b<em> Интеллекта §2[§2<num>§2]",
       "match": "template"
     },
     {
@@ -1704,7 +1704,7 @@
     {
       "id": "rule-tooltip-ae5b0bcac34bb89d",
       "en": "Potion of <em> Defence [<num>]",
-      "ru": "§aЗелье §c<em> Защиты §2[§2<num>§7]",
+      "ru": "§aЗелье §c<em> Защиты §2[§2<num>§2]",
       "match": "template"
     },
     {
@@ -1716,7 +1716,7 @@
     {
       "id": "rule-tooltip-779209c72b53b5f2",
       "en": "Potion of <em> Dexterity [<num>]",
-      "ru": "§aЗелье §e<em> Ловкости §2[§2<num>§7]",
+      "ru": "§aЗелье §e<em> Ловкости §2[§2<num>§2]",
       "match": "template"
     },
     {
@@ -1728,13 +1728,13 @@
     {
       "id": "rule-tooltip-c76d060817f9e4f7",
       "en": "Potion of Healing [<num>]",
-      "ru": "Зелье Лечения §4[§4<num>§7]",
+      "ru": "Зелье Лечения §4[§4<num>§4]",
       "match": "template"
     },
     {
       "id": "rule-tooltip-ca0fd8376b7da231",
       "en": "Potion of Mana [<num>]",
-      "ru": "Зелье Маны §3[§3<num>§7]",
+      "ru": "Зелье Маны §3[§3<num>§3]",
       "match": "template"
     },
     {
@@ -4518,7 +4518,7 @@
     {
       "id": "batch8-c5c167caebe51663",
       "en": "Transfer <num>² into <num>²½",
-      "ru": "§#AAAAAAОбменять <num>² на <num>²½",
+      "ru": "§#AAAAAAОбменять §f<num>²§#AAAAAA на §f<num>²½",
       "match": "template"
     },
     {
@@ -4536,7 +4536,7 @@
     {
       "id": "batch8-1eb49c3cefdcbcc3",
       "en": "Transfer <num>²½ into <num>¼²",
-      "ru": "§#AAAAAAОбменять <num>²½ на <num>¼²",
+      "ru": "§#AAAAAAОбменять §f<num>²½§#AAAAAA на §f<num>¼²",
       "match": "template"
     },
     {
@@ -6192,7 +6192,7 @@
     {
       "id": "batch9-a49f35af9d3322ee",
       "en": "§3§lNearby Territories §7[<num>x]",
-      "ru": "§lСоседние Территории [§#AAAAAA<num>§#AAAAAAx]",
+      "ru": "§lСоседние Территории §#AAAAAA[<num>x]",
       "match": "template"
     },
     {
@@ -6258,7 +6258,7 @@
     {
       "id": "batch9-3ecef3e9cd09126a",
       "en": "<em>§7Length: Medium§8 (<num>m)",
-      "ru": "<em>Длительность: Средняя (§#555555<num>§#555555мин.)",
+      "ru": "<em>Длительность: Средняя §#555555(<num>мин.)",
       "match": "template"
     },
     {
@@ -6342,7 +6342,7 @@
     {
       "id": "batch9-75c38329f3ac6c11",
       "en": "§a- §7<num>% Guild XP Boost§8 (<num>d <num>h)",
-      "ru": "- §#AAAAAA<num>§#AAAAAA% К Опыту Гильдии (§#555555<num>§#555555д §#555555<num>§#555555ч)",
+      "ru": "- §#AAAAAA<num>§#AAAAAA% К Опыту Гильдии §#555555(<num>д <num>ч)",
       "match": "template"
     },
     {
@@ -29790,7 +29790,7 @@
     {
       "id": "batch21-gui-3440fd597664b2c6",
       "en": "§7§7<num> Emeralds§8 (<num>%)",
-      "ru": "§7Изумруды: §7<num>§7§8 (§8<num>%§7)",
+      "ru": "§7Изумруды: §7<num>§7§8 (§8<num>%§8)",
       "match": "template"
     },
     {
@@ -29856,7 +29856,7 @@
     {
       "id": "batch21-gui-c72eb93a385d95f5",
       "en": "§7§7Ⓙ <num> Crops§8 (<num>%)",
-      "ru": "§7Ⓙ Урожай: §7<num>§7§8 (§8<num>%§7)",
+      "ru": "§7Ⓙ Урожай: §7<num>§7§8 (§8<num>%§8)",
       "match": "template"
     },
     {

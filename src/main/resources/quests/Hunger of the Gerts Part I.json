@@ -87,7 +87,7 @@
     {
       "id": "dialogue-0012",
       "en": "Here, you should head over and talk to Jitak, they're one of the farmers that lodged a complaint. Their house is west of here, I'll write down the co-ordinates.",
-      "ru": "Вот, тебе стоит поговорить с Джитаком, это один из фермеров, кто жаловался. Его дом к западу отсюда, я запишу координаты.",
+      "ru": "§r§fВот, тебе стоит поговорить с §r§bДжитаком§r§f, это один из фермеров, кто жаловался. Его дом к западу отсюда, я запишу координаты.",
       "speaker": "Cikal",
       "stage": "Stage 1"
     },
@@ -801,14 +801,14 @@
     {
       "id": "dialogue-0114",
       "en": "Well, that explains how the Gerts were able to get to the pigs. You should head back to Jitak.",
-      "ru": "Что ж, это объясняет, как герты смогли добраться до свиней. Тебе стоит вернуться к Джитаку.",
+      "ru": "§r§7Что ж, это объясняет, как герты смогли добраться до свиней. Тебе стоит §r§bвернуться к Джитаку§r§7.",
       "speaker": "",
       "stage": "Stage 5"
     },
     {
       "id": "dialogue-0115",
       "en": "The gert is looking at you hungrily... it might be best to leave the conversation?",
-      "ru": "Герт смотрит на тебя голодным взглядом... может, лучше прекратить разговор?",
+      "ru": "§r§7Герт смотрит на тебя голодным взглядом... может, лучше §r§bпрекратить разговор§r§7?",
       "speaker": "",
       "stage": "Stage 5"
     },
@@ -822,14 +822,14 @@
     {
       "id": "dialogue-0117",
       "en": "The gert has a strange look in his eyes and is inching towards you suspiciously...",
-      "ru": "У герта странный взгляд, и он подозрительно подбирается к тебе...",
+      "ru": "§r§7У герта странный взгляд, и он §r§bподозрительно подбирается к тебе§r§7...",
       "speaker": "",
       "stage": "Stage 5"
     },
     {
       "id": "dialogue-0118",
       "en": "The gert is very close to you now and you can see saliva dripping from its teeth...",
-      "ru": "Теперь герт совсем близко к тебе, и видно, как с его зубов капает слюна...",
+      "ru": "§r§7Теперь герт §r§cсовсем близко к тебе§r§7, и видно, как с его зубов капает слюна...",
       "speaker": "",
       "stage": "Stage 5"
     },
@@ -885,7 +885,7 @@
     {
       "id": "dialogue-0126",
       "en": "You should report back to Jitak with your new mask and information about the tunnel.",
-      "ru": "Тебе стоит вернуться к Джитаку с новой маской и сведениями о тоннеле.",
+      "ru": "§r§7Тебе стоит §r§bвернуться к Джитаку§r§7 с новой маской и сведениями о тоннеле.",
       "speaker": "",
       "stage": "Stage 11"
     },
@@ -909,6 +909,62 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Голод гертов, часть I",
       "speaker": "",
       "stage": "Stage 14"
+    },
+    {
+      "id": "hub-live-dialogue-00fd4a48b219",
+      "en": "Wait... why does your orange gourd mask look like that?!",
+      "ru": "Погоди... почему твоя маска из оранжевой тыквы так выглядеть?!",
+      "speaker": "Gert",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-5b1fc1f5542f",
+      "en": "Why is it not like all of the others?",
+      "ru": "Почему она не такая, как все остальные?",
+      "speaker": "Gert",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-7868a2845383",
+      "en": "You are not a gert! You are a new folk! Gerts want to eat all the time!",
+      "ru": "Ты не герт! Ты новый народ! Герты всё время хотеть есть!",
+      "speaker": "Gert",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-83df34bb6e8a",
+      "en": "This is gert land only! And, well... a gert needs to eat.",
+      "ru": "Это земля только гертов! И, ну... герт должен есть.",
+      "speaker": "Gert",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-f91a1cf83bfb",
+      "en": "You know, the one in the camp north of Gylia watch house?",
+      "ru": "Ну, тот, что в §dлагере к северу от дозорного дома Гилии§f?",
+      "speaker": "Gert",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-82c6a91e4e5d",
+      "en": "The gert has a strange look in his eyes and is  inching towards you suspiciously..",
+      "ru": "§r§7У герта странный взгляд, и он §r§bподозрительно подбирается к тебе§r§7...",
+      "speaker": "Gert Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "hub-live-dialogue-e0867fc2b50a",
+      "en": "That was... enlightening, but didn't get you into the farm. You should look around for a way to distract the gert... maybe some food?",
+      "ru": "§r§7Это было... познавательно, но на ферму ты так и не попал. Нужно §r§bотвлечь герта§r§7... может, раздобыть §r§bеды§r§7?",
+      "speaker": "Gert Guard",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "hub-live-dialogue-b3a7ba194668",
+      "en": "... That didn't go well. You should carve another mask.",
+      "ru": "§r§7... Не слишком удачно. Нужно §r§bвырезать другую маску§r§7.",
+      "speaker": "Gert",
+      "stage": "Stage 11"
     }
   ],
   "objectives": [
