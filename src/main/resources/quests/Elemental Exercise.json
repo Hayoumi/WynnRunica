@@ -552,6 +552,41 @@
       "ru": "Но в вашем распоряжении есть и заклинания! Разные заклинания наносят урон разных стихий, даже если оружие само по себе не наносит урон этой стихии.",
       "speaker": "Captain Ragon",
       "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-91e897516ebe",
+      "en": "Ah, yes. A fine observation. Indeed, you are also bound to the rules of the elements. Elemental defenses and weaknesses from your equipment will affect you in the very same way.",
+      "ru": "§r§fДа. Верно подмечено. На вас тоже действуют законы стихий. Защита и уязвимость к стихиям, которые даёт снаряжение, влияют на вас точно так же.",
+      "speaker": "Captain Ragon",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-abd3b18be990",
+      "en": "Correct! Now, let's see... We have the two of you here. Why don't we have a friendly duel? A chance to test your battle skills in a safe environment.",
+      "ru": "§r§fВерно! Так, посмотрим... вас тут двое. Почему бы не устроить дружеский поединок? Проверите боевые навыки в безопасной обстановке.",
+      "speaker": "Captain Ragon",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-c80ecb6ca606",
+      "en": "Captain- we're capable fighters too. Let us come along and help fight off these undead.",
+      "ru": "§r§fКапитан, мы тоже умеем сражаться. Позвольте нам пойти с вами и помочь отбить нападение нежити!",
+      "speaker": "Tasim",
+      "stage": ""
+    },
+    {
+      "id": "claude-dialogue-a057a430fd37",
+      "en": "I do have one. If our enemies are susceptible to the elements in this way, would that also apply to us?",
+      "ru": "У меня есть вопрос. Если стихии так влияют на наших врагов, то и на нас тоже?",
+      "speaker": "Tasim",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "claude-dialogue-262ba61e41d3",
+      "en": "Ahem. Before you return to your business, I have something for the two of you. Payment for your work today, and a special piece of equipment. Make good use of it.",
+      "ru": "Кхм. Прежде чем вы вернётесь к своим делам, у меня кое-что есть для вас двоих. Оплата за сегодняшнюю работу и особый предмет снаряжения. Пользуйтесь с умом.",
+      "speaker": "Captain Ragon",
+      "stage": "Stage 8"
     }
   ],
   "objectives": [
@@ -608,6 +643,11 @@
       "en": "Return to the Detlas Barracks and talk to Captain Ragon at [516, 67, -1629].",
       "ru": "Вернуться в казармы Детласа и поговорить с капитаном Рагоном [516, 67, -1629].",
       "stage": "Stage 8"
+    },
+    {
+      "id": "claude-objective-0f06e431dae9",
+      "en": "Speak to Captain Ragon outside Detlas' north gate at [<num>, <num>, <num>]",
+      "ru": "Поговорить с капитаном Рагоном у северных ворот Детласа [<num>, <num>, <num>]."
     }
   ],
   "choices": []

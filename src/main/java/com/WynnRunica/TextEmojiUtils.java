@@ -197,6 +197,21 @@ public class TextEmojiUtils {
                 || fontStr.contains("wynnrunica:language/wynncraft_cyrillic");
     }
 
+    public static int dialogueLeadEnd(String text) {
+        int at = 0;
+        while (at < text.length()) {
+            int codePoint = text.codePointAt(at);
+            if (codePoint < 0xC0000 || codePoint >= 0xD0000) break;
+            at += Character.charCount(codePoint);
+        }
+        return at;
+    }
+
+    public static boolean dialogueCentered(String text) {
+        int at = dialogueLeadEnd(text);
+        return at < text.length() && text.codePointAt(at) > 0xD0000;
+    }
+
     public static Text rebuild(String translated, List<Text> icons, Style rootStyle) {
         return rebuild(translated, icons, rootStyle, false, null);
     }

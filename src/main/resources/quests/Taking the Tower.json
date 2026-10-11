@@ -373,6 +373,20 @@
       "ru": "§r§#FFFFFFТак точно, лейтенант. Мы с <playername> добрались до вершины и одолели заражённого.",
       "speaker": "Aledar",
       "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-98d9bc697330",
+      "en": "Let's keep going! Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs, remember?",
+      "ru": "§r§fПошли дальше! Лейтенант Ван и остальные стоят у §bтех домов в пригороде Детласа§f, помнишь?",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-df57dd31bf3b",
+      "en": "That was good fighting out there, <playername>! I'm going to head back to Detlas for now, see if there's anything else I can do around there.",
+      "ru": "§r§fОтлично сражался, <playername>! Я пока вернусь в Детлас и посмотрю, чем ещё могу там помочь.",
+      "speaker": "Aledar",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -411,6 +425,11 @@
       "en": "Report back to Lieutenant Van about your success at [231, 67, -1620]",
       "ru": "Доложить лейтенанту Вану об успехе [231, 67, -1620].",
       "stage": "Stage 6"
+    },
+    {
+      "id": "claude-objective-a0968b3cdd50",
+      "en": "Follow Aledar to the Item Upgrader at [<num>, <num>, <num>].",
+      "ru": "Идти за Аледаром к Улучшателю Предметов [<num>, <num>, <num>]."
     }
   ],
   "choices": []

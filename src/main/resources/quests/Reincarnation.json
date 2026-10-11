@@ -216,6 +216,27 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Перерождение",
       "speaker": "",
       "stage": "Stage 4"
+    },
+    {
+      "id": "hub-live-dialogue-f096c8545b32",
+      "en": "How is your quest going along?",
+      "ru": "Как продвигается твой квест?",
+      "speaker": "Batelu",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-e8c843b8a78a",
+      "en": "I am not worthy enough to enter it. I did not complete the task of the animals, I merely read it.  You shall go alone. Be careful.",
+      "ru": "§r§fЯ недостоин туда входить. Я ведь не выполнил испытание со зверями, я только прочёл о нём. §r§bТебе придётся идти одному§r§f, будь осторожен.",
+      "speaker": "Batelu",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "claude-dialogue-80f2c2cbaa19",
+      "en": "But I can. I know how to open the passage to Bob. This is where the animals will come in useful...",
+      "ru": "А я могу. Я знаю, как открыть проход к Бобу. Тут-то эти звери и пригодятся...",
+      "speaker": "Batelu",
+      "stage": "Stage 1"
     }
   ],
   "objectives": [
@@ -247,6 +268,16 @@
       "id": "hub-objective-45942b77f5fd",
       "en": "Bring back [<num> Bob's Seal of Approval] to Batelu",
       "ru": "Принести Бателу [<num> Bob's Seal of Approval]."
+    },
+    {
+      "id": "claude-objective-7c3582a44d48",
+      "en": "Bring back [<num> Cluckles' Favourite Feather], [<num> Baab's Wool] & [<num> Mooington's Skin] to Batelu",
+      "ru": "Принести Бателу [<num> Cluckles' Favourite Feather], [<num> Baab's Wool] и [<num> Mooington's Skin]."
+    },
+    {
+      "id": "claude-objective-f073fd3eea63",
+      "en": "Talk to Batelu in Bob's Tomb at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Бателу в гробнице Боба [<num>, <num>, <num>]."
     }
   ],
   "choices": []

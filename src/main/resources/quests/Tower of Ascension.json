@@ -14,7 +14,7 @@
     {
       "id": "dialogue-0002",
       "en": "Welcome to the Tower of Ascension!",
-      "ru": "Добро пожаловать в Башню Вознесения!",
+      "ru": "§r§fДобро пожаловать в §r§f§lБашню Вознесения§r§f!",
       "speaker": "Ankou",
       "stage": "Stage 1"
     },
@@ -146,5 +146,36 @@
     }
   ],
   "choices": [],
-  "objectives": []
+  "objectives": [
+    {
+      "id": "claude-objective-77b80e2f0b70",
+      "en": "Begin the First Floor (Recommended Level: <num><num>)",
+      "ru": "Начать Первый Этаж (рекомендуемый уровень: <num><num>)."
+    },
+    {
+      "id": "claude-objective-a9e8b95d9992",
+      "en": "Begin the Second Floor (Recommended Level: <num><num>)",
+      "ru": "Начать Второй Этаж (рекомендуемый уровень: <num><num>)."
+    },
+    {
+      "id": "claude-objective-df60129eca90",
+      "en": "Begin the Third Floor (Recommended Level: <num><num>)",
+      "ru": "Начать Третий Этаж (рекомендуемый уровень: <num><num>)."
+    },
+    {
+      "id": "claude-objective-9cc08a60f83f",
+      "en": "Collect <num> tokens and hand them to the Floor Master [Floor <num>, Level <num>]",
+      "ru": "Собрать <num> жетон<pl:|а|ов> и отдать Хозяину Этажа [этаж <num>, уровень <num>]."
+    },
+    {
+      "id": "claude-objective-16bce6173914",
+      "en": "Collect the boss token and hand it to the Floor Master [Floor <num>, Level <num>]",
+      "ru": "Собрать жетон босса и отдать Хозяину Этажа [этаж <num>, уровень <num>]."
+    },
+    {
+      "id": "claude-objective-fe95722fad1a",
+      "en": "Talk to Ankou at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Анку [<num>, <num>, <num>]."
+    }
+  ]
 }

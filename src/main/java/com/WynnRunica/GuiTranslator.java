@@ -27,6 +27,21 @@ public class GuiTranslator {
     private static final StyleSpriteSource.Font SPACE_FONT =
             new StyleSpriteSource.Font(Identifier.of("minecraft", "space"));
 
+    public static Text translateTitle(Text text) {
+        if (text == null || !Config.isTranslationEnabled() || !Config.isEnabled("Интерфейсы")) return text;
+        Text banner = NameplateStyler.translatePills(text);
+        if (banner != text) return banner;
+        var ex = TextEmojiUtils.extractTooltip(text);
+        if (ex.key.isBlank()) return text;
+        String translated = TranslationManager.getGuiTranslation(ex.key);
+        if (translated.equals(ex.key)) {
+            TelemetrySender.recordTitle(ex.key, text);
+            return text;
+        }
+        Style style = ex.contentStyle == null ? Style.EMPTY : ex.contentStyle;
+        return TooltipNumberColors.preserve(text, TextEmojiUtils.rebuild(translated, ex.icons, style, ex.key));
+    }
+
     public static void translateStack(ItemStack stack) {
         LoreComponent lore = stack.get(DataComponentTypes.LORE);
         List<String> loreKeys = new ArrayList<>();

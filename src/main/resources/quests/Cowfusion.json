@@ -346,7 +346,7 @@
     {
       "id": "dialogue-0049",
       "en": "...Unless. Unless. Nobody's... nobody's looking. I could just send you to The Pit... Nobody would know.",
-      "ru": "...Хотя. Хотя. Никто же... никто не смотрит. Я могу просто отправить тебя в Яму... и никто не узнает.",
+      "ru": "§r§f...Хотя. Хотя. Никто же... никто не смотрит. Я могу просто отправить тебя в §r§f§lЯму§r§f... и никто не узнает.",
       "speaker": "Drale",
       "stage": "Stage 13"
     },
@@ -451,7 +451,7 @@
     {
       "id": "dialogue-0064",
       "en": "You head on up that pipe and with a bit of luck it'll plonk you out right in front of Drale.",
-      "ru": "Лезь вон по той трубе, и если повезёт, тебя выплюнет прямо перед Дрейлом.",
+      "ru": "§r§f§r§bЛезь вон по той трубе§r§f, и если повезёт, тебя выплюнет прямо перед Дрейлом.",
       "speaker": "Worker",
       "stage": "Stage 13"
     },
@@ -1483,6 +1483,69 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Замукательство",
       "speaker": "",
       "stage": "Stage 10"
+    },
+    {
+      "id": "hub-live-dialogue-847b7f29cf65",
+      "en": "And to think I was going to hire some city-dwellin' 'uman to get you for me? Ha!",
+      "ru": "§r§fА я ещё собирался нанять какого-нибудь городского человека, чтобы он тебя привёл! Ха!",
+      "speaker": "Ranol",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-54ae83d1a7fc",
+      "en": "Right then, back into the pen you go. Hup!",
+      "ru": "§r§fНу всё, обратно в загон. Марш!",
+      "speaker": "Ranol",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-2109e4de64e7",
+      "en": "What're you waiting for? Get on through that pipe and talk to Drale!",
+      "ru": "§r§fЧего ждёшь? §bПолезай по той трубе§f и поговори с Дрейлом!",
+      "speaker": "Worker",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-a32f5acb3aeb",
+      "en": "Well, here, why don't you follow me? I'll take you back to him, you can straighten things out, and I'm sure you'll be back as a human in no time!",
+      "ru": "§r§fНу §r§bпошли§r§f тогда §r§bза мной§r§f. Я отведу тебя обратно, вы всё уладите, и скоро снова будешь человеком.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "claude-dialogue-9157208413ae",
+      "en": "It may seem close, but unless you've been practicing your athletics, you won't be able to get over these fences.",
+      "ru": "Кажется, что близко, но если ты не привык прыгать через препятствия, через эти заборы тебе не перебраться.",
+      "speaker": "Suspicious Cow",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "claude-dialogue-aeb9df25ea50",
+      "en": "You'll find him in the big office at the very end of this facility. Just stick to the path and don't be nosy, okay?",
+      "ru": "Его кабинет в самом конце комплекса. Просто иди по дорожке и не суй нос куда не надо, ладно?",
+      "speaker": "Receptionist",
+      "stage": "Stage 11"
+    },
+    {
+      "id": "claude-dialogue-550bd3413192",
+      "en": "So... yeah. That's Drale. Catch him on a bad day, and he might just throw you in the Pit.",
+      "ru": "Ну... да. Это Дрейл. Попадёшься в плохой день - и сразу летишь в Яму.",
+      "speaker": "Worker",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "claude-dialogue-58965b3347fa",
+      "en": "Well, alright. Let's just- get you in my machine, I guess. It worked for the exiles, so maybe it'll work for you..?",
+      "ru": "Ну ладно. Давай просто... засунем тебя в мою машину. С изгнанниками она работала, может, и с тобой сработает...?",
+      "speaker": "Drale",
+      "stage": "Stage 15"
+    },
+    {
+      "id": "claude-dialogue-116671c857cb",
+      "en": "It's been tough, recently. Working towards a goal that I know is important, but still feels... out of reach.",
+      "ru": "В последнее время тяжело. Стремлюсь к цели, которая, я знаю, важна, но всё равно кажется... недостижимой.",
+      "speaker": "Drale",
+      "stage": "Stage 15"
     }
   ],
   "objectives": [
@@ -1589,5 +1652,21 @@
       "stage": "Stage 17"
     }
   ],
-  "choices": []
+  "choices": [
+    {
+      "id": "claude-choice-87ea1e4c8f7c",
+      "en": "Moo moo moooo moo Moo moo.(The grook flies over the nest with egg in hand.)",
+      "ru": "Му му муууу му Му му. (Грук летит над гнездом с яйцом в руках.)"
+    },
+    {
+      "id": "claude-choice-f48630506b64",
+      "en": "Moo moo Moooo. (I am a human that was turned into a cow.)",
+      "ru": "Му му Мууу. (Я человек, которого превратили в корову.)"
+    },
+    {
+      "id": "claude-choice-f17bf9b4b56a",
+      "en": "Moo moo Moooo! (I'm not a cow! I'm a human who was turned into a cow!)",
+      "ru": "Му му Мууу! (Я не корова! Я человек, которого превратили в корову!)"
+    }
+  ]
 }

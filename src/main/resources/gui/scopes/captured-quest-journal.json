@@ -19,7 +19,7 @@
         {
           "id": "line-5b2735584b93b64e",
           "en": "§7✮ Raiding Master",
-          "ru": "§7✮ §#00AAAAМастер Рейдов"
+          "ru": "§7§#00AAAA✮ Мастер Рейдов"
         },
         {
           "id": "line-fc31ffd990d820da",
@@ -155,6 +155,21 @@
           "id": "inherited-48bc895562fb245d",
           "en": "§cComplete all requirements",
           "ru": "§cВыполните все требования"
+        },
+        {
+          "id": "hub-postrelease-line-9fe9c017d2765887",
+          "en": "§c✖§7 Carry: <num> Tol Rune",
+          "ru": "§c✖§7 При себе: §fРуны Tol - <num>"
+        },
+        {
+          "id": "hub-postrelease-line-99615b9a132bd093",
+          "en": "§a✔§7 Quest: The Realm of Light",
+          "ru": "§a✔§7 Квест: §fThe Realm of Light"
+        },
+        {
+          "id": "hub-postrelease-line-71eb845402001abd",
+          "en": "§c✖§7 Carry: <num> Uth Rune",
+          "ru": "§c✖§7 При себе: §fРуны Uth - <num>"
         }
       ]
     },
@@ -415,6 +430,1736 @@
           "id": "line-3cf81647839a5cd6",
           "en": "§7at §f[<num>, <num>, <num>]§7.",
           "ru": "§#AAAAAAу §#FFFFFF[§#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF, §#FFFFFF<num>§#FFFFFF]§#AAAAAA."
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-08db7930dcd338ca",
+      "match": {
+        "title": "§7Green Gloop [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Green Gloop [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-c039733910551a45",
+          "en": "§7Talk to Eluzterp at §f[<num>, <num>,",
+          "ru": "§7Поговорите с Элузтерпом: §f[<num>, <num>,"
+        },
+        {
+          "id": "hub-questbook-ba20f4d093a53ea3",
+          "en": "<em>- +Access to the Glassblowing",
+          "ru": "<em>- +Доступ к торговцу"
+        },
+        {
+          "id": "hub-questbook-150064b7ad9bb00e",
+          "en": "Merchant",
+          "ru": "стеклодуву"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-ce9c1d3507a7fdda",
+      "match": {
+        "title": "§7Taking the Tower [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Taking the Tower [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-5c6ca6f54b43e31b",
+          "en": "§7Speak to Aledar in the Detlas",
+          "ru": "§7Поговорите с Аледаром в казармах"
+        },
+        {
+          "id": "hub-questbook-4f5078c3e1b16398",
+          "en": "§7Barracks at §f[<num>, <num>, <num>]§7.",
+          "ru": "§7Детласа: §f[<num>, <num>, <num>]§7."
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-47de59fda887e3fe",
+      "match": {
+        "title": "§7A Sandy Scandal [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7A Sandy Scandal [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-8ed8e1098efb781c",
+          "en": "§7Talk to the Almuj Bank Guard at",
+          "ru": "§7Поговорите со Стражником Банка Алмуджа:"
+        },
+        {
+          "id": "hub-questbook-21740d13559c47d1",
+          "en": "§7Don't let the bandits escape!",
+          "ru": "§7Не дайте бандитам сбежать!"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-71b40a4b8f6de5d6",
+      "match": {
+        "title": "§7Arachnids' Ascent [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Arachnids' Ascent [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-2d8b6e0b389c1354",
+          "en": "§7Talk to Admiral Aegis in the",
+          "ru": "§7Поговорите с Адмиралом Аегисом в"
+        },
+        {
+          "id": "hub-questbook-3aba0449c5f5e979",
+          "en": "§7Detlas Barracks at §f[<num>, <num>,",
+          "ru": "§7казармах Детласа: §f[<num>, <num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-39a7baa18503deff",
+      "match": {
+        "title": "§7Brothers Return [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Brothers Return [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-46860cd58b52f200",
+          "en": "§7Speak to Sayleros at §f[<num>, <num>,",
+          "ru": "§7Поговорите с Сайлеросом: §f[<num>, <num>,"
+        },
+        {
+          "id": "hub-description-9f9159fa4c997b5f",
+          "en": "<em>- +Access to the Saint's Row",
+          "ru": "<em>- +Доступ к"
+        },
+        {
+          "id": "hub-description-5aff5c4f786f237f",
+          "en": "Graveyard",
+          "ru": "кладбищу Saint's Row"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-d026c62769468745",
+      "match": {
+        "title": "§7Cluck Cluck [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Cluck Cluck [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-4f5743e8c945c7d4",
+          "en": "§7Talk to Nohno on Rooster Island",
+          "ru": "§7Поговорите с Нохно на Петушином Острове"
+        },
+        {
+          "id": "hub-questbook-b40c31ba5f8aece8",
+          "en": "§7at §f[<num>, <num>, <num>]§7",
+          "ru": "§7Координаты: §f[<num>, <num>, <num>]§7"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-cf6502b3827cb0a5",
+      "match": {
+        "title": "§7Deja Vu [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Deja Vu [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-10dc45f805831d09",
+          "en": "§7Talk to Asher near Time Valley",
+          "ru": "§7Поговорите с Ашером у Долины Времени"
+        },
+        {
+          "id": "hub-questbook-531cdad274b451d2",
+          "en": "§7at §f[<num>, <num>, <num>]§7.",
+          "ru": "§7Координаты: §f[<num>, <num>, <num>]§7."
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-e7557afb4f4b36bf",
+      "match": {
+        "title": "§7Enzan's Brother [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Enzan's Brother [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-c4b17579d34f9b9a",
+          "en": "§7Talk to Enzan close to the exit",
+          "ru": "§7Поговорите с Энзаном у выхода"
+        },
+        {
+          "id": "hub-questbook-2dea03476ab66a9b",
+          "en": "§7of Ragni at §f[<num>, <num>, <num>]§7",
+          "ru": "§7из Рагни: §f[<num>, <num>, <num>]§7"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-6ed87e8d954a89d7",
+      "match": {
+        "title": "§7Fate of the Fallen [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Fate of the Fallen [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-8d8931dad8d28f6c",
+          "en": "§7Talk to Telvu the mage at §f[<num>,",
+          "ru": "§7Поговорите с магом Телву: §f[<num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-c89efa8805275a33",
+      "match": {
+        "title": "§7Recover the Past [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Recover the Past [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-97a4ba6c2fd30b08",
+          "en": "§7Talk to Dr. Picard at §f[<num>,",
+          "ru": "§7Поговорите с Д-ром Пикардом: §f[<num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-3c4620c981e45851",
+      "match": {
+        "title": "§7The Mercenary [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Mercenary [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-54e006592fb19954",
+          "en": "§7Talk to the Scout in Detlas at",
+          "ru": "§7Поговорите с Разведчиком в Детласе:"
+        },
+        {
+          "id": "hub-questbook-f2118f53ab186e72",
+          "en": "§7§f[<num>, <num>, <num>]§7 or find one in",
+          "ru": "§7§f[<num>, <num>, <num>]§7 или найдите его в"
+        },
+        {
+          "id": "hub-questbook-38be61c85226d53d",
+          "en": "§7another town.",
+          "ru": "§7другом городе."
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-0d71bcd7359a5c39",
+      "match": {
+        "title": "§7Celebrations in Smoke [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Celebrations in Smoke [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-d08722dace799396",
+          "en": "§7Read the noticeboard at §f[<num>,",
+          "ru": "§7Прочитайте объявление: §f[<num>,"
+        },
+        {
+          "id": "hub-questbook-0028477ceba2df3f",
+          "en": "§f<num>, <num>]§7 near Aldwell",
+          "ru": "§f<num>, <num>]§7 у Олдвелла"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-516b96f95462501a",
+      "match": {
+        "title": "§7Dwelling Walls [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Dwelling Walls [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-97b860d2941f6c78",
+          "en": "§7Enter the mansion §f[<num>, <num>,",
+          "ru": "§7Войдите в особняк: §f[<num>, <num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-dc5e4d65430e70c2",
+      "match": {
+        "title": "§7Lava Springs [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Lava Springs [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-a1d8480015790c5f",
+          "en": "§7Talk to Colonel Gailard at",
+          "ru": "§7Поговорите с Полковником Гайлардом:"
+        },
+        {
+          "id": "hub-description-05cad4f4326d2722",
+          "en": "<em>- +Access to Bremminglar's",
+          "ru": "<em>- +Доступ к лечебной лавке"
+        },
+        {
+          "id": "hub-description-2179f1c9a2d41124",
+          "en": "Healer Shop",
+          "ru": "Бремминглара"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-fca6030ce6477476",
+      "match": {
+        "title": "§7Lost Tower [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Lost Tower [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-8599033909448a50",
+          "en": "§7Talk to Laen in Nemract at §f[<num>,",
+          "ru": "§7Поговорите с Лаеном в Немракте: §f[<num>,"
+        },
+        {
+          "id": "hub-questbook-36e1a1247508c89b",
+          "en": "§7Find the book in the tower, and",
+          "ru": "§7Найдите книгу в башне и"
+        },
+        {
+          "id": "hub-questbook-3f2ce6f8b58af411",
+          "en": "§7bring it back to Laen",
+          "ru": "§7принесите её Лаену"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-f4d7a589030e4871",
+      "match": {
+        "title": "§7Meaningful Holiday [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Meaningful Holiday [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-986b1acd4d968ecf",
+          "en": "§7Talk to Haily in Almuj at §f[<num>,",
+          "ru": "§7Поговорите с Хэйли в Алмудже: §f[<num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-a549038eea52050c",
+      "match": {
+        "title": "§7Misadventure on the Sea [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Misadventure on the Sea [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-28e902bde6264b73",
+          "en": "§7Sit down at the Nemract bar at",
+          "ru": "§7Сядьте в баре Немракта:"
+        },
+        {
+          "id": "hub-description-d9a88bb99d532e4a",
+          "en": "<em>- +Passes to Selchar from the",
+          "ru": "<em>- +Бесплатные билеты Seaskipper"
+        },
+        {
+          "id": "hub-description-26a6fc8a570e8e91",
+          "en": "Seaskipper are now free",
+          "ru": "до Селчара"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-b56cfae57a7987cb",
+      "match": {
+        "title": "§7Pit of the Dead [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Pit of the Dead [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-ffbdaf552bcd19ef",
+          "en": "§7Talk to Merloni in Nemract at",
+          "ru": "§7Поговорите с Мерлони в Немракте:"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-d2cfea5f361c15ab",
+      "match": {
+        "title": "§7Star Thief [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Star Thief [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-0d1c106f29209d48",
+          "en": "§7Look into the rumors of strange",
+          "ru": "§7Разберитесь в слухах о странной"
+        },
+        {
+          "id": "hub-questbook-812d1e146457d052",
+          "en": "§7weather near the Imal Inn at",
+          "ru": "§7погоде у таверны Ималь:"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-c5852260e5857fc6",
+      "match": {
+        "title": "§7The Dark Descent [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Dark Descent [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-67cf818503d146d6",
+          "en": "§7Talk to General Graken at §f[<num>,",
+          "ru": "§7Поговорите с Генералом Гракеном: §f[<num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-a51daeb5390f9c87",
+      "match": {
+        "title": "§7Tower of Ascension [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Tower of Ascension [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-4cbf4164acb398dc",
+          "en": "§7Talk to Ankou at §f[<num>, <num>,",
+          "ru": "§7Поговорите с Анку: §f[<num>, <num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-e49d237883a6119b",
+      "match": {
+        "title": "§7True Colours [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7True Colours [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-f4e5f450e16e8f50",
+          "en": "§7Meet up with The Canopy at",
+          "ru": "§7Встретьтесь с Пологом:"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-4f4435f128caa6fe",
+      "match": {
+        "title": "§7Underice [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Underice [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-8a968f43cf85abaa",
+          "en": "§7Talk to Fredris in Nesaak at",
+          "ru": "§7Поговорите с Фредрисом в Несааке:"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-c4575fa5c56cca34",
+      "match": {
+        "title": "§7Underwater [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Underwater [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-questbook-d9971445f86660f0",
+          "en": "§7Go through the cave at §f[<num>,",
+          "ru": "§7Пройдите через пещеру: §f[<num>,"
+        },
+        {
+          "id": "hub-questbook-7dfbe321c965f22e",
+          "en": "§f<num>, <num>]§7 to find Sayrr on his",
+          "ru": "§f<num>, <num>]§7 и найдите Сэйрра в его"
+        },
+        {
+          "id": "hub-questbook-a4293c867f26fc9a",
+          "en": "§7boat on the other side",
+          "ru": "§7лодке на другой стороне"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-af0e36e4678c2a6d",
+      "match": {
+        "title": "§7Dwarves and Doguns Part II [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Dwarves and Doguns Part II [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-ad37caa631dc04f3",
+          "en": "<em>- +Access to Juggler's fast",
+          "ru": "<em>- +Быстрое перемещение"
+        },
+        {
+          "id": "hub-description-bca071bde33c8bc9",
+          "en": "<em>- +Access to the",
+          "ru": "<em>- +Доступ к торговому туннелю"
+        },
+        {
+          "id": "hub-description-61205b29dd763433",
+          "en": "Thanos-Rodoroc trading tunnel",
+          "ru": "между Таносом и Родороком"
+        },
+        {
+          "id": "hub-description-db9dc496e5b2edca",
+          "en": "travel to Rodoroc",
+          "ru": "в Родорок через Жонглёра"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-c0be8a765480300e",
+      "match": {
+        "title": "§7Recipe For Disaster [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Recipe For Disaster [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-8e407f5a4d5febe6",
+          "en": "<em>- +Access to Juggler's fast",
+          "ru": "<em>- +Быстрое перемещение"
+        },
+        {
+          "id": "hub-description-2c69464fa07d3283",
+          "en": "travel to Ahmsord",
+          "ru": "в Ахмсорд через Жонглёра"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-fe32d74a2683d4f3",
+      "match": {
+        "title": "§7The Hidden City [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Hidden City [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-aec59f99568f16bf",
+          "en": "<em>- +Access to Juggler's fast",
+          "ru": "<em>- +Быстрое перемещение"
+        },
+        {
+          "id": "hub-description-818a72abf055628e",
+          "en": "between Thesead and Eltom",
+          "ru": "между Тисидом и Элтомом"
+        },
+        {
+          "id": "hub-description-06827f4dd71c5539",
+          "en": "travel to Thesead",
+          "ru": "в Тисид через Жонглёра"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-48c261d7d5815a48",
+      "match": {
+        "title": "§7Slay Skeletons [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Slay Skeletons [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-36a8cdaf8c53aba8",
+          "en": "§7Bring §3[<num> Bone Meal]§7 to the",
+          "ru": "§7Принесите §3[<num> Bone Meal]§7 к"
+        },
+        {
+          "id": "hub-description-167dc1bbecd063a5",
+          "en": "§7Slaying Post §3[Combat Lv. <num>]§7 at",
+          "ru": "§7Охотничьей Стойке §3[Боевой Ур. <num>]§7 по"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-9e156b24eb753059",
+      "match": {
+        "title": "§7Slay Scarabs [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Slay Scarabs [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-62ef3b2462f0db50",
+          "en": "§7Bring §3[<num> Mashed Insect]§7 to the",
+          "ru": "§7Принесите §3[<num> Mashed Insect]§7 к"
+        },
+        {
+          "id": "hub-description-2c9cce6211642cd4",
+          "en": "§7Slaying Post §3[Combat Lv. <num>]§7 at",
+          "ru": "§7Охотничьей Стойке §3[Боевой Ур. <num>]§7 по"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-9b680de4597b497d",
+      "match": {
+        "title": "§7Cook Assistant [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Cook Assistant [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-d8d95f2ebdc53725",
+          "en": "<em>- +Ability to use First Steps",
+          "ru": "<em>- +Возможность носить First Steps"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-5463ee1a9d4f1c95",
+      "match": {
+        "title": "§7Gather Wheat [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Gather Wheat [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-3a2245bb7efe3227",
+          "en": "§7Bring §3[<num> Wheat String]§7 or §3[<num>",
+          "ru": "§7Принесите §3[<num> Wheat String]§7 или §3[<num>"
+        },
+        {
+          "id": "hub-description-154f9a5be8eb7892",
+          "en": "§3Wheat Grains]§7 to the Gathering",
+          "ru": "§3Wheat Grains]§7 к Сборочной"
+        },
+        {
+          "id": "hub-description-3d2800392997ea09",
+          "en": "§7Post at §f[<num>, <num>, <num>]§7",
+          "ru": "§7Стойке по координатам §f[<num>, <num>, <num>]§7"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-1783b217aa880474",
+      "match": {
+        "title": "§7Through the Pipes [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Through the Pipes [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-6ec577dc7267e3aa",
+          "en": "<em>- +Access to the Roughworks",
+          "ru": "<em>- +Доступ к ресурсной шахте"
+        },
+        {
+          "id": "hub-description-7b274430be9a64a7",
+          "en": "Resource Mine",
+          "ru": "Роухворкса"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-3617ff2183bd7090",
+      "match": {
+        "title": "§7Revelations in Fall [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Revelations in Fall [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-05872966edfbdb76",
+          "en": "<em>- +Access to the Roughworks",
+          "ru": "<em>- +Доступ к ресурсной шахте"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-be69d17c5b059975",
+      "match": {
+        "title": "§7Dwarves and Doguns Part III [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Dwarves and Doguns Part III [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-9c029d7b6de04f59",
+          "en": "Resource Mine",
+          "ru": "Роухворкса"
+        },
+        {
+          "id": "hub-description-750ec3648a71ab34",
+          "en": "<em>- +Access to the Maex",
+          "ru": "<em>- +Доступ к шахте Маэкса"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-77b2127188c70195",
+      "match": {
+        "title": "§7Tunnel Trouble [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Tunnel Trouble [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-2fe86002c8f39c77",
+          "en": "between Ragni and Detlas",
+          "ru": "между Рагни и Детласом"
+        },
+        {
+          "id": "hub-description-59ad87ae98b3efe4",
+          "en": "§7Talk to Captain Fenor in front",
+          "ru": "§7Поговорите с Капитаном Фенором перед"
+        },
+        {
+          "id": "hub-description-ca689433b21e2ed6",
+          "en": "§7of Detlas at §f[<num>, <num>, <num>]§7.",
+          "ru": "§7Детласом: §f[<num>, <num>, <num>]§7."
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-56ec5939fb2bb533",
+      "match": {
+        "title": "§7Infested Plants [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Infested Plants [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-50ff93912b80c0ca",
+          "en": "<em>- +Ability to use Waist Apron",
+          "ru": "<em>- +Возможность носить Waist Apron"
+        },
+        {
+          "id": "hub-description-1bfd67d89da2acf3",
+          "en": "§7Meet up with Tasim at the",
+          "ru": "§7Встретьтесь с Тасимом у"
+        },
+        {
+          "id": "hub-description-70b0fe8542009620",
+          "en": "§7entrance to Nivla Woods at",
+          "ru": "§7входа в лес Нивла по координатам"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-da6488e049b869d5",
+      "match": {
+        "title": "§7Tempo Town Trouble [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Tempo Town Trouble [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-4f2f6ad788aa3a17",
+          "en": "<em>- +Access to Time Valley's",
+          "ru": "<em>- +Доступ к боссам Time Trouble"
+        },
+        {
+          "id": "hub-description-daedd95f791faa23",
+          "en": "Time Trouble bosses",
+          "ru": "в Долине Времени"
+        },
+        {
+          "id": "hub-description-c3a6f20062ceb110",
+          "en": "<em>- +Access to Mysterious",
+          "ru": "<em>- +Доступ к быстрому перемещению"
+        },
+        {
+          "id": "hub-description-d5441bac544b857d",
+          "en": "Obelisk fast travel",
+          "ru": "через Таинственный Обелиск"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-c6b62c4b678be002",
+      "match": {
+        "title": "§7Apotheosis [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Apotheosis [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-ab55f30a89d11019",
+          "en": "<em>- +Access to the Wartorn",
+          "ru": "<em>- +Доступ к рейду Wartorn"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-cb9951120908d787",
+      "match": {
+        "title": "§7Gather Sandstone II [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Gather Sandstone II [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-274da325194115ba",
+          "en": "§7Bring §3[<num> Sandstone Ingots]§7 or",
+          "ru": "§7Принесите §3[<num> Sandstone Ingots]§7 или"
+        },
+        {
+          "id": "hub-description-1382aca738959f20",
+          "en": "§7§3[<num> Sandstone Gems]§7 to the",
+          "ru": "§7§3[<num> Sandstone Gems]§7 к"
+        },
+        {
+          "id": "hub-description-06249fc86e155826",
+          "en": "§7Gathering Post at §f[<num>, <num>,",
+          "ru": "§7Сборочной Стойке по координатам §f[<num>, <num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-bbb5b48312279b51",
+      "match": {
+        "title": "§7Gather Willow Logs I [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Gather Willow Logs I [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-2d22f392208b98e9",
+          "en": "§7Bring §3[<num> Willow Wood]§7 or §3[<num>",
+          "ru": "§7Принесите §3[<num> Willow Wood]§7 или §3[<num>"
+        },
+        {
+          "id": "hub-description-52e076a1f3ba7341",
+          "en": "§3Willow Paper]§7 to the Gathering",
+          "ru": "§3Willow Paper]§7 к Сборочной"
+        },
+        {
+          "id": "hub-description-5b1d193a1046829c",
+          "en": "§7Post at §f[<num>, <num>, <num>]§7",
+          "ru": "§7Стойке по координатам §f[<num>, <num>, <num>]§7"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-dc31ebe7e502302d",
+      "match": {
+        "title": "§7Ensemble of Hope [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Ensemble of Hope [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-cbc2c0834314dc59",
+          "en": "<em>- +Access to Aelumia Citadel",
+          "ru": "<em>- +Доступ к цитадели Аэлумии"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-ae3501033ac30fc8",
+      "match": {
+        "title": "§7One Thousand Meters Under [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7One Thousand Meters Under [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-3c73949684fa41dc",
+          "en": "<em>- +Access to the Void",
+          "ru": "<em>- +Доступ к Пустоте"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-ef9d65875e92f9e0",
+      "match": {
+        "title": "§7A Journey Home [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7A Journey Home [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-2a8b5251da4cf365",
+          "en": "<em>- +Access to the Auburn Forest",
+          "ru": "<em>- +Доступ к Аубёрнскому Лесу"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-ae39ed3fe9943e12",
+      "match": {
+        "title": "§7Shrouded in Mist [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Shrouded in Mist [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-3ce3b399ed05f3f9",
+          "en": "<em>- +Access to the Canopy",
+          "ru": "<em>- +Доступ к Пологу"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-2413ddef5fc212fb",
+      "match": {
+        "title": "§7Off the Rails [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Off the Rails [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-d22a361f92b18d89",
+          "en": "<em>- +Access to the Fruman",
+          "ru": "<em>- +Доступ к подземельям"
+        },
+        {
+          "id": "hub-description-bb31eecbbc8b830b",
+          "en": "Underground",
+          "ru": "Фрумы"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-19085fca03b9cd24",
+      "match": {
+        "title": "§7A Hunter's Calling [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7A Hunter's Calling [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-9fa5f817c1c9bb9f",
+          "en": "<em>- +Access to Hunted Mode",
+          "ru": "<em>- +Доступ к режиму Hunted"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-873da5697833abc7",
+      "match": {
+        "title": "§7The Realm of Light [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Realm of Light [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-c7a58f73de9f08a1",
+          "en": "<em>- +Access to Orphion's Nexus",
+          "ru": "<em>- +Доступ к рейду Orphion's Nexus"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-1cb96787cbcd5643",
+      "match": {
+        "title": "§7The Breaking Point [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Breaking Point [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-43450c456be559c2",
+          "en": "<em>- +Access to The Canyon",
+          "ru": "<em>- +Доступ к рейду The Canyon"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-032311e3dcf5f81c",
+      "match": {
+        "title": "§7The Canyon Guides [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Canyon Guides [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-7f88b86a17edd6a7",
+          "en": "<em>- +Access to Bantisu Quarters",
+          "ru": "<em>- +Доступ к Покоям Бантису"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-19ffd53f3730c6bd",
+      "match": {
+        "title": "§7King's Recruit [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7King's Recruit [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-6a2f960b13ce5db9",
+          "en": "<em>- +Access to the Province of",
+          "ru": "<em>- +Доступ к провинции"
+        },
+        {
+          "id": "hub-description-59f063080067c25c",
+          "en": "Wynn",
+          "ru": "Винн"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-96d0899e4e2d5da2",
+      "match": {
+        "title": "§7Canyon Condor [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Canyon Condor [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-ae71480942da618b",
+          "en": "<em>- +Access to Rymek elevators",
+          "ru": "<em>- +Доступ к подъёмникам Римека"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-955385df959c3370",
+      "match": {
+        "title": "§7Stable Story [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Stable Story [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-58d1172e9f7c4e60",
+          "en": "<em>- +Access to Ternaves Ranch",
+          "ru": "<em>- +Доступ к ранчо Тернавеса"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-4f6e8aa27670960a",
+      "match": {
+        "title": "§7Supply and Delivery [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Supply and Delivery [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-c13d52d9beca349b",
+          "en": "<em>- +Access to the Alekin",
+          "ru": "<em>- +Доступ к быстрому перемещению"
+        },
+        {
+          "id": "hub-description-1627a4f6e9f9239a",
+          "en": "Village fast travel",
+          "ru": "в деревню Алекин"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-96747f4b804e2f6e",
+      "match": {
+        "title": "§7Ice Nations [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Ice Nations [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-6c79c2115de7cfbf",
+          "en": "<em>- +Access to the Dujgon",
+          "ru": "<em>- +Доступ к кузнецу"
+        },
+        {
+          "id": "hub-description-ddcb44f8604acb03",
+          "en": "Blacksmith",
+          "ru": "Дуйгону"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-a216758f7f4a0bdf",
+      "match": {
+        "title": "§7Burning Bonds [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Burning Bonds [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-ade348554ad15af3",
+          "en": "<em>- +Access to Aldwell Sanctuary",
+          "ru": "<em>- +Доступ к Святилищу Алдвелла"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-42a52d43bc4817b9",
+      "match": {
+        "title": "§7Solidarity of Steel [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Solidarity of Steel [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-0108b938a749fc70",
+          "en": "<em>- +Access to The Steel",
+          "ru": "<em>- +Доступ к быстрому перемещению"
+        },
+        {
+          "id": "hub-description-3c25395a3cd7e6c6",
+          "en": "Feather Fast Travel",
+          "ru": "на The Steel Feather"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-e7e856bc65060c40",
+      "match": {
+        "title": "§7The Olmic Rune [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Olmic Rune [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-3e003208a522e4e0",
+          "en": "<em>- +Access to the Tol rune",
+          "ru": "<em>- +Доступ к обмену"
+        },
+        {
+          "id": "hub-description-f1a7d6ec280323b8",
+          "en": "exchange",
+          "ru": "рун Tol"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-19dfac8f609ac0aa",
+      "match": {
+        "title": "§7A Journey Further [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7A Journey Further [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-059d034eff1ef8c6",
+          "en": "<em>- +Access to the Eldritch",
+          "ru": "<em>- +Доступ к"
+        },
+        {
+          "id": "hub-description-31055fa3184878e4",
+          "en": "Outlook Dungeon",
+          "ru": "подземелью Eldritch Outlook"
+        },
+        {
+          "id": "hub-description-fb7997344b0dc819",
+          "en": "<em>- +Access to The Nameless",
+          "ru": "<em>- +Доступ к рейду The Nameless"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-d6c093cf34e8d68a",
+      "match": {
+        "title": "§7A Journey Beyond [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7A Journey Beyond [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-bcfa1c39141020cc",
+          "en": "<em>- +Access to the Silent",
+          "ru": "<em>- +Доступ к Безмолвной"
+        },
+        {
+          "id": "hub-description-110e7b850efb4e50",
+          "en": "Expanse",
+          "ru": "Пустоши"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-8c2f1af038fcc571",
+      "match": {
+        "title": "§7The Feathers Fly Part II [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Feathers Fly Part II [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-aac03fef0bed0f12",
+          "en": "<em>- +Access to the Workshop",
+          "ru": "<em>- +Доступ к Мастерской"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-b752f8bca4bfd0ae",
+      "match": {
+        "title": "§7Dwarves and Doguns Part IV [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Dwarves and Doguns Part IV [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-8ed5bacdb295c793",
+          "en": "<em>- +Access to the Ingredient",
+          "ru": "<em>- +Доступ к магазину"
+        },
+        {
+          "id": "hub-description-7c04ce018e3085c2",
+          "en": "shop in Maex",
+          "ru": "ингредиентов в Маэксе"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-919ae77987bf6bb5",
+      "match": {
+        "title": "§7Gather Granite [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Gather Granite [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-c3d91a4f684772e0",
+          "en": "§7Bring §3[<num> Granite Ingots]§7 or",
+          "ru": "§7Принесите §3[<num> Granite Ingots]§7 или"
+        },
+        {
+          "id": "hub-description-63290db48e972089",
+          "en": "§7§3[<num> Granite Gems]§7 to the",
+          "ru": "§7§3[<num> Granite Gems]§7 к"
+        },
+        {
+          "id": "hub-description-69186c07c4c27eb8",
+          "en": "§7Gathering Post at §f[<num>, <num>,",
+          "ru": "§7Сборочной Стойке по координатам §f[<num>, <num>,"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-339387670e43c62f",
+      "match": {
+        "title": "§7Gather Oak Logs [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Gather Oak Logs [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-afeb8ce1e7670512",
+          "en": "§7Bring §3[<num> Oak Wood]§7 or §3[<num> Oak",
+          "ru": "§7Принесите §3[<num> Oak Wood]§7 или §3[<num> Oak"
+        },
+        {
+          "id": "hub-description-7e2ca171ba649390",
+          "en": "§3Paper]§7 to the Gathering Post at",
+          "ru": "§3Paper]§7 к Сборочной Стойке по координатам"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-ae8922176d9a4421",
+      "match": {
+        "title": "§7Gather Birch Logs [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Gather Birch Logs [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-d99636f2a39f7348",
+          "en": "§7Bring §3[<num> Birch Wood]§7 or §3[<num>",
+          "ru": "§7Принесите §3[<num> Birch Wood]§7 или §3[<num>"
+        },
+        {
+          "id": "hub-description-cbed28891e40c261",
+          "en": "§3Birch Paper]§7 to the Gathering",
+          "ru": "§3Birch Paper]§7 к Сборочной"
+        },
+        {
+          "id": "hub-description-26e0930ba4ac62c2",
+          "en": "§7Post at §f[<num>, <num>, <num>]§7",
+          "ru": "§7Стойке по координатам §f[<num>, <num>, <num>]§7"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-4ecc03d4f8c52232",
+      "match": {
+        "title": "§7Gather Gold I [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Gather Gold I [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-559b94fbac57571c",
+          "en": "§7Bring §3[<num> Gold Ingots]§7 or §3[<num>",
+          "ru": "§7Принесите §3[<num> Gold Ingots]§7 или §3[<num>"
+        },
+        {
+          "id": "hub-description-d1e74a520c313760",
+          "en": "§3Gold Gems]§7 to the Gathering",
+          "ru": "§3Gold Gems]§7 к Сборочной"
+        },
+        {
+          "id": "hub-description-bbb7d090802e0bc2",
+          "en": "§7Post at §f[<num>, <num>, <num>]§7",
+          "ru": "§7Стойке по координатам §f[<num>, <num>, <num>]§7"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-b3b6d988e5cf6435",
+      "match": {
+        "title": "§7Gather Gudgeon [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Gather Gudgeon [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-8527340672931f11",
+          "en": "§7Bring §3[<num> Gudgeon Oil]§7 or §3[<num>",
+          "ru": "§7Принесите §3[<num> Gudgeon Oil]§7 или §3[<num>"
+        },
+        {
+          "id": "hub-description-add5e1dfd637921b",
+          "en": "§3Gudgeon Meat]§7 to the Gathering",
+          "ru": "§3Gudgeon Meat]§7 к Сборочной"
+        },
+        {
+          "id": "hub-description-67a70702749c0a23",
+          "en": "§7Post at §f[<num>, <num>, <num>]§7",
+          "ru": "§7Стойке по координатам §f[<num>, <num>, <num>]§7"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-7c1e99615852568c",
+      "match": {
+        "title": "§7Slay Spiders [Mini-Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Slay Spiders [Mini-Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-54938dbdf42ce5f1",
+          "en": "§7Bring §3[<num> Forest Webs]§7 to the",
+          "ru": "§7Принесите §3[<num> Forest Webs]§7 к"
+        },
+        {
+          "id": "hub-description-74ce831196175eae",
+          "en": "§7Slaying Post §3[Combat Lv. <num>]§7 at",
+          "ru": "§7Охотничьей Стойке §3[Боевой Ур. <num>]§7 по"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-9d0d254235b85a7b",
+      "match": {
+        "title": "§7Dearly Departed [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Dearly Departed [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-61bd5619996cd629",
+          "en": "§7Talk to Farmer Cevalus at",
+          "ru": "§7Поговорите с Фермером Севалусом:"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-131310f735c4be71",
+      "match": {
+        "title": "§7Mushroom Man [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Mushroom Man [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-80e1e981fafc159f",
+          "en": "§c✖§7 Quest: Infested Plants",
+          "ru": "§c✖§7 Квест: §fInfested Plants"
+        }
+      ]
+    },
+    {
+      "id": "hub-questbook-42f9fb217ddb0fb4",
+      "match": {
+        "title": "§7The Sewers of Ragni [Quest]",
+        "anchors": [],
+        "priority": 5800
+      },
+      "title": {
+        "id": "title",
+        "en": "§7The Sewers of Ragni [Quest]",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "hub-description-c07b3a0a73393aef",
+          "en": "§7The Lieutenant at §f[<num>, <num>,",
+          "ru": "§7Лейтенанту по координатам §f[<num>, <num>,"
+        },
+        {
+          "id": "hub-description-a6734208e715536c",
+          "en": "§f<num>]§7 needs help.",
+          "ru": "§f<num>]§7 нужна помощь."
         }
       ]
     }

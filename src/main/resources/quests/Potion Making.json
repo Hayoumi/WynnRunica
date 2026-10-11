@@ -216,6 +216,34 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Варка зелий",
       "speaker": "",
       "stage": "Stage 4"
+    },
+    {
+      "id": "hub-live-dialogue-5fc13db23715",
+      "en": "Get me... [<num> Red Mushroom], they can be found outside the east gate behind me.",
+      "ru": "§r§fПринеси мне... §3[<num> Red Mushroom]§f, они растут снаружи за §bвосточными воротами§f у меня за спиной.",
+      "speaker": "The Assistant",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-exact-5fc13db23715",
+      "en": "Get me... [8 Red Mushroom], they can be found outside the east gate behind me.",
+      "ru": "§r§fПринеси мне... §3[8 Red Mushroom]§f, они растут снаружи за §bвосточными воротами§f у меня за спиной.",
+      "speaker": "The Assistant",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-4fe97a36ce1d",
+      "en": "You must...ensure that it worked. You...are much stronger than I, stranger...",
+      "ru": "§r§f§#00EB34Надо§f... убедиться, что всё сработало. Ты... куда сильнее меня, странник...",
+      "speaker": "The Assistant",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-7c7df45c7643",
+      "en": "What have you done to this potion, human!? You will pay for it!",
+      "ru": "§r§fЧто ты сделал с этим зельем, человек!? Ты за это заплатишь!",
+      "speaker": "Dr. Essren",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -242,6 +270,16 @@
       "en": "Bring back Essren's Dusty Coat to The Assistant in Detlas",
       "ru": "Принести помощнику в Детласе пыльное пальто Эссрена.",
       "stage": "Stage 4"
+    },
+    {
+      "id": "claude-objective-ee6f11ad0e7f",
+      "en": "Bring back Essren's Dusty Coat to The Assistant in Detlas at [<num>, <num>, <num>]",
+      "ru": "Принести Essren's Dusty Coat помощнику в Детласе [<num>, <num>, <num>]."
+    },
+    {
+      "id": "claude-objective-a7bd5c379ee2",
+      "en": "Enter the hut at [<num>, <num>, <num>], slay Essren, and take his coat",
+      "ru": "Войти в хижину [<num>, <num>, <num>], убить Эссрена и забрать его плащ."
     }
   ],
   "choices": [

@@ -84,15 +84,101 @@ public final class NameplateStyler {
 
     private static final Pattern HAS_WORD = Pattern.compile("\\p{L}{2,}");
 
-    private static final String LEVEL_BADGE = "";
-    private static final String NPC_BADGE = "";
+    private static final String PILL_FONT = "minecraft:banner/pill";
+    private static final Set<String> BANNER_FONTS = Set.of(PILL_FONT, "minecraft:banner/box",
+            "minecraft:banner/ribbon", "minecraft:banner/flag");
+    private static final String LEVEL_BADGE = "" + (char) 0xE00B + (char) 0xE015;
+    private static final String NPC_BADGE = "" + (char) 0xE00D + (char) 0xE00F + (char) 0xE002;
+    private static final char PILL_LEFT = (char) 0xE060;
+    private static final char PILL_GAP = (char) 0xE061;
+    private static final char PILL_RIGHT = (char) 0xE062;
+    private static final String PILL_BACK = new String(Character.toChars(0xCFFFF));
+    private static final java.util.Map<String, String> PILL_WORDS = java.util.Map.ofEntries(
+            java.util.Map.entry("LV", "УР"),
+            java.util.Map.entry("NPC", "НПС"),
+            java.util.Map.entry("CAVE", "ПЕЩЕРА"),
+            java.util.Map.entry("BOSS CAVE", "ПЕЩЕРА БОССА"),
+            java.util.Map.entry("CAVE COMPLEX", "СЕТЬ ПЕЩЕР"),
+            java.util.Map.entry("GATHERING POST", "ПОСТ СБОРА"),
+            java.util.Map.entry("SLAYING POST", "ПОСТ ИСТРЕБЛЕНИЯ"),
+            java.util.Map.entry("DUNGEON", "ПОДЗЕМЕЛЬЕ"),
+            java.util.Map.entry("RAID", "РЕЙД"),
+            java.util.Map.entry("RAID KEEPER", "ХРАНИТЕЛЬ РЕЙДА"),
+            java.util.Map.entry("BOSS ALTAR", "АЛТАРЬ БОССА"),
+            java.util.Map.entry("REWARD CHEST", "СУНДУК НАГРАД"),
+            java.util.Map.entry("TOWER", "БАШНЯ"),
+            java.util.Map.entry("DOCK", "ПРИЧАЛ"),
+            java.util.Map.entry("YOU ARE AFK", "ВЫ АФК"));
+
+    public static Text translatePills(Text text) {
+        List<Style> styles = new ArrayList<>();
+        List<String> parts = new ArrayList<>();
+        text.visit((style, value) -> {
+            styles.add(style);
+            parts.add(value);
+            return Optional.empty();
+        }, Style.EMPTY);
+        boolean changed = false;
+        for (int i = 0; i + 1 < parts.size(); i++) {
+            if (!isPill(styles.get(i)) || !isPill(styles.get(i + 1))) continue;
+            if (parts.get(i).isEmpty() || parts.get(i).charAt(0) != PILL_LEFT) continue;
+            String label = pillLabel(parts.get(i + 1));
+            if (label == null) continue;
+            String plate = pillPlate(label, styles.get(i));
+            if (plate == null) continue;
+            parts.set(i, plate);
+            parts.set(i + 1, label);
+            changed = true;
+        }
+        if (!changed) return text;
+        MutableText result = Text.empty();
+        for (int i = 0; i < parts.size(); i++) result.append(Text.literal(parts.get(i)).setStyle(styles.get(i)));
+        return result;
+    }
+
+    private static boolean isPill(Style style) {
+        return style.getFont() instanceof StyleSpriteSource.Font font && BANNER_FONTS.contains(font.id().toString());
+    }
+
+    static String pillLabel(String source) {
+        StringBuilder word = new StringBuilder();
+        int at = 0;
+        while (at < source.length()) {
+            char c = source.charAt(at);
+            if (c >= 0xE000 && c <= 0xE019) word.append((char) ('A' + c - 0xE000));
+            else if (c == ' ') word.append(' ');
+            else break;
+            at++;
+        }
+        String translated = PILL_WORDS.get(word.toString().trim());
+        if (translated == null) return null;
+        String gap = word.toString().endsWith(" ") ? " " : "";
+        return translated + gap + source.substring(at);
+    }
+
+    static String pillPlate(String label, Style style) {
+        StringBuilder plate = new StringBuilder().append(PILL_LEFT).append(PILL_BACK);
+        for (int i = 0; i < label.length(); i++) {
+            char c = label.charAt(i);
+            if (Character.isSurrogate(c)) break;
+            if (c == ' ') plate.append(PILL_GAP);
+            else if (c >= 0x410 && c <= 0x42F) plate.append((char) (c + 0x20));
+            else if (c >= 0xE000 && c <= 0xE02F) plate.append((char) (c + 0x30));
+            else if (c >= 0xE070 && c <= 0xE072) plate.append((char) (c + 0x10));
+            else return null;
+            plate.append(PILL_BACK);
+        }
+        plate.append(PILL_RIGHT);
+        int width = TextEmojiUtils.width.applyAsInt(Text.literal(plate.toString()).setStyle(style));
+        return plate.append(Character.toChars(0xD0000 - (width - 2))).toString();
+    }
 
     public static boolean isMob(Text text) {
         return text.visit((style, value) -> {
             if (style.getFont() instanceof StyleSpriteSource.Font font) {
                 String id = font.id().toString();
                 if (id.startsWith("minecraft:nameplate/")) return Optional.of(true);
-                if (id.equals("minecraft:banner/pill") && (value.startsWith(LEVEL_BADGE) || value.startsWith(NPC_BADGE)))
+                if (id.equals(PILL_FONT) && (value.startsWith(LEVEL_BADGE) || value.startsWith(NPC_BADGE)))
                     return Optional.of(true);
             }
             return Optional.empty();

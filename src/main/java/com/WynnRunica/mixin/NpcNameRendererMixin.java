@@ -18,8 +18,6 @@ import net.minecraft.text.Text;
 import net.minecraft.text.TextContent;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(DisplayEntity.TextDisplayEntity.class)
 public abstract class NpcNameRendererMixin implements TranslationManager.NpcRefreshable {
@@ -41,10 +39,16 @@ public abstract class NpcNameRendererMixin implements TranslationManager.NpcRefr
         this.refreshData(false, 0.0f);
     }
 
-    @Inject(method = "getText", at = @At("RETURN"), cancellable = true)
-    private void onGetText(CallbackInfoReturnable<Text> cir) {
-        Text text = cir.getReturnValue();
-        if (text == null) return;
+    @org.spongepowered.asm.mixin.Shadow
+    private Text getText() {
+        throw new AssertionError();
+    }
+
+    @org.spongepowered.asm.mixin.injection.Redirect(method = {"copyData", "getLerpedRenderState"}, at = @At(value = "INVOKE",
+            target = "Lnet/minecraft/entity/decoration/DisplayEntity$TextDisplayEntity;getText()Lnet/minecraft/text/Text;"))
+    private Text wr$shownText(DisplayEntity.TextDisplayEntity self) {
+        Text text = getText();
+        if (text == null) return null;
         if (Config.isEnabled("Отправка строк") && text != wr$lastCapture) {
             wr$lastCapture = text;
             Text[] parts = NameplateStyler.splitTail(text);
@@ -52,12 +56,12 @@ public abstract class NpcNameRendererMixin implements TranslationManager.NpcRefr
                 NpcNameplateCapture.record(text);
             }
         }
-        if (!Config.isEnabled(NameplateStyler.isMob(text) || wr$aboveCreature() ? "Имена NPC" : "Надписи в мире")) return;
+        if (!Config.isEnabled(NameplateStyler.isMob(text) || wr$aboveCreature() ? "Имена NPC" : "Надписи в мире")) return text;
         if (text != wr$translationSource) {
             wr$translationSource = text;
-            wr$translationResult = translateText(text);
+            wr$translationResult = NameplateStyler.translatePills(translateText(text));
         }
-        cir.setReturnValue(wr$translationResult);
+        return wr$translationResult;
     }
 
     @org.spongepowered.asm.mixin.Unique

@@ -174,6 +174,18 @@ public final class TelemetrySender {
         triggerFlush();
     }
 
+    public static void recordTitle(String rawText, Text visual) {
+        if (!allowed() || rawText == null || rawText.isBlank()) return;
+        String norm = normalize(rawText, true);
+        if (!isUsefulText(norm)) return;
+        String captureId = captureHash("gui", "title", "", "", "", "", "", "", List.of(), norm);
+        if (!SESSION_CAPTURE_IDS.add(captureId)) return;
+        QUEUE.add(new TelemetryItem("gui", norm, "", "", "", "", "title", "", 0, "", "",
+                SESSION_ID, getPlayerUuid(), dialogueSegments(visual), "", "", 0, 0, captureId));
+        ensureWorkerStarted();
+        triggerFlush();
+    }
+
     public static void recordObjective(String rawText, String rawQuest, String rawStage, Text visual) {
         if (!allowed() || rawText == null || rawText.isBlank()) return;
 

@@ -258,6 +258,34 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Проникновение криперов",
       "speaker": "",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-live-dialogue-4fc0be512734",
+      "en": "You had a piece of skin? Well, you don't seem to have it now, so I can't say I believe you.",
+      "ru": "У тебя был кусок кожи? Сейчас-то его у тебя нет, так что не могу сказать, что верю тебе.",
+      "speaker": "Thomas",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-c0a545f7af77",
+      "en": "Have you been to the creeper cave? Just follow the western path and turn left at the pigman camps.",
+      "ru": "Был уже в пещере криперов? Просто иди по западной тропе и у лагерей свинолюдов сверни налево.",
+      "speaker": "Thomas",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-52899338f8b0",
+      "en": "Anyone! Can anyone- oh, hello. You look strong enough to be able to help me.",
+      "ru": "§r§fЭй! Кто-нибудь может- о, привет. Выглядишь достаточно крепким, чтобы помочь мне.",
+      "speaker": "Thomas",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-1a426b957fd1",
+      "en": "We usually get it ourselves, but recently an angry group of pigmen took over the tunnel to the top of the ravine, where the grain grows.",
+      "ru": "§r§fОбычно мы добываем его сами, но недавно разъярённая шайка свинолюдов захватила тоннель, ведущий на вершину ущелья, где растёт это зерно.",
+      "speaker": "Thomas",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -296,6 +324,11 @@
       "en": "Bring Thomas [1 Creeper Powder] to prove him creepers exist in Wynn at [-608, 89, -1431]",
       "ru": "Принести Томасу [1 Creeper Powder] и доказать, что в Винне есть криперы [-608, 89, -1431].",
       "stage": "Stage 6"
+    },
+    {
+      "id": "claude-objective-eba764e6b941",
+      "en": "Bring Thomas [<num> Creeper Powder] to prove to him creepers exist in Wynn at [<num>, <num>, <num>]",
+      "ru": "Принести Томасу [<num> Creeper Powder], чтобы доказать, что криперы в Винне существуют [<num>, <num>, <num>]."
     }
   ],
   "choices": []

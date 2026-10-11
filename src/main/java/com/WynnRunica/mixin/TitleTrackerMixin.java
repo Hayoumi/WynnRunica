@@ -24,6 +24,16 @@ import static com.WynnRunica.TextUtils.extractCleanText;
 @Mixin(InGameHud.class)
 public class TitleTrackerMixin {
 
+    @org.spongepowered.asm.mixin.injection.ModifyVariable(method = "setTitle", at = @At("HEAD"), argsOnly = true)
+    private Text wr$title(Text title) {
+        return com.WynnRunica.GuiTranslator.translateTitle(title);
+    }
+
+    @org.spongepowered.asm.mixin.injection.ModifyVariable(method = "setSubtitle", at = @At("HEAD"), argsOnly = true)
+    private Text wr$subtitle(Text subtitle) {
+        return com.WynnRunica.GuiTranslator.translateTitle(subtitle);
+    }
+
     @Inject(method = "renderOverlayMessage", at = @At("HEAD"))
     private void animateChoices(CallbackInfo ci) {
         ChoiceTicker.renderFrame();
@@ -191,7 +201,6 @@ public class TitleTrackerMixin {
         lines = mergeOverflow(lines);
 
         boolean singleSibling = parts.text().size() == 1;
-        boolean hasInlineIcon = translation.contains("<em>");
         MutableText replacement = Text.literal("");
         int firstText = parts.textIndices().getFirst();
         int indent = 0;
@@ -207,6 +216,10 @@ public class TitleTrackerMixin {
                 }
             }
         }
+
+        String firstRaw = parts.text().getFirst().getString();
+        int lead = TextEmojiUtils.dialogueLeadEnd(firstRaw);
+        if (lead > 0) replacement.append(Text.literal(firstRaw.substring(0, lead)).setStyle(BODY_STYLES[0]));
 
         if (isCenteredHint(parts)) {
             List<MutableText> fullLines = new ArrayList<>();
@@ -224,14 +237,6 @@ public class TitleTrackerMixin {
                 replacement.append(line);
             }
         } else if (singleSibling) {
-            if (!hasInlineIcon && parts.icons().isEmpty()) {
-                String raw = parts.text().getFirst().getString();
-                if (raw.length() >= 2 && Character.isHighSurrogate(raw.charAt(0))) {
-                    replacement.append(Text.literal(raw.substring(0, 2))
-                            .setStyle(BODY_STYLES[0]));
-                }
-            }
-
             for (int i = 0; i < lines.size(); i++) {
                 MutableText line = moveToLine(lines.get(i), i);
                 resetWidth(line, i == 0 ? indent : 0);
@@ -261,8 +266,7 @@ public class TitleTrackerMixin {
 
     private static boolean isCenteredHint(DialogueParts parts) {
         if (parts.speakerIndex() != -1 || parts.hasPortrait()) return false;
-        String first = parts.text().getFirst().getString();
-        return !first.isEmpty() && first.codePointAt(0) >= 0xC0000;
+        return TextEmojiUtils.dialogueCentered(parts.text().getFirst().getString());
     }
 
     private static List<MutableText> wrapWithStableLayout(Text visible, Text layout, int width) {

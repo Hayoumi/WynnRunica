@@ -143,7 +143,7 @@
     {
       "id": "dialogue-0020",
       "en": "Unfortunate... For YOU!",
-      "ru": "Не повезло... ТЕБЕ!",
+      "ru": "§r§fНе повезло... §r§f§lТЕБЕ§r§f!",
       "speaker": "Honip",
       "stage": "Stage 2"
     },
@@ -164,7 +164,7 @@
     {
       "id": "dialogue-0023",
       "en": "Some extremely suspicious pirate comes up, offers you a drink, and leads you to his suspicious boat.",
-      "ru": "К тебе подходит какой-то мутный пират, угощает выпивкой и ведёт на такую же мутную лодку.",
+      "ru": "§r§fК тебе подходит какой-то мутный §r§f§lпират§r§f, угощает выпивкой и ведёт на такую же мутную лодку.",
       "speaker": "Honip",
       "stage": "Stage 2"
     },
@@ -640,7 +640,7 @@
     {
       "id": "dialogue-0091",
       "en": "I have another task for you. It's about... the rats.",
-      "ru": "У меня для тебя ещё одна задачка. Она про... крыс.",
+      "ru": "§r§fУ меня для тебя ещё одна задачка. Она про... §r§f§lкрыс§r§f.",
       "speaker": "Honip",
       "stage": "Stage 4"
     },
@@ -993,6 +993,104 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Злоключение в море",
       "speaker": "",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-live-dialogue-b5d8cbce5760",
+      "en": "Sitting on this stool will start Misadventure on the Sea.",
+      "ru": "Если сесть на этот табурет, начнётся §eMisadventure on the Sea§f.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-56d58c7bbcdd",
+      "en": "So... I've seen ya around town. You've got the soul of an adventurer, don't ya?",
+      "ru": "Ну... я тебя по городу видел. У тебя душа искателя приключений, верно?",
+      "speaker": "Honip",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-78fa7ab27b97",
+      "en": "Two Nemract Whiskeys, comin' right up!",
+      "ru": "Два виски Немракта, уже несу!",
+      "speaker": "Barkeep",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-c2fc4ce53cdc",
+      "en": "If ya want, you can always pick up some seeds 'round here and feed the chicken.",
+      "ru": "Если хочешь, можешь набрать тут семян и покормить курицу.",
+      "speaker": "Pirate",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-409f43d3dfab",
+      "en": "Huh? You lost your sponge?",
+      "ru": "Чего? Губку потерял?",
+      "speaker": "Honip",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-75386554ce93",
+      "en": "Well, here's another one for ya'!",
+      "ru": "Ну, держи ещё одну!",
+      "speaker": "Honip",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-44c4d64d9a86",
+      "en": "Now, get to work!",
+      "ru": "А теперь за работу!",
+      "speaker": "Honip",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-14b9bafdd22b",
+      "en": "You should probably search the hold later, when possible.",
+      "ru": "§7Лучше обыщи трюм позже, когда будет возможность.",
+      "speaker": "Honip",
+      "stage": ""
+    },
+    {
+      "id": "claude-dialogue-e1e92eff8d05",
+      "en": "I'll take two Nemract Whiskeys. One for me, one for this chap.",
+      "ru": "Мне 2 виски Немракта. Один мне, второй вот этому типу.",
+      "speaker": "Honip",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "claude-dialogue-ade24113c076",
+      "en": "I'll wait for ya at the docks. Don't worry, ya can't miss the boat!",
+      "ru": "Я буду ждать тебя на причале. Не волнуйся, мою лодку ты сразу заметишь!",
+      "speaker": "Honip",
+      "stage": "Stage 1"
+    },
+    {
+      "id": "claude-dialogue-8a7f77b08f07",
+      "en": "They're a bit too head on, don't you think?",
+      "ru": "Они как-то уж слишком прямо на нас идут, не находишь?",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "claude-dialogue-dfe39c71fb4b",
+      "en": "I'm tryin' to steer the ship but it's not budging...",
+      "ru": "Я пытаюсь увести корабль, но он вообще не слушается...",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "claude-dialogue-5080b4b38052",
+      "en": "So, there's quite a few bodies in there, and we never bothered throwin' em out!",
+      "ru": "Короче, там внутри полно трупов, а нам всё было лень их выкинуть!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "claude-dialogue-0cca993e8d15",
+      "en": "Go ahead, here's a sponge for the dried blood as well. Just wack the bodies with it!",
+      "ru": "На, держи ещё губку для засохшей крови. Просто лупи ею по трупам!",
+      "speaker": "Honip",
+      "stage": "Stage 2"
     }
   ],
   "objectives": [
@@ -1043,6 +1141,16 @@
       "en": "Find out where you are and a way to flee the island",
       "ru": "Выяснить, куда удалось попасть, и найти способ покинуть остров.",
       "stage": "Stage 8"
+    },
+    {
+      "id": "claude-objective-850f92477325",
+      "en": "Sit down at the Nemract bar at [<num>, <num>, <num>]",
+      "ru": "Присесть в баре Немракта [<num>, <num>, <num>]."
+    },
+    {
+      "id": "claude-objective-91bf24ca929c",
+      "en": "You noticed the cannon could be used to escape. Clean the bodies and see what Honip tells you! -Bodies cleaned: <num>",
+      "ru": "Вы заметили, что с помощью пушки можно сбежать. Уберите тела и узнайте, что скажет Хонип! -Убрано тел: <num>"
     }
   ],
   "choices": []

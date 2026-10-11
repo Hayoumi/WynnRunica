@@ -38,7 +38,7 @@
     {
       "id": "dialogue-0005",
       "en": "Haven't found much... except this verse, 'scribed into the wall over there. Go on, check it out and let me know what you think.",
-      "ru": "Много не нашёл... кроме вот этого стишка, нацарапанного на стене вон там. Сходи, глянь и скажи, что думаешь.",
+      "ru": "Много не нашёл... кроме вот этого стишка, нацарапанного на стене вон там. §bСходи, глянь§f и скажи, что думаешь.",
       "speaker": "Lanu",
       "stage": "Stage 1"
     },
@@ -87,7 +87,7 @@
     {
       "id": "dialogue-0012",
       "en": "The first line is obviously talking about the Great Bridge, but I've no clue what the rest means. Head over there, take a look around, and tell me if you find anything interesting.",
-      "ru": "Первая строка явно про Великий мост, а вот остальное я вообще не врубаюсь. Сходи туда, осмотрись и скажи, если найдёшь что-то интересное.",
+      "ru": "§r§fПервая строка явно про §r§bВеликий мост§r§f, а вот остальное я вообще не врубаюсь. Сходи туда, осмотрись и скажи, если найдёшь что-то интересное.",
       "speaker": "Lanu",
       "stage": "Stage 1"
     },
@@ -587,6 +587,20 @@
       "ru": "Вы все рвётесь стать этим героем из героев, \"Бобом\", но вот вам правда. Он потерян. И вы потеряны.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 5"
+    },
+    {
+      "id": "claude-dialogue-a15af4ce82df",
+      "en": "Go have fun while you can. It's not like you have much of a life to live, anyways.",
+      "ru": "Иди пока развлекайся, если хочешь. У тебя всё равно не то чтобы длинная жизнь впереди.",
+      "speaker": "Slykaar",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "claude-dialogue-9a9d109dfbbb",
+      "en": "If you can, you should head in there and... finish him off. Gear up first, though, and find some friends to watch your back.",
+      "ru": "Если сможешь, тебе стоит пойти туда и... добить его. Только сначала приоденься нормально и возьми с собой друзей, чтобы прикрывали спину.",
+      "speaker": "Lanu",
+      "stage": "Stage 6"
     }
   ],
   "objectives": [
@@ -625,6 +639,11 @@
       "en": "Report back to Lanu about what you've learned.",
       "ru": "Рассказать Лану о том, что удалось узнать.",
       "stage": "Stage 6"
+    },
+    {
+      "id": "claude-objective-9fce0994fc27",
+      "en": "Go to Slykaar's residence at [<num>, <num>, <num>] to find out what is hidden there at",
+      "ru": "Отправиться в жилище Сликаара [<num>, <num>, <num>] и выяснить, что там спрятано."
     }
   ],
   "choices": []

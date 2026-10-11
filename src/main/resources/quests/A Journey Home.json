@@ -227,7 +227,7 @@
     {
       "id": "dialogue-0032",
       "en": "You see that new entrance over there? The expert, Paxon, has been in there for almost as long as I was trying this dud machine.",
-      "ru": "Видишь новый вход вон там? Подрывник, Паксон, сидит внутри чуть ли не с тех пор, как я начал возиться с этим негодным буром.",
+      "ru": "§r§fВидишь §r§bновый вход§r§f вон там? Подрывник, Паксон, сидит внутри чуть ли не с тех пор, как я начал возиться с этим негодным буром.",
       "speaker": "Lieutenant Tolv",
       "stage": "Stage 4"
     },
@@ -297,7 +297,7 @@
     {
       "id": "dialogue-0042",
       "en": "So I have to daisy-chain a limited amount of explosives all the way over to the stone, without blasting any structures!",
-      "ru": "Вот и приходится тянуть цепочку зарядов до самого камня, не задев ни одной постройки! А взрывчатки у меня немного!",
+      "ru": "§r§fВот и приходится тянуть цепочку зарядов до самого камня, §r§bне задев ни одной постройки§r§f! А взрывчатки у меня §r§bнемного§r§f!",
       "speaker": "Paxon",
       "stage": "Stage 5"
     },
@@ -479,7 +479,7 @@
     {
       "id": "dialogue-0068",
       "en": "Look, there's a loot chest in the cave just there, so you need to head in and get yourself some proper equipment.",
-      "ru": "В той пещере стоит сундук. Сходи туда и раздобудь приличное снаряжение.",
+      "ru": "§r§f§r§bВ той пещере стоит сундук§r§f. Сходи туда и раздобудь приличное снаряжение.",
       "speaker": "Soldier",
       "stage": "Stage 10"
     },
@@ -528,7 +528,7 @@
     {
       "id": "dialogue-0075",
       "en": "You can take that armor to an Item Identifier right there, and then you can wear it once identified.",
-      "ru": "Можешь отнести эту броню к опознавателю предметов вон там, а потом спокойно наденешь её после опознания.",
+      "ru": "§r§fМожешь отнести эту броню к §r§bопознавателю предметов§r§f вон там, а потом спокойно наденешь её после опознания.",
       "speaker": "Soldier",
       "stage": "Stage 11"
     },
@@ -703,7 +703,7 @@
     {
       "id": "dialogue-0100",
       "en": "If I see you in the passenger cabin, well...that'll be that, and you'll just have to wait and see what comes of it.",
-      "ru": "Если увижу тебя в пассажирском вагоне, что ж... Значит, ты решил. Тогда сам узнаешь, чем всё обернётся.",
+      "ru": "§r§fЕсли увижу тебя в §r§bпассажирском вагоне§r§f, что ж... Значит, ты решил. Тогда сам узнаешь, чем всё обернётся.",
       "speaker": "Caravan Driver",
       "stage": "Stage 15"
     },
@@ -927,7 +927,7 @@
     {
       "id": "dialogue-0132",
       "en": "I may only grant you access to the pass you took to first come here. Simply take the door and do what you must. I know not what you will find...",
-      "ru": "Я могу лишь открыть тебе доступ к тому проходу, которым ты впервые сюда попал. Просто пройди в дверь и делай, что должен. Не знаю, что ты там найдёшь...",
+      "ru": "§r§fЯ могу лишь открыть тебе доступ к тому проходу, которым ты впервые сюда попал. Просто §r§bпройди в дверь§r§f и делай, что должен. Не знаю, что ты там найдёшь...",
       "speaker": "Ragni's King",
       "stage": "Stage 2"
     },
@@ -1343,6 +1343,78 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Путешествие домой",
       "speaker": "",
       "stage": "Stage 19"
+    },
+    {
+      "id": "hub-live-dialogue-0568c0a0533c",
+      "en": "You see that blue rock over there? It's a break point. If I could set off these explosives at it, it'd open a path.",
+      "ru": "§r§fВидишь тот §r§bсиний камень§r§f? Он непрочный. Если заложить там взрывчатку, можно открыть проход.",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "hub-choice-539727e4930b-0",
+      "en": "But I am equipped!",
+      "ru": "Но у меня есть снаряжение!",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-539727e4930b-1",
+      "en": "But I'm level <num>",
+      "ru": "Но у меня <num> уровень!",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "claude-dialogue-fdd3641041e3",
+      "en": "Alas, I am afraid my hands are quite tied here. There is little I can do- you recall what I said in the meeting.",
+      "ru": "Увы, боюсь, мои руки связаны. Я мало чем могу помочь. Ты ведь помнишь, что я говорил на собрании.",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "claude-dialogue-cf1fb2670607",
+      "en": "I'd advise you be cautious. The Queen's correspondence has been...not unkind, but forceful- And considering the circumstances...",
+      "ru": "Советую быть осторожным. В письмах королевы не было... недоброжелательности, но она была весьма настойчива. А при нынешних обстоятельствах...",
+      "speaker": "Ragni's King",
+      "stage": "Stage 2"
+    },
+    {
+      "id": "claude-dialogue-ddb156be4e0e",
+      "en": "If you feel like wasting your time, here's my stock of explosives. Feel free to try your hand at it, but you should really just go.",
+      "ru": "Если не жаль времени, бери мою взрывчатку и пробуй. Но я бы на твоём месте просто ушёл.",
+      "speaker": "Paxon",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "claude-dialogue-c6592d0bf06c",
+      "en": "Well, let me take a look at it and see if this stuff is up to regulation.",
+      "ru": "Так, дай-ка посмотрю, всё ли у тебя в порядке со снаряжением.",
+      "speaker": "Soldier",
+      "stage": "Stage 10"
+    },
+    {
+      "id": "claude-dialogue-d5e7fe1a3790",
+      "en": "I suppose we'll see once we pass through this gate. It marks the border... Deep breaths, deep breaths...",
+      "ru": "Ну, увидим, когда пройдём через ворота. Это и есть граница... Глубокий вдох, глубокий вдох...",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "claude-dialogue-d39cc1b48c24",
+      "en": "I remember rumors... Something about a great hero. Name started with...an R?",
+      "ru": "Помню только слухи... Что-то про великого героя. Имя вроде начиналось на... Р?",
+      "speaker": "Fruman Recruit",
+      "stage": "Stage 13"
+    },
+    {
+      "id": "claude-dialogue-dca5de110979",
+      "en": "Lot of pairs today. Eight more in the wings... But that's for tomorrow.",
+      "ru": "Сегодня много пар. Ещё восемь на подходе... Но это уже завтра.",
+      "speaker": "Caravan Driver",
+      "stage": "Stage 14"
     }
   ],
   "objectives": [

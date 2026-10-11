@@ -164,7 +164,7 @@
     {
       "id": "dialogue-0023",
       "en": "We've received more information about the incident at Fort Torann. There's a new cursed one to look out for. Dozens of soldiers were killed in an attempt to capture them.",
-      "ru": "Пришли новые сведения о происшествии в форте Торанн. Появился новый Проклятый, за которым нужно следить. При попытке схватить его погибли десятки солдат.",
+      "ru": "§r§fПришли новые сведения о происшествии в форте Торанн. Появился новый §r§#00EB34Проклятый§r§f, за которым нужно следить. При попытке схватить его погибли десятки солдат.",
       "speaker": "Espren Guard Captain",
       "stage": "Stage 1"
     },
@@ -178,7 +178,7 @@
     {
       "id": "dialogue-0025",
       "en": "...Th-this might be a good time to run. While they're distracted! Quick, f-follow me!",
-      "ru": "...С-сейчас лучше бежать. Пока они отвлеклись! Быстро, з-за мной!",
+      "ru": "§r§f...С-сейчас лучше бежать. Пока они отвлеклись! Быстро, §r§bз-за мной§r§f!",
       "speaker": "???",
       "stage": "Stage 1"
     },
@@ -451,7 +451,7 @@
     {
       "id": "dialogue-0064",
       "en": "H-hey again, at the w-window! Tough s-situation, huh?",
-      "ru": "Э-эй, снова я! В о-окне! Попал в п-переделку, да?",
+      "ru": "§r§fЭ-эй, снова я! §r§bВ о-окне§r§f! Попал в п-переделку, да?",
       "speaker": "Zeph",
       "stage": "Stage 5"
     },
@@ -815,7 +815,7 @@
     {
       "id": "dialogue-0116",
       "en": "Enough! Come speak to me.",
-      "ru": "Хватит! Подойди ко мне.",
+      "ru": "§r§fХватит! §r§bПодойди ко мне§r§f.",
       "speaker": "Syndra",
       "stage": "Stage 9"
     },
@@ -962,14 +962,14 @@
     {
       "id": "dialogue-0137",
       "en": "We m-meet again! I knew you'd be a g-good fit!",
-      "ru": "С-снова встретились! Я знал, что ты сможешь к нам п-присоединиться!",
+      "ru": "§r§fС-снова встретились! Я §r§#00EB34знал§r§f, что ты сможешь к нам п-присоединиться!",
       "speaker": "Zeph",
       "stage": "Stage 10"
     },
     {
       "id": "dialogue-0138",
       "en": "Yeah, Zeph, we know. You've been saying so for hours...",
-      "ru": "Да, Зеф, мы уже поняли. Ты твердил это последние несколько часов...",
+      "ru": "§r§fДа, Зеф, мы §r§#00EB34уже поняли§r§f. Ты твердил это последние несколько часов...",
       "speaker": "Rex",
       "stage": "Stage 10"
     },
@@ -1011,14 +1011,14 @@
     {
       "id": "dialogue-0144",
       "en": "Hm... are you certain, miss? I do trust your judgment, but perhaps it would be best to err on the side of caution when dealing with the cursed.",
-      "ru": "Хм... вы уверены, мисс? Я доверяю вашему суждению, но, может, с Проклятыми всё же лучше лишний раз перестраховаться.",
+      "ru": "§r§fХм... вы уверены, мисс? Я §r§#00EB34доверяю§r§f вашему суждению, но, может, с Проклятыми всё же лучше лишний раз перестраховаться.",
       "speaker": "Mora",
       "stage": "Stage 10"
     },
     {
       "id": "dialogue-0145",
       "en": "The curse is the least of our problems! Are we really blindly trusting someone who says they're from Wynn? People don't just... just... come back from there!",
-      "ru": "Проклятие - вообще не главная проблема! Мы что, реально просто верим на слово тому, кто говорит, что он из Винна? Люди не... не возвращаются оттуда просто так!",
+      "ru": "§r§fПроклятие - вообще §r§#00EB34не главная§r§f проблема! Мы что, реально просто верим на слово тому, кто §r§#00EB34говорит§r§f, что он из Винна? Люди не... не §r§#00EB34возвращаются§r§f оттуда просто так!",
       "speaker": "Rex",
       "stage": "Stage 10"
     },
@@ -1326,7 +1326,7 @@
     {
       "id": "dialogue-0189",
       "en": "Let's m-meet up at the tavern. It's j-just to the north of here.",
-      "ru": "Д-давай встретимся у таверны. Она к-к северу отсюда.",
+      "ru": "§r§fД-давай встретимся у таверны. Она к-к §r§bсеверу§r§f отсюда.",
       "speaker": "Zeph",
       "stage": "Stage 11"
     },
@@ -2659,6 +2659,100 @@
       "ru": "Что?",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 1"
+    },
+    {
+      "id": "hub-choice-c1da28b869ba-2",
+      "en": "Let me find them...",
+      "ru": "Сейчас найду...",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-c1da28b869ba-3",
+      "en": "What?",
+      "ru": "Что?",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-a881f5a6ee26-2",
+      "en": "Another region?",
+      "ru": "Другой регион?",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-a881f5a6ee26-3",
+      "en": "I'm from Wynn.",
+      "ru": "Я из Винна.",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-68936bfbba85-2",
+      "en": "How'd you know to help?",
+      "ru": "Откуда ты знал, что нужна помощь?",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-68936bfbba85-3",
+      "en": "Thanks for the help.",
+      "ru": "Спасибо за помощь.",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-0592e45cb60b-2",
+      "en": "You trust me?",
+      "ru": "Ты мне доверяешь?",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-0592e45cb60b-3",
+      "en": "Resistance group?",
+      "ru": "Группа сопротивления?",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-560f2b510d5c-2",
+      "en": "Something strange is happening.",
+      "ru": "Тут происходит что-то странное.",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "hub-choice-560f2b510d5c-3",
+      "en": "I'm looking for a friend.",
+      "ru": "Я ищу друга.",
+      "speaker": "Choice",
+      "kind": "choice",
+      "stage": ""
+    },
+    {
+      "id": "claude-dialogue-34344d980d58",
+      "en": "Then that leads me to my final request. Would you join our cause, and offer your help to our resistance group? Your knowledge and strength will be greatly appreciated.",
+      "ru": "И теперь моя последняя просьба. Присоединишься к нашему делу? Поможешь сопротивлению? Твои знания и сила нам очень нужны.",
+      "speaker": "Syndra",
+      "stage": "Stage 9"
+    },
+    {
+      "id": "claude-dialogue-e60584076a66",
+      "en": "Sovereign, sir. It seems Fort Torann was not prepared to directly face a cursed one. Dozens of soldiers are dead.",
+      "ru": "Сюзерен, сэр. Похоже, Форт Торанн оказался не готов к прямому столкновению с проклятым. Десятки солдат мертвы.",
+      "speaker": "Espren Guard Captain",
+      "stage": "Stage 3"
     }
   ],
   "objectives": [
@@ -2739,6 +2833,21 @@
       "en": "Sneak into the Frog Tavern at [-2240, 32, -1306].",
       "ru": "Пробраться в таверну \"Лягушка\" [-2240, 32, -1306].",
       "stage": "Stage 13"
+    },
+    {
+      "id": "claude-objective-c078c0d3f12b",
+      "en": "Find a way out of the Nexiph Outpost.",
+      "ru": "Найти выход из заставы Никсеф."
+    },
+    {
+      "id": "claude-objective-02dedc26d05e",
+      "en": "Find your record inside the storage at [<num>, <num>, <num>].",
+      "ru": "Найти своё досье в хранилище [<num>, <num>, <num>]."
+    },
+    {
+      "id": "claude-objective-83da58fc067b",
+      "en": "Introduce yourself to the Resistance Members at [<num>, <num>, <num>].",
+      "ru": "Познакомиться с участниками сопротивления [<num>, <num>, <num>]."
     }
   ],
   "choices": []

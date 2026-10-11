@@ -45,6 +45,22 @@ public final class NpcNameplateTest {
         expect(!NameplateStyler.isMob(Text.empty().append(Text.literal("Lovers' Cavern ")).append(Text.literal("").setStyle(pill))),
                 "10.10: a cave label has a badge too, but it is not a mob");
         expect(!NameplateStyler.isMob(Text.literal("Event Rewards")), "10.10: a label in the air is not a mob");
+        String levelOne = "" + (char) 0xE00B + (char) 0xE015 + " " + (char) 0xE021 + new String(Character.toChars(0xD0002));
+        String levelLabel = NameplateStyler.pillLabel(levelOne);
+        expect(levelLabel != null && levelLabel.equals("УР " + (char) 0xE021 + new String(Character.toChars(0xD0002))),
+                "11.10: the level badge reads УР and keeps its number and the closing shift");
+        expect(NameplateStyler.pillLabel("" + (char) 0xE002 + (char) 0xE000 + (char) 0xE015 + (char) 0xE004).equals("ПЕЩЕРА"),
+                "11.10: a cave badge is translated");
+        expect(NameplateStyler.pillLabel("" + (char) 0xE012 + (char) 0xE00B + (char) 0xE000 + (char) 0xE018 + (char) 0xE02A) == null,
+                "11.10: a badge without a translation stays as it is");
+        var measure = TextEmojiUtils.width;
+        TextEmojiUtils.width = value -> 30;
+        String plate = NameplateStyler.pillPlate(levelLabel, pill);
+        TextEmojiUtils.width = measure;
+        String back = new String(Character.toChars(0xCFFFF));
+        expect(plate.equals("" + (char) 0xE060 + back + "у" + back + "р" + back + (char) 0xE061 + back + (char) 0xE051 + back + (char) 0xE062
+                        + new String(Character.toChars(0xD0000 - 28))),
+                "11.10: the plate under the badge is rebuilt letter by letter and returns to its start");
         expect(NameplateStyler.splitTail(source) == null,
                 "08.10: a nameplate whose last line has words is not split");
         var dummy = Text.empty().append(Text.literal("Combat Dummy").styled(s -> s.withColor(0xFFFF55)))

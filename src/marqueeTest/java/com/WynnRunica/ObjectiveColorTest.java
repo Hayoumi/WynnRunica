@@ -6,6 +6,16 @@ public final class ObjectiveColorTest {
     }
 
     public static void run() {
+        String edge = new String(Character.toChars(0xCFF8C));
+        String portraitEdge = new String(Character.toChars(0xCFFA4));
+        String toCentre = new String(Character.toChars(0xD0028));
+        expect(String.valueOf(TextEmojiUtils.dialogueCentered("When death spread across the North...")), "false", "11.10: plain line, edge indent is a separate part");
+        expect(String.valueOf(TextEmojiUtils.dialogueCentered(edge + "When death spread across the North...")), "false", "11.10: Summoner's Fate, edge indent glued to grey text");
+        expect(String.valueOf(TextEmojiUtils.dialogueCentered(portraitEdge + "......assistant!")), "false", "11.10: the smaller indent of a portrait window is an edge indent too");
+        expect(String.valueOf(TextEmojiUtils.dialogueCentered(toCentre + "Cast your ")), "true", "11.10: tutorial hint, shift to the centre");
+        expect(String.valueOf(TextEmojiUtils.dialogueCentered(edge + toCentre + "Cast your ")), "true", "11.10: tutorial hint with the edge indent glued in front");
+        expect(String.valueOf(TextEmojiUtils.dialogueLeadEnd(edge + toCentre + "Cast your ")), "2", "11.10: only the edge indent is taken as the lead");
+        expect(String.valueOf(TextEmojiUtils.dialogueLeadEnd(toCentre + "Cast your ")), "0", "11.10: a shift to the centre is not a lead");
         expect(String.valueOf(ServerNotificationTranslator.isWynncraftHost("play.wynncraft.com")), "true", "10.10: Wynncraft address play.wynncraft.com");
         expect(String.valueOf(ServerNotificationTranslator.isWynncraftHost("wynncraft.com:25565")), "true", "10.10: Wynncraft address wynncraft.com:25565");
         expect(String.valueOf(ServerNotificationTranslator.isWynncraftHost("play.wynncraft.net")), "true", "10.10: Wynncraft address play.wynncraft.net");

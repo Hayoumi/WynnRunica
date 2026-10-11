@@ -52,7 +52,7 @@
     {
       "id": "dialogue-0007",
       "en": "I believe Detective Jackson is by his cart \"planning his next move.\" He's not far from here. Just continue past my farm!",
-      "ru": "По-моему, детектив Джексон сейчас стоит у своей телеги и \"планирует следующий ход\". Недалеко отсюда. Просто иди дальше мимо моей фермы!",
+      "ru": "§r§fПо-моему, детектив Джексон сейчас стоит у своей телеги и \"планирует следующий ход\". Недалеко отсюда. §r§bПросто иди дальше мимо моей фермы!§r§f",
       "speaker": "Piere",
       "stage": "Stage 1"
     },
@@ -258,6 +258,20 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Пылающее возмездие",
       "speaker": "",
       "stage": "Stage 7"
+    },
+    {
+      "id": "hub-live-dialogue-d5849393e268",
+      "en": "That orc ran towards the lake!! Get it, get it before it runs someplace else!!",
+      "ru": "Тот орк побежал к озеру!! Лови его, лови, пока он не убежал куда-нибудь ещё!!",
+      "speaker": "Detective Jackson",
+      "stage": ""
+    },
+    {
+      "id": "claude-dialogue-2daff0d77747",
+      "en": "However, there's a loophole in the ceasefire we had enacted with the Orcs. Theft isn't considered an act of aggression...",
+      "ru": "Но в условиях нашего перемирия с орками есть лазейка. Кража не считается актом агрессии...",
+      "speaker": "Detective Jackson",
+      "stage": "Stage 2"
     }
   ],
   "objectives": [
@@ -302,6 +316,11 @@
       "en": "Return the Magic Axe to the Detective",
       "ru": "Вернуть волшебный топор детективу.",
       "stage": "Stage 7"
+    },
+    {
+      "id": "claude-objective-79f61f503efd",
+      "en": "Report the attack to Detective Jackson [<num>, <num>, <num>]",
+      "ru": "Сообщить детективу Джексону о нападении [<num>, <num>, <num>]."
     }
   ],
   "choices": []

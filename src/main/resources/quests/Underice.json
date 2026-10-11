@@ -24,21 +24,21 @@
     {
       "id": "dialogue-0003",
       "en": "Would you mind coming back with a [Breathing Helmet I]? I think that should be everything you need.",
-      "ru": "Не мог бы ты вернуться с [Дыхательным шлемом I]? Думаю, этого должно хватить.",
+      "ru": "§r§fНе мог бы ты вернуться с §r§3[Дыхательным шлемом I]§r§f? Думаю, этого должно хватить.",
       "speaker": "Fredris",
       "stage": "Stage 1"
     },
     {
       "id": "dialogue-0004",
       "en": "What is this thing supposed to be? You know, I would really appreciate your help, but this [Breathing Helmet I] does not look like it's going to keep you protected.",
-      "ru": "Это вообще что такое? Я, конечно, ценю твою помощь, но этот [Дыхательный шлем I] вообще не выглядит как вещь, которая тебя защитит.",
+      "ru": "§r§fЭто вообще что такое? Я, конечно, ценю твою помощь, но этот §r§3[Дыхательный шлем I]§r§f вообще не выглядит как вещь, которая тебя защитит.",
       "speaker": "Fredris",
       "stage": "Stage 1"
     },
     {
       "id": "dialogue-0005",
       "en": "Would you mind heading to our local armour merchant and buying one of our [Breathing Helmet II]? I don't want you to drown. Just come back with the helmet and I will tell you about my problem.",
-      "ru": "Не мог бы ты сходить к нашему торговцу бронёй и купить [Дыхательный шлем II]? Не хочу, чтобы ты утонул. Вернись со шлемом, и я расскажу, в чём проблема.",
+      "ru": "§r§fНе мог бы ты сходить к нашему торговцу бронёй и купить §r§3[Дыхательный шлем II]§r§f? Не хочу, чтобы ты утонул. Вернись со шлемом, и я расскажу, в чём проблема.",
       "speaker": "Fredris",
       "stage": "Stage 1"
     },
@@ -59,7 +59,7 @@
     {
       "id": "dialogue-0008",
       "en": "We didn't have enough to eat, we were forced to steal their fish, we would have starved otherwise. And now they want their fish, our fish back? We can't do that, I hope you understand.",
-      "ru": "Нам самим стало нечего есть, пришлось красть их рыбу, иначе мы бы просто сдохли с голоду. И теперь они хотят назад свою рыбу, то есть нашу рыбу? Нет уж, так не пойдёт, надеюсь, ты понимаешь.",
+      "ru": "§r§fНам самим стало нечего есть, пришлось красть их рыбу, иначе мы бы просто сдохли с голоду. И теперь они хотят назад свою рыбу, то есть §r§f§lнашу§r§f рыбу? Нет уж, так не пойдёт, надеюсь, ты понимаешь.",
       "speaker": "Calamaro",
       "stage": "Stage 4"
     },
@@ -73,7 +73,7 @@
     {
       "id": "dialogue-0010",
       "en": "If you want to help us and the villagers, just follow the stream that flows into this lake to the south, you will find the best fishing ground there. The pufferfish should be around there too.",
-      "ru": "Если хочешь помочь и нам, и деревенским, просто иди по ручью, который течёт в это озеро с юга - там лучшее место для рыбалки. И этот иглобрюх тоже должен быть где-то там.",
+      "ru": "§r§fЕсли хочешь помочь и нам, и деревенским, §r§bпросто иди по ручью, который течёт в это озеро с юга§r§f - там лучшее место для рыбалки. И этот иглобрюх тоже должен быть где-то там.",
       "speaker": "Calamaro",
       "stage": "Stage 4"
     },
@@ -94,7 +94,7 @@
     {
       "id": "dialogue-0013",
       "en": "Sadly Strato is no longer alive. He used to work and live at the woodcutting camp northwest of Nesaak. We always met here, caught fish and told each other stories. I really miss those times...",
-      "ru": "Жаль, Страто уже нет в живых. Он жил и работал в лесорубском лагере к северо-западу от Несаака. Мы всегда встречались здесь, ловили рыбу и травили байки. Я правда скучаю по тем временам...",
+      "ru": "§r§fЖаль, Страто уже нет в живых. Он жил и работал в §r§bлесорубском лагере к северо-западу от Несаака.§r§f Мы всегда встречались здесь, ловили рыбу и травили байки. Я правда скучаю по тем временам...",
       "speaker": "Gernald",
       "stage": "Stage 5"
     },
@@ -314,6 +314,48 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Подо льдом",
       "speaker": "",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-live-dialogue-b27ee7445691",
+      "en": "Have you found the issue yet? I'm still waiting!",
+      "ru": "§r§fНашёл причину? Я всё ещё жду!",
+      "speaker": "Fredris",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-ac29cea3751c",
+      "en": "Your best bet is to go to the woodcutting camp northwest of Nesaak, there should be some bait there. Just catch it in the river by the dock when you get it.",
+      "ru": "§r§fЛучше всего сходить в лесорубский лагерь к северо-западу от Несаака, там должна быть приманка. Когда получишь её, поймай рыбу в реке у причала.",
+      "speaker": "Gernald",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-22578786792d",
+      "en": "I know you might need the pufferfish for something else, but please think about giving it to me. It would warm my heart.",
+      "ru": "§r§fЗнаю, иглобрюх может понадобиться тебе для чего-то ещё, но подумай о том, чтобы отдать его мне. Я был бы очень рад.",
+      "speaker": "Gernald",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-a58f3a64a47d",
+      "en": "However we don't have to fight over the fish in the lake, we just need a [Mythic Everlasting Pufferfish], that would be enough, nothing else. We never wanted to steal the fish.",
+      "ru": "§r§fНо нам не обязательно драться за рыбу в озере. Нам нужен всего лишь §r§3[Мифический вечный иглобрюх]§r§f, и этого будет достаточно, больше ничего. Мы вообще не хотели воровать рыбу.",
+      "speaker": "Calamaro",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "hub-live-dialogue-97eb700f6714",
+      "en": "You're searching a [Mythic Everlasting Pufferfish]? Hmm I heard that name before, my friend, Strato, told me about it years ago. If I remember correctly it is infinite, you can feed every single person in all the provinces from this single fish.",
+      "ru": "§r§fТы ищешь §r§3[Мифического вечного иглобрюха]§r§f? Хмм, это название я уже слышал. Мой друг Страто рассказывал о нём много лет назад. Если память не врёт, он бесконечный - одной такой рыбой можно накормить вообще всех людей во всех провинциях.",
+      "speaker": "Gernald",
+      "stage": "Stage 5"
+    },
+    {
+      "id": "claude-dialogue-af146e363017",
+      "en": "Maybe you can find some sort of bait there, he had some of the best bait I have ever seen. You should be able to acquire some and throw it in the water, maybe that will attract the pufferfish.",
+      "ru": "Может, ты найдёшь там какую-нибудь наживку. У него была одна из лучших наживок, что я вообще видел. Добудь её и брось в воду, может, это и приманит иглобрюха.",
+      "speaker": "Gernald",
+      "stage": "Stage 5"
     }
   ],
   "objectives": [
@@ -394,6 +436,11 @@
       "en": "Talk to Fredris to collect your reward.",
       "ru": "Поговорить с Фредрисом и забрать награду.",
       "stage": "Stage 8"
+    },
+    {
+      "id": "claude-objective-522762cf4cdd",
+      "en": "Obtain the bait at the woodcutting camp northwest of Nesaak, use it to catch the fish at the dock and then give it to Calamaro or Gernald",
+      "ru": "Добыть наживку в лагере лесорубов к северо-западу от Несаака, поймать на неё рыбу у причала и отдать её Каламаро или Гернальду."
     }
   ],
   "choices": []

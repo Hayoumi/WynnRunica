@@ -87,7 +87,7 @@
     {
       "id": "dialogue-0012",
       "en": "Psst! Come here, traveler.",
-      "ru": "Псс! Иди сюда, путник.",
+      "ru": "§r§fПсс! §r§bИди сюда§r§f, путник.",
       "speaker": "Winie",
       "stage": "Stage 2"
     },
@@ -136,7 +136,7 @@
     {
       "id": "dialogue-0019",
       "en": "I'll head to Cinfras to report this to the higher ups. If you can somehow find a way to evacuate the guards here.",
-      "ru": "Я пойду в Синфрас и доложу об этом начальству. А ты, если сможешь, придумай, как эвакуировать здешних стражников.",
+      "ru": "§r§fЯ пойду в Синфрас и доложу об этом начальству. А ты, если сможешь, придумай, как §r§bэвакуировать§r§f здешних стражников.",
       "speaker": "Winie",
       "stage": "Stage 3"
     },
@@ -206,7 +206,7 @@
     {
       "id": "dialogue-0029",
       "en": "Only thing that could sway me is food, hahaha! We only eat meat around here!",
-      "ru": "Единственное, что может меня переубедить, это еда, ха-ха! Мы тут жрём только мясо!",
+      "ru": "§r§fЕдинственное, что может меня переубедить, это §r§bеда§r§f, ха-ха! Мы тут жрём только мясо!",
       "speaker": "Colry",
       "stage": "Stage 4"
     },
@@ -521,14 +521,14 @@
     {
       "id": "dialogue-0074",
       "en": "You should warn the Gylia Guards.",
-      "ru": "Тебе стоит предупредить стражей Гилии.",
+      "ru": "§r§7Тебе стоит §r§bпредупредить стражей Гилии.§r§7",
       "speaker": "",
       "stage": "Stage 1"
     },
     {
       "id": "dialogue-0075",
       "en": "Maybe you can find a way to lure the two guards away using food?",
-      "ru": "Может, удастся как-нибудь выманить двух стражников едой?",
+      "ru": "§r§7Может, удастся как-нибудь §r§bвыманить§r§7 двух стражников §r§bедой§r§7?",
       "speaker": "",
       "stage": "Stage 4"
     },
@@ -542,7 +542,7 @@
     {
       "id": "dialogue-0077",
       "en": "That strategy did not work. Maybe you can retry?",
-      "ru": "Эта затея не сработала. Может, попробуешь снова?",
+      "ru": "§r§7Эта затея не сработала. Может, §r§bпопробуешь снова?§r§7",
       "speaker": "",
       "stage": "Stage 5"
     },
@@ -622,6 +622,97 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Голод гертов, часть II",
       "speaker": "",
       "stage": "Stage 10"
+    },
+    {
+      "id": "hub-live-dialogue-37d299f5e919",
+      "en": "Gert! Gert! We must set up for war!",
+      "ru": "Герт! Герт! Мы должны готовиться к войне!",
+      "speaker": "Gert Chief",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-9fbe9ef067cb",
+      "en": "Look at me.",
+      "ru": "На меня смотреть.",
+      "speaker": "Gert Chief",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-e16c9fa792ce",
+      "en": "Today we fight. Today we Gerts will take down the bad town folk!",
+      "ru": "Сегодня мы сражаться. Сегодня мы, герты, бить плохих городских людей!",
+      "speaker": "Gert Chief",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-cade771000c2",
+      "en": "But first! We must eat.",
+      "ru": "Но сперва! Мы должны есть.",
+      "speaker": "Gert Chief",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-f4f79b23eff4",
+      "en": "Obviously...",
+      "ru": "Очевидно...",
+      "speaker": "Bory",
+      "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-ccb10d507abc",
+      "en": "I think you should start with the people out in the  courtyard.",
+      "ru": "§r§fДумаю, начинать стоит с тех, кто §r§bво дворе§r§f.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "claude-dialogue-3218735beba2",
+      "en": "I want to start off by apologizing for Cikal's behaviour.",
+      "ru": "Для начала хочу извиниться за поведение Сикала.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "claude-dialogue-9b1db423b42a",
+      "en": "What's weird is that the guards here don't even believe it's a possibility. It's like their brains have become all scrambled.",
+      "ru": "Странно, остальные стражники даже мысли о нападении не допускают. Будто у них в головах всё перепуталось.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "claude-dialogue-eee1067c8a2b",
+      "en": "When I brought up how wrong it is for us to steal their food rations they just laughed at me like I was crazy.",
+      "ru": "Когда я сказала, что воровать у Гертов их пайки было неправильно, они просто посмеялись надо мной, будто я чокнутая.",
+      "speaker": "Winie",
+      "stage": "Stage 3"
+    },
+    {
+      "id": "claude-dialogue-a8bee5ed2ae9",
+      "en": "Well... I'd rather avoid any awkward situations so... please leave before I have to throw you out.",
+      "ru": "Ну... я бы предпочёл избежать неловких ситуаций, так что... уйди, пока мне не пришлось вышвыривать тебя самому.",
+      "speaker": "Colry",
+      "stage": "Stage 4"
+    },
+    {
+      "id": "claude-dialogue-312ccb2acaa4",
+      "en": "I'm just patrolling. Someone have to look at the mountains for signs of an ambush.",
+      "ru": "Я патрулирую. Кто-то же должен следить за горами, чтобы нас не застали врасплох.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "claude-dialogue-85e9112ba192",
+      "en": "Now if you excuse me. I have business to attend to.",
+      "ru": "А теперь, если позволишь, у меня есть дела.",
+      "speaker": "Bory",
+      "stage": "Stage 6"
+    },
+    {
+      "id": "claude-dialogue-9abf43d17df4",
+      "en": "We will also return the stolen food to the Gerts, and hopefully they can calm them down.",
+      "ru": "Ещё мы вернём Гертам украденную еду и, надеюсь, немного их успокоим.",
+      "speaker": "Winie",
+      "stage": "Stage 11"
     }
   ],
   "objectives": [
@@ -690,6 +781,16 @@
       "en": "Return to the Gylia Watch at [-19, 36, -5425] and check if everyone is safe.",
       "ru": "Вернуться к Дозору Гилии [-19, 36, -5425] и убедиться, что все в безопасности.",
       "stage": "Stage 11"
+    },
+    {
+      "id": "claude-objective-2194b55b5187",
+      "en": "Find the Gylia guard out in the courtyard at [<num>, <num>, <num>]",
+      "ru": "Найти стражника Гилии во дворе [<num>, <num>, <num>]."
+    },
+    {
+      "id": "claude-objective-0f7c0b0281a6",
+      "en": "Return to the Gylia watch [<num>, <num>, <num>] and check everyone is safe.",
+      "ru": "Вернуться к дозору Гилии [<num>, <num>, <num>] и убедиться, что все целы."
     }
   ],
   "choices": []

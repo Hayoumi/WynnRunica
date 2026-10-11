@@ -416,8 +416,26 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Лазарев колодец",
       "speaker": "",
       "stage": "Stage 1"
+    },
+    {
+      "id": "hub-live-dialogue-fcfd2cab8583",
+      "en": "Hey! Over there, you alright? Come talk to me, I can explain what just happened.",
+      "ru": "§r§fЭй! Сюда, ты цел? §r§bПодойди§r§f, я объясню, что тут вообще сейчас было.",
+      "speaker": "Burtur",
+      "stage": "Stage 1"
     }
   ],
   "choices": [],
-  "objectives": []
+  "objectives": [
+    {
+      "id": "claude-objective-b2f77f80fecc",
+      "en": "Check in with Burtur about the attack at [<num>, <num>, <num>].",
+      "ru": "Узнать у Буртура о нападении [<num>, <num>, <num>]."
+    },
+    {
+      "id": "claude-objective-065aeee7e53e",
+      "en": "Speak to Burtur at [<num>, <num>, <num>].",
+      "ru": "Поговорить с Буртуром [<num>, <num>, <num>]."
+    }
+  ]
 }

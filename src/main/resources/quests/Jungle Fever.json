@@ -24,7 +24,7 @@
     {
       "id": "dialogue-0003",
       "en": "Do you think you could ask the Banker at Detlas if he could give me, oh I don't know, [64 Liquified Emeralds]?",
-      "ru": "Как думаешь, сможешь попросить банкира в Детласе выдать мне, ну я не знаю, [64 жидких изумруда]?",
+      "ru": "§r§#FFFFFFКак думаешь, сможешь §r§#55FFFFпопросить банкира в Детласе§r§#FFFFFF выдать мне, ну я не знаю, §r§#55FFFF[64 жидких изумруда]§r§#FFFFFF?",
       "speaker": "Worid",
       "stage": "Stage 1"
     },
@@ -59,7 +59,7 @@
     {
       "id": "dialogue-0007",
       "en": "[64 Liquified Emeralds]? He is crazy! Liquified Emeralds cannot cure anyone from anything, except being poor!",
-      "ru": "[64 жидких изумруда]? Да он псих! Жидкие изумруды не лечат вообще ничего, кроме бедности!",
+      "ru": "§r§#55FFFF[64 жидких изумруда]? Да он псих! Жидкие изумруды не лечат вообще ничего, кроме бедности!",
       "speaker": "The Banker",
       "stage": "Stage 2"
     },
@@ -216,6 +216,20 @@
       "ru": "Ты доказал свою ловкость и силу, пробравшись в это хранилище. Теперь можем перейти к настоящему делу.",
       "speaker": "Worid",
       "stage": ""
+    },
+    {
+      "id": "hub-live-dialogue-d56d7946c8eb",
+      "en": "I feel so much better now, thank you for the cure!",
+      "ru": "§r§fМне уже намного лучше, спасибо за лекарство!",
+      "speaker": "Worid",
+      "stage": ""
+    },
+    {
+      "id": "claude-dialogue-10d80c6419bc",
+      "en": "The only cure to this fever is to drink Liquid Emeralds! Yes, exactly! *cough*",
+      "ru": "Единственное лекарство от этой лихорадки - это пить жидкие изумруды! Да-да, именно! *кхе*",
+      "speaker": "Worid",
+      "stage": "Stage 1"
     }
   ],
   "objectives": [
