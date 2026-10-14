@@ -34,6 +34,12 @@ public class GuiTranslator {
         var ex = TextEmojiUtils.extractTooltip(text);
         if (ex.key.isBlank()) return text;
         String translated = TranslationManager.getGuiTranslation(ex.key);
+        String name = MinecraftClient.getInstance().getSession().getUsername();
+        if (translated.equals(ex.key) && ex.key.contains(name)) {
+            String masked = ex.key.replace(name, "<playername>");
+            String found = TranslationManager.getGuiTranslation(masked);
+            if (!found.equals(masked)) translated = found.replace("<playername>", name);
+        }
         if (translated.equals(ex.key)) {
             TelemetrySender.recordTitle(ex.key, text);
             return text;
@@ -406,7 +412,7 @@ public class GuiTranslator {
 
     private record Glyph(int codePoint, Style style, int advance) {}
 
-    private enum Align { NONE, COLUMN, CENTER, PARAGRAPH, RIGHT, CELLS }
+    private enum Align { NONE, COLUMN, CENTER, PARAGRAPH, RIGHT, CELLS, GRID }
 
     private static String widenedKey;
     private static List<Text> widenedValue;
@@ -467,14 +473,15 @@ public class GuiTranslator {
         int columnsGap = 0;
         for (int i = bodyStart; i < count; i++) {
             List<Glyph> glyphs = before.get(i);
-            if (hasLead(glyphs) || lastJump(glyphs) == null) continue;
+            int[] jump = columnJump(glyphs);
+            if (hasLead(glyphs) || jump == null) continue;
             columnsRight = Math.max(columnsRight, visibleEnd(glyphs));
-            columnsGap = Math.max(columnsGap, advance(glyphs, lastJump(glyphs)[0], lastJump(glyphs)[1]));
+            columnsGap = Math.max(columnsGap, advance(glyphs, jump[0], jump[1]));
         }
         for (int i = bodyStart; i < count; ) {
             List<Glyph> glyphs = before.get(i);
             if (!hasLead(glyphs)) {
-                if (lastJump(glyphs) != null && visibleEnd(glyphs) == columnsRight && columnsGap >= COLUMN_GAP) {
+                if (columnJump(glyphs) != null && visibleEnd(glyphs) == columnsRight && columnsGap >= COLUMN_GAP) {
                     align[i] = Align.COLUMN;
                 }
                 i++;
@@ -489,26 +496,47 @@ public class GuiTranslator {
                 blockWidth = Math.max(blockWidth, visibleEnd(before.get(k)));
                 deepest = Math.max(deepest, indent(before.get(k)));
             }
+            boolean broken = false;
+            for (int k = i; k <= last; k++) {
+                List<int[]> row = cells(before.get(k));
+                if (!row.isEmpty() && row.getFirst()[2] != indent(before.get(k))) broken = true;
+            }
+            if (broken && before.get(i).getFirst().codePoint() == '§') {
+                i = last + 1;
+                continue;
+            }
             int[] axes = columnAxes(before, output, i, last, width);
+            java.util.Map<Integer, List<Glyph>> grid = axes == null ? gridLines(before, output, i, last) : null;
             boolean block = last > i && deepest >= MIN_ALIGN_INDENT;
             for (int k = i; k <= last && block; k++) {
                 if (!isCentered(before.get(k), blockWidth)) block = false;
             }
             for (int k = i; k <= last; k++) {
                 List<Glyph> line = before.get(k);
+                if (grid != null && grid.containsKey(k)) {
+                    align[k] = Align.GRID;
+                    cellLines.put(k, grid.get(k));
+                    continue;
+                }
                 if (axes != null && cells(line).size() >= 2) {
                     align[k] = Align.CELLS;
                     cellLines.put(k, placeCells(cells(line), glyphs(output.get(k)), axes));
                     continue;
                 }
-                boolean listed = k > i && sharesLeftEdge(line, before.get(k - 1))
-                        || k < last && sharesLeftEdge(line, before.get(k + 1));
+                boolean listed = false;
+                for (int other = i; other <= last; other++) {
+                    if (other != k && sharesLeftEdge(line, before.get(other))) listed = true;
+                    if (other != k && hasLead(before.get(other)) && indent(before.get(other)) == indent(line)
+                            && !isCentered(line, width)) listed = true;
+                }
                 boolean holdsWidth = widest == 1 && advance(line, 0, line.size()) == width;
                 if (block) {
                     align[k] = Align.PARAGRAPH;
                     paragraph[k] = i;
                     if (blockWidth >= width - 2) wideParagraphs.add(i);
                 } else if (listed) {
+                    continue;
+                } else if (line.getFirst().codePoint() == '§' && (axis < 0 || Math.abs(indent(line) + visibleEnd(line) - axis) > 2)) {
                     continue;
                 } else if ((indent(line) >= MIN_ALIGN_INDENT || k == 0 && indent(line) >= 3) && isCentered(line, width)
                         || isExactlyCentered(line, width)
@@ -518,6 +546,13 @@ public class GuiTranslator {
                 } else if (indent(line) >= MIN_ALIGN_INDENT && visibleEnd(line) == width && !holdsWidth) {
                     align[k] = Align.RIGHT;
                 }
+            }
+            boolean table = false;
+            for (int k = i; k <= last; k++) {
+                if (align[k] == Align.CENTER && cells(before.get(k)).size() >= 4) table = true;
+            }
+            for (int k = i; k <= last && table; k++) {
+                if (align[k] == Align.NONE && cells(before.get(k)).size() >= 4) align[k] = Align.CENTER;
             }
             i = last + 1;
         }
@@ -530,8 +565,9 @@ public class GuiTranslator {
             int above = k - 1;
             while (above > bodyStart && advance(before.get(above), 0, before.get(above).size()) == 0) above--;
             List<Glyph> upper = before.get(above);
+            boolean sameSpan = advance(line, 0, line.size()) == advance(upper, 0, upper.size());
             if (align[above] == Align.CENTER && Math.abs(indent(line) - indent(upper)) <= 6
-                    && Math.abs(visibleEnd(line) - visibleEnd(upper)) <= 3) {
+                    && (sameSpan || Math.abs(visibleEnd(line) - visibleEnd(upper)) <= 3)) {
                 align[k] = Align.CENTER;
             }
         }
@@ -609,6 +645,8 @@ public class GuiTranslator {
             } else if (align[i] == Align.CELLS) {
                 shift = indent(glyphs) + (newWidth - width) / 2;
                 glyphs = new ArrayList<>(glyphs.subList(leadEnd(glyphs), glyphs.size()));
+            } else if (align[i] == Align.GRID) {
+                shift = 0;
             } else {
                 continue;
             }
@@ -644,6 +682,102 @@ public class GuiTranslator {
             x += glyph.advance();
         }
         return cells;
+    }
+
+    private static List<int[]> units(List<int[]> cells, List<int[]> shape) {
+        List<int[]> units = new ArrayList<>();
+        for (int c = 0; c < cells.size(); c++) {
+            int[] cell = cells.get(c);
+            boolean hangs = c + 1 < shape.size() && shape.get(c)[3] - shape.get(c)[2] <= 12
+                    && shape.get(c + 1)[2] - shape.get(c)[3] <= 4;
+            if (hangs) {
+                int[] next = cells.get(c + 1);
+                units.add(new int[]{cell[0], next[1], cell[2], next[3], next[2]});
+                c++;
+            } else {
+                units.add(new int[]{cell[0], cell[1], cell[2], cell[3], cell[2]});
+            }
+        }
+        return units;
+    }
+
+    private static java.util.Map<Integer, List<Glyph>> gridLines(List<List<Glyph>> before, List<Text> output, int first, int last) {
+        java.util.Map<Integer, List<int[]>> was = new java.util.TreeMap<>();
+        java.util.Map<Integer, List<int[]>> now = new java.util.HashMap<>();
+        java.util.Map<Integer, List<Glyph>> translated = new java.util.HashMap<>();
+        java.util.TreeMap<Integer, Integer> rowsAt = new java.util.TreeMap<>();
+        for (int i = first; i <= last && i < output.size(); i++) {
+            List<int[]> shape = cells(before.get(i));
+            List<Glyph> glyphs = glyphs(output.get(i));
+            List<int[]> cells = cells(glyphs);
+            if (shape.size() < 2 || cells.size() != shape.size()) continue;
+            List<int[]> old = units(shape, shape);
+            if (old.size() < 2) continue;
+            was.put(i, old);
+            now.put(i, units(cells, shape));
+            translated.put(i, glyphs);
+            for (int u = 1; u < old.size(); u++) {
+                Integer near = rowsAt.floorKey(old.get(u)[4] + 4);
+                if (near != null && near >= old.get(u)[4] - 4) old.get(u)[4] = near;
+                rowsAt.merge(old.get(u)[4], 1, Integer::sum);
+            }
+        }
+        boolean shared = false;
+        for (int rows : rowsAt.values()) {
+            if (rows >= 2) shared = true;
+        }
+        if (!shared) return null;
+        int edge = -1;
+        for (List<int[]> old : was.values()) {
+            if (edge < 0) edge = old.getFirst()[4];
+            if (Math.abs(old.getFirst()[4] - edge) > 2) return null;
+        }
+
+        java.util.TreeMap<Integer, Integer> shifts = new java.util.TreeMap<>();
+        int carried = 0;
+        for (int anchor : rowsAt.keySet()) {
+            int gap = Integer.MAX_VALUE;
+            for (List<int[]> old : was.values()) {
+                for (int u = 1; u < old.size(); u++) {
+                    if (old.get(u)[4] == anchor) gap = Math.min(gap, old.get(u)[2] - old.get(u - 1)[3]);
+                }
+            }
+            int shift = carried;
+            for (int row : was.keySet()) {
+                List<int[]> old = was.get(row);
+                List<int[]> fresh = now.get(row);
+                for (int u = 1; u < old.size(); u++) {
+                    if (old.get(u)[4] != anchor) continue;
+                    int moved = u == 1 ? 0 : shifts.getOrDefault(old.get(u - 1)[4], 0);
+                    int end = old.get(u - 1)[2] + moved + fresh.get(u - 1)[3] - fresh.get(u - 1)[2];
+                    shift = Math.max(shift, end + gap - old.get(u)[2]);
+                }
+            }
+            shifts.put(anchor, shift);
+            carried = shift;
+        }
+
+        if (carried == 0) return null;
+        java.util.Map<Integer, List<Glyph>> lines = new java.util.HashMap<>();
+        for (int row : was.keySet()) {
+            List<int[]> old = was.get(row);
+            List<int[]> fresh = now.get(row);
+            List<Glyph> glyphs = translated.get(row);
+            List<Glyph> line = new ArrayList<>();
+            int cursor = 0;
+            for (int u = 0; u < old.size(); u++) {
+                int start = old.get(u)[2] + (u == 0 ? 0 : shifts.getOrDefault(old.get(u)[4], 0));
+                if (start > cursor) {
+                    line.add(new Glyph(SPACE_GLYPH_BASE + start - cursor, Style.EMPTY.withFont(SPACE_FONT), start - cursor));
+                    cursor = start;
+                }
+                line.addAll(glyphs.subList(fresh.get(u)[0], fresh.get(u)[1]));
+                cursor += fresh.get(u)[3] - fresh.get(u)[2];
+            }
+            line.addAll(glyphs.subList(fresh.getLast()[1], glyphs.size()));
+            lines.put(row, line);
+        }
+        return lines;
     }
 
     private static int[] columnAxes(List<List<Glyph>> before, List<Text> output, int first, int last, int width) {
@@ -722,8 +856,15 @@ public class GuiTranslator {
 
     private static int leadEnd(List<Glyph> glyphs) {
         int end = 0;
-        while (end < glyphs.size() && (isMinecraftSpaceStyle(glyphs.get(end).style())
-                || isAlignmentCodePoint(glyphs.get(end).codePoint()))) end++;
+        int spaces = 0;
+        while (end < glyphs.size()) {
+            Glyph glyph = glyphs.get(end);
+            boolean space = isMinecraftSpaceStyle(glyph.style()) || isAlignmentCodePoint(glyph.codePoint());
+            if (!space && glyph.advance() != 0) break;
+            if (space) spaces++;
+            end++;
+        }
+        if (spaces == 0) return 0;
         return end;
     }
 
@@ -781,6 +922,15 @@ public class GuiTranslator {
     private static int columnGap(List<Glyph> glyphs) {
         int[] jump = lastJump(glyphs);
         return jump == null || jump[0] == 0 ? Integer.MAX_VALUE : advance(glyphs, jump[0], jump[1]);
+    }
+
+    private static int[] columnJump(List<Glyph> glyphs) {
+        int[] jump = lastJump(glyphs);
+        if (jump == null) return null;
+        for (int i = 0; i < jump[0]; i++) {
+            if (isVisible(glyphs.get(i)) && glyphs.get(i).advance() > 0) return jump;
+        }
+        return null;
     }
 
     private static int[] lastJump(List<Glyph> glyphs) {
@@ -860,7 +1010,7 @@ public class GuiTranslator {
 
     private static boolean isVisible(Glyph glyph) {
         int codePoint = glyph.codePoint();
-        return !isMinecraftSpaceStyle(glyph.style()) && !Character.isWhitespace(codePoint)
+        return glyph.advance() != 0 && !isMinecraftSpaceStyle(glyph.style()) && !Character.isWhitespace(codePoint)
                 && !isAlignmentCodePoint(codePoint);
     }
 
@@ -902,7 +1052,8 @@ public class GuiTranslator {
                     translatedLines = new ArrayList<>(tooltip);
                 Text labelled = TextEmojiUtils.replaceFirstPixelLabel(line, label.source(), label.translation());
                 if (label.unitSource() != null)
-                    labelled = TextEmojiUtils.replaceFirstPixelLabel(labelled, label.unitSource(), label.unitTranslation());
+                    labelled = TextEmojiUtils.replaceFirstPixelLabel(labelled, label.unitSource(), label.unitTranslation(),
+                            endsAtAlignment(labelled.getString(), label.unitSource()));
                 translatedLines.set(i, labelled);
                 continue;
             }
@@ -919,7 +1070,8 @@ public class GuiTranslator {
 
             if (translated.equals(extracted.key)
                     || TranslationLoader.hasCyrillic(extracted.key)
-                    || preserveStatDecorations && isPixelStatLine(extracted.key)) {
+                    || preserveStatDecorations && isPixelStatLine(extracted.key)
+                    && !alignment(translated).equals(alignment(extracted.key))) {
                 continue;
             }
 
@@ -1022,10 +1174,35 @@ public class GuiTranslator {
         return codePoint >= 0xC0000 && codePoint <= 0xDFFFF;
     }
 
+    private static boolean endsAtAlignment(String line, String unit) {
+        int start = line.indexOf(unit);
+        if (start < 0) return false;
+        int next = start + unit.length();
+        while (next < line.length() && Character.isWhitespace(line.charAt(next))) next++;
+        return next < line.length() && isAlignmentCodePoint(line.codePointAt(next));
+    }
+
+    private static String alignment(String value) {
+        StringBuilder marks = new StringBuilder();
+        for (int offset = 0; offset < value.length(); ) {
+            int codePoint = value.codePointAt(offset);
+            if (isAlignmentCodePoint(codePoint)) marks.appendCodePoint(codePoint);
+            offset += Character.charCount(codePoint);
+        }
+        return marks.toString();
+    }
+
     private static boolean isPixelStatLine(String value) {
         if (value == null) return false;
-        boolean aligned = value.codePoints()
-                .anyMatch(codePoint -> codePoint >= 0xC0000 && codePoint <= 0xDFFFF);
+        boolean aligned = false;
+        boolean afterLetter = false;
+        String text = value.replace("<em>", "");
+        for (int offset = 0; offset < text.length(); ) {
+            int codePoint = text.codePointAt(offset);
+            if (Character.isLetter(codePoint)) afterLetter = true;
+            if (afterLetter && isAlignmentCodePoint(codePoint)) aligned = true;
+            offset += Character.charCount(codePoint);
+        }
         return aligned && (value.contains("<num>")
                 || value.codePoints().anyMatch(Character::isDigit));
     }

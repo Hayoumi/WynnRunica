@@ -95,17 +95,17 @@
       "description": [
         {
           "en": "§7§7Conjures a slow but powerful meteor",
-          "ru": "§7Призыв сокрушительного метеора",
+          "ru": "§7Вы призываете с неба медленный, но мощный",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7from the sky, dealing massive",
-          "ru": "§7с небес, наносящий огромный",
+          "ru": "§7метеор, который наносит огромный",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7damage over a large area.",
-          "ru": "§7урон на большой площади.",
+          "ru": "§7урон по большой площади.",
           "id": "descriptio-003"
         }
       ],
@@ -122,7 +122,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-003"
         },
         {
@@ -460,12 +460,12 @@
       "description": [
         {
           "en": "§7§7Instantly teleport in the",
-          "ru": "§7Мгновенно телепортирует в",
+          "ru": "§7Мгновенно телепортирует вас",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7direction you're facing.",
-          "ru": "§7сторону, куда вы смотрите.",
+          "ru": "§7туда, куда вы смотрите.",
           "id": "descriptio-002"
         }
       ],
@@ -545,12 +545,12 @@
       "properties": [
         {
           "en": "§7For every §f<num>%§7 or §f<num> Raw §7Spell Damage you have",
-          "ru": "§7За каждые §f<num>%§7 или §f<num> Сырого §7Урона Заклинаниями с предметов,",
+          "ru": "§7За каждые §f<num>%§7 или §f<num> ед. §7чистого Урона Заклинаний",
           "id": "propertie-001"
         },
         {
           "en": "§7from items, gain §f<num>s§7 Mana Regen (Max <num>s)",
-          "ru": "§7от предметов вы получаете §f<num>с§7 Регенерации Маны. §8(Максимум <num>с)",
+          "ru": "§7от предметов вы получаете §f<num>с§7 Восстановления маны. (Максимум <num>с)",
           "id": "propertie-002"
         },
         {
@@ -601,7 +601,7 @@
       "description": [
         {
           "en": "§7§7Heals you and nearby allies in",
-          "ru": "§7Исцеляет вас и союзников рядом",
+          "ru": "§7Лечит вас и союзников",
           "id": "descriptio-001"
         },
         {
@@ -618,12 +618,12 @@
         },
         {
           "en": "§7§8(When healing others, you can't heal",
-          "ru": "§7§8(При лечении других нельзя вылечить",
+          "ru": "§8(других игроков можно вылечить",
           "id": "propertie-002"
         },
         {
           "en": "§7§8more than <num>% of §ntheir§8 max health)",
-          "ru": "§7§8более <num>% от §nих§8 максимального здоровья)",
+          "ru": "§8не больше чем на <num>% от §nих§8 макс. здоровья)",
           "id": "propertie-003"
         },
         {
@@ -763,12 +763,12 @@
       "description": [
         {
           "en": "§7§7Conjures a fast-moving ice snake that",
-          "ru": "§7Призыв быстрой ледяной змеи,",
+          "ru": "§7Вы призываете быструю ледяную змею,",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7damages and slows enemies.",
-          "ru": "§7наносящую урон и замедляющую врагов.",
+          "ru": "§7которая ранит и замедляет врагов.",
           "id": "descriptio-002"
         }
       ],
@@ -785,7 +785,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-003"
         },
         {
@@ -810,7 +810,7 @@
         },
         {
           "en": "§e<em> §7Effect: §f<num>% §7Slowness (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) к Врагам",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Замедление (§c<em>§7) на врагов",
           "id": "propertie-008"
         },
         {
@@ -1256,7 +1256,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -1334,7 +1334,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -1430,7 +1430,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -1522,7 +1522,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -1598,22 +1598,22 @@
       "description": [
         {
           "en": "§7§7When casting §nMeteor§7, instead summon",
-          "ru": "§7При применении §nМетеора§r§7 призывает",
+          "ru": "§7Вместо этого §nМетеор§7 призывает",
           "id": "descriptio-001"
         },
         {
           "en": "§7§f<num> §7orbs of light with §f<num> §7Health that will",
-          "ru": "§7§f<num>§r§7 сфер света с §f<num>§r§7 Здоровья,",
+          "ru": "§f<num> §7сферы света с §f<num> §7Здоровья, которые",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7attack when you use your §nMain Attack§7.",
-          "ru": "§7атакующих при вашей §nОсновной Атаке§r§7.",
+          "ru": "§7атакуют, когда вы бьёте §nОсновной Атакой§7.",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7of their Health. They can be healed back.",
-          "ru": "§7своего Здоровья. Их можно исцелить.",
+          "ru": "§7своего Здоровья. Сферы можно лечить.",
           "id": "descriptio-004"
         },
         {
@@ -1640,7 +1640,7 @@
       "properties": [
         {
           "en": "§7§7When they damage an enemy, they lose §f<num>%§7",
-          "ru": "§7При уроне врагу они теряют §f<num>%§r§7",
+          "ru": "§7Нанося урон врагу, сфера теряет §f<num>%",
           "id": "propertie-001"
         },
         {
@@ -1650,7 +1650,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-003"
         },
         {
@@ -1734,27 +1734,27 @@
       "description": [
         {
           "en": "§7Hitting an enemy with §nEtheric Slash grants up",
-          "ru": "§7Попадание по врагу §nЭфирным Разрезом§r§7 даёт до",
+          "ru": "§7Попадания §nЭфирным Разрезом§7 по врагам дают",
           "id": "descriptio-001"
         },
         {
           "en": "§7to §f<num> §bDistortion §#D599FF<em>§7 per §f<num>s§7.",
-          "ru": "§7§f<num>§r§7 §bИскажения§r§7 <em> за §f§f<num>с§7.§r§7",
+          "ru": "§7до §f<num> §bИскажения §#D599FF<em>§7 за §f<num>с§7.",
           "id": "descriptio-002"
         },
         {
           "en": "§7Each §bDistortion §#D599FF<em>§7 gives §f<num>§7 Raw Damage",
-          "ru": "§7Каждое §bИскажение§r§7 <em> даёт §f<num>§r§7 Чистого Урона",
+          "ru": "§7Каждая единица §bИскажения §#D599FF<em>§7 даёт §f<num>§7 к Чистому Урону.",
           "id": "descriptio-003"
         },
         {
           "en": "§7and decays at a rate of §f<num>§7 per second,",
-          "ru": "§7и убывает со скоростью §f<num>§r§7 в секунду,",
+          "ru": "§7Искажение убывает: §f<num>§7 в секунду,",
           "id": "descriptio-004"
         },
         {
           "en": "§7increasing as you gain §bDistortion §#D599FF<em>.",
-          "ru": "§7ускоряясь по мере накопления §bИскажения§r§7 <em>.",
+          "ru": "§7и тем быстрее, чем больше у вас §bИскажения §#D599FF<em>.",
           "id": "descriptio-005"
         },
         {
@@ -1835,17 +1835,17 @@
       "description": [
         {
           "en": "§7§7Casting §nTeleport§7 while sneaking places an",
-          "ru": "§7§nТелепорт§r§7 в приседе оставляет эфирный",
+          "ru": "§7§nТелепорт§7 в приседе оставляет на вашем",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7ethereal image of yourself at your location.",
-          "ru": "§7образ вас в текущей точке.",
+          "ru": "§7месте ваш эфирный образ.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7You're teleported to its location upon recasting it.",
-          "ru": "§7Повторное применение телепортирует вас туда.",
+          "ru": "§7Повторный §nТелепорт§7 переносит вас к нему.",
           "id": "descriptio-003"
         },
         {
@@ -1926,27 +1926,27 @@
       "description": [
         {
           "en": "§8§8§nMeteor§8, §nIce Snake§8, and §nEtheric Slash§8 will add §7<num>§8 Mana to",
-          "ru": "§8§nМетеор§r§8, §nЛедяная Змея§r§8 и §nЭфирный Разрез§r§8 добавляют §7<num>§r§8 Маны в",
+          "ru": "§7§nМетеор§7, §nЛедяная Змея§7 и §nЭфирный Разрез§7 добавляют §f<num>§7 Маны в",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7a §bMana Bank ✺§7 for every aggressive enemy you hit.",
-          "ru": "§7§bБанк Маны ✺§r§7 за каждого агрессивного врага.",
+          "ru": "§bБанк Маны ✺§7 за каждого агрессивного врага, по которому попали.",
           "id": "descriptio-002"
         },
         {
           "en": "§7Frozen Tornado and Meteor Shower will add <num> Mana.",
-          "ru": "§7§nЛедяной Торнадо§r§7 и §nМетеоритный Дождь§r§7 добавляют §f<num>§r§7 Маны.",
+          "ru": "§7§nЛедяной Торнадо§7 и §nМетеоритный Дождь§7 добавляют §f<num>§7 Маны.",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7§nHeal§7 will now transfer the contents of your",
-          "ru": "§7§nЛечение§r§7 теперь передаёт содержимое вашего",
+          "ru": "§7§nЛечение§7 больше не лечит, а переводит содержимое",
           "id": "descriptio-004"
         },
         {
           "en": "§7§bMana Bank ✺§7 into usable Mana instead of healing.",
-          "ru": "§7§bБанка Маны ✺§r§7 в ману вместо лечения.",
+          "ru": "§bБанка Маны ✺§7 в вашу ману.",
           "id": "descriptio-005"
         },
         {
@@ -2055,7 +2055,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Meteor)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Метеор)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Метеор)",
           "id": "propertie-001"
         },
         {
@@ -2070,7 +2070,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Ophanim)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Офаним)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Офаним)",
           "id": "propertie-004"
         },
         {
@@ -2308,7 +2308,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -2333,7 +2333,7 @@
         },
         {
           "en": "§e<em> §7Effect: §f<num>% §7Slowness (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) к Врагам",
+          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) на врагов",
           "id": "propertie-007"
         },
         {
@@ -2421,7 +2421,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Ice Snake)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Ледяную Змею)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Ледяную Змею)",
           "id": "propertie-001"
         },
         {
@@ -2436,7 +2436,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Frozen Tornado)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Ледяной Торнадо)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Ледяной Торнадо)",
           "id": "propertie-004"
         },
         {
@@ -2646,12 +2646,12 @@
       "description": [
         {
           "en": "§7Increase your maximum",
-          "ru": "§7Увеличивает ваш максимальный",
+          "ru": "§7Увеличивает предел",
           "id": "descriptio-001"
         },
         {
           "en": "§bMana Bank ✺§7 by §f<num>§7.",
-          "ru": "§7§bБанка Маны ✺§r§7 на §f<num>§r§7.",
+          "ru": "§bБанка Маны ✺§7 на §f<num>§7.",
           "id": "descriptio-002"
         },
         {
@@ -2790,12 +2790,12 @@
       "description": [
         {
           "en": "§7§7within §f<num>s§7 will apply a damage bonus",
-          "ru": "§7в течение §f<num>с§r§7 даёт бонус к урону",
+          "ru": "§7за §f<num>с§7, каждый вылеченный вами игрок",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7to every player you've healed.",
-          "ru": "§7каждому исцелённому вами игроку.",
+          "ru": "§7получит бонус к урону.",
           "id": "descriptio-002"
         },
         {
@@ -2812,12 +2812,12 @@
       "properties": [
         {
           "en": "§7§7Healing §f<num>% §7of your max health",
-          "ru": "§7Исцеление §f<num>%§r§7 вашего максимального здоровья",
+          "ru": "§7Если вы вылечите §f<num>% §7своего макс. здоровья",
           "id": "propertie-001"
         },
         {
           "en": "§7<em> §7Effect: §f<num>% §7Damage Bonus (§a⚔§7) to Allies",
-          "ru": "<em> §7Эффект: §f<num>% §7Бонус к Урону (§a⚔§7) Союзникам",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Бонус к Урону (§a⚔§7) на союзников",
           "id": "propertie-002"
         },
         {
@@ -3063,22 +3063,22 @@
         },
         {
           "en": "§7§7beneath you that slows and damages",
-          "ru": "§7под вами, которая замедляет и наносит урон",
+          "ru": "§7под вами. Она замедляет и ранит",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7enemies every §f<num>s§7. Allies standing on",
-          "ru": "§7врагам каждые §f<num>с§r§7. Союзники на сигиле",
+          "ru": "§7врагов каждые §f<num>с§7. Союзники на",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7the sigil will be immune to knockback.",
-          "ru": "§7становятся невосприимчивы к отбрасыванию.",
+          "ru": "§7сигиле не отбрасываются.",
           "id": "descriptio-004"
         },
         {
           "en": "§7   Knockback Immunity to Allies",
-          "ru": "§7   Иммунитет к Отбрасыванию Союзникам",
+          "ru": "§7   Иммунитет к Отбрасыванию на союзников",
           "id": "descriptio-005"
         },
         {
@@ -3090,7 +3090,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -3110,7 +3110,7 @@
         },
         {
           "en": "§e<em> §7Effects: §f<num>% §7Slowness (§c<em>§7) to Enemies, per hit §8(Max <num>%)",
-          "ru": "<em> §7Эффекты: §f<num>% §7Замедление (<em>§7) к врагам, за попадание §8(Максимум <num>%)",
+          "ru": "§e<em> §7Эффекты: §f<num>% §7Замедление (§c<em>§7) на врагов, за попадание §8(Максимум <num>%)",
           "id": "propertie-005"
         },
         {
@@ -3279,7 +3279,7 @@
           "id": "descriptio-002"
         },
         {
-          "en": "§7§8tornados or snakes at the same time.)§7",
+          "en": "§7§8tornados or snakes at the same time.)",
           "ru": "§7§8торнадо или змей одновременно.)",
           "id": "descriptio-003"
         },
@@ -3297,7 +3297,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Ice Snake)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Ледяную Змею)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Ледяную Змею)",
           "id": "propertie-002"
         },
         {
@@ -3312,7 +3312,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Frozen Tornado)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Ледяной Торнадо)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Ледяной Торнадо)",
           "id": "propertie-005"
         },
         {
@@ -3379,14 +3379,14 @@
       "description": [
         {
           "en": "§7For every §f<num>s§7 Lifesteal you have",
-          "ru": "§7За каждые §f<num>с§r§7 Кражи Жизни с предметов",
+          "ru": "§7За каждые §f<num>с§7 Вампиризма от предметов",
           "id": "descriptio-001"
         }
       ],
       "properties": [
         {
           "en": "§7from items, gain §f<num>%§7 Spell Damage. §8(Max <num>%)",
-          "ru": "§7получаете §f<num>%§r§7 Урона Заклинаний. §8(Максимум <num>%)",
+          "ru": "§7вы получаете §f<num>%§7 Урона Заклинаний. §8(Максимум <num>%)",
           "id": "propertie-001"
         },
         {
@@ -3551,12 +3551,12 @@
       "description": [
         {
           "en": "§7§7Casting §7§nMeteor§7 summons an additional",
-          "ru": "§7Применение §nМетеора§r§7 призывает дополнительный",
+          "ru": "§7§nМетеор§7 призывает рядом с целью",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7meteor near the target location for",
-          "ru": "§7метеор рядом с точкой удара за",
+          "ru": "§7ещё один метеор",
           "id": "descriptio-002"
         },
         {
@@ -3565,13 +3565,13 @@
           "id": "descriptio-003"
         },
         {
-          "en": "§7§8Shower can be active at the same time.)§7",
-          "ru": "§7§8Метеоритный Дождь активен одновременно.)",
+          "en": "§7§8Shower can be active at the same time.)",
+          "ru": "§8действовать только один Метеоритный Дождь.)",
           "id": "descriptio-004"
         },
         {
           "en": "§7§7§nMeteor§7 and §nAstral Fragmentation§7 become",
-          "ru": "§7§nМетеор§r§7 и §nАстральная Раздробленность§r§7",
+          "ru": "§7§nМетеор§7 и §nАстральная Раздробленность§7 становятся",
           "id": "descriptio-005"
         },
         {
@@ -3593,17 +3593,17 @@
       "properties": [
         {
           "en": "§7§8(Max <num> Meteors, only one Meteor§7",
-          "ru": "§7§8(Максимум <num> Метеоров, только один",
+          "ru": "§8(Максимум <num> Метеоров, одновременно может",
           "id": "propertie-001"
         },
         {
           "en": "§7smaller, dealing §c<num>%§7 §c<em> §7Damage and",
-          "ru": "§7уменьшаются, нанося §c<num>%§7 §c<em> §7урона и",
+          "ru": "§7меньше: §c<num>%§7 §c<em> §7урона и",
           "id": "propertie-002"
         },
         {
           "en": "§7losing §c<num>%§7 §3<em> §7Area of Effect.",
-          "ru": "§7теряя §c<num>%§7 §3<em> §7зоны поражения.",
+          "ru": "§c<num>%§7 §3<em> §7зоны поражения.",
           "id": "propertie-003"
         },
         {
@@ -3743,12 +3743,12 @@
       "description": [
         {
           "en": "§7§7Increases the health of §nOphanim§7's",
-          "ru": "§7Увеличивает здоровье сфер §nОфаним§r§7",
+          "ru": "§7Здоровье сфер §nОфаним§7",
           "id": "descriptio-001"
         },
         {
           "en": "§7orbs by §f<num>§7 and reduces the",
-          "ru": "§7на §f<num>§r§7 и снижает",
+          "ru": "§7растёт на §f<num>§7, а урон, который",
           "id": "descriptio-002"
         },
         {
@@ -3765,7 +3765,7 @@
       "properties": [
         {
           "en": "§7damage they take when attacking by §f<num>%§7.",
-          "ru": "§7урон, получаемый ими при атаке, на §f<num>%§r§7.",
+          "ru": "§7они получают при атаке: §f<num>%§7.",
           "id": "propertie-001"
         },
         {
@@ -3832,7 +3832,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -3897,7 +3897,7 @@
       "description": [
         {
           "en": "§7§7§f<num>s §7will summon a rotating orb that",
-          "ru": "§7§f<num>с§r§7 призывает вращающуюся сферу,",
+          "ru": "§f<num>с§7, появится вращающаяся сфера, которая",
           "id": "descriptio-001"
         },
         {
@@ -3914,17 +3914,17 @@
       "properties": [
         {
           "en": "§7§7Healing §f<num>%§7 of your max health within",
-          "ru": "§7Исцеление §f<num>%§r§7 вашего макс. здоровья в течение",
+          "ru": "§7Если вы вылечите §f<num>%§7 своего макс. здоровья за",
           "id": "propertie-001"
         },
         {
           "en": "§7§7damages enemies upon contact. (Max <num> orbs)",
-          "ru": "§7наносящий урон врагам при контакте. (Максимум <num> сферы)",
+          "ru": "§7ранит врагов при касании. §8(Максимум <num> сферы)",
           "id": "propertie-002"
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-003"
         },
         {
@@ -4063,7 +4063,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -4163,7 +4163,7 @@
       "description": [
         {
           "en": "§7§7You gain a walk speed buff after",
-          "ru": "§7Получаете бонус к скорости ходьбы после",
+          "ru": "§7Вы получаете бонус к скорости ходьбы после",
           "id": "descriptio-001"
         },
         {
@@ -4185,7 +4185,7 @@
       "properties": [
         {
           "en": "§e<em> §7Effects: §f<num>% §7Walk Speed",
-          "ru": "<em> §7Эффект: §f<num>% §7Скорости Ходьбы",
+          "ru": "§e<em> §7Эффекты: §f<num>% §7Скорости Ходьбы",
           "id": "propertie-001"
         },
         {
@@ -4252,12 +4252,12 @@
       "description": [
         {
           "en": "§7Increase your maximum",
-          "ru": "§7Увеличивает ваш максимальный",
+          "ru": "§7Увеличивает предел",
           "id": "descriptio-001"
         },
         {
           "en": "§bMana Bank ✺§7 by §f<num>§7.",
-          "ru": "§7§bБанка Маны ✺§r§7 на §f<num>§r§7.",
+          "ru": "§bБанка Маны ✺§7 на §f<num>§7.",
           "id": "descriptio-002"
         },
         {
@@ -4428,7 +4428,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -4576,7 +4576,7 @@
       "description": [
         {
           "en": "§7§7Shoots §nMeteor§7 from you as a slow projectile.",
-          "ru": "§7Запускает §nМетеор§r§7 с вашей позиции как медленный снаряд.",
+          "ru": "§7§nМетеор§7 вылетает от вас медленным снарядом.",
           "id": "descriptio-001"
         },
         {
@@ -4670,12 +4670,12 @@
         },
         {
           "en": "§7§7casting §nArcane Transfer§7 will rapidly unleash",
-          "ru": "§7Применение §nАрканной Передачи§r§7 быстро выпускает",
+          "ru": "§7§nАрканная Передача§7 быстро выпускает",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7the last §f<num> §7spells you've cast in order.",
-          "ru": "§7последние §f<num>§r§7 использованных вами заклинания по порядку.",
+          "ru": "§7последние §f<num> §7применённых вами заклинания по порядку.",
           "id": "descriptio-003"
         },
         {
@@ -4837,7 +4837,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Ice Snake)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Ледяную Змею)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Ледяную Змею)",
           "id": "propertie-001"
         },
         {
@@ -4852,7 +4852,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Frozen Tornado)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Ледяной Торнадо)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Ледяной Торнадо)",
           "id": "propertie-004"
         },
         {
@@ -4867,7 +4867,7 @@
         },
         {
           "en": "§e<em> §7Effect: §f<num>% §7Slowness (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) к Врагам",
+          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) на врагов",
           "id": "propertie-007"
         },
         {
@@ -4924,22 +4924,22 @@
       "description": [
         {
           "en": "§7§7Creates an area of effect when sprinting",
-          "ru": "§7Создаёт зону при беге,",
+          "ru": "§7На бегу вы создаёте вокруг себя зону,",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7that increases the walk speed of all",
-          "ru": "§7увеличивающую скорость ходьбы всех",
+          "ru": "§7которая ускоряет союзников тем сильнее,",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7allies the longer they run in it.",
-          "ru": "§7союзников, чем дольше они в ней бегут.",
+          "ru": "§7чем дольше они в ней бегут.",
           "id": "descriptio-003"
         },
         {
           "en": "§7§8once you stop running)",
-          "ru": "§7§8после остановки)",
+          "ru": "§8когда вы перестаёте бежать)",
           "id": "descriptio-004"
         },
         {
@@ -4956,12 +4956,12 @@
       "properties": [
         {
           "en": "§7§8(You lose <num>% Walk Speed Bonus every second",
-          "ru": "§8(Вы теряете <num>% бонуса скорости ходьбы каждую секунду",
+          "ru": "§8(бонус к скорости теряет <num>% каждую секунду,",
           "id": "propertie-001"
         },
         {
           "en": "§e<em> §7Effect: §f<num>% §7Walk Speed to Allies §8(per <num>s, <num>% Max)",
-          "ru": "<em> §7Эффект: §f<num>% §7Скорости Ходьбы союзникам §8(за §f<num>с§7, макс. <num>%)",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Скорости Ходьбы на союзников §8(за <num>с, макс. <num>%)",
           "id": "propertie-002"
         },
         {
@@ -5035,7 +5035,7 @@
       "properties": [
         {
           "en": "§e<em> §7Effect: §f<num>% §7Slowness (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) к Врагам",
+          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) на врагов",
           "id": "propertie-001"
         },
         {
@@ -5110,7 +5110,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -5426,7 +5426,7 @@
         },
         {
           "en": "§7You gain §f<num>§7 §bDistortion §#D599FF<em>§7 for every enemy weakened.",
-          "ru": "§7Получаете §f<num>§r§7 §bИскажения§r§7 <em>§7 за каждого ослабленного врага.",
+          "ru": "§7Вы получаете §f<num>§7 §bИскажения §#D599FF<em>§7 за каждого ослабленного врага.",
           "id": "descriptio-002"
         },
         {
@@ -5448,12 +5448,12 @@
       "properties": [
         {
           "en": "§7(Up to <num>)",
-          "ru": "§7(До §f<num>§r§7)",
+          "ru": "§7(До <num>)",
           "id": "propertie-001"
         },
         {
           "en": "§7<em> §7Effect: §f<num>%§f §7Damage Bonus (<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>%§f §7Бонус Урона (<em>§7) к Врагам",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Бонус к Урону (§c<em>§7) на врагов",
           "id": "propertie-002"
         },
         {
@@ -5606,12 +5606,12 @@
       "description": [
         {
           "en": "§7Increase your maximum",
-          "ru": "§7Увеличивает ваш максимальный",
+          "ru": "§7Увеличивает предел",
           "id": "descriptio-001"
         },
         {
           "en": "§bMana Bank ✺§7 by §f<num>§7.",
-          "ru": "§7§bБанка Маны ✺§r§7 на §f<num>§r§7.",
+          "ru": "§bБанка Маны ✺§7 на §f<num>§7.",
           "id": "descriptio-002"
         },
         {
@@ -5703,7 +5703,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §c<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -5795,7 +5795,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -5973,12 +5973,12 @@
       "description": [
         {
           "en": "§7§7will make your next §nHeal§7 activate §nSunflare§7.",
-          "ru": "§7позволит следующему §nЛечению§r§7 активировать §nСолнечную Вспышку§r§7.",
+          "ru": "§7вы запустите §nСолнечную Вспышку§7 следующим §nЛечением§7.",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7While §nSunflare§7 is active, you will restore",
-          "ru": "§7Пока §nСолнечная Вспышка§r§7 активна, вы восстанавливаете",
+          "ru": "§7Пока §nСолнечная Вспышка§7 активна, вы восстанавливаете",
           "id": "descriptio-002"
         },
         {
@@ -5988,7 +5988,7 @@
         },
         {
           "en": "§7§7your §nOphanim§7 orbs will attack constantly.",
-          "ru": "§7орбы §nОфаним§r§7 атакуют непрерывно.",
+          "ru": "§7сферы §nОфаним§7 атакуют без перерыва.",
           "id": "descriptio-004"
         },
         {
@@ -6005,7 +6005,7 @@
       "properties": [
         {
           "en": "§7§7Healing §f<num>%§7 of your max health within §f<num>s",
-          "ru": "§7Исцеление §f<num>%§r§7 макс. здоровья в течение §f<num>с§r§7",
+          "ru": "§7Вылечив §f<num>%§7 своего макс. здоровья за §f<num>с§7,",
           "id": "propertie-001"
         },
         {
@@ -6015,12 +6015,12 @@
         },
         {
           "en": "§#DB5B3C<em> §7Health Regen: §f<num>% per second §8(of your max health)",
-          "ru": "<em> §7Регенерация здоровья: §f<num>% в секунду §8(от макс. здоровья)",
+          "ru": "§#DB5B3C<em> §7Восстановление Здоровья: §f<num>% в секунду §8(от макс. здоровья)",
           "id": "propertie-003"
         },
         {
           "en": "§#66E6FF<em> §7Mana Regen: §f<num>% per second §8(of your max mana)",
-          "ru": "<em> §7Регенерация маны: §f<num>% в секунду §8(от макс. маны)",
+          "ru": "§#66E6FF<em> §7Восстановление маны: §f<num>% в секунду §8(от макс. маны)",
           "id": "propertie-004"
         },
         {
@@ -6240,22 +6240,22 @@
         },
         {
           "en": "§7§7casting §nArcane Transfer§7 while sneaking",
-          "ru": "§7Применение §nАрканной Передачи§r§7 в приседе",
+          "ru": "§7§nАрканная Передача§7 в приседе",
           "id": "descriptio-002"
         },
         {
           "en": "§7will summon a ball lightning that deals",
-          "ru": "§7призывает шаровую молнию, наносящую",
+          "ru": "§7призывает шаровую молнию. Она ранит",
           "id": "descriptio-003"
         },
         {
           "en": "§7damage to nearby enemies and drains",
-          "ru": "§7урон ближайшим врагам и поглощающую",
+          "ru": "§7ближайших врагов и забирает у вас",
           "id": "descriptio-004"
         },
         {
           "en": "§7<num> Mana every <num>s, until you run out",
-          "ru": "§7§f<num>§r§7 Маны каждые §f<num>с§r§7, пока у вас",
+          "ru": "§f<num> §7Маны каждые §f<num>с§7, пока у вас",
           "id": "descriptio-005"
         },
         {
@@ -6265,7 +6265,7 @@
         },
         {
           "en": "§7Mana cost and damage increase by",
-          "ru": "§7Затраты маны и урон увеличиваются на",
+          "ru": "§7Расход маны и урон молнии растут на",
           "id": "descriptio-007"
         },
         {
@@ -6287,12 +6287,12 @@
       "properties": [
         {
           "en": "§7<num>% every time it deals damage.",
-          "ru": "§7§f<num>%§r§7 каждый раз, когда он наносит урон.",
+          "ru": "§f<num>%§7 при каждом её попадании.",
           "id": "propertie-001"
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -6377,12 +6377,12 @@
       "description": [
         {
           "en": "§7§7Increase your Max Orbs",
-          "ru": "§7Увеличивает Максимальное Количество Сфер",
+          "ru": "§7Увеличивает предел сфер",
           "id": "descriptio-001"
         },
         {
           "en": "§7from §nLightweaver§7 by §f<num>§7.",
-          "ru": "§7§nТкача Света§r§7 на §f<num>§r§7.",
+          "ru": "§7§nТкача Света§7 на §f<num>§7.",
           "id": "descriptio-002"
         },
         {
@@ -6616,27 +6616,27 @@
       "description": [
         {
           "en": "§7§7Casting §7§nFrozen Tornado§7 inside your §7§nDimensional§7",
-          "ru": "§7Применение §nЛедяного Торнадо§r§7 внутри вашего",
+          "ru": "§7Если применить §nЛедяной Торнадо§7 внутри вашего",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7§nTear§7 infuses it with otherworldly energies,",
-          "ru": "§7§nПространственного Разрыва§r§7 наполняет его потусторонней энергией,",
+          "ru": "§7§nПространственного Разрыва§7, он наполнится потусторонней",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7turning it into a §7§nTime Vortex§7.",
-          "ru": "§7превращая в §nВременной Вихрь§r§7.",
+          "ru": "§7энергией и станет §nВременным Вихрем§7.",
           "id": "descriptio-003"
         },
         {
           "en": "§7longer and grants §f<num> §bDistortion §#D599FF<em>§7 every",
-          "ru": "§7дольше и даёт §f<num>§r§7 §bИскажения§r§7 <em> каждый",
+          "ru": "§7дольше и даёт §f<num> §bИскажения §#D599FF<em>§7 при каждом",
           "id": "descriptio-004"
         },
         {
           "en": "§7time it deals damage to an enemy.",
-          "ru": "§7раз при нанесении урона врагу.",
+          "ru": "§7попадании по врагу.",
           "id": "descriptio-005"
         },
         {
@@ -6658,7 +6658,7 @@
       "properties": [
         {
           "en": "§7§7§nTime Vortex§7 deals damage §f<num>%§7 faster, lasts",
-          "ru": "§7§nВременной Вихрь§r§7 наносит урон на §f<num>%§r§7 быстрее, длится",
+          "ru": "§7§nВременной Вихрь§7 наносит урон на §f<num>%§7 быстрее, длится",
           "id": "propertie-001"
         },
         {
@@ -6878,17 +6878,17 @@
         },
         {
           "en": "§7and double its speed.",
-          "ru": "§7и удваивает её скорость.",
+          "ru": "§7и §fвдвое§7 увеличивает её скорость.",
           "id": "descriptio-002"
         },
         {
           "en": "§7Increase the damage of Frozen Tornado",
-          "ru": "§7Увеличивает урон §nЛедяного Торнадо§r§7",
+          "ru": "§7Урон §nЛедяного Торнадо§7 растёт",
           "id": "descriptio-003"
         },
         {
           "en": "§7the tornado damages an enemy.",
-          "ru": "§7когда торнадо наносит урон врагу.",
+          "ru": "§7когда торнадо ранит врага.",
           "id": "descriptio-004"
         },
         {
@@ -6900,12 +6900,12 @@
       "properties": [
         {
           "en": "§7by an additional §f<num>%§7 every time",
-          "ru": "§7на дополнительные §f<num>%§r§7 каждый раз,",
+          "ru": "§7ещё на §f<num>%§7 каждый раз,",
           "id": "propertie-001"
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS, for Ice Snake)",
-          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, за Ледяную Змею)",
+          "ru": "§c<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за Ледяную Змею)",
           "id": "propertie-002"
         },
         {
@@ -6971,7 +6971,7 @@
       "description": [
         {
           "en": "§7§nLightweaver§7 applies §f<num> §bCrystallized §#B8FEFF<em>",
-          "ru": "§7§nТкач Света§r§7 накладывает §f<num>§r§7 §bКристаллизации <em>§r§7",
+          "ru": "§7§nТкач Света§7 накладывает §f<num> §bКристаллизации §#B8FEFF<em>",
           "id": "descriptio-001"
         },
         {
@@ -6981,32 +6981,32 @@
         },
         {
           "en": "§7Casting Ice Snake shatters",
-          "ru": "§7Применение §nЛедяной Змеи§r§7 разрушает",
+          "ru": "§7§nЛедяная Змея§7 раскалывает",
           "id": "descriptio-003"
         },
         {
           "en": "§7enemies with §f<num> §bCrystallized §#B8FEFF<em>§7,",
-          "ru": "§7врагов с §f<num>§r§7 §bКристаллизации <em>§r§7,",
+          "ru": "§7врагов с §f<num> §bКристаллизации §#B8FEFF<em>§7,",
           "id": "descriptio-004"
         },
         {
           "en": "§7damaging and slowing them.",
-          "ru": "§7нанося урон и замедляя их.",
+          "ru": "§7нанося им урон и замедляя.",
           "id": "descriptio-005"
         },
         {
           "en": "§bCrystallized §#B8FEFF<em>§7 starts decaying at",
-          "ru": "§7§bКристаллизация <em>§r§7 начинает убывать",
+          "ru": "§bКристаллизация §#B8FEFF<em>§7 начинает убывать",
           "id": "descriptio-006"
         },
         {
           "en": "§7a rate of §f<num>§7 every second if",
-          "ru": "§7со скоростью §f<num>§r§7 в секунду,",
+          "ru": "§7(§f<num>§7 в секунду), если её",
           "id": "descriptio-007"
         },
         {
           "en": "§7none is applied for <num>s.",
-          "ru": "§7если не накладывается в течение §f§f<num>с§7.§r§7",
+          "ru": "§7не обновлять §f<num>с§7.",
           "id": "descriptio-008"
         },
         {
@@ -7028,7 +7028,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -7048,7 +7048,7 @@
         },
         {
           "en": "§e<em> §7Effect: §f<num>% §7Slowness (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) к Врагам",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Замедление (§c<em>§7) на врагов",
           "id": "propertie-005"
         },
         {
@@ -7127,7 +7127,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -7193,32 +7193,32 @@
       "description": [
         {
           "en": "§7Dimensional Tear§7 is now inhabited",
-          "ru": "§7§nПространственный Разрыв§r§7 теперь населён",
+          "ru": "§7Пока §nПространственный Разрыв§7 открыт,",
           "id": "descriptio-001"
         },
         {
           "en": "§7by a Riftspawn while active.",
-          "ru": "§7§bПорождением Разлома§r§7, пока активен.",
+          "ru": "§7в нём обитает §bПорождение Разлома§7.",
           "id": "descriptio-002"
         },
         {
           "en": "§7The Riftspawn shoots homing distorting",
-          "ru": "§7§bПорождение Разлома§r§7 выпускает самонаводящиеся",
+          "ru": "§bПорождение Разлома§7 выпускает самонаводящиеся",
           "id": "descriptio-003"
         },
         {
           "en": "§7blasts to nearby enemies every <num>s,",
-          "ru": "§7искажающие снаряды по ближайшим врагам каждые §f<num>с§r§7,",
+          "ru": "§7искажающие снаряды по ближайшим врагам каждые §f<num>с§7,",
           "id": "descriptio-004"
         },
         {
           "en": "§7dealing damage and increasing your",
-          "ru": "§7нанося урон и увеличивая ваше",
+          "ru": "§7которые ранят их и увеличивают ваше",
           "id": "descriptio-005"
         },
         {
           "en": "§bDistortion §#D599FF<em>§7 by §f<num>§7.",
-          "ru": "§7§bИскажение§r§7 <em>§7 на §f<num>§r§7.",
+          "ru": "§bИскажение §#D599FF<em>§7 на §f<num>§7.",
           "id": "descriptio-006"
         },
         {
@@ -7235,7 +7235,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -7313,22 +7313,22 @@
       "description": [
         {
           "en": "§7to the future, dealing it over §f<num>s§7 and",
-          "ru": "§7нанося его за §f<num>с§r§7, и",
+          "ru": "§7и получаете его в течение §f<num>с§7, а также",
           "id": "descriptio-001"
         },
         {
           "en": "§7borrow mana from the past, refunding",
-          "ru": "§7занимаете ману из прошлого, возвращая",
+          "ru": "§7занимаете ману у прошлого: вам возвращается",
           "id": "descriptio-002"
         },
         {
           "en": "§7For every §f<num>§7 §bDistortion §#D599FF<em>§7, the",
-          "ru": "§7За каждые §f<num>§7 §bИскажения §#D599FF<em>§7,",
+          "ru": "§7За каждые §f<num>§7 §bИскажения §#D599FF<em>§7",
           "id": "descriptio-003"
         },
         {
           "en": "§7mana is refunded §f<num>s§7 faster.",
-          "ru": "§7мана возвращается на §f<num>с§7 быстрее.",
+          "ru": "§7мана возвращается быстрее: §f<num>с§7.",
           "id": "descriptio-004"
         },
         {
@@ -7350,12 +7350,12 @@
       "properties": [
         {
           "en": "§7You send §f<num>%§7 of the damage you take",
-          "ru": "§7Отправляете §f<num>%§r§7 полученного урона в будущее,",
+          "ru": "§7Вы отправляете §f<num>%§7 полученного урона в будущее",
           "id": "propertie-001"
         },
         {
           "en": "§7§f<num>%§7 of your spent mana over §f<num>s§7.",
-          "ru": "§7§f<num>%§r§7 потраченной маны за §f<num>с§r§7.",
+          "ru": "§f<num>%§7 потраченной маны в течение §f<num>с§7.",
           "id": "propertie-002"
         },
         {
@@ -7433,7 +7433,7 @@
       "properties": [
         {
           "en": "§7consume §bUnstable §#7A3CFF<em> §7to deal §f<num>%§7 damage.",
-          "ru": "§7расходуют §bНестабильность <em>§r§7 для §f<num>%§r§7 урона.",
+          "ru": "§7расходуют §bНестабильность §#7A3CFF<em> §7и наносят §f<num>%§7 урона.",
           "id": "propertie-001"
         },
         {
@@ -7568,12 +7568,12 @@
       "description": [
         {
           "en": "§7§7After casting §7§nMeteor§7, generate a lightning",
-          "ru": "§7После применения §nМетеора§r§7 создаёт удар молнии",
+          "ru": "§7После §nМетеора§7 рядом с местом падения",
           "id": "descriptio-001"
         },
         {
           "en": "§8§8strike near the point of impact that",
-          "ru": "§8рядом с точкой попадания,",
+          "ru": "§7бьёт молния, которая",
           "id": "descriptio-002"
         },
         {
@@ -7583,7 +7583,7 @@
         },
         {
           "en": "§7§7for each aggressive enemy you hit.",
-          "ru": "§7за каждого агрессивного врага.",
+          "ru": "§7за каждого агрессивного врага, по которому попала.",
           "id": "descriptio-004"
         },
         {
@@ -7600,7 +7600,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -7662,27 +7662,27 @@
       "description": [
         {
           "en": "§7Channel the power of Orphion and summon",
-          "ru": "§7Канализирует силу Орфиона и призывает",
+          "ru": "§7Вы направляете силу Орфиона и призываете",
           "id": "descriptio-001"
         },
         {
           "en": "§7the sun itself above you.",
-          "ru": "§7само солнце над вами.",
+          "ru": "§7над собой само солнце.",
           "id": "descriptio-002"
         },
         {
           "en": "§7The Sun will summon solar wisps that move",
-          "ru": "§7Солнце призывает солнечных блуждающих огней,",
+          "ru": "§7Солнце выпускает солнечные огоньки. Они разлетаются",
           "id": "descriptio-003"
         },
         {
           "en": "§7outwards, damaging all enemies and healing",
-          "ru": "§7двигающихся наружу, наносящих урон врагам и",
+          "ru": "§7в стороны, ранят всех врагов и лечат",
           "id": "descriptio-004"
         },
         {
           "en": "§7all allies in their path.",
-          "ru": "§7исцеляющих союзников на их пути.",
+          "ru": "§7всех союзников на своём пути.",
           "id": "descriptio-005"
         },
         {
@@ -7744,7 +7744,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашей §#82EFF4Шкалы Ультимейта <em> §7до <num>%",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-009"
         },
         {
@@ -7802,37 +7802,37 @@
       "description": [
         {
           "en": "§7Summon a Thunder Serpent and a Fire",
-          "ru": "§7Призыв §bЗмея Грома§r§7 и §bЗмея Огня§r§7,",
+          "ru": "§7Вы призываете §bЗмея Грома §7и §bЗмея",
           "id": "descriptio-001"
         },
         {
           "en": "§7Serpent, which will attack nearby enemies.",
-          "ru": "§7атакующих ближайших врагов.",
+          "ru": "§bОгня§7, которые атакуют ближайших врагов.",
           "id": "descriptio-002"
         },
         {
           "en": "§7The Thunder Serpent strikes up to",
-          "ru": "§7§bЗмей Грома§r§7 поражает до",
+          "ru": "§7§bЗмей Грома§7 поражает до",
           "id": "descriptio-003"
         },
         {
           "en": "§7<num> enemies with arcing lightning",
-          "ru": "§7§f<num>§r§7 врагов дуговой молнией",
+          "ru": "§f<num> §7врагов дуговой молнией",
           "id": "descriptio-004"
         },
         {
           "en": "§7every §f<num>s§7, making them §bUnstable §#7A3CFF<em>§7.",
-          "ru": "§7каждые §f<num>с§r§7, делая их §bНестабильными <em>§r§7.",
+          "ru": "§7каждые §f<num>с§7 и делает их §bНестабильными §#7A3CFF<em>§7.",
           "id": "descriptio-005"
         },
         {
           "en": "§7The §bFire Serpent§7 fires at §bUnstable §#7A3CFF<em>",
-          "ru": "§7§bЗмей Огня§r§7 бьёт по §bНестабильным <em>§r§7",
+          "ru": "§7§bЗмей Огня§7 бьёт по §bНестабильным §#7A3CFF<em>",
           "id": "descriptio-006"
         },
         {
           "en": "§7targets every <num>s, gaining the damage bonus.",
-          "ru": "§7целям каждые §f<num>с§r§7, получая бонус урона.",
+          "ru": "§7целям каждые §f<num>с§7 и получает бонус к урону.",
           "id": "descriptio-007"
         },
         {
@@ -7869,7 +7869,7 @@
         },
         {
           "en": "§7<em> Total Damage: <num>% (of your DPS, Thunder)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, Гром)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, Гром)",
           "id": "propertie-003"
         },
         {
@@ -7884,7 +7884,7 @@
         },
         {
           "en": "§7<em> Total Damage: <num>% (of your DPS, Fire)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, Огонь)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, Огонь)",
           "id": "propertie-006"
         },
         {
@@ -7904,7 +7904,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашей §#82EFF4Шкалы Ультимейта <em> §7до <num>%",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-010"
         },
         {
@@ -7962,37 +7962,37 @@
       "description": [
         {
           "en": "§7Your Dimensional Tear overloads, growing",
-          "ru": "§7§nПространственный Разрыв§r§7 перегружается, увеличиваясь",
+          "ru": "§7Ваш §nПространственный Разрыв§7 перегружается: он растёт,",
           "id": "descriptio-001"
         },
         {
           "en": "§7in size and damage while pulling all enemies in.",
-          "ru": "§7в размере и уроне, притягивая всех врагов.",
+          "ru": "§7наносит больше урона и притягивает всех врагов.",
           "id": "descriptio-002"
         },
         {
           "en": "§7damage, turns your Teleport into a deadly ray",
-          "ru": "§7превращает §nТелепорт§r§7 в смертоносный луч,",
+          "ru": "§7урона, а §nТелепорт§7 становится смертоносным лучом,",
           "id": "descriptio-003"
         },
         {
           "en": "§7that fires off <num> times in quick succession,",
-          "ru": "§7выстреливающий §f<num>§r§7 раз подряд,",
+          "ru": "§7который бьёт §f<num>§7 раз подряд.",
           "id": "descriptio-004"
         },
         {
           "en": "§7provides flight, and prevents mana drain.",
-          "ru": "§7даёт полёт и останавливает расход маны.",
+          "ru": "§7Вы можете летать, а мана не тратится.",
           "id": "descriptio-005"
         },
         {
           "en": "§7The Dimensional Tear collapses when it expires,",
-          "ru": "§7§nПространственный Разрыв§r§7 схлопывается по истечении,",
+          "ru": "§7Когда время выходит, §nПространственный Разрыв§7 схлопывается",
           "id": "descriptio-006"
         },
         {
           "en": "§7dealing massive damage to nearby enemies.",
-          "ru": "§7нанося огромный урон ближайшим врагам.",
+          "ru": "§7и наносит огромный урон ближайшим врагам.",
           "id": "descriptio-007"
         },
         {
@@ -8019,12 +8019,12 @@
         },
         {
           "en": "§7While it is overloaded, it deals §f<num>%§7 increased",
-          "ru": "§7В перегруженном состоянии наносит §f<num>%§r§7 урона,",
+          "ru": "§7Перегруженный Разрыв наносит §f<num>%§7",
           "id": "propertie-002"
         },
         {
           "en": "§7<em> Total Damage: <num>% (of your DPS, Deadly Beam)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, Смертоносный Луч)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, Смертоносный Луч)",
           "id": "propertie-003"
         },
         {
@@ -8039,7 +8039,7 @@
         },
         {
           "en": "§7<em> Total Damage: <num>% (of your DPS, Collapse)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, Коллапс)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, Коллапс)",
           "id": "propertie-006"
         },
         {
@@ -8069,7 +8069,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашей §#82EFF4Шкалы Ультимейта <em> §7до <num>%",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-012"
         },
         {

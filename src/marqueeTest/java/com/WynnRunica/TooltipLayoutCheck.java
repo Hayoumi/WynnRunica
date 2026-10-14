@@ -28,6 +28,9 @@ public final class TooltipLayoutCheck {
     private static final Set<String> SYMBOLS = new java.util.TreeSet<>();
     private static final List<String> LINES = new ArrayList<>();
     private static final List<String> SHOWN = new ArrayList<>();
+    private static final List<String> COLORS = new ArrayList<>();
+    private static final List<String> MISSING = new ArrayList<>();
+    private static final List<String> WIDER = new ArrayList<>();
 
     private record Glyph(int codePoint, int x, int advance, boolean visible) {}
 
@@ -64,16 +67,32 @@ public final class TooltipLayoutCheck {
             List<Text> result = GuiTranslator.widenColumns(tooltip, GuiTranslator.translatePixelTooltip(tooltip, true));
             String shownTitle = capture.has("itemName") ? capture.get("itemName").getAsString() : "?";
             List<Text> shownLines = result.size() == tooltip.size() ? result : tooltip;
+            int widestBefore = 0;
+            for (Text line : tooltip) widestBefore = Math.max(widestBefore, measure(line));
+            for (int i = 0; i < tooltip.size() && result.size() == tooltip.size(); i++) {
+                int now = measure(result.get(i));
+                if (now > widestBefore && now > measure(tooltip.get(i))) WIDER.add(shownTitle + "	" + (now - widestBefore) + "	" + tooltip.get(i).getString() + "	" + result.get(i).getString());
+            }
             for (int i = 0; i < tooltip.size(); i++) {
                 String was = tooltip.get(i).getString();
                 SHOWN.add(shownTitle + "	" + i + "	" + was + "	" + (shownLines.get(i).getString().equals(was) ? "" : shownLines.get(i).getString()));
             }
-            if (result == tooltip) continue;
+            String itemId = capture.has("itemId") ? capture.get("itemId").getAsString() : "";
+            for (int i = 0; i < tooltip.size(); i++) {
+                if (TextEmojiUtils.findWynncraftPixelStyle(tooltip.get(i)) == null) continue;
+                boolean changed = !shownLines.get(i).getString().equals(tooltip.get(i).getString());
+                COLORS.add(shownTitle + "	2	" + colors(tooltip.get(i)) + "	" + (changed ? colors(shownLines.get(i)) : ""));
+                if (!changed) MISSING.add(shownTitle + "	" + TextEmojiUtils.extractTooltip(tooltip.get(i)).key);
+            }
+            if (result == tooltip) {
+                symbolCheck(shownTitle, itemId, tooltip, shownLines, problems);
+                continue;
+            }
             translated++;
             String title = capture.has("itemName") ? capture.get("itemName").getAsString() : "?";
             if (!only.isEmpty() && translated <= 2) dump(title, tooltip, result);
             check(title, tooltip, result, problems);
-            symbolCheck(title, capture.has("itemId") ? capture.get("itemId").getAsString() : "", tooltip, problems);
+            symbolCheck(title, itemId, tooltip, shownLines, problems);
         }
 
         int count = 0;
@@ -89,26 +108,40 @@ public final class TooltipLayoutCheck {
         Files.write(Path.of("build/symbol-colors.txt"), SYMBOLS, StandardCharsets.UTF_8);
         Files.write(Path.of("build/tooltip-lines.txt"), LINES, StandardCharsets.UTF_8);
         Files.write(Path.of("build/tooltip-shown.txt"), SHOWN, StandardCharsets.UTF_8);
+        Files.write(Path.of("build/tooltip-colors.txt"), COLORS, StandardCharsets.UTF_8);
+        Files.write(Path.of("build/tooltip-missing.txt"), MISSING, StandardCharsets.UTF_8);
+        Files.write(Path.of("build/tooltip-wider.txt"), WIDER, StandardCharsets.UTF_8);
+        List<String> every = new ArrayList<>();
+        for (Map.Entry<String, List<String>> kind : problems.entrySet()) {
+            for (String problem : kind.getValue()) every.add(kind.getKey() + "	" + problem);
+        }
+        Files.write(Path.of("build/tooltip-problems.txt"), every, StandardCharsets.UTF_8);
         System.out.println("подсказок разных: " + total + ", с переводом: " + translated + ", замечаний: " + count);
         if (!UNKNOWN.isEmpty()) {
             System.out.println("букв без ширины в таблице: " + UNKNOWN.size() + ", например " + UNKNOWN.stream().limit(8).toList());
         }
     }
 
-    private static void symbolCheck(String title, String itemId, List<Text> tooltip, Map<String, List<String>> problems) {
+    private static void symbolCheck(String title, String itemId, List<Text> tooltip, List<Text> later, Map<String, List<String>> problems) {
         List<String> keys = new ArrayList<>();
         for (int i = 1; i < tooltip.size(); i++) keys.add(TextEmojiUtils.extract(tooltip.get(i)).key);
         GuiScope scope = TranslationManager.findScopeByTitle(TextEmojiUtils.extractTooltip(tooltip.get(0)).key, keys, "", itemId);
-        for (Text line : tooltip) {
+        for (int index = 0; index < tooltip.size(); index++) {
+            Text line = tooltip.get(index);
             if (TextEmojiUtils.findWynncraftPixelStyle(line) != null) continue;
             var ex = TextEmojiUtils.extractTooltip(line);
             String first = TranslationManager.getGuiTranslation(ex.key, scope);
             LINES.add(title + "	" + ex.key + "	" + (first.equals(ex.key) ? "" : first));
+            if (first.equals(ex.key)) {
+                boolean changed = !later.get(index).getString().equals(line.getString());
+                COLORS.add(title + "	1	" + colors(line) + "	" + (changed ? colors(later.get(index)) : ""));
+                if (!changed) MISSING.add(title + "	" + ex.key);
+            }
             if (first.equals(ex.key) || first.startsWith("<center>")) continue;
             Text shown = TooltipNumberColors.preserve(line, TextEmojiUtils.rebuild(first.replace("§*", TextEmojiUtils.accentCode(line)), ex.icons,
                     ex.contentStyle == null ? net.minecraft.text.Style.EMPTY : ex.contentStyle, ex.key), false);
+            COLORS.add(title + "	1	" + colors(line) + "	" + colors(TooltipNumberColors.preserve(line, shown, true)));
             if (TooltipNumberColors.preserve(line, shown, true) != shown) {
-                add(problems, "скобка или значок другого цвета, чем в оригинале", title + " | " + ex.key + "  =>  " + first);
                 SYMBOLS.add(ex.key + "	" + first + "	" + colors(line) + "	" + colors(shown));
             }
         }
@@ -188,6 +221,45 @@ public final class TooltipLayoutCheck {
             int movedAbove = now.get(above).indent() - upper.indent();
             if (Math.abs(moved - movedAbove) > 1) {
                 add(problems, "ряд значений уехал из-под ряда иконок", title + " | сдвиг " + moved + ", у ряда выше " + movedAbove);
+            }
+        }
+        for (int i = 0; i < was.size() && i < now.size(); i++) {
+            if (was.get(i).firstVisible() < 0 || !was.get(i).text().equals(now.get(i).text())) continue;
+            int next = i + 1;
+            while (next < was.size() && was.get(next).firstVisible() < 0) next++;
+            if (next >= was.size() || next >= now.size() || !was.get(next).text().equals(now.get(next).text())) continue;
+            if (was.get(i).width() != was.get(next).width() || was.get(i).indent() <= 0 || was.get(next).indent() <= 0) continue;
+            int shift = now.get(i).firstVisible() - was.get(i).firstVisible();
+            int nextShift = now.get(next).firstVisible() - was.get(next).firstVisible();
+            if (shift != nextShift) {
+                add(problems, "ряды одной сетки сдвинулись по-разному", title + " | строки " + i + " и " + next + " | " + shift + " и " + nextShift);
+            }
+        }
+        boolean framed = false;
+        for (Line line : was) {
+            if (line.indent() < 0) framed = true;
+        }
+        for (int i = 0; !framed && i < was.size() && i < now.size(); i++) {
+            int axis = lastCellStart(was.get(i));
+            if (axis < 0) continue;
+            int oldLow = axis;
+            int oldHigh = axis;
+            int newLow = Integer.MAX_VALUE;
+            int newHigh = Integer.MIN_VALUE;
+            int rows = 0;
+            for (int k = 0; k < was.size() && k < now.size(); k++) {
+                int other = lastCellStart(was.get(k));
+                if (other < 0 || Math.abs(other - axis) > 4 || lastCellStart(now.get(k)) < 0) continue;
+                rows++;
+                oldLow = Math.min(oldLow, other);
+                oldHigh = Math.max(oldHigh, other);
+                newLow = Math.min(newLow, lastCellStart(now.get(k)));
+                newHigh = Math.max(newHigh, lastCellStart(now.get(k)));
+            }
+            if (rows >= 3 && newHigh - newLow > oldHigh - oldLow + 4) {
+                add(problems, "таблица: правая колонка разъехалась", title + " | «" + was.get(i).text() + "» -> «" + now.get(i).text()
+                        + "» | разброс был " + (oldHigh - oldLow) + ", стал " + (newHigh - newLow));
+                break;
             }
         }
         int bodyStart = 0;
@@ -377,6 +449,22 @@ public final class TooltipLayoutCheck {
             }
         }
         return cells;
+    }
+
+    private static int lastCellStart(Line line) {
+        int start = -1;
+        boolean text = false;
+        boolean gap = false;
+        for (Glyph glyph : line.glyphs()) {
+            if (glyph.visible()) {
+                if (text && gap) start = glyph.x();
+                text = true;
+                gap = false;
+            } else if (isSpacer(glyph)) {
+                gap = true;
+            }
+        }
+        return start;
     }
 
     private static boolean isSpacer(Glyph glyph) {

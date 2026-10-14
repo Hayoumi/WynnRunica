@@ -174,7 +174,7 @@ tasks.register('checkTooltipLayout', JavaExec) {
     args = [project.findProperty('captures') ?: '../fignya/tooltip-captures/hub-snapshots.jsonl',
             '../fignya/WynnRunica-tools/font-widths.json',
             project.findProperty('only') ?: '',
-            'E:/Program Files/Modrinth/profiles/World of Wynncraft/config/WynnRunica']
+            project.findProperty('translations') ?: 'E:/Program Files/Modrinth/profiles/World of Wynncraft/config/WynnRunica']
 }
 
 tasks.register('testTooltipNumberColors', JavaExec) {

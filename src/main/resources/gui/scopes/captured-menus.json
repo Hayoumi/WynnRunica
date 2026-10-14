@@ -89,6 +89,11 @@
           "id": "line-391d9698355f8bd8",
           "en": "§7<em> Click to place buy order",
           "ru": "§7<em> §aНажмите, чтобы разместить заказ"
+        },
+        {
+          "id": "line-1a1540b6454ed8b4",
+          "en": "§7You have no open market slots",
+          "ru": "§cУ вас нет свободных ячеек на рынке"
         }
       ]
     },
@@ -104,13 +109,13 @@
       "title": {
         "id": "title",
         "en": "§6<num>x Private Guild Bank Slot",
-        "ru": "§6<num>§7x Личная ячейка банка гильдии"
+        "ru": "§6<num>x Личная ячейка банка гильдии"
       },
       "lines": [
         {
           "id": "line-15cceca78a172d46",
           "en": "§6<num>x Private Guild Bank Slot",
-          "ru": "§6<num>§7x Личная ячейка банка гильдии"
+          "ru": "§6<num>x Личная ячейка банка гильдии"
         },
         {
           "id": "line-7e79735c2d56e33f",
@@ -141,13 +146,13 @@
       "title": {
         "id": "title",
         "en": "§6<num>x Public Guild Bank Slots",
-        "ru": "§6<num>§7x Общая ячейка банка гильдии"
+        "ru": "§6<num>x Общая ячейка банка гильдии"
       },
       "lines": [
         {
           "id": "line-f88d6ce2abb1e335",
           "en": "§6<num>x Public Guild Bank Slots",
-          "ru": "§6<num>§7x Общая ячейка банка гильдии"
+          "ru": "§6<num>x Общая ячейка банка гильдии"
         },
         {
           "id": "line-7e79735c2d56e33f",
@@ -220,13 +225,13 @@
       "title": {
         "id": "title",
         "en": "§a<num>% Guild XP Boost",
-        "ru": "§a<num>%§7 К Опыту Гильдии"
+        "ru": "§a<num>% К Опыту Гильдии"
       },
       "lines": [
         {
           "id": "line-d0c08cce39af3919",
           "en": "§a<num>% Guild XP Boost",
-          "ru": "§a<num>%§7 К Опыту Гильдии"
+          "ru": "§a<num>% К Опыту Гильдии"
         },
         {
           "id": "line-97afa7d612b5d05b",
@@ -610,6 +615,11 @@
           "id": "line-0051a3d420af0cb1",
           "en": "§a- <num>² (<num>stx <num>¼²) total",
           "ru": "§a- §f<num>§7² §8(<num>stx <num>¼²) §fвсего"
+        },
+        {
+          "id": "line-1a1540b6454ed8b4",
+          "en": "§7You have no open market slots",
+          "ru": "§cУ вас нет свободных ячеек на рынке"
         }
       ]
     },
@@ -2384,7 +2394,7 @@
         {
           "id": "line-9245bc0b44bf6c1a",
           "en": "§7§a<num> Emeralds per Hour",
-          "ru": "§#55FF55Изумруды: <num> в час"
+          "ru": "§7§a<num> Изумрудов в час"
         },
         {
           "id": "line-f03bf3ccbe5b199b",
@@ -3777,6 +3787,26 @@
           "id": "line-d812953e78b7b803",
           "en": "§7<em> Click to Opt-Out",
           "ru": "<em> Нажмите, чтобы Отказаться"
+        },
+        {
+          "id": "line-93aab5fbde6b3f13",
+          "en": "§7Cannot change while ready",
+          "ru": "§cНельзя изменить, пока вы готовы"
+        },
+        {
+          "id": "line-943831fc3f707136",
+          "en": "§8All players must opt in",
+          "ru": "§8Чтобы начать рейд гильдии,"
+        },
+        {
+          "id": "line-b926c15869cf3a60",
+          "en": "§8to start a guild raid",
+          "ru": "§8согласиться должны все игроки"
+        },
+        {
+          "id": "line-f96a81a40c95ba2c",
+          "en": "§7<em> Click to Opt-In",
+          "ru": "§7<em>§a Нажмите, чтобы согласиться"
         }
       ]
     },
@@ -4100,6 +4130,16 @@
           "id": "line-64da627b6af4fd5a",
           "en": "<em> Right-Click to Cancel",
           "ru": "<em> ПКМ: Отменить"
+        },
+        {
+          "id": "line-a61825a52807178c",
+          "en": "§4You need to provide",
+          "ru": "§4Для подтверждения"
+        },
+        {
+          "id": "line-bda941e257946ea3",
+          "en": "§4a description to confirm",
+          "ru": "§4нужно ввести описание"
         }
       ]
     },

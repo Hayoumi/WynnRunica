@@ -87,8 +87,26 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Дом Твейнов",
       "speaker": "",
       "stage": "Stage 1"
+    },
+    {
+      "id": "dialogue-2e9580e41000",
+      "en": "Thank you traveller. As promised, here is your reward.",
+      "ru": "Спасибо, путник. Как и обещано, вот твоя награда.",
+      "speaker": "Twendle",
+      "stage": ""
     }
   ],
   "choices": [],
-  "objectives": []
+  "objectives": [
+    {
+      "id": "objective-6930e4e0978d",
+      "en": "Talk to Twendle at the House of Twain at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Твендлом в Доме Твейна [<num>, <num>, <num>]."
+    },
+    {
+      "id": "objective-84708c503cd9",
+      "en": "Bring [<num> Twain Journal] to Twendle",
+      "ru": "Принести Твендлу [<num> Twain Journal]."
+    }
+  ]
 }

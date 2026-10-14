@@ -22,9 +22,11 @@ public final class TooltipNumberColors {
     }
 
     static Text preserve(Text original, Text translated, boolean symbols) {
+        translated = sameMark(original, translated);
         StyledString source = collect(original, true);
         StyledString target = collect(translated, false);
         List<Replacement> replacements = new ArrayList<>();
+        leadColor(source, target, replacements);
         if (hasNumber(target.text)) numberColors(source, target, replacements);
         barColors(source, target, replacements);
         if (symbols) symbolColors(source, target, replacements);
@@ -57,6 +59,49 @@ public final class TooltipNumberColors {
             return Optional.empty();
         }, Style.EMPTY);
         return result;
+    }
+
+    private static Text sameMark(Text original, Text translated) {
+        String before = original.getString();
+        String after = translated.getString();
+        int from = markAt(before);
+        int to = markAt(after);
+        if (from < 0 || to < 0 || before.charAt(from) == after.charAt(to)) return translated;
+        char mark = before.charAt(from);
+        MutableText result = Text.empty();
+        translated.visit((style, text) -> {
+            result.append(Text.literal(text.replace('✔', mark).replace('✖', mark)).setStyle(style));
+            return Optional.empty();
+        }, Style.EMPTY);
+        return result;
+    }
+
+    private static int markAt(String text) {
+        int found = -1;
+        for (int i = 0; i < text.length(); i++) {
+            char c = text.charAt(i);
+            if (c != '✔' && c != '✖') continue;
+            if (found >= 0) return -1;
+            found = i;
+        }
+        return found;
+    }
+
+    private static void leadColor(StyledString source, StyledString target, List<Replacement> out) {
+        int from = leadAt(source.text);
+        int to = leadAt(target.text);
+        if (from < 0 || to < 0 || source.text.charAt(from) != target.text.charAt(to)) return;
+        if (target.colors[to] != source.colors[from]) out.add(new Replacement(to, source.colors[from]));
+    }
+
+    private static int leadAt(String text) {
+        for (int i = 0; i < text.length(); i++) {
+            char c = text.charAt(i);
+            if (Character.isWhitespace(c) || Character.isSurrogate(c) || c >= '' && c <= '') continue;
+            boolean marker = "-–—>•".indexOf(c) >= 0;
+            return marker && i + 1 < text.length() && Character.isWhitespace(text.charAt(i + 1)) ? i : -1;
+        }
+        return -1;
     }
 
     private static void numberColors(StyledString source, StyledString target, List<Replacement> out) {

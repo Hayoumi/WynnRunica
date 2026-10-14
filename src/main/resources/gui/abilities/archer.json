@@ -95,7 +95,7 @@
       "description": [
         {
           "en": "§7§7Shoots a long-ranged arrow that explodes",
-          "ru": "§7Выстрел дальнобойной стрелой, которая взрывается",
+          "ru": "§7Выпускает дальнобойную стрелу, которая взрывается",
           "id": "descriptio-001"
         },
         {
@@ -112,7 +112,7 @@
         },
         {
           "en": "§7§8(Self-damage for <num>% of your DPS)",
-          "ru": "§8(Наносит вам урон в размере <num>% от вашего DPS)",
+          "ru": "§8(ранит и вас на <num>% от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -122,7 +122,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-004"
         },
         {
@@ -335,7 +335,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -600,17 +600,17 @@
       "description": [
         {
           "en": "§7§7Shoots a stream of §f<num> §7arrows,",
-          "ru": "§7Шквал из §f<num>§r§7 стрел,",
+          "ru": "§7Выпускает поток из §f<num> §7стрел, который",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7dealing significant damage to close",
-          "ru": "§7нанося значительный урон ближайшим",
+          "ru": "§7наносит значительный урон ближайшим",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7mobs and pushing them away.",
-          "ru": "§7мобам и отбрасывая их.",
+          "ru": "§7мобам и отбрасывает их.",
           "id": "descriptio-003"
         }
       ],
@@ -794,7 +794,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-004"
         },
         {
@@ -878,7 +878,7 @@
       "properties": [
         {
           "en": "§7<em> §7Effect: §f<num>% §7Speed Bonus (§3➲§7) to Allies",
-          "ru": "<em> §7Эффект: §f<num>% §7Скорость (§3➲§7) к Союзникам",
+          "ru": "<em> §7Эффект: §f<num>% §7Скорость (§3➲§7) на союзников",
           "id": "propertie-001"
         },
         {
@@ -1470,7 +1470,7 @@
       "description": [
         {
           "en": "§7§7Triples §nMain Attack§7 arrows but they deal",
-          "ru": "§7Утраивает стрелы §nОсновной Атаки§r§7, но они наносят",
+          "ru": "§7Утраивает стрелы §nОсновной Атаки§7, но каждая",
           "id": "descriptio-001"
         },
         {
@@ -1487,12 +1487,12 @@
       "properties": [
         {
           "en": "§7§f<num>% §7of normal §nMain Attack§7 arrow damage.",
-          "ru": "§7§f<num>%§r§7 обычного урона стрелы §nОсновной Атаки§r§7.",
+          "ru": "§7наносит §f<num>% §7от обычного урона стрелы §nОсновной Атаки§7.",
           "id": "propertie-001"
         },
         {
           "en": "§c<em> §7Main Attack Damage: §c<num>%",
-          "ru": "<em> §7Урон Осн. Атаки: §f<num>%",
+          "ru": "<em> §7Урон Осн. Атаки: §c<num>%",
           "id": "propertie-002"
         },
         {
@@ -1581,7 +1581,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -1596,7 +1596,7 @@
         },
         {
           "en": "§e<em> §7Effect: §f<num>% §7Slowness (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) к Врагам",
+          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) на врагов",
           "id": "propertie-004"
         },
         {
@@ -1686,7 +1686,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -1999,12 +1999,12 @@
       "properties": [
         {
           "en": "§7§7a §bTrap§7 that damages enemies. §7(Max <num> Traps)",
-          "ru": "§7§bЛовушка§r§7, наносящая урон врагам. §7(Максимум <num> ловушки)",
+          "ru": "§7§bЛовушка§r§7, наносящая урон врагам. §8(Максимум <num> ловушки)",
           "id": "propertie-001"
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -2087,7 +2087,7 @@
       "description": [
         {
           "en": "§7§7When hitting an aggressive enemy §f<num>+",
-          "ru": "§7При попадании по агрессивному врагу с §f<num>+§r§7",
+          "ru": "§7Попадая по агрессивному врагу с §f<num>+",
           "id": "descriptio-001"
         },
         {
@@ -2109,12 +2109,12 @@
       "properties": [
         {
           "en": "§7§7blocks away, gain §b<num> Focus <em>§7. (Max <num>)",
-          "ru": "§7блоков вы получаете §b<num> Фокуса §e<em>§r§7. §8(Максимум <num>)",
+          "ru": "§7блоков, вы получаете §f<num> §bФокус §e<em>§7. §8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
           "en": "§7§8(Lose <num>% Focus if you miss once)",
-          "ru": "§8(Один промах теряет <num>% Фокуса)",
+          "ru": "§8(при промахе теряется <num>% Фокуса)",
           "id": "propertie-002"
         },
         {
@@ -2183,17 +2183,17 @@
       "description": [
         {
           "en": "§7§7Leap in the direction of your movement",
-          "ru": "§7Прыжок в направлении движения",
+          "ru": "§7Двойной прыжок бросает вас",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7when you double jump.",
-          "ru": "§7при двойном прыжке.",
+          "ru": "§7в сторону, куда вы движетесь.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7The distance scales with your Walk Speed.",
-          "ru": "§7Дальность зависит от Скорости Ходьбы.",
+          "ru": "§7Дальность зависит от вашей Скорости Ходьбы.",
           "id": "descriptio-003"
         },
         {
@@ -2366,7 +2366,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -2588,7 +2588,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -2603,7 +2603,7 @@
         },
         {
           "en": "§e<em> §7Effect: §fBlindness §7(§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §fСлепота (<em>§f) к Врагам",
+          "ru": "<em> §7Эффект: §fСлепота (<em>§f) на врагов",
           "id": "propertie-004"
         },
         {
@@ -2681,12 +2681,12 @@
       "properties": [
         {
           "en": "§7§7Your §bTraps§7 will deal §f<num>%§7 more damage",
-          "ru": "§7§bЛовушки§r§7 наносят §f<num>%§r§7 больше урона",
+          "ru": "§7Ваши §bЛовушки§7 наносят §f<num>%§7 урона",
           "id": "propertie-001"
         },
         {
           "en": "§7§7for every second it's active. (Max <num>%)",
-          "ru": "§7за каждую секунду активности. (Максимум <num>%)",
+          "ru": "§7за каждую секунду, пока стоят. §8(Максимум <num>%)",
           "id": "propertie-002"
         },
         {
@@ -2886,12 +2886,12 @@
       "description": [
         {
           "en": "§7§7§nBasaltic Trap§7 summons a §bCrow§7 upon detonation that",
-          "ru": "§7§nБазальтовая Ловушка§r§7 призывает §bВорона§r§7 при детонации,",
+          "ru": "§7Взорвавшись, §nБазальтовая Ловушка§7 призывает §bВорона§7, который",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7Damaged enemies will be distracted for §f<num>s§7.",
-          "ru": "§7Раненые враги отвлекаются на §f§f<num>с§7§r§7.",
+          "ru": "§7Раненые враги отвлекаются на §f<num>с§7.",
           "id": "descriptio-002"
         },
         {
@@ -2908,12 +2908,12 @@
       "properties": [
         {
           "en": "§7§7will peck at aggressive enemies every §f<num>s§7. (Max <num>)",
-          "ru": "§7клюющего агрессивных врагов раз в §f<num>с§7. (Максимум <num>)",
+          "ru": "§7клюёт агрессивных врагов раз в §f<num>с§7. §8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -2923,7 +2923,7 @@
         },
         {
           "en": "§e<em> §7Effect: §fBlindness (§c<em>§f) to Enemies",
-          "ru": "<em> §7Эффект: §fСлепота (<em>§f) к Врагам",
+          "ru": "<em> §7Эффект: §fСлепота (<em>§f) на врагов",
           "id": "propertie-004"
         },
         {
@@ -2995,7 +2995,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -3131,17 +3131,17 @@
       "description": [
         {
           "en": "§7§7§nArrow Storm§7 will shoot §f<num> §7stream",
-          "ru": "§7§nШторм Стрел§r§7 пускает §f<num> §7поток",
+          "ru": "§7§nШторм Стрел§7 выпускает §f<num> §7поток",
           "id": "descriptio-001"
         },
         {
           "en": "§7of arrows and §f<num>§7 extra arrows per stream.",
-          "ru": "§7стрел и §f<num>§7 дополнительные стрелы в каждом потоке.",
+          "ru": "§7стрел и §f<num>§7 стрелы в каждом потоке.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7§nArrow Storm§7 gains recoil while midair.",
-          "ru": "§7§nШторм Стрел§r§7 получает отдачу в воздухе.",
+          "ru": "§7В воздухе §nШторм Стрел§7 отбрасывает вас назад.",
           "id": "descriptio-003"
         },
         {
@@ -3158,7 +3158,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS, per arrow)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, за стрелу)",
+          "ru": "<em> §7Общий Урон: §c<num>% §8(от вашего DPS, за стрелу)",
           "id": "propertie-001"
         },
         {
@@ -3244,7 +3244,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -3312,17 +3312,17 @@
       "description": [
         {
           "en": "§7§7§nBryophyte Roots§7 summons a §bSnake§7 after",
-          "ru": "§7§nМоховые Корни§r§7 призывают §bЗмею§r§7 после",
+          "ru": "§7Исчезая, §nМоховые Корни§7 призывают §bЗмею§7,",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7disappearing that will spit weakening",
-          "ru": "§7исчезновения, которая плюёт ослабляющим",
+          "ru": "§7которая плюёт ослабляющим ядом",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7Enemies will be weakened for §f<num>s§7.",
-          "ru": "§7Враги ослабляются на §f§f<num>с§7§r§7.",
+          "ru": "§7Враги ослаблены §f<num>с§7.",
           "id": "descriptio-003"
         },
         {
@@ -3344,12 +3344,12 @@
       "properties": [
         {
           "en": "§7§7venom at aggressive enemies every §f<num>s§7. (Max <num>)",
-          "ru": "§7ядом в агрессивных врагов каждые §f<num>с§7. (Максимум <num>)",
+          "ru": "§7в агрессивных врагов каждые §f<num>с§7. §8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -3364,7 +3364,7 @@
         },
         {
           "en": "§e<em> §7Effects: §f<num>% §7Damage Bonus (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффекты: §f<num>%§f §7Бонус к Урону (<em>§7) Врагам",
+          "ru": "<em> §7Эффекты: §f<num>%§f §7Бонус к Урону (<em>§7) на врагов",
           "id": "propertie-005"
         },
         {
@@ -3438,17 +3438,17 @@
       "description": [
         {
           "en": "§7§7If you have §b<num>+ Focus <em>§7, holding shift will",
-          "ru": "§7При §b<num>+ Фокуса §e<em>§r§7 зажмите Shift и",
+          "ru": "§7Если у вас §f<num>+ §bФокуса §e<em>§7, зажмите Shift,",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7summon Twain's Arc. Charge it up to",
-          "ru": "§7призовётся Дуга Твейна. Зарядите её и",
+          "ru": "§7чтобы призвать Дугу Твейна. Зарядите её,",
           "id": "descriptio-002"
         },
         {
           "en": "§7shoot a destructive long-range beam.",
-          "ru": "§7выпустите дальнобойный разрушительный луч.",
+          "ru": "§7чтобы выпустить разрушительный луч на большое расстояние.",
           "id": "descriptio-003"
         },
         {
@@ -3543,7 +3543,7 @@
       "description": [
         {
           "en": "§7§7Hitting an enemy will give you a brief buff",
-          "ru": "§7Попадание по врагу ненадолго даёт",
+          "ru": "§7Каждое попадание по врагу ненадолго даёт",
           "id": "descriptio-001"
         },
         {
@@ -3555,12 +3555,12 @@
       "properties": [
         {
           "en": "§7§7of §f<num>% §7Walk Speed, up to §f<num>%§7 per second. (Max <num>%)",
-          "ru": "§7§f<num>%§r§7 скорости ходьбы, до §f<num>%§r§7 в секунду. §8(Максимум <num>%)",
+          "ru": "§7§f<num>% §7Скорости Ходьбы, но не больше §f<num>%§7 в секунду. (Максимум <num>%)",
           "id": "propertie-001"
         },
         {
           "en": "§7§f<num>%§7 of §7the bonus decays every second.",
-          "ru": "§7Каждую секунду теряется §f<num>%§r§7 бонуса.",
+          "ru": "§7Бонус убывает: §f<num>%§7 в секунду.",
           "id": "propertie-002"
         },
         {
@@ -3790,7 +3790,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -3931,32 +3931,32 @@
       "description": [
         {
           "en": "§7§7§nGuardian Angels§7 gain §f<num>§7 additional ammunition.",
-          "ru": "§7§nАнгелы-Хранители§r§7 получают §f<num>§7 дополнительных стрел.",
+          "ru": "§7§nАнгелы-Хранители§7 получают ещё §f<num>§7 стрел.",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7Whenever you cast a spell, your §nGuardian Angels§7",
-          "ru": "§7Каждое заклинание ненадолго усиливает",
+          "ru": "§7Каждое ваше заклинание ненадолго усиливает",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7become briefly empowered.",
-          "ru": "§7§nАнгелов-Хранителей§r§7.",
+          "ru": "§7§nАнгелов-Хранителей§7.",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7Casting §nArrow Storm§7 will cause them to",
-          "ru": "§7§nШторм Стрел§r§7 заставит их",
+          "ru": "§7После §nШторма Стрел§7 они стреляют",
           "id": "descriptio-004"
         },
         {
           "en": "§7shoot §f<num>x §7faster while §nArrow Storm§7 is active",
-          "ru": "§7стрелять в §f<num>x §7быстрее, пока он активен",
+          "ru": "§7в §f<num>x §7быстрее, пока §nШторм Стрел§7 активен.",
           "id": "descriptio-005"
         },
         {
           "en": "§7§7Casting §nArrow Bomb§7 will cause them to",
-          "ru": "§7§nВзрывная Стрела§r§7 заставит их",
+          "ru": "§7После §nВзрывной Стрелы§7 их выстрелы",
           "id": "descriptio-006"
         },
         {
@@ -3978,7 +3978,7 @@
       "properties": [
         {
           "en": "§7§7shoot explosive shots, dealing §f<num>%§7 damage.",
-          "ru": "§7стрелять взрывными выстрелами с §f<num>%§7 урона.",
+          "ru": "§7взрываются и наносят §f<num>%§7 урона.",
           "id": "propertie-001"
         },
         {
@@ -4146,7 +4146,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS, for §nArrow Shield§8)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, для §nЩита Стрел§r§8)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §c§nЩита Стрел§8)",
           "id": "propertie-001"
         },
         {
@@ -4161,7 +4161,7 @@
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS, for §nGuardian Angels§8, per shot)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §nАнгелов-Хранителей§r§8, за выстрел)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §c§nАнгелов-Хранителей§8, за выстрел)",
           "id": "propertie-004"
         },
         {
@@ -4249,7 +4249,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -4341,7 +4341,7 @@
       "properties": [
         {
           "en": "§7<em> §7Effect: §f<num>% §7Speed Bonus (§3➲§7) to Allies",
-          "ru": "<em> §7Эффект: §f<num>% §7Скорость (§3➲§7) к Союзникам",
+          "ru": "<em> §7Эффект: §f<num>% §7Скорость (§3➲§7) на союзников",
           "id": "propertie-001"
         },
         {
@@ -4863,17 +4863,17 @@
       "description": [
         {
           "en": "§7Fierce Stomp sends out 3 waves of",
-          "ru": "§7§nЛютый Топот§r§7 испускает 3 волны",
+          "ru": "§7§nЛютый Топот§7 посылает перед вами 3 волны",
           "id": "descriptio-001"
         },
         {
           "en": "§7heavenly light in front of you.",
-          "ru": "§7небесного света перед вами.",
+          "ru": "§7небесного света.",
           "id": "descriptio-002"
         },
         {
           "en": "§7Landing after Leap triggers Fierce Stomp.",
-          "ru": "§7Приземление после §nПрыжка§r§7 запускает §nЛютый Топот§r§7.",
+          "ru": "§7Приземление после §nПрыжка§7 запускает §nЛютый Топот§7.",
           "id": "descriptio-003"
         },
         {
@@ -4965,12 +4965,12 @@
         },
         {
           "en": "§7§7Casting §nArrow Shield§7 while §nGuardian Angels§7 are active",
-          "ru": "§7Каст §nЩита Стрел§r§7 при активных §nАнгелах-Хранителях§r§7",
+          "ru": "§7Если применить §nЩит Стрел§7, пока §nАнгелы-Хранители§7 активны,",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7will also cast §nBuckshot§7. Increase §nBuckshot§7's damage.",
-          "ru": "§7также вызывает §nКартечь§r§7. Усиливает урон §nКартечи§r§7.",
+          "ru": "§7он также запускает §nКартечь§7. Урон §nКартечи§7 увеличен.",
           "id": "descriptio-003"
         },
         {
@@ -4987,7 +4987,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS, for §nGuardian Angels§8, per shot)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §nАнгелов-Хранителей§r§8, за выстрел)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §c§nАнгелов-Хранителей§8, за выстрел)",
           "id": "propertie-001"
         },
         {
@@ -5007,7 +5007,7 @@
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS, for §nBuckshot§8, per arrow)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §nКартечи§r§8, за стрелу)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §c§nКартечи§8, за стрелу)",
           "id": "propertie-005"
         },
         {
@@ -5101,7 +5101,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -5203,7 +5203,7 @@
         },
         {
           "en": "§7every time you do not miss with it. (Max <num>%)",
-          "ru": "§7за каждое попадание подряд. (Максимум <num>%)",
+          "ru": "§7за каждое попадание подряд. §8(Максимум <num>%)",
           "id": "propertie-002"
         },
         {
@@ -5421,17 +5421,17 @@
       "description": [
         {
           "en": "§7When casting §7§nEscape§7, release a",
-          "ru": "§7При §nПобеге§r§7 выпускает",
+          "ru": "§7Применяя §nПобег§7, вы выпускаете в воздух",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7cluster bomb mid-air that explodes,",
-          "ru": "§7в воздухе кассетную бомбу, которая взрывается,",
+          "ru": "§7кассетную бомбу. Она взрывается",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7sending a payload of §f<num> §7arrows",
-          "ru": "§7обрушивая залп из §f<num> §7стрел",
+          "ru": "§7и обрушивает залп из §f<num> §7стрел",
           "id": "descriptio-003"
         },
         {
@@ -5443,7 +5443,7 @@
       "properties": [
         {
           "en": "§7§8(Each enemy can only be hit by one arrow)",
-          "ru": "§8(Каждый враг ловит только одну стрелу)",
+          "ru": "§8(в каждого врага попадает только одна стрела)",
           "id": "propertie-001"
         },
         {
@@ -5805,22 +5805,22 @@
       "description": [
         {
           "en": "§7§7While airborne after casting §nEscape§7, your",
-          "ru": "§7Пока вы в воздухе после §nПобега§r§7,",
+          "ru": "§7Пока вы в воздухе после §nПобега§7, ваши",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7next §f<num> §7§nMain Attacks§7 can be fired in quick",
-          "ru": "§7следующие §f<num> §7§nОсновные Атаки§r§7 летят",
+          "ru": "§7следующие §f<num> §7§nОсновные Атаки§7 можно выпустить",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7succession regardless of attack speed,",
-          "ru": "§7подряд, независимо от скорости атаки,",
+          "ru": "§7подряд, без оглядки на скорость атаки,",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7and will instantly fire from §nTwain's Arc§7.",
-          "ru": "§7и мгновенно стреляют из §nДуги Твейна§r§7.",
+          "ru": "§7и они сразу вылетают из §nДуги Твейна§7.",
           "id": "descriptio-004"
         },
         {
@@ -6022,7 +6022,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -6117,7 +6117,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -6204,7 +6204,7 @@
       "properties": [
         {
           "en": "§7<em> §7Effect: §f<num>% §7Resistance Bonus (<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Сопротивление (<em>§7) к Врагам",
+          "ru": "<em> §7Эффект: §f<num>% §7Сопротивление (<em>§7) на врагов",
           "id": "propertie-001"
         },
         {
@@ -6329,17 +6329,17 @@
       "description": [
         {
           "en": "§7§7Attach an icy snare to §7§nBasaltic Trap§7,",
-          "ru": "§7Цепляет ледяные силки к §nБазальтовой Ловушке§r§7,",
+          "ru": "§7К §nБазальтовой Ловушке§7 крепятся ледяные силки.",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7drastically inhibiting and damaging nearby",
-          "ru": "§7сильно замедляя и нанося урон ближним",
+          "ru": "§7После её срабатывания они сильно замедляют и ранят врагов",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7enemies every §f<num>s§7 after it detonates.",
-          "ru": "§7врагам каждые §f<num>с§r§7 после её срабатывания.",
+          "ru": "§7рядом каждые §f<num>с§7.",
           "id": "descriptio-003"
         },
         {
@@ -6366,7 +6366,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -6381,7 +6381,7 @@
         },
         {
           "en": "§e<em> §7Effects: §f<num>% §7Slowness (§c<em>§7) to Enemies, per hit §8(Max <num>%)",
-          "ru": "<em> §7Эффекты: §f<num>% §7Замедление (<em>§7) к врагам, за попадание §8(Максимум <num>%)",
+          "ru": "§e<em> §7Эффекты: §f<num>% §7Замедление (§c<em>§7) на врагов, за попадание §8(Максимум <num>%)",
           "id": "propertie-004"
         },
         {
@@ -6456,7 +6456,7 @@
       "description": [
         {
           "en": "§7§7Hitting §f<num>§7 flint arrow will make your next",
-          "ru": "§7Попадание §f<num>§r§7 кремневой стрелой заставит ваш",
+          "ru": "§7Попадание §f<num>§7 кремневой стрелой добавляет",
           "id": "descriptio-001"
         },
         {
@@ -6473,7 +6473,7 @@
       "properties": [
         {
           "en": "§7§7§nArrow Storm§7 shoot §f<num>§7 arrow per stream. §8(Max <num>)",
-          "ru": "§7§nШторм Стрел§r§7 выпустить §f<num>§r§7 стрелу за поток. §8(Максимум <num>)",
+          "ru": "§7следующему §nШторму Стрел§7 §f<num>§7 стрелу в каждом потоке. §8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
@@ -6545,12 +6545,12 @@
       "properties": [
         {
           "en": "§7§7§nPatient Hunter§7 will increase its damage by §f<num>%",
-          "ru": "§7Урон §nТерпеливого Охотника§r§7 растёт на §f<num>%",
+          "ru": "§7Урон §nТерпеливого Охотника§7 растёт на §f<num>%",
           "id": "propertie-001"
         },
         {
           "en": "§7§7per second, and increase its Max Damage by §f<num>%§7.",
-          "ru": "§7в секунду, а Максимальный Урон - на §f<num>%§r§7.",
+          "ru": "§7в секунду, а его предел увеличен на §f<num>%§7.",
           "id": "propertie-002"
         },
         {
@@ -6606,17 +6606,17 @@
       "description": [
         {
           "en": "§7§7If you have §b<num>+ Focus <em>§7, casting §nArrow Storm",
-          "ru": "§7При §b<num>+ Фокуса §e<em>§7 применение §nШторма Стрел§r§7",
+          "ru": "§7Если у вас §b<num>+ Фокуса §e<em>§7, §b§nШторм Стрел",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7while §f<num>+ §7blocks above the ground will cause",
-          "ru": "§7на высоте §f<num>+ §7блоков над землёй заставит",
+          "ru": "§7на высоте от §f<num>+ §7блоков над землёй поднимает",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7you to levitate and shoot §f<num>§7 homing arrows",
-          "ru": "§7вас парить и выпускать §f<num>§7 самонаводящихся стрел",
+          "ru": "§7вас в воздух, и вы выпускаете §f<num>§7 самонаводящихся стрел",
           "id": "descriptio-003"
         },
         {
@@ -6626,7 +6626,7 @@
         },
         {
           "en": "§7§7While in this state, lose §c<num> §bFocus <em> §7every §f<num>s§7.",
-          "ru": "§7В этом режиме теряется §c<num> §bФокуса §e<em> §7каждые §f<num>с§7.",
+          "ru": "§7В этом режиме вы теряете §c<num> §bФокус §e<em> §7каждые §f<num>с§7.",
           "id": "descriptio-005"
         },
         {
@@ -6818,7 +6818,7 @@
       "properties": [
         {
           "en": "§e<em> §7Effect: §f<num>% §7Slowness (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) к Врагам",
+          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) на врагов",
           "id": "propertie-001"
         },
         {
@@ -7106,7 +7106,7 @@
       "properties": [
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -7215,12 +7215,12 @@
       "properties": [
         {
           "en": "§7protects you. (Max <num>)",
-          "ru": "§7защищающий вас. (Максимум <num>)",
+          "ru": "§7защищающий вас. §8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -7235,7 +7235,7 @@
         },
         {
           "en": "§e<em> §7Effect: §f<num>% §7Slowness (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) к Врагам",
+          "ru": "<em> §7Эффект: §f<num>% §7Замедление (<em>§7) на врагов",
           "id": "propertie-005"
         },
         {
@@ -7575,7 +7575,7 @@
       "description": [
         {
           "en": "§7§7dig up a §nTrap§7 when attacking enemies.",
-          "ru": "§7выкапывает §nЛовушку§r§7 при атаке врагов.",
+          "ru": "§7выкапывает §bЛовушку§7, когда атакует врагов.",
           "id": "descriptio-001"
         },
         {
@@ -7597,7 +7597,7 @@
       "properties": [
         {
           "en": "§7§7Your §bHound§7 has a §f<num>%§7 chance to",
-          "ru": "§7§bГончая§r§7 с шансом §f<num>%§r§7",
+          "ru": "§7Ваша §bГончая§7 с шансом §f<num>%§7",
           "id": "propertie-001"
         },
         {
@@ -7664,17 +7664,17 @@
       "description": [
         {
           "en": "§7§7Casting §nArrow Shield§7 will push back nearby",
-          "ru": "§7Каст §nЩита Стрел§r§7 отталкивает ближайших",
+          "ru": "§7§nЩит Стрел§7 при применении отталкивает ближайших",
           "id": "descriptio-001"
         },
         {
           "en": "§7enemies and provide a brief burst of resistance.",
-          "ru": "§7врагов и даёт краткое сопротивление.",
+          "ru": "§7врагов и ненадолго даёт вам сопротивление.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7Reduce this ability's cooldown by §f<num>s§7",
-          "ru": "§7Снижает перезарядку этой способности на §f<num>с§r§7",
+          "ru": "§7Перезарядка этой способности снижается на §f<num>с",
           "id": "descriptio-003"
         },
         {
@@ -7696,7 +7696,7 @@
       "properties": [
         {
           "en": "§e<em> §7Effect: §f<num>% §7Resistance Bonus (§a❁§7) to Self",
-          "ru": "§e<em> §7Эффект: §f<num>% §7Бонус к Сопротивлению (§a❁§7) Себе",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Бонус к Сопротивлению (§a❁§7) на себя",
           "id": "propertie-001"
         },
         {
@@ -7793,7 +7793,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS, for §nArrow Bomb§8)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, для §nВзрывной Стрелы§r§8)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §c§nВзрывной Стрелы§8)",
           "id": "propertie-001"
         },
         {
@@ -7808,7 +7808,7 @@
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS, for §nGrape Bomb§8)",
-          "ru": "<em> §7Общий Урон: §f<num>% §8(от Вашего DPS, для §nШрапнельной Бомбы§r§8)",
+          "ru": "<em> §7Общий Урон: §f<num>% §8(от вашего DPS, для §c§nШрапнельной Бомбы§8)",
           "id": "propertie-004"
         },
         {
@@ -8057,7 +8057,7 @@
       "properties": [
         {
           "en": "§7<em> §7Effect: §f<num>% §7Walk Speed (§3➲§7) to Self",
-          "ru": "<em> §7Эффект: §f<num>% §7Скорость Ходьбы (§3➲§7) к Себе",
+          "ru": "<em> §7Эффект: §f<num>% §7Скорость Ходьбы (§3➲§7) на себя",
           "id": "propertie-001"
         },
         {
@@ -8115,52 +8115,52 @@
       "description": [
         {
           "en": "§7Call upon the power of the Light",
-          "ru": "§7Взывает к силе Света,",
+          "ru": "§7Вы взываете к силе Света: ваши атаки",
           "id": "descriptio-001"
         },
         {
           "en": "§7to empower your attacks for <num>s",
-          "ru": "§7усиливая ваши атаки на §f§f<num>с§7§r§7",
+          "ru": "§7усилены на §f<num>с",
           "id": "descriptio-002"
         },
         {
           "en": "§7and make Leap have no cooldown.",
-          "ru": "§7и убирая перезарядку §nПрыжка§r§7.",
+          "ru": "§7и у §nПрыжка§7 нет перезарядки.",
           "id": "descriptio-003"
         },
         {
           "en": "§7Main Attack will instead shoot Light Arrows",
-          "ru": "§7Осн. Атака вместо этого стреляет Стрелами Света,",
+          "ru": "§7§nОсновная Атака§7 стреляет Стрелами Света,",
           "id": "descriptio-004"
         },
         {
           "en": "§7Arrow Storm last §f<num> §7times longer",
-          "ru": "§7§nШторм Стрел§r§7 длится в §f<num>§r§7 раза дольше",
+          "ru": "§7§nШторм Стрел§7 длится в §f<num> §7раза дольше",
           "id": "descriptio-005"
         },
         {
           "en": "§7and releases in a tighter spread",
-          "ru": "§7и бьёт более плотным разбросом",
+          "ru": "§7и бьёт кучнее.",
           "id": "descriptio-006"
         },
         {
           "en": "§7Arrow Bomb will smite enemies it hits",
-          "ru": "§7§nВзрывная Стрела§r§7 поражает врагов прямой",
+          "ru": "§7§nВзрывная Стрела§7 обрушивает на врагов, в которых попала,",
           "id": "descriptio-007"
         },
         {
           "en": "§7directly with a bolt from the heavens.",
-          "ru": "§7молнией с небес.",
+          "ru": "§7молнию с небес.",
           "id": "descriptio-008"
         },
         {
           "en": "§7Guardian Angels will have unlimited ammunition",
-          "ru": "§7§nАнгелы-Хранители§r§7 получают бесконечный боезапас",
+          "ru": "§7У §nАнгелов-Хранителей§7 бесконечный запас стрел,",
           "id": "descriptio-009"
         },
         {
           "en": "§7and trigger Buckshot after firing <num> volleys.",
-          "ru": "§7и пускают §nКартечь§r§7 после §f<num> §7залпов.",
+          "ru": "§7а каждые §f<num>§7 залпов они запускают §nКартечь§7.",
           "id": "descriptio-010"
         },
         {
@@ -8187,7 +8187,7 @@
         },
         {
           "en": "§7that deal <num>% more damage over <num>s.",
-          "ru": "§7наносящими §f<num>%§r§7 больше урона за §f<num>с§r§7.",
+          "ru": "§7которые наносят §f<num>%§7 урона в течение §f<num>с§7.",
           "id": "propertie-002"
         },
         {
@@ -8212,7 +8212,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашей §#82EFF4Шкалы Ультимейта <em> §7до <num>%",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-007"
         },
         {
@@ -8270,22 +8270,22 @@
       "description": [
         {
           "en": "§7Enter a focused state for <num>s.",
-          "ru": "§7Состояние концентрации на §f§f<num>с§7§r§7.",
+          "ru": "§7Вы входите в состояние концентрации на §f<num>с§7.",
           "id": "descriptio-001"
         },
         {
           "en": "§7While in this state, you jump higher, fall slower,",
-          "ru": "§7В этом состоянии вы прыгаете выше, падаете медленнее,",
+          "ru": "§7В нём вы прыгаете выше, падаете медленнее,",
           "id": "descriptio-002"
         },
         {
           "en": "§7and all enemies within your line of sight are",
-          "ru": "§7а все враги в поле зрения",
+          "ru": "§7а все враги в поле вашего зрения",
           "id": "descriptio-003"
         },
         {
           "en": "§7At the end of its duration, or by casting F, fire a Spell",
-          "ru": "§7По окончании или нажатию §dF§7: пускает Заклинание",
+          "ru": "§7Когда время выйдет или вы нажмёте §d§lF§7, вы выпустите Заклинание",
           "id": "descriptio-004"
         },
         {
@@ -8327,12 +8327,12 @@
         },
         {
           "en": "§7marked by §#5C8AFFTwilight <em> §7every §f<num>s§7. §8(Max <num>)",
-          "ru": "§7отмеченных §#5C8AFFСумерками <em> §7каждые §f<num>с§7. §8(Макс. <num>)",
+          "ru": "§7получают метку §#5C8AFFСумерек <em> §7каждые §f<num>с§7. §8(Максимум <num>)",
           "id": "propertie-002"
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-003"
         },
         {
@@ -8387,7 +8387,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашей §#82EFF4Шкалы Ультимейта <em> §7до <num>%",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-014"
         },
         {
@@ -8445,12 +8445,12 @@
       "description": [
         {
           "en": "§7Calls forth a flock of tactical crows",
-          "ru": "§7Призыв стаи боевых ворон,",
+          "ru": "§7Вы призываете стаю боевых ворон,",
           "id": "descriptio-001"
         },
         {
           "en": "§7which will perform a carpet bombing of",
-          "ru": "§7устраивающих ковровую бомбардировку",
+          "ru": "§7которая устраивает ковровую бомбардировку",
           "id": "descriptio-002"
         },
         {
@@ -8460,12 +8460,12 @@
         },
         {
           "en": "§7Bombs will leave behind Basaltic Traps",
-          "ru": "§7Бомбы оставляют §nБазальтовые Ловушки§r§7",
+          "ru": "§7Бомбы оставляют §nБазальтовые Ловушки",
           "id": "descriptio-004"
         },
         {
           "en": "§7and occasionally Chilling Snares.",
-          "ru": "§7и иногда §nЛеденящие Силки§r§7.",
+          "ru": "§7и иногда §nЛеденящие Силки§7.",
           "id": "descriptio-005"
         },
         {
@@ -8492,7 +8492,7 @@
         },
         {
           "en": "§c<em> §7Total Damage: §f<num>% §8(of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>% §8(от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -8517,7 +8517,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашей §#82EFF4Шкалы Ультимейта <em> §7до <num>%",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-007"
         },
         {

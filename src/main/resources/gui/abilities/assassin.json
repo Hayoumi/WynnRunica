@@ -117,7 +117,7 @@
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-003"
         },
         {
@@ -306,19 +306,19 @@
       "description": [
         {
           "en": "§7§7§nSpin Attack§7 will activate twice, with a",
-          "ru": "§7§nВихревая Атака§r§7 срабатывает дважды, со",
+          "ru": "§7§nВихревая Атака§7 срабатывает дважды, причём",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7larger area of effect on the second spin.",
-          "ru": "§7увеличенной зоной на втором вращении.",
+          "ru": "§7второе вращение бьёт по большей площади.",
           "id": "descriptio-002"
         }
       ],
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §c<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -401,7 +401,7 @@
         },
         {
           "en": "§7from items, gain §f<num>s§7 Poison Damage. (Max <num>s)",
-          "ru": "§7от предметов даёт §f<num>с§r§7 Урона Ядом. (Максимум <num>с)",
+          "ru": "§7от предметов вы получаете §f<num>с§7 Урона Ядом. (Максимум <num>с)",
           "id": "propertie-002"
         },
         {
@@ -615,7 +615,7 @@
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-003"
         },
         {
@@ -866,7 +866,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -1288,22 +1288,22 @@
       "description": [
         {
           "en": "§7§7Falling §f<num>§7 blocks or more deals",
-          "ru": "§7Падение с §f<num>§r§7 блоков и более наносит",
+          "ru": "§7Падение с высоты от §f<num>§7 блоков",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7damage around you when you land.",
-          "ru": "§7урон вокруг вас при приземлении.",
+          "ru": "§7при приземлении наносит урон вокруг вас.",
           "id": "descriptio-002"
         },
         {
           "en": "§7for every additional block you fall",
-          "ru": "§7за каждый дополнительный блок падения",
+          "ru": "§7за каждый следующий блок падения,",
           "id": "descriptio-003"
         },
         {
           "en": "§7afterwards, up to §f<num>§7 blocks.",
-          "ru": "§7после, до §f<num>§r§7 блоков.",
+          "ru": "§7но не больше чем за §f<num>§7 блоков.",
           "id": "descriptio-004"
         },
         {
@@ -1315,12 +1315,12 @@
       "properties": [
         {
           "en": "§7This damage is increased by §f<num>%§7",
-          "ru": "§7Этот урон увеличен на §f<num>%§r§7",
+          "ru": "§7Урон растёт на §f<num>%",
           "id": "propertie-001"
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -1434,7 +1434,7 @@
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -1507,12 +1507,12 @@
       "description": [
         {
           "en": "§7§7§nDash§7 will hide you into the shadows. You",
-          "ru": "§7§nРывок§r§7 скрывает вас в тенях. Вы",
+          "ru": "§7§nРывок§7 укрывает вас в тенях. В этом",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7cannot heal or gain mana while in this state.",
-          "ru": "§7не можете лечиться или получать ману в этом состоянии.",
+          "ru": "§7состоянии вы не лечитесь и не получаете ману.",
           "id": "descriptio-002"
         },
         {
@@ -1524,12 +1524,12 @@
       "properties": [
         {
           "en": "§7§8(Attack or get hit to cancel)",
-          "ru": "§8(Атакуйте или получите удар для отмены)",
+          "ru": "§8(атака или полученный удар снимают его)",
           "id": "propertie-001"
         },
         {
           "en": "§7<em> §7Effect: §fInvisibility to Self",
-          "ru": "§e<em> §7Эффект: §fНевидимость к Себе",
+          "ru": "§e<em> §7Эффект: §fНевидимость на себя",
           "id": "propertie-002"
         },
         {
@@ -1618,7 +1618,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -1699,12 +1699,12 @@
       "description": [
         {
           "en": "§7§7Leap in the direction of your",
-          "ru": "§7Толкает в направлении вашего",
+          "ru": "§7Двойной прыжок бросает вас",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7movement when you double jump.",
-          "ru": "§7движения при двойном прыжке.",
+          "ru": "§7в сторону, куда вы движетесь.",
           "id": "descriptio-002"
         },
         {
@@ -1787,7 +1787,7 @@
       "properties": [
         {
           "en": "§7§7will deal §f<num>%§7 more damage.",
-          "ru": "§7наносит §f<num>%§r§7 больше урона.",
+          "ru": "§7наносит §f<num>%§7 урона.",
           "id": "propertie-001"
         },
         {
@@ -1850,17 +1850,17 @@
       "description": [
         {
           "en": "§7Summon §f<num> §bMirror Clones §#C267F7<em>§7 after reappearing",
-          "ru": "§7Призывает §f<num>§r§7 §bЗеркальных Двойников <em>§r§7 после возвращения",
+          "ru": "§7Призывает §f<num> §bЗеркальных Двойника §#C267F7<em>§7 после выхода",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7from §nVanish§7 that will follow and protect you.",
-          "ru": "§7из §nИсчезновения§r§7, которые следуют и защищают вас.",
+          "ru": "§7из §nИсчезновения§7. Они следуют за вами и защищают.",
           "id": "descriptio-002"
         },
         {
           "en": "§7When hit, lose a §bMirror Clone §#C267F7<em>§7, reducing",
-          "ru": "§7При получении удара вы теряете §bЗеркального Двойника <em>§r§7, уменьшая",
+          "ru": "§7Получив удар, вы теряете §bЗеркального Двойника §#C267F7<em>§7:",
           "id": "descriptio-003"
         },
         {
@@ -1882,17 +1882,17 @@
       "properties": [
         {
           "en": "§7§f<num>%§7 of incoming damage and granting you",
-          "ru": "§7§f<num>%§r§7 входящего урона и даёт вам",
+          "ru": "§7входящий урон §f<num>%§7, а вы получаете",
           "id": "propertie-001"
         },
         {
           "en": "§7§7a damage bonus for §f<num>s§7. (<num>s cooldown)",
-          "ru": "§7бонус к урону на §f§f<num>с§7§r§7. (перезарядка §f<num>с§7)",
+          "ru": "§7бонус к урону на §f<num>с§7. §8(перезарядка <num>с)",
           "id": "propertie-002"
         },
         {
           "en": "§7<em> §7Effect: §f<num>% §7Damage Bonus (§a⚔§7) to self",
-          "ru": "§e<em> §7Эффект: §f<num>%§r§7 Бонус к урону (§a⚔§7) себе",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Бонус к Урону (§a⚔§7) на себя",
           "id": "propertie-003"
         },
         {
@@ -2231,7 +2231,7 @@
       "description": [
         {
           "en": "§7§7§nSmoke Bomb§7 will throw §f<num>§7 bombs.",
-          "ru": "§7§nДымовая Бомба§r§7 бросает §f<num>§r§7 бомбы.",
+          "ru": "§7§nДымовая Бомба§7 бросает ещё §f<num>§7 бомбы.",
           "id": "descriptio-001"
         },
         {
@@ -2243,7 +2243,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §c<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -2304,22 +2304,22 @@
       "description": [
         {
           "en": "§7When losing any §bClone §#C267F7<em>§#F5CFFF<em>§#D84C4C<em>§7, it will cast",
-          "ru": "§7При потере любого §bДвойника <em><em><em>§r§7, он применяет",
+          "ru": "§7Любой §bДвойник §#C267F7<em>§#F5CFFF<em>§#D84C4C<em>§7 перед смертью",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7one of your spells before dying.",
-          "ru": "§7одно из ваших заклинаний перед смертью.",
+          "ru": "§7применяет одно из ваших заклинаний.",
           "id": "descriptio-002"
         },
         {
           "en": "§bMirror Clones §#C267F7<em>§7 will cast §b§nMultihit",
-          "ru": "§7§bЗеркальные Двойники <em>§r§7 применяют §nМультиудар",
+          "ru": "§bЗеркальные Двойники §#C267F7<em>§7 перед смертью",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7before dying.",
-          "ru": "§7перед смертью.",
+          "ru": "§7применяют §b§nМультиудар§7.",
           "id": "descriptio-004"
         },
         {
@@ -2446,12 +2446,12 @@
       "description": [
         {
           "en": "§7§7Increase §nSmoke Bomb§7's range",
-          "ru": "§7Увеличивает дальность §nДымовой Бомбы§r§7",
+          "ru": "§7Увеличивает дальность и зону",
           "id": "descriptio-001"
         },
         {
           "en": "§7and area of effect.",
-          "ru": "§7и зону поражения.",
+          "ru": "§7поражения §nДымовой Бомбы§7.",
           "id": "descriptio-002"
         },
         {
@@ -2528,7 +2528,7 @@
       "description": [
         {
           "en": "§7when in §nVanish§7.",
-          "ru": "§7в §nИсчезновении§r§7.",
+          "ru": "§7в §nИсчезновении§7.",
           "id": "descriptio-001"
         },
         {
@@ -2545,7 +2545,7 @@
       "properties": [
         {
           "en": "§7§7Gain §f<num>% §7Walk Speed (§3➲§7)",
-          "ru": "§7Получаете §f<num>%§r§7 Скорости Ходьбы (§3➲§r§7)",
+          "ru": "§7Вы получаете §f<num>% §7Скорости Ходьбы (§3➲§7)",
           "id": "propertie-001"
         },
         {
@@ -2674,17 +2674,17 @@
       "description": [
         {
           "en": "§7§7§nMultihit§7's damage ramps up every",
-          "ru": "§7Урон §nМультиудара§r§7 нарастает каждый",
+          "ru": "§7Урон §nМультиудара§7 растёт с каждым",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7hit, dealing additional damage.",
-          "ru": "§7удар, нанося дополнительный урон.",
+          "ru": "§7ударом.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7Damage bonus caps at §f<num>§7 hits.",
-          "ru": "§7Бонус к урону ограничен §f<num>§r§7 ударами.",
+          "ru": "§7Рост урона ограничен §f<num>§7 ударами.",
           "id": "descriptio-003"
         },
         {
@@ -2766,12 +2766,12 @@
       "description": [
         {
           "en": "§7§7Reduces §nVanish§7's cooldown by §f<num>s §7after",
-          "ru": "§7Снижает перезарядку §nИсчезновения§r§7 на §f<num>с§r§7 после",
+          "ru": "§7Перезарядка §nИсчезновения§7: §f<num>с §7после",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7striking an enemy from behind with §nBackstab§7.",
-          "ru": "§7удара врага сзади §nУдаром в Спину§r§7.",
+          "ru": "§7удара по врагу со спины §nУдаром в Спину§7.",
           "id": "descriptio-002"
         },
         {
@@ -2831,32 +2831,32 @@
       "description": [
         {
           "en": "§7§7After using §nBamboozle§7 or §nShadow Projection",
-          "ru": "§7После §nФинта§r§7 или §nПроекции Тени§r§7",
+          "ru": "§7Телепортировавшись §nФинтом§7 или §nПроекцией Тени§7,",
           "id": "descriptio-001"
         },
         {
           "en": "§7to teleport, leave behind a §bMirage Clone §#F5CFFF<em>",
-          "ru": "§7для телепортации, оставляет §bДвойника-Мираж <em>",
+          "ru": "§7вы оставляете §bДвойника-Миража §#F5CFFF<em>§7, который",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7which draws mobs within §f<num> §7blocks towards it.",
-          "ru": "§7притягивающего мобов в радиусе §f<num>§r§7 блоков.",
+          "ru": "§7притягивает мобов в радиусе §f<num> §7блоков.",
           "id": "descriptio-003"
         },
         {
           "en": "§bMirage Clones §#F5CFFF<em>§7 disappear when an enemy",
-          "ru": "§7§bДвойники-Миражи <em>§r§7 исчезают, когда враг",
+          "ru": "§bДвойники-Миражи §#F5CFFF<em>§7 исчезают, когда враг",
           "id": "descriptio-004"
         },
         {
           "en": "§7§7is within §f<num> §7blocks or when they expire,",
-          "ru": "§7в радиусе §f<num>§r§7 блока или по истечении времени,",
+          "ru": "§7подходит ближе чем на §f<num> §7блока или когда истекает время,",
           "id": "descriptio-005"
         },
         {
           "en": "§7§7and will cast §nSmoke Bomb§7 with §nLast Laugh§7.",
-          "ru": "§7и применяет §nДымовую Бомбу§r§7 с эффектом §nПоследний Смех§r§7.",
+          "ru": "§7и благодаря §nПоследнему Смеху§7 применяют §nДымовую Бомбу§7.",
           "id": "descriptio-006"
         },
         {
@@ -3017,7 +3017,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -3072,7 +3072,7 @@
       "description": [
         {
           "en": "§7§7You gain §f<num> §7Mana if you",
-          "ru": "§7Получаете §f<num>§r§7 маны, если",
+          "ru": "§7Вы получаете §f<num> §7Ману, если",
           "id": "descriptio-001"
         },
         {
@@ -3082,7 +3082,7 @@
         },
         {
           "en": "§7§8ground to be airborne)",
-          "ru": "§8земли, чтобы считаться в воздухе)",
+          "ru": "§8над землёй)",
           "id": "descriptio-003"
         },
         {
@@ -3099,7 +3099,7 @@
       "properties": [
         {
           "en": "§7§8(<num>+ blocks off the",
-          "ru": "§8(<num>+ блоков от",
+          "ru": "§8(в воздухе: от <num>+ блоков",
           "id": "propertie-001"
         },
         {
@@ -3303,12 +3303,12 @@
       "description": [
         {
           "en": "§7§7Increase §nMultihit§7's amount of hits by §f<num>§7.",
-          "ru": "§7Увеличивает количество ударов §nМультиудара§r§7 на §f<num>§r§7.",
+          "ru": "§7Количество ударов §nМультиудара§7: §f<num>§7.",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7Increase §nFinality§7's damage cap by §f<num>§7 hits.",
-          "ru": "§7Увеличивает порог урона §nФинала§r§7 на §f<num>§r§7 удара.",
+          "ru": "§7Предел роста урона §nФинала§7: §f<num>§7 удара.",
           "id": "descriptio-002"
         },
         {
@@ -3375,17 +3375,17 @@
       "description": [
         {
           "en": "§7§7Landing §f<num> §7hits against an enemy while",
-          "ru": "§7Нанесите врагу §f<num>§r§7 ударов, пока вы",
+          "ru": "§7За §f<num> §7ударов по врагу в воздухе",
           "id": "descriptio-001"
         },
         {
           "en": "§7§nRipple§7 consumes your §bMomentum <em>§7,",
-          "ru": "§7§nВолна§r§7 расходует ваш §bИмпульс <em>§r§7,",
+          "ru": "§7§nВолна§7 расходует ваш §bИмпульс §f<em>§7 и",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7releasing a powerful explosion that deals",
-          "ru": "§7высвобождая мощный взрыв, который наносит",
+          "ru": "§7вызывает мощный взрыв, который наносит",
           "id": "descriptio-003"
         },
         {
@@ -3395,12 +3395,12 @@
         },
         {
           "en": "§7§7For each stack of §bMomentum <em>§7, this",
-          "ru": "§7За каждый заряд §bИмпульса <em>§r§7 этот",
+          "ru": "§7За каждый заряд §bИмпульса §f<em>§7 этот",
           "id": "descriptio-005"
         },
         {
           "en": "§7§7While midair, hold shift to quickly drop down.",
-          "ru": "§7В воздухе зажмите Shift для быстрого падения.",
+          "ru": "§7В воздухе зажмите Shift, чтобы быстро упасть.",
           "id": "descriptio-006"
         },
         {
@@ -3422,12 +3422,12 @@
       "properties": [
         {
           "en": "§7§7midair grants you §f<num> §bMomentum <em>§7. §8(Max <num>)",
-          "ru": "§7в воздухе, чтобы получить §f<num>§r§7 §bИмпульса <em>§r§7. §8(Максимум <num>)",
+          "ru": "§7вы получаете §f<num> §bИмпульс §f<em>§7. §8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
           "en": "§7§7explosion deals §f<num>% §7more damage.",
-          "ru": "§7взрыв наносит §f<num>%§r§7 больше урона.",
+          "ru": "§7взрыв наносит §f<num>% §7урона.",
           "id": "propertie-002"
         },
         {
@@ -3457,7 +3457,7 @@
         },
         {
           "en": "§e<em> §7Effect: §fBlindness §7(§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффект: §fСлепота (<em>§f) к Врагам",
+          "ru": "§e<em> §7Эффект: §fСлепота §7(§c<em>§7) на врагов",
           "id": "propertie-008"
         },
         {
@@ -3605,12 +3605,12 @@
       "description": [
         {
           "en": "§7Summon §f<num> §7additional §bMirror Clones §#C267F7<em>",
-          "ru": "§7Призывает §f<num>§r§7 дополнительных §bЗеркальных Двойников <em>§r§7",
+          "ru": "§7Призывает ещё §f<num> §bЗеркальных Двойника §#C267F7<em>",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7with §nMirror Image§7.",
-          "ru": "§7вместе с §nЗеркальным Образом§r§7.",
+          "ru": "§7с помощью §nЗеркального Образа§7.",
           "id": "descriptio-002"
         },
         {
@@ -3709,7 +3709,7 @@
       "properties": [
         {
           "en": "§7§7glide and become immune to fall damage. (Max <num>s)",
-          "ru": "§7планировать и стать неуязвимым к урону от падения. (Максимум <num>с)",
+          "ru": "§7планировать и стать неуязвимым к урону от падения. §8(Максимум <num>с)",
           "id": "propertie-001"
         },
         {
@@ -3761,17 +3761,17 @@
       "description": [
         {
           "en": "§7§nSmoke Bomb§7 will add §f<num> §bMark <em> §7to",
-          "ru": "§7§nДымовая Бомба§r§7 добавляет §f<num> §bМетку <em>§r§7",
+          "ru": "§7§nДымовая Бомба§7 накладывает §f<num> §bМетку §c<em> §7на",
           "id": "descriptio-001"
         },
         {
           "en": "§7from attacks for each mark they have.",
-          "ru": "§7от атак за каждую метку на них.",
+          "ru": "§7урона от атак за каждую Метку на них.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§bMarked <em> §7will decay once every §f<num>s§7.",
-          "ru": "§7§bМетка §c<em>§r§7 спадает каждые §f<num>с§r§7.",
+          "ru": "§bМетки §c<em> §7спадают по одной каждые §f<num>с§7.",
           "id": "descriptio-003"
         },
         {
@@ -3793,12 +3793,12 @@
       "properties": [
         {
           "en": "§7enemies it hits. (Max <num>, <num>s Cooldown)",
-          "ru": "§7поражённым врагам. §8(Максимум <num>, <num>с Перезарядка)§r§7",
+          "ru": "§7поражённых врагов. §8(Максимум <num>, перезарядка <num>с)",
           "id": "propertie-001"
         },
         {
           "en": "§7§bMarked <em> §7enemies will take §f<num>% §7damage",
-          "ru": "§7§bПомеченные §c<em>§r§b§r§7 враги получают §f<num>%§r§7 урона",
+          "ru": "§bПомеченные §c<em> §7враги получают §f<num>%",
           "id": "propertie-002"
         },
         {
@@ -3856,42 +3856,42 @@
       "description": [
         {
           "en": "§7§nLast Laugh§7 stores a number of §bTricks §#6AFA65<em> §7on",
-          "ru": "§7§nПоследний Смех§r§7 хранит количество §bУловок <em>§r§7 на",
+          "ru": "§7§nПоследний Смех§7 оставляет на врагах §bУловки §#6AFA65<em>§7,",
           "id": "descriptio-001"
         },
         {
           "en": "§7enemies based on the type of §bClone §#C267F7<em>§#F5CFFF<em>§#D84C4C<em>§7.",
-          "ru": "§7врагах в зависимости от типа §bДвойника <em><em><em>§r§7.",
+          "ru": "§7их число зависит от типа §bДвойника §#C267F7<em>§#F5CFFF<em>§#D84C4C<em>§7.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7Casting §nDash§7 while sneaking will detonate",
-          "ru": "§7§nРывок§r§7 в приседе подрывает",
+          "ru": "§7§nРывок§7 в приседе подрывает",
           "id": "descriptio-003"
         },
         {
           "en": "§7all nearby stored §bTricks §#6AFA65<em>§7, dealing damage",
-          "ru": "§7все находящиеся рядом §bУловки <em>§r§7, нанося урон",
+          "ru": "§7все §bУловки §#6AFA65<em>§7 на врагах рядом и наносит урон",
           "id": "descriptio-004"
         },
         {
           "en": "§7§7based on how many stacks were consumed.",
-          "ru": "§7в зависимости от количества поглощённых зарядов.",
+          "ru": "§7в зависимости от числа подорванных Уловок.",
           "id": "descriptio-005"
         },
         {
           "en": "§bMirror Clones §#C267F7<em>§7 apply §f<num> §bTrick §#6AFA65<em>§7 per hit.",
-          "ru": "§7§bЗеркальные Двойники <em>§r§7 накладывают §f<num> §bУловку <em>§r§7 за удар.",
+          "ru": "§bЗеркальные Двойники §#C267F7<em>§7 накладывают §f<num> §bУловку §#6AFA65<em>§7 за удар.",
           "id": "descriptio-006"
         },
         {
           "en": "§bMirage Clones §#F5CFFF<em>§7 apply §f<num> §bTricks §#6AFA65<em>§7 per hit.",
-          "ru": "§7§bДвойники-Миражи <em>§r§7 накладывают §f<num> §bУловки <em>§r§7 за удар.",
+          "ru": "§bДвойники-Миражи §#F5CFFF<em>§7 накладывают §f<num> §bУловки §#6AFA65<em>§7 за удар.",
           "id": "descriptio-007"
         },
         {
           "en": "§bShadow Clones §#D84C4C<em>§7 apply §f<num> §bTricks §#6AFA65<em>§7 per hit.",
-          "ru": "§7§bТеневые Двойники <em>§r§7 накладывают §f<num> §bУловок <em>§r§7 за удар.",
+          "ru": "§bТеневые Двойники §#D84C4C<em>§7 накладывают §f<num> §bУловок §#6AFA65<em>§7 за удар.",
           "id": "descriptio-008"
         },
         {
@@ -3913,7 +3913,7 @@
       "properties": [
         {
           "en": "§7(Max <num>)",
-          "ru": "§7(Максимум <num>)",
+          "ru": "§8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
@@ -3997,17 +3997,17 @@
       "description": [
         {
           "en": "§7After using §nDash§7, you prepare",
-          "ru": "§7После §nРывка§r§7 вы готовите",
+          "ru": "§7После §nРывка§7 вы готовите",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7Your next §nMain Attack§7 will throw all",
-          "ru": "§7Ваша следующая §nОсновная Атака§r§7 бросает все",
+          "ru": "§7Ваша следующая §nОсновная Атака§7 бросает все",
           "id": "descriptio-002"
         },
         {
           "en": "§7your prepared shurikens.",
-          "ru": "§7ваши подготовленные сюрикены.",
+          "ru": "§7приготовленные сюрикены.",
           "id": "descriptio-003"
         },
         {
@@ -4018,8 +4018,8 @@
       ],
       "properties": [
         {
-          "en": "§7§f<num>§7 shurikens. §8(Max <num>)§7",
-          "ru": "§7§f<num>§r§7 сюрикенов. §8(Максимум <num>)",
+          "en": "§7§f<num>§7 shurikens. §8(Max <num>)",
+          "ru": "§f<num>§7 сюрикена. §8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
@@ -4170,17 +4170,17 @@
       "description": [
         {
           "en": "§7§7Casting §nSpin Attack§7 while sneaking will",
-          "ru": "§7§nВихревая Атака§r§7 в приседе",
+          "ru": "§7§nВихревая Атака§7 в приседе",
           "id": "descriptio-001"
         },
         {
           "en": "§7transfer salvaged §bTricks §#6AFA65<em>§7 onto enemies",
-          "ru": "§7переносит собранные §bУловки <em>§r§7 на врагов",
+          "ru": "§7переносит собранные §bУловки §#6AFA65<em>§7 на врагов",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7and immediately detonate them.",
-          "ru": "§7и мгновенно их подрывает.",
+          "ru": "§7и сразу их подрывает.",
           "id": "descriptio-003"
         },
         {
@@ -4197,12 +4197,12 @@
       "properties": [
         {
           "en": "§7§7After killing an enemy, salvage §f<num>%§7 of",
-          "ru": "§7После убийства врага собирает §f<num>%§r§7",
+          "ru": "§7Убив врага, вы забираете §f<num>%§7",
           "id": "propertie-001"
         },
         {
           "en": "§7their §bTricks §#6AFA65<em>§7. §8(Max <num> per mob, <num> total)",
-          "ru": "§7их §bУловки <em>§r§7. §8(Максимум <num> на моба, <num> всего)",
+          "ru": "§7его §bУловок §#6AFA65<em>§7. §8(Максимум <num> с моба, <num> всего)",
           "id": "propertie-002"
         },
         {
@@ -4477,27 +4477,27 @@
       "description": [
         {
           "en": "§7Detonating §f<num>+§7 §bTricks §#6AFA65<em>§7 §bon enemies will",
-          "ru": "§7Подрыв §f<num>+§r§7 §bУловок <em>§r§7 на врагах",
+          "ru": "§7Подрыв §f<num>+§7 §bУловок §#6AFA65<em>§7 §bна враге",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7temporarily reduce their damage.",
-          "ru": "§7временно снижает их урон.",
+          "ru": "§7на время снижает его урон.",
           "id": "descriptio-002"
         },
         {
           "en": "§7Debuffs applied with §bTricks §#6AFA65<em>§7 will last",
-          "ru": "§7Дебаффы наложенные §bУловками <em>§r§7 длятся",
+          "ru": "§7Дебаффы от §bУловок §#6AFA65<em>§7 получают",
           "id": "descriptio-003"
         },
         {
           "en": "§f<num>s§7 longer for each extra §bTrick §#6AFA65<em>",
-          "ru": "§7§f<num>с§r§7 дольше за каждую дополнительную §bУловку <em>§r§7",
+          "ru": "§f<num>с§7 длительности за каждую §bУловку §#6AFA65<em>",
           "id": "descriptio-004"
         },
         {
           "en": "§7§7detonated beyond the requirement.",
-          "ru": "§7подорванную сверх требования.",
+          "ru": "§7сверх необходимого числа.",
           "id": "descriptio-005"
         },
         {
@@ -4514,7 +4514,7 @@
       "properties": [
         {
           "en": "§e<em> §7Effects: §f<num>% §7Damage Bonus (§c<em>§7) to Enemies",
-          "ru": "<em> §7Эффекты: §f<num>%§f §7Бонус к Урону (<em>§7) Врагам",
+          "ru": "§e<em> §7Эффекты: §f<num>% §7Бонус к Урону (§c<em>§7) на врагов",
           "id": "propertie-001"
         },
         {
@@ -4575,12 +4575,12 @@
       "description": [
         {
           "en": "§7§7Reduces §nHop§7's cooldown by",
-          "ru": "§7Снижает перезарядку §nПрыжка§r§7 на",
+          "ru": "§7Перезарядка §nПрыжка§7:",
           "id": "descriptio-001"
         },
         {
           "en": "§7§f<num>s§7. §7Using §nHop§7 into a wall",
-          "ru": "§7§f<num>с§r§7. Использование §nПрыжка§r§7 в стену",
+          "ru": "§f<num>с§7. §nПрыжок§7 в стену",
           "id": "descriptio-002"
         },
         {
@@ -4607,7 +4607,7 @@
       "properties": [
         {
           "en": "§7§8(Hold shift to cancel)",
-          "ru": "§8(Зажмите Shift для отмены)",
+          "ru": "§8(зажмите Shift для отмены)",
           "id": "propertie-001"
         },
         {
@@ -4735,27 +4735,27 @@
       "description": [
         {
           "en": "§7Detonating §f<num>+§7 §bTricks §#6AFA65<em>§7 §bon enemies",
-          "ru": "§7Подрыв §f<num>+§r§7 §bУловок <em>§r§7 на врагах",
+          "ru": "§7Подрыв §f<num>+§7 §bУловок §#6AFA65<em>§7 §bна враге",
           "id": "descriptio-001"
         },
         {
           "en": "§7will make them §bConfused §#E1DCA4<em>§7.",
-          "ru": "§7сбивает их с толку §b<em>§r§7.",
+          "ru": "§7делает его §bСбитым с Толку §#E1DCA4<em>§7.",
           "id": "descriptio-002"
         },
         {
           "en": "§7<em> Thunder §7damage from you and",
-          "ru": "§e<em> §7Урона Грома от вас и",
+          "ru": "§e<em> Урону Громом §7от вас и",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7will take damage whenever they attack.",
-          "ru": "§7получают урон каждый раз, когда атакуют.",
+          "ru": "§7сами получают урон, когда атакуют.",
           "id": "descriptio-004"
         },
         {
           "en": "§7You may store §f<num>§7 more §bTricks §#6AFA65<em> §7on enemies.",
-          "ru": "§7Можете хранить ещё §f<num>§r§7 §bУловок <em>§r§7 на врагах.",
+          "ru": "§7На врагах можно хранить ещё §f<num>§7 §bУловок §#6AFA65<em>§7.",
           "id": "descriptio-005"
         },
         {
@@ -4772,12 +4772,12 @@
       "properties": [
         {
           "en": "§bConfused §#E1DCA4<em> §7enemies take §f<num>% §7more",
-          "ru": "§7§bСбитые с Толку <em>§r§7 враги получают §f<num>%§r§7 больше",
+          "ru": "§bСбитые с Толку §#E1DCA4<em> §7враги получают §f<num>% §7к",
           "id": "propertie-001"
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -4853,32 +4853,32 @@
       "description": [
         {
           "en": "§7§7If cast while in §nVanish§7,",
-          "ru": "§7Если использовать в §nИсчезновении§r§7,",
+          "ru": "§7Если применить в §nИсчезновении§7,",
           "id": "descriptio-001"
         },
         {
           "en": "§7§nSpin Attack§7 will consume all",
-          "ru": "§7§nВихревая Атака§r§7 расходует все",
+          "ru": "§7§nВихревая Атака§7 забирает все",
           "id": "descriptio-002"
         },
         {
           "en": "§7§bMarks <em> §7from nearby enemies.",
-          "ru": "§7§bМетки <em>§r§7 с ближайших врагов.",
+          "ru": "§bМетки §c<em> §7с ближайших врагов.",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7For every §b<num> Marks <em> §7consumed,",
-          "ru": "§7За каждые §b<num> Метки <em>§r§7,",
+          "ru": "§7За каждые §f<num> §bМетки §c<em> §7вы",
           "id": "descriptio-004"
         },
         {
           "en": "§7§7Dealing damage will send your",
-          "ru": "§7Нанесение урона отправляет вашего",
+          "ru": "§7Когда вы наносите урон, ваши",
           "id": "descriptio-005"
         },
         {
           "en": "§7§7of the damage you dealt per §bKnife§7.",
-          "ru": "§7от нанесённого вами урона за каждый §bНож§r§7.",
+          "ru": "§7от нанесённого вами урона каждый §bНож§7.",
           "id": "descriptio-006"
         },
         {
@@ -4895,12 +4895,12 @@
       "properties": [
         {
           "en": "§7§7summon a §bKnife§7. (Max <num> Knives)",
-          "ru": "§7призывает §bНож§r§7. (Максимум <num> Ножей)",
+          "ru": "§7призываете §bНож§7. (Максимум <num> Ножей)",
           "id": "propertie-001"
         },
         {
           "en": "§7§bKnives §7to your target, dealing §f<num>%",
-          "ru": "§7§bНожей§r§7 в цель, нанося §f<num>%",
+          "ru": "§bНожи §7летят в цель и наносят §f<num>%",
           "id": "propertie-002"
         },
         {
@@ -5038,32 +5038,32 @@
       "description": [
         {
           "en": "§7When you double jump, throw a §bShadow Clone §#D84C4C<em>",
-          "ru": "§7При двойном прыжке бросает §bТеневого Двойника <em>",
+          "ru": "§7Двойной прыжок бросает §bТеневого Двойника §#D84C4C<em>",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7in the direction you are facing.",
-          "ru": "§7в ту сторону, куда вы смотрите.",
+          "ru": "§7туда, куда вы смотрите.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7Double jump again while sneaking to",
-          "ru": "§7Двойной прыжок в приседе чтобы",
+          "ru": "§7Повторный двойной прыжок в приседе",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7teleport to the clone, detonating it.",
-          "ru": "§7телепортироваться к двойнику, подрывая его.",
+          "ru": "§7телепортирует вас к двойнику и подрывает его.",
           "id": "descriptio-004"
         },
         {
           "en": "§bShadow Clones §#D84C4C<em>§7 will cast §b§nSpin Attack",
-          "ru": "§7§bТеневые Двойники <em>§r§7 применяют §nВихревую Атаку",
+          "ru": "§bТеневые Двойники §#D84C4C<em>§7 благодаря §nПоследнему Смеху",
           "id": "descriptio-005"
         },
         {
           "en": "§7§7with §nLast Laugh§7.",
-          "ru": "§7вместе с §nПоследним Смехом§r§7.",
+          "ru": "§7применяют §b§nВихревую Атаку§7.",
           "id": "descriptio-006"
         },
         {
@@ -5075,7 +5075,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -5248,7 +5248,7 @@
       "properties": [
         {
           "en": "§7<em> §7Effect: §f<num>% §7Damage Bonus (§c⚔§7) to Self",
-          "ru": "§7<em> §7Эффект: §f<num>% §7Бонус к Урону (§c⚔§7) Себе",
+          "ru": "§7<em> §7Эффект: §f<num>% §7Бонус к Урону (§c⚔§7) на себя",
           "id": "propertie-001"
         },
         {
@@ -5310,12 +5310,12 @@
       "description": [
         {
           "en": "§7§7Increases §nSpin Attack§7 and §nLacerate§7's range",
-          "ru": "§7Увеличивает дальность §nВихревой Атаки§r§7 и §nРазрыва§r§7",
+          "ru": "§7Увеличивает дальность и урон §nВихревой Атаки§7 и §nРазрыва§7.",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7and damage, and adds <num> §bMark <em> §7to enemies hit.",
-          "ru": "§7и урон, и добавляет <num> §bМетку <em>§r§7 поражённым врагам.",
+          "ru": "§7Они накладывают §f<num> §bМетку §c<em> §7на поражённых врагов.",
           "id": "descriptio-002"
         },
         {
@@ -5337,7 +5337,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -5410,32 +5410,32 @@
       "description": [
         {
           "en": "§7Detonating §f<num>+§7 §bTricks §#6AFA65<em>§7 §bon enemies",
-          "ru": "§7Подрыв §f<num>+§r§7 §bУловок <em>§r§7 на врагах",
+          "ru": "§7Подрыв §f<num>+§7 §bУловок §#6AFA65<em>§7 §bна враге",
           "id": "descriptio-001"
         },
         {
           "en": "§bContaminates §#94A771<em>§7 them with toxic ooze.",
-          "ru": "§7§bЗаражает <em>§r§7 их токсичной слизью.",
+          "ru": "§bЗаражает §#94A771<em>§7 его токсичной слизью.",
           "id": "descriptio-002"
         },
         {
           "en": "§7<em> Earth §7damage from you and will explode",
-          "ru": "§2<em> §7Урона Земли от вас и взрываются",
+          "ru": "§2<em> Урону Землёй §7от вас, а при смерти взрываются",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7on death, damaging nearby enemies.",
-          "ru": "§7при смерти, нанося урон ближайшим врагам.",
+          "ru": "§7и ранят врагов рядом.",
           "id": "descriptio-004"
         },
         {
           "en": "§7You may store §f<num>§7 more §bTricks §#6AFA65<em> §7on",
-          "ru": "§7Можете хранить ещё §f<num>§r§7 §bУловок <em>§r§7 на",
+          "ru": "§7Можно хранить ещё §f<num>§7 §bУловок §#6AFA65<em>§7 на",
           "id": "descriptio-005"
         },
         {
           "en": "§7§7enemies.",
-          "ru": "§7врагов.",
+          "ru": "§7врагах.",
           "id": "descriptio-006"
         },
         {
@@ -5452,12 +5452,12 @@
       "properties": [
         {
           "en": "§bContaminated §#94A771<em>§7 enemies take §f<num>% §7more",
-          "ru": "§7§bЗаражённые <em>§r§7 враги получают §f<num>%§r§7 больше",
+          "ru": "§bЗаражённые §#94A771<em>§7 враги получают §f<num>% §7к",
           "id": "propertie-001"
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -5533,17 +5533,17 @@
       "description": [
         {
           "en": "§7After losing a §bMirror Clone §#C267F7<em>§7, your",
-          "ru": "§7После потери §bЗеркального Двойника <em>§r§7, ваша",
+          "ru": "§7Когда вы теряете §bЗеркального Двойника §#C267F7<em>§7, вашу",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7next §7§nSpin Attack§7 or §nSmoke Bomb§7 will be",
-          "ru": "§7следующая §nВихревая Атака§r§7 или §nДымовая Бомба§r§7 будет",
+          "ru": "§7следующую §nВихревую Атаку§7 или §nДымовую Бомбу§7",
           "id": "descriptio-002"
         },
         {
           "en": "§7copied by all active §bClones §#C267F7<em>§#F5CFFF<em>§#D84C4C<em>§7, but deal",
-          "ru": "§7скопирована всеми активными §bДвойниками <em><em><em>§r§7, но нанесёт",
+          "ru": "§7повторяют все активные §bДвойники §#C267F7<em>§#F5CFFF<em>§#D84C4C<em>§7, но наносят",
           "id": "descriptio-003"
         },
         {
@@ -5565,7 +5565,7 @@
       "properties": [
         {
           "en": "§7§c<num>%§7 damage.",
-          "ru": "§7§c<num>%§r§7 урона.",
+          "ru": "§c<num>%§7 урона.",
           "id": "propertie-001"
         },
         {
@@ -5629,17 +5629,17 @@
       "description": [
         {
           "en": "§7§7§nLacerate§7 deals more damage,",
-          "ru": "§7§nРазрыв§r§7 наносит больше урона,",
+          "ru": "§7§nРазрыв§7 наносит больше урона",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7and will slash §f<num> §7more time.",
-          "ru": "§7и наносит §f<num>§r§7 дополнительный удар.",
+          "ru": "§7и делает §f<num> §7удар.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7Lacerate has increased range.",
-          "ru": "§7Дальность Разрыва увеличена.",
+          "ru": "§7Дальность §nРазрыва§7 увеличена.",
           "id": "descriptio-003"
         },
         {
@@ -5656,7 +5656,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -5796,12 +5796,12 @@
       "description": [
         {
           "en": "§7§7When entering and exiting §nVanish§7, become immune to",
-          "ru": "§7При входе и выходе из §nИсчезновения§r§7 даёт иммунитет к",
+          "ru": "§7Входя в §nИсчезновение§7 и выходя из него, вы ненадолго",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7knockback and gain resistance for a brief moment.",
-          "ru": "§7отбрасыванию и даёт сопротивление на короткое время.",
+          "ru": "§7не отбрасываетесь и получаете сопротивление.",
           "id": "descriptio-002"
         },
         {
@@ -5823,7 +5823,7 @@
       "properties": [
         {
           "en": "§7<em> §7Effect: §f<num>% §7Resistance Bonus (§a❁§7) to Self",
-          "ru": "§7<em> §7Эффект: §f<num>% §7Сопротивление (§a❁§7) к Себе",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Сопротивление (§a❁§7) на себя",
           "id": "propertie-001"
         },
         {
@@ -5892,12 +5892,12 @@
       "description": [
         {
           "en": "§7§7Gain §f<num> §7Mana for every leftover §bMark <em>",
-          "ru": "§7Получаете §f<num>§r§7 Маны за каждую неиспользованную §bМетку <em>",
+          "ru": "§7Вы получаете §f<num> §7Маны за каждую оставшуюся §bМетку §c<em>",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7when killing an enemy, and for every §bMark <em>§7",
-          "ru": "§7при убийстве врага, и за каждую §bМетку <em>§r§7",
+          "ru": "§7на убитом враге и за каждую §bМетку §c<em>§7,",
           "id": "descriptio-002"
         },
         {
@@ -6173,27 +6173,27 @@
       "description": [
         {
           "en": "§7§7§nBamboozle§7 coats enemies struck with a",
-          "ru": "§7§nФинт§r§7 покрывает поражённых врагов",
+          "ru": "§7§nФинт§7 покрывает поражённых врагов",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7whenever you strike them.",
-          "ru": "§7каждый раз, когда вы их ударяете.",
+          "ru": "§7поражённому врагу.",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7or at the end of its duration, dealing damage",
-          "ru": "§7или в конце действия, нанося урон",
+          "ru": "§7или когда кончается его действие, и наносит урон",
           "id": "descriptio-003"
         },
         {
           "en": "§7based on how §bEnkindled §#FF8E8E<em>§7 the target was.",
-          "ru": "§7от уровня §bВоспламенения <em>§r§7 цели.",
+          "ru": "§7в зависимости от §bВоспламенения §#FF8E8E<em>§7 цели.",
           "id": "descriptio-004"
         },
         {
           "en": "§7<em> Fire§7 damage from you.",
-          "ru": "§c<em> §7Урона Огня от вас.",
+          "ru": "§c<em> Урону Огнём§7 от вас.",
           "id": "descriptio-005"
         },
         {
@@ -6215,17 +6215,17 @@
       "properties": [
         {
           "en": "§7flammable catalyst, making them §f<num>% §bEnkindled §#FF8E8E<em>",
-          "ru": "§7горючим катализатором, делая их §f<num>% §bВоспламенёнными <em>",
+          "ru": "§7горючим катализатором: каждый ваш удар даёт §f<num>% §bВоспламенения §#FF8E8E<em>",
           "id": "propertie-001"
         },
         {
           "en": "§7§7The catalyst flares up when it reaches §f<num>%",
-          "ru": "§7Катализатор вспыхивает при достижении §f<num>%",
+          "ru": "§7Катализатор вспыхивает, когда доходит до §f<num>%",
           "id": "propertie-002"
         },
         {
           "en": "§bEnkindled §#FF8E8E<em> §7enemies take §f<num>% §7more",
-          "ru": "§7§bВоспламенённые <em>§r§7 враги получают §f<num>%§r§7 больше",
+          "ru": "§bВоспламенённые §#FF8E8E<em> §7враги получают §f<num>% §7к",
           "id": "propertie-003"
         },
         {
@@ -6402,12 +6402,12 @@
       "description": [
         {
           "en": "§7§7If an enemy has §b<num>+ Marks <em>§7, your next",
-          "ru": "§7Если у врага §b<num>+ Меток <em>§r§7, ваш следующий",
+          "ru": "§7Если на враге §f<num>+ §bМеток §c<em>§7, ваш следующий",
           "id": "descriptio-001"
         },
         {
           "en": "§7Both consume all §bMarks <em>§7 on the enemy.",
-          "ru": "§7Оба расходуют все §bМетки <em>§r§7 на враге.",
+          "ru": "§7Оба снимают с врага все §bМетки §c<em>§7.",
           "id": "descriptio-002"
         },
         {
@@ -6424,12 +6424,12 @@
       "properties": [
         {
           "en": "§7§nBackstab§7 §7will deal §f<num>%§7 damage, or your next",
-          "ru": "§7§nУдар в Спину§r§7 наносит §f<num>%§r§7 урона, или ваш следующий",
+          "ru": "§7§nУдар в Спину§7 наносит §f<num>%§7 урона, или ваш следующий",
           "id": "propertie-001"
         },
         {
           "en": "§7§nPowder Special§7 §7will deal §f<num>%§7 damage.",
-          "ru": "§7§nСпец. Порошок§r§7 наносит §f<num>%§r§7 урона.",
+          "ru": "§7§nСпец. Порошок§7 наносит §f<num>%§7 урона.",
           "id": "propertie-002"
         },
         {
@@ -6494,17 +6494,17 @@
       "description": [
         {
           "en": "§7§7§nSmoke Bomb§7 makes you and any allies",
-          "ru": "§7§nДымовая Бомба§r§7 наделяет вас и союзников",
+          "ru": "§7Пока вы и союзники стоите в дыме",
           "id": "descriptio-001"
         },
         {
           "en": "§7become §bNoxious §#EB3DFE<em>§7 while standing in it,",
-          "ru": "§7статусом §bЯдовитости <em>§r§7 в зоне дыма,",
+          "ru": "§7§nДымовой Бомбы§7, вы получаете §bЯдовитость §#EB3DFE<em>§7,",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7which lingers after leaving the area.",
-          "ru": "§7который сохраняется после выхода из неё.",
+          "ru": "§7которая остаётся и после выхода из дыма.",
           "id": "descriptio-003"
         },
         {
@@ -6531,17 +6531,17 @@
       "properties": [
         {
           "en": "§7While §bNoxious §#EB3DFE<em>§7, deal §f<num>% §7damage to",
-          "ru": "§7Пока действует §bЯдовитость §#EB3DFE<em>§7, наносит §f<num>% §7урона",
+          "ru": "§7Под §bЯдовитостью §#EB3DFE<em>§7 вы наносите §f<num>% §7урона",
           "id": "propertie-001"
         },
         {
           "en": "§7§7enemies for every debuff they have. §8(Max <num>)",
-          "ru": "§7врагам за каждый их дебафф. §8(Максимум <num>)",
+          "ru": "§7врагу за каждый его дебафф. §8(Максимум <num>)",
           "id": "propertie-002"
         },
         {
           "en": "§7§7Allies only receive §c<num>%§7 of the bonus.",
-          "ru": "§7Союзники получают только §c<num>%§r§7 бонуса.",
+          "ru": "§7Союзники получают только §c<num>%§7 этого бонуса.",
           "id": "propertie-003"
         },
         {
@@ -6609,22 +6609,22 @@
       "description": [
         {
           "en": "§7§7After spending §f<num> §7Mana or gaining §f<num> §bMomentum <em>§7,",
-          "ru": "§7После траты §f<num>§r§7 Маны или получения §f<num>§r§7 §bИмпульса <em>§r§7,",
+          "ru": "§7Когда вы тратите §f<num> §7Маны или получаете §f<num> §bИмпульса §f<em>§7,",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7an area underneath you blooms and damages",
-          "ru": "§7область под вами расцветает и наносит урон",
+          "ru": "§7земля под вами расцветает и ранит врагов",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7enemies below it every §f<num>s§7.",
-          "ru": "§7врагам под собой каждые §f<num>с§r§7.",
+          "ru": "§7на этой области каждые §f<num>с§7.",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7The duration is reset and the radius is",
-          "ru": "§7Длительность сбрасывается, а радиус",
+          "ru": "§7После каждого цветения длительность сбрасывается,",
           "id": "descriptio-004"
         },
         {
@@ -6641,12 +6641,12 @@
       "properties": [
         {
           "en": "§7§7increased after every bloom. (Max <num> Blooms)",
-          "ru": "§7растёт за каждое цветение. (Максимум <num> Цветений)",
+          "ru": "§7а радиус растёт. §8(Максимум <num> Цветений)",
           "id": "propertie-001"
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -6730,7 +6730,7 @@
       "description": [
         {
           "en": "§7Detonating §f<num>+§7 §bTricks §#6AFA65<em>§7 §bon enemies will",
-          "ru": "§7Подрыв §f<num>+§r§7 §bУловок <em>§r§7 на врагах",
+          "ru": "§7Подрыв §f<num>+§7 §bУловок §#6AFA65<em>§7 §bна враге",
           "id": "descriptio-001"
         },
         {
@@ -6740,7 +6740,7 @@
         },
         {
           "en": "§7You may store §f<num>§7 more §bTricks §#6AFA65<em> §7on enemies.",
-          "ru": "§7Можете хранить ещё §f<num>§r§7 §bУловок <em>§r§7 на врагах.",
+          "ru": "§7Можно хранить на врагах ещё §f<num>§7 §bУловок §#6AFA65<em>§7.",
           "id": "descriptio-003"
         },
         {
@@ -6757,27 +6757,27 @@
       "properties": [
         {
           "en": "§7make them §f<num>% §bDrained §#A1FAD9<em>§7 and take",
-          "ru": "§7накладывает §f<num>%§r§7 §bИстощения <em>§r§7, и они получают",
+          "ru": "§7накладывает на него §f<num>% §bИстощения §#A1FAD9<em>§7, а",
           "id": "propertie-001"
         },
         {
           "en": "§7§f<num>% §7more <em> Water§7 damage from you.",
-          "ru": "§7§f<num>%§r§7 больше §3<em> §7Урона Воды от вас.",
+          "ru": "§7он получает §f<num>% §7к §b<em> Урону Водой§7 от вас.",
           "id": "propertie-002"
         },
         {
           "en": "§bDrained §#A1FAD9<em>§7 enemy, siphon §f<num>% §7of it,",
-          "ru": "§7§bИстощённого <em>§r§7 врага, вытягивает §f<num>%§r§7 этого,",
+          "ru": "§bИстощённого §#A1FAD9<em>§7 врага, вы вытягиваете §f<num>% §7Истощения",
           "id": "propertie-003"
         },
         {
           "en": "§7§7converting it into §f<num>% §bOverhealth §6❤§7",
-          "ru": "§7превращая его в §f<num>%§r§7 §bСверхздоровья §6❤§r§7",
+          "ru": "§7и превращаете его в §f<num>% §bСверхздоровья §6❤§7,",
           "id": "propertie-004"
         },
         {
           "en": "§7§7that decays over §f<num>s§7. (Max <num>%)",
-          "ru": "§7которое спадает за §f<num>с§r§7. (Максимум <num>%)",
+          "ru": "§7которое убывает за §f<num>с§7. §8(Максимум <num>%)",
           "id": "propertie-005"
         },
         {
@@ -6840,12 +6840,12 @@
       "description": [
         {
           "en": "§7§7Landing with §nSwan Dive§7 briefly",
-          "ru": "§7Приземление с §nЛебединым Прыжком§r§7 кратко",
+          "ru": "§7Приземление после §nЛебединого Прыжка§7 ненадолго",
           "id": "descriptio-001"
         },
         {
           "en": "§7grants you resistance.",
-          "ru": "§7даёт сопротивление.",
+          "ru": "§7даёт вам сопротивление.",
           "id": "descriptio-002"
         },
         {
@@ -6867,7 +6867,7 @@
       "properties": [
         {
           "en": "§7<em> §7Effect: §f<num>% §7Resistance Bonus (§a❁§7) to Self",
-          "ru": "§7<em> §7Эффект: §f<num>% §7Сопротивление (§a❁§7) к Себе",
+          "ru": "§e<em> §7Эффект: §f<num>% §7Сопротивление (§a❁§7) на себя",
           "id": "propertie-001"
         },
         {
@@ -7055,7 +7055,7 @@
       "description": [
         {
           "en": "§7after hitting a successful §nBackstab§7.",
-          "ru": "§7после успешного §nУдара в Спину§r§7.",
+          "ru": "§7после успешного §nУдара в Спину§7.",
           "id": "descriptio-001"
         },
         {
@@ -7072,7 +7072,7 @@
       "properties": [
         {
           "en": "§7§7Gain §f<num>% §7Walk Speed (§3➲§7)",
-          "ru": "§7Получаете §f<num>%§r§7 Скорости Ходьбы (§3➲§r§7)",
+          "ru": "§7Вы получаете §f<num>% §7Скорости Ходьбы (§3➲§7)",
           "id": "propertie-001"
         },
         {
@@ -7134,12 +7134,12 @@
       "description": [
         {
           "en": "§7Summon §f<num> §7additional §bMirror Clone §#C267F7<em>",
-          "ru": "§7Призывает §f<num>§r§7 дополнительного §bЗеркального Двойника <em>§r§7",
+          "ru": "§7Призывает ещё §f<num> §bЗеркального Двойника §#C267F7<em>",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7with §nMirror Image§7.",
-          "ru": "§7вместе с §nЗеркальным Образом§r§7.",
+          "ru": "§7с помощью §nЗеркального Образа§7.",
           "id": "descriptio-002"
         },
         {
@@ -7208,7 +7208,7 @@
       "description": [
         {
           "en": "§7§7more damage to §nSwan Dive§7.",
-          "ru": "§7больше урона §nЛебединым Прыжком§r§7.",
+          "ru": "§7к урону §nЛебединого Прыжка§7.",
           "id": "descriptio-001"
         },
         {
@@ -7225,12 +7225,12 @@
       "properties": [
         {
           "en": "§7§7Each §f<num> §bMomentum <em>§7 grants §f<num>%§7",
-          "ru": "§7Каждые §f<num> §bИмпульса <em>§r§7 дают §f<num>%§r§7",
+          "ru": "§7Каждый §f<num> §bИмпульс §f<em>§7 даёт §f<num>%",
           "id": "propertie-001"
         },
         {
           "en": "§7§7§nDash§7's horizontal velocity is increased by §f<num>%§7.",
-          "ru": "§7Горизонтальная скорость §nРывка§r§7 увеличена на §f<num>%§r§7.",
+          "ru": "§7Горизонтальная скорость §nРывка§7 увеличена на §f<num>%§7.",
           "id": "propertie-002"
         },
         {
@@ -7283,7 +7283,7 @@
       "description": [
         {
           "en": "§7§7Your second hit after casting",
-          "ru": "§7Ваш второй удар после применения",
+          "ru": "§7Ваш второй удар после",
           "id": "descriptio-001"
         },
         {
@@ -7300,7 +7300,7 @@
       "properties": [
         {
           "en": "§7§nVanish§7 will deal §f<num>%§7 damage.",
-          "ru": "§7§nИсчезновения§r§7 наносит §f<num>%§r§7 урона.",
+          "ru": "§7§nИсчезновения§7 наносит §f<num>%§7 урона.",
           "id": "propertie-001"
         },
         {
@@ -7366,7 +7366,7 @@
       "description": [
         {
           "en": "§7after losing a §bMirror Clone §#C267F7<em>§7.",
-          "ru": "§7после потери §bЗеркального Двойника <em>§r§7.",
+          "ru": "§7после потери §bЗеркального Двойника §#C267F7<em>§7.",
           "id": "descriptio-001"
         },
         {
@@ -7383,7 +7383,7 @@
       "properties": [
         {
           "en": "§7§7Gain §f<num>% §7Walk Speed (§3➲§7)",
-          "ru": "§7Получаете §f<num>%§r§7 Скорости Ходьбы (§3➲§r§7)",
+          "ru": "§7Вы получаете §f<num>% §7Скорости Ходьбы (§3➲§7)",
           "id": "propertie-001"
         },
         {
@@ -7444,17 +7444,17 @@
       "description": [
         {
           "en": "§7§7A maximum sized §nJasmine Bloom§7 will transform",
-          "ru": "§7§nЦветение Жасмина§r§7 максимального размера превращает",
+          "ru": "§7§nЦветение Жасмина§7 максимального размера превращает",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7§nSwan Dive§7 into a huge petal storm, consuming",
-          "ru": "§7§nЛебединый Прыжок§r§7 в огромный лепестковый шторм, расходуя",
+          "ru": "§7§nЛебединый Прыжок§7 в огромный лепестковый шторм:",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7your bloom to give it increased damage and range",
-          "ru": "§7ваше цветение, давая ему больше урона и дальности",
+          "ru": "§7цветение расходуется, а урон и радиус шторма растут.",
           "id": "descriptio-003"
         },
         {
@@ -7532,17 +7532,17 @@
       "description": [
         {
           "en": "§7§7When you hit an enemy with §f<num>+ §bMarks <em>§7",
-          "ru": "§7Когда вы ударяете врага с §f<num>+ §bМеток <em>§r§7",
+          "ru": "§7Когда вы бьёте врага с §f<num>+ §bМетками §c<em>",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7with a successful §nBackstab§7, send out",
-          "ru": "§7при успешном §nУдаре в Спину§r§7 высвобождает",
+          "ru": "§7успешным §nУдаром в Спину§7, от него",
           "id": "descriptio-002"
         },
         {
           "en": "§7§7of the enemy's §bMarks <em>§7 to other enemies.",
-          "ru": "§7§bМеток <em>§r§7 врага другим врагам.",
+          "ru": "§7его §bМеток §c<em>§7 на других врагов.",
           "id": "descriptio-003"
         },
         {
@@ -7564,7 +7564,7 @@
       "properties": [
         {
           "en": "§7§7a cloud of smoke which applies §f<num>%§7",
-          "ru": "§7облако дыма, накладывающее §f<num>%§r§7",
+          "ru": "§7расходится облако дыма и переносит §f<num>%",
           "id": "propertie-001"
         },
         {
@@ -7706,12 +7706,12 @@
       "description": [
         {
           "en": "§7After losing all of your §bMirror Clones §#C267F7<em>§7, create",
-          "ru": "§7После потери всех §bЗеркальных Двойников <em>§r§7, создаёт",
+          "ru": "§7Когда вы теряете всех §bЗеркальных Двойников §#C267F7<em>§7,",
           "id": "descriptio-001"
         },
         {
           "en": "§7§7an explosion the next time you enter §nVanish§7.",
-          "ru": "§7взрыв при следующем входе в §nИсчезновение§r§7.",
+          "ru": "§7следующий вход в §nИсчезновение§7 вызывает взрыв.",
           "id": "descriptio-002"
         },
         {
@@ -7728,7 +7728,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -7799,7 +7799,7 @@
       "description": [
         {
           "en": "§7Hop will now prepare <num> shurikens.",
-          "ru": "§7Прыжок теперь готовит <num> сюрикена.",
+          "ru": "§7§nПрыжок§7 теперь готовит §f<num>§7 сюрикена.",
           "id": "descriptio-001"
         },
         {
@@ -7821,7 +7821,7 @@
       "properties": [
         {
           "en": "§7You can prepare <num> total shurikens. (Max <num>)",
-          "ru": "§7Можно подготовить <num> сюрикенов всего. (Максимум <num>)",
+          "ru": "§7Запас сюрикенов: §f<num>§7. §8(Максимум <num>)",
           "id": "propertie-001"
         },
         {
@@ -7878,27 +7878,27 @@
       "description": [
         {
           "en": "§7Inject volatile chemicals into your",
-          "ru": "§7Вводит летучие химикаты в вашу",
+          "ru": "§7Вы добавляете в §nДымовую Бомбу",
           "id": "descriptio-001"
         },
         {
           "en": "§7Smoke Bomb, causing it to combust",
-          "ru": "§7Дымовую Бомбу, заставляя её сгореть",
+          "ru": "§7летучие химикаты: она вспыхивает",
           "id": "descriptio-002"
         },
         {
           "en": "§7instantaneously upon landing,",
-          "ru": "§7мгновенно при приземлении,",
+          "ru": "§7сразу, как только падает на землю,",
           "id": "descriptio-003"
         },
         {
           "en": "§7dealing its damage <num>s faster.",
-          "ru": "§7нанося её урон на <num>с быстрее.",
+          "ru": "§7и наносит урон на §f<num>с§7 раньше.",
           "id": "descriptio-004"
         },
         {
           "en": "§7Reduce Smoke Bomb's duration by <num>s.",
-          "ru": "§7Снижает длительность Дымовой Бомбы на <num>с.",
+          "ru": "§7Длительность §nДымовой Бомбы§7 снижена на §f<num>с§7.",
           "id": "descriptio-005"
         },
         {
@@ -7915,7 +7915,7 @@
       "properties": [
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §c<num>%§8 (от вашего DPS)",
           "id": "propertie-001"
         },
         {
@@ -7983,17 +7983,17 @@
         },
         {
           "en": "§7every §f<num>s§7, applying §bHypoxia §#799490<em> §7for §f<num>s§7.",
-          "ru": "§7каждые §f§f<num>с§7§7, накладывая §bГипоксию §#799490<em> §7на §f§f<num>с§7§7.",
+          "ru": "§7каждые §f<num>с§7 и добавляет врагам §f<num>с §bГипоксии §#799490<em>§7.",
           "id": "descriptio-002"
         },
         {
           "en": "§7Enemies suffering from §bHypoxia §#799490<em>",
-          "ru": "§7Враги с §bГипоксией <em>§r§7",
+          "ru": "§7Враги с §bГипоксией §#799490<em>",
           "id": "descriptio-003"
         },
         {
           "en": "§7§7more <em> Air§7 damage from you.",
-          "ru": "§7больше §b<em> §7Урона Воздуха от вас.",
+          "ru": "§7к §f<em> Урону Воздухом§7 от вас.",
           "id": "descriptio-004"
         },
         {
@@ -8015,12 +8015,12 @@
       "properties": [
         {
           "en": "§7(Max <num>s)",
-          "ru": "§7(Максимум <num>с)",
+          "ru": "§8(Максимум <num>с)",
           "id": "propertie-001"
         },
         {
           "en": "§7§7are slowed by §f<num>%§7 and take §f<num>%",
-          "ru": "§7замедлены на §f<num>%§r§7 и получают §f<num>%",
+          "ru": "§7замедлены на §f<num>%§7 и получают §f<num>%",
           "id": "propertie-002"
         },
         {
@@ -8080,32 +8080,32 @@
       "description": [
         {
           "en": "§7Cloak yourself in shadow, gaining all",
-          "ru": "§7Окутывает вас тенью, давая все",
+          "ru": "§7Вы окутываете себя тенью и на всё время",
           "id": "descriptio-001"
         },
         {
           "en": "§7benefits of Vanish for the duration.",
-          "ru": "§7эффекты Исчезновения на время действия.",
+          "ru": "§7действия получаете все эффекты §nИсчезновения§7.",
           "id": "descriptio-002"
         },
         {
           "en": "§7Health and mana will still generate, and",
-          "ru": "§7Здоровье и мана продолжают восстанавливаться, и",
+          "ru": "§7Здоровье и мана при этом восстанавливаются,",
           "id": "descriptio-003"
         },
         {
           "en": "§7this state cannot be canceled.",
-          "ru": "§7это состояние нельзя отменить.",
+          "ru": "§7а отменить это состояние нельзя.",
           "id": "descriptio-004"
         },
         {
           "en": "§7While cloaked, nearby enemies will",
-          "ru": "§7Под покровом тени ближайшие враги будут",
+          "ru": "§7Пока вы в тени, ближайшие враги",
           "id": "descriptio-005"
         },
         {
           "en": "§7gain §f<num> §bMark <em> §7every <num>s.",
-          "ru": "§7получать §f<num> §bМетку <em>§r§7 каждые <num>с.",
+          "ru": "§7получают §f<num> §bМетку §c<em>§7 каждые §f<num>с§7.",
           "id": "descriptio-006"
         },
         {
@@ -8142,7 +8142,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашей §#82EFF4Шкалы Ультимейта <em> §7до <num>%",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-004"
         },
         {
@@ -8200,37 +8200,37 @@
       "description": [
         {
           "en": "§7Leap into the air before plummeting",
-          "ru": "§7Прыжок в воздух перед стремительным падением",
+          "ru": "§7Вы взмываете в воздух и обрушиваетесь",
           "id": "descriptio-001"
         },
         {
           "en": "§7back to earth, spurring a garden of",
-          "ru": "§7обратно на землю, выращивая у ваших ног",
+          "ru": "§7на землю. У ваших ног вырастает сад",
           "id": "descriptio-002"
         },
         {
           "en": "§7flowers to grow at your feet, dealing",
-          "ru": "§7сад цветов, который наносит",
+          "ru": "§7цветов, который ранит врагов",
           "id": "descriptio-003"
         },
         {
           "en": "§7damage to enemies every <num>s.",
-          "ru": "§7урон врагам каждые <num>с.",
+          "ru": "§7каждые §f<num>с§7.",
           "id": "descriptio-004"
         },
         {
           "en": "§7While above your garden, your Momentum <em>",
-          "ru": "§7Пока вы над своим садом, ваш Импульс <em>",
+          "ru": "§7Пока вы над своим садом, ваш §bИмпульс §f<em>",
           "id": "descriptio-005"
         },
         {
           "en": "§7charges twice as fast and gains",
-          "ru": "§7заряжается вдвое быстрее, а максимальное",
+          "ru": "§7копится §fвдвое§7 быстрее, а максимум зарядов",
           "id": "descriptio-006"
         },
         {
           "en": "§7<num> maximum stacks.",
-          "ru": "§7число зарядов увеличивается на <num>.",
+          "ru": "§7увеличивается: §f<num>§7.",
           "id": "descriptio-007"
         },
         {
@@ -8257,7 +8257,7 @@
         },
         {
           "en": "§7<em> §7Total Damage: §f<num>%§8 (of your DPS)",
-          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от Вашего DPS)",
+          "ru": "§7<em> §7Общий Урон: §f<num>%§8 (от вашего DPS)",
           "id": "propertie-002"
         },
         {
@@ -8287,7 +8287,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%.",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-008"
         },
         {
@@ -8345,12 +8345,12 @@
       "description": [
         {
           "en": "§7Create a perfect clone of yourself to",
-          "ru": "§7Призыв идеального двойника, чтобы",
+          "ru": "§7Вы создаёте идеальную копию себя",
           "id": "descriptio-001"
         },
         {
           "en": "§7work with as a united duet, it copying",
-          "ru": "§7действовать с ним как единый дуэт; он копирует",
+          "ru": "§7и сражаетесь с ней в паре: копия повторяет",
           "id": "descriptio-002"
         },
         {
@@ -8360,52 +8360,52 @@
         },
         {
           "en": "§7The clone's health is proportional to your",
-          "ru": "§7Здоровье двойника пропорционально вашему",
+          "ru": "§7Здоровье копии зависит от вашего",
           "id": "descriptio-004"
         },
         {
           "en": "§7own effective health, and while it lives,",
-          "ru": "§7эффективному здоровью, и пока он жив,",
+          "ru": "§7эффективного здоровья, а пока она жива,",
           "id": "descriptio-005"
         },
         {
           "en": "§7the effectiveness of your debuffs is doubled.",
-          "ru": "§7эффективность ваших дебаффов удваивается.",
+          "ru": "§7ваши дебаффы действуют §fвдвое§7 сильнее.",
           "id": "descriptio-006"
         },
         {
           "en": "§7Casting F again swaps your positions,",
-          "ru": "§7Повторное нажатие §d§lF §7меняет ваши позиции,",
+          "ru": "§7Повторное нажатие §d§lF§7 меняет вас местами,",
           "id": "descriptio-007"
         },
         {
           "en": "§7detonates §bTricks §#6AFA65<em>§7 on nearby enemies, and makes",
-          "ru": "§7подрывает §bУловки <em>§r§7 на ближайших врагах и заставляет",
+          "ru": "§7подрывает §bУловки §#6AFA65<em>§7 на ближайших врагах и заставляет",
           "id": "descriptio-008"
         },
         {
           "en": "§7your clone cast all available Damage Spells.",
-          "ru": "§7вашего двойника применить все доступные Атакующие Заклинания.",
+          "ru": "§7копию применить все доступные §nАтакующие Заклинания§7.",
           "id": "descriptio-009"
         },
         {
           "en": "§7If no enemy had more than §f<num> §bTricks §#6AFA65<em>§7 detonated",
-          "ru": "§7Если ни у кого не было более <num> взорванных §bУловок <em>§r§7",
+          "ru": "§7Если ни на одном враге не подорвалось больше §f<num> §bУловок §#6AFA65<em>§7,",
           "id": "descriptio-010"
         },
         {
           "en": "§7in the swap, the clone loses <num> health. However,",
-          "ru": "§7при обмене двойник теряет <num> здоровья. Однако,",
+          "ru": "§7копия теряет §c<num>§7 здоровья. Зато",
           "id": "descriptio-011"
         },
         {
           "en": "§7for every §bTrick §#6AFA65<em>§7 detonated over the threshold,",
-          "ru": "§7за каждую §bУловку <em>§r§7 подорванную сверх порога,",
+          "ru": "§7за каждую §bУловку §#6AFA65<em>§7 сверх этого порога",
           "id": "descriptio-012"
         },
         {
           "en": "§7Activate abilities or take damage to charge",
-          "ru": "§7Используйте способности или получайте урон для зарядки",
+          "ru": "§7Применяйте способности или получайте урон, чтобы зарядить",
           "id": "descriptio-013"
         },
         {
@@ -8427,7 +8427,7 @@
         },
         {
           "en": "§7those Damage Spells deal <num>% more damage.",
-          "ru": "§7эти Атакующие Заклинания наносят <num>% больше урона.",
+          "ru": "§7эти §nАтакующие Заклинания§7 наносят §f<num>%§7 урона.",
           "id": "propertie-002"
         },
         {
@@ -8437,7 +8437,7 @@
         },
         {
           "en": "§7your §#82EFF4Ultimate Meter <em> §7to <num>%",
-          "ru": "§7вашей §#82EFF4Шкалы Ультимейта <em> §7до <num>%",
+          "ru": "§7вашу §#82EFF4Шкалу Ультимейта <em> §7до <num>%",
           "id": "propertie-004"
         },
         {
