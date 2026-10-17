@@ -259,7 +259,7 @@
         {
           "id": "consumable-012f534dd5600e41",
           "en": "§7Exchange §b<num> Ability Shards§7",
-          "ru": "§7§7Обменяйте§7 §b<num> §bОсколка Способностей§7"
+          "ru": "§7§7Обменяйте§7 §b<num> §bОск<pl:олок|олка|олков> Способностей§7,"
         },
         {
           "id": "consumable-4a50ff56f8b313de",
@@ -634,12 +634,12 @@
         {
           "id": "consumable-210a17dea137dd65",
           "en": "Rerolls the Tracker on a Shiny",
-          "ru": "§#A2A2A2Заменяет счётчик блестящего"
+          "ru": "§#A2A2A2Заменяет счётчик предмета Shiny"
         },
         {
           "id": "consumable-31906d2a49dd664b",
           "en": "Item to a random one. Tokens",
-          "ru": "§#A2A2A2предмета случайным. Жетоны"
+          "ru": "§#A2A2A2на случайный. Жетоны"
         },
         {
           "id": "consumable-dffa2e4cd6da8cee",
@@ -664,12 +664,12 @@
         {
           "id": "consumable-210a17dea137dd65",
           "en": "Rerolls the Tracker on a Shiny",
-          "ru": "§#A2A2A2Заменяет счётчик блестящего"
+          "ru": "§#A2A2A2Заменяет счётчик предмета Shiny"
         },
         {
           "id": "consumable-31906d2a49dd664b",
           "en": "Item to a random one. Tokens",
-          "ru": "§#A2A2A2предмета случайным. Жетоны"
+          "ru": "§#A2A2A2на случайный. Жетоны"
         },
         {
           "id": "consumable-dffa2e4cd6da8cee",
@@ -814,17 +814,17 @@
         {
           "id": "line-0177",
           "en": "§7Highest Buy Offer: <num> (<num>¼² <num>²½ <num>²)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼² <num>²½ <num>²)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>¼² <num>²½ <num>²)"
         },
         {
           "id": "highest-buy-one-coin",
           "en": "§7Highest Buy Offer: <num> (<num>²)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>²)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>²)"
         },
         {
           "id": "line-0066",
           "en": "§7Cheapest Sell Offer: <num> (<num>²½ <num>²)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>²½ <num>²)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>²½ <num>²)"
         },
         {
           "id": "line-0116",
@@ -849,7 +849,7 @@
         {
           "id": "line-0176",
           "en": "§7Cheapest Sell Offer: <num> (<num>¼² <num>²½ <num>²)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼² <num>²½ <num>²)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>¼² <num>²½ <num>²)"
         },
         {
           "id": "price-style-d7abc36f294efed9",
@@ -959,72 +959,72 @@
         {
           "id": "price-style-0ddc6594270d8ec4",
           "en": "§7Cheapest Sell Offer: <num> (<num>²)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>²)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>²)"
         },
         {
           "id": "price-style-c278e43357901b9f",
           "en": "§7Cheapest Sell Offer: <num> (<num>²½)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>²½)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>²½)"
         },
         {
           "id": "price-style-2b70cd3b46b1b4b7",
           "en": "§7Cheapest Sell Offer: <num> (<num>¼²)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼²)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>¼²)"
         },
         {
           "id": "price-style-921354547ac1db9e",
           "en": "§7Cheapest Sell Offer: <num> (<num>¼² <num>²)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼² <num>²)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>¼² <num>²)"
         },
         {
           "id": "price-style-4fb2c62e9752d8dd",
           "en": "§7Cheapest Sell Offer: <num> (<num>¼² <num>²½)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼² <num>²½)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>¼² <num>²½)"
         },
         {
           "id": "price-style-ba090765fcfa5670",
           "en": "§7Cheapest Sell Offer: <num> (<num>stx)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>stx)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>stx)"
         },
         {
           "id": "price-style-06ae8201d403dc4b",
           "en": "§7Cheapest Sell Offer: <num> (<num>stx <num>¼²)",
-          "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>stx <num>¼²)"
+          "ru": "§7Мин. цена продажи: §f<num> §8(<num>stx <num>¼²)"
         },
         {
           "id": "price-style-20919462ca7aca53",
           "en": "§7Highest Buy Offer: <num> (<num>²½)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>²½)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>²½)"
         },
         {
           "id": "price-style-4182bd5bc7de3057",
           "en": "§7Highest Buy Offer: <num> (<num>¼²)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼²)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>¼²)"
         },
         {
           "id": "price-style-3e2fabe1e824cd13",
           "en": "§7Highest Buy Offer: <num> (<num>²½ <num>²)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>²½ <num>²)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>²½ <num>²)"
         },
         {
           "id": "price-style-66bbe655a74c1dd8",
           "en": "§7Highest Buy Offer: <num> (<num>¼² <num>²)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼² <num>²)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>¼² <num>²)"
         },
         {
           "id": "price-style-497c047936014c36",
           "en": "§7Highest Buy Offer: <num> (<num>¼² <num>²½)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼² <num>²½)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>¼² <num>²½)"
         },
         {
           "id": "price-style-15cf641a687c5eb2",
           "en": "§7Highest Buy Offer: <num> (<num>stx)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>stx)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>stx)"
         },
         {
           "id": "price-style-484b9ae1d17f1ffd",
           "en": "§7Highest Buy Offer: <num> (<num>stx <num>¼²)",
-          "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>stx <num>¼²)"
+          "ru": "§7Макс. цена покупки: §f<num> §8(<num>stx <num>¼²)"
         },
         {
           "id": "consumable-1fca68fa36e9dd6b",
@@ -1279,12 +1279,12 @@
         {
           "id": "consumable-4711549ab5b993b3",
           "en": "Thunder Damage Identification Only",
-          "ru": "Фильтр: Урон Громом"
+          "ru": "Фильтр: Урон Молнией"
         },
         {
           "id": "consumable-066039abb5fd0c3e",
           "en": "§7Must have the Thunder Damage",
-          "ru": "§7§7Характеристика:§7 §7Урон Громом"
+          "ru": "§7§7Характеристика:§7 §7Урон Молнией"
         },
         {
           "id": "consumable-1c5bb72e7905d6a7",

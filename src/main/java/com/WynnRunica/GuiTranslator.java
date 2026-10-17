@@ -23,6 +23,7 @@ public class GuiTranslator {
 
     private static final String CENTER_MARKER = "<center>";
     private static final java.util.regex.Pattern COLOR_CODES = java.util.regex.Pattern.compile("§(?:#[0-9a-fA-F]{6}|.)");
+    private static final java.util.regex.Pattern PER_SECOND = java.util.regex.Pattern.compile("/\\d+s\\b");
     private static final int SPACE_GLYPH_BASE = 0xD0000;
     private static final StyleSpriteSource.Font SPACE_FONT =
             new StyleSpriteSource.Font(Identifier.of("minecraft", "space"));
@@ -459,7 +460,7 @@ public class GuiTranslator {
             if (advance(glyphs, 0, glyphs.size()) == width) widest++;
         }
 
-        int axis = sharedAxis(before, bodyStart, count);
+        List<Integer> centerAxes = sharedAxes(before, bodyStart, count);
 
         Align[] align = new Align[count];
         int[] paragraph = new int[count];
@@ -536,12 +537,12 @@ public class GuiTranslator {
                     if (blockWidth >= width - 2) wideParagraphs.add(i);
                 } else if (listed) {
                     continue;
-                } else if (line.getFirst().codePoint() == '§' && (axis < 0 || Math.abs(indent(line) + visibleEnd(line) - axis) > 2)) {
+                } else if (line.getFirst().codePoint() == '§' && cells(line).size() >= 2 && !onAxis(line, centerAxes)) {
                     continue;
                 } else if ((indent(line) >= MIN_ALIGN_INDENT || k == 0 && indent(line) >= 3) && isCentered(line, width)
                         || isExactlyCentered(line, width)
                         || isPaddedCenter(line, width)
-                        || axis >= 0 && Math.abs(indent(line) + visibleEnd(line) - axis) <= 2) {
+                        || onAxis(line, centerAxes)) {
                     align[k] = Align.CENTER;
                 } else if (indent(line) >= MIN_ALIGN_INDENT && visibleEnd(line) == width && !holdsWidth) {
                     align[k] = Align.RIGHT;
@@ -572,6 +573,7 @@ public class GuiTranslator {
             }
         }
 
+        if (new java.io.File("C:/Users/Administrator/AppData/Local/Temp/wr-debug-align").exists()) { System.err.println("ALIGN width=" + width + " body=" + bodyStart + " " + java.util.Arrays.toString(align)); for (int q = 0; q < count; q++) System.err.println("  L" + q + " lead=" + hasLead(before.get(q)) + " ind=" + indent(before.get(q)) + " end=" + visibleEnd(before.get(q)) + " cells=" + cells(before.get(q)).size() + " first=" + (before.get(q).isEmpty() ? -1 : before.get(q).getFirst().codePoint())); }
         List<List<Glyph>> after = new ArrayList<>();
         java.util.HashSet<Integer> untouched = new java.util.HashSet<>();
         for (int i = 0; i < output.size(); i++) {
@@ -825,9 +827,15 @@ public class GuiTranslator {
         return result;
     }
 
-    private static int sharedAxis(List<List<Glyph>> lines, int from, int to) {
-        int best = -1;
-        int bestCount = 1;
+    private static boolean onAxis(List<Glyph> line, List<Integer> axes) {
+        for (int axis : axes) {
+            if (Math.abs(indent(line) + visibleEnd(line) - axis) <= 2) return true;
+        }
+        return false;
+    }
+
+    private static List<Integer> sharedAxes(List<List<Glyph>> lines, int from, int to) {
+        List<Integer> axes = new ArrayList<>();
         for (int i = from; i < to; i++) {
             if (!hasLead(lines.get(i)) || indent(lines.get(i)) < 3) continue;
             int candidate = indent(lines.get(i)) + visibleEnd(lines.get(i));
@@ -841,12 +849,9 @@ public class GuiTranslator {
                 same++;
                 if (Math.abs(visibleEnd(other) - indent(other) - length) > 4) otherLength = true;
             }
-            if (otherLength && same > bestCount) {
-                best = candidate;
-                bestCount = same;
-            }
+            if (otherLength && same >= 2 && !axes.contains(candidate)) axes.add(candidate);
         }
-        return best;
+        return axes;
     }
 
     private static boolean sharesLeftEdge(List<Glyph> line, List<Glyph> neighbour) {
@@ -1053,7 +1058,19 @@ public class GuiTranslator {
                 Text labelled = TextEmojiUtils.replaceFirstPixelLabel(line, label.source(), label.translation());
                 if (label.unitSource() != null)
                     labelled = TextEmojiUtils.replaceFirstPixelLabel(labelled, label.unitSource(), label.unitTranslation(),
-                            endsAtAlignment(labelled.getString(), label.unitSource()));
+                            label.unitSource().equals("to") || endsAtAlignment(labelled.getString(), label.unitSource()));
+                java.util.regex.Matcher perSecond = PER_SECOND.matcher(labelled.getString());
+                List<String> units = new ArrayList<>();
+                while (perSecond.find()) units.add(perSecond.group());
+                for (String unit : units)
+                    labelled = TextEmojiUtils.replaceFirstPixelLabel(labelled, unit, unit.replace('s', 'с'), true);
+                if ("to".equals(label.unitSource())) {
+                    while (labelled.getString().contains("tier")) {
+                        Text next = TextEmojiUtils.replaceFirstPixelLabel(labelled, "tier", "ур.", false);
+                        if (next == labelled) break;
+                        labelled = next;
+                    }
+                }
                 translatedLines.set(i, labelled);
                 continue;
             }

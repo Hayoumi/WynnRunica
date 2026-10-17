@@ -72,7 +72,7 @@
     {
       "id": "rule-0012",
       "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS)",
-      "ru": "§7<em> §7Общий Урон: §f<num>%§7 §8(от Вашего DPS)",
+      "ru": "§7<em> §7Общий Урон: §f<num>%§7 §8(от вашего DPS)",
       "match": "template"
     },
     {
@@ -114,13 +114,13 @@
     {
       "id": "rule-0019",
       "en": "§7attacks (<num>% damage reduction),",
-      "ru": "§7от атак (<num>% снижения урона),",
+      "ru": "§7от атак (<num>% снижения урона)",
       "match": "template"
     },
     {
       "id": "rule-0020",
       "en": "§7critical hit (doubling damage),",
-      "ru": "§7критический удар (двойной урон),",
+      "ru": "§7критический удар (двойной урон)",
       "match": "exact"
     },
     {
@@ -300,7 +300,7 @@
     {
       "id": "rule-0050",
       "en": "§7inflict, and §dreduce§7 spell costs",
-      "ru": "§7наносите, и §dснижает§7 стоимость заклинаний",
+      "ru": "§7и §dснижает§7 стоимость заклинаний",
       "match": "exact"
     },
     {
@@ -312,7 +312,7 @@
     {
       "id": "rule-0052",
       "en": "§7the <em> Water§7 damage you may",
-      "ru": "§7урон §b<em> водой§7, который вы",
+      "ru": "§7урон §b<em> водой§7, который вы наносите,",
       "match": "exact"
     },
     {
@@ -354,7 +354,7 @@
     {
       "id": "rule-0059",
       "en": "§7§dincrease §7any damage you deal,",
-      "ru": "§7§dувеличивает §7наносимый вами урон,",
+      "ru": "§7§dувеличивает §7наносимый вами урон",
       "match": "exact"
     },
     {
@@ -366,7 +366,7 @@
     {
       "id": "rule-0061",
       "en": "§7§dreduce §7any damage you take,",
-      "ru": "§7§dснижает §7получаемый вами урон,",
+      "ru": "§7§dснижает §7получаемый вами урон",
       "match": "exact"
     },
     {
@@ -612,13 +612,13 @@
     {
       "id": "rule-0102",
       "en": "Mana Regen <num>s",
-      "ru": "Восстановление маны <num>с",
+      "ru": "Восстановление Маны <num>с",
       "match": "template"
     },
     {
       "id": "rule-0103",
       "en": "Mana Steal <num>s",
-      "ru": "Кража маны <num>с",
+      "ru": "Кража Маны <num>с",
       "match": "template"
     },
     {
@@ -1578,73 +1578,73 @@
     {
       "id": "rule-tooltip-9d753e6176610f8c",
       "en": "- <num><num> <em> Air Damage",
-      "ru": "- §7<num><num> §f<em> Воздушного §7Урона",
+      "ru": "- §7<num><num> §7Урона §f<em> Воздухом",
       "match": "template"
     },
     {
       "id": "rule-tooltip-15ef3202c0f3221a",
       "en": "- <num>% <em> Neutral to <em> Air",
-      "ru": "- §7<num>% §6<em> Нейтрального §7в §f<em> Воздушный",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §f<em> Воздух",
       "match": "template"
     },
     {
       "id": "rule-tooltip-4b3bcd6a78a27279",
       "en": "- <num> <em> Air Defence",
-      "ru": "- §7<num> §f<em> Воздушной §7Защиты",
+      "ru": "- §7<num> §7Защиты от §f<em> Воздуха",
       "match": "template"
     },
     {
       "id": "rule-tooltip-9648ac9d28916c5e",
       "en": "- <num><num> <em> Earth Damage",
-      "ru": "- §7<num><num> §2<em> Земляного §7Урона",
+      "ru": "- §7<num><num> §7Урона §2<em> Землёй",
       "match": "template"
     },
     {
       "id": "rule-tooltip-48c874cf0e47a594",
       "en": "- <num>% <em> Neutral to <em> Earth",
-      "ru": "- §7<num>% §6<em> Нейтрального §7в §2<em> Земляной",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §2<em> Землю",
       "match": "template"
     },
     {
       "id": "rule-tooltip-a7fea402110b7273",
       "en": "- <num> <em> Earth Defence",
-      "ru": "- §7<num> §2<em> Земляной §7Защиты",
+      "ru": "- §7<num> §7Защиты от §2<em> Земли",
       "match": "template"
     },
     {
       "id": "rule-tooltip-384b31fbb35ed0a7",
       "en": "- <num><num> <em> Fire Damage",
-      "ru": "- §7<num><num> §c<em> Огненного §7Урона",
+      "ru": "- §7<num><num> §7Урона §c<em> Огнём",
       "match": "template"
     },
     {
       "id": "rule-tooltip-15d1b4c5e69d910f",
       "en": "- <num>% <em> Neutral to <em> Fire",
-      "ru": "- §7<num>% §6<em> Нейтрального §7в §c<em> Огненный",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §c<em> Огонь",
       "match": "template"
     },
     {
       "id": "rule-tooltip-0498c8e1bdd79f25",
       "en": "- <num> <em> Fire Defence",
-      "ru": "- §7<num> §c<em> Огненной §7Защиты",
+      "ru": "- §7<num> §7Защиты от §c<em> Огня",
       "match": "template"
     },
     {
       "id": "rule-tooltip-a993d46b03241d56",
       "en": "- <num><num> <em> Water Damage",
-      "ru": "- §7<num><num> §b<em> Водного §7Урона",
+      "ru": "- §7<num><num> §7Урона §b<em> Водой",
       "match": "template"
     },
     {
       "id": "rule-tooltip-3ddd36f73b321abe",
       "en": "- <num>% <em> Neutral to <em> Water",
-      "ru": "- §7<num>% §6<em> Нейтрального §7в §b<em> Водный",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §b<em> Воду",
       "match": "template"
     },
     {
       "id": "rule-tooltip-52934f1ed28a409e",
       "en": "- <num> <em> Water Defence",
-      "ru": "- §7<num> §b<em> Водной §7Защиты",
+      "ru": "- §7<num> §7Защиты от §b<em> Воды",
       "match": "template"
     },
     {
@@ -1902,7 +1902,7 @@
     {
       "id": "batch7-c31aaffa711dfde6",
       "en": "<em> <num> Blocks Area of Effect",
-      "ru": "<em> §#FFFFFF<num>§#FFFFFF Блоков §#AAAAAAОбласти Действия",
+      "ru": "<em> §#FFFFFF<num>§#FFFFFF Блок<pl:|а|ов> §#AAAAAAЗоны Поражения",
       "match": "template"
     },
     {
@@ -2004,19 +2004,19 @@
     {
       "id": "batch7-29b8ce574fedd736",
       "en": "§7§a§l✔§f Lv. <num>: §7<num> New Badges",
-      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Новых Значков",
+      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Нов<pl:ый|ых|ых> Знач<pl:ок|ка|ков>",
       "match": "template"
     },
     {
       "id": "batch7-40b46da3068e4612",
       "en": "§7§c✖§f Lv. <num>: §7<num> High Ranked Slots",
-      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест Старших Чинов",
+      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест<pl:о|а|> Старших Чинов",
       "match": "template"
     },
     {
       "id": "batch7-445aceb1797e251d",
       "en": "§7§c✖§f Lv. <num>: §7<num> Ally Slots",
-      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест Союзников",
+      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест<pl:о|а|> Союзников",
       "match": "template"
     },
     {
@@ -2598,7 +2598,7 @@
     {
       "id": "batch7-8da0b41b0861c090",
       "en": "§7§c✖§f Lv. <num>: §7<num> New Badges",
-      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Новых Значков",
+      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Нов<pl:ый|ых|ых> Знач<pl:ок|ка|ков>",
       "match": "template"
     },
     {
@@ -2622,7 +2622,7 @@
     {
       "id": "batch7-cd618470be0428d7",
       "en": "§b- §7<num> Region Limit §8(<num> total)",
-      "ru": "§b- §7§#AAAAAA<num>§#AAAAAA к Лимиту Областей §8(§#555555<num>§#555555 всего)",
+      "ru": "§b- §7§#AAAAAA<num>§#AAAAAA к Лимиту Регионов §8(§#555555<num>§#555555 всего)",
       "match": "template"
     },
     {
@@ -2712,7 +2712,7 @@
     {
       "id": "batch7-84dc594260724655",
       "en": "can be opened to receive cosmetic rewards.",
-      "ru": "Откройте их и получите украшения.",
+      "ru": "Откройте их и получите косметику.",
       "match": "exact"
     },
     {
@@ -2724,7 +2724,7 @@
     {
       "id": "batch7-33a18637cb7b5ca4",
       "en": "chances to contain rare cosmetics!",
-      "ru": "тем больше шанс редких украшений!",
+      "ru": "тем больше шанс на редкую косметику!",
       "match": "exact"
     },
     {
@@ -2778,19 +2778,19 @@
     {
       "id": "batch7-1c92c2813a6d65ec",
       "en": "§a- §7Ⓑ <num> Ore§4 (No output)",
-      "ru": "§a- §7Ⓑ §#AAAAAA<num>§#AAAAAA Руды§4 (Не добывается)",
+      "ru": "§a- §7Ⓑ §#AAAAAA<num>§#AAAAAA Руды§4 (Нет добычи)",
       "match": "template"
     },
     {
       "id": "batch7-f4310f29b5d41a74",
       "en": "§a- §7Ⓒ <num> Wood§4 (No output)",
-      "ru": "§a- §7Ⓒ §#AAAAAA<num>§#AAAAAA Древесины§4 (Не добывается)",
+      "ru": "§a- §7Ⓒ §#AAAAAA<num>§#AAAAAA Древесины§4 (Нет добычи)",
       "match": "template"
     },
     {
       "id": "batch7-b45ef945dea6e9c0",
       "en": "§a- §7Ⓚ <num> Fish§4 (No output)",
-      "ru": "§a- §7Ⓚ §#AAAAAA<num>§#AAAAAA Рыбы§4 (Не добывается)",
+      "ru": "§a- §7Ⓚ §#AAAAAA<num>§#AAAAAA Рыбы§4 (Нет добычи)",
       "match": "template"
     },
     {
@@ -2802,13 +2802,13 @@
     {
       "id": "batch7-280ef9dd80b00a8c",
       "en": "§a- §7<num> Emeralds§4 (No output)",
-      "ru": "§a- §7§#AAAAAA<num>§#AAAAAA Изумрудов§4 (Не добывается)",
+      "ru": "§a- §7§#AAAAAA<num>§#AAAAAA Изумрудов§4 (Нет добычи)",
       "match": "template"
     },
     {
       "id": "batch7-f38a67941c75f87b",
       "en": "§a- §7Ⓙ <num> Crops§4 (No output)",
-      "ru": "§a- §7Ⓙ §#AAAAAA<num>§#AAAAAA Урожая§4 (Не добывается)",
+      "ru": "§a- §7Ⓙ §#AAAAAA<num>§#AAAAAA Урожая§4 (Нет добычи)",
       "match": "template"
     },
     {
@@ -2844,7 +2844,7 @@
     {
       "id": "batch7-213d700c0157d4b1",
       "en": "the Trade Market with other players.",
-      "ru": "у игроков на Торговой Площадке.",
+      "ru": "у игроков на Торговом Рынке.",
       "match": "exact"
     },
     {
@@ -2892,13 +2892,13 @@
     {
       "id": "batch7-3968968e59f65a04",
       "en": "§7§a§l✔§f Lv. <num>: §7<num> Bank Slots",
-      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Ячеек Банка",
+      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Яче<pl:йка|йки|ек> Банка",
       "match": "template"
     },
     {
       "id": "batch7-02a119f327109d80",
       "en": "§7§c✖§f Lv. <num>: §7<num> Member Slots",
-      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест Участников",
+      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест<pl:о|а|> Участников",
       "match": "template"
     },
     {
@@ -3000,13 +3000,13 @@
     {
       "id": "batch7-96905b6c575609e6",
       "en": "§7§a§l✔§f Lv. <num>: §7<num> Ally Slots",
-      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест Союзников",
+      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест<pl:о|а|> Союзников",
       "match": "template"
     },
     {
       "id": "batch7-1473dab90b333f6d",
       "en": "§7§c✖§f Lv. <num>: §7<num> Bank Slots",
-      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Ячеек Банка",
+      "ru": "§7§c✖§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Яче<pl:йка|йки|ек> Банка",
       "match": "template"
     },
     {
@@ -3126,7 +3126,7 @@
     {
       "id": "batch7-eae474976ab981f9",
       "en": "§7Use your banner points",
-      "ru": "§7Используйте очки знамени",
+      "ru": "§7Используйте очки знамени,",
       "match": "exact"
     },
     {
@@ -3174,13 +3174,13 @@
     {
       "id": "batch7-b0810958b602566d",
       "en": "Use this item to enter Raids",
-      "ru": "§7Используйте этот предмет для",
+      "ru": "§7Используйте, чтобы войти в §fРейды",
       "match": "exact"
     },
     {
       "id": "batch7-7f5c83c08f965a93",
       "en": "or craft a Corrupted Dungeon",
-      "ru": "§7входа в §fРейды §7или создания",
+      "ru": "§7или создать §fКлюч Заражённого",
       "match": "exact"
     },
     {
@@ -3192,7 +3192,7 @@
     {
       "id": "batch7-cd8f983f6e36a1ae",
       "en": "§7§a§l✔§f Lv. <num>: §7<num> High Ranked Slots",
-      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест Старших Чинов",
+      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест<pl:о|а|> Старших Чинов",
       "match": "template"
     },
     {
@@ -3318,7 +3318,7 @@
     {
       "id": "batch7-7a08ec9d7c3e4e74",
       "en": "§7§a§l✔§f Lv. <num>: §7<num> Member Slots",
-      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест Участников",
+      "ru": "§7§a§l✔§f Ур. §#FFFFFF<num>§#FFFFFF: §7§#AAAAAA<num>§#AAAAAA Мест<pl:о|а|> Участников",
       "match": "template"
     },
     {
@@ -3588,7 +3588,7 @@
     {
       "id": "batch8-27cc6221c3886d84",
       "en": "Add items to sell them",
-      "ru": "Добавьте Предметы для Продажи",
+      "ru": "Добавьте предметы для продажи",
       "match": "exact"
     },
     {
@@ -3804,7 +3804,7 @@
     {
       "id": "batch8-e368529bbb047211",
       "en": "§7Sell an item on the Trade Market",
-      "ru": "§7Продать предмет на Торговой Площадке",
+      "ru": "§7Продать предмет на Торговом Рынке",
       "match": "exact"
     },
     {
@@ -3852,7 +3852,7 @@
     {
       "id": "batch8-dd7edc04a2b5eb7e",
       "en": "§7<em> Checkout",
-      "ru": "§#03CAFC§l<em> Оформить Покупку",
+      "ru": "§l<em> Оформить Покупку",
       "match": "exact"
     },
     {
@@ -4824,7 +4824,7 @@
     {
       "id": "batch8-cd6f54b9e24b21ed",
       "en": "isn't afraid to use them.",
-      "ru": "и охотно пускает их в ход.",
+      "ru": "и она охотно пускает их в ход.",
       "match": "exact"
     },
     {
@@ -5046,7 +5046,7 @@
     {
       "id": "batch8-90e1c785d574546f",
       "en": "§7<em><num>% OFF Crates",
-      "ru": "§7<em>§#FC322B§l§lСкидка §#FC322B§l§l<num>§#FC322B§l§l% §#FF921F§l§lна §#FF921F§l§lЯщики",
+      "ru": "<em>-<num>% на§* Ящики",
       "match": "template"
     },
     {
@@ -5082,7 +5082,7 @@
     {
       "id": "batch8-b68d812449c2f880",
       "en": "be opened to receive cosmetic rewards.",
-      "ru": "открыть и получить украшения.",
+      "ru": "открыть и получить косметику.",
       "match": "exact"
     },
     {
@@ -6060,13 +6060,13 @@
     {
       "id": "batch9-447dd9da8eda2a97",
       "en": "§7Guildmates with a §bSilverbull",
-      "ru": "Участники гильдии с §#55FFFFSilverbull§#AAAAAA",
+      "ru": "Участники гильдии с §#55FFFFПодпиской",
       "match": "exact"
     },
     {
       "id": "batch9-3b67181f0805600e",
       "en": "§7§bSubscription §7will boost by <num>",
-      "ru": "§#55FFFFПодпиской§#AAAAAA дают §#AAAAAA<num>§#55FFFF §#AAAAAAусилений",
+      "ru": "§#55FFFFSilverbull§#AAAAAA повышают уровень на §#AAAAAA<num>",
       "match": "template"
     },
     {
@@ -6300,7 +6300,7 @@
     {
       "id": "batch9-27fa181998804abe",
       "en": "§7§a✔ §7Update Price: §f<num> Banner Points",
-      "ru": "§#55FF55✔§#AAAAAA Цена Обновления: §#FFFFFF<num>§#FFFFFF Очков Знамени",
+      "ru": "§#55FF55✔§#AAAAAA Цена Обновления: §#FFFFFF<num>§#FFFFFF Очк<pl:о|а|ов> Знамени",
       "match": "template"
     },
     {
@@ -6312,7 +6312,7 @@
     {
       "id": "batch9-6bdd57cd3e5cfc83",
       "en": "§7§a✔ §7Price: §f<num> Banner Points",
-      "ru": "§#55FF55✔§#AAAAAA Цена: §#FFFFFF<num>§#FFFFFF Очков Знамени",
+      "ru": "§#55FF55✔§#AAAAAA Цена: §#FFFFFF<num>§#FFFFFF Очк<pl:о|а|ов> Знамени",
       "match": "template"
     },
     {
@@ -6696,7 +6696,7 @@
     {
       "id": "screenshot-fix-5f5858b7fe2a654b",
       "en": "Summon the Auburn Fox to",
-      "ru": "Призовите Лису Аубёрна,",
+      "ru": "Призовите Аубёрнского Лиса,",
       "match": "exact"
     },
     {
@@ -28752,7 +28752,7 @@
     {
       "id": "batch21-gui-292e64f13d40f5c5",
       "en": "<em>Can be used to purchase blocks in",
-      "ru": "<em>Подходит для покупки блоков на",
+      "ru": "<em>Можно покупать блоки для",
       "match": "exact"
     },
     {
@@ -29628,7 +29628,7 @@
     {
       "id": "batch21-gui-2cba9e0ac6e92e3c",
       "en": "§7the trade market",
-      "ru": "§7на торговом рынке",
+      "ru": "§7на Торговом Рынке",
       "match": "exact"
     },
     {
@@ -30144,13 +30144,13 @@
     {
       "id": "batch21-gui-5ed0fe2be4625a33",
       "en": "§b- §7<num>% Guild Tower Damage",
-      "ru": "§b- §7<num>%§7 К Урону Башни",
+      "ru": "§b- §7<num>%§7 к Урону Башни",
       "match": "template"
     },
     {
       "id": "batch21-gui-44b577429d97d382",
       "en": "§b- §7<num>% Guild Tower Health",
-      "ru": "§b- §7<num>%§7 К Здоровью Башни",
+      "ru": "§b- §7<num>%§7 к Здоровью Башни",
       "match": "template"
     },
     {
@@ -30564,7 +30564,7 @@
     {
       "id": "batch22-gui-55c022eab08cf168",
       "en": "§7Boltslinger: Close range burst damage",
-      "ru": "§7§#DAE069§lСтрелок:§7 Взрывной урон вблизи",
+      "ru": "§7§#DAE069§lСтрелок:§7 взрывной урон вблизи",
       "match": "exact"
     },
     {
@@ -30624,7 +30624,7 @@
     {
       "id": "batch22-gui-328a1e290eb86288",
       "en": "§7Sharpshooter: Aimed power shots",
-      "ru": "§7§#EB3DFE§lСнайпер:§7 Мощные прицельные выстрелы",
+      "ru": "§7§#EB3DFE§lСнайпер:§7 мощные прицельные выстрелы",
       "match": "exact"
     },
     {
@@ -30642,7 +30642,7 @@
     {
       "id": "batch22-gui-76c9126caa749c4b",
       "en": "§7Trapper: Mass damage with traps and beasts",
-      "ru": "§7§#87DD47§lЛовчий:§7 Массовый урон ловушками и зверями",
+      "ru": "§7§#87DD47§lЛовчий:§7 массовый урон ловушками и зверями",
       "match": "exact"
     },
     {
@@ -30696,7 +30696,7 @@
     {
       "id": "batch22-gui-e4467472352d240a",
       "en": "§7very high quantities.",
-      "ru": "§7в очень большом количестве.",
+      "ru": "§7очень большом количестве.",
       "match": "exact"
     },
     {
@@ -30800,6 +30800,96 @@
       "en": "§ctitle to update!",
       "ru": "§cдля обновления!",
       "match": "exact"
+    },
+    {
+      "id": "rule-powder7-1253bc336eb5",
+      "en": "§7- <num><num> <em> Air Damage",
+      "ru": "- §7<num><num> §7Урона §f<em> Воздухом",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-3c419a538460",
+      "en": "§7- <num>% <em> Neutral to <em> Air",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §f<em> Воздух",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-12b5db0014e6",
+      "en": "§7- <num> <em> Air Defence",
+      "ru": "- §7<num> §7Защиты от §f<em> Воздуха",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-b15942c52902",
+      "en": "§7- <num><num> <em> Earth Damage",
+      "ru": "- §7<num><num> §7Урона §2<em> Землёй",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-12334024a38a",
+      "en": "§7- <num>% <em> Neutral to <em> Earth",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §2<em> Землю",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-9ab72306327f",
+      "en": "§7- <num> <em> Earth Defence",
+      "ru": "- §7<num> §7Защиты от §2<em> Земли",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-d7574a2657af",
+      "en": "§7- <num><num> <em> Fire Damage",
+      "ru": "- §7<num><num> §7Урона §c<em> Огнём",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-1916b7e76cf6",
+      "en": "§7- <num>% <em> Neutral to <em> Fire",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §c<em> Огонь",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-5726a894f051",
+      "en": "§7- <num> <em> Fire Defence",
+      "ru": "- §7<num> §7Защиты от §c<em> Огня",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-d9c12def0f57",
+      "en": "§7- <num><num> <em> Water Damage",
+      "ru": "- §7<num><num> §7Урона §b<em> Водой",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-a71da1e1bf74",
+      "en": "§7- <num>% <em> Neutral to <em> Water",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §b<em> Воду",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-5a7d87b9ffac",
+      "en": "§7- <num> <em> Water Defence",
+      "ru": "- §7<num> §7Защиты от §b<em> Воды",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-2f256a0ced00",
+      "en": "§7- <num><num> <em> Thunder Damage",
+      "ru": "- §7<num><num> §7Урона §e<em> Молнией",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-d4ef9546912a",
+      "en": "§7- <num>% <em> Neutral to <em> Thunder",
+      "ru": "- §7<num>% §6<em> Нейтрального §7в §e<em> Молнию",
+      "match": "template"
+    },
+    {
+      "id": "rule-powder7-f54828e6a11c",
+      "en": "§7- <num> <em> Thunder Defence",
+      "ru": "- §7<num> §7Защиты от §e<em> Молнии",
+      "match": "template"
     }
   ]
 }

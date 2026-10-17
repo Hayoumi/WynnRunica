@@ -51,7 +51,7 @@
     {
       "id": "shared-0010",
       "en": "- +<num> Lootrun Experience",
-      "ru": "- +§f<num> §7Опыта Лутраннинга"
+      "ru": "- +§f<num> §7Опыта Лутранов"
     },
     {
       "id": "shared-0011",
@@ -336,7 +336,7 @@
     {
       "id": "shared-0067",
       "en": "<num>% every <num> seconds while in",
-      "ru": "§f<num>% §7каждые §f<num> §7сек. находясь в"
+      "ru": "§f<num>% §7каждые §f<num>с§7, пока вы в"
     },
     {
       "id": "shared-0068",
@@ -461,17 +461,17 @@
     {
       "id": "shared-0092",
       "en": "Boon Potency (<num>%), your",
-      "ru": "Силы Даров §7(§f§7<num>%§7), Ваши"
+      "ru": "Силы Даров §7(§f§7<num>%§7), ваши"
     },
     {
       "id": "shared-0093",
       "en": "Boon Potency , your",
-      "ru": "Силы Даров, Ваши"
+      "ru": "Силы Даров, ваши"
     },
     {
       "id": "shared-0094",
       "en": "Boon Potency, your",
-      "ru": "Силы Даров, Ваши"
+      "ru": "Силы Даров, ваши"
     },
     {
       "id": "shared-0095",
@@ -941,7 +941,7 @@
     {
       "id": "shared-0188",
       "en": "Pull, <num> extra per <num>%",
-      "ru": "к Пуллам и ещё §f<num>§7 за каждые §f<num>%"
+      "ru": "к Пуллам и §fещё <num>§7 за каждые §f<num>%"
     },
     {
       "id": "shared-0189",
@@ -1096,7 +1096,7 @@
     {
       "id": "shared-0219",
       "en": "Taking damage additionally",
-      "ru": "Получение урона дополнительно"
+      "ru": "Получаемый вами урон"
     },
     {
       "id": "shared-0220",
@@ -1116,7 +1116,7 @@
     {
       "id": "shared-0223",
       "en": "They’re a great starter boost",
-      "ru": "§7Это отличный стартовый буст"
+      "ru": "§7Это отличный задел для старта"
     },
     {
       "id": "shared-0224",
@@ -1161,7 +1161,7 @@
     {
       "id": "shared-0232",
       "en": "Unlocked as a Raiding Admiral",
-      "ru": "§7Открывается на Ранге Raiding Admiral"
+      "ru": "§7Открывается со званием Адмирал Рейдов"
     },
     {
       "id": "shared-0233",
@@ -1201,7 +1201,7 @@
     {
       "id": "shared-0240",
       "en": "Until you gain <num>% total",
-      "ru": "Пока не наберёте всего §f<num>%"
+      "ru": "Пока не наберёте §fвсего <num>%"
     },
     {
       "id": "shared-0241",
@@ -1561,7 +1561,7 @@
     {
       "id": "shared-0312",
       "en": "deals <num>% more damage for",
-      "ru": "наносит на §f<num>% §7больше урона за"
+      "ru": "растёт на §f<num>% §7за"
     },
     {
       "id": "shared-0313",
@@ -1666,7 +1666,7 @@
     {
       "id": "shared-0333",
       "en": "freely on the Trade Market",
-      "ru": "§7торгуйте ими на Торговом рынке"
+      "ru": "§7торгуйте ими на Торговом Рынке"
     },
     {
       "id": "shared-0334",
@@ -2146,7 +2146,7 @@
     {
       "id": "shared-0429",
       "en": "§3✦ Unused Ability Points: §f<num>",
-      "ru": "§3✦ Очки Способностей: §f<num>"
+      "ru": "§3✦ Свободные Очки Способностей: §f<num>"
     },
     {
       "id": "shared-0430",
@@ -2161,7 +2161,7 @@
     {
       "id": "shared-0432",
       "en": "§5§lMastery Tomes",
-      "ru": "§5§lТомы Мастерства"
+      "ru": "§5§lТома Мастерства"
     },
     {
       "id": "shared-0433",
@@ -2211,7 +2211,7 @@
     {
       "id": "shared-0442",
       "en": "§6You are free to edit your",
-      "ru": "§6Можете свободно редачить дерево,"
+      "ru": "§6Можете свободно менять дерево,"
     },
     {
       "id": "shared-0443",
@@ -2366,7 +2366,7 @@
     {
       "id": "shared-0473",
       "en": "§7- Mana Regen: +<num>/5s",
-      "ru": "- §7Восстановление маны: §a+<num>/5с"
+      "ru": "- §7Восстановление Маны: §a+<num>/5с"
     },
     {
       "id": "shared-0474",
@@ -2681,12 +2681,12 @@
     {
       "id": "shared-0536",
       "en": "§7<em> §7Area of Effect: §f<num> Blocks",
-      "ru": "<em> §7Зона Поражения: §f<num> Блоков"
+      "ru": "<em> §7Зона Поражения: §f<num> Блок<pl:|а|ов>"
     },
     {
       "id": "shared-0537",
       "en": "§7<em> §7Area of Effect: §f<num> Blocks §7(Circle-Shaped)",
-      "ru": "<em> §7Зона Поражения: §f<num> Блоков §7(Круг)"
+      "ru": "<em> §7Зона Поражения: §f<num> Блок<pl:|а|ов> §7(Круг)"
     },
     {
       "id": "shared-0538",
@@ -2851,12 +2851,12 @@
     {
       "id": "shared-0570",
       "en": "§7<em> §7Range: §f<num> Blocks",
-      "ru": "<em> §7Дальность: §f<num> Блоков"
+      "ru": "<em> §7Дальность: §f<num> Блок<pl:|а|ов>"
     },
     {
       "id": "shared-0571",
       "en": "§7<em> §7Range: §f<num> Blocks §7(Circle-Shaped)",
-      "ru": "<em> §7Дальность: §f<num> Блоков §7(Круг)"
+      "ru": "<em> §7Дальность: §f<num> Блок<pl:|а|ов> §7(Круг)"
     },
     {
       "id": "shared-0572",
@@ -2876,7 +2876,7 @@
     {
       "id": "shared-0575",
       "en": "§7<em> §7Total Damage: §c<num>% §8(of your DPS)",
-      "ru": "§7<em> §7Общий Урон: §c<num>% §8(от Вашего DPS)"
+      "ru": "§7<em> §7Общий Урон: §c<num>% §8(от вашего DPS)"
     },
     {
       "id": "shared-0576",
@@ -2891,7 +2891,7 @@
     {
       "id": "shared-0578",
       "en": "§7<em> §7Total Damage: §f<num>% §8(of your DPS)",
-      "ru": "§7<em> §7Общий Урон: §f<num>%§7 §8(от Вашего DPS)"
+      "ru": "§7<em> §7Общий Урон: §f<num>%§7 §8(от вашего DPS)"
     },
     {
       "id": "shared-0579",
@@ -2906,7 +2906,7 @@
     {
       "id": "shared-0581",
       "en": "§7<em> §7Vision: §f<num> Blocks §7(Circle-Shaped)",
-      "ru": "<em> §7Обзор: §f<num> Блоков §7(Круг)"
+      "ru": "<em> §7Обзор: §f<num> Блок<pl:|а|ов> §7(Круг)"
     },
     {
       "id": "shared-0582",
@@ -2971,17 +2971,17 @@
     {
       "id": "shared-0594",
       "en": "§7Boon Potency , your",
-      "ru": "§7Силы Даров, Ваши"
+      "ru": "§7Силы Даров, ваши"
     },
     {
       "id": "shared-0595",
       "en": "§7Boon Potency, your",
-      "ru": "§7Силы Даров, Ваши"
+      "ru": "§7Силы Даров, ваши"
     },
     {
       "id": "shared-0596",
       "en": "§7Browse the Wynncraft Store",
-      "ru": "§7Посмотри Магазин Wynncraft"
+      "ru": "§7Откройте Магазин Wynncraft"
     },
     {
       "id": "shared-0597",
@@ -2996,12 +2996,12 @@
     {
       "id": "shared-0599",
       "en": "§7Cheapest Sell Offer: <num> (<num>²½ <num>²)",
-      "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>²½ <num>²)"
+      "ru": "§7Мин. цена продажи: §f<num> §8(<num>²½ <num>²)"
     },
     {
       "id": "shared-0600",
       "en": "§7Cheapest Sell Offer: <num> (<num>¼² <num>²½ <num>²)",
-      "ru": "§7Самое Дешёвое Предложение: §f<num> §8(<num>¼² <num>²½ <num>²)"
+      "ru": "§7Мин. цена продажи: §f<num> §8(<num>¼² <num>²½ <num>²)"
     },
     {
       "id": "shared-0601",
@@ -3071,7 +3071,7 @@
     {
       "id": "shared-0614",
       "en": "§7Come back every day for",
-      "ru": "§7Заходи каждый день за"
+      "ru": "§7Заходите каждый день за"
     },
     {
       "id": "shared-0615",
@@ -3226,7 +3226,7 @@
     {
       "id": "shared-0645",
       "en": "§7Highest Buy Offer: <num> (<num>¼² <num>²½ <num>²)",
-      "ru": "§7Самое Дорогое Предложение: §f<num> §8(<num>¼² <num>²½ <num>²)"
+      "ru": "§7Макс. цена покупки: §f<num> §8(<num>¼² <num>²½ <num>²)"
     },
     {
       "id": "shared-0646",
@@ -3266,7 +3266,7 @@
     {
       "id": "shared-0653",
       "en": "§7Lootrun on this camp again",
-      "ru": "§7Лутран в этом лагере снова"
+      "ru": "§7начать Лутран в этом лагере"
     },
     {
       "id": "shared-0654",
@@ -3316,7 +3316,7 @@
     {
       "id": "shared-0663",
       "en": "§7Only display items with combat",
-      "ru": "§7Показывать только боевые предметы"
+      "ru": "§7Показывать только предметы"
     },
     {
       "id": "shared-0664",
@@ -3441,7 +3441,7 @@
     {
       "id": "shared-0688",
       "en": "§7Search and filter through",
-      "ru": "§7Ищи и фильтруй среди"
+      "ru": "§7Ищите и фильтруйте"
     },
     {
       "id": "shared-0689",
@@ -3456,7 +3456,7 @@
     {
       "id": "shared-0691",
       "en": "§7Starting a Lootrun will",
-      "ru": "§7Начало Лутрана временно"
+      "ru": "§7С началом Лутрана"
     },
     {
       "id": "shared-0692",
@@ -3496,7 +3496,7 @@
     {
       "id": "shared-0699",
       "en": "§7Tomes are special rewards",
-      "ru": "§7Томы - это особые награды,"
+      "ru": "§7Тома это особые награды,"
     },
     {
       "id": "shared-0700",
@@ -3511,7 +3511,7 @@
     {
       "id": "shared-0702",
       "en": "§7Unlocked as a Raiding Admiral",
-      "ru": "§7Открывается на Ранге Raiding Admiral"
+      "ru": "§7Открывается со званием Адмирал Рейдов"
     },
     {
       "id": "shared-0703",
@@ -3626,7 +3626,7 @@
     {
       "id": "shared-0725",
       "en": "§7all available market orders",
-      "ru": "§7всех доступных предложений на рынке"
+      "ru": "§7все предложения на рынке"
     },
     {
       "id": "shared-0726",
@@ -3651,7 +3651,7 @@
     {
       "id": "shared-0730",
       "en": "§7and equip owned cosmetics",
-      "ru": "§7и надень купленные косметики"
+      "ru": "§7и наденьте купленную косметику"
     },
     {
       "id": "shared-0731",
@@ -3681,7 +3681,7 @@
     {
       "id": "shared-0736",
       "en": "§7attacks (<num>% damage reduction),",
-      "ru": "§7от атак (<num>% снижения урона),"
+      "ru": "§7от атак (<num>% снижения урона)"
     },
     {
       "id": "shared-0737",
@@ -3736,7 +3736,7 @@
     {
       "id": "shared-0747",
       "en": "§7critical hit (doubling damage),",
-      "ru": "§7критический удар (двойной урон),"
+      "ru": "§7критический удар (двойной урон)"
     },
     {
       "id": "shared-0748",
@@ -4176,7 +4176,7 @@
     {
       "id": "shared-0835",
       "en": "§7inflict, and §dreduce§7 spell costs",
-      "ru": "§7наносите, и §dснижает§7 стоимость заклинаний"
+      "ru": "§7и §dснижает§7 стоимость заклинаний"
     },
     {
       "id": "shared-0836",
@@ -4216,7 +4216,7 @@
     {
       "id": "shared-0843",
       "en": "§7minutes before starting a",
-      "ru": "§7минут перед началом"
+      "ru": "§7минут, прежде чем снова"
     },
     {
       "id": "shared-0844",
@@ -4306,7 +4306,7 @@
     {
       "id": "shared-0861",
       "en": "§7the <em> Water§7 damage you may",
-      "ru": "§7урон §b<em> водой§7, который вы"
+      "ru": "§7урон §b<em> водой§7, который вы наносите,"
     },
     {
       "id": "shared-0862",
@@ -4576,7 +4576,7 @@
     {
       "id": "shared-0915",
       "en": "§7§7Grants access to the",
-      "ru": "§7Открывает доступ к"
+      "ru": "Позволяет войти в подземелье"
     },
     {
       "id": "shared-0916",
@@ -4986,7 +4986,7 @@
     {
       "id": "shared-0997",
       "en": "§7§dincrease §7any damage you deal,",
-      "ru": "§7§dувеличивает §7наносимый вами урон,"
+      "ru": "§7§dувеличивает §7наносимый вами урон"
     },
     {
       "id": "shared-0998",
@@ -5006,7 +5006,7 @@
     {
       "id": "shared-1001",
       "en": "§7§dreduce §7any damage you take,",
-      "ru": "§7§dснижает §7получаемый вами урон,"
+      "ru": "§7§dснижает §7получаемый вами урон"
     },
     {
       "id": "shared-1002",
@@ -5066,7 +5066,7 @@
     {
       "id": "shared-1013",
       "en": "§8<em> §8Area of Effect: §7<num> Blocks §8(Circle-Shaped)",
-      "ru": "§8<em> §8Зона Поражения: §7<num> Блоков §8(Круг)"
+      "ru": "§8<em> §8Зона Поражения: §7<num> Блок<pl:|а|ов> §8(Круг)"
     },
     {
       "id": "shared-1014",
@@ -5096,12 +5096,12 @@
     {
       "id": "shared-1019",
       "en": "§8<em> §8Range: §7<num> Blocks",
-      "ru": "§8<em> §8Дальность: §7<num> Блоков"
+      "ru": "§8<em> §8Дальность: §7<num> Блок<pl:|а|ов>"
     },
     {
       "id": "shared-1020",
       "en": "§8<em> §8Total Damage: §7<num>% §8(of your DPS)",
-      "ru": "§8<em> §8Общий Урон: §7<num>% §8(от Вашего DPS)"
+      "ru": "§8<em> §8Общий Урон: §7<num>% §8(от вашего DPS)"
     },
     {
       "id": "shared-1021",
@@ -5116,7 +5116,7 @@
     {
       "id": "shared-1023",
       "en": "§8Cinfras to create a guild",
-      "ru": "§8Cinfras чтобы создать гильдию"
+      "ru": "§8Синфрасе, чтобы создать гильдию"
     },
     {
       "id": "shared-1024",
@@ -5301,7 +5301,7 @@
     {
       "id": "shared-1060",
       "en": "§a- <num>² ✮ <num>² (<num>²½ <num>²) each (taxed)",
-      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>²½ <num>²) §fза штуку (с налогом)"
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>²½ <num>²) §7за штуку §f(с налогом)"
     },
     {
       "id": "shared-1061",
@@ -5511,7 +5511,7 @@
     {
       "id": "shared-1101",
       "en": "§a✔§7 Quest: Dwarves and Doguns Part IV",
-      "ru": "§a✔§7 Квест: §fГномы и Догуны Ч. IV"
+      "ru": "§a✔§7 Квест: §fDwarves and Doguns Part IV"
     },
     {
       "id": "shared-1102",
@@ -5561,12 +5561,12 @@
     {
       "id": "shared-1111",
       "en": "§b- §7Lootrunning Elite III§8 [<num>%]",
-      "ru": "§b- §7Элита Лутраннинга III§8 [<num>%]"
+      "ru": "§b- §7Элита Лутранов III§8 [<num>%]"
     },
     {
       "id": "shared-1112",
       "en": "§b- §7Lootrunning Elite II§8 [<num>%]",
-      "ru": "§b- §7Элита Лутраннинга II§8 [<num>%]"
+      "ru": "§b- §7Элита Лутранов II§8 [<num>%]"
     },
     {
       "id": "shared-1113",
@@ -5751,7 +5751,7 @@
     {
       "id": "shared-1149",
       "en": "§cto reset your skill points",
-      "ru": "§cдля сброса очков навыков"
+      "ru": "§cчтобы сбросить очки навыков"
     },
     {
       "id": "shared-1150",
@@ -6466,7 +6466,7 @@
     {
       "id": "line-fd563d7d1b9aed04",
       "en": "§7- Life Steal: <num>s",
-      "ru": "§7§#FF55FF-§#AAAAAA Кража Здоровья: §#55FF55<num>§#55FF55с"
+      "ru": "§7§#FF55FF-§#AAAAAA Вампиризм: §#55FF55<num>§#55FF55с"
     },
     {
       "id": "line-2c1191a8f9d4b83e",
@@ -6521,7 +6521,7 @@
     {
       "id": "line-fa9ba390e0160d10",
       "en": "§7- Thunder Damage: <num>%",
-      "ru": "§7§#FF55FF-§#AAAAAA Урон Громом: §#55FF55§#55FF55<num>§#55FF55§#55FF55%"
+      "ru": "§7§#FF55FF-§#AAAAAA Урон Молнией: §#55FF55§#55FF55<num>§#55FF55§#55FF55%"
     },
     {
       "id": "line-710526d89db40dfe",
@@ -6726,7 +6726,7 @@
     {
       "id": "shared-7f5c83c08f965a93",
       "en": "or craft a Corrupted Dungeon",
-      "ru": "§7входа в §fРейды §7или создания"
+      "ru": "§7или создать §fКлюч Заражённого"
     },
     {
       "id": "line-a286d280ba13977c",
@@ -9371,7 +9371,7 @@
     {
       "id": "hub-release-45b1e86482d24e9a",
       "en": "Mana Steal",
-      "ru": "Кража маны"
+      "ru": "Кража Маны"
     },
     {
       "id": "hub-release-674c1ba1ff68036a",
@@ -9461,7 +9461,7 @@
     {
       "id": "hub-release-98c95b7c31992123",
       "en": "Mana Regen",
-      "ru": "Восстановление маны"
+      "ru": "Восстановление Маны"
     },
     {
       "id": "hub-release-e809d6b62741e4ce",
@@ -10216,12 +10216,12 @@
     {
       "id": "service-58e4c49324a328ae",
       "en": "§7§7§a✔ §7Combat Lv. Min: §f<num>",
-      "ru": "§7§7§a✔ §7Мин. Боевой Ур: §f<num>"
+      "ru": "§7§7§a✔ §7Мин. Боевой Уровень: §f<num>"
     },
     {
       "id": "service-6f20ea85676b7ae9",
       "en": "§a✔§7 Combat Lv. Min: <num>",
-      "ru": "§a✔§7 Мин. Боевой Ур: <num>"
+      "ru": "§a✔§7 Мин. Боевой Уровень: <num>"
     },
     {
       "id": "service-890b5cf3d59f5836",
@@ -10326,12 +10326,12 @@
     {
       "id": "service-3880b222b531298a",
       "en": "§7§7§c✖ §7Combat Lv. Min: §f<num>",
-      "ru": "§7§7§c✖ §7Мин. Боевой Ур: §f<num>"
+      "ru": "§7§7§c✖ §7Мин. Боевой Уровень: §f<num>"
     },
     {
       "id": "service-318b0861bfca8c5f",
       "en": "§c✖§7 Combat Lv. Min: <num>",
-      "ru": "§c✖§7 Мин. Боевой Ур: <num>"
+      "ru": "§c✖§7 Мин. Боевой Уровень: <num>"
     },
     {
       "id": "service-31838d446821d50a",
@@ -11076,12 +11076,12 @@
     {
       "id": "crafting-effects-2fadea79fc567e39",
       "en": "<em>Training, Speed and Energy",
-      "ru": "<em>§#BC8F62Выучка§#BC8F62, §#BC8F62Скорость§7 §7и§7 §#BC8F62Энергия"
+      "ru": "<em>§#BC8F62Выучку§#BC8F62, §#BC8F62Скорость§7 §7и§7 §#BC8F62Энергию"
     },
     {
       "id": "crafting-effects-7ad5bb11c34f435d",
       "en": "<em>Altitude and Boost",
-      "ru": "<em>§#BC8F62Высота Полёта§7 §7и§7 §#BC8F62Рывок"
+      "ru": "<em>§#BC8F62Высоту§7 §7и§7 §#BC8F62Рывок"
     },
     {
       "id": "crafting-effects-9cd3dd1370d198de",
@@ -11261,7 +11261,7 @@
     {
       "id": "crafting-effects-3d45cfd6083edba3",
       "en": "<em>Energy and Acceleration",
-      "ru": "<em>§#BC8F62Энергия§7 §7и§7 §#BC8F62Ускорение"
+      "ru": "<em>§#BC8F62Энергию§7 §7и§7 §#BC8F62Ускорение"
     },
     {
       "id": "crafting-effects-7a5433bfef19bb6e",
@@ -11376,7 +11376,7 @@
     {
       "id": "crafting-effects-e3a6eea53b570a89",
       "en": "<em>Speed and Altitude",
-      "ru": "<em>§#BC8F62Скорость§7 §7и§7 §#BC8F62Высота Полёта"
+      "ru": "<em>§#BC8F62Скорость§7 §7и§7 §#BC8F62Высоту"
     },
     {
       "id": "crafting-effects-bd0d9c5d4828004d",
@@ -11386,7 +11386,7 @@
     {
       "id": "crafting-effects-d37549f558dd050a",
       "en": "<em>Handling, Training and Altitude",
-      "ru": "<em>§#BC8F62Управляемость§#BC8F62, §#BC8F62Выучка§7 §7и§7 §#BC8F62Высота Полёта"
+      "ru": "<em>§#BC8F62Управляемость§#BC8F62, §#BC8F62Выучку§7 §7и§7 §#BC8F62Высоту"
     },
     {
       "id": "crafting-effects-957b4ebd7032df41",
@@ -11481,12 +11481,12 @@
     {
       "id": "raid-common-7c39b7802be0a28f",
       "en": "§7✮ Raiding Grandmaster",
-      "ru": "✮ Гроссмейстер Рейдов"
+      "ru": "✮ Грандмастер Рейдов"
     },
     {
       "id": "raid-common-b72c2a79cd7e46bf",
       "en": "✮ Raiding Grandmaster",
-      "ru": "✮ Гроссмейстер Рейдов"
+      "ru": "✮ Грандмастер Рейдов"
     },
     {
       "id": "raid-common-ff13876640712953",
@@ -11526,7 +11526,7 @@
     {
       "id": "raid-common-6fae926c1945cbd5",
       "en": "damage for the rest of the",
-      "ru": "урона до конца"
+      "ru": "к урону до конца"
     },
     {
       "id": "raid-common-85b2a82a937e882e",
@@ -11636,7 +11636,7 @@
     {
       "id": "fresh-interface-15f25d7e636f8031",
       "en": "§7<em>Extra Bonus:",
-      "ru": "<em>Дополнительный Бонус:"
+      "ru": "<em>Бонус сверху:"
     },
     {
       "id": "fresh-interface-63ad664cc207910a",
@@ -12396,7 +12396,7 @@
     {
       "id": "hub-inbox-5f77474224fedcb7",
       "en": "§7§eSilent Expanse - Can be discovered",
-      "ru": "§7§eБезмолвный Простор - Можно открыть"
+      "ru": "§7§eБезмолвная Пустошь - Можно открыть"
     },
     {
       "id": "hub-inbox-76a3fc2c3d6f728e",
@@ -12421,12 +12421,12 @@
     {
       "id": "hub-inbox-afaca21eeefc344c",
       "en": "<em>§7Distance: §eMedium§8 (<num> Blocks)",
-      "ru": "<em>§7Расстояние: §eСреднее§8 (<num> блоков)"
+      "ru": "<em>§7Расстояние: §eСреднее§8 (<num> блок<pl:|а|ов>)"
     },
     {
       "id": "hub-inbox-3a722d2dfe079e0f",
       "en": "<em>§7Distance: §aNear§8 (<num> Blocks)",
-      "ru": "<em>§7Расстояние: §aБлизко§8 (<num> блоков)"
+      "ru": "<em>§7Расстояние: §aБлизко§8 (<num> блок<pl:|а|ов>)"
     },
     {
       "id": "hub-inbox-64b4c3171c66f57a",
@@ -12481,7 +12481,7 @@
     {
       "id": "hub-inbox-762f411b860162d7",
       "en": "§7§cSilent Expanse - Cannot be discovered",
-      "ru": "§7§cБезмолвный Простор - Нельзя открыть"
+      "ru": "§7§cБезмолвная Пустошь - Нельзя открыть"
     },
     {
       "id": "hub-inbox-9b78657d1cfb5fcd",
@@ -12531,7 +12531,7 @@
     {
       "id": "hub-inbox-6305068d83a74675",
       "en": "§7- Combat Lv. Min: <num>",
-      "ru": "§7- Мин. Боевой Ур: <num>"
+      "ru": "§7- Мин. Боевой Уровень: <num>"
     },
     {
       "id": "hub-inbox-73ac895d0306f6ce",
@@ -12796,7 +12796,7 @@
     {
       "id": "hub-inbox-ac64294d9852843a",
       "en": "§7§aUnlocks Silent Expanse - Already completed",
-      "ru": "§7§aОткрывает Безмолвный Простор - Выполнено"
+      "ru": "§7§aОткрывает Безмолвная Пустошь - Выполнено"
     },
     {
       "id": "hub-inbox-957e8d1a26954a14",
@@ -12826,7 +12826,7 @@
     {
       "id": "hub-inbox-85965b399dedabc1",
       "en": "§7§aUnlocks Eltom - Already completed",
-      "ru": "§7§aОткрывает Элтом - Выполнено"
+      "ru": "§7§aОткрывает Эльтом - Выполнено"
     },
     {
       "id": "hub-questbook-shared-577181c8576185b0",
@@ -12881,12 +12881,12 @@
     {
       "id": "hub-description-shared-7fe893a27d689787",
       "en": "§7§cUnlocks Fast Travel - Cannot be started",
-      "ru": "§7§cОткрывает быстрое перемещение - Недоступно"
+      "ru": "§7§cОткрывает Быстрое Перемещение - Недоступно"
     },
     {
       "id": "hub-description-shared-47051679bab8a2dd",
       "en": "§7§eUnlocks Fast Travel - Can be started",
-      "ru": "§7§eОткрывает быстрое перемещение - Можно начать"
+      "ru": "§7§eОткрывает Быстрое Перемещение - Можно начать"
     },
     {
       "id": "hub-description-shared-498890d67457f9e8",
@@ -13381,7 +13381,7 @@
     {
       "id": "special-50917011d2ed",
       "en": "by <num>% for <num> seconds when you",
-      "ru": "на <num>% на <num> секунд при получении"
+      "ru": "на <num>% на <num> секунд<pl:у|ы|> при получении"
     },
     {
       "id": "special-96f4c5c6cc7e",
@@ -13416,12 +13416,12 @@
     {
       "id": "special-a483779cb2e3",
       "en": "Summon the Scorgi to follow",
-      "ru": "Призовите питомца Scorgi,"
+      "ru": "Призовите питомца, который будет сопровождать вас"
     },
     {
       "id": "special-3ff5835c6a77",
       "en": "you throughout your adventures",
-      "ru": "который будет сопровождать вас в приключениях"
+      "ru": "во всех приключениях."
     },
     {
       "id": "special-946c18801434",
@@ -13526,12 +13526,12 @@
     {
       "id": "special-5802d8f33a09",
       "en": "Silverbull Membership is",
-      "ru": "Подписка Silverbull"
+      "ru": "§#00A2E8Подписка Silverbull§#8FCAE3 нужна"
     },
     {
       "id": "special-073fb3177314",
       "en": "required to use this slot!",
-      "ru": "нужна для этой ячейки!"
+      "ru": "для этой ячейки!"
     },
     {
       "id": "special-f0696b55964e",
@@ -14061,7 +14061,7 @@
     {
       "id": "tail-d842c3d957f7",
       "en": "affected will have their Mana",
-      "ru": "союзников Регенерация"
+      "ru": "союзников Восстановление"
     },
     {
       "id": "tail-6b055ce7724f",
@@ -14071,7 +14071,7 @@
     {
       "id": "tail-cc82fc962da0",
       "en": "damage per stack, but caps at",
-      "ru": "урона за заряд, но предел"
+      "ru": "урона за заряд, но зарядов не больше"
     },
     {
       "id": "tail-039197449d89",
@@ -14351,7 +14351,7 @@
     {
       "id": "tail-e70563d3e054",
       "en": "§7§7§8be sure to have you wanting more.",
-      "ru": "§7§7§8заставит вас хотеть ещё."
+      "ru": "§8разожжёт ваш аппетит."
     },
     {
       "id": "tail-e464a9a30de5",
@@ -14486,12 +14486,12 @@
     {
       "id": "tail-caa2ed096b5a",
       "en": "§7Adds §b<num> kills§7 towards the",
-      "ru": "§7Добавляет §b<num> убийств§7 в счёт"
+      "ru": "§7Добавляет §b<num> убийств§7 к счёту"
     },
     {
       "id": "tail-85510513b384",
       "en": "§f§lForgery Chest§r§7 kill count.",
-      "ru": "§f§lСундука Подделки§r§7."
+      "ru": "§f§lСундука Подделки§r§7 по убийствам."
     },
     {
       "id": "tail-e41180fc6ab2",
@@ -14576,7 +14576,7 @@
     {
       "id": "tail-b338b36b6fc0",
       "en": "§7pet level <num>",
-      "ru": "§8питомец §7уровня <num>"
+      "ru": "питомец уровня <num>"
     },
     {
       "id": "tail-19a8a529c3f0",
@@ -14626,7 +14626,7 @@
     {
       "id": "tail-d8bb5f823bbe",
       "en": "and advantages for <num> days.",
-      "ru": "и преимущества на <num> дней."
+      "ru": "на <num> д<pl:ень|ня|ней>."
     },
     {
       "id": "tail-45f2ce298924",
@@ -14756,7 +14756,7 @@
     {
       "id": "tail-cccd18c55628",
       "en": "§7§8<num> seconds regenerate your health",
-      "ru": "§7§8<num> секунд восстановит здоровье"
+      "ru": "§7§8<num> секунд<pl:у|ы|> восстановит здоровье"
     },
     {
       "id": "tail-969d67dd752b",
@@ -14786,7 +14786,7 @@
     {
       "id": "tail-a5172a8bcc8c",
       "en": "chances to contain rarer cosmetics!",
-      "ru": "шанс получить более редкую косметику!"
+      "ru": "тем выше шанс на редкую косметику!"
     },
     {
       "id": "tail-072a6a535520",
@@ -14821,7 +14821,7 @@
     {
       "id": "tail-32eece70c6b6",
       "en": "§7sacrificing your rewards",
-      "ru": "§7жертвуя своими наградами"
+      "ru": "§7пожертвование наградами"
     },
     {
       "id": "tail-0405287776d9",
@@ -15121,7 +15121,7 @@
     {
       "id": "major-a618b6b16ccd",
       "en": "<em>󐀂Phoenix-Born: Health",
-      "ru": "<em>󐀂Рождённый Фениксом: §#AAAAAAРегенерация"
+      "ru": "<em>󐀂Рождённый Фениксом: §#AAAAAAВосстановление"
     },
     {
       "id": "major-bd666b58401b",
@@ -15171,7 +15171,7 @@
     {
       "id": "major-dfb66a5cc2ac",
       "en": "<em>󐀂Temblor: Bash gains <num> Area",
-      "ru": "<em>󐀂Толчок: §#AAAAAAБаш получает <num> к области"
+      "ru": "<em>󐀂Толчок: §#AAAAAAБаш получает <num> к Зоне"
     },
     {
       "id": "major-2f102b9da756",
@@ -15281,7 +15281,7 @@
     {
       "id": "major-a5deb57abc29",
       "en": "increased Area of Effect and <em>",
-      "ru": "увеличенную область действия и <em>"
+      "ru": "увеличенную Зону Поражения и <em>"
     },
     {
       "id": "major-c2004e9cf2b7",
@@ -15291,7 +15291,7 @@
     {
       "id": "major-5923f81a6fad",
       "en": "Invigorating Wave unlocked,",
-      "ru": "Бодрящая Волна,"
+      "ru": "Бодрящая Волна открыта,"
     },
     {
       "id": "major-c936eb1d0e94",
@@ -15396,7 +15396,7 @@
     {
       "id": "major-0e7970ef94f3",
       "en": "Regeneration is increased by",
-      "ru": "Здоровья увеличивается на"
+      "ru": "Здоровья растёт на"
     },
     {
       "id": "major-28d59ed6b606",
@@ -15426,7 +15426,7 @@
     {
       "id": "major-bb53801efe0a",
       "en": "of Effect and is <num>s faster.",
-      "ru": "действия и срабатывает на <num>с быстрее."
+      "ru": "Поражения и срабатывает на <num>с быстрее."
     },
     {
       "id": "major-cb7b1c65e65b",
@@ -15706,7 +15706,7 @@
     {
       "id": "reuse-a7c71d70c1ac",
       "en": "your total Health Regen.",
-      "ru": "вашей общей Восстановления Здоровья."
+      "ru": "вашего общего Восстановления Здоровья."
     },
     {
       "id": "reuse-f0ed69e935b9",
@@ -16051,7 +16051,7 @@
     {
       "id": "reuse-e86636f195f1",
       "en": "gain <num> area of effect, <em><num>%,",
-      "ru": "§7получают§7 <num> §7к области действия§7, <em><num>%,"
+      "ru": "§7получают§7 <num> §7к Зоне Поражения§7, <em><num>%,"
     },
     {
       "id": "reuse-f33a17d65817",
@@ -16166,7 +16166,7 @@
     {
       "id": "reuse-b9a80bfbe8f5",
       "en": "casts a series of <num> infernos",
-      "ru": "§7создаёт серию из§7 <num> §7вспышек пламени"
+      "ru": "§7создаёт серию из§7 <num> §7вспышек пламени,"
     },
     {
       "id": "reuse-0bc356d5fb5e",
@@ -16211,7 +16211,7 @@
     {
       "id": "reuse-cfdea2b8c51d",
       "en": "bonus from Radiance by <num>%.",
-      "ru": "бонус Radiance на <num>%."
+      "ru": "бонус Сияния на <num>%."
     },
     {
       "id": "reuse-9c391d8cb760",
@@ -17976,7 +17976,7 @@
     {
       "id": "seg-c564790794b9",
       "en": "§7<em><num>% OFF Ranks",
-      "ru": "<em>Скидка <num>% на§* Ранги"
+      "ru": "<em>-<num>% на§* Ранги"
     },
     {
       "id": "seg-3ff620a7db53",
@@ -18026,7 +18026,7 @@
     {
       "id": "seg-4542486f4a6e",
       "en": "§7<em><num>% OFF Tokens",
-      "ru": "<em>Скидка <num>% на§* Токены"
+      "ru": "<em>-<num>% на§* Токены"
     },
     {
       "id": "seg-4be58401da15",
@@ -18201,7 +18201,7 @@
     {
       "id": "seg-df828ba0d52b",
       "en": "§7§c✖ §7Price: §f<num> Banner Points",
-      "ru": "§7§c✖ §7Цена: §f<num> Очков Знамени"
+      "ru": "§7§c✖ §7Цена: §f<num> Очк<pl:о|а|ов> Знамени"
     },
     {
       "id": "seg-d4131276fcfb",
@@ -18226,7 +18226,7 @@
     {
       "id": "seg-1e50c57c2b3b",
       "en": "<em>to bolster your journey  ",
-      "ru": "<em>поможет в вашем пути  "
+      "ru": "<em>которые помогут вам в пути  "
     },
     {
       "id": "seg-5e4bfdc90ac9",
@@ -18266,7 +18266,7 @@
     {
       "id": "seg-b858bc7d84d4",
       "en": "§7<em>($<num> USD Value)",
-      "ru": "<em>(ценность $<num> USD)"
+      "ru": "<em>(на $<num> USD)"
     },
     {
       "id": "seg-2de177bf2d21",
@@ -18406,7 +18406,7 @@
     {
       "id": "seg-b59b724513f4",
       "en": "to bolster your journey  ",
-      "ru": "поможет в вашем пути  "
+      "ru": "которые помогут вам в пути  "
     },
     {
       "id": "seg-18c25a68178f",
@@ -18501,7 +18501,7 @@
     {
       "id": "seg-4bc4267e6be3",
       "en": "§7§f<num>§7 <em> §7Area of Effect.",
-      "ru": "§f<num>§7 <em>§* §7к области действия."
+      "ru": "§f<num>§7 <em>§* §7к Зоне Поражения."
     },
     {
       "id": "seg-337d5db934e6",
@@ -18746,7 +18746,7 @@
     {
       "id": "reuse-4d6dba6d9c6c",
       "en": "UndergrowthÀÀÀRuins Dungeon",
-      "ru": "§fЗаросшим Руинам"
+      "ru": "§fUndergrowthÀÀÀRuins"
     },
     {
       "id": "reuse-147bfdf81462",
@@ -18781,7 +18781,7 @@
     {
       "id": "reuse-0bf85d7e8c77",
       "en": "§7Galleon'sÀÀÀGraveyard Dungeon",
-      "ru": "§fКладбищу галеонов"
+      "ru": "§fGalleon'sÀÀÀGraveyard"
     },
     {
       "id": "reuse-8bbd96042603",
@@ -18801,7 +18801,7 @@
     {
       "id": "reuse-6877cec69091",
       "en": "§a- <num>x Emerald Pouch [Tier <num>]",
-      "ru": "- §7<num>§7x Сумка изумрудов [Уровень §2<num>§7]"
+      "ru": "§7- <num>x §aСумка Изумрудов §2[Уровень <num>]"
     },
     {
       "id": "reuse-5c5e9a20aa9f",
@@ -18866,7 +18866,7 @@
     {
       "id": "reuse-412efd86d961",
       "en": "§7UnderworldÀÀÀCrypt Dungeon",
-      "ru": "§7§#FFFFFFСклепу Подземного Мира"
+      "ru": "§7§#FFFFFFUnderworldÀÀÀCrypt"
     },
     {
       "id": "reuse-07e5f12073c9",
@@ -18881,7 +18881,7 @@
     {
       "id": "reuse-a734ce875020",
       "en": "Emerald Pouch [Tier <num>]",
-      "ru": "Сумка Изумрудов [Уровень §2<num>§7]"
+      "ru": "Сумка Изумрудов §2[Уровень <num>]"
     },
     {
       "id": "reuse-8ffa5a9ee344",
@@ -18896,7 +18896,7 @@
     {
       "id": "reuse-3796732532cf",
       "en": "§7CorruptedÀÀÀUndergrowthÀÀÀRuin",
-      "ru": "§fЗаражённым Заросшим Руинам"
+      "ru": "§fCorruptedÀÀÀUndergrowthÀÀÀRuin"
     },
     {
       "id": "reuse-e2955b9f301f",
@@ -18996,7 +18996,7 @@
     {
       "id": "reuse-3599b3c8290c",
       "en": "<em>󐀁<em>󏿾 Jeweling󐀅 <em>󏿾 Scribing󐀄",
-      "ru": "<em>󐀁<em>󏿾 §7Ювелирного Дела§7󐀅 <em>󏿾 §7Писарства§7󐀄"
+      "ru": "<em>󐀁<em>󏿾 §7Ювелирное Дело§7󐀅 <em>󏿾 §7Писарство§7󐀄"
     },
     {
       "id": "reuse-0c61e43bad4e",
@@ -19111,7 +19111,7 @@
     {
       "id": "reuse-542d7cac161b",
       "en": "§7CorruptedÀÀÀInfestedÀÀÀPit",
-      "ru": "§7§#FFFFFFЗаражённой Паучьей Яме"
+      "ru": "§7§#FFFFFFCorruptedÀÀÀInfestedÀÀÀPit"
     },
     {
       "id": "reuse-58467e1798bc",
@@ -19146,7 +19146,7 @@
     {
       "id": "reuse-8eaa03e27354",
       "en": "<em>󐀁<em>󏿿 Armouring󐀄 <em>󏿾 Cooking󐀋",
-      "ru": "<em>󐀁<em>󏿿 §7Бронного Дела§7󐀄 <em>󏿾 §7Кулинарии§7󐀋"
+      "ru": "<em>󐀁<em>󏿿 §7Бронное Дело§7󐀄 <em>󏿾 §7Кулинария§7󐀋"
     },
     {
       "id": "reuse-b873ce903ee6",
@@ -19181,7 +19181,7 @@
     {
       "id": "reuse-1a1f1938ce96",
       "en": "<em><em>󏿾 Scribing󐀋 󐀁<em>󏿾 Jeweling󐀄",
-      "ru": "<em><em>󏿾 §7Писарства§7󐀋 󐀁<em>󏿾 §7Ювелирного Дела§7󐀄"
+      "ru": "<em><em>󏿾 §7Писарство§7󐀋 󐀁<em>󏿾 §7Ювелирное Дело§7󐀄"
     },
     {
       "id": "reuse-d50196ce371b",
@@ -19226,7 +19226,7 @@
     {
       "id": "reuse-a64a3ad09fbd",
       "en": "§7CorruptedÀÀÀDecrepitÀÀÀSewers",
-      "ru": "§7§#FFFFFFЗаражённым Ветхим Канализациям"
+      "ru": "§7§#FFFFFFCorruptedÀÀÀDecrepitÀÀÀSewers"
     },
     {
       "id": "reuse-63eac0eef2df",
@@ -19386,7 +19386,7 @@
     {
       "id": "reuse-ced79871cf8b",
       "en": "§7CorruptedÀÀÀGalleon'sÀÀÀGravey",
-      "ru": "§fзаражённому Кладбищу галеонов"
+      "ru": "§fCorruptedÀÀÀGalleon'sÀÀÀGravey"
     },
     {
       "id": "reuse-90a3f8c43c82",
@@ -19396,7 +19396,7 @@
     {
       "id": "reuse-af7ebea702d8",
       "en": "§7CorruptedÀÀÀLostÀÀÀSanctuary",
-      "ru": "§7§#FFFFFFЗаражённому Затерянному Святилищу"
+      "ru": "§7§#FFFFFFCorruptedÀÀÀLostÀÀÀSanctuary"
     },
     {
       "id": "reuse-a98b3270c21c",
@@ -19506,7 +19506,7 @@
     {
       "id": "reuse-ded4f620ff77",
       "en": "§7CorruptedÀÀÀUnderworldÀÀÀCrypt",
-      "ru": "§7§#FFFFFFЗаражённому Склепу Подземного Мира"
+      "ru": "§7§#FFFFFFCorruptedÀÀÀUnderworldÀÀÀCrypt"
     },
     {
       "id": "reuse-8801dc47dd4c",
@@ -19516,7 +19516,7 @@
     {
       "id": "reuse-06d9df10ff5e",
       "en": "§7§aStoryline - Currently in progress",
-      "ru": "§7§aСюжетный Квест - В процессе"
+      "ru": "§7§aСюжетная цепочка - В процессе"
     },
     {
       "id": "reuse-fd74a6a5500a",
@@ -19526,7 +19526,7 @@
     {
       "id": "reuse-bedb9a1dd7db",
       "en": "<em><em> Tailoring󐀄 <em>󏿾 Cooking󐀆",
-      "ru": "<em><em> §7Портняжного Дела§7󐀄 <em>󏿾 §7Кулинарии§7󐀆"
+      "ru": "<em><em> §7Портняжное Дело§7󐀄 <em>󏿾 §7Кулинария§7󐀆"
     },
     {
       "id": "reuse-37904f2443c0",
@@ -19701,7 +19701,7 @@
     {
       "id": "reuse-02a002931b6a",
       "en": "rewards, and contain no commons.",
-      "ru": "уровня, а Обычных наград нет."
+      "ru": "уровня, а обычных наград нет."
     },
     {
       "id": "reuse-429ad084352b",
@@ -19856,7 +19856,7 @@
     {
       "id": "seg-6b2bfc4eb051",
       "en": "Brew effect",
-      "ru": "Brew эффект"
+      "ru": "эффект Brew"
     },
     {
       "id": "seg-8406facb3ee8",
@@ -19886,7 +19886,7 @@
     {
       "id": "seg-7ea17b1c800a",
       "en": "Zealot's Wings effect",
-      "ru": "Zealot's Wings эффект"
+      "ru": "эффект Zealot's Wings"
     },
     {
       "id": "seg-aef0aa37fe00",
@@ -19901,7 +19901,7 @@
     {
       "id": "seg-9a0d6b9f11e2",
       "en": "Bovemist effect",
-      "ru": "Bovemist эффект"
+      "ru": "эффект Bovemist"
     },
     {
       "id": "seg-3660f068efe0",
@@ -19926,7 +19926,7 @@
     {
       "id": "seg-8b058df2cf4c",
       "en": "Hole effect",
-      "ru": "Hole эффект"
+      "ru": "эффект Hole"
     },
     {
       "id": "seg-708f0d396603",
@@ -19986,7 +19986,7 @@
     {
       "id": "seg-2ab3453a4613",
       "en": "Pulse effect",
-      "ru": "Pulse эффект"
+      "ru": "эффект Pulse"
     },
     {
       "id": "seg-c50549655ebd",
@@ -20016,7 +20016,7 @@
     {
       "id": "seg-eeb013fcd313",
       "en": "Lotus effect",
-      "ru": "Lotus эффект"
+      "ru": "эффект Lotus"
     },
     {
       "id": "seg-8b2a49e993af",
@@ -20026,12 +20026,12 @@
     {
       "id": "seg-8bb8792fd8f9",
       "en": "Diamonds effect",
-      "ru": "Diamonds эффект"
+      "ru": "эффект Diamonds"
     },
     {
       "id": "seg-156537162d10",
       "en": "Web effect",
-      "ru": "Web эффект"
+      "ru": "эффект Web"
     },
     {
       "id": "seg-f86a623ae904",
@@ -20041,7 +20041,7 @@
     {
       "id": "seg-9d6232320603",
       "en": "Spinning Arcs effect",
-      "ru": "Spinning Arcs эффект"
+      "ru": "эффект Spinning Arcs"
     },
     {
       "id": "seg-eb3aee0fc252",
@@ -20051,12 +20051,12 @@
     {
       "id": "seg-545e434de580",
       "en": "Tail effect",
-      "ru": "Tail эффект"
+      "ru": "эффект Tail"
     },
     {
       "id": "seg-dc01cb2ce3ea",
       "en": "Field effect",
-      "ru": "Field эффект"
+      "ru": "эффект Field"
     },
     {
       "id": "seg-4dde4437f961",
@@ -20106,7 +20106,7 @@
     {
       "id": "seg-2b150747c87e",
       "en": "Floating Swords effect",
-      "ru": "Floating Swords эффект"
+      "ru": "эффект Floating Swords"
     },
     {
       "id": "seg-58c4bd4fd557",
@@ -20116,7 +20116,7 @@
     {
       "id": "seg-19c37f6ce2bd",
       "en": "Colossus Shards effect",
-      "ru": "Colossus Shards эффект"
+      "ru": "эффект Colossus Shards"
     },
     {
       "id": "seg-95f4d4271c7a",
@@ -20126,32 +20126,32 @@
     {
       "id": "seg-358c28face42",
       "en": "Orphion's Pulse effect",
-      "ru": "Orphion's Pulse эффект"
+      "ru": "эффект Orphion's Pulse"
     },
     {
       "id": "seg-8ffee7ffac71",
       "en": "Spectrum effect",
-      "ru": "Spectrum эффект"
+      "ru": "эффект Spectrum"
     },
     {
       "id": "seg-d8a6f5c919df",
       "en": "Seasons effect",
-      "ru": "Seasons эффект"
+      "ru": "эффект Seasons"
     },
     {
       "id": "seg-c1ac7ccb5e5a",
       "en": "Floating Fairy effect",
-      "ru": "Floating Fairy эффект"
+      "ru": "эффект Floating Fairy"
     },
     {
       "id": "seg-cbb9f8bfe061",
       "en": "Snowflake effect",
-      "ru": "Snowflake эффект"
+      "ru": "эффект Snowflake"
     },
     {
       "id": "seg-a9e0beb4688b",
       "en": "Figure effect",
-      "ru": "Figure эффект"
+      "ru": "эффект Figure"
     },
     {
       "id": "seg-975d3a8f8b8e",
@@ -20181,12 +20181,12 @@
     {
       "id": "seg-9061d4836050",
       "en": "§7§7- <num> Rows §8(<num>¼² Total)",
-      "ru": "§7§7- <num> Рядов §8(всего <num>¼²)"
+      "ru": "§7§7- <num> Ряд<pl:|а|ов> §8(всего <num>¼²)"
     },
     {
       "id": "seg-c6c17ce82a34",
       "en": "§7- <num> Rows §8(<num>²½ Total)",
-      "ru": "§7- <num> Рядов §8(всего <num>²½)"
+      "ru": "§7- <num> Ряд<pl:|а|ов> §8(всего <num>²½)"
     },
     {
       "id": "seg-7be4f7198d63",
@@ -20241,7 +20241,7 @@
     {
       "id": "seg-eaf28f4b836d",
       "en": "§7- <num> Rows §8(<num>¼² Total)",
-      "ru": "§7- <num> Рядов §8(всего <num>¼²)"
+      "ru": "§7- <num> Ряд<pl:|а|ов> §8(всего <num>¼²)"
     },
     {
       "id": "seg-5aedb0f62fc4",
@@ -20291,7 +20291,7 @@
     {
       "id": "seg-765ce8e0b096",
       "en": "§7§7- <num> Rows §8(<num>²½ Total)",
-      "ru": "§7§7- <num> Рядов §8(всего <num>²½)"
+      "ru": "§7§7- <num> Ряд<pl:|а|ов> §8(всего <num>²½)"
     },
     {
       "id": "seg-c88ef6bd062e",
@@ -20312,6 +20312,211 @@
       "id": "cave-0a5eeed59488",
       "en": "§7§f[<num>,<num>]§7. It is run by",
       "ru": "§7§f[<num>,<num>]§7. Охраны мало:"
+    },
+    {
+      "id": "shared-b3c831106ea6",
+      "en": "<em>Bracelets & 󐀁<em>󏿾 Necklaces",
+      "ru": "<em>браслеты и 󐀁<em>󏿾 ожерелья"
+    },
+    {
+      "id": "shared-df05bb6ca59a",
+      "en": "§a- <num>² ✮ <num>² (<num>stx) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>stx) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-dac3ab4499fd",
+      "en": "§a- <num>² ✮ <num>² (<num>¼²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>¼²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-b7fc4ca25369",
+      "en": "§a- <num>² ✮ <num>² (<num>stx <num>¼²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>stx <num>¼²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-8927bac3897d",
+      "en": "§a- <num>² ✮ <num>² (<num>²½) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>²½) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-39328cbcfcf5",
+      "en": "§a- <num>² ✮ <num>² (<num>stx <num>²½) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>stx <num>²½) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-bed8b0c7c2f8",
+      "en": "§a- <num>² ✮ <num>² (<num>¼² <num>²½) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>¼² <num>²½) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-fb94e4a0e1f9",
+      "en": "§a- <num>² ✮ <num>² (<num>stx <num>¼² <num>²½) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>stx <num>¼² <num>²½) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-7c927a1e5dab",
+      "en": "§a- <num>² ✮ <num>² (<num>²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-122a48ef0b98",
+      "en": "§a- <num>² ✮ <num>² (<num>stx <num>²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>stx <num>²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-f7bab516a820",
+      "en": "§a- <num>² ✮ <num>² (<num>¼² <num>²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>¼² <num>²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-a3c0f8a03b85",
+      "en": "§a- <num>² ✮ <num>² (<num>stx <num>¼² <num>²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>stx <num>¼² <num>²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-095603ce05da",
+      "en": "§a- <num>² ✮ <num>² (<num>stx <num>²½ <num>²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>stx <num>²½ <num>²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-a83255aaf84f",
+      "en": "§a- <num>² ✮ <num>² (<num>¼² <num>²½ <num>²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>¼² <num>²½ <num>²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-cde6004be2a3",
+      "en": "§a- <num>² ✮ <num>² (<num>stx <num>¼² <num>²½ <num>²) each (taxed)",
+      "ru": "§a- §f<num>§7² §b✮ <num>§3² §8(<num>stx <num>¼² <num>²½ <num>²) §7за штуку §f(с налогом)"
+    },
+    {
+      "id": "shared-cf6d11cf21b2",
+      "en": "§7             §8(Changes with Attack Speed)",
+      "ru": "§7             §8(Зависит от Скорости Атаки)"
+    },
+    {
+      "id": "shared-8d3d86a4546e",
+      "en": "§e- §7Location Req: Corrupted Dungeon",
+      "ru": "§e- §7Место: Заражённое Подземелье"
+    },
+    {
+      "id": "shared-54a8c926da67",
+      "en": "HERO+ Rank or higher is",
+      "ru": "§#D4448CРанг HERO+§#CF76A2 или выше нужен"
+    },
+    {
+      "id": "shared-f0683bcdc5f0",
+      "en": "CHAMPION Rank or higher is",
+      "ru": "§#E8C00CРанг CHAMPION§#E3CC66 или выше нужен"
+    },
+    {
+      "id": "shared-48db392fb6d8",
+      "en": "VIP+ Rank or higher is",
+      "ru": "§#4C8DFCРанг VIP+§#84ACF0 или выше нужен"
+    },
+    {
+      "id": "shared-dd6416ca6896",
+      "en": "§7✮ Raiding Admiral",
+      "ru": "✮ Адмирал Рейдов"
+    },
+    {
+      "id": "shared-680e7751e491",
+      "en": "§7✮ Raiding Sentinel I",
+      "ru": "✮ Страж Рейдов I"
+    },
+    {
+      "id": "shared-d3f266b28221",
+      "en": "§7✮ Raiding Sentinel II",
+      "ru": "✮ Страж Рейдов II"
+    },
+    {
+      "id": "shared-be2b65034ff9",
+      "en": "§7✮ Raiding Sentinel III",
+      "ru": "✮ Страж Рейдов III"
+    },
+    {
+      "id": "shared-f8e0eefd599d",
+      "en": "§7<em><num>% OFF Bombs",
+      "ru": "<em>-<num>% на§* Бомбы"
+    },
+    {
+      "id": "shared-b653926bfb27",
+      "en": "§7- All Bomb Packages",
+      "ru": "- Все наборы бомб"
+    },
+    {
+      "id": "shared-4f4ccbce649f",
+      "en": "§7          ÀÀ  §f<num>% §7Resistance Bonus (§a❁§7) to Allies",
+      "ru": "§7          ÀÀ  §f<num>% §7Бонус к Сопротивлению (§a❁§7) на союзников"
+    },
+    {
+      "id": "shared-24c35580c225",
+      "en": "§7          ÀÀ  §f<num>% §7ID Effectiveness (§6❈§7) to Allies",
+      "ru": "§7          ÀÀ  §f<num>% §7Эффективность ID (§6❈§7) на союзников"
+    },
+    {
+      "id": "shared-3c2b408227dd",
+      "en": "<em><num> seconds of not dealing",
+      "ru": "<em>если в течение <num> с не наносите"
+    },
+    {
+      "id": "shared-216bcf05c9ef",
+      "en": "<em>drain by <num>% per second after",
+      "ru": "<em><num>% текущего здоровья в секунду,"
+    },
+    {
+      "id": "shared-8b4377b6fbaf",
+      "en": "<em>make your attacks <num>% weaker",
+      "ru": "<em>ваши атаки становятся на <num>% слабее."
+    },
+    {
+      "id": "shared-466d7c4a818e",
+      "en": "<em><num>d <num>h <num>s left to claim",
+      "ru": "<em>Осталось: <num>д <num>ч <num>с"
+    },
+    {
+      "id": "shared-4bd341bb5461",
+      "en": "<em><num>d <num>h <num>m left to claim",
+      "ru": "<em>Осталось: <num>д <num>ч <num>мин."
+    },
+    {
+      "id": "shared-d3ce1b556a9c",
+      "en": "<em><num>d <num>h left to claim",
+      "ru": "<em>Осталось: <num>д <num>ч"
+    },
+    {
+      "id": "shared-c6b44066f080",
+      "en": "<em><num>h <num>m <num>s left to claim",
+      "ru": "<em>Осталось: <num>ч <num>мин. <num>с"
+    },
+    {
+      "id": "shared-26aac5eed94c",
+      "en": "<em><num>h <num>m left to claim",
+      "ru": "<em>Осталось: <num>ч <num>мин."
+    },
+    {
+      "id": "shared-ff99a690e5e0",
+      "en": "<em><num>m <num>s left to claim",
+      "ru": "<em>Осталось: <num>мин. <num>с"
+    },
+    {
+      "id": "shared-f0bafe723cb9",
+      "en": "<em><num>s left to claim",
+      "ru": "<em>Осталось: <num>с"
+    },
+    {
+      "id": "shared-2c5be25fc809",
+      "en": "§7<em>Get <num> Regular Crates FREE",
+      "ru": "§7<em>§#998D93<num> Обычн<pl:ый|ых|ых> Ящик<pl:|а|ов>§#F2ACCE§l БЕСПЛАТНО"
+    },
+    {
+      "id": "shared-678a83867155",
+      "en": "§7<em>Get <num> Crates + <num> XP Tokens FREE",
+      "ru": "§7<em>§#998D93<num> Ящик<pl:|а|ов> + <num> Токен<pl:|а|ов> Опыта§#F2ACCE§l БЕСПЛАТНО"
+    },
+    {
+      "id": "shared-671df8d3ab8e",
+      "en": "§7<em><num> XP Tokens FREE",
+      "ru": "§7<em>§#998D93<num> Токен<pl:|а|ов> Опыта§#F2ACCE§l БЕСПЛАТНО"
     }
   ]
 }

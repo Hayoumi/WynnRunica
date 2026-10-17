@@ -86,7 +86,7 @@ public class TranslationManager {
     private static final Pattern NUMBER_OR_TOKEN = Pattern.compile("<num>|[+\\-]?\\d+(?:[.,/]\\d+)*");
     private static final Pattern DASH_BEFORE_NUMBER = Pattern.compile("-(?:§(?:#[0-9a-fA-F]{6}|.))*$");
     private static final Pattern TRAILING_COLORS =Pattern.compile("§(?:#[0-9a-fA-F]{6}|[0-9a-fA-FklmnorKLMNOR])+");
-    private static final Pattern UNIT_WORDS = Pattern.compile("(?iU)\\b(?:to|s|tier|hits/s|hits|уд\\.?/с|уд|ур|с)\\b");
+    private static final Pattern UNIT_WORDS = Pattern.compile("(?iU)(?<!\\p{L})(?:to|s|tier|hits/s|hits|уд\\.?/с|уд|ур|с)(?!\\p{L})");
 
     public static int reload() {
         NpcNameResolver.clearCache();
@@ -331,9 +331,13 @@ public class TranslationManager {
     }
 
     private static GuiScope findUniqueScope(String title) {
-        List<GuiScope> candidates = scopesFor(title);
-        if (candidates.size() == 1) return candidates.getFirst();
-        return null;
+        GuiScope named = null;
+        for (GuiScope candidate : scopesFor(title)) {
+            if (candidate.nameRu == null || candidate.nameRu.isBlank()) continue;
+            if (named != null) return null;
+            named = candidate;
+        }
+        return named;
     }
 
     public static GuiScope findScopeByTitle(String title, Iterable<String> loreLines, String screen, String itemId) {
@@ -343,13 +347,16 @@ public class TranslationManager {
         if (candidates.size() == 1) return candidates.getFirst();
 
         GuiScope best = candidates.getFirst();
-        int bestScore = -1;
+        int bestMatch = -1;
+        int bestContext = Integer.MIN_VALUE;
         for (GuiScope candidate : candidates) {
             if (!candidate.matchesContext(screen, itemId)) continue;
-            int score = candidate.matchScore(loreLines) + candidate.contextScore(screen, itemId);
-            if (score > bestScore) {
+            int match = candidate.translatedCount(loreLines);
+            int context = candidate.matchScore(loreLines) + candidate.contextScore(screen, itemId);
+            if (match > bestMatch || (match == bestMatch && context > bestContext)) {
                 best = candidate;
-                bestScore = score;
+                bestMatch = match;
+                bestContext = context;
             }
         }
         return best;
@@ -526,13 +533,17 @@ public class TranslationManager {
     public static GuiLabelMatch findGuiLabelTranslation(String text, String fullTranslation) {
         String source = structuralPixelLabel(text);
         String translated = structuralPixelLabel(fullTranslation);
+        String range = text != null && pixelPlainText(text).contains(" to ")
+                && (fullTranslation == null || pixelPlainText(fullTranslation).contains(" to ")) ? "to" : null;
+        String rangeTranslation = range == null ? null : "до";
         if (source != null && translated != null && !source.equals(translated)) {
+            if (range != null) return new GuiLabelMatch(source, translated, range, rangeTranslation);
             String unit = structuralPixelUnit(text);
             String unitTranslation = structuralPixelUnit(fullTranslation);
             if (unit != null && unitTranslation != null && !unit.equals(unitTranslation)) {
                 return new GuiLabelMatch(source, translated, unit, unitTranslation);
             }
-            return new GuiLabelMatch(source, translated, null, null);
+            return new GuiLabelMatch(source, translated, range, rangeTranslation);
         }
         String[] known = statNames.get(source);
         if (known == null) return null;
@@ -548,7 +559,7 @@ public class TranslationManager {
             String[] forms = {token.group(1), token.group(2), token.group(3)};
             token.appendReplacement(out, Matcher.quoteReplacement(pluralForm(value, forms)));
         }
-        return new GuiLabelMatch(source, token.appendTail(out).toString(), null, null);
+        return new GuiLabelMatch(source, token.appendTail(out).toString(), range, rangeTranslation);
     }
 
     private static String pixelPlainText(String value) {

@@ -144,6 +144,15 @@ public class GuiScope {
         return result;
     }
 
+    public int translatedCount(Iterable<String> texts) {
+        if (texts == null) return 0;
+        int count = 0;
+        for (String text : texts) {
+            if (findTranslation(text) != null) count++;
+        }
+        return count;
+    }
+
     public int matchScore(Iterable<String> texts) {
         if (texts == null) return 0;
         int score = 0;

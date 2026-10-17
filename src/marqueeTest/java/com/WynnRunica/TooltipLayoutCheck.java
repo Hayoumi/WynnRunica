@@ -165,6 +165,13 @@ public final class TooltipLayoutCheck {
                     n.indent(), n.firstVisible(), n.lastVisibleEnd(), n.width(), o.text(), n.text()));
             System.out.println("      цвета было:  " + colors(before.get(i)));
             System.out.println("      цвета стало: " + colors(after.get(i)));
+            if (cells(o).size() >= 2 || cells(n).size() >= 2) {
+                StringBuilder spans = new StringBuilder("      ячейки:      ");
+                for (int[] cell : cells(o)) spans.append(cell[0]).append('-').append(cell[0] + cell[1]).append(' ');
+                spans.append("-> ");
+                for (int[] cell : cells(n)) spans.append(cell[0]).append('-').append(cell[0] + cell[1]).append(' ');
+                System.out.println(spans);
+            }
             var ex = TextEmojiUtils.extractTooltip(before.get(i));
             String first = TranslationManager.getGuiTranslation(ex.key, null);
             if (!first.equals(ex.key)) System.out.println("      шаг 1:       " + colors(TooltipNumberColors.preserve(before.get(i),
@@ -320,7 +327,10 @@ public final class TooltipLayoutCheck {
                         if (Math.abs(mine.get(a)[0] + mine.get(a)[1] - theirs.get(b)[0] - theirs.get(b)[1]) > 10) continue;
                         axes++;
                         int drift = Math.abs(mineNow.get(a)[0] + mineNow.get(a)[1] - theirsNow.get(b)[0] - theirsNow.get(b)[1]);
-                        if (drift > 12 && o.indent() > 0 && Math.abs(o.indent() - (oldWidth - o.lastVisibleEnd())) <= 8) {
+                        Line otherNow = now.get(other);
+                        boolean bothCentered = Math.abs(n.firstVisible() - (newWidth - n.lastVisibleEnd())) <= 2
+                                && Math.abs(otherNow.firstVisible() - (newWidth - otherNow.lastVisibleEnd())) <= 2;
+                        if (drift > 12 && !bothCentered && o.indent() > 0 && Math.abs(o.indent() - (oldWidth - o.lastVisibleEnd())) <= 8) {
                             add(problems, "колонки по центру: ячейка ушла со своей оси", where + " | расхождение " + drift / 2 + " px");
                         }
                     }
@@ -361,7 +371,10 @@ public final class TooltipLayoutCheck {
             if (i + 1 < Math.min(was.size(), now.size())) {
                 Line nextOld = was.get(i + 1);
                 Line nextNew = now.get(i + 1);
-                if (o.indent() > 0 && nextOld.firstVisible() == o.firstVisible()
+                boolean bothCentered = Math.abs(n.firstVisible() - (newWidth - n.lastVisibleEnd())) <= 2
+                        && Math.abs(nextNew.firstVisible() - (newWidth - nextNew.lastVisibleEnd())) <= 2
+                        && Math.abs(nextOld.firstVisible() - (oldWidth - nextOld.lastVisibleEnd())) <= 3;
+                if (o.indent() > 0 && !bothCentered && nextOld.firstVisible() == o.firstVisible()
                         && nextOld.lastVisibleEnd() != o.lastVisibleEnd()
                         && nextNew.firstVisible() >= 0 && nextNew.firstVisible() != n.firstVisible()) {
                     add(problems, "список с общим левым краем развалился",
@@ -370,9 +383,11 @@ public final class TooltipLayoutCheck {
             }
 
             boolean column = o.indent() == 0 && o.lastVisibleEnd() == oldColumns && biggestGap(o) >= 8;
-            boolean centered = (o.indent() >= 8 || i == 0 && o.indent() >= 3) && Math.abs(o.indent() - (oldWidth - o.lastVisibleEnd())) <= 2
-                    || o.indent() >= 3 && Math.abs(o.indent() - (oldWidth - o.lastVisibleEnd())) <= 1;
-            boolean right = o.indent() >= 8 && o.lastVisibleEnd() == oldWidth && !centered;
+            boolean listed = i > 0 && was.get(i - 1).firstVisible() == o.firstVisible()
+                    || i + 1 < was.size() && was.get(i + 1).firstVisible() == o.firstVisible();
+            boolean centered = !listed && ((o.indent() >= 8 || i == 0 && o.indent() >= 3) && Math.min(Math.abs(o.indent() - (oldWidth - o.lastVisibleEnd())), Math.abs(o.firstVisible() - (oldWidth - o.lastVisibleEnd()))) <= 2
+                    || o.indent() >= 3 && Math.abs(o.indent() - (oldWidth - o.lastVisibleEnd())) <= 1);
+            boolean right = o.indent() >= 8 && o.lastVisibleEnd() == oldWidth && !centered && !listed;
             int paragraph = paragraphWidth(was, i, bodyStart);
             boolean inParagraph = paragraph > 0;
 
@@ -405,6 +420,8 @@ public final class TooltipLayoutCheck {
                     add(problems, "строка справа: не прижата к правому краю", where + " | конец " + n.lastVisibleEnd() + ", ширина " + newWidth);
                 }
             } else if (sameText && Math.abs(n.firstVisible() - o.firstVisible() - (newWidth - oldWidth) / 2) <= 1) {
+            } else if (o.firstVisible() <= 3 && oldWidth - o.lastVisibleEnd() <= 3
+                    && Math.abs(n.firstVisible() - (newWidth - n.lastVisibleEnd())) <= 2) {
             } else if (n.firstVisible() != o.firstVisible()) {
                 add(problems, "обычная строка: левый край сдвинулся", where + " | " + o.firstVisible() + " -> " + n.firstVisible());
             }

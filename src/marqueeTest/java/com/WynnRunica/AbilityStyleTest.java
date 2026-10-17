@@ -53,5 +53,12 @@ public final class AbilityStyleTest {
         expect(TranslationManager.getGuiTranslation("You have reached the Paladin Archetype")
                         .equals("You have reached the Paladin Archetype"),
                 "08.10: a sentence that ends with an archetype name is not an archetype label");
+
+        List<String> ripple = List.of("§7§7Falling §f5§7 blocks or more deals", "§7§7damage around you when you land.");
+        GuiScope scope = TranslationManager.findScopeByTitle("Ripple", ripple, "", "");
+        expect(TranslationLoader.hasCyrillic(TranslationManager.getGuiTranslation(ripple.getFirst(), scope)),
+                "16.10: a same-titled cosmetic with a high hub priority does not hide the ability node");
+        expect(TranslationLoader.hasCyrillic(TranslationManager.getGuiTranslation("§7§a✔ §7Required Ability: §fSurprise Strike")),
+                "16.10: a required ability is named even when an event item shares its title");
     }
 }

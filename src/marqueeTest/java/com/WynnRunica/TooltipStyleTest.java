@@ -95,7 +95,7 @@ public final class TooltipStyleTest {
                 {"§a- 896² (14²½) each", "§a- §f896§7² §8(14²½) §fза штуку"},
                 {"§a- 940² (14²½ 44²) total", "§a- §f940§7² §8(14²½ 44²) §fвсего"},
                 {"§a- 13,252² ✮ 12,999² (3¼² 11²½ 7²) each", "§a- §f13,252§7² §b✮ 12,999§3² §8(3¼² 11²½ 7²) §7за штуку"},
-                {"§a- 542² ✮ 532² (8²½ 20²) each (taxed)", "§a- §f542§7² §b✮ 532§3² §8(8²½ 20²) §fза штуку (с налогом)"},
+                {"§a- 542² ✮ 532² (8²½ 20²) each (taxed)", "§a- §f542§7² §b✮ 532§3² §8(8²½ 20²) §7за штуку §f(с налогом)"},
                 {"§a- 56,368² ✮ 55,328² (13¼² 32²½ 32²) total", "§a- §f56,368§7² §b✮ 55,328§3² §8(13¼² 32²½ 32²) §fвсего"},
                 {"§a- 7² (7²) total (taxed)", "§a- §f7§7² §8(7²) §fвсего (с налогом)"},
                 {"󏿼<em>󐀆 367² ✮ 360² (5²½ 40²) each",
@@ -173,9 +173,9 @@ public final class TooltipStyleTest {
         expect(answer == null, "10.10: NPC line must not be used as a choice -> " + answer);
 
         String[][] runeLines = {
-                {"Use this item to enter Raids", "§7Используйте этот предмет для"},
-                {"or craft a Corrupted Dungeon", "§7входа в §fРейды §7или создания"},
-                {"Key", "§fКлюча Заражённого Подземелья"},
+                {"Use this item to enter Raids", "§7Используйте, чтобы войти в §fРейды"},
+                {"or craft a Corrupted Dungeon", "§7или создать §fКлюч Заражённого"},
+                {"Key", "§fПодземелья"},
         };
         for (String rune : new String[]{"Uth", "Nii", "Az", "Tol", "Ek"}) {
             var runeScope = TranslationManager.findScopeByTitle("<em>" + rune + " Rune<em>",
