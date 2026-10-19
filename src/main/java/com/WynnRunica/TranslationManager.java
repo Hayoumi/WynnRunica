@@ -75,6 +75,8 @@ public class TranslationManager {
 
     private static final Pattern REQUIRED_ABILITY = Pattern.compile(
             "^(.*Required Ability:\\s*" + COLOR_CODE + "?)\\s*(.+)$");
+    private static final Pattern QUEST_REQUIREMENT = Pattern.compile("^(.*[✔✖].*?)Quest:(.+)$");
+    private static final String IN_PROGRESS = " - Currently in progress";
     private static final Pattern REQUIRED_BULLET = Pattern.compile(
             "^((?:§r)?§c-\\s*" + COLOR_CODE + "?)\\s*(.+)$");
     private static final Pattern ARCHETYPE_COUNT = Pattern.compile(
@@ -439,6 +441,9 @@ public class TranslationManager {
                 if (match.matches()) return fillTemplate(guiPattern.translationTemplate(), match);
             }
         }
+        Matcher quest = QUEST_REQUIREMENT.matcher(text);
+        if (quest.matches() && quest.group(2).trim().startsWith("§")) return quest.group(1) + "Квест:" + quest.group(2);
+        if (text.endsWith(IN_PROGRESS)) return text.substring(0, text.length() - IN_PROGRESS.length()) + " - В процессе";
         return null;
     }
 

@@ -6,31 +6,31 @@
     {
       "id": "rule-0001",
       "en": "<em>Upgrade your <em> Agility skill",
-      "ru": "§7<em>§dУлучшить навык §f<em> проворства",
+      "ru": "§7<em>§dУлучшить навык §f<em> Проворства",
       "match": "exact"
     },
     {
       "id": "rule-0002",
       "en": "<em>Upgrade your <em> Defence skill",
-      "ru": "§7<em>§dУлучшить навык §c<em> защиты",
+      "ru": "§7<em>§dУлучшить навык §c<em> Защиты",
       "match": "exact"
     },
     {
       "id": "rule-0003",
       "en": "<em>Upgrade your <em> Dexterity skill",
-      "ru": "§7<em>§dУлучшить навык §e<em> ловкости",
+      "ru": "§7<em>§dУлучшить навык §e<em> Ловкости",
       "match": "exact"
     },
     {
       "id": "rule-0004",
       "en": "<em>Upgrade your <em> Intelligence skill",
-      "ru": "§7<em>§dУлучшить навык §b<em> интеллекта",
+      "ru": "§7<em>§dУлучшить навык §b<em> Интеллекта",
       "match": "exact"
     },
     {
       "id": "rule-0005",
       "en": "<em>Upgrade your <em> Strength skill",
-      "ru": "§7<em>§dУлучшить навык §2<em> силы",
+      "ru": "§7<em>§dУлучшить навык §2<em> Силы",
       "match": "exact"
     },
     {
@@ -3036,7 +3036,7 @@
     {
       "id": "batch7-f1eb5943542ba144",
       "en": "<em><em> Click To Track",
-      "ru": "<em><em> Нажмите, чтобы Отслеживать",
+      "ru": "<em><em> Нажмите, чтобы отслеживать",
       "match": "exact"
     },
     {
@@ -30890,6 +30890,90 @@
       "en": "§7- <num> <em> Thunder Defence",
       "ru": "- §7<num> §7Защиты от §e<em> Молнии",
       "match": "template"
+    },
+    {
+      "id": "profession-row-1a1f1938ce96",
+      "en": "<em><em>󏿾 Scribing󐀋 󐀁<em>󏿾 Jeweling󐀄",
+      "ru": "<em><em>󏿾 Писарство󐀄 󐀁<em>󏿾 Ювелирное Дело󐀄",
+      "match": "exact"
+    },
+    {
+      "id": "profession-row-3599b3c8290c",
+      "en": "<em>󐀁<em>󏿾 Jeweling󐀅 <em>󏿾 Scribing󐀄",
+      "ru": "<em>󐀁<em>󏿾 Ювелирное Дело󐀄 <em>󏿾 Писарство󐀄",
+      "match": "exact"
+    },
+    {
+      "id": "profession-row-13ab77d1769c",
+      "en": "<em><em>󏿾 Woodworking󐀄 <em>󏿾 Cooking󐀖",
+      "ru": "<em><em>󏿾 Обработка Дерева󐀄 <em>󏿾 Кулинария󐀖",
+      "match": "exact"
+    },
+    {
+      "id": "profession-row-bedb9a1dd7db",
+      "en": "<em><em> Tailoring󐀄 <em>󏿾 Cooking󐀆",
+      "ru": "<em><em> Портняжное Дело󐀄 <em>󏿾 Кулинария󐀆",
+      "match": "exact"
+    },
+    {
+      "id": "profession-row-8eaa03e27354",
+      "en": "<em>󐀁<em>󏿿 Armouring󐀄 <em>󏿾 Cooking󐀋",
+      "ru": "<em>󐀁<em>󏿿 Бронное Дело󐀄 <em>󏿾 Кулинария󐀋",
+      "match": "exact"
+    },
+    {
+      "id": "profession-row-f5a7cef7661c",
+      "en": "<em>󐀁<em>󏿿 Armouring󐀇 󐀁<em>󏿿 Alchemism󐀄",
+      "ru": "<em>󐀁<em>󏿿 Бронное Дело󐀄 󐀁<em>󏿿 Алхимия󐀄",
+      "match": "exact"
+    },
+    {
+      "id": "profession-row-718b2a1d92e7",
+      "en": "<em><em> Tailoring󐀌 󐀁<em>󏿿 Alchemism󐀄",
+      "ru": "<em><em> Портняжное Дело󐀄 󐀁<em>󏿿 Алхимия󐀄",
+      "match": "exact"
+    },
+    {
+      "id": "profession-row-ff2f5bf15248",
+      "en": "<em>󐀁<em>󏿿 Alchemism󐀄 <em> Tailoring󐀄",
+      "ru": "<em>󐀁<em>󏿿 Алхимия󐀄 <em> Портняжное Дело󐀄",
+      "match": "exact"
+    },
+    {
+      "id": "profession-row-fd3b9cd307d8",
+      "en": "<em>󐀁<em>󏿿 Alchemism󐀉 󐀁<em>󏿿 Armouring󐀄",
+      "ru": "<em>󐀁<em>󏿿 Алхимия󐀄 󐀁<em>󏿿 Бронное Дело󐀄",
+      "match": "exact"
+    },
+    {
+      "id": "wynntils-book-in-progress",
+      "en": "§aCurrently in progress",
+      "ru": "§aВ процессе",
+      "match": "exact"
+    },
+    {
+      "id": "wynntils-book-map",
+      "en": "<em>§e Click to view on map",
+      "ru": "<em>§e Нажмите, чтобы открыть на карте",
+      "match": "exact"
+    },
+    {
+      "id": "wynntils-book-wiki",
+      "en": "<em>§6 Click to open on the wiki",
+      "ru": "<em>§6 Нажмите, чтобы открыть в вики",
+      "match": "exact"
+    },
+    {
+      "id": "wynntils-book-map-plain",
+      "en": "<em> Click to view on map",
+      "ru": "<em> Нажмите, чтобы открыть на карте",
+      "match": "exact"
+    },
+    {
+      "id": "wynntils-book-wiki-plain",
+      "en": "<em> Click to open on the wiki",
+      "ru": "<em> Нажмите, чтобы открыть в вики",
+      "match": "exact"
     }
   ]
 }

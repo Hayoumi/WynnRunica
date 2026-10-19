@@ -109,11 +109,27 @@ public final class TooltipCaptureLogger {
         lastDisplayed = displayed == null ? null : List.copyOf(displayed);
         lastScreen = screenTitle;
 
+        var tooltipStyle = stack.get(DataComponentTypes.TOOLTIP_STYLE);
+        save(Registries.ITEM.getId(stack.getItem()).toString(),
+                tooltipStyle == null ? "minecraft:default" : tooltipStyle.toString(), tooltip, displayed, screenTitle);
+    }
+
+    public static void captureScreenTooltip(String itemId, List<Text> tooltip, Text screenTitle) {
+        if (!TelemetrySender.allowed() || tooltip == null || tooltip.isEmpty()) return;
+        if (tooltip.equals(lastTooltip) && java.util.Objects.equals(screenTitle, lastScreen)) return;
+        lastStack = null;
+        lastTooltip = List.copyOf(tooltip);
+        lastDisplayed = null;
+        lastScreen = screenTitle;
+        save(itemId, "minecraft:default", tooltip, tooltip, screenTitle);
+    }
+
+    private static void save(String itemId, String tooltipStyleId, List<Text> tooltip, List<Text> displayed,
+                               Text screenTitle) {
         List<TooltipLine> lines = new ArrayList<>(tooltip.size());
         java.util.TreeSet<String> missingKeys = new java.util.TreeSet<>();
         boolean anyMissing = false;
         String screen = screenTitle == null ? "" : screenTitle.getString();
-        String itemId = Registries.ITEM.getId(stack.getItem()).toString();
         String rawTitle = TextEmojiUtils.extract(tooltip.getFirst()).key;
         String scopeTitle = normalizeNumbers(rawTitle);
         List<String> anchors = new ArrayList<>();
@@ -144,7 +160,6 @@ public final class TooltipCaptureLogger {
             lines.add(new TooltipLine(text, key, saveKey, translation, missing,
                     segments, displayedSegments));
         }
-        if (!anyMissing) return;
 
         boolean abilityTree = isAbilityTree(screen, lines);
         List<String> names = ServerNotificationTranslator.knownNames();
@@ -160,8 +175,6 @@ public final class TooltipCaptureLogger {
                     line.missing(), hideNames(line.segments(), names), hideNames(line.displaySegments(), names)));
         }
 
-        var tooltipStyle = stack.get(DataComponentTypes.TOOLTIP_STYLE);
-        String tooltipStyleId = tooltipStyle == null ? "minecraft:default" : tooltipStyle.toString();
         String familyId = sha256(itemId + "\u001e" + scopeTitle
                 + "\u001e" + tooltipStyleId + "\u001e" + String.join("\u001f", anchors));
         String fingerprint = sha256(familyId + "\u001e" + String.join("\u001f", missingKeys));
@@ -170,10 +183,8 @@ public final class TooltipCaptureLogger {
         TooltipEntry entry = new TooltipEntry(fingerprint, fingerprint, familyId, itemId,
                 itemName, screen, scopeTitle, anchors, source,
                 tooltipStyleId, System.currentTimeMillis(), lines);
-        if (!"ability_tree".equals(source)) {
-            TelemetrySender.recordTooltipSnapshot(fingerprint, familyId, entry);
-        }
-        if (!DEBUG_CAPTURE_LOG || !seenFingerprints.add(fingerprint)) return;
+        TelemetrySender.recordTooltipSnapshot(fingerprint, familyId, entry, !anyMissing);
+        if (!DEBUG_CAPTURE_LOG || !anyMissing || !seenFingerprints.add(fingerprint)) return;
         lastCapturedFingerprint = fingerprint;
         QUEUE.add(entry);
         ensureWriterStarted();

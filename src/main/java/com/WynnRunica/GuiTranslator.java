@@ -12,6 +12,7 @@ import net.minecraft.text.Style;
 import net.minecraft.text.StyleSpriteSource;
 import net.minecraft.text.Text;
 import net.minecraft.text.MutableText;
+import net.minecraft.text.OrderedText;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Formatting;
 import net.minecraft.registry.Registries;
@@ -356,6 +357,14 @@ public class GuiTranslator {
         return isMinecraftSpaceStyle(text.getStyle());
     }
 
+    private static boolean usesFont(List<Glyph> glyphs, String font) {
+        for (Glyph glyph : glyphs) {
+            StyleSpriteSource source = glyph.style().getFont();
+            if (source != null && source.toString().contains(font)) return true;
+        }
+        return false;
+    }
+
     private static boolean isMinecraftSpaceStyle(Style style) {
         StyleSpriteSource font = style.getFont();
         return font != null && font.toString().contains("minecraft:space");
@@ -403,6 +412,91 @@ public class GuiTranslator {
                 ? translateWynntilsPixelTooltip(tooltip) : translateVanillaPixelTooltip(tooltip);
         if (Config.DEBUG) TooltipCaptureLogger.dumpFinal(tooltip, result);
         return result;
+    }
+
+    public static <T extends OrderedText> List<T> translateOrderedTooltip(List<T> tooltip) {
+        if (!Config.isTranslationEnabled() || !Config.isEnabled("Предметы")) return tooltip;
+        return translateOrdered(tooltip, GuiTranslator::translatePixelTooltip, GuiTranslator::captureWynntilsTooltip);
+    }
+
+    private static void captureWynntilsTooltip(List<Text> lines) {
+        var screen = MinecraftClient.getInstance().currentScreen;
+        if (screen == null || !screen.getClass().getName().startsWith("com.wynntils")) return;
+        TooltipCaptureLogger.captureScreenTooltip("wynntils:screen_tooltip", lines, screen.getTitle());
+    }
+
+    static <T extends OrderedText> List<T> translateOrdered(List<T> tooltip, java.util.function.UnaryOperator<List<Text>> translator,
+                                                           java.util.function.Consumer<List<Text>> capture) {
+        if (tooltip == null || tooltip.isEmpty()) return tooltip;
+        List<Text> plain = new ArrayList<>(tooltip.size());
+        List<Text> legacy = new ArrayList<>(tooltip.size());
+        for (OrderedText ordered : tooltip) {
+            plain.add(toText(ordered, false));
+            legacy.add(toText(ordered, true));
+        }
+        List<Text> first = translator.apply(plain);
+        List<Text> second = translator.apply(legacy);
+        List<Text> source = new ArrayList<>(tooltip.size());
+        for (int i = 0; i < tooltip.size(); i++) {
+            source.add(gainedCyrillic(legacy.get(i), second.get(i)) ? legacy.get(i) : plain.get(i));
+        }
+        if (capture != null) capture.accept(source);
+        if (first == plain && second == legacy) return tooltip;
+        List<T> result = new ArrayList<>(tooltip.size());
+        boolean changed = false;
+        for (int i = 0; i < tooltip.size(); i++) {
+            Text chosen = null;
+            if (gainedCyrillic(plain.get(i), first.get(i))) chosen = first.get(i);
+            else if (gainedCyrillic(legacy.get(i), second.get(i))) chosen = second.get(i);
+            if (chosen == null) {
+                result.add(tooltip.get(i));
+                continue;
+            }
+            @SuppressWarnings("unchecked") T ordered = (T) chosen.asOrderedText();
+            result.add(ordered);
+            changed = true;
+        }
+        return changed ? result : tooltip;
+    }
+
+    private static boolean gainedCyrillic(Text before, Text after) {
+        return !TranslationLoader.hasCyrillic(before.getString()) && TranslationLoader.hasCyrillic(after.getString());
+    }
+
+    private static Text toText(OrderedText ordered, boolean legacyColors) {
+        MutableText out = Text.empty();
+        StringBuilder run = new StringBuilder();
+        Style[] current = {null};
+        ordered.accept((index, style, codePoint) -> {
+            if (current[0] != null && !style.equals(current[0])) {
+                out.append(legacyColors ? legacyRun(run.toString(), current[0]) : Text.literal(run.toString()).setStyle(current[0]));
+                run.setLength(0);
+            }
+            current[0] = style;
+            run.appendCodePoint(codePoint);
+            return true;
+        });
+        if (current[0] != null) {
+            out.append(legacyColors ? legacyRun(run.toString(), current[0]) : Text.literal(run.toString()).setStyle(current[0]));
+        }
+        return out;
+    }
+
+    private static Text legacyRun(String text, Style style) {
+        if (style.getColor() == null || isMinecraftSpaceStyle(style) || text.isBlank()) return Text.literal(text).setStyle(style);
+        int rgb = style.getColor().getRgb();
+        for (Formatting format : Formatting.values()) {
+            if (format.isColor() && format.getColorValue() != null && format.getColorValue() == rgb) {
+                StringBuilder codes = new StringBuilder("§").append(format.getCode());
+                if (style.isObfuscated()) codes.append("§k");
+                if (style.isBold()) codes.append("§l");
+                if (style.isStrikethrough()) codes.append("§m");
+                if (style.isUnderlined()) codes.append("§n");
+                if (style.isItalic()) codes.append("§o");
+                return Text.literal(codes + text).setStyle(style.withColor((net.minecraft.text.TextColor) null));
+            }
+        }
+        return Text.literal(text).setStyle(style);
     }
 
     private static List<Text> translateWynntilsPixelTooltip(List<Text> tooltip) {
@@ -570,6 +664,16 @@ public class GuiTranslator {
             if (align[above] == Align.CENTER && Math.abs(indent(line) - indent(upper)) <= 6
                     && (sameSpan || Math.abs(visibleEnd(line) - visibleEnd(upper)) <= 3)) {
                 align[k] = Align.CENTER;
+            }
+        }
+
+        for (int k = bodyStart; k < count; k++) {
+            if (!hasLead(before.get(k)) || !usesFont(before.get(k), "tooltip/requirement/frame")) continue;
+            align[k] = Align.CENTER;
+            int below = k + 1;
+            while (below < count && before.get(below).isEmpty()) below++;
+            if (below < count && hasLead(before.get(below)) && usesFont(before.get(below), "tooltip/requirement/sprite")) {
+                align[below] = Align.CENTER;
             }
         }
 

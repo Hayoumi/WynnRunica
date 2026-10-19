@@ -77,6 +77,18 @@ public final class TooltipLayoutCheck {
                 String was = tooltip.get(i).getString();
                 SHOWN.add(shownTitle + "	" + i + "	" + was + "	" + (shownLines.get(i).getString().equals(was) ? "" : shownLines.get(i).getString()));
             }
+            int frameShift = Integer.MIN_VALUE;
+            for (int i = 0; i < tooltip.size() && result.size() == tooltip.size(); i++) {
+                int shift = measure(result.get(i)) - measure(tooltip.get(i));
+                if (usesFont(tooltip.get(i), "tooltip/requirement/frame")) frameShift = shift;
+                else if (frameShift != Integer.MIN_VALUE && usesFont(tooltip.get(i), "tooltip/requirement/sprite")) {
+                    if (shift != frameShift) {
+                        problems.computeIfAbsent("ряд цифр требований сдвинут не как ромбики", k -> new ArrayList<>())
+                                .add(shownTitle + ": ромбики " + frameShift + ", цифры " + shift);
+                    }
+                    frameShift = Integer.MIN_VALUE;
+                }
+            }
             String itemId = capture.has("itemId") ? capture.get("itemId").getAsString() : "";
             for (int i = 0; i < tooltip.size(); i++) {
                 if (TextEmojiUtils.findWynncraftPixelStyle(tooltip.get(i)) == null) continue;
@@ -589,6 +601,15 @@ public final class TooltipLayoutCheck {
 
     private static int measure(Text text) {
         return layout(text).width();
+    }
+
+    private static boolean usesFont(Text text, String font) {
+        boolean[] found = {false};
+        text.visit((style, part) -> {
+            if (!part.isEmpty() && style.getFont() != null && style.getFont().toString().contains(font)) found[0] = true;
+            return java.util.Optional.empty();
+        }, net.minecraft.text.Style.EMPTY);
+        return found[0];
     }
 
     private static int advance(String font, int codePoint, boolean bold) {

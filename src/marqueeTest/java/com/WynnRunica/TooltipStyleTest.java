@@ -138,6 +138,7 @@ public final class TooltipStyleTest {
             if (!shown.equals(price[1])) throw new AssertionError("08.10: market price line: " + price[0] + " -> " + shown);
         }
         AbilityStyleTest.run();
+        checkWynntilsContentBook();
         ObjectiveColorTest.run();
         checkCatalogSelector("Preferred Currency", "Cash", 0x55FFFF, 0xAAAAAA, false, false);
         checkCatalogSelector("Preferred Currency", "Silverbull Shares", 0x55FFFF, 0xAAAAAA, false, false);
@@ -271,6 +272,64 @@ public final class TooltipStyleTest {
         List<Style> values = styles(result);
         expect(values.getFirst().getColor().getRgb() == marker, "Marker keeps source color");
         expect(values.getLast().getColor().getRgb() == caption, "Caption follows selection state");
+    }
+
+    private static void checkWynntilsContentBook() {
+        var measure = TextEmojiUtils.width;
+        TextEmojiUtils.width = text -> text.getString().length() * 6;
+        Style space = Style.EMPTY.withFont(new StyleSpriteSource.Font(Identifier.of("minecraft", "space")));
+        String pad = new String(Character.toChars(0xD000E));
+        List<Text> lines = List.of(
+                Text.empty().append(Text.literal(pad).setStyle(space))
+                        .append(Text.literal("Distance: ").setStyle(Style.EMPTY.withColor(0xAAAAAA)))
+                        .append(Text.literal("Far").setStyle(Style.EMPTY.withColor(0xFF5555)))
+                        .append(Text.literal(" (1000+ Blocks)").setStyle(Style.EMPTY.withColor(0x555555))),
+                Text.empty().append(Text.literal(pad).setStyle(space)).append(Text.literal("Length: Long").setStyle(Style.EMPTY.withColor(0xAAAAAA))),
+                Text.empty().append(Text.literal(pad).setStyle(space)).append(Text.literal("Rewards:").setStyle(Style.EMPTY.withColor(0xFF55FF))),
+                Text.literal("Currently in progress").setStyle(Style.EMPTY.withColor(0x55FF55)),
+                Text.literal("Leaves in the Wind Part III - Currently in progress").setStyle(Style.EMPTY.withColor(0x55FF55)),
+                Text.empty().append(Text.literal("✔À").setStyle(Style.EMPTY.withColor(0x55FF55)))
+                        .append(Text.literal(" Quest: ").setStyle(Style.EMPTY.withColor(0xAAAAAA)))
+                        .append(Text.literal("The Cursed One").setStyle(Style.EMPTY.withColor(0xFFFFFF))),
+                Text.empty().append(Text.literal(new String(Character.toChars(0xD0004))).setStyle(space))
+                        .append(Text.literal("- ").setStyle(Style.EMPTY.withColor(0xFF55FF)))
+                        .append(Text.literal("+24576 Emeralds").setStyle(Style.EMPTY.withColor(0xAAAAAA))),
+                Text.empty().append(Text.literal(new String(Character.toChars(0xD001F))).setStyle(space))
+                        .append(Text.literal("").setStyle(Style.EMPTY.withFont(new StyleSpriteSource.Font(Identifier.of("minecraft", "keybind"))).withColor(0xFFFFFF)))
+                        .append(Text.literal(" ").setStyle(Style.EMPTY.withColor(0xFFFFFF)))
+                        .append(Text.literal("Click To Track").setStyle(Style.EMPTY.withColor(0x29CC96).withBold(true))),
+                Text.empty().append(Text.literal("").setStyle(Style.EMPTY.withFont(new StyleSpriteSource.Font(Identifier.of("minecraft", "keybind"))).withColor(0xFFFFFF)))
+                        .append(Text.literal(" Click to view on map").setStyle(Style.EMPTY.withColor(0xFFFF55).withBold(true))),
+                Text.empty().append(Text.literal("").setStyle(Style.EMPTY.withFont(new StyleSpriteSource.Font(Identifier.of("minecraft", "keybind"))).withColor(0xFFFFFF)))
+                        .append(Text.literal(" Click to open on the wiki").setStyle(Style.EMPTY.withColor(0xFFAA00).withBold(true))));
+        List<net.minecraft.text.OrderedText> ordered = new ArrayList<>();
+        for (Text line : lines) ordered.add(line.asOrderedText());
+        List<net.minecraft.text.OrderedText> shown = GuiTranslator.translateOrdered(ordered,
+                tooltip -> GuiTranslator.translatePixelTooltip(tooltip, true), null);
+        for (int i = 0; i < shown.size(); i++) {
+            StringBuilder plain = new StringBuilder();
+            shown.get(i).accept((index, style, codePoint) -> {
+                plain.appendCodePoint(codePoint);
+                return true;
+            });
+            if (!TranslationLoader.hasCyrillic(plain.toString()))
+                throw new AssertionError("17.10: Wynntils content book line stays English: " + plain);
+            boolean[] bold = {false};
+            shown.get(i).accept((index, style, codePoint) -> {
+                if (style.isBold()) bold[0] = true;
+                return true;
+            });
+            int[] lastColor = {-1};
+            shown.get(i).accept((index, style, codePoint) -> {
+                lastColor[0] = style.getColor() == null ? -1 : style.getColor().getRgb();
+                return true;
+            });
+            if (plain.toString().contains("Квест") && lastColor[0] != 0xFFFFFF)
+                throw new AssertionError("17.10: quest name lost its white colour: " + Integer.toHexString(lastColor[0]));
+            if (plain.toString().contains("Нажмите") && !bold[0])
+                throw new AssertionError("17.10: Wynntils click line lost bold: " + plain);
+        }
+        TextEmojiUtils.width = measure;
     }
 
     private static void checkCatalogSelector(String title, String caption, int marker, int inactive,

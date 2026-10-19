@@ -72,6 +72,8 @@ public final class TelemetrySender {
     private static final ConcurrentLinkedQueue<JsonObject> SNAPSHOT_QUEUE = new ConcurrentLinkedQueue<>();
     private static final ConcurrentLinkedQueue<JsonObject> CHAT_QUEUE = new ConcurrentLinkedQueue<>();
     private static final Set<String> SESSION_CAPTURE_IDS = ConcurrentHashMap.newKeySet();
+    private static final int MAX_COMPLETE_SNAPSHOTS = 300;
+    private static final java.util.concurrent.atomic.AtomicInteger COMPLETE_SNAPSHOTS = new java.util.concurrent.atomic.AtomicInteger();
     private static final String SESSION_ID = UUID.randomUUID().toString();
     private static final HttpClient HTTP_CLIENT = HttpClient.newBuilder()
             .connectTimeout(Duration.ofSeconds(8)).build();
@@ -262,10 +264,14 @@ public final class TelemetrySender {
         triggerFlush();
     }
 
-    public static void recordTooltipSnapshot(String snapshotId, String familyId, Object snapshot) {
-        if (!allowed() || !SESSION_CAPTURE_IDS.add(snapshotId)) return;
+    public static void recordTooltipSnapshot(String snapshotId, String familyId, Object snapshot, boolean complete) {
+        if (!allowed()) return;
+        if (complete && COMPLETE_SNAPSHOTS.get() >= MAX_COMPLETE_SNAPSHOTS) return;
+        if (!SESSION_CAPTURE_IDS.add(snapshotId)) return;
+        if (complete) COMPLETE_SNAPSHOTS.incrementAndGet();
         JsonObject item = GSON.toJsonTree(snapshot).getAsJsonObject();
         item.addProperty("kind", "tooltip_snapshot");
+        item.addProperty("complete", complete);
         item.addProperty("snapshotId", snapshotId);
         item.addProperty("familyId", familyId);
         item.addProperty("sessionId", SESSION_ID);
