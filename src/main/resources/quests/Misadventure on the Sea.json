@@ -850,21 +850,21 @@
     {
       "id": "dialogue-0121",
       "en": "You take a look inside the furnaces...",
-      "ru": "Вы заглядываете внутрь печей...",
+      "ru": "§r§7Вы заглядываете внутрь печей...",
       "speaker": "",
       "stage": "Stage 3"
     },
     {
       "id": "dialogue-0122",
       "en": "There's nothing, except for...",
-      "ru": "Там ничего нет, кроме...",
+      "ru": "§r§7Там ничего нет, кроме...",
       "speaker": "",
       "stage": "Stage 3"
     },
     {
       "id": "dialogue-0123",
       "en": "An absurd amount of wood shavings, for some reason.",
-      "ru": "Горы древесной стружки, которая непонятно зачем тут лежит.",
+      "ru": "§r§7Горы древесной стружки, которая непонятно зачем тут лежит.",
       "speaker": "",
       "stage": "Stage 3"
     },
@@ -934,14 +934,14 @@
     {
       "id": "dialogue-0133",
       "en": "Looks like it's fully functional. Make sure the pirates don't see you! Once you leave, you won't be able to come back.",
-      "ru": "Похоже, она полностью исправна. Смотрите, чтобы пираты вас не заметили! Как только уйдёте, вернуться уже не сможете.",
+      "ru": "§r§7Похоже, она полностью исправна. Смотрите, чтобы пираты вас не заметили! §r§7§lКак только уйдёте, вернуться уже не сможете.§r§7",
       "speaker": "",
       "stage": "Stage 7"
     },
     {
       "id": "dialogue-0134",
       "en": "You crawl into the cannon...",
-      "ru": "Вы заползаете в пушку...",
+      "ru": "§r§7Вы заползаете в пушку...",
       "speaker": "",
       "stage": "Stage 7"
     },
@@ -1091,6 +1091,92 @@
       "ru": "На, держи ещё губку для засохшей крови. Просто лупи ею по трупам!",
       "speaker": "Honip",
       "stage": "Stage 2"
+    },
+    {
+      "id": "hub-20261019-dialogue-22f01ac4ef15",
+      "en": "You picked up some feathers.",
+      "ru": "§r§7Вы подобрали несколько перьев.",
+      "speaker": "Pirate",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-74828b70a743",
+      "en": "These rats... I don't think they're normal rats. Something's wrong with 'em.",
+      "ru": "§r§fЭти крысы... Не думаю, что это обычные крысы. Что-то с ними не так.",
+      "speaker": "Pirate",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-a19f7fb5fe6d",
+      "en": "Honip's probably waitin' for ya by now! Take these ladders next to me, he's up there.",
+      "ru": "§r§fХонип, поди, уже тебя ждёт! Поднимайся по лестнице рядом со мной, он наверху.",
+      "speaker": "Seth",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-b19c8b1595d9",
+      "en": "I heard what happened, soldier!",
+      "ru": "§r§fЯ слышал, что случилось, солдат!",
+      "speaker": "Pirate",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-b9c272a2179d",
+      "en": "Continue or Reset your quest",
+      "ru": "§r§7Продолжить или §r§7§lначать квест заново§r§7",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-f07eaae7f369",
+      "en": "Good job on scaring away that thing!",
+      "ru": "§r§fМолодец, что спугнул эту тварь!",
+      "speaker": "Pirate",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-fb25c7cad913",
+      "en": "Not done yet? Well, take your time!",
+      "ru": "§r§fЕщё не закончил? Ну, не торопись!",
+      "speaker": "Seth",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-ff31d1523522",
+      "en": "Oh my god, this is so boring...",
+      "ru": "§r§fБоже, как же скучно...",
+      "speaker": "Pirate",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-69f4b0d12578",
+      "en": "It must be the one up you saw up there! That's got to be the way to escape!",
+      "ru": "§r§7Это, должно быть, тот самый, который вы видели наверху! Наверняка через него можно выбраться!",
+      "speaker": "Seth",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-afcde63637b2",
+      "en": "Soldier, now's your time to shine! Scare it off with one of your spells or somethin'!",
+      "ru": "§r§fСолдат, вот и твой звёздный час! Отгони эту тварь каким-нибудь своим заклинанием или чем там!",
+      "speaker": "Honip",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-c71515087511",
+      "en": "I'm just goin' to... Wait here... With my cannons.",
+      "ru": "А я, пожалуй... постою тут... со своими пушками...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-407f61a4f302",
+      "en": "What the hell, soldier?? What don't you get in the \"soldier\" part of your job?",
+      "ru": "Ты что творишь, солдат?? Что тебе непонятно в слове \"солдат\" вообще?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -1151,6 +1237,14 @@
       "id": "objective-91bf24ca929c",
       "en": "You noticed the cannon could be used to escape. Clean the bodies and see what Honip tells you! -Bodies cleaned: <num>",
       "ru": "Вы заметили, что с помощью пушки можно сбежать. Уберите тела и узнайте, что скажет Хонип! -Убрано тел: <num>"
+    },
+    {
+      "id": "hub-alias-c05ff5a79cc9",
+      "en": "Clean the bodies in the boat. Look for clues on how to escape at the same time. -Bodies cleaned: <num>",
+      "ru": "Убрать тела на корабле и заодно поискать способ сбежать. -Убрано тел: #/7",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

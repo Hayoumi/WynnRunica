@@ -451,7 +451,7 @@
     {
       "id": "dialogue-0064",
       "en": "Alright <playername>, let's do this!",
-      "ru": "Ну что, <playername>, начали!",
+      "ru": "Отлично! Начнём!",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 6"
     },
@@ -570,7 +570,7 @@
     {
       "id": "hub-live-dialogue-c80ecb6ca606",
       "en": "Captain- we're capable fighters too. Let us come along and help fight off these undead.",
-      "ru": "§r§fКапитан, мы тоже умеем сражаться. Позвольте нам пойти с вами и помочь отбить нападение нежити!",
+      "ru": "Капитан, мы тоже умеем сражаться. Позвольте нам пойти с вами и помочь отбить нападение нежити!",
       "speaker": "Tasim",
       "stage": ""
     },
@@ -587,6 +587,29 @@
       "ru": "Кхм. Прежде чем вы вернётесь к своим делам, у меня кое-что есть для вас двоих. Оплата за сегодняшнюю работу и особый предмет снаряжения. Пользуйтесь с умом.",
       "speaker": "Captain Ragon",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-delta-ef5ab0e666b4",
+      "en": "Come on, let's get going towards the north gate.",
+      "ru": "§r§#FFFFFFДавай, идём к северным воротам.",
+      "speaker": "Tasim",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-76793967d9cb",
+      "en": "...Oh! So my Bash spell will still deal Earth damage even if my weapon only uses Water , right",
+      "ru": "...О! Значит, мой \"Баш\" всё равно будет наносить урон стихией <em> §#00AA00Земли§r, даже если моё оружие использует только <em> §#55FFFFВоду§r, верно?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-1daa77127559",
+      "en": "Now. For training purposes, you'll be given an elemental weapon to try out on these training dummies. Take note of how each elemental defense and weakness affects your damage dealt. Speak to me once you feel you understand the concept",
+      "ru": "А теперь для тренировки вам выдадут §bстихийное оружие§r, чтобы опробовать его на этих манекенах. Смотрите внимательно, как каждая стихийная защита и слабость влияет на ваш урон. Когда поймёте суть, подойдите ко мне.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -648,6 +671,70 @@
       "id": "objective-0f06e431dae9",
       "en": "Speak to Captain Ragon outside Detlas' north gate at [<num>, <num>, <num>]",
       "ru": "Поговорить с капитаном Рагоном у северных ворот Детласа [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-alias-02f992912281",
+      "en": "Talk to Captain Ragon in the Detlas Barracks at [<num>, <num>, <num>]",
+      "ru": "Поговорить с капитаном Рагоном в казармах Детласа [518, 67, -1631].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-071aa045f773",
+      "en": "Follow Captain Ragon to the Training Room at [<num>, <num>, <num>]",
+      "ru": "Следовать за капитаном Рагоном в тренировочный зал [531, 52, -1671].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-56e4011ec8ec",
+      "en": "Test out the elemental training weapons on the dummies, then speak to Captain Ragon at [<num>, <num>, <num>]",
+      "ru": "Испытать стихийное тренировочное оружие на манекенах, затем поговорить с капитаном Рагоном [531, 52, -1671].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f8db744300dd",
+      "en": "Fight Tasim in a friendly duel",
+      "ru": "Сразиться с Тасимом в дружеском поединке.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1572f3303548",
+      "en": "Speak to Captain Ragon at [<num>, <num>, <num>]",
+      "ru": "Поговорить с капитаном Рагоном [531, 52, -1671].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-b2d4492f2aae",
+      "en": "Follow Captain Ragon to Detlas' north gate at [<num>, <num>, <num>] to face the undead forces",
+      "ru": "Следовать за капитаном Рагоном к северным воротам Детласа навстречу нежити [485, 67, -1658].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ec7bf8ab12be",
+      "en": "Defeat the Corrupted Captain and the force threatening Detlas",
+      "ru": "Победить Осквернённого капитана и отряд, угрожающий Детласу.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f8fdbe174aa5",
+      "en": "Return to the Detlas Barracks and talk to Captain Ragon at [<num>, <num>, <num>]",
+      "ru": "Вернуться в казармы Детласа и поговорить с капитаном Рагоном [516, 67, -1629].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

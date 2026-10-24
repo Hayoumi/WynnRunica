@@ -713,6 +713,38 @@
       "ru": "Ещё мы вернём Гертам украденную еду и, надеюсь, немного их успокоим.",
       "speaker": "Winie",
       "stage": "Stage 11"
+    },
+    {
+      "id": "hub-alias-c5452b2ea489",
+      "en": "I think you should start with the people out in the courtyard.",
+      "ru": "Думаю, начинать стоит с тех, кто §r§bво дворе§r§f.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-2135716f3f7f",
+      "en": "Oh..",
+      "ru": "О...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-c79887bd77d3",
+      "en": "Those pea brains can't even count to three, I doubt they can take our mighty fine establishment down.",
+      "ru": "Эти пустоголовые даже до трёх считать не умеют. Очень сомневаюсь, что они смогут снести наше прекрасное заведение.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-662b32ecd973",
+      "en": "Ooh! It sounds like you've prepared a whole feast out there.",
+      "ru": "О-о! Похоже, ты там целый пир приготовил!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -791,7 +823,48 @@
       "id": "objective-0f7c0b0281a6",
       "en": "Return to the Gylia watch [<num>, <num>, <num>] and check everyone is safe.",
       "ru": "Вернуться к дозору Гилии [<num>, <num>, <num>] и убедиться, что все целы."
+    },
+    {
+      "id": "hub-alias-21565cc49053",
+      "en": "Find out what happens in the Gerten camp at [<num>, <num>, <num>]",
+      "ru": "Выяснить, что происходит в лагере гертов [-33, 34, -5502].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-886c35a18d35",
+      "en": "Use the elevator in the Gylia watch and find the guard at [<num>, <num>, <num>]",
+      "ru": "Подняться на подъёмнике в башне Дозора Гилии и найти стражника [-11, 73, -5412].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-7b35bd125b8c",
+      "en": "Head towards the basement in the tower at [<num>, <num>, <num>]",
+      "ru": "Спуститься в подвал башни [-25, 35, -5416].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-bf9b75f8b538",
+      "en": "Go outside towards the sound at [<num>, <num>, <num>]",
+      "ru": "Выйти наружу и идти на звук [-30, 36, -5422].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
-  "choices": []
+  "choices": [
+    {
+      "id": "hub-alias-15b14b095ade",
+      "en": "Daily..?",
+      "ru": "Каждый вечер...?",
+      "speaker": "",
+      "stage": "",
+      "kind": "choice"
+    }
+  ]
 }

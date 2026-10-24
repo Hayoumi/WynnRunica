@@ -675,7 +675,7 @@
     {
       "id": "dialogue-0096",
       "en": "[+4 Gylia Meat (Tier 3)]",
-      "ru": "[+4 Gylia Meat (Tier 3)]",
+      "ru": "[+24 Gylia Meat (Tier 1)]",
       "speaker": "",
       "stage": "Stage 8"
     },
@@ -724,7 +724,7 @@
     {
       "id": "dialogue-0103",
       "en": "[+3 Emerald Blocks]",
-      "ru": "[+3 изумрудных блока]",
+      "ru": "[+4 изумрудных блока]",
       "speaker": "",
       "stage": "Stage 8"
     },
@@ -843,7 +843,7 @@
     {
       "id": "dialogue-0120",
       "en": "Uh, what did you say j-just now? The cave collapsed and Nikoler d-died..?",
-      "ru": "Эм, что ты т-только что сказал? Пещера обвалилась, и Николер п-погиб..?",
+      "ru": "Эм, что ты т-только что сказал? Пещера обвалилась, и Николер п-погиб...?",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 8"
     },
@@ -853,6 +853,30 @@
       "ru": "И-извини. Я просто немного в шоке, вот и всё. И ты вернулся ни с чем... Тут все остались в проигрыше.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-alias-83143feeb090",
+      "en": "A human!? W..What? Did you read the notes I left for Korun? I'll have you know that's theft!! I - you..!",
+      "ru": "Человек!? Ч-что? Ты читал записки, которые я оставил Коруну? Вообще-то это уже кража!! Я - ты...!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-5062a741d5f7",
+      "en": "No... I can't die here, I can't die now, what will he think..",
+      "ru": "Нет... Я не могу умереть здесь, не могу сейчас, что он тогда подумает...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-7eacd53eee23",
+      "en": "You... You actually found a meteor shard!! That's amazing! That's... that's... um ...",
+      "ru": "Ты... Ты правда нашёл осколок метеора! Это потрясающе! Это... это... эм...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -903,6 +927,62 @@
       "en": "Escape the Heart of Gylia.",
       "ru": "Выбраться из Сердца Гилии.",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-alias-f7a577e9ddcb",
+      "en": "Talk to Korun near lake Gylia at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Коруном возле озера Гилия [-236, 34, -5224].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-b168610a63a0",
+      "en": "Investigate Nikoler's house for clues at [<num>, <num>, <num>]",
+      "ru": "Осмотреть дом Николера в поисках зацепок [-163, 29, -5388].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-4ee9d0c432a1",
+      "en": "Enter and explore the mysterious cave at [<num>, <num>, <num>]",
+      "ru": "Войти в загадочную пещеру и исследовать её [-286, 30, -5296].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-d4a3e68368a6",
+      "en": "Return to Korun in his home at [<num>, <num>, <num>]",
+      "ru": "Вернуться к Коруну в его дом [-236, 34, -5224].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-cc085baeda47",
+      "en": "Enter the heart of Gylia from under the lake",
+      "ru": "Войти в Сердце Гилии из-под озера.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-28b2f8d29043",
+      "en": "Explore the heart of Gylia",
+      "ru": "Исследовать Сердце Гилии.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-49be6f37b40a",
+      "en": "Escape the heart of Gylia",
+      "ru": "Выбраться из Сердца Гилии.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": [

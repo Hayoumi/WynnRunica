@@ -94,7 +94,7 @@
     {
       "id": "dialogue-0013",
       "en": "Here...our family bought them from \"a dark and mysterious humanoid creature\" a long time ago.",
-      "ru": "Вот... очень давно наша семья купила их у \"тёмного и загадочного человекоподобного существа\".",
+      "ru": "§r§fВот... очень давно наша семья купила их у §r§b\"тёмного и загадочного человекоподобного существа\"§r§f.",
       "speaker": "Grandon",
       "stage": "Stage 3"
     },
@@ -129,7 +129,7 @@
     {
       "id": "dialogue-0018",
       "en": "\"The face above the hall owns the nose that needs to be heavier to open the way\".",
-      "ru": "\"Чтобы открыть путь, утяжели нос лица над залом\".",
+      "ru": "§r§b\"Чтобы открыть путь, утяжели нос лица над залом\".",
       "speaker": "Grandon",
       "stage": "Stage 3"
     },
@@ -370,6 +370,48 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Lost Soles",
       "speaker": "",
       "stage": "Stage 10"
+    },
+    {
+      "id": "hub-20261019-dialogue-24106b664ce1",
+      "en": "It hasn't been accessible for a fairly long while, not since the stairs collapsed. Except for Leacen, but she's a bit crazy...",
+      "ru": "§r§fОбычным способом туда уже давно не попасть, с тех пор как лестница рухнула. Ну, кроме Лисен, но она у нас немного с приветом...",
+      "speaker": "Grandon",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-44a78950ef47",
+      "en": "You can keep them for now but i will need them back if your mission is successful!",
+      "ru": "§r§fПока можешь оставить их у себя, но если твоё задание увенчается успехом, мне нужно будет получить их обратно!",
+      "speaker": "Ferndor",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-476269b0e977",
+      "en": "The other <num> digits should all be up there on the second floor! Maybe Leacen has seen something about them while she's been up there, as well.",
+      "ru": "§r§fНа втором этаже должны быть все оставшиеся цифры кода, их <num>! Может, Лисен что-то про них видела, пока там лазила.",
+      "speaker": "Grandon",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-e424605e61ee",
+      "en": "Whoever placed down that sign might have meant a secret way up to the second floor.",
+      "ru": "§r§fПохоже, тот, кто оставил табличку, имел в виду тайный путь на второй этаж.",
+      "speaker": "Grandon",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-ec0229171ece",
+      "en": "Plus, I lost my notebook, so I can't even write down my notes. I just put it on the pillow in the master bedroom for two seconds, and then it disappeared!",
+      "ru": "§r§fЕщё и блокнот потеряла, так что даже заметки записать не могу. §r§bПоложила его на подушку в хозяйской спальне§r§f буквально на две секунды - и всё, пропал!",
+      "speaker": "Leacen",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-160f4a241bdd",
+      "en": "They hid the boots in the mansion, along with the case. The writer of this diary wrote down some hints as to how to get to them, maybe you can find out what they mean. Here, try this one:",
+      "ru": "§r§fОни спрятали сапоги в особняке вместе с футляром. Автор дневника оставил подсказки, как до них добраться. Может, ты поймёшь, что они значат. Вот, глянь эту:",
+      "speaker": "Grandon",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -394,7 +436,7 @@
     {
       "id": "objective-0004",
       "en": "\"The face above the hall owns the nose that needs to be heavier to open the way\"",
-      "ru": "\"Чтобы открыть путь, утяжели нос лица над залом.\"",
+      "ru": "\"Чтобы открыть путь, утяжели нос лица над залом\".",
       "stage": "Stage 4"
     },
     {
@@ -406,7 +448,7 @@
     {
       "id": "objective-0006",
       "en": "\"The carpet of different colour will show you the stone to reveal the tables secret\"",
-      "ru": "\"Ковёр другого цвета укажет на камень, который раскроет тайну стола.\"",
+      "ru": "\"Ковёр другого цвета покажет тебе камень, что раскроет секрет стола\".",
       "stage": "Stage 6"
     },
     {

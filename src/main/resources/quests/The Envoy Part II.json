@@ -185,7 +185,7 @@
     {
       "id": "dialogue-0026",
       "en": "Follow the road north of here to reach the temple. Speak to the grandmaster and she will allow you entry.",
-      "ru": "Иди по дороге на север отсюда, она приведёт к храму. Поговори с великим мастером, и она тебя впустит.",
+      "ru": "§r§bИди по дороге на север отсюда, она приведёт к храму. Поговори с великим мастером, и она тебя впустит.",
       "speaker": "Chief Avos",
       "stage": "Stage 4"
     },
@@ -220,7 +220,7 @@
     {
       "id": "dialogue-0031",
       "en": "Meet me round the back of my house and I shall show you the way.",
-      "ru": "Встреть меня за домом, и я покажу тебе путь.",
+      "ru": "§r§bВстреть меня за домом, и я покажу тебе путь.",
       "speaker": "Grandmaster Shaman",
       "stage": "Stage 5"
     },
@@ -423,7 +423,7 @@
     {
       "id": "dialogue-0060",
       "en": "You need to find and destroy that new factory mech.",
-      "ru": "Тебе нужно найти и уничтожить того нового меха с фабрики.",
+      "ru": "§r§fТебе нужно §r§bнайти и уничтожить того нового меха с фабрики§r§f.",
       "speaker": "Maxie",
       "stage": "Stage 10"
     },
@@ -531,6 +531,45 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55The Envoy Part II",
       "speaker": "",
       "stage": "Stage 13"
+    },
+    {
+      "id": "hub-20261019-dialogue-7900e05a6b3c",
+      "en": "...I don't think he's actually a farmer. Follow me.",
+      "ru": "Что-то мне подсказывает, что он вообще не фермер. Идём за мной.",
+      "speaker": "Maxie",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-084c63da0d28",
+      "en": "I knew it! There was something here we could use!",
+      "ru": "Я так и знал! Тут действительно нашлось то, чем можно воспользоваться.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-3ef90ef860aa",
+      "en": "Mo'in. See that guy up there? He hasn't moved an inch since I got here...",
+      "ru": "Моин. Видишь вон того типа? Он с места не сдвинулся с тех пор, как я пришёл.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-65a88150c292",
+      "en": "See? We're locked out now.",
+      "ru": "Вот видишь. Теперь нас не пускают внутрь.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-fe80fad476f8",
+      "en": "Hmm, no gears or goggles... You are no Corkian Human.",
+      "ru": "Хмм, ни шестерёнок, ни очков... Ты не из людей Коркуса.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -611,6 +650,30 @@
       "en": "Find Maxie outside the factory at [-1707, 75, -2610]",
       "ru": "Найти Макси у фабрики [-1707, 75, -2610].",
       "stage": "Stage 13"
+    },
+    {
+      "id": "hub-alias-4470c035b102",
+      "en": "Talk to the chief's friend at [<num>, <num>, <num>].",
+      "ru": "Поговорить с подругой вождя [-1587, 147, -3321].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-2a6dbe57678b",
+      "en": "Find the vault in Corkus City at [<num>, <num>, <num>].",
+      "ru": "Найти хранилище в Коркусе [-1498, 69, -2910].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a0864c4e0cf9",
+      "en": "Find Maxie outside the Factory at [<num>, <num>, <num>].",
+      "ru": "Найти Макси у фабрики [-1707, 75, -2610].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

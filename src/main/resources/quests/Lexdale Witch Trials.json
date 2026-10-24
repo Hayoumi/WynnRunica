@@ -188,6 +188,49 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Lexdale Witch Trials",
       "speaker": "",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-delta-932aec3a7f87",
+      "en": "Ms. Amira's home was found to be plagued with spreading Decay! We must kill the witch to protect our sanctity!",
+      "ru": "§r§#FFFFFFВ доме мисс Амиры обнаружили расползающуюся Гниль! Мы должны убить ведьму, чтобы сохранить чистоту наших душ!",
+      "speaker": "The Mayor",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-9791b402b7f2",
+      "en": "WAIT! Let me GO already! I told you what was happening!!",
+      "ru": "ДА ХВАТИТ! Да отпустите вы меня уже! Я же объяснила, что происходит!",
+      "speaker": "Amira",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-f6587161b216",
+      "en": "We cannot escape, for the sun scorches us. There is no place to go, no place we can burrow that they do not wait.",
+      "ru": "§r§#FFFFFFМы не можем бежать: солнце нас обжигает. Нам некуда идти, некуда зарыться - они ждут повсюду.",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-ead4af9e5894",
+      "en": "You... You... You have life. You have a heart, and muscle, and meat... To survive til this torture ends...",
+      "ru": "§r§#FFFFFFТы... Ты... В тебе есть жизнь. Сердце, мышцы, мясо... Чтобы продержаться, пока не кончится эта мука...",
+      "speaker": "Tunnel Dweller Chieftain",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-3c9eccd9d22f",
+      "en": "...Fine then. This...creature...bug...leech? This whatever-it-is... I'll accept your explanation.",
+      "ru": "§r§#FFFFFF...Ладно. Это... существо... жук... пиявка? В общем, чем бы оно ни было... я приму твоё объяснение.",
+      "speaker": "The Mayor",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-ea8685e5b4d2",
+      "en": "Further...intruders...? You are not of the worms...the parasites?",
+      "ru": "...Ещё... чужаки...? Вы не из тех червей... не паразиты?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -218,7 +261,7 @@
     {
       "id": "objective-0005",
       "en": "Continue to follow the creature from the tunnel at [-505, 50, -5500].",
-      "ru": "Продолжить погоню за существом от туннеля в [-505, 50, -5500].",
+      "ru": "Продолжить погоню за существом от туннеля в [-498, 49, -5405].",
       "stage": "Stage 5"
     },
     {
@@ -238,6 +281,14 @@
       "en": "Return to Lexdale and try to show the mayor the creature at [-604, 45, -5444].",
       "ru": "Вернуться в Лексдейл и попытаться показать существо мэру [-604, 45, -5444].",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-alias-730f3a4766e4",
+      "en": "Continue to follow the creature from the tunnel at [<num>, <num>, <num>]",
+      "ru": "Продолжить погоню за существом от туннеля в [-498, 49, -5405].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

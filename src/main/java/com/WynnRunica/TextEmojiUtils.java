@@ -13,11 +13,14 @@ import net.minecraft.util.Identifier;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class TextEmojiUtils {
 
     private static final StyleSpriteSource.Font WYNNCRAFT_CYRILLIC_FONT =
             new StyleSpriteSource.Font(Identifier.of("wynnrunica", "language/wynncraft_cyrillic"));
+    private static final Pattern TRAILING_NUMBER = Pattern.compile("(?:§(?:#[0-9a-fA-F]{6}|.))*[+\\-]?\\d[\\d.,/]*(?:§(?:#[0-9a-fA-F]{6}|.))*\\s*$");
     private static final StyleSpriteSource.Font SPACE_FONT =
             new StyleSpriteSource.Font(Identifier.of("minecraft", "space"));
 
@@ -272,8 +275,11 @@ public class TextEmojiUtils {
             } else {
                 int localStart = overlapStart - nodeStart;
                 int localEnd = overlapEnd - nodeStart;
-                result = Text.literal(value.substring(0, localStart)).setStyle(node.getStyle());
-                String legacy = activeLegacyCodes(value.substring(0, localStart));
+                String before = value.substring(0, localStart);
+                Matcher number = keepRightEdge && !inserted[0] ? TRAILING_NUMBER.matcher(before) : null;
+                int split = number != null && number.find() ? number.start() : before.length();
+                result = Text.literal(before.substring(0, split)).setStyle(node.getStyle());
+                String legacy = activeLegacyCodes(before);
 
                 if (!inserted[0]) {
                     int widthOrig = width.applyAsInt(Text.literal(original).setStyle(effectiveStyle));
@@ -284,6 +290,10 @@ public class TextEmojiUtils {
                             : Text.literal(new String(Character.toChars(0xD0000 + widthDelta)))
                                     .setStyle(Style.EMPTY.withFont(SPACE_FONT));
                     if (keepRightEdge) result.append(spacer);
+                    if (split < before.length()) {
+                        result.append(Text.literal(activeLegacyCodes(before.substring(0, split)) + before.substring(split))
+                                .setStyle(node.getStyle()));
+                    }
                     result.append(translatedText);
                     if (!keepRightEdge) result.append(spacer);
                     inserted[0] = true;

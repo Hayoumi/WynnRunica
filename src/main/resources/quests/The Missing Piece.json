@@ -1900,7 +1900,7 @@
     {
       "id": "dialogue-0271",
       "en": "[-1 Maintenance Key]",
-      "ru": "§#AA00AA[-1 Maintenance Key]§r",
+      "ru": "[+1 Maintenance Key]§r",
       "stage": "Stage 22",
       "speaker": ""
     },
@@ -2474,7 +2474,7 @@
     {
       "id": "dialogue-0353",
       "en": "You are alone, correct?",
-      "ru": "Вы одна, верно?",
+      "ru": "Ты один. Верно?",
       "stage": "Stage 36",
       "speaker": "Inspector"
     },
@@ -2719,7 +2719,7 @@
     {
       "id": "dialogue-0388",
       "en": "[-1 Vault Bread]",
-      "ru": "§#AA00AA[-1 Vault Bread]§r",
+      "ru": "[+1 Vault Bread]§r",
       "stage": "Stage 37",
       "speaker": ""
     },
@@ -3188,7 +3188,7 @@
     {
       "id": "dialogue-0455",
       "en": "[-1 Cracked Brick]",
-      "ru": "§#AA00AA[-1 Cracked Brick]§r",
+      "ru": "[+1 Cracked Brick]§r",
       "stage": "Stage 44",
       "speaker": ""
     },
@@ -3496,7 +3496,7 @@
     {
       "id": "dialogue-0499",
       "en": "Hmm...",
-      "ru": "Хм...",
+      "ru": "Хм?§r",
       "stage": "Stage 50",
       "speaker": "Elise"
     },
@@ -4210,7 +4210,7 @@
     {
       "id": "hub-live-dialogue-1bd986da699a",
       "en": "Oh, I know! We could have a picnic underneath its canopy. Doesn't that sound nice, tZoEsb?",
-      "ru": "§r§fО, я знаю! Мы могли бы устроить пикник под его кроной. Здорово было бы, §r§#FFEB18tZoEsb§r§f?",
+      "ru": "О, я знаю! Мы могли бы устроить пикник под его кроной. Здорово было бы, tZoEsb?",
       "speaker": "Elise",
       "stage": "Stage 17"
     },
@@ -4248,6 +4248,54 @@
       "ru": "Похоже, ты не такой великий стратег, каким себя считала, Львица.",
       "speaker": "Inquisitor",
       "stage": "Stage 50"
+    },
+    {
+      "id": "hub-alias-e86a5d255476",
+      "en": "A shame it's so hard to come by... the thefts became a real problem, you know. The Crown ended up building a vault down under the factory to keep it all secure.",
+      "ru": "Жаль, что его так трудно достать... кражи стали настоящей проблемой. Корона даже построила §#55FFFFхранилище под заводом§r, чтобы всё уберечь!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-0e3e12dcee39",
+      "en": "Are you alright!? I heard a commotion, and-",
+      "ru": "Вы в порядке!? Я услышала шум, и-",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-90949ea57869",
+      "en": "Hm. It's strange. All day, I've been... reminiscing, I suppose. And now, seeing this view... it fills me with that same, nostalgic feeling.",
+      "ru": "Хм. Странно. Весь день я... вспоминала прошлое, наверное. А теперь этот вид... снова наполняет меня тем же чувством.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-2a721f11c503",
+      "en": "So, as I was going to say—",
+      "ru": "Так вот, как я собирался сказать-",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-37802821213e",
+      "en": "So, why... why can't I just have this? This one, little thing? Why can't I remember her...?",
+      "ru": "Так почему... почему нельзя оставить мне это? Одну мелочь? Почему я не могу её вспомнить...?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-2f166e12afe9",
+      "en": "It's grown so tall... and so beautiful. Hasn't it, Syndra?",
+      "ru": "Оно стало таким высоким... и таким красивым. Правда, Синдра...?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -4440,7 +4488,7 @@
     {
       "id": "objective-0032",
       "en": "Use the beams to make it across to [-13011, 66, -2932].",
-      "ru": "Переберитесь по балкам к [-13011, 66, -2932].",
+      "ru": "Переберитесь по балкам к [-12989, 65, -2966].",
       "stage": "Stage 29"
     },
     {
@@ -4452,7 +4500,7 @@
     {
       "id": "objective-0034",
       "en": "Continue through the Bread Vault to [-13037, 53, -2933].",
-      "ru": "Пройдите дальше через хлебное хранилище к [-13037, 53, -2933].",
+      "ru": "Пройдите дальше через хлебное хранилище к [-13042, 65, -2966].",
       "stage": "Stage 31"
     },
     {
@@ -4536,31 +4584,31 @@
     {
       "id": "objective-0048",
       "en": "Carry Elise to [-1958, 40, -864].",
-      "ru": "Донесите Элизу до [-1958, 40, -864].",
+      "ru": "Донесите Элизу до [-1927, 51, -851].",
       "stage": "Stage 39"
     },
     {
       "id": "objective-0049",
       "en": "Carry Elise to [-1857, 30, -859].",
-      "ru": "Донесите Элизу до [-1857, 30, -859].",
+      "ru": "Донесите Элизу до [-1927, 51, -851].",
       "stage": "Stage 39"
     },
     {
       "id": "objective-0050",
       "en": "Carry Elise to [-1870, 29, -801].",
-      "ru": "Донесите Элизу до [-1870, 29, -801].",
+      "ru": "Донесите Элизу до [-1927, 51, -851].",
       "stage": "Stage 39"
     },
     {
       "id": "objective-0051",
       "en": "Carry Elise to [-1826, 33, -791].",
-      "ru": "Донесите Элизу до [-1826, 33, -791].",
+      "ru": "Донесите Элизу до [-1927, 51, -851].",
       "stage": "Stage 39"
     },
     {
       "id": "objective-0052",
       "en": "Carry Elise to [-1805, 42, -823].",
-      "ru": "Донесите Элизу до [-1805, 42, -823].",
+      "ru": "Донесите Элизу до [-1927, 51, -851].",
       "stage": "Stage 39"
     },
     {
@@ -4656,259 +4704,259 @@
     {
       "id": "objective-template-0001",
       "en": "Pick up your post in the Post Office at [<num>, <num>, <num>].",
-      "ru": "Заберите свою почту в почтовом отделении [<num>, <num>, <num>].",
+      "ru": "Заберите свою почту в почтовом отделении [-2156, 30, -944].",
       "stage": "Stage 1"
     },
     {
       "id": "objective-template-0002",
       "en": "Take a ticket from the Ticket Machine at [<num>, <num>, <num>].",
-      "ru": "Возьмите талон в автомате [<num>, <num>, <num>].",
+      "ru": "Возьмите талон в автомате [-2159, 30, -947].",
       "stage": "Stage 2"
     },
     {
       "id": "objective-template-0003",
       "en": "Return to the Post Office at [<num>, <num>, <num>].",
-      "ru": "Вернитесь в почтовое отделение [<num>, <num>, <num>].",
+      "ru": "Вернитесь в почтовое отделение [-2156, 30, -944].",
       "stage": "Stage 2"
     },
     {
       "id": "objective-template-0004",
       "en": "Wait in line at [<num>, <num>, <num>]",
-      "ru": "Ждите своей очереди [<num>, <num>, <num>].",
+      "ru": "Ждите своей очереди [-2156, 30, -952].",
       "stage": "Stage 3"
     },
     {
       "id": "objective-template-0005",
       "en": "Follow the Postmaster to [<num>, <num>, <num>].",
-      "ru": "Следуйте за Почтмейстером к [<num>, <num>, <num>].",
+      "ru": "Следуйте за Почтмейстером к [-2138, 31, -956].",
       "stage": "Stage 4"
     },
     {
       "id": "objective-template-0006",
       "en": "Find out about the woman on the hill around [<num>, <num>, <num>].",
-      "ru": "Узнайте о женщине на холме около [<num>, <num>, <num>].",
+      "ru": "Узнайте о женщине на холме около [-1995, 38, -878].",
       "stage": "Stage 7"
     },
     {
       "id": "objective-template-0007",
       "en": "Knock on the door at [<num>, <num>, <num>].",
-      "ru": "Постучите в дверь [<num>, <num>, <num>].",
+      "ru": "Постучите в дверь [-1910, 54, -851].",
       "stage": "Stage 8"
     },
     {
       "id": "objective-template-0008",
       "en": "Return to the house at [<num>, <num>, <num>].",
-      "ru": "Вернитесь к дому [<num>, <num>, <num>].",
+      "ru": "Вернитесь к дому [-1905, 52, -851].",
       "stage": "Stage 9"
     },
     {
       "id": "objective-template-0009",
       "en": "Follow the woman inside to [<num>, <num>, <num>].",
-      "ru": "Следуйте за женщиной внутрь к [<num>, <num>, <num>].",
+      "ru": "Следуйте за женщиной внутрь к [-1899, 55, -852].",
       "stage": "Stage 10"
     },
     {
       "id": "objective-template-0010",
       "en": "Place the letters on the table at [<num>, <num>, <num>].",
-      "ru": "Положите письма на стол [<num>, <num>, <num>].",
+      "ru": "Положите письма на стол [-1897, 53, -853].",
       "stage": "Stage 11"
     },
     {
       "id": "objective-template-0011",
       "en": "Take a seat at [<num>, <num>, <num>].",
-      "ru": "Сядьте [<num>, <num>, <num>].",
+      "ru": "Сядьте [-1897, 53, -852].",
       "stage": "Stage 13"
     },
     {
       "id": "objective-template-0012",
       "en": "Pick up the Watering Can outside at [<num>, <num>, <num>].",
-      "ru": "Возьмите лейку снаружи [<num>, <num>, <num>].",
+      "ru": "Возьмите лейку снаружи [-1895, 51, -845].",
       "stage": "Stage 14"
     },
     {
       "id": "objective-template-0013",
       "en": "Speak with Elise at [<num>, <num>, <num>].",
-      "ru": "Поговорите с Элизой [<num>, <num>, <num>].",
+      "ru": "Поговорите с Элизой [-1898, 54, -854].",
       "stage": "Stage 16"
     },
     {
       "id": "objective-template-0014",
       "en": "Follow Elise outside and take a seat at [<num>, <num>, <num>].",
-      "ru": "Выйдите вслед за Элизой и сядьте [<num>, <num>, <num>].",
+      "ru": "Выйдите вслед за Элизой и сядьте [-1901, 52, -847].",
       "stage": "Stage 17"
     },
     {
       "id": "objective-template-0015",
       "en": "Follow Elise to the roof at [<num>, <num>, <num>].",
-      "ru": "Следуйте за Элизой на крышу [<num>, <num>, <num>].",
+      "ru": "Следуйте за Элизой на крышу [-1902, 66, -850].",
       "stage": "Stage 18"
     },
     {
       "id": "objective-template-0016",
       "en": "Try to enter the Bread Factory at [<num>, <num>, <num>].",
-      "ru": "Попробуйте войти на хлебозавод [<num>, <num>, <num>].",
+      "ru": "Попробуйте войти на хлебозавод [-1979, 32, -798].",
       "stage": "Stage 19"
     },
     {
       "id": "objective-template-0017",
       "en": "Speak with Bush at [<num>, <num>, <num>].",
-      "ru": "Поговорите с Кустом [<num>, <num>, <num>].",
+      "ru": "Поговорите с Кустом [-1986, 32, -795].",
       "stage": "Stage 20"
     },
     {
       "id": "objective-template-0018",
       "en": "Enter the Bread Factory through the pipe at [<num>, <num>, <num>].",
-      "ru": "Войдите на хлебозавод через трубу [<num>, <num>, <num>].",
+      "ru": "Войдите на хлебозавод через трубу [-1931, 43, -828].",
       "stage": "Stage 21"
     },
     {
       "id": "objective-template-0019",
       "en": "Reenter the Bread Factory at [<num>, <num>, <num>].",
-      "ru": "Снова войдите на хлебозавод [<num>, <num>, <num>].",
+      "ru": "Снова войдите на хлебозавод [-1931, 43, -828].",
       "stage": "Stage 21"
     },
     {
       "id": "objective-template-0020",
       "en": "Find a way to enter the Bread Vault through the elevator at [<num>, <num>, <num>].",
-      "ru": "Найдите способ попасть в хлебное хранилище через лифт [<num>, <num>, <num>].",
+      "ru": "Найдите способ попасть в хлебное хранилище через лифт [-1947, 29, -785].",
       "stage": "Stage 22"
     },
     {
       "id": "objective-template-0021",
       "en": "Make your way through the Bread Vault to [<num>, <num>, <num>].",
-      "ru": "Пройдите через хлебное хранилище к [<num>, <num>, <num>].",
+      "ru": "Пройдите через хлебное хранилище к [-13051, 52, -2988].",
       "stage": "Stage 23"
     },
     {
       "id": "objective-template-0022",
       "en": "Find a way up to [<num>, <num>, <num>].",
-      "ru": "Найдите путь наверх к [<num>, <num>, <num>].",
+      "ru": "Найдите путь наверх к [-13060, 60, -2976].",
       "stage": "Stage 24"
     },
     {
       "id": "objective-template-0023",
       "en": "Hit the bottles at [<num>, <num>, <num>] with a Bottle.",
-      "ru": "Попадите бутылкой в бутылки [<num>, <num>, <num>].",
+      "ru": "Попадите бутылкой в бутылки [-13068, 68, -2992].",
       "stage": "Stage 25"
     },
     {
       "id": "objective-template-0024",
       "en": "Continue through the Bread Vault to [<num>, <num>, <num>].",
-      "ru": "Пройдите дальше через хлебное хранилище к [<num>, <num>, <num>].",
+      "ru": "Пройдите дальше через хлебное хранилище к [-13042, 65, -2966].",
       "stage": "Stage 26"
     },
     {
       "id": "objective-template-0025",
       "en": "Use the beams to make it across to [<num>, <num>, <num>].",
-      "ru": "Переберитесь по балкам к [<num>, <num>, <num>].",
+      "ru": "Переберитесь по балкам к [-12989, 65, -2966].",
       "stage": "Stage 27"
     },
     {
       "id": "objective-template-0026",
       "en": "Overhear the meeting at [<num>, <num>, <num>].",
-      "ru": "Подслушайте разговор [<num>, <num>, <num>].",
+      "ru": "Подслушайте разговор [-12985, 64, -2949].",
       "stage": "Stage 28"
     },
     {
       "id": "objective-template-0027",
       "en": "Acquire the bread from the barrel at [<num>, <num>, <num>].",
-      "ru": "Возьмите хлеб из бочки [<num>, <num>, <num>].",
+      "ru": "Возьмите хлеб из бочки [-13025, 65, -2925].",
       "stage": "Stage 30"
     },
     {
       "id": "objective-template-0028",
       "en": "Find the way out of the Bread Vault at [<num>, <num>, <num>].",
-      "ru": "Найдите выход из хлебного хранилища [<num>, <num>, <num>].",
+      "ru": "Найдите выход из хлебного хранилища [-13000, 52, -2905].",
       "stage": "Stage 32"
     },
     {
       "id": "objective-template-0029",
       "en": "Return to the Roughworks through the pipe at [<num>, <num>, <num>].",
-      "ru": "Вернитесь в Роухворкс через трубу [<num>, <num>, <num>].",
+      "ru": "Вернитесь в Роухворкс через трубу [-1953, 6, -911].",
       "stage": "Stage 34"
     },
     {
       "id": "objective-template-0030",
       "en": "Confront the inspection or talk to Elise at [<num>, <num>, <num>].",
-      "ru": "Дайте отпор инспекции или поговорите с Элизой [<num>, <num>, <num>].",
+      "ru": "Дайте отпор инспекции или поговорите с Элизой [-1898, 54, -854].",
       "stage": "Stage 36"
     },
     {
       "id": "objective-template-0031",
       "en": "Carry Elise to [<num>, <num>, <num>].",
-      "ru": "Донесите Элизу до [<num>, <num>, <num>].",
+      "ru": "Донесите Элизу до [-1927, 51, -851].",
       "stage": "Stage 39"
     },
     {
       "id": "objective-template-0032",
       "en": "Go into the overgrowth to [<num>, <num>, <num>].",
-      "ru": "Пройдите через заросли к [<num>, <num>, <num>].",
+      "ru": "Пройдите через заросли к [-1787, 42, -824].",
       "stage": "Stage 40"
     },
     {
       "id": "objective-template-0033",
       "en": "Enter the cave at [<num>, <num>, <num>].",
-      "ru": "Войдите в пещеру [<num>, <num>, <num>].",
+      "ru": "Войдите в пещеру [-1771, 40, -824].",
       "stage": "Stage 42"
     },
     {
       "id": "objective-template-0034",
       "en": "Reach the control panel at [<num>, <num>, <num>].",
-      "ru": "Доберитесь до пульта управления [<num>, <num>, <num>].",
+      "ru": "Доберитесь до пульта управления [-1753, 57, -824].",
       "stage": "Stage 43"
     },
     {
       "id": "objective-template-0035",
       "en": "Use the controls at [<num>, <num>, <num>] to bring Elise up.",
-      "ru": "Используйте пульт управления [<num>, <num>, <num>], чтобы поднять Элизу.",
+      "ru": "Используйте пульт управления [-1753, 57, -824], чтобы поднять Элизу.",
       "stage": "Stage 44"
     },
     {
       "id": "objective-template-0036",
       "en": "Make it to [<num>, <num>, <num>].",
-      "ru": "Доберитесь до [<num>, <num>, <num>].",
+      "ru": "Доберитесь до [-1771, 69, -824].",
       "stage": "Stage 45"
     },
     {
       "id": "objective-template-0037",
       "en": "Throw a brick at the blockage at [<num>, <num>, <num>].",
-      "ru": "Бросьте кирпич в помеху [<num>, <num>, <num>].",
+      "ru": "Бросьте кирпич в помеху [-1765, 80, -824].",
       "stage": "Stage 46"
     },
     {
       "id": "objective-template-0038",
       "en": "Follow Elise to the cliff at [<num>, <num>, <num>].",
-      "ru": "Следуйте за Элизой к обрыву [<num>, <num>, <num>].",
+      "ru": "Следуйте за Элизой к обрыву [-1796, 88, -824].",
       "stage": "Stage 49"
     },
     {
       "id": "objective-template-0039",
       "en": "Sit down at [<num>, <num>, <num>].",
-      "ru": "Сядьте [<num>, <num>, <num>].",
+      "ru": "Сядьте [-1794, 86, -825].",
       "stage": "Stage 50"
     },
     {
       "id": "objective-template-0040",
       "en": "Pick up Elise at [<num>, <num>, <num>].",
-      "ru": "Поднимите Элизу [<num>, <num>, <num>].",
+      "ru": "Поднимите Элизу [-1799, 88, -824].",
       "stage": "Stage 51"
     },
     {
       "id": "objective-template-0041",
       "en": "Bring Elise home to [<num>, <num>, <num>].",
-      "ru": "Отнесите Элизу домой [<num>, <num>, <num>].",
+      "ru": "Отнесите Элизу домой [-1898, 52, -844].",
       "stage": "Stage 52"
     },
     {
       "id": "objective-template-0042",
       "en": "Pick some of Elise's flowers around her house at [<num>, <num>, <num>].",
-      "ru": "Соберите цветы вокруг дома Элизы [<num>, <num>, <num>].",
+      "ru": "Соберите цветы вокруг дома Элизы [-1899, 54, -854].",
       "stage": "Stage 53"
     },
     {
       "id": "objective-template-0043",
       "en": "Bury Elise at [<num>, <num>, <num>].",
-      "ru": "Похороните Элизу [<num>, <num>, <num>].",
+      "ru": "Похороните Элизу [-1898, 52, -843].",
       "stage": "Stage 54"
     },
     {
@@ -4920,6 +4968,334 @@
       "id": "objective-172acd04650b",
       "en": "Confront the inspection.",
       "ru": "Встретить проверку лицом к лицу."
+    },
+    {
+      "id": "hub-alias-bc260b2378fc",
+      "en": "Pick up your post in the Post Office at [<num>, <num>, <num>]",
+      "ru": "Заберите свою почту в почтовом отделении [-2156, 30, -944].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9a7cce0f8473",
+      "en": "Take a ticket from the Ticket Machine at [<num>, <num>, <num>]",
+      "ru": "Возьмите талон в автомате [-2159, 30, -947].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-07f64ae38b05",
+      "en": "Follow the Postmaster to [<num>, <num>, <num>]",
+      "ru": "Следуйте за Почтмейстером к [-2138, 31, -956].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ba431652e906",
+      "en": "Find out about the woman on the hill around [<num>, <num>, <num>]",
+      "ru": "Узнайте о женщине на холме около [-1995, 38, -878].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ad00ca9ac368",
+      "en": "Knock on the door at [<num>, <num>, <num>]",
+      "ru": "Постучите в дверь [-1910, 54, -851].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-8732d20e552c",
+      "en": "Follow the woman inside to [<num>, <num>, <num>]",
+      "ru": "Следуйте за женщиной внутрь к [-1899, 55, -852].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-fe69b70bd695",
+      "en": "Place the letters on the table at [<num>, <num>, <num>]",
+      "ru": "Положите письма на стол [-1897, 53, -853].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-32f4481c3f44",
+      "en": "Continue the conversation with Elise.",
+      "ru": "Продолжите разговор с Элизой.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1da79396f753",
+      "en": "Take a seat at [<num>, <num>, <num>]",
+      "ru": "Сядьте [-1897, 53, -852].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-49ba175895b4",
+      "en": "Pick up the Watering Can outside at [<num>, <num>, <num>]",
+      "ru": "Возьмите лейку снаружи [-1895, 51, -845].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-3a0d560eb0cc",
+      "en": "Speak with Elise at [<num>, <num>, <num>]",
+      "ru": "Поговорите с Элизой [-1898, 54, -854].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1ea5acc38f62",
+      "en": "Follow Elise outside and take a seat at [<num>, <num>, <num>]",
+      "ru": "Выйдите вслед за Элизой и сядьте [-1901, 52, -847].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-571ed976ecf0",
+      "en": "Follow Elise to the roof at [<num>, <num>, <num>]",
+      "ru": "Следуйте за Элизой на крышу [-1902, 66, -850].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-8550105f29a7",
+      "en": "Try to enter the Bread Factory at [<num>, <num>, <num>]",
+      "ru": "Попробуйте войти на хлебозавод [-1979, 32, -798].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f93703532c73",
+      "en": "Speak with Bush at [<num>, <num>, <num>]",
+      "ru": "Поговорите с Кустом [-1986, 32, -795].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-bdb30ba282dc",
+      "en": "Enter the Bread Factory through the pipe at [<num>, <num>, <num>]",
+      "ru": "Войдите на хлебозавод через трубу [-1931, 43, -828].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9bcdb7bea186",
+      "en": "Reenter the Bread Factory at [<num>, <num>, <num>]",
+      "ru": "Снова войдите на хлебозавод [-1931, 43, -828].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-89c739119770",
+      "en": "Find a way to enter the Bread Vault through the elevator at [<num>, <num>, <num>]",
+      "ru": "Найдите способ попасть в хлебное хранилище через лифт [-1947, 29, -785].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-af2a35177c53",
+      "en": "Make your way through the Bread Vault to [<num>, <num>, <num>]",
+      "ru": "Пройдите через хлебное хранилище к [-13051, 52, -2988].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-dd229f3184cb",
+      "en": "Find a way up to [<num>, <num>, <num>]",
+      "ru": "Найдите путь наверх к [-13060, 60, -2976].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e12baca37e26",
+      "en": "Hit the bottles at [<num>, <num>, <num>] with a Bottle",
+      "ru": "Попадите бутылкой в бутылки [-13068, 68, -2992].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f794ef0b8a1d",
+      "en": "Continue through the Bread Vault to [<num>, <num>, <num>]",
+      "ru": "Пройдите дальше через хлебное хранилище к [-13042, 65, -2966].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-901bd2a32c5c",
+      "en": "Use the beams to make it across to [<num>, <num>, <num>]",
+      "ru": "Переберитесь по балкам к [-12989, 65, -2966].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-5a27f1639c62",
+      "en": "Overhear the meeting at [<num>, <num>, <num>]",
+      "ru": "Подслушайте разговор [-12985, 64, -2949].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-031cac7d359e",
+      "en": "Acquire the bread from the barrel at [<num>, <num>, <num>]",
+      "ru": "Возьмите хлеб из бочки [-13025, 65, -2925].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-5de0ebeafca9",
+      "en": "Find the way out of the Bread Vault at [<num>, <num>, <num>]",
+      "ru": "Найдите выход из хлебного хранилища [-13000, 52, -2905].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f7fd69b9e1ca",
+      "en": "Return to the Roughworks through the pipe at [<num>, <num>, <num>]",
+      "ru": "Вернитесь в Роухворкс через трубу [-1953, 6, -911].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-65d433441974",
+      "en": "Return to the house at [<num>, <num>, <num>]",
+      "ru": "Вернитесь к дому [-1905, 52, -851].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ac346ab5c140",
+      "en": "Confront the inspection or talk to Elise at [<num>, <num>, <num>]",
+      "ru": "Дайте отпор инспекции или поговорите с Элизой [-1898, 54, -854].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-c8314a5f3788",
+      "en": "Carry Elise to [<num>, <num>, <num>]",
+      "ru": "Донесите Элизу до [-1927, 51, -851].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-cabfd2e3559b",
+      "en": "Go into the overgrowth to [<num>, <num>, <num>]",
+      "ru": "Пройдите через заросли к [-1787, 42, -824].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-b2653c20f8d6",
+      "en": "Enter the cave at [<num>, <num>, <num>]",
+      "ru": "Войдите в пещеру [-1771, 40, -824].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a83a75e940dd",
+      "en": "Reach the control panel at [<num>, <num>, <num>]",
+      "ru": "Доберитесь до пульта управления [-1753, 57, -824].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-10f99d41cf23",
+      "en": "Make it to [<num>, <num>, <num>]",
+      "ru": "Доберитесь до [-1771, 69, -824].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-2ebc04c54c06",
+      "en": "Throw a brick at the blockage at [<num>, <num>, <num>]",
+      "ru": "Бросьте кирпич в помеху [-1765, 80, -824].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-c10f728b91a8",
+      "en": "Follow Elise to the cliff at [<num>, <num>, <num>]",
+      "ru": "Следуйте за Элизой к обрыву [-1796, 88, -824].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-edd9b92c3b8b",
+      "en": "Sit down at [<num>, <num>, <num>]",
+      "ru": "Сядьте [-1794, 86, -825].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-72050e69622e",
+      "en": "Pick up Elise at [<num>, <num>, <num>]",
+      "ru": "Поднимите Элизу [-1799, 88, -824].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a5367926a27e",
+      "en": "Bring Elise home to [<num>, <num>, <num>]",
+      "ru": "Отнесите Элизу домой [-1898, 52, -844].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-44f4f7b0ba81",
+      "en": "Pick some of Elise's flowers around her house at [<num>, <num>, <num>]",
+      "ru": "Соберите цветы вокруг дома Элизы [-1899, 54, -854].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-c033fb49fa53",
+      "en": "Bury Elise at [<num>, <num>, <num>]",
+      "ru": "Похороните Элизу [-1898, 52, -843].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": [
@@ -5136,7 +5512,7 @@
     {
       "id": "choice-0031",
       "en": "Fine...",
-      "ru": "Хорошо...",
+      "ru": "Ладно.",
       "stage": "Stage 19",
       "dialogueId": "dialogue-0205"
     },
@@ -5192,14 +5568,14 @@
     {
       "id": "choice-0039",
       "en": "Yes",
-      "ru": "Да",
+      "ru": "Да.",
       "stage": "Stage 22",
       "dialogueId": "dialogue-0274"
     },
     {
       "id": "choice-0040",
       "en": "No",
-      "ru": "Нет",
+      "ru": "Нет.",
       "stage": "Stage 22",
       "dialogueId": "dialogue-0274"
     },
@@ -5339,7 +5715,7 @@
     {
       "id": "choice-0060",
       "en": "Hide.",
-      "ru": "Спрятаться.",
+      "ru": "Спрячьтесь!",
       "stage": "Stage 36",
       "dialogueId": "dialogue-0349"
     },
@@ -5465,7 +5841,7 @@
     {
       "id": "choice-0078",
       "en": "Elise?",
-      "ru": "Элиза?",
+      "ru": "Элиза...",
       "stage": "Stage 52",
       "dialogueId": "dialogue-0598"
     }

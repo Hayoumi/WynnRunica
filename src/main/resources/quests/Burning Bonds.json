@@ -701,6 +701,62 @@
       "en": "Defeat Abramod.",
       "ru": "Победить Абрамода.",
       "stage": "Stage 7"
+    },
+    {
+      "id": "hub-alias-f3793113ef2c",
+      "en": "Speak to Abramod at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Абрамодом [-1381, 51, -648].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-0fc734b1ab77",
+      "en": "Meet Abramod near the lightning struck tree at [<num>, <num>, <num>]",
+      "ru": "Встретиться с Абрамодом у дерева, поражённого молнией, [-1434, 62, -532].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9bdd64daf6ec",
+      "en": "Meet Abramod in the mountain grove at [<num>, <num>, <num>]",
+      "ru": "Встретиться с Абрамодом в горной роще [-1164, 118, -578].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-da79a9286d64",
+      "en": "Meet Abramod outside of the cave at [<num>, <num>, <num>]",
+      "ru": "Встретиться с Абрамодом у входа в пещеру [-1138, 45, -620].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1809a6de541a",
+      "en": "Return to Abramod's camp at [<num>, <num>, <num>]",
+      "ru": "Вернуться в лагерь Абрамода [-1379, 51, -654].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-978f6e76e785",
+      "en": "Craft the medallion",
+      "ru": "Изготовить медальон.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-765d9a9027ed",
+      "en": "Defeat Abramod",
+      "ru": "Победить Абрамода.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": [
@@ -721,7 +777,7 @@
     {
       "id": "choice-0003",
       "en": "No",
-      "ru": "Нет",
+      "ru": "НЕТ!§r",
       "stage": "Stage 1",
       "dialogueId": "dialogue-0008"
     },
@@ -735,7 +791,7 @@
     {
       "id": "choice-0005",
       "en": "No",
-      "ru": "Нет",
+      "ru": "НЕТ!§r",
       "stage": "Stage 2",
       "dialogueId": "dialogue-0037"
     },
@@ -749,7 +805,7 @@
     {
       "id": "choice-0007",
       "en": "No",
-      "ru": "Нет",
+      "ru": "НЕТ!§r",
       "stage": "Stage 3",
       "dialogueId": "dialogue-0056"
     },
@@ -763,7 +819,7 @@
     {
       "id": "choice-0009",
       "en": "No",
-      "ru": "Нет",
+      "ru": "НЕТ!§r",
       "stage": "Stage 5",
       "dialogueId": "dialogue-0081"
     },
@@ -777,7 +833,7 @@
     {
       "id": "choice-0011",
       "en": "No",
-      "ru": "Нет",
+      "ru": "НЕТ!§r",
       "stage": "Stage 6",
       "dialogueId": "dialogue-0083"
     }

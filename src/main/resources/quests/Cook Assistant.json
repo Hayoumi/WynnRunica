@@ -108,7 +108,7 @@
     {
       "id": "dialogue-0015",
       "en": "I can't believe what is happening to me.",
-      "ru": "Поверить не могу, что со мной творится.",
+      "ru": "Не могу поверить, что со мной происходит.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 1"
     },
@@ -129,9 +129,24 @@
     {
       "id": "hub-live-dialogue-b29bcbeb7a20",
       "en": "Now, how can you help...",
-      "ru": "§r§fТак, чем бы ты мог помочь...",
+      "ru": "Так, чем бы ты мог помочь...",
       "speaker": "The Cook",
       "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-55827949b417",
+      "en": "Aha! There it is again! Quick, chase after that Grook !",
+      "ru": "§r§fАга! Вот он опять! Скорее, §r§bгонись за тем Груком§r§f!",
+      "speaker": "The Cook",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-74535fdcc31b",
+      "en": "What are you doing? Go after the Grook!",
+      "ru": "Ты чего стоишь? Беги за Груком...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -168,7 +183,7 @@
     {
       "id": "hub-objective-317805e8e593",
       "en": "Talk to the Cook in Ragni at [<num>, <num>, <num>]",
-      "ru": "Поговорить с поваром в Рагни [<num>, <num>, <num>].",
+      "ru": "Поговорить с поваром в Рагни [-854, 67, -1563].",
       "stage": "Stage 1"
     },
     {
@@ -185,7 +200,15 @@
     {
       "id": "hub-objective-130213b40efb",
       "en": "Return to the cook at [<num>, <num>, <num>] Use a Scroll to get there faster",
-      "ru": "Вернуться к повару [<num>, <num>, <num>]. Свиток поможет добраться быстрее."
+      "ru": "Вернуться к повару. Свиток поможет добраться быстрее [-854, 67, -1563]."
+    },
+    {
+      "id": "hub-alias-ae421605c0ba",
+      "en": "The Grook got away! Return to the Cook at [<num>, <num>, <num>] to figure out what to do",
+      "ru": "Грук удрал! Вернуться к повару и решить, что делать дальше [-854, 67, -1563].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

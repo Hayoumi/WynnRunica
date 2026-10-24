@@ -962,28 +962,28 @@
     {
       "id": "dialogue-0137",
       "en": "This is enough, Lari. I waken. And thus, your task is complete, . You have done as Orphion asked.",
-      "ru": "Довольно, Лари. Я пробуждаюсь. Значит, твоя задача выполнена. Ты сделал то, о чём просил Орфион.",
+      "ru": "Довольно, Лари. Я пробуждаюсь. А значит, твоя задача выполнена, <playername>. Ты сделал то, о чём просил Орфион.",
       "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
       "stage": "Stage 16"
     },
     {
       "id": "dialogue-0138",
       "en": "For now, must learn what you have learned, of the nature of realms. They must know what you know if they are to aid you fully.",
-      "ru": "А пока нужно узнать то же, что узнала ты, о природе миров. Чтобы помогать тебе в полной мере, нужно знать то, что знаешь ты.",
+      "ru": "А пока <playername> должен узнать то же, что узнала ты, о природе миров. Чтобы он мог помочь тебе в полной мере, он должен знать то, что знаешь ты.",
       "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
       "stage": "Stage 16"
     },
     {
       "id": "dialogue-0139",
       "en": "Allow me to show you our reality, . It is difficult to properly present its scale... So here is an approximation.",
-      "ru": "Позволь показать тебе нашу реальность. Её масштаб трудно передать... Так что вот примерная схема.",
+      "ru": "Позволь показать тебе нашу реальность, <playername>. Её масштаб сложно передать как следует... Так что вот хотя бы примерная схема.",
       "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
       "stage": "Stage 16"
     },
     {
       "id": "dialogue-0140",
       "en": "Enter the portal, . I shall show you the Gateway to Light... And I shall wish you luck.",
-      "ru": "Входи в портал. Я покажу тебе Врата Света... И пожелаю удачи.",
+      "ru": "Входи в портал, <playername>. Я покажу тебе §r§d§lВрата Света...§r§b§l И пожелаю удачи.",
       "speaker": "ВЫБОРЫ И РЕПЛИКИ (добито по вики)",
       "stage": "Stage 16"
     },
@@ -1021,6 +1021,28 @@
       "ru": "Эх... Видишь? Ничего не происходит. Я уже не знаю, что делать. Может, у тебя получится что-то изменить. Раньше ведь получалось.",
       "speaker": "Lari",
       "stage": "Stage 1"
+    },
+    {
+      "id": "hub-delta-50be17aa9dfc",
+      "en": "There's not another inscription...it's just the same words! What does it mean by \"dire actions?!\" I've done everything I can think of!",
+      "ru": "Тут нет новой надписи... тут всё те же слова! Что вообще значит \"крайние меры\"?! Я уже перепробовала всё, что только могла придумать!",
+      "speaker": "Lari",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-c3a38dccb1ac",
+      "en": "What, are you thinking \"oh, let's follow the funny elf girl and see her FAIL, OVER and OVER AGAIN!?\" IS THAT IT?!",
+      "ru": "Что, решил такой: \"О, а давай-ка пойдём за этой смешной эльфийкой и посмотрим, как она СНОВА И СНОВА ЛАЖАЕТСЯ!?\" ДА, ЧТО ЛИ?!",
+      "speaker": "Lari",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-358388b71b64",
+      "en": "...GRAAAAAUGH!! TELL ME HOW THIS IS \"ENOUGH!\" TELL ME, NOW!",
+      "ru": "...АААААААХ!! ОБЪЯСНИ МНЕ, КАК ЭТО МОЖЕТ БЫТЬ \"ДОСТАТОЧНО\"! ОБЪЯСНИ МНЕ, СЕЙЧАС ЖЕ!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -1134,6 +1156,30 @@
       "id": "objective-520820965390",
       "en": "Listen to the Guardian and enter the Gateway to Light",
       "ru": "Выслушать Хранителя и войти во Врата Света."
+    },
+    {
+      "id": "hub-alias-bda43665a001",
+      "en": "Find the Church Library in the city of Cinfras at [<num>, <num>, <num>]",
+      "ru": "Найти церковную библиотеку в Синфрасе [-469, 47, -4996].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-3319646063c1",
+      "en": "Enter the portal Lari left behind.",
+      "ru": "Войти в портал, оставленный Лари.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-0cdd77acd74c",
+      "en": "Return to the Tree at [<num>, <num>, <num>]",
+      "ru": "Вернуться к дереву [-1123, 46, -4771].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

@@ -315,6 +315,26 @@
           "id": "inherited-a6c9d26047d58eeb",
           "en": "<num> DPS",
           "ru": "<num> Урона/Сек"
+        },
+        {
+          "id": "variants-44cec243b815eaea2333",
+          "en": "<em><num>%, and <em><num>%, but further",
+          "ru": "<em>§2<num>%§7 и <em>§c<num>%§7, но ещё сильнее"
+        },
+        {
+          "id": "variants-8464dc6d638e85f86b93",
+          "en": "delays Final Crush. Boiling",
+          "ru": "задерживает Финальный Удар. Кипящая"
+        },
+        {
+          "id": "variants-2e56e75eea46906ae8b5",
+          "en": "<num>s, deals <em><num>%, <em><num>%, and",
+          "ru": "<num>с, наносит <em>§6<num>%§7 и <em>§c<num>%§7 урона и"
+        },
+        {
+          "id": "variants-659ca3cd578fd7849d5c",
+          "en": "burns twice as fast for <num>s.",
+          "ru": "обжигает вдвое быстрее в течение <num>с."
         }
       ]
     },
@@ -660,6 +680,26 @@
           "id": "line-4773aecd89595849",
           "en": "<em>user.",
           "ru": "<em>§7владельца."
+        },
+        {
+          "id": "variants-3cdfe0c804ccbf62ac09",
+          "en": "will heal allies for the sum",
+          "ru": "исцеляет союзников на сумму"
+        },
+        {
+          "id": "variants-629cda7536182616a23c",
+          "en": "of your total Health Regen",
+          "ru": "ваших характеристик"
+        },
+        {
+          "id": "variants-412685d31d5fb57689dd",
+          "en": "IDs (Affected by Healing",
+          "ru": "Восстановления Здоровья (зависит"
+        },
+        {
+          "id": "variants-3b7b8424f980a60fca74",
+          "en": "Efficiency).",
+          "ru": "от Эффективности Исцеления)."
         }
       ]
     },
@@ -1215,6 +1255,41 @@
           "id": "line-db14395cb816dd8a",
           "en": "all elements.",
           "ru": "между всеми стихиями."
+        },
+        {
+          "id": "item-prose-44c22a04c673848d7647",
+          "en": "<em>The most dangerous enemy is one",
+          "ru": "<em>Самый опасный враг - тот,"
+        },
+        {
+          "id": "item-prose-936243f3e4ba7e6dfa4c",
+          "en": "<em>you cannot see. Hidden amidst a",
+          "ru": "<em>кого не видно. В вихре лепестков"
+        },
+        {
+          "id": "item-prose-78ec9ca587fa7ade708f",
+          "en": "<em>flurry of petals comes an",
+          "ru": "<em>скрывается лавина ударов."
+        },
+        {
+          "id": "item-prose-a49cc46de91e7a9cdfe5",
+          "en": "<em>avalanche of blows, in one moment",
+          "ru": "<em>В один миг она сливает"
+        },
+        {
+          "id": "item-prose-8a43beb6419a7ac59db2",
+          "en": "<em>dissolving mountains and forests",
+          "ru": "<em>горы и леса в растущую массу,"
+        },
+        {
+          "id": "item-prose-472c05a0f654f03ee32a",
+          "en": "<em>into a growing amalgam, leaving a",
+          "ru": "<em>а в следующий оставляет за собой"
+        },
+        {
+          "id": "item-prose-81c61f89b75ef32db088",
+          "en": "<em>wake of vibrant bloom in the next.",
+          "ru": "<em>след буйного цветения."
         }
       ]
     },
@@ -3300,6 +3375,26 @@
           "id": "line-4773aecd89595849",
           "en": "<em>user.",
           "ru": "<em>§7владельца."
+        },
+        {
+          "id": "item-prose-aed6e0a3ffe05df7c992",
+          "en": "will heal allies for the sum",
+          "ru": "исцеляет союзников на сумму"
+        },
+        {
+          "id": "item-prose-c772e6f804f27b9a0725",
+          "en": "of your total Health Regen",
+          "ru": "ваших характеристик"
+        },
+        {
+          "id": "item-prose-7aca3a137b55abf7c4f5",
+          "en": "IDs (Affected by Healing",
+          "ru": "Восстановления Здоровья (зависит"
+        },
+        {
+          "id": "item-prose-1a9eea9f46f9c78b7b04",
+          "en": "Efficiency).",
+          "ru": "от Эффективности Исцеления)."
         }
       ]
     },
@@ -3405,6 +3500,26 @@
           "id": "hub-major-body-line-a4ced723a65b91f7",
           "en": "their poison to nearby mobs.",
           "ru": "заражают ядом соседних мобов."
+        },
+        {
+          "id": "short-gui-5a42156ffd7497b0e166",
+          "en": "<em>󐀂Plague: <num>% of Poison's",
+          "ru": "<em>󐀂Чума: §7<num>% урона от яда"
+        },
+        {
+          "id": "short-gui-354c57803aaed4f77d2f",
+          "en": "damage is dealt in a <num> block",
+          "ru": "наносится в радиусе <num> блоков"
+        },
+        {
+          "id": "short-gui-4a20d0b804e0d4bb6a93",
+          "en": "radius around each Poisoned",
+          "ru": "вокруг каждого отравленного"
+        },
+        {
+          "id": "short-gui-a78d579d8b8a98a5cc89",
+          "en": "enemy.",
+          "ru": "противника."
         }
       ]
     },
@@ -3540,6 +3655,31 @@
           "id": "hub-major-body-line-4b00cd1e9afd532a",
           "en": "charges <num>% as fast.",
           "ru": "накапливается со скоростью <num>% от прежней."
+        },
+        {
+          "id": "remaining-gui-ff8b4192c8ba28a7bc73",
+          "en": "Enraged Blow grant <num>% less",
+          "ru": "Яростный Удар дают на <num>% меньше"
+        },
+        {
+          "id": "remaining-gui-4a8e7275303045b787ef",
+          "en": "damage, but have their caps",
+          "ru": "урона, но их пределы"
+        },
+        {
+          "id": "remaining-gui-a72df49e781561a7fcd7",
+          "en": "increased by <num>%. Corrupted",
+          "ru": "увеличены на <num>%. Порча"
+        },
+        {
+          "id": "remaining-gui-a6e5c6caf375bce32398",
+          "en": "lasts twice as long and can",
+          "ru": "длится вдвое дольше и может"
+        },
+        {
+          "id": "remaining-gui-308aa0e5e44d6cc978b8",
+          "en": "go up to <num>%.",
+          "ru": "достигать <num>%."
         }
       ]
     },

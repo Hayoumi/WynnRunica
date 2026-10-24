@@ -430,7 +430,7 @@
     {
       "id": "dialogue-0061",
       "en": "..... .. ..... . . . . ...",
-      "ru": "..... .. ..... . . . . ...",
+      "ru": "... . .. .",
       "speaker": "Wedyf",
       "stage": "Stage 8"
     },
@@ -486,9 +486,38 @@
     {
       "id": "hub-live-dialogue-730dd3d1ed95",
       "en": "Be careful with the weapons, you will only get  [ONE] of each. If you lose one, you will have to ask around if anyone has a spare",
-      "ru": "§r§fОсторожнее с этим оружием, ты получишь только §r§3§l[ОДНУ]§r§f штуку каждого вида. Потеряешь - придётся искать, не завалялось ли у кого лишнее.",
+      "ru": "Осторожнее с этим оружием, ты получишь только §r§3§l[ОДНУ]§r§f штуку каждого вида. Потеряешь - придётся искать, не завалялось ли у кого лишнее.",
       "speaker": "The Blacksmith",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-20261019-dialogue-98ac527b984e",
+      "en": "[<num> Depressing Stick], [<num> Depressing Spear], [<num> Depressing Bow] and [<num> Depressing Shears] will do the trick.",
+      "ru": "Нужны [1 Depressing Stick], [1 Depressing Spear], [1 Depressing Bow] и [1 Depressing Shears]. Этого хватит.",
+      "speaker": "The Blacksmith",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-a764a04e4d2d",
+      "en": "Bring me [<num> Depressing Stick], [<num> Depressing Spear], [<num> Depressing Bow] and [<num> Depressing Shear] so I can extract the soul from them.",
+      "ru": "§r§fПринеси мне §r§3[<num> Depressing Stick]§r§f, §r§3[<num> Depressing Spear]§r§f, §r§3[<num> Depressing Bow]§r§f и §r§3[<num> Depressing Shear]§r§f, чтобы я мог извлечь из них душу.",
+      "speaker": "The Blacksmith",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-07379cc75d84",
+      "en": "Brr... It's a little bit cold out there, don't you think?",
+      "ru": "§r§fБрр... Холодновато тут, не находишь?",
+      "speaker": "Tarod",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-e4f992d1b8d6",
+      "en": "Be careful with the weapons, you will only get [ONE] of each. If you lose one, you will have to ask around if anyone has a spare",
+      "ru": "Осторожнее с этим оружием, ты получишь только §r§3§l[ОДНУ]§r§f штуку каждого вида. Потеряешь - придётся искать, не завалялось ли у кого лишнее.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -576,6 +605,22 @@
       "id": "objective-5fe222382e06",
       "en": "Report back what you've seen to Tarod at [<num>, <num>, <num>]",
       "ru": "Рассказать Тароду об увиденном [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-alias-f69a3ac5a0bd",
+      "en": "Bring [<num> Depressing Stick], [<num> Depressing Spear], [<num> Depressing Bow] and [<num> Depressing Shear] to the Blacksmith",
+      "ru": "Принести кузнецу [1 Depressing Stick], [1 Depressing Spear], [1 Depressing Bow] и [1 Depressing Shear].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-cfdd3cd74084",
+      "en": "Find Bob's corpse in his tomb",
+      "ru": "Найти тело Боба в его гробнице.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

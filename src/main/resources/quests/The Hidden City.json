@@ -517,6 +517,43 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55The Hidden City",
       "speaker": "",
       "stage": "Stage 15"
+    },
+    {
+      "id": "hub-20261019-dialogue-2b1271ad3968",
+      "en": "If you have any questions, go to the waiting room and wait for your turn, not run into my office willy-nilly! You'd have to be level <num> for that luxury.",
+      "ru": "§r§fЕсли есть вопросы, иди в приёмную и жди своей очереди, а не врывайся ко мне в кабинет когда вздумается! Для такой роскоши тебе нужен хотя бы <num>-й уровень.",
+      "speaker": "Eoric",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-51455cf9e186",
+      "en": "I wrote the location of the city in your content book. There's nothing else I can do to help you.",
+      "ru": "§r§fЯ записал в твой Content Book, где находится город. Больше ничем помочь не могу.",
+      "speaker": "Narder",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-8df4dae9381e",
+      "en": "Hello! I am Hilan, the master of Eltom's Airbase.",
+      "ru": "§r§fПривет! Я Хилан, начальник авиабазы Эльтома.",
+      "speaker": "Hilan",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-1adf7664695b",
+      "en": "A human? Agh! Don't worry about getting me medical attention, I've got this under control...",
+      "ru": "Человек! Ай! Не надо звать врача, я справлюсь...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-66982ac51c79",
+      "en": "The only suspicious thing I've seen is a hooded man walking around. There's not many people in Eltom, so it's weird.",
+      "ru": "Единственное странное, что я видел, - это какого-то человека в капюшоне. В Эльтоме и так людей немного, так что это выглядит подозрительно.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -621,6 +658,62 @@
       "en": "Talk to Thesead's Mayor at the top of Thesead.",
       "ru": "Поговорить с мэром Тесеада в верхней части города.",
       "stage": "Stage 16"
+    },
+    {
+      "id": "hub-alias-8119ea4546a9",
+      "en": "Head to [<num>, <num>, <num>] to find the human town",
+      "ru": "Отправиться в [890, 47, -5388] и найти город людей.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-8c3f16ae7cf4",
+      "en": "Talk to Eltom Guard",
+      "ru": "Поговорить со стражником Эльтома.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-b3e36b95cf96",
+      "en": "Ask Eltom Citizens about the note",
+      "ru": "Расспросить жителей Эльтома о записке.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-b167bcb32b2f",
+      "en": "Inspect the house",
+      "ru": "Осмотреть дом.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ead76ceae431",
+      "en": "Talk to Hilan",
+      "ru": "Поговорить с Хиланом.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-487d18378f37",
+      "en": "Board the Eltom Cargo Ship",
+      "ru": "Подняться на борт грузового корабля Эльтома.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-031e5dee7270",
+      "en": "Escape your cell and find a way to sabotage the ship",
+      "ru": "Сбежать из камеры и найти способ вывести корабль из строя.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

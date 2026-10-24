@@ -363,14 +363,14 @@
     {
       "id": "fresh-source-2560cb089097b17f",
       "en": "If you need to retreat, or the corrupteds are slain, regroup here! Understood?",
-      "ru": "§r§#FFFFFFЕсли придётся отступать или когда с заражёнными будет покончено, §r§#55FFFFсобирайтесь здесь!§r§#FFFFFF Поняли?",
+      "ru": "Если придётся отступать или когда с заражёнными будет покончено, §bсобирайтесь здесь!§r| Поняли?",
       "speaker": "Lieutenant Van",
       "stage": ""
     },
     {
       "id": "fresh-source-74e58874757ba5a9",
       "en": "They have, lieutenant! <playername> and I reached the top and defeated the corrupted.",
-      "ru": "§r§#FFFFFFТак точно, лейтенант. Мы с <playername> добрались до вершины и одолели заражённого.",
+      "ru": "Так точно, лейтенант. Мы с <playername> добрались до вершины и одолели заражённого.",
       "speaker": "Aledar",
       "stage": ""
     },
@@ -387,6 +387,53 @@
       "ru": "§r§fОтлично сражался, <playername>! Я пока вернусь в Детлас и посмотрю, чем ещё могу там помочь.",
       "speaker": "Aledar",
       "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-9607dbb6c09f",
+      "en": "Hey, <playername>, there you are! Come on, let's climb that tower!",
+      "ru": "§r§fЭй, <playername>, вот ты где! Пошли, заберёмся на ту башню!",
+      "speaker": "Aledar",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-8355cb819fd7",
+      "en": "Apparently, the big bad at the top of the tower is weak to Water damage!",
+      "ru": "Говорят, главарь на вершине башни уязвим к урону §bводой§r!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-de800312e03f",
+      "en": "In this case, you can apply a Water powder, so that your weapon will be more effective against the corrupted enemies at the tower!",
+      "ru": "В этом случае нанеси порошок §bводы§r, чтобы твоё оружие лучше справлялось с заражёнными врагами у башни!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-44b4f7195cf9",
+      "en": "...Anyway, Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs - you probably saw it on your way in.",
+      "ru": "...В общем, лейтенант Ван и остальные стоят у §bтех домов в пригороде Детласа§r. Ты, наверное, видел их по дороге сюда.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-6492485952ab",
+      "en": "Let's keep going! Lieutenant Van and the others are by that bunch of houses in the Detlas Suburbs , remember?",
+      "ru": "Пошли дальше! Лейтенант Ван и остальные стоят у §bтех домов в пригороде Детласа§f, помнишь?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-2d29e7fe968a",
+      "en": "In this case, you can apply a Water powder, so that your weapon will be more effective against the corrupted enemies at the tower",
+      "ru": "В этом случае нанеси порошок §bводы§r, чтобы твоё оружие лучше справлялось с заражёнными врагами у башни!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -430,6 +477,14 @@
       "id": "objective-a0968b3cdd50",
       "en": "Follow Aledar to the Item Upgrader at [<num>, <num>, <num>].",
       "ru": "Идти за Аледаром к Улучшателю Предметов [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-alias-f1f873ac4a21",
+      "en": "Assault the Raging Tower at [<num>, <num>, <num>] and defeat the monster at the top",
+      "ru": "Взять Яростную башню штурмом и победить чудовище на вершине [155, 67, -1698].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

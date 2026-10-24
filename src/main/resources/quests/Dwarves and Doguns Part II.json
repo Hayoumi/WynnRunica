@@ -136,7 +136,7 @@
     {
       "id": "dialogue-0019",
       "en": "<playername>, follow the southern road from Rodoroc, towards the Sky Islands entrance. I'll be waiting there for you near the armoury.",
-      "ru": "<playername>, иди по южной дороге из Родорока, в сторону входа на Небесные острова. Я буду ждать тебя там у оружейной.",
+      "ru": "§r§f<playername>, §r§bиди по южной дороге из Родорока, в сторону входа на Небесные острова.§r§f Я буду ждать тебя там у оружейной.",
       "speaker": "Axelus",
       "stage": "Stage 2"
     },
@@ -220,7 +220,7 @@
     {
       "id": "dialogue-0031",
       "en": "Those black bricks look breakable...but that won't solve the door, will it?",
-      "ru": "Эти чёрные кирпичи вроде можно разбить... но дверь-то это не откроет, да?",
+      "ru": "§r§fЭти чёрные §r§bкирпичи вроде можно разбить§r§f... но дверь-то это не откроет, да?",
       "speaker": "Axelus",
       "stage": "Stage 4"
     },
@@ -503,6 +503,21 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Dwarves and Doguns Part II",
       "speaker": "",
       "stage": "Stage 12"
+    },
+    {
+      "id": "hub-20261019-dialogue-8e5cff9172b3",
+      "en": "[New Quest Started: Dwarves and Doguns Part II]",
+      "ru": "Новый квест: §#FFFF55Dwarves and Doguns Part II",
+      "speaker": "Dogun Chieftain",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-4f3f001dda7e",
+      "en": "The human and I will sneak into the armoury and sabotage their equipment. Korzim will help you Doguns evacuate someplace safer.",
+      "ru": "Мы с человеком проберёмся в оружейную и выведем из строя их снаряжение, а Корзим поможет вам, Догунам, уйти в более безопасное место.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -577,6 +592,14 @@
       "en": "Exit the palace",
       "ru": "Покинуть дворец.",
       "stage": "Stage 12"
+    },
+    {
+      "id": "hub-alias-ed53a653a3ce",
+      "en": "Meet up with Axelus at [<num>, <num>, <num>]",
+      "ru": "Встретиться с Акселусом [1383, 13, -5088].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

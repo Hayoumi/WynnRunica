@@ -255,16 +255,74 @@
     {
       "id": "dialogue-0036",
       "en": "Will you help Coulmis?",
-      "ru": "Ты поможешь Коулмису?",
+      "ru": "§r§7Ты поможешь Коулмису?",
       "speaker": "",
       "stage": "Stage 1"
     },
     {
       "id": "dialogue-0037",
       "en": "New Quest Started: The Thanos Depository",
-      "ru": "§#FFAA00Новый квест: §#FFFF55The Thanos Depository",
+      "ru": "§#FFAA00§lНовый квест: §#FFFF55§lThe Thanos Depository§r§f",
       "speaker": "",
       "stage": "Stage 1"
+    },
+    {
+      "id": "hub-20261019-dialogue-ad36df358687",
+      "en": "Stop right there! I couldn't just let a vagabond wander in to the vault, you'll be killed!",
+      "ru": "§r§fСтой! Не могу же я просто пустить бродягу в хранилище, тебя там убьют!",
+      "speaker": "Coulmis",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-01673620f5ad",
+      "en": "Perhaps you've seen its lair above our city. Normally she leaves us unharmed, but one day she suddenly made her way in to this vault.",
+      "ru": "Может, ты видел её логово над нашим городом. Обычно она нас не трогала, но в один день вдруг полезла прямо в это хранилище.",
+      "speaker": "Coulmis",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-581bb78df0f1",
+      "en": "<playername>... where have I heard that name before... Oh, I remember! You're the one who defeated that Qira woman, yeah?",
+      "ru": "§r§f<playername>... где-то я уже слышал это имя... А, вспомнил! Это ты победил ту Киру, да?",
+      "speaker": "Coulmis",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-bdb6d6062869",
+      "en": "You have to go through this chamber behind me to reach the depository. Our only other way in is right where the dragon is...",
+      "ru": "§r§fЧтобы попасть в хранилище, тебе придётся пройти через зал у меня за спиной. Другой вход как раз там, где сидит дракон...",
+      "speaker": "Coulmis",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-e587cba875d1",
+      "en": "Now that I look, say, that gear of yours is pretty high quality, yeah? What's your name?",
+      "ru": "Хотя погоди... снаряжение у тебя, смотрю, добротное, а? Как тебя зовут?",
+      "speaker": "Coulmis",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-ee210ca89aff",
+      "en": "I don't normally ask this of strangers, but we've run ourselves thin. Do you think you're up to help? I'll make sure it is worth all your trouble.",
+      "ru": "§r§fОбычно я не прошу о таком незнакомцев, но наши силы на исходе. Думаешь, сможешь помочь? Я позабочусь о том, чтобы ты получил достойную награду.",
+      "speaker": "Coulmis",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-64f48beee78c",
+      "en": "You really got it!? Hurry then, the nest is up through this cave! Maybe Thanos can finally be rid of its woes...",
+      "ru": "Ты и правда добыл его!? Тогда скорее, гнездо наверху, через эту пещеру! Может, Танос наконец-то избавится от своих бед...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-6f6859f73413",
+      "en": "<playername>..? I see, I haven't seen you around before.",
+      "ru": "<playername>, значит. Раньше я тебя тут не видел.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -321,6 +379,14 @@
       "en": "Talk to Atila.",
       "ru": "Поговорить с Атилой.",
       "stage": "Stage 9"
+    },
+    {
+      "id": "hub-alias-375e404edad0",
+      "en": "Steal Ozoth's egg, and escape the depository",
+      "ru": "Украсть яйцо Озот и сбежать из хранилища.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

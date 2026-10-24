@@ -524,6 +524,22 @@
       "ru": "Найди, как мне подняться, и побыстрее! Хватит с меня этого дурацкого каньона.",
       "speaker": "Seluc",
       "stage": ""
+    },
+    {
+      "id": "hub-alias-c13521d536e4",
+      "en": "I paid two weeks' wages for that coat you soaked. I'm not leaving here without it, and I'm way too tired to walk back down.",
+      "ru": "За это пальто, которое ты промочил, я отдал заработок за две недели. Без него я отсюда не уйду, а возвращаться самому я слишком устал.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-b7bd7364dbe6",
+      "en": "All this walking...I'm taking a break here. You forced me to jump off a cliff, I get to force you to slow down. It's only fair!. Besides that...",
+      "ru": "Сколько можно идти... Я здесь отдохну. Ты заставил меня прыгнуть со скалы, теперь я заставлю тебя сбавить шаг. Всё справедливо! К тому же...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -584,13 +600,29 @@
     {
       "id": "hub-objective-c811591fde49",
       "en": "Retrieve the coat Seluc left behind at [<num>, <num>, <num>]",
-      "ru": "Забрать пальто, оставленное Селуком [<num>, <num>, <num>].",
+      "ru": "Забрать пальто, оставленное Селуком [486, 32, -4950].",
       "stage": "Stage 6"
     },
     {
       "id": "hub-objective-1863bb265111",
       "en": "Return to Seluc at [<num>, <num>, <num>]",
       "ru": "Вернуться к Селуку [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-alias-c5faf4084bd1",
+      "en": "Speak to Gana at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Ганой [426, 101, -4829].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-8365eb6a6c06",
+      "en": "Find Seluc in his camp at [<num>, <num>, <num>]",
+      "ru": "Найти Селука в его лагере [551, 52, -5032].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

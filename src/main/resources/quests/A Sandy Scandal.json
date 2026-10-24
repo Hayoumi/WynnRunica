@@ -549,21 +549,21 @@
     {
       "id": "dialogue-0078",
       "en": "Shut yer’ trap, old man. We came for a different kind of business.",
-      "ru": "Заткнись, старик. Мы сюда по другому делу.",
+      "ru": "Заткнись, старик. Мы тут по другому делу.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 2"
     },
     {
       "id": "dialogue-0079",
       "en": "Oh my… you! Soldier! Quick! The robbery is taking place across the bridge, next to the first house you visited today! It may be the bandits we're looking for.",
-      "ru": "О боже... ты! Солдат! Скорее! Ограбление идёт за мостом, рядом с первым домом, куда ты сегодня заходил! Возможно, это те самые бандиты, которых мы ищем.",
+      "ru": "Ох чёрт... ты! Солдат! Быстро! Ограбление прямо за мостом, рядом с первым домом, который ты сегодня проверял! Это могут быть те самые бандиты.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 2"
     },
     {
       "id": "dialogue-0080",
       "en": "It’s too late to stop us now! We’re already about to bust out of here with the grand prize - the contents of the emerald vault!",
-      "ru": "Останавливать нас уже поздно! Мы вот-вот свалим отсюда с главным кушем - содержимым изумрудного хранилища!",
+      "ru": "Теперь нас уже поздно останавливать! Мы вот-вот свалим отсюда с главным кушем - всем содержимым изумрудного хранилища!",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 16"
     },
@@ -606,7 +606,7 @@
     {
       "id": "fresh-source-64069fd62f0c7161",
       "en": "You look like a hardy one! Ragni army, is it? Would you be willing to help Almuj a bit?",
-      "ru": "§r§#FFFFFFВыглядишь крепким! Из армии Рагни, да? Не поможешь чутка Алмуджу?",
+      "ru": "Выглядишь крепким! Из армии Рагни, да? Не поможешь чутка Алмуджу?",
       "speaker": "Almuj Bank Guard",
       "stage": ""
     },
@@ -652,13 +652,13 @@
     {
       "id": "objective-0006",
       "en": "Talk to the Almuj Bank Guard at [976, 86, -1963]",
-      "ru": "Поговорить со стражником банка Алмуджа [976, 86, -1963].",
+      "ru": "Поговорить со стражником банка Алмуджа [976, 83, -1963].",
       "stage": "Stage 6"
     },
     {
       "id": "objective-0007",
       "en": "Go to the witness report location at [922, 82, -1925].",
-      "ru": "Отправиться к месту, указанному в показаниях свидетеля [922, 82, -1925].",
+      "ru": "Отправиться к месту, указанному в показаниях свидетеля [954, 76, -1985].",
       "stage": "Stage 7"
     },
     {
@@ -682,7 +682,7 @@
     {
       "id": "objective-0011",
       "en": "Talk to the Almuj Bank Guard at [976, 86, -1963].",
-      "ru": "Поговорить со стражником банка Алмуджа [976, 86, -1963].",
+      "ru": "Поговорить со стражником банка Алмуджа [976, 83, -1963].",
       "stage": "Stage 11"
     },
     {
@@ -732,6 +732,102 @@
       "en": "Report back to the Almuj Bank Guard at [976, 86, -1963].",
       "ru": "Доложить стражнику банка Алмуджа [976, 86, -1963].",
       "stage": "Stage 19"
+    },
+    {
+      "id": "hub-alias-4d643989d39e",
+      "en": "Go to the witness report location at [<num>, <num>, <num>]",
+      "ru": "Отправиться к месту, указанному в показаниях свидетеля [954, 76, -1985].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-19b950736b9a",
+      "en": "Read the witness report",
+      "ru": "Прочитать показания свидетеля.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-12e94293dcb2",
+      "en": "Open the vault in the basement [Code: <num>]",
+      "ru": "Открыть хранилище в подвале [Код: 7812].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-26173f960410",
+      "en": "Inspect the vault",
+      "ru": "Осмотреть хранилище.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-b5d5e7f1871b",
+      "en": "Find the source of the detonation at [<num>, <num>, <num>]",
+      "ru": "Найти место взрыва [13902, 32, 21022].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9349f5561696",
+      "en": "Inspect the safe",
+      "ru": "Осмотреть сейф.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-4221cf093f7e",
+      "en": "Quickly! Go to the house at [<num>, <num>, <num>]!",
+      "ru": "Скорее добраться до дома [930, 76, -2034]!",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9ad9d5e9b1b0",
+      "en": "Look for signs of the bandits' whereabouts",
+      "ru": "Найти следы бандитов.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-6f96c10a456a",
+      "en": "Listen to the bandits",
+      "ru": "Подслушать бандитов.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-414257a362cc",
+      "en": "Find where the bandits blasted a hole to get into the bank at [<num>, <num>, <num>]",
+      "ru": "Найти пролом, через который бандиты попали в банк [1029, 83, -1983].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1011512cdae5",
+      "en": "Follow the criminals into the other room",
+      "ru": "Следовать за преступниками в другую комнату.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-db615e7f35de",
+      "en": "Report back to the Almuj Bank Guard at [<num>, <num>, <num>]",
+      "ru": "Доложить стражнику банка Алмуджа [976, 86, -1963].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

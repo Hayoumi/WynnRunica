@@ -1567,6 +1567,30 @@
       "ru": "Его нужно уничтожить раз и навсегда. Как это случится, я не знаю. Но ты...",
       "speaker": "Chief Clight",
       "stage": "Stage 9"
+    },
+    {
+      "id": "hub-alias-258d5769a59e",
+      "en": "You see, whenever we hear news of an explosion, we always bring our canary with us to check it out. They can detect potential gases much earlier than we can.",
+      "ru": "Видишь ли, когда мы слышим о взрыве, мы всегда берём с собой канарейку проверить обстановку. Они чувствуют опасные газы гораздо раньше нас.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-bb85dfe21fb5",
+      "en": "OW! Bloody hell! Those are some freakishly sharp claws! What are you playing at",
+      "ru": "АЙ! Чёрт возьми! Да у неё когти как ножи! Ты что творишь-",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-c514aaeb8643",
+      "en": "Okay, so you don't care about the world. In that case, kill me now or I'll kill your friends.",
+      "ru": "Ладно, значит, тебе плевать на мир. Тогда убей меня сейчас, или я убью твоих друзей.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -1653,7 +1677,40 @@
       "id": "objective-4d1a7acf547b",
       "en": "Defeat the canary",
       "ru": "Победить канарейку."
+    },
+    {
+      "id": "hub-alias-25a7a24ae759",
+      "en": "Turn left from the mine's entrance and speak to the chief at [<num>, <num>, <num>]",
+      "ru": "Повернуть налево от входа в шахту и поговорить с начальником [734, 104, -4996].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f123371368e6",
+      "en": "Head to the mine elevator at [<num>, <num>, <num>]",
+      "ru": "Отправиться к шахтному подъёмнику [670, 78, -4982].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
-  "choices": []
+  "choices": [
+    {
+      "id": "hub-20261019-choice-3134e10b57f1",
+      "en": "Yes, but let's do it slowly.",
+      "ru": "Да, но давай медленно.",
+      "speaker": "",
+      "stage": "",
+      "kind": "choice"
+    },
+    {
+      "id": "hub-20261019-choice-871efe279ee2",
+      "en": "No. I won't go that easily.",
+      "ru": "Нет, так легко я не сдамся.",
+      "speaker": "",
+      "stage": "",
+      "kind": "choice"
+    }
+  ]
 }

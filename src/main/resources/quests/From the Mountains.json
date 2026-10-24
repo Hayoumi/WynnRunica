@@ -388,9 +388,79 @@
     {
       "id": "dialogue-0055",
       "en": "New Quest Started: From the Mountains",
-      "ru": "§#FFAA00Новый квест: §#FFFF55From the Mountains",
+      "ru": "§#FFAA00§lНовый квест: §#FFFF55§lFrom the Mountains§r§f",
       "speaker": "",
       "stage": "Stage 9"
+    },
+    {
+      "id": "hub-20261019-dialogue-21401beb7892",
+      "en": "Go, human! Find someone who can help! I'm not going to wait for my house to be burnt to a crisp!",
+      "ru": "§r§fИди, человек! Найди кого-нибудь, кто поможет! Я не собираюсь ждать, пока мой дом сгорит дотла!",
+      "speaker": "Arnod",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-50bfdc160b67",
+      "en": "It's impossible to understand what language this man's speaking, but he's pointing to the house behind him. Is there something that can translate, maybe?",
+      "ru": "§r§7Невозможно понять, на каком языке говорит этот человек, но он указывает на §r§bдом за своей спиной§r§7. Может, есть что-нибудь, что поможет его перевести?",
+      "speaker": "Arnod",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-a38790ef93e9",
+      "en": "I've got the cart all repaired and ready, did you get all the Flerisi? Come over to the cart then. We still have work to do.",
+      "ru": "§r§fЯ уже починил повозку и всё подготовил. Ты всех Флериси поймал? Тогда §r§bподойди к повозке§r§f. Дел ещё хватает.",
+      "speaker": "Axelus",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-3a52a5590dcb",
+      "en": "To explain, Flerisi aren't all as tiny as the ones we've found here. They feed off cinders and fire... And for this much damage to be caused, well...",
+      "ru": "§r§fЕсли коротко, Флериси не все такие мелкие, как те, что мы тут нашли. Они питаются углями и огнём... И чтобы натворить столько бед, ну...",
+      "speaker": "Axelus",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-501183e6a623",
+      "en": "Mmph! Humnym! Mah houfhs fhs om fifhre! Gft hfrelp, tiff brafze womd strfp!",
+      "ru": "§r§fМмпф! Челомек! Мой дом гофит! Нужна помомь, огомь не гаснет!",
+      "speaker": "Arnod",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-632471ed9923",
+      "en": "<playername>, huh? I'll try and remember that. For now, take this armour for the trouble. Safe travels, <playername>!",
+      "ru": "§r§f<playername>, значит? Постараюсь запомнить. А пока держи эту броню за труды. Удачи в пути, <playername>!",
+      "speaker": "Axelus",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-6cc5e8e9360c",
+      "en": "...oh. Well, didn't notice that the fires went THAT far earlier. That's a problem, isn't it?",
+      "ru": "§r§f...ох. Не заметил раньше, что огонь распространился ТАК далеко. Плохо дело, а?",
+      "speaker": "Axelus",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-7d21c96b74eb",
+      "en": "I'll ask the local police force if they've found the traffickers. If they cut and run, well...I got a free cart for the ride home. There's a thing for me to attend to there.",
+      "ru": "§r§fЯ спрошу у местной стражи, не нашли ли они контрабандистов. А если те уже смылись, ну... у меня хотя бы появилась бесплатная повозка для дороги домой. Там меня ещё ждут дела.",
+      "speaker": "Axelus",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-a34d7726edec",
+      "en": "There's a black market issue in the Molten Heights. Things that you can't find anywhere else are harvested in the Heights for their high value.",
+      "ru": "§r§fВ Раскалённых Высотах серьёзная проблема с чёрным рынком. Всё, чего больше нигде не найти, там добывают и гонят за бешеные деньги.",
+      "speaker": "Axelus",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-c393430be0a8",
+      "en": "So that's the house, hm? Alright, I'll see what I can do. Might not be able to put it out, but if it's re-lighting, then maybe...",
+      "ru": "§r§fТак вот тот дом, да? Ладно, посмотрю, что можно сделать. Потушить, может, и не выйдет, но если он сам разгорается заново, то, может...",
+      "speaker": "Axelus",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -447,6 +517,70 @@
       "en": "Exit the cave and talk with Axelus at [-1263, 43, -4490].",
       "ru": "Выйти из пещеры и поговорить с Акселусом [-1263, 43, -4490].",
       "stage": "Stage 9"
+    },
+    {
+      "id": "hub-alias-425d6e84e238",
+      "en": "Find out what's going on at [<num>, <num>, <num>]",
+      "ru": "Выяснить, что происходит [-1366, 42, -4543].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a410dc7ffe74",
+      "en": "Find what Arnod wants inside of the house",
+      "ru": "Найти в доме то, что нужно Арноду.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-997d25111a02",
+      "en": "Find someone in Bucie who can help you with the fires",
+      "ru": "Найти в Бьюси того, кто поможет справиться с пожарами.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-4b3bdfe7853e",
+      "en": "Go to the path at [<num>, <num>, <num>], and follow it up to the top of the mountain",
+      "ru": "Отправиться к тропе в [-1447, 61, -4582] и подняться по ней на вершину горы.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-3b2a38e94504",
+      "en": "Capture all of the rogue flerisi and bring them to Axelus",
+      "ru": "Поймать всех сбежавших Флериси и доставить их Акселусу.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ff94d9924667",
+      "en": "Enter the hole at [<num>, <num>, <num>]",
+      "ru": "Спуститься в дыру [-1390, 96, -4495].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-2d83802820be",
+      "en": "Subdue the Fleris",
+      "ru": "Усмирить Флериса.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-068622cb34c1",
+      "en": "Exit the cave and talk with Axelus at [<num>, <num>, <num>]",
+      "ru": "Выйти из пещеры и поговорить с Акселусом [-1263, 43, -4490].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

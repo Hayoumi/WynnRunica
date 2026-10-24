@@ -279,6 +279,28 @@
       "ru": "§#FFFFFFКак идут поиски, путник? Надеюсь, ты вернёшься ко мне с §#00AAAA[1 Beast Egg]§r§#FFFFFF.",
       "speaker": "Svin",
       "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-9d33bc33fa8e",
+      "en": "Nothing for ye to see here youngster. Move along!",
+      "ru": "§r§fНечего тебе тут смотреть, малой. Проходи мимо!",
+      "speaker": "Jankan",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-03016ab04b40",
+      "en": "Yer back again, are ye? Yer ain' gettin' any of me gold, so move along!",
+      "ru": "§r§#FFFFFFОпять вернулся? Моего золота ты не получишь, так что проходи мимо!",
+      "speaker": "Jankan",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-a19f8fb2de26",
+      "en": "How is the search going, traveler? I do hope you return to me with [<num> Beast Egg] .",
+      "ru": "Как идут поиски, путник? Надеюсь, ты вернёшься ко мне с §#00AAAA[1 Beast Egg]§r§#FFFFFF.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -321,25 +343,25 @@
     {
       "id": "hub-objective-1cf32962803e",
       "en": "Talk to Svin in Rymek at [<num>, <num>, <num>]",
-      "ru": "Поговорить со Свином в Римеке [<num>, <num>, <num>].",
+      "ru": "Поговорить со Свином в Римеке [1352, 33, -1301].",
       "stage": "Stage 1"
     },
     {
       "id": "hub-objective-cfe4f8ca8c52",
       "en": "Talk to Jankan east from Rymek at [<num>, <num>, <num>]",
-      "ru": "Поговорить с Джанканом к востоку от Римека [<num>, <num>, <num>].",
+      "ru": "Поговорить с Джанканом к востоку от Римека [1434, 31, -1360].",
       "stage": "Stage 2"
     },
     {
       "id": "hub-objective-06cac226c1cd",
       "en": "Collect [<num> Gold Chunks] for Jankan in the mineshaft at [<num>, <num>, <num>]",
-      "ru": "Собрать для Джанкана [<num> Gold Chunks] в шахте [<num>, <num>, <num>].",
+      "ru": "Собрать для Джанкана [5 Gold Chunks] в шахте [1440, 32, -1369].",
       "stage": "Stage 3"
     },
     {
       "id": "hub-objective-bd35a8daf811",
       "en": "Take the canyon elevator up to the Hermit at [<num>, <num>, <num>]",
-      "ru": "Подняться на подъёмнике из каньона к отшельнику [<num>, <num>, <num>].",
+      "ru": "Подняться на подъёмнике из каньона к отшельнику [1194, 32, -1618].",
       "stage": "Stage 4"
     }
   ],

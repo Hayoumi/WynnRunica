@@ -252,7 +252,7 @@
     {
       "id": "dialogue-0036",
       "en": "I would say, given how badly corrupted this is, I will need at least [12 Sky Vapor] for the task.",
-      "ru": "Я бы сказал, учитывая, насколько всё это заражено, для дела мне нужно как минимум [12 Sky Vapor].",
+      "ru": "§r§fЯ бы сказал, учитывая, насколько всё это заражено, для дела §r§bмне нужно как минимум§r§f §r§3[12 Sky Vapor]§r§f.",
       "speaker": "Rayshyroth",
       "stage": "Stage 1"
     },
@@ -441,7 +441,7 @@
     {
       "id": "dialogue-0063",
       "en": "Finally, I'll need a [Coral of Nelfors], which can be found in the Seavale Reef. This is what I need to use to enchant the hide to be magically resistant.",
-      "ru": "И наконец, мне нужен [коралл Нелфорса], который можно найти в рифе Сивейл. Именно им я зачарую шкуру на магическую устойчивость.",
+      "ru": "§r§fИ наконец, мне нужен §r§3[Coral of Nelfors]§r§f, который можно найти §r§bв рифе Сивейл.§r§f Именно им я зачарую шкуру на магическую устойчивость.",
       "speaker": "Garull",
       "stage": "Stage 1"
     },
@@ -755,9 +755,45 @@
     {
       "id": "dialogue-c121fa357ff8",
       "en": "...You're still here? You have your challenge. Slay that beast within the cave , and bring me proof. Then, and only then, will you have proven your worth.",
-      "ru": "...Ты ещё здесь? Испытание тебе назначено. Убей того зверя в пещере и принеси мне доказательство. Тогда, и только тогда, ты докажешь, чего стоишь.",
+      "ru": "§r§f...Ты ещё здесь? Испытание тебе назначено. §r§bУбей того зверя в пещере§r§f и принеси мне доказательство. Тогда, и только тогда, ты докажешь, чего стоишь.",
       "speaker": "Kelight",
       "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-433003611665",
+      "en": "Well? You've been given a task, haven't you? Don't come back until you've found Garull and obtained a helmet.",
+      "ru": "§r§fНу? Тебе ведь дали задание? Не возвращайся, пока не найдёшь Гарулла и не получишь шлем.",
+      "speaker": "Kelight",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-85a770cb9786",
+      "en": "Well? You've been given a task, haven't you? Don't come back until you've retrieved the light you'll need for protection.",
+      "ru": "§r§fНу? Тебе ведь дали задание? Не возвращайся, пока не добудешь свет, который нужен тебе для защиты.",
+      "speaker": "Kelight",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-e75190085b43",
+      "en": "However, as a Legend, I am very busy, autographs and the sort, and that's not to mention my guard duty! To prove you are even worth my time, return when you reach Level <num>.",
+      "ru": "§r§fНо, как Легенда, я очень занят - автографы, важные дела и всё такое, не говоря уже о карауле! Чтобы доказать, что на тебя вообще стоит тратить время, возвращайся, когда достигнешь <num>-го уровня.",
+      "speaker": "Kelight",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-304b2cdbb366",
+      "en": "Good day, soldier.",
+      "ru": "§r§fДобрый день, солдат.",
+      "speaker": "Jorkin",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-741e268b5dbe",
+      "en": "Hah. Took you long enough! This is the light dust, I presume?",
+      "ru": "Ха. Долго же ты. Это и есть световая пыль, надо полагать?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "choices": [
@@ -814,7 +850,7 @@
     {
       "id": "wiki-20261008-objectives-0002",
       "en": "Talk to Kelight at the entrance of the Temple of the Legends, close to Troms at [<num>, <num>, <num>]",
-      "ru": "Поговорите с Келайтом у входа в Храм Легенд, рядом с Тромсом, в [<num>, <num>, <num>]",
+      "ru": "Поговорите с Келайтом у входа в Храм Легенд, рядом с Тромсом, в [-693, 68, -993]",
       "stage": "Stage 1"
     },
     {
@@ -826,7 +862,7 @@
     {
       "id": "wiki-20261008-objectives-0027",
       "en": "Find a way to get Kelight to allow you entry into the Temple of the Legends at [<num>, <num>, <num>].",
-      "ru": "Найдите способ убедить Келайта впустить вас в Храм Легенд в [<num>, <num>, <num>].",
+      "ru": "Найдите способ убедить Келайта впустить вас в Храм Легенд в [-693, 68, -993].",
       "stage": "Stage 1.5"
     },
     {
@@ -838,7 +874,7 @@
     {
       "id": "wiki-20261008-objectives-0036",
       "en": "Talk to Jorkin in Elkurn at [<num>, <num>, <num>] about Light Dust.",
-      "ru": "Поговорите с Джоркином в Элкурне в [<num>, <num>, <num>] о Light Dust.",
+      "ru": "Поговорите с Джоркином в Элкурне в [-15, 79, -1135] о Light Dust.",
       "stage": "Stage 2"
     },
     {
@@ -850,7 +886,7 @@
     {
       "id": "wiki-20261008-objectives-0038",
       "en": "Find the lightdust cavern located near the Portal at [<num>, <num>, <num>].",
-      "ru": "Найдите пещеру со светящейся пылью рядом с Порталом в [<num>, <num>, <num>].",
+      "ru": "Найдите пещеру со светящейся пылью рядом с Порталом в [261, 39, -1359].",
       "stage": "Stage 3"
     },
     {
@@ -862,7 +898,7 @@
     {
       "id": "wiki-20261008-objectives-0040",
       "en": "Retrieve [<num> Light Dust] from the cave at [<num>, <num>, <num>] and bring it back to Jorkin at [<num>, <num>, <num>].",
-      "ru": "Добудьте §3[<num> Light Dust]§r в пещере в [<num>, <num>, <num>] и принесите Джоркину в [<num>, <num>, <num>].",
+      "ru": "Добудьте §3[1 Light Dust]§r в пещере в [261, 39, -1359] и принесите Джоркину в [-15, 79, -1135].",
       "stage": "Stage 4"
     },
     {
@@ -874,7 +910,7 @@
     {
       "id": "wiki-20261008-objectives-0043",
       "en": "Visit Rayshyroth on Mage Island at [<num>, <num>, <num>] to purify the dust",
-      "ru": "Посетите Рейширота на Острове Магов в [<num>, <num>, <num>], чтобы очистить пыль",
+      "ru": "Посетите Рейширота на Острове Магов в [846, 87, -2906], чтобы очистить пыль",
       "stage": "Stage 5"
     },
     {
@@ -886,7 +922,7 @@
     {
       "id": "wiki-20261008-objectives-0045",
       "en": "Find the cave on Mage Island where the Sky Flux gathers at [<num>, <num>, <num>].",
-      "ru": "Найдите пещеру на Острове Магов, где скапливается Sky Flux, в [<num>, <num>, <num>].",
+      "ru": "Найдите пещеру на Острове Магов, где скапливается Sky Flux, в [864, 31, -2916].",
       "stage": "Stage 6"
     },
     {
@@ -898,7 +934,7 @@
     {
       "id": "wiki-20261008-objectives-0047",
       "en": "Give [<num> Sky Vapor] to Rayshyroth at [<num>, <num>, <num>].",
-      "ru": "Отдайте §3[<num> Sky Vapor]§r Рейшироту в [<num>, <num>, <num>].",
+      "ru": "Отдайте §3[12 Sky Vapor]§r Рейшироту в [846, 87, -2906].",
       "stage": "Stage 7"
     },
     {
@@ -910,7 +946,7 @@
     {
       "id": "wiki-20261008-objectives-0049",
       "en": "Show the [Purified Light Dust] to Kelight at the entrance of the Temple of the Legends at [<num>, <num>, <num>].",
-      "ru": "Покажите §3[Purified Light Dust]§r Келайту у входа в Храм Легенд в [<num>, <num>, <num>].",
+      "ru": "Покажите §3[Purified Light Dust]§r Келайту у входа в Храм Легенд в [-692, 63, -975].",
       "stage": "Stage 8"
     },
     {
@@ -922,7 +958,7 @@
     {
       "id": "wiki-20261008-objectives-0051",
       "en": "Find Garull, the Creeper obsessed craftsman, somewhere in the Pigmen's Ravines located around [<num>, <num>, <num>].",
-      "ru": "Найдите Гарулла, мастера, помешанного на криперах, где-то в Ущельях Свинолюдов возле [<num>, <num>, <num>].",
+      "ru": "Найдите Гарулла, мастера, помешанного на криперах, где-то в Ущельях Свинолюдов возле [-740, 93, -1311].",
       "stage": "Stage 9"
     },
     {
@@ -934,7 +970,7 @@
     {
       "id": "wiki-20261008-objectives-0053",
       "en": "Bring the [Old Touroto Hide], [Aseado Leaf], [Maro's Eye Jewel], and [Coral of Nelfors] to Garull in the cave at [<num>, <num>, <num>].",
-      "ru": "Принесите §3[Old Touroto Hide]§r, §3[Aseado Leaf]§r, §3[Maro's Eye Jewel]§r и §3[Coral of Nelfors]§r Гаруллу в пещеру в [<num>, <num>, <num>].",
+      "ru": "Принесите §3[Old Touroto Hide]§r, §3[Aseado Leaf]§r, §3[Maro's Eye Jewel]§r и §3[Coral of Nelfors]§r Гаруллу в пещеру в [-849, 97, -1211].",
       "stage": "Stage 10"
     },
     {
@@ -946,7 +982,7 @@
     {
       "id": "wiki-20261008-objectives-0055",
       "en": "Bring the [Helmet of the Legends] to Kelight at the entrance of the Temple of the Legends at [<num>, <num>, <num>].",
-      "ru": "Принесите §3[Helmet of the Legends]§r Келайту у входа в Храм Легенд в [<num>, <num>, <num>].",
+      "ru": "Принесите §3[Helmet of the Legends]§r Келайту у входа в Храм Легенд в [-692, 63, -975].",
       "stage": "Stage 11"
     },
     {
@@ -958,8 +994,88 @@
     {
       "id": "wiki-20261008-objectives-0057",
       "en": "Kill the Corrupter of Worlds in the cave at [<num>, <num>, <num>] and bring proof of its death to Kelight at [<num>, <num>, <num>].",
-      "ru": "Убейте Осквернителя миров в пещере в [<num>, <num>, <num>] и принесите доказательство его смерти Келайту в [<num>, <num>, <num>].",
+      "ru": "Убейте Осквернителя миров в пещере в [-714, 61, -963] и принесите доказательство его смерти Келайту в [-692, 63, -975].",
       "stage": "Stage 12"
+    },
+    {
+      "id": "hub-alias-928479a8ad20",
+      "en": "Kill the Corrupter of Worlds in the cave at [<num>, <num>, <num>] and bring proof of its death to Kelight at [<num>, <num>, <num>]",
+      "ru": "Убейте Осквернителя миров в пещере в [-714, 61, -963] и принесите доказательство его смерти Келайту в [-692, 63, -975].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-817319f93739",
+      "en": "Find a way to get Kelight to allow you entry into the Temple of the Legends at [<num>, <num>, <num>]",
+      "ru": "Найдите способ убедить Келайта впустить вас в Храм Легенд в [-693, 68, -993].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1fe9366d1736",
+      "en": "Talk to Jorkin in Elkurn at [<num>, <num>, <num>] about Light Dust",
+      "ru": "Поговорите с Джоркином в Элкурне в [-15, 79, -1135] о Light Dust.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f9c719a8a437",
+      "en": "Find the lightdust cavern located near the Portal at [<num>, <num>, <num>]",
+      "ru": "Найдите пещеру со светящейся пылью рядом с Порталом в [261, 39, -1359].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-5814d0ee6e5e",
+      "en": "Retrieve [<num> Light Dust] from the cave at [<num>, <num>, <num>] and bring it back to Jorkin at [<num>, <num>, <num>]",
+      "ru": "Добудьте §3[1 Light Dust]§r в пещере в [261, 39, -1359] и принесите Джоркину в [-15, 79, -1135].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9803d033f6e4",
+      "en": "Find the cave on Mage Island where the Sky Flux gathers at [<num>, <num>, <num>]",
+      "ru": "Найдите пещеру на Острове Магов, где скапливается Sky Flux, в [864, 31, -2916].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-57d526c0ddc1",
+      "en": "Show the [Purified Light Dust] to Kelight at the entrance of the Temple of the Legends at [<num>, <num>, <num>]",
+      "ru": "Покажите §3[Purified Light Dust]§r Келайту у входа в Храм Легенд в [-692, 63, -975].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-c5bcb3845a42",
+      "en": "Find Garull, the Creeper obsessed craftsman, somewhere in the Pigmen's Ravines located around [<num>, <num>, <num>]",
+      "ru": "Найдите Гарулла, мастера, помешанного на криперах, где-то в Ущельях Свинолюдов возле [-740, 93, -1311].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-b944e630c2a4",
+      "en": "Bring the [Old Touroto Hide], [Aseado Leaf], [Maro's Eye Jewel], and [Coral of Nelfors] to Garull in the cave at [<num>, <num>, <num>]",
+      "ru": "Принесите §3[Old Touroto Hide]§r, §3[Aseado Leaf]§r, §3[Maro's Eye Jewel]§r и §3[Coral of Nelfors]§r Гаруллу в пещеру в [-849, 97, -1211].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-da4f64a794f3",
+      "en": "Bring the [Helmet of the Legends] to Kelight at the entrance of the Temple of the Legends at [<num>, <num>, <num>]",
+      "ru": "Принесите §3[Helmet of the Legends]§r Келайту у входа в Храм Легенд в [-692, 63, -975].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ]
 }

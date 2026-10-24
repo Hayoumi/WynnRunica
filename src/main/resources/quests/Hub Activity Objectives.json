@@ -316,14 +316,14 @@
     {
       "id": "hub-board-36f652abfea4c6d4",
       "en": "EU | Looking for players..",
-      "ru": "§8EU§6 | Поиск игроков..",
+      "ru": "EU§6 | Поиск игроков.",
       "speaker": "",
       "stage": ""
     },
     {
       "id": "hub-board-cac288dca6d086e4",
       "en": "EU | Looking for players...",
-      "ru": "§8EU§6 | Поиск игроков...",
+      "ru": "EU§6 | Поиск игроков.",
       "speaker": "",
       "stage": ""
     },
@@ -337,14 +337,14 @@
     {
       "id": "hub-board-3ba523b684a9e944",
       "en": "EU, NA | Looking for players..",
-      "ru": "§8EU, NA§6 | Поиск игроков..",
+      "ru": "EU, NA§6 | Поиск игроков.",
       "speaker": "",
       "stage": ""
     },
     {
       "id": "hub-board-3cafb587c984e50f",
       "en": "EU, NA | Looking for players...",
-      "ru": "§8EU, NA§6 | Поиск игроков...",
+      "ru": "EU, NA§6 | Поиск игроков.",
       "speaker": "",
       "stage": ""
     },
@@ -717,12 +717,12 @@
     {
       "id": "hub-event-objective-cb8dcceb1d97",
       "en": "NA | Looking for players...",
-      "ru": "NA | Поиск игроков..."
+      "ru": "NA | Поиск игроков.."
     },
     {
       "id": "hub-event-objective-6fa5c68899bb",
       "en": "NA | Looking for players.",
-      "ru": "NA | Поиск игроков."
+      "ru": "NA | Поиск игроков.."
     },
     {
       "id": "hub-event-objective-dadc5534230c",
@@ -1947,7 +1947,7 @@
     {
       "id": "hub-inbox-objective-4551dcbf45f0",
       "en": "Barracks at [<num>, <num>, <num>]",
-      "ru": "§7в казармах Детласа [<num>, <num>, <num>]",
+      "ru": "казармах в §r§f[<num>, <num>, <num>]§r§7.",
       "speaker": "",
       "stage": ""
     },
@@ -1982,7 +1982,7 @@
     {
       "id": "hub-objective-67a5ead888fac8e7",
       "en": "Giant Void Hole. [<num>]",
-      "ru": "§fГигантская Дыра Пустоты§7. §f[<num>]",
+      "ru": "Гигантская Дыра Пустоты§7. §f[<num>/<num>]",
       "speaker": "",
       "stage": ""
     },
@@ -3210,7 +3210,7 @@
     {
       "id": "objective-d6c0ffdb8998",
       "en": "Seals. [<num>/<num>]",
-      "ru": "§7Печати. §f[<num>/<num>]"
+      "ru": "Сдерживания§7. §f[<num>]"
     },
     {
       "id": "objective-16881982c233",
@@ -3811,6 +3811,916 @@
       "id": "objective-db9e70af5b9c",
       "en": "Meet up with Sui outside Hyloch at",
       "ru": "§7Встретьтесь с Суи у Хайлока:"
+    },
+    {
+      "id": "hub-20261019-objective-880701424191",
+      "en": "Explore the abandoned drill at [<num>, <num>, <num>]",
+      "ru": "Исследовать заброшенную буровую установку [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-ec4d989a1a25",
+      "en": "Return to the bar in Nemract at [<num>, <num>, <num>]",
+      "ru": "Вернуться в бар в Немракте [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-9e10c8352a78",
+      "en": "Speak to Sensei Miyagi",
+      "ru": "Поговорить с сэнсэем Мияги.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-63b2533eaf21",
+      "en": "Exit the cave through the tunnel near the temple",
+      "ru": "Покинуть пещеру через туннель возле храма.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-6b71e31c82d8",
+      "en": "Become at one with nature in the room and cavern",
+      "ru": "Обрести единство с природой в зале и пещере.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-32d779edb0db",
+      "en": "Solve the puzzle of sight in the sight challenge",
+      "ru": "Разгадать загадку в испытании зоркости.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-b4e48400cea4",
+      "en": "Fight your way through the combat challenge",
+      "ru": "Пробиться через боевое испытание.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2e5f89325027",
+      "en": "Ascend in the physical strength challenge",
+      "ru": "Подняться наверх в испытании силы.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2e619f9a5f2f",
+      "en": "Jump down the water pit to begin the challenges",
+      "ru": "Прыгнуть в колодец с водой и приступить к испытаниям.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-0549f3333703",
+      "en": "Before the waves were calmed, the ocean was left unexplored for many years. Even now, there are lonely patches of land that remain undiscovered by all but the most savvy sailors.",
+      "ru": "Много лет океан оставался неисследованным, пока волны не успокоились. Даже сейчас в нём есть одинокие клочки суши, известные лишь самым опытным морякам.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-ca27d11b04db",
+      "en": "The Emerald Knives are hoarding their ill-gotten gains in an old mine at [<num>, <num>, <num>]",
+      "ru": "Изумрудные Ножи прячут награбленное в старой шахте [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-1ec1ac524011",
+      "en": "Alligator people live in the little ponds of a cave around [<num>, <num>, <num>]",
+      "ru": "Люди-аллигаторы живут в небольших прудах в пещере около [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-9006fc03e595",
+      "en": "Extremely dangerous lion poachers have overtaken a mining operation at [<num>, <num>, <num>].",
+      "ru": "Крайне опасные охотники на львов захватили шахту [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-d9854291005c",
+      "en": "Find the control panel near the shop",
+      "ru": "Найти панель управления возле магазина.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-a84229fb9882",
+      "en": "Meet Ava at [<num>, <num>, <num>]",
+      "ru": "Встретиться с Авой [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-45e00e4ab047",
+      "en": "Bring [<num> Bob's Tear] from Ragni",
+      "ru": "Принести [<num> Bob's Tear] из Рагни.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-e79ea86393d4",
+      "en": "At the fringes of the Molten Heights, uniquely curious creatures form where molten rock and boiling water collide.",
+      "ru": "На окраинах Раскалённых Высот, где расплавленная порода встречается с кипящей водой, появляются на редкость любопытные существа.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-8e9ec393b85e",
+      "en": "Head back to the coalition through the tunnel at [<num>, <num>, <num>].",
+      "ru": "Вернуться к коалиции через туннель [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-5033803d5f82",
+      "en": "Meet the group at [<num>, <num>, <num>]",
+      "ru": "Встретиться с группой [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-1cf919cc627d",
+      "en": "Talk with the coalition.",
+      "ru": "Поговорить с коалицией.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2dac59361608",
+      "en": "Collect [<num> Voidroot] at [<num>, <num>, <num>] or check your recipe book.",
+      "ru": "Собрать [<num> Voidroot] [<num>, <num>, <num>] или заглянуть в Recipe Book.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-99478dfb4586",
+      "en": "Collect [<num> Moonsalt] at [<num>, <num>, <num>] or check your recipe book.",
+      "ru": "Собрать [<num> Moonsalt] [<num>, <num>, <num>] или заглянуть в Recipe Book.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-fe97603b2247",
+      "en": "Slay Mooshrooms",
+      "ru": "Убить грибных коров.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-510666a96406",
+      "en": "Fight Tasim in a friendly duel",
+      "ru": "Сразиться с Тасимом в дружеском поединке.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-75b4dab6e465",
+      "en": "Report back to Phinas after destroying the mech",
+      "ru": "Доложить Финасу после уничтожения меха.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-3b1102956d48",
+      "en": "Find the pirates' dock to their hideout at [<num>, <num>, <num>]",
+      "ru": "Найти пиратский причал у их убежища [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-96c5c47e4afd",
+      "en": "LAZERS and explosives are being used by the bots to dig out a massive quarry at [<num>, <num>, <num>]",
+      "ru": "Боты используют ЛАЗЕРЫ и взрывчатку, чтобы выкопать огромный карьер [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-7284eb041239",
+      "en": "Try not to get lost or overheat inside the vents and pipeworks at [<num>, <num>, <num>]",
+      "ru": "Постараться не заблудиться и не перегреться в вентиляционных шахтах и трубах [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-5f92b0112a5e",
+      "en": "Advance deeper into the cave",
+      "ru": "Продвинуться вглубь пещеры.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-59c2380f157c",
+      "en": "Use the explosive on the boulder",
+      "ru": "Использовать взрывчатку на валуне.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-bad561840728",
+      "en": "Bring [<num> Gritty Sand], [<num> Saw Dust], and [<num> Black Powder] to the Crafting Table",
+      "ru": "Принести [<num> Gritty Sand], [<num> Saw Dust] и [<num> Black Powder] к верстаку.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2d9cd732bee2",
+      "en": "Report back to Relend",
+      "ru": "Доложить Реленду.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-e5863eac87d1",
+      "en": "Check out the tent to the east",
+      "ru": "Осмотреть палатку на востоке.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-bd64105e5eb7",
+      "en": "Give the [Odd Stew] to Relend",
+      "ru": "Отдать [Odd Stew] Реленду.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-7e5a1d45c310",
+      "en": "Bring [<num> Raw Mutton], [<num> Edible Mushrooms], [<num> Coconut], and [<num> Berries] to the Cooking Pot",
+      "ru": "Принести [<num> Raw Mutton], [<num> Edible Mushrooms], [<num> Coconut] и [<num> Berries] к котлу.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-e1c5ec998c8a",
+      "en": "Speak to Relend on the beach",
+      "ru": "Поговорить с Релендом на пляже.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-1f87740cd5c1",
+      "en": "Exit the shipwrecked Little Wing",
+      "ru": "Выбраться из обломков Little Wing.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-bfc2ed80f01e",
+      "en": "Save Relend inside of the wreck of the Little Wing",
+      "ru": "Спасти Реленда в обломках Little Wing.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-88acffc0b700",
+      "en": "Beware what lives at [<num>, <num>, <num>]",
+      "ru": "Остерегаться того, что живёт [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-cdf5d379624c",
+      "en": "Find Relend inside of the wreck of the Little Wing",
+      "ru": "Найти Реленда в обломках Little Wing.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-7a6e9b8bf522",
+      "en": "Fruman military patrols are a regular sight in all regions of the province, led by the elite Wings to keep the population safe and in check.",
+      "ru": "Военные патрули Фрумы можно встретить по всей провинции. Их возглавляют элитные Крылья, которые обеспечивают безопасность населения и следят за порядком.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-be00144eaffd",
+      "en": "Enter the tower and make Sherk confess his love for the maiden.",
+      "ru": "Войти в башню и заставить Шерка признаться деве в любви.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-90bcf679fb45",
+      "en": "Man the wheel of the Little Wing",
+      "ru": "Взяться за штурвал Little Wing.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-56e4364359be",
+      "en": "Bring the [Steering Wheel] to Captain Relend",
+      "ru": "Принести [Steering Wheel] капитану Реленду.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-f2d085a560ae",
+      "en": "Bring a [Wooden Board], a [Center Piece], and a [String] to the Crafting Table",
+      "ru": "Принести [Wooden Board], [Center Piece] и [String] к верстаку.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-426e145c35af",
+      "en": "Speak to Captain Relend aboard the Little Wing",
+      "ru": "Поговорить с капитаном Релендом на борту Little Wing.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-0eac4c5d8d03",
+      "en": "Set sail aboard Relend's ship",
+      "ru": "Отплыть на корабле Реленда.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-a87eef941c17",
+      "en": "Retrieve the urn and return to the tower at [<num>, <num>, <num>]",
+      "ru": "Забрать урну и вернуться к башне [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-75186405926a",
+      "en": "Retrieve the map back from the parrot",
+      "ru": "Отобрать карту у попугая.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-9131e5d13580",
+      "en": "Speak to Relend at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Релендом [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-715f3be94618",
+      "en": "Look for clues on how to escape",
+      "ru": "Поискать подсказки, как сбежать.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2fc9f99ec5e7",
+      "en": "Kill the slimes in the aquifer and bring back [Polluted Sludge] to Anast.",
+      "ru": "Убить слизней в водоносном слое и принести [Polluted Sludge] Анасту.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-0cdeb2c6399b",
+      "en": "Find Doubiss the salesman in Olux near the bank at [<num>, <num>, <num>]",
+      "ru": "Найти торговца Дубисса возле банка Олукса [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2e52bb9ad58d",
+      "en": "Put an end to War.",
+      "ru": "Положить конец Войне.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-d44be6802b08",
+      "en": "Find another way up",
+      "ru": "Найти другой путь наверх.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-67d3d45ddcd6",
+      "en": "Rip out the artifact",
+      "ru": "Вырвать артефакт.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-66734dd5f779",
+      "en": "Speak to Phinas on Corkus Island at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Финасом на острове Коркус [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-5756960ba8d6",
+      "en": "Bots manage a complex warehouse deep in the ground at [<num>, <num>, <num>]",
+      "ru": "Боты управляют огромным подземным складом [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-ae63bf37156d",
+      "en": "Jump into Dramele's magical trash, at [<num>, <num>, <num>].",
+      "ru": "Прыгнуть в волшебный мусор Драмеле [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-88863cb13604",
+      "en": "Go up the wizard's tower using the lift, at [<num>, <num>, <num>].",
+      "ru": "Подняться на лифте в башню волшебника [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-c9daf6edd2fa",
+      "en": "Continue on the path up to the wizard's tower, starting at [<num>, <num>, <num>].",
+      "ru": "Продолжить подъём по тропе к башне волшебника, начиная с [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-37656b1d7090",
+      "en": "Follow the path up to the wizard's tower, starting at [<num>, <num>, <num>].",
+      "ru": "Идти по тропе к башне волшебника, начиная с [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-0771a58693e1",
+      "en": "Talk to Norsten, at [<num>, <num>, <num>].",
+      "ru": "Поговорить с Норстеном [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-14aab6a5bdd4",
+      "en": "Find your way up to the Dogun village",
+      "ru": "Найти путь наверх в деревню догунов.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-81ba171ebafc",
+      "en": "Fall into a great cavern at [<num>, <num>, <num>] and behold the crystalline formations therein.",
+      "ru": "Провалиться в огромную пещеру [<num>, <num>, <num>] и увидеть кристаллические образования внутри.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-ae3fbb88e7b1",
+      "en": "Survive the fight against the drugged corkian",
+      "ru": "Выжить в бою с одурманенным жителем Коркуса.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-b096ab487865",
+      "en": "Continue through the hideout!",
+      "ru": "Продвигаться через убежище!",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-eb113972fd93",
+      "en": "Use the balloon to enter the suspicious hideout.",
+      "ru": "Воспользоваться воздушным шаром, чтобы попасть в подозрительное убежище.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-deb62dd6b34f",
+      "en": "Search for house number <num> in Maex",
+      "ru": "Найти дом номер <num> в Маэксе.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-318621e6f352",
+      "en": "Follow the trail of blood close to the castle, [<num>, <num>, <num>]",
+      "ru": "Идти по кровавому следу возле замка [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2d55bd529d2c",
+      "en": "Someone told you more about the patriots of Corkus. You should continue to find the missing clue.",
+      "ru": "Вам рассказали больше о патриотах Коркуса. Продолжить поиски недостающей зацепки.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-7c39f83f9a4c",
+      "en": "I learned about some rumours involving separatists. I should continue helping locals to find out more.",
+      "ru": "Мне стало известно о слухах, связанных с сепаратистами. Нужно продолжить помогать местным жителям, чтобы узнать больше.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-de94ed2987b6",
+      "en": "Talk to citizens around the docks to find out more about what happened.",
+      "ru": "Поговорить с жителями в порту, чтобы узнать больше о случившемся.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-c0a723e8842a",
+      "en": "Talk to Javen to find out more about what happened.",
+      "ru": "Поговорить с Джейвеном, чтобы узнать больше о случившемся.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-415f88872795",
+      "en": "Go for a drink at the Corkus Docks Inn, [<num>, <num>, <num>]",
+      "ru": "Зайти выпить в таверну в порту Коркуса [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-92792a0c9714",
+      "en": "Make your way to the Dogun festival",
+      "ru": "Отправиться на праздник догунов.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-7a15ab6eebb5",
+      "en": "Pick up the loot dropped by the Goliath",
+      "ru": "Подобрать добычу, выпавшую из Голиафа.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2538aab2b6da",
+      "en": "Meet Ineos and Rhay at the Hot Air Balloon at [<num>, <num>, <num>]",
+      "ru": "Встретиться с Инеосом и Рэй у воздушного шара [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-6122ba414a11",
+      "en": "Speak to General Elix at [<num>, <num>, <num>] in Kandon Beda.",
+      "ru": "Поговорить с генералом Эликсом [<num>, <num>, <num>] в Кандон-Беде.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-f2adf24cffb9",
+      "en": "Place Ozoth's egg in her nest at [<num>, <num>, <num>]",
+      "ru": "Положить яйцо Озот в её гнездо [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-1911e1d1c768",
+      "en": "Steal Ozoth's egg, and escape the depository",
+      "ru": "Украсть яйцо Озот и сбежать из хранилища.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-0b7996c9fefc",
+      "en": "The Creden Tibus are disorganized enough that not all bandits ascribe to their rule, but not many of them are skilled enough to make it on their own.",
+      "ru": "Креден Тибус настолько разобщены, что не все бандиты подчиняются их власти. Но мало кому хватает умений, чтобы действовать в одиночку.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-c4389e084f37",
+      "en": "Collect <num> Earth Catalyst I",
+      "ru": "Собрать <num> Earth Catalyst I.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-d79c6e05e02c",
+      "en": "Climb the elusive troll tower at [<num>, <num>, <num>]",
+      "ru": "Взобраться на неуловимую башню троллей [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-309693bbdd81",
+      "en": "The remains of the Shadow Spear Bandits are hiding around [<num>, <num>, <num>]",
+      "ru": "Остатки банды Теневых Копий скрываются около [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-2b2a7e6f46e8",
+      "en": "Climb the bones around [<num>, <num>, <num>] and search for the hidden entrance to the Fire Wyverns' nest.",
+      "ru": "Взобраться по костям около [<num>, <num>, <num>] и найти тайный вход в гнездо огненных виверн.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-b37050e356b2",
+      "en": "From the decay of the earth, new leprous things grow from its rotten carcass.",
+      "ru": "Из разлагающейся земли, из её гниющих останков, вырастают новые прокажённые твари.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-065feebd6aa7",
+      "en": "Emissaries of Darkness seek to incarcerate the damned, and bind their spirits to the world.",
+      "ru": "Посланники Тьмы стремятся заточить проклятых и привязать их души к миру.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-1d50bc146769",
+      "en": "Some broods of spiders lie in wait for a meal to fall into their jaws.",
+      "ru": "Некоторые выводки пауков выжидают, пока добыча сама не угодит к ним в пасти.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-685926d32c9e",
+      "en": "The Grook got away! Return to the Cook at [<num>, <num>, <num>] to figure out what to do",
+      "ru": "Грук сбежал! Вернуться к повару [<num>, <num>, <num>], чтобы решить, что делать дальше.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-846af1d45c41",
+      "en": "Bring [<num> Holy Powders] to the Slaying Post [Combat Lv. <num>] at [<num>, <num>, <num>]",
+      "ru": "Принести [<num> Holy Powders] на пост истребления [Боевой Ур. <num>] [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-c04d9ae9d7a6",
+      "en": "Bring [<num> Silver Feathers] to the Slaying Post [Combat Lv. <num>] at [<num>, <num>, <num>]",
+      "ru": "Принести [<num> Silver Feathers] на пост истребления [Боевой Ур. <num>] [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-9808b2ea221e",
+      "en": "Bring [<num> Void Essences] to the Slaying Post [Combat Lv. <num>] at [<num>, <num>, <num>]",
+      "ru": "Принести [<num> Void Essences] на пост истребления [Боевой Ур. <num>] [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-8fd2b38475b1",
+      "en": "Bring [<num> Robot Antennas] to the Slaying Post [Combat Lv. <num>] at [<num>, <num>, <num>]",
+      "ru": "Принести [<num> Robot Antennas] на пост истребления [Боевой Ур. <num>] [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-3bf661628898",
+      "en": "Bring [<num> Spruce Wood] or [<num> Spruce Paper] to the Gathering Post at [<num>, <num>, <num>]",
+      "ru": "Принести [<num> Spruce Wood] или [<num> Spruce Paper] на пост сбора [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-0ac9371b6cf4",
+      "en": "Bring [<num> Barley String] or [<num> Barley Grains] to the Gathering Post at [<num>, <num>, <num>]",
+      "ru": "Принести [<num> Barley String] или [<num> Barley Grains] на пост сбора [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-objective-8d6007f17206",
+      "en": "Bring [<num> Malt String] or [<num> Malt Grains] to the Gathering Post at [<num>, <num>, <num>]",
+      "ru": "Принести [<num> Malt String] или [<num> Malt Grains] на пост сбора [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-0392379e7e48",
+      "en": "Bring [<num> Pine Wood] or [<num> Pine Paper] to the Gathering Post [Woodcutting Lv. <num>] at [<num>, <num>, <num>]",
+      "ru": "Принести [<num> Pine Wood] или [<num> Pine Paper] на Пост Сбора [Лесорубство Ур. <num>] по координатам [<num>, <num>, <num>].",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-c18e0ed89d52",
+      "en": "Locate and jam all the robot sentries",
+      "ru": "§7Найти и заглушить всех роботов-часовых.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-932477245ed8",
+      "en": "Talk to Ava at [<num>, <num>, <num>]",
+      "ru": "§7Поговорить с Авой: §f[<num>, <num>, <num>]",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-09bc2763be02",
+      "en": "Collect <num> Earth Catalyst II",
+      "ru": "§7Собрать <num> Earth Catalyst II",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-cf7da237218e",
+      "en": "Collect <num> Earth Catalyst III",
+      "ru": "§7Собрать <num> Earth Catalyst III",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-b2da775c1ee3",
+      "en": "Collect <num> Earth Catalyst IV",
+      "ru": "§7Собрать <num> Earth Catalyst IV",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-43b4e6951ee6",
+      "en": "Collect <num> Earth Catalyst V",
+      "ru": "§7Собрать <num> Earth Catalyst V",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-cb09911f9eae",
+      "en": "Collect <num> Earth Catalyst VI",
+      "ru": "§7Собрать <num> Earth Catalyst VI",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-343780b9d7ff",
+      "en": "Collect <num> Earth Catalyst VII",
+      "ru": "§7Собрать <num> Earth Catalyst VII",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-f6ae7b3fc368",
+      "en": "Collect <num> Earth Catalyst VIII",
+      "ru": "§7Собрать <num> Earth Catalyst VIII",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-6730ca649451",
+      "en": "Collect <num> Earth Catalyst IX",
+      "ru": "§7Собрать <num> Earth Catalyst IX",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-932e33a74c34",
+      "en": "Talk to Yansur to receive your prize",
+      "ru": "§7Поговорить с Янсуром и получить награду.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-6937074a7b62",
+      "en": "Prepare to enter the Water division",
+      "ru": "§7Приготовиться войти в Водное подразделение.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-062555e3cd4b",
+      "en": "Collect <num> Water Catalyst I",
+      "ru": "§7Собрать <num> Water Catalyst I",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-367122fce9d0",
+      "en": "Collect <num> Water Catalyst II",
+      "ru": "§7Собрать <num> Water Catalyst II",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-5a65a4c6ac15",
+      "en": "Collect <num> Water Catalyst III",
+      "ru": "§7Собрать <num> Water Catalyst III",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-ebcfc7aae76b",
+      "en": "Collect <num> Water Catalyst IV",
+      "ru": "§7Собрать <num> Water Catalyst IV",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-f62db156904a",
+      "en": "Collect <num> Water Catalyst V",
+      "ru": "§7Собрать <num> Water Catalyst V",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-7b8c21517482",
+      "en": "Collect <num> Water Catalyst VI",
+      "ru": "§7Собрать <num> Water Catalyst VI",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-c54c6f3828ed",
+      "en": "Collect <num> Water Catalyst VII",
+      "ru": "§7Собрать <num> Water Catalyst VII",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-e452732209f9",
+      "en": "Collect <num> Water Catalyst VIII",
+      "ru": "§7Собрать <num> Water Catalyst VIII",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-6aa2bf3ea459",
+      "en": "Collect <num> Water Catalyst IX",
+      "ru": "§7Собрать <num> Water Catalyst IX",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-40a7455afcc1",
+      "en": "Prepare to enter the Fire division",
+      "ru": "§7Приготовиться войти в Огненное подразделение.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-65fc0d959b7b",
+      "en": "Collect <num> Fire Catalyst I",
+      "ru": "§7Собрать <num> Fire Catalyst I",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-89eb76662d4d",
+      "en": "Collect <num> Fire Catalyst II",
+      "ru": "§7Собрать <num> Fire Catalyst II",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-524b99a46583",
+      "en": "Collect <num> Fire Catalyst III",
+      "ru": "§7Собрать <num> Fire Catalyst III",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-8d6ce317ab31",
+      "en": "Collect <num> Fire Catalyst IV",
+      "ru": "§7Собрать <num> Fire Catalyst IV",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-ecfd506ecfd9",
+      "en": "Collect <num> Fire Catalyst V",
+      "ru": "§7Собрать <num> Fire Catalyst V",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-1ebe8323f375",
+      "en": "Though most people in the Auburn Forest hold a respect for the nature around them, there are some that have no such reverence.",
+      "ru": "Хотя большинство жителей леса Аубёрна уважает окружающую природу, некоторые не испытывают к ней никакого почтения.",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-2a8d2da036f3",
+      "en": "Collect <num> Fire Catalyst IX",
+      "ru": "§7Собрать <num> Fire Catalyst IX",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-d0c68a5985f2",
+      "en": "Collect <num> Fire Catalyst VI",
+      "ru": "§7Собрать <num> Fire Catalyst VI",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-a4d705d9f2fe",
+      "en": "Collect <num> Fire Catalyst VII",
+      "ru": "§7Собрать <num> Fire Catalyst VII",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-objective-6f801baaed24",
+      "en": "Collect <num> Fire Catalyst VIII",
+      "ru": "§7Собрать <num> Fire Catalyst VIII",
+      "speaker": "",
+      "stage": ""
     }
   ]
 }

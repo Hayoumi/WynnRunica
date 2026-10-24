@@ -237,6 +237,28 @@
       "ru": "В любом случае можешь §bвзять вон ту мою телегу§f до Римека, но назад уже сам как-нибудь. Дашь мне §3[1 Pink Wool]§f - и я тебя пропущу.",
       "speaker": "Bandit",
       "stage": ""
+    },
+    {
+      "id": "hub-delta-8a4c85c7184a",
+      "en": "Have you got me [1 Pink Wool] yet!? You can get it from the shop in Rymek .",
+      "ru": "§r§#FFFFFFТы уже добыл мне §r§#00AAAA[1 Pink Wool]§r§#FFFFFF!? Её можно купить в §r§#55FFFFмагазине в Римеке§r§#FFFFFF.",
+      "speaker": "Bandit",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-c1b0117564d2",
+      "en": "Thank you so much for removing the curse!",
+      "ru": "§r§#FFFFFFОгромное спасибо, что снял проклятие!",
+      "speaker": "Ormrod",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-57a1ba7119c1",
+      "en": "Have you got me [<num> Pink Wool] yet!? You can get it from the shop in Rymek .",
+      "ru": "Ты уже добыл мне §r§#00AAAA[1 Pink Wool]§r§#FFFFFF!? Её можно купить в §r§#55FFFFмагазине в Римеке§r§#FFFFFF.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -281,6 +303,14 @@
       "en": "Bring [1 Mummy's Bandage] to Ormrod at [980, 72, -1818].",
       "ru": "Принести Ормроду [1 Mummy's Bandage] [980, 72, -1818].",
       "stage": "Stage 7"
+    },
+    {
+      "id": "hub-alias-429ccbbe266e",
+      "en": "Attempt to enter the Mummy's tomb at [<num>, <num>, <num>].",
+      "ru": "Попытаться войти в гробницу мумии [1048, 85, -2300].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

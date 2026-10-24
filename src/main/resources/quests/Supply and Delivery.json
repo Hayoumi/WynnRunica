@@ -419,6 +419,21 @@
       "ru": "Так что либо ты тащишь припасы в Алекин... либо мы оба сбегаем, начинаем новую жизнь и уходим от последствий!",
       "speaker": "Ope",
       "stage": "Stage 3"
+    },
+    {
+      "id": "hub-20261019-dialogue-c3e7cb274061",
+      "en": "Hey! I- uh, I can't help but notice that. You're still here. With the crate. You need to bring it to Alekin Village , remember?",
+      "ru": "§r§fЭй! Я... э-э, не могу не заметить. Ты всё ещё здесь. С ящиком. Его нужно §r§bдоставить в деревню Алекин§r§f, помнишь?",
+      "speaker": "Ope",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-f3cced385b47",
+      "en": "The issue is... I've already run out of money on- uh, unrelated purchases. And even if I had the money, I couldn't buy the supply crate anyway..",
+      "ru": "Проблема в том, что... я уже потратил все деньги на... э-э, другие покупки. И даже если бы деньги §r§#00EB34были§r§f, я всё равно не смог бы купить этот ящик...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -457,6 +472,14 @@
       "en": "Bring the supply crate to Mayor Alvin in Alekin Village at [-181, 71, -1615].",
       "ru": "Принести ящик припасов мэру Элвину в деревню Алекин [-181, 71, -1615].",
       "stage": "Stage 4"
+    },
+    {
+      "id": "hub-alias-b40e12f8b32a",
+      "en": "Return to Ope with the supply crate at [<num>, <num>, <num>].",
+      "ru": "Вернуться к Опе с ящиком припасов [492, 67, -1588].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

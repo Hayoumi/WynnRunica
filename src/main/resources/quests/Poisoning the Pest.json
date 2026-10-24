@@ -318,7 +318,7 @@
     {
       "id": "dialogue-0045",
       "en": "[-1 Golden Ring]",
-      "ru": "§#FF55FF[-1 Golden Ring]§r",
+      "ru": "[+1 Golden Ring]§r",
       "speaker": "",
       "stage": "Stage 6"
     },
@@ -356,6 +356,13 @@
       "ru": "Батюшки, всё вышло куда опаснее, чем я рассчитывал. Но ты молодец! Рад, что нам удалось избавиться от этого чудовища...",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-20261019-dialogue-d8369f4e67bc",
+      "en": "I s'pose you won't be needing any explanations from a common farmer then, haha. Anyhow, when you're ready, head in there and get my ring.",
+      "ru": "§r§fПолагаю, объяснения простого фермера тебе уже ни к чему, ха-ха. В общем, как будешь готов, отправляйся туда и §r§bпринеси моё кольцо.§r§f",
+      "speaker": "Farmer Cevalus",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -398,12 +405,12 @@
     {
       "id": "hub-event-objective-a0a1b96c60ec",
       "en": "Pick up the shovel at [<num>, <num>, <num>]",
-      "ru": "Подобрать лопату [<num>, <num>, <num>]."
+      "ru": "Подобрать лопату [-748, 68, -1672]."
     },
     {
       "id": "hub-event-objective-70d697e47957",
       "en": "Dig up the grave at [<num>, <num>, <num>]",
-      "ru": "Раскопать могилу [<num>, <num>, <num>]."
+      "ru": "Раскопать могилу [-769, 71, -1680]."
     }
   ],
   "choices": [
@@ -518,6 +525,14 @@
       "ru": "До свидания.",
       "stage": "Post-Quest",
       "dialogueId": "dialogue-0036"
+    },
+    {
+      "id": "hub-20261019-choice-011fed0a1280",
+      "en": "I have.",
+      "ru": "Да.",
+      "speaker": "",
+      "stage": "",
+      "kind": "choice"
     }
   ]
 }

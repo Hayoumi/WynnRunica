@@ -542,7 +542,7 @@
     {
       "id": "dialogue-0077",
       "en": "Lecade 2",
-      "ru": "Лекад 2",
+      "ru": "Лекад 1",
       "speaker": "CHOICE",
       "stage": "Stage 12"
     },
@@ -748,6 +748,14 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55General's Orders",
       "speaker": "",
       "stage": "Stage 12"
+    },
+    {
+      "id": "hub-alias-6fa7a656663c",
+      "en": "What folly! A doppelganger calling ME a fake! How about you go ahead and prove yourself?",
+      "ru": "Что за идиотизм! Доппельгангер называет МЕНЯ подделкой! Ну давай, докажи тогда, кто из нас настоящий!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -822,6 +830,54 @@
       "en": "Investigate the mysterious prison within the fort.",
       "ru": "Исследовать загадочную тюрьму внутри форта.",
       "stage": "Stage 12"
+    },
+    {
+      "id": "hub-alias-4c36fabc503f",
+      "en": "Speak to General Lecade",
+      "ru": "Поговорить с генералом Лекадом.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-783ac213ee93",
+      "en": "Go check on the malfunctioning equipment at [<num>, <num>, <num>]",
+      "ru": "Осмотреть неисправное оборудование [86, 44, -5374].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-88ff213f335d",
+      "en": "Return to General Lecade",
+      "ru": "Вернуться к генералу Лекаду.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9941cc42e4c0",
+      "en": "Return to General Lecade with the Good-Luck Charm",
+      "ru": "Вернуться к генералу Лекаду с талисманом удачи.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-da629d9f2851",
+      "en": "Speak to Lieutenant Gren at [<num>, <num>, <num>]",
+      "ru": "Поговорить с лейтенантом Греном [146, 70, -5470].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-604935d9df03",
+      "en": "Investigate the mysterious prison within the fort",
+      "ru": "Исследовать загадочную тюрьму внутри форта.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

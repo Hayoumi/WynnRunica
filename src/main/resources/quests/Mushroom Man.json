@@ -521,7 +521,7 @@
     {
       "id": "dialogue-0074",
       "en": "I-... This is bad. This is really bad. We need to tell the Mayor, now.",
-      "ru": "§r§fЯ-... Это плохо. Это §r§#00EB34очень§r§f плохо. Надо §r§f§lсрочно§r§f сказать мэру.",
+      "ru": "Я... Это плохо. Очень плохо. Нам надо срочно рассказать мэру.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 4"
     },
@@ -612,9 +612,17 @@
     {
       "id": "hub-live-dialogue-f1dcde917eb4",
       "en": "We can kill spiders! Right, <playername>? Come on, this is what we're here to do! We became soldiers to help the people of Wynn, didn't we? We'll help you get your mushrooms back, sir.",
-      "ru": "§r§fПауков мы точно можем убить! Да, <playername>? Ну же, ради этого мы тут и есть! Мы же стали солдатами, чтобы помогать людям Винна, верно? Мы поможем вам вернуть ваши грибы, сэр.",
+      "ru": "Пауков мы точно можем убить! Да, <playername>? Ну же, ради этого мы тут и есть! Мы же стали солдатами, чтобы помогать людям Винна, верно? Мы поможем вам вернуть ваши грибы, сэр.",
       "speaker": "Tasim",
       "stage": ""
+    },
+    {
+      "id": "hub-alias-8ceb689b8214",
+      "en": "...Whatever. I'm alive, you're alive... that's probably good enough. Let's go find Admiral Aegis.",
+      "ru": "...Ладно, неважно. Я жив, ты жив... наверное, и этого достаточно. Пошли искать адмирала Эгиса.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -653,6 +661,54 @@
       "en": "Travel to Detlas to request the help of their military at [513, 69, -1628].",
       "ru": "Отправиться в Детлас и попросить помощи у военных [513, 69, -1628].",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-alias-d05e970cc157",
+      "en": "Travel to Detlas to request the help of their military at [<num>, <num>, <num>]",
+      "ru": "Отправиться в Детлас и попросить помощи у военных [513, 69, -1628].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-d3b298e714b7",
+      "en": "Talk to Tasim in Alekin Village at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Тасимом в деревне Алекин [-158, 73, -1621].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-cecb9c8cb36c",
+      "en": "Speak to the strange man at [<num>, <num>, <num>]",
+      "ru": "Поговорить со странным человеком [-175, 74, -1633].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1cc5412fbc9e",
+      "en": "Follow Yahya to his infested mushroom patch at [<num>, <num>, <num>]",
+      "ru": "Следовать за Яхьей к его заражённой грибной полянке [-214, 79, -1692].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-aa09f07a334b",
+      "en": "Clear out the spiders from Yahya's favorite mushroom patch at [<num>, <num>, <num>], then return and talk to Yahya",
+      "ru": "Избавить любимую грибную полянку Яхьи в [-200, 77, -1701] от пауков, затем вернуться к нему и поговорить.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ffd8891506e8",
+      "en": "Return to Mayor Alvin at [<num>, <num>, <num>] with news about the spiders",
+      "ru": "Вернуться к мэру Элвину с новостями о пауках [-181, 71, -1615].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

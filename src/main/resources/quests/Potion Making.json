@@ -227,7 +227,7 @@
     {
       "id": "hub-live-dialogue-exact-5fc13db23715",
       "en": "Get me... [8 Red Mushroom], they can be found outside the east gate behind me.",
-      "ru": "§r§fПринеси мне... §3[8 Red Mushroom]§f, они растут снаружи за §bвосточными воротами§f у меня за спиной.",
+      "ru": "Принеси мне... §3[<num> Red Mushroom]§f, они растут снаружи за §bвосточными воротами§f у меня за спиной.",
       "speaker": "The Assistant",
       "stage": ""
     },
@@ -241,9 +241,48 @@
     {
       "id": "hub-live-dialogue-7c7df45c7643",
       "en": "What have you done to this potion, human!? You will pay for it!",
-      "ru": "§r§fЧто ты сделал с этим зельем, человек!? Ты за это заплатишь!",
+      "ru": "Что ты сделал с этим зельем, человек? Ты за это ответишь!",
       "speaker": "Dr. Essren",
       "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-f9c55c5ba575",
+      "en": "Quickly, get me... [<num> Red Mushroom] as I asked... go through the Black Road outside the east gate from here.",
+      "ru": "§r§fБыстрее, принеси мне... §r§3[<num> Red Mushroom]§r§f, как я просил... иди по Чёрной дороге за восточными воротами.",
+      "speaker": "The Assistant",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-3d162df8919f",
+      "en": "You must ...ensure that it worked. You...are much stronger than I, stranger...",
+      "ru": "Надо§f... убедиться, что всё сработало. Ты... куда сильнее меня, странник...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-35946b3abb40",
+      "en": "That is my master's house, you...must go back out the east gate and enter the hut.",
+      "ru": "Это дом моего хозяина. Тебе надо снова выйти через восточные ворота и зайти в ту хижину.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-bc2090d015f0",
+      "en": "You must...make sure...he has not managed...to become invincible... Do what has to be done...",
+      "ru": "Ты должен... убедиться... что он не сумел... стать неуязвимым... Сделай всё, что нужно...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-37db35694fd6",
+      "en": "Get me... [<num> Red Mushroom] , they can be found outside the east gate behind me.",
+      "ru": "Принеси мне... §3[<num> Red Mushroom]§f, они растут снаружи за §bвосточными воротами§f у меня за спиной.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -289,6 +328,30 @@
       "ru": "Я думал, грибы нейтрализуют зелье?",
       "stage": "",
       "dialogueId": "dialogue-0016"
+    },
+    {
+      "id": "hub-20261019-choice-1e3ffb460576",
+      "en": "Got it!",
+      "ru": "Понятно!",
+      "speaker": "",
+      "stage": "",
+      "kind": "choice"
+    },
+    {
+      "id": "hub-20261019-choice-bb03eaa40c39",
+      "en": "How do I get mushrooms?",
+      "ru": "Как мне добыть грибы?",
+      "speaker": "",
+      "stage": "",
+      "kind": "choice"
+    },
+    {
+      "id": "hub-20261019-choice-f11d6eef29b0",
+      "en": "What were those cows...?",
+      "ru": "Что это были за коровы...?",
+      "speaker": "",
+      "stage": "",
+      "kind": "choice"
     }
   ]
 }

@@ -82,6 +82,14 @@
       "ru": "§r§#FFFFFFПостарайся §r§#55FFFFнайти эту башню§r§#FFFFFF. Скорее всего, книга где-то там у одного из скелетов.",
       "speaker": "Laen",
       "stage": ""
+    },
+    {
+      "id": "hub-alias-99e53a97cf47",
+      "en": "Hey, adventurer! Would you mind helping me for a second? I have a bit of a problem on my hands.",
+      "ru": "Эй, искатель приключений! Не поможешь мне на минутку? У меня тут небольшая проблема.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -108,6 +116,30 @@
       "en": "Bring back the book to Laen.",
       "ru": "Принести книгу Лаен.",
       "stage": "Stage 4"
+    },
+    {
+      "id": "hub-alias-3bcfbcc620a1",
+      "en": "Talk to Laen in Nemract at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Лаен в Немракте [24, 41, -2199].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9078317dec3c",
+      "en": "Find the lost tower in Ancient Nemract at [<num>, <num>, <num>]",
+      "ru": "Найти затерянную башню в Древнем Немракте [177, 51, -1883].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-7b13b1d5586e",
+      "en": "Find the book in the tower, and bring it back to Laen",
+      "ru": "Найти книгу в башне и принести её Лаен.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

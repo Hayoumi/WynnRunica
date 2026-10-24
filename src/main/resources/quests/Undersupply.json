@@ -52,7 +52,7 @@
     {
       "id": "dialogue-0007",
       "en": "If you're touring about here, you'll probably see the manor soon enough. If ya could get them to spare us some more water a while, I'll give ya a discount! How's about it?",
-      "ru": "Если гуляешь тут по округе, до поместья всё равно скоро доберёшься. Если сможешь выбить для нас чуть больше воды, я тебе потом скидку сделаю! Ну как?",
+      "ru": "Если гуляешь тут по округе, до поместья всё равно скоро доберёшься. Если сможешь §#55FFFFвыбить для нас чуть больше воды§#FFFFFF, я тебе потом скидку сделаю! Ну как?",
       "speaker": "Barkeep Romu",
       "stage": "Stage 1"
     },
@@ -967,6 +967,46 @@
       "en": "Return to the settlement and tell them about your success. [-1778, 13, -1239].",
       "ru": "Вернуться в поселение и сообщить об успехе [-1778, 13, -1239].",
       "stage": "Stage 5"
+    },
+    {
+      "id": "hub-alias-46291eae7e07",
+      "en": "Investigate the river settlement's water troubles at [<num>, <num>, <num>]",
+      "ru": "Выяснить, почему у поселения на реке не хватает воды [-1778, 13, -1239].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-401340d407a2",
+      "en": "Make your way to the manor and question them. [<num>, <num>, <num>]",
+      "ru": "Отправиться в усадьбу и расспросить её обитателей [-1711, 28, -1402].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1556207d906d",
+      "en": "Take the key to the dam from under the rose. [<num>, <num>, <num>]",
+      "ru": "Забрать ключ от плотины из-под розы [-1699, 33, -1391].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-0c3058e9a805",
+      "en": "Enter the Fruma Dam and find a way to make the water flow. [<num>, <num>, <num>]",
+      "ru": "Войти на плотину Фрумы и найти способ вернуть течение воды [-1620, 39, -1302].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-d35f3e2eee47",
+      "en": "Return to the settlement and tell them about your success. [<num>, <num>, <num>]",
+      "ru": "Вернуться в поселение и сообщить об успехе [-1778, 13, -1239].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

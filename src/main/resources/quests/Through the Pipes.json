@@ -1949,7 +1949,7 @@
     {
       "id": "wiki-20261008-dialogues-0024",
       "en": "<playername>! OH NO! I didn't mean to drop that on you-",
-      "ru": "§o<playername>§r! О НЕТ! Я не хотел уронить это на тебя-",
+      "ru": "<playername>§r! О НЕТ! Я не хотел уронить это на тебя-",
       "stage": "Stage 9",
       "speaker": "Fichu"
     },
@@ -2005,7 +2005,7 @@
     {
       "id": "wiki-20261008-dialogues-0037",
       "en": "...Finally.",
-      "ru": "...Наконец-то.",
+      "ru": "...Наконец-то",
       "stage": "Stage 10",
       "speaker": "Fichu"
     },
@@ -2217,26 +2217,130 @@
     {
       "id": "wiki-20261008-objectives-0001",
       "en": "Talk with the citizen in despair at [<num>, <num>, <num>].",
-      "ru": "Поговорить с отчаявшимся горожанином [<num>, <num>, <num>].",
+      "ru": "Поговорить с отчаявшимся горожанином [-1777, 26, -570].",
       "stage": "Stage 1"
     },
     {
       "id": "wiki-20261008-objectives-0006",
       "en": "Confront the raccoon at [<num>, <num>, <num>].",
-      "ru": "Найти енота [<num>, <num>, <num>].",
+      "ru": "Найти енота [-1725, 29, -537].",
       "stage": "Stage 2"
     },
     {
       "id": "wiki-20261008-objectives-0007",
       "en": "Enter the drainage hole at [<num>, <num>, <num>].",
-      "ru": "Спуститься в сливное отверстие [<num>, <num>, <num>].",
+      "ru": "Спуститься в сливное отверстие [-1699, 33, -516].",
       "stage": "Stage 3"
     },
     {
       "id": "wiki-20261008-objectives-0008",
       "en": "Enter the drainage hole at [<num>, <num>, <num>] to continue the search.",
-      "ru": "Спуститься в сливное отверстие и продолжить поиски [<num>, <num>, <num>].",
+      "ru": "Спуститься в сливное отверстие и продолжить поиски [-1699, 33, -516].",
       "stage": "Stage 3"
+    },
+    {
+      "id": "hub-alias-f341bc051d1d",
+      "en": "Talk with the citizen in despair at [<num>, <num>, <num>]",
+      "ru": "Поговорить с отчаявшимся горожанином [-1777, 26, -570].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-d1497bc6af30",
+      "en": "Confront the raccoon at [<num>, <num>, <num>]",
+      "ru": "Найти енота [-1725, 29, -537].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-0742137ade71",
+      "en": "Enter the drainage hole at [<num>, <num>, <num>]",
+      "ru": "Спуститься в сливное отверстие [-1699, 33, -516].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9eaffb05598f",
+      "en": "Dive deeper into the sewer network",
+      "ru": "Углубиться в канализацию.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-963e0652fee8",
+      "en": "Explore past the flood gate",
+      "ru": "Исследовать путь за шлюзом.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-53eda61b12a2",
+      "en": "Find a way to get across the flooded section of the sewer",
+      "ru": "Найти способ перебраться через затопленную часть канализации.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-82cbefa8f955",
+      "en": "Continue chasing the raccoon through the sewers",
+      "ru": "Продолжить погоню за енотом по канализации.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-2a5f89c0dc74",
+      "en": "Enter the drainage hole at [<num>, <num>, <num>] to continue the search",
+      "ru": "Спуститься в сливное отверстие и продолжить поиски [-1699, 33, -516].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e44dc06a5ede",
+      "en": "Encounter a familiar face in the sewers",
+      "ru": "Встретить знакомого в канализации.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a4a92f9898a8",
+      "en": "Find a safe way past the flooded rail tunnels",
+      "ru": "Найти безопасный путь через затопленные железнодорожные туннели.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-87615cb9f774",
+      "en": "Navigate through the end of the sewer network with Fichu",
+      "ru": "Пройти последнюю часть канализации вместе с Фичу.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e40e471200fa",
+      "en": "Confront the raccoon",
+      "ru": "Настигнуть енота.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-89b904ed8a21",
+      "en": "Encounter the stranger in the sewers",
+      "ru": "Встретить незнакомца в канализации.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": [

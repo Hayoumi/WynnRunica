@@ -675,7 +675,7 @@
     {
       "id": "dialogue-0096",
       "en": "[-1 Takan's Badge]",
-      "ru": "[-1 Takan's Badge]",
+      "ru": "[+1 Takan's Badge]",
       "speaker": "",
       "stage": "Stage 8"
     },
@@ -815,7 +815,7 @@
     {
       "id": "dialogue-0116",
       "en": "I suppose.",
-      "ru": "Пожалуй.",
+      "ru": "...Пожалуй.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 2"
     },
@@ -963,6 +963,13 @@
       "speaker": "Aledar",
       "en": "A general location is useful, though. I'll see if I can get any letters through to him. Thanks for telling me.",
       "ru": "Хорошо хоть я примерно знаю, где он. Попробую отправить ему письма. Спасибо, что сказал."
+    },
+    {
+      "id": "hub-20261019-dialogue-a1a3879205a5",
+      "en": "Stop. Do you hear that? Over there, in the room next to us- I hear voices.",
+      "ru": "§r§fСтой. Слышишь? Там, в соседней комнате... Я слышу голоса.",
+      "speaker": "Aledar",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -1025,6 +1032,38 @@
       "en": "Bring Takan's badge to Amerigo at [978, 86, -1973].",
       "ru": "Принести знак Такана Америго [978, 86, -1973].",
       "stage": "Stage 10"
+    },
+    {
+      "id": "hub-alias-f516067528d5",
+      "en": "Talk to Amerigo in Almuj at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Америго в Алмудже [979, 85, -1971].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ce9c7b3fa363",
+      "en": "Rendezvous near the barracks at [<num>, <num>, <num>]",
+      "ru": "Встретиться с отрядом возле казарм [1371, 95, -2152].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-3a2fa111d4e3",
+      "en": "Storm the barracks at [<num>, <num>, <num>]",
+      "ru": "Взять казармы штурмом [1348, 78, -2267].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f0ef187c7ebe",
+      "en": "Regroup with your companions at [<num>, <num>, <num>]",
+      "ru": "Встретиться со спутниками [1374, 84, -2179].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

@@ -584,7 +584,7 @@
     {
       "id": "dialogue-0083",
       "en": "You all strive to be that hero of heroes, “Bob”, but here's the truth. He's lost. You're lost.",
-      "ru": "Вы все рвётесь стать этим героем из героев, \"Бобом\", но вот вам правда. Он потерян. И вы потеряны.",
+      "ru": "Вы все пыжитесь стать тем самым героем героев, \"Бобом\", но вот правда. Он потерян. И вы тоже.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 5"
     },
@@ -601,6 +601,20 @@
       "ru": "Если сможешь, тебе стоит пойти туда и... добить его. Только сначала приоденься нормально и возьми с собой друзей, чтобы прикрывали спину.",
       "speaker": "Lanu",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-20261019-dialogue-05d85da45648",
+      "en": "We've got a major problem with this old fortress. It keeps spewing out all these damned slimes, and their proximity to Troms is causing issues.",
+      "ru": "§r§fУ нас тут большая проблема с этой старой крепостью. Из неё прут чёртовы слизни, и рядом с Тромсом от них одни неприятности.",
+      "speaker": "Lanu",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-4ae5b8db237f",
+      "en": "<playername>, good to see you again! Been a while, huh?",
+      "ru": "§r§f<playername>, рад снова тебя видеть! Давно не виделись, а?",
+      "speaker": "Lanu",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -644,6 +658,38 @@
       "id": "objective-9fce0994fc27",
       "en": "Go to Slykaar's residence at [<num>, <num>, <num>] to find out what is hidden there at",
       "ru": "Отправиться в жилище Сликаара [<num>, <num>, <num>] и выяснить, что там спрятано."
+    },
+    {
+      "id": "hub-alias-8d8511282541",
+      "en": "Talk to Lanu at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Лану [-628, 74, -868].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-7ed7cb8ad606",
+      "en": "Explore the temple for a way to break the barrier",
+      "ru": "Исследовать храм и найти способ разрушить барьер.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ad0d28ae1da5",
+      "en": "Journey through Slykaar's dimension",
+      "ru": "Пройти через измерение Сликаара.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-952309c5ffce",
+      "en": "Report back to Lanu about what you've learned",
+      "ru": "Рассказать Лану о том, что удалось узнать.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

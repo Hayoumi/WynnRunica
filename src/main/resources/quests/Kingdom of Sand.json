@@ -437,42 +437,42 @@
     {
       "id": "dialogue-0062",
       "en": "Didn’t think so. Now get lost, wasted enough of my t-",
-      "ru": "Так я и думал. А теперь проваливай, хватит тратить моё вре-",
+      "ru": "Так и думал. А теперь проваливай, хватит тратить моё вре-",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 2"
     },
     {
       "id": "dialogue-0063",
       "en": "Having fun thinking of a password? Sorry to spoil your lunch, but there isn’t one!",
-      "ru": "Весело придумывать пароль? Извини, что порчу аппетит, но пароля просто нет!",
+      "ru": "Ну что, весело пытаешься придумать пароль? Извини, что ломаю кайф, но его тут нет!",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 2"
     },
     {
       "id": "dialogue-0064",
       "en": "So how about we give him a taste of his own medicine, and get hold of that journal he keeps? I'm sure that’ll dig up some dirt on him.",
-      "ru": "Так что скажешь, отплатим ему той же монетой и доберёмся до его дневника? Уверен, там найдётся на него грязи.",
+      "ru": "Так что как насчёт того, чтобы отплатить ему той же монетой и стащить его дневник? Уверен, там найдётся немало грязи на него.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 3"
     },
     {
       "id": "dialogue-0065",
       "en": "Heh, guess yer the real thing. Hop in, lets get out of ‘ere.",
-      "ru": "Хех, похоже, ты и правда свой. Залезай, валим отсюда.",
+      "ru": "Хех, похоже, ты и правда не промах. Прыгай, валим отсюда.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 4"
     },
     {
       "id": "dialogue-0066",
       "en": "We might be bandits, but we’re not stupid. That sceptre is left better off alone.",
-      "ru": "Мы, может, и бандиты, но не дураки. Этот скипетр лучше не трогать.",
+      "ru": "Мы, может, и бандиты, но не тупые. Этот скипетр лучше вообще не трогать.",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 7"
     },
     {
       "id": "dialogue-0067",
       "en": "Get ‘em!",
-      "ru": "Взять их!",
+      "ru": "Взять его!",
       "speaker": "с вики: варианты выбора и реплики, потерянные парсером",
       "stage": "Stage 7"
     },
@@ -501,6 +501,13 @@
       "id": "hub-live-dialogue-f66bb2572a5c",
       "en": "Let's see... Hmm.. I don't understand it at all. The only word I recognise is \"life\".",
       "ru": "§r§fПосмотрим... Хмм... Я вообще ничего не понимаю. Единственное знакомое мне слово - \"жизнь\".",
+      "speaker": "Junes",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-0b4857625830",
+      "en": "... Until now. I believe I've managed to trace its possession to a nearby group of bandits. They probably have no idea what they're sitting on.",
+      "ru": "§r§f...Но теперь у меня появилась зацепка. Кажется, я выяснила, что скипетр попал к одной банде неподалёку. Скорее всего, они даже не понимают, какое сокровище у них в руках.",
       "speaker": "Junes",
       "stage": ""
     }
@@ -559,6 +566,70 @@
       "en": "Return to the tomb and give Junes the sceptre at [1408, 97, -1824].",
       "ru": "Вернуться в гробницу и передать скипетр Джунс [1408, 97, -1824].",
       "stage": "Stage 9"
+    },
+    {
+      "id": "hub-alias-4537d9533069",
+      "en": "Attempt to enter the bandit hideout at [<num>, <num>, <num>]",
+      "ru": "Попытаться войти в убежище бандитов [1314, 91, -1660].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-38d7cce35b3e",
+      "en": "Meet with Geo & Tarek at [<num>, <num>, <num>]",
+      "ru": "Встретиться с Гео и Тареком [1311, 90, -1654].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a9b3d509372b",
+      "en": "Sneak into the highest room of the Rymek Mansion at [<num>, <num>, <num>]",
+      "ru": "Пробраться в самую верхнюю комнату особняка в Римеке [1179, 32, -1295].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-475336dd8017",
+      "en": "Bring the journal from the Rymek Mansion to the Vault Guard to enter the hideout",
+      "ru": "Принести дневник из особняка в Римеке стражнику хранилища, чтобы попасть в убежище.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f7557c799d40",
+      "en": "Look for the sceptre within the bandit hideout at [<num>, <num>, <num>]",
+      "ru": "Найти скипетр в убежище бандитов [1314, 92, -1690].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-65af79ed93b4",
+      "en": "Search the broken cart at [<num>, <num>, <num>]",
+      "ru": "Осмотреть разбитую повозку [1183, 78, -1857].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-d8e8f9e54e30",
+      "en": "Search the abandoned house at [<num>, <num>, <num>]",
+      "ru": "Осмотреть заброшенный дом [1220, 78, -1873].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-93adedc60353",
+      "en": "Return to the tomb and give Junes the sceptre at [<num>, <num>, <num>]",
+      "ru": "Вернуться в гробницу и передать скипетр Джунс [1408, 97, -1824].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

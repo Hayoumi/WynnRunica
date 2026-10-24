@@ -1746,7 +1746,7 @@
     {
       "id": "dialogue-0249",
       "en": "Alright.",
-      "ru": "Ладно.",
+      "ru": "Ладно...",
       "stage": "Stage 7",
       "speaker": ""
     },
@@ -2341,7 +2341,7 @@
     {
       "id": "dialogue-0334",
       "en": "Of course. I'll talk about whatever you want.",
-      "ru": "Конечно. Поговорим о чём угодно.",
+      "ru": "Конечно, поговорим о чём угодно.",
       "stage": "Stage 7",
       "speaker": ""
     },
@@ -3230,14 +3230,14 @@
     {
       "id": "dialogue-0461",
       "en": "Suspect 2? Very well. I will take care of things from here.",
-      "ru": "Подозреваемый 2? Хорошо. Дальше я всё улажу.",
+      "ru": "Подозреваемый 1? Хорошо. Дальше я всё улажу.",
       "stage": "Stage 8",
       "speaker": ""
     },
     {
       "id": "dialogue-0462",
       "en": "Suspect 3? Very well. I will take care of things from here.",
-      "ru": "Подозреваемый 3? Хорошо. Дальше я всё улажу.",
+      "ru": "Подозреваемый 1? Хорошо. Дальше я всё улажу.",
       "stage": "Stage 8",
       "speaker": ""
     },
@@ -3601,7 +3601,7 @@
     {
       "id": "dialogue-0514",
       "en": "Goodbye.",
-      "ru": "До свидания.",
+      "ru": "До свидания!",
       "stage": "Post-Quest",
       "speaker": ""
     },
@@ -3734,14 +3734,14 @@
     {
       "id": "wiki-20261008-dialogues-0083",
       "en": "[+25 Tokens]",
-      "ru": "§#AA00AA[+25 Tokens]§r",
+      "ru": "[+10 Tokens]§r",
       "stage": "Stage 4",
       "speaker": ""
     },
     {
       "id": "wiki-20261008-dialogues-0104",
       "en": "[-5 Tokens]",
-      "ru": "§#AA00AA[-5 Tokens]§r",
+      "ru": "[+10 Tokens]§r",
       "stage": "Stage 4",
       "speaker": ""
     },
@@ -3790,7 +3790,7 @@
     {
       "id": "wiki-20261008-dialogues-0132",
       "en": "[+5 Tokens]",
-      "ru": "§#AA00AA[+5 Tokens]§r",
+      "ru": "[+10 Tokens]§r",
       "stage": "Stage 4",
       "speaker": ""
     },
@@ -3867,7 +3867,7 @@
     {
       "id": "wiki-20261008-dialogues-0200",
       "en": "I'm um Arris. I don't know what's happening, I got shoved into here by the festival organizer with these other two.",
-      "ru": "Я, эм, Аррис. Я не знаю, что происходит. Распорядитель праздника затолкал меня сюда вместе с этими двумя.",
+      "ru": "Я, э-э, Аррис. Не понимаю, что происходит. Распорядитель праздника затолкал меня сюда вместе с этими двумя.",
       "stage": "Stage 7",
       "speaker": "???"
     },
@@ -4056,7 +4056,7 @@
     {
       "id": "wiki-20261008-dialogues-0372",
       "en": "-1 [Fortune Cookie]",
-      "ru": "-1 §#AA00AA[Fortune Cookie]§r",
+      "ru": "[+1 Fortune Cookie]§r",
       "stage": "Stage 7",
       "speaker": ""
     },
@@ -4098,7 +4098,7 @@
     {
       "id": "wiki-20261008-dialogues-0409",
       "en": "Self-explanatory, I assumed.",
-      "ru": "Думал, это и так понятно.",
+      "ru": "Думал, это и так ясно.",
       "stage": "Stage 7",
       "speaker": "Burick"
     },
@@ -4812,7 +4812,7 @@
     {
       "id": "wiki-20261008-dialogues-0925",
       "en": "[-1 Broken Bottle]",
-      "ru": "§#AA00AA[-1 Broken Bottle]§r",
+      "ru": "[+1 Broken Bottle]§r",
       "stage": "Stage 7",
       "speaker": ""
     },
@@ -5168,20 +5168,28 @@
       "en": "Watch the wickerman burn.",
       "ru": "Посмотреть на сожжение плетёного чучела.",
       "stage": "Stage 10"
+    },
+    {
+      "id": "hub-alias-75576f85f492",
+      "en": "Read the noticeboard at [<num>, <num>, <num>] near Aldwell",
+      "ru": "Прочитать доску объявлений [<num>, <num>, <num>] возле Алдвелла.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": [
     {
       "id": "choice-0001",
       "en": "Yes",
-      "ru": "Сейчас принесу.",
+      "ru": "Да.",
       "stage": "",
       "dialogueId": ""
     },
     {
       "id": "choice-0002",
       "en": "No",
-      "ru": "Нет",
+      "ru": "Нет.",
       "stage": "",
       "dialogueId": ""
     },
@@ -5216,7 +5224,7 @@
     {
       "id": "choice-0007",
       "en": "Anything Else?",
-      "ru": "Что-нибудь ещё?",
+      "ru": "Что-то ещё?",
       "stage": "",
       "dialogueId": ""
     },
@@ -5489,7 +5497,7 @@
     {
       "id": "wiki-20261008-choices-0082",
       "en": "25 Tokens - [800 EB]",
-      "ru": "25 жетонов - §#55FF55[800 EB]§r",
+      "ru": "10 жетонов - §#55FF55[320 EB]§r",
       "stage": "Stage 4",
       "dialogueId": "dialogue-0049"
     },
@@ -5573,7 +5581,7 @@
     {
       "id": "wiki-20261008-choices-0280",
       "en": "Do you know Arris? They say they're a member of your clan",
-      "ru": "Ты знаешь Аррис? Говорит, что состоит в вашем клане.",
+      "ru": "Вы знаете Аррис? Аррис говорит, что состоит в вашем клане.",
       "stage": "Stage 7",
       "dialogueId": "dialogue-0058"
     },
@@ -5720,7 +5728,7 @@
     {
       "id": "wiki-20261008-choices-0484",
       "en": "Change subject.",
-      "ru": "Сменить тему.",
+      "ru": "Сменить тему",
       "stage": "Stage 7",
       "dialogueId": "dialogue-0265"
     },
@@ -5825,7 +5833,7 @@
     {
       "id": "wiki-20261008-choices-0570",
       "en": "Oh, okay",
-      "ru": "А, понятно",
+      "ru": "А, понятно.",
       "stage": "Stage 7",
       "dialogueId": "wiki-20261008-dialogues-0569"
     },

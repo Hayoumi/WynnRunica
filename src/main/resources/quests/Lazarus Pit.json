@@ -217,7 +217,7 @@
     {
       "id": "dialogue-0031",
       "en": "I want them gone! Get rid of, say, 10 Ghastly Ghouls. Then perhaps I'll give you the time of day, you strange, small-nosed lookyloo!",
-      "ru": "Я хочу, чтобы они исчезли! Убери, скажем, 10 Жутких Гулей. Тогда, возможно, я вообще соизволю с тобой говорить, ты, странный мелконосый зевака!",
+      "ru": "§r§fЯ хочу, чтобы они исчезли! Убери, скажем, §r§b10 Жутких Гулей§r§f. Тогда, возможно, я вообще соизволю с тобой говорить, ты, странный мелконосый зевака!",
       "speaker": "Lord Plaatic the Kind",
       "stage": "Stage 1"
     },
@@ -266,14 +266,14 @@
     {
       "id": "dialogue-0038",
       "en": "Bring it back, could you? I died around that old lich's tower to the east. Do that, and I'll be happy to give you my blessing!",
-      "ru": "Можешь вернуть его? Я умер возле той старой башни лича на востоке. Сделаешь это - и я с радостью дам тебе своё благословение!",
+      "ru": "§r§fМожешь вернуть его? Я умер возле той старой §r§bбашни лича на востоке§r§f. Сделаешь это - и я с радостью дам тебе своё благословение!",
       "speaker": "Sir Pigglesworth the Thirty-Fifth",
       "stage": "Stage 1"
     },
     {
       "id": "dialogue-0039",
       "en": "Bring my wedding band back, could you? I died around that old lich's tower to the east. Do that, and I'll be happy to give you my blessing!",
-      "ru": "Верни мне моё обручальное кольцо, ладно? Я умер возле той старой башни лича на востоке. Сделаешь это - и моё благословение твоё!",
+      "ru": "§r§fВерни мне моё обручальное кольцо, ладно? Я умер возле той старой §r§bбашни лича на востоке.§r§f Сделаешь это - и моё благословение твоё!",
       "speaker": "Sir Pigglesworth the Thirty-Fifth",
       "stage": "Stage 1"
     },
@@ -364,7 +364,7 @@
     {
       "id": "dialogue-0052",
       "en": "... the Lazarus Pi... said to bring back the dead.",
-      "ru": "... Лазарев колод... как говорят, возвращает мёртвых.",
+      "ru": "§r§f... §r§eЛазарев колод§r§f... как говорят, возвращает мёртвых.",
       "speaker": "Old Book",
       "stage": "Stage 1"
     },
@@ -423,6 +423,43 @@
       "ru": "§r§fЭй! Сюда, ты цел? §r§bПодойди§r§f, я объясню, что тут вообще сейчас было.",
       "speaker": "Burtur",
       "stage": "Stage 1"
+    },
+    {
+      "id": "hub-20261019-dialogue-0d329ee244a9",
+      "en": "Mrs. Fluffles doesn't look to be in the best of shape...",
+      "ru": "§r§7Миссис Флаффлс выглядит не лучшим образом...",
+      "speaker": "",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-a2dc84a95ead",
+      "en": "It's an old book, rather ripped and torn...",
+      "ru": "§r§7Старая книга, довольно потрёпанная и рваная...",
+      "speaker": "Old Book",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-048f916bc379",
+      "en": "Oh, you found something? Well, color me shocked that there was any stock to Referick's ranting...",
+      "ru": "О, ты что-то нашёл? Ну надо же, а я уже и не думал, что в болтовне Реферика вообще есть хоть капля правды...",
+      "speaker": "Burtur",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-5b62e13142d1",
+      "en": "Hey! Over there, you alright? Come talk to me , I can explain what just happened.",
+      "ru": "Эй! Сюда, ты цел? §r§bПодойди§r§f, я объясню, что тут вообще сейчас было.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-a12bcebf1714",
+      "en": "' Chapel of an ancient order '? There's a chapel just northwest of here. I'd say investigate that! I have to stick around here in case of another attack, but...",
+      "ru": "Часовня древнего ордена? Тут к северо-западу как раз есть часовня. Думаю, стоит её проверить! Я бы и сам пошёл, но мне надо оставаться здесь на случай новой атаки...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "choices": [],

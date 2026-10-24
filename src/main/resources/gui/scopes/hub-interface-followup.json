@@ -1,0 +1,1781 @@
+{
+  "schemaVersion": 2,
+  "domain": "gui-scope",
+  "id": "hub-interface-followup",
+  "scopes": [
+    {
+      "id": "interface-8dbd2162f9a84a8c914e",
+      "match": {
+        "title": "Maddening Mage's Gambit",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Maddening Mage's Gambit",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-d16e949d01381722272e",
+          "en": "Your spells will misfire",
+          "ru": "Ваши заклинания дают осечку"
+        },
+        {
+          "id": "interface-1bfc55e01e0d864ef5b8",
+          "en": "every <num> spells, instead",
+          "ru": "каждые <num> применений, вместо чего"
+        },
+        {
+          "id": "interface-93c2de701e2e7bb07846",
+          "en": "casting your <num>nd spell.",
+          "ru": "срабатывает ваше заклинание №<num>."
+        }
+      ]
+    },
+    {
+      "id": "interface-6e69bc3c6a41b31d282b",
+      "match": {
+        "title": "Balancing Act",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Balancing Act",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-59f165e1530f6672fe6b",
+          "en": "Cleanse <num> Curse per <num>",
+          "ru": "Снимайте <num> проклятие за <num>"
+        },
+        {
+          "id": "interface-7153f09c43318b561b41",
+          "en": "Challenge completed. Any",
+          "ru": "пройденное испытание. Любое"
+        },
+        {
+          "id": "interface-c0b5d0fef94e011a7efd",
+          "en": "Curse Cleanse will remove the",
+          "ru": "снятие проклятий убирает"
+        },
+        {
+          "id": "interface-428e962da74d9a08e3b3",
+          "en": "curse you have the most of",
+          "ru": "сначала самое частое"
+        },
+        {
+          "id": "interface-62e813eb3be239586a3d",
+          "en": "first.",
+          "ru": "проклятие."
+        }
+      ]
+    },
+    {
+      "id": "interface-25396d3c5a79ae86b601",
+      "match": {
+        "title": "tahkactel Transcriber",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "tahkactel Transcriber",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-9728f03c89ecbb7dbad6",
+          "en": "§7It's an aged scroll,",
+          "ru": "§7Это старый свиток,"
+        },
+        {
+          "id": "interface-e16b9fed777151b0ad97",
+          "en": "§7seemingly a translation",
+          "ru": "§7похожий на пособие"
+        },
+        {
+          "id": "interface-608852dfff9f33e03c0b",
+          "en": "§7guide for some sort of",
+          "ru": "§7по переводу с какого-то"
+        },
+        {
+          "id": "interface-767abfa8ed3001c884fe",
+          "en": "§7language. At the bottom,",
+          "ru": "§7языка. Внизу, кажется,"
+        },
+        {
+          "id": "interface-7b754ee4d02453a7e743",
+          "en": "§7there seems to be a note:",
+          "ru": "§7есть приписка:"
+        }
+      ]
+    },
+    {
+      "id": "interface-7ce9dd20ec5c33adcae4",
+      "match": {
+        "title": "Bounty Spirit XII",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Bounty Spirit XII",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-e164e50b283b788bb419",
+          "en": "\"LIMITED EDITION! Buy one",
+          "ru": "\"ЛИМИТИРОВАННАЯ СЕРИЯ! Купи"
+        },
+        {
+          "id": "interface-3596a520de28432ade66",
+          "en": "now, or you're a quack!\"",
+          "ru": "прямо сейчас, а то крякнешь!\""
+        }
+      ]
+    },
+    {
+      "id": "interface-c82dd14d114d9b305dfc",
+      "match": {
+        "title": "Bounty Spirit VIII",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Bounty Spirit VIII",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-c36b4889576f464e71d4",
+          "en": "\"It's beautiful, isn't it?",
+          "ru": "\"Красиво, правда? Внешний"
+        },
+        {
+          "id": "interface-260834ddada80badea8b",
+          "en": "The outside world you never",
+          "ru": "мир, который ты и не надеялся"
+        },
+        {
+          "id": "interface-c8b5da507525e66580b2",
+          "en": "thought you'd get to see.\"",
+          "ru": "когда-нибудь увидеть\"."
+        }
+      ]
+    },
+    {
+      "id": "interface-735bacbca9027d48fc8f",
+      "match": {
+        "title": "Thunder Defence Identification Only",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Thunder Defence Identification Only",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-9a9ecb0d52953f658757",
+          "en": "§7Must have the Thunder Defence",
+          "ru": "§7Должна быть характеристика \"Защита от Грома\""
+        }
+      ]
+    },
+    {
+      "id": "interface-04c0f39eab146c950573",
+      "match": {
+        "title": "Air Main Attack Damage Identification Only",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Air Main Attack Damage Identification Only",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-71e5aed9f79513d4ce62",
+          "en": "§7Must have the Air Main Attack Damage",
+          "ru": "§7Должна быть характеристика \"Урон Воздухом Основной Атаки\""
+        }
+      ]
+    },
+    {
+      "id": "interface-5869ed14c1980534ec66",
+      "match": {
+        "title": "Elemental Main Attack Damage Identification Only",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Elemental Main Attack Damage Identification Only",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-3cf15fd957f2477d3f44",
+          "en": "§7Must have the Elemental Main Attack Damage",
+          "ru": "§7Должна быть характеристика \"Стихийный Урон Основной Атаки\""
+        }
+      ]
+    },
+    {
+      "id": "interface-d4c9a672e24761de46f7",
+      "match": {
+        "title": "1x Spirits Crate T1",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "1x Spirits Crate T1",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-e1e9c8b729332f240c50",
+          "en": "the original Spirits",
+          "ru": "изначальной коллекции"
+        },
+        {
+          "id": "interface-94e52659ff050b85682a",
+          "en": "collection",
+          "ru": "Духов"
+        }
+      ]
+    },
+    {
+      "id": "interface-091688f5cf75e2b2786e",
+      "match": {
+        "title": "§6Break for Beyond (Banish the Beyond)",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Break for Beyond (Banish the Beyond)",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-623bd68cd59299123803",
+          "en": "§7by §fcorpe_",
+          "ru": "§7Автор: §fcorpe_"
+        }
+      ]
+    },
+    {
+      "id": "interface-c5cb8f18a3d12d9f6a66",
+      "match": {
+        "title": "Bounty Spirit VII",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Bounty Spirit VII",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-61c21d79fb82e63a9901",
+          "en": "\"It's horrible. Manufactured",
+          "ru": "\"Это ужасно. Искусственный"
+        },
+        {
+          "id": "interface-4866d42badea72f1547e",
+          "en": "experience, identity. What are they",
+          "ru": "опыт, выдуманная личность. Что они"
+        },
+        {
+          "id": "interface-41970c9062636bf41067",
+          "en": "plotting with their stashes?\"",
+          "ru": "замышляют со своими запасами?\""
+        }
+      ]
+    },
+    {
+      "id": "interface-56c7ca1ae66d7ad514a5",
+      "match": {
+        "title": "§eGrowth Accelerator Remote",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§eGrowth Accelerator Remote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-e8c04cce5d985f8c0be6",
+          "en": "§7Used to send pulses to trigger",
+          "ru": "§7Передаёт импульсы для запуска"
+        },
+        {
+          "id": "interface-11fc95048b3c75f5883d",
+          "en": "§7the machine!",
+          "ru": "§7машины!"
+        }
+      ]
+    },
+    {
+      "id": "interface-575d590762bbaba86c82",
+      "match": {
+        "title": "§fAmulet of Safe Passing",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fAmulet of Safe Passing",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-2b29fbef4d29a906f097",
+          "en": "§7Even if faint, the light imbued",
+          "ru": "§7Пусть свет этого амулета"
+        },
+        {
+          "id": "interface-38ccbf954d1b5f286ba0",
+          "en": "§7in this amulet is still strong.",
+          "ru": "§7и тусклый, он всё ещё силён."
+        },
+        {
+          "id": "interface-d3ac3f88059de47f549b",
+          "en": "§7A note is attached:",
+          "ru": "§7К нему прикреплена записка:"
+        },
+        {
+          "id": "interface-c5812ce4be97988b8079",
+          "en": "§7§o\"Bring this with, to the light, to him.\"",
+          "ru": "§7§o§o\"Возьми его с собой, к свету, к нему\"."
+        }
+      ]
+    },
+    {
+      "id": "interface-3b3dae9051a7c2e9049f",
+      "match": {
+        "title": "§cTNT",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§cTNT",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-b94831ee176a25d132f5",
+          "en": "§7§nCan be used with:",
+          "ru": "§7§nМожно использовать с:"
+        },
+        {
+          "id": "interface-e4cbf69de0cdd9f15a17",
+          "en": "§c - §7Cannons",
+          "ru": "§c - §7Пушки"
+        },
+        {
+          "id": "interface-a5dfd352a5c472280883",
+          "en": "§8 §8 §8 Throwing TNT in a machine",
+          "ru": "§8 §8 §8 Бросок TNT в машину"
+        },
+        {
+          "id": "interface-3ffd792cac94858ef990",
+          "en": "§8 §8 §8 causes it to selfdestruct",
+          "ru": "§8 §8 §8 заставит её самоуничтожиться"
+        },
+        {
+          "id": "interface-1ee6da4c04e2655e00ff",
+          "en": "§c - §7Catapult",
+          "ru": "§c - §7Катапульта"
+        },
+        {
+          "id": "interface-165735c9e38caae8dda3",
+          "en": "§8 §8 §8 Can be used to destroy",
+          "ru": "§8 §8 §8 Можно разрушать"
+        },
+        {
+          "id": "interface-f6f3f1322374bff59966",
+          "en": "§8 §8 §8 other war machines",
+          "ru": "§8 §8 §8 другие военные машины"
+        },
+        {
+          "id": "interface-5ca9bb4d893198a31d04",
+          "en": "§8 §8 §8 §nNote§8: TNT is lighter than rock",
+          "ru": "§8 §8 §8 §n§nПримечание§8: TNT легче камня"
+        }
+      ]
+    },
+    {
+      "id": "interface-70d98fc34a37a8291bf5",
+      "match": {
+        "title": "<em>Springtrap<em>",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Springtrap<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-55a580934022733dd057",
+          "en": "<em>\"After nearly getting trapped in",
+          "ru": "<em>\"Чуть не попав в железную деву,"
+        },
+        {
+          "id": "interface-d9f450f2b220f1a4fd8c",
+          "en": "<em>an iron maiden, I figure I can",
+          "ru": "<em>я решил, что могу изучать"
+        },
+        {
+          "id": "interface-9e8bd7be81baee8e8072",
+          "en": "<em>study  those mummies just as well",
+          "ru": "<em>этих мумий ничуть не хуже"
+        },
+        {
+          "id": "interface-8b3fd82d2b93243cc803",
+          "en": "<em>from home.\" -Achper, Almuj",
+          "ru": "<em>из дома\". - Акпер, археолог"
+        },
+        {
+          "id": "interface-1ced10abdce685262ef1",
+          "en": "<em>Archaeologist",
+          "ru": "<em>из Алмуджа"
+        }
+      ]
+    },
+    {
+      "id": "interface-a96a2c457ecc085cc13c",
+      "match": {
+        "title": "Create Guild",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Create Guild",
+        "ru": "Создать Гильдию"
+      },
+      "lines": [
+        {
+          "id": "interface-6cd91477f8adcdb85138",
+          "en": "§7§a✔ §7Cost: §f<num>²½",
+          "ru": "§7§a§a✔ §7Стоимость: §f<num>²½"
+        },
+        {
+          "id": "interface-5d240cbf0a7ca9ac08ec",
+          "en": "§7<em> to create your guild",
+          "ru": "§7<em> §a- создать гильдию"
+        }
+      ]
+    },
+    {
+      "id": "interface-0b6c9e26c8437259ca22",
+      "match": {
+        "title": "§fSeasoned Voidroot Stew",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fSeasoned Voidroot Stew",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-b017240cd433512a58ab",
+          "en": "§7Alongside Chef Brie, you have",
+          "ru": "§7Вместе с шеф-поваром Бри вы"
+        },
+        {
+          "id": "interface-3bb3059ceb88433410ff",
+          "en": "§7cooked up a peculiar stew that",
+          "ru": "§7сварили необычное рагу,"
+        },
+        {
+          "id": "interface-cd6e45090c039aea223e",
+          "en": "§7seems to have a layer of absolute",
+          "ru": "§7словно покрытое слоем"
+        },
+        {
+          "id": "interface-2946fd9350fcdb4e5abb",
+          "en": "§7darkness over the top...",
+          "ru": "§7кромешной тьмы..."
+        }
+      ]
+    },
+    {
+      "id": "interface-f761123fcdcfc63c19e4",
+      "match": {
+        "title": "§fMoonsalt",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fMoonsalt",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-7fe7978fbb6633c2068a",
+          "en": "§7This salt is famous for its unearthly",
+          "ru": "§7Эта соль славится своей неземной"
+        },
+        {
+          "id": "interface-524353db9350f414422d",
+          "en": "§7texture, but it notoriously difficult",
+          "ru": "§7текстурой, но раздобыть её"
+        },
+        {
+          "id": "interface-4af0ab2160a32805bfa1",
+          "en": "§7to get ahold of.",
+          "ru": "§7чрезвычайно трудно."
+        }
+      ]
+    },
+    {
+      "id": "interface-b5c8b26a4af4f9f99156",
+      "match": {
+        "title": "§a§lPlaying Bass Guitar",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lPlaying Bass Guitar",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-d92dbb2cce67f5e544cd",
+          "en": "§7All played notes will be",
+          "ru": "§7Все сыгранные ноты будут"
+        },
+        {
+          "id": "interface-05663aefc240279e66e6",
+          "en": "§7sent to nearby players",
+          "ru": "§7слышны ближайшим игрокам"
+        },
+        {
+          "id": "interface-936788f21aaf3b6f05c6",
+          "en": "§7Notes are in§f F# §7scale",
+          "ru": "§7Ноты звучат в тональности§f F#§7,"
+        },
+        {
+          "id": "interface-142438cf7900be35bdaa",
+          "en": "§7but displayed in §fC§7 while",
+          "ru": "§7но отображаются в §fC§7, пока"
+        },
+        {
+          "id": "interface-431aeccdb472b7002955",
+          "en": "§7§fEasy Mode §7is enabled",
+          "ru": "§7включён §fпростой режим"
+        },
+        {
+          "id": "interface-a9586e195d9b7ed8a114",
+          "en": "§a- Easy Mode",
+          "ru": "§a- Простой режим"
+        },
+        {
+          "id": "interface-9454bae3f8d1514c77cf",
+          "en": "§8- Advanced Mode",
+          "ru": "§8- Продвинутый режим"
+        }
+      ]
+    },
+    {
+      "id": "interface-31cbe826895d5e2fa715",
+      "match": {
+        "title": "Push-ups Emote",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Push-ups Emote",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-0e78f42b6589b2d62220",
+          "en": "Play the push-ups emote to",
+          "ru": "Исполните эмоцию отжиманий,"
+        },
+        {
+          "id": "interface-fd2461bd05331a41e8b0",
+          "en": "exercise your strength",
+          "ru": "чтобы потренировать силу"
+        }
+      ]
+    },
+    {
+      "id": "interface-1aad25e00cddfaf76b4e",
+      "match": {
+        "title": "§fDragon's Tooth",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fDragon's Tooth",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-01ca9dc00ed8de4e0a64",
+          "en": "§7§7This tooth is a reference to the fight",
+          "ru": "§7§7Этот зуб напоминает о битве"
+        },
+        {
+          "id": "interface-3168568cd5fdf139dd79",
+          "en": "§7§7between Siegfried and a dragon, which",
+          "ru": "§7§7Зигфрида с драконом, которого"
+        },
+        {
+          "id": "interface-0df40083c4e6cae22f08",
+          "en": "§7§7Siegfried slayed, saving the city of Ahmsord",
+          "ru": "§7§7он сразил, спасая город Амсорд"
+        }
+      ]
+    },
+    {
+      "id": "interface-0defe4c36a57468b9a21",
+      "match": {
+        "title": "§rSiegfried Diary Collection",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§rSiegfried Diary Collection",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-39e76a3d3e0fef863f16",
+          "en": "§7§7This special bundle includes all",
+          "ru": "§7§7Этот особый набор включает все"
+        },
+        {
+          "id": "interface-7c90cc1a2b056a2f8c47",
+          "en": "§7§7of Siegfried's diaries up to #<num>",
+          "ru": "§7§7дневники Зигфрида вплоть до №<num>"
+        }
+      ]
+    },
+    {
+      "id": "interface-6d4cf6037cd2b876eab8",
+      "match": {
+        "title": "You are Ascending",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "You are Ascending",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-777580fcc49070cfbab4",
+          "en": "<em>from Level <num> to <num>",
+          "ru": "<em>с уровня <num> до <num>"
+        },
+        {
+          "id": "interface-9c5908e7448a6255ed8b",
+          "en": "Ascension Chance: <num>%",
+          "ru": "Шанс вознесения: <num>%"
+        },
+        {
+          "id": "interface-4bd33165ab7df96785de",
+          "en": "You can choose to salvage another",
+          "ru": "Вы можете разобрать ещё один"
+        },
+        {
+          "id": "interface-4c21fb3dfbf3969ac186",
+          "en": "of the same equipment to increase",
+          "ru": "такой же предмет снаряжения,"
+        },
+        {
+          "id": "interface-833c559015717882edac",
+          "en": "the odds of success",
+          "ru": "чтобы повысить шанс успеха"
+        },
+        {
+          "id": "remaining-gui-d1b58eaa51ee92f1446a",
+          "en": "§cFailing to ascend will consume all",
+          "ru": "§cПри неудачном вознесении будут потрачены все"
+        },
+        {
+          "id": "remaining-gui-1ee99a7f70de12cdbbc6",
+          "en": "§cresources and salvaged items without",
+          "ru": "§cресурсы и разобранные предметы, но сам предмет"
+        },
+        {
+          "id": "remaining-gui-3073f3a6b0c4ec381b6e",
+          "en": "§cascending or destroying the item",
+          "ru": "§cне будет ни вознесён, ни уничтожен"
+        }
+      ]
+    },
+    {
+      "id": "interface-73a8e023f693c05e8ad2",
+      "match": {
+        "title": "Patchwork Climbing Gloves",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Patchwork Climbing Gloves",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-791deba7534b48f3b8df",
+          "en": "§7 <em> Shift to Cling",
+          "ru": "§7 <em> §fShift - уцепиться"
+        },
+        {
+          "id": "interface-15758f4897f2f87a6f45",
+          "en": "§7Allows you to cling onto nearby",
+          "ru": "§7Позволяет цепляться за ближайшие"
+        },
+        {
+          "id": "interface-b77e6349f0b98da80f60",
+          "en": "§7surfaces while in your inventory",
+          "ru": "§7поверхности, находясь в инвентаре,"
+        },
+        {
+          "id": "interface-99f2cda98e3ad76933b0",
+          "en": "§7when used in The Outer Void.",
+          "ru": "§7при использовании во Внешней Пустоте."
+        },
+        {
+          "id": "interface-0294a6a9ae21a1c07a70",
+          "en": "§7Unique Void Trinket",
+          "ru": "§7Уникальный Аксессуар Пустоты"
+        },
+        {
+          "id": "interface-c230871469e51adbc6ec",
+          "en": "§7It shouldn't take much more than old debris",
+          "ru": "§7Чтобы справиться со старыми обломками,"
+        },
+        {
+          "id": "interface-443409f32d1564ffd891",
+          "en": "§7to handle all the old debris, right?",
+          "ru": "§7хватит самих старых обломков, верно?"
+        }
+      ]
+    },
+    {
+      "id": "interface-b3ae9c3917a9bf44b5b6",
+      "match": {
+        "title": "§eHeather Beer",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§eHeather Beer",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-aecfc01116d769fe1655",
+          "en": "§7On use, allows you to enjoy nearby",
+          "ru": "§7При использовании позволяет любоваться"
+        },
+        {
+          "id": "interface-cb0334fb67183c527225",
+          "en": "§7flowers until you stand up.",
+          "ru": "§7ближайшими цветами, пока вы не встанете."
+        },
+        {
+          "id": "interface-f2a775ec58da450f1ebb",
+          "en": "§8A floral beverage native to Espren.",
+          "ru": "§8Цветочный напиток родом из Эспрена."
+        },
+        {
+          "id": "interface-e4c096fd0b2ee054ca9f",
+          "en": "§8It reads: \"For those moments where",
+          "ru": "§8На этикетке: \"Когда нужно просто"
+        },
+        {
+          "id": "interface-0688aca6c9f5b102fc46",
+          "en": "§8you just need to sit back and",
+          "ru": "§8сесть, отдохнуть"
+        },
+        {
+          "id": "interface-4f87979151b594f905f3",
+          "en": "§8smell the flowers.\"",
+          "ru": "§8и насладиться ароматом цветов\"."
+        }
+      ]
+    },
+    {
+      "id": "interface-0e323f87076067ff1e56",
+      "match": {
+        "title": "TNT",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "TNT",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-0e2da16a88b71a3c9051",
+          "en": "§7Can break dark cobblestone.",
+          "ru": "§7Может разрушать тёмный булыжник."
+        },
+        {
+          "id": "interface-f2580e8ff61a92ef5101",
+          "en": "§7Can only be placed on the ground.",
+          "ru": "§7Можно поставить только на землю."
+        }
+      ]
+    },
+    {
+      "id": "interface-644fbee494ff23550544",
+      "match": {
+        "title": "Golem Shard",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Golem Shard",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-b9116a17af606f2d095b",
+          "en": "§7 <em> Right-Click on a Golem to use",
+          "ru": "§7 <em> §fПКМ по голему - использовать"
+        },
+        {
+          "id": "interface-f3b0054d454251bad3de",
+          "en": "§7Heals a Golem who has",
+          "ru": "§7Исцеляет голема, потерявшего"
+        },
+        {
+          "id": "interface-dd0226a71cb28c2ea4ad",
+          "en": "§7lost health during battle.",
+          "ru": "§7здоровье в бою."
+        }
+      ]
+    },
+    {
+      "id": "interface-573f82e22556bacd15a8",
+      "match": {
+        "title": "Fort Torann",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Fort Torann",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-3dc6caeebddbe5ee446f",
+          "en": "You are already at this",
+          "ru": "Вы уже на этой"
+        },
+        {
+          "id": "interface-8c6a82380e9e5678600b",
+          "en": "station!",
+          "ru": "станции!"
+        }
+      ]
+    },
+    {
+      "id": "interface-d72c6e35eaa798d2d97d",
+      "match": {
+        "title": "§fSiegfried Cookies",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fSiegfried Cookies",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-e761d40c3ede9f79cc2c",
+          "en": "§7§7These cookies are baked using",
+          "ru": "§7§7Это печенье готовится по рецепту"
+        },
+        {
+          "id": "interface-82771875420b04492e90",
+          "en": "§7§7a recipe from Siegfried's cooking",
+          "ru": "§7§7из кулинарной книги Зигфрида,"
+        },
+        {
+          "id": "interface-5ac1abe533b431758e8f",
+          "en": "§7§7book, now available in every library",
+          "ru": "§7§7которая теперь есть в каждой библиотеке"
+        }
+      ]
+    },
+    {
+      "id": "interface-f0e479b3e649c111033c",
+      "match": {
+        "title": "§dChorus Balloon",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§dChorus Balloon",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-e0c1f9baa6e38c01c44e",
+          "en": "§7Allows you to §fcarry §7a small",
+          "ru": "§7Позволяет §fносить§7 с собой"
+        },
+        {
+          "id": "interface-c2a78b51322984f1f52d",
+          "en": "§7balloon around with you!",
+          "ru": "§7небольшой воздушный шарик!"
+        },
+        {
+          "id": "interface-10ef390b4b17877c2beb",
+          "en": "§8It's quite durable. Worryingly,",
+          "ru": "§8На удивление прочный. Тревожит"
+        },
+        {
+          "id": "interface-1941ee87eb41637a06ef",
+          "en": "§8it feels like a real chorus flower.",
+          "ru": "§8то, как он похож на настоящий цветок хоруса."
+        }
+      ]
+    },
+    {
+      "id": "interface-dc3f4315056d198a6e9b",
+      "match": {
+        "title": "§fDirty Clothes",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fDirty Clothes",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-2854c4771c3ac244f257",
+          "en": "§7You should probably wash",
+          "ru": "§7Пожалуй, стоит постирать эту"
+        },
+        {
+          "id": "interface-862a2a85f0f2f6837c7b",
+          "en": "§7them before giving those to",
+          "ru": "§7одежду, прежде чем отдавать её"
+        },
+        {
+          "id": "interface-e334e7f36f9e3c4ee169",
+          "en": "§7Ava!",
+          "ru": "§7Аве!"
+        }
+      ]
+    },
+    {
+      "id": "interface-9abe3508cdd57d475b47",
+      "match": {
+        "title": "§fNote to Vadas",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fNote to Vadas",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-a7fa6318b576dd504b5d",
+          "en": "§7Vadas! For the last time,",
+          "ru": "§7Вадас! В последний раз:"
+        },
+        {
+          "id": "interface-7c6c2b1304c5feb6e461",
+          "en": "§7the button to open the",
+          "ru": "§7кнопка, открывающая"
+        },
+        {
+          "id": "interface-6417372dad915431880d",
+          "en": "§7basement door is on the",
+          "ru": "§7дверь в подвал, находится"
+        },
+        {
+          "id": "interface-7f0c720736fff7015f4e",
+          "en": "§7second floor!",
+          "ru": "§7на втором этаже!"
+        }
+      ]
+    },
+    {
+      "id": "interface-747c4ea2bcfdeb5d1dc6",
+      "match": {
+        "title": "§fLava Bucket",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fLava Bucket",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-76e96c153e74f374dcf2",
+          "en": "§7It's hot to the touch.",
+          "ru": "§7Горячее на ощупь."
+        }
+      ]
+    },
+    {
+      "id": "interface-6a810ce4d4230cc28ed8",
+      "match": {
+        "title": "§b§lMessage Board",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§b§lMessage Board",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-368a3578fe239328e493",
+          "en": "§7Stores messages and",
+          "ru": "§7Хранит сообщения и"
+        },
+        {
+          "id": "interface-d40e417d87da08ae064c",
+          "en": "§7announcements of this",
+          "ru": "§7объявления этого"
+        },
+        {
+          "id": "interface-c989b3a77136b467d91f",
+          "en": "§7Housing Island",
+          "ru": "§7жилого острова"
+        },
+        {
+          "id": "interface-b5fb4e3a0d3b7dc019b1",
+          "en": "§7§3Total Messages: §b<num>",
+          "ru": "§7§3§3Всего сообщений: §b<num>"
+        }
+      ]
+    },
+    {
+      "id": "interface-80e4440406b34f7790fe",
+      "match": {
+        "title": "§aAvailable Slot",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§aAvailable Slot",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-c9ab8cfdd8396ba33386",
+          "en": "§7By purchasing an island you will",
+          "ru": "§7Купив остров, вы сможете"
+        },
+        {
+          "id": "interface-10b944519445d1de786a",
+          "en": "§7be able to access it any time",
+          "ru": "§7в любое время попасть на него"
+        },
+        {
+          "id": "interface-e38fecf60586a63af784",
+          "en": "§7at the housing hot air balloons",
+          "ru": "§7через воздушные шары для жилья"
+        },
+        {
+          "id": "interface-7ff2d8760ae4772bd2a8",
+          "en": "§8This island slot is only",
+          "ru": "§8Эта ячейка острова доступна только"
+        }
+      ]
+    },
+    {
+      "id": "interface-a141ac071ce79626105c",
+      "match": {
+        "title": "§6Housing Island",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Housing Island",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-1f7877f37b514780eaa1",
+          "en": "§bLocation: §fAlmuj",
+          "ru": "§bМесто: §fАлмудж"
+        }
+      ]
+    },
+    {
+      "id": "interface-eceb1e22fa0218c6913d",
+      "match": {
+        "title": "§6Jewel of the Desert (Almuj)",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Jewel of the Desert (Almuj)",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-1cf6c17a6f51a3393ebf",
+          "en": "§7by §fNeedlr, JerryStuffRo",
+          "ru": "§7Авторы: §fNeedlr, JerryStuffRo"
+        }
+      ]
+    },
+    {
+      "id": "interface-170ffd3bb99325cb3a04",
+      "match": {
+        "title": "§a§lSelect a song",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§a§lSelect a song",
+        "ru": "§a§lВыберите песню"
+      },
+      "lines": [
+        {
+          "id": "interface-2867bad130a7fb61a4e8",
+          "en": "§7Preview and Select a song",
+          "ru": "§7Прослушайте и выберите композицию"
+        },
+        {
+          "id": "interface-d9a012227b6ad3d122fc",
+          "en": "§7from the entire Wynncraft OST",
+          "ru": "§7из полного саундтрека Wynncraft,"
+        },
+        {
+          "id": "interface-f4f84b7389eedbdcd4de",
+          "en": "§7to play as background for your",
+          "ru": "§7чтобы она звучала фоном"
+        },
+        {
+          "id": "interface-7e6bee16494d07363ff4",
+          "en": "§7island",
+          "ru": "§7на вашем острове"
+        }
+      ]
+    },
+    {
+      "id": "interface-a80f481f853e15628aea",
+      "match": {
+        "title": "§eDawn",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§eDawn",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-1513bda9e667b14476c1",
+          "en": "§7§7Defines your housing island",
+          "ru": "§7§7Устанавливает на вашем острове"
+        },
+        {
+          "id": "interface-5d410601555ab244066c",
+          "en": "§7§7world time to Dawn.",
+          "ru": "§7§7время суток: рассвет."
+        }
+      ]
+    },
+    {
+      "id": "interface-a07f74b24488c0402d76",
+      "match": {
+        "title": "§bNoon",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§bNoon",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-b56db25e7abe3bc9385b",
+          "en": "§7§7Defines your housing island",
+          "ru": "§7§7Устанавливает на вашем острове"
+        },
+        {
+          "id": "interface-91bfa46de3102d1fc768",
+          "en": "§7§7world time to Noon.",
+          "ru": "§7§7время суток: полдень."
+        }
+      ]
+    },
+    {
+      "id": "interface-f0e465017a59e8f675c9",
+      "match": {
+        "title": "§dCycle",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§dCycle",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-7b5f1d72ce8290358712",
+          "en": "§7§7Makes your housing island",
+          "ru": "§7§7На вашем острове"
+        },
+        {
+          "id": "interface-f6a50f24ad87b22ac09c",
+          "en": "§7§7world time cycle through the",
+          "ru": "§7§7время суток меняется"
+        },
+        {
+          "id": "interface-ec27de4f80e805c6ee6d",
+          "en": "§7§7day.",
+          "ru": "§7§7в течение дня."
+        }
+      ]
+    },
+    {
+      "id": "interface-f7988d6fb78406e210d9",
+      "match": {
+        "title": "§6Evening",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§6Evening",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-3bcd84d343aea6922100",
+          "en": "§7§7Defines your housing island",
+          "ru": "§7§7Устанавливает на вашем острове"
+        },
+        {
+          "id": "interface-4d481648724082fde398",
+          "en": "§7§7world time to Evening.",
+          "ru": "§7§7время суток: вечер."
+        }
+      ]
+    },
+    {
+      "id": "interface-446abbfae142a26f5705",
+      "match": {
+        "title": "§fStudy Key",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fStudy Key",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-ad136e9e8dc430ce37f9",
+          "en": "§7This key can be used to open the door to the Study.",
+          "ru": "§7Этим ключом можно открыть дверь в кабинет."
+        }
+      ]
+    },
+    {
+      "id": "interface-a138a6edb39011b17e3c",
+      "match": {
+        "title": "§7Machete",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Machete",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-bfaa5b0410e1cfbd6d23",
+          "en": "§8This machete is perfect for cutting through cactus...",
+          "ru": "§8Этот мачете отлично подходит для разрубания кактусов..."
+        }
+      ]
+    },
+    {
+      "id": "interface-8054eb02d0e88c17262c",
+      "match": {
+        "title": "Confirm Edit",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Confirm Edit",
+        "ru": "Подтвердить Изменения"
+      },
+      "lines": [
+        {
+          "id": "interface-2d4be15cd58291f2d15e",
+          "en": "§7Edit and updates",
+          "ru": "§7Редактирует и обновляет"
+        },
+        {
+          "id": "interface-16f7ed9f141f38e78165",
+          "en": "§7your current party",
+          "ru": "§7вашу текущую группу"
+        }
+      ]
+    },
+    {
+      "id": "interface-8a358321109f32b7a5e4",
+      "match": {
+        "title": "§fLucky Lynx Foot",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fLucky Lynx Foot",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-f294c29ec290e100b848",
+          "en": "§7Bring to §7the alter of",
+          "ru": "§7Принесите это к"
+        },
+        {
+          "id": "interface-25102b33eedb7e603855",
+          "en": "§7the Depressing Spear",
+          "ru": "§7алтарю Depressing Spear"
+        }
+      ]
+    },
+    {
+      "id": "interface-bd4d84082ddf458d9595",
+      "match": {
+        "title": "<em>Wybel Paw<em>",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "<em>Wybel Paw<em>",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-e754f82376a5f43cd618",
+          "en": "<em>Even reduced to just the bones,",
+          "ru": "<em>Даже если остались одни кости,"
+        },
+        {
+          "id": "interface-805e96057e6f8c4cebf4",
+          "en": "<em>you can't help but feel bad for",
+          "ru": "<em>вам всё равно жаль беднягу,"
+        },
+        {
+          "id": "interface-bd69f1d521b00930625c",
+          "en": "<em>the poor thing this paw came from.",
+          "ru": "<em>которому принадлежала эта лапка."
+        }
+      ]
+    },
+    {
+      "id": "interface-441e95eec74ba2cae23a",
+      "match": {
+        "title": "§fFood Crate",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fFood Crate",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-3f92193ec7b3db5c60b3",
+          "en": "§7The crate is filled with christmas",
+          "ru": "§7Ящик набит рождественскими"
+        },
+        {
+          "id": "interface-1ab53ef8383184cbdb1e",
+          "en": "§7goodies.",
+          "ru": "§7лакомствами."
+        }
+      ]
+    },
+    {
+      "id": "interface-529abd1f9b8fcf79be65",
+      "match": {
+        "title": "§fMe§kt§feo§kr S§fhard",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fMe§kt§feo§kr S§fhard",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-48560a5d5257c204fe1d",
+          "en": "§7The shard is already",
+          "ru": "§7Осколок уже начинает"
+        },
+        {
+          "id": "interface-ac67f6a1e5fa29423df0",
+          "en": "§7starting to cloud your mind...",
+          "ru": "§7затуманивать ваш разум..."
+        }
+      ]
+    },
+    {
+      "id": "interface-e3e45e34522a66eb9e50",
+      "match": {
+        "title": "Lost Soul VI",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Lost Soul VI",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-51236a122aabf3b7d801",
+          "en": "\"The citadel's bell rings",
+          "ru": "\"Колокол цитадели громко"
+        },
+        {
+          "id": "interface-473d6a3228fcf80130a3",
+          "en": "loud throughout its walls.\"",
+          "ru": "звенит в её стенах\"."
+        }
+      ]
+    },
+    {
+      "id": "interface-ee8df7a342edec385dd9",
+      "match": {
+        "title": "§bSkiens Island Boat Pass",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§bSkiens Island Boat Pass",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-01aba2db850db1fb4b78",
+          "en": "§7§7Use this at the §fV.S.S. Seaskipper",
+          "ru": "§7§7Используйте у §fV.S.S. Seaskipper§7,"
+        },
+        {
+          "id": "interface-abe5d4785ca2fb9b3948",
+          "en": "§7§7to fast-travel to §fSkiens Island",
+          "ru": "§7§7чтобы быстро добраться до §fострова Скиена"
+        },
+        {
+          "id": "interface-e4c74fc9a42dc9341be0",
+          "en": "§7§aIsland Info:",
+          "ru": "§7§a§aОб острове:"
+        },
+        {
+          "id": "interface-2969635c39af98c1fad9",
+          "en": "§7§a- §7Level: §f<num>",
+          "ru": "§7§a§a- §7Уровень: §f<num>"
+        },
+        {
+          "id": "interface-5223fdf9509e20587dfc",
+          "en": "§7§a- §7Coords: §f<num>, <num>",
+          "ru": "§7§a§a- §7Координаты: §f<num>, <num>"
+        },
+        {
+          "id": "interface-3fad75bb40d8f620669a",
+          "en": "§7§a- §7Status: §fHostile",
+          "ru": "§7§a§a- §7Статус: §fВраждебный"
+        }
+      ]
+    },
+    {
+      "id": "interface-913908fb6c0f5e2ad7ad",
+      "match": {
+        "title": "§fMagical Amulet of Insanity",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fMagical Amulet of Insanity",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-c5d25e0d915e24e422db",
+          "en": "§7§7Better not wear this. A strange",
+          "ru": "§7§7Лучше это не надевать. От амулета"
+        },
+        {
+          "id": "interface-93e15cff80337f9d2e07",
+          "en": "§7§7aura is coming from it.",
+          "ru": "§7§7исходит странная аура."
+        }
+      ]
+    },
+    {
+      "id": "interface-003594745ca43329b2c1",
+      "match": {
+        "title": "§eElectrical Explosive",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§eElectrical Explosive",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-0bc60c133d37f51483cb",
+          "en": "§7The casing is cold to the touch.",
+          "ru": "§7Корпус холодный на ощупь."
+        }
+      ]
+    },
+    {
+      "id": "interface-1cbdb1eb2157b290127d",
+      "match": {
+        "title": "§6The Emperor's Sceptre",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§6The Emperor's Sceptre",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-fb1ef22009a682042f14",
+          "en": "§7Despite the heat of the desert,",
+          "ru": "§7Несмотря на жар пустыни,"
+        },
+        {
+          "id": "interface-b7f6c9e223dd469d3001",
+          "en": "§7the Sceptre is as cold as stone.",
+          "ru": "§7скипетр холоден, как камень."
+        }
+      ]
+    },
+    {
+      "id": "interface-7282c540f35c4771cec8",
+      "match": {
+        "title": "Lost Soul VII",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Lost Soul VII",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-62d46bc569957a4a4c36",
+          "en": "\"A great scar has been",
+          "ru": "\"Огромный шрам прорезал"
+        },
+        {
+          "id": "interface-13f3a8d028a538b7a026",
+          "en": "torn through Wynn, spilling",
+          "ru": "Винн, выпустив наружу"
+        },
+        {
+          "id": "interface-1be2fd86e74de5124758",
+          "en": "forth unthinkable horrors.\"",
+          "ru": "немыслимые ужасы\"."
+        }
+      ]
+    },
+    {
+      "id": "interface-fc961920119441262502",
+      "match": {
+        "title": "Lost Soul V",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Lost Soul V",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-8638388cbd2f208d5110",
+          "en": "\"Cluck, goes the chicken.",
+          "ru": "\"Ко-ко, кудахчет курица."
+        },
+        {
+          "id": "interface-a97d07dd94e5e0fb0f99",
+          "en": "Cluck cluck.\"",
+          "ru": "Ко-ко-ко\"."
+        }
+      ]
+    },
+    {
+      "id": "interface-5d1073afcdcd0b8a3a84",
+      "match": {
+        "title": "Lost Soul VIII",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Lost Soul VIII",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-334f96949ad16fb12642",
+          "en": "\"Where the legion burrows",
+          "ru": "\"Там, где легион окопался"
+        },
+        {
+          "id": "interface-6e835c457584b27cc958",
+          "en": "'neath the graveyard.\"",
+          "ru": "под кладбищем\"."
+        }
+      ]
+    },
+    {
+      "id": "interface-7087356f5b9f8900a825",
+      "match": {
+        "title": "Lost Soul IV",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "Lost Soul IV",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-c6d44f3ae8858c32b577",
+          "en": "\"Somebody once told me the",
+          "ru": "\"Кто-то мне однажды сказал:"
+        },
+        {
+          "id": "interface-128cf8eee51e40bca4aa",
+          "en": "swamp ogre is lonely, and he wants",
+          "ru": "болотный огр одинок и хочет"
+        },
+        {
+          "id": "interface-43623304ae9ca3a3d4a2",
+          "en": "to find love before he's dead.\"",
+          "ru": "найти любовь, пока не умер\"."
+        }
+      ]
+    },
+    {
+      "id": "interface-18dd4639c845fc4cf9b7",
+      "match": {
+        "title": "§fResurrected Head",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§fResurrected Head",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-4ee5a236bbac40702992",
+          "en": "§7I should return this skull to its body,",
+          "ru": "§7Нужно вернуть этот череп телу."
+        },
+        {
+          "id": "interface-032eec8abec0237ebafc",
+          "en": "§7perhaps his grave is nearby...",
+          "ru": "§7Возможно, его могила где-то рядом..."
+        }
+      ]
+    },
+    {
+      "id": "interface-11ed6065cb8286c4702a",
+      "match": {
+        "title": "§7Joint Rider Preference",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§7Joint Rider Preference",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-f37efc9622743db3e669",
+          "en": "§7- No one",
+          "ru": "§7- §8Никто"
+        },
+        {
+          "id": "interface-c49d6f857fe67f269845",
+          "en": "§7- Party",
+          "ru": "§7- §8Группа"
+        },
+        {
+          "id": "interface-71bba7fe9b08bd1cb4a9",
+          "en": "§7- Friends",
+          "ru": "§7- §8Друзья"
+        },
+        {
+          "id": "interface-305213e66f3e2bf04e21",
+          "en": "§7- Guild",
+          "ru": "§7- §8Гильдия"
+        },
+        {
+          "id": "interface-d2da0f5560bed1bb2c91",
+          "en": "§7- Anyone",
+          "ru": "§f- §7Все"
+        }
+      ]
+    },
+    {
+      "id": "interface-6260b6f2283650a951dd",
+      "match": {
+        "title": "§bNemract Boat Pass",
+        "anchors": []
+      },
+      "title": {
+        "id": "title",
+        "en": "§bNemract Boat Pass",
+        "ru": ""
+      },
+      "lines": [
+        {
+          "id": "interface-0c59724aee59606e2de8",
+          "en": "§7§7Use this at the §fV.S.S. Seaskipper",
+          "ru": "§7§7Используйте у §fV.S.S. Seaskipper§7,"
+        },
+        {
+          "id": "interface-7fbf3c4da3ba7bb5706a",
+          "en": "§7§7to fast-travel to §fNemract",
+          "ru": "§7§7чтобы быстро добраться до §fНемракта"
+        },
+        {
+          "id": "interface-8301d24c59f695444cc6",
+          "en": "§7§aIsland Info:",
+          "ru": "§7§a§aОб острове:"
+        },
+        {
+          "id": "interface-5065f961a527deba6359",
+          "en": "§7§a- §7Level: §f<num>",
+          "ru": "§7§a§a- §7Уровень: §f<num>"
+        },
+        {
+          "id": "interface-664cef9a8da86a52aa5f",
+          "en": "§7§a- §7Coords: §f<num>, <num>",
+          "ru": "§7§a§a- §7Координаты: §f<num>, <num>"
+        },
+        {
+          "id": "interface-54211faac7578030cc8e",
+          "en": "§7§a- §7Status: §fPeaceful",
+          "ru": "§7§a§a- §7Статус: §fМирный"
+        }
+      ]
+    }
+  ]
+}

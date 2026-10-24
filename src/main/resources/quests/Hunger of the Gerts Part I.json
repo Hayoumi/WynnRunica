@@ -248,7 +248,7 @@
     {
       "id": "dialogue-0035",
       "en": "Hello",
-      "ru": "Привет",
+      "ru": "... привет.",
       "speaker": "CHOICE",
       "stage": "Stage 7"
     },
@@ -318,7 +318,7 @@
     {
       "id": "dialogue-0045",
       "en": "I'm a human",
-      "ru": "Я человек",
+      "ru": "Я человек.",
       "speaker": "CHOICE",
       "stage": "Stage 7"
     },
@@ -948,7 +948,7 @@
     {
       "id": "hub-live-dialogue-82c6a91e4e5d",
       "en": "The gert has a strange look in his eyes and is  inching towards you suspiciously..",
-      "ru": "§r§7У герта странный взгляд, и он §r§bподозрительно подбирается к тебе§r§7...",
+      "ru": "У герта странный взгляд, и он §r§bподозрительно подбирается к вам§r§7...",
       "speaker": "Gert Guard",
       "stage": "Stage 5"
     },
@@ -1000,6 +1000,54 @@
       "ru": "Наши бочки опять пустеют.",
       "speaker": "Gylia Captain",
       "stage": "Stage 13"
+    },
+    {
+      "id": "hub-alias-b303252db460",
+      "en": "The gert has a strange look in his eyes and is inching towards you suspiciously ..",
+      "ru": "У герта странный взгляд, и он §r§bподозрительно подбирается к вам§r§7...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-21e1a977b60f",
+      "en": "That was... enlightening, but didn't get you into the farm. You should look around for a way to distract the gert ... maybe some food ?",
+      "ru": "Это было... познавательно, но на ферму вы так и не попали. Нужно §r§bотвлечь герта§r§7... может, раздобыть §r§bеды§r§7?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-786d450ab2c0",
+      "en": "... That didn't go well. You should carve another mask .",
+      "ru": "... Не слишком удачно. Нужно §r§bвырезать другую маску§r§7.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-88b1d8f228fa",
+      "en": "You know, the one in the camp north of Gylia watch house ?",
+      "ru": "Ну, тот, что в §dлагере к северу от дозорного дома Гилии§f?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-c43a8962c2ce",
+      "en": "Agh! That stuff is meant to be ours . The peace deal said we have to get some stuff each month!",
+      "ru": "Ай! Это вообще-то наше... По мирному договору нам каждый месяц должны что-то выдавать!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-64bdc1b848b0",
+      "en": "I reported the fact there is clearly a gert camp right in front of my house and they just ignored me. Now look, my pigs are all gone!",
+      "ru": "Я сообщил, что прямо перед моим домом стоит лагерь гертов, а они меня и слушать не стали! Теперь вот все мои свиньи пропали!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -1086,6 +1134,110 @@
       "en": "Leave the tunnel and inform someone about the information you overheard.",
       "ru": "Покинуть туннель и рассказать кому-нибудь о подслушанном.",
       "stage": "Stage 14"
+    },
+    {
+      "id": "hub-alias-0b16702826e7",
+      "en": "Talk to Cikal at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Сикалом [-27, 73, -5413].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-8d277229d923",
+      "en": "Talk to Jitak at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Джитаком [-174, 32, -5469].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-da6c08d9209f",
+      "en": "Inspect the gerten forwarding camp at [<num>, <num>, <num>]",
+      "ru": "Осмотреть передовой лагерь гертов [-238, 35, -5479].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-5029bcdc4aa1",
+      "en": "Investigate the cave in the back of the camp at [<num>, <num>, <num>]",
+      "ru": "Исследовать пещеру в глубине лагеря [-238, 35, -5479].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e813bfb33ea2",
+      "en": "Explore the gerten cave",
+      "ru": "Исследовать пещеру гертов.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-38ac880cb639",
+      "en": "Exit the gerten cave",
+      "ru": "Покинуть пещеру гертов.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-cc066d16f905",
+      "en": "Return to Jitak at [<num>, <num>, <num>]",
+      "ru": "Вернуться к Джитаку [-174, 32, -5469].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-d528575cd644",
+      "en": "Go to the gerten pumpkin farm at [<num>, <num>, <num>]",
+      "ru": "Отправиться на тыквенную ферму гертов [-248, 37, -5425].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-d7fbe453f663",
+      "en": "Find a way to distract the Gert Guard with some food nearby",
+      "ru": "Найти поблизости еду, чтобы отвлечь стражника гертов.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-c1173445649f",
+      "en": "Enter the pumpkin farm at [<num>, <num>, <num>]",
+      "ru": "Войти на тыквенную ферму [-248, 37, -5425].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-eba8700302cd",
+      "en": "Find a pumpkin to use as a gert mask",
+      "ru": "Найти тыкву, из которой можно сделать маску герта.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-92ef9ca77b9b",
+      "en": "Return to Jitak with the gert mask at [<num>, <num>, <num>]",
+      "ru": "Вернуться к Джитаку с маской герта [-174, 32, -5469].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-3a82cbbf78c0",
+      "en": "Enter the secret gert tunnel at [<num>, <num>, <num>]",
+      "ru": "Войти в тайный туннель гертов [-4, 33, -5516].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

@@ -108,7 +108,7 @@
     {
       "id": "dialogue-0015",
       "en": "[-1 Train Ticket]",
-      "ru": "[-1 Train Ticket]",
+      "ru": "[+1 Train Ticket]",
       "speaker": "",
       "stage": "Stage 1"
     },
@@ -2698,7 +2698,7 @@
     {
       "id": "dialogue-0385",
       "en": "Anything else to say...?",
-      "ru": "Хотели что-то ещё сказать..?",
+      "ru": "...Хотите сказать что-то ещё?",
       "speaker": "Telati",
       "stage": "Stage 7"
     },
@@ -4126,7 +4126,7 @@
     {
       "id": "dialogue-0589",
       "en": "Anything else you'd like to discuss?",
-      "ru": "Хочешь обсудить что-нибудь ещё?",
+      "ru": "...Хочешь обсудить что-то ещё?",
       "speaker": "Maddison",
       "stage": "Stage 7"
     },
@@ -4875,7 +4875,7 @@
     {
       "id": "dialogue-0696",
       "en": "...???",
-      "ru": "...???",
+      "ru": "...",
       "speaker": "Maury",
       "stage": "Stage 8"
     },
@@ -4952,7 +4952,7 @@
     {
       "id": "dialogue-0707",
       "en": "...Huh?",
-      "ru": "...Что?",
+      "ru": "А?",
       "speaker": "Cemor",
       "stage": "Stage 8"
     },
@@ -5435,7 +5435,7 @@
     {
       "id": "dialogue-0776",
       "en": "The sign says \"Private Cabin 2\".",
-      "ru": "На табличке написано \"Личное купе 2\".",
+      "ru": "На табличке написано \"Личное купе 1\".",
       "speaker": "",
       "stage": "Stage 4"
     },
@@ -7255,7 +7255,7 @@
     {
       "id": "wiki-20261008-dialogue-0083",
       "en": "Oh. Alright, then.",
-      "ru": "О. Ну ладно.",
+      "ru": "А, ну хорошо.",
       "speaker": "Malic",
       "stage": "Stage 3"
     },
@@ -7269,7 +7269,7 @@
     {
       "id": "wiki-20261008-dialogue-0204",
       "en": "Ugh...",
-      "ru": "Уф...",
+      "ru": "Ух.",
       "speaker": "Ticket Collector",
       "stage": "Stage 3"
     },
@@ -7339,7 +7339,7 @@
     {
       "id": "wiki-20261008-dialogue-0221",
       "en": "Hm?",
-      "ru": "§oМ?§r",
+      "ru": "Хм...",
       "speaker": "Malic",
       "stage": "Stage 3"
     },
@@ -7360,7 +7360,7 @@
     {
       "id": "wiki-20261008-dialogue-0577",
       "en": "...Hm.",
-      "ru": "§o...Хм.§r",
+      "ru": "Хм...",
       "speaker": "Demma",
       "stage": "Stage 5"
     },
@@ -7402,7 +7402,7 @@
     {
       "id": "wiki-20261008-dialogue-1007",
       "en": "Oh, calm down, Maddie. I've talked to them; they definitely wouldn't kill someone. Besides... I don't think they'd hurt you with people around, even if it were them.",
-      "ru": "Да успокойся ты, Мэдди. Я с ним разговаривал, он точно никого бы не убил. К тому же... Даже если это был он, вряд ли он тронет тебя при людях.",
+      "ru": "Успокойся, Мэдди. Я с ним поговорил, он точно никого бы не убил. Да и... Даже будь это он, вряд ли стал бы трогать тебя при свидетелях.",
       "speaker": "Malic",
       "stage": "Stage 7"
     },
@@ -7430,7 +7430,7 @@
     {
       "id": "wiki-20261008-dialogue-1290",
       "en": "A General's trian pass??? But... But you're not—",
-      "ru": "Генеральский проездной??? Но... Но ты же не-",
+      "ru": "Генеральский проездной??? Но... Но ты же не",
       "speaker": "Ticket Collector",
       "stage": "Post-Quest"
     },
@@ -7563,7 +7563,7 @@
     {
       "id": "wiki-20261008-note-0642",
       "en": "evidence...? This train pass was found on the general's person and seems to grant free access to Fruma's subways. Definitely useful to the case.",
-      "ru": "§#EDED82УЛИКА...?§r Этот проездной найден при генерале и, похоже, даёт §nсвободный доступ§r к подземкам Фрумы. Для дела точно пригодится.",
+      "ru": "УЛИКА..? Этот проездной найден при генерале и, похоже, даёт свободный доступ к подземкам Фрумы. Для дела точно пригодится.",
       "stage": "Stage 6",
       "speaker": ""
     },
@@ -7608,6 +7608,30 @@
       "ru": "<em> §#FCA800ВЕСОМАЯ УЛИКА§r §nВ служебном шкафу§r найдена §nкнига-тайник с вырезом в форме ножа§r. Почти наверняка §nв ней пронесли оружие в поезд§r.",
       "stage": "Stage 7",
       "speaker": ""
+    },
+    {
+      "id": "hub-alias-bfc220f130c8",
+      "en": "For today's trip to have so many people - and such a diverse set too - is an anomaly. It's... unfortunate timing, too, since Zathie's on break.",
+      "ru": "Столько пассажиров на одном рейсе, да ещё таких разных, большая редкость. И время неудачное: у Зати как раз выходной.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-4c29f14eddb2",
+      "en": "...I do wonder why they can't share this quality of life. I suppose there must be a reason for it; I trust Her Majesty's judgement...",
+      "ru": "...Мне и правда интересно, почему им нельзя жить так же. Полагаю, причина есть, я доверяю суждению Её Величества.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-9009cf43ad99",
+      "en": "Don't tell Maury, but I felt like you deserved a small cut of the profits. Y'know, for figuring it out, and all.",
+      "ru": "Мори не говори, но, по-моему, ты заслужил небольшую долю. Ну, за то, что во всём разобрался.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -7662,37 +7686,37 @@
     {
       "id": "wiki-20261008-template-objective-0001",
       "en": "Talk to the businessman at [<num>, <num>, <num>].",
-      "ru": "Поговорить с деловым человеком [<num>, <num>, <num>].",
+      "ru": "Поговорить с деловым человеком [-1719, 29, -567].",
       "stage": "Stage 1"
     },
     {
       "id": "wiki-20261008-template-objective-0002",
       "en": "Turn in your subway pass at [<num>, <num>, <num>].",
-      "ru": "Предъявить проездной на подземную железную дорогу [<num>, <num>, <num>].",
+      "ru": "Предъявить проездной на подземную железную дорогу [-1713, 7, -539].",
       "stage": "Stage 2"
     },
     {
       "id": "wiki-20261008-template-objective-0004",
       "en": "Explore the train. Return to your seat at [<num>, <num>, <num>] when done.",
-      "ru": "Осмотреть поезд, затем вернуться на своё место в [<num>, <num>, <num>].",
+      "ru": "Осмотреть поезд, затем вернуться на своё место в [-19848, 8, 24336].",
       "stage": "Stage 4"
     },
     {
       "id": "wiki-20261008-template-objective-0005",
       "en": "Investigate the commotion at [<num>, <num>, <num>].",
-      "ru": "Выяснить причину переполоха [<num>, <num>, <num>].",
+      "ru": "Выяснить причину переполоха [-19846, 10, 24275].",
       "stage": "Stage 5"
     },
     {
       "id": "wiki-20261008-template-objective-0007",
       "en": "Look around and interrogate passengers to find at least <num> pieces of strong evidence.",
-      "ru": "Осмотреться и допросить пассажиров, чтобы найти хотя бы <num> веские улики.",
+      "ru": "Осмотреться и допросить пассажиров, чтобы найти хотя бы 3 веские улики.",
       "stage": "Stage 7"
     },
     {
       "id": "wiki-20261008-template-objective-0008",
       "en": "Make an accusation at [<num>, <num>, <num>], or seek more evidence.",
-      "ru": "Назвать виновного в [<num>, <num>, <num>] или продолжить сбор улик.",
+      "ru": "Назвать виновного в [-19846, 10, 24275] или продолжить сбор улик.",
       "stage": "Stage 8"
     }
   ],
@@ -8008,7 +8032,7 @@
     {
       "id": "wiki-20261008-choice-0218",
       "en": "No",
-      "ru": "Нет",
+      "ru": "Нет.",
       "stage": "Stage 3",
       "dialogueId": "dialogue-0761"
     },

@@ -395,7 +395,7 @@
     {
       "id": "hub-live-dialogue-b03de6590083",
       "en": "Someone outside door. Check!",
-      "ru": "§r§fКто-то за дверью. Проверить!",
+      "ru": "Кто за дверью? Проверить!",
       "speaker": "Orc Guard",
       "stage": ""
     },
@@ -433,6 +433,14 @@
       "ru": "Ладно, теперь надо понять, как нам обоим туда пробраться... По периметру стоят часовые, так что через стену, наверное, не выйдет...",
       "speaker": "Elphaba",
       "stage": "Stage 5"
+    },
+    {
+      "id": "hub-alias-225da82ca68d",
+      "en": "The Overtakers are down, the other Orcs are flailing! Open the outpost's entrance with a spell now, we've got this under control",
+      "ru": "Захватчики повержены, остальные орки мечутся! §r§bОткрой вход в аванпост заклинанием§r§f, мы здесь справимся!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -532,6 +540,14 @@
       "id": "objective-81b45d67dad0",
       "en": "Kill the Orc Overtakers.",
       "ru": "Убить орков-захватчиков."
+    },
+    {
+      "id": "hub-alias-dcb137a77acf",
+      "en": "Join Elphaba on a mission in the Temporary Camp at [<num>, <num>, <num>].",
+      "ru": "Встретиться с Эльфабой во временном лагере [-1499, 47, -5349] и помочь ей с заданием.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

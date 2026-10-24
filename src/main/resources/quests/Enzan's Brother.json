@@ -129,7 +129,7 @@
     {
       "id": "dialogue-0018",
       "en": "Well? Have you brought me [1 Energy Mushroom] ?",
-      "ru": "Ну что? Ты принёс мне [1 Energy Mushroom]?",
+      "ru": "§r§fНу что? Ты принёс мне §r§3[1 Energy Mushroom]§r§f?",
       "speaker": "Therck",
       "stage": "Stage 3"
     },
@@ -178,9 +178,53 @@
     {
       "id": "hub-live-dialogue-90fc8af76158",
       "en": "Excellent... Now I might finally be able to climb these stairs...",
-      "ru": "Отлично... Теперь, может, я наконец смогу осилить эти ступеньки...",
+      "ru": "Отлично... Теперь, может, я наконец смогу осилить эти ступеньки!",
       "speaker": "Therck",
       "stage": "Stage 3"
+    },
+    {
+      "id": "hub-20261019-dialogue-75a6f46f770a",
+      "en": "I don't have time to talk to you right now, move along!",
+      "ru": "§r§fМне сейчас некогда с тобой разговаривать, проходи мимо!",
+      "speaker": "Therck",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-29bd3ea52245",
+      "en": "They keep coming expecting free stuff! I don't have time for this, I still need to climb these stairs...",
+      "ru": "§r§fВсё приходят, ждут, что им даром что-нибудь дадут! Мне некогда, я всё ещё должен подняться по этой лестнице...",
+      "speaker": "Therck",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-03b74ba62c6a",
+      "en": "What are you waiting for?",
+      "ru": "§r§fЧего ты ждёшь?",
+      "speaker": "Enzan",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-9e1f03f636d8",
+      "en": "My brother shouldn't be hard to find, he's obsessed with stairs. He should be near the item identifier.",
+      "ru": "§r§fМоего брата легко найти, он §r§#00EB34помешан§r§f на лестницах. Должен быть возле опознавателя предметов.",
+      "speaker": "Enzan",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-90d5b8061ea5",
+      "en": "Take this ring. It's an accessory item. You can identify it at the nearby Item Identifier .",
+      "ru": "Держи это кольцо. Это аксессуар. Можешь §bопознать его у ближайшего Опознавателя Предметов§r.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-ae32b8463cb6",
+      "en": "My brother shouldn't be hard to find, he's obsessed with stairs. He should be near the item identifier",
+      "ru": "Моего брата легко найти, он §r§#00EB34помешан§r§f на лестницах. Должен быть возле опознавателя предметов.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -201,6 +245,22 @@
       "en": "Descend into the cave at [-538, 67, -1586] and bring [1 Energy Mushroom] to Therck",
       "ru": "Спуститься в пещеру в [-538, 67, -1586] и принести Терку [1 Energy Mushroom].",
       "stage": "Stage 3"
+    },
+    {
+      "id": "hub-alias-940b7365589e",
+      "en": "Talk to Enzan close to the exit of Ragni at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Энзаном у выхода из Рагни [-772, 70, -1574].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-499aa7ba89e2",
+      "en": "Find Enzan's brother near the Item Identifier on the Emerald Trail at [<num>, <num>, <num>]",
+      "ru": "Найти брата Энзана возле Опознавателя Предметов на Изумрудной тропе [-536, 72, -1589].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

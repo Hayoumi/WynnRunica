@@ -556,7 +556,7 @@
     {
       "id": "hub-live-dialogue-08265fc4e7ba",
       "en": "Looks like there's tracks off to the east...big tracks. Good luck following it, stay safe!",
-      "ru": "§r§fПохоже, §r§bследы ведут на восток...§r§f и следы немаленькие. Удачи тебе, и береги себя!",
+      "ru": "Похоже, следы ведут на восток... и следы немаленькие. Удачи тебе, и береги себя!",
       "speaker": "Kroac",
       "stage": "Stage 8"
     },
@@ -573,6 +573,38 @@
       "ru": "§r§fДумаю, он ушёл в §r§bпещеру к востоку отсюда.§r§f Вперёд! Останови эту тварь, пока она не наломала ещё больше!",
       "speaker": "Rileen",
       "stage": "Stage 10"
+    },
+    {
+      "id": "hub-alias-5e5971766216",
+      "en": "Looks like there's tracks off to the east... big tracks. Good luck following it, stay safe!",
+      "ru": "Похоже, следы ведут на восток... и следы немаленькие. Удачи тебе, и береги себя!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-70bba97d46dd",
+      "en": "If you are done fixing my house, it looks like there're tracks off to the east... big tracks. Good luck following it, stay safe!",
+      "ru": "Если с домом закончил, там вроде §r§bследы на восток ведут...§r§f большие такие. Удачи в погоне, и береги себя!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-3e9b4444df94",
+      "en": "Aah, there's so many people hurt already, don't make it worse, please!",
+      "ru": "Аа, тут и так уже слишком много раненых, не делай ещё хуже, пожалуйста!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-25107537412a",
+      "en": "I think the giant went into the cave east of here. Go for it! Stop that thing before it causes any more damage!",
+      "ru": "Думаю, он ушёл в §r§bпещеру к востоку отсюда.§r§f Вперёд! Останови эту тварь, пока она не наломала ещё больше!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -647,6 +679,54 @@
       "en": "Kill the beast and return to Dereg with proof of its death at [-1483, 51, -5218].",
       "ru": "Убить чудовище и принести Дерегу доказательство его гибели [-1483, 51, -5218].",
       "stage": "Stage 12"
+    },
+    {
+      "id": "hub-alias-8d7fa27ee91b",
+      "en": "Enter Kroac's mine and gather [<num> Cobblestone]",
+      "ru": "Войти в шахту Кроака и собрать [10 Cobblestone].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-43599128b411",
+      "en": "Repair Kroac's house using the cobblestone from the mine",
+      "ru": "Починить дом Кроака с помощью булыжника из шахты.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-443853026e41",
+      "en": "Keep following the tracks of the beast",
+      "ru": "Продолжить идти по следам чудовища.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ecfe49be0f03",
+      "en": "Gather [<num> Salmon Oil] for Rileen",
+      "ru": "Собрать для Рилин [10 Salmon Oil].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-eb646608e310",
+      "en": "Find the cave of the beast by following the footprints behind Rileen's house",
+      "ru": "Идти по следам за домом Рилин к пещере чудовища.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-4f4eba490548",
+      "en": "Kill the beast and return to Dereg with proof of its death at [<num>, <num>, <num>]",
+      "ru": "Убить чудовище и принести Дерегу доказательство его гибели [-1483, 51, -5218].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

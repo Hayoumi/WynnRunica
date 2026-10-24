@@ -293,6 +293,28 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Crop Failure",
       "speaker": "",
       "stage": "Stage 5"
+    },
+    {
+      "id": "hub-20261019-dialogue-ab08acc047e9",
+      "en": "Ah, good day to ya! What is it ye be needin' from ol' Doubiss' stock?",
+      "ru": "§r§fА, доброго денёчка! Что приглянулось у старого доброго Дубисса?",
+      "speaker": "Doubiss",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-cd2acb6e3e98",
+      "en": "Hey. Don't just run head first!",
+      "ru": "§r§fЭй. Не лезь туда сломя голову!",
+      "speaker": "Doubiss",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-1660c2219bbc",
+      "en": "Y'know why? Next time ya pass a farm, take a good whiff o' the water, maybe a sip or two if you can manage. It'll be smelly and bitter.",
+      "ru": "Знаешь почему? В следующий раз, как будешь рядом с фермой, нюхни хорошенько воду, а если сможешь - даже хлебни чутка. Она вонючая и горькая.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -325,6 +347,22 @@
       "en": "Kill the slimes in the aquifer and bring back [Polluted Slime] to Anast.",
       "ru": "Убить слизней в водоносной пещере и принести Анасту [Загрязнённую слизь].",
       "stage": "Stage 5"
+    },
+    {
+      "id": "hub-alias-6e89978afb79",
+      "en": "Gather [<num> Oats] from around Anast",
+      "ru": "Собрать [3 Oats] рядом с Анастом.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-46c2d218b9ae",
+      "en": "Find Doubiss the salesman in Olux near the bank at [<num>, <num>, <num>]",
+      "ru": "Найти торговца Дубисса у банка Олукса [-1769, 66, -5539].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

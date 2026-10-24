@@ -170,6 +170,81 @@
           "id": "hub-postrelease-line-71eb845402001abd",
           "en": "§c✖§7 Carry: <num> Uth Rune",
           "ru": "§c✖§7 При себе: §fРуны Uth - <num>"
+        },
+        {
+          "id": "interface-495aa51a4c8a2d87b256",
+          "en": "In order to race this",
+          "ru": "Чтобы участвовать в гонке"
+        },
+        {
+          "id": "interface-6cea5cde5ea1ab8ab79b",
+          "en": "course you need to complete",
+          "ru": "на этой трассе, нужно"
+        },
+        {
+          "id": "interface-ce7111f45e6eba096dc7",
+          "en": "the following requirements",
+          "ru": "выполнить следующие требования"
+        },
+        {
+          "id": "interface-5c5ab325a214de7d2dee",
+          "en": "✖ Quest: One Thousand Meters Under",
+          "ru": "✖ Квест: §fOne Thousand Meters Under"
+        },
+        {
+          "id": "interface-b2eb8b9aa3a51f553791",
+          "en": "§a✔§7 Quest: A Marauder's Dues",
+          "ru": "§a✔§7 Квест: §fA Marauder's Dues"
+        },
+        {
+          "id": "interface-d9c6a396edaf93763545",
+          "en": "§a✔§7 Quest: The Canyon Guides",
+          "ru": "§a✔§7 Квест: §fThe Canyon Guides"
+        },
+        {
+          "id": "interface-2fa1906a3f193451af73",
+          "en": "§a✔§7 Quest: The Lost",
+          "ru": "§a✔§7 Квест: §fThe Lost"
+        },
+        {
+          "id": "interface-a6336b38f64b3b75089c",
+          "en": "§a✔§7 Quest: Beyond the Grave",
+          "ru": "§a✔§7 Квест: §fBeyond the Grave"
+        },
+        {
+          "id": "interface-8e562d1bdf92a09c438b",
+          "en": "§c✖§7 Cave: Voltaic Crag",
+          "ru": "§c✖§7 Пещера: §fВольтовый Утёс"
+        },
+        {
+          "id": "interface-4b241f64bf9f47224a5f",
+          "en": "§c✖§7 Cave: Rocky Peril",
+          "ru": "§c✖§7 Пещера: §fКаменная Опасность"
+        },
+        {
+          "id": "interface-35dbdb5c6c07322f483e",
+          "en": "§c✖§7 Cave: Seismic Bore Hole",
+          "ru": "§c✖§7 Пещера: §fСейсмическая Скважина"
+        },
+        {
+          "id": "interface-5b5f8c754977426a6cbc",
+          "en": "§c✖§7 Cave: Chiseler's Cavern",
+          "ru": "§c✖§7 Пещера: §fПещера Камнетёса"
+        },
+        {
+          "id": "interface-f00caa08a0be60edda8c",
+          "en": "§c✖§7 Cave: Demolition Derby",
+          "ru": "§c✖§7 Пещера: §fГонка на Выживание"
+        },
+        {
+          "id": "interface-0e84d00592413cfbff73",
+          "en": "§c✖§7 Cave: Natural Sanctuary",
+          "ru": "§c✖§7 Пещера: §fПриродное Святилище"
+        },
+        {
+          "id": "interface-1c07776adc68962b90ad",
+          "en": "§c✖§7 Cave: Colossi Infection",
+          "ru": "§c✖§7 Пещера: §fЗаражение Колоссов"
         }
       ]
     },
@@ -350,6 +425,16 @@
           "id": "inherited-0856665c2e61852b",
           "en": "<em>- <num> XP",
           "ru": "<em>- §7<num>§7 Опыта"
+        },
+        {
+          "id": "content-book-97714d9c2d12ff9bb7fb",
+          "en": "Head to the blocked off cave at",
+          "ru": "Отправиться к заваленной пещере"
+        },
+        {
+          "id": "content-book-ff1d2a883f8fdf53d7a9",
+          "en": "[<num>, <num>, <num>].",
+          "ru": "по координатам [<num>, <num>, <num>]."
         }
       ]
     },
@@ -655,6 +740,21 @@
           "id": "line-7297fdb464bffdad",
           "en": "§7Trail at §f[<num>, <num>, <num>]§7",
           "ru": "§7Тропе у §f[<num>, <num>, <num>]§7"
+        },
+        {
+          "id": "content-book-dfa822d725796419733b",
+          "en": "§7Descend into the cave at §f[<num>,",
+          "ru": "§7Спуститься в пещеру в §f[<num>,"
+        },
+        {
+          "id": "content-book-d07f16011d879ba5a80f",
+          "en": "§f<num>, <num>]§7 and bring §3[<num> Energy",
+          "ru": "§f<num>, <num>]§7 и принести §3[<num> Energy"
+        },
+        {
+          "id": "content-book-85d4082c55e722ffd5a0",
+          "en": "§3Mushroom]§7 to Therck",
+          "ru": "§3Mushroom]§7 Терку"
         }
       ]
     },
@@ -675,6 +775,21 @@
           "id": "hub-questbook-8d8931dad8d28f6c",
           "en": "§7Talk to Telvu the mage at §f[<num>,",
           "ru": "§7Поговорите с магом Телву: §f[<num>,"
+        },
+        {
+          "id": "content-book-6da319496cfed84c755b",
+          "en": "§7Find Theorick's stave at Nesaak",
+          "ru": "§7Найти посох Теорика в банке"
+        },
+        {
+          "id": "content-book-f84b2fd0e4a70989b446",
+          "en": "§7bank.",
+          "ru": "§7Несаака."
+        },
+        {
+          "id": "content-book-8fd06a100c6db326bb47",
+          "en": "§7Protect the portal.",
+          "ru": "§7Защитить портал."
         }
       ]
     },
@@ -725,6 +840,11 @@
           "id": "hub-questbook-38be61c85226d53d",
           "en": "§7another town.",
           "ru": "§7другом городе."
+        },
+        {
+          "id": "book-delta-30a453f44fa5453d0989",
+          "en": "Rendezvous near the barracks at",
+          "ru": "Встретиться с отрядом возле казарм"
         }
       ]
     },
@@ -770,6 +890,11 @@
           "id": "hub-questbook-97b860d2941f6c78",
           "en": "§7Enter the mansion §f[<num>, <num>,",
           "ru": "§7Войдите в особняк: §f[<num>, <num>,"
+        },
+        {
+          "id": "book-delta-3e11de6e4b291a621bda",
+          "en": "§7Talk to Leucsaa at §f[<num>, <num>,",
+          "ru": "§7Поговорить с Леуксаа §f[<num>, <num>,"
         }
       ]
     },
@@ -800,6 +925,16 @@
           "id": "hub-description-2179f1c9a2d41124",
           "en": "Healer Shop",
           "ru": "Бремминглара"
+        },
+        {
+          "id": "content-book-24ff1017c6ab91137320",
+          "en": "Enter the Bremminglar well and",
+          "ru": "Спуститься в колодец Бремминглара и"
+        },
+        {
+          "id": "content-book-2c2e45b8af15add9037e",
+          "en": "talk to the healer at [<num>, <num>,",
+          "ru": "поговорить с целителем в §f[<num>, <num>,"
         }
       ]
     },
@@ -965,6 +1100,21 @@
           "id": "hub-questbook-4cbf4164acb398dc",
           "en": "§7Talk to Ankou at §f[<num>, <num>,",
           "ru": "§7Поговорите с Анку: §f[<num>, <num>,"
+        },
+        {
+          "id": "book-delta-3144e8f46f85adf8d492",
+          "en": "Begin the Third Floor",
+          "ru": "Начать Третий Этаж"
+        },
+        {
+          "id": "book-delta-f1c3bbb9d03102ca41d0",
+          "en": "(Recommended Level: <num><num>)",
+          "ru": "(рекомендуемый уровень: <num><num>)"
+        },
+        {
+          "id": "book-delta-57b36a45791cb8ca8db3",
+          "en": "Begin the Second Floor",
+          "ru": "Начать Второй Этаж"
         }
       ]
     },
@@ -1075,6 +1225,16 @@
           "id": "hub-questbook-a4293c867f26fc9a",
           "en": "§7boat on the other side",
           "ru": "§7лодке на другой стороне"
+        },
+        {
+          "id": "content-book-89c0df10e912c6735a8c",
+          "en": "§7Talk to Omango located at the",
+          "ru": "§7Поговорить с Оманго"
+        },
+        {
+          "id": "content-book-fc9dd1bdda53c34d8342",
+          "en": "§7North of Maltic at §f[<num>, <num>,",
+          "ru": "§7к северу от Мальтика в §f[<num>, <num>,"
         }
       ]
     },
@@ -1110,6 +1270,26 @@
           "id": "hub-description-db9dc496e5b2edca",
           "en": "travel to Rodoroc",
           "ru": "в Родорок через Жонглёра"
+        },
+        {
+          "id": "content-book-da932739ad48cfdb6c2e",
+          "en": "§7Return to the Dogun village at",
+          "ru": "§7Вернуться в деревню догунов"
+        },
+        {
+          "id": "content-book-5bee48406048b7f9942a",
+          "en": "§7§f[<num>, <num>, <num>]§7 with a Dogun",
+          "ru": "§7§f[<num>, <num>, <num>]§7 с предметом Dogun"
+        },
+        {
+          "id": "content-book-25340acaf616998a67e0",
+          "en": "§7Badge of Trust and talk to the",
+          "ru": "§7Badge of Trust и поговорить"
+        },
+        {
+          "id": "content-book-2c77c9f07ceceed430e0",
+          "en": "§7leader of the town.",
+          "ru": "§7с вождём деревни."
         }
       ]
     },
@@ -1235,6 +1415,21 @@
           "id": "hub-description-d8d95f2ebdc53725",
           "en": "<em>- +Ability to use First Steps",
           "ru": "<em>- +Возможность носить First Steps"
+        },
+        {
+          "id": "content-book-a7e78c40d7519d65767c",
+          "en": "§7The Grook got away! Return to",
+          "ru": "§7Грук сбежал! Вернуться"
+        },
+        {
+          "id": "content-book-155f066675faeb452746",
+          "en": "§7the Cook at §f[<num>, <num>, <num>]§7",
+          "ru": "§7к повару в §f[<num>, <num>, <num>]§7,"
+        },
+        {
+          "id": "content-book-2cb32d54f991de9a5ca5",
+          "en": "§7to figure out what to do",
+          "ru": "§7чтобы решить, что делать"
         }
       ]
     },
@@ -1335,6 +1530,21 @@
           "id": "hub-description-750ec3648a71ab34",
           "en": "<em>- +Access to the Maex",
           "ru": "<em>- +Доступ к шахте Маэкса"
+        },
+        {
+          "id": "content-book-7568a685f02bcb33e3cc",
+          "en": "§7Return to the Dogun village",
+          "ru": "§7Вернуться в деревню догунов"
+        },
+        {
+          "id": "content-book-a43e66e828722a0dfb32",
+          "en": "§7with the letter and speak to",
+          "ru": "§7с письмом и поговорить"
+        },
+        {
+          "id": "content-book-3dcee211afd3d701d90b",
+          "en": "§7Korzim at §f[<num>, <num>, <num>]§7.",
+          "ru": "§7с Корзимом в §f[<num>, <num>, <num>]§7."
         }
       ]
     },
@@ -1365,6 +1575,26 @@
           "id": "hub-description-ca689433b21e2ed6",
           "en": "§7of Detlas at §f[<num>, <num>, <num>]§7.",
           "ru": "§7Детласом: §f[<num>, <num>, <num>]§7."
+        },
+        {
+          "id": "content-book-7ed5cf2d1c176162915d",
+          "en": "§7Enter the cave behind Captain",
+          "ru": "§7Войти в пещеру за капитаном"
+        },
+        {
+          "id": "content-book-589b77e3cad8102d0e4a",
+          "en": "§7Fenor at §f[<num>, <num>, <num>]§7.",
+          "ru": "§7Фенором в §f[<num>, <num>, <num>]§7."
+        },
+        {
+          "id": "content-book-4af3e7143fec47ae092a",
+          "en": "§7Help Miner Linton remove the",
+          "ru": "§7Помочь шахтёру Линтону"
+        },
+        {
+          "id": "content-book-66c992f4d726e8d7fede",
+          "en": "§7debris blocking the path.",
+          "ru": "§7разобрать завал на пути."
         }
       ]
     },
@@ -1395,6 +1625,26 @@
           "id": "hub-description-70b0fe8542009620",
           "en": "§7entrance to Nivla Woods at",
           "ru": "§7входа в лес Нивла по координатам"
+        },
+        {
+          "id": "content-book-35a3d9609a4ba3657cf9",
+          "en": "§7Speak to Mayor Alvin in Alekin",
+          "ru": "§7Поговорить с мэром Элвином"
+        },
+        {
+          "id": "content-book-0bd724b975911398a4c4",
+          "en": "§7Village at §f[<num>, <num>, <num>]§7.",
+          "ru": "§7в деревне Алекин §f[<num>, <num>, <num>]§7."
+        },
+        {
+          "id": "content-book-a2c7f761d5700bbadb74",
+          "en": "§7Locate the medicine in the",
+          "ru": "§7Найти лекарство в паучьей"
+        },
+        {
+          "id": "content-book-80b01c728f5decefa3ca",
+          "en": "§7spider cave behind Ope at",
+          "ru": "§7пещере за Опе,"
         }
       ]
     },
@@ -1430,6 +1680,16 @@
           "id": "hub-description-d5441bac544b857d",
           "en": "Obelisk fast travel",
           "ru": "через Таинственный Обелиск"
+        },
+        {
+          "id": "content-book-87398711fbd3fecfb686",
+          "en": "§7Investigate the ruin at §f[<num>,",
+          "ru": "§7Исследовать руины в §f[<num>,"
+        },
+        {
+          "id": "book-delta-61baed63dc03a0488a0f",
+          "en": "§7Talk to Tyko at §f[<num>, <num>, <num>]§7",
+          "ru": "§7Поговорить с Тико §f[<num>, <num>, <num>]§7"
         }
       ]
     },
@@ -1615,6 +1875,11 @@
           "id": "hub-description-bb31eecbbc8b830b",
           "en": "Underground",
           "ru": "Фрумы"
+        },
+        {
+          "id": "content-book-2eceb2f865d1da337b44",
+          "en": "Talk to the businessman at",
+          "ru": "Поговорить с бизнесменом в"
         }
       ]
     },
@@ -1635,6 +1900,31 @@
           "id": "hub-description-9fa5f817c1c9bb9f",
           "en": "<em>- +Access to Hunted Mode",
           "ru": "<em>- +Доступ к режиму Hunted"
+        },
+        {
+          "id": "content-book-e5ea6a3cff9ed3c1c408",
+          "en": "§7The cruel. The kind. The",
+          "ru": "§7Жестокий. Добрый. Эгоист."
+        },
+        {
+          "id": "content-book-18d9c14ed2b2f00eb48b",
+          "en": "§7selfish. The just. He who",
+          "ru": "§7Праведник. Тот, кто прожил"
+        },
+        {
+          "id": "content-book-92b7745ad82645a5e959",
+          "en": "§7travelled life with",
+          "ru": "§7жизнь во внутреннем разладе."
+        },
+        {
+          "id": "content-book-8e7e8b0fe6c5356d7bb9",
+          "en": "§7confliction. Who faced eternity",
+          "ru": "§7Тот, кому вечность подали холодной."
+        },
+        {
+          "id": "content-book-87f56b9e96d93fdb1122",
+          "en": "§7served cold. To his end.",
+          "ru": "§7К его концу."
         }
       ]
     },
@@ -1720,6 +2010,21 @@
           "id": "hub-description-59f063080067c25c",
           "en": "Wynn",
           "ru": "Винн"
+        },
+        {
+          "id": "content-book-c2eb417cac305b7de0d8",
+          "en": "§7Enter the underpass at §f[<num>,",
+          "ru": "§7Войти в подземный проход в §f[<num>,"
+        },
+        {
+          "id": "content-book-18be2eacc6fb7e14d12c",
+          "en": "§7Walk down the path towards the",
+          "ru": "§7Пройти по дороге к воротам"
+        },
+        {
+          "id": "content-book-c3202feb2893f53e7dd8",
+          "en": "§7gate to the Wynn Province at",
+          "ru": "§7в провинцию Винн"
         }
       ]
     },
@@ -1750,6 +2055,21 @@
           "id": "line-48b48f9252064d87",
           "en": "§7at §f[<num>, <num>, <num>]§7",
           "ru": "§7у §f[<num>, <num>, <num>]§7"
+        },
+        {
+          "id": "book-delta-6f85152700183f24481b",
+          "en": "§7Talk to Svin in Rymek at §f[<num>,",
+          "ru": "§7Поговорить со Свином в Римеке §f[<num>,"
+        },
+        {
+          "id": "book-delta-2085d37852a41287db1f",
+          "en": "Collect [<num> Gold Chunks] for",
+          "ru": "Собрать §3[<num> Gold Chunks]§7 для"
+        },
+        {
+          "id": "book-delta-55dc24ed9db87056d99d",
+          "en": "Jankan in the mineshaft at",
+          "ru": "Джанкана в шахте"
         }
       ]
     },
@@ -1770,6 +2090,16 @@
           "id": "hub-description-58d1172e9f7c4e60",
           "en": "<em>- +Access to Ternaves Ranch",
           "ru": "<em>- +Доступ к ранчо Тернавеса"
+        },
+        {
+          "id": "content-book-b6b4cdfc5f7a5e2c9155",
+          "en": "Bring back [<num> Stable Key] to",
+          "ru": "Вернуть §3[<num> Stable Key]§7"
+        },
+        {
+          "id": "content-book-e756650e781cff1cace8",
+          "en": "Enkser from the tunnel at [<num>,",
+          "ru": "Энксеру из туннеля в §f[<num>,"
         }
       ]
     },
@@ -1820,6 +2150,36 @@
           "id": "hub-description-ddcb44f8604acb03",
           "en": "Blacksmith",
           "ru": "Дуйгону"
+        },
+        {
+          "id": "book-delta-62f245164642b56a4dac",
+          "en": "Talk to Adigard on the Ice",
+          "ru": "Поговорить с Адигардом на Ледяных"
+        },
+        {
+          "id": "book-delta-9697727474b564b4c7e9",
+          "en": "Islands at [<num>, <num>, <num>]",
+          "ru": "островах §f[<num>, <num>, <num>]§7"
+        },
+        {
+          "id": "book-delta-7b5da0cde36d873f8d4f",
+          "en": "§7Find the ghost ship by heading",
+          "ru": "§7Найти корабль-призрак к северу"
+        },
+        {
+          "id": "book-delta-3e3bde9d321d2f154e28",
+          "en": "§7north of the Ice Islands and",
+          "ru": "§7от Ледяных островов и"
+        },
+        {
+          "id": "book-delta-1babc9c7d4a7cba3d3e4",
+          "en": "§7bring back §3[Ancient Treasure]§7",
+          "ru": "§7принести §3[Ancient Treasure]§7"
+        },
+        {
+          "id": "book-delta-d6653a901810d25877c6",
+          "en": "§7to Hallfred at §f[<num>, <num>, <num>]§7",
+          "ru": "§7Халлфреду в §f[<num>, <num>, <num>]§7"
         }
       ]
     },
@@ -1965,6 +2325,26 @@
           "id": "hub-description-aac03fef0bed0f12",
           "en": "<em>- +Access to the Workshop",
           "ru": "<em>- +Доступ к Мастерской"
+        },
+        {
+          "id": "book-delta-89186660c945bb441ad7",
+          "en": "§7Ask around Corkus City for a",
+          "ru": "§7Расспросить в Коркусе,"
+        },
+        {
+          "id": "book-delta-fbfbba2f91c80ed6bab8",
+          "en": "§7way to get an audience with the",
+          "ru": "§7как попасть на приём в"
+        },
+        {
+          "id": "book-delta-f572c7953ecb8671c11d",
+          "en": "§7Council. Ava is at §f[<num>, <num>,",
+          "ru": "§7Совет. Ава находится в §f[<num>, <num>,"
+        },
+        {
+          "id": "book-delta-86d4e698e3bea2699c5d",
+          "en": "§7Talk to Ava at §f[<num>, <num>,",
+          "ru": "§7Поговорить с Авой §f[<num>, <num>,"
         }
       ]
     },
@@ -2215,6 +2595,41 @@
           "id": "line-424289382297fb46",
           "en": "§7return and talk to Yahya",
           "ru": "§7вернитесь и поговорите с Яхьей"
+        },
+        {
+          "id": "content-book-9eeaeb261942c7daa6f6",
+          "en": "§7Return to Mayor Alvin at §f[<num>,",
+          "ru": "§7Вернуться к мэру Элвину в §f[<num>,"
+        },
+        {
+          "id": "content-book-49c0fdaf2d57809ab3df",
+          "en": "§f<num>, <num>]§7 with news about the",
+          "ru": "§f<num>, <num>]§7 с новостями"
+        },
+        {
+          "id": "content-book-0df49af3bfacebfb0c36",
+          "en": "§7spiders",
+          "ru": "§7о пауках"
+        },
+        {
+          "id": "content-book-7f64d2899d98c8c9b053",
+          "en": "§7Follow Yahya to his infested",
+          "ru": "§7Следовать за Яхьей к его"
+        },
+        {
+          "id": "content-book-48438fd82c365ec01424",
+          "en": "§7mushroom patch at §f[<num>, <num>,",
+          "ru": "§7заражённой грибной грядке §f[<num>, <num>,"
+        },
+        {
+          "id": "content-book-5ff1c1afabfa9fbbfa11",
+          "en": "§7Talk to Tasim in Alekin Village",
+          "ru": "§7Поговорить с Тасимом в деревне Алекин"
+        },
+        {
+          "id": "content-book-62e9510018dfc088a420",
+          "en": "§7at §f[<num>, <num>, <num>]§7",
+          "ru": "§7по координатам §f[<num>, <num>, <num>]§7"
         }
       ]
     },

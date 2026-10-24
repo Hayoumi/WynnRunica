@@ -906,14 +906,14 @@
     {
       "id": "dialogue-0129",
       "en": "2!",
-      "ru": "2!",
+      "ru": "3!",
       "speaker": "Gelibord Citizens",
       "stage": "Stage 11"
     },
     {
       "id": "dialogue-0130",
       "en": "1!",
-      "ru": "1!",
+      "ru": "3!",
       "speaker": "Gelibord Citizens",
       "stage": "Stage 11"
     },
@@ -1193,7 +1193,7 @@
     {
       "id": "hub-live-dialogue-0850d07425e4",
       "en": "He lives in the house next to the pile of rocks.  He's got screws loose but I don't want 'im dyin' on me, yeah",
-      "ru": "§r§fОн живёт в §r§bдоме рядом с кучей камней.§r§f Не все у него дома, но я всё-таки не хочу, чтобы он помер, понимаешь?",
+      "ru": "Он живёт в §r§bдоме рядом с кучей камней.§r§f Не все у него дома, но я всё-таки не хочу, чтобы он помер, понимаешь?",
       "speaker": "Hans",
       "stage": "Stage 1"
     },
@@ -1203,6 +1203,14 @@
       "ru": "лион ан корп шо леш ан сэл ариш!!",
       "speaker": "Lari",
       "stage": ""
+    },
+    {
+      "id": "hub-alias-9b0f87b03d32",
+      "en": "He lives in the house next to the pile of rocks. He's got screws loose but I don't want 'im dyin' on me, yeah",
+      "ru": "Он живёт в §r§bдоме рядом с кучей камней.§r§f Не все у него дома, но я всё-таки не хочу, чтобы он помер, понимаешь?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -1288,6 +1296,14 @@
       "id": "objective-177de83ff077",
       "en": "Talk to Referick in his house at [<num>, <num>, <num>]",
       "ru": "Поговорить с Рефериком у него дома [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-alias-8f7e82b3a326",
+      "en": "Return to Referick with his soul at [<num>, <num>, <num>].",
+      "ru": "Вернуться к Реферику с его душой [-1079, 44, -5551].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

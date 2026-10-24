@@ -122,7 +122,7 @@
     {
       "id": "dialogue-0017",
       "en": "Retrieve the urn for me, so I can have a memento of him. Brave the crypts of Olux, behind the bank... And prove your devotion, dear suitor~",
-      "ru": "Достань её для меня, чтобы у меня осталась память о нём. Спустись в крипты Олукса за банком... и докажи свою преданность, дорогой ухажёр~",
+      "ru": "§r§fДостань её для меня, чтобы у меня осталась память о нём. Спустись в §r§bкрипты Олукса за банком...§r§f и докажи свою преданность, дорогой ухажёр~",
       "speaker": "Maiden",
       "stage": "Stage 2"
     },
@@ -178,7 +178,7 @@
     {
       "id": "dialogue-0025",
       "en": "Not exactly, milady! I'm the one seeking your affections- Coming up the ladder. I know I may not be a fairytale husband, but-",
-      "ru": "Не совсем, миледи! Это я добиваюсь вашей любви - уже лезу по лестнице. Понимаю, я, может, и не сказочный муж, но-",
+      "ru": "§r§fНе совсем, миледи! Это я добиваюсь вашей любви - уже лезу по §r§bлестнице.§r§f Понимаю, я, может, и не сказочный муж, но-",
       "speaker": "Sherk",
       "stage": "Stage 4"
     },
@@ -234,9 +234,33 @@
     {
       "id": "dialogue-0033",
       "en": "New Quest Started: The Maiden Tower",
-      "ru": "§#FFAA00Новый квест: §#FFFF55The Maiden Tower",
+      "ru": "§#FFAA00§lНовый квест: §#FFFF55§lThe Maiden Tower§r§f",
       "speaker": "",
       "stage": "Stage 4"
+    },
+    {
+      "id": "hub-alias-ca413724dbb3",
+      "en": "And...well, when it's two ogres getting together, it's simple. But... I passed by a tall tower, and heard a maiden's voice from inside...",
+      "ru": "И... ну, когда это два огра друг друга находят, всё просто. Но... я проходил мимо высокой башни и услышал изнутри голос Девы.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-6245d6460446",
+      "en": "Oh...my...goodness! A big, strong, strapping ogre!! Not a fairytale, my foot! And so polite, too... Oh, you'll make a perfect husband, heehee~",
+      "ru": "Ох... боже... мой! Большой, сильный, здоровенный огр!! Какое ещё \"не сказочный\", да ну тебя! И такой вежливый... Ох, да из тебя выйдет идеальный муж, хи-хи~",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-a7ff72b0b9d5",
+      "en": "...I...I g-guess he was rotten to the core, despite his...l-luscious exterior...but, you'll make me feel better, right, you s-studly human? Right?! RIGHT?!!",
+      "ru": "...Я... я д-думаю, он и правда был гнилой до самого нутра, несмотря на свою... с-соблазнительную внешность... но ты ведь утешишь меня, да, к-красавчик-человек? Да?! ДА?!!",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [

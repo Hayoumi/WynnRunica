@@ -73,7 +73,7 @@
     {
       "id": "dialogue-0010",
       "en": ". . .",
-      "ru": ". . .",
+      "ru": ". .",
       "speaker": "",
       "stage": "Stage 1"
     },
@@ -346,7 +346,7 @@
     {
       "id": "dialogue-0049",
       "en": "You can look at placed TNT to see its blast radius, as well.",
-      "ru": "Посмотри на установленный ТНТ, и увидишь радиус взрыва.",
+      "ru": "§r§f§r§bПосмотри на установленный ТНТ§r§f, и увидишь радиус взрыва.",
       "speaker": "Paxon",
       "stage": "Stage 6"
     },
@@ -738,7 +738,7 @@
     {
       "id": "dialogue-0105",
       "en": "....",
-      "ru": "....",
+      "ru": ". .",
       "speaker": "Caravan Driver",
       "stage": "Stage 17"
     },
@@ -808,7 +808,7 @@
     {
       "id": "dialogue-0115",
       "en": "Again.",
-      "ru": "Опять.",
+      "ru": "Опять?",
       "speaker": "",
       "stage": "Stage 19"
     },
@@ -1025,7 +1025,7 @@
     {
       "id": "dialogue-0146",
       "en": "... ... ...",
-      "ru": "... ... ...",
+      "ru": ". .",
       "speaker": "",
       "stage": "Stage 15"
     },
@@ -1436,6 +1436,86 @@
       "ru": "Так что... у тебя два пути, приятель. Можем забыть об этом. Можем. Шагай прямиком обратно в Рагни, и я никому ничего не скажу.",
       "speaker": "Caravan Driver",
       "stage": ""
+    },
+    {
+      "id": "hub-alias-67a53b81a0b8",
+      "en": "Ah! You're a soldier, right? Look, I- It's, it's just a really difficult time right now.",
+      "ru": "А! Ты ведь солдат? Слушай, я... Сейчас тут всё очень непросто.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-4bf5ee7ecb1b",
+      "en": "I can't really imagine what you could need there, but, whatever it is, it'll need to wait! This Corkian drill won't work, and Paxon's stuck, and-",
+      "ru": "Не представляю, что тебе там понадобилось, но это подождёт! Коркусский бур не работает, Паксон застрял, и...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-3dc4f77fbe80",
+      "en": "Oh no, not another one- I don't care what rank you are, what you're asking is impossible! Even for me, it-",
+      "ru": "О нет, только не ещё один! Мне всё равно, какое у тебя звание. То, чего ты просишь, невозможно! Даже для меня, это-",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-61abece8b500",
+      "en": "But that'll take time. I'd just as soon turn back- whatever business you have isn't worth your life, after all.",
+      "ru": "Но на это нужно время. Я бы на твоём месте развернулся - никакие дела не стоят твоей жизни.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-3859aae8cc03",
+      "en": "Listen, this isn't the first time something like this has happened- Y'know. Someone gets curious, retraces their steps.",
+      "ru": "Слушай, такое уже не в первый раз, знаешь ли. Кому-то становится интересно, и он идёт по своим следам назад.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-e1be6c88ff5a",
+      "en": "It's not wise to be here- After all, you weren't the one out of your group of three that got permission to stay. Yeah, I heard about the tournament results.",
+      "ru": "Зря ты сюда пришёл. Из вашей троицы разрешение остаться получил не ты. Да, я слышал, чем закончился турнир.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-19f40b61cf66",
+      "en": "Or, you can live life dangerously and follow me on the train to Fort Torann. Better make your choice quick, though- it's leaving soon.",
+      "ru": "Или можешь рискнуть и сесть со мной на поезд до форта Торанн. Только решай скорее, он скоро отправляется.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-00bee6ed0dc3",
+      "en": "Well, 'kittycat,' you didn't find the cream- just the hound dogs.",
+      "ru": "Ну что, \"котик\", сливок ты тут не нашёл - только цепных псов.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-6906604f793b",
+      "en": "See? Now no more guff about levels- you either gear up properly, or you don't pass! I won't have you risking your life.",
+      "ru": "Видишь? Хватит спорить об уровнях. Либо надевай приличное снаряжение, либо оставайся здесь! Я не дам тебе рисковать жизнью.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-1c27db2a841c",
+      "en": "You can take that armor to an Item Identifier right there, and then you can wear it once identified",
+      "ru": "Можешь отнести эту броню к §r§bОпознавателю Предметов§r§f вон там, а потом спокойно наденешь её после опознания.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -1552,6 +1632,142 @@
       "en": "Leave Fort Torann.",
       "ru": "Покинуть форт Торанн.",
       "stage": "Stage 19"
+    },
+    {
+      "id": "hub-alias-6d7213f16478",
+      "en": "Investigate the Fruma Gate at [<num>, <num>, <num>]",
+      "ru": "Осмотреть ворота Фрумы [-1915, 77, -1736].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e62690e41230",
+      "en": "Explore near where you originally arrived in Wynn",
+      "ru": "Исследовать место, где когда-то начался ваш путь в Винне.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-29ba29e893d1",
+      "en": "Leave Ragni through the door at [<num>, <num>, <num>]",
+      "ru": "Покинуть Рагни через дверь [-953, 67, -1610].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-0f10bfe76d6a",
+      "en": "Continue back down the path to Fruma",
+      "ru": "Продолжить путь во Фруму.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e7e475f734c8",
+      "en": "Talk to the Demolition Mage at [<num>, <num>, <num>]",
+      "ru": "Поговорить с магом-подрывником [-9910, 54, -1231].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-8d2f108fdf4b",
+      "en": "Use the TNT to open up a path through the cave",
+      "ru": "Взорвать проход в пещере с помощью динамита.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-263127d46eab",
+      "en": "Continue through the cave",
+      "ru": "Продолжить путь через пещеру.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-50b5c8e199bf",
+      "en": "Talk to the Guard at [<num>, <num>, <num>]",
+      "ru": "Поговорить со стражником [-9756, 56, -1219].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-9a5d3b1e61e5",
+      "en": "Cross the repaired bridge at [<num>, <num>, <num>]",
+      "ru": "Перейти по восстановленному мосту [-9715, 56, -1263].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a45a06561311",
+      "en": "Explore the cave to find some loot",
+      "ru": "Исследовать пещеру в поисках добычи.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e5f76a05e107",
+      "en": "Avoid the Fruman recruits on the path",
+      "ru": "Не попадаться рекрутам Фрумы на дороге.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a6017e9162df",
+      "en": "Hide from the Caravan Driver",
+      "ru": "Спрятаться от возницы.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-1278183e9fcf",
+      "en": "Explore past the Fruma Gate",
+      "ru": "Исследовать земли за воротами Фрумы.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-18966db7d938",
+      "en": "Join the Caravan Driver in the passenger car at [<num>, <num>, <num>]",
+      "ru": "Присоединиться к вознице в пассажирском вагоне [-9559, 64, -1061].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-f7eec7cfe113",
+      "en": "Arrive in Fruma",
+      "ru": "Добраться до Фрумы.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-8f7a2f15fe54",
+      "en": "Defeat the guards and escape",
+      "ru": "Победить стражников и сбежать.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-d85c69a401a7",
+      "en": "Leave Fort Torann",
+      "ru": "Покинуть форт Торанн.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": [

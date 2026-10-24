@@ -2614,7 +2614,7 @@
     {
       "id": "dialogue-0373",
       "en": "...?",
-      "ru": "...?",
+      "ru": "...",
       "stage": "Stage 14",
       "speaker": "Petur"
     },
@@ -2796,63 +2796,63 @@
     {
       "id": "dialogue-0399",
       "en": "Recruit Batch 2: Score 24",
-      "ru": "Набор рекрутов 2: оценка 24",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0400",
       "en": "Recruit Batch 3: Score 22.5",
-      "ru": "Набор рекрутов 3: оценка 22.5",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0401",
       "en": "Recruit Batch 4: Score 22",
-      "ru": "Набор рекрутов 4: оценка 22",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0402",
       "en": "Recruit Batch 5: Score 20.5",
-      "ru": "Набор рекрутов 5: оценка 20.5",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0403",
       "en": "Recruit Batch 6: Score 19",
-      "ru": "Набор рекрутов 6: оценка 19",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0404",
       "en": "Recruit Batch 7: Score 19.5",
-      "ru": "Набор рекрутов 7: оценка 19.5",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0405",
       "en": "Recruit Batch 8: Score 19",
-      "ru": "Набор рекрутов 8: оценка 19",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0406",
       "en": "Recruit Batch 9: Score 18",
-      "ru": "Набор рекрутов 9: оценка 18",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0407",
       "en": "Recruit Batch 10: Score 17.5",
-      "ru": "Набор рекрутов 10: оценка 17.5",
+      "ru": "Набор рекрутов 1: оценка 23.5",
       "stage": "Stage 15",
       "speaker": ""
     },
@@ -3132,21 +3132,21 @@
     {
       "id": "dialogue-0447",
       "en": "+1 Diary Note 2",
-      "ru": "§#AA00AA+1 Diary Note 2§r",
+      "ru": "+1 Diary Note 1§r",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0448",
       "en": "+1 Diary Note 3",
-      "ru": "§#AA00AA+1 Diary Note 3§r",
+      "ru": "+1 Diary Note 1§r",
       "stage": "Stage 15",
       "speaker": ""
     },
     {
       "id": "dialogue-0449",
       "en": "+1 Diary Note 6",
-      "ru": "§#AA00AA+1 Diary Note 6§r",
+      "ru": "+1 Diary Note 1§r",
       "stage": "Stage 15",
       "speaker": ""
     },
@@ -4966,14 +4966,14 @@
     {
       "id": "dialogue-0709",
       "en": "+1 Diary Note 4",
-      "ru": "§#AA00AA+1 Diary Note 4§r",
+      "ru": "+1 Diary Note 1§r",
       "stage": "Stage 27",
       "speaker": ""
     },
     {
       "id": "dialogue-0710",
       "en": "+1 Diary Note 5",
-      "ru": "§#AA00AA+1 Diary Note 5§r",
+      "ru": "+1 Diary Note 1§r",
       "stage": "Stage 27",
       "speaker": ""
     },
@@ -5239,7 +5239,7 @@
     {
       "id": "dialogue-0748",
       "en": "That's the wrong way.",
-      "ru": "Не туда.",
+      "ru": "Не в ту сторону!",
       "stage": "Stage 31",
       "speaker": "Arnol"
     },
@@ -5494,6 +5494,22 @@
       "ru": "Турели подают сигнал перед выстрелом. Но выданные вам щиты утяжелены дополнительными грузами.",
       "speaker": "Military Instructor",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-alias-e7967e0fce6d",
+      "en": "Who is that? Is someone watching us?",
+      "ru": "Кто это? За нами кто-то наблюдает?...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-ce57eb9a2962",
+      "en": "Well... That was a disappointment. You've been given many second chances and this is what you do to give thanks?",
+      "ru": "Ну... Вот это разочарование. Тебе столько раз давали второй шанс, и вот так ты благодаришь?",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -5698,97 +5714,97 @@
     {
       "id": "objective-template-0001",
       "en": "See what's going on at [<num>, <num>, <num>].",
-      "ru": "Посмотрите, что происходит [<num>, <num>, <num>].",
+      "ru": "Посмотрите, что происходит [-1364, 113, -1287].",
       "stage": "Stage 1"
     },
     {
       "id": "objective-template-0002",
       "en": "Meet the recruiter near the south entrance to Hyloch at [<num>, <num>, <num>].",
-      "ru": "Встретьтесь с вербовщиком у южного входа в Хайлок [<num>, <num>, <num>].",
+      "ru": "Встретьтесь с вербовщиком у южного входа в Хайлок [-1376, 109, -1182].",
       "stage": "Stage 2"
     },
     {
       "id": "objective-template-0003",
       "en": "Enter Fort Tericen at [<num>, <num>, <num>].",
-      "ru": "Войдите в Форт Терисен [<num>, <num>, <num>].",
+      "ru": "Войдите в Форт Терисен [-1224, 91, -1088].",
       "stage": "Stage 3"
     },
     {
       "id": "objective-template-0004",
       "en": "Return to the Tericen entrance at [<num>, <num>, <num>].",
-      "ru": "Вернитесь ко входу в Терисен [<num>, <num>, <num>].",
+      "ru": "Вернитесь ко входу в Терисен [-1224, 91, -1088].",
       "stage": "Stage 3"
     },
     {
       "id": "objective-template-0005",
       "en": "Talk to Recruiter Effal then head to the challenge room at [<num>, <num>, <num>].",
-      "ru": "Поговорите с Вербовщиком Эффалом, затем идите в зал испытаний [<num>, <num>, <num>].",
+      "ru": "Поговорите с Вербовщиком Эффалом, затем идите в зал испытаний [-10247, 112, 5288].",
       "stage": "Stage 6"
     },
     {
       "id": "objective-template-0006",
       "en": "Find the cafeteria and sit next to Arnol at [<num>, <num>, <num>].",
-      "ru": "Найдите столовую и сядьте рядом с Арнолом [<num>, <num>, <num>].",
+      "ru": "Найдите столовую и сядьте рядом с Арнолом [-10186, 129, 5328].",
       "stage": "Stage 10"
     },
     {
       "id": "objective-template-0007",
       "en": "Go to the challenge room and receive instructions for the final challenge of the day at [<num>, <num>, <num>].",
-      "ru": "Идите в зал испытаний и получите указания для последнего испытания дня [<num>, <num>, <num>].",
+      "ru": "Идите в зал испытаний и получите указания для последнего испытания дня [-10238, 112, 5295].",
       "stage": "Stage 11"
     },
     {
       "id": "objective-template-0008",
       "en": "Speak to Arnol in the barracks, then go to sleep at [<num>, <num>, <num>].",
-      "ru": "Поговорите с Арнолом в казармах, затем ложитесь спать [<num>, <num>, <num>].",
+      "ru": "Поговорите с Арнолом в казармах, затем ложитесь спать [-10215, 127, 5337].",
       "stage": "Stage 14"
     },
     {
       "id": "objective-template-0009",
       "en": "Quickly run back to your bed at [<num>, <num>, <num>].",
-      "ru": "Скорее бегите к своей кровати [<num>, <num>, <num>].",
+      "ru": "Скорее бегите к своей кровати [-10765, 127, 5337].",
       "stage": "Stage 16"
     },
     {
       "id": "objective-template-0010",
       "en": "Go to your first challenge, then listen to the challenge instructions at [<num>, <num>, <num>].",
-      "ru": "Идите на первое испытание и выслушайте указания [<num>, <num>, <num>].",
+      "ru": "Идите на первое испытание и выслушайте указания [-10247, 112, 5274].",
       "stage": "Stage 18"
     },
     {
       "id": "objective-template-0011",
       "en": "Leave the challenge room then talk to Arnol and Adder in the cafeteria at [<num>, <num>, <num>].",
-      "ru": "Выйдите из зала испытаний и поговорите с Арнолом и Эддером в столовой [<num>, <num>, <num>].",
+      "ru": "Выйдите из зала испытаний и поговорите с Арнолом и Эддером в столовой [-10192, 129, 5327].",
       "stage": "Stage 22"
     },
     {
       "id": "objective-template-0012",
       "en": "Head to the challenge room and recieve instructions for the final challenge of the day at [<num>, <num>, <num>].",
-      "ru": "Идите в зал испытаний и получите указания для последнего испытания дня [<num>, <num>, <num>].",
+      "ru": "Идите в зал испытаний и получите указания для последнего испытания дня [-10238, 112, 5295].",
       "stage": "Stage 24"
     },
     {
       "id": "objective-template-0013",
       "en": "Leave the dueling room, then go to the barracks to sleep at [<num>, <num>, <num>].",
-      "ru": "Выйдите из зала поединков, затем идите спать в казармы [<num>, <num>, <num>].",
+      "ru": "Выйдите из зала поединков, затем идите спать в казармы [-10215, 127, 5337].",
       "stage": "Stage 26"
     },
     {
       "id": "objective-template-0014",
       "en": "Unscrew the vent, then head back to the barracks to wake Arnol at [<num>, <num>, <num>].",
-      "ru": "Отвинтите решётку вентиляции, затем вернитесь в казармы и разбудите Арнола [<num>, <num>, <num>].",
+      "ru": "Отвинтите решётку вентиляции, затем вернитесь в казармы и разбудите Арнола [-10765, 127, 5335].",
       "stage": "Stage 29"
     },
     {
       "id": "objective-template-0015",
       "en": "Escape from Tericen at [<num>, <num>, <num>].",
-      "ru": "Сбегите из Терисена [<num>, <num>, <num>].",
+      "ru": "Сбегите из Терисена [-10711, 127, 5303].",
       "stage": "Stage 30"
     },
     {
       "id": "objective-template-0016",
       "en": "Escape through the Tericen entrance at [<num>, <num>, <num>].",
-      "ru": "Сбегите через вход в Терисен [<num>, <num>, <num>].",
+      "ru": "Сбегите через вход в Терисен [-1253, 93, -1106].",
       "stage": "Stage 31"
     },
     {
@@ -5800,6 +5816,134 @@
       "id": "objective-52507dae75ea",
       "en": "Go to the challenge room and recieve instructions for the final challenge of the day at [<num>, <num>, <num>]",
       "ru": "Пройти в комнату испытаний и получить указания к последнему испытанию дня [<num>, <num>, <num>]."
+    },
+    {
+      "id": "hub-alias-2302193a1f86",
+      "en": "See what's going on at [<num>, <num>, <num>]",
+      "ru": "Посмотрите, что происходит [-1364, 113, -1287].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-0cd769b0c3f9",
+      "en": "Meet the recruiter near the south entrance to Hyloch at [<num>, <num>, <num>]",
+      "ru": "Встретьтесь с вербовщиком у южного входа в Хайлок [-1376, 109, -1182].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-25344ee0356a",
+      "en": "Enter Fort Tericen at [<num>, <num>, <num>]",
+      "ru": "Войдите в Форт Терисен [-1224, 91, -1088].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-43377c9362af",
+      "en": "Talk to Recruiter Effal then head to the challenge room at [<num>, <num>, <num>]",
+      "ru": "Поговорите с Вербовщиком Эффалом, затем идите в зал испытаний [-10247, 112, 5288].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-bcaee352a7e1",
+      "en": "Listen to the challenge instructions, then enter the next room and complete the second challenge.",
+      "ru": "Выслушайте инструкции, затем войдите в следующую комнату и пройдите второе испытание.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-cda1f6373dea",
+      "en": "Find the cafeteria and sit next to Arnol at [<num>, <num>, <num>]",
+      "ru": "Найдите столовую и сядьте рядом с Арнолом [-10186, 129, 5328].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-4f0c4afc717b",
+      "en": "Speak to Arnol in the barracks, then go to sleep at [<num>, <num>, <num>]",
+      "ru": "Поговорите с Арнолом в казармах, затем ложитесь спать [-10215, 127, 5337].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-216377a17e83",
+      "en": "Quickly run back to your bed at [<num>, <num>, <num>]",
+      "ru": "Скорее бегите к своей кровати [-10765, 127, 5337].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-afd86e562a09",
+      "en": "Go to your first challenge, then listen to the challenge instructions at [<num>, <num>, <num>]",
+      "ru": "Идите на первое испытание и выслушайте указания [-10247, 112, 5274].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-44b56a5c04c7",
+      "en": "Leave the challenge room then talk to Arnol and Adder in the cafeteria at [<num>, <num>, <num>]",
+      "ru": "Выйдите из зала испытаний и поговорите с Арнолом и Эддером в столовой [-10192, 129, 5327].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-ac1060836917",
+      "en": "Head to the challenge room and recieve instructions for the final challenge of the day at [<num>, <num>, <num>]",
+      "ru": "Идите в зал испытаний и получите указания для последнего испытания дня [-10238, 112, 5295].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-5f6eaa9ddfd0",
+      "en": "Enter the next room and complete the final challenge of the day",
+      "ru": "Войдите в следующую комнату и пройдите последнее испытание дня.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-38cf5c886be2",
+      "en": "Leave the dueling room, then go to the barracks to sleep at [<num>, <num>, <num>]",
+      "ru": "Выйдите из зала поединков, затем идите спать в казармы [-10215, 127, 5337].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e97764f14c85",
+      "en": "Unscrew the vent, then head back to the barracks to wake Arnol at [<num>, <num>, <num>]",
+      "ru": "Отвинтите решётку вентиляции, затем вернитесь в казармы и разбудите Арнола [-10765, 127, 5335].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-08fab9324dae",
+      "en": "Escape from Tericen at [<num>, <num>, <num>]",
+      "ru": "Сбегите из Терисена [-10711, 127, 5303].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-82d41c056c5f",
+      "en": "Escape through the Tericen entrance at [<num>, <num>, <num>]",
+      "ru": "Сбегите через вход в Терисен [-1253, 93, -1106].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": [

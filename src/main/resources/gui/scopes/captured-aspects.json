@@ -35,6 +35,26 @@
           "id": "line-d5116388bd9f967c",
           "en": "§7§c✖ §7Class Req: §fShaman/Skyseer",
           "ru": "§7§c✖ §7Требуется Класс: §fШаман/Провидец"
+        },
+        {
+          "id": "interface-f22f03790313a75cb884",
+          "en": "§7Patchwork Abomination§7 lasts <num>% longer.",
+          "ru": "§7Сшитое Чудовище§7 действует на <num>% дольше."
+        },
+        {
+          "id": "interface-c25d075e8bd11071bbc2",
+          "en": "§7Awakened lasts <num>% longer.",
+          "ru": "§7Пробуждённый действует на <num>% дольше."
+        },
+        {
+          "id": "interface-a7db2e8a468e669ff5d7",
+          "en": "§7Monument to Gloom lasts <num>% longer.",
+          "ru": "§7Монумент Мрака действует на <num>% дольше."
+        },
+        {
+          "id": "interface-562017339d0d33329842",
+          "en": "§7§c✖ §7Max Mythic Aspects: §f<num>",
+          "ru": "§7§c§c✖ §7Максимум мифических аспектов: §f<num>"
         }
       ]
     },
@@ -330,6 +350,21 @@
           "id": "line-e731a3c094c8d23d",
           "en": "§7<em> Click to Unequip",
           "ru": "§7<em> §*Нажмите, чтобы Снять"
+        },
+        {
+          "id": "remaining-gui-5d709c328288adf61d27",
+          "en": "§7§7to fire §f<num>x§7 faster instead, and cause explosive",
+          "ru": "§7стрелять в §f<num>x§7 быстрее, а урон взрывных"
+        },
+        {
+          "id": "remaining-gui-865a4c9a690af3664224",
+          "en": "§7§7shots to deal §f<num>%§7 more damage.",
+          "ru": "§7выстрелов увеличивается на §f<num>%§7."
+        },
+        {
+          "id": "remaining-gui-0cab8a3e889c2bca441f",
+          "en": "§7§7§nTriple Shots§7 gains §f<num>§7 arrows.",
+          "ru": "§7§nТройные Выстрелы§7 получают §f<num>§7 стрелы."
         }
       ]
     },
@@ -860,6 +895,11 @@
           "id": "line-57b236f25c919287",
           "en": "§7§a✔ §7Max Mythic Aspects: §f<num>",
           "ru": "§7§a✔ §7Максимум Мифических Аспектов: §f<num>"
+        },
+        {
+          "id": "remaining-gui-08399badc2151cbb39b5",
+          "en": "§7§bMomentum <em> §7requires §f<num>§7 hits to gain a stack.",
+          "ru": "§bИмпульс <em>§7: изменение числа ударов для заряда §f<num>§7."
         }
       ]
     },
@@ -2475,6 +2515,16 @@
           "id": "line-d5116388bd9f967c",
           "en": "§7§c✖ §7Class Req: §fShaman/Skyseer",
           "ru": "§7§c✖ §7Требуется Класс: §fШаман/Провидец"
+        },
+        {
+          "id": "item-prose-35347e4433ab2681144b",
+          "en": "§7§7§bCorroded§7 has it's maximum duration increased",
+          "ru": "§7§7§b§bРазъедание§7 действует дольше: максимальная длительность увеличена"
+        },
+        {
+          "id": "item-prose-09e4d36bd6e7d1da77b7",
+          "en": "§7§7by §f<num>s§7 and §bWeathering§7 duration is increased §7by §f<num>s§7.",
+          "ru": "§7§7на §f<num>с§7, а длительность §bВыветривания§7 увеличена на §f<num>с§7."
         }
       ]
     },

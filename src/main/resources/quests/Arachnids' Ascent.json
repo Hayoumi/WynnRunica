@@ -787,7 +787,7 @@
     {
       "id": "player-e13beee374c5922c",
       "en": "...Hm. That's not good.",
-      "ru": "...Хм. Это плохо.",
+      "ru": "Хм... Плохо дело.",
       "speaker": "Captain Enduyn",
       "stage": ""
     },
@@ -873,6 +873,41 @@
       "ru": "§r§fНу вот мы и пришли! ...Тут наверху ещё жарче. Давай найдём то, за чем пришли, пока я не пере-",
       "speaker": "Aledar",
       "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-e3618e747abd",
+      "en": "You'll want to start by speaking to Private Cob on the Black Road . He'll have supplies for you to bring along with you.",
+      "ru": "§r§fСперва §r§bпоговорите с рядовым Кобом на Чёрной дороге§r§f. У него для вас припасы, которые нужно взять с собой.",
+      "speaker": "Admiral Aegis",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-0a60b430f3ab",
+      "en": "If you'd like to help, I'd suggest speaking to Admiral Aegis in Detlas . He'll be able to give you an assignment.",
+      "ru": "§r§fЕсли хочешь помочь, советую поговорить с §r§bадмиралом Эгисом в Детласе§r§f. Он найдёт для тебя задание.",
+      "speaker": "Captain Enduyn",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-b158ed3276ef",
+      "en": "I've been stationed here to keep an eye on the spiders' nest, but they don't seem to be causing too much trouble outside of their den.",
+      "ru": "§r§fМеня поставили здесь следить за паучьим гнездом, но за пределами своего логова они, похоже, особых хлопот не доставляют.",
+      "speaker": "Captain Enduyn",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-c2015c856d0f",
+      "en": "At ease, soldier! Not much to see here, I'm afraid.",
+      "ru": "§r§fВольно, солдат! Боюсь, смотреть тут особо не на что.",
+      "speaker": "Captain Enduyn",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-b694de993240",
+      "en": "I've been stationed here to make preparations for an assault on the spiders' nest, but there's been reports of them snatching harmless villagers!",
+      "ru": "§r§fМеня поставили здесь готовить штурм паучьего гнезда, но теперь сообщают, что пауки похищают мирных жителей!",
+      "speaker": "Captain Enduyn",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -915,20 +950,36 @@
     {
       "id": "hub-objective-1ad8bacb3575",
       "en": "Speak to Private Cob in the Savannah at [<num>, <num>, <num>] to receive supplies",
-      "ru": "Поговорить с рядовым Кобом в саванне и получить припасы [<num>, <num>, <num>].",
+      "ru": "Поговорить с рядовым Кобом в саванне и получить припасы [682, 74, -1714].",
       "stage": "Stage 2"
     },
     {
       "id": "hub-objective-066628929c01",
       "en": "Bring the supplies to Captain Enduyn at [<num>, <num>, <num>]",
-      "ru": "Доставить припасы капитану Эндуину [<num>, <num>, <num>].",
+      "ru": "Доставить припасы капитану Эндуину [-192, 44, -1822].",
       "stage": "Stage 3"
     },
     {
       "id": "hub-objective-dc8fe9b85b13",
       "en": "Enter Mount Wynn and reach the summit through the cave at [<num>, <num>, <num>]",
-      "ru": "Войти в пещеру горы Винн и добраться до вершины [<num>, <num>, <num>].",
+      "ru": "Войти в пещеру горы Винн и добраться до вершины [-120, 76, -1888].",
       "stage": "Stage 4"
+    },
+    {
+      "id": "hub-alias-e77901565165",
+      "en": "Talk to Admiral Aegis in the Detlas Barracks at [<num>, <num>, <num>]",
+      "ru": "Поговорить с адмиралом Эгисом в казармах Детласа [519, 67, -1628].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-c843860f185b",
+      "en": "Return to Captain Enduyn with the flame at [<num>, <num>, <num>]",
+      "ru": "Вернуться к капитану Эндуину с пламенем [-192, 44, -1822].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

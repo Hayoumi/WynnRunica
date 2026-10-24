@@ -237,6 +237,20 @@
       "ru": "§#FFAA00Новый квест: §#FFFF55Grand Youth",
       "speaker": "",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-20261019-dialogue-6fd8ee8a5b4b",
+      "en": "Aha, perfect! If this will not work, then...no, I must have faith.",
+      "ru": "§r§fАга, отлично! Если и это не сработает, тогда... нет, я должен верить.",
+      "speaker": "Monte",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-b4b8e2e0dcc6",
+      "en": "There's this group of mages out in Dernel who know how to get the stuff. They're a bunch of tightwads and wouldn't give me any real healing water to sell.",
+      "ru": "§r§fВ Дернеле есть группа магов, они знают, как добыть эту штуку. Только они редкостные жмоты и мне настоящую лечебную воду на продажу не дали.",
+      "speaker": "Salesman",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -275,6 +289,54 @@
       "en": "Bring back the bottle of healing water to Monte.",
       "ru": "Принести Монте бутылку целебной воды.",
       "stage": "Stage 6"
+    },
+    {
+      "id": "hub-alias-e34682808db8",
+      "en": "Talk to Monte at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Монте [-550, 64, -747].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-536e762ae4ab",
+      "en": "Visit the salesman in Troms near the fountain",
+      "ru": "Посетить торговца у фонтана в Тромсе.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a86a05ef6208",
+      "en": "Talk to Isfurus in Dernel at [<num>, <num>, <num>]",
+      "ru": "Поговорить с Исфурусом в Дернеле [-792, 41, -362].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-7325ef1817a7",
+      "en": "Get the bottles filled by Erisk in the heart of the fountain to give Isfurus",
+      "ru": "Попросить Эриска в глубине источника наполнить бутылки и отнести их Исфурусу.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-e8ea860d3737",
+      "en": "Talk to Isfurus for Erisk",
+      "ru": "Поговорить с Исфурусом от имени Эриска.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-dc15740ec202",
+      "en": "Bring back the bottle of healing water to Monte",
+      "ru": "Принести Монте бутылку целебной воды.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

@@ -814,7 +814,7 @@
     {
       "id": "fresh-source-ff3db401e729f632",
       "en": "The mechanic and I will start repairing. It'll take a while, so enter the submarine and rest up.",
-      "ru": "§r§#FFFFFFМы с механиком начнём ремонт. Это займёт время, так что §r§#55FFFFзалезай обратно в субмарину и отдохни§r§#FFFFFF.",
+      "ru": "Мы с механиком начнём ремонт. Это займёт время, так что залезай обратно в субмарину и отдохни.",
       "speaker": "Captain Olof",
       "stage": ""
     },
@@ -887,6 +887,63 @@
       "ru": "§r§#FFFFFFЕщё к месту вашего крушения недавно спустили платформу с поверхности. Если тыыы хочешь вернуться, §r§#55FFFFиди по этой тропе§r§#FFFFFF: я сделал короткий путь.",
       "speaker": "Rontaid",
       "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-11298ce05735",
+      "en": "Huh, sand?",
+      "ru": "§r§fА, песок?",
+      "speaker": "Manny",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-113461f24f12",
+      "en": "It sounds like something is flying around us! What if monsters are flying around us!?",
+      "ru": "§r§fБудто вокруг нас что-то летает! А вдруг это монстры!?",
+      "speaker": "Arlene",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-38a4bea922ac",
+      "en": "Did you just come up from the basement?! There were some pretty worrying sounds down there!",
+      "ru": "§r§fТы только что поднялся из подвала?! Оттуда доносились какие-то жуткие звуки!",
+      "speaker": "Burne",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-4929017b0cf9",
+      "en": "Have you found the crystal? Because I haven't.",
+      "ru": "§r§fТы нашёл кристалл? А то я нет.",
+      "speaker": "Jesp",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-af872aa1de52",
+      "en": "I thought this trip was going to be easy.",
+      "ru": "§r§fЯ думал, это путешествие будет лёгким.",
+      "speaker": "Kantor",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-ed7dc5272904",
+      "en": "But after all, there's still a lot ahead of us!",
+      "ru": "§r§fНо ведь впереди нас ещё столько всего ждёт!",
+      "speaker": "Manny",
+      "stage": ""
+    },
+    {
+      "id": "hub-20261019-dialogue-fe6e64a424af",
+      "en": "Apparently I was wrong. They look rather sickly, though.",
+      "ru": "§r§fВидимо, я ошибался. Хотя выглядят они больными.",
+      "speaker": "Rex",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-3db0a6715d01",
+      "en": "Better to keep everything that happened here a secret. I don't want to lose what little funding I have. This recipe is genius! Here, take this, as well as your money.",
+      "ru": "Лучше держать всё это в секрете. Я не хочу потерять и те жалкие остатки финансирования, что у меня есть. Этот рецепт - просто гениален! Вот, держи это вместе со своей оплатой.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -1003,6 +1060,30 @@
       "en": "Return to the scientist and tell him the news.",
       "ru": "Вернуться к учёному с новостями.",
       "stage": "Stage 19"
+    },
+    {
+      "id": "hub-alias-76d79fe4ddef",
+      "en": "Read the Help Wanted sign in Ahmsord at [<num>, <num>, <num>]",
+      "ru": "Прочитать объявление о найме в Амсорде [1108, 107, -4555].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-b81ca7163f28",
+      "en": "Talk to The Secretary at [<num>, <num>, <num>]",
+      "ru": "Поговорить с секретарём [1121, 101, -4525].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-a69d688a7bf7",
+      "en": "Enter the submarine at [<num>, <num>, <num>]",
+      "ru": "Войти в подводную лодку [1157, 112, -4552].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

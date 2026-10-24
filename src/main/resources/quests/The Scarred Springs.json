@@ -1277,7 +1277,7 @@
     {
       "id": "dialogue-1e867a39053d",
       "en": "Anyways, head off and start getting the word out! If you don't know where to look, just check my notes ! If you lose my notes you can come back and I'll copy them down again for you.",
-      "ru": "Иди, пора рассказать всем об открытии! Если не знаешь, куда идти, загляни в мои заметки! А если потеряешь их, возвращайся, я перепишу их для тебя.",
+      "ru": "Иди, пора рассказать всем об открытии! Если не знаешь, куда идти, §#55FFFFзагляни в мои заметки§#FFFFFF! А если потеряешь их, возвращайся, я перепишу их для тебя.",
       "speaker": "Maripe",
       "stage": ""
     },
@@ -1294,6 +1294,36 @@
       "ru": "...ох, я же обещал себе не плакать... А-а сам опять начал. Ха-ха... Звёзды, как же я устал после всего этого. Очень, очень устал... Но. Но это приятная усталость, понимаешь?",
       "speaker": "Maripe",
       "stage": ""
+    },
+    {
+      "id": "hub-delta-5ca572f6dbe1",
+      "en": "It would have been unthinkable to leave the teahouse empty. After all, there have been no great tragedies preventing me from putting my attention to the work.",
+      "ru": "§r§#FFFFFFНельзя же было оставить чайную без присмотра. Ведь никаких больших трагедий, которые помешали бы мне сосредоточиться на работе, не случалось.",
+      "speaker": "Marseled",
+      "stage": ""
+    },
+    {
+      "id": "hub-delta-6e97e3dd10b6",
+      "en": "Okay, you got <num> left! Hopefully once you do, I'll be all done over here, and we'll go from there!",
+      "ru": "§r§fТак, тебе осталось §r§b<num>§r§f! Надеюсь, когда закончишь, я тоже здесь управлюсь, и тогда решим, что дальше!",
+      "speaker": "Maripe",
+      "stage": ""
+    },
+    {
+      "id": "hub-alias-ba2c92235368",
+      "en": "And, and, and, the, the Sovereign, he'll, I'll get to tell him I'm done, and I'll get that, and... Ohhh my stars I'm done but I'm even more anxious now that it's done than I was before, aaah-",
+      "ru": "И, и, и ещё, С-Сюзерен, я... я смогу сказать ему, что всё закончено, и тогда, и... Ох звёзды, я всё закончил, но теперь нервничаю даже сильнее, чем раньше, ааа-",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-87e8f6a26256",
+      "en": "Phew. I'm definitely going to be coming back here again. A long day of Liff hunting, then a long night's soak... Oh, that sounds like a satisfying routine...",
+      "ru": "Фух, я сюда ещё не раз вернусь. Целый день охотиться на лиффов, а вечером понежиться в горячей воде... Вот бы каждый день был таким...",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -1374,7 +1404,24 @@
       "en": "Talk to Maripe at [-1774, 17, -989]",
       "ru": "Поговорить с Марипе [-1774, 17, -989].",
       "stage": "Stage 12"
+    },
+    {
+      "id": "hub-alias-93be8167aeaa",
+      "en": "Talk to Maripe at [<num>, <num>, <num>].",
+      "ru": "Поговорить с Марипе [-1774, 17, -989].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
-  "choices": []
+  "choices": [
+    {
+      "id": "hub-alias-3735b22c23e1",
+      "en": "Does it matter?",
+      "ru": "Какая разница?",
+      "speaker": "",
+      "stage": "",
+      "kind": "choice"
+    }
+  ]
 }

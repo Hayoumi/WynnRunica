@@ -52,7 +52,7 @@
     {
       "id": "dialogue-0007",
       "en": "When you are ready to begin, purify yourself in the waters of the spring behind the dojo, and I will guide you to your first challenge.",
-      "ru": "Когда будешь готов начать, очистись в водах источника за додзё, и я проведу тебя к первому испытанию.",
+      "ru": "§r§fКогда будешь готов начать, очистись в водах §r§bисточника за додзё,§r§f и я проведу тебя к первому испытанию.",
       "speaker": "Sensei Miyagi",
       "stage": "Stage 1"
     },
@@ -129,7 +129,7 @@
     {
       "id": "dialogue-0018",
       "en": "Your task here, is to become tranquil, and at peace with nature. What that entails... I leave up to you.",
-      "ru": "Твоя задача здесь - обрести покой и согласие с природой. Как именно... реши сам.",
+      "ru": "§r§fТвоя задача здесь - обрести покой и согласие с природой. Как именно... §r§bреши сам.§r§f",
       "speaker": "Sensei Miyagi",
       "stage": "Stage 6"
     },
@@ -185,7 +185,7 @@
     {
       "id": "dialogue-0026",
       "en": "Wear this [Master's Gi] with pride, and remember this final lesson- There is never a point in life that you will stop learning. See the world and its lessons every day of your life, young master.",
-      "ru": "Носи это [ги мастера] с гордостью и запомни последний урок - в жизни не бывает момента, когда ты перестаёшь учиться. Смотри на мир и учись у него каждый день своей жизни, юный мастер.",
+      "ru": "§r§fНоси это §r§3[Master's Gi]§r§f с гордостью и запомни последний урок - в жизни не бывает момента, когда ты перестаёшь учиться. Смотри на мир и учись у него каждый день своей жизни, юный мастер.",
       "speaker": "Sensei Miyagi",
       "stage": "Stage 8"
     },
@@ -682,9 +682,16 @@
     {
       "id": "dialogue-0097",
       "en": "New Quest Started: Enter the Dojo",
-      "ru": "§#FFAA00Новый квест: §#FFFF55Enter the Dojo",
+      "ru": "§#FFAA00§lНовый квест: §#FFFF55§lEnter the Dojo§r§f",
       "speaker": "",
       "stage": "Stage 7"
+    },
+    {
+      "id": "hub-20261019-dialogue-05b1a1d6a4bc",
+      "en": "I have been training for years, mastering all of Sensei Miyagi's challenges but one... the physical strength challenge defeats me.",
+      "ru": "§r§fЯ годами тренировался и освоил все испытания сэнсэя Мияги, кроме одного... Испытание физической силы мне никак не даётся.",
+      "speaker": "Challenger Apprentice",
+      "stage": ""
     }
   ],
   "objectives": [
@@ -735,6 +742,30 @@
       "en": "Speak to Sensei Miyagi.",
       "ru": "Поговорить с сэнсэем Мияги.",
       "stage": "Stage 8"
+    },
+    {
+      "id": "hub-alias-6134436e6aa4",
+      "en": "Talk to Sensei Miyagi at [<num>, <num>, <num>]",
+      "ru": "Поговорить с сэнсэем Мияги [495, 109, -5571].",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-31807d9a6af6",
+      "en": "Speak to Sensei Miyagi",
+      "ru": "Поговорить с сэнсэем Мияги.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
+    },
+    {
+      "id": "hub-alias-3828c73bd20f",
+      "en": "Jump down the water pit to begin the challenges",
+      "ru": "Прыгнуть в колодец с водой и приступить к испытаниям.",
+      "speaker": "",
+      "stage": "",
+      "kind": "objective"
     }
   ],
   "choices": []

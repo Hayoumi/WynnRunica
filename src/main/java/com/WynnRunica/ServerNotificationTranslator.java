@@ -188,7 +188,8 @@ public final class ServerNotificationTranslator {
         Style wholeMessage = null;
         List<Run> linked = new ArrayList<>();
         for (Run run : runs(source)) {
-            if (run.style().getClickEvent() != null && !run.text().isBlank()) linked.add(run);
+            boolean interactive = run.style().getClickEvent() != null || run.style().getHoverEvent() != null;
+            if (interactive && !run.text().isBlank()) linked.add(run);
         }
         linked.sort((a, b) -> b.text().length() - a.text().length());
         for (Run run : linked) {
@@ -208,6 +209,7 @@ public final class ServerNotificationTranslator {
                 links.add(new Link(start, start + run.text().length(), run.style()));
                 continue;
             }
+            if (click == null) continue;
             if (click instanceof ClickEvent.OpenUrl) return null;
             if (wholeMessage != null && !click.equals(wholeMessage.getClickEvent())) return null;
             wholeMessage = run.style();

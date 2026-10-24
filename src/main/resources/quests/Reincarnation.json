@@ -199,7 +199,7 @@
     {
       "id": "dialogue-0028",
       "en": "Yes... Yes, I am certain. You have proven yourself worthy. Take this relic, the Stone of Myths, and bring it to the Temple of the Legends.",
-      "ru": "Да... Да, теперь я уверен. Ты доказал, что достоин. Возьми эту реликвию, Камень Мифов, и отнеси её в Храм Легенд.",
+      "ru": "§r§fДа... Да, теперь я уверен. Ты доказал, что достоин. Возьми эту реликвию, §r§dStone of Myths§r§f, и отнеси её в Храм Легенд.",
       "speaker": "Batelu",
       "stage": "Stage 4"
     },
@@ -237,6 +237,22 @@
       "ru": "А я могу. Я знаю, как открыть проход к Бобу. Тут-то эти звери и пригодятся...",
       "speaker": "Batelu",
       "stage": "Stage 1"
+    },
+    {
+      "id": "hub-alias-da9ba376681e",
+      "en": "I am not worthy enough to enter it. I did not complete the task of the animals, I merely read it. You shall go alone. Be careful.",
+      "ru": "Я недостоин туда входить. Я ведь не выполнил испытание со зверями, я только прочёл о нём. §r§bТебе придётся идти одному§r§f, будь осторожен.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
+    },
+    {
+      "id": "hub-alias-941e4569c2c0",
+      "en": "Bring me [<num> Cluckles' Favourite Feather] , [<num> Baab's Wool] [<num> Mooington's Skin] if you can find them.",
+      "ru": "Принеси мне 1 любимое перо Клаклза, 1 шерсть Бааба и 1 шкуру Муингтона, если сумеешь их раздобыть.",
+      "speaker": "",
+      "stage": "",
+      "kind": "dialogue"
     }
   ],
   "objectives": [
@@ -267,7 +283,7 @@
     {
       "id": "hub-objective-45942b77f5fd",
       "en": "Bring back [<num> Bob's Seal of Approval] to Batelu",
-      "ru": "Принести Бателу [<num> Bob's Seal of Approval]."
+      "ru": "Принести Бателу 1 Печать Одобрения Боба."
     },
     {
       "id": "objective-7c3582a44d48",

@@ -81,6 +81,17 @@ public final class ChatMessageClassifierTest {
         check(everywhere[0], "a command click whose words were translated covers the whole message");
         check(ServerNotificationTranslator.restoreLinks(Text.literal("Подробнее"), linked) == null,
                 "missing URL must not lose its click action");
+        Style aspect = Style.EMPTY.withHoverEvent(new net.minecraft.text.HoverEvent.ShowText(Text.literal("Aspect tooltip")));
+        Text claimed = Text.literal("You have claimed ").append(Text.literal("Aspect of Earthshaking").setStyle(aspect))
+                .append(Text.literal(" and ")).append(Text.literal("Aspect of the Unyielding").setStyle(aspect));
+        Text shown = ServerNotificationTranslator.restoreLinks(
+                Text.literal("Вы получили Aspect of Earthshaking и Aspect of the Unyielding"), claimed);
+        int[] hovered = {0};
+        if (shown != null) shown.visit((style, value) -> {
+            if (value.startsWith("Aspect") && style.getHoverEvent() != null) hovered[0]++;
+            return java.util.Optional.empty();
+        }, Style.EMPTY);
+        check(hovered[0] == 2, "21.10: hover-only names in a translated chat line keep their tooltip");
         System.out.println("Chat classification and capture normalization passed");
     }
     private static void mods() {
