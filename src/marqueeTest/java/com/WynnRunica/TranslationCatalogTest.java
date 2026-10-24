@@ -70,6 +70,9 @@ public final class TranslationCatalogTest {
         System.out.println("Translation catalog checks passed");
     }
 
+    private static final java.util.regex.Pattern ELEMENT_LABEL = java.util.regex.Pattern.compile(
+            "\\((?:§.)*(?:<em>|✦|✤)\\s*(?:§.)*\\s*(Earth|Thunder|Water|Fire|Air|Damage)(?:§.)*:\\s*(?:§.)*\\s*<num>%");
+
     private static void checkCombos(com.google.gson.JsonElement node, Path file) {
         if (node.isJsonArray()) {
             for (var child : node.getAsJsonArray()) checkCombos(child, file);
@@ -85,6 +88,19 @@ public final class TranslationCatalogTest {
                         .replace("LEFT", "ЛКМ").replace("RIGHT", "ПКМ").replaceAll("[^ЛПКМF-]", "");
                 String got = ru.substring(ru.lastIndexOf(':') + 1).replaceAll("§.", "").replaceAll("[^ЛПКМF-]", "");
                 check(want.equals(got), "24.10: combo buttons differ from the original in " + file.getFileName() + ": " + en + " -> " + ru);
+            }
+            var element = ELEMENT_LABEL.matcher(en);
+            if (element.find() && !ru.isBlank()) {
+                String expected = switch (element.group(1)) {
+                    case "Earth" -> "Земля";
+                    case "Thunder" -> "Молния";
+                    case "Water" -> "Вода";
+                    case "Fire" -> "Огонь";
+                    case "Air" -> "Воздух";
+                    default -> "Физический";
+                };
+                check(ru.replaceAll("§.", "").contains(expected + ":"),
+                        "24.10: damage breakdown must say " + expected + " in " + file.getFileName() + ": " + ru);
             }
         }
         for (var entry : object.entrySet()) checkCombos(entry.getValue(), file);
