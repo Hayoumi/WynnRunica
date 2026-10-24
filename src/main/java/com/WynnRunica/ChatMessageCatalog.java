@@ -20,6 +20,7 @@ final class ChatMessageCatalog {
     private static final Pattern SLOT = Pattern.compile("<(num|actor|territory)>");
     private static final Pattern PLURAL = Pattern.compile("<pl:([^|<>]*)\\|([^|<>]*)\\|([^|<>]*)>");
     private static final Pattern CODE = Pattern.compile("§(?:#[0-9a-fA-F]{6}|.)");
+    private static final Pattern NOT_TEXT_CODES = Pattern.compile("§(?:#[0-9a-fA-F]{6}|.)|<em>");
     private static final Pattern NOT_TEXT = Pattern.compile("§(?:#[0-9a-fA-F]{6}|.)|<em>|\\s+|<(?:num|actor|territory)>");
     private static volatile List<Rule> rules = List.of();
 
@@ -35,6 +36,7 @@ final class ChatMessageCatalog {
     private static final class Rule {
         List<Line> lines = new ArrayList<>();
         int slots;
+        int literal;
     }
 
     private ChatMessageCatalog() {}
@@ -60,6 +62,7 @@ final class ChatMessageCatalog {
                     Line line = line(normalizeLayout(row.get("en").getAsString()), row.get("ru").getAsString());
                     rule.lines.add(line);
                     rule.slots += line.slots.size();
+                    rule.literal += SLOT.matcher(NOT_TEXT_CODES.matcher(row.get("en").getAsString()).replaceAll("")).replaceAll("").length();
                 }
                 if (!rule.lines.isEmpty()) loaded.add(rule);
             }
@@ -116,16 +119,18 @@ final class ChatMessageCatalog {
         String[] lines = message.split("\n", -1);
         String best = null;
         int bestSlots = Integer.MAX_VALUE;
+        int bestLiteral = -1;
         boolean conflict = false;
         for (Rule rule : rules) {
             if (rule.lines.size() != lines.length) continue;
             String candidate = apply(rule, message, lines, codes);
             if (candidate == null) continue;
-            if (rule.slots < bestSlots) {
+            if (rule.literal > bestLiteral || rule.literal == bestLiteral && rule.slots < bestSlots) {
+                bestLiteral = rule.literal;
                 bestSlots = rule.slots;
                 best = candidate;
                 conflict = false;
-            } else if (rule.slots == bestSlots && !candidate.equals(best)) {
+            } else if (rule.literal == bestLiteral && rule.slots == bestSlots && !candidate.equals(best)) {
                 conflict = true;
             }
         }

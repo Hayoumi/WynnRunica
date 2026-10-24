@@ -33,6 +33,11 @@ public final class TranslationCatalogTest {
         String buff = ChatMessageCatalog.translate("Hanqiru has given you 25% resistance and 8% strength.", noColors("Hanqiru has given you 25% resistance and 8% strength."));
         check(buff != null && buff.contains("Hanqiru") && buff.indexOf("25%") < buff.indexOf("8%")
                 && !buff.contains("resistance"), "chat slots keep their values: " + buff);
+        String raidText = "prodoed, 2Dwaffles, wudhu, and MrRightieTime finished Nest of the Grootslangs and claimed 2x Aspects, 2048x Emeralds, +10367m Guild Experience, and +330 Seasonal Rating";
+        String raid = ChatMessageCatalog.translate(raidText, noColors(raidText));
+        check(raid != null && raid.contains("проходят рейд") && raid.contains(" и MrRightieTime")
+                && !raid.contains(" and ") && raid.contains("Nest of the Grootslangs") && raid.contains("330"),
+                "24.10: a party raid line keeps every name and value and speaks of the whole party: " + raid);
         String title = ServerNotificationTranslator.questTitle("§e                           §lMushroom Man");
         check(title == null || title.contains("Mushroom Man"),
                 "quest names stay English in the completion line: " + title);
