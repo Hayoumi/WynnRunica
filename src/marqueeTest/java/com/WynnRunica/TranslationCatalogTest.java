@@ -60,7 +60,34 @@ public final class TranslationCatalogTest {
         long millis = (System.nanoTime() - started) / 1_000_000;
         System.out.println("Typing an unknown line among " + npcLines + " Random NPC lines: " + millis + " ms");
         check(millis < 3000, "06.10: typing an untranslated line must not freeze the game, took " + millis + " ms");
+        try (var files = java.nio.file.Files.walk(Path.of("src/main/resources/gui"))) {
+            for (Path file : files.filter(path -> path.toString().endsWith(".json")).toList()) {
+                checkCombos(com.google.gson.JsonParser.parseString(java.nio.file.Files.readString(file)), file);
+            }
+        } catch (java.io.IOException error) {
+            throw new AssertionError(error);
+        }
         System.out.println("Translation catalog checks passed");
+    }
+
+    private static void checkCombos(com.google.gson.JsonElement node, Path file) {
+        if (node.isJsonArray()) {
+            for (var child : node.getAsJsonArray()) checkCombos(child, file);
+            return;
+        }
+        if (!node.isJsonObject()) return;
+        var object = node.getAsJsonObject();
+        if (object.has("en") && object.has("ru") && object.get("en").isJsonPrimitive() && object.get("ru").isJsonPrimitive()) {
+            String en = object.get("en").getAsString();
+            String ru = object.get("ru").getAsString();
+            if (en.contains("Click Combo:") && !ru.isBlank()) {
+                String want = en.substring(en.lastIndexOf(':') + 1).replaceAll("§.", "")
+                        .replace("LEFT", "ЛКМ").replace("RIGHT", "ПКМ").replaceAll("[^ЛПКМF-]", "");
+                String got = ru.substring(ru.lastIndexOf(':') + 1).replaceAll("§.", "").replaceAll("[^ЛПКМF-]", "");
+                check(want.equals(got), "24.10: combo buttons differ from the original in " + file.getFileName() + ": " + en + " -> " + ru);
+            }
+        }
+        for (var entry : object.entrySet()) checkCombos(entry.getValue(), file);
     }
 
     private static void check(boolean condition, String message) {
